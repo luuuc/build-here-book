@@ -14,13 +14,6 @@ title: Build Here
 description: Un guide pratique pour ceux qui construisent sur ce continent
 ---
 
-L'industrie tech a une entrée pour ce continent. Elle dit, intégralement : **émergent**.
-
-Un mot, et il tient depuis vingt ans. Il veut dire pas encore. Il veut dire on repassera, c'est classé.
-
-Ce playbook est l'entrée longue.
-
-
 # Le playbook des builders
 
 **Douze sections**, pour ceux qui fabriquent :
@@ -40,5 +33,3 @@ Ce playbook est l'entrée longue.
 
 <br>
 Une entrée, deux minutes, une idée qui tient seule.
-
-**Tu n'es pas en retard.**
