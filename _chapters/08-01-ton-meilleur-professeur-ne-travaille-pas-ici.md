@@ -1,0 +1,48 @@
+---
+layout: chapter
+title: "Ton meilleur professeur ne travaille pas ici"
+part: "Apprentissage"
+order: 41
+metadata:
+  principle: "31"
+  reading_time_in_minutes: 2
+categories:
+  - apprentissage
+  - open-source
+  - niveau
+seo:
+  description: "Une équipe qui ne se mesure qu'à elle-même converge vers sa propre moyenne. Personne ne choisit ça. L'ensemble de comparaison est petit, il est dans la salle, et il est gratuit."
+  keywords: "build here, apprentissage, tech afrique, builder, meilleur, professeur, travaille"
+---
+
+## Le réflexe
+
+Le plus fort de l'équipe fixe le niveau. Tu le regardes, tu apprends de lui, et son niveau devient discrètement la définition du bon.
+
+## Le réflexe builder
+
+> "Notre senior est une référence. Pas la référence."
+
+## Pourquoi
+
+Une équipe qui ne se mesure qu'à elle-même converge vers sa propre moyenne. Personne ne choisit ça. L'ensemble de comparaison est petit, il est dans la salle, et il est gratuit.
+
+Le plafond est silencieux. Rien ne casse quand une équipe arrête de progresser. Les sprints se clôturent, la revue passe, les releases partent à l'heure. Le seul signal dont tu aurais besoin est celui que tu n'as pas. Quelqu'un de l'extérieur qui lit la même pull request et grimace.
+
+Ce quelqu'un n'est pas non plus sur la scène de la conférence locale. Ceux qui représentent la tech de ce continent en public ne sont pour la plupart pas ceux qui la construisent. Panels, évangélistes, circuit des événements, carrousel des voix qui comptent. Ceux qui font le travail sont ceux dont personne n'a entendu parler, et ça t'inclut.
+
+La référence existe. Elle n'est simplement pas visible d'où tu es, et elle ne va pas descendre te chercher.
+
+Alors tu vas la chercher, et ce que tu importes est un niveau, pas une solution. Ces gens ne connaissent ni tes rails de paiement ni tes appareils de trois ans d'âge. Mais quelqu'un qui a livré cette classe de problème vingt fois porte une idée de ce qui compte comme normal, et cette idée voyage même quand le code ne voyage pas. Ton senior répond à la question locale. La référence extérieure répond à celle que personne dans le bâtiment n'a pensé à poser.
+
+## À essayer
+
+Choisis un domaine où tu veux progresser cette année. Un seul.
+
+Nomme trois personnes visiblement bonnes dedans. Pas célèbres. Bonnes. Mets une chose qu'elles ont livrée ou écrite à côté de ton propre travail sur le même problème, et note deux décisions qu'elles ont prises et que tu n'aurais pas prises.
+
+Fais-le chaque mois. La liste se met à se répéter, et les répétitions sont ton écart.
+
+## À discuter
+
+Cite la dernière décision qu'on a changée à cause de quelqu'un d'extérieur à cette entreprise. C'était quoi, et quand ?

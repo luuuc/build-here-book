@@ -1,0 +1,46 @@
+---
+layout: chapter
+title: "⇄ Conditions : le rythme de livraison, c'est une décision que tu as prise"
+part: "Exécution"
+order: 39
+metadata:
+  principle: "30"
+  reading_time_in_minutes: 2
+categories:
+  - execution
+  - livraison
+  - produit
+seo:
+  description: "Le rythme n'est pas un trait de l'équipe. C'est la somme des portes entre un changement fini et un utilisateur"
+  keywords: "build here, execution, tech afrique, builder, conditions, rythme, livraison, decision, prise"
+---
+
+## Le réflexe
+
+> "Il faut qu'ils livrent plus petit et plus vite."
+
+Dit dans trois revues consécutives. Rien n'a changé dans la façon dont le travail atteint un client depuis la première.
+
+## Le réflexe builder
+
+> "Combien de personnes doivent dire oui avant qu'un changement atteigne un client ? Nomme-les."
+
+## Pourquoi
+
+Le rythme n'est pas un trait de l'équipe. C'est la somme des portes entre un changement fini et un utilisateur, et chaque porte a été installée par quelqu'un qui avait l'autorité de l'installer. Deux validations. Une fenêtre. Une signature qui attend ton agenda. Toutes bon marché le jour où elles sont posées. Ensemble, elles fixent le plafond qu'on demande maintenant à l'équipe de dépasser.
+
+Le périmètre marche pareil. Dis aux gens de couper le périmètre au lieu de discuter la date, et ils feront le calcul sur les trois dernières fois où quelqu'un est arrivé avec les deux tiers. Si ça s'est lu comme de la sous-livraison en revue, devant les pairs, alors couper le périmètre est une chose que tu dis et qu'ils ne peuvent pas se permettre. Ce que tu récompenses quand un retard est annoncé tôt, c'est ça la règle. Le reste est un slogan.
+
+Les expériences bon marché ont besoin de la même couverture. La fausse page et le tableur de deux semaines ressemblent à du travail faible tant que quelqu'un de senior n'a pas dit que la lecture est le livrable.
+
+Chaque porte était une réponse raisonnable à quelque chose qui a cassé une fois. La question est de savoir si tu sais encore nommer l'incident.
+
+## À essayer
+
+→ Compte les portes. Fais marcher un petit changement de l'écrit au live, liste chaque validation et chaque attente, puis retire-en une ce mois-ci.
+→ Dis la règle de périmètre avant l'échéance. "Les deux tiers à la date valent mieux que tout en retard" ne compte que tant que l'issue est encore ouverte.
+→ La prochaine fois que quelqu'un signale un retard quatre semaines à l'avance, surveille tes dix premières secondes. C'est là-dessus que l'équipe se cale.
+
+## À discuter
+
+C'est quoi le plus rapide qu'un correctif d'une ligne ait mis pour atteindre un client ici, et quelle étape entre les deux l'un d'entre nous défendrait aujourd'hui ?

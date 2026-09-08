@@ -1,0 +1,52 @@
+---
+layout: chapter
+title: "Pose la question naïve tout de suite"
+part: "Curiosité"
+order: 6
+metadata:
+  principle: "03"
+  reading_time_in_minutes: 2
+categories:
+  - curiosite
+  - apprentissage
+  - engineering
+seo:
+  description: "Le prix de la question monte avec le temps, et la raison est ennuyeuse. Passé la première semaine, les gens arrêtent d'expliquer. Ils supposent que tu sais."
+  keywords: "build here, curiosite, tech afrique, builder, pose, question, naive, tout, suite"
+---
+
+## Le réflexe
+
+> "J'attends de mieux comprendre avant de demander."
+
+Tu la mets de côté. Tu reliras la doc ce week-end. Trois semaines passent. La question est toujours là, et elle coûte maintenant plus cher à poser.
+
+## Le réflexe builder
+
+> "Attends, je n'ai pas compris ce mot. Il désigne quoi exactement ?"
+
+Jour un, la question fait de toi quelqu'un de nouveau. Jour trente, elle fait de toi quelqu'un qui a bluffé pendant un mois.
+
+## Pourquoi
+
+Le prix de la question monte avec le temps, et la raison est ennuyeuse. Passé la première semaine, les gens arrêtent d'expliquer. Ils supposent que tu sais. Chaque réunion suivante s'appuie sur un terrain que tu n'as jamais vérifié.
+
+Deux personnes peuvent tenir un trimestre entier en utilisant "activation" pour deux choses différentes. Toutes les deux cohérentes. Toutes les deux sûres d'elles. Les tableaux de bord se contredisent et personne ne sait dire pourquoi.
+
+Et une fois sur deux, quand quelqu'un demande "attendez, pourquoi on fait comme ça ?", personne dans la salle n'a de réponse. La question naïve n'a pas exposé une ignorance. Elle a trouvé une habitude que personne n'avait examinée depuis le départ de celui qui l'avait installée.
+
+Le prix monte aussi avec ton niveau, et c'est là que l'entrée cesse de concerner les nouveaux arrivants. Un junior qui demande ce que couvre un mot apprend. Un ingénieur principal qui pose la même question dans la même réunion admet qu'un terme lui passe au-dessus depuis deux ans. C'est précisément pour ça que ça doit être lui. Une salle lit le prix de la question naïve sur celui qui le paie le plus visiblement. Pose-la une fois à ton niveau et elle devient gratuite pour tous ceux d'en dessous, et elle reste moins chère que l'année que tu passerais à hocher la tête.
+
+Certaines salles punissent ça, c'est vrai. Dans celles-là, pose la question à une personne en privé, puis à une deuxième, formulée à l'identique. Quand les deux réponses ne concordent pas, le problème n'a jamais été ta compréhension.
+
+## À essayer
+
+À la prochaine réunion, quand un terme passe et que tu n'es pas sûr de ce qu'il couvre, arrête et demande. Une formulation qui ne te coûte rien.
+
+> "Juste pour être sûr qu'on parle de la même chose, tu entends quoi par là ?"
+
+Regarde combien de têtes se tournent vers celui qui répond.
+
+## À discuter
+
+Qui a posé la dernière question naïve en réunion ici, et est-ce que c'était la personne la plus junior de la salle ?

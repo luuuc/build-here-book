@@ -1,0 +1,57 @@
+# git-cliff configuration
+# Changelog is generated from conventional commits. See .claude/commands/commit.md
+# for the message format this file expects.
+
+[changelog]
+header = """
+# Journal des modifications
+
+Toutes les modifications notables de Build Here.\n
+"""
+body = """
+{% if version %}\
+    ## {{ version | trim_start_matches(pat="v") }} — {{ timestamp | date(format="%Y-%m-%d") }}
+{% else %}\
+    ## Non publié
+{% endif %}\
+{% for group, commits in commits | group_by(attribute="group") %}
+### {{ group | striptags | trim | upper_first }}
+{% for commit in commits %}
+- {% if commit.scope %}**{{ commit.scope }}** : {% endif %}\
+{{ commit.message | upper_first }}\
+{% if commit.breaking %} — **cassant** : {{ commit.breaking_description }}{% endif %}\
+{% endfor %}
+{% endfor %}\n
+"""
+footer = ""
+trim = true
+
+[git]
+conventional_commits = true
+filter_unconventional = true
+protect_breaking_commits = true
+split_commits = false
+filter_commits = false
+topo_order = false
+sort_commits = "oldest"
+tag_pattern = "v[0-9]*"
+
+commit_preprocessors = [
+  { pattern = ' +$', replace = "" },
+]
+
+# Types accepted by .claude/commands/commit.md, in changelog order.
+# chore and style are deliberately skipped: they carry no reader-visible change.
+commit_parsers = [
+  { message = "^feat", group = "<!-- 0 -->Nouveautés" },
+  { message = "^fix", group = "<!-- 1 -->Corrections" },
+  { message = "^docs", group = "<!-- 2 -->Documentation" },
+  { message = "^perf", group = "<!-- 3 -->Performances" },
+  { message = "^refactor", group = "<!-- 4 -->Refactorisations" },
+  { message = "^test", group = "<!-- 5 -->Tests" },
+  { message = "^build", group = "<!-- 6 -->Build" },
+  { message = "^ci", group = "<!-- 7 -->Intégration continue" },
+  { message = "^revert", group = "<!-- 8 -->Retours en arrière" },
+  { message = "^chore", skip = true },
+  { message = "^style", skip = true },
+]

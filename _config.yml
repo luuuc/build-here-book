@@ -1,0 +1,61 @@
+title: Build Here
+description: >-
+  Un guide pratique pour ceux qui construisent sur ce continent.
+  Cinquante entrées, deux minutes chacune, sur la curiosité, l'ownership,
+  le produit, l'engineering et la visibilité.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://build-here.africa" # the base hostname & protocol for your site
+
+# Author information
+author:
+  name: Luc B. Perussault-Diallo
+  twitter: lucdiallo
+  linkedin: luc-b-perussault-diallo-99525519
+
+# Social/SEO
+twitter_username: lucdiallo
+github_username: luuuc
+repository: luuuc/build-here-book
+locale: fr_FR
+theme_color: "#1C1A17"
+
+# Contact for new entries
+contact_email: entree@somedomain.com
+
+# Google Analytics (leave blank to disable)
+google_analytics:
+
+# Giscus comments (leave repo_id blank to disable)
+giscus:
+  repo: luuuc/build-here-book
+  repo_id:
+  category: General
+  category_id:
+
+# Open Graph defaults
+og_image: /assets/images/build-here-og.png
+
+collections:
+  chapters:
+    output: true
+    sort_by: order
+
+kramdown:
+  footnote_backlink: ""
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+
+# Include dot-directories (for .well-known)
+include:
+  - .well-known
+
+# Book metadata for AI parsing
+book:
+  published: "2026-09-08"
+  modified: "2026-09-08"
+  version: "1.1"
+  license: "https://creativecommons.org/licenses/by-sa/4.0/"
+  language: "fr-FR"

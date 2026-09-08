@@ -1,0 +1,111 @@
+---
+layout: none
+---
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "{{ site.title }}",
+  "description": "{{ site.description | escape }}",
+  "url": "{{ site.url }}",
+  "inLanguage": "{{ site.book.language | default: 'fr-FR' }}",
+  "datePublished": "{{ site.book.published }}",
+  "dateModified": "{{ site.book.modified }}",
+  "version": "{{ site.book.version }}",
+  "bookFormat": "https://schema.org/EBook",
+  "isAccessibleForFree": true,
+  "license": "{{ site.book.license }}",
+  "copyrightHolder": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "url": "https://www.linkedin.com/in/{{ site.author.linkedin }}",
+    "sameAs": [
+      "https://twitter.com/{{ site.twitter_username }}",
+      "https://github.com/{{ site.github_username }}",
+      "https://www.linkedin.com/in/{{ site.author.linkedin }}"
+    ]
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}"
+  },
+  "numberOfPages": {{ site.chapters | size }},
+  "tableOfContents": [
+    {% assign sorted_chapters = site.chapters | sort: "order" %}
+    {% for chapter in sorted_chapters %}
+    {
+      "position": {{ forloop.index }},
+      "order": {{ chapter.order }},
+      "title": "{{ chapter.title | escape }}",
+      "part": "{{ chapter.part }}",
+      "url": "{{ chapter.url | absolute_url | replace:'.html','' }}",
+      "description": "{{ chapter.seo.description | default: chapter.description | escape }}",
+      {% if chapter.metadata.reading_time_in_minutes %}
+      "readingTimeMinutes": {{ chapter.metadata.reading_time_in_minutes }},
+      {% endif %}
+      "categories": {{ chapter.categories | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "parts": [
+    {% assign sorted_chapters = site.chapters | sort: "order" %}
+    {% assign parts = sorted_chapters | map: "part" | uniq %}
+    {% for part in parts %}
+    {
+      "name": "{{ part }}",
+      "chapters": [
+        {% assign part_chapters = sorted_chapters | where: "part", part %}
+        {% for chapter in part_chapters %}
+        {
+          "title": "{{ chapter.title | escape }}",
+          "url": "{{ chapter.url | absolute_url | replace:'.html','' }}"
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "keywords": [
+    "builders",
+    "tech africaine",
+    "ingénierie logicielle",
+    "produit",
+    "ownership",
+    "curiosité",
+    "leadership",
+    "exécution"
+  ],
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Software engineering"
+    },
+    {
+      "@type": "Thing",
+      "name": "Product management"
+    },
+    {
+      "@type": "Thing",
+      "name": "Startups in Africa"
+    },
+    {
+      "@type": "Thing",
+      "name": "Engineering culture"
+    }
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Builders, ingénieurs, produit, design, fondateurs et managers"
+  },
+  "genre": "Business",
+  "ai": {
+    "crawlPermission": "allowed",
+    "trainingPermission": "allowed-with-attribution",
+    "contentLicense": "CC-BY-SA-4.0",
+    "attributionRequired": true,
+    "attributionText": "Extrait de « Build Here » de {{ site.author.name }} ({{ site.url }})"
+  }
+}

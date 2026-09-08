@@ -1,0 +1,45 @@
+<div class="offcanvas" id="offcanvas">
+  <div class="offcanvas-header">
+    <h3>Sommaire</h3>
+    <button class="close-btn" onclick="toggleMenu()">×</button>
+  </div>
+  <nav>
+    <ul class="nav-menu">
+      <li><a href="/">Accueil</a></li>
+
+      {% assign chapters = site.chapters | sort: "order" %}
+      {% assign current_part = "" %}
+
+      {% for chapter in chapters %}
+        {% if chapter.part != current_part %}
+          {% if current_part != "" %}
+            </ul></li>
+          {% endif %}
+          {% assign current_part = chapter.part %}
+          <li class="nav-part">
+            <span class="nav-part-title">{{ chapter.part }}</span>
+            <ul class="nav-submenu">
+        {% endif %}
+        <li>
+          <a href="{{ chapter.url }}">
+            {% unless chapter.show_chapter_number == false %}
+            <small>{{ chapter.metadata.principle }}.</small>
+            {% endunless %}
+            {{ chapter.title }}
+          </a>
+        </li>
+      {% endfor %}
+      {% if current_part != "" %}
+        </ul></li>
+      {% endif %}
+
+      <li class="nav-bottom-links">
+        <a href="/a-propos" class="nav-version-link">
+          <small>Le projet, la licence, le contact</small>
+          À propos
+        </a>
+      </li>
+    </ul>
+    <br /><br />
+  </nav>
+</div>

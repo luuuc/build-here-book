@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    {% include head.html %}
+
+    <!-- Analytics -->
+    {% include ga.html %}
+  </head>
+  <body>
+    <!-- Header -->
+    {% include header.html %}
+
+    <!-- Offcanvas Menu -->
+    {% include nav.html %}
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="chapter-number">
+          {{page.part}}{% unless page.show_chapter_number == false %} · Entrée
+          {{page.metadata.principle}}{% endunless %}
+        </div>
+        <h1>{{page.title}}</h1>
+        {% if page.description %}
+        <p>{{page.description}}</p>
+        {% endif %}
+        <!--<div class="reading-time">{% include reading_time.html %}</div>-->
+      </div>
+    </section>
+
+    <!-- Content -->
+    <main class="content">
+      <div class="container">{{content}}</div>
+    </main>
+
+    <!-- Content Footer -->
+    {% if page.next %}
+    <section class="content-footer">
+      <div class="container">
+        <a href="{{page.next.url}}" class="next-chapter">{{page.next.title}} → </a>
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- Footer -->
+    {% include footer.html %}
+
+    <!-- Comments -->
+    <div class="container">{% include comments.html %}</div>
+
+    <!-- Foot -->
+    {% include foot.html %}
+  </body>
+</html>
