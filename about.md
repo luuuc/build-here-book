@@ -20,7 +20,7 @@ description: Un livre ouvert, à compléter
 
 ## Ce que c'est
 
-Cinquante entrées de deux minutes, écrites pour ceux qui fabriquent des choses ici. Chacune tient seule. Aucune n'est nouvelle, et c'est le sujet : tout ça est réglé depuis longtemps ailleurs, et n'est jamais devenu la norme ici.
+Des entrées de deux minutes, écrites pour ceux qui fabriquent des choses ici. Chacune tient seule. Aucune n'est nouvelle, et c'est le sujet : tout ça est réglé depuis longtemps ailleurs, et n'est jamais devenu la norme ici.
 
 L'[ouverture](/chapters/00-ouverture.html) raconte d'où vient le livre, y compris l'endroit où je me suis planté.
 

@@ -2,7 +2,7 @@
 
 Un guide pratique pour ceux qui construisent sur ce continent.
 
-Cinquante entrées, deux minutes chacune. Chacune tient seule et ne demande pas d'avoir lu celles d'avant. Dix d'entre elles portent la marque ⇄ et s'adressent à qui fixe les conditions.
+Une entrée, deux minutes, une idée qui tient seule. Chacune se lit sans avoir lu celles d'avant. Certaines portent la marque ⇄ et s'adressent à qui fixe les conditions.
 
 ## Lire en ligne
 

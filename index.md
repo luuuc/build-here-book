@@ -7,7 +7,7 @@ categories:
   - tech
 
 seo:
-  description: Cinquante entrées de deux minutes pour les builders du continent. Curiosité, ownership, produit, engineering, exécution, apprentissage, client, visibilité.
+  description: Des entrées de deux minutes pour les builders du continent. Curiosité, ownership, produit, engineering, exécution, apprentissage, client, visibilité.
   keywords: build here, builders, tech afrique, ingénierie logicielle, produit, ownership, leadership, startup africaine, guide pratique
 
 title: Build Here
