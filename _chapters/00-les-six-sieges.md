@@ -40,20 +40,18 @@ Les six sièges ci-dessous sont les places réellement occupées autour d'un pro
 
 **Customer-facing.** Le support et le marketing partagent ce siège. Les deux vivent à la bordure où le produit rencontre quelqu'un qui ne l'a pas construit, les raisons qui reviennent, les mots qui portent, ce que le produit oblige les gens à faire.
 
-Une version précédente en comptait neuf. Operations et Builder faisaient un travail que les autres sièges couvraient déjà, et un siège qui recouvre un autre n'est pas une seconde lecture, c'est la même lecture deux fois.
-
 ---
 
 ## Un exemple
 
 Prends l'entrée *Si tu ne comprends pas pourquoi, tu n'es pas prêt à le construire*.
 
-→ **Engineer** : ne commence pas un ticket dont l'objectif client n'est pas clair.
-→ **Product** : ne fais pas suivre une demande dont tu n'as pas cherché la cause.
-→ **Design** : ne dessine pas un écran sans savoir ce que la personne essaie d'accomplir.
-→ **Founder** : ne finance pas un projet dont tu ne sais pas énoncer le problème client.
-→ **Manager** : rends le pourquoi disponible avant de demander l'exécution.
-→ **Customer-facing** : ne réponds pas à une demande, et n'écris pas sur une fonctionnalité, sans savoir ce que la personne tentait de faire.
+- **Engineer** : ne commence pas un ticket dont l'objectif client n'est pas clair.
+- **Product** : ne fais pas suivre une demande dont tu n'as pas cherché la cause.
+- **Design** : ne dessine pas un écran sans savoir ce que la personne essaie d'accomplir.
+- **Founder** : ne finance pas un projet dont tu ne sais pas énoncer le problème client.
+- **Manager** : rends le pourquoi disponible avant de demander l'exécution.
+- **Customer-facing** : ne réponds pas à une demande, et n'écris pas sur une fonctionnalité, sans savoir ce que la personne tentait de faire.
 
 Même principe. Six applications, six conversations différentes.
 
