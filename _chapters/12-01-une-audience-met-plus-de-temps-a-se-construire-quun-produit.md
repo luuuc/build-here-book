@@ -2,9 +2,9 @@
 layout: chapter
 title: "Une audience met plus de temps à se construire qu'un produit"
 part: "Visibilité"
-order: 59
+order: 60
 metadata:
-  principle: "45"
+  principle: "46"
   reading_time_in_minutes: 2
 categories:
   - visibilite

@@ -2,9 +2,9 @@
 layout: chapter
 title: "Mets ton nom dessus"
 part: "Visibilité"
-order: 64
+order: 65
 metadata:
-  principle: "50"
+  principle: "51"
   reading_time_in_minutes: 3
 categories:
   - visibilite

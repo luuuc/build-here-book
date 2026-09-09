@@ -4,7 +4,7 @@ title: "Les douze tests"
 description: "Ce qu'une entrée doit survivre"
 show_chapter_number: false
 part: "Annexes"
-order: 66
+order: 67
 metadata:
   reading_time_in_minutes: 4
 categories:

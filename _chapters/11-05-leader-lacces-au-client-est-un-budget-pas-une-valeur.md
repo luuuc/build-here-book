@@ -2,9 +2,9 @@
 layout: chapter
 title: "⇄ Conditions : l'accès au client est un budget, pas une valeur"
 part: "Client"
-order: 57
+order: 58
 metadata:
-  principle: "44"
+  principle: "45"
   reading_time_in_minutes: 2
 categories:
   - client

@@ -3,7 +3,7 @@ layout: chapter
 title: "Visibilité"
 show_chapter_number: false
 part: "Visibilité"
-order: 58
+order: 59
 metadata:
   reading_time_in_minutes: 1
 categories:

@@ -28,3 +28,4 @@ Cette section parle aux deux moitiés en même temps. Les fondateurs qui n'ont j
 - [Ce qu'on sait construire décide ce qu'on peut vendre](/chapters/10-01-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html)
 - [Choisir un fournisseur, c'est signer pour trois ans](/chapters/10-02-choisir-un-fournisseur-cest-signer-pour-trois-ans.html)
 - [La compréhension ne se délègue pas](/chapters/10-04-un-fondateur-ne-delegue-pas-la-comprehension.html)
+- [⇄ Conditions : un chiffrage demandé après la décision n'est pas un chiffrage](/chapters/10-05-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html)

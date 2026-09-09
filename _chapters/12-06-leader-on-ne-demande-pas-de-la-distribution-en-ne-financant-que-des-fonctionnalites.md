@@ -2,9 +2,9 @@
 layout: chapter
 title: "⇄ Conditions : on ne demande pas de la distribution en ne finançant que des fonctionnalités"
 part: "Visibilité"
-order: 63
+order: 64
 metadata:
-  principle: "49"
+  principle: "50"
   reading_time_in_minutes: 2
 categories:
   - visibilite

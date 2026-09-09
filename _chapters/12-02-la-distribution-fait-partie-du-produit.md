@@ -2,9 +2,9 @@
 layout: chapter
 title: "La distribution fait partie du produit"
 part: "Visibilité"
-order: 60
+order: 61
 metadata:
-  principle: "46"
+  principle: "47"
   reading_time_in_minutes: 2
 categories:
   - visibilite
