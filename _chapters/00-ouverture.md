@@ -30,7 +30,7 @@ Un mot, et il tient depuis vingt ans. Émergent de quoi, vers quoi, à quelle é
 
 Tu peux trouver **le mot agaçant**. L'agacement est la réaction la moins utile qu'il provoque.
 
-Regarde plutôt le nombre de gens ici qui l'ont lu, qui ont trouvé qu'il était juste, et qui ont réglé leurs ambitions sur ce qu’on attendait d’eux.
+Regarde plutôt le nombre de gens ici qui l'ont lu, qui ont trouvé qu'il était juste, et qui ont réglé leurs ambitions sur ce qu'on attendait d'eux.
 
 Le mot n'est pas le problème. Le niveau est là. Il n'est simplement jamais devenu le standard, parce que presque personne ne le voit travailler.
 
@@ -158,7 +158,7 @@ Ne lis pas ce livre du début à la fin, sauf si ça t'amuse. Ouvre-le à la sec
 
 ## Une dernière chose
 
-Le travail que ce livre te demande ne s'arrête pas à devenir meilleur. Il te demande aussi d’arrêter de le faire en silence. Livre en public. Mets ton nom sur ton travail. Mets-le sur internet, là où ça reste. Écris ce qui a cassé et ce que tu as fait. Réponds à la question dans le thread. Dis le chiffre à voix haute en réunion.
+Le travail que ce livre te demande ne s'arrête pas à devenir meilleur. Il te demande aussi d'arrêter de le faire en silence. Livre en public. Mets ton nom sur ton travail. Mets-le sur internet, là où ça reste. Écris ce qui a cassé et ce que tu as fait. Réponds à la question dans le thread. Dis le chiffre à voix haute en réunion.
 
 Pas pour devenir visible à la place de ton travail. Pour rendre ton travail visible. Fais-le pour celui qui a trois ans de moins que toi, qui n'a personne sur qui se caler, et qui est en train de conclure, comme moi à l'époque, qu'il n'y a personne ici.
 
