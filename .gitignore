@@ -4,3 +4,11 @@ _site
 .jekyll-metadata
 vendor
 .DS_Store
+
+# Outils IA / éditeurs locaux
+.claude
+.codex
+.cursor
+.doc
+.local
+.opencode
