@@ -71,4 +71,4 @@ Même principe. Six applications, six conversations différentes.
 
 Une entrée qui ne fonctionne que depuis un seul siège n'est pas fausse. Elle est plus faible.
 
-Les principes qui traversent les frontières internes sont ceux qui construisent un langage commun, et un langage commun est ce que ce livre cherche. Les bonnes pratiques par métier sont déjà partout ailleurs.
+Les principes qui traversent les frontières internes sont ceux qui construisent un langage commun, et un langage commun est ce que ce livre cherche. Les bonnes pratiques par métier existent déjà, pas la peine de les réinventer.

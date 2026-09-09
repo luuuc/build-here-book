@@ -31,7 +31,7 @@ La même phrase couvre aussi l'autre cas. La réponse est dans le repo, dans un 
 
 Attendre est confortable parce que ça photographie comme de la rigueur. Personne n'est dérangé, aucun risque n'est pris, et si l'échéance glisse le blocage porte le nom de quelqu'un d'autre.
 
-La plupart des réponses ne sont pas protégées, elles sont enterrées. Le code est lisible. Le client décroche si tu appelles. Le fournisseur a aussi une ligne de support, et elle se réveille au moment où ton après-midi se termine, donc une question envoyée coûte une journée au lieu d'une heure. D'où le rendement de vingt minutes passées à creuser toi-même, plus élevé ici qu'ailleurs.
+La plupart des réponses ne sont pas protégées, elles sont enterrées. Le code est lisible. Le client décroche si tu appelles. Le fournisseur a aussi une ligne de support, et elle se réveille au moment où ton après-midi se termine, donc une question envoyée coûte une journée au lieu d'une heure. D'où le rendement de vingt minutes passées à creuser toi-même.
 
 Ensuite il y a ce que la recherche laisse derrière et que la réponse ne laisse jamais. Chaque traversée du système ajoute une pièce à une carte que tu dessines sans le remarquer. Au bout d'un an tu arrêtes de chercher, parce que tu sais où regarder. Celui qui a toujours attendu n'a jamais dessiné la carte, et il reste dépendant de celui qui l'a fait.
 

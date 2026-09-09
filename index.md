@@ -18,7 +18,7 @@ description: Un guide pratique pour ceux qui construisent sur ce continent
 
 **Douze sections**, pour ceux qui fabriquent :
 
-1. **Curiosité**<br>Elle est facturable, et elle coûte plus cher ici
+1. **Curiosité**<br>Elle est facturable, et son manque coûte aussi plus cher
 2. **Ego et honnêteté intellectuelle**<br>Avoir tort ne coûte rien, le rester coûte cher
 3. **Hiérarchie**<br>Respecte l'ancien, conteste l'idée
 4. **Ownership**<br>N'apporte pas la tâche, apporte le problème

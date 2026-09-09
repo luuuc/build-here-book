@@ -12,7 +12,7 @@ Le livre est disponible librement sur **[build-here.africa](https://build-here.a
 
 Une ouverture, un mode d'emploi (*Les six sièges*), douze sections et trois annexes :
 
-- **Curiosité** — elle est facturable, et elle coûte plus cher ici
+- **Curiosité** — elle est facturable, et son manque coûte aussi plus cher
 - **Ego et honnêteté intellectuelle** — avoir tort ne coûte rien, le rester coûte cher
 - **Hiérarchie** — respecte l'ancien, conteste l'idée
 - **Ownership** — n'apporte pas la tâche, apporte le problème

@@ -33,7 +33,7 @@ Une échéance ratée ne se comporte pas du tout comme ça. Elle pourrit. Signal
 
 Ce qui retient les gens n'est pas la paresse. Tu espères rattraper le week-end et tu préférerais nettement annoncer le rattrapage plutôt que le problème. Parfois ça marche. Les fois où ça ne marche pas, tu as dépensé la seule chose encore bon marché, la marge de manœuvre de l'autre.
 
-Une alerte précoce ressemble, la première fois, à quelqu'un qui n'arrive pas à livrer. Au bout de deux tours, ça s'inverse. Celui qui dit mercredi que vendredi ne tiendra pas, puis livre exactement ce qu'il a promis, finit par être celui dont on croit les dates. Cette réputation vaut plus ici qu'ailleurs, parce que presque personne ne l'a.
+Une alerte précoce ressemble, la première fois, à quelqu'un qui n'arrive pas à livrer. Au bout de deux tours, ça s'inverse. Celui qui dit mercredi que vendredi ne tiendra pas, puis livre exactement ce qu'il a promis, finit par être celui dont on croit les dates. Cette réputation vaut plus, parce que presque personne ne l'a.
 
 ## À essayer
 

@@ -37,7 +37,7 @@ Le désaccord ne disparaît pas. Il se déplace. Le couloir, un groupe plus peti
 
 L'échec inverse est plus rare et beaucoup plus bruyant. Quelqu'un lit une entrée comme celle-ci et transforme la contestation en personnalité, contredit à chaque revue, traite chaque réunion comme un endroit où démontrer son indépendance. Cette personne ne corrige pas la salle, elle dépense son attention, et en un mois sa seule objection sérieuse pèse exactement le poids des neuf autres. Le désaccord est un budget. Ceux dont les contestations font vraiment bouger les décisions les dépensent quatre fois par an.
 
-Contredire en public coûte plus cher quand l'homme qu'on corrige est le seul à portée à l'avoir fait. La salle ne protège pas son standing. Elle protège sa seule source. Alors contourne ce coût au lieu de le nier. Contredis l'affirmation, jamais la personne. Là où même ça coûte cher, mets-le par écrit en amont, pour qu'il puisse changer d'avis sans public.
+Contredire en public coûte plus cher quand la personne qu'on corrige est la seule à portée à l'avoir fait. La salle ne protège pas son standing. Elle protège sa seule source. Alors contourne ce coût au lieu de le nier. Contredis l'affirmation, jamais la personne. Là où même ça coûte cher, mets-le par écrit en amont, pour qu'il puisse changer d'avis sans public.
 
 ## À essayer
 

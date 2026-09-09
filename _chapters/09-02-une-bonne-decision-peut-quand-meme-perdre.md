@@ -33,7 +33,7 @@ Un arbitrage prudent peut mal tomber. Un arbitrage imprudent peut avoir de la ch
 
 C'est là que l'objection a des dents. "Le droit à l'échec" énoncé platement sonne comme un permis avec l'argent des autres. Le droit s'applique aux arbitrages réversibles, un prix que tu peux remettre vendredi. Tout ce qui est à sens unique, un contrat signé, des données supprimées, une promesse écrite à un client, est une autre conversation. Où passe la ligne se discute à chaque fois, et deux personnes raisonnables la placent rarement au même endroit.
 
-Sur un marché assez petit pour que tout le monde finisse par travailler avec tout le monde, un échec public suit la personne jusqu'à son prochain poste, et jusque dans la salle où son prochain poste se discute. Lever la main coûte plus cher ici que presque partout ailleurs. C'est ta première réaction qui fixe ce prix.
+Sur un marché assez petit pour que tout le monde finisse par travailler avec tout le monde, un échec public suit la personne jusqu'à son prochain poste, et jusque dans la salle où son prochain poste se discute. Lever la main coûte cher. C'est ta première réaction qui fixe ce prix.
 
 La ligne n'est pas avoir raison contre avoir tort. Elle est de savoir si le raisonnement existait au moment de décider ou a été reconstitué après. Quelqu'un qui s'est trompé en ayant lu ce qu'il y avait à lire n'a pas été imprudent. Celui qui n'a pas ouvert la chose qui était à un message, si.
 

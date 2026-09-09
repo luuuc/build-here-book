@@ -31,7 +31,7 @@ Regarde ce que demandent les cinq entrées précédentes. Des heures à lire des
 
 Alors ça atterrit le soir. Et les soirées ne sont pas distribuées également. L'ingénieur avec quatre-vingt-dix minutes de trajet dans chaque sens. Celui qui a un deuxième emploi. Celui dont la maison est dans le noir à vingt heures. Celui qui a un petit. Même ambition. À la revue de mi-année, un groupe passe mieux les entretiens, et tu lis ça comme de la motivation.
 
-Rien de tout ça n'a besoin de budget, ce qui retire la réponse habituelle. Quatre heures par mois, c'est un pour cent du travail que tu paies déjà. Tu as dépensé plus que ça le trimestre dernier sur une migration que personne n'avait demandée.
+Rien de tout ça n'a besoin de budget, ce qui retire la réponse habituelle. Quatre heures par mois, c'est deux pour cent du travail que tu paies déjà. Tu as dépensé plus que ça le trimestre dernier sur une migration que personne n'avait demandée.
 
 Laisse ça hors des heures et la première entrée de cette section revient par la porte de derrière. Une équipe où seuls ceux qui ont des soirées libres continuent de progresser converge vers la moyenne de tous les autres.
 

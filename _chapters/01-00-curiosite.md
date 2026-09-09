@@ -19,7 +19,7 @@ La curiosité est la seule ligne du budget qui n'apparaît jamais comme un retar
 
 Personne ne rate une échéance pour ne pas avoir lu le code source. On rate la suivante, et les deux ne sont jamais reliées, parce que trois semaines suffisent à faire passer n'importe quoi pour de la malchance.
 
-Elle coûte aussi plus cher ici, et personne ne budgète cette partie. Ailleurs, la chose que tu ne comprends pas t'est expliquée par la personne à deux bureaux qui l'a fait tourner en production. Ici, elle t'est expliquée par le code source, la doc du fournisseur, et toi, lentement.
+Le manque de curiosité coûte aussi plus cher, et personne ne budgète cette partie. La pratique veut que la chose que tu ne comprends pas t'est expliquée par la personne à deux bureaux qui l'a fait tourner en production. Ici, elle t'est expliquée par le code source, la doc du fournisseur, et toi, lentement.
 
 ---
 
