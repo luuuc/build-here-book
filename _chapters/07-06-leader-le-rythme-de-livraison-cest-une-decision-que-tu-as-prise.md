@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Conditions : le rythme de livraison, c'est une décision que tu as prise"
+title: "⇄ Le rythme de livraison, c'est une décision que tu as prise"
 part: "Exécution"
 order: 39
 metadata:

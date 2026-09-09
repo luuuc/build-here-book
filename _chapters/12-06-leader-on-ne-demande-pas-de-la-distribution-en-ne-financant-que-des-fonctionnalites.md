@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Conditions : on ne demande pas de la distribution en ne finançant que des fonctionnalités"
+title: "⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités"
 part: "Visibilité"
 order: 64
 metadata:

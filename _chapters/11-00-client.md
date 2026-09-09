@@ -28,4 +28,4 @@ Les trois premières entrées demandent aux gens de franchir une porte. La quatr
 - [Le support client, c'est de la recherche produit avec des participants énervés](/chapters/11-01-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html)
 - [Parle à la personne qui a le problème](/chapters/11-02-parle-a-la-personne-qui-a-le-probleme.html)
 - [Une demande de feature n'est pas le problème](/chapters/11-03-une-demande-de-feature-nest-pas-le-probleme.html)
-- [⇄ Conditions : l'accès au client est un budget, pas une valeur](/chapters/11-05-leader-lacces-au-client-est-un-budget-pas-une-valeur.html)
+- [⇄ L'accès au client est un budget, pas une valeur](/chapters/11-05-leader-lacces-au-client-est-un-budget-pas-une-valeur.html)

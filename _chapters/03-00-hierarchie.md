@@ -27,4 +27,4 @@ Cette confusion n'a rien d'africain, quoi qu'on te raconte. Elle tourne à Munic
 
 - [Respecte l'ancien. Conteste l'idée](/chapters/03-01-respecte-lancien-conteste-lidee.html)
 - [Trancher et avoir raison sont deux métiers différents](/chapters/03-03-trancher-et-avoir-raison-sont-deux-metiers-differents.html)
-- [⇄ Conditions : tu ne peux pas demander de la franchise et garder le dernier mot](/chapters/03-05-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html)
+- [⇄ Tu ne peux pas demander de la franchise et garder le dernier mot](/chapters/03-05-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html)

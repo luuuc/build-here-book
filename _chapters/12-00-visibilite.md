@@ -29,5 +29,5 @@ Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du c
 - [La distribution fait partie du produit](/chapters/12-02-la-distribution-fait-partie-du-produit.html)
 - [Le marketing n'est pas de la décoration](/chapters/12-04-le-marketing-nest-pas-de-la-decoration.html)
 - [Parle du problème avant de parler de toi](/chapters/12-05-parle-du-probleme-avant-de-parler-de-toi.html)
-- [⇄ Conditions : on ne demande pas de la distribution en ne finançant que des fonctionnalités](/chapters/12-06-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html)
+- [⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités](/chapters/12-06-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html)
 - [Mets ton nom dessus](/chapters/12-07-mets-ton-nom-dessus.html)

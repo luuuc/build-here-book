@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Conditions : si avoir tort coûte du statut, plus personne n'aura tort à voix haute"
+title: "⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute"
 part: "Ego et honnêteté intellectuelle"
 order: 14
 metadata:

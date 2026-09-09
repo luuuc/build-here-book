@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Conditions : un chiffrage demandé après la décision n'est pas un chiffrage"
+title: "⇄ Un chiffrage demandé après la décision n'est pas un chiffrage"
 part: "Technologie et business"
 order: 53
 metadata:

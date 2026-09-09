@@ -2,7 +2,7 @@
 layout: chapter
 title: "Plus tu peaufines, plus il devient difficile de changer d'avis"
 part: "Produit"
-order: 29
+order: 30
 metadata:
   principle: "22"
   reading_time_in_minutes: 2

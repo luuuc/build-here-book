@@ -27,6 +27,6 @@ C'est la section la plus proche de la raison d'être de ce livre. La référence
 
 - [Ton meilleur professeur ne travaille pas ici](/chapters/08-01-ton-meilleur-professeur-ne-travaille-pas-ici.html)
 - [L'open source est une salle de classe](/chapters/08-02-lopen-source-est-une-salle-de-classe.html)
+- [⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser](/chapters/08-06-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html)
 - [Ton marché peut être local. Ton niveau, non](/chapters/08-04-ton-marche-peut-etre-local-ton-niveau-non.html)
 - [Ce qui manque ici, ce n'est pas le savoir](/chapters/08-05-ce-qui-manque-ici-ce-nest-pas-le-savoir.html)
-- [⇄ Conditions : apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser](/chapters/08-06-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html)

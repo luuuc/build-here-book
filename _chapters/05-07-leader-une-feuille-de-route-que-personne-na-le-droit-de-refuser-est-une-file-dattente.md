@@ -1,8 +1,8 @@
 ---
 layout: chapter
-title: "⇄ Conditions : une feuille de route que personne n'a le droit de refuser est une file d'attente"
+title: "⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente"
 part: "Produit"
-order: 31
+order: 28
 metadata:
   principle: "24"
   reading_time_in_minutes: 2

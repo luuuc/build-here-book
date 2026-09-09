@@ -27,7 +27,7 @@ C'est cet écart, le sujet. Les cinq premières entrées demandent à quelqu'un 
 
 - [Le ticket n'est pas le travail](/chapters/05-01-le-ticket-nest-pas-le-travail.html)
 - [Valider une spec ne la rend pas juste](/chapters/05-02-valider-une-spec-ne-la-rend-pas-juste.html)
+- [⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente](/chapters/05-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)
 - [Le client ne s'intéresse pas à ton architecture](/chapters/05-04-le-client-ne-sinteresse-pas-a-ton-architecture.html)
 - [Plus tu peaufines, plus il devient difficile de changer d'avis](/chapters/05-05-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html)
 - [Le product, ce n'est pas la personne qui écrit les tickets](/chapters/05-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html)
-- [⇄ Conditions : une feuille de route que personne n'a le droit de refuser est une file d'attente](/chapters/05-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)

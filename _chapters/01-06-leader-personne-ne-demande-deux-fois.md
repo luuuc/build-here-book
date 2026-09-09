@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Conditions : personne ne demande deux fois"
+title: "⇄ Personne ne demande deux fois"
 part: "Curiosité"
 order: 9
 metadata:

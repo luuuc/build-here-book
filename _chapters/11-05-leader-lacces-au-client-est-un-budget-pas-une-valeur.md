@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Conditions : l'accès au client est un budget, pas une valeur"
+title: "⇄ L'accès au client est un budget, pas une valeur"
 part: "Client"
 order: 58
 metadata:

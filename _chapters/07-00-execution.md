@@ -27,4 +27,4 @@ Personne ne ment. Le travail a vraiment eu lieu. Rien n'est arrivé chez un clie
 
 - [Shipper crée de l'information](/chapters/07-02-shipper-cree-de-linformation.html)
 - [Rapide ne veut pas dire précipité](/chapters/07-03-rapide-ne-veut-pas-dire-precipite.html)
-- [⇄ Conditions : le rythme de livraison, c'est une décision que tu as prise](/chapters/07-06-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html)
+- [⇄ Le rythme de livraison, c'est une décision que tu as prise](/chapters/07-06-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html)

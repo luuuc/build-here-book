@@ -28,4 +28,4 @@ Ces deux secondes ont un prix, et quelqu'un l'a fixé. La dernière entrée est 
 - [Avoir tort ne coûte rien. Le rester coûte cher](/chapters/02-01-avoir-tort-ne-coute-rien-le-rester-coute-cher.html)
 - [Ton code n'est pas ton bébé](/chapters/02-03-ton-code-nest-pas-ton-bebe.html)
 - ["Je ne sais pas" est une réponse professionnelle](/chapters/02-04-je-ne-sais-pas-est-une-reponse-professionnelle.html)
-- [⇄ Conditions : si avoir tort coûte du statut, plus personne n'aura tort à voix haute](/chapters/02-05-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html)
+- [⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute](/chapters/02-05-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html)

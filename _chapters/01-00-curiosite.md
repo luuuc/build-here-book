@@ -30,4 +30,4 @@ Le manque de curiosité coûte aussi plus cher, et personne ne budgète cette pa
 - [Pose la question naïve tout de suite](/chapters/01-03-pose-la-question-naive-tout-de-suite.html)
 - [Lis en dehors de ton couloir](/chapters/01-04-lis-en-dehors-de-ton-couloir.html)
 - [Ne t'arrête pas à la première réponse](/chapters/01-05-ne-tarrete-pas-a-la-premiere-reponse.html)
-- [⇄ Conditions : personne ne demande deux fois](/chapters/01-06-leader-personne-ne-demande-deux-fois.html)
+- [⇄ Personne ne demande deux fois](/chapters/01-06-leader-personne-ne-demande-deux-fois.html)

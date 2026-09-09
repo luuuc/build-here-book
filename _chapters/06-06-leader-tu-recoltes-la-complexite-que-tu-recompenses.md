@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Conditions : tu récoltes la complexité que tu récompenses"
+title: "⇄ Tu récoltes la complexité que tu récompenses"
 part: "Engineering"
 order: 35
 metadata:

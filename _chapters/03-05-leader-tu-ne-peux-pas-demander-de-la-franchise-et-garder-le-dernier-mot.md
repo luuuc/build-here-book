@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Conditions : tu ne peux pas demander de la franchise et garder le dernier mot"
+title: "⇄ Tu ne peux pas demander de la franchise et garder le dernier mot"
 part: "Hiérarchie"
 order: 18
 metadata:

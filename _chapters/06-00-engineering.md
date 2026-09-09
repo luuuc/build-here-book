@@ -27,4 +27,4 @@ Rien de ce que fait cette section n'est visible sur un écran de démo. C'est po
 
 - [Faire simple est une performance technique](/chapters/06-02-faire-simple-est-une-performance-technique.html)
 - [Lis le code source](/chapters/06-03-lis-le-code-source.html)
-- [⇄ Conditions : tu récoltes la complexité que tu récompenses](/chapters/06-06-leader-tu-recoltes-la-complexite-que-tu-recompenses.html)
+- [⇄ Tu récoltes la complexité que tu récompenses](/chapters/06-06-leader-tu-recoltes-la-complexite-que-tu-recompenses.html)

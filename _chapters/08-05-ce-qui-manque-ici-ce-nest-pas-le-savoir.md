@@ -2,7 +2,7 @@
 layout: chapter
 title: "Ce qui manque ici, ce n'est pas le savoir"
 part: "Apprentissage"
-order: 44
+order: 45
 metadata:
   principle: "34"
   reading_time_in_minutes: 2

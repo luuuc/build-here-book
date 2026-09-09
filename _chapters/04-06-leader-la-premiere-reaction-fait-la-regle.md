@@ -1,8 +1,8 @@
 ---
 layout: chapter
-title: "⇄ Conditions : la première réaction fait la règle"
+title: "⇄ La première réaction fait la règle"
 part: "Ownership"
-order: 24
+order: 22
 metadata:
   principle: "18"
   reading_time_in_minutes: 2

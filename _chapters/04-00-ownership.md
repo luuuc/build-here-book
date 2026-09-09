@@ -27,6 +27,6 @@ Deux entrées d'ici tirent dans des sens opposés. *Être bloqué est une décis
 
 - [N'apporte pas la tâche. Apporte le problème](/chapters/04-01-napporte-pas-la-tache-apporte-le-probleme.html)
 - [L'ownership commence là où la fiche de poste s'arrête](/chapters/04-02-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html)
+- [⇄ La première réaction fait la règle](/chapters/04-06-leader-la-premiere-reaction-fait-la-regle.html)
 - [Une bonne nouvelle peut attendre. Une mauvaise, non](/chapters/04-04-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
 - [Être bloqué est une décision](/chapters/04-05-etre-bloque-est-une-decision.html)
-- [⇄ Conditions : la première réaction fait la règle](/chapters/04-06-leader-la-premiere-reaction-fait-la-regle.html)

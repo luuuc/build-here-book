@@ -1,8 +1,8 @@
 ---
 layout: chapter
-title: "⇄ Conditions : apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser"
+title: "⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser"
 part: "Apprentissage"
-order: 45
+order: 43
 metadata:
   principle: "35"
   reading_time_in_minutes: 2
