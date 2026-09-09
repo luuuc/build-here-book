@@ -27,11 +27,9 @@ Puis le premier arbitrage autonome qui tourne mal est traité comme une faute.
 
 ## Pourquoi
 
-La qualité d'une décision et la qualité d'un résultat sont deux mesures différentes, et une seule des deux est sous le contrôle de qui que ce soit.
+La qualité d'une décision et la qualité d'un résultat sont deux mesures différentes, et une seule des deux est sous le contrôle de qui que ce soit. Un arbitrage prudent peut mal tomber. Un arbitrage imprudent peut avoir de la chance et récolter des applaudissements. Note sur les résultats et les gens apprennent un seul coup sûr, l'option dont l'éventail de résultats est le plus étroit. Tu te retrouves avec une équipe pleine de décisions. Toutes petites.
 
-Un arbitrage prudent peut mal tomber. Un arbitrage imprudent peut avoir de la chance et récolter des applaudissements. Note sur les résultats et les gens apprennent un seul coup sûr, l'option dont l'éventail de résultats est le plus étroit. Tu te retrouves avec une équipe pleine de décisions. Toutes petites.
-
-C'est là que l'objection a des dents. "Le droit à l'échec" énoncé platement sonne comme un permis avec l'argent des autres. Le droit s'applique aux arbitrages réversibles, un prix que tu peux remettre vendredi. Tout ce qui est à sens unique, un contrat signé, des données supprimées, une promesse écrite à un client, est une autre conversation. Où passe la ligne se discute à chaque fois, et deux personnes raisonnables la placent rarement au même endroit.
+"Le droit à l'échec" énoncé platement sonne comme un permis avec l'argent des autres. Le droit s'applique aux arbitrages réversibles, un prix que tu peux remettre en fin de semaine. Tout ce qui est à sens unique, un contrat signé, des données supprimées, une promesse écrite à un client, est une autre conversation. Où passe la ligne se discute à chaque fois, et deux personnes raisonnables la placent rarement au même endroit.
 
 Sur un marché assez petit pour que tout le monde finisse par travailler avec tout le monde, un échec public suit la personne jusqu'à son prochain poste, et jusque dans la salle où son prochain poste se discute. Lever la main coûte cher. C'est ta première réaction qui fixe ce prix.
 

@@ -17,9 +17,9 @@ seo:
 
 Le niveau technique se voit dans ce qu'on a laissé dehors.
 
-N'importe qui sait ajouter. L'entretien d'embauche teste l'ajout. La production teste l'autre, discrètement, pendant des années, en général à la nuit et en général sur la même personne.
+N'importe qui sait ajouter. L'entretien d'embauche teste l'ajout. La production teste l'autre, discrètement, pendant des années, la nuit et en général sur la même personne.
 
-Rien de ce que fait cette section n'est visible sur un écran de démo. C'est pour ça qu'elle se termine sur celui qui décide de ce qu'on applaudit.
+Rien de ce que fait cette section n'est visible sur un écran de démo.
 
 ---
 

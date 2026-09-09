@@ -5,13 +5,13 @@ part: "Ownership"
 order: 23
 metadata:
   principle: "16"
-  reading_time_in_minutes: 2
+  reading_time_in_minutes: 1
 categories:
   - ownership
   - responsabilite
   - execution
 seo:
-  description: "Personne ne suit ton travail avec l'attention que tu lui donnes. Les gens ont leur propre semaine. Du bon travail non annoncé met simplement plus longtemps à devenir utile."
+  description: "Personne ne suit ton travail avec l'attention que tu lui donnes. Du bon travail non annoncé met simplement plus longtemps à devenir utile."
   keywords: "build here, ownership, tech afrique, builder, bonne, nouvelle, peut, attendre, mauvaise"
 ---
 
@@ -19,7 +19,7 @@ seo:
 
 Le travail est fini, il est bon, il dort dans une branche. Tu attends que ça remonte tout seul.
 
-Ou la version qui coûte plus cher. Quelque chose glisse depuis deux semaines et tu attends que quelqu'un au-dessus demande.
+Ou la version chère. Quelque chose glisse depuis deux semaines et tu attends qu'on vienne te le demander.
 
 ## Le réflexe builder
 
@@ -27,21 +27,17 @@ Ou la version qui coûte plus cher. Quelque chose glisse depuis deux semaines et
 
 ## Pourquoi
 
-Personne ne suit ton travail avec l'attention que tu lui donnes. Les gens ont leur propre semaine. Du bon travail non annoncé met simplement plus longtemps à devenir utile.
+Personne ne suit ton travail avec l'attention que tu lui donnes. Du bon travail non annoncé met simplement plus longtemps à devenir utile.
 
-Une échéance ratée ne se comporte pas du tout comme ça. Elle pourrit. Signalée, c'est une question de planification et quelqu'un réordonne autour. Découverte la veille de la démo, c'est une crise qui coûte de la confiance en plus du temps. Même fait, dix fois le prix, et la seule variable est le temps que tu as passé assis dessus.
+Une échéance ratée ne se comporte pas comme ça. Elle pourrit. Signalée, c'est de la planification. Découverte la veille de la démo, c'est une crise. Même fait, dix fois le prix, et la seule variable est le temps que tu as passé assis dessus.
 
-Ce qui retient les gens n'est pas la paresse. Tu espères rattraper le week-end et tu préférerais nettement annoncer le rattrapage plutôt que le problème. Parfois ça marche. Les fois où ça ne marche pas, tu as dépensé la seule chose encore bon marché, la marge de manœuvre de l'autre.
-
-Une alerte précoce ressemble, la première fois, à quelqu'un qui n'arrive pas à livrer. Au bout de deux tours, ça s'inverse. Celui qui dit mercredi que vendredi ne tiendra pas, puis livre exactement ce qu'il a promis, finit par être celui dont on croit les dates. Cette réputation vaut plus, parce que presque personne ne l'a.
+Tu espérais rattraper avant la date, et parfois ça marche. Une alerte précoce ressemble d'abord à quelqu'un qui n'arrive pas à livrer. Au bout de deux tours, ça s'inverse. Celui qui dit à mi-parcours que la date ne tiendra pas, puis livre exactement ce qu'il a promis, finit par être celui dont on croit les dates.
 
 ## À essayer
 
 Quand tu sais qu'une échéance ne tiendra pas, vingt-quatre heures maximum avant de le dire. Pas quand tu as une solution. Quand tu sais.
 
-Dans une forme qui n'est pas un appel à l'aide.
-
-> "Vendredi ne se fera pas. J'en suis là, je peux encore livrer ça, voilà ce qui saute. Dites-moi si la priorité est ailleurs."
+> "La date ne se fera pas. J'en suis là, je peux encore livrer ça, voilà ce qui saute. Dites-moi si la priorité est ailleurs."
 
 ## À discuter
 

@@ -31,9 +31,7 @@ La validation n'ajoute aucune connaissance. Elle ajoute de l'engagement. S'engag
 
 Ce n'est pas un argument contre l'écriture de specs. Quatre personnes ne peuvent pas construire la même chose sans. C'est un argument sur le jour où la spec et le terrain se contredisent, parce que le terrain ne va pas changer d'avis. Et quand la spec est un contrat signé, chiffré ligne par ligne, le combat n'est pas d'écrire moins. C'est de facturer le changement.
 
-L'endroit où ça se fait détourner est prévisible. Une entrée qui dit que la spec peut être fausse se lit, pour celui qui n'a jamais voulu de la contrainte, comme l'autorisation de construire autre chose et d'appeler ça de l'apprentissage. Ce n'en est pas. Que la spec soit fausse est une affirmation, avec les mêmes obligations que n'importe quelle affirmation. Dis-le à voix haute, à celui qui a validé, avant que le code existe, avec ce que tu as trouvé. Diverger en silence et l'expliquer pendant la démo n'est pas de l'honnêteté intellectuelle. C'est le même gel, avec un autre propriétaire.
-
-Une erreur trouvée dans le document en semaine trois est le premier signe utile que la construction a produit.
+L'endroit où ça se fait détourner est prévisible. Une entrée qui dit que la spec peut être fausse se lit, pour celui qui n'a jamais voulu de la contrainte, comme l'autorisation de construire autre chose et d'appeler ça de l'apprentissage. Ce n'en est pas. Que la spec soit fausse est une affirmation, avec les mêmes obligations que n'importe quelle affirmation. Dis-le à voix haute, à celui qui a validé, avant que le code existe, avec ce que tu as trouvé. Diverger en silence et l'expliquer pendant la démo n'est pas de l'honnêteté intellectuelle. C'est le même gel, avec un autre propriétaire. Une erreur trouvée dans le document en semaine trois est le premier signe utile que la construction a produit.
 
 ## À essayer
 

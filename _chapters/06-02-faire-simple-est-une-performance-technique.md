@@ -33,8 +33,6 @@ La version à quarante lignes laisse parfois tomber un cas qui revient mordre. L
 
 Le mot sert aussi de bouclier. "Restons simples" peut vouloir dire j'ai compris ce domaine et j'ai enlevé ce dont il n'a pas besoin. Ça peut aussi vouloir dire je n'ai pas envie d'apprendre la partie réellement difficile. Les deux sonnent pareil en réunion, et elles se séparent sur une seule question. Est-ce que la personne sait dire ce que la version compliquée achetait ? Un simple qui ne sait pas décrire ce qu'il a laissé tomber n'est pas simple. Il est inachevé, et les cas abandonnés reviennent plus tard avec des noms de clients attachés.
 
-C'est aussi pour ça que la simplicité est mal récompensée. Un système simple ressemble à un système sur lequel personne n'a sué, et un fichier supprimé apparaît dans le diff en lignes rouges. Il faut que quelqu'un dise, dans la salle, que retirer du code compte.
-
 ## À essayer
 
 Prends une partie du système que tu connais bien. Pose une question.
@@ -45,4 +43,4 @@ Puis supprime une de ces choses cette semaine. Pour de bon, pas derrière un fla
 
 ## À discuter
 
-Quelle suppression a été applaudie ici, et par qui ?
+Quelle suppression a été applaudie ici ?

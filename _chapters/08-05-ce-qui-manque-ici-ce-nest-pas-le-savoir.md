@@ -23,7 +23,7 @@ L'écart est attribué à l'environnement. Ça devient une explication permanent
 
 ## Le réflexe builder
 
-> "Une partie de ce qui me manque n'est pas disponible ici. L'essentiel de ce qui me manque est un onglet que je n'ai jamais ouvert."
+Une partie de ce qui te manque n'est pas disponible ici. L'essentiel est un onglet que tu n'as jamais ouvert.
 
 ## Pourquoi
 
@@ -33,7 +33,7 @@ Le savoir a quitté cette liste. Les postmortems de systèmes que tu n'opéreras
 
 L'objection sérieuse, c'est la bande passante et le temps. Un talk de quarante minutes sur une connexion comptée est une vraie décision, et celui qui la prend deux fois par semaine le sent sur ce qui reste du forfait. Mais ça, c'est un budget, et un budget se planifie. Personne ne planifie autour d'indisponible.
 
-C'est ce que coûte le mélange des deux. Une seule phrase couvre le problème structurel et la chose que tu n'as jamais prise le temps de faire, les deux reçoivent la même réponse, et la seconde ne bouge jamais. Trie-les et tu peux traiter les deux correctement. Bats-toi durement là où l'environnement est l'adversaire. Ne concède rien là où rien ne t'arrête.
+C'est ce que coûte le mélange des deux. Une seule phrase couvre le problème structurel et la chose que tu n'as jamais prise le temps de faire, les deux reçoivent la même réponse, et la seconde ne bouge jamais. Trie-les et tu peux traiter les deux correctement. Bats-toi durement là où l'environnement est l'adversaire ; ne concède rien là où rien ne t'arrête.
 
 ## À essayer
 

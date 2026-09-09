@@ -31,11 +31,9 @@ L'attention n'apparaît pas sur commande. Elle s'accumule par répétition, chez
 
 Le deuxième effet se rate. Une audience construite pendant que tu construis te corrige. Une réponse, une question après une démo à moitié fonctionnelle, quelqu'un qui dit "nous on a résolu ça autrement". C'est de la recherche sans une ligne de code, assez tôt pour changer la roadmap.
 
-On va se faire copier, et écrire c'est du temps qu'on ne passe pas à livrer. Les deux sont vrais. Les idées voyagent gratuitement, l'exécution non, et personne n'a jamais été tué par un concurrent qui avait lu son article. Beaucoup l'ont été parce que personne ne savait qu'ils existaient. Le coût réel est d'une heure tous les quinze jours.
+On va se faire copier, et écrire c'est du temps qu'on ne passe pas à livrer. Les deux sont vrais. Les idées voyagent gratuitement, l'exécution non, et personne n'a jamais été tué par un concurrent qui avait lu son article. Beaucoup l'ont été faute d'être connus. Le coût réel est d'une heure tous les quinze jours.
 
-Ensuite la partie spécifique à ici. Personne ne va te trouver par accident. Cite trois builders de ce continent dont tu pourrais étudier le travail ce soir. Ils existent. Ils sont des milliers. Ceux qui parlent au nom de la tech d'ici ne sont pour la plupart pas eux, et il n'existe aucune salle où le travail se présente tout seul.
-
-Publier n'est pas un deuxième métier empilé sur la construction. C'est la partie du travail qui décide si le reste sera vu, et elle est en général la seule qu'on ne planifie pas.
+On ne te trouvera pas par accident, et il n'existe aucune salle où le travail se présente tout seul. Publier n'est pas un deuxième métier empilé sur la construction. C'est la partie du travail qui décide si le reste sera vu, et elle est en général la seule qu'on ne planifie pas.
 
 ## À essayer
 

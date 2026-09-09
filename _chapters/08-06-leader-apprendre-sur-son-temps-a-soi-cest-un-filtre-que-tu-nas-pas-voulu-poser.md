@@ -29,7 +29,7 @@ Rien de faux dans cette phrase. Elle ne dit simplement pas quand.
 
 Regarde ce que demandent les cinq entrées précédentes. Des heures à lire des threads de mainteneurs. Un mois assis en silence dans une salle où tu suis la moitié. Un talk de quarante minutes sur une connexion que quelqu'un paie lui-même. Rien de tout ça n'a de numéro de ticket, donc rien de tout ça n'entre dans un sprint planifié à l'heure près.
 
-Alors ça atterrit le soir. Et les soirées ne sont pas distribuées également. L'ingénieur avec quatre-vingt-dix minutes de trajet dans chaque sens. Celui qui a un deuxième emploi. Celui dont la maison est dans le noir à vingt heures. Celui qui a un petit. Même ambition. À la revue de mi-année, un groupe passe mieux les entretiens, et tu lis ça comme de la motivation.
+Alors ça atterrit le soir. Et les soirées ne sont pas distribuées également. L'ingénieur avec quatre-vingt-dix minutes de trajet dans chaque sens. Celui qui a un deuxième emploi. Celui dont la maison est dans le noir à vingt heures. Celui qui a un petit. Même ambition. À la revue de mi-année, un groupe passe mieux les entretiens. Et tu lis ça comme de la motivation.
 
 Rien de tout ça n'a besoin de budget, ce qui retire la réponse habituelle. Quatre heures par mois, c'est deux pour cent du travail que tu paies déjà. Tu as dépensé plus que ça le trimestre dernier sur une migration que personne n'avait demandée.
 

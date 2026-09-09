@@ -31,9 +31,7 @@ Un correctif que tu ne sais pas expliquer est une dette avec un visage sympathiq
 
 La première réponse est la plus facile à trouver, ce qui est une autre façon de dire qu'elle traite le symptôme le plus visible. C'est ce qui lui donne l'air d'une réponse.
 
-Le job d'import est mort dans la nuit. Tu le relances, les chiffres reviennent, tu fermes le ticket. Trois semaines plus tard il remeurt, à une autre heure avec une autre erreur, donc personne ne fait le lien. Il aura fallu deux nuits mortes avant que quelqu'un demande ce que les deux fichiers avaient en commun.
-
-Une couche en dessous coûte environ trente minutes de plus. Ne pas descendre coûte le même problème, pendant des années, avec une explication neuve à chaque fois.
+Le job d'import est mort dans la nuit. Tu le relances, les chiffres reviennent, tu fermes le ticket. Trois semaines plus tard il remeurt, à une autre heure avec une autre erreur, donc le lien ne se fait pas. Il aura fallu deux nuits mortes avant que quelqu'un demande ce que les deux fichiers avaient en commun. Une couche en dessous coûte environ trente minutes de plus. Ne pas descendre coûte le même problème, pendant des années, avec une explication neuve à chaque fois.
 
 Et personne ne va te tendre cette couche. Aucun senior du plateau n'a ce système derrière lui. La deuxième réponse sort du code source, ou de la doc du fournisseur, lue par toi, lentement, sur une connexion qui te fait réfléchir à l'utilité de la vidéo.
 
@@ -47,4 +45,4 @@ Si la deuxième est "pas clair", écris-le. C'est vrai, et ça marque l'endroit 
 
 ## À discuter
 
-Quel problème revient ici sous des formes différentes, et est-ce que quelqu'un a déjà regardé en dessous ?
+Nomme un problème qui revient ici sous des formes différentes.

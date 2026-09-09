@@ -23,7 +23,7 @@ Ce que les gens ont écrit dans ces tickets reste dans l'outil de support.
 
 ## Le réflexe builder
 
-> "Le support est la seule salle où des utilisateurs nous disent ce qui est cassé, tous les jours, gratuitement."
+Le support est la seule salle où des utilisateurs disent ce qui est cassé, tous les jours, gratuitement.
 
 ## Pourquoi
 
@@ -37,10 +37,10 @@ Une équipe qui pilote le support comme un coût devient très bonne à répondr
 
 ## À essayer
 
-Vendredi, exporte les tickets de la semaine et étiquette chacun avec une cause, pas une catégorie. Trie par cause. Mets la première dans le prochain sprint.
+À la fin de la semaine, exporte les tickets et étiquette chacun avec une cause, pas une catégorie. Trie par cause. Mets la première dans le prochain sprint.
 
 Corrigée dans le produit. Pas documentée dans un article d'aide.
 
 ## À discuter
 
-Quel motif de contact est dans notre top trois depuis plus de trois mois, et qui a décidé de l'y laisser ?
+Qui a décidé de laisser notre premier motif de contact dans le top trois ?

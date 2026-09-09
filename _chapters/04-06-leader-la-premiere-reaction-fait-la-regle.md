@@ -25,7 +25,7 @@ L'inquiétude est réelle. L'effet est sans commune mesure avec elle.
 
 ## Le réflexe builder
 
-> "Bien vu. La prochaine fois préviens-moi avant, que je dégage le terrain."
+> "Bien vu ! La prochaine fois préviens-moi avant, que je dégage le terrain."
 
 ## Pourquoi
 
@@ -35,9 +35,7 @@ La personne ne réessaiera pas, et c'est la petite partie. Les quatre autres qui
 
 Refais le calcul comme le fait celui qui hésite. Agir sans demander rapporte peu et peut finir en correction publique. Attendre ne coûte rien. Avec cette matrice, attendre est rationnel, et tu obtiens l'équipe passive dont tu te plains à ton prochain entretien individuel.
 
-L'objection à prendre au sérieux, c'est que certaines initiatives sont réellement dangereuses. La facturation. Un contrat signé. La production un vendredi soir. La réponse n'est pas une réaction plus dure après coup, c'est une ligne tracée avant. Une frontière non marquée fait que les gens demandent pour tout, puis agissent à l'aveugle le jour où demander devient fatigant.
-
-L'ownership se permet une fois et se protège les trois premières fois où ça se passe mal. Les trois premières fois sont la partie chère, et c'est la seule que personne ne peut faire à ta place.
+Certaines initiatives sont réellement dangereuses. La facturation. Un contrat signé. La production quand il ne reste personne pour réparer. Ce qui les protège n'est pas une réaction plus dure après coup, c'est une ligne tracée avant. Une frontière non marquée fait qu'on demande pour tout, puis qu'on agit à l'aveugle le jour où demander devient fatigant. L'ownership se permet une fois et se protège les trois premières fois où ça se passe mal, et ces trois-là sont la partie chère que personne ne peut faire à ta place.
 
 ## À essayer
 

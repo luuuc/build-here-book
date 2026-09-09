@@ -37,8 +37,8 @@ Rien de tout ça n'est une fiche de poste. Un ingénieur qui dit "je sais le con
 
 Tiens la liste des non. Un fichier court. La demande, qui la portait, la raison du refus, la date. Range-le à côté de la roadmap, même endroit, mêmes lecteurs.
 
-L'arbitrage devient visible, et un refus devient quelque chose qu'on rouvre dans trois mois au lieu d'une décision que personne ne peut montrer du doigt.
+L'arbitrage devient visible, et un refus devient quelque chose qu'on rouvre dans trois mois au lieu d'une décision qu'on ne peut montrer du doigt.
 
 ## À discuter
 
-C'est quoi la dernière demande significative qu'on a refusée, qui la portait, et est-ce que cette personne sait pourquoi ?
+C'est quoi la dernière demande significative qu'on a refusée ?

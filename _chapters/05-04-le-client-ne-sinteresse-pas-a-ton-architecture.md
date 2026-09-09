@@ -11,7 +11,7 @@ categories:
   - client
   - arbitrage
 seo:
-  description: "Personne n'achète une architecture. Les gens achètent du temps récupéré, un risque écarté, une chose de moins à vérifier le dimanche soir."
+  description: "Personne n'achète une architecture. Les gens achètent du temps récupéré, un risque écarté, une chose de moins à vérifier."
   keywords: "build here, produit, tech afrique, builder, client, interesse, architecture"
 ---
 
@@ -27,7 +27,7 @@ En face, le client attend poliment la partie qui le concerne.
 
 ## Pourquoi
 
-Personne n'achète une architecture. Les gens achètent du temps récupéré, un risque écarté, une chose de moins à vérifier le dimanche soir.
+Personne n'achète une architecture. Les gens achètent du temps récupéré, un risque écarté, une chose de moins à vérifier.
 
 Le travail technique invisible compte, et c'est lui qui rend le reste possible. Mais il doit être traduit pour exister aux yeux de ceux qui le financent. Une équipe qui ne traduit jamais se prend un mur au moment du budget. Personne dans la salle ne sait relier six mois de reprise à quoi que ce soit qu'un client ait ressenti, donc l'ensemble se lit comme de la dépense.
 
@@ -44,4 +44,4 @@ Lis-le à quelqu'un du commercial. S'il pose une question de suite, ça fonction
 
 ## À discuter
 
-C'est quoi notre plus gros projet technique en ce moment, et qui ici pourrait dire en une phrase pourquoi un client devrait s'en soucier ?
+Notre plus gros projet technique en ce moment, qui ici peut dire en une phrase pourquoi un client devrait s'en soucier ?

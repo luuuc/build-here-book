@@ -17,13 +17,13 @@ seo:
 
 ## Le réflexe
 
-> "Il faut qu'ils livrent plus petit et plus vite."
+> "Il faut qu'ils livrent plus petit et plus vite !"
 
 Dit dans trois revues consécutives. Rien n'a changé dans la façon dont le travail atteint un client depuis la première.
 
 ## Le réflexe builder
 
-> "Combien de personnes doivent dire oui avant qu'un changement atteigne un client ? Nomme-les."
+Tu comptes les gens qui doivent dire oui avant qu'un changement atteigne un client. Tu les nommes.
 
 ## Pourquoi
 

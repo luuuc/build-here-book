@@ -11,7 +11,7 @@ categories:
   - responsabilite
   - execution
 seo:
-  description: "Celui qui écrit un ticket l'écrit depuis l'extérieur du code. Celui qui le fait passe deux jours à l'intérieur et apprend des choses que l'auteur n'avait aucun moyen de connaître."
+  description: "Celui qui écrit le ticket l'écrit depuis l'extérieur du code. Celui qui le fait passe deux jours dedans et apprend ce que l'auteur n'avait aucun moyen de savoir."
   keywords: "build here, ownership, tech afrique, builder, apporte, tache, probleme"
 ---
 
@@ -19,17 +19,15 @@ seo:
 
 > "Ticket fini. Je prends quoi après ?"
 
-Le travail arrive prédécoupé. Tu le traites, tu le rends. Savoir si le découpage était bon, c'est la question de quelqu'un d'autre.
+Le travail arrive prédécoupé. Savoir si le découpage était bon, c'est la question de quelqu'un d'autre.
 
 ## Le réflexe builder
 
-> "Ticket fini. En le faisant, j'ai vu que la cause est une couche en dessous. Voilà ce que je changerais."
+Tu fermes le ticket, et tu ajoutes ce que tu as vu en le faisant. La cause est une couche en dessous, et voilà ce que tu changerais.
 
 ## Pourquoi
 
-Celui qui écrit un ticket l'écrit depuis l'extérieur du code. Celui qui le fait passe deux jours à l'intérieur et apprend des choses que l'auteur n'avait aucun moyen de connaître. Cette connaissance est nette pendant environ une journée, puis elle se dissout dans le sentiment général que le système est un peu bizarre à cet endroit.
-
-Si elle ne remonte pas, le ticket suivant porte le même angle mort, et deux trimestres après, l'équipe redécoupe le même problème de la même mauvaise façon, avec un autre numéro dessus.
+Celui qui écrit le ticket l'écrit depuis l'extérieur du code. Celui qui le fait passe deux jours dedans et apprend ce que l'auteur n'avait aucun moyen de savoir. Cette connaissance est nette pendant environ une journée, puis elle se dissout dans le sentiment général que le système est un peu bizarre à cet endroit. Si elle ne remonte pas, le ticket suivant porte le même angle mort, et l'équipe redécoupe le même problème deux trimestres plus tard avec un autre numéro dessus.
 
 "Le formulaire ne s'affiche pas sur mobile" est une tâche. "Personne sur mobile ne s'est inscrit depuis trois semaines" est un problème. L'un change une ligne de code. L'autre change ce sur quoi l'équipe travaille ensuite, et sur un marché où le téléphone est l'ordinateur, il change ce qu'est l'entreprise.
 
@@ -46,4 +44,4 @@ Personne ne les a demandées. C'est le principe.
 
 ## À discuter
 
-Quelqu'un ici a déjà découvert, en le faisant, que la tâche demandée n'était pas la bonne. Il l'a dit à qui, et qu'est-ce que ça a changé ?
+Quelqu'un ici a déjà découvert, en le faisant, que la tâche demandée n'était pas la bonne. Il l'a dit à qui ?

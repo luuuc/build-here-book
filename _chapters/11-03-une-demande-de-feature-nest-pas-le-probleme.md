@@ -11,7 +11,7 @@ categories:
   - support
   - produit
 seo:
-  description: "Un client est expert de son problème et amateur de ta solution. Il ne sait rien de ton modèle de données ni de ce que ça coûte à construire, donc il te tend une hypothèse de correctif."
+  description: "Un client est expert de son problème et amateur de ta solution. Il te tend donc une hypothèse de correctif."
   keywords: "build here, client, tech afrique, builder, demande, feature, probleme"
 ---
 
@@ -27,11 +27,11 @@ Elle est livrée. Il l'ouvre deux fois. Le même problème revient au trimestre 
 
 ## Pourquoi
 
-Un client est expert de son problème et amateur de ta solution. Il ne sait rien de ton modèle de données ni de ce que ça coûte à construire, donc il te tend une hypothèse de correctif.
+Un client est expert de son problème et amateur de ta solution. Il te tend donc une hypothèse de correctif.
 
 Cette hypothèse est un signal fort et une mauvaise spécification. Derrière "il nous faut un export de fin de mois", il y a quelqu'un qui doit prouver un chiffre à un auditeur. Derrière "ajoutez un champ", il y a un processus dont ton produit fait comme s'il n'existait pas. Construis la demande littérale et tu achètes une semaine de bonne volonté, le besoin reste où il était, et maintenant tu possèdes aussi la maintenance.
 
-Ici l'objection vient du commercial, et elle a des dents. Le compte est gros, la demande est écrite, et poser des questions se lit comme un frein sur un contrat qui paie les salaires du mois. Alors ne freine pas. Demande dans le même souffle que le oui.
+Le compte est gros, la demande est écrite, et poser des questions se lit comme un frein sur un contrat qui paie les salaires du mois. Alors ne freine pas. Demande dans le même souffle que le oui.
 
 Comprendre le besoin te fait parfois sortir moins cher. Le problème de l'auditeur, c'est une vue filtrée et un bouton d'export, pas un module de reporting.
 
@@ -43,4 +43,4 @@ Sur la prochaine demande, avant que quiconque chiffre, renvoie un message.
 
 ## À discuter
 
-Quelle fonctionnalité on a construite mot pour mot comme demandé, et son usage ressemble à quoi maintenant ?
+La dernière fonctionnalité construite mot pour mot comme demandé, son usage ressemble à quoi ?

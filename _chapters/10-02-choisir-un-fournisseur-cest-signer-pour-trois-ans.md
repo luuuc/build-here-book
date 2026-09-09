@@ -27,13 +27,11 @@ Personne d'extérieur ne regarde, jusqu'à la première facture ou la première 
 
 ## Pourquoi
 
-Certains choix d'engineering atterrissent directement dans le compte de résultat, et dans la facilité avec laquelle l'entreprise pourra changer d'avis plus tard.
-
-Un fournisseur de messagerie facturé au message, ce n'est rien à cinq mille par mois. À quatre cent mille, c'est une part visible de la marge, et à ce moment-là il est câblé dans l'inscription, les rappels et les reçus.
+Certains choix d'engineering atterrissent directement dans le compte de résultat, et dans la facilité avec laquelle l'entreprise pourra changer d'avis plus tard. Un fournisseur de messagerie facturé au message, ce n'est rien à cinq mille par mois. À quatre cent mille, c'est une part visible de la marge, et à ce moment-là il est câblé dans l'inscription, les rappels et les reçus.
 
 Ensuite il y a la devise sur la facture. Le fournisseur facture en dollars. Tes clients paient dans la monnaie dans laquelle ils gagnent, et le taux entre les deux bouge pendant que tout le monde dort. Personne n'a décidé de prendre une position sur ce taux. Quelqu'un a choisi un fournisseur et la position est arrivée avec. Ça remonte des mois plus tard sous forme de marge qui a fondu sur un trimestre où les ventes ont monté, et la réunion qui suit portera sur les remises et les effectifs, parce que ce sont les parties qu'on peut montrer du doigt.
 
-Tous les choix ne méritent pas ce traitement. Une librairie de logs se remplace en un après-midi. Le test n'est pas l'importance, c'est le coût de sortie. Si sortir prend plus de quelques semaines, ou si le prix monte avec ton chiffre d'affaires, ce n'est plus une affaire interne à l'engineering.
+Tous les choix ne méritent pas ce traitement. Une librairie de logs se remplace en quelques heures. Le test n'est pas l'importance, c'est le coût de sortie. Si sortir prend plus de quelques semaines, ou si le prix monte avec ton chiffre d'affaires, ce n'est plus une affaire interne à l'engineering.
 
 Les ingénieurs sont en général les seuls à le voir venir, et en général les seuls absents de la salle où ça se signe.
 
@@ -49,4 +47,4 @@ Puis envoie-les avant de signer, pas après.
 
 ## À discuter
 
-Quel fournisseur nous ferait le plus mal en doublant son prix demain, et est-ce que quelqu'un hors de l'engineering connaît son nom ?
+Quel fournisseur nous ferait le plus mal en doublant son prix demain ?

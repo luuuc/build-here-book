@@ -23,7 +23,7 @@ La porte est ouverte, personne n'entre, et tu lis ça comme une absence de probl
 
 ## Le réflexe builder
 
-> "Personne ne m'a contredit depuis six mois. Qu'est-ce que je fais qui produit ce silence ?"
+Six mois sans qu'on te contredise n'est pas un bilan. C'est un symptôme, et il est de toi.
 
 ## Pourquoi
 

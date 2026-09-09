@@ -21,7 +21,7 @@ seo:
 
 ## Le réflexe builder
 
-> "Par quel chemin une personne qui a ce problème atterrit devant nous ?"
+Tu traces le chemin par lequel une personne qui a ce problème atterrit devant toi.
 
 ## Pourquoi
 
@@ -31,7 +31,7 @@ Les chemins se conçoivent. Certains produits portent leur propre diffusion. Une
 
 Poser la question tôt change ce que tu construis. Une équipe dont les utilisateurs arrivent d'un résultat de recherche construit un premier écran qui répond à cette recherche. Une équipe dont les utilisateurs arrivent par un lien transféré dans un groupe WhatsApp, ouvert sur un Android d'entrée de gamme avec deux barres, construit un premier écran qui survit au trajet. Un écran générique ne sert ni l'un ni l'autre.
 
-En B2B le chemin ressemble au problème du commercial, donc personne ne le conçoit. Il existe quand même. Une boîte mail précise, une réunion précise, un slide montré à un patron qui n'était pas dans la salle. Conçois pour ce slide, ou le deal s'enlise à un endroit où tu ne seras jamais assis.
+En B2B le chemin ressemble au problème du commercial, donc il n'est conçu nulle part. Il existe quand même. Une boîte mail précise, une réunion précise, un slide montré à un patron qui n'était pas dans la salle. Conçois pour ce slide, ou le deal s'enlise à un endroit où tu ne seras jamais assis.
 
 ## À essayer
 

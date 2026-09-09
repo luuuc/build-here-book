@@ -21,17 +21,15 @@ La librairie ne se comporte pas comme prévu. Tu cherches, tu essaies trois rép
 
 ## Le réflexe builder
 
-> "Ouvre le fichier et lis la fonction."
+Tu ouvres le fichier. Tu lis la fonction que tu appelles.
 
 ## Pourquoi
 
-Presque tout ce dont tu dépends est lisible. Le framework, le client HTTP, le driver de base de données, le script de déploiement. C'est sur ton disque en ce moment, dans le dossier des dépendances, et ça ne t'a rien coûté.
+Presque tout ce dont tu dépends est lisible. Le framework, le client HTTP, le driver de base de données, le script de déploiement. C'est déjà sur ton disque, dans le dossier des dépendances.
 
-La plupart des gens ne l'ouvrent jamais, ce qui te laisse avec ce que la documentation a choisi de couvrir. Une documentation est en retard, partielle, et n'a pas été écrite pour ton cas. Le code, si. Ce que tu trouves est petit et utile dans l'heure. Un timeout par défaut à trente secondes. Une clé de cache qui inclut la locale, ce qui explique pourquoi le staging allait bien et la prod non.
+La plupart des gens ne l'ouvrent jamais, ce qui te laisse avec ce que la documentation a choisi de couvrir. Elle est en retard, partielle, et n'a pas été écrite pour ton cas. Le code, si. Un timeout par défaut à trente secondes. Une clé de cache qui inclut la locale, ce qui explique pourquoi le staging allait bien et la prod non.
 
-Saute ce qui n'est pas lisible. Les builds minifiés, les clients générés, cinq couches de métaprogrammation. Lis la librairie que tu appelles vingt fois par jour, et lis seulement la fonction que tu appelles vraiment. Quinze minutes rapportent une journée, parce que la personne qui te répondrait en trente secondes n'existe pas dans le bâtiment, et que le support du fournisseur travaille pendant que tu dors, donc une question posée le matin obtient sa réponse le lendemain.
-
-Il y a une deuxième raison, et elle pèse plus lourd que la première.
+Lis seulement la fonction que tu appelles vraiment, et saute les builds minifiés et les clients générés. La personne qui te répondrait en trente secondes n'existe pas dans le bâtiment, et le support du fournisseur travaille pendant que tu dors.
 
 Personne n'a le droit de te dire que ce savoir est gardé. Il n'y a pas de porte. C'est ouvert, c'est complet, c'est déjà sur ta machine, et c'est la même copie, au bit près, que celle que lit la personne que tu prends pour l'expert.
 

@@ -11,7 +11,7 @@ categories:
   - open-source
   - niveau
 seo:
-  description: "Une équipe qui ne se mesure qu'à elle-même converge vers sa propre moyenne. Personne ne choisit ça. L'ensemble de comparaison est petit, il est dans la salle, et il est gratuit."
+  description: "Une équipe qui ne se mesure qu'à elle-même converge vers sa propre moyenne. Ce n'est pas un choix. L'ensemble de comparaison est petit, il est dans la salle, et il est gratuit."
   keywords: "build here, apprentissage, tech afrique, builder, meilleur, professeur, travaille"
 ---
 
@@ -25,15 +25,13 @@ Le plus fort de l'équipe fixe le niveau. Tu le regardes, tu apprends de lui, et
 
 ## Pourquoi
 
-Une équipe qui ne se mesure qu'à elle-même converge vers sa propre moyenne. Personne ne choisit ça. L'ensemble de comparaison est petit, il est dans la salle, et il est gratuit.
+Une équipe qui ne se mesure qu'à elle-même converge vers sa propre moyenne. Ce n'est pas un choix. L'ensemble de comparaison est petit, il est dans la salle, et il est gratuit.
 
 Le plafond est silencieux. Rien ne casse quand une équipe arrête de progresser. Les sprints se clôturent, la revue passe, les releases partent à l'heure. Le seul signal dont tu aurais besoin est celui que tu n'as pas. Quelqu'un de l'extérieur qui lit la même pull request et grimace.
 
 Ce quelqu'un n'est pas non plus sur la scène de la conférence locale. Ceux qui représentent la tech de ce continent en public ne sont pour la plupart pas ceux qui la construisent. Panels, évangélistes, circuit des événements, carrousel des voix qui comptent. Ceux qui font le travail sont ceux dont personne n'a entendu parler, et ça t'inclut.
 
-La référence existe. Elle n'est simplement pas visible d'où tu es, et elle ne va pas descendre te chercher.
-
-Alors tu vas la chercher, et ce que tu importes est un niveau, pas une solution. Ces gens ne connaissent ni tes rails de paiement ni tes appareils de trois ans d'âge. Mais quelqu'un qui a livré cette classe de problème vingt fois porte une idée de ce qui compte comme normal, et cette idée voyage même quand le code ne voyage pas. Ton senior répond à la question locale. La référence extérieure répond à celle que personne dans le bâtiment n'a pensé à poser.
+La référence existe, et elle ne va pas descendre te chercher. Ce que tu importes est un niveau, pas une solution. Ces gens ne connaissent ni tes rails de paiement ni tes appareils de trois ans d'âge. Mais quelqu'un qui a livré cette classe de problème vingt fois porte une idée de ce qui compte comme normal, et cette idée voyage même quand le code ne voyage pas. Ton senior répond à la question locale. La référence extérieure répond à celle que personne dans le bâtiment n'a pensé à poser.
 
 ## À essayer
 
@@ -45,4 +43,4 @@ Fais-le chaque mois. La liste se met à se répéter, et les répétitions sont 
 
 ## À discuter
 
-Cite la dernière décision qu'on a changée à cause de quelqu'un d'extérieur à cette entreprise. C'était quoi, et quand ?
+Cite la dernière décision qu'on a changée à cause de quelqu'un d'extérieur à cette entreprise.

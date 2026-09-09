@@ -23,7 +23,7 @@ De l'emballage, autour d'une valeur créée ailleurs.
 
 ## Le réflexe builder
 
-> "Le marketing, c'est savoir pour qui c'est et pourquoi ils changeraient. Tout ce qui se voit vient après."
+Le marketing, c'est savoir pour qui c'est et pourquoi ils changeraient. Tout ce qui se voit vient après.
 
 ## Pourquoi
 

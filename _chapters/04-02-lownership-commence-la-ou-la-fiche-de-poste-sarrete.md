@@ -29,13 +29,11 @@ Le périmètre se lit comme une clôture. Dedans, ça m'engage. Dehors, c'est l'
 
 Une fiche de poste est un plancher. Quelque part en route, elle s'est mise à être lue comme un plafond.
 
-Les problèmes qui coûtent le plus cher n'appartiennent formellement à personne. Le message d'erreur que le support explique quinze fois par semaine. Le fichier de config que trois d'entre vous sur six refusent de toucher, sur l'unique environnement de staging que les six partagent. Le script qu'il faut lancer à la main chaque mois, par celui qui y pense.
-
-Personne ne les possède parce qu'aucune fiche de poste du bâtiment ne pourrait plausiblement les couvrir. Chacun suppose qu'un autre s'en occupe, et la chose reste là deux ans, à coûter quelques heures par semaine sans jamais apparaître sur un plan.
+Les problèmes qui coûtent le plus cher n'appartiennent formellement à personne. Le message d'erreur que le support explique quinze fois par semaine. Le fichier de config que trois d'entre vous sur six refusent de toucher, sur l'unique environnement de staging que les six partagent. Le script qu'il faut lancer à la main chaque mois, par celui qui y pense. Aucune fiche de poste du bâtiment ne pourrait plausiblement les couvrir. La chose reste là deux ans, à coûter quelques heures par semaine sans jamais apparaître sur un plan.
 
 Raison pour laquelle "et je le dis" n'est pas décoratif. Annonce avant, pas après. Dix minutes avec celui qui est le plus proche, et s'il est déjà dessus tu as gagné du contexte au lieu de dupliquer une semaine.
 
-Les problèmes orphelins sont ceux que personne ne se dispute, ce qui en fait le seul travail disponible ici en quantité illimitée. C'est aussi le chemin le plus rapide pour devenir celui dont le nom remonte, ce qui est tout l'objet du livre que tu tiens.
+Les problèmes orphelins n'ont pas de concurrence, ce qui en fait le seul travail disponible ici en quantité illimitée. C'est aussi le chemin le plus rapide pour devenir celui dont le nom remonte, ce qui est tout l'objet du livre que tu tiens.
 
 ## À essayer
 

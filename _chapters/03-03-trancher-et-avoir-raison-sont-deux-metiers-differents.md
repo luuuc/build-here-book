@@ -5,7 +5,7 @@ part: "Hiérarchie"
 order: 17
 metadata:
   principle: "12"
-  reading_time_in_minutes: 2
+  reading_time_in_minutes: 1
 categories:
   - hierarchie
   - decision
@@ -17,7 +17,7 @@ seo:
 
 ## Le réflexe
 
-La discussion technique et la décision se déroulent dans une seule conversation, sous une seule règle. Le plus ancien parle en premier, et ce qui est vrai se règle dans la même minute que ce qu'on va faire.
+La discussion technique et la décision tiennent dans une seule conversation. Le plus ancien parle en premier, et ce qui est vrai se règle dans la même minute que ce qu'on va faire.
 
 ## Le réflexe builder
 
@@ -27,11 +27,11 @@ La discussion technique et la décision se déroulent dans une seule conversatio
 
 Deux autorités vivent dans chaque équipe, et elles appartiennent à des personnes différentes.
 
-L'autorité intellectuelle va à celui qui a le meilleur argument sur ce sujet précis. Elle se déplace avec le sujet. Elle peut être détenue par celui qui est arrivé il y a six semaines et a lu le changelog du fournisseur plus attentivement que les autres.
+L'autorité intellectuelle va à celui qui a le meilleur argument sur ce sujet précis. Elle se déplace avec le sujet, et peut appartenir à celui qui est arrivé il y a six semaines et a lu le changelog du fournisseur plus attentivement que les autres.
 
-L'autorité de décision va à celui qui porte les conséquences. Stable, nécessaire, et pas soumise au vote quand la release est vendredi.
+L'autorité de décision va à celui qui porte les conséquences. Stable, nécessaire, et pas soumise au vote quand la release est demain.
 
-C'est de les mélanger dans la même minute qui fait les dégâts. L'exploration s'arrête à la seconde où celui qui tranche exprime une préférence, parce qu'à partir de là être en désaccord coûte quelque chose et être d'accord ne coûte rien. Il choisit alors avec moins que ce que la salle détenait, et il ne le saura jamais. Une équipe qui dispose des deux mots peut dire "on est encore dans la partie compréhension" sans que personne y entende une contestation de l'autorité.
+C'est de les mélanger dans la même minute qui fait les dégâts. L'exploration s'arrête à la seconde où celui qui tranche exprime une préférence, parce qu'à partir de là être en désaccord coûte quelque chose et être d'accord ne coûte rien. Il choisit alors avec moins que ce que la salle détenait, et il ne le saura jamais.
 
 ## À essayer
 
@@ -41,8 +41,6 @@ Ouvre les discussions importantes en nommant la phase.
 
 Si tu es celui qui tranche, parle en dernier. Ton avis exprimé en premier te coûte la moitié des idées que la salle aurait produites.
 
-Puis écoute comment les trois décisions suivantes sont justifiées. Si la phrase commence par un nom ou un rang plutôt que par une raison, une autorité a discrètement avalé l'autre.
-
 ## À discuter
 
-Dans notre dernière réunion sérieuse, à quel moment on est passé d'explorer à trancher ? Est-ce que tout le monde placerait le curseur au même endroit ?
+Dans notre dernière réunion sérieuse, à quel moment on est passé d'explorer à trancher ?

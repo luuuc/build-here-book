@@ -19,8 +19,6 @@ Tout ce sur quoi l'entreprise va discuter le trimestre prochain est déjà connu
 
 Ça arrive gratuitement, tous les jours, et c'est classé en réclamations.
 
-Les trois premières entrées demandent aux gens de franchir une porte. La quatrième s'adresse à qui la tient.
-
 ---
 
 ## Les entrées de cette section

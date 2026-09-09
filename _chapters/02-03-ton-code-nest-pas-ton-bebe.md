@@ -23,7 +23,7 @@ Tu réponds vite. Tu expliques le contexte. Tu mentionnes les contraintes que tu
 
 ## Le réflexe builder
 
-> "Oui, c'est moche. J'avais deux jours. On fait quoi maintenant ?"
+> "Oui, c'est moche ! J'avais deux jours. On fait quoi maintenant ?"
 
 ## Pourquoi
 
@@ -31,11 +31,7 @@ Ce que tu produis passe par toi. Ça ne te définit pas. Confondre les deux rend
 
 Le signal est physique, ce qui le rend facile à attraper. Le pouls qui monte quand quelqu'un ouvre ton travail, l'attachement est là. Ça veut dire que tu tiens à ce que tu fais. La question est de savoir vers quoi ça pointe. Vers le résultat pour le client, ça te fait réparer. Vers la ligne que tu as écrite, ça te fait argumenter.
 
-Ensuite le mécanisme fait les dégâts.
-
-L'attachement transforme une revue en transaction avec un prix. À partir du moment où laisser un commentaire coûte au relecteur dix minutes de gestion de ta réaction, il commence à choisir lesquels valent le coup. Les petits partent en premier, le nommage et la forme. Puis les structurels. Ouvre un thread de revue d'il y a un an et un de le mois dernier. Moins de commentaires, moins bon code. Personne n'a décidé ça. Les gens ont juste arrêté de payer.
-
-Tu seras le dernier au courant, parce que de là où tu es, les revues sont devenues plus fluides.
+L'attachement transforme une revue en transaction avec un prix. À partir du moment où laisser un commentaire coûte au relecteur dix minutes de gestion de ta réaction, il commence à choisir lesquels valent le coup. Les petits partent en premier, le nommage et la forme. Puis les structurels. Ouvre un thread de revue d'il y a un an et un de le mois dernier. Moins de commentaires, moins bon code. Personne n'a décidé ça. Les gens ont juste arrêté de payer. Tu seras le dernier au courant, parce que de là où tu es, les revues sont devenues plus fluides.
 
 L'entrée coupe aussi dans l'autre sens, et cette moitié-là se fait sauter. "Tu es attaché à ton code" est le moyen le plus rapide d'écarter une objection à laquelle tu ne sais pas répondre. Celui qui fait tourner ce système depuis trois ans et qui dit que le changement tombe sous la charge ne défend en général pas un bébé. Il tient une panne que personne d'autre dans le thread n'a jamais vue. L'attachement est une chose que tu diagnostiques chez toi. Braqué sur quelqu'un d'autre en plein débat, c'est une façon de gagner sans discuter, et ça te coûte la revue que cette entrée essaie justement de protéger.
 
@@ -51,4 +47,4 @@ Puis une règle quand les commentaires arrivent. Ne réponds à aucun avant d'av
 
 ## À discuter
 
-À qui dans cette équipe on hésite à donner un retour direct, et pourquoi cette personne-là ?
+À qui dans cette équipe on hésite à donner un retour direct ?

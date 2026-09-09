@@ -19,7 +19,7 @@ Tout le monde livre ici. Les tickets se ferment, la release part, le tableau a b
 
 Puis tu regardes ce qui a réellement changé pour quelqu'un qui utilise la chose, et la réponse est rien.
 
-C'est cet écart, le sujet. Les cinq premières entrées demandent à quelqu'un de refuser du travail. La sixième s'adresse à qui possède la roadmap, parce qu'un refus n'existe que s'il est survivable.
+C'est cet écart, le sujet. Presque toutes ces entrées demandent à quelqu'un de refuser du travail, et un refus n'existe que s'il est survivable.
 
 ---
 

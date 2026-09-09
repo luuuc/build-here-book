@@ -19,7 +19,7 @@ seo:
 
 > "J'ai fait ce qu'on m'a demandé."
 
-La curiosité est classée comme un loisir. Le soir, le week-end, sur ton temps à toi, si vraiment tu aimes ça.
+La curiosité est classée comme un loisir. Le soir, le week-end, sur ton temps à toi, parce que tu aimes ça.
 
 ## Le réflexe builder
 
@@ -31,11 +31,11 @@ Sur le temps de travail. Ouvertement. Sur une ligne que quelqu'un peut voir.
 
 Une équipe ne peut construire que ce qu'elle comprend. Tout le reste, elle l'estime.
 
-Regarde ce qui se passe quand le modèle est mince. Un changement de config d'une ligne est chiffré à trois jours, parce que personne n'a rouvert le script de déploiement depuis que celui qui l'a écrit est parti à Berlin, et que le seul chiffre sûr est un gros chiffre. La marge devient le plan. Le plan devient la roadmap. Personne n'a menti, et le trimestre est quand même faux.
+Regarde ce qui se passe quand le modèle est mince. Un changement de config d'une ligne est chiffré à trois jours, parce que le script de déploiement n'a pas été rouvert depuis que celui qui l'a écrit est parti à Berlin, et que le seul chiffre sûr est un gros chiffre. La marge devient le plan. Le plan devient la roadmap. Personne n'a menti, et le trimestre est quand même faux.
 
-Laissée libre, la curiosité se transforme effectivement en une semaine perdue sur une réécriture que personne n'a demandée. C'est pour ça qu'on l'interdit, et c'est pour ça qu'il faut plutôt la borner. Trente minutes, sur une chose que tu touches chaque semaine, sur un système qui te facturera l'ignorance si tu continues.
+Laissée libre, la curiosité se transforme effectivement en une semaine perdue sur une réécriture non demandée. C'est pour ça qu'on l'interdit, et c'est pour ça qu'il faut plutôt la borner. Trente minutes, sur une chose que tu touches chaque semaine, sur un système qui te facturera l'ignorance si tu continues.
 
-Trente minutes par semaine, c'est vingt-quatre heures par an. Aucun sprint ne signale leur départ. Au bout d'un an, c'est vers cette personne que les questions remontent, et personne ne sait dire depuis quand.
+Trente minutes par semaine, c'est vingt-quatre heures par an. Aucun sprint ne signale leur départ. Au bout d'un an, c'est vers cette personne que les questions remontent, et on ne sait plus dire depuis quand.
 
 ## À essayer
 
@@ -47,4 +47,4 @@ Puis écris quatre lignes sur ce que tu as trouvé, quelque part où l'équipe p
 
 ## À discuter
 
-Qui ici a dit "je suis allé voir comment ça marche" le mois dernier, et est-ce que quelqu'un a demandé sur quel ticket c'était imputé ?
+Sur quel ticket a été imputée la dernière demi-journée que quelqu'un ici a passée à comprendre un système ?

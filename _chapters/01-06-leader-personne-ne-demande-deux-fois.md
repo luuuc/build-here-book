@@ -45,4 +45,4 @@ Une réponse en trois semaines est un non avec de meilleures manières. Dis plut
 
 ## À discuter
 
-Quand quelqu'un ici demande pourquoi, combien de temps avant une vraie réponse, et c'est le travail de qui ?
+Quand quelqu'un ici demande pourquoi, combien de temps passe avant une vraie réponse ?

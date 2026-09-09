@@ -25,9 +25,7 @@ L'open source est un stock de pièces. Tu l'installes, tu l'utilises, tu montes 
 
 ## Pourquoi
 
-Le code, c'est le corrigé. Ce que tu n'obtiens nulle part ailleurs, c'est le raisonnement.
-
-La proposition qui a été rejetée, avec trois paragraphes expliquant pourquoi. La revue où un mainteneur explique qu'une approche ne survivra pas aux écritures concurrentes. Le rapport de bug où l'hypothèse de quelqu'un meurt en public, avec son nom dessus, sans crispation, et le thread laissé en ligne pendant dix ans.
+Le code, c'est le corrigé. Ce que tu n'obtiens nulle part ailleurs, c'est le raisonnement. La proposition qui a été rejetée, avec trois paragraphes expliquant pourquoi. La revue où un mainteneur explique qu'une approche ne survivra pas aux écritures concurrentes. Le rapport de bug où l'hypothèse de quelqu'un meurt en public, avec son nom dessus, sans crispation, et le thread laissé en ligne pendant dix ans.
 
 Il y a une version pratique de ça. La prochaine fois qu'une mise à jour te casse, l'explication est dans un thread d'il y a deux ans, écrite par celui qui a fait le changement et qui savait ce qu'il coûterait. La plupart des équipes ne le lisent jamais. Elles patchent le symptôme et repaient à la version majeure suivante.
 

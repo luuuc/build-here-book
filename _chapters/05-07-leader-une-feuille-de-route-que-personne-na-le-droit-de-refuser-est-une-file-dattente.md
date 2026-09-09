@@ -19,7 +19,7 @@ seo:
 
 La roadmap est validée. Quelques jours plus tard, tu transfères un mail du client qui représente quarante pour cent du revenu, avec une ligne au-dessus.
 
-> "Celui-là, on doit le faire."
+> "Celui-là, on doit le faire !"
 
 Tu n'as pas tort. Les perdre termine l'année.
 

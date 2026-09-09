@@ -29,13 +29,11 @@ Tu le penses sincèrement. Rien ne bouge.
 
 Les gens n'écoutent pas ce qui est déclaré. Ils regardent ce qui arrive à celui qui y va en premier.
 
-Une seule scène fixe la règle pour des mois. Un incident signalé publiquement, et cette personne discrètement écartée du projet intéressant le mois suivant. Une erreur assumée en réunion, suivie d'un silence une seconde de trop. Aucune sanction formelle n'est nécessaire. Il suffit que le coût soit visible une fois.
+Une seule scène fixe la règle pour des mois. Un incident signalé publiquement, et cette personne discrètement écartée du projet intéressant le mois suivant. Une erreur assumée en réunion, suivie d'un silence une seconde de trop. Aucune sanction formelle n'est nécessaire. Il suffit que le coût soit visible une fois. Quand ceux qui signalent encore sont uniquement des seniors installés, l'endroit est sûr pour eux et pour personne d'autre.
 
 Il y a un vrai argument en face. Les erreurs doivent avoir des conséquences, et un endroit où il ne se passe jamais rien n'est pas un endroit sûr, c'est un endroit mou. Alors attache la conséquence au motif, pas au signalement. Livrer la même migration non testée pour la troisième fois mérite d'être nommé. La signaler dans l'heure, c'est faire son travail.
 
-Compte qui a signalé une erreur ces six derniers mois. Si ce sont uniquement des seniors installés, l'endroit est sûr pour eux et pour personne d'autre.
-
-Une équipe qui cache ses erreurs n'en fait pas moins. Elle te les annonce plus tard, quand elles coûtent plus cher, en général un vendredi.
+Une équipe qui cache ses erreurs n'en fait pas moins. Elle te les annonce plus tard, quand elles coûtent plus cher, en général le jour où plus personne ne peut réagir.
 
 ## À essayer
 

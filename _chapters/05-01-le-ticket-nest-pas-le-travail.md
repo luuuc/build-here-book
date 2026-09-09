@@ -29,7 +29,7 @@ Personne ne demande ce qu'un client peut faire aujourd'hui qu'il ne pouvait pas 
 
 Un ticket est un outil de coordination. Il empêche quatre personnes de se marcher dessus sur le même fichier. C'est tout ce pour quoi il a été construit.
 
-Il devient un problème le jour où il se transforme en unité de mesure. La façon la moins chère de faire monter un compteur, c'est de découper le travail plus fin. Les tickets rétrécissent, le tableau a l'air plus sain chaque semaine, le produit reste où il était. Personne n'a décidé ça et personne ne triche. Les gens visent ce qui est regardé.
+Il devient un problème le jour où il se transforme en unité de mesure. La façon la moins chère de faire monter un compteur, c'est de découper le travail plus fin. Les tickets rétrécissent, le tableau a l'air plus sain chaque semaine, le produit reste où il était. Il n'y a pas de tricherie. Les gens visent ce qui est regardé.
 
 Garde le tableau. Compter n'a jamais été le problème. Ne compter que ça, si. Une équipe qui annonce son chiffre et ne peut nommer une seule chose qu'un utilisateur sait faire maintenant a passé trois semaines à être occupée.
 
@@ -43,4 +43,4 @@ Remplis-la, ou laisse-la vide. Vide, à côté de trente tickets fermés, ça en
 
 ## À discuter
 
-Notre dernier sprint que tout le monde a qualifié de réussi, il a changé quoi, et pour quel client nommément ?
+Quel client peut faire aujourd'hui quelque chose qu'il ne pouvait pas faire avant notre dernier bon sprint ?

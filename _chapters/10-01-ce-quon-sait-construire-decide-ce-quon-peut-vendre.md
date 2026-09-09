@@ -31,9 +31,7 @@ Une entreprise dont le produit est du logiciel n'exécute pas sa stratégie avec
 
 Quelqu'un a décidé, il y a deux ans, de stocker un prix par produit. Une colonne, une devise. Le prix régional est aujourd'hui un trimestre de travail au lieu d'un champ dans un écran d'admin. Cette colonne est présente dans chaque conversation sur les prix que l'entreprise tient, et personne dans la réunion de direction ne sait qu'elle existe.
 
-Traite la tech comme un service et tu obtiens trois échecs, dont un silencieux. Des promesses commerciales faites sans idée de ce qu'elles coûtent. Des choix de construction optimisés sur le critère le plus proche sous la main, en général l'élégance. Et le silencieux, une option abandonnée parce que tout le monde dans la réunion a supposé qu'elle était hors de portée, alors que deux étages plus bas quelqu'un savait que c'était quinze jours de travail.
-
-Les engagements ratés ont droit à un post mortem. Les options ratées n'ont droit à rien, jamais, et elles sont plus nombreuses.
+Traite la tech comme un service et tu obtiens trois échecs, dont un silencieux. Des promesses commerciales faites sans idée de ce qu'elles coûtent. Des choix de construction optimisés sur le critère le plus proche sous la main, en général l'élégance. Et le silencieux, une option jamais posée sur la table parce que toute la salle l'a supposée hors de portée. Les engagements ratés ont droit à un post mortem. Les options ratées n'ont droit à rien, jamais, et elles sont plus nombreuses.
 
 Rien de tout ça ne finit avec des ingénieurs qui décident ce qu'on vend. Le jugement commercial est une vraie compétence et la plupart des ingénieurs ne l'ont pas. Ce qui est bon marché, ce qui est cher, ce qui est hors de portée, ça a sa place dans la salle comme une entrée, pas comme une estimation produite deux semaines plus tard.
 

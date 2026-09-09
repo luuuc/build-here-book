@@ -17,7 +17,7 @@ seo:
 
 ## Le réflexe
 
-> "Ça, c'est le domaine de l'équipe data."
+> "Ça, c'est le domaine de l'équipe data !"
 
 Chacun lit dans son couloir. Le back n'ouvre jamais le fichier de design. Le marketing ne sait pas démontrer le produit sur lequel il écrit.
 
@@ -35,7 +35,7 @@ Le support émet un remboursement. La facturation annule le débit. Rien ne rév
 
 C'est invisible depuis n'importe quel couloir. C'est visible pour celui qui lit des tickets de support qu'il n'est pas obligé de lire, et cette personne devient celle vers qui tout le monde se tourne. Le rôle n'apparaît quasiment jamais sur l'organigramme, et il vaut plus que la plupart des titres qui y figurent.
 
-Lire à côté n'est pas commenter à côté. Un avis dans le canal d'une autre équipe en semaine un ne te rapporte rien et leur coûte un après-midi. Lis d'abord. Assez longtemps pour te tromper en privé.
+Lire à côté n'est pas commenter à côté. Un avis dans le canal d'une autre équipe en semaine un ne te rapporte rien et leur coûte une demi-journée. Lis d'abord. Assez longtemps pour te tromper en privé.
 
 ## À essayer
 

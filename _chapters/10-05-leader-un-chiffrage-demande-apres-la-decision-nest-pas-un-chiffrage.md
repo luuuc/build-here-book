@@ -23,17 +23,15 @@ seo:
 
 ## Le réflexe builder
 
-> "Sur les trois derniers engagements, qui savait ce que ça coûtait à construire, et il l'a su quand ?"
+Tu reprends les trois derniers engagements et tu regardes qui savait ce que ça coûtait à construire, et quand il l'a su.
 
 ## Pourquoi
 
-Les deux entrées précédentes demandent à quelqu'un d'amener une contrainte dans la salle. Regarde qui décide de la composition de la salle.
+Regarde qui décide de la composition de la salle. Un chiffrage produit après un engagement ne peut faire que deux choses. Le confirmer, ou faire passer quelqu'un pour un frein sur une chose déjà annoncée. Personne ne choisit la seconde deux fois. Alors les estimations qui reviennent après coup sont larges, prudentes et conformes, et tu conclus que l'équipe manque d'ambition.
 
-Un chiffrage produit après un engagement ne peut faire que deux choses. Le confirmer, ou faire passer quelqu'un pour un frein sur une chose déjà annoncée. Personne ne choisit la seconde deux fois. Alors les estimations qui reviennent après coup sont larges, prudentes et conformes, et tu conclus que l'équipe manque d'ambition.
+Le coût qui compte n'est pas l'engagement raté, parce que celui-là a droit à sa réunion. C'est l'option qui n'a jamais été posée sur la table. Tout le monde a supposé que c'était hors de portée, et deux étages plus bas quelqu'un savait que c'était quinze jours. Cette conversation n'a jamais eu lieu, donc elle n'apparaît nulle part, et il n'existe aucun moment de l'année où tu apprendrais qu'elle aurait dû avoir lieu.
 
-Le coût qui compte n'est pas l'engagement raté, parce que celui-là a droit à sa réunion. C'est l'option que personne n'a posée sur la table. Tout le monde a supposé que c'était hors de portée, et deux étages plus bas quelqu'un savait que c'était quinze jours. Cette conversation n'a jamais eu lieu, donc elle n'apparaît nulle part, et il n'existe aucun moment de l'année où tu apprendrais qu'elle aurait dû avoir lieu.
-
-L'objection est bonne. Quelqu'un de technique dans une discussion commerciale répond souvent dans la mauvaise monnaie, transforme un arbitrage en revue d'architecture, et fait perdre quarante minutes à six personnes. Alors définis le siège au lieu d'ouvrir la porte. Pas une estimation. Trois lignes, en dates et en argent, sans un nom d'outil dedans. Ce qui est bon marché, ce qui est cher, ce qui est hors de portée. C'est une compétence, elle s'apprend en trois réunions, et quelqu'un doit dire que c'est le livrable attendu.
+Quelqu'un de technique dans une discussion commerciale répond souvent dans la mauvaise monnaie, transforme un arbitrage en revue d'architecture, et fait perdre quarante minutes à six personnes. Alors définis le siège au lieu d'ouvrir la porte. Pas une estimation. Trois lignes, en dates et en argent, sans un nom d'outil dedans. Ce qui est bon marché, ce qui est cher, ce qui est hors de portée. C'est une compétence, elle s'apprend en trois réunions, et quelqu'un doit dire que c'est le livrable attendu.
 
 Ici, la salle n'est souvent pas une réunion. C'est un appel, un dîner, une réponse à un investisseur sur WhatsApp un dimanche. Tu es dans toutes ces salles et personne d'autre n'y est. Ce que tu ne fais pas entrer avec toi n'entrera pas.
 

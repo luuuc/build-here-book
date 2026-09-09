@@ -118,7 +118,7 @@ Ce qui ne marche pas : les affirmations sur ce que font les bonnes équipes. Per
 
 Une action, cette semaine, sans budget et sans réorganisation.
 
-Un bon "À essayer" est assez précis pour que le vendredi tu saches si tu l'as fait. "Sois plus curieux" ne se vérifie pas. "Trente minutes, une chose que tu utilises sans la comprendre" se vérifie.
+Un bon "À essayer" est assez précis pour qu'en fin de semaine tu saches si tu l'as fait. "Sois plus curieux" ne se vérifie pas. "Trente minutes, une chose que tu utilises sans la comprendre" se vérifie.
 
 Quand c'est la formulation qui est difficile, donne-la mot pour mot. Une phrase toute prête est souvent la seule chose entre l'intention et le fait de le faire.
 
