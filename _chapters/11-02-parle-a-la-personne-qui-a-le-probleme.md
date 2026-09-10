@@ -2,9 +2,9 @@
 layout: chapter
 title: "Parle à la personne qui a le problème"
 part: "Client"
-order: 56
+order: 57
 metadata:
-  principle: "43"
+  principle: "44"
   reading_time_in_minutes: 2
 categories:
   - client

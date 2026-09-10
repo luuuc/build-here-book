@@ -2,9 +2,9 @@
 layout: chapter
 title: "Ce qu'on sait construire décide ce qu'on peut vendre"
 part: "Technologie et business"
-order: 50
+order: 51
 metadata:
-  principle: "38"
+  principle: "39"
   reading_time_in_minutes: 2
 categories:
   - technologie

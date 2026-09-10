@@ -1,10 +1,10 @@
 ---
 layout: chapter
 title: "Parle du problème avant de parler de toi"
-part: "Visibilité"
-order: 63
+part: "Distribution"
+order: 64
 metadata:
-  principle: "49"
+  principle: "50"
   reading_time_in_minutes: 1
 categories:
   - visibilite

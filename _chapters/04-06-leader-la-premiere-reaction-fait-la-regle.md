@@ -4,7 +4,7 @@ title: "⇄ La première réaction fait la règle"
 part: "Ownership"
 order: 22
 metadata:
-  principle: "18"
+  principle: "16"
   reading_time_in_minutes: 2
 categories:
   - ownership

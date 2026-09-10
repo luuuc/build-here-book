@@ -1,18 +1,18 @@
 ---
 layout: chapter
 title: "Mets ton nom dessus"
-part: "Visibilité"
-order: 65
+part: "La trace"
+order: 68
 metadata:
-  principle: "51"
+  principle: "52"
   reading_time_in_minutes: 3
 categories:
+  - trace
   - visibilite
-  - distribution
-  - marketing
+  - reference
 seo:
   description: "Rien ici ne te demande de devenir la personne sur le panel. La modestie n'est pas le problème."
-  keywords: "build here, visibilite, tech afrique, builder, mets, dessus"
+  keywords: "build here, trace, visibilite, tech afrique, builder, mets, dessus"
 ---
 
 ## Le réflexe

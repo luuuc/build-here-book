@@ -4,7 +4,7 @@ title: "Être bloqué est une décision"
 part: "Ownership"
 order: 24
 metadata:
-  principle: "17"
+  principle: "18"
   reading_time_in_minutes: 2
 categories:
   - ownership

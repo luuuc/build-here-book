@@ -4,7 +4,7 @@ title: "Comment écrire une entrée"
 description: "Le format, bloc par bloc"
 show_chapter_number: false
 part: "Annexes"
-order: 66
+order: 83
 metadata:
   reading_time_in_minutes: 8
 categories:
@@ -189,3 +189,21 @@ Une entrée qui s'allonge est en général deux entrées sous un seul titre. Cou
 Écris-la contre [les douze tests](/chapters/a2-les-douze-tests.html) avant de l'envoyer. Une entrée qui y survit arrive prête à être discutée, ce qui est le seul état dans lequel elle vaut la peine d'être lue.
 
 Inclus ce qu'elle t'a coûté. Pas comme une histoire, comme un mécanisme. L'entrée est la chose que tu aurais voulu qu'on te tende quatre ans plus tôt, et ce qui la rend transmissible, c'est la partie que tu as dû payer.
+
+### Deux portes, le même endroit
+
+**Une pull request sur [le dépôt](https://github.com/{{ site.repository }}).** Un fichier dans `_chapters/`, le front matter copié sur n'importe quelle entrée existante. Le modèle de pull request est la liste des douze tests en cases à cocher. La discussion se passe dans la pull request, en public, et elle reste en ligne après.
+
+**Un mail à [{{ site.contact_email }}](mailto:{{ site.contact_email }}).** Le texte dans le corps du message, sans mise en forme particulière. Je m'occupe du fichier.
+
+Les deux portes mènent au même endroit et rien ne distingue les entrées arrivées par l'une ou par l'autre. Si tu n'as jamais ouvert de pull request, prends le mail sans y penser une seconde, ou prends la pull request et lis *[Ta première contribution](/chapters/16-01-ta-premiere-contribution.html)*, qui décrit exactement ce qui va se passer.
+
+Le [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md) du dépôt donne les détails mécaniques, le nommage des fichiers et le champ `order`.
+
+### Ce qui se passe ensuite
+
+Elle est relue contre les douze tests, et la relecture est écrite. Si elle échoue, tu sauras sur quel test, ce qui vaut mieux qu'un silence poli.
+
+Si elle tient, elle rejoint le livre **sous ton nom**, avec un lien vers où tu veux. Pas besoin d'être connu, pas besoin d'avoir déjà écrit, pas besoin de me connaître.
+
+Un livre qui demande d'arrêter de travailler en silence ne peut pas se relire en privé. C'est pour ça que la porte par défaut est celle qui laisse une trace publique, et pour ça que l'autre reste ouverte sans condition.

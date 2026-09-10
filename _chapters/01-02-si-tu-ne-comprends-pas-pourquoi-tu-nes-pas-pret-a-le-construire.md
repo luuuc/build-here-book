@@ -4,7 +4,7 @@ title: "Si tu ne comprends pas pourquoi, tu n'es pas prêt à le construire"
 part: "Curiosité"
 order: 5
 metadata:
-  principle: "02"
+  principle: "2"
   reading_time_in_minutes: 1
 categories:
   - curiosite

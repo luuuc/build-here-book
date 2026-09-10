@@ -1,0 +1,46 @@
+---
+layout: chapter
+title: "Publie là où on cherche"
+part: "Se faire trouver"
+order: 74
+metadata:
+  principle: "57"
+  reading_time_in_minutes: 2
+categories:
+  - visibilite
+  - distribution
+  - trace
+seo:
+  description: "Personne ne cherche ton nom. On cherche un message d'erreur, un nom de version, deux outils qui refusent de se parler."
+  keywords: "build here, visibilite, distribution, tech afrique, builder, publie, cherche"
+---
+
+## Le réflexe
+
+> "C'est sur notre blog."
+
+Ou dans un document partagé, ou dans un canal ouvert à toute l'entreprise. C'est écrit, c'est accessible, et personne n'arrivera jamais dessus.
+
+## Le réflexe builder
+
+> "Quelqu'un qui a ce problème tape quoi, et où ?"
+
+## Pourquoi
+
+Personne ne cherche ton nom. On cherche un message d'erreur, un nom de version, deux outils qui refusent de se parler. La trace n'est trouvée que par quelqu'un qui a déjà le problème, ce qui décide tout le reste.
+
+Le titre doit donc contenir les mots du problème et pas les mots de ta conclusion. *Ce que j'ai appris sur la résilience* ne se cherche pas. *Le job d'import meurt quand un nom de fichier contient une virgule* se cherche, par exactement les gens à qui il sert, et il continue de se chercher pendant des années.
+
+L'endroit compte autant que le titre, et c'est là que la plupart des traces meurent. Une réponse posée sous la question qui l'a provoquée, un ticket dans le tracker de la dépendance concernée, un dépôt public, un texte à une adresse qui t'appartient. Ces endroits sont indexés, ils sont permanents, et personne ne décide à ta place qui les voit. Une plateforme sociale fait l'inverse des trois. Elle te donne une audience aujourd'hui et efface la chose dans quarante-huit heures.
+
+Ce qui ne veut pas dire qu'il faut ignorer l'endroit où les gens sont déjà. Ça veut dire l'ordre. Pose d'abord la chose permanente, puis annonce-la là où on te lit. L'annonce est jetable et c'est normal. Ce qu'elle pointe ne doit pas l'être. La même logique tourne pour les produits, et la section Distribution la traite à cette échelle. Ici c'est toi le produit qu'on ne trouve pas, et le chemin se conçoit de la même façon.
+
+## À essayer
+
+Prends ta dernière trace. Tape dans un moteur de recherche la phrase exacte que quelqu'un dans ta situation taperait, sans ton nom dedans, sans le nom de ton entreprise.
+
+Regarde où tu arrives. Si tu n'es pas dans les deux premières pages, le titre est le problème avant le contenu.
+
+## À discuter
+
+La dernière chose qu'on a publiée, quelle recherche y mène ? Est-ce que quelqu'un ici peut la taper là, maintenant ?

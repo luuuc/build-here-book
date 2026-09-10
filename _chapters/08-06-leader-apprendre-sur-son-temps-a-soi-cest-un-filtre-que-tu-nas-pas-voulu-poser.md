@@ -4,7 +4,7 @@ title: "⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voul
 part: "Apprentissage"
 order: 43
 metadata:
-  principle: "35"
+  principle: "33"
   reading_time_in_minutes: 2
 categories:
   - apprentissage

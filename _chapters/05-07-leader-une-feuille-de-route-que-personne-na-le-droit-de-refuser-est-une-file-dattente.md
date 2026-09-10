@@ -4,7 +4,7 @@ title: "⇄ Une feuille de route que personne n'a le droit de refuser est une fi
 part: "Produit"
 order: 28
 metadata:
-  principle: "24"
+  principle: "21"
   reading_time_in_minutes: 2
 categories:
   - produit

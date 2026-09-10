@@ -1,0 +1,32 @@
+---
+layout: chapter
+title: "La trace"
+show_chapter_number: false
+part: "La trace"
+order: 67
+metadata:
+  reading_time_in_minutes: 1
+categories:
+  - trace
+  - visibilite
+  - ecriture
+seo:
+  description: "L'incident de mars, tu l'as expliqué quatre fois. Quatre transmissions, quatre personnes, et le compteur s'arrête là."
+  keywords: "build here, trace, visibilite, tech afrique, builder"
+---
+
+L'incident de mars, tu l'as expliqué quatre fois. À ton binôme, au support, en rétro, et à quelqu'un qui repassait par là.
+
+Quatre transmissions, quatre personnes, et le compteur s'arrête là. La cinquième explication n'aura pas lieu, parce que dans six mois tu ne sauras plus dans quel ordre les choses sont arrivées.
+
+Cette section porte sur la différence entre expliquer et laisser. Une explication a une audience de un, choisie par le hasard des couloirs. Une trace a une audience que tu ne choisis pas, que tu ne rencontreras pas, et qui arrive des années après toi.
+
+---
+
+## Les entrées de cette section
+
+- [Mets ton nom dessus](/chapters/14-01-mets-ton-nom-dessus.html)
+- [Un avis n'est pas un artefact](/chapters/14-02-un-avis-nest-pas-un-artefact.html)
+- [Écris ce qui a cassé](/chapters/14-03-ecris-ce-qui-a-casse.html)
+- [Réponds à la question en public](/chapters/14-04-reponds-a-la-question-en-public.html)
+- [⇄ L'absence de règle est une interdiction](/chapters/14-05-leader-labsence-de-regle-est-une-interdiction.html)

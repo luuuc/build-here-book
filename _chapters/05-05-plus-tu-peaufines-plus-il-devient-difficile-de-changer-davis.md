@@ -4,7 +4,7 @@ title: "Plus tu peaufines, plus il devient difficile de changer d'avis"
 part: "Produit"
 order: 30
 metadata:
-  principle: "22"
+  principle: "23"
   reading_time_in_minutes: 2
 categories:
   - produit

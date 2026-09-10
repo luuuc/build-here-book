@@ -3,7 +3,7 @@ layout: chapter
 title: "Technologie et business"
 show_chapter_number: false
 part: "Technologie et business"
-order: 49
+order: 50
 metadata:
   reading_time_in_minutes: 1
 categories:

@@ -1,9 +1,9 @@
 ---
 layout: chapter
-title: "Visibilité"
+title: "Distribution"
 show_chapter_number: false
-part: "Visibilité"
-order: 59
+part: "Distribution"
+order: 60
 metadata:
   reading_time_in_minutes: 1
 categories:
@@ -11,15 +11,15 @@ categories:
   - distribution
   - marketing
 seo:
-  description: "C'est la dernière section, et c'est celle vers laquelle tout le livre marchait."
-  keywords: "build here, visibilite, tech afrique, builder"
+  description: "Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du code."
+  keywords: "build here, distribution, marketing, tech afrique, builder"
 ---
 
-C'est la dernière section, et c'est celle vers laquelle tout le livre marchait.
+Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du code.
 
-Tout ce qui précède te rend meilleur. Rien de tout ça ne te rend visible. Ce sont deux problèmes différents, et ici le second est le plus difficile des deux.
+La construction est visible et le chemin ne l'est pas. C'est pour ça que le chemin est financé en dernier, par quelqu'un qui n'était dans aucune des décisions qui l'ont rendu nécessaire.
 
-Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du code. Un builder non plus. Les entrées qui suivent parlent des deux, et la dernière parle de toi.
+Cette section ferme le premier mouvement. Elle porte sur le produit qu'on ne trouve pas. Le mouvement suivant porte sur le builder qu'on ne trouve pas, et ce sont deux problèmes qui se ressemblent assez pour être confondus sans jamais être le même.
 
 ---
 
@@ -30,4 +30,3 @@ Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du c
 - [Le marketing n'est pas de la décoration](/chapters/12-04-le-marketing-nest-pas-de-la-decoration.html)
 - [Parle du problème avant de parler de toi](/chapters/12-05-parle-du-probleme-avant-de-parler-de-toi.html)
 - [⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités](/chapters/12-06-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html)
-- [Mets ton nom dessus](/chapters/12-07-mets-ton-nom-dessus.html)

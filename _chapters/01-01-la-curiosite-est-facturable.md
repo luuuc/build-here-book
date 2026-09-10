@@ -4,7 +4,7 @@ title: "La curiosité est facturable"
 part: "Curiosité"
 order: 4
 metadata:
-  principle: "01"
+  principle: "1"
   reading_time_in_minutes: 2
 categories:
   - curiosite

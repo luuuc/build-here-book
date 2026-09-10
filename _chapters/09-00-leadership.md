@@ -27,3 +27,4 @@ Et lis-les même si personne ne te reporte. La moitié de ceux qui fixent les co
 
 - [Une bonne décision peut quand même perdre](/chapters/09-02-une-bonne-decision-peut-quand-meme-perdre.html)
 - [On fabrique l'environnement dont on se plaint](/chapters/09-06-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
+- [Le filtre que tu fais tourner](/chapters/09-07-le-filtre-que-tu-fais-tourner.html)

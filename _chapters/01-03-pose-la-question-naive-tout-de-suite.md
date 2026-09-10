@@ -4,7 +4,7 @@ title: "Pose la question naïve tout de suite"
 part: "Curiosité"
 order: 6
 metadata:
-  principle: "03"
+  principle: "3"
   reading_time_in_minutes: 2
 categories:
   - curiosite

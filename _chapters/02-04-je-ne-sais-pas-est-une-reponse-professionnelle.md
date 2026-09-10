@@ -4,7 +4,7 @@ title: "\"Je ne sais pas\" est une réponse professionnelle"
 part: "Ego et honnêteté intellectuelle"
 order: 13
 metadata:
-  principle: "09"
+  principle: "9"
   reading_time_in_minutes: 2
 categories:
   - ego

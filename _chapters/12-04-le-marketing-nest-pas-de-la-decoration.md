@@ -1,10 +1,10 @@
 ---
 layout: chapter
 title: "Le marketing n'est pas de la décoration"
-part: "Visibilité"
-order: 62
+part: "Distribution"
+order: 63
 metadata:
-  principle: "48"
+  principle: "49"
   reading_time_in_minutes: 2
 categories:
   - visibilite

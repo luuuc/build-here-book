@@ -4,7 +4,7 @@ title: "Ton code n'est pas ton bébé"
 part: "Ego et honnêteté intellectuelle"
 order: 12
 metadata:
-  principle: "08"
+  principle: "8"
   reading_time_in_minutes: 3
 categories:
   - ego

@@ -4,7 +4,7 @@ title: "Une bonne nouvelle peut attendre. Une mauvaise, non"
 part: "Ownership"
 order: 23
 metadata:
-  principle: "16"
+  principle: "17"
   reading_time_in_minutes: 1
 categories:
   - ownership

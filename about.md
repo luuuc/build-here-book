@@ -20,9 +20,11 @@ description: Un livre ouvert, à compléter
 
 ## Ce que c'est
 
-Des entrées de deux minutes, écrites pour ceux qui fabriquent des choses ici. Chacune tient seule. Aucune n'est nouvelle, et c'est le sujet : tout ça est réglé depuis longtemps ailleurs, et n'est jamais devenu la norme ici.
+Des entrées de deux minutes, écrites pour ceux qui fabriquent des choses ici. Chacune tient seule. Aucune n'est nouvelle, et c'est le sujet. Tout ça est réglé depuis longtemps ailleurs, et n'est jamais devenu la norme ici.
 
-L'[ouverture](/chapters/00-ouverture.html) raconte d'où vient le livre, y compris l'endroit où je me suis planté.
+Le livre a deux mouvements. Le premier te rend meilleur. Le second rend ton travail visible. Ce sont deux problèmes différents, et le second est le plus difficile des deux.
+
+L'[ouverture](/chapters/00-ouverture.html) raconte d'où vient le livre, y compris l'endroit où je me suis planté. L'[escalier](/chapters/17-lescalier.html) est la dernière page.
 
 ## Écris la suivante
 
@@ -30,7 +32,13 @@ Il manque à ce livre les entrées que je ne pouvais pas écrire, parce que je n
 
 L'[annexe 1](/chapters/a1-comment-ecrire-une-entree.html) donne le format. L'[annexe 2](/chapters/a2-les-douze-tests.html) donne les tests à faire passer à une entrée avant de la publier, y compris à l'une des miennes que tu trouves fausse.
 
-Envoie-la à [{{ site.contact_email }}](mailto:{{ site.contact_email }}). Si elle tient, on la travaille ensemble et elle rejoint le livre, sous ton nom.
+Deux portes, le même endroit.
+
+**Une pull request** sur [le dépôt](https://github.com/{{ site.repository }}). La discussion reste en ligne, sous ton nom, et sert au suivant. La mécanique est dans [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md).
+
+**Un mail** à [{{ site.contact_email }}](mailto:{{ site.contact_email }}). Le texte dans le corps du message, je m'occupe du fichier.
+
+Rien ne distingue les entrées arrivées par l'une ou par l'autre. Si elle tient, on la travaille ensemble et elle rejoint le livre, sous ton nom.
 
 Pas besoin d'être connu. C'est un peu le sujet.
 
@@ -42,9 +50,10 @@ L'[annexe 3](/chapters/a3-deja-ecrit.html) liste seize titres, de 1954 à 2018, 
 
 Jekyll. GitHub Pages. [Le source est ici](https://github.com/{{ site.repository }}).
 
-Une coquille à corriger ? Une pull request.<br>
-Un désaccord ? [Ouvre une discussion](https://github.com/{{ site.repository }}/discussions).<br>
-Envie de le traduire ? Vas-y.
+Une entrée à proposer ? [Une pull request](https://github.com/{{ site.repository }}/pulls).<br>
+Une coquille à corriger ? Une pull request aussi.<br>
+Un désaccord avec une entrée ? [Ouvre une discussion](https://github.com/{{ site.repository }}/discussions).<br>
+Envie de le traduire ? Dis-le d'abord, qu'on ne le fasse pas deux fois.
 
 ## Contact
 

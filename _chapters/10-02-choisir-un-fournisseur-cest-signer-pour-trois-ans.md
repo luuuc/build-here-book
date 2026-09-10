@@ -2,9 +2,9 @@
 layout: chapter
 title: "Choisir un fournisseur, c'est signer pour trois ans"
 part: "Technologie et business"
-order: 51
+order: 52
 metadata:
-  principle: "39"
+  principle: "40"
   reading_time_in_minutes: 2
 categories:
   - technologie

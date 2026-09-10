@@ -4,7 +4,7 @@ title: "Le client ne s'intéresse pas à ton architecture"
 part: "Produit"
 order: 29
 metadata:
-  principle: "21"
+  principle: "22"
   reading_time_in_minutes: 2
 categories:
   - produit

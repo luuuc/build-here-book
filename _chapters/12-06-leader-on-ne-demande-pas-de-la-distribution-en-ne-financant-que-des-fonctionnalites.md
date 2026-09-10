@@ -1,10 +1,10 @@
 ---
 layout: chapter
 title: "⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités"
-part: "Visibilité"
-order: 64
+part: "Distribution"
+order: 65
 metadata:
-  principle: "50"
+  principle: "51"
   reading_time_in_minutes: 2
 categories:
   - visibilite

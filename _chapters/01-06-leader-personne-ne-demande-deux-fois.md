@@ -4,7 +4,7 @@ title: "⇄ Personne ne demande deux fois"
 part: "Curiosité"
 order: 9
 metadata:
-  principle: "06"
+  principle: "6"
   reading_time_in_minutes: 2
 categories:
   - curiosite

@@ -4,7 +4,7 @@ title: "Ton marché peut être local. Ton niveau, non"
 part: "Apprentissage"
 order: 44
 metadata:
-  principle: "33"
+  principle: "34"
   reading_time_in_minutes: 2
 categories:
   - apprentissage

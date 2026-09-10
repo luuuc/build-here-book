@@ -4,7 +4,7 @@ title: "Ne t'arrête pas à la première réponse"
 part: "Curiosité"
 order: 8
 metadata:
-  principle: "05"
+  principle: "5"
   reading_time_in_minutes: 2
 categories:
   - curiosite

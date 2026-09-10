@@ -4,7 +4,7 @@ title: "Ce qui manque ici, ce n'est pas le savoir"
 part: "Apprentissage"
 order: 45
 metadata:
-  principle: "34"
+  principle: "35"
   reading_time_in_minutes: 2
 categories:
   - apprentissage
