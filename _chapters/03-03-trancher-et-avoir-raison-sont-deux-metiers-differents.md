@@ -43,4 +43,4 @@ Si tu es celui qui tranche, parle en dernier. Ton avis exprimé en premier te co
 
 ## À discuter
 
-Dans notre dernière réunion sérieuse, à quel moment on est passé d'explorer à trancher ?
+Dans notre dernière réunion sérieuse, à quel moment on est passé d'explorer à trancher ?

@@ -39,13 +39,13 @@ Le coût remonte plus tard, mal diagnostiqué. Définis le marketing comme la co
 
 Quatre questions, par écrit, sans adjectifs.
 
-> Pour qui :
-> À la place de quoi aujourd'hui :
-> Ce qui change pour eux, concrètement :
-> Pourquoi maintenant :
+> Pour qui :
+> À la place de quoi aujourd'hui :
+> Ce qui change pour eux, concrètement :
+> Pourquoi maintenant :
 
 Fais répondre trois personnes séparément, puis mets les réponses côte à côte. Là où elles divergent, ce n'est pas un problème de communication.
 
 ## À discuter
 
-Cite le dernier client à qui on aurait dû dire non. Qu'est-ce que dans notre façon de nous décrire l'a laissé passer ?
+Cite le dernier client à qui on aurait dû dire non. Qu'est-ce que dans notre façon de nous décrire l'a laissé passer ?

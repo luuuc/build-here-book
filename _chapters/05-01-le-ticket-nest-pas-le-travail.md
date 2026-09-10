@@ -23,7 +23,7 @@ Personne ne demande ce qu'un client peut faire aujourd'hui qu'il ne pouvait pas 
 
 ## Le réflexe builder
 
-> "Dix-huit fermés. Qu'est-ce qui a changé pour l'utilisateur ?"
+> "Dix-huit fermés. Qu'est-ce qui a changé pour l'utilisateur ?"
 
 ## Pourquoi
 
@@ -37,10 +37,10 @@ Garde le tableau. Compter n'a jamais été le problème. Ne compter que ça, si.
 
 À la fin de chaque cycle, avant n'importe quel tableau de bord, une ligne.
 
-> Ce qu'un utilisateur peut faire maintenant et ne pouvait pas avant : ...
+> Ce qu'un utilisateur peut faire maintenant et ne pouvait pas avant : ...
 
 Remplis-la, ou laisse-la vide. Vide, à côté de trente tickets fermés, ça en dit plus que n'importe quelle courbe de vélocité.
 
 ## À discuter
 
-Quel client peut faire aujourd'hui quelque chose qu'il ne pouvait pas faire avant notre dernier bon sprint ?
+Quel client peut faire aujourd'hui quelque chose qu'il ne pouvait pas faire avant notre dernier bon sprint ?

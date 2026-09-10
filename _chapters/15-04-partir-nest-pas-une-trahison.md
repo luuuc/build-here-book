@@ -45,4 +45,4 @@ Publie-en une, sous ton nom, avant de donner ta réponse. Ça ne changera pas ta
 
 ## À discuter
 
-Les trois dernières personnes parties d'ici, qu'est-ce qui reste d'elles qu'on puisse encore ouvrir ?
+Les trois dernières personnes parties d'ici, qu'est-ce qui reste d'elles qu'on puisse encore ouvrir ?

@@ -37,10 +37,10 @@ Ici, la salle n'est souvent pas une réunion. C'est un appel, un dîner, une ré
 
 ## À essayer
 
-→ Avant tout engagement qui pèse plus d'un trimestre, une personne qui construit est dans la boucle, et pas pour chiffrer. Trois lignes : bon marché, cher, hors de portée.
+→ Avant tout engagement qui pèse plus d'un trimestre, une personne qui construit est dans la boucle, et pas pour chiffrer. Trois lignes : bon marché, cher, hors de portée.
 → Demande l'option la moins chère avant de demander le devis de celle que tu as déjà choisie.
-→ Compte. Sur les engagements du trimestre dernier, combien ont été chiffrés avant d'être annoncés ? Si la réponse est zéro, ce que tu appelles un chiffrage est une ratification.
+→ Compte. Sur les engagements du trimestre dernier, combien ont été chiffrés avant d'être annoncés ? Si la réponse est zéro, ce que tu appelles un chiffrage est une ratification.
 
 ## À discuter
 
-Le dernier engagement qu'on a pris envers un client ou un fournisseur, qui savait ce qu'il coûtait à construire, et est-ce qu'il l'a su avant ou après la signature ?
+Le dernier engagement qu'on a pris envers un client ou un fournisseur, qui savait ce qu'il coûtait à construire, et est-ce qu'il l'a su avant ou après la signature ?

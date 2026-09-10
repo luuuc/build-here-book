@@ -39,4 +39,4 @@ Dis que c'est tôt. Laisse-les tranquilles une semaine, puis va voir ce qui s'es
 
 ## À discuter
 
-Qu'est-ce qu'on est encore en train de peaufiner que dix utilisateurs auraient tranché il y a un mois ?
+Qu'est-ce qu'on est encore en train de peaufiner que dix utilisateurs auraient tranché il y a un mois ?

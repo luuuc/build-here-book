@@ -43,4 +43,4 @@ Six mois plus tard, douze textes et une poignée de gens qui comprennent le suje
 
 ## À discuter
 
-Notre dernière release. Cite les gens hors de l'entreprise qui savaient à quoi elle servait avant. On atteint cinq ?
+Notre dernière release. Cite les gens hors de l'entreprise qui savaient à quoi elle servait avant. On atteint cinq ?

@@ -17,7 +17,7 @@ seo:
 
 ## Le réflexe
 
-> "Le problème, c'est qu'ils ne prennent pas d'initiative !"
+> "Le problème, c'est qu'ils ne prennent pas d'initiative !"
 
 Énoncé comme une propriété des personnes.
 
@@ -39,10 +39,10 @@ La plainte qu'on entend à chaque événement, celle selon laquelle les talents 
 
 Prends la plainte que tu répètes le plus sur ton équipe, et retourne la question.
 
-> Qu'est-ce qui, dans cet endroit, rend ce comportement rationnel ?
+> Qu'est-ce qui, dans cet endroit, rend ce comportement rationnel ?
 
 Cherche dans les incitations, pas dans les caractères. La réponse ramène en général à une décision que tu as prise.
 
 ## À discuter
 
-Quelle plainte tourne ici depuis plus d'un an sans qu'on ait changé le système ?
+Quelle plainte tourne ici depuis plus d'un an sans qu'on ait changé le système ?

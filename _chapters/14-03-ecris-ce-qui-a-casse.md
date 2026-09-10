@@ -48,4 +48,4 @@ Publie-le là où quelqu'un qui cherche ce message d'erreur le trouvera. Pas dan
 
 ## À discuter
 
-Notre dernier incident sérieux, où est écrite l'hypothèse fausse qu'on a gardée deux heures ?
+Notre dernier incident sérieux, où est écrite l'hypothèse fausse qu'on a gardée deux heures ?

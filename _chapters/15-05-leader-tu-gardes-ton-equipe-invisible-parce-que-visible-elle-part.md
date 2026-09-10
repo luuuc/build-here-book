@@ -43,4 +43,4 @@ La rétention se paie en argent, en autonomie et en travail intéressant. Elle n
 
 ## À discuter
 
-Si quelqu'un cherche le nom de nos ingénieurs, il trouve quoi ? Et si la réponse est rien, qu'est-ce qu'on croit que ça nous protège de ?
+Si quelqu'un cherche le nom de nos ingénieurs, il trouve quoi ? Et si la réponse est rien, qu'est-ce qu'on croit que ça nous protège de ?

@@ -41,4 +41,4 @@ Suis un seul changement de bout en bout et note chaque endroit où il a attendu.
 
 ## À discuter
 
-Ici, combien de temps entre le code écrit et le client servi ?
+Ici, combien de temps entre le code écrit et le client servi ?

@@ -73,5 +73,5 @@ Le contenu vit dans `_chapters/`. Un fichier par entrée, trié par le champ `or
 
 ## Contact
 
-- **LinkedIn** : [Luc B. Perussault-Diallo](https://www.linkedin.com/in/luc-b-perussault-diallo-99525519)
-- **Discussions** : [GitHub Discussions](https://github.com/luuuc/build-here-book/discussions)
+- **LinkedIn** : [Luc B. Perussault-Diallo](https://www.linkedin.com/in/luc-b-perussault-diallo-99525519)
+- **Discussions** : [GitHub Discussions](https://github.com/luuuc/build-here-book/discussions)

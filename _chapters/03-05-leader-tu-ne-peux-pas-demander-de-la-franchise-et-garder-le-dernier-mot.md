@@ -37,10 +37,10 @@ Tu lis peut-être le calme comme de l'alignement. Demande à trois personnes sé
 
 ## À essayer
 
-→ Demande l'objection au lieu de l'accueillir. "Quel est le point faible de ce plan ?" force une réponse. "Des questions ?" ne coûte rien à esquiver.
+→ Demande l'objection au lieu de l'accueillir. "Quel est le point faible de ce plan ?" force une réponse. "Des questions ?" ne coûte rien à esquiver.
 → Une fois sur trois, concède en public. Change le plan dans la salle, à cause d'une remarque, et dis de qui venait la remarque. C'est la seule preuve qui voyage.
 → Compte. Si tu ne peux pas nommer trois décisions modifiées cette année par quelqu'un plus junior que toi, ton ouverture est déclarative.
 
 ## À discuter
 
-Ici, il arrive quoi à quelqu'un qui contredit un dirigeant devant les autres ? Lequel d'entre nous pourrait dire cette réponse à voix haute, avec lui dans la salle ?
+Ici, il arrive quoi à quelqu'un qui contredit un dirigeant devant les autres ? Lequel d'entre nous pourrait dire cette réponse à voix haute, avec lui dans la salle ?

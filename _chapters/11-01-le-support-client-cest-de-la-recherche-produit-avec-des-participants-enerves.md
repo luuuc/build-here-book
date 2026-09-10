@@ -43,4 +43,4 @@ Corrigée dans le produit. Pas documentée dans un article d'aide.
 
 ## À discuter
 
-Qui a décidé de laisser notre premier motif de contact dans le top trois ?
+Qui a décidé de laisser notre premier motif de contact dans le top trois ?

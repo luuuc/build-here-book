@@ -45,4 +45,4 @@ Puis reviens demain matin. La crédibilité est entièrement dans le retour.
 
 ## À discuter
 
-Quelle affirmation circule ici depuis des mois sans que personne sache d'où elle vient ?
+Quelle affirmation circule ici depuis des mois sans que personne sache d'où elle vient ?

@@ -23,7 +23,7 @@ Tu vois le comportement, tu l'attribues aux personnes, et tu réserves une forma
 
 ## Le réflexe builder
 
-> "À quand remonte la dernière vraie question qu'on m'a posée, et combien de temps j'ai mis à répondre ?"
+> "À quand remonte la dernière vraie question qu'on m'a posée, et combien de temps j'ai mis à répondre ?"
 
 La curiosité n'est pas un trait de caractère. C'est une réponse à une salle.
 
@@ -45,4 +45,4 @@ Une réponse en trois semaines est un non avec de meilleures manières. Dis plut
 
 ## À discuter
 
-Quand quelqu'un ici demande pourquoi, combien de temps passe avant une vraie réponse ?
+Quand quelqu'un ici demande pourquoi, combien de temps passe avant une vraie réponse ?

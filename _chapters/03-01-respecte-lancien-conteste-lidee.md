@@ -47,4 +47,4 @@ Il ne reste que le problème sur la table.
 
 ## À discuter
 
-La dernière fois que quelqu'un a contredit le plus ancien ici, où est-ce que les autres l'ont appris ? En réunion, ou dans le couloir ?
+La dernière fois que quelqu'un a contredit le plus ancien ici, où est-ce que les autres l'ont appris ? En réunion, ou dans le couloir ?

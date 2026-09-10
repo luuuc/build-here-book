@@ -41,4 +41,4 @@ L'arbitrage devient visible, et un refus devient quelque chose qu'on rouvre dans
 
 ## À discuter
 
-C'est quoi la dernière demande significative qu'on a refusée ?
+C'est quoi la dernière demande significative qu'on a refusée ?

@@ -37,11 +37,11 @@ L'endroit où ça se fait détourner est prévisible. Une entrée qui dit que la
 
 En haut de la spec, au-dessus des exigences, deux lignes.
 
-> On suppose : les utilisateurs veulent choisir leur créneau.
-> On a tort si : moins d'un sur cinq touche le sélecteur le premier mois.
+> On suppose : les utilisateurs veulent choisir leur créneau.
+> On a tort si : moins d'un sur cinq touche le sélecteur le premier mois.
 
 Une spec sans rien de falsifiable dedans est une liste de souhaits avec un numéro de version.
 
 ## À discuter
 
-Quelle partie de notre produit n'existe que parce qu'elle était dans un document validé il y a deux ans ?
+Quelle partie de notre produit n'existe que parce qu'elle était dans un document validé il y a deux ans ?

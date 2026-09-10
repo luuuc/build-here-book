@@ -23,7 +23,7 @@ Tu la mets de côté. Tu reliras la doc quand ça se calmera. Trois semaines pas
 
 ## Le réflexe builder
 
-> "Attends ! Je n'ai pas compris ce mot. Il désigne quoi exactement ?"
+> "Attends ! Je n'ai pas compris ce mot. Il désigne quoi exactement ?"
 
 Jour un, la question fait de toi quelqu'un de nouveau. Jour trente, elle fait de toi quelqu'un qui a bluffé pendant un mois.
 
@@ -41,10 +41,10 @@ Certaines salles punissent ça, c'est vrai. Dans celles-là, pose la question à
 
 À la prochaine réunion, quand un terme passe et que tu n'es pas sûr de ce qu'il couvre, arrête et demande. Une formulation qui ne te coûte rien.
 
-> "Juste pour être sûr qu'on parle de la même chose, tu entends quoi par là ?"
+> "Juste pour être sûr qu'on parle de la même chose, tu entends quoi par là ?"
 
 Regarde combien de têtes se tournent vers celui qui répond.
 
 ## À discuter
 
-La dernière question naïve posée en réunion ici venait de qui ?
+La dernière question naïve posée en réunion ici venait de qui ?

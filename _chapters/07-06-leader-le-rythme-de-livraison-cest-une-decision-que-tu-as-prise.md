@@ -17,7 +17,7 @@ seo:
 
 ## Le réflexe
 
-> "Il faut qu'ils livrent plus petit et plus vite !"
+> "Il faut qu'ils livrent plus petit et plus vite !"
 
 Dit dans trois revues consécutives. Rien n'a changé dans la façon dont le travail atteint un client depuis la première.
 
@@ -43,4 +43,4 @@ Chaque porte était une réponse raisonnable à quelque chose qui a cassé une f
 
 ## À discuter
 
-C'est quoi le plus rapide qu'un correctif d'une ligne ait mis pour atteindre un client ici, et quelle étape entre les deux l'un d'entre nous défendrait aujourd'hui ?
+C'est quoi le plus rapide qu'un correctif d'une ligne ait mis pour atteindre un client ici, et quelle étape entre les deux l'un d'entre nous défendrait aujourd'hui ?

@@ -41,4 +41,4 @@ Puis envoie un petit correctif. Une documentation ambiguë compte. La première 
 
 ## À discuter
 
-Est-ce que quelqu'un ici a ouvert une pull request sur une de nos dépendances ? Qu'est-ce qui a arrêté le dernier qui y a pensé ?
+Est-ce que quelqu'un ici a ouvert une pull request sur une de nos dépendances ? Qu'est-ce qui a arrêté le dernier qui y a pensé ?

@@ -43,4 +43,4 @@ Laisse ça hors des heures et la première entrée de cette section revient par 
 
 ## À discuter
 
-Les trois dernières personnes ici qui ont visiblement monté d'un cran, elles ont fait le travail quand ? Dans la journée, ou une fois tout le monde couché à la maison ?
+Les trois dernières personnes ici qui ont visiblement monté d'un cran, elles ont fait le travail quand ? Dans la journée, ou une fois tout le monde couché à la maison ?

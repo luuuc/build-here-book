@@ -23,7 +23,7 @@ Symptôme parti. Ticket suivant.
 
 ## Le réflexe builder
 
-> "Ça marche. Mais pourquoi ça ne marchait pas ?"
+> "Ça marche. Mais pourquoi ça ne marchait pas ?"
 
 Un correctif que tu ne sais pas expliquer est une dette avec un visage sympathique.
 
@@ -35,7 +35,7 @@ Le job d'import est mort dans la nuit. Tu le relances, les chiffres reviennent, 
 
 Et personne ne va te tendre cette couche. Aucun senior du plateau n'a ce système derrière lui. La deuxième réponse sort du code source, ou de la doc du fournisseur, lue par toi, lentement, sur une connexion qui te fait réfléchir à l'utilité de la vidéo.
 
-Deux niveaux suffisent presque toujours. Un template de cinq pourquoi avec une réunion récurrente attachée est la façon dont le travail sur les causes racines est discrètement abandonné. Ça a cassé, pourquoi ? Le champ était vide. Pourquoi il était vide ? Rien n'empêche qu'il soit vide. C'est cette deuxième réponse qui mérite d'être écrite, parce que le suivant ne peut pas y arriver seul.
+Deux niveaux suffisent presque toujours. Un template de cinq pourquoi avec une réunion récurrente attachée est la façon dont le travail sur les causes racines est discrètement abandonné. Ça a cassé, pourquoi ? Le champ était vide. Pourquoi il était vide ? Rien n'empêche qu'il soit vide. C'est cette deuxième réponse qui mérite d'être écrite, parce que le suivant ne peut pas y arriver seul.
 
 ## À essayer
 

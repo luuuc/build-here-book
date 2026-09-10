@@ -47,4 +47,4 @@ Marque ensuite les lignes qu'une personne qui ne te connaît pas peut vérifier 
 
 ## À discuter
 
-La dernière fois que quelqu'un ici a été augmenté ou débauché, qu'est-ce qui était vérifiable de l'extérieur avant que ça arrive ?
+La dernière fois que quelqu'un ici a été augmenté ou débauché, qu'est-ce qui était vérifiable de l'extérieur avant que ça arrive ?

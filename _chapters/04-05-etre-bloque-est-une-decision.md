@@ -41,10 +41,10 @@ Vingt minutes est un plafond, pas un devoir. Ceci vise l'attente par défaut, pa
 
 Vingt minutes à toi avant de demander. Puis demande en montrant le terrain que tu as couvert.
 
-> "Ça passe par ce service, j'ai lu la config, je bloque sur ce paramètre. Ça te dit quelque chose ?"
+> "Ça passe par ce service, j'ai lu la config, je bloque sur ce paramètre. Ça te dit quelque chose ?"
 
 Plus rapide, plus précis, et trente secondes de la journée de quelqu'un au lieu de dix minutes.
 
 ## À discuter
 
-Quelle question est posée ici encore et encore parce que la réponse n'a jamais été écrite ?
+Quelle question est posée ici encore et encore parce que la réponse n'a jamais été écrite ?

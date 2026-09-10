@@ -41,4 +41,4 @@ Quinze minutes. Tu ne comprendras pas le projet. Tu comprendras une fonction, d�
 
 ## À discuter
 
-Qui ici a lu le code source d'une dépendance sans laquelle notre produit ne tourne pas ?
+Qui ici a lu le code source d'une dépendance sans laquelle notre produit ne tourne pas ?

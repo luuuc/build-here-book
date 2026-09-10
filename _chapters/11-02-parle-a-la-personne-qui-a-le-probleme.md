@@ -45,4 +45,4 @@ Puis arrête de parler. La partie utile arrive après le premier silence, quand 
 
 ## À discuter
 
-Cite le dernier utilisateur à qui chaque ingénieur ici a parlé. Si le nom ne vient pas, notre conception repose sur quoi ?
+Cite le dernier utilisateur à qui chaque ingénieur ici a parlé. Si le nom ne vient pas, notre conception repose sur quoi ?

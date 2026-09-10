@@ -23,7 +23,7 @@ Tu réponds vite. Tu expliques le contexte. Tu mentionnes les contraintes que tu
 
 ## Le réflexe builder
 
-> "Oui, c'est moche ! J'avais deux jours. On fait quoi maintenant ?"
+> "Oui, c'est moche ! J'avais deux jours. On fait quoi maintenant ?"
 
 ## Pourquoi
 
@@ -47,4 +47,4 @@ Puis une règle quand les commentaires arrivent. Ne réponds à aucun avant d'av
 
 ## À discuter
 
-À qui dans cette équipe on hésite à donner un retour direct ?
+À qui dans cette équipe on hésite à donner un retour direct ?

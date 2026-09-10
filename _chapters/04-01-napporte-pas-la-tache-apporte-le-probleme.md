@@ -17,7 +17,7 @@ seo:
 
 ## Le réflexe
 
-> "Ticket fini. Je prends quoi après ?"
+> "Ticket fini. Je prends quoi après ?"
 
 Le travail arrive prédécoupé. Savoir si le découpage était bon, c'est la question de quelqu'un d'autre.
 
@@ -37,11 +37,11 @@ Tu fais le ticket d'abord, toujours. La trouvaille voyage avec la livraison, ell
 
 Deux lignes dans le ticket, avant de le fermer.
 
-> Ce que ça m'a appris sur le vrai problème : ...
-> Ce que je ferais autrement en repartant de zéro : ...
+> Ce que ça m'a appris sur le vrai problème : ...
+> Ce que je ferais autrement en repartant de zéro : ...
 
 Personne ne les a demandées. C'est le principe.
 
 ## À discuter
 
-Quelqu'un ici a déjà découvert, en le faisant, que la tâche demandée n'était pas la bonne. Il l'a dit à qui ?
+Quelqu'un ici a déjà découvert, en le faisant, que la tâche demandée n'était pas la bonne. Il l'a dit à qui ?

@@ -18,11 +18,11 @@ seo:
 
 Chez Douglas Adams[^adams], la galaxie a une encyclopédie, et cette encyclopédie a une entrée pour la Terre.
 
-L'entrée dit, intégralement : **Globalement inoffensive.**
+L'entrée dit, intégralement : **Globalement inoffensive.**
 
 Deux mots pour une planète. Classée par quelqu'un qui est passé, s'est fait une idée, et a continué sa route. L'entrée fait la longueur de l'attention qu'on y a mise.
 
-L'industrie tech a une entrée pour ce continent. Elle dit, intégralement :
+L'industrie tech a une entrée pour ce continent. Elle dit, intégralement :
 
 **Émergent.**
 

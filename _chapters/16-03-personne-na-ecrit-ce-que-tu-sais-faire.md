@@ -45,4 +45,4 @@ Si rien de ce que tu trouves ne t'aurait aidé, tu viens de trouver ce que tu do
 
 ## À discuter
 
-Qu'est-ce qu'on a résolu ici que personne dans cette salle n'a jamais vu écrit nulle part ?
+Qu'est-ce qu'on a résolu ici que personne dans cette salle n'a jamais vu écrit nulle part ?

@@ -17,7 +17,7 @@ seo:
 
 ## Le réflexe
 
-> "Pour ce marché, c'est largement suffisant !"
+> "Pour ce marché, c'est largement suffisant !"
 
 Le niveau vient de la concurrence locale, qui est parfois faible.
 
@@ -45,4 +45,4 @@ Marque chaque écart comme contexte ou comme niveau. Le second type aime bien se
 
 ## À discuter
 
-Quand on dit ici que c'est suffisant, on compare à quoi ?
+Quand on dit ici que c'est suffisant, on compare à quoi ?

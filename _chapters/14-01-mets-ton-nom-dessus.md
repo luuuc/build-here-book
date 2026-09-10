@@ -33,7 +33,7 @@ Rien ici ne te demande de devenir la personne sur le panel. La modestie n'est pa
 
 Suis où la perte atterrit, parce que ce n'est pas sur toi. Elle atterrit sur le développeur qui a trois ans de moins que toi, qui n'a personne sur qui se caler et qui est en train de conclure que le niveau autour de lui est le niveau. Et elle atterrit sur le prochain fondateur qui fait tourner le même filtre cassé et décide que les builders ne sont pas ici. Ce fondateur, c'était moi. J'avais tort, et j'avais tort parce qu'aucun d'entre vous n'avait rien écrit.
 
-Ensuite l'objection qui a des dents. Le faire mal est exactement ce que tu voulais éviter, et il existe toute une industrie de ça. Alors sépare les deux par ce que tu publies, pas par le volume sonore. Un artefact est une chose dont quelqu'un d'autre peut se servir. Le postmortem avec la chronologie dedans. La librairie. Le benchmark avec les chiffres attachés. Le thread où tu réponds correctement à une question. Un avis sur l'avenir de la tech africaine n'est pas un artefact, et ceux qui en produisent sont déjà en nombre suffisant. Le test est simple et il ne flatte personne. Est-ce qu'un inconnu peut en tirer quelque chose sans savoir qui tu es ?
+Ensuite l'objection qui a des dents. Le faire mal est exactement ce que tu voulais éviter, et il existe toute une industrie de ça. Alors sépare les deux par ce que tu publies, pas par le volume sonore. Un artefact est une chose dont quelqu'un d'autre peut se servir. Le postmortem avec la chronologie dedans. La librairie. Le benchmark avec les chiffres attachés. Le thread où tu réponds correctement à une question. Un avis sur l'avenir de la tech africaine n'est pas un artefact, et ceux qui en produisent sont déjà en nombre suffisant. Le test est simple et il ne flatte personne. Est-ce qu'un inconnu peut en tirer quelque chose sans savoir qui tu es ?
 
 Tu auras l'impression de t'annoncer les trois premières fois. Puis quelqu'un que tu n'as jamais rencontré te citera ton propre postmortem, et tu comprendras à quoi servaient les douze sections précédentes.
 
@@ -47,4 +47,4 @@ Publie-le là où quelqu'un qui cherche ce message d'erreur le trouvera. Puis en
 
 ## À discuter
 
-Qui ici a quelque chose de publié qu'un inconnu pourrait trouver ? Si la réponse est personne, on attend exactement quoi qu'on nous donne ?
+Qui ici a quelque chose de publié qu'un inconnu pourrait trouver ? Si la réponse est personne, on attend exactement quoi qu'on nous donne ?

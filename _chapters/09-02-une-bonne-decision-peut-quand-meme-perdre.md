@@ -39,10 +39,10 @@ La ligne n'est pas avoir raison contre avoir tort. Elle est de savoir si le rais
 
 La prochaine fois qu'une initiative échoue, fais la revue sur le raisonnement.
 
-> "Tu savais quoi au moment de décider ? Qu'est-ce qui aurait pu être su en dix minutes et ne l'a pas été ?"
+> "Tu savais quoi au moment de décider ? Qu'est-ce qui aurait pu être su en dix minutes et ne l'a pas été ?"
 
 Dans cet ordre. La première protège l'appétit. La seconde est la redevabilité, sans que personne soit le coupable.
 
 ## À discuter
 
-Quelle erreur récente a été analysée ici sans chasse au responsable ?
+Quelle erreur récente a été analysée ici sans chasse au responsable ?

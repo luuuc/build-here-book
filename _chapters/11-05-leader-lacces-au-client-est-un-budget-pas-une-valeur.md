@@ -45,4 +45,4 @@ Le filtre achète une relation gardée lisse pendant un trimestre. Il coûte tou
 
 ## À discuter
 
-Le trimestre dernier, qui hors commercial et support a parlé à un client payant ?
+Le trimestre dernier, qui hors commercial et support a parlé à un client payant ?

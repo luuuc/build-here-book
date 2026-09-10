@@ -23,7 +23,7 @@ Tu lis ce mouvement et chaque exemple est un postmortem, une dépendance, un mes
 
 ## Le réflexe builder
 
-> "Qu'est-ce que je sais que personne n'a écrit ?"
+> "Qu'est-ce que je sais que personne n'a écrit ?"
 
 ## Pourquoi
 
@@ -43,4 +43,4 @@ Publie-le avec ce que tu en as conclu, sans le nom d'un seul client. Neuf cents 
 
 ## À discuter
 
-Qui ici détient un chiffre que personne d'autre dans l'entreprise ne connaît ? Où est-il écrit aujourd'hui ?
+Qui ici détient un chiffre que personne d'autre dans l'entreprise ne connaît ? Où est-il écrit aujourd'hui ?

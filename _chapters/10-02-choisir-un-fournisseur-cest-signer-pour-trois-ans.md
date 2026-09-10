@@ -23,7 +23,7 @@ Personne d'extérieur ne regarde, jusqu'à la première facture ou la première 
 
 ## Le réflexe builder
 
-> "Avant de s'engager, ça coûte quoi à dix fois le volume, et il faut combien de temps pour en sortir ?"
+> "Avant de s'engager, ça coûte quoi à dix fois le volume, et il faut combien de temps pour en sortir ?"
 
 ## Pourquoi
 
@@ -39,12 +39,12 @@ Les ingénieurs sont en général les seuls à le voir venir, et en général le
 
 Pour tout choix qui rate le test, écris trois lignes lisibles par n'importe qui.
 
-> Coût aujourd'hui, et à dix fois le volume : 90k par mois, environ 700k
-> S'ils doublent les prix ou ferment : deux semaines de service dégradé, aucune alternative testée
-> Temps pour en sortir : six semaines, un ingénieur
+> Coût aujourd'hui, et à dix fois le volume : 90k par mois, environ 700k
+> S'ils doublent les prix ou ferment : deux semaines de service dégradé, aucune alternative testée
+> Temps pour en sortir : six semaines, un ingénieur
 
 Puis envoie-les avant de signer, pas après.
 
 ## À discuter
 
-Quel fournisseur nous ferait le plus mal en doublant son prix demain ?
+Quel fournisseur nous ferait le plus mal en doublant son prix demain ?

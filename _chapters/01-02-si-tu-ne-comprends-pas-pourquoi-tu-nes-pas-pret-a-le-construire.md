@@ -43,8 +43,8 @@ Avant de commencer la prochaine tâche, écris une ligne en haut du ticket.
 
 > Ça existe pour que [qui] puisse [quoi], parce qu'aujourd'hui [problème].
 
-Tu n'arrives pas à la remplir ? Remplis-la faux exprès et envoie-la à celui qui a ouvert le ticket. Une hypothèse fausse est corrigée en dix minutes. Une question ouverte attend trois semaines.
+Tu n'arrives pas à la remplir ? Remplis-la faux exprès et envoie-la à celui qui a ouvert le ticket. Une hypothèse fausse est corrigée en dix minutes. Une question ouverte attend trois semaines.
 
 ## À discuter
 
-La dernière fois que quelqu'un ici a demandé "pourquoi on fait ça ?", c'est passé pour une bonne question ou pour un refus de travailler ?
+La dernière fois que quelqu'un ici a demandé "pourquoi on fait ça ?", c'est passé pour une bonne question ou pour un refus de travailler ?

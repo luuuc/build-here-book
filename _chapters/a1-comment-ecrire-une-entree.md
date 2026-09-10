@@ -68,8 +68,8 @@ Une entrée fonctionne quand les gens se mettent à répéter la phrase. "Le tic
 
 Deux formes portent l'essentiel du livre.
 
-→ L'opposition : *Avoir tort ne coûte rien. Le rester coûte cher.*
-→ La négation d'une évidence : *Le marketing n'est pas de la décoration.*
+→ L'opposition : *Avoir tort ne coûte rien. Le rester coûte cher.*
+→ La négation d'une évidence : *Le marketing n'est pas de la décoration.*
 
 Un titre qui décrit le sujet a déjà perdu. Le titre porte la position, pas le thème.
 
@@ -101,7 +101,7 @@ Le cœur de l'entrée, et le bloc qui demande le plus de réécriture.
 
 Quatre paragraphes. Pas cinq, pas six. Ce bloc s'allonge parce que c'est là qu'atterrit tout ce qui ne rentrait pas ailleurs, et une entrée qui a besoin de six paragraphes est en général deux entrées sous un seul titre.
 
-Ce qui marche :
+Ce qui marche :
 
 → un mécanisme. Comment le comportement produit son effet, la morale en moins.
 → un coût visible. Des heures, de l'argent, une décision qui a attendu, une information qui a cessé de circuler.
@@ -110,7 +110,7 @@ Ce qui marche :
 
 Ce dernier point avait autrefois son paragraphe dédié dans chaque entrée, ouvrant sur une variante de "l'objection est légitime" et fermant sur une concession d'un mot. Lis six entrées d'affilée et tu sens le rythme arriver. Une entrée sur cinq environ devrait annoncer un contre-argument. Le chiffre est un réglage, pas une mesure, et il est probablement encore trop haut. Dans les autres, replie-le pour que le lecteur ne voie jamais la couture, ou retire-le si l'entrée tient sans.
 
-Ce qui ne marche pas : les affirmations sur ce que font les bonnes équipes. Personne ne change de comportement parce qu'on lui a dit que les meilleurs font autrement. Un paragraphe qui explique une scène que le lecteur avait déjà comprise ne marche pas non plus. Fais confiance à la scène et coupe le paragraphe d'après.
+Ce qui ne marche pas : les affirmations sur ce que font les bonnes équipes. Personne ne change de comportement parce qu'on lui a dit que les meilleurs font autrement. Un paragraphe qui explique une scène que le lecteur avait déjà comprise ne marche pas non plus. Fais confiance à la scène et coupe le paragraphe d'après.
 
 ---
 
@@ -128,7 +128,7 @@ Quand c'est la formulation qui est difficile, donne-la mot pour mot. Une phrase 
 
 Une question ouverte, adressée à une équipe, à laquelle on ne peut pas répondre par oui ou non.
 
-Les meilleures pointent le passé récent, pas les intentions. "Qui a signalé une erreur sérieuse ces six derniers mois ?" produit une vraie conversation. "Est-ce qu'on est une équipe qui accepte l'erreur ?" produit un consensus vide.
+Les meilleures pointent le passé récent, pas les intentions. "Qui a signalé une erreur sérieuse ces six derniers mois ?" produit une vraie conversation. "Est-ce qu'on est une équipe qui accepte l'erreur ?" produit un consensus vide.
 
 ---
 
@@ -144,7 +144,7 @@ Sans la paire, le livre devient une liste d'exigences dirigées vers le bas.
 
 ## L'ancrage
 
-L'ancrage n'est pas rationné. C'est un livre écrit depuis un endroit, et un endroit est précis ou c'est une salle d'attente. Sers-toi du détail de terrain : l'environnement de staging partagé, la connexion comptée, le fournisseur qui facture en dollars contre un revenu qui arrive en monnaie locale, la ligne de support à huit fuseaux, le senior qui est la seule personne du pays à avoir fait tourner ça en production.
+L'ancrage n'est pas rationné. C'est un livre écrit depuis un endroit, et un endroit est précis ou c'est une salle d'attente. Sers-toi du détail de terrain : l'environnement de staging partagé, la connexion comptée, le fournisseur qui facture en dollars contre un revenu qui arrive en monnaie locale, la ligne de support à huit fuseaux, le senior qui est la seule personne du pays à avoir fait tourner ça en production.
 
 La seule règle qui reste. Le détail est dans une scène, et le livre n'explique jamais le continent à ceux qui y vivent.
 

@@ -23,7 +23,7 @@ Ou dans un document partagé, ou dans un canal ouvert à toute l'entreprise. C'e
 
 ## Le réflexe builder
 
-> "Quelqu'un qui a ce problème tape quoi, et où ?"
+> "Quelqu'un qui a ce problème tape quoi, et où ?"
 
 ## Pourquoi
 
@@ -43,4 +43,4 @@ Regarde où tu arrives. Si tu n'es pas dans les deux premières pages, le titre 
 
 ## À discuter
 
-La dernière chose qu'on a publiée, quelle recherche y mène ? Est-ce que quelqu'un ici peut la taper là, maintenant ?
+La dernière chose qu'on a publiée, quelle recherche y mène ? Est-ce que quelqu'un ici peut la taper là, maintenant ?

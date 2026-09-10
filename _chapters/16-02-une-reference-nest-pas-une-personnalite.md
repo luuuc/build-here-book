@@ -29,7 +29,7 @@ Il y a deux façons d'être connu et elles ne se ressemblent pas. L'une doit êt
 
 Une personnalité s'arrête quand tu t'arrêtes, parce que ce que les gens consomment est ta présence. Trois mois sans rien publier et il ne reste rien, ce qui oblige à publier quoi qu'il arrive, y compris les semaines où tu n'as rien à dire. C'est ce mécanisme qui produit les avis sur l'avenir du secteur, et pas un défaut de caractère chez ceux qui les écrivent. Une référence ne s'arrête pas. Le postmortem écrit en 2023 est trouvé en 2027 par quelqu'un dont le problème vient d'arriver. Tu peux disparaître deux ans, changer d'entreprise, arrêter complètement, il continue de travailler sans toi.
 
-Le test tient en une question. Qu'est-ce qui reste si la personne cesse de publier six mois ? Une personnalité disparaît de la conversation. Une référence continue d'être citée par des gens qui ne savent pas si elle est encore active.
+Le test tient en une question. Qu'est-ce qui reste si la personne cesse de publier six mois ? Une personnalité disparaît de la conversation. Une référence continue d'être citée par des gens qui ne savent pas si elle est encore active.
 
 Ce que ça change pour toi est la meilleure nouvelle de ce mouvement et elle est rarement dite. Tu n'as pas besoin d'être présent, régulier, sympathique, ni d'avoir un avis sur ce qui vient de se passer. Le prix est la vitesse. Une personnalité se construit en six mois. Une référence prend des années et rien ne compense ça. Si tu as besoin d'un résultat ce trimestre, ce n'est pas le bon chemin et il vaut mieux le savoir maintenant.
 
@@ -45,4 +45,4 @@ Regarde laquelle des deux listes tu pourrais citer dans une décision technique 
 
 ## À discuter
 
-Qui, hors de cette entreprise, on cite quand on décide quelque chose ici ? Pourquoi eux, et par quoi on les a trouvés ?
+Qui, hors de cette entreprise, on cite quand on décide quelque chose ici ? Pourquoi eux, et par quoi on les a trouvés ?

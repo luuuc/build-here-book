@@ -37,10 +37,10 @@ En B2B le chemin ressemble au problème du commercial, donc il n'est conçu null
 
 Une séance, une page. Le chemin, sans rien sauter.
 
-> Quelqu'un a ce problème. Il tape quoi, et où ? Il atterrit sur quoi ? Qu'est-ce qu'il y a en premier à l'écran ? Pourquoi il essaierait au lieu de fermer l'onglet ?
+> Quelqu'un a ce problème. Il tape quoi, et où ? Il atterrit sur quoi ? Qu'est-ce qu'il y a en premier à l'écran ? Pourquoi il essaierait au lieu de fermer l'onglet ?
 
 Marque chaque étape que tu as devinée. Cette liste, c'est le travail.
 
 ## À discuter
 
-Nos dix derniers utilisateurs, un par un. Chacun est venu d'où, et lesquels de ces chemins on pourrait refaire exprès ?
+Nos dix derniers utilisateurs, un par un. Chacun est venu d'où, et lesquels de ces chemins on pourrait refaire exprès ?

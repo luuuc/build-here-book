@@ -43,4 +43,4 @@ Le coût du silence, lui, ne se présente jamais comme un coût. Il arrive sous 
 
 ## À discuter
 
-Qui ici a publié quelque chose sous son propre nom cette année ? Est-ce qu'il a dû demander la permission, et à qui ?
+Qui ici a publié quelque chose sous son propre nom cette année ? Est-ce qu'il a dû demander la permission, et à qui ?

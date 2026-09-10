@@ -29,7 +29,7 @@ La confiance est réelle et souvent méritée. Elle sert aussi de permission de 
 
 Déléguer l'exécution, c'est le métier. Déléguer la compréhension laisse un dirigeant incapable d'évaluer quoi que ce soit de ce qu'on lui dit.
 
-Un ingénieur dit six semaines. Honnête, gonflé, ou follement optimiste ? Sans modèle de ce dont le produit est fait, l'estimation est soit avalée telle quelle, soit contestée à l'instinct. Pareil pour un incident. Grave ou banal ? Le seul signal qui reste est le niveau d'inquiétude de celui qui le rapporte, ce qui mesure son tempérament et rien d'autre.
+Un ingénieur dit six semaines. Honnête, gonflé, ou follement optimiste ? Sans modèle de ce dont le produit est fait, l'estimation est soit avalée telle quelle, soit contestée à l'instinct. Pareil pour un incident. Grave ou banal ? Le seul signal qui reste est le niveau d'inquiétude de celui qui le rapporte, ce qui mesure son tempérament et rien d'autre.
 
 Disons que le plan est de passer à un prestataire de paiement moins cher le trimestre prochain. Tout le monde acquiesce. Ce qui n'est pas dit, c'est que l'actuel est le seul câblé sur les rails locaux, et que partir veut dire reconstruire le tunnel de paiement, la réconciliation et les remboursements, pas échanger une clé. Personne n'a menti. La question venait de quelqu'un sans moyen d'entendre la réponse, donc elle est revenue à la taille de la question.
 
@@ -45,4 +45,4 @@ Deux heures. Les arrêts sont l'exercice, pas une interruption de l'exercice.
 
 ## À discuter
 
-Si deux personnes de notre direction dessinaient notre produit au tableau, on obtiendrait le même schéma ?
+Si deux personnes de notre direction dessinaient notre produit au tableau, on obtiendrait le même schéma ?

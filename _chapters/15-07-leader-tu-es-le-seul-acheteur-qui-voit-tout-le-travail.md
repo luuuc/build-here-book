@@ -43,4 +43,4 @@ Et refaire une grille est un chantier, ce qui sert d'excuse permanente. Ce n'est
 
 ## À discuter
 
-La plus grosse augmentation d'ici cette année a récompensé quoi exactement, et est-ce que tout le monde dans cette salle donnerait la même réponse ?
+La plus grosse augmentation d'ici cette année a récompensé quoi exactement, et est-ce que tout le monde dans cette salle donnerait la même réponse ?

@@ -37,10 +37,10 @@ Les fondateurs attrapent le slide équipe à ce moment-là. La crédibilité ne 
 
 Ouvre ta page d'accueil. Lis la première phrase à voix haute.
 
-Si elle parle de toi, remplace-la par une phrase qui décrit la journée de ton client, assez précise pour qu'il dise "c'est exactement ça !"
+Si elle parle de toi, remplace-la par une phrase qui décrit la journée de ton client, assez précise pour qu'il dise "c'est exactement ça !"
 
 Relis à voix haute. Si le niveau de détail te rend légèrement nerveux, c'est le bon.
 
 ## À discuter
 
-Notre première phrase décrit la semaine de qui ?
+Notre première phrase décrit la semaine de qui ?

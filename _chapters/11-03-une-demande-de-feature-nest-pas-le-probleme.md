@@ -23,7 +23,7 @@ Elle est livrée. Il l'ouvre deux fois. Le même problème revient au trimestre 
 
 ## Le réflexe builder
 
-> "Tu essaies d'aboutir à quoi, et tu fais comment sans ça aujourd'hui ?"
+> "Tu essaies d'aboutir à quoi, et tu fais comment sans ça aujourd'hui ?"
 
 ## Pourquoi
 
@@ -39,8 +39,8 @@ Comprendre le besoin te fait parfois sortir moins cher. Le problème de l'audite
 
 Sur la prochaine demande, avant que quiconque chiffre, renvoie un message.
 
-> "Bien noté, et je veux construire la bonne chose. À quel moment de ta semaine ça arrive, et tu fais quoi à la place aujourd'hui ?"
+> "Bien noté, et je veux construire la bonne chose. À quel moment de ta semaine ça arrive, et tu fais quoi à la place aujourd'hui ?"
 
 ## À discuter
 
-La dernière fonctionnalité construite mot pour mot comme demandé, son usage ressemble à quoi ?
+La dernière fonctionnalité construite mot pour mot comme demandé, son usage ressemble à quoi ?

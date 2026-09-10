@@ -23,7 +23,7 @@ Tu le penses sincèrement. Rien ne bouge.
 
 ## Le réflexe builder
 
-> "Concrètement, ici, il arrive quoi à quelqu'un qui signale une erreur ?"
+> "Concrètement, ici, il arrive quoi à quelqu'un qui signale une erreur ?"
 
 ## Pourquoi
 
@@ -43,4 +43,4 @@ Une équipe qui cache ses erreurs n'en fait pas moins. Elle te les annonce plus 
 
 ## À discuter
 
-Qui ici a assumé publiquement une erreur significative cette année, et il lui est arrivé quoi ensuite ?
+Qui ici a assumé publiquement une erreur significative cette année, et il lui est arrivé quoi ensuite ?

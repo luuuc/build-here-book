@@ -39,7 +39,7 @@ Rien de tout ça ne finit avec des ingénieurs qui décident ce qu'on vend. Le j
 
 Amène une contrainte dans la prochaine discussion stratégique, formulée comme un choix et pas comme un refus.
 
-> "Les abonnements, c'est environ six semaines avec ce qu'on a. La facturation à l'usage, deux, parce que le compteur existe déjà. Est-ce que ça change l'ordre ?"
+> "Les abonnements, c'est environ six semaines avec ce qu'on a. La facturation à l'usage, deux, parce que le compteur existe déjà. Est-ce que ça change l'ordre ?"
 
 Une contrainte seule sonne comme un non. À côté d'une option moins chère, elle sonne comme une décision.
 
@@ -47,4 +47,4 @@ Demande l'ordre du jour deux jours à l'avance. Réponds à un point en conséqu
 
 ## À discuter
 
-Sur notre dernière grande décision stratégique, est-ce que quelqu'un dans la salle pouvait dire ce que ça coûtait à construire ?
+Sur notre dernière grande décision stratégique, est-ce que quelqu'un dans la salle pouvait dire ce que ça coûtait à construire ?

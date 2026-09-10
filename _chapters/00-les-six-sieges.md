@@ -46,12 +46,12 @@ Les six sièges ci-dessous sont les places réellement occupées autour d'un pro
 
 Prends l'entrée *Si tu ne comprends pas pourquoi, tu n'es pas prêt à le construire*.
 
-- **Engineer** : ne commence pas un ticket dont l'objectif client n'est pas clair.
-- **Product** : ne fais pas suivre une demande dont tu n'as pas cherché la cause.
-- **Design** : ne dessine pas un écran sans savoir ce que la personne essaie d'accomplir.
-- **Founder** : ne finance pas un projet dont tu ne sais pas énoncer le problème client.
-- **Manager** : rends le pourquoi disponible avant de demander l'exécution.
-- **Customer-facing** : ne réponds pas à une demande, et n'écris pas sur une fonctionnalité, sans savoir ce que la personne tentait de faire.
+- **Engineer** : ne commence pas un ticket dont l'objectif client n'est pas clair.
+- **Product** : ne fais pas suivre une demande dont tu n'as pas cherché la cause.
+- **Design** : ne dessine pas un écran sans savoir ce que la personne essaie d'accomplir.
+- **Founder** : ne finance pas un projet dont tu ne sais pas énoncer le problème client.
+- **Manager** : rends le pourquoi disponible avant de demander l'exécution.
+- **Customer-facing** : ne réponds pas à une demande, et n'écris pas sur une fonctionnalité, sans savoir ce que la personne tentait de faire.
 
 Même principe. Six applications, six conversations différentes.
 

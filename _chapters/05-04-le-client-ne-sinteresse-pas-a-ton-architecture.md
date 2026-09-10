@@ -37,11 +37,11 @@ Certains projets résistent à l'exercice, et c'est là que les équipes abandon
 
 Pour chaque projet technique en cours, écris l'avant et l'après avec les mots du client, sans un seul terme technique dans l'un ou l'autre.
 
-> Avant : le vendeur attendait la fermeture pour savoir s'il avait été payé.
-> Après : il le voit arriver.
+> Avant : le vendeur attendait la fermeture pour savoir s'il avait été payé.
+> Après : il le voit arriver.
 
 Lis-le à quelqu'un du commercial. S'il pose une question de suite, ça fonctionne.
 
 ## À discuter
 
-Notre plus gros projet technique en ce moment, qui ici peut dire en une phrase pourquoi un client devrait s'en soucier ?
+Notre plus gros projet technique en ce moment, qui ici peut dire en une phrase pourquoi un client devrait s'en soucier ?

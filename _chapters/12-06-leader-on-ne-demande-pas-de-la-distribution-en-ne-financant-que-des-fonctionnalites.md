@@ -29,7 +29,7 @@ Dit en all-hands. Puis la revue de roadmap commence, et chaque heure dessus a un
 
 La visibilité est demandée et jamais financée. Celui qui a passé l'après-midi à écrire arrive au point hebdo sans rien de livré, à côté de quelqu'un qui a fermé quatre tickets. Tu n'as jamais besoin de punir ça. Demander ce qui a été livré, chaque semaine, suffit. Il retournera aux tickets, et il aura raison.
 
-L'arithmétique ne se corrigera pas toute seule. Une fonctionnalité rembourse en deux semaines ; une audience, en six mois ; le positionnement, jamais d'une manière que tu puisses attribuer. Tout ce qui est à six mois perd chaque arbitrage dans lequel il entre, sauf si quelqu'un décide à l'avance qu'il n'y entre pas. Personne en dessous de toi ne peut prendre cette décision.
+L'arithmétique ne se corrigera pas toute seule. Une fonctionnalité rembourse en deux semaines ; une audience, en six mois ; le positionnement, jamais d'une manière que tu puisses attribuer. Tout ce qui est à six mois perd chaque arbitrage dans lequel il entre, sauf si quelqu'un décide à l'avance qu'il n'y entre pas. Personne en dessous de toi ne peut prendre cette décision.
 
 Les félicitations ne sont pas une protection. Le trimestre se passe mal, quelque chose doit sauter, et le créneau d'écriture est la chose la moins chère du tableau parce que rien ne casse quand il part. Ce que tu coupes en premier est lu comme ce que tu voulais dire depuis le début, et la lecture est juste.
 
@@ -43,4 +43,4 @@ Les questions de positionnement subissent le même sort. Une semaine à débattr
 
 ## À discuter
 
-La dernière fois qu'on était en retard, qu'est-ce qui a sauté en premier ? Qui l'a remarqué, et qu'est-ce qu'il en a déduit sur ce qu'on paie vraiment ?
+La dernière fois qu'on était en retard, qu'est-ce qui a sauté en premier ? Qui l'a remarqué, et qu'est-ce qu'il en a déduit sur ce qu'on paie vraiment ?

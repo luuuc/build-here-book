@@ -23,7 +23,7 @@ Six mois de recherche, des dizaines de profils, et la conclusion s'impose d'elle
 
 ## Le réflexe builder
 
-> "Qu'est-ce que mon canal est capable de me renvoyer ?"
+> "Qu'est-ce que mon canal est capable de me renvoyer ?"
 
 ## Pourquoi
 
@@ -43,4 +43,4 @@ J'ai fait tourner ce filtre pendant deux ans et j'ai lu sa sortie comme un fait.
 
 ## À discuter
 
-Nos trois derniers recrutements sont venus par quel canal ? Et le dernier candidat qu'on a trouvé sans passer par quelqu'un qu'on connaissait déjà, c'était quand ?
+Nos trois derniers recrutements sont venus par quel canal ? Et le dernier candidat qu'on a trouvé sans passer par quelqu'un qu'on connaissait déjà, c'était quand ?

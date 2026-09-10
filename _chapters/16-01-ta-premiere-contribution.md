@@ -45,4 +45,4 @@ Si tu ne sais pas où atterrir, l'[annexe 4](/chapters/a4-deja-en-ligne.html) li
 
 ## À discuter
 
-Quelle correction on garde en local depuis des mois sur une dépendance publique ? Qu'est-ce qui a empêché de la renvoyer ?
+Quelle correction on garde en local depuis des mois sur une dépendance publique ? Qu'est-ce qui a empêché de la renvoyer ?

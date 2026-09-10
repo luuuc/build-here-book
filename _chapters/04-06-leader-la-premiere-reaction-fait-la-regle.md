@@ -19,13 +19,13 @@ seo:
 
 Quelqu'un prend une initiative utile sans demander avant. Ce qui sort de ta bouche porte sur la forme.
 
-> "Qui t'a demandé de faire ça ?"
+> "Qui t'a demandé de faire ça ?"
 
 L'inquiétude est réelle. L'effet est sans commune mesure avec elle.
 
 ## Le réflexe builder
 
-> "Bien vu ! La prochaine fois préviens-moi avant, que je dégage le terrain."
+> "Bien vu ! La prochaine fois préviens-moi avant, que je dégage le terrain."
 
 ## Pourquoi
 
@@ -45,4 +45,4 @@ Certaines initiatives sont réellement dangereuses. La facturation. Un contrat s
 
 ## À discuter
 
-Quand quelqu'un ici a agi sans autorisation, la première phrase qu'il a entendue portait sur le résultat ou sur la procédure ?
+Quand quelqu'un ici a agi sans autorisation, la première phrase qu'il a entendue portait sur le résultat ou sur la procédure ?

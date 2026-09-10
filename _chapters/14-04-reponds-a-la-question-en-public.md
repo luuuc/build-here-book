@@ -43,4 +43,4 @@ La prochaine question dont la réponse ne contient rien de confidentiel, répond
 
 ## À discuter
 
-Quelle question t'a été posée trois fois ce trimestre ? Où est la réponse écrite aujourd'hui ?
+Quelle question t'a été posée trois fois ce trimestre ? Où est la réponse écrite aujourd'hui ?

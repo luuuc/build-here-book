@@ -23,7 +23,7 @@ C'est vrai, et c'est une des meilleures choses que tu fasses. Tu expliques la m�
 
 ## Le réflexe builder
 
-> "Combien de gens ont reçu ça, et combien auraient pu ?"
+> "Combien de gens ont reçu ça, et combien auraient pu ?"
 
 ## Pourquoi
 
@@ -43,4 +43,4 @@ Il reste la partie que tu ne contrôles pas volontairement. L'équipe copie ce q
 
 ## À discuter
 
-Nomme la chose que tu expliques le plus souvent ici. Où est-elle écrite, et qui peut la lire sans passer par toi ?
+Nomme la chose que tu expliques le plus souvent ici. Où est-elle écrite, et qui peut la lire sans passer par toi ?

@@ -35,14 +35,14 @@ Le travail précipité est rapide une fois, puis taxe tout ce qui suit. Le patch
 
 La formule se détourne dans les deux sens. "On ne se précipite pas, on va vite" est ce que la précipitation dit d'elle-même quand elle veut que la réunion se termine. Et "rapide ne veut pas dire précipité" est tout aussi utilisable par quelqu'un qui n'a rien livré depuis mars. L'adjectif ne tranche rien. Nomme ce qui est coupé. Un périmètre coupé exprès, c'est de la vitesse. Un périmètre coupé par accident et découvert en production, c'était de la précipitation, quel que soit le nom qu'on lui a donné sur le moment. Sur le coup, les deux se ressemblent beaucoup, et j'ai plusieurs fois mis six mois à savoir laquelle des deux j'avais faite.
 
-Parfois la version précipitée est le bon arbitrage. Le client repart et ce contrat fait l'année, le bricolage tient, tu le prends. Ce qui sépare ça de la décomposition, c'est de l'écrire avec un nom et une date à côté. Une dette prise exprès est un emprunt ; une dette prise en silence est une fuite, et la fuite se découvre le jour où le plancher cède.
+Parfois la version précipitée est le bon arbitrage. Le client repart et ce contrat fait l'année, le bricolage tient, tu le prends. Ce qui sépare ça de la décomposition, c'est de l'écrire avec un nom et une date à côté. Une dette prise exprès est un emprunt ; une dette prise en silence est une fuite, et la fuite se découvre le jour où le plancher cède.
 
 ## À essayer
 
 Quand une échéance paraît impossible, ne discute pas l'échéance. Discute le périmètre.
 
-> "En trois semaines on ne peut pas tout faire. On peut livrer les deux tiers. La facturation saute. Tu préfères quoi ?"
+> "En trois semaines on ne peut pas tout faire. On peut livrer les deux tiers. La facturation saute. Tu préfères quoi ?"
 
 ## À discuter
 
-Quel raccourci pris il y a six mois nous ralentit encore aujourd'hui ?
+Quel raccourci pris il y a six mois nous ralentit encore aujourd'hui ?

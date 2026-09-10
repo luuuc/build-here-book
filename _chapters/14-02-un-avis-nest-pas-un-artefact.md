@@ -23,7 +23,7 @@ Un texte sur ce que l'écosystème devrait faire. Une réaction à une levée de
 
 ## Le réflexe builder
 
-> "Est-ce que quelqu'un qui ne me connaît pas peut s'en servir ?"
+> "Est-ce que quelqu'un qui ne me connaît pas peut s'en servir ?"
 
 ## Pourquoi
 
@@ -43,4 +43,4 @@ S'il n'y en a aucune, tu as publié un avis. Ce n'est pas grave, mais ce n'est p
 
 ## À discuter
 
-La dernière chose publiée par quelqu'un ici, qu'est-ce qu'un inconnu pourrait en faire ?
+La dernière chose publiée par quelqu'un ici, qu'est-ce qu'un inconnu pourrait en faire ?

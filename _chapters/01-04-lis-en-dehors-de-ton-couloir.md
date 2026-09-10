@@ -17,7 +17,7 @@ seo:
 
 ## Le réflexe
 
-> "Ça, c'est le domaine de l'équipe data !"
+> "Ça, c'est le domaine de l'équipe data !"
 
 Chacun lit dans son couloir. Le back n'ouvre jamais le fichier de design. Le marketing ne sait pas démontrer le produit sur lequel il écrit.
 
@@ -47,4 +47,4 @@ Puis pose une question sur l'une d'elles, dans le canal, en citant les trois foi
 
 ## À discuter
 
-Est-ce que quelqu'un ici peut expliquer, sans préparation, ce qui se passe entre le moment où un client paie et le moment où il est servi ?
+Est-ce que quelqu'un ici peut expliquer, sans préparation, ce qui se passe entre le moment où un client paie et le moment où il est servi ?

@@ -37,10 +37,10 @@ Si tu ne peux pas nommer ce que tu as appris depuis la décision, tu ne corriges
 
 Quand une décision engage plusieurs semaines, écris une ligne à côté avant de commencer.
 
-> Ce qui me ferait revenir en arrière, et la date à laquelle je vérifie : ...
+> Ce qui me ferait revenir en arrière, et la date à laquelle je vérifie : ...
 
 Écris-la pendant que tu es encore neutre. Trois semaines plus tard, tu tordras le critère jusqu'à ce que ce que tu as construit passe. Mets une date, et tiens-la.
 
 ## À discuter
 
-Quelle décision on garde uniquement parce que revenir en arrière serait gênant ?
+Quelle décision on garde uniquement parce que revenir en arrière serait gênant ?

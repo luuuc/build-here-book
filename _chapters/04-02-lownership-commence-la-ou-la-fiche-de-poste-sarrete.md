@@ -43,4 +43,4 @@ Choisis un petit problème que les gens contournent depuis des mois. Répare-le,
 
 ## À discuter
 
-Cite trois problèmes ici que tout le monde connaît et que personne ne possède. Qui est le plus proche de chacun ?
+Cite trois problèmes ici que tout le monde connaît et que personne ne possède. Qui est le plus proche de chacun ?

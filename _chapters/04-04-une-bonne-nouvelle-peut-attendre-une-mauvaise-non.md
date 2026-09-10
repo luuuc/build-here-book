@@ -41,4 +41,4 @@ Quand tu sais qu'une échéance ne tiendra pas, vingt-quatre heures maximum avan
 
 ## À discuter
 
-Ici, qu'est-ce qui remonte le plus vite, un retard ou une victoire ? Prends les deux derniers de chaque et compare.
+Ici, qu'est-ce qui remonte le plus vite, un retard ou une victoire ? Prends les deux derniers de chaque et compare.

@@ -19,7 +19,7 @@ seo:
 
 Chaque fin de semaine, en toute bonne foi, une question a sa place fixe à l'ordre du jour.
 
-> "On a shippé quoi cette semaine ?"
+> "On a shippé quoi cette semaine ?"
 
 ## Le réflexe builder
 
@@ -43,4 +43,4 @@ Les ingénieurs ne peuvent pas réparer ça par le bas. Choisir la version ennuy
 
 ## À discuter
 
-C'est quoi la dernière chose pour laquelle quelqu'un ici a été félicité et qui a rendu le système plus petit ?
+C'est quoi la dernière chose pour laquelle quelqu'un ici a été félicité et qui a rendu le système plus petit ?

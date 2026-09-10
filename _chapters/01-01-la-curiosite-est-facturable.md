@@ -47,4 +47,4 @@ Puis écris quatre lignes sur ce que tu as trouvé, quelque part où l'équipe p
 
 ## À discuter
 
-Sur quel ticket a été imputée la dernière demi-journée que quelqu'un ici a passée à comprendre un système ?
+Sur quel ticket a été imputée la dernière demi-journée que quelqu'un ici a passée à comprendre un système ?

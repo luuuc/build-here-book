@@ -44,4 +44,4 @@ Puis ouvre ton contrat de travail et cherche le mot confidentialité. La premiè
 
 ## À discuter
 
-Qu'est-ce qu'on s'interdit de publier ici, et qui l'a décidé ? Est-ce que quelqu'un peut montrer où c'est écrit ?
+Qu'est-ce qu'on s'interdit de publier ici, et qui l'a décidé ? Est-ce que quelqu'un peut montrer où c'est écrit ?
