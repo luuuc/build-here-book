@@ -913,3 +913,23 @@ sup a {
 .content .footnotes li {
   margin-bottom: 1rem;
 }
+
+/* Sorties du fil de lecture, les notes forment leur propre bloc sous le pied de chapitre */
+.content--notes {
+  min-height: 0;
+}
+
+.content--notes .footnotes {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.content--notes .footnotes ol {
+  margin-bottom: 0;
+}
+
+.content--notes .footnotes li:last-child,
+.content--notes .footnotes li:last-child p:last-child {
+  margin-bottom: 0;
+}

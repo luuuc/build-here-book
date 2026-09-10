@@ -51,10 +51,11 @@
     </section>
 
     <!-- Content -->
+    {% assign content_parts = content | split: '<div class="footnotes" role="doc-endnotes">' %}
     <main
       class="content{% if page.metadata.principle %} content--entry{% endif %}{% if page.section_number %} content--section{% endif %}"
     >
-      <div class="container">{{content}}</div>
+      <div class="container">{{content_parts[0]}}</div>
     </main>
 
     <!-- Content Footer -->
@@ -64,6 +65,16 @@
         <a href="{{page.next.url}}" class="next-chapter"
           ><small>Entrée suivante</small>{{page.next.title}} →</a
         >
+      </div>
+    </section>
+    {% endif %}
+
+    <!-- Notes de bas de page, sorties du fil de lecture. La balise fermante du bloc
+         vient de kramdown : elle est restée dans content_parts[1] au moment du split. -->
+    {% if content_parts.size > 1 %}
+    <section class="content content--notes">
+      <div class="container">
+        <div class="footnotes" role="doc-endnotes">{{content_parts[1]}}
       </div>
     </section>
     {% endif %}
