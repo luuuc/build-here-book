@@ -50,10 +50,10 @@ L'[annexe 3](/chapters/a3-deja-ecrit.html) liste seize titres, de 1954 à 2018, 
 
 Jekyll. GitHub Pages. [Le source est ici](https://github.com/{{ site.repository }}).
 
-Une entrée à proposer ? [Une pull request](https://github.com/{{ site.repository }}/pulls).<br>
-Une coquille à corriger ? Une pull request aussi.<br>
-Un désaccord avec une entrée ? [Ouvre une discussion](https://github.com/{{ site.repository }}/discussions).<br>
-Envie de le traduire ? Dis-le d'abord, qu'on ne le fasse pas deux fois.
+Une entrée à proposer ? [Une pull request](https://github.com/{{ site.repository }}/pulls).
+Une coquille à corriger ? Une pull request aussi.
+Un désaccord avec une entrée ? [Ouvre une discussion](https://github.com/{{ site.repository }}/discussions).
+Envie de le traduire ? Dis-le d'abord, qu'on ne le fasse pas deux fois.
 
 ## Contact
 

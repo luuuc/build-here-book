@@ -42,6 +42,10 @@ collections:
 
 kramdown:
   footnote_backlink: ""
+  # Le livre ecrit une idee par ligne : les blocs de fleches, les deux boucles
+  # de l'ouverture et de la cloture. Sans hard_wrap, kramdown recolle ces lignes
+  # en un seul paragraphe et le rythme disparait.
+  hard_wrap: true
 
 plugins:
   - jekyll-sitemap
