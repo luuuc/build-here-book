@@ -2,6 +2,8 @@
 layout: chapter
 title: "Se faire trouver"
 show_chapter_number: false
+illustration: "se-faire-trouver"
+section_number: 14
 part: "Se faire trouver"
 order: 74
 metadata:

@@ -3,6 +3,7 @@ layout: chapter
 title: "L'escalier"
 description: "La dernière page"
 show_chapter_number: false
+illustration: "escalier"
 part: "Clôture"
 order: 87
 metadata:

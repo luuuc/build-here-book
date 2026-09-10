@@ -2,6 +2,8 @@
 layout: chapter
 title: "Laisser une trace"
 show_chapter_number: false
+illustration: "laisser-une-trace"
+section_number: 13
 part: "Laisser une trace"
 order: 67
 metadata:

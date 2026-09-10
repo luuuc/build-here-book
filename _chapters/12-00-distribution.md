@@ -2,6 +2,8 @@
 layout: chapter
 title: "Distribution"
 show_chapter_number: false
+illustration: "distribution"
+section_number: 12
 part: "Distribution"
 order: 60
 metadata:

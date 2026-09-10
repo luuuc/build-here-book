@@ -2,6 +2,8 @@
 layout: chapter
 title: "Ownership"
 show_chapter_number: false
+illustration: "ownership"
+section_number: 4
 part: "Ownership"
 order: 19
 metadata:

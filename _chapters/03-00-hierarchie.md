@@ -2,6 +2,8 @@
 layout: chapter
 title: "Hiérarchie"
 show_chapter_number: false
+illustration: "hierarchie"
+section_number: 3
 part: "Hiérarchie"
 order: 15
 metadata:

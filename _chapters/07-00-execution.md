@@ -2,6 +2,8 @@
 layout: chapter
 title: "Exécution"
 show_chapter_number: false
+illustration: "execution"
+section_number: 7
 part: "Exécution"
 order: 36
 metadata:

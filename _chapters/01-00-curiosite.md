@@ -2,6 +2,8 @@
 layout: chapter
 title: "Curiosité"
 show_chapter_number: false
+illustration: "curiosite"
+section_number: 1
 part: "Curiosité"
 order: 3
 metadata:

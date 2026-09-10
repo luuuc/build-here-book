@@ -2,6 +2,8 @@
 layout: chapter
 title: "Leadership"
 show_chapter_number: false
+illustration: "leadership"
+section_number: 9
 part: "Leadership"
 order: 46
 metadata:

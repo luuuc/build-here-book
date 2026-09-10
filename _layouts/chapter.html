@@ -19,20 +19,41 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="container">
-        <div class="chapter-number">
-          {{page.part}}{% unless page.show_chapter_number == false %} · Entrée
-          {{page.metadata.principle}}{% endunless %}
+        <div class="hero-inner">
+          <div class="hero-text">
+            <div class="chapter-number">
+              {% if page.section_number %}
+              <span>{% if page.section_number < 13 %}Mouvement un{% else %}Mouvement deux{% endif %}</span>
+              <span>Section {{page.section_number}}</span>
+              {% else %}
+              {% unless page.part == page.title %}<span>{{page.part}}</span>{% endunless %}
+              {% unless page.show_chapter_number == false %}<span>Entrée {{page.metadata.principle}}</span>{% endunless %}
+              {% endif %}
+              {% if page.metadata.reading_time_in_minutes %}<span>{{page.metadata.reading_time_in_minutes}} min</span>{% endif %}
+            </div>
+            <h1>{{page.title}}</h1>
+            {% if page.description %}
+            <p>{{page.description}}</p>
+            {% endif %}
+          </div>
+          {% if page.illustration %}
+          <div class="hero-art">
+            <img
+              src="/assets/images/sections/{{page.illustration}}.svg"
+              alt=""
+              width="176"
+              height="176"
+            />
+          </div>
+          {% endif %}
         </div>
-        <h1>{{page.title}}</h1>
-        {% if page.description %}
-        <p>{{page.description}}</p>
-        {% endif %}
-        <!--<div class="reading-time">{% include reading_time.html %}</div>-->
       </div>
     </section>
 
     <!-- Content -->
-    <main class="content">
+    <main
+      class="content{% if page.metadata.principle %} content--entry{% endif %}{% if page.section_number %} content--section{% endif %}"
+    >
       <div class="container">{{content}}</div>
     </main>
 
@@ -40,7 +61,9 @@
     {% if page.next %}
     <section class="content-footer">
       <div class="container">
-        <a href="{{page.next.url}}" class="next-chapter">{{page.next.title}} → </a>
+        <a href="{{page.next.url}}" class="next-chapter"
+          ><small>Entrée suivante</small>{{page.next.title}} →</a
+        >
       </div>
     </section>
     {% endif %}

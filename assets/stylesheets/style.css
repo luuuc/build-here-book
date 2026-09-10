@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap");
 
 /* Palette — ink and signal yellow
    #1C1A17  ink        headings, logo, nav, rules
@@ -8,6 +8,9 @@
    #FAF7F0  paper      code + blockquote background
    #F2EFE9  shell      footer + nav card background
    #2B2925  body text
+
+   Deux fontes. Merriweather pour tout ce qui se lit en continu,
+   Archivo pour tout ce qui se saute a l'oeil : reperes, meta, sommaires.
 */
 
 * {
@@ -21,8 +24,13 @@
 body {
   font-family: "Merriweather", Georgia, serif;
   //-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  line-height: 1.8;
+  line-height: 1.72;
   color: #2B2925;
+}
+
+::selection {
+  background: #F5B301;
+  color: #1C1A17;
 }
 
 /* Header */
@@ -120,12 +128,6 @@ body {
   color: #8A6100;
 }
 
-.nav-section {
-  font-weight: bold;
-  border-bottom: 1px solid #E8E3D9;
-  margin-bottom: 0.5rem;
-}
-
 .nav-submenu {
   list-style: none;
   margin-bottom: 1rem;
@@ -154,20 +156,83 @@ body {
   color: #8A6100;
 }
 
+.nav-group {
+  margin-top: 2.25rem;
+}
+
+.nav-group-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1C1A17;
+  padding: 0.4rem 0;
+  border-bottom: 2px solid #1C1A17;
+  margin-bottom: 1rem;
+}
+
+.nav-group-title em {
+  font-style: normal;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #8A6100;
+  font-variant-numeric: tabular-nums;
+}
+
 .nav-part {
-  margin-top: 1.5rem;
+  margin-top: 1.4rem;
+}
+
+/* Ou on en est. Le carre signal, le meme que dans les entrees. */
+.nav-submenu li.is-current {
+  position: relative;
+}
+
+.nav-submenu li.is-current::before {
+  content: "";
+  position: absolute;
+  left: -1.15rem;
+  top: 0.75rem;
+  width: 11px;
+  height: 11px;
+  background: #F5B301;
+}
+
+.nav-submenu li.is-current > a {
+  color: #1C1A17;
+  font-weight: bold;
+}
+
+/* Le groupe en cours, en bandeau. */
+.nav-group.is-current-group > .nav-group-title {
+  background: #FBEEC1;
+  margin-left: -0.6rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+/* La section en cours : l'ambre passe en encre. */
+.nav-part.is-current-part > .nav-part-title {
+  color: #1C1A17;
 }
 
 .nav-part-title {
   display: block;
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #1C1A17;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 0.5rem 0;
-  border-bottom: 2px solid #F5B301;
-  margin-bottom: 0.5rem;
+  letter-spacing: 0.14em;
+  color: #8A6100;
+  text-decoration: none;
+  padding: 0.3rem 0;
+  margin-bottom: 0.35rem;
+}
+
+.nav-part-title:hover {
+  color: #1C1A17;
 }
 
 .nav-bottom-links {
@@ -210,31 +275,71 @@ body {
 .hero {
   background: #FBEEC1;
   color: #1C1A17;
-  padding: 8rem 2rem 0.5rem;
+  padding: 6.5rem 2rem 2.25rem;
   text-align: left;
   border-bottom: 3px solid #F5B301;
 }
 
 .chapter-number {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  font-family: "Archivo", system-ui, sans-serif;
   color: #8A6100;
-  font-size: 0.85rem;
-  font-weight: bold;
+  font-size: 0.72rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-bottom: 0.75rem;
+  letter-spacing: 0.14em;
+  margin-bottom: 1rem;
+}
+
+/* Le separateur appartient a l'element qui suit : une meta a un seul
+   element n'herite pas d'une barre orpheline. */
+.chapter-number span + span::before {
+  content: "/";
+  margin-right: 0.6rem;
+  opacity: 0.45;
 }
 
 .hero h1 {
-  font-size: 1.8rem;
-  line-height: 2.8rem;
-  margin-bottom: 1rem;
+  font-size: 2.15rem;
+  line-height: 1.22;
+  letter-spacing: -0.01em;
+  margin-bottom: 0;
   font-weight: bold;
+  text-wrap: balance;
 }
 
 .hero p {
-  font-size: 1.4rem;
-  //max-width: 600px;
-  margin: 0 auto 2rem;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: #8A6100;
+  margin: 0.9rem 0 0;
+  max-width: 34em;
+}
+
+/* Ouvertures de section : le dessin vit dans le bandeau, a cote du titre. */
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-art {
+  flex: none;
+  width: 176px;
+}
+
+.hero-art img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .cta-button {
@@ -271,11 +376,11 @@ body {
   background: white;
   padding: 2rem 1rem;
   min-height: 60vh;
-  font-size: 1.15rem;
+  font-size: 1.1875rem;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 640px;
   margin: 0 auto;
 }
 
@@ -299,13 +404,20 @@ body {
 }
 
 .content p {
-  margin-bottom: 2rem;
+  margin-bottom: 1.35em;
+  text-wrap: pretty;
 }
 
 .content ul,
 .content ol {
-  margin-bottom: 1rem;
+  margin-bottom: 1.35em;
   padding-left: 2rem;
+}
+
+.content hr {
+  border: 0;
+  border-top: 1px solid #E8E3D9;
+  margin: 2.5rem 0;
 }
 
 .content li {
@@ -446,6 +558,25 @@ sup a {
   line-height: 1.5;
 }
 
+/* La couverture, en page d'accueil. Elle flotte pour ne pas repousser
+   le texte vers le bas, et se recentre quand la colonne devient etroite. */
+.book-cover {
+  float: right;
+  width: 200px;
+  height: auto;
+  margin: 0.4rem 0 1.25rem 1.75rem;
+  box-shadow: 0 10px 28px rgba(28, 26, 23, 0.18);
+}
+
+@media (max-width: 600px) {
+  .book-cover {
+    float: none;
+    display: block;
+    width: 170px;
+    margin: 0 auto 1.75rem;
+  }
+}
+
 /* Content Footer */
 .content-footer {
   background: #FBEEC1;
@@ -456,10 +587,21 @@ sup a {
 }
 
 .next-chapter {
+  font-family: "Archivo", system-ui, sans-serif;
   color: #1C1A17;
-  font-size: 1.15em;
-  font-weight: 200;
+  font-size: 1rem;
+  font-weight: 500;
   text-decoration: none;
+}
+
+.next-chapter small {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #8A6100;
+  margin-bottom: 0.2rem;
 }
 
 .next-chapter:hover {
@@ -580,10 +722,122 @@ sup a {
   margin-top: 0.5rem;
 }
 
+/* ---------------------------------------------------------------
+   Le squelette d'une entree
+   Le reflexe / Le reflexe builder / Pourquoi / A essayer / A discuter
+   reviennent dans les 68 entrees. Ce ne sont pas des titres, ce sont
+   des reperes : on les saute a l'oeil pour retrouver un bloc. Ils ne
+   doivent pas concurrencer le titre de l'entree.
+   --------------------------------------------------------------- */
+
+.content--entry h2,
+.content--section h2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin: 3rem 0 1.1rem;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #8A6100;
+}
+
+.content--entry h2::after,
+.content--section h2::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #E8E3D9;
+}
+
+.content--entry h2::before,
+.content--section h2::before {
+  content: "";
+  flex: none;
+  width: 11px;
+  height: 11px;
+  background: #F5B301;
+}
+
+.content--entry h2:first-child,
+.content--section h2:first-child {
+  margin-top: 0;
+}
+
+/* L'exergue : la phrase a retenir de l'entree.
+   Elle suit toujours immediatement son repere, ce qui la distingue en
+   CSS de la fiche a remplir, sans rien changer au markdown. */
+.content--entry h2 + blockquote {
+  margin: 1.25rem 0 2.5rem;
+  padding: 0 0 1.5rem;
+  border: 0;
+  border-bottom: 1px solid #E8E3D9;
+  border-radius: 0;
+  background: none;
+  font-family: "Merriweather", Georgia, serif;
+  font-style: normal;
+  font-size: 1.45rem;
+  line-height: 1.45;
+  font-weight: bold;
+  color: #1C1A17;
+  text-wrap: pretty;
+}
+
+/* La fiche : les gabarits qu'on est invite a remplir. */
+.content--entry blockquote {
+  background: #FAF7F0;
+  border: 1px solid #EDE6D6;
+  border-left: 3px solid #F5B301;
+  padding: 1.15rem 1.3rem;
+  margin: 1.6rem 0 1.9rem;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-style: normal;
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: #4A463E;
+}
+
+/* Le sommaire d'une ouverture de section. */
+.content--section .container > p:first-of-type {
+  font-size: 1.34rem;
+  line-height: 1.55;
+  color: #1C1A17;
+}
+
+.content--section h2 + ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.content--section h2 + ul li {
+  margin-bottom: 0;
+  border-bottom: 1px solid #EFE9DC;
+}
+
+.content--section h2 + ul li a {
+  display: block;
+  padding: 0.85rem 0;
+  font-size: 1.0625rem;
+  line-height: 1.45;
+  text-decoration: none;
+}
+
+.content--section h2 + ul li a:hover {
+  background: #FDFBF6;
+  box-shadow: none;
+  color: #8A6100;
+}
+
 /* Responsive */
 @media (min-width: 768px) {
-  .hero h1 {
-    font-size: 1.8rem;
+  /* Des qu'il y a de la marge, le carre signal y passe. */
+  .content--entry h2::before,
+  .content--section h2::before {
+    position: absolute;
+    left: -2rem;
   }
 
   .offcanvas {
@@ -601,7 +855,7 @@ sup a {
   }
 
   .hero {
-    padding: 8rem 2rem 0.5rem;
+    padding: 6.5rem 2rem 2.5rem;
   }
 }
 
@@ -611,11 +865,21 @@ sup a {
   }
 
   .hero {
-    padding: 6rem 1rem 0.5rem;
+    padding: 6rem 1rem 1.75rem;
   }
 
   .hero h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+  }
+
+  .hero-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .hero-art {
+    width: 120px;
   }
 
   .content li {

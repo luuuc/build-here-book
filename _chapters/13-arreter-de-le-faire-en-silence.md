@@ -3,6 +3,7 @@ layout: chapter
 title: "Arrêter de le faire en silence"
 description: "Le second mouvement, et pourquoi il ne se lit pas seul"
 show_chapter_number: false
+illustration: "arreter-le-silence"
 part: "Arrêter de le faire en silence"
 order: 66
 metadata:

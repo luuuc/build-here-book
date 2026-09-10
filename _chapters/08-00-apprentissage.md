@@ -2,6 +2,8 @@
 layout: chapter
 title: "Apprentissage"
 show_chapter_number: false
+illustration: "apprentissage"
+section_number: 8
 part: "Apprentissage"
 order: 40
 metadata:

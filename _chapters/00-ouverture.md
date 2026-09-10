@@ -3,6 +3,7 @@ layout: chapter
 title: "Ouverture"
 description: "Un guide pratique pour ceux qui construisent sur ce continent"
 show_chapter_number: false
+illustration: "ouverture"
 part: "Ouverture"
 order: 1
 metadata:

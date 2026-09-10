@@ -2,6 +2,8 @@
 layout: chapter
 title: "Produit"
 show_chapter_number: false
+illustration: "produit"
+section_number: 5
 part: "Produit"
 order: 25
 metadata:

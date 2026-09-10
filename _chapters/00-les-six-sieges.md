@@ -3,6 +3,7 @@ layout: chapter
 title: "Les six sièges"
 description: "À lire avant de commencer"
 show_chapter_number: false
+illustration: "six-sieges"
 part: "Ouverture"
 order: 2
 metadata:

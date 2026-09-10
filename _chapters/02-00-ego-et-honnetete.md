@@ -2,6 +2,8 @@
 layout: chapter
 title: "Ego et honnêteté intellectuelle"
 show_chapter_number: false
+illustration: "ego-et-honnetete"
+section_number: 2
 part: "Ego et honnêteté intellectuelle"
 order: 10
 metadata:

@@ -2,6 +2,8 @@
 layout: chapter
 title: "Engineering"
 show_chapter_number: false
+illustration: "engineering"
+section_number: 6
 part: "Engineering"
 order: 32
 metadata:

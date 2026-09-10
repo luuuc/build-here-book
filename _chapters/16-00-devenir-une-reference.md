@@ -2,6 +2,8 @@
 layout: chapter
 title: "Devenir une référence"
 show_chapter_number: false
+illustration: "devenir-une-reference"
+section_number: 15
 part: "Devenir une référence"
 order: 82
 metadata:

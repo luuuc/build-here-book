@@ -2,6 +2,8 @@
 layout: chapter
 title: "Technologie et business"
 show_chapter_number: false
+illustration: "tech-et-business"
+section_number: 10
 part: "Technologie et business"
 order: 50
 metadata:
