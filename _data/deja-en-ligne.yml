@@ -1,0 +1,77 @@
+# Déjà en ligne, annexe 4.
+#
+# Une seule règle d'admission. Un inconnu peut en faire quelque chose ce soir,
+# sans permission et sans introduction. Un dépôt qui accepte les pull requests,
+# des poids qu'on télécharge, un jeu de données, un groupe qui a une prochaine date.
+#
+# Si on ne peut que le regarder, la ligne ne passe pas.
+#
+# Sept champs, tous obligatoires.
+#   nom      le nom de la chose, pas celui de l'entreprise
+#   lieu     ville, ou "panafricain" quand il n'y en a pas une seule
+#   fait     quinze mots maximum, des faits, aucun adjectif
+#   par      qui l'a fait
+#   porte    le libellé du lien, deux ou trois mots
+#   lien     l'URL
+#   verifie  la date de dernière vérification, AAAA-MM-JJ
+#
+# Aucun classement. Ordre alphabétique. Une ligne morte se retire.
+
+- nom: InFashAI
+  lieu: Cotonou
+  fait: "15 716 images de mode africaine annotées, GPL-3.0"
+  par: Gilles Hacheme, Ai4Innov
+  porte: Le dépôt
+  lien: https://github.com/hgilles06/infashai
+  verifie: 2026-09-10
+
+- nom: InkubaLM
+  lieu: Johannesburg
+  fait: "Modèle de 0,4 milliard de paramètres, cinq langues africaines, poids publiés"
+  par: Lelapa AI
+  porte: Les poids
+  lien: https://huggingface.co/lelapa/InkubaLM-0.4B
+  verifie: 2026-09-10
+
+- nom: Masakhane
+  lieu: Panafricain
+  fait: "Collectif de traduction automatique, une trentaine de dépôts, licences permissives"
+  par: Une communauté ouverte
+  porte: Par où entrer
+  lien: https://github.com/masakhane-io/masakhane-community
+  verifie: 2026-09-10
+
+- nom: SALAMA
+  lieu: Cotonou
+  fait: "Reconnaissance vocale, synthèse et modèle de langue pour langues africaines"
+  par: Ai4Innov
+  porte: Les modèles
+  lien: https://huggingface.co/Ai4Innov
+  verifie: 2026-09-10
+
+- nom: Ushahidi
+  lieu: Nairobi
+  fait: "Plateforme de signalement, AGPL-3.0, CONTRIBUTING.md, pull requests ouvertes"
+  par: Ushahidi
+  porte: Le dépôt
+  lien: https://github.com/ushahidi/platform
+  verifie: 2026-09-10
+
+# En attente d'une porte publique. Vérifié le 2026-09-10, aucun lien trouvé.
+# La ligne entre le jour où quelqu'un donne une adresse qu'un inconnu peut ouvrir.
+#
+# - nom: Tech Republic
+#   lieu: Abidjan
+#   fait: "Meetup produit, une cinquantaine de personnes par session"
+#   par: Kiyani Bamba
+#   porte: Le groupe
+#   lien: MANQUANT
+#   verifie: 2026-09-10
+#
+# - nom: Unleash
+#   lieu: Abidjan
+#   fait: "MANQUANT"
+#   par: Charles Nseke, Daniel Deng
+#   porte: MANQUANT
+#   lien: MANQUANT
+#   verifie: 2026-09-10

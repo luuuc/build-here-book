@@ -54,6 +54,8 @@ Elles s'écrivent en ouvrant une pull request sur [le dépôt](https://github.co
 
 Si elle tient, elle rejoint le livre sous ton nom. Pas besoin d'être connu. C'est à peu près le sujet.
 
+Une entrée n'est pas la seule chose qui se contribue. L'[annexe 4](/chapters/a4-deja-en-ligne.html) liste ce qu'on peut ouvrir ce soir, et une ligne s'y ajoute en moins de temps qu'il n'en faut pour lire cette page.
+
 Le sous-sol a un escalier, et personne d'en haut ne descendra te chercher.
 
 **Les builders sont là depuis le début. Maintenant, on peut te trouver.**

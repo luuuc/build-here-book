@@ -41,6 +41,8 @@ La dernière fois qu'une documentation t'a fait perdre trente minutes, ouvre la 
 
 Puis la suivante, sur une dépendance sans laquelle ton produit ne tourne pas.
 
+Si tu ne sais pas où atterrir, l'[annexe 4](/chapters/a4-deja-en-ligne.html) liste des endroits qui acceptent une pull request ce soir.
+
 ## À discuter
 
 Quelle correction on garde en local depuis des mois sur une dépendance publique ? Qu'est-ce qui a empêché de la renvoyer ?

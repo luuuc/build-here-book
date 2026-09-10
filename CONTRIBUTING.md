@@ -26,6 +26,8 @@ Rien ne distingue les entrées arrivées par l'une ou par l'autre, et la relectu
 
 **Une traduction.** Dis-le d'abord dans une discussion, pour qu'on ne le fasse pas deux fois.
 
+**Une ligne dans l'annexe 4.** Un dépôt, des poids, un jeu de données, un groupe qui a une prochaine date. Une seule règle, un inconnu peut en faire quelque chose ce soir, sans permission et sans introduction. Le fichier est `_data/deja-en-ligne.yml`, les sept champs sont documentés en tête. Ordre alphabétique, quinze mots de faits maximum, aucun adjectif. Tu n'as pas besoin d'être l'auteur de la chose que tu ajoutes.
+
 ---
 
 ## Écrire une entrée, mécaniquement
