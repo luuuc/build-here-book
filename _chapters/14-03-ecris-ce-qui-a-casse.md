@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Écris ce qui a cassé"
-part: "La trace"
+part: "Laisser une trace"
 order: 70
 metadata:
   principle: "54"

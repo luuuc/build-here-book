@@ -4,7 +4,7 @@ title: "L'escalier"
 description: "La dernière page"
 show_chapter_number: false
 part: "Clôture"
-order: 82
+order: 85
 metadata:
   reading_time_in_minutes: 3
 categories:
@@ -33,6 +33,8 @@ Donc un inconnu la trouve, en cherchant son propre problème.
 Donc il cale son travail sur autre chose que la moyenne de son bâtiment.
 Donc le niveau cesse d'avoir l'air optionnel, pour lui, dans sa salle.
 Donc il publie à son tour, et le nombre de références disponibles pour le suivant augmente de un.
+
+Rien n'oblige cet inconnu à être sur ce continent, et c'est le moment où la boucle cesse d'être une affaire locale.
 
 Ce n'est pas un mouvement, ni une communauté, ni un plan. C'est de l'arithmétique, et elle est lente. La première ligne est la seule qui te demande quelque chose.
 

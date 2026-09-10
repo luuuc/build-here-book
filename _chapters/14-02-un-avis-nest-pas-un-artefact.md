@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Un avis n'est pas un artefact"
-part: "La trace"
+part: "Laisser une trace"
 order: 69
 metadata:
   principle: "53"
@@ -27,7 +27,7 @@ Un texte sur ce que l'écosystème devrait faire. Une réaction à une levée de
 
 ## Pourquoi
 
-Deux choses différentes portent le même nom, et les deux produisent de l'activité sous le tien. Une seule produit une référence. La différence est dans la façon dont on arrive dessus. Un avis est consommé au moment où il passe, par des gens qui ne cherchaient rien. Un artefact est trouvé, plus tard, par quelqu'un qui a déjà le problème. Personne ne tape "que devrait faire la tech africaine" dans un moteur de recherche. Quelqu'un tape le message d'erreur exact, à deux heures du matin, et il ne sait pas qu'il te cherche.
+Deux choses différentes portent le même nom, et les deux produisent de l'activité sous le tien. Une seule produit une référence. La différence est dans la façon dont on arrive dessus. Un avis est consommé au moment où il passe, par des gens qui ne cherchaient rien. Un artefact est trouvé, plus tard, par quelqu'un qui a déjà le problème. Personne ne tape "que devrait faire la tech africaine" dans un moteur de recherche. Quelqu'un tape le message d'erreur exact, à deux heures du matin, et il ne sait pas qu'il te cherche. Un exemple ouvrable ce soir. Lelapa AI a publié les poids d'InkubaLM, entraîné sur cinq langues africaines. N'importe qui peut les télécharger et dire ce qui ne va pas dedans, sans rien savoir de l'équipe.
 
 Regarde aussi contre qui tu te places. Sur un avis, tu es en concurrence avec tous ceux qui ont une opinion, c'est-à-dire tout le monde, et celui qui gagne est celui qui poste le plus souvent. Sur la façon dont ton équipe a réconcilié des paiements sur deux rails qui ne se parlent pas, tu es en concurrence avec les gens qui l'ont fait. Ils sont douze et ils n'écrivent pas.
 

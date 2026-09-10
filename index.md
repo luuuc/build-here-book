@@ -35,7 +35,7 @@ description: Un guide pratique pour ceux qui construisent sur ce continent
 
 ## Arrêter de le faire en silence
 
-13. **La trace**<br>Une explication a une audience de un
+13. **Laisser une trace**<br>Une explication a une audience de un
 14. **Se faire trouver**<br>Écrit et invisible, c'est un progrès d'exactement zéro
 15. **Devenir une référence**<br>Ça arrive à quelqu'un d'autre, sans toi
 

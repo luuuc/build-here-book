@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Mets ton nom dessus"
-part: "La trace"
+part: "Laisser une trace"
 order: 68
 metadata:
   principle: "52"

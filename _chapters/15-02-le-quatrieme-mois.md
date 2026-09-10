@@ -2,9 +2,9 @@
 layout: chapter
 title: "Le quatrième mois"
 part: "Se faire trouver"
-order: 75
+order: 76
 metadata:
-  principle: "58"
+  principle: "59"
   reading_time_in_minutes: 3
 categories:
   - visibilite

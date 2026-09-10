@@ -31,7 +31,7 @@ Le premier mouvement te rend meilleur. Le second rend ton travail visible. Ce so
 
 ### Arrêter de le faire en silence
 
-- **La trace** - une explication a une audience de un, une trace a une audience que tu ne choisis pas
+- **Laisser une trace** - une explication a une audience de un, une trace a une audience que tu ne choisis pas
 - **Se faire trouver** - écrit et invisible, c'est un progrès d'exactement zéro
 - **Devenir une référence** - ça arrive à quelqu'un d'autre, ailleurs, sans toi
 

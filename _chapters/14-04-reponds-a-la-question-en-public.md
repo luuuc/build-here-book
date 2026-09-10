@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Réponds à la question en public"
-part: "La trace"
+part: "Laisser une trace"
 order: 71
 metadata:
   principle: "55"

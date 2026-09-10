@@ -2,9 +2,9 @@
 layout: chapter
 title: "Une référence n'est pas une personnalité"
 part: "Devenir une référence"
-order: 80
+order: 82
 metadata:
-  principle: "62"
+  principle: "64"
   reading_time_in_minutes: 3
 categories:
   - reference

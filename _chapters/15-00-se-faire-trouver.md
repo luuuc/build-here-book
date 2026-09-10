@@ -3,7 +3,7 @@ layout: chapter
 title: "Se faire trouver"
 show_chapter_number: false
 part: "Se faire trouver"
-order: 73
+order: 74
 metadata:
   reading_time_in_minutes: 1
 categories:
@@ -28,4 +28,5 @@ La distance entre écrit et trouvable est plus longue qu'elle n'en a l'air, et e
 - [Publie là où on cherche](/chapters/15-01-publie-la-ou-on-cherche.html)
 - [Le quatrième mois](/chapters/15-02-le-quatrieme-mois.html)
 - [Ce que publier coûte vraiment ici](/chapters/15-03-ce-que-publier-coute-vraiment-ici.html)
-- [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/15-04-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
+- [Partir n'est pas une trahison](/chapters/15-04-partir-nest-pas-une-trahison.html)
+- [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/15-05-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)

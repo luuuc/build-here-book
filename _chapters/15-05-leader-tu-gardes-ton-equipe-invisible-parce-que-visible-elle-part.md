@@ -2,9 +2,9 @@
 layout: chapter
 title: "Tu gardes ton équipe invisible parce que visible, elle part"
 part: "Se faire trouver"
-order: 77
+order: 79
 metadata:
-  principle: "60"
+  principle: "62"
   reading_time_in_minutes: 3
 categories:
   - visibilite

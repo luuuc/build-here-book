@@ -72,7 +72,7 @@ Un avis sur l'avenir de la tech africaine n'est pas un artefact. Il en existe d�
 
 ## Trois sections
 
-**La trace.** Ce qui compte comme trace, et comment on en fabrique une à partir de ce qu'on vient de faire.
+**Laisser une trace.** Ce qui compte comme trace, et comment on en fabrique une à partir de ce qu'on vient de faire.
 
 **Se faire trouver.** Où la poser, ce que publier coûte réellement ici, et ce qui se passe au quatrième mois quand personne n'a rien dit.
 

@@ -1,10 +1,10 @@
 ---
 layout: chapter
 title: "L'absence de règle est une interdiction"
-part: "La trace"
-order: 72
+part: "Laisser une trace"
+order: 73
 metadata:
-  principle: "56"
+  principle: "57"
   reading_time_in_minutes: 3
 categories:
   - trace

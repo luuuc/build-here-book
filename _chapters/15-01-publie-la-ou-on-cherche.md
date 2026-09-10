@@ -2,9 +2,9 @@
 layout: chapter
 title: "Publie là où on cherche"
 part: "Se faire trouver"
-order: 74
+order: 75
 metadata:
-  principle: "57"
+  principle: "58"
   reading_time_in_minutes: 2
 categories:
   - visibilite

@@ -2,9 +2,9 @@
 layout: chapter
 title: "Ce que publier coûte vraiment ici"
 part: "Se faire trouver"
-order: 76
+order: 77
 metadata:
-  principle: "59"
+  principle: "60"
   reading_time_in_minutes: 3
 categories:
   - visibilite

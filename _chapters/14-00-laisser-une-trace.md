@@ -1,8 +1,8 @@
 ---
 layout: chapter
-title: "La trace"
+title: "Laisser une trace"
 show_chapter_number: false
-part: "La trace"
+part: "Laisser une trace"
 order: 67
 metadata:
   reading_time_in_minutes: 1
@@ -29,4 +29,5 @@ Cette section porte sur la différence entre expliquer et laisser. Une explicati
 - [Un avis n'est pas un artefact](/chapters/14-02-un-avis-nest-pas-un-artefact.html)
 - [Écris ce qui a cassé](/chapters/14-03-ecris-ce-qui-a-casse.html)
 - [Réponds à la question en public](/chapters/14-04-reponds-a-la-question-en-public.html)
-- [⇄ L'absence de règle est une interdiction](/chapters/14-05-leader-labsence-de-regle-est-une-interdiction.html)
+- [Une trace n'est pas forcément du code](/chapters/14-05-une-trace-nest-pas-forcement-du-code.html)
+- [⇄ L'absence de règle est une interdiction](/chapters/14-06-leader-labsence-de-regle-est-une-interdiction.html)

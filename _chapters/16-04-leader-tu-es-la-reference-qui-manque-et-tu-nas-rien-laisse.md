@@ -2,9 +2,9 @@
 layout: chapter
 title: "Tu es la référence qui manque, et tu n'as rien laissé"
 part: "Devenir une référence"
-order: 81
+order: 84
 metadata:
-  principle: "63"
+  principle: "66"
   reading_time_in_minutes: 3
 categories:
   - reference
