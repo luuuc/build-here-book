@@ -28,5 +28,7 @@ La distance entre écrit et trouvable est plus longue qu'elle n'en a l'air, et e
 - [Publie là où on cherche](/chapters/15-01-publie-la-ou-on-cherche.html)
 - [Le quatrième mois](/chapters/15-02-le-quatrieme-mois.html)
 - [Ce que publier coûte vraiment ici](/chapters/15-03-ce-que-publier-coute-vraiment-ici.html)
+- [On te paie ce qui se vérifie](/chapters/15-06-on-te-paie-ce-qui-se-verifie.html)
 - [Partir n'est pas une trahison](/chapters/15-04-partir-nest-pas-une-trahison.html)
 - [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/15-05-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
+- [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/15-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)

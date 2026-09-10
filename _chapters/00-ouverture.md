@@ -147,7 +147,7 @@ Je dois dire d'où j'écris. Plusieurs de ces entrées décrivent des erreurs qu
 
 ## Ce qu'est une entrée
 
-Tu en lis une, tu refermes, tu changes une chose. Tu en envoies une à un collègue lui expliquer les soixante-deux autres.
+Tu en lis une, tu refermes, tu changes une chose. Tu en envoies une à un collègue au lieu de lui expliquer le reste du livre.
 
 Une entrée fonctionne quand quelqu'un la lit et y reconnaît une scène qu'il a vécue. Sans ça, l'argument qui suit ne sera pas lu.
 

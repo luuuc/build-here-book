@@ -3,7 +3,7 @@ layout: chapter
 title: "Devenir une référence"
 show_chapter_number: false
 part: "Devenir une référence"
-order: 80
+order: 82
 metadata:
   reading_time_in_minutes: 1
 categories:

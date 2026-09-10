@@ -4,7 +4,7 @@ title: "Comment écrire une entrée"
 description: "Le format, bloc par bloc"
 show_chapter_number: false
 part: "Annexes"
-order: 86
+order: 88
 metadata:
   reading_time_in_minutes: 8
 categories:

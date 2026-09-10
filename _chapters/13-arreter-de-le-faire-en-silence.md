@@ -12,7 +12,7 @@ categories:
   - trace
   - builders
 seo:
-  description: "Une équipe peut appliquer les cinquante et une entrées précédentes à la lettre pendant trois ans et rester exactement aussi invisible qu'avant."
+  description: "Une équipe peut appliquer toutes les entrées précédentes à la lettre pendant trois ans et rester exactement aussi invisible qu'avant."
   keywords: "build here, visibilite, trace, tech afrique, builder, silence"
 ---
 
@@ -20,7 +20,7 @@ Il y a une phrase à la fin de l'ouverture que j'ai écrite vite et que j'ai mis
 
 *Le travail que ce livre te demande ne s'arrête pas à devenir meilleur.*
 
-Les douze sections que tu viens de lire traitent la première moitié. Elles sont utiles, elles sont ordinaires, et elles ne règlent rien du problème posé à la page un. Une équipe peut appliquer les cinquante et une entrées précédentes à la lettre pendant trois ans et rester exactement aussi invisible qu'avant. Rien dans le fait de bien travailler ne produit une trace.
+Les douze sections que tu viens de lire traitent la première moitié. Elles sont utiles, elles sont ordinaires, et elles ne règlent rien du problème posé à la page un. Une équipe peut appliquer toutes les entrées précédentes à la lettre pendant trois ans et rester exactement aussi invisible qu'avant. Rien dans le fait de bien travailler ne produit une trace.
 
 Voilà la deuxième moitié. C'est la difficile.
 

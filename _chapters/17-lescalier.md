@@ -4,7 +4,7 @@ title: "L'escalier"
 description: "La dernière page"
 show_chapter_number: false
 part: "Clôture"
-order: 85
+order: 87
 metadata:
   reading_time_in_minutes: 3
 categories:
