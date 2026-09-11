@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Si tu ne comprends pas pourquoi, tu n'es pas prêt à le construire"
+title: "Si tu ne comprends pas le pourquoi, tu n'es pas prêt à construire"
 part: "Curiosité"
 order: 5
 metadata:
