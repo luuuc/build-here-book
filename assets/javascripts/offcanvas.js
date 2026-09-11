@@ -78,3 +78,43 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// Menu de telechargement du header.
+//
+// Amazon n'ouvre pas d'API permettant a un site de deposer un fichier dans la
+// liseuse de quelqu'un. « Envoyer sur mon Kindle » fait donc les deux seules
+// choses faisables depuis une page : telecharger l'EPUB, et ouvrir l'outil
+// d'envoi d'Amazon ou le lecteur le depose.
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.getElementById("download-toggle");
+  const menu = document.getElementById("download-menu");
+  if (!toggle || !menu) return;
+
+  function close() {
+    menu.hidden = true;
+    toggle.setAttribute("aria-expanded", "false");
+  }
+
+  toggle.addEventListener("click", function (e) {
+    e.stopPropagation();
+    const opening = menu.hidden;
+    menu.hidden = !opening;
+    toggle.setAttribute("aria-expanded", String(opening));
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!menu.hidden && !menu.contains(e.target)) close();
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") close();
+  });
+
+  const kindle = menu.querySelector("[data-kindle]");
+  if (kindle) {
+    kindle.addEventListener("click", function () {
+      window.open(kindle.dataset.kindle, "_blank", "noopener");
+      close();
+    });
+  }
+});

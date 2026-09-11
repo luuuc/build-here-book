@@ -63,14 +63,91 @@ body {
   text-decoration: none;
 }
 
-.about {
+/* Le bloc de droite : le telechargement, puis À propos. */
+.header-actions {
   float: right;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.about {
   font-size: 1rem;
   font-weight: normal;
   color: #1C1A17;
   text-decoration: none;
   opacity: 0.5;
-  margin-top: 0.4rem;
+}
+
+.about:hover {
+  opacity: 1;
+}
+
+/* Menu de telechargement */
+.download {
+  position: relative;
+  display: flex;
+}
+
+.download-toggle {
+  display: flex;
+  padding: 0.15rem;
+  background: none;
+  border: 0;
+  color: #1C1A17;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.download-toggle:hover,
+.download-toggle[aria-expanded="true"] {
+  opacity: 1;
+}
+
+.download-menu {
+  position: absolute;
+  top: calc(100% + 0.7rem);
+  right: 0;
+  z-index: 1100;
+  min-width: 17rem;
+  max-width: calc(100vw - 2rem);
+  padding: 0.35rem 0;
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  border-top: 3px solid #F5B301;
+  box-shadow: 0 12px 30px rgba(28, 26, 23, 0.16);
+}
+
+.download-menu[hidden] {
+  display: none;
+}
+
+.download-menu a {
+  display: block;
+  padding: 0.6rem 1rem;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  color: #1C1A17;
+  text-decoration: none;
+}
+
+.download-menu a:hover {
+  background: #FBEEC1;
+}
+
+.download-menu a small {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.73rem;
+  line-height: 1.4;
+  color: #8A6100;
+}
+
+.download-menu hr {
+  border: 0;
+  border-top: 1px solid #E8E3D9;
+  margin: 0.35rem 0;
 }
 
 /* Offcanvas Menu */

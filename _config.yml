@@ -56,6 +56,16 @@ plugins:
 include:
   - .well-known
 
+# Les deux tirages, publies par .github/workflows/book.yml sur la release qui
+# porte book.version. « latest » suit toujours la derniere publiee : ces deux
+# adresses n'ont jamais besoin d'etre mises a jour.
+downloads:
+  pdf: "https://github.com/luuuc/build-here-book/releases/latest/download/build-here.pdf"
+  epub: "https://github.com/luuuc/build-here-book/releases/latest/download/build-here.epub"
+  # Amazon n'ouvre pas d'API pour deposer un fichier dans une liseuse.
+  # C'est son propre outil d'envoi, ou le lecteur depose l'EPUB telecharge.
+  kindle: "https://www.amazon.com/sendtokindle"
+
 # Book metadata for AI parsing
 book:
   published: "2026-09-08"
