@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Exécution"
+description: "Sortir tôt ou sortir propre, et comment on tranche"
 show_chapter_number: false
 illustration: "execution"
 section_number: 7

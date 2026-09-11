@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Hiérarchie"
+description: "Contredire sans manquer de respect"
 show_chapter_number: false
 illustration: "hierarchie"
 section_number: 3

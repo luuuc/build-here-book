@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Laisser une trace"
+description: "Écrire une fois ce que tu expliques quatre fois"
 show_chapter_number: false
 illustration: "laisser-une-trace"
 section_number: 13

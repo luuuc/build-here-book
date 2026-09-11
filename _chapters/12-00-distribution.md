@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Distribution"
+description: "S’occuper du chemin, pas seulement du produit"
 show_chapter_number: false
 illustration: "distribution"
 section_number: 12

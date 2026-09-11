@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Technologie et business"
+description: "Comprendre ce que ta décision technique engage"
 show_chapter_number: false
 illustration: "tech-et-business"
 section_number: 10

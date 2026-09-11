@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Ego et honnêteté intellectuelle"
+description: "Se reprendre en public, vite"
 show_chapter_number: false
 illustration: "ego-et-honnetete"
 section_number: 2

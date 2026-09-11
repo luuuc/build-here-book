@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Ownership"
+description: "Ramasser ce qui traîne entre deux équipes"
 show_chapter_number: false
 illustration: "ownership"
 section_number: 4

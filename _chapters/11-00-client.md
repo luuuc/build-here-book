@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Client"
+description: "Lire les réclamations comme des données"
 show_chapter_number: false
 illustration: "client"
 section_number: 11

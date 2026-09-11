@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Apprentissage"
+description: "Se comparer à plus loin que son bâtiment"
 show_chapter_number: false
 illustration: "apprentissage"
 section_number: 8

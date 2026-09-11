@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Devenir une référence"
+description: "Laisser quelque chose que quelqu’un reprendra"
 show_chapter_number: false
 illustration: "devenir-une-reference"
 section_number: 15

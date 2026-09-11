@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Leadership"
+description: "Fixer les conditions, même sans le titre qui va avec"
 show_chapter_number: false
 illustration: "leadership"
 section_number: 9

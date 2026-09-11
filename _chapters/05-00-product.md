@@ -1,6 +1,7 @@
 ---
 layout: chapter
 title: "Produit"
+description: "Refuser du travail, et survivre au refus"
 show_chapter_number: false
 illustration: "produit"
 section_number: 5
