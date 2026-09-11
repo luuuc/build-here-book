@@ -508,6 +508,9 @@ body {
   margin: 1.5rem 0;
   font-style: italic;
   font-size: 90%;
+  /* Le fond s'arrete a la couverture flottante de l'accueil au lieu de passer
+     derriere : une boite qui ouvre son propre contexte n'empiete pas sur un float. */
+  display: flow-root;
 }
 
 .content blockquote p {
