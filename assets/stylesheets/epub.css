@@ -27,15 +27,25 @@ strong { color: #1C1A17; }
 
 /* ------------------------------------------------------- pages de partie */
 
-/* Un EPUB se reflowe : la page noire du papier devient ici un bandeau noir qui
-   ouvre la partie, avec assez de fond pour tenir une ecran de liseuse. */
+/* La page noire du papier. Une liseuse garde ses propres marges autour du
+   texte : le noir ne peut pas aller jusqu'au bord de l'ecran, il va jusqu'au
+   bord de la zone de texte. Il prend en revanche toute la hauteur de page, et
+   rien d'autre ne vient s'asseoir dessus.
+   height en vh : si la liseuse ne connait pas l'unite, le bloc reprend la
+   hauteur de son contenu au lieu de deborder sur une deuxieme page. */
 h1.part-title {
   page-break-before: always;
   break-before: page;
+  page-break-after: always;
+  break-after: page;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
   background: #1C1A17;
   color: #FFFFFF;
   margin: 0 -1em;
-  padding: 3.5em 1.2em 14em;
+  padding: 4em 2.4em;
+  padding-top: 22vh;
   font-size: 1.8em;
   line-height: 1.15;
   font-weight: bold;
@@ -45,11 +55,22 @@ h1.part-title {
 .part-roman {
   display: block;
   font-family: "Archivo", sans-serif;
-  font-size: 0.42em;
+  font-size: 0.62em;
   font-weight: bold;
   letter-spacing: 0.2em;
   color: #F5B301;
-  margin-bottom: 1.4em;
+  margin: 0;
+}
+
+/* Le filet jaune du PDF, entre le chiffre romain et le titre. Il passe par un
+   ::after parce qu'un titre ne peut pas contenir de bloc. */
+.part-roman::after {
+  content: "";
+  display: block;
+  width: 3.4em;
+  height: 3px;
+  background: #F5B301;
+  margin: 1.5em 0 1.7em;
 }
 
 /* ---------------------------------------------------------- chapitres */
