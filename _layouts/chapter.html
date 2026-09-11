@@ -19,18 +19,20 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="container">
+        <!-- Le fil d'ariane vit au-dessus du titre et du dessin : il prend
+             toute la ligne, a toutes les largeurs. -->
+        <div class="chapter-number">
+          {% if page.section_number %}
+          <span>{% if page.section_number < 13 %}Mouvement un{% else %}Mouvement deux{% endif %}</span>
+          <span>Section {{page.section_number}}</span>
+          {% else %}
+          {% unless page.part == page.title %}<span>{{page.part}}</span>{% endunless %}
+          {% unless page.show_chapter_number == false %}<span>Entrée {{page.metadata.principle}}</span>{% endunless %}
+          {% endif %}
+          {% if page.metadata.reading_time_in_minutes %}<span>{{page.metadata.reading_time_in_minutes}} min</span>{% endif %}
+        </div>
         <div class="hero-inner">
           <div class="hero-text">
-            <div class="chapter-number">
-              {% if page.section_number %}
-              <span>{% if page.section_number < 13 %}Mouvement un{% else %}Mouvement deux{% endif %}</span>
-              <span>Section {{page.section_number}}</span>
-              {% else %}
-              {% unless page.part == page.title %}<span>{{page.part}}</span>{% endunless %}
-              {% unless page.show_chapter_number == false %}<span>Entrée {{page.metadata.principle}}</span>{% endunless %}
-              {% endif %}
-              {% if page.metadata.reading_time_in_minutes %}<span>{{page.metadata.reading_time_in_minutes}} min</span>{% endif %}
-            </div>
             <h1>{{page.title}}</h1>
             {% if page.description %}
             <p>{{page.description}}</p>
