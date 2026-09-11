@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Déjà en ligne"
-description: "Ce qu'on peut ouvrir ce soir"
+description: "Ce qu’on peut ouvrir ce soir"
 show_chapter_number: false
 part: "Annexes"
 order: 91

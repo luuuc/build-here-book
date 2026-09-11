@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Les douze tests"
-description: "Ce qu'une entrée doit survivre"
+description: "Ce qu’une entrée doit survivre"
 show_chapter_number: false
 part: "Annexes"
 order: 89
