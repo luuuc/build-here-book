@@ -52,7 +52,7 @@ jobs:
       changed: ${{ steps.decide.outputs.changed }}
       version: ${{ steps.decide.outputs.version }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           # Le commit qui a produit le site deploye, pas la tete de branche.
           ref: ${{ github.event.workflow_run.head_sha || github.sha }}
@@ -96,7 +96,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ github.event.workflow_run.head_sha || github.sha }}
           fetch-depth: 0
@@ -135,7 +135,7 @@ jobs:
           ls -lh build
 
       - name: Deposer les fichiers
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: build-here
           path: |
