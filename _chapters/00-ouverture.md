@@ -7,7 +7,7 @@ illustration: "ouverture"
 part: "Ouverture"
 order: 1
 metadata:
-  reading_time_in_minutes: 13
+  reading_time_in_minutes: 10
 categories:
   - ouverture
   - builders
@@ -131,30 +131,6 @@ Chaque étape, prise isolément, est raisonnable. Mises bout à bout, elles sont
 Et ceux qui deviennent bons et se font voir partent en majorité, ce qui est de l'arithmétique et pas une trahison, et le continent finit par former des ingénieurs pour les entreprises des autres, à ses frais.
 
 Personne n'a conçu ça. Ce n'est la faute de personne en particulier, et c'est pour ça que personne ne va le réparer en particulier.
-
-
-## Pour qui
-
-Toi, si tu fabriques des choses. Ingénieurs, fondateurs, produit, design, data, support, ops, et ceux qui les encadrent. Un seul mot vous couvre tous ici. **Builder.** Celui qui fabrique quelque chose. Ton métier change ce qu'une entrée veut dire, pas si elle te concerne.
-
-Si tu construis depuis dix ans, tu n'es pas l'élève dans cette histoire. La moitié de ce qui suit, tu le sais déjà, appris à la dure, sur un truc qui a cassé devant un client. Tu es la référence qui manquait, et si personne autour de toi ne s'en sert, c'est que rien de tout ça n'est jamais sorti de ta tête.
-
-Le guide te demande donc deux choses. Fais circuler les entrées au lieu de refaire le discours pour la quarantième fois. Puis écris celles que je ne peux pas écrire, parce que je n'ai pas eu tes échecs, sur ton marché, sur ta stack. La fin du livre contient le format et les tests, écrits pour que ce soit possible.
-
-Si tu as commencé l'an dernier, c'est la salle que personne ne t'a montrée. Personne ne te note à l'entrée, et rien ici ne t'oblige à rester inoffensif.
-
-Je dois dire d'où j'écris. Plusieurs de ces entrées décrivent des erreurs que j'ai commises pendant des années, et une ou deux décrivent des erreurs que je commettais encore en les écrivant. J'écris depuis la même rive que toi.
-
-
-## Ce qu'est une entrée
-
-Tu en lis une, tu refermes, tu changes une chose. Tu en envoies une à un collègue au lieu de lui expliquer le reste du livre.
-
-Une entrée fonctionne quand quelqu'un la lit et y reconnaît une scène qu'il a vécue. Sans ça, l'argument qui suit ne sera pas lu.
-
-Ne lis pas ce livre du début à la fin, sauf si ça t'amuse. Ouvre-le à la section qui correspond à ce qui t'énerve cette semaine. Discute avec. Amène-la au standup et regarde qui se crispe.
-
-Être d'accord avec tout serait mauvais signe. Certaines entrées sont fausses pour ton équipe, et comprendre pourquoi t'apprendra plus que hocher la tête devant celles auxquelles tu crois déjà.
 
 
 ## Une dernière chose

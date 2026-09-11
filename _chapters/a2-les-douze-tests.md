@@ -76,9 +76,11 @@ Le plus simple et le plus difficile. Est-ce que tu enverrais cette entrée à un
 
 ---
 
-## Deux tests de plus
+## Trois tests de plus
 
 **Le test de la phrase reprise.** Une entrée qui fonctionne laisse une expression derrière elle, quelque chose d'utilisable en réunion. Si aucune ligne ne peut être extraite telle quelle, le titre a besoin d'un nouveau passage.
+
+**Le test des sièges.** Une entrée qui ne fonctionne que depuis un seul siège n'est pas fausse. Elle est plus faible. Les principes qui traversent les frontières internes sont ceux qui construisent un langage commun, et un langage commun est ce que ce livre cherche. Les bonnes pratiques par métier existent déjà, pas la peine de les réinventer. Les six sièges sont décrits dans [Comment lire ce livre](/chapters/00-comment-lire-ce-livre.html).
 
 **Le test du désaccord.** Donne l'entrée à quelqu'un d'expérimenté qui n'est pas d'accord avec elle. S'il n'a rien à répondre, l'entrée est soit évidente, soit trop molle. Une bonne entrée attire un contre-argument sérieux, et ce contre-argument a sa place dans le texte.
 

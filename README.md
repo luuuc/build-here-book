@@ -25,7 +25,7 @@ Les deux sont retirés automatiquement après chaque déploiement du site, par [
 
 ## Ce qu'il y a dedans
 
-Une ouverture, un mode d'emploi (*Les six sièges*), **deux mouvements** et trois annexes.
+Une ouverture, un mode d'emploi (*Comment lire ce livre*), **deux mouvements** et quatre annexes.
 
 Le premier mouvement te rend meilleur. Le second rend ton travail visible. Ce sont deux problèmes différents, et le second est le plus difficile des deux.
 
