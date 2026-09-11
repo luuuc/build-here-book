@@ -1,0 +1,118 @@
+---
+layout: none
+permalink: /pdf.html
+sitemap: false
+---
+{% comment %}
+Le livre entier en un seul document, pour WeasyPrint. Rendu par bin/build-book,
+jamais par le build du site : la collection « pdf » n'est declaree que dans
+_config-pdf.yml.
+
+La pagination, les titres courants, les points de conduite du sommaire et les
+numeros de page vivent dans assets/stylesheets/print.css. Le corps du livre est
+partage avec l'EPUB, dans _includes/book-body.html.
+{% endcomment %}
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ site.title }} — {{ site.author.name }}</title>
+    <meta name="author" content="{{ site.author.name }}" />
+    <link rel="stylesheet" href="assets/stylesheets/print.css" />
+  </head>
+  <body>
+    <!-- Couverture, pleine page -->
+    <section class="cover">
+      <img src="assets/images/couverture.png" alt="{{ site.title }}" />
+    </section>
+
+    <!-- Page de titre -->
+    <section class="front">
+      <div>
+        <p class="front-kicker">Le playbook des builders</p>
+        <div class="front-rule"></div>
+        <h1 class="front-title">Build<br />Here</h1>
+        <p class="front-sub">{{ site.description | strip_newlines | split: "." | first }}.</p>
+      </div>
+      <div>
+        <p class="front-author">{{ site.author.name }}</p>
+        <p class="front-spine">Deux mouvements · Quinze sections · Une entrée, deux minutes</p>
+      </div>
+    </section>
+
+    <!-- Colophon -->
+    <section class="front colophon">
+      <div>
+        <p><strong>{{ site.title }}</strong> — version {{ site.book.version }}, {{ site.book.published }}.</p>
+        <p>
+          © 2026 {{ site.author.name }}. Sous licence
+          <a href="{{ site.book.license }}">Creative Commons CC BY-SA 4.0</a> : tu peux
+          copier, redistribuer et transformer ce texte, y compris commercialement, à
+          condition de citer l'auteur et de partager aux mêmes conditions.
+        </p>
+        <p>
+          Le livre se lit aussi en ligne sur <a href="{{ site.url }}">{{ site.url | remove: "https://" }}</a>,
+          et son code source est ouvert sur
+          <a href="https://github.com/{{ site.repository }}">github.com/{{ site.repository }}</a>.
+        </p>
+        <p>
+          Il manque à ce livre les entrées que l'auteur ne pouvait pas écrire. Le format
+          est en annexe, la mécanique dans CONTRIBUTING.md. Deux portes, le même endroit :
+          une pull request, ou un mail à
+          <a href="mailto:{{ site.contact_email }}">{{ site.contact_email }}</a>.
+        </p>
+      </div>
+      <div>
+        <p class="front-spine">Composé en Merriweather et Archivo</p>
+      </div>
+    </section>
+
+    <!-- Sommaire. L'EPUB n'en a pas : sa navigation est produite par Pandoc. -->
+    <section class="toc">
+      <h1 class="toc-title">Sommaire</h1>
+
+      {% assign chapters = site.chapters | sort: "order" %}
+      {% for groupe in site.data.sommaire %}
+        {% assign multi = false %}
+        {% if groupe.sections.size > 1 %}{% assign multi = true %}{% endif %}
+        <div class="toc-group">
+          <p class="toc-group-title">
+            <a href="#partie-{{ forloop.index }}"><em>{{ groupe.roman }}.</em>{{ groupe.titre }}</a>
+          </p>
+
+          {% for nom in groupe.sections %}
+            {% assign items = chapters | where: "part", nom %}
+            {% assign ouverture = items | where_exp: "c", "c.title == nom" | first %}
+
+            {% if multi and items.size > 1 %}
+              <ul>
+                <li class="toc-section">
+                  <a href="#{{ ouverture.url | split: '/' | last }}">{{ nom }}</a>
+                </li>
+                {% for c in items %}
+                  {% unless ouverture and c.url == ouverture.url %}
+                    <li class="toc-entry">
+                      <a href="#{{ c.url | split: '/' | last }}"
+                        >{% unless c.show_chapter_number == false %}<span class="num">{{ c.metadata.principle }}.</span>{% endunless %}{{ c.title }}</a
+                      >
+                    </li>
+                  {% endunless %}
+                {% endfor %}
+              </ul>
+            {% else %}
+              <ul>
+                {% for c in items %}
+                  <li class="toc-flat">
+                    <a href="#{{ c.url | split: '/' | last }}">{{ c.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </section>
+
+    {% include book-body.html %}
+  </body>
+</html>

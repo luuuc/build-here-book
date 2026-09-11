@@ -1,0 +1,86 @@
+# Tire le livre en PDF et en EPUB, une fois que le site est deploye.
+#
+# Le declencheur est la fin du workflow Pages, pas le push : si le deploiement
+# echoue, le livre n'est pas tire, et les deux fichiers correspondent toujours a
+# ce qui est en ligne.
+name: Tirage du livre
+
+on:
+  workflow_run:
+    workflows: ["Deploy Jekyll site to Pages"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "livre"
+  cancel-in-progress: true
+
+env:
+  # Versions epinglees : le tirage doit sortir identique en local et ici.
+  PANDOC_VERSION: "3.9.0.2"
+  WEASYPRINT_VERSION: "70.0"
+
+jobs:
+  build:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Le commit qui a produit le site deploye, pas la tete de branche.
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Installer Pandoc
+        run: |
+          curl -sSLo /tmp/pandoc.deb \
+            "https://github.com/jgm/pandoc/releases/download/${PANDOC_VERSION}/pandoc-${PANDOC_VERSION}-1-amd64.deb"
+          sudo dpkg -i /tmp/pandoc.deb
+
+      - name: Installer WeasyPrint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0
+          pipx install "weasyprint==${WEASYPRINT_VERSION}"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Tirer le livre
+        run: bin/build-book
+
+      - name: Verifier le tirage
+        run: |
+          test -s build/build-here.pdf
+          test -s build/build-here.epub
+          ls -lh build
+
+      - name: Deposer les fichiers
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-here
+          path: |
+            build/build-here.pdf
+            build/build-here.epub
+          if-no-files-found: error
+
+      # Les deux fichiers sont attaches a la release qui porte la version du
+      # livre, celle de _config.yml (book.version). Tant que cette version ne
+      # bouge pas, chaque deploiement remplace les fichiers de la meme release.
+      - name: Publier la release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version=$(ruby -ryaml -e 'puts YAML.load_file("_config.yml")["book"]["version"]')
+          tag="v${version}"
+          if ! gh release view "$tag" >/dev/null 2>&1; then
+            gh release create "$tag" --title "Build Here $version" --notes "PDF et EPUB de la version $version."
+          fi
+          gh release upload "$tag" build/build-here.pdf build/build-here.epub --clobber

@@ -1,0 +1,33 @@
+---
+layout: none
+permalink: /epub-metadata.yml
+sitemap: false
+---
+{% comment %}
+Metadonnees de l'EPUB. Le fichier porte l'extension .html parce que Jekyll lit
+tout .yml place dans une collection comme un fichier de donnees, et n'en sort
+rien ; le permalink lui redonne son vrai nom.
+{% endcomment %}
+# Metadonnees de l'EPUB, lues par Pandoc. Source unique : _config.yml.
+title: "{{ site.title }}"
+subtitle: "{{ site.description | strip_newlines | split: '.' | first }}."
+author:
+  - "{{ site.author.name }}"
+creator:
+  - role: author
+    text: "{{ site.author.name }}"
+publisher: "{{ site.author.name }}"
+date: "{{ site.book.modified }}"
+lang: fr-FR
+identifier:
+  - scheme: URI
+    text: "{{ site.url }}"
+rights: "© 2026 {{ site.author.name }}. CC BY-SA 4.0 — {{ site.book.license }}"
+description: "{{ site.description | strip_newlines | strip }}"
+subject:
+  - builders
+  - tech africaine
+  - ingénierie logicielle
+  - produit
+  - ownership
+version: "{{ site.book.version }}"

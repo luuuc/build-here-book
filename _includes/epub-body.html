@@ -1,0 +1,47 @@
+{% comment %}
+Le corps du livre pour l'EPUB. Meme ordre et meme contenu que
+_includes/book-body.html, mais a plat : Pandoc ne construit sa navigation et ne
+decoupe ses fichiers qu'a partir des titres de premier niveau. Un titre enferme
+dans un <section> ne remonte nulle part.
+
+Partie = h1, ouverture de section = h2, entree = h3. Les intertitres du markdown
+descendent donc d'un cran, comme pour le PDF.
+{% endcomment %}
+{% assign chapters = site.chapters | sort: "order" %}
+{% for groupe in site.data.sommaire %}
+  <h1 class="part-title" id="partie-{{ forloop.index }}"><span class="part-roman">{{ groupe.roman }}.</span> {{ groupe.titre }}</h1>
+
+  {% for nom in groupe.sections %}
+    {% assign items = chapters | where: "part", nom %}
+    {% for c in items %}
+      {% assign is_section = false %}
+      {% if c.illustration %}{% assign is_section = true %}{% endif %}
+      {% assign body = c.content
+        | replace: 'href="/chapters/', 'href="#'
+        | replace: '<h3', '<h5' | replace: '</h3>', '</h5>'
+        | replace: '<h2', '<h4' | replace: '</h2>', '</h4>' %}
+      {% assign anchor = c.url | split: '/' | last %}
+
+      {% if is_section %}
+        <h2 class="chapter-title chapter-title--section" id="{{ anchor }}"><img class="chapter-mark" src="assets/images/sections/{{ c.illustration }}.svg" alt="" />{{ c.title }}</h2>
+      {% else %}
+        <h3 class="chapter-title" id="{{ anchor }}">{{ c.title }}</h3>
+      {% endif %}
+
+      <div class="chapter-kicker">
+        {% if c.section_number %}
+          <span>{% if c.section_number < 13 %}Mouvement un{% else %}Mouvement deux{% endif %}</span>
+          <span>Section {{ c.section_number }}</span>
+        {% else %}
+          {% unless c.part == c.title %}<span>{{ c.part }}</span>{% endunless %}
+          {% unless c.show_chapter_number == false %}<span>Entrée {{ c.metadata.principle }}</span>{% endunless %}
+        {% endif %}
+        {% if c.metadata.reading_time_in_minutes %}<span>{{ c.metadata.reading_time_in_minutes }} min</span>{% endif %}
+      </div>
+      {% if c.description %}<div class="chapter-lede">{{ c.description }}</div>{% endif %}
+
+      <!-- Les liens entre chapitres deviennent des renvois internes au livre. -->
+      <div class="prose">{{ body }}</div>
+    {% endfor %}
+  {% endfor %}
+{% endfor %}

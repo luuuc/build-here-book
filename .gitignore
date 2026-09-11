@@ -12,3 +12,6 @@ vendor
 .doc
 .local
 .opencode
+
+# Tirage du livre
+build/

@@ -1,0 +1,21 @@
+---
+layout: none
+permalink: /epub.html
+sitemap: false
+---
+{% comment %}
+Le meme livre, mis a plat pour Pandoc. Pas de couverture ni de sommaire ici :
+Pandoc pose la couverture (--epub-cover-image) et fabrique la navigation a
+partir des titres. Un EPUB se reflowe, donc les regles de pagination du PDF
+(page paire, double page par entree) n'ont pas de sens et ne sont pas reprises.
+{% endcomment %}
+<!doctype html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ site.title }}</title>
+  </head>
+  <body>
+    {% include epub-body.html %}
+  </body>
+</html>

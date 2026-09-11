@@ -8,6 +8,21 @@ Une entrée, deux minutes, une idée qui tient seule. Chacune se lit sans avoir 
 
 Le livre est disponible librement sur **[build-here.africa](https://build-here.africa)**.
 
+## Tirer le livre
+
+```sh
+brew install weasyprint pandoc
+bin/build-book          # les deux
+bin/build-book pdf      # le PDF seul
+bin/build-book epub     # l'EPUB seul
+```
+
+Sortie dans `build/`. Jekyll assemble le livre en une page HTML par format (`_pdf/`, corps commun dans `_includes/book-body.html`), WeasyPrint pagine le PDF, Pandoc empaquette l'EPUB.
+
+Le PDF est au format A4 : couverture pleine page, sommaire paginé, une page noire par partie, et chaque ouverture de section comme chaque entrée sur une page paire. L'EPUB se reflowe, donc il garde la couverture, la navigation et la mise en page d'une entrée, mais pas les règles de pagination.
+
+Les deux sont retirés automatiquement après chaque déploiement du site, par [`.github/workflows/book.yml`](.github/workflows/book.yml).
+
 ## Ce qu'il y a dedans
 
 Une ouverture, un mode d'emploi (*Les six sièges*), **deux mouvements** et trois annexes.

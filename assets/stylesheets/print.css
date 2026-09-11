@@ -1,0 +1,504 @@
+/* Feuille de style du tirage PDF (WeasyPrint). Le site ne la charge pas.
+
+   Format A4 exact, pour que l'impression ne recadre ni ne reduise rien. Ce qui
+   est colore va jusqu'au bord de la feuille : la couverture, les pages de
+   partie, les bandeaux d'ouverture de section.
+
+   Palette identique au site : encre #1C1A17, bandeau #FBEEC1, signal #F5B301,
+   ambre #8A6100, papier #FAF7F0, filet #E8E3D9, texte #2B2925. */
+
+@font-face { font-family: "Merriweather"; font-weight: 400; font-style: normal; src: url("../fonts/Merriweather-Regular.ttf"); }
+@font-face { font-family: "Merriweather"; font-weight: 700; font-style: normal; src: url("../fonts/Merriweather-Bold.ttf"); }
+@font-face { font-family: "Merriweather"; font-weight: 400; font-style: italic; src: url("../fonts/Merriweather-Italic.ttf"); }
+@font-face { font-family: "Merriweather"; font-weight: 700; font-style: italic; src: url("../fonts/Merriweather-BoldItalic.ttf"); }
+@font-face { font-family: "Archivo"; font-weight: 400; font-style: normal; src: url("../fonts/Archivo-Regular.ttf"); }
+@font-face { font-family: "Archivo"; font-weight: 600; font-style: normal; src: url("../fonts/Archivo-SemiBold.ttf"); }
+@font-face { font-family: "Archivo"; font-weight: 700; font-style: normal; src: url("../fonts/Archivo-Bold.ttf"); }
+
+/* ---------------------------------------------------------------- pages */
+
+@page {
+  size: A4;
+  margin: 25mm 25mm 22mm;
+
+  /* Le titre courant s'efface sur la page ou le titre est imprime :
+     c'est le role de first-except. */
+  @top-left { font-family: "Archivo", sans-serif; font-size: 8pt; font-weight: 600;
+              letter-spacing: 0.14em; text-transform: uppercase; color: #8C8375;
+              vertical-align: bottom; padding-bottom: 6mm; }
+  @top-right { font-family: "Archivo", sans-serif; font-size: 8pt; font-weight: 600;
+               letter-spacing: 0.14em; text-transform: uppercase; color: #8C8375;
+               vertical-align: bottom; padding-bottom: 6mm; text-align: right; }
+  @bottom-left { font-family: "Archivo", sans-serif; font-size: 9.5pt; font-weight: 600;
+                 color: #8A6100; vertical-align: top; padding-top: 7mm; }
+  @bottom-right { font-family: "Archivo", sans-serif; font-size: 9.5pt; font-weight: 600;
+                  color: #8A6100; vertical-align: top; padding-top: 7mm; text-align: right; }
+}
+
+/* Marge interieure plus large que la marge exterieure : la reliure mange du papier. */
+@page :left {
+  margin-left: 25mm;
+  margin-right: 30mm;
+  @top-left { content: string(booktitle, first-except); }
+  @bottom-left { content: counter(page); }
+}
+
+@page :right {
+  margin-left: 30mm;
+  margin-right: 25mm;
+  @top-right { content: string(chaptertitle, first-except); }
+  @bottom-right { content: counter(page); }
+}
+
+/* Les pages ajoutees pour tomber sur une page paire restent nues. */
+@page :blank {
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+
+/* Couverture et pages de partie : encre bord a bord, aucun repere. */
+@page cover {
+  margin: 0;
+  background: #1C1A17;
+}
+
+@page part {
+  margin: 0;
+  background: #1C1A17;
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+
+@page front {
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
+}
+
+/* ----------------------------------------------------------------- base */
+
+html {
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 12pt;
+  line-height: 1.62;
+  color: #2B2925;
+  hyphens: none;
+  orphans: 2;
+  widows: 2;
+}
+
+body { margin: 0; }
+p { margin: 0 0 0.85em; }
+a { color: #1C1A17; text-decoration: none; }
+strong { font-weight: 700; color: #1C1A17; }
+em { font-style: italic; }
+
+/* -------------------------------------------------------------- couverture */
+
+.cover { page: cover; }
+
+/* L'image est au format 2:3 et la feuille au format A4 : elle est posee
+   entiere, et les deux bandes qui restent sont de la meme encre qu'elle. */
+.cover img {
+  display: block;
+  width: 210mm;
+  height: 297mm;
+  object-fit: contain;
+}
+
+/* --------------------------------------------------- page de titre, colophon */
+
+.front {
+  page: front;
+  break-before: page;
+  height: 250mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.front-kicker,
+.front-source {
+  font-family: "Archivo", sans-serif;
+  font-size: 9pt;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #8A6100;
+  margin: 0;
+}
+
+.front-rule {
+  width: 20mm;
+  height: 3px;
+  background: #F5B301;
+  margin: 16mm 0 8mm;
+}
+
+.front-title {
+  font-size: 52pt;
+  font-weight: 700;
+  line-height: 0.96;
+  letter-spacing: -0.03em;
+  color: #1C1A17;
+  margin: 0;
+  bookmark-level: none;
+}
+
+.front-sub {
+  font-family: "Archivo", sans-serif;
+  font-size: 12.5pt;
+  line-height: 1.5;
+  color: #6B6355;
+  margin: 7mm 0 0;
+  max-width: 17em;
+}
+
+.front-author {
+  font-family: "Archivo", sans-serif;
+  font-size: 12.5pt;
+  font-weight: 600;
+  color: #1C1A17;
+  margin: 0;
+}
+
+.front-spine {
+  font-family: "Archivo", sans-serif;
+  font-size: 8.4pt;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8C8375;
+  margin: 3mm 0 0;
+}
+
+.colophon {
+  font-family: "Archivo", sans-serif;
+  font-size: 9.6pt;
+  line-height: 1.72;
+  color: #6B6355;
+}
+
+.colophon p { margin: 0 0 0.7em; }
+.colophon a { color: #8A6100; }
+.colophon strong { color: #1C1A17; font-weight: 600; }
+
+/* ------------------------------------------------------------- sommaire */
+
+.toc { break-before: left; }
+
+.toc-title {
+  font-size: 30pt;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #1C1A17;
+  margin: 0 0 12mm;
+  padding-bottom: 4mm;
+  border-bottom: 3px solid #F5B301;
+  bookmark-level: 1;
+  bookmark-label: "Sommaire";
+}
+
+.toc-group { margin-bottom: 10mm; }
+
+.toc-group-title {
+  font-family: "Archivo", sans-serif;
+  font-size: 10pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1C1A17;
+  margin: 0 0 5mm;
+  padding-top: 3mm;
+  border-top: 1px solid #E8E3D9;
+  break-after: avoid;
+}
+
+.toc-group-title em {
+  font-style: normal;
+  color: #8A6100;
+  margin-right: 0.5em;
+}
+
+.toc ul { list-style: none; margin: 0; padding: 0; }
+
+.toc a {
+  display: block;
+  text-decoration: none;
+}
+
+/* Les points de conduite et le folio viennent de WeasyPrint : leader() pour
+   la ligne, target-counter() pour le numero reel de la page visee. */
+.toc a::after {
+  content: leader(". ") target-counter(attr(href), page);
+  font-family: "Archivo", sans-serif;
+  font-size: 9.4pt;
+  font-weight: 600;
+  color: #8A6100;
+}
+
+.toc-group-title a { color: inherit; }
+.toc-group-title a::after { color: #8A6100; }
+
+.toc-section > a {
+  font-weight: 700;
+  font-size: 12pt;
+  color: #1C1A17;
+  margin: 5mm 0 1.5mm;
+}
+
+.toc-entry a {
+  font-size: 10.4pt;
+  line-height: 1.5;
+  color: #2B2925;
+  padding-left: 7mm;
+}
+
+.toc-entry a .num {
+  font-family: "Archivo", sans-serif;
+  font-size: 8.6pt;
+  font-weight: 600;
+  color: #8C8375;
+  margin-right: 0.45em;
+}
+
+.toc-flat a {
+  font-weight: 700;
+  font-size: 12pt;
+  color: #1C1A17;
+  margin: 2mm 0;
+}
+
+/* ------------------------------------------------------- pages de partie */
+
+/* Une page noire par groupe du sommaire, sur une page paire. Son verso reste
+   noir : la page blanche qu'imposerait autrement la regle des pages paires
+   couperait le livre en deux au mauvais endroit. */
+.part { page: part; break-before: left; }
+
+.part-face {
+  height: 297mm;
+  padding: 60mm 30mm 25mm;
+  color: #FFFFFF;
+}
+
+.part-roman {
+  font-family: "Archivo", sans-serif;
+  font-size: 30pt;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #F5B301;
+  margin: 0;
+}
+
+.part-rule {
+  width: 20mm;
+  height: 3px;
+  background: #F5B301;
+  margin: 10mm 0;
+}
+
+.part-title {
+  font-size: 44pt;
+  font-weight: 700;
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+  color: #FFFFFF;
+  margin: 0;
+  max-width: 11em;
+  bookmark-level: 1;
+  bookmark-label: content(text);
+}
+
+.part-back { break-before: page; height: 40mm; }
+
+/* -------------------------------------------------------------- chapitres */
+
+/* La demande : chaque ouverture de section et chaque entree tombent sur une
+   page paire. En lecture de gauche a droite, une page paire est une page de
+   gauche : une entree occupe donc toujours une double page entiere. */
+.chapter { break-before: left; }
+
+.chapter-head { margin-bottom: 9mm; }
+
+.chapter-kicker {
+  font-family: "Archivo", sans-serif;
+  font-size: 8.4pt;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8A6100;
+  margin: 0 0 3mm;
+}
+
+.chapter-kicker span + span::before {
+  content: "/";
+  margin: 0 0.5em;
+  color: #C9C2B4;
+}
+
+.chapter-title {
+  font-size: 21pt;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: #1C1A17;
+  margin: 0;
+  string-set: chaptertitle content(text), booktitle "Build Here";
+  bookmark-level: 3;
+  bookmark-label: content(text);
+}
+
+.chapter-lede {
+  font-family: "Archivo", sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+  color: #8A6100;
+  margin: 4mm 0 0;
+}
+
+.chapter-head::after {
+  content: "";
+  display: block;
+  width: 20mm;
+  height: 3px;
+  background: #F5B301;
+  margin-top: 6mm;
+}
+
+/* Ouverture de section : le bandeau va d'un bord a l'autre de la feuille. */
+.chapter--section .chapter-head {
+  background: #FBEEC1;
+  margin: -25mm -34mm 10mm;
+  padding: 25mm 34mm 12mm;
+  border-bottom: 3px solid #F5B301;
+}
+
+.chapter--section .chapter-head::after { content: none; }
+
+.chapter--section .chapter-title {
+  font-size: 34pt;
+  line-height: 1.06;
+  bookmark-level: 2;
+}
+
+.chapter--section .chapter-mark {
+  display: block;
+  width: 30mm;
+  height: 30mm;
+  margin: 0 0 8mm;
+}
+
+/* ----------------------------------------------------------------- texte */
+
+.prose {
+  text-align: justify;
+  hyphens: auto;
+}
+
+.prose h4,
+.prose h5 { text-align: left; hyphens: none; bookmark-level: none; }
+
+.prose h4 {
+  font-family: "Archivo", sans-serif;
+  font-size: 13pt;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #1C1A17;
+  margin: 1.5em 0 0.55em;
+  break-after: avoid;
+}
+
+.prose h5 {
+  font-size: 12.5pt;
+  font-weight: 700;
+  color: #1C1A17;
+  margin: 1.3em 0 0.4em;
+  break-after: avoid;
+}
+
+.prose ul,
+.prose ol { margin: 0 0 0.9em; padding-left: 1.15em; }
+.prose li { margin-bottom: 0.3em; }
+.prose li::marker { color: #8A6100; }
+
+.prose hr {
+  border: 0;
+  border-top: 1px solid #E8E3D9;
+  margin: 1.6em 0;
+}
+
+.prose blockquote {
+  background: #FAF7F0;
+  border-left: 3px solid #1C1A17;
+  padding: 0.55em 0.8em;
+  margin: 1.1em 0;
+  font-style: italic;
+  font-size: 11pt;
+  break-inside: avoid;
+}
+
+.prose blockquote p { margin-bottom: 0; }
+
+.prose code {
+  font-family: "Menlo", monospace;
+  font-size: 9.6pt;
+  background: #FAF7F0;
+  padding: 0 0.25em;
+}
+
+.prose pre {
+  background: #FAF7F0;
+  padding: 0.7em;
+  font-size: 9.4pt;
+  white-space: pre-wrap;
+  break-inside: avoid;
+}
+
+.prose a {
+  text-decoration: underline;
+  text-decoration-color: #F5B301;
+  text-underline-offset: 2px;
+}
+
+.prose .callout {
+  border: 1px solid #E8E3D9;
+  border-left: 4px solid #E8E3D9;
+  padding: 0.7em 0.85em;
+  margin: 1.1em 0;
+  font-size: 10.6pt;
+  break-inside: avoid;
+}
+
+.prose .callout-hint { border-left-color: #5cb85c; }
+.prose .callout-example { border-left-color: #5bc0de; }
+.prose .callout-warning { border-left-color: #f0ad4e; }
+
+/* --------------------------------------------------------------- notes */
+
+.prose sup a {
+  font-family: "Archivo", sans-serif;
+  font-size: 7.6pt;
+  font-weight: 600;
+  color: #8A6100;
+  text-decoration: none;
+}
+
+.prose .footnotes {
+  margin-top: 1.8em;
+  padding-top: 0.9em;
+  border-top: 1px solid #E8E3D9;
+  font-size: 9.4pt;
+  line-height: 1.5;
+  color: #6B6355;
+}
+
+.prose .footnotes ol { padding-left: 1.1em; }
+.prose .footnotes li { margin-bottom: 0.45em; }
+.prose .footnotes p { margin-bottom: 0; }
+.prose .footnotes a { text-decoration: none; color: #8A6100; }

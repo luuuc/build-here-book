@@ -1,0 +1,63 @@
+{% comment %}
+Le corps du livre, partage par les deux tirages : _pdf/book.html (PDF) et
+_pdf/epub.html (EPUB). Un seul endroit ou l'ordre des parties, des sections et
+des entrees est decide.
+
+La hierarchie des titres est celle du livre : la partie est un h1, l'ouverture
+de section un h2, l'entree un h3. Les intertitres ecrits dans le markdown
+descendent donc d'un cran (h2 -> h4, h3 -> h5), sinon ils remonteraient dans le
+sommaire de l'EPUB et dans les signets du PDF.
+{% endcomment %}
+{% assign chapters = site.chapters | sort: "order" %}
+{% for groupe in site.data.sommaire %}
+  <section class="part" id="partie-{{ forloop.index }}">
+    <div class="part-face">
+      <p class="part-roman">{{ groupe.roman }}.</p>
+      <div class="part-rule"></div>
+      <h1 class="part-title">{{ groupe.titre }}</h1>
+    </div>
+    <!-- Verso de la page de partie : noir lui aussi, voir print.css -->
+    <div class="part-back"></div>
+  </section>
+
+  {% for nom in groupe.sections %}
+    {% assign items = chapters | where: "part", nom %}
+    {% for c in items %}
+      {% assign is_section = false %}
+      {% if c.illustration %}{% assign is_section = true %}{% endif %}
+      {% assign body = c.content
+        | replace: 'href="/chapters/', 'href="#'
+        | replace: '<h3', '<h5' | replace: '</h3>', '</h5>'
+        | replace: '<h2', '<h4' | replace: '</h2>', '</h4>' %}
+      <section
+        class="chapter{% if is_section %} chapter--section{% else %} chapter--entry{% endif %}"
+        id="{{ c.url | split: '/' | last }}"
+      >
+        <header class="chapter-head">
+          {% if is_section %}
+            <img class="chapter-mark" src="assets/images/sections/{{ c.illustration }}.svg" alt="" />
+          {% endif %}
+          <p class="chapter-kicker">
+            {% if c.section_number %}
+              <span>{% if c.section_number < 13 %}Mouvement un{% else %}Mouvement deux{% endif %}</span>
+              <span>Section {{ c.section_number }}</span>
+            {% else %}
+              {% unless c.part == c.title %}<span>{{ c.part }}</span>{% endunless %}
+              {% unless c.show_chapter_number == false %}<span>Entrée {{ c.metadata.principle }}</span>{% endunless %}
+            {% endif %}
+            {% if c.metadata.reading_time_in_minutes %}<span>{{ c.metadata.reading_time_in_minutes }} min</span>{% endif %}
+          </p>
+          {% if is_section %}
+            <h2 class="chapter-title">{{ c.title }}</h2>
+          {% else %}
+            <h3 class="chapter-title">{{ c.title }}</h3>
+          {% endif %}
+          {% if c.description %}<p class="chapter-lede">{{ c.description }}</p>{% endif %}
+        </header>
+
+        <!-- Les liens entre chapitres deviennent des renvois internes au tirage. -->
+        <div class="prose">{{ body }}</div>
+      </section>
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
