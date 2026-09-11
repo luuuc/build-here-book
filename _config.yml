@@ -70,6 +70,9 @@ downloads:
 book:
   published: "2026-09-08"
   modified: "2026-09-08"
+  # Numero de secours, pour un tirage local. Le numero publie vient du tag :
+  # .github/workflows/book.yml lit le plus haut tag et ajoute un au dernier
+  # nombre, puis l'injecte dans le build.
   version: "0.9.0"
   license: "https://creativecommons.org/licenses/by-sa/4.0/"
   language: "fr-FR"

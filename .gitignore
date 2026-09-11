@@ -15,3 +15,6 @@ vendor
 
 # Tirage du livre
 build/
+
+# Écrit par la CI au moment de publier
+_config-release.yml
