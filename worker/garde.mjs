@@ -1,0 +1,154 @@
+// Ce qui protege la file, et rien de plus.
+//
+// La moderation est le vrai filtre : aucune contribution n'atteint un lecteur
+// sans approbation. Tout ce qui suit protege donc l'attention de l'auteur, pas
+// le site. Il faut assez de friction pour que la file reste lisible, pas un mur.
+//
+// Aucun defi visible. Ni Turnstile ni Bot Fight Mode : derriere du NAT
+// operateur, le defi tombe le plus souvent sur les lecteurs a qui ce livre
+// s'adresse. Une defense qui taxe l'audience pour arreter des robots qu'on
+// allait moderer de toute facon est un mauvais echange.
+
+const FENETRE = 3600; // une heure, en secondes
+const PLAFOND_IP = 60; // large : un NAT operateur met une ville derriere une IP
+const PLAFOND_CLIENT = 4; // genereux pour une personne reelle
+const AGE_JETON = 3; // secondes minimum entre le chargement et l'envoi
+const VIE_JETON = 7200; // deux heures, le temps d'ecrire
+
+const enc = new TextEncoder();
+
+async function hmac(secret, message) {
+  const cle = await crypto.subtle.importKey(
+    "raw",
+    enc.encode(secret),
+    { name: "HMAC", hash: "SHA-256" },
+    false,
+    ["sign"]
+  );
+  const sig = await crypto.subtle.sign("HMAC", cle, enc.encode(message));
+  return [...new Uint8Array(sig)].map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+
+// Le jeton porte son propre horodatage. Un seul champ sert donc deux
+// controles : l'age minimum, et la peremption.
+export async function emettreJeton(secret) {
+  const t = Math.floor(Date.now() / 1000);
+  const alea = crypto.randomUUID();
+  return { jeton: `${t}.${alea}.${await hmac(secret, `${t}.${alea}`)}`, emis: t };
+}
+
+export async function verifierJeton(secret, jeton) {
+  if (typeof jeton !== "string" || !jeton) return { ok: false, raison: "absent" };
+
+  const [t, alea, sig] = jeton.split(".");
+  if (!t || !alea || !sig) return { ok: false, raison: "malforme" };
+  if (sig !== (await hmac(secret, `${t}.${alea}`))) return { ok: false, raison: "signature" };
+
+  const age = Math.floor(Date.now() / 1000) - Number(t);
+  if (age < 0) return { ok: false, raison: "futur" };
+  if (age < AGE_JETON) return { ok: false, raison: "trop rapide" };
+  if (age > VIE_JETON) return { ok: false, raison: "perime" };
+
+  return { ok: true, age };
+}
+
+// Le sel tourne chaque jour : le condensat n'est pas reversible, et deux
+// jours ne se correlent pas.
+async function cleIp(secret, ip) {
+  const jour = new Date().toISOString().slice(0, 10);
+  return (await hmac(secret, `${jour}.${ip}`)).slice(0, 32);
+}
+
+// Un garde-fou grossier, pas une limite par personne. La limite serree vit
+// sur l'identifiant local du navigateur : une adresse IP peut porter une ville
+// entiere derriere un NAT operateur, et la museler serait pire que le spam.
+//
+// Il se lit en deux temps, et l'ordre compte. La premiere version incrementait
+// puis comparait, donc un refus faisait monter le compteur lui aussi : soixante
+// requetes malformees suffisaient a murer un reseau entier jusqu'a la fin de
+// l'heure, y compris pour quelqu'un qui arrivait apres. C'est exactement le mal
+// que la conception voulait eviter.
+//
+// `regarder` ne compte rien, `retenir` compte une acceptation. Un envoi refuse
+// pour n'importe quelle autre raison ne coute donc rien a son voisin de NAT.
+export async function regarderIp(db, secret, ip) {
+  if (!ip) return { ok: true, compte: 0 };
+
+  const cle = await cleIp(secret, ip);
+  const fenetre = Math.floor(Date.now() / 1000 / FENETRE) * FENETRE;
+
+  // La purge epargne le compteur du piege : lui doit s'accumuler dans le
+  // temps, c'est tout son interet.
+  await db
+    .prepare("DELETE FROM garde WHERE fenetre < ? AND cle <> 'piege'")
+    .bind(fenetre)
+    .run();
+  const r = await db
+    .prepare("SELECT compte FROM garde WHERE cle = ? AND fenetre = ?")
+    .bind(cle, fenetre)
+    .first();
+
+  const compte = r?.compte ?? 0;
+  return { ok: compte < PLAFOND_IP, compte, cle, fenetre };
+}
+
+export async function retenirIp(db, { cle, fenetre }) {
+  if (!cle) return;
+  await db
+    .prepare(
+      `INSERT INTO garde (cle, compte, fenetre) VALUES (?, 1, ?)
+       ON CONFLICT (cle) DO UPDATE SET compte = compte + 1`
+    )
+    .bind(cle, fenetre)
+    .run();
+}
+
+export async function tropDeContributions(db, client) {
+  if (!client) return false;
+  const depuis = Math.floor(Date.now() / 1000) - FENETRE;
+  const r = await db
+    .prepare("SELECT COUNT(*) AS n FROM contributions WHERE client = ? AND cree_le > ?")
+    .bind(client, depuis)
+    .first();
+  return (r?.n ?? 0) >= PLAFOND_CLIENT;
+}
+
+// Le rang trie la file, il ne refuse jamais. Un texte qui cite trois sources
+// est exactement celui qu'on veut lire : il descend dans la file, il n'est
+// pas ecarte.
+export function rang({ markdown, jetonOk, jetonRaison }) {
+  let r = 0;
+
+  const liens = (markdown.match(/https?:\/\//g) || []).length;
+  if (liens >= 2) r += liens;
+
+  // Sans JavaScript, le jeton ne peut pas etre demande : la page est statique.
+  // Une absence coute donc peu. Une signature fausse coute beaucoup, elle ne
+  // s'obtient qu'en essayant.
+  if (!jetonOk) r += jetonRaison === "absent" ? 2 : 10;
+
+  if (/(.)\1{12,}/.test(markdown)) r += 5;
+  if (markdown.length < 400) r += 3;
+
+  return r;
+}
+
+// Le piege avale en silence, et c'est voulu : un robot qui recoit un succes
+// n'apprend rien. Mais un humain dont un gestionnaire de mots de passe remplit
+// le champ recevrait le meme succes, et son entree n'existerait nulle part.
+// Aucune ligne, aucune trace, sur le chemin que trois annexes passent a ouvrir.
+//
+// On garde donc un compteur, sans le texte. Si ce nombre grimpe alors que la
+// file reste vide, le piege mange des gens.
+export async function retenirPiege(db) {
+  const fenetre = Math.floor(Date.now() / 1000 / FENETRE) * FENETRE;
+  await db
+    .prepare(
+      `INSERT INTO garde (cle, compte, fenetre) VALUES ('piege', 1, ?)
+       ON CONFLICT (cle) DO UPDATE SET compte = compte + 1, fenetre = ?`
+    )
+    .bind(fenetre, fenetre)
+    .run();
+}
+
+export const seuils = { FENETRE, PLAFOND_IP, PLAFOND_CLIENT, AGE_JETON, VIE_JETON };

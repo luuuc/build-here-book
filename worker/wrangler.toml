@@ -28,4 +28,29 @@ routes = [
   { pattern = "api.build-here.africa", custom_domain = true }
 ]
 
-# D1 arrive a l'etape 4, avec les contributions. Le linter n'a pas d'etat.
+[vars]
+DEPOT = "luuuc/build-here-book"
+
+# La base de l'etat communautaire. Le contenu publie reste dans Git.
+#
+#   npx wrangler d1 create build-here
+#   puis recopier l'id rendu ci-dessous
+#   npx wrangler d1 execute build-here --remote --file=schema.sql
+[[d1_databases]]
+binding = "DB"
+database_name = "build-here"
+database_id = "a-remplir-apres-wrangler-d1-create"
+
+# Deux secrets, jamais dans ce fichier :
+#
+#   npx wrangler secret put JETON_SECRET
+#     n'importe quelle chaine longue et aleatoire. Elle signe les jetons de
+#     formulaire et sale les condensats d'IP du garde-fou anti-flood.
+#
+#   npx wrangler secret put GITHUB_TOKEN
+#     un jeton GitHub a portee fine, sur luuuc/build-here-book seul, avec
+#     contents:write et pull_requests:write. Il ne peut rien faire d'autre
+#     que creer une branche, y poser un fichier et ouvrir une pull request.
+#
+# Et une politique Cloudflare Access sur api.build-here.africa/admin, sinon
+# la file de moderation est publique.

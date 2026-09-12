@@ -1216,3 +1216,185 @@ sup a {
 .filtre-vide[hidden] {
   display: none;
 }
+
+/* La page de contribution.
+   Le formulaire marche sans JavaScript, donc rien ici ne depend d'une classe
+   posee par un script. Les deux portes sont cachees au depart et le script les
+   ouvre : sans lui, les deux aides s'affichent, ce qui est correct. */
+.contrib {
+  margin: 2rem 0;
+}
+
+.contrib-portes {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.4rem;
+}
+
+.contrib-porte {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.95rem;
+  padding: 0.6rem 1rem;
+  color: #1C1A17;
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  cursor: pointer;
+}
+
+.contrib-porte:hover {
+  background: #FBEEC1;
+}
+
+.contrib-porte[aria-pressed="true"] {
+  background: #1C1A17;
+  border-color: #1C1A17;
+  color: #fff;
+}
+
+.contrib-aide[hidden] {
+  display: none;
+}
+
+/* La consigne de tri, celle qui leve la peur de signer. Elle se lit avant le
+   formulaire, pas apres. */
+.contrib-tri {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  background: #FBEEC1;
+  border-left: 3px solid #F5B301;
+  padding: 1rem 1.2rem;
+  margin: 1.6rem 0;
+}
+
+.contrib-form {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.95rem;
+}
+
+.contrib-form label,
+.contrib-form legend {
+  display: block;
+  margin-top: 1.3rem;
+  font-weight: 500;
+  color: #1C1A17;
+}
+
+.contrib-form fieldset {
+  margin-top: 1.3rem;
+  padding: 0;
+  border: 0;
+}
+
+.contrib-form legend {
+  margin: 0 0 0.4rem;
+  padding: 0;
+  font-weight: 500;
+}
+
+.contrib-form label.contrib-radio {
+  display: inline-block;
+  margin: 0 1.2rem 0.5rem 0;
+  font-weight: normal;
+}
+
+.contrib-form input[type="text"],
+.contrib-form input[type="url"],
+.contrib-form textarea {
+  display: block;
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 0.6rem 0.75rem;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: #1C1A17;
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.contrib-form textarea {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.contrib-form input:focus,
+.contrib-form textarea:focus {
+  outline: 0;
+  border-color: #8A6100;
+}
+
+/* Le champ piege. Hors de l'ecran plutot que display:none : certains robots
+   ignorent ce qui est masque, aucun ne calcule une position. Il garde
+   tabindex -1 et aria-hidden dans le gabarit, donc ni le clavier ni un
+   lecteur d'ecran ne tombent dessus. */
+.contrib-piege {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.contrib-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.6rem;
+}
+
+.contrib-envoyer,
+.contrib-copier {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.65rem 1.3rem;
+  color: #fff;
+  background: #1C1A17;
+  border: 1px solid #1C1A17;
+  cursor: pointer;
+}
+
+.contrib-copier {
+  color: #1C1A17;
+  background: #fff;
+  font-weight: normal;
+  padding: 0.5rem 1rem;
+}
+
+.contrib-envoyer:hover,
+.contrib-copier:hover {
+  background: #8A6100;
+  border-color: #8A6100;
+  color: #fff;
+}
+
+.contrib-envoyer:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.contrib-etat {
+  color: #8A6100;
+  font-size: 0.9rem;
+}
+
+.contrib-rapport {
+  white-space: pre-wrap;
+  margin-top: 1.4rem;
+  padding: 1rem;
+  background: #FAF7F0;
+  border-left: 3px solid #E8E3D9;
+  font-size: 0.82rem;
+  line-height: 1.6;
+  overflow-x: auto;
+}
+
+.contrib-rapport[hidden] {
+  display: none;
+}

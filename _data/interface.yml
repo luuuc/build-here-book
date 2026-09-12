@@ -57,7 +57,7 @@ commentaire:
   envoye: "En attente de relecture."
   github: "Améliorer cette page sur GitHub"
 
-# La contribution. Etape 4, pas encore implementee.
+# La contribution, page /contribuer.
 contribution:
   titre: "Écrire la suivante"
   soi: "Écrire moi-même"
@@ -70,3 +70,48 @@ contribution:
 
     Si après ce tri tu ne peux toujours pas signer, écris-moi.
   envoyer: "Envoyer"
+  envoye: "Reçue. Je lis tout avant publication, et je te réponds sur le contact que tu as laissé."
+  verifie: "Vérifier le format"
+  copier: "Copier l'entretien"
+  copie: "Copié"
+  # L'entretien que le lecteur colle dans son assistant. Huit questions et pas
+  # sept : sept ne couvraient pas le bloc « A discuter ». Elles produisent la
+  # matiere des six blocs de l'annexe 1, et l'assistant assemble.
+  entretien: |
+    Tu vas m'aider à écrire une entrée pour Build Here, le playbook des
+    builders. Pose-moi ces questions une par une, attends ma réponse avant
+    la suivante, puis assemble le fichier.
+
+    1. Qu'est-ce qui s'est passé ? Une semaine précise, pas un thème.
+       Où tu étais, ce que tu construisais, ce qui a cassé.
+
+    2. Quelle phrase as-tu entendue ? Les mots exacts de la personne.
+       Elle devait avoir l'air raisonnable sur le moment.
+
+    3. Qu'est-ce que tu fais à la place, aujourd'hui ?
+
+    4. Comment ce réflexe produit son effet ? Le mécanisme, pas la morale.
+       Et ce qu'il a coûté : des heures, de l'argent, une décision qui a
+       attendu, une information qui a cessé de circuler.
+
+    5. Pourquoi des gens intelligents finissent là ? Si le réflexe a l'air
+       bête, l'entrée n'atterrira sur personne.
+
+    6. Qu'est-ce que quelqu'un peut faire cette semaine, sans budget et sans
+       réorganisation ? Assez précis pour qu'il sache vendredi s'il l'a fait.
+
+    7. Qu'est-ce que ça change pour ceux qui ne sont pas à ta place ?
+       Product, Design, Founder, Manager, Customer-facing, Recrutement.
+       Quatre à six d'entre eux, jamais les sept, cent caractères par ligne.
+
+    8. Quelle question une équipe peut se poser à voix haute là-dessus ?
+       Elle doit produire des réponses différentes selon les personnes,
+       et pointer le passé récent, pas les intentions.
+
+    Puis assemble un seul fichier markdown au format décrit sur
+    https://build-here.africa/chapters/a1-comment-ecrire-une-entree.html
+    et vérifie-le contre les douze tests de
+    https://build-here.africa/chapters/a2-les-douze-tests.html
+
+    Deux règles de forme : aucun tiret cadratin ni demi-cadratin, et des
+    apostrophes droites. Ne me donne que le fichier, sans commentaire autour.

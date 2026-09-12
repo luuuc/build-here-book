@@ -207,6 +207,17 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
   }
 
   if (!estUneEntree) {
+    // `metadata.principle` ne peut pas etre une cle requise partout : c'est son
+    // absence qui distingue une ouverture de section ou une annexe d'une
+    // entree, et le livre en compte vingt-cinq. Mais sur une contribution, on
+    // sait que la personne propose une entree, et alors le champ manque.
+    if (nouvelle) {
+      regle(
+        "Le front matter n'a pas `metadata.principle`. C'est ce champ qui fait qu'un fichier " +
+          "est une entrée : sans lui, la page est rendue comme une ouverture de section et " +
+          "l'accueil ne la compte pas. Mets-le à 999, il se recalcule à l'intégration."
+      );
+    }
     return { fichier: filename, estUneEntree: false, lu, regles, mesures };
   }
 
