@@ -46,7 +46,7 @@ export function pageAdmin(email) {
   h2.section:first-child { margin-top: 0 }
   .avis { background: #fff; border-left: 3px solid #E8E3D9; padding: .8rem 1rem; margin-bottom: .7rem; font-size: .92rem }
   .avis .meta { color: #8A6100; font-size: .8rem; margin-top: .35rem }
-  td.chiffre { text-align: right; font-variant-numeric: tabular-nums }
+  .chiffre { text-align: right; font-variant-numeric: tabular-nums }
 </style>
 </head><body>
 <header>
@@ -154,7 +154,7 @@ async function notes() {
   // fois un « a moitie » : c'est un tri, pas une note.
   const table =
     '<h2 class="section">Ce qui appelle une réparation</h2>' +
-    "<table><thead><tr><th>Entrée</th><th>Oui</th><th>À moitié</th><th>Non</th></tr></thead><tbody>" +
+    '<table><thead><tr><th>Entrée</th><th class="chiffre">Oui</th><th class="chiffre">À moitié</th><th class="chiffre">Non</th></tr></thead><tbody>' +
     d.pages
       .map(
         (p) =>
