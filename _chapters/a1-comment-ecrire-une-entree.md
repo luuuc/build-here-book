@@ -203,7 +203,9 @@ Ces mêmes entrées portent l'autre moitié, à savoir la façon dont le titre s
 
 ## La longueur
 
-200 à 350 mots par entrée. Jusqu'à 450 pour une entrée qui porte un réflexe défendable ou une garde contre le détournement, puisque ce sont deux paragraphes en plus et qu'aucun des deux n'est du remplissage. Une section complète tombe entre 1500 et 1700, ou jusqu'à 1900 quand elle porte une entrée en paire.
+300 à 500 mots par entrée. Jusqu'à 550 quand elle porte un réflexe défendable ou une garde contre le détournement, puisque ce sont deux paragraphes en plus et qu'aucun des deux n'est du remplissage.
+
+Ces chiffres décrivent les soixante-huit entrées existantes, médiane 434. Ils te disent où tu te situes par rapport au livre, pas où tu dois être. Le vrai plafond est le test 3, et il se lit autrement : une entrée qui demande plus de deux minutes n'est pas mauvaise, elle est moins lue.
 
 Le bloc « Depuis ton siège » ne compte pas dans ces mots. Son budget est le sien, six lignes de cent caractères au plus, et la règle est dans le bloc.
 

@@ -9,7 +9,7 @@
 // qui touche au reseau. Une seule implementation des regles, trois appelants.
 
 import { readFileSync, readdirSync } from "node:fs";
-import { join, basename } from "node:path";
+import { join, resolve, basename } from "node:path";
 import { verifier, rapport } from "../worker/lint.mjs";
 
 const racine = new URL("..", import.meta.url).pathname;
@@ -38,7 +38,8 @@ let avecMesures = 0;
 const sales = [];
 
 for (const f of fichiers) {
-  const source = readFileSync(join(racine, f), "utf8");
+  // resolve et pas join : join collerait la racine devant un chemin absolu.
+  const source = readFileSync(resolve(racine, f), "utf8");
   const r = verifier({ filename: basename(f), source, sections, nouvelle });
 
   if (r.regles.length) avecRegles++;

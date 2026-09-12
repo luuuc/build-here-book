@@ -36,17 +36,20 @@ export const SIEGES = [
   "Recrutement",
 ];
 
-// Mesure et non regle, et le chiffre vient du livre et pas de l'annexe 1.
+// Des mesures et non des regles, alignees sur l'annexe 1 depuis le 12/09/2026.
 //
-// Mesure avec ce comptage, bloc « Depuis ton siege » exclu comme l'annexe 1 le
+// Mesure avec ce comptage, bloc « Depuis ton siege » exclu comme l'annexe le
 // demande, les 68 entrees vont de 307 a 596 mots, mediane 434, p90 517.
 //
-// L'annexe 1 ecrit « 200 a 350 mots, jusqu'a 450 ». Le livre ne respecte pas sa
-// propre regle : 88 % des entrees depassent 350 et 38 % depassent 450. Prendre
-// 450 comme seuil signalerait un tiers du livre, donc le seuil est pose au-dela
-// de p90. L'ecart entre l'annexe et le livre est une question editoriale, pas
-// une question de linter.
+// L'annexe ecrivait « 200 a 350 mots, jusqu'a 450 ». Ces chiffres couvraient 12 %
+// du livre et aucune entree n'etait sous 300 : un contributeur qui les suivait
+// produisait un texte 20 % plus court que tout ce qui l'entoure. L'annexe dit
+// maintenant 300 a 500, jusqu'a 550, et ces deux seuils sont ceux-la.
+//
+// Le plancher sert autant que le plafond. Une entree trop courte est en general
+// un principe sans situation, un des trois etats d'echec de l'annexe 2.
 export const MOTS_SIGNAL = 550;
+export const MOTS_PLANCHER = 300;
 
 const EM_DASH = "—";
 const EN_DASH = "–";
@@ -303,8 +306,16 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
   const n = mots(corps);
   if (n > MOTS_SIGNAL) {
     mesure(
-      `${n} mots hors bloc « Depuis ton siège ». Les 68 entrées du livre vont de 307 à 596, médiane 434. ` +
-        `Ce n'est pas une règle, c'est une mesure : au-delà, une entrée est souvent deux entrées.`
+      `${n} mots hors bloc « Depuis ton siège ». L'annexe 1 donne 300 à 500, jusqu'à 550 pour une ` +
+        `entrée qui porte un réflexe défendable. Les 68 entrées vont de 307 à 596, médiane 434. ` +
+        `Au-delà, une entrée est souvent deux entrées sous un seul titre.`
+    );
+  }
+  if (n < MOTS_PLANCHER) {
+    mesure(
+      `${n} mots hors bloc « Depuis ton siège ». La plus courte entrée du livre en fait 307. ` +
+        `Une entrée trop courte est en général un principe sans situation : cherche le moment ` +
+        `exact où le comportement apparaît.`
     );
   }
 
