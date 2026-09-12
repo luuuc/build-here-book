@@ -233,4 +233,23 @@ Elle est relue contre les douze tests, et la relecture est écrite. Si elle éch
 
 Si elle tient, elle rejoint le livre **sous ton nom**, avec un lien vers où tu veux. Pas besoin d'être connu, pas besoin d'avoir déjà écrit, pas besoin de me connaître.
 
+Deux lignes dans le front matter, et c'est tout ce que ça demande.
+
+```yaml
+author: "Ton nom"
+author_link: "https://là-où-tu-veux-qu-on-te-trouve"
+```
+
+Le lien est facultatif, le nom non. Il apparaît sous le titre de l'entrée, sur le site, dans le PDF et dans l'EPUB.
+
 Un livre qui demande d'arrêter de travailler en silence ne peut pas se relire en privé. C'est pour ça que la porte par défaut est celle qui laisse une trace publique, et pour ça que l'autre reste ouverte sans condition.
+
+---
+
+## Écrites par quelqu'un d'autre
+
+{% assign signees = site.chapters | where_exp: "c", "c.author" | sort: "order" %}{% if signees.size > 0 %}{% for c in signees %}
+→ [{{ c.title }}]({{ c.url }}), par {{ c.author }}{% endfor %}
+{% else %}
+Aucune pour l'instant. La première ligne est disponible.
+{% endif %}

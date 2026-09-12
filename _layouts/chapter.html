@@ -36,6 +36,9 @@
             {% if page.description %}
             <p>{{page.description}}</p>
             {% endif %}
+            {% if page.author %}
+            <p class="chapter-author">Écrite par {% if page.author_link %}<a href="{{page.author_link}}" target="_blank" rel="noopener">{{page.author}}</a>{% else %}{{page.author}}{% endif %}</p>
+            {% endif %}
           </div>
           {% if page.illustration %}
           <div class="hero-art">

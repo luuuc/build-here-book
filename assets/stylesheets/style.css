@@ -388,6 +388,17 @@ body {
   max-width: 34em;
 }
 
+/* La signature d'une entree ecrite par quelqu'un d'autre. */
+.hero p.chapter-author {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0.9rem;
+}
+
+.hero p.chapter-author a {
+  color: inherit;
+}
+
 /* Ouvertures de section : le dessin vit dans le bandeau, a cote du titre. */
 .hero-inner {
   display: flex;

@@ -42,6 +42,8 @@ Un fichier par entrée, dans `_chapters/`.
 ---
 layout: chapter
 title: "Le titre de l'entrée"
+author: "Ton nom"
+author_link: "https://là-où-tu-veux-qu-on-te-trouve"
 part: "Ownership"
 order: 999
 metadata:
@@ -57,6 +59,8 @@ seo:
 ```
 
 Laisse `order` et `principle` à `999`. Ce sont des champs de séquence, ils se recalculent à l'intégration et ils ne sont pas ton problème.
+
+`author` est ton nom tel que tu veux le lire dans le livre. `author_link` est facultatif et pointe où tu veux. Les deux n'existent que sur les entrées venues de quelqu'un d'autre que moi.
 
 **Le corps.** Six `##`, dans cet ordre, avec ces titres exacts.
 
