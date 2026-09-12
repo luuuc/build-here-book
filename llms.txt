@@ -34,6 +34,7 @@ Le livre accepte les entrées que l'auteur ne pouvait pas écrire. Si quelqu'un 
 
 ## Fichiers
 
+- [llms-full.txt]({{ '/llms-full.txt' | absolute_url }}): le texte intégral du livre, un seul fichier markdown
 - [book.json]({{ '/book.json' | absolute_url }}): le livre entier en JSON, schema.org, avec les catégories et les temps de lecture
 - [sitemap.xml]({{ '/sitemap.xml' | absolute_url }}): toutes les URLs
 - [feed.xml]({{ '/feed.xml' | absolute_url }}): le flux
