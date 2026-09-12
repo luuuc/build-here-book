@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Se faire trouver"
-description: "Sortir l’écrit du document interne"
+description: "Sortir l'écrit du document interne"
 show_chapter_number: false
 illustration: "se-faire-trouver"
 section_number: 14

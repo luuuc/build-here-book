@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Engineering"
-description: "Enlever plutôt qu’ajouter"
+description: "Enlever plutôt qu'ajouter"
 show_chapter_number: false
 illustration: "engineering"
 section_number: 6

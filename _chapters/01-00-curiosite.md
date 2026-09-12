@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Curiosité"
-description: "Aller voir toi-même, avant qu’on te l’explique"
+description: "Aller voir toi-même, avant qu'on te l'explique"
 show_chapter_number: false
 illustration: "curiosite"
 section_number: 1
