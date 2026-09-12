@@ -18,7 +18,7 @@ Rien ne distingue les entrées arrivées par l'une ou par l'autre, et la relectu
 
 ## Ce que j'accepte
 
-**Une entrée.** Le vrai sujet de ce dépôt. Une idée, cinq blocs, moins de deux minutes de lecture.
+**Une entrée.** Le vrai sujet de ce dépôt. Une idée, six blocs, moins de deux minutes de lecture.
 
 **Un désaccord avec une entrée existante.** Y compris une des miennes. L'annexe 2 s'applique dans les deux sens, à l'écriture comme au démontage. Ouvre une [discussion](../../discussions) plutôt qu'une pull request, sauf si tu proposes le texte de remplacement.
 
