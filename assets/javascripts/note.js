@@ -80,7 +80,12 @@
 
   valeurs.querySelectorAll("button").forEach((b) =>
     b.addEventListener("click", function () {
+      // Changer d'avis repart de zero sur le detail. Sans ce vidage, un
+      // commentaire ecrit pour l'ancienne reponse restait dans le champ et
+      // partait attache a la nouvelle, invisible pour celui qui l'a ecrit.
       etat = { valeur: b.dataset.valeur, raison: null };
+      libre.value = "";
+      envoyer.disabled = false;
       marquer();
       retenir();
       envoyerNote();
