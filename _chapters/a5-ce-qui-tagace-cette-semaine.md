@@ -4,6 +4,13 @@ title: "Ce qui t'agace cette semaine"
 description: "L'index, par symptôme"
 show_chapter_number: false
 part: "Annexes"
+# L'index est la ou on explore le livre. /explore y mene, et le filtre
+# s'ajoute au chargement : le markdown reste propre, le PDF et l'EPUB
+# ne voient rien.
+filtre_symptomes: true
+redirect_from:
+  - /explore
+  - /explore.html
 order: 93
 metadata:
   reading_time_in_minutes: 4

@@ -1106,3 +1106,104 @@ sup a {
     border-top: 1px solid #E8E3D9;
   }
 }
+
+/* Garder une entree. Le meme bouton que le partage, a sa gauche. Garde, le
+   signet se remplit du jaune signal, comme le carre des titres de bloc. */
+.garder[aria-pressed="true"] {
+  opacity: 1;
+}
+
+.garder[aria-pressed="true"] svg {
+  fill: #F5B301;
+}
+
+/* Ce que le livre a retenu, sur l'accueil. Une bande plus calme que le pied
+   de page : elle s'adresse a celui qui revient, pas a celui qui arrive. */
+.reprise {
+  background: #F2EFE9;
+  padding: 2rem;
+  font-family: "Archivo", system-ui, sans-serif;
+}
+
+.reprise[hidden],
+.reprise-lien[hidden],
+.reprise-gardees[hidden] {
+  display: none;
+}
+
+.reprise small {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #8A6100;
+  margin-bottom: 0.4rem;
+}
+
+.reprise-lien {
+  display: block;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1C1A17;
+  text-decoration: none;
+}
+
+.reprise-gardees {
+  margin-top: 1.7rem;
+}
+
+.reprise-gardees ul {
+  list-style: none;
+}
+
+.reprise-gardees li + li {
+  margin-top: 0.45rem;
+}
+
+.reprise-gardees a {
+  font-size: 0.98rem;
+  color: #1C1A17;
+  text-decoration: none;
+}
+
+.reprise a:hover {
+  color: #8A6100;
+}
+
+/* Le filtre de l'index par symptome. Le champ est ajoute au chargement :
+   sans JavaScript l'index se lit en entier, ce qui est son etat normal. */
+.filtre-symptomes {
+  display: block;
+  width: 100%;
+  max-width: 26rem;
+  margin: 0 0 2rem;
+  padding: 0.6rem 0.8rem;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.95rem;
+  color: #1C1A17;
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.filtre-symptomes:focus {
+  outline: 0;
+  border-color: #8A6100;
+}
+
+.filtre-vide {
+  font-family: "Archivo", system-ui, sans-serif;
+  color: #8A6100;
+}
+
+/* Rien ici ne fixe display aujourd'hui, donc [hidden] du navigateur suffit.
+   Ces trois lignes sont la pour qu'un changement de CSS plus tard ne casse
+   pas le filtre sans que personne le voie. */
+.content h2[hidden],
+.content ul[hidden],
+.content li[hidden],
+.filtre-vide[hidden] {
+  display: none;
+}

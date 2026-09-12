@@ -30,6 +30,23 @@
       <div class="container">{{content}}</div>
     </main>
 
+    <!-- Ce que le livre a retenu. Cache par defaut : un premier lecteur ne
+         voit pas un cadre vide qui lui annonce ce qu'il n'a pas encore fait.
+         Le script le remplit depuis le navigateur, et le montre seulement
+         s'il a quelque chose dedans. -->
+    <section class="reprise" id="reprise" hidden>
+      <div class="container">
+        <a href="" class="reprise-lien" data-reprise hidden>
+          <small>{{ site.data.interface.lecture.reprendre }}</small>
+          <span data-titre></span>
+        </a>
+        <div class="reprise-gardees" data-gardees hidden>
+          <small>{{ site.data.interface.lecture.gardees }}</small>
+          <ul></ul>
+        </div>
+      </div>
+    </section>
+
     <!-- Content Footer -->
     <section class="content-footer">
       <div class="container">

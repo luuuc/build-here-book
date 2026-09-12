@@ -29,6 +29,27 @@
           {% unless page.part == page.title %}<span>{{page.part}}</span>{% endunless %}
           {% endif %}
           {% if page.metadata.reading_time_in_minutes %}<span>{{page.metadata.reading_time_in_minutes}} min</span>{% endif %}
+          <!-- Garder l'entree. Le script y lit aussi l'URL et le titre pour
+               retenir la derniere entree ouverte. Tout reste dans le
+               navigateur du lecteur. -->
+          <button
+            type="button"
+            class="partage-page garder"
+            data-garder
+            data-url="{{ page.url }}"
+            data-titre="{{ page.title | escape }}"
+            data-garder-libelle="{{ site.data.interface.lecture.garder }}"
+            data-retirer="{{ site.data.interface.lecture.retirer }}"
+            aria-pressed="false"
+            title="{{ site.data.interface.lecture.garder }}"
+            aria-label="{{ site.data.interface.lecture.garder }}"
+          >
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M7 4h10v16l-5-3.6L7 20z" />
+            </svg>
+          </button>
+
           <!-- Partager la page. Meme barre et memes canaux que le partage d'un
                passage : c'est le titre qui part, et le lien n'a pas d'ancre
                puisqu'il n'y a pas de passage. Le bouton n'est pas un span, il
@@ -80,6 +101,8 @@
     {% assign content_parts = content | split: '<div class="footnotes" role="doc-endnotes">' %}
     <main
       class="content{% if page.metadata.principle %} content--entry{% endif %}{% if page.section_number %} content--section{% endif %}"
+      {% if page.filtre_symptomes %}data-filtre-symptomes="{{ site.data.interface.lecture.filtre }}"
+      data-filtre-vide="{{ site.data.interface.lecture.filtre_vide }}"{% endif %}
     >
       <div class="container">{{content_parts[0]}}</div>
     </main>

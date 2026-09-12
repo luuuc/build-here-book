@@ -20,6 +20,16 @@ partage:
   # La signature qui accompagne la citation. Pas de tiret cadratin.
   signature: "Build Here, le playbook des builders"
 
+# Ce que le livre retient du lecteur. Tout est local, rien ne part.
+lecture:
+  reprendre: "Reprendre"
+  gardees: "Gardées"
+  garder: "Garder cette entrée"
+  retirer: "Retirer des gardées"
+  # Le filtre de l'index par symptome.
+  filtre: "Filtrer par ce qui t'agace"
+  filtre_vide: "Rien ne correspond."
+
 # La note d'une entree. Etape 7, pas encore implementee.
 note:
   question: "Ça t'a servi ?"
