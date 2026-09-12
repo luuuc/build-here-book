@@ -13,6 +13,9 @@ vendor
 .local
 .opencode
 
+# Etat local de wrangler, ecrit a chaque deploiement
+worker/.wrangler/
+
 # Tirage du livre
 build/
 
