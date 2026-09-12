@@ -2,7 +2,7 @@
 layout: chapter
 title: "La distribution fait partie du produit"
 part: "Distribution"
-order: 62
+order: 63
 metadata:
   principle: "48"
   reading_time_in_minutes: 2

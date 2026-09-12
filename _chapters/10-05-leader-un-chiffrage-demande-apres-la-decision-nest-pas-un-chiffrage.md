@@ -2,7 +2,7 @@
 layout: chapter
 title: "⇄ Un chiffrage demandé après la décision n'est pas un chiffrage"
 part: "Technologie et business"
-order: 54
+order: 55
 metadata:
   principle: "42"
   reading_time_in_minutes: 2

@@ -5,7 +5,7 @@ description: "La dernière page"
 show_chapter_number: false
 illustration: "escalier"
 part: "Clôture"
-order: 87
+order: 88
 metadata:
   reading_time_in_minutes: 3
 categories:

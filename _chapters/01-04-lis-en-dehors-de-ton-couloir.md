@@ -2,7 +2,7 @@
 layout: chapter
 title: "Lis en dehors de ton couloir"
 part: "Curiosité"
-order: 7
+order: 8
 metadata:
   principle: "4"
   reading_time_in_minutes: 2

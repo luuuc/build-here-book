@@ -6,7 +6,7 @@ show_chapter_number: false
 illustration: "devenir-une-reference"
 section_number: 15
 part: "Devenir une référence"
-order: 82
+order: 83
 metadata:
   reading_time_in_minutes: 1
 categories:

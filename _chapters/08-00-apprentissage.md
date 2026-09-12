@@ -6,7 +6,7 @@ show_chapter_number: false
 illustration: "apprentissage"
 section_number: 8
 part: "Apprentissage"
-order: 40
+order: 41
 metadata:
   reading_time_in_minutes: 1
 categories:

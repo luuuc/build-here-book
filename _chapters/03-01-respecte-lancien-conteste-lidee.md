@@ -2,7 +2,7 @@
 layout: chapter
 title: "Respecte l'ancien. Conteste l'idée"
 part: "Hiérarchie"
-order: 16
+order: 17
 metadata:
   principle: "11"
   reading_time_in_minutes: 2

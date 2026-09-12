@@ -2,7 +2,7 @@
 layout: chapter
 title: "Personne n'a écrit ce que tu sais faire"
 part: "Devenir une référence"
-order: 85
+order: 86
 metadata:
   principle: "67"
   reading_time_in_minutes: 3

@@ -2,7 +2,7 @@
 layout: chapter
 title: "Une bonne décision peut quand même perdre"
 part: "Leadership"
-order: 47
+order: 48
 metadata:
   principle: "36"
   reading_time_in_minutes: 2

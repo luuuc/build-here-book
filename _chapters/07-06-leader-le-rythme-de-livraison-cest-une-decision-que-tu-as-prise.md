@@ -2,7 +2,7 @@
 layout: chapter
 title: "⇄ Le rythme de livraison, c'est une décision que tu as prise"
 part: "Exécution"
-order: 39
+order: 40
 metadata:
   principle: "30"
   reading_time_in_minutes: 2

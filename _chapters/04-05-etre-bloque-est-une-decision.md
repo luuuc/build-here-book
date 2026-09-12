@@ -2,7 +2,7 @@
 layout: chapter
 title: "Être bloqué est une décision"
 part: "Ownership"
-order: 24
+order: 25
 metadata:
   principle: "18"
   reading_time_in_minutes: 2

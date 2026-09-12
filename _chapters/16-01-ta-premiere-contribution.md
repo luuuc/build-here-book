@@ -2,7 +2,7 @@
 layout: chapter
 title: "Ta première contribution"
 part: "Devenir une référence"
-order: 83
+order: 84
 metadata:
   principle: "65"
   reading_time_in_minutes: 3

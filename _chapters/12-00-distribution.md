@@ -6,7 +6,7 @@ show_chapter_number: false
 illustration: "distribution"
 section_number: 12
 part: "Distribution"
-order: 60
+order: 61
 metadata:
   reading_time_in_minutes: 1
 categories:

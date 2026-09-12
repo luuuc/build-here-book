@@ -2,7 +2,7 @@
 layout: chapter
 title: "Le ticket n'est pas le travail"
 part: "Produit"
-order: 26
+order: 27
 metadata:
   principle: "19"
   reading_time_in_minutes: 1

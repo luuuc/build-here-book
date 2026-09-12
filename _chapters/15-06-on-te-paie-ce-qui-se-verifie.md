@@ -2,7 +2,7 @@
 layout: chapter
 title: "On te paie ce qui se vérifie"
 part: "Se faire trouver"
-order: 79
+order: 80
 metadata:
   principle: "62"
   reading_time_in_minutes: 3

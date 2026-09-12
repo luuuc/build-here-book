@@ -6,7 +6,7 @@ show_chapter_number: false
 illustration: "produit"
 section_number: 5
 part: "Produit"
-order: 25
+order: 26
 metadata:
   reading_time_in_minutes: 1
 categories:

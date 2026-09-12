@@ -2,7 +2,7 @@
 layout: chapter
 title: "⇄ L'accès au client est un budget, pas une valeur"
 part: "Client"
-order: 59
+order: 60
 metadata:
   principle: "46"
   reading_time_in_minutes: 2

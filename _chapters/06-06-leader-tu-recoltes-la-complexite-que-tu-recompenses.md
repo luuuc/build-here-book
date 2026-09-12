@@ -2,7 +2,7 @@
 layout: chapter
 title: "⇄ Tu récoltes la complexité que tu récompenses"
 part: "Engineering"
-order: 35
+order: 36
 metadata:
   principle: "27"
   reading_time_in_minutes: 2

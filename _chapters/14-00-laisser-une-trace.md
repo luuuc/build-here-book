@@ -6,7 +6,7 @@ show_chapter_number: false
 illustration: "laisser-une-trace"
 section_number: 13
 part: "Laisser une trace"
-order: 67
+order: 68
 metadata:
   reading_time_in_minutes: 1
 categories:

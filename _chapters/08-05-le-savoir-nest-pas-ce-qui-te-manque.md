@@ -2,7 +2,7 @@
 layout: chapter
 title: "Le savoir n'est pas ce qui te manque"
 part: "Apprentissage"
-order: 45
+order: 46
 redirect_from:
   - /chapters/08-05-ce-qui-manque-ici-ce-nest-pas-le-savoir.html
 metadata:

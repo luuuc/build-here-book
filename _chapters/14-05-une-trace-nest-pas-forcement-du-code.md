@@ -2,7 +2,7 @@
 layout: chapter
 title: "Une trace n'est pas forcément du code"
 part: "Laisser une trace"
-order: 72
+order: 73
 metadata:
   principle: "56"
   reading_time_in_minutes: 3

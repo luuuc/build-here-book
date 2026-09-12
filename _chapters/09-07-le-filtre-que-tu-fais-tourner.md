@@ -2,7 +2,7 @@
 layout: chapter
 title: "Le filtre que tu fais tourner"
 part: "Leadership"
-order: 49
+order: 50
 metadata:
   principle: "38"
   reading_time_in_minutes: 3

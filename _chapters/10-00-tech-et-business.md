@@ -6,7 +6,7 @@ show_chapter_number: false
 illustration: "tech-et-business"
 section_number: 10
 part: "Technologie et business"
-order: 50
+order: 51
 metadata:
   reading_time_in_minutes: 1
 categories:

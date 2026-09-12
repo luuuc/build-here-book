@@ -2,7 +2,7 @@
 layout: chapter
 title: "Ton meilleur professeur ne travaille pas ici"
 part: "Apprentissage"
-order: 41
+order: 42
 metadata:
   principle: "31"
   reading_time_in_minutes: 2

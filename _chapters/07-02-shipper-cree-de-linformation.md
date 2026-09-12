@@ -2,7 +2,7 @@
 layout: chapter
 title: "Shipper crée de l'information"
 part: "Exécution"
-order: 37
+order: 38
 metadata:
   principle: "28"
   reading_time_in_minutes: 2

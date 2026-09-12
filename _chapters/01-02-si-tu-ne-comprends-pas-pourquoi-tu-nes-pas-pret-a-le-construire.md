@@ -2,7 +2,7 @@
 layout: chapter
 title: "Si tu ne comprends pas le pourquoi, tu n'es pas prêt à construire"
 part: "Curiosité"
-order: 5
+order: 6
 metadata:
   principle: "2"
   reading_time_in_minutes: 1

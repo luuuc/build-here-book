@@ -2,7 +2,7 @@
 layout: chapter
 title: "Ton marché peut être local. Ton niveau, non"
 part: "Apprentissage"
-order: 44
+order: 45
 metadata:
   principle: "34"
   reading_time_in_minutes: 2

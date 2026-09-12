@@ -2,7 +2,7 @@
 layout: chapter
 title: "La compréhension ne se délègue pas"
 part: "Technologie et business"
-order: 53
+order: 54
 metadata:
   principle: "41"
   reading_time_in_minutes: 2

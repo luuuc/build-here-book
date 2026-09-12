@@ -2,7 +2,7 @@
 layout: chapter
 title: "Le support client, c'est de la recherche produit avec des participants énervés"
 part: "Client"
-order: 56
+order: 57
 metadata:
   principle: "43"
   reading_time_in_minutes: 2

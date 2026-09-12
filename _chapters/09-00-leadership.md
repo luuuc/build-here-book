@@ -6,7 +6,7 @@ show_chapter_number: false
 illustration: "leadership"
 section_number: 9
 part: "Leadership"
-order: 46
+order: 47
 metadata:
   reading_time_in_minutes: 1
 categories:

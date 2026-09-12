@@ -2,7 +2,7 @@
 layout: chapter
 title: "L'ownership commence là où la fiche de poste s'arrête"
 part: "Ownership"
-order: 21
+order: 22
 metadata:
   principle: "15"
   reading_time_in_minutes: 2

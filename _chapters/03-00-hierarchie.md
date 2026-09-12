@@ -6,7 +6,7 @@ show_chapter_number: false
 illustration: "hierarchie"
 section_number: 3
 part: "Hiérarchie"
-order: 15
+order: 16
 metadata:
   reading_time_in_minutes: 1
 categories:

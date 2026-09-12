@@ -2,7 +2,7 @@
 layout: chapter
 title: "L'open source est une salle de classe"
 part: "Apprentissage"
-order: 42
+order: 43
 metadata:
   principle: "32"
   reading_time_in_minutes: 2

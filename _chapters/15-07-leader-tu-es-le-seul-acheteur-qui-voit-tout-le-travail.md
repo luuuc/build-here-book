@@ -2,7 +2,7 @@
 layout: chapter
 title: "Tu es le seul acheteur qui voit tout le travail"
 part: "Se faire trouver"
-order: 81
+order: 82
 metadata:
   principle: "64"
   reading_time_in_minutes: 3

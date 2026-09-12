@@ -2,7 +2,7 @@
 layout: chapter
 title: "Écris ce qui a cassé"
 part: "Laisser une trace"
-order: 70
+order: 71
 metadata:
   principle: "54"
   reading_time_in_minutes: 3

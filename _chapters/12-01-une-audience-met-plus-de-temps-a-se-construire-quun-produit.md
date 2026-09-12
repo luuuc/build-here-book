@@ -2,7 +2,7 @@
 layout: chapter
 title: "Une audience met plus de temps à se construire qu'un produit"
 part: "Distribution"
-order: 61
+order: 62
 metadata:
   principle: "47"
   reading_time_in_minutes: 2

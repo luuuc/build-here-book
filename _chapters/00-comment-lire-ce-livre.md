@@ -91,6 +91,6 @@ Même principe. Sept applications, sept conversations différentes.
 
 **Seul.** Lis l'entrée depuis ton siège, puis depuis un autre. C'est la deuxième lecture qui t'apprend quelque chose, parce qu'elle montre ce que ton voisin vit sur le même problème.
 
-**En équipe.** Prends une entrée, donne à chacun un siège qui n'est pas le sien, demande ce que ça change pour celui qui y est vraiment assis. La discussion qui suit vaut en général plus que l'entrée.
+**En équipe.** Une entrée, trente minutes, chacun sur un siège qui n'est pas le sien. La discussion qui suit vaut en général plus que l'entrée. Le format tient sur une page, c'est [Faire tourner ça dans ton équipe](/chapters/00-faire-tourner-ca-dans-ton-equipe.html).
 
 **En recrutement ou en onboarding.** Une entrée lue à travers deux sièges montre à un nouveau comment les métiers se connectent ici. Ça vaut mieux qu'un organigramme, qui ne montre que qui reporte à qui.

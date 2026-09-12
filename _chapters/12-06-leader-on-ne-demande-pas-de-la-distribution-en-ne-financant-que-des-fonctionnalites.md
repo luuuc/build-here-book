@@ -2,7 +2,7 @@
 layout: chapter
 title: "⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités"
 part: "Distribution"
-order: 65
+order: 66
 metadata:
   principle: "51"
   reading_time_in_minutes: 2

@@ -2,7 +2,7 @@
 layout: chapter
 title: "N'apporte pas la tâche. Apporte le problème"
 part: "Ownership"
-order: 20
+order: 21
 metadata:
   principle: "14"
   reading_time_in_minutes: 2

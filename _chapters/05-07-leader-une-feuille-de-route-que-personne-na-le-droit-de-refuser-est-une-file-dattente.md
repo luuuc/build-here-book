@@ -2,7 +2,7 @@
 layout: chapter
 title: "⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente"
 part: "Produit"
-order: 28
+order: 29
 metadata:
   principle: "21"
   reading_time_in_minutes: 2

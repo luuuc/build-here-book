@@ -2,7 +2,7 @@
 layout: chapter
 title: "Valider une spec ne la rend pas juste"
 part: "Produit"
-order: 27
+order: 28
 metadata:
   principle: "20"
   reading_time_in_minutes: 2

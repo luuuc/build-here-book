@@ -2,7 +2,7 @@
 layout: chapter
 title: "Une bonne nouvelle peut attendre. Une mauvaise, non"
 part: "Ownership"
-order: 23
+order: 24
 metadata:
   principle: "17"
   reading_time_in_minutes: 1

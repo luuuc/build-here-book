@@ -2,7 +2,7 @@
 layout: chapter
 title: "Parle du problème avant de parler de toi"
 part: "Distribution"
-order: 64
+order: 65
 metadata:
   principle: "50"
   reading_time_in_minutes: 1

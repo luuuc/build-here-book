@@ -6,7 +6,7 @@ show_chapter_number: false
 illustration: "curiosite"
 section_number: 1
 part: "Curiosité"
-order: 3
+order: 4
 metadata:
   reading_time_in_minutes: 1
 categories:

@@ -2,7 +2,7 @@
 layout: chapter
 title: "Réponds à la question en public"
 part: "Laisser une trace"
-order: 71
+order: 72
 metadata:
   principle: "55"
   reading_time_in_minutes: 2

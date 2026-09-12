@@ -2,7 +2,7 @@
 layout: chapter
 title: "⇄ Personne ne demande deux fois"
 part: "Curiosité"
-order: 9
+order: 10
 metadata:
   principle: "6"
   reading_time_in_minutes: 2

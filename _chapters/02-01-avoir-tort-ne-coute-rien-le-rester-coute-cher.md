@@ -2,7 +2,7 @@
 layout: chapter
 title: "Avoir tort ne coûte rien. Le rester coûte cher"
 part: "Ego et honnêteté intellectuelle"
-order: 11
+order: 12
 metadata:
   principle: "7"
   reading_time_in_minutes: 1

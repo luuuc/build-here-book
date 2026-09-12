@@ -2,7 +2,7 @@
 layout: chapter
 title: "Le marketing n'est pas de la décoration"
 part: "Distribution"
-order: 63
+order: 64
 metadata:
   principle: "49"
   reading_time_in_minutes: 2

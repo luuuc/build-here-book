@@ -2,7 +2,7 @@
 layout: chapter
 title: "Partir n'est pas une trahison"
 part: "Se faire trouver"
-order: 78
+order: 79
 metadata:
   principle: "61"
   reading_time_in_minutes: 3

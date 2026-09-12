@@ -2,7 +2,7 @@
 layout: chapter
 title: "⇄ Tu ne peux pas demander de la franchise et garder le dernier mot"
 part: "Hiérarchie"
-order: 18
+order: 19
 metadata:
   principle: "13"
   reading_time_in_minutes: 2

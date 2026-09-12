@@ -2,7 +2,7 @@
 layout: chapter
 title: "\"Je ne sais pas\" est une réponse professionnelle"
 part: "Ego et honnêteté intellectuelle"
-order: 13
+order: 14
 metadata:
   principle: "9"
   reading_time_in_minutes: 2

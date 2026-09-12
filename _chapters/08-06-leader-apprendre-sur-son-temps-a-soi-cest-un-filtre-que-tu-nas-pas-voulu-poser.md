@@ -2,7 +2,7 @@
 layout: chapter
 title: "⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser"
 part: "Apprentissage"
-order: 43
+order: 44
 metadata:
   principle: "33"
   reading_time_in_minutes: 2

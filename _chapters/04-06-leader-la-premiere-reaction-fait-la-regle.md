@@ -2,7 +2,7 @@
 layout: chapter
 title: "⇄ La première réaction fait la règle"
 part: "Ownership"
-order: 22
+order: 23
 metadata:
   principle: "16"
   reading_time_in_minutes: 2

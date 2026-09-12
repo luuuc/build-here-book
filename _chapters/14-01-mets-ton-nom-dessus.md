@@ -2,7 +2,7 @@
 layout: chapter
 title: "Mets ton nom dessus"
 part: "Laisser une trace"
-order: 68
+order: 69
 metadata:
   principle: "52"
   reading_time_in_minutes: 3

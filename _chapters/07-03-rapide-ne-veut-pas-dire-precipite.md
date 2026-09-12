@@ -2,7 +2,7 @@
 layout: chapter
 title: "Rapide ne veut pas dire précipité"
 part: "Exécution"
-order: 38
+order: 39
 metadata:
   principle: "29"
   reading_time_in_minutes: 2

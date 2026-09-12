@@ -2,7 +2,7 @@
 layout: chapter
 title: "Le product, ce n'est pas la personne qui écrit les tickets"
 part: "Produit"
-order: 31
+order: 32
 metadata:
   principle: "24"
   reading_time_in_minutes: 2

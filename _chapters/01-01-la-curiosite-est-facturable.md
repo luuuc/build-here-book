@@ -2,7 +2,7 @@
 layout: chapter
 title: "La curiosité est facturable"
 part: "Curiosité"
-order: 4
+order: 5
 metadata:
   principle: "1"
   reading_time_in_minutes: 2

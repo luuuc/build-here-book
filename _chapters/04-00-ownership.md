@@ -6,7 +6,7 @@ show_chapter_number: false
 illustration: "ownership"
 section_number: 4
 part: "Ownership"
-order: 19
+order: 20
 metadata:
   reading_time_in_minutes: 1
 categories:

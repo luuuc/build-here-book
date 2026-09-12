@@ -2,7 +2,7 @@
 layout: chapter
 title: "Un avis n'est pas un artefact"
 part: "Laisser une trace"
-order: 69
+order: 70
 metadata:
   principle: "53"
   reading_time_in_minutes: 2

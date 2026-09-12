@@ -2,7 +2,7 @@
 layout: chapter
 title: "⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute"
 part: "Ego et honnêteté intellectuelle"
-order: 14
+order: 15
 metadata:
   principle: "10"
   reading_time_in_minutes: 2

@@ -2,7 +2,7 @@
 layout: chapter
 title: "Ton code n'est pas ton bébé"
 part: "Ego et honnêteté intellectuelle"
-order: 12
+order: 13
 metadata:
   principle: "8"
   reading_time_in_minutes: 3

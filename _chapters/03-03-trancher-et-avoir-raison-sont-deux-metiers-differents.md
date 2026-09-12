@@ -2,7 +2,7 @@
 layout: chapter
 title: "Trancher et avoir raison sont deux métiers différents"
 part: "Hiérarchie"
-order: 17
+order: 18
 metadata:
   principle: "12"
   reading_time_in_minutes: 1

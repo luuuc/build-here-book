@@ -2,7 +2,7 @@
 layout: chapter
 title: "On fabrique l'environnement dont on se plaint"
 part: "Leadership"
-order: 48
+order: 49
 metadata:
   principle: "37"
   reading_time_in_minutes: 2

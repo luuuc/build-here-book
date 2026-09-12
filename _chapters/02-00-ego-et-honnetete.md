@@ -6,7 +6,7 @@ show_chapter_number: false
 illustration: "ego-et-honnetete"
 section_number: 2
 part: "Ego et honnêteté intellectuelle"
-order: 10
+order: 11
 metadata:
   reading_time_in_minutes: 1
 categories:

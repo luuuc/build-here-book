@@ -2,7 +2,7 @@
 layout: chapter
 title: "Pose la question naïve tout de suite"
 part: "Curiosité"
-order: 6
+order: 7
 metadata:
   principle: "3"
   reading_time_in_minutes: 2
