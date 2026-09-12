@@ -32,7 +32,7 @@ Seize titres. Il y en aurait soixante, ça ne prouverait rien de plus. Le plus a
 
 **1977. Michel Crozier et Erhard Friedberg, *L'Acteur et le Système*.** Le pouvoir appartient à celui qui contrôle une incertitude que les autres subissent. Chez toi, c'est la seule personne qui sait déployer.
 
-**1982. W. Edwards Deming, *Out of the Crisis*.** Il chiffrait à 94 % la part des problèmes qui tiennent au système et non aux gens. Le système appartient à la direction. Démontré sur des chaînes de production, chiffres à l'appui.
+**1982. W. Edwards Deming, *Out of the Crisis*.** Il attribuait au système, et non aux gens, l'écrasante majorité des problèmes d'une organisation. Le chiffre qu'il avançait, 94 %, est son estimation et il a bougé d'une édition à l'autre. Le système, lui, appartient à la direction.
 
 **1983. Andy Grove, *High Output Management*.** Deux autorités coexistent, celle du poste et celle du savoir, et elles ne logent pas dans la même personne. Écrit par le patron d'Intel, ce qui rend l'argument difficile à balayer.
 
