@@ -1075,8 +1075,9 @@ sup a {
 }
 
 /* L'icone de partage du fil d'ariane. Elle pousse a droite de la ligne et
-   emprunte la teinte de la meta qu'elle termine. Le fleche vers le haut est
-   le pendant de celle du telechargement, qui descend. */
+   emprunte la teinte de la meta qu'elle termine.
+   Le glyphe est celui que tout le monde reconnait, trois noeuds relies,
+   au trait et au poids du bouton de telechargement. */
 .partage-page {
   margin-left: auto;
   display: flex;
