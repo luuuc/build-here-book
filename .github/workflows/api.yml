@@ -1,0 +1,44 @@
+# Analyse le code de l'API avant qu'il parte en ligne.
+#
+# Deux choses, et la seconde est la raison d'etre de ce fichier.
+#
+# Les modules passent `node --check`, ce qui est ordinaire.
+#
+# Le script de la page de moderation, lui, vit dans un gabarit a accents
+# graves dans admin.mjs : aucun outil ne le voit comme du JavaScript avant
+# qu'il soit rendu. Une apostrophe mal echappee laisse le module valide et
+# casse la page entiere dans le navigateur, en silence. C'est arrive une fois.
+
+name: Vérifier l'API
+
+on:
+  push:
+    paths:
+      - "worker/**"
+      - "bin/verifier-admin"
+      - ".github/workflows/api.yml"
+  pull_request:
+    paths:
+      - "worker/**"
+      - "bin/verifier-admin"
+
+permissions:
+  contents: read
+
+jobs:
+  verifier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Les modules compilent
+        run: |
+          for f in worker/*.mjs; do
+            node --check "$f" && echo "  ok $f"
+          done
+
+      - name: Le script de la file compile une fois rendu
+        run: bin/verifier-admin
+
+      - name: Les règles tournent sur le livre
+        run: bin/lint-entree | tail -4

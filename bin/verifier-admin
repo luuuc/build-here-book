@@ -1,0 +1,39 @@
+#!/usr/bin/env node
+// Analyse le script de la page de moderation.
+//
+// Il vit dans un gabarit a accents graves, dans worker/admin.mjs, donc aucun
+// outil ne le voit comme du JavaScript avant qu'il soit rendu. Une apostrophe
+// mal echappee y passe `node --check` sur le module et casse la page entiere
+// dans le navigateur, en silence.
+//
+// C'est arrive une fois. D'ou ce fichier.
+
+import { writeFileSync, unlinkSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { execFileSync } from "node:child_process";
+import { pageAdmin } from "../worker/admin.mjs";
+
+const html = pageAdmin("verification@example.com");
+const bloc = html.split('<script type="module">')[1];
+
+if (!bloc) {
+  console.error("Aucun script trouvé dans la page. Le gabarit a changé de forme.");
+  process.exit(1);
+}
+
+const script = bloc.split("</script>")[0];
+const chemin = join(tmpdir(), `admin-${process.pid}.mjs`);
+writeFileSync(chemin, script);
+
+try {
+  execFileSync(process.execPath, ["--check", chemin], { stdio: "pipe" });
+  console.log(`Le script de la file passe l'analyse, ${script.split("\n").length} lignes.`);
+} catch (e) {
+  console.error("Le script de la file ne compile pas :\n");
+  console.error((e.stderr || Buffer.from("")).toString());
+  console.error("Rappel : dans ce gabarit, une apostrophe s'écrit \\\\' et pas \\'.");
+  process.exit(1);
+} finally {
+  unlinkSync(chemin);
+}

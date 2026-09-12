@@ -7,6 +7,13 @@
 // au meme endroit et une seule personne peut vider la file. Une interface qui
 // demande trois clics par contribution coute plus cher qu'elle ne rapporte.
 
+// Attention en modifiant le script plus bas. Il vit dans un gabarit a accents
+// graves, donc il traverse deux couches d'echappement : une apostrophe dans une
+// chaine JavaScript s'ecrit `\\'` ici, et pas `\'`, sinon elle sort nue et casse
+// la page entiere au chargement.
+//
+// bin/verifier-admin analyse le script produit. Il tourne dans la CI, parce que
+// rien d'autre ne le fait : ce n'est du JavaScript qu'une fois la chaine rendue.
 export function pageAdmin(email) {
   return `<!doctype html>
 <html lang="fr"><head><meta charset="utf-8">
@@ -141,7 +148,7 @@ const LIBELLES = {
 async function notes() {
   const d = await api("/admin/notes");
   if (d.erreur) return ($("#notes").innerHTML = '<p class="vide">' + echappe(d.erreur) + "</p>");
-  if (!d.pages || !d.pages.length) return ($("#notes").innerHTML = '<p class="vide">Personne n\'a encore répondu.</p>');
+  if (!d.pages || !d.pages.length) return ($("#notes").innerHTML = '<p class="vide">Personne n\\'a encore répondu.</p>');
 
   // Les entrees qui appellent une reparation d'abord. Un « non » pese deux
   // fois un « a moitie » : c'est un tri, pas une note.
