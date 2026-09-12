@@ -71,7 +71,13 @@ Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les te
       <legend>{{ site.data.interface.commentaire.contact }}</legend>
       <label class="contrib-radio"><input type="radio" name="canal" value="mail" checked> Mail</label>
       <label class="contrib-radio"><input type="radio" name="canal" value="whatsapp"> WhatsApp</label>
-      <input type="text" name="contact" maxlength="200" required>
+      <div class="contact-champs">
+          <label class="contact-indicatif">
+            Indicatif
+            <select name="indicatif"></select>
+          </label>
+        <input type="text" name="contact" maxlength="200" required>
+      </div>
     </fieldset>
 
     <label>

@@ -71,6 +71,55 @@
     })
   );
 
+
+  // ---- L'indicatif ----
+  //
+  // Le pays vient de Cloudflare, rendu avec le jeton : la page est statique,
+  // elle ne peut pas le savoir autrement. Si la detection echoue, rien n'est
+  // preselectionne et la personne choisit.
+  function brancherIndicatif(racine, classeRadio) {
+    const champs = racine.querySelector(".contact-champs");
+    if (!champs) return null;
+
+    const select = champs.querySelector('[name="indicatif"]');
+
+    // La liste est servie une fois pour tout le site plutot que rendue dans
+    // chaque page : 187 options sur 68 entrees pesaient onze kilo-octets par
+    // page, pour un champ que presque personne ne remplit. Sans JavaScript le
+    // select reste vide, et la personne tape son numero en entier, ce que le
+    // serveur accepte.
+    let remplie = null;
+    const remplir = () =>
+      (remplie =
+        remplie ||
+        fetch("/indicatifs.json")
+          .then((r) => r.json())
+          .then((liste) => {
+            select.innerHTML = liste
+              .map((p) => '<option value="' + p.indicatif + '" data-code="' + p.code + '">' + p.nom + " +" + p.indicatif + "</option>")
+              .join("");
+          })
+          .catch(() => {}));
+    const radios = racine.querySelectorAll('[name="canal"]');
+
+    const afficher = () => {
+      const w = racine.querySelector('[name="canal"]:checked')?.value === "whatsapp";
+      champs.dataset.canal = w ? "whatsapp" : "mail";
+    };
+
+    radios.forEach((r) => r.addEventListener("change", afficher));
+    afficher();
+
+    return async (pays) => {
+      await remplir();
+      if (!pays) return;
+      const o = select.querySelector('[data-code="' + pays + '"]');
+      if (o) select.value = o.value;
+    };
+  }
+
+  const poserPays = brancherIndicatif(zone);
+
   // ---- L'identifiant local et le jeton ----
 
   function client() {
@@ -94,6 +143,7 @@
     .then((r) => r.json())
     .then((d) => {
       if (d.jeton) champJeton.value = d.jeton;
+      if (poserPays) poserPays(d.pays);
     })
     .catch(() => {});
 

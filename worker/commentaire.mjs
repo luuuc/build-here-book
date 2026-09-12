@@ -12,7 +12,14 @@
 // devant exactement les lecteurs a qui ce livre s'adresse. Et un livre qui
 // consacre une section a l'ownership ne loue pas sa conversation a un tiers.
 
-import { verifierJeton, regarderIp, retenirIp, retenirPiege, rang } from "./garde.mjs";
+import {
+  composerNumero,
+  verifierJeton,
+  regarderIp,
+  retenirIp,
+  retenirPiege,
+  rang,
+} from "./garde.mjs";
 
 const maintenant = () => Math.floor(Date.now() / 1000);
 const FENETRE = 3600;
@@ -54,7 +61,8 @@ export async function recevoir(requete, env) {
   const auteur = (d.auteur || "").trim().slice(0, 120);
   const texte = (d.texte || "").trim();
   const canal = d.canal === "whatsapp" ? "whatsapp" : "mail";
-  const contact = (d.contact || "").trim();
+  const contact =
+    canal === "whatsapp" ? composerNumero(d.indicatif, d.contact) : (d.contact || "").trim();
 
   if (!page.startsWith("/")) return { statut: 400, corps: { erreur: "`page` manque." } };
   if (!auteur) return { statut: 400, corps: { erreur: "Ton nom manque. Il apparaîtra à côté de ce que tu écris." } };

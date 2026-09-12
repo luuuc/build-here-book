@@ -10,6 +10,7 @@
 
 import { verifier, rapport as texteDuRapport } from "./lint.mjs";
 import {
+  composerNumero,
   verifierJeton,
   regarderIp,
   retenirIp,
@@ -57,7 +58,12 @@ export async function recevoir(requete, env, sections) {
   const markdown = (donnees.markdown || "").trim();
   const auteur = (donnees.auteur || "").trim();
   const canal = donnees.canal === "whatsapp" ? "whatsapp" : "mail";
-  const contact = (donnees.contact || "").trim();
+  // Le numero arrive en deux morceaux quand le formulaire a un selecteur
+  // d'indicatif. On recompose avant de valider.
+  const contact =
+    canal === "whatsapp"
+      ? composerNumero(donnees.indicatif, donnees.contact)
+      : (donnees.contact || "").trim();
 
   if (!markdown) return { statut: 400, corps: { erreur: "Le texte de l'entrée manque." } };
   if (markdown.length > 300000) return { statut: 413, corps: { erreur: "Le texte dépasse 300 Ko." } };

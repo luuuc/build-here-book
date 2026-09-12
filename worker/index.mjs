@@ -109,7 +109,10 @@ export default {
     if (chemin === "/jeton") {
       if (!env.JETON_SECRET) return json({ erreur: "JETON_SECRET n'est pas configuré." }, 500);
       const { jeton } = await emettreJeton(env.JETON_SECRET);
-      return json({ jeton });
+      // Le pays vient de Cloudflare, qui le pose sur chaque requete. La page
+      // est servie statiquement par Pages, donc elle ne peut pas le savoir
+      // autrement, et c'est le seul appel qu'elle fait de toute facon.
+      return json({ jeton, pays: requete.cf?.country || null });
     }
 
     if (chemin === "/lint") {
@@ -196,7 +199,12 @@ export default {
 
       if (chemin === "/admin") {
         return new Response(pageAdmin(email), {
-          headers: { "content-type": "text/html; charset=utf-8" },
+          headers: {
+            "content-type": "text/html; charset=utf-8",
+            // Une file de moderation lue depuis un cache est une file qui
+            // ment : elle montre un etat que personne n'a plus.
+            "cache-control": "no-store",
+          },
         });
       }
 

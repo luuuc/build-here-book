@@ -163,4 +163,18 @@ export async function retenirPiege(db) {
     .run();
 }
 
+// Le numero arrive en deux morceaux quand le formulaire a un selecteur
+// d'indicatif : l'indicatif choisi, et ce que la personne a tape. On
+// recompose ici plutot que dans la page, pour que ca marche aussi sans
+// JavaScript, ou le select part tel quel dans le formulaire.
+export function composerNumero(indicatif, saisi) {
+  const n = (saisi || "").replace(/[\s.()-]/g, "");
+  if (!n) return "";
+  if (n.startsWith("+")) return n; // deja complet, on n'y touche pas
+  const i = String(indicatif || "").replace(/\D/g, "");
+  if (!i) return n;
+  // Un zero de tete est la notation nationale : il saute devant l'indicatif.
+  return "+" + i + n.replace(/^0+/, "");
+}
+
 export const seuils = { FENETRE, PLAFOND_IP, PLAFOND_CLIENT, PLAFOND_NOTES_IP, AGE_JETON, VIE_JETON };

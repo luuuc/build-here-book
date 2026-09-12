@@ -26,7 +26,7 @@
 
         <div class="discussion-qui">
           <label>{{ c.nom }}<input type="text" name="auteur" maxlength="120" required></label>
-          <label>{{ c.ville }}<input type="text" name="ville" maxlength="80"></label>
+          <label>{{ c.ville }}<input type="text" name="ville" maxlength="80" placeholder="Conakry"></label>
           <label>{{ c.lien }}<input type="url" name="lien" maxlength="300" placeholder="https://"></label>
         </div>
 
@@ -34,7 +34,13 @@
           <legend>{{ c.contact }}</legend>
           <label class="discussion-radio"><input type="radio" name="canal" value="mail" checked> {{ c.mail }}</label>
           <label class="discussion-radio"><input type="radio" name="canal" value="whatsapp"> {{ c.whatsapp }}</label>
-          <input type="text" name="contact" maxlength="200">
+          <div class="contact-champs">
+          <label class="contact-indicatif">
+            Indicatif
+            <select name="indicatif"></select>
+          </label>
+            <input type="text" name="contact" maxlength="200">
+          </div>
         </fieldset>
 
         <!-- Le champ piege. Un humain ne le voit pas et ne le remplit jamais. -->

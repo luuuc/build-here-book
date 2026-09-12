@@ -1742,3 +1742,51 @@ sup a {
 .discussion-ailleurs a {
   color: #8A6100;
 }
+
+/* Le contact, mail ou WhatsApp. L'indicatif ne se montre qu'avec WhatsApp.
+   Sans JavaScript, l'attribut data-canal n'est jamais pose et les deux
+   champs restent visibles : c'est plus laid et ca marche, ce qui est le bon
+   ordre de priorite. */
+.contact-champs {
+  display: grid;
+  gap: 0.6rem;
+  margin-top: 0.4rem;
+}
+
+@media (min-width: 560px) {
+  .contact-champs {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+    align-items: end;
+  }
+}
+
+.contact-champs[data-canal="mail"] .contact-indicatif {
+  display: none;
+}
+
+.contact-champs[data-canal="mail"] {
+  grid-template-columns: 1fr;
+}
+
+.contact-indicatif {
+  font-size: 0.82rem;
+  color: #8A6100;
+}
+
+.contact-indicatif select {
+  display: block;
+  width: 100%;
+  margin-top: 0.3rem;
+  padding: 0.55rem 0.7rem;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.93rem;
+  color: #1C1A17;
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  border-radius: 0;
+}
+
+.contact-indicatif select:focus {
+  outline: 0;
+  border-color: #8A6100;
+}

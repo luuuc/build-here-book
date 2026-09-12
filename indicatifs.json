@@ -1,0 +1,4 @@
+---
+layout: none
+---
+[{% for p in site.data.indicatifs %}{"code":"{{ p.code }}","nom":{{ p.nom | jsonify }},"indicatif":"{{ p.indicatif }}"}{% unless forloop.last %},{% endunless %}{% endfor %}]
