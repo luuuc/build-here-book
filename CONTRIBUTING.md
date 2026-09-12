@@ -58,15 +58,18 @@ seo:
 
 Laisse `order` et `principle` à `999`. Ce sont des champs de séquence, ils se recalculent à l'intégration et ils ne sont pas ton problème.
 
-**Le corps.** Cinq `##`, dans cet ordre, avec ces titres exacts.
+**Le corps.** Six `##`, dans cet ordre, avec ces titres exacts.
 
 ```
 ## Le réflexe
 ## Le réflexe builder
 ## Pourquoi
 ## À essayer
+## Depuis ton siège
 ## À discuter
 ```
+
+`Depuis ton siège` est une liste de quatre à six lignes, une par siège, cent caractères maximum après les deux-points. Les sièges et les cinq règles du bloc sont dans [Comment écrire une entrée](https://build-here.africa/chapters/a1-comment-ecrire-une-entree.html).
 
 **Deux règles de forme qui font échouer une relecture.** Aucun tiret cadratin, aucun tiret demi-cadratin. Apostrophes droites, pas courbes.
 
