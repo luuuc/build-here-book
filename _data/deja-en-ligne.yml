@@ -57,6 +57,126 @@
   lien: https://github.com/ushahidi/platform
   verifie: 2026-09-10
 
+- nom: AfriSpeech-200
+  lieu: Lagos
+  fait: "200 heures d'anglais africain, 120 accents, 13 pays, CC BY-NC-SA 4.0"
+  par: Intron Health et CLAIR Lab
+  porte: Le jeu de données
+  lien: https://huggingface.co/datasets/intronhealth/afrispeech-200
+  verifie: 2026-09-12
+
+- nom: AfVoices
+  lieu: Bamako
+  fait: "423 heures de bambara spontané, 512 locuteurs, sud du Mali, CC-BY-4.0"
+  par: RobotsMali AI4D Lab
+  porte: Le jeu de données
+  lien: https://huggingface.co/datasets/RobotsMali/afvoices
+  verifie: 2026-09-12
+
+- nom: Code d'Ivoire
+  lieu: Abidjan
+  fait: "made-in-ci, un registre du code écrit en Côte d'Ivoire, pull requests ouvertes"
+  par: Une communauté de développeurs ivoiriens
+  porte: Le dépôt
+  lien: https://github.com/codedivoire/made-in-ci
+  verifie: 2026-09-12
+
+- nom: Code for Africa
+  lieu: Panafricain
+  fait: "245 dépôts civiques, dont sensors.AFRICA et openAFRICA, licences GPL, Apache et MIT"
+  par: Code for Africa
+  porte: Les dépôts
+  lien: https://github.com/CodeForAfrica
+  verifie: 2026-09-12
+
+- nom: Code for Senegal
+  lieu: Dakar
+  fait: "20 dépôts de technologie civique tenus par des bénévoles, licences MIT et GPL-3.0"
+  par: Une communauté de bénévoles
+  porte: Les dépôts
+  lien: https://github.com/Code-for-Senegal
+  verifie: 2026-09-12
+
+- nom: Digital Umuganda
+  lieu: Kigali
+  fait: "22 jeux de données et 39 modèles de parole, kinyarwanda et swahili"
+  par: Digital Umuganda
+  porte: Les jeux de données
+  lien: https://huggingface.co/DigitalUmuganda
+  verifie: 2026-09-12
+
+- nom: Ghana NLP
+  lieu: Accra
+  fait: "Traduction et parole, 41 variétés de langues ghanéennes évaluées, licences MIT"
+  par: Une communauté ouverte
+  porte: Les dépôts
+  lien: https://github.com/GhanaNLP
+  verifie: 2026-09-12
+
+- nom: HausaNLP
+  lieu: Kano
+  fait: "NaijaSenti, corpus de sentiment pour le haoussa, l'igbo, le yoruba et le pidgin"
+  par: Université Bayero de Kano
+  porte: Les dépôts
+  lien: https://github.com/hausanlp
+  verifie: 2026-09-12
+
+- nom: InstaDeep
+  lieu: Tunis
+  fait: "76 modèles et 31 jeux de données publiés, génomique et protéines"
+  par: InstaDeep
+  porte: Les modèles
+  lien: https://huggingface.co/InstaDeepAI
+  verifie: 2026-09-12
+
+- nom: Jumanji
+  lieu: Tunis
+  fait: "Environnements d'apprentissage par renforcement en JAX, Apache-2.0, CONTRIBUTING.md"
+  par: InstaDeep
+  porte: Le dépôt
+  lien: https://github.com/instadeepai/jumanji
+  verifie: 2026-09-12
+
+- nom: Makerere AI Lab
+  lieu: Kampala
+  fait: "Parole et texte en luganda, maladies des cultures, licence MIT"
+  par: Université Makerere
+  porte: Les dépôts
+  lien: https://github.com/AI-Lab-Makerere
+  verifie: 2026-09-12
+
+- nom: MasakhaNER
+  lieu: Panafricain
+  fait: "Reconnaissance d'entités nommées annotée pour 20 langues africaines, CC-BY-4.0"
+  par: Masakhane
+  porte: Le dépôt
+  lien: https://github.com/masakhane-io/masakhane-ner
+  verifie: 2026-09-12
+
+- nom: Mbaza NLP
+  lieu: Kigali
+  fait: "Reconnaissance vocale, synthèse et traduction kinyarwanda, modèles et données publiés"
+  par: Mbaza NLP
+  porte: Les modèles
+  lien: https://huggingface.co/mbazaNLP
+  verifie: 2026-09-12
+
+- nom: Sunbird AI
+  lieu: Kampala
+  fait: "Modèles de parole et de langue couvrant jusqu'à 67 langues africaines"
+  par: Sunbird AI
+  porte: Les modèles
+  lien: https://huggingface.co/Sunbird
+  verifie: 2026-09-12
+
+- nom: Zindi
+  lieu: Panafricain
+  fait: "Compétitions de science des données, profil gratuit, défis ouverts sans introduction"
+  par: Zindi
+  porte: Les défis
+  lien: https://zindi.world/
+  verifie: 2026-09-12
+
 # En attente d'une porte publique. Vérifié le 2026-09-10, aucun lien trouvé.
 # La ligne entre le jour où quelqu'un donne une adresse qu'un inconnu peut ouvrir.
 #
