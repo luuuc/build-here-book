@@ -55,7 +55,7 @@ La décision n'a pas besoin d'être grande.
 
 ## Choisir la section
 
-Une section, pas le livre. Prends celle qui correspond à ce qui vous énerve ce trimestre et fais ses entrées dans l'ordre.
+Une section, pas le livre. Prends celle qui correspond à ce qui vous agace ce trimestre et fais ses entrées dans l'ordre.
 
 → **Curiosité**, si les gens exécutent sans demander pourquoi.
 → **Produit**, si les sprints se ferment et que rien ne change pour personne.

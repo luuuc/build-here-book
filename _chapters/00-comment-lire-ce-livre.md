@@ -39,7 +39,7 @@ Tu en lis une, tu refermes, tu changes une chose. Tu en envoies une à un collè
 
 Une entrée fonctionne quand quelqu'un la lit et y reconnaît une scène qu'il a vécue. Sans ça, l'argument qui suit ne sera pas lu.
 
-Ne lis pas ce livre du début à la fin, sauf si ça t'amuse. Ouvre-le à la section qui correspond à ce qui t'énerve cette semaine. Discute avec. Amène-la au standup et regarde qui se crispe.
+Ne lis pas ce livre du début à la fin, sauf si ça t'amuse. Ouvre-le à la section qui correspond à [ce qui t'agace cette semaine](/chapters/a5-ce-qui-tagace-cette-semaine.html). Discute avec. Amène-la au standup et regarde qui se crispe.
 
 Être d'accord avec tout serait mauvais signe. Certaines entrées sont fausses pour ton équipe, et comprendre pourquoi t'apprendra plus que hocher la tête devant celles auxquelles tu crois déjà.
 
