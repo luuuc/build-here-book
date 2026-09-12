@@ -41,6 +41,14 @@ Un créneau récurrent de 60 minutes, un jour toute les deux semaines. Écris su
 
 Six mois plus tard, douze textes et une poignée de gens qui comprennent le sujet. C'est ça la condition d'un lancement, pas un bonus dessus.
 
+## Depuis ton siège
+
+- **Engineer** : écris sur le problème pendant que tu construis. Une question après une démo vaut une étude.
+- **Product** : une audience construite pendant que tu construis te corrige à temps pour changer la roadmap.
+- **Founder** : le jour du lancement, la salle est pleine ou vide. Ça s'est décidé six mois plus tôt.
+- **Manager** : une heure tous les quinze jours, dans l'agenda d'une personne. C'est le coût réel.
+- **Recrutement** : les gens qui te trouvent par un texte se présentent seuls. C'est le canal qui te manque.
+
 ## À discuter
 
 Notre dernière release. Cite les gens hors de l'entreprise qui savaient à quoi elle servait avant. On atteint cinq ?

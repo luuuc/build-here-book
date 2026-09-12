@@ -43,6 +43,14 @@ Certaines initiatives sont réellement dangereuses. La facturation. Un contrat s
 → Écris la frontière. "Tu décides seul en dessous de ce montant, de ce niveau de risque, de ce nombre de clients impactés."
 → Quand une initiative échoue, fais la revue en public, sur ce qu'elle enseigne. Les autres regardent pour savoir si essayer est survivable.
 
+## Depuis ton siège
+
+- **Engineer** : quand tu prends une initiative, annonce-la avant. Dix minutes, et elle est protégée.
+- **Product** : si toute initiative doit passer par toi, tu es devenu la file d'attente que tu déplores.
+- **Design** : quelqu'un a corrigé ton écran sans demander ? Réponds sur la correction, pas sur la forme.
+- **Founder** : la frontière s'écrit avant. Montant, risque, nombre de clients touchés.
+- **Customer-facing** : un agent qui règle un cas hors procédure t'a montré un trou. Commence par le trou.
+
 ## À discuter
 
 Quand quelqu'un ici a agi sans autorisation, la première phrase qu'il a entendue portait sur le résultat ou sur la procédure ?

@@ -41,6 +41,14 @@ Il reste la partie que tu ne contrôles pas volontairement. L'équipe copie ce q
 → Une chose par trimestre, sous ton nom, hors des murs de l'entreprise. Quatre par an, pas quarante.
 → Compte ce que tu as publié en huit ans, puis compare avec ce que tu attends des gens que tu encadres.
 
+## Depuis ton siège
+
+- **Engineer** : la troisième fois que tu expliques la même chose, écris-la et envoie le lien à la quatrième.
+- **Product** : trois cent vingt conversations en huit ans, dont zéro ne survit à ton départ. Fais le compte.
+- **Founder** : l'équipe copie ce que tu fais, pas ce que tu recommandes. Ton silence enseigne aussi.
+- **Customer-facing** : ce que tu expliques à chaque nouveau client mérite une page publique, pas un script.
+- **Recrutement** : compare ce que tu as publié en huit ans avec ce que tu attends de ceux que tu encadres.
+
 ## À discuter
 
 Nomme la chose que tu expliques le plus souvent ici. Où est-elle écrite, et qui peut la lire sans passer par toi ?

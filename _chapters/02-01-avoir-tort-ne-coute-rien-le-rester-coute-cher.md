@@ -41,6 +41,13 @@ Quand une décision engage plusieurs semaines, écris une ligne à côté avant 
 
 Écris-la pendant que tu es encore neutre. Trois semaines plus tard, tu tordras le critère jusqu'à ce que ce que tu as construit passe. Mets une date, et tiens-la.
 
+## Depuis ton siège
+
+- **Engineer** : le schéma sur lequel deux autres équipes écrivent déjà est la partie qui se compose.
+- **Product** : ta spec a un critère d'abandon, ou tu le découvriras au lancement.
+- **Manager** : celui qui a proposé est celui qui doit arrêter. Rends-le survivable ou rien ne s'arrête.
+- **Recrutement** : recruter pour une stack qu'on s'apprête à quitter est le même coût, en plus lent.
+
 ## À discuter
 
 Quelle décision on garde uniquement parce que revenir en arrière serait gênant ?

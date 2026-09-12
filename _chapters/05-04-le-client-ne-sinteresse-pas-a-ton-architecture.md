@@ -42,6 +42,14 @@ Pour chaque projet technique en cours, écris l'avant et l'après avec les mots 
 
 Lis-le à quelqu'un du commercial. S'il pose une question de suite, ça fonctionne.
 
+## Depuis ton siège
+
+- **Product** : si aucune phrase client n'existe à aucun temps, ça te dit quelque chose sur le projet.
+- **Founder** : six mois de reprise que personne ne relie à un client se lisent comme de la dépense.
+- **Manager** : demande la phrase client avant de financer, pas au moment du budget.
+- **Customer-facing** : tu es le traducteur par défaut. Exige la phrase avant d'annoncer quoi que ce soit.
+- **Recrutement** : demande à quoi a servi son plus gros chantier technique, sans un mot technique.
+
 ## À discuter
 
 Notre plus gros projet technique en ce moment, qui ici peut dire en une phrase pourquoi un client devrait s'en soucier ?

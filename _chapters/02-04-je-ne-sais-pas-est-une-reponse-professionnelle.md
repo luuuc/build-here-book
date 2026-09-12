@@ -43,6 +43,14 @@ Prépare la formulation, pour ne pas la chercher sous pression.
 
 Puis reviens demain matin. La crédibilité est entièrement dans le retour.
 
+## Depuis ton siège
+
+- **Engineer** : une estimation lâchée sous pression devient une date dans un plan. Donne la source avec.
+- **Founder** : l'échéance que tu promets doit survivre à un support fournisseur à huit fuseaux d'écart.
+- **Manager** : ce qui arrive à celui qui dit je ne sais pas décide si tu entendras encore la phrase.
+- **Customer-facing** : je vérifie et je te reviens à telle heure bat toujours une réponse plausible.
+- **Recrutement** : un candidat qui dit je ne sais pas en entretien vient de te donner une donnée sûre.
+
 ## À discuter
 
 Quelle affirmation circule ici depuis des mois sans que personne sache d'où elle vient ?

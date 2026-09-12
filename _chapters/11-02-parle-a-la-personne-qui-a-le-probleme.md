@@ -43,6 +43,15 @@ Cale un appel cette semaine. Pas de démo, pas de slides. Ouvre avec ça.
 
 Puis arrête de parler. La partie utile arrive après le premier silence, quand la personne commence à s'excuser de son propre processus.
 
+## Depuis ton siège
+
+- **Engineer** : vingt minutes avec la personne valent trois relais. Tu as le droit de demander l'appel.
+- **Design** : le contournement est l'objet le plus utile de l'appel. Le tableur, le groupe WhatsApp.
+- **Founder** : ton client est à un coup de fil et il décroche. C'est un avantage structurel d'ici.
+- **Manager** : si personne dans la salle n'a parlé à un utilisateur ce mois-ci, on conçoit par ouï-dire.
+- **Customer-facing** : tu entends la phrase brute. Ne la résume pas, transporte-la entière.
+- **Recrutement** : demande le dernier utilisateur à qui le candidat a parlé, et ce qu'il l'a vu faire.
+
 ## À discuter
 
 Cite le dernier utilisateur à qui chaque ingénieur ici a parlé. Si le nom ne vient pas, notre conception repose sur quoi ?

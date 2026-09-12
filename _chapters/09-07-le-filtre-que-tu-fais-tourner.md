@@ -41,6 +41,13 @@ J'ai fait tourner ce filtre pendant deux ans et j'ai lu sa sortie comme un fait.
 → Écris ce que tu cherches en choses faites, pas en niveau. "A déjà réparé une réconciliation de paiement entre deux rails" se cherche. "Ingénieur senior" ne se cherche pas.
 → Quand tu conclus qu'il n'y a personne, écris la phrase entière. "Mon canal, sur cette durée, ne m'a renvoyé personne." Elle est vraie, elle est vérifiable, et elle ne dit pas du tout la même chose.
 
+## Depuis ton siège
+
+- **Engineer** : on te trouvera par une trace ou pas du tout. Le canal ne remonte pas les silencieux.
+- **Product** : un fait sur un filtre lu comme un fait sur une population. Tu fais pareil avec tes utilisateurs.
+- **Manager** : un recrutement raté a droit à sa conversation. Le candidat jamais remonté n'a droit à rien.
+- **Recrutement** : écris mon canal ne m'a renvoyé personne, pas il n'y a personne. Ce n'est pas pareil.
+
 ## À discuter
 
 Nos trois derniers recrutements sont venus par quel canal ? Et le dernier candidat qu'on a trouvé sans passer par quelqu'un qu'on connaissait déjà, c'était quand ?

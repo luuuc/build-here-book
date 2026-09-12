@@ -39,6 +39,14 @@ Quand tu sais qu'une échéance ne tiendra pas, vingt-quatre heures maximum avan
 
 > "La date ne se fera pas. J'en suis là, je peux encore livrer ça, voilà ce qui saute. Dites-moi si la priorité est ailleurs."
 
+## Depuis ton siège
+
+- **Product** : une hypothèse qui s'effondre est une mauvaise nouvelle. Elle pourrit comme les autres.
+- **Founder** : ce que tu apprends en dernier, tu l'apprends au prix fort. Regarde d'où vient le délai.
+- **Manager** : tes dix premières secondes sur une alerte précoce décident si tu en auras d'autres.
+- **Customer-facing** : une date repoussée qu'on annonce bat toujours une date ratée en silence.
+- **Recrutement** : demande la dernière mauvaise nouvelle que le candidat a annoncée, et en combien de temps.
+
 ## À discuter
 
 Ici, qu'est-ce qui remonte le plus vite, un retard ou une victoire ? Prends les deux derniers de chaque et compare.

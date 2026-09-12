@@ -43,6 +43,14 @@ Relis tes cinq dernières publications d'affilée, dans l'ordre, avec une seule 
 
 Si la réponse est claire pour trois d'entre elles, ne change rien et continue. Si elle n'est claire pour aucune, arrête de publier une semaine et écris une seule chose vérifiable.
 
+## Depuis ton siège
+
+- **Product** : tu ne construis pas une audience, tu constitues un stock. Ça ne se mesure pas pareil.
+- **Design** : le silence sur cinq publications inutilisables ressemble au silence sur cinq bonnes trop tôt.
+- **Founder** : celui qui te donne un chiffre sur la durée te vend une méthode.
+- **Manager** : sois patient est vrai une fois sur deux. L'autre fois, ça empêche la correction.
+- **Recrutement** : un candidat qui publie depuis quatre mois sans retour t'en dit plus qu'un qui a percé.
+
 ## À discuter
 
 Qu'est-ce qu'on arrêterait ici après quatre mois sans retour, et qu'est-ce qu'on garderait ? Qui décide, et sur quoi ?

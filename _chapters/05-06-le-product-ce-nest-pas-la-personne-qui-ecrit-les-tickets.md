@@ -39,6 +39,15 @@ Tiens la liste des non. Un fichier court. La demande, qui la portait, la raison 
 
 L'arbitrage devient visible, et un refus devient quelque chose qu'on rouvre dans trois mois au lieu d'une décision qu'on ne peut montrer du doigt.
 
+## Depuis ton siège
+
+- **Engineer** : je sais le construire, je pense qu'on ne devrait pas, et voilà pourquoi. C'est du product.
+- **Design** : dire quel écran ne doit pas exister vaut mieux que dessiner les cinq qu'on te demande.
+- **Founder** : dans une équipe de six, celui qui doit refuser sa propre idée devant les autres, c'est toi.
+- **Manager** : sans droit de refus, tu n'as pas de produit. Tu as une file où le plus insistant passe.
+- **Customer-facing** : quinze tickets identiques reliés à une seule étape cassée, c'est du product.
+- **Recrutement** : demande la dernière demande importante que le candidat a refusée, et à qui.
+
 ## À discuter
 
 C'est quoi la dernière demande significative qu'on a refusée ?

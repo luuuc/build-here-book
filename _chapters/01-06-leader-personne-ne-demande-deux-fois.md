@@ -43,6 +43,14 @@ Une réponse en trois semaines est un non avec de meilleures manières. Dis plut
 → Quand quelqu'un pose une question de fond, réponds au fond avant de parler de l'échéance.
 → Donne-toi 48 heures sur les questions. Réponds, ou refuse par écrit. Ne laisse jamais une question s'éteindre toute seule.
 
+## Depuis ton siège
+
+- **Engineer** : une question d'avril restée sans réponse est une donnée. Note la date et redemande.
+- **Product** : le pourquoi que tu ne mets pas dans le ticket sera inventé par celui qui l'exécute.
+- **Founder** : une réponse en trois semaines est un non avec de meilleures manières.
+- **Customer-facing** : tu détiens le pourquoi sous sa forme brute. Colle la phrase du client au ticket.
+- **Recrutement** : tu ne recruteras pas la curiosité que ta salle éteint en six semaines.
+
 ## À discuter
 
 Quand quelqu'un ici demande pourquoi, combien de temps passe avant une vraie réponse ?

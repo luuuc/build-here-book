@@ -41,6 +41,14 @@ Et refaire une grille est un chantier, ce qui sert d'excuse permanente. Ce n'est
 → Compare ces trois phrases avec ce que tu dis chercher quand tu recrutes.
 → Pour la prochaine, dis la raison à voix haute devant l'équipe, en choses faites. Le montant reste privé, la raison n'a aucune raison de l'être.
 
+## Depuis ton siège
+
+- **Engineer** : ce qui a été le plus payé cette année t'apprend ce qui compte ici. Tout le monde a lu.
+- **Design** : ce qui n'est jamais récompensé cesse d'être fait, sans qu'aucune réunion l'ait décidé.
+- **Founder** : tu importes dans ta paie le filtre que tu maudis dans ton recrutement.
+- **Customer-facing** : celui qui répond quand personne ne regarde n'est jamais dans les trois plus payés.
+- **Recrutement** : compare ce que tu paies le plus cher avec ce que tu dis chercher en entretien.
+
 ## À discuter
 
 La plus grosse augmentation d'ici cette année a récompensé quoi exactement, et est-ce que tout le monde dans cette salle donnerait la même réponse ?

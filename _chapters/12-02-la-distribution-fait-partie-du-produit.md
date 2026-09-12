@@ -41,6 +41,14 @@ Une séance, une page. Le chemin, sans rien sauter.
 
 Marque chaque étape que tu as devinée. Cette liste, c'est le travail.
 
+## Depuis ton siège
+
+- **Engineer** : le premier écran d'un lien ouvert sur deux barres n'est pas celui d'un résultat de recherche.
+- **Founder** : ça se décide pendant que le modèle de données est encore mou, pas au mois neuf.
+- **Manager** : le chemin n'est visible nulle part, donc il est sous-estimé par tout le bâtiment.
+- **Customer-facing** : en B2B, le chemin est un slide montré à un patron absent de la salle. Conçois-le.
+- **Recrutement** : tu cherches quelqu'un qui sait tracer un chemin, pas quelqu'un qui sait faire du bruit.
+
 ## À discuter
 
 Nos dix derniers utilisateurs, un par un. Chacun est venu d'où, et lesquels de ces chemins on pourrait refaire exprès ?

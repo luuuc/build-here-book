@@ -41,6 +41,15 @@ Prends ta dernière semaine et cherche le chiffre que personne d'autre ne détie
 
 Publie-le avec ce que tu en as conclu, sans le nom d'un seul client. Neuf cents mots, aucune conclusion sur le secteur.
 
+## Depuis ton siège
+
+- **Product** : le temps réel d'un processus que ton produit prétend couvrir est un chiffre que personne n'a.
+- **Design** : l'étape précise où les gens abandonnent, avec les proportions, est un artefact complet.
+- **Founder** : un dépôt privé de trois cent mille lignes ne passe pas le test. Un tableau d'une page, oui.
+- **Manager** : ce que ton équipe trouve banal est ce que personne n'a écrit. Va le lui demander.
+- **Customer-facing** : personne n'a écrit comment on forme un agent sur un produit qui change chaque semaine.
+- **Recrutement** : une trace n'est pas du code. Élargis ce que tu acceptes comme preuve de travail.
+
 ## À discuter
 
 Qui ici détient un chiffre que personne d'autre dans l'entreprise ne connaît ? Où est-il écrit aujourd'hui ?

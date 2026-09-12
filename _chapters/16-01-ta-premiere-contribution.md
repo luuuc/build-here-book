@@ -43,6 +43,15 @@ Puis la suivante, sur une dépendance sans laquelle ton produit ne tourne pas.
 
 Si tu ne sais pas où atterrir, l'[annexe 4](/chapters/a4-deja-en-ligne.html) liste des endroits qui acceptent une pull request ce soir.
 
+## Depuis ton siège
+
+- **Product** : une correction de documentation est une contribution. Le processus s'apprend une seule fois.
+- **Design** : les projets ouverts manquent de gens qui savent rendre une page compréhensible.
+- **Founder** : un correctif sur une dépendance sans laquelle ton produit ne tourne pas a une raison d'exister.
+- **Manager** : deux semaines de silence sur une pull request est normal. Dis-le avant, pas après l'abandon.
+- **Customer-facing** : la doc qui t'a fait perdre trente minutes en fait perdre trente à tes clients.
+- **Recrutement** : une première contribution est publique, permanente et signée. C'est ce que tu cherches.
+
 ## À discuter
 
 Quelle correction on garde en local depuis des mois sur une dépendance publique ? Qu'est-ce qui a empêché de la renvoyer ?

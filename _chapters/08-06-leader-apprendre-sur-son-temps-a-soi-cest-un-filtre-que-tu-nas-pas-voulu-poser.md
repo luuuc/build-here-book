@@ -41,6 +41,14 @@ Laisse ça hors des heures et la première entrée de cette section revient par 
 → Prends la data en charge. Si un talk coûte à quelqu'un son propre forfait, tu as mis un prix sur l'apprentissage, et ce prix n'est pas zéro.
 → Chaque trimestre, regarde qui a utilisé les heures et qui non. Les noms qui n'apparaissent jamais te parlent de leur semaine, pas de leur ambition.
 
+## Depuis ton siège
+
+- **Engineer** : si ta progression se fait après vingt heures, dis-le. C'est une information sur le plan.
+- **Product** : l'apprentissage n'a pas de numéro de ticket, donc il n'entre dans aucun sprint.
+- **Founder** : quatre heures par mois, c'est deux pour cent du travail que tu paies déjà.
+- **Customer-facing** : le support apprend le produit en continu, et personne ne compte ces heures-là.
+- **Recrutement** : à la revue de mi-année, tu mesures qui a ses soirées libres. Tu appelles ça l'ambition.
+
 ## À discuter
 
 Les trois dernières personnes ici qui ont visiblement monté d'un cran, elles ont fait le travail quand ? Dans la journée, ou une fois tout le monde couché à la maison ?

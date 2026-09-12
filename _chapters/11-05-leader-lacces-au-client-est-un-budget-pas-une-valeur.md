@@ -43,6 +43,15 @@ Le filtre achète une relation gardée lisse pendant un trimestre. Il coûte tou
 → Publie cinq clients qui ont accepté un appel de vingt minutes. N'importe qui peut réserver, sans justification, et dis cette partie-là clairement.
 → Quand un problème t'arrive sous forme de résumé, demande par combien de personnes il est passé. Si la réponse est trois, remets l'appel à l'agenda.
 
+## Depuis ton siège
+
+- **Engineer** : tu as arrêté de demander après la deuxième tentative. Dis-le, c'est une donnée sur la porte.
+- **Product** : une décision prise sur un résumé est une décision prise sur trois filtres empilés.
+- **Design** : un accès en lecture à la file de support vaut mieux qu'une étude trimestrielle.
+- **Founder** : la peur est réelle et petite. Assiste au premier appel, puis arrête d'assister.
+- **Customer-facing** : tu tiens la porte sans l'avoir voulu. Publie cinq clients qui acceptent vingt minutes.
+- **Recrutement** : tu recrutes des gens curieux du client, puis tu leur fermes la porte. Choisis.
+
 ## À discuter
 
 Le trimestre dernier, qui hors commercial et support a parlé à un client payant ?

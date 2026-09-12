@@ -43,6 +43,15 @@ Cherche-la pendant dix minutes, en anglais, comme si tu avais le problème et pa
 
 Si rien de ce que tu trouves ne t'aurait aidé, tu viens de trouver ce que tu dois écrire.
 
+## Depuis ton siège
+
+- **Engineer** : un tunnel de paiement sur deux rails qui ne se parlent pas n'est décrit nulle part.
+- **Product** : l'information n'est jamais repartie dans l'autre sens. Tu détiens la moitié qui manque.
+- **Design** : un premier écran utilisable sur deux barres et un appareil de trois ans n'est écrit nulle part.
+- **Founder** : tant que le texte n'existe pas, personne ne peut dire si vous êtes en avance ou banals.
+- **Manager** : ce que ton équipe appelle du bricolage local est ce que personne du pays n'a écrit.
+- **Customer-facing** : un support qui vit sur WhatsApp à vingt-trois heures ne figure dans aucun manuel.
+
 ## À discuter
 
 Qu'est-ce qu'on a résolu ici que personne dans cette salle n'a jamais vu écrit nulle part ?

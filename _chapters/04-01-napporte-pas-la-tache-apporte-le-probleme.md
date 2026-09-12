@@ -42,6 +42,14 @@ Deux lignes dans le ticket, avant de le fermer.
 
 Personne ne les a demandées. C'est le principe.
 
+## Depuis ton siège
+
+- **Product** : ce que celui qui a fait le ticket a appris dedans est ta meilleure source. Va la chercher.
+- **Design** : ce que tu apprends au troisième écran invalide souvent le premier. Dis-le tout de suite.
+- **Manager** : si rapporter une trouvaille passe pour un refus de faire la tâche, tu n'en auras plus.
+- **Customer-facing** : trois fois le même ticket est un problème, pas trois tâches. Compte, puis remonte.
+- **Recrutement** : demande un ticket où le candidat a découvert que la demande n'était pas la bonne.
+
 ## À discuter
 
 Quelqu'un ici a déjà découvert, en le faisant, que la tâche demandée n'était pas la bonne. Il l'a dit à qui ?

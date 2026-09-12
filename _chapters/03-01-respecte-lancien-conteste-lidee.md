@@ -45,6 +45,14 @@ Sépare les deux niveaux en une phrase.
 
 Il ne reste que le problème sur la table.
 
+## Depuis ton siège
+
+- **Engineer** : mets ton désaccord par écrit avant la revue. Il pourra changer d'avis sans public.
+- **Product** : le désaccord est un budget. Ceux qui font bouger les décisions le dépensent quatre fois par an.
+- **Founder** : si la correction vit dans le couloir, tu détiens le mauvais plan et sa réponse, séparément.
+- **Manager** : protéger le standing d'un ancien, c'est protéger ta seule source. Double la source.
+- **Recrutement** : demande la dernière fois qu'il a contredit plus ancien que lui, et comment.
+
 ## À discuter
 
 La dernière fois que quelqu'un a contredit le plus ancien ici, où est-ce que les autres l'ont appris ? En réunion, ou dans le couloir ?

@@ -43,6 +43,13 @@ Puis chronomètre le parcours équivalent sur l'application mondiale que tes cli
 
 Marque chaque écart comme contexte ou comme niveau. Le second type aime bien se cacher derrière le premier.
 
+## Depuis ton siège
+
+- **Design** : le bouton retour, le temps de démarrage, l'erreur qui dit quoi faire. De l'attention, pas du budget.
+- **Founder** : un produit construit au niveau local reste local, sans que personne l'ait décidé.
+- **Customer-facing** : personne ne fait de remise géographique en attendant qu'un écran s'affiche.
+- **Recrutement** : écris le niveau que tu cherches en choses faites, pas en suffisant pour ici.
+
 ## À discuter
 
 Quand on dit ici que c'est suffisant, on compare à quoi ?

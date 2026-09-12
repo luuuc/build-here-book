@@ -41,6 +41,14 @@ Une équipe qui cache ses erreurs n'en fait pas moins. Elle te les annonce plus 
 → Sépare l'analyse d'incident de l'évaluation des personnes. Tenues dans la même réunion, tu n'obtiens jamais la première.
 → Quand quelqu'un signale une erreur, commence par ce qu'elle apprend au système. Qui est responsable peut attendre une heure.
 
+## Depuis ton siège
+
+- **Engineer** : regarde ce qui est arrivé au dernier qui a signalé un incident. C'est ça, la règle.
+- **Design** : un test utilisateur qui contredit l'écran validé se raconte en entier ou ne sert à rien.
+- **Founder** : attache la conséquence au motif, jamais au signalement.
+- **Customer-facing** : tu apprends les erreurs en premier, par le client. Le délai de remontée est l'indicateur.
+- **Recrutement** : demande une erreur que le candidat a signalée lui-même, et ce que ça lui a coûté.
+
 ## À discuter
 
 Qui ici a assumé publiquement une erreur significative cette année, et il lui est arrivé quoi ensuite ?

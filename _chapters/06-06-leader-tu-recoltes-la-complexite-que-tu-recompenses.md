@@ -41,6 +41,14 @@ Les ingénieurs ne peuvent pas réparer ça par le bas. Choisir la version ennuy
 → Une fois par mois, finance un après-midi sans rien à montrer. Une personne, une dépendance sans laquelle le produit ne tourne pas, qui lit le code. Elle raconte ce qu'elle a trouvé, pas ce qu'elle a construit.
 → Quand tu valides une architecture, écris qui la portera dans deux ans. Un nom, dans le document. Puis vérifie si cette personne était dans la salle.
 
+## Depuis ton siège
+
+- **Engineer** : choisir la version ennuyeuse est un risque de carrière tant que personne ne le paie.
+- **Product** : ce qui rétrécit ne fait pas de slide. Demande-le quand même en revue de fin de semaine.
+- **Founder** : la complexité que tu applaudis reste sur le pager de celui qui sera là dans deux ans.
+- **Customer-facing** : ce qui a rétréci se raconte au client aussi. Une étape en moins est une nouvelle.
+- **Recrutement** : tu recrutes pour tenir la complexité que tu récompenses. Compte-la avant d'ouvrir le poste.
+
 ## À discuter
 
 C'est quoi la dernière chose pour laquelle quelqu'un ici a été félicité et qui a rendu le système plus petit ?

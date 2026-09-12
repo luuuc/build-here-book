@@ -42,6 +42,14 @@ Deux colonnes, dix minutes, par écrit.
 
 Puis ouvre ton contrat de travail et cherche le mot confidentialité. La première colonne rétrécit presque toujours.
 
+## Depuis ton siège
+
+- **Engineer** : la séquence technique n'appartient à personne. C'est la seule partie qui doit être précise.
+- **Product** : un chiffre publié sans nom de client ne dit rien au concurrent et beaucoup à un inconnu.
+- **Design** : une maquette sans données réelles ne révèle rien. Tu t'interdis plus que ton contrat.
+- **Founder** : deux de ces quatre coûts sont des conditions que tu fixes. Écris-les ou elles resteront supposées.
+- **Customer-facing** : le client concerné lira le texte le lendemain. Le fournisseur peut rester un prestataire.
+
 ## À discuter
 
 Qu'est-ce qu'on s'interdit de publier ici, et qui l'a décidé ? Est-ce que quelqu'un peut montrer où c'est écrit ?

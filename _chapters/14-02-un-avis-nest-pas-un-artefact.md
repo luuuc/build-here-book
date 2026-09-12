@@ -41,6 +41,14 @@ Prends la dernière chose que tu as publiée. Cherche dedans une chose vérifiab
 
 S'il n'y en a aucune, tu as publié un avis. Ce n'est pas grave, mais ce n'est pas une trace, et il ne faut pas compter les deux dans le même total.
 
+## Depuis ton siège
+
+- **Engineer** : dix lignes de code, une version, une commande. Une seule chose vérifiable suffit.
+- **Design** : publie l'écran avec le taux avant et après. Sans le chiffre, c'est une capture d'écran.
+- **Founder** : sur un avis tu concurrences tout le monde. Sur ce que tu as fait, vous êtes douze.
+- **Customer-facing** : les proportions de tes motifs de contact sur un an sont un artefact. Ton analyse non.
+- **Recrutement** : cherche une trace où un inconnu peut vérifier une chose, pas un fil d'opinions.
+
 ## À discuter
 
 La dernière chose publiée par quelqu'un ici, qu'est-ce qu'un inconnu pourrait en faire ?

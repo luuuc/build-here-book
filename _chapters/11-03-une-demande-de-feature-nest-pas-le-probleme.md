@@ -41,6 +41,14 @@ Sur la prochaine demande, avant que quiconque chiffre, renvoie un message.
 
 > "Bien noté, et je veux construire la bonne chose. À quel moment de ta semaine ça arrive, et tu fais quoi à la place aujourd'hui ?"
 
+## Depuis ton siège
+
+- **Engineer** : construire la demande littérale t'achète une semaine de bonne volonté et une maintenance.
+- **Design** : derrière ajoutez un champ, il y a un processus dont l'écran fait comme s'il n'existait pas.
+- **Founder** : poser la question se lit comme un frein. Demande dans le même souffle que le oui.
+- **Customer-facing** : tu reçois une hypothèse de correctif. Demande à quel moment de la semaine ça arrive.
+- **Recrutement** : demande une demande que le candidat a refusé de construire telle quelle, et pourquoi.
+
 ## À discuter
 
 La dernière fonctionnalité construite mot pour mot comme demandé, son usage ressemble à quoi ?

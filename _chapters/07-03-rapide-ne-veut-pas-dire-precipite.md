@@ -43,6 +43,14 @@ Quand une échéance paraît impossible, ne discute pas l'échéance. Discute le
 
 > "En trois semaines on ne peut pas tout faire. On peut livrer les deux tiers. La facturation saute. Tu préfères quoi ?"
 
+## Depuis ton siège
+
+- **Design** : coupe des écrans, pas du soin sur chaque écran. Le second se voit, le premier se décide.
+- **Founder** : une dette prise exprès est un emprunt. Prise en silence, c'est une fuite. Écris le nom et la date.
+- **Manager** : la lenteur au nom de la qualité cache souvent une décision que personne n'a prise.
+- **Customer-facing** : annonce ce qui saute avant la date. Le client arbitre mieux qu'on ne le croit.
+- **Recrutement** : demande un raccourci que le candidat a pris exprès, et ce qu'il a écrit à côté.
+
 ## À discuter
 
 Quel raccourci pris il y a six mois nous ralentit encore aujourd'hui ?

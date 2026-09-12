@@ -41,6 +41,14 @@ Une équipe qui pilote le support comme un coût devient très bonne à répondr
 
 Corrigée dans le produit. Pas documentée dans un article d'aide.
 
+## Depuis ton siège
+
+- **Engineer** : quinze réponses humaines par semaine sur un bouton mal placé sont un coût que tu peux retirer.
+- **Product** : tu paierais une agence pour huit utilisateurs, et tu jettes un flux quotidien gratuit.
+- **Design** : le premier motif de contact est presque toujours un écran, pas une question.
+- **Founder** : une équipe pilotée sur le temps de réponse devient très bonne à répondre vite. Rien d'autre.
+- **Recrutement** : l'agent qui relie quinze tickets à une seule cause fait du product. Sache le repérer.
+
 ## À discuter
 
 Qui a décidé de laisser notre premier motif de contact dans le top trois ?

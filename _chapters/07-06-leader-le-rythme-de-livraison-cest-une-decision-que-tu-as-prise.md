@@ -41,6 +41,15 @@ Chaque porte était une réponse raisonnable à quelque chose qui a cassé une f
 → Dis la règle de périmètre avant l'échéance. "Les deux tiers à la date valent mieux que tout en retard" ne compte que tant que l'issue est encore ouverte.
 → La prochaine fois que quelqu'un signale un retard quatre semaines à l'avance, surveille tes dix premières secondes. C'est là-dessus que l'équipe se cale.
 
+## Depuis ton siège
+
+- **Engineer** : compte les portes entre ton commit et un client. Chacune a été posée par quelqu'un.
+- **Product** : couper le périmètre est impossible tant que les deux tiers se lisent comme un échec.
+- **Design** : une fausse page et un tableur sont un livrable si quelqu'un dit que la lecture compte.
+- **Founder** : chaque porte répondait à un incident. Tu sais encore nommer lequel ?
+- **Customer-facing** : un correctif d'une ligne qui met trois semaines, c'est toi qui l'expliques au client.
+- **Recrutement** : le rythme que tu promets en entretien est celui de tes portes, pas de ton discours.
+
 ## À discuter
 
 C'est quoi le plus rapide qu'un correctif d'une ligne ait mis pour atteindre un client ici, et quelle étape entre les deux l'un d'entre nous défendrait aujourd'hui ?

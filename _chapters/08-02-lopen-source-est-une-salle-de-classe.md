@@ -39,6 +39,14 @@ Prends une librairie dont ton produit dépend. Lis les trois threads ouverts les
 
 Puis envoie un petit correctif. Une documentation ambiguë compte. La première contribution t'apprend le processus, et le processus est l'endroit où les gens abandonnent.
 
+## Depuis ton siège
+
+- **Product** : une proposition rejetée avec ses trois paragraphes de raisons est un cours d'arbitrage.
+- **Design** : les débats d'API montrent comment on rend une chose compréhensible sans explication.
+- **Founder** : une heure d'attention dure de meilleur que tous tes relecteurs, et elle est gratuite.
+- **Customer-facing** : l'explication du bug qui casse tes clients est souvent dans un thread de 2023.
+- **Recrutement** : personne n'y voit d'où vient quelqu'un. C'est une source que tu n'utilises pas.
+
 ## À discuter
 
 Est-ce que quelqu'un ici a ouvert une pull request sur une de nos dépendances ? Qu'est-ce qui a arrêté le dernier qui y a pensé ?

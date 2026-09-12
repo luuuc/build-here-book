@@ -41,6 +41,14 @@ Si elle parle de toi, remplace-la par une phrase qui décrit la journée de ton 
 
 Relis à voix haute. Si le niveau de détail te rend légèrement nerveux, c'est le bon.
 
+## Depuis ton siège
+
+- **Engineer** : ta doc aussi ouvre sur le problème. Personne ne lit une page qui commence par l'architecture.
+- **Design** : la première phrase fait plus pour la conversion que tout ce que tu dessineras autour.
+- **Founder** : nommer le détail de leur pire heure prouve plus qu'un mur de logos.
+- **Manager** : si le niveau de détail rend la salle nerveuse, c'est en général le bon niveau.
+- **Recrutement** : ton offre d'emploi commence par ton entreprise. Commence par le problème à résoudre.
+
 ## À discuter
 
 Notre première phrase décrit la semaine de qui ?

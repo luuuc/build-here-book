@@ -39,6 +39,14 @@ Mesure un chiffre. Le temps entre le moment où une ligne est écrite et le mome
 
 Suis un seul changement de bout en bout et note chaque endroit où il a attendu. L'attente, c'est en général l'agenda de quelqu'un, pas un build.
 
+## Depuis ton siège
+
+- **Design** : aucune salle ne tranche si les gens trouvent le bouton. Une mise en production, si.
+- **Founder** : trois mois de travail dans une release, c'est trois mois de suspects quand ça casse.
+- **Manager** : l'attente n'est presque jamais un build. C'est un agenda, et souvent le tien.
+- **Customer-facing** : tu sais en premier si nos mots veulent dire pour eux ce qu'ils voulaient dire pour nous.
+- **Recrutement** : demande la fréquence de livraison chez le candidat, puis ce qu'il en a appris.
+
 ## À discuter
 
 Ici, combien de temps entre le code écrit et le client servi ?

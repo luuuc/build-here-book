@@ -43,6 +43,14 @@ L'interruption est souvent justifiée, et c'est exactement ce qui la rend danger
 → Fais passer tes propres demandes par la même porte que celles des autres. Écrites, dans la file, avec la raison et le nombre de clients.
 → Relis la liste des non une fois par trimestre et rouvre un refus. Un non devient alors une décision, pas un trait de caractère.
 
+## Depuis ton siège
+
+- **Engineer** : une insertion qui ne nomme pas ce qu'elle déplace n'est pas une décision, c'est une file.
+- **Product** : ton non ne vaut que s'il survit en public. Regarde ce qui est arrivé aux trois derniers.
+- **Manager** : dire non au fondateur risque un désaveu public. Dire oui ne coûte rien. Change ce calcul.
+- **Customer-facing** : le client qui insiste le plus fort n'est pas le plus représentatif. Donne le nombre.
+- **Recrutement** : demande combien de fois le candidat a été désavoué après un refus, et ce qu'il en a fait.
+
 ## À discuter
 
 Combien de choses ont été construites le trimestre dernier parce qu'un client serait parti, et lesquelles on paie encore à chaque sprint ?

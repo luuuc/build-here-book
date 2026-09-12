@@ -42,6 +42,14 @@ En haut de la spec, au-dessus des exigences, deux lignes.
 
 Une spec sans rien de falsifiable dedans est une liste de souhaits avec un numéro de version.
 
+## Depuis ton siège
+
+- **Engineer** : une erreur trouvée dans le document en semaine trois est le premier signe utile du chantier.
+- **Founder** : valider n'ajoute pas de connaissance, ça ajoute de l'engagement. Sache ce que tu achètes.
+- **Manager** : si contredire une spec validée coûte quelque chose, on divergera en silence jusqu'à la démo.
+- **Customer-facing** : le premier utilisateur qui bute contredit le document. Rapporte-le avant la démo.
+- **Recrutement** : demande une spec que le candidat a fait changer avant le code, et comment.
+
 ## À discuter
 
 Quelle partie de notre produit n'existe que parce qu'elle était dans un document validé il y a deux ans ?

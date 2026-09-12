@@ -46,6 +46,14 @@ Le dernier incident sérieux. Quatre lignes, ce soir, pendant que la chronologie
 
 Publie-le là où quelqu'un qui cherche ce message d'erreur le trouvera. Pas dans le wiki interne, où il sera lu par les quatre personnes qui étaient déjà au courant.
 
+## Depuis ton siège
+
+- **Product** : l'hypothèse fausse et sa durée valent plus que la cause. C'est ce qui manque au suivant.
+- **Founder** : écris le mécanisme, pas l'incident. Le compte n'a pas besoin d'un nom, ni le montant d'être exact.
+- **Manager** : là où signaler coûte du statut, personne ne publiera. Vérifie de quel côté tu es d'abord.
+- **Customer-facing** : tu tiens la chronologie côté client, minute par minute. Elle manque à tous les postmortems.
+- **Recrutement** : un candidat qui raconte l'hypothèse gardée deux heures t'en dit plus qu'un CV entier.
+
 ## À discuter
 
 Notre dernier incident sérieux, où est écrite l'hypothèse fausse qu'on a gardée deux heures ?

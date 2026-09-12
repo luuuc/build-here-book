@@ -41,6 +41,14 @@ Nomme trois personnes visiblement bonnes dedans. Pas célèbres. Bonnes. Mets un
 
 Fais-le chaque mois. La liste se met à se répéter, et les répétitions sont ton écart.
 
+## Depuis ton siège
+
+- **Product** : ton meilleur exemple d'arbitrage produit n'est pas dans cette boîte. Va le chercher.
+- **Design** : compare ton parcours à un produit que tes utilisateurs ouvrent tous les jours.
+- **Founder** : ton senior répond à la question locale. La référence du dehors pose celle que personne n'a posée.
+- **Customer-facing** : lis une heure le support d'un produit mondial. Le niveau de réponse se compare aussi.
+- **Recrutement** : le niveau que tu cherches se définit dehors, sinon tu recrutes ta propre moyenne.
+
 ## À discuter
 
 Cite la dernière décision qu'on a changée à cause de quelqu'un d'extérieur à cette entreprise.

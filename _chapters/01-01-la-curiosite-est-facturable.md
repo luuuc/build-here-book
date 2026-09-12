@@ -45,6 +45,14 @@ Mets trente minutes dans ton agenda, avec le vrai nom dessus. "Lire comment marc
 
 Puis écris quatre lignes sur ce que tu as trouvé, quelque part où l'équipe peut les lire. Une curiosité que tu ne peux pas montrer reste un loisir.
 
+## Depuis ton siège
+
+- **Product** : trente minutes dans le système que tu spécifies, ou tu arbitres sur des coûts devinés.
+- **Founder** : ce que personne ici ne comprend devient un chiffrage que personne ne sait faire.
+- **Manager** : si comprendre n'a pas de ligne dans la semaine, ça se fait le soir ou pas du tout.
+- **Customer-facing** : le client qui demande pourquoi mérite mieux qu'une reformulation de la doc.
+- **Recrutement** : demande ce que le candidat a lu récemment dans un système qu'il n'avait pas écrit.
+
 ## À discuter
 
 Sur quel ticket a été imputée la dernière demi-journée que quelqu'un ici a passée à comprendre un système ?

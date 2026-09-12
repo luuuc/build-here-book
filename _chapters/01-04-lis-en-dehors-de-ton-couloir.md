@@ -45,6 +45,14 @@ Lis-le pendant quinze jours sans rien poster. Tiens une liste des choses que tu 
 
 Puis pose une question sur l'une d'elles, dans le canal, en citant les trois fois où tu l'as vue passer.
 
+## Depuis ton siège
+
+- **Product** : regarde ce qui se passe après le paiement. La couture est là et n'a pas de propriétaire.
+- **Design** : suis un ticket de support jusqu'au bout. Tu verras l'écran que les gens contournent.
+- **Manager** : celui qui lit le couloir d'à côté n'a pas de titre pour ça. Sache au moins qui c'est.
+- **Customer-facing** : tu vois la couture en premier. Dis-le chez les autres, avec trois dates.
+- **Recrutement** : demande ce qui se passe avant et après le travail du candidat. Ça mesure sa carte.
+
 ## À discuter
 
 Est-ce que quelqu'un ici peut expliquer, sans préparation, ce qui se passe entre le moment où un client paie et le moment où il est servi ?

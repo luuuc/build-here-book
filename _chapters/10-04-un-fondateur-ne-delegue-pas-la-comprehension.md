@@ -43,6 +43,14 @@ Deux fois par an, demande une visite guidée de bout en bout, avec une règle.
 
 Deux heures. Les arrêts sont l'exercice, pas une interruption de l'exercice.
 
+## Depuis ton siège
+
+- **Engineer** : quand la question arrive petite, la réponse revient petite. Donne ce qu'on n'a pas demandé.
+- **Product** : six semaines, honnête ou gonflé ? Sans modèle du produit, tu avales ou tu contestes à l'instinct.
+- **Design** : un produit que la direction ne sait pas dessiner au tableau se conçoit par morceaux.
+- **Customer-facing** : tu promets ce que tu crois simple. Demande une fois de quoi le produit est fait.
+- **Recrutement** : sans modèle du produit, tu recrutes sur l'aisance. C'est le filtre du début de ce livre.
+
 ## À discuter
 
 Si deux personnes de notre direction dessinaient notre produit au tableau, on obtiendrait le même schéma ?

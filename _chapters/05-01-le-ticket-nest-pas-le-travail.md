@@ -44,7 +44,6 @@ Remplis-la, ou laisse-la vide. Vide, à côté de trente tickets fermés, ça en
 ## Depuis ton siège
 
 - **Product** : découpe pour livrer utilisable plus tôt, jamais pour faire monter le compteur.
-- **Design** : compte les écrans utilisés, pas les maquettes validées.
 - **Founder** : la vélocité n'est pas un chiffre à montrer à ton conseil.
 - **Manager** : ce que tu regardes en revue devient ce que l'équipe optimise.
 - **Customer-facing** : si la note de version est vide, elle le dira au client à ta place.

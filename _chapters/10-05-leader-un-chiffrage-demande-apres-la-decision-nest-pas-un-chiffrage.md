@@ -41,6 +41,14 @@ Ici, la salle n'est souvent pas une réunion. C'est un appel, un dîner, une ré
 → Demande l'option la moins chère avant de demander le devis de celle que tu as déjà choisie.
 → Compte. Sur les engagements du trimestre dernier, combien ont été chiffrés avant d'être annoncés ? Si la réponse est zéro, ce que tu appelles un chiffrage est une ratification.
 
+## Depuis ton siège
+
+- **Engineer** : réponds en dates et en argent, sans un nom d'outil. C'est ça le livrable attendu.
+- **Design** : on te montre la décision, pas le problème. Demande l'option la moins chère avant de dessiner.
+- **Manager** : compte les engagements du trimestre chiffrés avant d'être annoncés. Zéro veut dire ratification.
+- **Customer-facing** : la salle est parfois un dîner. Ce que tu n'y emportes pas n'y entrera pas.
+- **Recrutement** : tu cherches quelqu'un qui parle en dates et en argent. Ça s'apprend en trois réunions.
+
 ## À discuter
 
 Le dernier engagement qu'on a pris envers un client ou un fournisseur, qui savait ce qu'il coûtait à construire, et est-ce qu'il l'a su avant ou après la signature ?

@@ -41,6 +41,14 @@ Les questions de positionnement subissent le même sort. Une semaine à débattr
 → Change ce par quoi tu ouvres le point hebdo. Si "qu'est-ce qui a été livré" est la seule question, c'est le seul travail que quiconque fera.
 → La prochaine fois que tu es en retard, coupe autre chose en premier, et dis dans la salle que celui-là tu le gardes.
 
+## Depuis ton siège
+
+- **Engineer** : l'après-midi passé à écrire arrive au point hebdo sans rien de livré. Nomme-le un livrable.
+- **Product** : une fonctionnalité rembourse en deux semaines, une audience en six mois. Le second perd.
+- **Founder** : ce que tu coupes en premier est lu comme ce que tu voulais dire. La lecture est juste.
+- **Customer-facing** : on te demande de la visibilité sans créneau. Demande le créneau, avec un nom dessus.
+- **Recrutement** : une entreprise que personne ne connaît recrute par recommandation. Tu connais ce filtre.
+
 ## À discuter
 
 La dernière fois qu'on était en retard, qu'est-ce qui a sauté en premier ? Qui l'a remarqué, et qu'est-ce qu'il en a déduit sur ce qu'on paie vraiment ?

@@ -45,6 +45,14 @@ Meilleur retour, et la critique est désamorcée. Tu l'as demandée.
 
 Puis une règle quand les commentaires arrivent. Ne réponds à aucun avant d'avoir reformulé l'objection et obtenu un "oui, c'est ça". Si tu ne sais pas l'énoncer mieux que celui qui l'a soulevée, tu n'y as pas répondu. Tu l'as contournée.
 
+## Depuis ton siège
+
+- **Product** : quand on critique ta spec, demande ce qui casse chez le client, pas qui a écrit la ligne.
+- **Design** : une critique polie sur une maquette veut dire qu'on a arrêté de payer le commentaire.
+- **Manager** : compare un thread de revue d'il y a un an et un du mois dernier. Compte les commentaires.
+- **Customer-facing** : le client qui démonte le produit ne te démonte pas. Rapporte-le mot pour mot.
+- **Recrutement** : demande la dernière fois qu'on a démonté son travail, et ce qu'il a fait ensuite.
+
 ## À discuter
 
 À qui dans cette équipe on hésite à donner un retour direct ?

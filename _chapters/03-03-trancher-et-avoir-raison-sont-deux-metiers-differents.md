@@ -41,6 +41,14 @@ Ouvre les discussions importantes en nommant la phase.
 
 Si tu es celui qui tranche, parle en dernier. Ton avis exprimé en premier te coûte la moitié des idées que la salle aurait produites.
 
+## Depuis ton siège
+
+- **Engineer** : celui qui a lu le changelog détient l'argument, même s'il est arrivé il y a six semaines.
+- **Design** : une critique d'écran arrivée pendant la décision arrive trop tard. Demande la phase.
+- **Founder** : l'autorité de décision est à toi. L'autorité intellectuelle se déplace avec le sujet.
+- **Customer-facing** : ce que le client a dit est un fait. Pose-le dans la phase où on comprend.
+- **Recrutement** : demande une fois où il a eu raison contre son responsable, et ce qui a suivi.
+
 ## À discuter
 
 Dans notre dernière réunion sérieuse, à quel moment on est passé d'explorer à trancher ?

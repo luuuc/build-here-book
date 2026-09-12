@@ -48,6 +48,14 @@ Puis regarde la longueur de la deuxième colonne.
 
 Si la première te paraît courte, l'annexe 3 la raccourcit encore.
 
+## Depuis ton siège
+
+- **Engineer** : les postmortems des systèmes que tu n'opéreras jamais sont publiés avec les horodatages.
+- **Product** : ce que tu appelles un manque de données est souvent un client que tu n'as pas appelé.
+- **Design** : des systèmes de design entiers sont publics, avec la raison derrière chaque règle.
+- **Manager** : la bande passante est un budget, et un budget se planifie. Indisponible ne se planifie pas.
+- **Recrutement** : quelqu'un sans diplôme connu a pu lire exactement les mêmes choses que les autres.
+
 ## À discuter
 
 Cite une chose qu'on explique par notre environnement depuis plus d'un an. Qu'est-ce qu'il faudrait pour tester si c'est encore vrai ?

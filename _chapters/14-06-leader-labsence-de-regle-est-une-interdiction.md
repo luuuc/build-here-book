@@ -41,6 +41,14 @@ Le coût du silence, lui, ne se présente jamais comme un coût. Il arrive sous 
 → Vas-y en premier, sur un incident qui t'a coûté quelque chose de réel. Tant que le premier texte publié par l'entreprise n'est pas signé par toi, la frontière reste théorique.
 → Cite la publication au point hebdo au même titre qu'une livraison. Si "qu'est-ce qui a été livré" reste la seule question posée, tu connais déjà la réponse que les gens donneront.
 
+## Depuis ton siège
+
+- **Engineer** : personne n'a dit non, et personne n'a dit oui. Demande la frontière par écrit, une fois.
+- **Product** : publier un chiffre sans nom de client ne coûte rien. Le vide t'a fait croire le contraire.
+- **Founder** : tant que le premier texte de l'entreprise n'est pas signé de toi, la frontière est théorique.
+- **Customer-facing** : tu es le plus exposé au risque client, donc le premier à te taire. Demande les trois lignes.
+- **Recrutement** : une entreprise dont personne ne connaît les ingénieurs recrute par recommandation, et rien d'autre.
+
 ## À discuter
 
 Qui ici a publié quelque chose sous son propre nom cette année ? Est-ce qu'il a dû demander la permission, et à qui ?

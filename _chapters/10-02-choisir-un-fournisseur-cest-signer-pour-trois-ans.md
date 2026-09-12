@@ -45,6 +45,14 @@ Pour tout choix qui rate le test, écris trois lignes lisibles par n'importe qui
 
 Puis envoie-les avant de signer, pas après.
 
+## Depuis ton siège
+
+- **Product** : un fournisseur câblé dans l'inscription, les rappels et les reçus n'est plus un choix technique.
+- **Founder** : il facture en dollars, tes clients paient en monnaie locale. Tu as pris une position.
+- **Manager** : le test n'est pas l'importance, c'est le coût de sortie. Plus de quelques semaines, tu montes.
+- **Customer-facing** : la panne du fournisseur, c'est toi qui l'expliques. Demande l'alternative avant.
+- **Recrutement** : chaque fournisseur choisi réduit le nombre de gens capables de le faire tourner ici.
+
 ## À discuter
 
 Quel fournisseur nous ferait le plus mal en doublant son prix demain ?

@@ -45,6 +45,14 @@ Dix lignes, dix minutes. Pas un CV, pas des intitulés de poste.
 
 Marque ensuite les lignes qu'une personne qui ne te connaît pas peut vérifier ce soir sans te le demander. Ce sous-ensemble est ce sur quoi tu négocies aujourd'hui. Le reste est ta valeur, et personne ne l'a encore écrit.
 
+## Depuis ton siège
+
+- **Product** : un acheteur a quarante minutes et deux onglets. C'est tout le budget de vérification.
+- **Design** : un portfolio montre des images. Ce qui se vérifie, c'est ce que les images ont changé.
+- **Founder** : un travail livré à zéro apprend à l'acheteur ce qu'il coûte, et il l'applique au suivant.
+- **Manager** : sans rien à ouvrir, le seul élément vérifiable est le nom de celui qui recommande.
+- **Recrutement** : tu paies ce que tu sais vérifier. Élargis ça avant de baisser une offre.
+
 ## À discuter
 
 La dernière fois que quelqu'un ici a été augmenté ou débauché, qu'est-ce qui était vérifiable de l'extérieur avant que ça arrive ?

@@ -37,6 +37,14 @@ Pour la prochaine fonctionnalité, isole le morceau qui répond à la question l
 
 Dis que c'est tôt. Laisse-les tranquilles une semaine, puis va voir ce qui s'est passé. Compte qui est revenu s'en servir une deuxième fois. Le premier usage ne mesure que la curiosité et ton email de lancement.
 
+## Depuis ton siège
+
+- **Design** : lisser le troisième écran avant que quelqu'un ait vu le premier achète de l'attachement.
+- **Founder** : tu as dix numéros dans ton téléphone. Ils pardonnent une aspérité, cent inscriptions non.
+- **Manager** : trois noms sur une fonctionnalité ignorée, et l'échec se lira comme un problème d'onboarding.
+- **Customer-facing** : tu sais qui accepterait de voir une version tôt. Donne les dix noms.
+- **Recrutement** : demande la plus petite chose que le candidat a mise devant un vrai utilisateur.
+
 ## À discuter
 
 Qu'est-ce qu'on est encore en train de peaufiner que dix utilisateurs auraient tranché il y a un mois ?

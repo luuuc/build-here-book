@@ -41,6 +41,14 @@ La rétention se paie en argent, en autonomie et en travail intéressant. Elle n
 → Compte tes recrutements des deux dernières années par canal. Si tout est venu de recommandations, tu connais la sortie de ton filtre.
 → Écris ce que tu offres à quelqu'un qui reçoit une offre à trois fois le salaire. Réponds honnêtement, avant que la question te soit posée, parce qu'elle le sera.
 
+## Depuis ton siège
+
+- **Engineer** : ton nom sur ce que l'entreprise publie est gratuit. Demande-le une fois, par écrit.
+- **Design** : les gens signent leur travail partout ailleurs. Une équipe anonyme se remarque de dehors.
+- **Founder** : le silence ne retient personne. Il garantit juste que tu recruteras par recommandation.
+- **Customer-facing** : une entreprise sans visage attire ceux qui ne comparent pas. Les clients aussi.
+- **Recrutement** : compte tes recrutements par canal sur deux ans. Tout en recommandation dit tout.
+
 ## À discuter
 
 Si quelqu'un cherche le nom de nos ingénieurs, il trouve quoi ? Et si la réponse est rien, qu'est-ce qu'on croit que ça nous protège de ?

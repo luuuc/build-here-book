@@ -43,6 +43,14 @@ Pendant une semaine, ne ferme pas un ticket tant que le champ résolution ne con
 
 Si la deuxième est "pas clair", écris-le. C'est vrai, et ça marque l'endroit pour le prochain qui tombera dessus.
 
+## Depuis ton siège
+
+- **Product** : un bug qui revient sous trois formes est une décision produit que personne n'a prise.
+- **Design** : quand un utilisateur contourne ton écran, le contournement n'est pas la cause.
+- **Manager** : si fermer vite est ce qui se voit, la deuxième couche ne sera jamais cherchée.
+- **Customer-facing** : note ce que le client faisait juste avant. C'est souvent la deuxième réponse.
+- **Recrutement** : demande un bug que le candidat a compris, pas un bug qu'il a fait disparaître.
+
 ## À discuter
 
 Nomme un problème qui revient ici sous des formes différentes.

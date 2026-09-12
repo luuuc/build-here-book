@@ -41,6 +41,14 @@ Prends une partie du système que tu connais bien. Pose une question.
 
 Puis supprime une de ces choses cette semaine. Pour de bon, pas derrière un flag.
 
+## Depuis ton siège
+
+- **Product** : une fonctionnalité retirée est un arbitrage. Même revue qu'un lancement.
+- **Design** : un écran qu'on supprime vaut souvent mieux qu'un écran qu'on clarifie.
+- **Founder** : demande ce que la version compliquée achetait. La réponse sépare le simple de l'inachevé.
+- **Customer-facing** : les cas abandonnés reviennent avec des noms de clients dessus, et par toi.
+- **Recrutement** : demande ce que le candidat a supprimé, pas ce qu'il a construit. Peu ont la réponse.
+
 ## À discuter
 
 Quelle suppression a été applaudie ici ?

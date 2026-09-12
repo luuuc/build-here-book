@@ -39,6 +39,14 @@ La prochaine fois qu'une librairie te surprend, ouvre le fichier avant d'ouvrir 
 
 Quinze minutes. Tu ne comprendras pas le projet. Tu comprendras une fonction, définitivement.
 
+## Depuis ton siège
+
+- **Product** : le comportement par défaut d'une dépendance est une décision produit que tu n'as pas prise.
+- **Design** : le composant que tu utilises impose ses règles. Ouvre-le avant de dessiner autour.
+- **Manager** : un après-midi passé à lire un driver ressemble à un après-midi passé à lire. Dis le contraire.
+- **Customer-facing** : le bug que décrit le client est parfois documenté nulle part et lisible en dix minutes.
+- **Recrutement** : demande une dépendance dont le candidat a lu le code, et ce qu'il y a trouvé.
+
 ## À discuter
 
 Qui ici a lu le code source d'une dépendance sans laquelle notre produit ne tourne pas ?

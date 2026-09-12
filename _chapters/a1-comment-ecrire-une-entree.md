@@ -131,13 +131,13 @@ Quand c'est la formulation qui est difficile, donne-la mot pour mot. Une phrase 
 
 ## Depuis ton siège
 
-Trois à six lignes, une par siège, sur ce que l'entrée change à une place qui n'est pas celle du lecteur par défaut.
+Quatre à six lignes, une par siège, sur ce que l'entrée change à une place qui n'est pas celle du lecteur par défaut.
 
 C'est ce bloc qui rend une entrée utilisable par une équipe entière d'un coup. Sans lui, chaque entrée atterrit sur le builder qui a déjà le réflexe, et personne d'autre ne sait ce qu'on lui demande. Les sièges sont décrits dans [Comment lire ce livre](/chapters/00-comment-lire-ce-livre.html).
 
 Cinq règles, et les quatre premières servent toutes à empêcher la même chose, un bloc qui remplit.
 
-**1. Trois à six sièges. Jamais sept par principe.** Un bloc qui liste tout le monde à chaque fois finit par dire une seule chose sous sept objets différents.
+**1. Quatre à six sièges. Jamais sept par principe.** Un bloc qui liste tout le monde à chaque fois finit par dire une seule chose sous sept objets différents.
 
 **2. Le siège dont « À essayer » donne déjà l'action ne prend pas de ligne.** C'est le plus souvent Engineer, puisque l'action de l'entrée est déjà écrite pour lui.
 

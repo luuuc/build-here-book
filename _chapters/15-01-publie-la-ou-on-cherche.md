@@ -41,6 +41,14 @@ Prends ta dernière trace. Tape dans un moteur de recherche la phrase exacte que
 
 Regarde où tu arrives. Si tu n'es pas dans les deux premières pages, le titre est le problème avant le contenu.
 
+## Depuis ton siège
+
+- **Engineer** : le titre porte le message d'erreur exact, pas ta conclusion sur la résilience.
+- **Product** : pose la chose permanente d'abord, annonce-la ensuite. L'annonce est jetable, pas la trace.
+- **Founder** : un endroit qui t'appartient, indexé, permanent. Personne n'y décide à ta place qui te voit.
+- **Manager** : un wiki interne est lu par les quatre personnes qui étaient déjà au courant.
+- **Customer-facing** : tu connais les mots exacts que les gens tapent. Donne-les à celui qui écrit le titre.
+
 ## À discuter
 
 La dernière chose qu'on a publiée, quelle recherche y mène ? Est-ce que quelqu'un ici peut la taper là, maintenant ?

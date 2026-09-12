@@ -45,6 +45,14 @@ Certaines salles punissent ça, c'est vrai. Dans celles-là, pose la question à
 
 Regarde combien de têtes se tournent vers celui qui répond.
 
+## Depuis ton siège
+
+- **Product** : quand deux tableaux se contredisent, cherche d'abord si un mot désigne deux choses.
+- **Founder** : tu paies la question le plus visiblement. Pose-la, elle devient gratuite en dessous.
+- **Manager** : si c'est toujours le même junior qui demande, la salle a mis un prix sur la question.
+- **Customer-facing** : écris le mot du client et le mot interne côte à côte. L'écart est un bug.
+- **Recrutement** : un candidat qui dit ne pas connaître un terme vient de te montrer quelque chose.
+
 ## À discuter
 
 La dernière question naïve posée en réunion ici venait de qui ?

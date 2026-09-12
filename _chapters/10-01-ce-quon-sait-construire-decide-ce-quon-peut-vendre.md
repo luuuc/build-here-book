@@ -45,6 +45,14 @@ Une contrainte seule sonne comme un non. À côté d'une option moins chère, el
 
 Demande l'ordre du jour deux jours à l'avance. Réponds à un point en conséquences, dates et argent, sans un seul nom d'outil dedans. Trois fois et il commence à arriver sans que tu demandes.
 
+## Depuis ton siège
+
+- **Product** : l'option jamais posée sur la table n'a droit à aucun post mortem, et elles sont nombreuses.
+- **Design** : ce que le système sait faire décide des écrans possibles. Lis le vote avant de dessiner.
+- **Founder** : une colonne choisie il y a deux ans est dans chaque conversation sur les prix que tu tiens.
+- **Manager** : une contrainte seule sonne comme un non. À côté d'une option moins chère, c'est une décision.
+- **Customer-facing** : ce que tu promets en rendez-vous a un prix que quelqu'un connaît déjà. Demande-le.
+
 ## À discuter
 
 Sur notre dernière grande décision stratégique, est-ce que quelqu'un dans la salle pouvait dire ce que ça coûtait à construire ?

@@ -43,6 +43,14 @@ Si tu y penses, ou si quelque chose vient d'arriver dans ta boîte mail, fais la
 
 Publie-en une, sous ton nom, avant de donner ta réponse. Ça ne changera pas ta décision. Ça change ce qu'elle coûte à ceux qui restent, et ça tient dans un après-midi.
 
+## Depuis ton siège
+
+- **Product** : les arbitrages que tu as refusés et leurs raisons ne sont dans aucun document. Écris-en un.
+- **Design** : un système de design vit dans ta tête tant que ses règles ne sont écrites nulle part.
+- **Founder** : dix ans sans rien écrire laisse une réputation locale qui s'éteint au changement d'étage.
+- **Manager** : ceux qui partent nous vident est une phrase adressée à des gens de vingt-six ans.
+- **Recrutement** : ce que laissent les partants est ce que lira la personne recrutée pour les remplacer.
+
 ## À discuter
 
 Les trois dernières personnes parties d'ici, qu'est-ce qui reste d'elles qu'on puisse encore ouvrir ?

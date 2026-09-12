@@ -41,6 +41,14 @@ Choisis un petit problème que les gens contournent depuis des mois. Répare-le,
 
 > "J'ai réécrit le message d'erreur de la page de paiement, il envoyait les clients au mauvais endroit. Dites-moi si j'ai raté une raison pour laquelle il était écrit comme ça."
 
+## Depuis ton siège
+
+- **Product** : le problème orphelin le plus cher est celui que le support explique quinze fois par semaine.
+- **Design** : l'écran que personne ne possède est celui que tout le monde contourne. Prends-le.
+- **Manager** : une fiche de poste est un plancher. Dis-le, ou elle sera lue comme un plafond.
+- **Customer-facing** : tu connais les trois contournements que personne n'a jamais écrits. Écris-en un.
+- **Recrutement** : demande ce que le candidat a réparé sans que ce soit à lui. C'est la question qui trie.
+
 ## À discuter
 
 Cite trois problèmes ici que tout le monde connaît et que personne ne possède. Qui est le plus proche de chacun ?

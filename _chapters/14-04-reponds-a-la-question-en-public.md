@@ -41,6 +41,14 @@ La prochaine question dont la réponse ne contient rien de confidentiel, répond
 
 > "Je l'ai écrit ici, ce sera plus simple si tu dois y revenir."
 
+## Depuis ton siège
+
+- **Engineer** : la réponse qui reste dans tes messages fait de toi la porte. Publiée, elle te libère.
+- **Product** : la question posée trois fois ce trimestre est une page, pas trois réponses privées.
+- **Founder** : une correction publique par meilleur que toi est le seul retour gratuit de ce métier.
+- **Manager** : les réponses privées de ton meilleur élément sont un actif que l'entreprise n'a pas.
+- **Customer-facing** : la réponse que tu écris quinze fois par semaine a un seul lecteur à chaque fois.
+
 ## À discuter
 
 Quelle question t'a été posée trois fois ce trimestre ? Où est la réponse écrite aujourd'hui ?

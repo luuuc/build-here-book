@@ -46,6 +46,14 @@ Quatre questions, par écrit, sans adjectifs.
 
 Fais répondre trois personnes séparément, puis mets les réponses côte à côte. Là où elles divergent, ce n'est pas un problème de communication.
 
+## Depuis ton siège
+
+- **Engineer** : pour qui c'est ne décrit pas le produit, ça le décide. Tu construis autre chose selon la réponse.
+- **Product** : celui qui compte le stock à 19h et les commerçants ne donnent pas la même application.
+- **Design** : un site magnifique adressé à tout le monde ne convertit personne. Personne ne s'y sent visé.
+- **Founder** : un bon produit se vend tout seul une fois, à ceux qui te connaissaient déjà.
+- **Manager** : exclus le marketing des décisions, puis conclus qu'il est faible. Il était exclu, pas faible.
+
 ## À discuter
 
 Cite le dernier client à qui on aurait dû dire non. Qu'est-ce que dans notre façon de nous décrire l'a laissé passer ?

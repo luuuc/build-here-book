@@ -43,6 +43,14 @@ La prochaine fois qu'une initiative échoue, fais la revue sur le raisonnement.
 
 Dans cet ordre. La première protège l'appétit. La seconde est la redevabilité, sans que personne soit le coupable.
 
+## Depuis ton siège
+
+- **Engineer** : écris ce que tu savais au moment de décider. C'est la seule défense qui tient six mois après.
+- **Design** : une direction validée qui échoue au test n'était pas mauvaise. C'était un test.
+- **Founder** : réversible ou à sens unique. Trie d'abord, discute ensuite. La ligne bouge à chaque fois.
+- **Customer-facing** : un échec public suit la personne jusqu'au poste suivant. Ta réaction fixe le prix.
+- **Recrutement** : demande une décision que le candidat a perdue, et ce qu'il savait en la prenant.
+
 ## À discuter
 
 Quelle erreur récente a été analysée ici sans chasse au responsable ?

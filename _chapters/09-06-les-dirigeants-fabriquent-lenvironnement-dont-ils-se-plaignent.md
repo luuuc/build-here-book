@@ -43,6 +43,13 @@ Prends la plainte que tu répètes le plus sur ton équipe, et retourne la quest
 
 Cherche dans les incitations, pas dans les caractères. La réponse ramène en général à une décision que tu as prise.
 
+## Depuis ton siège
+
+- **Engineer** : si tout le monde autour de toi contourne la même chose, ce n'est pas un défaut de caractère.
+- **Design** : quand tous les utilisateurs se trompent au même endroit, c'est l'écran. Ici, c'est la salle.
+- **Founder** : changer les gens prend un an. Changer un morceau du système se fait cette semaine.
+- **Recrutement** : un sur douze se recrute. Neuf sur douze ne se recrute pas, ça se répare.
+
 ## À discuter
 
 Quelle plainte tourne ici depuis plus d'un an sans qu'on ait changé le système ?

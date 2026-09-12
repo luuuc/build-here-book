@@ -41,6 +41,13 @@ Tu lis peut-être le calme comme de l'alignement. Demande à trois personnes sé
 → Une fois sur trois, concède en public. Change le plan dans la salle, à cause d'une remarque, et dis de qui venait la remarque. C'est la seule preuve qui voyage.
 → Compte. Si tu ne peux pas nommer trois décisions modifiées cette année par quelqu'un plus junior que toi, ton ouverture est déclarative.
 
+## Depuis ton siège
+
+- **Engineer** : dis l'objection dans la salle, pas dans le thread privé vingt minutes après.
+- **Product** : ton arbitrage n'a pas été contesté ? Demande à trois personnes séparément avant de conclure.
+- **Customer-facing** : tu portes le client contre une décision déjà prise. Dis-le une fois de plus que tu ne veux.
+- **Recrutement** : tes entretiens passent devant toi en dernier ? Tu recrutes ceux qui savent te plaire.
+
 ## À discuter
 
 Ici, il arrive quoi à quelqu'un qui contredit un dirigeant devant les autres ? Lequel d'entre nous pourrait dire cette réponse à voix haute, avec lui dans la salle ?
