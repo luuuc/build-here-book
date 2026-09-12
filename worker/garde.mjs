@@ -123,7 +123,12 @@ export async function tropDeContributions(db, client) {
 // Le rang trie la file, il ne refuse jamais. Un texte qui cite trois sources
 // est exactement celui qu'on veut lire : il descend dans la file, il n'est
 // pas ecarte.
-export function rang({ markdown, jetonOk, jetonRaison }) {
+// `seuilCourt` est le point ou un texte devient suspect par sa brievete. Il
+// vaut 400 pour une contribution, qui fait 2000 caracteres quand elle est
+// honnete. Il ne veut rien dire pour un avis : « meme chose a Abidjan » fait
+// vingt caracteres et c'est exactement ce qu'on veut lire. Passe a zero, le
+// signal est eteint.
+export function rang({ markdown, jetonOk, jetonRaison, seuilCourt = 400 }) {
   let r = 0;
 
   const liens = (markdown.match(/https?:\/\//g) || []).length;
@@ -135,7 +140,7 @@ export function rang({ markdown, jetonOk, jetonRaison }) {
   if (!jetonOk) r += jetonRaison === "absent" ? 2 : 10;
 
   if (/(.)\1{12,}/.test(markdown)) r += 5;
-  if (markdown.length < 400) r += 3;
+  if (seuilCourt && markdown.length < seuilCourt) r += 3;
 
   return r;
 }

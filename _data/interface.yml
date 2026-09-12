@@ -60,16 +60,30 @@ note:
   envoyer: "Envoyer"
   merci: "Noté." 
 
-# Les commentaires. Etape 6, pas encore implementee.
+# Les commentaires.
+#
+# Ce sont des discussions autour des idees, pas de la relecture editoriale.
+# Un desaccord, un contexte de plus, une experience depuis un autre marche.
+# Ce qui devrait changer dans le texte passe par une pull request, et ce qui
+# n'a pas servi passe par la note.
 commentaire:
   titre: "En discuter"
   filtre: "Je lis tout avant publication."
+  vide: "Personne n'a encore écrit ici. La première ligne est disponible."
+  ouvrir: "Écrire"
+  texte: "Ce que tu veux dire"
   nom: "Ton nom"
   ville: "Ta ville, si tu veux"
   lien: "Un lien, si tu veux"
-  contact: "Pour que je puisse te répondre. Jamais affiché."
+  contact: "Pour que je puisse te répondre. Jamais affiché, jamais transmis."
+  mail: "Mail"
+  whatsapp: "WhatsApp"
   envoyer: "Envoyer"
   envoye: "En attente de relecture."
+  repondre: "Répondre"
+  # Ce qui distingue la conversation de la correction. Le livre separe les
+  # trois, et c'est cette separation qui empeche la file de tout avaler.
+  ailleurs: "Une phrase à corriger plutôt qu'une idée à discuter ?"
   github: "Améliorer cette page sur GitHub"
 
 # La contribution, page /contribuer.

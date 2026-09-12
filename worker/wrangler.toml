@@ -30,6 +30,8 @@ routes = [
 
 [vars]
 DEPOT = "luuuc/build-here-book"
+# Le nom sous lequel les reponses de l'auteur paraissent dans les discussions.
+NOM_AUTEUR = "Luc"
 
 # La base de l'etat communautaire. Le contenu publie reste dans Git.
 #

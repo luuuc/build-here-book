@@ -11,6 +11,9 @@
   data-copie="{{ p.copie }}"
 >
   <div class="partage-barre" data-etat="ferme">
+    <!-- Commenter n'apparait que sur une page qui a un fil de discussion.
+         Le script le revele : un bouton mort est pire que pas de bouton. -->
+    <button type="button" class="partage-bouton" data-commenter hidden>{{ p.commenter }}</button>
     <button type="button" class="partage-bouton" data-ouvrir>{{ p.selection }}</button>
   </div>
   <div class="partage-canaux" hidden>

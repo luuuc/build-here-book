@@ -14,6 +14,7 @@ import * as contribution from "./contribution.mjs";
 import { carteDesSections } from "./github.mjs";
 import { pageAdmin } from "./admin.mjs";
 import * as note from "./note.mjs";
+import * as commentaire from "./commentaire.mjs";
 
 const SITE = "https://build-here.africa";
 const TTL_SOMMAIRE = 10 * 60 * 1000;
@@ -94,7 +95,14 @@ export default {
     if (chemin === "/" || chemin === "/sante") {
       return json({
         service: "build-here-api",
-        points: ["GET /jeton", "POST /lint", "POST /contribution", "POST /note"],
+        points: [
+          "GET /jeton",
+          "POST /lint",
+          "POST /contribution",
+          "POST /note",
+          "GET /commentaires?page=",
+          "POST /commentaire",
+        ],
       });
     }
 
@@ -129,6 +137,20 @@ export default {
         nouvelle: corps.nouvelle !== false,
       });
       return json({ ...r, rapport: rapport(r) });
+    }
+
+    if (chemin === "/commentaires") {
+      if (!env.DB) return json({ erreur: "La base n'est pas configurée." }, 500);
+      const page = (url.searchParams.get("page") || "").trim();
+      if (!page.startsWith("/")) return json({ erreur: "`page` manque." }, 400);
+      return json({ commentaires: await commentaire.publies(env, page) });
+    }
+
+    if (chemin === "/commentaire") {
+      if (requete.method !== "POST") return json({ erreur: "POST attendu." }, 405);
+      if (!env.DB) return json({ erreur: "La base n'est pas configurée." }, 500);
+      const { statut, corps } = await commentaire.recevoir(requete, env);
+      return json(corps, statut);
     }
 
     if (chemin === "/note") {
@@ -176,6 +198,33 @@ export default {
         return new Response(pageAdmin(email), {
           headers: { "content-type": "text/html; charset=utf-8" },
         });
+      }
+
+      if (chemin === "/admin/commentaires" && requete.method === "GET") {
+        return json({ commentaires: await commentaire.enAttente(env) });
+      }
+
+      const mc = chemin.match(/^\/admin\/commentaires\/([0-9a-f-]{36})(\/[a-z-]+)?$/);
+      if (mc) {
+        const [, id, action] = mc;
+
+        if (!action && requete.method === "GET") {
+          const c = await commentaire.un(env, id);
+          return c ? json(c) : json({ erreur: "Commentaire introuvable." }, 404);
+        }
+
+        if (requete.method !== "POST") return json({ erreur: "POST attendu." }, 405);
+
+        let corps = {};
+        try {
+          corps = await requete.json();
+        } catch (e) {}
+
+        if (action === "/publier") return json(await commentaire.marquer(env, id, "publie"));
+        if (action === "/refuser") return json(await commentaire.marquer(env, id, "refuse"));
+        if (action === "/repondre") {
+          return json(await commentaire.repondre(env, id, corps.texte, env.NOM_AUTEUR || "Luc"));
+        }
       }
 
       if (chemin === "/admin/notes" && requete.method === "GET") {

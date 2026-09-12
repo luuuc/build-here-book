@@ -1,0 +1,60 @@
+{% assign c = site.data.interface.commentaire %}
+<!-- Les discussions. Sans JavaScript, rien ne s'affiche : le formulaire a
+     besoin d'un jeton que seule une page dynamique peut poser, et lire le
+     livre n'en depend pas. Le lien vers GitHub, lui, marche toujours. -->
+<section class="discussion" id="discussion"
+         data-page="{{ page.url }}"
+         data-titre="{{ page.title | escape }}"
+         data-envoye="{{ c.envoye }}"
+         data-ouvrir="{{ c.ouvrir }}"
+         data-repondre="{{ c.repondre }}">
+  <div class="container">
+    <h2 class="discussion-titre">{{ c.titre }}</h2>
+
+    <div class="discussion-fil" hidden></div>
+
+    <div class="discussion-boite" hidden>
+      <p class="discussion-filtre">{{ c.filtre }}</p>
+
+      <form class="discussion-form">
+        <p class="discussion-passage" hidden></p>
+
+        <label>
+          {{ c.texte }}
+          <textarea name="texte" rows="5" maxlength="8000" required></textarea>
+        </label>
+
+        <div class="discussion-qui">
+          <label>{{ c.nom }}<input type="text" name="auteur" maxlength="120" required></label>
+          <label>{{ c.ville }}<input type="text" name="ville" maxlength="80"></label>
+          <label>{{ c.lien }}<input type="url" name="lien" maxlength="300" placeholder="https://"></label>
+        </div>
+
+        <fieldset>
+          <legend>{{ c.contact }}</legend>
+          <label class="discussion-radio"><input type="radio" name="canal" value="mail" checked> {{ c.mail }}</label>
+          <label class="discussion-radio"><input type="radio" name="canal" value="whatsapp"> {{ c.whatsapp }}</label>
+          <input type="text" name="contact" maxlength="200">
+        </fieldset>
+
+        <!-- Le champ piege. Un humain ne le voit pas et ne le remplit jamais. -->
+        <div class="contrib-piege" aria-hidden="true">
+          <label>Ne remplis pas ce champ<input type="text" name="site" tabindex="-1" autocomplete="off"></label>
+        </div>
+
+        <input type="hidden" name="parent_id" value="">
+
+        <div class="discussion-actions">
+          <button type="submit">{{ c.envoyer }}</button>
+          <span class="discussion-etat" role="status"></span>
+        </div>
+      </form>
+    </div>
+
+    <p class="discussion-ailleurs">
+      {{ c.ailleurs }}
+      <a href="https://github.com/{{ site.repository }}/edit/main/_chapters/{{ page.path | split: '/' | last }}"
+         target="_blank" rel="noopener">{{ c.github }}</a>
+    </p>
+  </div>
+</section>

@@ -117,6 +117,10 @@
          une annexe ne produit pas de signal editorial reparable. -->
     {% if page.metadata.principle %}{% include note.html %}{% endif %}
 
+    <!-- Les discussions, apres la note. Un clic pour dire si ca a servi, puis
+         la place pour ceux qui ont quelque chose a ajouter. -->
+    {% if page.metadata.principle %}{% include commentaires.html %}{% endif %}
+
     <!-- Content Footer -->
     {% if page.next %}
     <section class="content-footer">

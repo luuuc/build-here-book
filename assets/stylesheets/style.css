@@ -1499,3 +1499,246 @@ sup a {
   font-size: 0.92rem;
   color: #8A6100;
 }
+
+/* Les discussions. Sur fond papier, plus clair que la note juste au-dessus :
+   la note est une reaction, ici on parle. */
+.discussion {
+  background: #FAF7F0;
+  padding: 2.5rem 2rem;
+  font-family: "Archivo", system-ui, sans-serif;
+  border-top: 1px solid #E8E3D9;
+}
+
+.discussion-titre {
+  margin: 0 0 1.2rem;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #8A6100;
+}
+
+.discussion-ouvrir {
+  font-family: inherit;
+  font-size: 0.92rem;
+  padding: 0.5rem 1.1rem;
+  color: #1C1A17;
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  cursor: pointer;
+}
+
+.discussion-ouvrir:hover {
+  background: #FBEEC1;
+}
+
+.discussion-ouvrir[hidden],
+.discussion-fil[hidden],
+.discussion-boite[hidden],
+.discussion-passage[hidden] {
+  display: none;
+}
+
+/* Un avis. La bordure a gauche tient le fil vertical de la conversation. */
+.avis {
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  border-left: 3px solid #E8E3D9;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Une reponse de l'auteur porte la marque jaune du livre. Elle se distingue
+   sans se hausser : c'est la meme conversation. */
+.avis--auteur {
+  border-left-color: #F5B301;
+}
+
+.avis--reponse {
+  margin: 1rem 0 0 1.2rem;
+  background: #FAF7F0;
+}
+
+.avis-qui {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  margin: 0 0 0.5rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #1C1A17;
+}
+
+.avis-qui a {
+  color: #1C1A17;
+}
+
+.avis-qui small {
+  font-size: 0.76rem;
+  font-weight: normal;
+  color: #8A6100;
+}
+
+.avis-texte p {
+  margin: 0 0 0.7rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.avis-texte p:last-child {
+  margin-bottom: 0;
+}
+
+/* Le passage cite, quand l'avis porte sur une phrase et pas sur l'entree. */
+.avis-passage,
+.discussion-passage {
+  margin: 0 0 0.8rem;
+  padding: 0.6rem 0.9rem;
+  background: #FBEEC1;
+  border-left: 3px solid #F5B301;
+  font-size: 0.9rem;
+  font-style: italic;
+  line-height: 1.55;
+}
+
+.avis-repondre {
+  margin-top: 0.6rem;
+  padding: 0;
+  font-family: inherit;
+  font-size: 0.82rem;
+  color: #8A6100;
+  background: none;
+  border: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.discussion-boite {
+  margin-top: 1.4rem;
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  border-top: 3px solid #F5B301;
+  padding: 1.4rem;
+}
+
+.discussion-filtre {
+  margin: 0 0 1.2rem;
+  font-size: 0.88rem;
+  color: #8A6100;
+}
+
+.discussion-form label,
+.discussion-form legend {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #1C1A17;
+}
+
+.discussion-form fieldset {
+  margin-top: 1.1rem;
+  padding: 0;
+  border: 0;
+}
+
+.discussion-form legend {
+  font-weight: normal;
+  color: #8A6100;
+}
+
+.discussion-form label.discussion-radio {
+  display: inline-block;
+  margin: 0 1.2rem 0.5rem 0;
+  font-weight: normal;
+}
+
+.discussion-form input[type="text"],
+.discussion-form input[type="url"],
+.discussion-form textarea {
+  display: block;
+  width: 100%;
+  margin-top: 0.3rem;
+  padding: 0.55rem 0.7rem;
+  font-family: inherit;
+  font-size: 0.93rem;
+  color: #1C1A17;
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.discussion-form textarea {
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.discussion-form input:focus,
+.discussion-form textarea:focus {
+  outline: 0;
+  border-color: #8A6100;
+}
+
+/* Les trois champs d'identite tiennent sur une ligne des qu'il y a la place :
+   ce sont des details, ils ne doivent pas peser autant que le texte. */
+.discussion-qui {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1.1rem;
+}
+
+@media (min-width: 620px) {
+  .discussion-qui {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.discussion-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1.4rem;
+}
+
+.discussion-actions button {
+  font-family: inherit;
+  font-size: 0.93rem;
+  font-weight: 500;
+  padding: 0.6rem 1.3rem;
+  color: #fff;
+  background: #1C1A17;
+  border: 1px solid #1C1A17;
+  cursor: pointer;
+}
+
+.discussion-actions button:hover {
+  background: #8A6100;
+  border-color: #8A6100;
+}
+
+.discussion-actions button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.discussion-etat,
+.discussion-merci {
+  font-size: 0.9rem;
+  color: #8A6100;
+}
+
+/* La porte de sortie. Ce qui doit changer dans le texte n'a rien a faire
+   dans une discussion, et le livre separe les deux exprès. */
+.discussion-ailleurs {
+  margin: 1.8rem 0 0;
+  font-size: 0.88rem;
+  color: #8A6100;
+}
+
+.discussion-ailleurs a {
+  color: #8A6100;
+}

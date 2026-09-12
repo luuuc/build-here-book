@@ -71,24 +71,90 @@ const date = (t) => new Date(t * 1000).toLocaleString("fr-FR", { dateStyle: "sho
 const echappe = (s) => String(s ?? "").replace(/[<&]/g, (c) => (c === "<" ? "&lt;" : "&amp;"));
 
 async function liste() {
-  const { contributions = [], erreur } = await api("/admin/contributions");
+  const [a, b] = await Promise.all([api("/admin/contributions"), api("/admin/commentaires")]);
+  const erreur = a.erreur || b.erreur;
   if (erreur) return ($("#liste").innerHTML = '<p class="vide">' + echappe(erreur) + "</p>");
-  if (!contributions.length) return ($("#liste").innerHTML = '<p class="vide">Rien n\\'attend.</p>');
+
+  // Une seule file. Les deux objets attendent la meme personne, et deux
+  // onglets a surveiller, c'est deux fois l'occasion d'en oublier un.
+  const tout = []
+    .concat((a.contributions || []).map((c) => ({ ...c, genre: "contribution" })))
+    .concat((b.commentaires || []).map((c) => ({ ...c, genre: "commentaire" })))
+    .sort((x, y) => x.rang - y.rang || x.cree_le - y.cree_le);
+
+  if (!tout.length) return ($("#liste").innerHTML = '<p class="vide">Rien n\\'attend.</p>');
 
   $("#liste").innerHTML =
-    "<table><thead><tr><th>Entrée</th><th>Qui</th><th>État</th><th>Arrivée</th><th></th></tr></thead><tbody>" +
-    contributions
+    "<table><thead><tr><th>Quoi</th><th>Entrée</th><th>Qui</th><th>Arrivée</th><th></th></tr></thead><tbody>" +
+    tout
       .map(
         (c) =>
-          '<tr data-rang="' + (c.rang > 4 ? "douteux" : "ok") + '"><td>' + echappe(c.titre || "sans titre") +
-          "</td><td>" + echappe(c.auteur) + "</td><td>" + echappe(c.etat) +
-          "</td><td>" + date(c.cree_le) + '</td><td><button data-id="' + c.id + '">Ouvrir</button></td></tr>'
+          '<tr data-rang="' + (c.rang > 4 ? "douteux" : "ok") + '"><td>' +
+          (c.genre === "contribution" ? "une entrée" : "un avis") +
+          "</td><td>" + echappe(c.titre || "sans titre") +
+          "</td><td>" + echappe(c.auteur) +
+          "</td><td>" + date(c.cree_le) +
+          '</td><td><button data-id="' + c.id + '" data-genre="' + c.genre + '">Ouvrir</button></td></tr>'
       )
       .join("") +
     "</tbody></table>";
 
   $("#liste").querySelectorAll("button[data-id]").forEach((b) =>
-    b.addEventListener("click", () => detail(b.dataset.id))
+    b.addEventListener("click", () =>
+      b.dataset.genre === "commentaire" ? detailAvis(b.dataset.id) : detail(b.dataset.id)
+    )
+  );
+}
+
+// Un avis se lit et se publie. Il ne se corrige pas : ce que quelqu'un a
+// ecrit lui appartient, et le seul arbitrage est de le publier ou non.
+async function detailAvis(id) {
+  const c = await api("/admin/commentaires/" + id);
+  if (c.erreur) return alert(c.erreur);
+
+  $("#detail").innerHTML =
+    '<div class="detail"><h2>' + echappe(c.titre || c.page) + "</h2>" +
+    '<p class="meta">' + echappe(c.auteur) +
+    (c.ville ? " · " + echappe(c.ville) : "") +
+    (c.lien ? ' · <a href="' + encodeURI(c.lien) + '" rel="noopener nofollow" target="_blank">son lien</a>' : "") +
+    (c.contact ? " · " + echappe(c.contact.canal) + " " + echappe(c.contact.valeur) : " · aucun contact") +
+    " · rang " + c.rang + "</p>" +
+    (c.parent ? "<h3>Il répond à</h3><pre>" + echappe(c.parent.auteur) + " : " + echappe(c.parent.texte) + "</pre>" : "") +
+    (c.passage ? "<h3>Sur ce passage</h3><pre>" + echappe(c.passage) + "</pre>" : "") +
+    "<h3>Ce qu\\'il écrit</h3><pre>" + echappe(c.texte) + "</pre>" +
+    '<h3>Répondre, en public et tout de suite</h3>' +
+    '<textarea id="reponse" rows="4" style="width:100%;font:inherit;padding:.6rem;border:1px solid #E8E3D9"></textarea>' +
+    '<div class="actions">' +
+    '<button class="principal" data-avis="publier">Publier</button>' +
+    '<button data-avis="repondre">Publier et répondre</button>' +
+    '<button data-avis="refuser">Refuser</button>' +
+    "</div></div>";
+
+  $("#detail").querySelectorAll("button[data-avis]").forEach((b) =>
+    b.addEventListener("click", async () => {
+      const quoi = b.dataset.avis;
+      if (quoi === "refuser" && !confirm("Refuser cet avis ?")) return;
+      b.disabled = true;
+
+      if (quoi === "repondre") {
+        const texte = $("#reponse").value.trim();
+        if (!texte) { alert("Le texte de la réponse manque."); b.disabled = false; return; }
+        const r1 = await api("/admin/commentaires/" + id + "/publier", { method: "POST", headers: { "content-type": "application/json" }, body: "{}" });
+        if (r1.erreur) { alert(r1.erreur); b.disabled = false; return; }
+        const r2 = await api("/admin/commentaires/" + id + "/repondre", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ texte }),
+        });
+        if (r2.erreur) alert(r2.erreur);
+      } else {
+        const r = await api("/admin/commentaires/" + id + "/" + quoi, { method: "POST", headers: { "content-type": "application/json" }, body: "{}" });
+        if (r.erreur) alert(r.erreur);
+      }
+
+      $("#detail").innerHTML = "";
+      await liste();
+    })
   );
 }
 

@@ -153,6 +153,20 @@
   // Cliquer la barre ne doit pas effacer la selection qu'elle sert.
   barre.addEventListener("mousedown", (e) => e.preventDefault());
 
+  // Le bouton « Commenter » etait la moitie annoncee et non livree de la barre
+  // de selection. Il n'avait pas de destination tant que les discussions
+  // n'existaient pas. Elle existe : commentaires.js pose la fonction, et le
+  // bouton ne se revele que si elle est la.
+  const commenter = barre.querySelector("[data-commenter]");
+  if (commenter && typeof window.buildHereCommenter === "function") {
+    commenter.hidden = false;
+    commenter.addEventListener("click", function () {
+      const passage = citation();
+      fermer();
+      window.buildHereCommenter(passage);
+    });
+  }
+
   ouvrir.addEventListener("click", function () {
     rangee.hidden = true;
     canaux.hidden = false;
