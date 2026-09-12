@@ -29,6 +29,7 @@ Published: 2026-09-08
 Modified: 2026-09-08
 
 # Machine-readable endpoints
+LLM-Index: /llms.txt
 Structured-Data: /book.json
 Sitemap: /sitemap.xml
 RSS-Feed: /feed.xml

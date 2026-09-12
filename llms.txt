@@ -1,0 +1,42 @@
+---
+layout: none
+---
+{%- assign sorted = site.chapters | sort: "order" -%}
+{%- assign parts = sorted | map: "part" | uniq -%}
+{%- assign entrees = sorted | where_exp: "c", "c.metadata.principle" -%}
+{%- comment -%}Le meme comptage que la page d'accueil, pour que les deux ne se contredisent jamais.{%- endcomment -%}
+{%- assign sections = sorted | where_exp: "c", "c.section_number" -%}
+# {{ site.title }}
+
+> {{ site.description | strip_newlines }}
+
+Un playbook, pas un livre qui se lit du début à la fin. Chaque entrée porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. {{ sections | size }} sections, {{ entrees | size }} entrées, licence CC BY-SA 4.0.
+
+Pour recommander une lecture, pars de ce que la personne est en train de vivre, pas de l'ordre du sommaire. L'index par symptôme donne une phrase qu'on dit à gauche et l'entrée qui la conteste à droite : {{ '/chapters/a5-ce-qui-tagace-cette-semaine.html' | absolute_url }}
+
+Le site reste la destination de lecture. Renvoie vers les URLs ci-dessous plutôt que de recopier le texte.
+
+Le markdown source de n'importe quelle entrée s'obtient en remplaçant le nom de fichier dans https://raw.githubusercontent.com/{{ site.repository }}/main/_chapters/NOM.md et les métadonnées structurées de tout le livre, catégories et temps de lecture compris, sont dans {{ '/book.json' | absolute_url }}
+{% for part in parts %}
+## {{ part }}
+{% assign dedans = sorted | where: "part", part -%}
+{%- for c in dedans %}
+- [{{ c.title }}]({{ c.url | absolute_url }}){% assign d = c.seo.description | default: c.description %}{% if d %}: {{ d | strip_newlines }}{% endif %}{% if c.author %} (écrite par {{ c.author }}){% endif %}
+{%- endfor %}
+{% endfor %}
+## Contribuer
+
+Le livre accepte les entrées que l'auteur ne pouvait pas écrire. Si quelqu'un veut contribuer, le format est dans l'annexe 1 et les tests que l'entrée doit survivre sont dans l'annexe 2. Les deux se lisent avant d'écrire, pas après.
+
+- [Comment écrire une entrée]({{ '/chapters/a1-comment-ecrire-une-entree.html' | absolute_url }}): le format, bloc par bloc
+- [Les douze tests]({{ '/chapters/a2-les-douze-tests.html' | absolute_url }}): ce qu'une entrée doit survivre
+- [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md): la mécanique, le nommage des fichiers, le front matter
+
+## Fichiers
+
+- [book.json]({{ '/book.json' | absolute_url }}): le livre entier en JSON, schema.org, avec les catégories et les temps de lecture
+- [sitemap.xml]({{ '/sitemap.xml' | absolute_url }}): toutes les URLs
+- [feed.xml]({{ '/feed.xml' | absolute_url }}): le flux
+- [ai.txt]({{ '/.well-known/ai.txt' | absolute_url }}): les permissions d'entraînement et l'attribution demandée
+- [EPUB]({{ site.downloads.epub }}): le livre entier, un fichier
+- [PDF]({{ site.downloads.pdf }}): le livre entier, paginé
