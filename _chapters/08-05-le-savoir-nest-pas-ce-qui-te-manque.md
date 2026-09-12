@@ -1,8 +1,10 @@
 ---
 layout: chapter
-title: "Ce qui manque ici, ce n'est pas le savoir"
+title: "Le savoir n'est pas ce qui te manque"
 part: "Apprentissage"
 order: 45
+redirect_from:
+  - /chapters/08-05-ce-qui-manque-ici-ce-nest-pas-le-savoir.html
 metadata:
   principle: "35"
   reading_time_in_minutes: 2
@@ -12,7 +14,7 @@ categories:
   - niveau
 seo:
   description: "Commence par ce qui est vrai. Le capital est rare. Un réseau avec de la profondeur aussi, l'accès à des clients qui paient bien aussi, et parfois l'électricité et la bande passante."
-  keywords: "build here, apprentissage, tech afrique, builder, manque, savoir"
+  keywords: "build here, apprentissage, tech afrique, builder, savoir, manque"
 ---
 
 ## Le réflexe
@@ -27,7 +29,7 @@ Une partie de ce qui te manque n'est pas disponible ici. L'essentiel est un ongl
 
 ## Pourquoi
 
-Commence par ce qui est vrai. Le capital est rare. Un réseau avec de la profondeur aussi, l'accès à des clients qui paient bien aussi, et parfois l'électricité et la bande passante. Prétendre le contraire est une malhonnêteté à part entière, en général exécutée depuis une scène par quelqu'un qui vend de l'optimisme.
+Commence par ce qui est vrai. Le capital est rare. Un réseau avec de la profondeur aussi, l'accès à des clients qui paient bien aussi, et parfois l'électricité et la bande passante. Prétendre le contraire est une malhonnêteté à part entière.
 
 Le savoir a quitté cette liste. Les postmortems de systèmes que tu n'opéreras jamais sont publiés intégralement, avec les horodatages. Les cours universitaires sont en ligne. Les papers derrière tes outils sont gratuits. Les mainteneurs se disputent en public et ne suppriment pas après.
 

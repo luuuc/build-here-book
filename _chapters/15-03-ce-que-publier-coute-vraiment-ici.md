@@ -29,7 +29,7 @@ Commence par ce qui est vrai, parce que la liste est courte et qu'elle est séri
 
 Ces quatre coûts n'ont pas la même nature, et c'est là que tout se joue. Les deux derniers sont des conditions fixées par quelqu'un d'autre, et ils ont leurs entrées ailleurs dans ce mouvement. Les deux premiers sont des décisions que tu prends chaque semaine sans jamais les nommer.
 
-C'est le mélange qui coûte cher, exactement comme dans *Ce qui manque ici, ce n'est pas le savoir*. Une seule phrase couvre la clause de confidentialité que tu n'as jamais lue et le texte que tu n'as jamais écrit. Les deux reçoivent la même réponse, et le second ne bouge jamais.
+C'est le mélange qui coûte cher, exactement comme dans *Le savoir n'est pas ce qui te manque*. Une seule phrase couvre la clause de confidentialité que tu n'as jamais lue et le texte que tu n'as jamais écrit. Les deux reçoivent la même réponse, et le second ne bouge jamais.
 
 Trie-les et la moitié du problème disparaît le jour même. Le client n'a pas besoin d'un nom, le montant n'a pas besoin d'être exact, le fournisseur peut rester "un prestataire de paiement". Ce qui doit être précis, c'est la séquence technique, et elle n'appartient à personne. La plupart des choses que tu crois ne pas pouvoir publier sont des choses que tu ne peux pas publier telles quelles. Pour l'autre moitié, il n'y a pas de raccourci. Lis ton contrat. Dix minutes, une fois, et tu sauras de quel côté de la ligne tu te trouves au lieu de le supposer depuis trois ans.
 
