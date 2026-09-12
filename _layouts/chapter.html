@@ -29,6 +29,11 @@
           {% unless page.part == page.title %}<span>{{page.part}}</span>{% endunless %}
           {% endif %}
           {% if page.metadata.reading_time_in_minutes %}<span>{{page.metadata.reading_time_in_minutes}} min</span>{% endif %}
+          <!-- Les deux actions de page, groupees. Le conteneur porte la
+               marge automatique : sur les boutons eux-memes, deux marges
+               automatiques se partagent l'espace libre et laissent un trou
+               entre les deux icones. -->
+          <div class="chapter-actions">
           <!-- Garder l'entree. Le script y lit aussi l'URL et le titre pour
                retenir la derniere entree ouverte. Tout reste dans le
                navigateur du lecteur. -->
@@ -72,6 +77,7 @@
               <path d="M8.3 13.2 15.7 17.7" />
             </svg>
           </button>
+          </div>
         </div>
         <div class="hero-inner">
           <div class="hero-text">

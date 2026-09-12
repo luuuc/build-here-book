@@ -1078,8 +1078,17 @@ sup a {
    emprunte la teinte de la meta qu'elle termine.
    Le glyphe est celui que tout le monde reconnait, trois noeuds relies,
    au trait et au poids du bouton de telechargement. */
-.partage-page {
+/* La paire d'actions, poussee a droite de la ligne de reperes. La marge
+   automatique vit ici et pas sur les boutons : deux marges automatiques
+   dans un flex se partagent l'espace libre au lieu de coller les icones. */
+.chapter-actions {
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.partage-page {
   display: flex;
   padding: 0;
   background: none;
