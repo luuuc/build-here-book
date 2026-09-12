@@ -157,11 +157,17 @@ export async function publies(env, page) {
 
 // ---- Derriere Cloudflare Access ----
 
-export async function enAttente(env) {
-  const { results } = await env.DB.prepare(
-    `SELECT id, page, titre, auteur, rang, cree_le FROM commentaires
-     WHERE etat = 'en_attente' ORDER BY rang ASC, cree_le ASC LIMIT 100`
-  ).all();
+const ETATS = ["en_attente", "publie", "refuse"];
+
+// Un refus se consulte. Rejeter quelque chose et ne plus jamais pouvoir le
+// relire, c'est se priver de revenir sur sa decision, et de voir ce que le
+// rang a mal classe.
+export async function lister(env, etat) {
+  const colonnes = `SELECT id, page, titre, auteur, etat, rang, cree_le FROM commentaires`;
+  const q = ETATS.includes(etat)
+    ? env.DB.prepare(`${colonnes} WHERE etat = ? ORDER BY rang ASC, cree_le DESC LIMIT 200`).bind(etat)
+    : env.DB.prepare(`${colonnes} ORDER BY etat = 'en_attente' DESC, rang ASC, cree_le DESC LIMIT 200`);
+  const { results } = await q.all();
   return results;
 }
 

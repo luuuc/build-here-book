@@ -1,39 +1,138 @@
 #!/usr/bin/env node
-// Analyse le script de la page de moderation.
+// Fait tourner le script de la page de moderation, pour de vrai.
 //
 // Il vit dans un gabarit a accents graves, dans worker/admin.mjs, donc aucun
-// outil ne le voit comme du JavaScript avant qu'il soit rendu. Une apostrophe
-// mal echappee y passe `node --check` sur le module et casse la page entiere
-// dans le navigateur, en silence.
+// outil ne le voit comme du JavaScript avant qu'il soit rendu.
 //
-// C'est arrive une fois. D'ou ce fichier.
+// La premiere version ne faisait qu'analyser la syntaxe. Ca a suffi une fois,
+// pour une apostrophe mal echappee qui cassait la page entiere. Ca n'a pas
+// suffi la deuxieme, quand une reecriture a emporte deux fonctions : le
+// fichier restait valide, et la page mourait au premier clic.
+//
+// Donc on l'execute, sur un faux DOM et une fausse API, et on passe sur
+// chaque onglet.
 
-import { writeFileSync, unlinkSync } from "node:fs";
-import { tmpdir } from "node:os";
-import { join } from "node:path";
-import { execFileSync } from "node:child_process";
 import { pageAdmin } from "../worker/admin.mjs";
 
-const html = pageAdmin("verification@example.com");
-const bloc = html.split('<script type="module">')[1];
+const page = pageAdmin("verification@example.com");
+const script = (page.split('<script type="module">')[1] || "").split("</script>")[0];
 
-if (!bloc) {
+if (!script.trim()) {
   console.error("Aucun script trouvé dans la page. Le gabarit a changé de forme.");
   process.exit(1);
 }
 
-const script = bloc.split("</script>")[0];
-const chemin = join(tmpdir(), `admin-${process.pid}.mjs`);
-writeFileSync(chemin, script);
+// Un DOM juste assez reel pour que le script s'accroche a quelque chose, et
+// surtout pour que les gestionnaires de clic soient enregistres puis
+// declenches : c'est la que vivent les references aux fonctions de detail, et
+// une version precedente de ce fichier ne les atteignait pas.
+const clicsLignes = [];
+
+const noeud = () => {
+  const n = {
+    innerHTML: "",
+    textContent: "",
+    hidden: false,
+    dataset: {},
+    style: {},
+    disabled: false,
+    value: "",
+    setAttribute() {},
+    addEventListener() {},
+    insertAdjacentElement() {},
+    insertAdjacentHTML() {},
+    querySelector: () => noeud(),
+    querySelectorAll: (sel) => (sel && sel.includes("data-") ? [ligne(sel)] : []),
+    appendChild() {},
+  };
+  return n;
+};
+
+// Une ligne de tableau, avec son bouton. Le script lui accroche un
+// gestionnaire, on le garde pour le declencher apres.
+function ligne(sel) {
+  const b = noeud();
+  b.dataset.id = "00000000-0000-0000-0000-000000000000";
+  b.dataset.genre = "commentaire";
+  b.dataset.avis = "publier";
+  b.dataset.faire = "a-corriger";
+  b.dataset.parent = "x";
+  b.dataset.copier = "x";
+  b.addEventListener = (_, f) => clicsLignes.push({ sel, f });
+  return b;
+}
+
+const elements = {};
+globalThis.document = {
+  querySelector: (s) => (elements[s] = elements[s] || noeud()),
+  querySelectorAll: (s) => (s.includes("onglet") || s.includes("etat") ? boutons(s) : []),
+  createElement: noeud,
+};
+
+// Les onglets et les filtres, avec leur gestionnaire capture pour qu'on
+// puisse les declencher ensuite.
+const clics = [];
+function boutons(s) {
+  const cle = s.includes("onglet") ? "onglet" : "etat";
+  const valeurs = cle === "onglet" ? ["entrees", "commentaires", "notes"] : ["", "tout", "refuse"];
+  return valeurs.map((v) => {
+    const b = noeud();
+    b.dataset[cle] = v;
+    b.addEventListener = (_, f) => clics.push({ cle, v, f });
+    return b;
+  });
+}
+
+const appels = [];
+globalThis.fetch = async (chemin) => {
+  appels.push(chemin);
+  return {
+    json: async () =>
+      chemin.includes("/00000000-")
+        ? { id: "x", titre: "x", auteur: "y", etat: "recue", rang: 0, markdown: "m", texte: "t", rapport: "{}", cree_le: 1 }
+        : chemin.startsWith("/admin/contributions")
+        ? { contributions: [{ id: "a".repeat(8), titre: "x", auteur: "y", etat: "recue", rang: 0, cree_le: 1 }] }
+        : chemin.startsWith("/admin/commentaires")
+        ? { commentaires: [{ id: "b".repeat(8), titre: "x", auteur: "y", etat: "en_attente", rang: 0, cree_le: 1 }] }
+        : { pages: [], raisons: [], commentaires: [] },
+  };
+};
+globalThis.alert = () => {};
+globalThis.confirm = () => true;
 
 try {
-  execFileSync(process.execPath, ["--check", chemin], { stdio: "pipe" });
-  console.log(`Le script de la file passe l'analyse, ${script.split("\n").length} lignes.`);
+  await import("data:text/javascript;base64," + Buffer.from(script).toString("base64"));
+
+  // Chaque onglet et chaque filtre, un par un, et apres chacun les boutons
+  // des lignes qu'il vient de produire.
+  //
+  // L'ordre compte : un gestionnaire de ligne lit l'onglet courant au moment
+  // ou il tourne. Declenches tous ensemble a la fin, ils ouvriraient tous le
+  // meme detail, et une fonction disparue de l'autre cote passerait inapercue.
+  for (const c of clics) {
+    await c.f();
+    for (const l of clicsLignes.splice(0)) await l.f();
+  }
+
+  const vus = new Set(appels.map((a) => a.split("?")[0]));
+  const attendus = [
+    "/admin/contributions",
+    "/admin/commentaires",
+    "/admin/notes",
+    "/admin/contributions/00000000-0000-0000-0000-000000000000",
+    "/admin/commentaires/00000000-0000-0000-0000-000000000000",
+  ];
+  const manquants = attendus.filter((a) => !vus.has(a));
+
+  if (manquants.length) {
+    console.error("Ces points d'entrée n'ont jamais été appelés : " + manquants.join(", "));
+    process.exit(1);
+  }
+
+  console.log(`Le script de la file tourne, ${script.split("\n").length} lignes, ${vus.size} points d'entrée atteints.`);
 } catch (e) {
-  console.error("Le script de la file ne compile pas :\n");
-  console.error((e.stderr || Buffer.from("")).toString());
-  console.error("Rappel : dans ce gabarit, une apostrophe s'écrit \\\\' et pas \\'.");
+  console.error("Le script de la file ne tourne pas :\n");
+  console.error(e.stack || String(e));
+  console.error("\nRappel : dans ce gabarit, une apostrophe s'écrit \\\\' et pas \\'.");
   process.exit(1);
-} finally {
-  unlinkSync(chemin);
 }

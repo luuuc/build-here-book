@@ -209,7 +209,9 @@ export default {
       }
 
       if (chemin === "/admin/commentaires" && requete.method === "GET") {
-        return json({ commentaires: await commentaire.enAttente(env) });
+        return json({
+          commentaires: await commentaire.lister(env, url.searchParams.get("etat")),
+        });
       }
 
       const mc = chemin.match(/^\/admin\/commentaires\/([0-9a-f-]{36})(\/[a-z-]+)?$/);

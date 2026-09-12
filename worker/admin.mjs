@@ -40,7 +40,12 @@ export function pageAdmin(email) {
   pre { white-space: pre-wrap; background: #FAF7F0; padding: .9rem; font-size: .82rem; overflow-x: auto }
   .actions { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: 1rem }
   .mot { font-size: .82rem; color: #8A6100 }
-  .onglets { display: flex; gap: .5rem; margin-bottom: 1.2rem }
+  .onglets { display: flex; gap: .5rem; margin-bottom: .8rem }
+  .filtres { display: flex; gap: .4rem; margin-bottom: 1.2rem }
+  .filtres button { font-size: .82rem; padding: .2rem .6rem; border-color: #E8E8E0; color: #8A6100 }
+  .filtres[hidden] { display: none }
+  .filtres button[aria-pressed="true"] { border-color: #8A6100; color: #1C1A17 }
+  td.etat { color: #8A6100; font-size: .84rem }
   .onglets button[aria-pressed="true"] { background: #1C1A17; color: #fff }
   h2.section { font-size: .72rem; text-transform: uppercase; letter-spacing: .1em; color: #8A6100; margin: 1.8rem 0 .6rem }
   h2.section:first-child { margin-top: 0 }
@@ -55,13 +60,17 @@ export function pageAdmin(email) {
 </header>
 <main>
   <nav class="onglets">
-    <button data-onglet="file" aria-pressed="true">La file</button>
-    <button data-onglet="notes" aria-pressed="false">Les notes</button>
+    <button data-onglet="entrees" aria-pressed="true">Entrées</button>
+    <button data-onglet="commentaires" aria-pressed="false">Commentaires</button>
+    <button data-onglet="notes" aria-pressed="false">Notes</button>
   </nav>
-  <div id="file">
-    <div id="liste"><p class="vide">Chargement.</p></div>
-    <div id="detail"></div>
-  </div>
+  <nav class="filtres" id="filtres">
+    <button data-etat="" aria-pressed="true">Ce qui attend</button>
+    <button data-etat="tout" aria-pressed="false">Tout</button>
+    <button data-etat="refuse" aria-pressed="false">Refusés</button>
+  </nav>
+  <div id="liste"><p class="vide">Chargement.</p></div>
+  <div id="detail"></div>
   <div id="notes" hidden></div>
 </main>
 <script type="module">
@@ -70,40 +79,63 @@ const api = (c, o) => fetch(c, { headers: { accept: "application/json" }, ...o }
 const date = (t) => new Date(t * 1000).toLocaleString("fr-FR", { dateStyle: "short", timeStyle: "short" });
 const echappe = (s) => String(s ?? "").replace(/[<&]/g, (c) => (c === "<" ? "&lt;" : "&amp;"));
 
+let onglet = "entrees";
+let filtre = "";
+
+const ETATS_LISIBLES = {
+  recue: "attend",
+  en_relecture: "en relecture",
+  a_corriger: "à corriger",
+  pr_ouverte: "pull request ouverte",
+  refusee: "refusée",
+  en_attente: "attend",
+  publie: "publié",
+  refuse: "refusé",
+};
+
 async function liste() {
-  const [a, b] = await Promise.all([api("/admin/contributions"), api("/admin/commentaires")]);
-  const erreur = a.erreur || b.erreur;
-  if (erreur) return ($("#liste").innerHTML = '<p class="vide">' + echappe(erreur) + "</p>");
+  const quoi = onglet === "commentaires" ? "commentaires" : "contributions";
+  const q = filtre && filtre !== "tout" ? "?etat=" + encodeURIComponent(etatReel(filtre)) : "";
+  const d = await api("/admin/" + quoi + q);
 
-  // Une seule file. Les deux objets attendent la meme personne, et deux
-  // onglets a surveiller, c'est deux fois l'occasion d'en oublier un.
-  const tout = []
-    .concat((a.contributions || []).map((c) => ({ ...c, genre: "contribution" })))
-    .concat((b.commentaires || []).map((c) => ({ ...c, genre: "commentaire" })))
-    .sort((x, y) => x.rang - y.rang || x.cree_le - y.cree_le);
+  if (d.erreur) return ($("#liste").innerHTML = '<p class="vide">' + echappe(d.erreur) + "</p>");
 
-  if (!tout.length) return ($("#liste").innerHTML = '<p class="vide">Rien n\\'attend.</p>');
+  const items = d[quoi] || [];
+  if (!items.length) {
+    $("#liste").innerHTML = '<p class="vide">' +
+      (filtre === "refuse" ? "Rien de refusé." : filtre === "tout" ? "Rien pour l\\'instant." : "Rien n\\'attend.") +
+      "</p>";
+    $("#detail").innerHTML = "";
+    return;
+  }
 
   $("#liste").innerHTML =
-    "<table><thead><tr><th>Quoi</th><th>Entrée</th><th>Qui</th><th>Arrivée</th><th></th></tr></thead><tbody>" +
-    tout
+    "<table><thead><tr><th>Entrée</th><th>Qui</th><th>État</th><th>Arrivée</th><th></th></tr></thead><tbody>" +
+    items
       .map(
         (c) =>
           '<tr data-rang="' + (c.rang > 4 ? "douteux" : "ok") + '"><td>' +
-          (c.genre === "contribution" ? "une entrée" : "un avis") +
-          "</td><td>" + echappe(c.titre || "sans titre") +
+          echappe(c.titre || "sans titre") +
           "</td><td>" + echappe(c.auteur) +
+          '</td><td class="etat">' + echappe(ETATS_LISIBLES[c.etat] || c.etat) +
           "</td><td>" + date(c.cree_le) +
-          '</td><td><button data-id="' + c.id + '" data-genre="' + c.genre + '">Ouvrir</button></td></tr>'
+          '</td><td><button data-id="' + c.id + '">Ouvrir</button></td></tr>'
       )
       .join("") +
     "</tbody></table>";
 
   $("#liste").querySelectorAll("button[data-id]").forEach((b) =>
     b.addEventListener("click", () =>
-      b.dataset.genre === "commentaire" ? detailAvis(b.dataset.id) : detail(b.dataset.id)
+      onglet === "commentaires" ? detailAvis(b.dataset.id) : detail(b.dataset.id)
     )
   );
+}
+
+// « refuse » n'a pas le meme nom des deux cotes : une contribution est
+// refusee, un commentaire est refuse. Le bouton dit la meme chose.
+function etatReel(f) {
+  if (f !== "refuse") return f;
+  return onglet === "commentaires" ? "refuse" : "refusee";
 }
 
 // Un avis se lit et se publie. Il ne se corrige pas : ce que quelqu'un a
@@ -255,11 +287,29 @@ async function notes() {
 }
 
 document.querySelectorAll("[data-onglet]").forEach((b) =>
-  b.addEventListener("click", () => {
+  b.addEventListener("click", async () => {
     document.querySelectorAll("[data-onglet]").forEach((o) => o.setAttribute("aria-pressed", String(o === b)));
-    $("#file").hidden = b.dataset.onglet !== "file";
-    $("#notes").hidden = b.dataset.onglet !== "notes";
-    if (b.dataset.onglet === "notes") notes();
+    onglet = b.dataset.onglet;
+
+    const lesNotes = onglet === "notes";
+    $("#notes").hidden = !lesNotes;
+    $("#liste").hidden = lesNotes;
+    $("#detail").hidden = lesNotes;
+    // Les notes ne se moderent pas, elles n'ont donc pas d'etat a filtrer.
+    $("#filtres").hidden = lesNotes;
+    $("#detail").innerHTML = "";
+
+    if (lesNotes) await notes();
+    else await liste();
+  })
+);
+
+document.querySelectorAll("[data-etat]").forEach((b) =>
+  b.addEventListener("click", async () => {
+    document.querySelectorAll("[data-etat]").forEach((o) => o.setAttribute("aria-pressed", String(o === b)));
+    filtre = b.dataset.etat;
+    $("#detail").innerHTML = "";
+    await liste();
   })
 );
 

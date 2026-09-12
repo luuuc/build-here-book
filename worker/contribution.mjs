@@ -157,17 +157,14 @@ export function qui(requete) {
   return requete.headers.get("cf-access-authenticated-user-email");
 }
 
+// Sans etat, tout est rendu, ce qui attend en tete. La premiere version
+// masquait les refusees : on ne pouvait plus jamais relire ce qu'on avait
+// ecarte, ni voir ce que le rang avait mal classe.
 export async function lister(env, etat) {
-  const ou = etat && ETATS.includes(etat) ? etat : null;
-  const q = ou
-    ? env.DB.prepare(
-        `SELECT id, titre, auteur, etat, rang, pr_url, cree_le FROM contributions
-         WHERE etat = ? ORDER BY rang ASC, cree_le ASC LIMIT 100`
-      ).bind(ou)
-    : env.DB.prepare(
-        `SELECT id, titre, auteur, etat, rang, pr_url, cree_le FROM contributions
-         WHERE etat NOT IN ('fusionnee', 'refusee') ORDER BY rang ASC, cree_le ASC LIMIT 100`
-      );
+  const colonnes = `SELECT id, titre, auteur, etat, rang, pr_url, cree_le FROM contributions`;
+  const q = ETATS.includes(etat)
+    ? env.DB.prepare(`${colonnes} WHERE etat = ? ORDER BY rang ASC, cree_le DESC LIMIT 200`).bind(etat)
+    : env.DB.prepare(`${colonnes} ORDER BY etat = 'recue' DESC, rang ASC, cree_le DESC LIMIT 200`);
 
   const { results } = await q.all();
   return results;

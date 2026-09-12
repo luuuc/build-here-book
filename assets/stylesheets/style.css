@@ -1301,6 +1301,7 @@ sup a {
 
 .contrib-form input[type="text"],
 .contrib-form input[type="url"],
+.contrib-form select,
 .contrib-form textarea {
   display: block;
   width: 100%;
@@ -1323,6 +1324,7 @@ sup a {
 }
 
 .contrib-form input:focus,
+.contrib-form select:focus,
 .contrib-form textarea:focus {
   outline: 0;
   border-color: #8A6100;
@@ -1657,6 +1659,7 @@ sup a {
 
 .discussion-form input[type="text"],
 .discussion-form input[type="url"],
+.discussion-form select,
 .discussion-form textarea {
   display: block;
   width: 100%;
@@ -1677,6 +1680,7 @@ sup a {
 }
 
 .discussion-form input:focus,
+.discussion-form select:focus,
 .discussion-form textarea:focus {
   outline: 0;
   border-color: #8A6100;
@@ -1773,20 +1777,22 @@ sup a {
   color: #8A6100;
 }
 
+/* L'habillage natif d'un select impose sa propre hauteur et ses coins
+   arrondis, quel que soit le remplissage demande. On le retire pour que le
+   champ tombe a la meme hauteur que le numero a cote, et on redessine la
+   fleche, qui part avec. */
 .contact-indicatif select {
-  display: block;
-  width: 100%;
-  margin-top: 0.3rem;
-  padding: 0.55rem 0.7rem;
-  font-family: "Archivo", system-ui, sans-serif;
-  font-size: 0.93rem;
-  color: #1C1A17;
-  background: #fff;
-  border: 1px solid #E8E3D9;
-  border-radius: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  line-height: 1.5;
+  padding-right: 2.1rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' stroke='%238A6100' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1l4 4 4-4'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
 }
 
-.contact-indicatif select:focus {
-  outline: 0;
-  border-color: #8A6100;
+/* Le libelle de l'indicatif est au-dessus, le numero n'en a pas. Sans cette
+   compensation les deux champs ne tombent pas sur la meme ligne. */
+.contact-champs > input {
+  align-self: end;
 }
