@@ -1016,3 +1016,73 @@ sup a {
 .content--notes .footnotes li:last-child p:last-child {
   margin-bottom: 0;
 }
+
+/* Partager un passage.
+   Une barre minuscule, au-dessus de la selection, et rien d'autre. Elle
+   emprunte la bordure jaune du menu de telechargement : c'est le meme objet
+   flottant, il n'y a pas de raison qu'il ait deux formes.
+   z-index sous le header, qui est fixe et reste devant. */
+.partage {
+  position: absolute;
+  z-index: 999;
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  border-top: 3px solid #F5B301;
+  box-shadow: 0 12px 30px rgba(28, 26, 23, 0.16);
+  font-family: "Archivo", system-ui, sans-serif;
+}
+
+.partage[hidden] {
+  display: none;
+}
+
+.partage-barre[hidden],
+.partage-canaux[hidden] {
+  display: none;
+}
+
+.partage-canaux {
+  display: flex;
+}
+
+.partage button,
+.partage-canaux a {
+  display: block;
+  padding: 0.55rem 0.95rem;
+  background: none;
+  border: 0;
+  font-family: inherit;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  color: #1C1A17;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.partage-canaux a + a,
+.partage-canaux a + button {
+  border-left: 1px solid #E8E3D9;
+}
+
+.partage button:hover,
+.partage-canaux a:hover {
+  background: #FBEEC1;
+}
+
+.partage-bouton {
+  font-weight: 500;
+}
+
+/* Sur telephone, la rangee de canaux depasserait l'ecran. Elle se replie. */
+@media (max-width: 480px) {
+  .partage-canaux {
+    flex-direction: column;
+  }
+
+  .partage-canaux a + a,
+  .partage-canaux a + button {
+    border-left: 0;
+    border-top: 1px solid #E8E3D9;
+  }
+}

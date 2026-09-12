@@ -1,0 +1,62 @@
+# Les chaines de l'interface dynamique, toutes au meme endroit.
+#
+# Elles s'ecrivent ici avant d'etre implementees, jamais pendant. Le livre dit
+# tu, il est plat, il ne s'exclame pas et il ne remercie pas. Une chaine
+# d'interface est lue des milliers de fois : aucun mot qui ne travaille.
+#
+# Regles de forme, les memes que le livre. Aucun tiret cadratin, aucun tiret
+# demi-cadratin, apostrophes droites.
+
+# Le partage d'un passage. Livre.
+partage:
+  selection: "Partager"
+  commenter: "Commenter"
+  titre: "Partager ce passage"
+  whatsapp: "WhatsApp"
+  linkedin: "LinkedIn"
+  x: "X"
+  copier: "Copier le lien"
+  copie: "Lien copié"
+  # La signature qui accompagne la citation. Pas de tiret cadratin.
+  signature: "Build Here, le playbook des builders"
+
+# La note d'une entree. Etape 7, pas encore implementee.
+note:
+  question: "Ça t'a servi ?"
+  oui: "Oui"
+  moitie: "À moitié"
+  non: "Non"
+  raison: "Il manquait quoi ?"
+  raisons:
+    - "Trop abstrait"
+    - "Je le savais déjà"
+    - "Pas d'accord"
+    - "Il manque un exemple"
+    - "Autre"
+  merci: "Noté."
+
+# Les commentaires. Etape 6, pas encore implementee.
+commentaire:
+  titre: "En discuter"
+  filtre: "Je lis tout avant publication."
+  nom: "Ton nom"
+  ville: "Ta ville, si tu veux"
+  lien: "Un lien, si tu veux"
+  contact: "Pour que je puisse te répondre. Jamais affiché."
+  envoyer: "Envoyer"
+  envoye: "En attente de relecture."
+  github: "Améliorer cette page sur GitHub"
+
+# La contribution. Etape 4, pas encore implementee.
+contribution:
+  titre: "Écrire la suivante"
+  soi: "Écrire moi-même"
+  ia: "La préparer avec mon IA"
+  # Le tri de l'etape 3. Il leve la peur et il impose le tri du test 8.
+  tri: |
+    Une entrée n'a jamais besoin du nom de ton client, du montant exact,
+    ni du nom de ton fournisseur. Dire ce qu'il fait suffit.
+    Ce qui doit être précis, c'est la séquence, et elle n'appartient à personne.
+
+    Si après ce tri tu ne peux toujours pas signer, écris-moi.
+  envoyer: "Envoyer"

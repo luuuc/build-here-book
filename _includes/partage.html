@@ -1,0 +1,22 @@
+{% assign p = site.data.interface.partage %}
+<!-- La barre de selection. Elle vit hors du fil de lecture, vide et cachee,
+     et le script la deplace au-dessus du passage selectionne. Sans JavaScript
+     elle ne s'affiche jamais, ce qui est le comportement voulu : partager est
+     un ajout, lire n'en depend pas. -->
+<div
+  class="partage"
+  id="partage"
+  hidden
+  data-signature="{{ p.signature }}"
+  data-copie="{{ p.copie }}"
+>
+  <div class="partage-barre" data-etat="ferme">
+    <button type="button" class="partage-bouton" data-ouvrir>{{ p.selection }}</button>
+  </div>
+  <div class="partage-canaux" hidden>
+    <a href="#" data-canal="whatsapp" target="_blank" rel="noopener">{{ p.whatsapp }}</a>
+    <a href="#" data-canal="linkedin" target="_blank" rel="noopener">{{ p.linkedin }}</a>
+    <a href="#" data-canal="x" target="_blank" rel="noopener">{{ p.x }}</a>
+    <button type="button" data-canal="copier">{{ p.copier }}</button>
+  </div>
+</div>
