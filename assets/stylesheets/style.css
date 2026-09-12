@@ -1074,6 +1074,25 @@ sup a {
   font-weight: 500;
 }
 
+/* L'icone de partage du fil d'ariane. Elle pousse a droite de la ligne et
+   emprunte la teinte de la meta qu'elle termine. Le fleche vers le haut est
+   le pendant de celle du telechargement, qui descend. */
+.partage-page {
+  margin-left: auto;
+  display: flex;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: #8A6100;
+  opacity: 0.55;
+  cursor: pointer;
+}
+
+.partage-page:hover,
+.partage-page[aria-expanded="true"] {
+  opacity: 1;
+}
+
 /* Sur telephone, la rangee de canaux depasserait l'ecran. Elle se replie. */
 @media (max-width: 480px) {
   .partage-canaux {
