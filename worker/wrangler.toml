@@ -37,9 +37,12 @@ DEPOT = "luuuc/build-here-book"
 #   puis recopier l'id rendu ci-dessous
 #   npx wrangler d1 execute build-here --remote --file=schema.sql
 [[d1_databases]]
+# Le nom de la liaison est celui que le code lit, `env.DB`, et pas celui que
+# `wrangler d1 create` propose d'apres le nom de la base. Renommee, le Worker
+# repond « La base n'est pas configuree » sur chaque contribution.
 binding = "DB"
 database_name = "build-here"
-database_id = "a-remplir-apres-wrangler-d1-create"
+database_id = "6f9badfe-6a72-4df3-b8cb-579cfe0942f7"
 
 # Deux secrets, jamais dans ce fichier :
 #
