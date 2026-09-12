@@ -34,7 +34,6 @@ descendent donc d'un cran, comme pour le PDF.
           <span>Section {{ c.section_number }}</span>
         {% else %}
           {% unless c.part == c.title %}<span>{{ c.part }}</span>{% endunless %}
-          {% unless c.show_chapter_number == false %}<span>Entrée {{ c.metadata.principle }}</span>{% endunless %}
         {% endif %}
         {% if c.metadata.reading_time_in_minutes %}<span>{{ c.metadata.reading_time_in_minutes }} min</span>{% endif %}
       </div>

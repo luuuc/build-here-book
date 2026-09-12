@@ -40,9 +40,6 @@
                     {% unless ouverture and c.url == ouverture.url %}
                       <li{% if c.url == page.url %} class="is-current"{% endif %}>
                         <a href="{{ c.url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
-                          {% unless c.show_chapter_number == false %}
-                          <small>{{ c.metadata.principle }}.</small>
-                          {% endunless %}
                           {{ c.title }}
                         </a>
                       </li>
@@ -55,9 +52,6 @@
                 {% for c in items %}
                   <li{% if c.url == page.url %} class="is-current"{% endif %}>
                     <a href="{{ c.url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
-                      {% unless c.show_chapter_number == false %}
-                      <small>{{ c.metadata.principle }}.</small>
-                      {% endunless %}
                       {{ c.title }}
                     </a>
                   </li>

@@ -27,7 +27,6 @@
           <span>Section {{page.section_number}}</span>
           {% else %}
           {% unless page.part == page.title %}<span>{{page.part}}</span>{% endunless %}
-          {% unless page.show_chapter_number == false %}<span>Entrée {{page.metadata.principle}}</span>{% endunless %}
           {% endif %}
           {% if page.metadata.reading_time_in_minutes %}<span>{{page.metadata.reading_time_in_minutes}} min</span>{% endif %}
         </div>

@@ -221,14 +221,6 @@ body {
   border-bottom: none;
   padding: 0.25rem 0;
 }
-
-.nav-submenu a small {
-  font-size: 1.15rem;
-  font-weight: bold;
-  color: #8A6100;
-  border-bottom: none;
-  padding: 0.25rem 0;
-}
 .nav-submenu a:hover {
   color: #8A6100;
 }
