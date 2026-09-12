@@ -1,0 +1,65 @@
+#!/usr/bin/env node
+// Fait tourner les regles de l'annexe 1 en local.
+//
+//   bin/lint-entree                    tout le livre
+//   bin/lint-entree _chapters/05-01-le-ticket-nest-pas-le-travail.md
+//
+// Les regles vivent dans worker/lint.mjs, qui ne lit aucun fichier. Ce script
+// est la seule partie qui touche au disque, et le Worker sera la seule partie
+// qui touche au reseau. Une seule implementation des regles, trois appelants.
+
+import { readFileSync, readdirSync } from "node:fs";
+import { join, basename } from "node:path";
+import { verifier, rapport } from "../worker/lint.mjs";
+
+const racine = new URL("..", import.meta.url).pathname;
+
+// Les sections declarees. Sans dependance YAML : le fichier est une liste de
+// groupes dont seules les lignes de section nous interessent.
+const sommaire = readFileSync(join(racine, "_data/sommaire.yml"), "utf8");
+const sections = sommaire
+  .split(/\r?\n/)
+  .filter((l) => /^\s{4}-\s+/.test(l))
+  .map((l) => l.replace(/^\s{4}-\s+/, "").trim());
+
+// --nouvelle traite les fichiers comme des contributions qui arrivent, donc
+// avec les champs de sequence attendus a 999.
+const nouvelle = process.argv.includes("--nouvelle");
+const args = process.argv.slice(2).filter((a) => a !== "--nouvelle");
+const fichiers = args.length
+  ? args
+  : readdirSync(join(racine, "_chapters"))
+      .filter((f) => f.endsWith(".md"))
+      .sort()
+      .map((f) => join("_chapters", f));
+
+let avecRegles = 0;
+let avecMesures = 0;
+const sales = [];
+
+for (const f of fichiers) {
+  const source = readFileSync(join(racine, f), "utf8");
+  const r = verifier({ filename: basename(f), source, sections, nouvelle });
+
+  if (r.regles.length) avecRegles++;
+  if (r.mesures.length) avecMesures++;
+
+  if (args.length) {
+    console.log(rapport(r));
+    console.log();
+    continue;
+  }
+
+  if (r.regles.length || r.mesures.length) {
+    sales.push(f);
+    console.log(`\n${"=".repeat(70)}\n${f}\n${"=".repeat(70)}`);
+    console.log(rapport(r));
+  }
+}
+
+if (!args.length) {
+  console.log(`\n${"-".repeat(70)}`);
+  console.log(`${fichiers.length} fichiers lus. ${sections.length} sections déclarées.`);
+  console.log(`${avecRegles} avec au moins une règle à regarder, ${avecMesures} avec une mesure.`);
+  console.log(`${fichiers.length - sales.length} propres.`);
+}

@@ -1,0 +1,23 @@
+# L'API de Build Here.
+#
+#   cd worker
+#   npx wrangler login       une fois
+#   npx wrangler deploy
+#
+# La route demande que build-here.africa soit une zone du compte Cloudflare et
+# qu'un enregistrement DNS existe pour api. Wrangler pose le proxy lui-meme sur
+# la route, mais pas l'enregistrement.
+#
+# Le domaine plutot qu'une URL en workers.dev : un livre qui a une section
+# Ownership ne publie pas ses points d'entree sur le sous-domaine de quelqu'un
+# d'autre, et une URL qui a l'air temporaire finit par l'etre.
+
+name = "build-here-api"
+main = "index.mjs"
+compatibility_date = "2026-09-12"
+
+routes = [
+  { pattern = "api.build-here.africa/*", zone_name = "build-here.africa" }
+]
+
+# D1 arrive a l'etape 4, avec les contributions. Le linter n'a pas d'etat.

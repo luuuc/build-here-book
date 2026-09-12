@@ -1,0 +1,82 @@
+# Lit les entrees d'une pull request contre les regles de l'annexe 1.
+#
+# Elle ne bloque jamais. Le linter ne refuse rien par principe, donc son
+# absence ne peut pas refuser non plus : si l'API est hors ligne, le job le
+# dit et passe au vert.
+#
+# Le rapport va dans le resume du job et pas en commentaire. Une contribution
+# venue d'un fork n'a qu'un jeton en lecture, donc un commentaire echouerait
+# precisement pour les contributeurs que ce livre cherche a accueillir.
+
+name: Relire une entrée
+
+on:
+  pull_request:
+    paths:
+      - "_chapters/**.md"
+
+permissions:
+  contents: read
+
+env:
+  API: https://api.build-here.africa/lint
+
+jobs:
+  relire:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Relire chaque entrée touchée
+        run: |
+          base="origin/${{ github.base_ref }}"
+          fichiers=$(git diff --name-only --diff-filter=d "$base"...HEAD -- '_chapters/*.md')
+
+          if [ -z "$fichiers" ]; then
+            echo "Aucune entrée touchée." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          # Une entree ajoutee attend ses champs de sequence a 999. Une entree
+          # modifiee porte deja son vrai numero.
+          ajoutes=$(git diff --name-only --diff-filter=A "$base"...HEAD -- '_chapters/*.md')
+
+          echo "## Les règles de l'annexe 1" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+
+          for f in $fichiers; do
+            nouvelle=false
+            echo "$ajoutes" | grep -qx "$f" && nouvelle=true
+
+            corps=$(jq -n \
+              --arg nom "$(basename "$f")" \
+              --arg src "$(cat "$f")" \
+              --argjson neuve "$nouvelle" \
+              '{filename: $nom, source: $src, nouvelle: $neuve}')
+
+            reponse=$(curl -sS --max-time 20 -X POST "$API" \
+              -H 'content-type: application/json' \
+              -d "$corps" 2>&1) || {
+                echo "L'API n'a pas répondu. Rien n'est bloqué, la relecture humaine reste la seule qui décide." >> "$GITHUB_STEP_SUMMARY"
+                echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
+                echo "$reponse" >> "$GITHUB_STEP_SUMMARY"
+                echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
+                exit 0
+              }
+
+            rapport=$(echo "$reponse" | jq -r '.rapport // .erreur // "Réponse inattendue."')
+
+            echo "### \`$f\`" >> "$GITHUB_STEP_SUMMARY"
+            echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
+            echo "$rapport" >> "$GITHUB_STEP_SUMMARY"
+            echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+
+            echo "--- $f"
+            echo "$rapport"
+          done
+
+          echo "Les douze tests sont une lecture humaine. Rien ici ne refuse une entrée." >> "$GITHUB_STEP_SUMMARY"
