@@ -1398,3 +1398,104 @@ sup a {
 .contrib-rapport[hidden] {
   display: none;
 }
+
+/* La note d'une entree. Une bande calme entre le texte et l'entree suivante :
+   elle se voit quand on a fini de lire, et jamais pendant. */
+.note {
+  background: #F2EFE9;
+  padding: 2rem;
+  font-family: "Archivo", system-ui, sans-serif;
+}
+
+.note[hidden] {
+  display: none;
+}
+
+.note-question {
+  margin: 0 0 0.8rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #8A6100;
+}
+
+.note-valeurs,
+.note-raisons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.note button {
+  font-family: inherit;
+  font-size: 0.92rem;
+  padding: 0.5rem 1.1rem;
+  color: #1C1A17;
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  cursor: pointer;
+}
+
+.note button:hover {
+  background: #FBEEC1;
+}
+
+.note button[aria-pressed="true"] {
+  background: #1C1A17;
+  border-color: #1C1A17;
+  color: #fff;
+}
+
+.note-suite {
+  margin-top: 1.8rem;
+}
+
+.note-suite[hidden],
+.note-merci[hidden] {
+  display: none;
+}
+
+.note-suite .note-question {
+  margin-top: 0;
+}
+
+.note-libre {
+  display: block;
+  margin: 1.3rem 0 0.9rem;
+  font-size: 0.88rem;
+  color: #8A6100;
+}
+
+.note-libre textarea {
+  display: block;
+  width: 100%;
+  max-width: 40rem;
+  margin-top: 0.4rem;
+  padding: 0.6rem 0.75rem;
+  font-family: inherit;
+  font-size: 0.92rem;
+  color: #1C1A17;
+  background: #fff;
+  border: 1px solid #E8E3D9;
+  border-radius: 0;
+  -webkit-appearance: none;
+  resize: vertical;
+}
+
+.note-libre textarea:focus {
+  outline: 0;
+  border-color: #8A6100;
+}
+
+.note-envoyer {
+  background: #1C1A17;
+  border-color: #1C1A17;
+  color: #fff;
+}
+
+.note-merci {
+  margin: 1.2rem 0 0;
+  font-size: 0.92rem;
+  color: #8A6100;
+}

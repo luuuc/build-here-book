@@ -1,0 +1,32 @@
+{% assign n = site.data.interface.note %}
+<!-- La note d'une entree. Sans JavaScript, rien ne s'affiche : donner son avis
+     est un ajout, lire n'en depend pas. Le bloc est donc vide et cache, et le
+     script le remplit. -->
+<section class="note" id="note" hidden
+         data-page="{{ page.url }}"
+         data-titre="{{ page.title | escape }}"
+         data-merci="{{ n.merci }}">
+  <div class="container">
+    <p class="note-question">{{ n.question }}</p>
+
+    <div class="note-valeurs">
+      <button type="button" data-valeur="oui">{{ n.oui }}</button>
+      <button type="button" data-valeur="moitie">{{ n.moitie }}</button>
+      <button type="button" data-valeur="non">{{ n.non }}</button>
+    </div>
+
+    <div class="note-suite" hidden>
+      <p class="note-question">{{ n.raison }}</p>
+      <div class="note-raisons">
+        {% for r in n.raisons %}<button type="button" data-raison="{{ r.cle }}">{{ r.texte }}</button>{% endfor %}
+      </div>
+      <label class="note-libre">
+        {{ n.libre }}
+        <textarea rows="3" maxlength="4000"></textarea>
+      </label>
+      <button type="button" class="note-envoyer">{{ n.envoyer }}</button>
+    </div>
+
+    <p class="note-merci" role="status" hidden>{{ n.merci }}</p>
+  </div>
+</section>

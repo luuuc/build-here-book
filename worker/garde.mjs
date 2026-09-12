@@ -12,6 +12,9 @@
 const FENETRE = 3600; // une heure, en secondes
 const PLAFOND_IP = 60; // large : un NAT operateur met une ville derriere une IP
 const PLAFOND_CLIENT = 4; // genereux pour une personne reelle
+// Une note est un clic, pas un texte. Quelqu'un qui lit le livre d'une traite
+// en pose legitimement plusieurs dizaines, et le livre compte 68 entrees.
+const PLAFOND_NOTES_IP = 300;
 const AGE_JETON = 3; // secondes minimum entre le chargement et l'envoi
 const VIE_JETON = 7200; // deux heures, le temps d'ecrire
 
@@ -54,9 +57,13 @@ export async function verifierJeton(secret, jeton) {
 
 // Le sel tourne chaque jour : le condensat n'est pas reversible, et deux
 // jours ne se correlent pas.
-async function cleIp(secret, ip) {
+//
+// `usage` separe les compteurs. Sans lui, un lecteur qui note cinq entrees
+// entamerait le quota de contribution de tout son NAT operateur, ce qui est
+// exactement le genre de couplage qu'on ne voit qu'en production.
+async function cleIp(secret, ip, usage) {
   const jour = new Date().toISOString().slice(0, 10);
-  return (await hmac(secret, `${jour}.${ip}`)).slice(0, 32);
+  return (await hmac(secret, `${usage}.${jour}.${ip}`)).slice(0, 32);
 }
 
 // Un garde-fou grossier, pas une limite par personne. La limite serree vit
@@ -71,10 +78,10 @@ async function cleIp(secret, ip) {
 //
 // `regarder` ne compte rien, `retenir` compte une acceptation. Un envoi refuse
 // pour n'importe quelle autre raison ne coute donc rien a son voisin de NAT.
-export async function regarderIp(db, secret, ip) {
+export async function regarderIp(db, secret, ip, usage = "contribution", plafond = PLAFOND_IP) {
   if (!ip) return { ok: true, compte: 0 };
 
-  const cle = await cleIp(secret, ip);
+  const cle = await cleIp(secret, ip, usage);
   const fenetre = Math.floor(Date.now() / 1000 / FENETRE) * FENETRE;
 
   // La purge epargne le compteur du piege : lui doit s'accumuler dans le
@@ -89,7 +96,7 @@ export async function regarderIp(db, secret, ip) {
     .first();
 
   const compte = r?.compte ?? 0;
-  return { ok: compte < PLAFOND_IP, compte, cle, fenetre };
+  return { ok: compte < plafond, compte, cle, fenetre };
 }
 
 export async function retenirIp(db, { cle, fenetre }) {
@@ -151,4 +158,4 @@ export async function retenirPiege(db) {
     .run();
 }
 
-export const seuils = { FENETRE, PLAFOND_IP, PLAFOND_CLIENT, AGE_JETON, VIE_JETON };
+export const seuils = { FENETRE, PLAFOND_IP, PLAFOND_CLIENT, PLAFOND_NOTES_IP, AGE_JETON, VIE_JETON };

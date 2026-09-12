@@ -30,20 +30,35 @@ lecture:
   filtre: "Filtrer par ce qui t'agace"
   filtre_vide: "Rien ne correspond."
 
-# La note d'une entree. Etape 7, pas encore implementee.
+# La note d'une entree.
+#
+# Ni etoiles ni score. Ce qui vaut n'est pas le compte des « oui », c'est la
+# raison attachee a un « a moitie » : « il manque un exemple » sur une entree
+# precise se repare, un score ne se repare pas.
 note:
   question: "Ça t'a servi ?"
   oui: "Oui"
   moitie: "À moitié"
   non: "Non"
   raison: "Il manquait quoi ?"
+  # La cle est stable et part en base, le libelle peut etre reecrit sans
+  # casser les donnees deja collectees.
   raisons:
-    - "Trop abstrait"
-    - "Je le savais déjà"
-    - "Pas d'accord"
-    - "Il manque un exemple"
-    - "Autre"
-  merci: "Noté."
+    - cle: abstrait
+      texte: "Trop abstrait"
+    - cle: deja-su
+      texte: "Je le savais déjà"
+    - cle: desaccord
+      texte: "Pas d'accord"
+    - cle: exemple
+      texte: "Il manque un exemple"
+    - cle: autre
+      texte: "Autre"
+  # Le commentaire ne s'affiche jamais nulle part. C'est ce qui lui evite
+  # toute moderation, et ce qui permet d'y etre franc.
+  libre: "Dis-le en une phrase, si tu veux. Personne d'autre que moi ne le lit."
+  envoyer: "Envoyer"
+  merci: "Noté." 
 
 # Les commentaires. Etape 6, pas encore implementee.
 commentaire:

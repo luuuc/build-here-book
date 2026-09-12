@@ -113,6 +113,10 @@
       <div class="container">{{content_parts[0]}}</div>
     </main>
 
+    <!-- La note. Sur les entrees seulement : noter une ouverture de section ou
+         une annexe ne produit pas de signal editorial reparable. -->
+    {% if page.metadata.principle %}{% include note.html %}{% endif %}
+
     <!-- Content Footer -->
     {% if page.next %}
     <section class="content-footer">

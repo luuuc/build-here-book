@@ -33,6 +33,13 @@ export function pageAdmin(email) {
   pre { white-space: pre-wrap; background: #FAF7F0; padding: .9rem; font-size: .82rem; overflow-x: auto }
   .actions { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: 1rem }
   .mot { font-size: .82rem; color: #8A6100 }
+  .onglets { display: flex; gap: .5rem; margin-bottom: 1.2rem }
+  .onglets button[aria-pressed="true"] { background: #1C1A17; color: #fff }
+  h2.section { font-size: .72rem; text-transform: uppercase; letter-spacing: .1em; color: #8A6100; margin: 1.8rem 0 .6rem }
+  h2.section:first-child { margin-top: 0 }
+  .avis { background: #fff; border-left: 3px solid #E8E3D9; padding: .8rem 1rem; margin-bottom: .7rem; font-size: .92rem }
+  .avis .meta { color: #8A6100; font-size: .8rem; margin-top: .35rem }
+  td.chiffre { text-align: right; font-variant-numeric: tabular-nums }
 </style>
 </head><body>
 <header>
@@ -40,8 +47,15 @@ export function pageAdmin(email) {
   <small>${email}</small>
 </header>
 <main>
-  <div id="liste"><p class="vide">Chargement.</p></div>
-  <div id="detail"></div>
+  <nav class="onglets">
+    <button data-onglet="file" aria-pressed="true">La file</button>
+    <button data-onglet="notes" aria-pressed="false">Les notes</button>
+  </nav>
+  <div id="file">
+    <div id="liste"><p class="vide">Chargement.</p></div>
+    <div id="detail"></div>
+  </div>
+  <div id="notes" hidden></div>
 </main>
 <script type="module">
 const $ = (s) => document.querySelector(s);
@@ -110,6 +124,71 @@ async function detail(id) {
     })
   );
 }
+
+// ---- Les notes ----
+//
+// Elles ne se moderent pas, elles se lisent. C'est la seule raison de les
+// avoir collectees : voir quelle entree ne sert pas, et pourquoi.
+
+const LIBELLES = {
+  abstrait: "Trop abstrait",
+  "deja-su": "Je le savais déjà",
+  desaccord: "Pas d'accord",
+  exemple: "Il manque un exemple",
+  autre: "Autre",
+};
+
+async function notes() {
+  const d = await api("/admin/notes");
+  if (d.erreur) return ($("#notes").innerHTML = '<p class="vide">' + echappe(d.erreur) + "</p>");
+  if (!d.pages || !d.pages.length) return ($("#notes").innerHTML = '<p class="vide">Personne n\'a encore répondu.</p>');
+
+  // Les entrees qui appellent une reparation d'abord. Un « non » pese deux
+  // fois un « a moitie » : c'est un tri, pas une note.
+  const table =
+    '<h2 class="section">Ce qui appelle une réparation</h2>' +
+    "<table><thead><tr><th>Entrée</th><th>Oui</th><th>À moitié</th><th>Non</th></tr></thead><tbody>" +
+    d.pages
+      .map(
+        (p) =>
+          '<tr><td><a href="https://build-here.africa' + encodeURI(p.page) + '" target="_blank" rel="noopener">' +
+          echappe(p.titre || p.page) + "</a></td>" +
+          '<td class="chiffre">' + p.oui + '</td><td class="chiffre">' + p.moitie + '</td><td class="chiffre">' + p.non + "</td></tr>"
+      )
+      .join("") +
+    "</tbody></table>";
+
+  const raisons = d.raisons.length
+    ? '<h2 class="section">Ce qui manque, tous textes confondus</h2><table><tbody>' +
+      d.raisons.map((r) => "<tr><td>" + echappe(LIBELLES[r.raison] || r.raison) + '</td><td class="chiffre">' + r.n + "</td></tr>").join("") +
+      "</tbody></table>"
+    : "";
+
+  // Les commentaires ne sont agreges nulle part. Une phrase de quelqu'un qui
+  // a lu vaut mieux que n'importe quel compte.
+  const mots = d.commentaires.length
+    ? '<h2 class="section">Ce que les gens ont écrit</h2>' +
+      d.commentaires
+        .map(
+          (c) =>
+            '<div class="avis">' + echappe(c.commentaire) +
+            '<div class="meta">' + echappe(c.titre || c.page) + " · " + echappe(c.valeur) +
+            (c.raison ? " · " + echappe(LIBELLES[c.raison] || c.raison) : "") + " · " + date(c.maj_le) + "</div></div>"
+        )
+        .join("")
+    : "";
+
+  $("#notes").innerHTML = table + raisons + mots;
+}
+
+document.querySelectorAll("[data-onglet]").forEach((b) =>
+  b.addEventListener("click", () => {
+    document.querySelectorAll("[data-onglet]").forEach((o) => o.setAttribute("aria-pressed", String(o === b)));
+    $("#file").hidden = b.dataset.onglet !== "file";
+    $("#notes").hidden = b.dataset.onglet !== "notes";
+    if (b.dataset.onglet === "notes") notes();
+  })
+);
 
 liste();
 </script>

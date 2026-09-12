@@ -13,6 +13,7 @@ import { emettreJeton } from "./garde.mjs";
 import * as contribution from "./contribution.mjs";
 import { carteDesSections } from "./github.mjs";
 import { pageAdmin } from "./admin.mjs";
+import * as note from "./note.mjs";
 
 const SITE = "https://build-here.africa";
 const TTL_SOMMAIRE = 10 * 60 * 1000;
@@ -93,7 +94,7 @@ export default {
     if (chemin === "/" || chemin === "/sante") {
       return json({
         service: "build-here-api",
-        points: ["GET /jeton", "POST /lint", "POST /contribution"],
+        points: ["GET /jeton", "POST /lint", "POST /contribution", "POST /note"],
       });
     }
 
@@ -128,6 +129,13 @@ export default {
         nouvelle: corps.nouvelle !== false,
       });
       return json({ ...r, rapport: rapport(r) });
+    }
+
+    if (chemin === "/note") {
+      if (requete.method !== "POST") return json({ erreur: "POST attendu." }, 405);
+      if (!env.DB) return json({ erreur: "La base n'est pas configurée." }, 500);
+      const { statut, corps } = await note.noter(requete, env);
+      return json(corps, statut);
     }
 
     if (chemin === "/contribution") {
@@ -168,6 +176,10 @@ export default {
         return new Response(pageAdmin(email), {
           headers: { "content-type": "text/html; charset=utf-8" },
         });
+      }
+
+      if (chemin === "/admin/notes" && requete.method === "GET") {
+        return json(await note.resume(env));
       }
 
       if (chemin === "/admin/contributions" && requete.method === "GET") {
