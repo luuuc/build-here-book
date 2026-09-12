@@ -45,6 +45,15 @@ L'incident que tu as géré le mois dernier, écrit. Ce qui a cassé, ce que tu 
 
 Publie-le là où quelqu'un qui cherche ce message d'erreur le trouvera. Puis envoie-le à une personne qui a trois ans de moins que toi.
 
+## Depuis ton siège
+
+- **Product** : une chose que vous avez décidé de ne pas faire, et pourquoi.
+- **Design** : les écrans que tu as jetés, et la raison. C'est le raisonnement qui se réutilise.
+- **Founder** : ton équipe ne publiera pas si tu ne l'as jamais fait.
+- **Manager** : dis à voix haute ce qui est publiable, ou ton silence vaut interdiction.
+- **Customer-facing** : la réponse que tu as écrite trois fois à trois clients est un texte public.
+- **Recrutement** : pas de trace en ligne ne veut pas dire pas de niveau. Cherche l'artefact, pas la notoriété.
+
 ## À discuter
 
 Qui ici a quelque chose de publié qu'un inconnu pourrait trouver ? Si la réponse est personne, on attend exactement quoi qu'on nous donne ?

@@ -45,6 +45,15 @@ Vingt minutes à toi avant de demander. Puis demande en montrant le terrain que 
 
 Plus rapide, plus précis, et trente secondes de la journée de quelqu'un au lieu de dix minutes.
 
+## Depuis ton siège
+
+- **Product** : ton blocage est une réponse qui n'arrive pas. Va la chercher chez la personne.
+- **Design** : ce qui te manque est chez l'utilisateur, pas chez le développeur.
+- **Founder** : une décision que tu n'as pas prise bloque plus de monde qu'un bug.
+- **Manager** : sers cette phrase à quelqu'un qui a levé la main, et demander devient cher pour tout le monde.
+- **Customer-facing** : le client ne sait pas que tu attends quelqu'un. Dis-lui où ça en est.
+- **Recrutement** : demande la dernière fois que le candidat s'est débloqué seul, et par où il est passé.
+
 ## À discuter
 
 Quelle question est posée ici encore et encore parce que la réponse n'a jamais été écrite ?

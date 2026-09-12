@@ -22,13 +22,13 @@ Voici le format, écrit pour que quelqu'un d'autre que moi puisse s'en servir. P
 
 Une entrée porte une idée. Elle se lit en moins de deux minutes et se comprend par quelqu'un qui n'a rien lu d'autre du livre.
 
-Chaque entrée utilise les mêmes cinq blocs, dans le même ordre. La répétition est le principe. Au bout de trois entrées, un lecteur sait où se trouve l'action sans avoir à scanner.
+Chaque entrée utilise les mêmes six blocs, dans le même ordre. La répétition est le principe. Au bout de trois entrées, un lecteur sait où se trouve l'action sans avoir à scanner.
 
 ---
 
 ## Le squelette
 
-Une entrée, un fichier. Le titre est le `#` du fichier, les cinq blocs sont des `##`.
+Une entrée, un fichier. Le titre est le `#` du fichier, les six blocs sont des `##`.
 
 ```
 # Titre
@@ -52,6 +52,11 @@ L'explication. Quatre paragraphes, plafond dur.
 ## À essayer
 
 Une action, faisable cette semaine.
+
+## Depuis ton siège
+
+- **Product** : ce que l'entrée change pour lui, en une ligne.
+- **Manager** : ...
 
 ## À discuter
 
@@ -124,6 +129,26 @@ Quand c'est la formulation qui est difficile, donne-la mot pour mot. Une phrase 
 
 ---
 
+## Depuis ton siège
+
+Trois à six lignes, une par siège, sur ce que l'entrée change à une place qui n'est pas celle du lecteur par défaut.
+
+C'est ce bloc qui rend une entrée utilisable par une équipe entière d'un coup. Sans lui, chaque entrée atterrit sur le builder qui a déjà le réflexe, et personne d'autre ne sait ce qu'on lui demande. Les sièges sont décrits dans [Comment lire ce livre](/chapters/00-comment-lire-ce-livre.html).
+
+Cinq règles, et les quatre premières servent toutes à empêcher la même chose, un bloc qui remplit.
+
+**1. Trois à six sièges. Jamais sept par principe.** Un bloc qui liste tout le monde à chaque fois finit par dire une seule chose sous sept objets différents.
+
+**2. Le siège dont « À essayer » donne déjà l'action ne prend pas de ligne.** C'est le plus souvent Engineer, puisque l'action de l'entrée est déjà écrite pour lui.
+
+**3. Un siège qui n'a rien de différent à dire ne prend pas de ligne.** N'écris pas « ce siège n'est pas concerné », et ne reformule pas le titre. Une ligne vide se lit et coûte du temps. Une ligne absente ne coûte rien.
+
+**4. Cent caractères après les deux-points, plafond dur.** Une ligne, qui ne se replie pas sur un téléphone. Si la différence ne tient pas en une ligne, ce siège a besoin de sa propre entrée, pas d'une ligne plus longue.
+
+**5. Le bloc ne compte pas dans les mots de l'entrée.** Ce n'est pas de la prose, c'est une table. Un lecteur y prend sa ligne, pas les six.
+
+---
+
 ## À discuter
 
 Une question ouverte, adressée à une équipe, à laquelle on ne peut pas répondre par oui ou non.
@@ -179,6 +204,8 @@ Ces mêmes entrées portent l'autre moitié, à savoir la façon dont le titre s
 ## La longueur
 
 200 à 350 mots par entrée. Jusqu'à 450 pour une entrée qui porte un réflexe défendable ou une garde contre le détournement, puisque ce sont deux paragraphes en plus et qu'aucun des deux n'est du remplissage. Une section complète tombe entre 1500 et 1700, ou jusqu'à 1900 quand elle porte une entrée en paire.
+
+Le bloc « Depuis ton siège » ne compte pas dans ces mots. Son budget est le sien, six lignes de cent caractères au plus, et la règle est dans le bloc.
 
 Une entrée qui s'allonge est en général deux entrées sous un seul titre. Coupe-la en deux et les deux moitiés deviennent plus fortes.
 

@@ -41,6 +41,15 @@ Garde le tableau. Compter n'a jamais été le problème. Ne compter que ça, si.
 
 Remplis-la, ou laisse-la vide. Vide, à côté de trente tickets fermés, ça en dit plus que n'importe quelle courbe de vélocité.
 
+## Depuis ton siège
+
+- **Product** : découpe pour livrer utilisable plus tôt, jamais pour faire monter le compteur.
+- **Design** : compte les écrans utilisés, pas les maquettes validées.
+- **Founder** : la vélocité n'est pas un chiffre à montrer à ton conseil.
+- **Manager** : ce que tu regardes en revue devient ce que l'équipe optimise.
+- **Customer-facing** : si la note de version est vide, elle le dira au client à ta place.
+- **Recrutement** : demande ce qu'un utilisateur savait faire après son dernier projet.
+
 ## À discuter
 
 Quel client peut faire aujourd'hui quelque chose qu'il ne pouvait pas faire avant notre dernier bon sprint ?
