@@ -3,7 +3,7 @@ layout: chapter
 title: "Comment lire ce livre"
 description: "Pour qui il est écrit, et depuis quelle place le lire"
 show_chapter_number: false
-illustration: "six-sieges"
+illustration: "sept-sieges"
 part: "Ouverture"
 order: 2
 redirect_from:
@@ -53,7 +53,7 @@ L'exercice consiste à lire depuis une place qui n'est pas la tienne.
 
 Builder est le lecteur par défaut, et ce n'est pas un siège. Chaque entrée est écrite pour cette personne d'abord.
 
-Les six sièges ci-dessous sont les places réellement occupées autour d'un produit. Chacun voit une partie du problème que les cinq autres ne voient pas.
+Les sept sièges ci-dessous sont les places réellement occupées autour d'un produit. Chacun voit une partie du problème que les six autres ne voient pas.
 
 **Engineer.** Le code, les systèmes, les compromis techniques, la production.
 
@@ -67,6 +67,8 @@ Les six sièges ci-dessous sont les places réellement occupées autour d'un pro
 
 **Customer-facing.** Le support et le marketing partagent ce siège. Les deux vivent à la bordure où le produit rencontre quelqu'un qui ne l'a pas construit, les raisons qui reviennent, les mots qui portent, ce que le produit oblige les gens à faire.
 
+**Recrutement.** Qui entre, qui est écarté, et sur quel signal. Dans une petite équipe, personne ne porte ce titre et le siège est occupé quand même, par celui qui lit les candidatures. Il voit la chose que les six autres ne voient pas, ce que l'entreprise croit chercher.
+
 ---
 
 ## Un exemple
@@ -79,8 +81,9 @@ Prends l'entrée *Si tu ne comprends pas pourquoi, tu n'es pas prêt à le const
 - **Founder** : ne finance pas un projet dont tu ne sais pas énoncer le problème client.
 - **Manager** : rends le pourquoi disponible avant de demander l'exécution.
 - **Customer-facing** : ne réponds pas à une demande, et n'écris pas sur une fonctionnalité, sans savoir ce que la personne tentait de faire.
+- **Recrutement** : n'ouvre pas un poste dont tu ne sais pas énoncer le problème que la personne viendra résoudre.
 
-Même principe. Six applications, six conversations différentes.
+Même principe. Sept applications, sept conversations différentes.
 
 ---
 

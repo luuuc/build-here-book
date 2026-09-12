@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <g fill="none" stroke="#1C1A17" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="60" cy="60" r="25" />
+    <g transform="rotate(25.714 60 60)"><rect x="52" y="15" width="16" height="13" /><path d="M51 11 H69" /></g>
+    <g transform="rotate(77.143 60 60)"><rect x="52" y="15" width="16" height="13" /><path d="M51 11 H69" /></g>
+    <g transform="rotate(128.571 60 60)"><rect x="52" y="15" width="16" height="13" /><path d="M51 11 H69" /></g>
+    <g transform="rotate(231.429 60 60)"><rect x="52" y="15" width="16" height="13" /><path d="M51 11 H69" /></g>
+    <g transform="rotate(282.857 60 60)"><rect x="52" y="15" width="16" height="13" /><path d="M51 11 H69" /></g>
+    <g transform="rotate(334.286 60 60)"><rect x="52" y="15" width="16" height="13" /><path d="M51 11 H69" /></g>
+    <g transform="rotate(180 60 60)"><rect x="52" y="15" width="16" height="13" fill="#1C1A17" stroke="none" /><path d="M51 11 H69" /></g>
+  </g>
+</svg>
