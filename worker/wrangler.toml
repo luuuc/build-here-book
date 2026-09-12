@@ -4,9 +4,17 @@
 #   npx wrangler login       une fois
 #   npx wrangler deploy
 #
-# La route demande que build-here.africa soit une zone du compte Cloudflare et
-# qu'un enregistrement DNS existe pour api. Wrangler pose le proxy lui-meme sur
-# la route, mais pas l'enregistrement.
+# build-here.africa doit etre une zone du compte Cloudflare. Elle l'est.
+#
+# C'est declare en domaine personnalise et pas en route, et la difference
+# compte. Une route en `api.build-here.africa/*` suppose que le nom d'hote
+# resout deja vers une origine, que le Worker vient intercepter. C'est le cas
+# de l'apex, qui pointe vers GitHub Pages en DNS seul. Ce n'est pas le cas
+# d'api, ou le Worker est l'origine : sans enregistrement, le nom ne resout
+# pas du tout, et c'est ce qui s'est passe au premier deploiement.
+#
+# En domaine personnalise, Cloudflare cree l'enregistrement DNS et delivre le
+# certificat tout seul. L'apex n'est pas touche.
 #
 # Le domaine plutot qu'une URL en workers.dev : un livre qui a une section
 # Ownership ne publie pas ses points d'entree sur le sous-domaine de quelqu'un
@@ -17,7 +25,7 @@ main = "index.mjs"
 compatibility_date = "2026-09-12"
 
 routes = [
-  { pattern = "api.build-here.africa/*", zone_name = "build-here.africa" }
+  { pattern = "api.build-here.africa", custom_domain = true }
 ]
 
 # D1 arrive a l'etape 4, avec les contributions. Le linter n'a pas d'etat.
