@@ -75,15 +75,20 @@ function ligne(sel) {
   b.dataset.faire = "a-corriger";
   b.dataset.parent = "x";
   b.dataset.copier = "x";
+  b.dataset.page = "/une-entree";
   b.addEventListener = (_, f) => clicsLignes.push({ sel, f });
   return b;
 }
 
 const elements = {};
+const clavier = [];
 globalThis.document = {
   querySelector: (s) => (elements[s] = elements[s] || noeud()),
   querySelectorAll: (s) => (s.includes("onglet") || s.includes("etat") ? boutons(s) : []),
   createElement: noeud,
+  // Les raccourcis vivent ici. On les garde pour les declencher plus bas :
+  // sans ca, la moitie du pilotage de la file ne serait jamais executee.
+  addEventListener: (_, f) => clavier.push(f),
 };
 
 // Les onglets et les filtres, avec leur gestionnaire capture pour qu'on
@@ -110,8 +115,16 @@ globalThis.fetch = async (chemin) => {
         : chemin.startsWith("/admin/contributions")
         ? { contributions: [{ id: "a".repeat(8), titre: "x", auteur: "y", etat: "recue", rang: 0, cree_le: 1 }] }
         : chemin.startsWith("/admin/commentaires")
-        ? { commentaires: [{ id: "b".repeat(8), titre: "x", auteur: "y", etat: "en_attente", rang: 0, cree_le: 1 }] }
-        : { pages: [], raisons: [], commentaires: [] },
+        ? {
+            commentaires: [
+              { id: "b".repeat(8), page: "/p", titre: "x", auteur: "y", etat: "en_attente", rang: 0, cree_le: 1, extrait: "e", parent_id: null, a_passage: 1 },
+            ],
+          }
+        : {
+            pages: [{ page: "/p", titre: "x", total: 3, oui: 1, moitie: 1, non: 1 }],
+            raisons: [{ page: "/p", raison: "abstrait", n: 2 }],
+            commentaires: [{ page: "/p", titre: "x", valeur: "non", raison: "abstrait", commentaire: "c", maj_le: 1 }],
+          },
   };
 };
 globalThis.alert = () => {};
@@ -126,9 +139,28 @@ try {
   // L'ordre compte : un gestionnaire de ligne lit l'onglet courant au moment
   // ou il tourne. Declenches tous ensemble a la fin, ils ouvriraient tous le
   // meme detail, et une fonction disparue de l'autre cote passerait inapercue.
+  //
+  // Un budget, et il est necessaire : un gestionnaire du detail se reinscrit
+  // en tournant, puisqu'il redessine le volet. Tout redeclencher sans fin
+  // faisait tourner cette verification jusqu'a la fin des temps.
+  let budget = 400;
+  async function declencher() {
+    for (const l of clicsLignes.splice(0)) {
+      if (budget-- <= 0) return (clicsLignes.length = 0);
+      await l.f();
+    }
+  }
+
   for (const c of clics) {
     await c.f();
-    for (const l of clicsLignes.splice(0)) await l.f();
+    await declencher();
+
+    // Le clavier, apres chaque onglet et chaque filtre : il ouvre, il agit et
+    // il referme, et rien d'autre ne passe par la.
+    for (const touche of ["j", "Enter", "a", "c", "p", "r", "Escape", "k"]) {
+      for (const f of clavier) await f({ key: touche, target: {} });
+      await declencher();
+    }
   }
 
   const vus = new Set(appels.map((a) => a.split("?")[0]));

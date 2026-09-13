@@ -164,7 +164,14 @@ const ETATS = ["en_attente", "publie", "refuse"];
 // relire, c'est se priver de revenir sur sa decision, et de voir ce que le
 // rang a mal classe.
 export async function lister(env, etat) {
-  const colonnes = `SELECT id, page, titre, auteur, etat, rang, cree_le FROM commentaires`;
+  // Un commentaire se juge sur ce qu'il dit, pas sur le titre de la page ou il
+  // est tombe : la file en montre le debut, et dit s'il repond a quelqu'un ou
+  // s'il vise une phrase. Le texte entier ne descend qu'au detail.
+  const colonnes = `SELECT id, page, titre, auteur, etat, rang, cree_le,
+                           substr(texte, 1, 180) AS extrait,
+                           parent_id,
+                           passage IS NOT NULL AS a_passage
+                    FROM commentaires`;
   const q = ETATS.includes(etat)
     ? env.DB.prepare(`${colonnes} WHERE etat = ? ORDER BY rang ASC, cree_le DESC LIMIT 200`).bind(etat)
     : env.DB.prepare(`${colonnes} ORDER BY etat = 'en_attente' DESC, rang ASC, cree_le DESC LIMIT 200`);

@@ -96,8 +96,8 @@ export async function resume(env) {
   ).all();
 
   const { results: raisons } = await env.DB.prepare(
-    `SELECT raison, COUNT(*) AS n FROM notes
-     WHERE raison IS NOT NULL GROUP BY raison ORDER BY n DESC`
+    `SELECT page, raison, COUNT(*) AS n FROM notes
+     WHERE raison IS NOT NULL GROUP BY page, raison ORDER BY n DESC`
   ).all();
 
   // Les commentaires arrivent bruts, les plus recents devant. Ils ne sont
