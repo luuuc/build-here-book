@@ -11,7 +11,7 @@ categories:
   - distribution
   - marketing
 seo:
-  description: "L'attention n'apparaît pas sur commande. Elle s'accumule par répétition, chez des gens qui ont eu le temps de comprendre ce que tu racontes."
+  description: "L'attention n'apparaît pas sur commande. Elle s'accumule par répétition, chez des gens qui ont eu le temps de comprendre ce que tu publies."
   keywords: "build here, visibilite, tech afrique, builder, audience, temps, construire, produit"
 ---
 
@@ -27,7 +27,7 @@ Puis le jour du lancement arrive. Le produit est prêt et la salle est vide.
 
 ## Pourquoi
 
-L'attention n'apparaît pas sur commande. Elle s'accumule par répétition, chez des gens qui ont eu le temps de comprendre ce que tu racontes. Six mois de ça, c'est un petit groupe qui lit l'annonce au lieu de la faire défiler.
+L'attention n'apparaît pas sur commande. Elle s'accumule par répétition, chez des gens qui ont eu le temps de comprendre ce que tu publies. Six mois de ça, c'est un petit groupe qui lit l'annonce au lieu de la faire défiler.
 
 Le deuxième effet se rate. Une audience construite pendant que tu construis te corrige. Une réponse, une question après une démo à moitié fonctionnelle, quelqu'un qui dit "nous on a résolu ça autrement". C'est de la recherche sans une ligne de code, assez tôt pour changer la roadmap.
 

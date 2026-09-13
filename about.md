@@ -36,7 +36,7 @@ Tout part de [build-here.africa/contribuer](/contribuer). Un formulaire, aucun c
 
 Ce qui arrive par là devient une pull request sur [le dépôt](https://github.com/{{ site.repository }}), sous ton nom. Si tu as déjà un compte GitHub, ouvre-la toi-même, la mécanique est dans [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md). Le chemin ne change rien à la relecture.
 
-L'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ce que tu racontes. Si l'entrée tient, on la travaille ensemble et elle rejoint le livre, sous ton nom.
+L'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ton entrée. Si l'entrée tient, on la travaille ensemble et elle rejoint le livre, sous ton nom.
 
 Pas besoin d'être connu. C'est un peu le sujet.
 

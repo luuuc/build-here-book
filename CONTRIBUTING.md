@@ -12,7 +12,7 @@ Ce fichier donne la mécanique. Le format d'une entrée est en [annexe 1](_chapt
 
 **[build-here.africa/contribuer](https://build-here.africa/contribuer).** Un formulaire, aucun compte à ouvrir, et il marche depuis un téléphone. La même page donne un entretien de huit questions à coller dans un assistant, qui les pose une par une et assemble le fichier au format ci-dessous. Ce qui arrive par là devient une pull request sur ce dépôt après modération, donc la relecture finit au même endroit.
 
-**Un mail** à l'adresse de contact du site, pour une question, ou pour le cas où tu ne peux pas signer ce que tu racontes. Ce n'est pas le canal d'envoi d'une entrée.
+**Un mail** à l'adresse de contact du site, pour une question, ou pour le cas où tu ne peux pas signer ton entrée. Ce n'est pas le canal d'envoi d'une entrée.
 
 Rien ne distingue les entrées selon leur chemin d'arrivée, et la relecture est la même. Si tu n'as jamais ouvert de pull request, lis l'entrée *Ta première contribution*, qui décrit exactement ce qui va se passer.
 

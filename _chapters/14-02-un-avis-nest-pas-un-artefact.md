@@ -33,7 +33,7 @@ Regarde aussi contre qui tu te places. Sur un avis, tu es en concurrence avec to
 
 L'avis est aussi beaucoup moins cher à produire et rapporte une réaction immédiate, ce qui explique entièrement pourquoi le marché en est plein. Personne n'est bête dans cette histoire.
 
-Le test se retourne, et cette moitié se fait sauter. "Ce n'est qu'un avis" est le moyen le plus rapide d'écarter un argument auquel tu ne sais pas répondre. Une position défendue par quelqu'un qui a fait la chose, avec les chiffres attachés, est un artefact quel que soit le genre du texte. Ce qui se vérifie n'est pas la forme. C'est de savoir s'il y a dedans une seule chose qu'un lecteur puisse aller contrôler lui-même.
+Le test se retourne, et c'est cette moitié-là qu'on oublie. "Ce n'est qu'un avis" est le moyen le plus rapide d'écarter un argument auquel tu ne sais pas répondre. Une position défendue par quelqu'un qui a fait la chose, avec les chiffres attachés, est un artefact quel que soit le genre du texte. Ce qui se vérifie n'est pas la forme. C'est de savoir s'il y a dedans une seule chose qu'un lecteur puisse aller contrôler lui-même.
 
 ## À essayer
 
