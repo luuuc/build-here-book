@@ -14,12 +14,29 @@
 
 import { pageAdmin } from "../worker/admin.mjs";
 
-const page = pageAdmin("verification@example.com");
-const script = (page.split('<script type="module">')[1] || "").split("</script>")[0];
+// Le nonce est celui d'une vraie reponse : il change a chaque chargement, et
+// la page le pose sur son style et sur son script. Ici n'importe quelle valeur
+// fait l'affaire, on verifie le script, pas la politique.
+const NONCE = "nonce-de-verification";
+const page = pageAdmin("verification@example.com", NONCE);
+
+// La balise porte maintenant un attribut, donc on ne peut plus couper sur une
+// chaine exacte.
+const script = (page.split(/<script type="module"[^>]*>/)[1] || "").split("</script>")[0];
 
 if (!script.trim()) {
   console.error("Aucun script trouvé dans la page. Le gabarit a changé de forme.");
   process.exit(1);
+}
+
+// Le nonce doit arriver aux deux endroits. Sans lui, la politique posee par
+// index.mjs refuse le style ou le script, et la page s'affiche nue ou morte.
+for (const balise of ["<style", '<script type="module"']) {
+  const tag = page.slice(page.indexOf(balise), page.indexOf(">", page.indexOf(balise)) + 1);
+  if (!tag.includes(`nonce="${NONCE}"`)) {
+    console.error(`La balise ${balise} ne porte pas le nonce : ${tag}`);
+    process.exit(1);
+  }
 }
 
 // Un DOM juste assez reel pour que le script s'accroche a quelque chose, et

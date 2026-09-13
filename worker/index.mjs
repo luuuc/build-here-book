@@ -80,8 +80,51 @@ const cors = {
 const json = (corps, statut = 200) =>
   new Response(JSON.stringify(corps, null, 2), {
     status: statut,
-    headers: { "content-type": "application/json; charset=utf-8", ...cors },
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      // Une reponse JSON que le navigateur se met a deviner peut finir
+      // interpretee comme autre chose que du JSON. Elle dit son type, et le
+      // navigateur s'y tient.
+      "x-content-type-options": "nosniff",
+      ...cors,
+    },
   });
+
+// Un nonce par reponse. Seize octets tires au hasard, jamais reutilises.
+const unNonce = () => btoa(String.fromCharCode(...crypto.getRandomValues(new Uint8Array(16))));
+
+// Les en-tetes d'une page HTML servie par ce Worker.
+//
+// Ici, contrairement au site, on peut poser de vrais en-tetes : le Worker est
+// l'origine, il n'y a pas de GitHub Pages entre les deux. `frame-ancestors`
+// fonctionne donc, ce qu'une balise meta ne permet pas, et c'est lui qui
+// interdit de mettre la file dans un cadre sur un autre site.
+//
+// Le nonce ne couvre que le style et le script du gabarit. Tout le reste est
+// refuse, y compris un `javascript:` dans un href. La file affiche du texte
+// ecrit par des inconnus, et elle le fait dans la session Access, celle qui
+// donne acces aux coordonnees de tous les contributeurs : c'est la page du
+// systeme ou une injection couterait le plus cher.
+//
+// `script` passe a faux pour la page de repli sans JavaScript, qui n'en a
+// aucun : elle merite mieux qu'un nonce, elle merite 'none'.
+function enTetesHtml(nonce, { script = true } = {}) {
+  return {
+    "content-type": "text/html; charset=utf-8",
+    "content-security-policy": [
+      "default-src 'none'",
+      script ? `script-src 'nonce-${nonce}'` : "script-src 'none'",
+      `style-src 'nonce-${nonce}'`,
+      "img-src 'self' data:",
+      "connect-src 'self'",
+      "base-uri 'none'",
+      "form-action 'none'",
+      "frame-ancestors 'none'",
+    ].join("; "),
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "no-referrer",
+  };
+}
 
 export default {
   async fetch(requete, env) {
@@ -173,9 +216,10 @@ export default {
       // attend une page, pas du JSON.
       const veutDuJson = (requete.headers.get("accept") || "").includes("application/json");
       if (!veutDuJson) {
-        return new Response(pageReponse(statut, corps), {
+        const n = unNonce();
+        return new Response(pageReponse(statut, corps, n), {
           status: statut,
-          headers: { "content-type": "text/html; charset=utf-8" },
+          headers: enTetesHtml(n, { script: false }),
         });
       }
       return json(corps, statut);
@@ -217,11 +261,13 @@ export default {
       }
 
       if (chemin === "/admin") {
-        return new Response(pageAdmin(email), {
+        const n = unNonce();
+        return new Response(pageAdmin(email, n), {
           headers: {
-            "content-type": "text/html; charset=utf-8",
+            ...enTetesHtml(n),
             // Une file de moderation lue depuis un cache est une file qui
-            // ment : elle montre un etat que personne n'a plus.
+            // ment : elle montre un etat que personne n'a plus. Le nonce a la
+            // meme exigence : reutilise depuis un cache, il ne vaut plus rien.
             "cache-control": "no-store",
           },
         });
@@ -305,7 +351,7 @@ export default {
 
 // La reponse sans JavaScript. Volontairement nue : c'est un repli, pas une
 // page du site.
-function pageReponse(statut, corps) {
+function pageReponse(statut, corps, nonce) {
   const ok = statut < 400;
   const titre = ok ? "Reçue" : "Pas envoyée";
   const message = ok
@@ -316,7 +362,7 @@ function pageReponse(statut, corps) {
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${titre} | Build Here</title>
-<style>body{font-family:Georgia,serif;line-height:1.7;max-width:34em;margin:4rem auto;padding:0 1.5rem;color:#2B2925}
+<style nonce="${nonce}">body{font-family:Georgia,serif;line-height:1.7;max-width:34em;margin:4rem auto;padding:0 1.5rem;color:#2B2925}
 h1{font-size:1.6rem}pre{white-space:pre-wrap;background:#FAF7F0;padding:1rem;font-size:.85rem}a{color:#8A6100}</style>
 </head><body>
 <h1>${titre}</h1>

@@ -14,12 +14,17 @@
 //
 // bin/verifier-admin analyse le script produit. Il tourne dans la CI, parce que
 // rien d'autre ne le fait : ce n'est du JavaScript qu'une fois la chaine rendue.
-export function pageAdmin(email) {
+//
+// `nonce` vient de index.mjs, tire au hasard a chaque reponse, et se retrouve
+// dans l'en-tete de politique de securite. Le style et le script portes ici
+// sont les seuls que le navigateur acceptera d'executer : cette page affiche du
+// texte ecrit par des inconnus, et elle le fait dans la session Access.
+export function pageAdmin(email, nonce) {
   return `<!doctype html>
 <html lang="fr"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>La file | Build Here</title>
-<style>
+<style nonce="${nonce}">
   :root { color-scheme: light }
   body { font-family: system-ui, sans-serif; line-height: 1.6; margin: 0; color: #2B2925; background: #FAF7F0 }
   header { background: #1C1A17; color: #fff; padding: .8rem 1.2rem; display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap }
@@ -73,7 +78,7 @@ export function pageAdmin(email) {
   <div id="detail"></div>
   <div id="notes" hidden></div>
 </main>
-<script type="module">
+<script type="module" nonce="${nonce}">
 const $ = (s) => document.querySelector(s);
 const api = (c, o) => fetch(c, { headers: { accept: "application/json" }, ...o }).then((r) => r.json());
 const date = (t) => new Date(t * 1000).toLocaleString("fr-FR", { dateStyle: "short", timeStyle: "short" });
