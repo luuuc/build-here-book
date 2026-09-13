@@ -219,15 +219,17 @@ Une entrée qui s'allonge est en général deux entrées sous un seul titre. Cou
 
 Inclus ce qu'elle t'a coûté. Pas comme une histoire, comme un mécanisme. L'entrée est la chose que tu aurais voulu qu'on te tende quatre ans plus tôt, et ce qui la rend transmissible, c'est la partie que tu as dû payer.
 
-### Deux portes, le même endroit
+### Où l'envoyer
 
-**Une pull request sur [le dépôt](https://github.com/{{ site.repository }}).** Un fichier dans `_chapters/`, le front matter copié sur n'importe quelle entrée existante. Le modèle de pull request est la liste des douze tests en cases à cocher. La discussion se passe dans la pull request, en public, et elle reste en ligne après.
+**[build-here.africa/contribuer](/contribuer).** Une seule adresse. Un formulaire, rien à installer, aucun compte à ouvrir, et il marche depuis un téléphone sur une mauvaise connexion.
 
-**Un mail à [{{ site.contact_email }}](mailto:{{ site.contact_email }}).** Le texte dans le corps du message, sans mise en forme particulière. Je m'occupe du fichier.
+La même page donne de quoi écrire à deux mains avec ton assistant. Un entretien de huit questions à copier-coller, il te les pose une par une et assemble le fichier au format décrit ci-dessus. C'est là pour la page blanche, qui est le vrai obstacle, pas le markdown.
 
-Les deux portes mènent au même endroit et rien ne distingue les entrées arrivées par l'une ou par l'autre. Si tu n'as jamais ouvert de pull request, prends le mail sans y penser une seconde, ou prends la pull request et lis *[Ta première contribution](/chapters/16-01-ta-premiere-contribution.html)*, qui décrit exactement ce qui va se passer.
+**Ce que tu envoies devient une pull request sur [le dépôt](https://github.com/{{ site.repository }}), sous ton nom.** Le formulaire fait l'étape Git à ta place, il ne range pas ton entrée ailleurs. La relecture se passe donc en public dans les deux cas.
 
-Le [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md) du dépôt donne les détails mécaniques, le nommage des fichiers et le champ `order`.
+Si tu as déjà un compte GitHub, ouvre-la directement. Le modèle de pull request est la liste des douze tests en cases à cocher, et le [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md) donne les détails mécaniques, le nommage des fichiers et le champ `order`.
+
+Si tu n'as jamais fait ni l'un ni l'autre, lis *[Ta première contribution](/chapters/16-01-ta-premiere-contribution.html)*, qui décrit exactement ce qui va se passer. Et l'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ce que tu racontes.
 
 ### Ce qui se passe ensuite
 
@@ -244,7 +246,7 @@ author_link: "https://là-où-tu-veux-qu-on-te-trouve"
 
 Le lien est facultatif, le nom non. Il apparaît sous le titre de l'entrée, sur le site, dans le PDF et dans l'EPUB.
 
-Un livre qui demande d'arrêter de travailler en silence ne peut pas se relire en privé. C'est pour ça que la porte par défaut est celle qui laisse une trace publique, et pour ça que l'autre reste ouverte sans condition.
+Un livre qui demande d'arrêter de travailler en silence ne peut pas se relire en privé. C'est pour ça que toutes les entrées finissent au même endroit, en public, quelle que soit la manière dont elles sont arrivées.
 
 ---
 

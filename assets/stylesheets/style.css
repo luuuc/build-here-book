@@ -1219,10 +1219,21 @@ sup a {
 
 /* La page de contribution.
    Le formulaire marche sans JavaScript, donc rien ici ne depend d'une classe
-   posee par un script. Les deux portes sont cachees au depart et le script les
-   ouvre : sans lui, les deux aides s'affichent, ce qui est correct. */
+   posee par un script. Les deux aides sont ouvertes dans le markup et c'est le
+   script qui en ferme une : sans lui, les deux s'affichent, ce qui est correct.
+   L'inverse laissait l'entretien pour assistant invisible sans JavaScript. */
 .contrib {
   margin: 2rem 0;
+}
+
+/* Les libelles des deux boutons ne disent pas ce que chacun demande. Cette
+   ligne se lit avant de cliquer, et elle est la seule aide visible tant que
+   le script n'a pas ouvert une porte. */
+.contrib-portes-intro {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin: 0 0 0.9rem;
 }
 
 .contrib-portes {

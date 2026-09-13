@@ -32,13 +32,11 @@ Il manque à ce livre les entrées que je ne pouvais pas écrire, parce que je n
 
 L'[annexe 1](/chapters/a1-comment-ecrire-une-entree.html) donne le format. L'[annexe 2](/chapters/a2-les-douze-tests.html) donne les tests à faire passer à une entrée avant de la publier, y compris à l'une des miennes que tu trouves fausse.
 
-Deux portes, le même endroit.
+Tout part de [build-here.africa/contribuer](/contribuer). Un formulaire, aucun compte à ouvrir, et un entretien de huit questions à coller dans ton assistant si la page blanche te tient.
 
-**Une pull request** sur [le dépôt](https://github.com/{{ site.repository }}). La discussion reste en ligne, sous ton nom, et sert au suivant. La mécanique est dans [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md).
+Ce qui arrive par là devient une pull request sur [le dépôt](https://github.com/{{ site.repository }}), sous ton nom. Si tu as déjà un compte GitHub, ouvre-la toi-même, la mécanique est dans [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md). Le chemin ne change rien à la relecture.
 
-**Un mail** à [{{ site.contact_email }}](mailto:{{ site.contact_email }}). Le texte dans le corps du message, je m'occupe du fichier.
-
-Rien ne distingue les entrées arrivées par l'une ou par l'autre. Si elle tient, on la travaille ensemble et elle rejoint le livre, sous ton nom.
+L'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ce que tu racontes. Si l'entrée tient, on la travaille ensemble et elle rejoint le livre, sous ton nom.
 
 Pas besoin d'être connu. C'est un peu le sujet.
 

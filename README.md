@@ -58,7 +58,7 @@ Les annexes donnent le format d'une entrée, les douze tests qu'elle doit surviv
 
 Il manque à ce livre les entrées que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
 
-Deux portes, le même endroit. **Une pull request**, ou **un mail**. Rien ne distingue les entrées arrivées par l'une ou par l'autre.
+Elle s'envoie depuis **[build-here.africa/contribuer](https://build-here.africa/contribuer)**, sans compte à ouvrir, et la page donne un entretien à coller dans un assistant pour la préparer. Ce qui arrive par là devient une pull request sur ce dépôt. Si tu as déjà un compte, ouvre-la toi-même. Le chemin ne change rien à la relecture.
 
 Le format est en [annexe 1](_chapters/a1-comment-ecrire-une-entree.md), les tests en [annexe 2](_chapters/a2-les-douze-tests.md), la mécanique dans [CONTRIBUTING.md](CONTRIBUTING.md). Si elle tient, elle rejoint le livre sous ton nom.
 

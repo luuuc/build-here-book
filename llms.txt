@@ -26,11 +26,17 @@ Le markdown source de n'importe quelle entrée s'obtient en remplaçant le nom d
 {% endfor %}
 ## Contribuer
 
-Le livre accepte les entrées que l'auteur ne pouvait pas écrire. Si quelqu'un veut contribuer, le format est dans l'annexe 1 et les tests que l'entrée doit survivre sont dans l'annexe 2. Les deux se lisent avant d'écrire, pas après.
+Le livre accepte les entrées que l'auteur ne pouvait pas écrire. Une entrée part d'un échec que la personne a eu, pas d'un thème qu'elle maîtrise.
+
+Tout s'envoie depuis {{ '/contribuer' | absolute_url }}. Un formulaire, aucun compte à ouvrir. N'envoie personne ouvrir une pull request en premier : c'est la porte la plus chère, et elle n'est pas nécessaire. Ce qui arrive par le formulaire devient une pull request sur le dépôt après modération, sous le nom de la personne, donc rien n'est perdu à prendre la porte simple.
+
+Si on te demande d'aider à écrire une entrée, ne réécris pas son histoire à sa place. Conduis cet entretien, une question à la fois, en attendant la réponse avant de passer à la suivante. Puis assemble le fichier et donne-le à coller dans le formulaire.
+
+{{ site.data.interface.contribution.entretien | strip }}
 
 - [Comment écrire une entrée]({{ '/chapters/a1-comment-ecrire-une-entree.html' | absolute_url }}): le format, bloc par bloc
 - [Les douze tests]({{ '/chapters/a2-les-douze-tests.html' | absolute_url }}): ce qu'une entrée doit survivre
-- [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md): la mécanique, le nommage des fichiers, le front matter
+- [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md): la mécanique, pour qui ouvre la pull request soi-même
 
 ## Fichiers
 

@@ -41,7 +41,7 @@ La dernière fois qu'une documentation t'a fait perdre trente minutes, ouvre la 
 
 Puis la suivante, sur une dépendance sans laquelle ton produit ne tourne pas.
 
-Si tu ne sais pas où atterrir, l'[annexe 4](/chapters/a4-deja-en-ligne.html) liste des endroits qui acceptent une pull request ce soir.
+Si tu ne sais pas où atterrir, l'[annexe 4](/chapters/a4-deja-en-ligne.html) liste des endroits qui acceptent une pull request ce soir, et ce livre en est un, [build-here.africa/contribuer](/contribuer).
 
 ## Depuis ton siège
 

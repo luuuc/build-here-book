@@ -117,4 +117,4 @@ Les soixante-huit entrées y sont, chacune au moins une fois. Aucun classement p
 
 Si rien ici ne ressemble à ta semaine, le [sommaire](/) est là pour ça.
 
-Et si la phrase qui te manque existe chez toi, c'est peut-être une entrée que ce livre n'a pas encore. Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html).
+Et si la phrase qui te manque existe chez toi, c'est peut-être une entrée que ce livre n'a pas encore. Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), et elle s'envoie depuis [build-here.africa/contribuer](/contribuer).

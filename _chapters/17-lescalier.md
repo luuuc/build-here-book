@@ -51,7 +51,7 @@ J'ai passé deux ans à chercher des gens qui étaient à une heure de mon burea
 
 Ce livre est incomplet et il le dit depuis l'annexe 1. Il lui manque les entrées que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
 
-Elles s'écrivent en ouvrant une pull request sur [le dépôt](https://github.com/{{ site.repository }}), ou en envoyant un mail à [{{ site.contact_email }}](mailto:{{ site.contact_email }}) si tu préfères commencer par là. Les deux portes mènent au même endroit. Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les tests en [annexe 2](/chapters/a2-les-douze-tests.html), et la discussion se passe en public, parce qu'un livre qui demande d'arrêter de travailler en silence ne peut pas se relire en privé.
+Elles s'envoient depuis [build-here.africa/contribuer](/contribuer). Un formulaire, rien à installer, aucun compte à ouvrir, et de quoi conduire l'écriture avec ton assistant si la page blanche te tient. Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les tests en [annexe 2](/chapters/a2-les-douze-tests.html). Ce que tu envoies finit en pull request sur le dépôt, sous ton nom, et la relecture s'y passe en public, parce qu'un livre qui demande d'arrêter de travailler en silence ne peut pas se relire en privé.
 
 Si elle tient, elle rejoint le livre sous ton nom. Pas besoin d'être connu. C'est à peu près le sujet.
 

@@ -6,13 +6,15 @@ Ce fichier donne la mécanique. Le format d'une entrée est en [annexe 1](_chapt
 
 ---
 
-## Deux portes, le même endroit
+## Où l'envoyer
 
-**Une pull request.** La discussion reste en ligne, sous ton nom, et sert au suivant.
+**Une pull request.** Tu es déjà ici, c'est le chemin le plus court. La discussion reste en ligne, sous ton nom, et sert au suivant.
 
-**Un mail** à l'adresse de contact du site. Le texte dans le corps du message, je m'occupe du fichier.
+**[build-here.africa/contribuer](https://build-here.africa/contribuer).** Un formulaire, aucun compte à ouvrir, et il marche depuis un téléphone. La même page donne un entretien de huit questions à coller dans un assistant, qui les pose une par une et assemble le fichier au format ci-dessous. Ce qui arrive par là devient une pull request sur ce dépôt après modération, donc la relecture finit au même endroit.
 
-Rien ne distingue les entrées arrivées par l'une ou par l'autre, et la relecture est la même. Si tu n'as jamais ouvert de pull request, prends le mail sans y réfléchir, ou prends la pull request et lis l'entrée *Ta première contribution*, qui décrit exactement ce qui va se passer.
+**Un mail** à l'adresse de contact du site, pour une question, ou pour le cas où tu ne peux pas signer ce que tu racontes. Ce n'est pas le canal d'envoi d'une entrée.
+
+Rien ne distingue les entrées selon leur chemin d'arrivée, et la relecture est la même. Si tu n'as jamais ouvert de pull request, lis l'entrée *Ta première contribution*, qui décrit exactement ce qui va se passer.
 
 ---
 

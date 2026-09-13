@@ -81,16 +81,24 @@ commentaire:
   envoyer: "Envoyer"
   envoye: "En attente de relecture."
   repondre: "Répondre"
-  # Ce qui distingue la conversation de la correction. Le livre separe les
+  # Ce qui distingue la conversation de la contribution. Le livre separe les
   # trois, et c'est cette separation qui empeche la file de tout avaler.
-  ailleurs: "Une phrase à corriger plutôt qu'une idée à discuter ?"
-  github: "Améliorer cette page sur GitHub"
+  #
+  # Ce lien pointait sur l'edition GitHub de la page. Il envoyait la personne
+  # qui vient de lire une entree ouvrir un compte, une branche et une pull
+  # request, pour une coquille. Une coquille se dit dans la boite au-dessus,
+  # je lis tout. Ce qui n'a pas d'endroit, c'est l'entree qui manque.
+  ailleurs: "Une entrée qui manque plutôt qu'une idée à discuter ?"
+  contribuer: "Écrire la suivante"
 
 # La contribution, page /contribuer.
 contribution:
   titre: "Écrire la suivante"
   soi: "Écrire moi-même"
   ia: "La préparer avec mon IA"
+  # Les deux boutons ne disent pas ce qu'ils coutent, et sans JavaScript les
+  # deux blocs d'aide restent fermes. Cette ligne est lue dans les deux cas.
+  portes: "Deux façons d'arriver au même fichier. Écris-le toi-même si le format te parle, ou fais-toi poser huit questions par ton assistant si tu préfères raconter avant d'écrire."
   # Le tri de l'etape 3. Il leve la peur et il impose le tri du test 8.
   tri: |
     Une entrée n'a jamais besoin du nom de ton client, du montant exact,

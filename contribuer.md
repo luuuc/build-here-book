@@ -28,12 +28,14 @@ Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les te
      data-api="https://api.build-here.africa"
      data-recue="{{ site.data.interface.contribution.envoye }}">
 
+  <p class="contrib-portes-intro">{{ c.portes }}</p>
+
   <div class="contrib-portes">
     <button type="button" class="contrib-porte" data-porte="soi" aria-pressed="false">{{ c.soi }}</button>
     <button type="button" class="contrib-porte" data-porte="ia" aria-pressed="false">{{ c.ia }}</button>
   </div>
 
-  <div class="contrib-aide" data-aide="soi" hidden>
+  <div class="contrib-aide" data-aide="soi">
     <p>Les six blocs, dans cet ordre, avec ces titres exacts.</p>
     <pre><code>## Le réflexe
 ## Le réflexe builder
@@ -44,7 +46,7 @@ Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les te
     <p>Le front matter se copie sur n'importe quelle entrée du livre. Laisse <code>order</code> et <code>principle</code> à 999, ce sont des champs de séquence et ils ne sont pas ton problème.</p>
   </div>
 
-  <div class="contrib-aide" data-aide="ia" hidden>
+  <div class="contrib-aide" data-aide="ia">
     <p>Copie ce texte, colle-le dans ton assistant, réponds aux questions, puis recolle le fichier qu'il produit.</p>
     <pre><code id="entretien">{{ site.data.interface.contribution.entretien | strip }}</code></pre>
     <p><button type="button" class="contrib-copier" data-copier="entretien">{{ c.copier }}</button></p>
