@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Tu es la référence qui manque, et tu n'as rien laissé"
+title: "⇄ Tu es la référence qui manque, et tu n'as rien laissé"
 part: "Devenir une référence"
 order: 87
 metadata:

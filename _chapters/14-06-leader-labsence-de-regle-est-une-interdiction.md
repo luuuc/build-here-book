@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "L'absence de règle est une interdiction"
+title: "⇄ L'absence de règle est une interdiction"
 part: "Laisser une trace"
 order: 74
 metadata:

@@ -98,7 +98,7 @@ Les soixante-huit entrées y sont, chacune au moins une fois. Aucun classement p
 
 ## On est bons, et personne dehors ne le sait
 
-- Quinze ans de métier, et zéro trace que quelqu'un puisse ouvrir  →  [Mets ton nom dessus](/chapters/14-01-mets-ton-nom-dessus.html) · [Tu es la référence qui manque, et tu n'as rien laissé](/chapters/16-04-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
+- Quinze ans de métier, et zéro trace que quelqu'un puisse ouvrir  →  [Mets ton nom dessus](/chapters/14-01-mets-ton-nom-dessus.html) · [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/chapters/16-04-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
 - L'incident est réglé, tout le monde ici sait ce qui s'est passé, rien n'est écrit  →  [Écris ce qui a cassé](/chapters/14-03-ecris-ce-qui-a-casse.html)
 - La même question m'est posée en privé pour la troisième fois  →  [Réponds à la question en public](/chapters/14-04-reponds-a-la-question-en-public.html)
 - "Je n'écris pas de code, je n'ai rien à publier"  →  [Une trace n'est pas forcément du code](/chapters/14-05-une-trace-nest-pas-forcement-du-code.html)
@@ -106,11 +106,11 @@ Les soixante-huit entrées y sont, chacune au moins une fois. Aucun classement p
 - On publie, et personne n'arrive jamais dessus  →  [Publie là où on cherche](/chapters/15-01-publie-la-ou-on-cherche.html)
 - Cinq publications, aucun retour, on se demande si ça marche ici  →  [Le quatrième mois](/chapters/15-02-le-quatrieme-mois.html)
 - "Ici, on ne peut pas publier comme ailleurs"  →  [Ce que publier coûte vraiment ici](/chapters/15-03-ce-que-publier-coute-vraiment-ici.html)
-- Ce que l'entreprise publie sort sous le logo, sans le nom de qui l'a fait  →  [Tu gardes ton équipe invisible parce que visible, elle part](/chapters/15-05-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
+- Ce que l'entreprise publie sort sous le logo, sans le nom de qui l'a fait  →  [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/15-05-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
 - Ce qu'on sait faire n'est écrit nulle part, par personne  →  [Personne n'a écrit ce que tu sais faire](/chapters/16-03-personne-na-ecrit-ce-que-tu-sais-faire.html)
 - Publier ressemble à de l'auto-promotion, et ceux qui le font ne construisent rien  →  [Un avis n'est pas un artefact](/chapters/14-02-un-avis-nest-pas-un-artefact.html) · [Une référence n'est pas une personnalité](/chapters/16-02-une-reference-nest-pas-une-personnalite.html)
-- Personne ne sait ce qu'on a le droit de publier, alors personne ne publie  →  [L'absence de règle est une interdiction](/chapters/14-06-leader-labsence-de-regle-est-une-interdiction.html)
-- "Je veux être payé à ma valeur"  →  [On te paie ce qui se vérifie](/chapters/15-06-on-te-paie-ce-qui-se-verifie.html) · [Tu es le seul acheteur qui voit tout le travail](/chapters/15-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
+- Personne ne sait ce qu'on a le droit de publier, alors personne ne publie  →  [⇄ L'absence de règle est une interdiction](/chapters/14-06-leader-labsence-de-regle-est-une-interdiction.html)
+- "Je veux être payé à ma valeur"  →  [On te paie ce qui se vérifie](/chapters/15-06-on-te-paie-ce-qui-se-verifie.html) · [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/15-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
 - Ceux qui deviennent bons reçoivent une offre et partent  →  [Partir n'est pas une trahison](/chapters/15-04-partir-nest-pas-une-trahison.html)
 
 ---

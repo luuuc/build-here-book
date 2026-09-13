@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Tu gardes ton équipe invisible parce que visible, elle part"
+title: "⇄ Tu gardes ton équipe invisible parce que visible, elle part"
 part: "Se faire trouver"
 order: 81
 metadata:

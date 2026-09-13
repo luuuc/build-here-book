@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Tu es le seul acheteur qui voit tout le travail"
+title: "⇄ Tu es le seul acheteur qui voit tout le travail"
 part: "Se faire trouver"
 order: 82
 metadata:
