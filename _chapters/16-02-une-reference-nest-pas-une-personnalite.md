@@ -19,7 +19,7 @@ seo:
 
 > "Ceux qui sont connus ici ne construisent rien. Je préfère rester en dehors de ça."
 
-Ce n'est pas de la modestie mal placée. Tu as regardé qui monte sur scène, tu as fait le calcul, et tu as décidé de ne pas jouer à ce jeu. Le calcul est juste, et ce livre passe trois pages à te donner raison.
+Tu as regardé qui monte sur scène, tu as fait le calcul, et tu as décidé de ne pas jouer à ce jeu. Le calcul est juste, et ce livre passe trois pages à te donner raison.
 
 ## Le réflexe builder
 

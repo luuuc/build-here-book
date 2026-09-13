@@ -19,7 +19,7 @@ seo:
 
 > "J'ai publié cinq fois, personne n'a rien dit. Ça ne marche pas ici."
 
-Ce n'est pas de la paresse et ce n'est pas une excuse. Tu as fait ce que le livre demandait, tu as pris sur ton temps, et le retour est nul. Continuer sans signal, ça ressemble à de la foi, et tu n'as pas signé pour ça.
+Tu as fait ce que le livre demandait, tu as pris sur ton temps, et le retour est nul. Continuer sans signal, ça ressemble à de la foi, et tu n'as pas signé pour ça.
 
 ## Le réflexe builder
 

@@ -31,7 +31,7 @@ Deux choses différentes portent le même nom, et les deux produisent de l'activ
 
 Regarde aussi contre qui tu te places. Sur un avis, tu es en concurrence avec tous ceux qui ont une opinion, c'est-à-dire tout le monde, et celui qui gagne est celui qui poste le plus souvent. Sur la façon dont ton équipe a réconcilié des paiements sur deux rails qui ne se parlent pas, tu es en concurrence avec les gens qui l'ont fait. Ils sont douze et ils n'écrivent pas.
 
-L'avis est aussi beaucoup moins cher à produire et rapporte une réaction immédiate, ce qui explique entièrement pourquoi le marché en est plein. Personne n'est bête dans cette histoire.
+L'avis est aussi beaucoup moins cher à produire et rapporte une réaction immédiate, ce qui explique entièrement pourquoi le marché en est plein.
 
 Le test se retourne, et c'est cette moitié-là qu'on oublie. "Ce n'est qu'un avis" est le moyen le plus rapide d'écarter un argument auquel tu ne sais pas répondre. Une position défendue par quelqu'un qui a fait la chose, avec les chiffres attachés, est un artefact quel que soit le genre du texte. Ce qui se vérifie n'est pas la forme. C'est de savoir s'il y a dedans une seule chose qu'un lecteur puisse aller contrôler lui-même.
 
