@@ -45,6 +45,15 @@ function centerCurrentEntry(offcanvas) {
 
 // Close menu when clicking on a link
 document.addEventListener("DOMContentLoaded", function () {
+  // Les trois endroits qui ouvrent et ferment le sommaire : le hamburger, la
+  // croix, et l'ombre derriere le panneau. C'etait un `onclick` pose dans le
+  // HTML, jusqu'a ce que la politique de securite du contenu refuse
+  // 'unsafe-inline' : un attribut de gestionnaire est du script en ligne comme
+  // un autre, et le navigateur ne l'execute plus.
+  document.querySelectorAll("[data-bascule-menu]").forEach((el) => {
+    el.addEventListener("click", () => toggleMenu());
+  });
+
   document.querySelectorAll(".nav-menu a").forEach((link) => {
     link.addEventListener("click", () => {
       toggleMenu();

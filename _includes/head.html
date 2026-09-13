@@ -1,5 +1,35 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+{%- comment -%}
+  La politique de securite du contenu.
+
+  Elle est posee en `meta` faute d'un autre endroit : le site est servi par
+  GitHub Pages, en DNS seul, donc personne sur le chemin ne peut ajouter un
+  en-tete. Un `meta` s'applique quand meme, a condition d'arriver avant ce
+  qu'il gouverne, d'ou sa place tout en haut.
+
+  `script-src` n'a pas 'unsafe-inline', et c'est tout son interet. Avec lui,
+  une URL `javascript:` et un attribut `onclick` injectes passeraient, et la
+  politique ne protegerait de rien. C'est la raison pour laquelle le script de
+  Google Analytics vit dans /assets/javascripts/ga.js au lieu de la page. Les
+  blocs `application/ld+json` plus bas ne sont pas du script execute, ils ne
+  sont pas concernes.
+
+  Deux limites a connaitre. `frame-ancestors` est ignore dans un `meta`, donc
+  rien ici n'empeche la mise en cadre : ca demanderait un vrai en-tete, et il
+  faudrait passer le site derriere le proxy Cloudflare pour en poser un. Et si
+  giscus est un jour active dans _config.yml, il faudra lui ouvrir `script-src`
+  et `frame-src`, que `default-src 'none'` ferme aujourd'hui.
+{%- endcomment -%}
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://api.build-here.africa https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com; form-action 'self' https://api.build-here.africa; base-uri 'none'; manifest-src 'self'; upgrade-insecure-requests" />
+
+{%- comment -%}
+  Ce que les autres sites apprennent quand on clique un lien d'ici : le
+  domaine, jamais l'entree qui etait ouverte.
+{%- endcomment -%}
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+
 <title>{{ page.title }} | {{ site.title }}</title>
 
 <!-- Description and Keywords -->

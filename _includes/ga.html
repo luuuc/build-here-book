@@ -1,13 +1,12 @@
 {% if site.google_analytics %}
 <!-- Google tag (gtag.js) -->
+<!--
+  La configuration vit dans /assets/javascripts/ga.js et pas ici. C'est ce qui
+  permet a la politique de securite du contenu, dans head.html, de refuser
+  'unsafe-inline' sur les scripts. L'ordre des deux balises n'a pas
+  d'importance : dataLayer est une file, elle se remplit avant ou apres que la
+  bibliotheque soit arrivee.
+-->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-  gtag("js", new Date());
-
-  gtag("config", "{{ site.google_analytics }}");
-</script>
+<script src="/assets/javascripts/ga.js"></script>
 {% endif %}
