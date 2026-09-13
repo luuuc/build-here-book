@@ -197,6 +197,25 @@ export default {
       if (!email) return json({ erreur: "Cloudflare Access n'a pas authentifié cette requête." }, 403);
       if (!env.DB) return json({ erreur: "La base n'est pas configurée." }, 500);
 
+      // Access dit qui appelle, pas depuis ou, et son cookie part en
+      // SameSite=None par defaut. Un formulaire pose sur n'importe quel site
+      // arrivait donc ici avec la session de l'auteur, et l'attaquant connait
+      // deja l'identifiant a viser : POST /commentaire le lui a rendu. Il
+      // faisait publier son propre commentaire, ou ouvrir une pull request,
+      // sans que personne n'ait rien relu. C'est precisement le filtre sur
+      // lequel tout le reste repose.
+      //
+      // Aucun corps n'etait exige non plus : un `requete.json()` qui echoue est
+      // avale plus bas, et l'action partait quand meme. Un formulaire classique
+      // suffisait, sans une ligne de JavaScript.
+      //
+      // Le navigateur pose `origin` sur toute requete qui n'est ni GET ni HEAD,
+      // meme de meme origine : la page de la file passe, un formulaire etranger
+      // non. Un client hors navigateur doit poser l'en-tete lui-meme.
+      if (requete.method === "POST" && requete.headers.get("origin") !== url.origin) {
+        return json({ erreur: "Origine refusée." }, 403);
+      }
+
       if (chemin === "/admin") {
         return new Response(pageAdmin(email), {
           headers: {
