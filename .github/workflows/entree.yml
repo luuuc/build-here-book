@@ -80,3 +80,15 @@ jobs:
           done
 
           echo "Les douze tests sont une lecture humaine. Rien ici ne refuse une entrée." >> "$GITHUB_STEP_SUMMARY"
+
+      - name: L'index par symptôme couvre le livre
+        # Une entree qui arrive n'entre pas toute seule dans l'index par
+        # symptome. Sans ce pas, elle est publiee et introuvable depuis la
+        # seule page qui sert a chercher. Comme le reste du fichier, il dit
+        # et ne refuse pas : la ligne d'index se pose a l'integration.
+        run: |
+          echo "## L'index par symptôme" >> "$GITHUB_STEP_SUMMARY"
+          echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
+          bin/verifier-index >> "$GITHUB_STEP_SUMMARY" 2>&1 || true
+          echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
+          bin/verifier-index || true

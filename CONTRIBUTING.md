@@ -75,6 +75,8 @@ Laisse `order` et `principle` à `999`. Ce sont des champs de séquence, ils se 
 
 `Depuis ton siège` est une liste de quatre à six lignes, une par siège, cent caractères maximum après les deux-points. Les sièges et les cinq règles du bloc sont dans [Comment écrire une entrée](https://build-here.africa/chapters/a1-comment-ecrire-une-entree.html).
 
+**L'index par symptôme.** Ton entrée doit apparaître dans [Ce qui t'agace cette semaine](https://build-here.africa/chapters/a5-ce-qui-tagace-cette-semaine.html), une ligne, à gauche la phrase qu'on dit quand on a le problème. Écris-la si elle te vient, sinon je la pose à l'intégration, comme `order`. `bin/verifier-index` dit ce qui manque.
+
 **Deux règles de forme qui font échouer une relecture.** Aucun tiret cadratin, aucun tiret demi-cadratin. Apostrophes droites, pas courbes.
 
 **Voir le rendu en local.**

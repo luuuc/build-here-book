@@ -1,0 +1,91 @@
+#!/usr/bin/env node
+// Verifie l'index par symptome contre les entrees du livre.
+//
+//   bin/verifier-index
+//
+// L'index, _chapters/a5-ce-qui-tagace-cette-semaine.md, est a moitie ecrit a la
+// main : la phrase de gauche est editoriale et ne se genere pas. Seuls les liens
+// de droite sont mecaniques. Ce script ne reecrit donc rien, il verifie.
+//
+// Six controles. Une entree ajoutee au livre et absente de l'index, un lien qui
+// ne pointe sur rien, un titre renomme depuis que le lien a ete ecrit, un lien
+// qui sort des entrees, et la marque ⇄ de l'annexe 1, dans le titre comme dans le lien.
+
+import { readFileSync, readdirSync } from "node:fs";
+import { join } from "node:path";
+
+const racine = new URL("..", import.meta.url).pathname;
+const INDEX = "_chapters/a5-ce-qui-tagace-cette-semaine.md";
+
+// Le titre d'une entree leader porte deja la marque ⇄ dans son front matter.
+// On la met de cote pour comparer les libelles, et on la verifie a part.
+const titre = (source) => {
+  const m = source.match(/^title:\s*(.+?)\s*$/m);
+  if (!m) return null;
+  let t = m[1];
+  if (/^".*"$/.test(t)) t = t.slice(1, -1).replace(/\\"/g, '"');
+  else if (/^'.*'$/.test(t)) t = t.slice(1, -1).replace(/''/g, "'");
+  return t;
+};
+
+const sansMarque = (t) => (t.startsWith("⇄ ") ? t.slice(2) : t);
+
+// Une entree, c'est un chapitre qui porte metadata.principle. C'est le meme
+// drapeau que chapter.html utilise pour poser la classe content--entry.
+const entrees = new Map();
+for (const f of readdirSync(join(racine, "_chapters")).sort()) {
+  if (!f.endsWith(".md")) continue;
+  const source = readFileSync(join(racine, "_chapters", f), "utf8");
+  const tete = source.split(/^---\s*$/m)[1] ?? "";
+  if (!/^\s*principle:/m.test(tete)) continue;
+  const slug = f.replace(/\.md$/, "");
+  const t = titre(tete);
+  entrees.set(slug, { titre: sansMarque(t), marque: t.startsWith("⇄ "), leader: slug.includes("-leader-") });
+}
+
+// Seules les lignes de l'index comptent : une puce avec une fleche. Le pied de
+// page renvoie au sommaire et a l'annexe 1, qui ne sont pas des entrees.
+const source = readFileSync(join(racine, INDEX), "utf8");
+const lignes = source.split(/\r?\n/).filter((l) => l.startsWith("- ") && l.includes("→"));
+
+const vus = new Set();
+const soucis = [];
+
+for (const ligne of lignes) {
+  for (const [, texte, slug] of ligne.matchAll(/\[([^\]]+)\]\(\/chapters\/([^)#]+)\.html\)/g)) {
+    const entree = entrees.get(slug);
+    if (!entree) {
+      soucis.push(`lien mort ou hors entrees : /chapters/${slug}.html`);
+      continue;
+    }
+    vus.add(slug);
+
+    const nu = sansMarque(texte);
+    if (nu !== entree.titre) {
+      soucis.push(`titre decale : "${nu}"\n    le fichier dit : "${entree.titre}"\n    ${slug}`);
+    }
+    const marque = texte.startsWith("⇄ ");
+    if (entree.marque && !marque) soucis.push(`marque ⇄ manquante : ${slug}`);
+    if (!entree.marque && marque) soucis.push(`marque ⇄ en trop : ${slug}`);
+  }
+}
+
+for (const [slug, entree] of entrees) {
+  if (!vus.has(slug)) soucis.push(`absente de l'index : ${slug}`);
+  // La regle vit dans l'annexe 1 : l'entree adressee a qui faconne les
+  // conditions porte la marque ⇄ dans la table des matieres.
+  if (entree.leader !== entree.marque) {
+    soucis.push(`marque ⇄ ${entree.leader ? "manquante dans" : "en trop dans"} le titre : ${slug}`);
+  }
+}
+
+console.log(`${entrees.size} entrees dans le livre. ${vus.size} atteintes par l'index, en ${lignes.length} lignes.`);
+
+if (!soucis.length) {
+  console.log("Index propre.");
+  process.exit(0);
+}
+
+console.log(`\n${soucis.length} a regarder.\n`);
+for (const s of soucis) console.log(`  ${s}`);
+process.exit(1);
