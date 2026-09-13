@@ -177,4 +177,23 @@ export function composerNumero(indicatif, saisi) {
   return "+" + i + n.replace(/^0+/, "");
 }
 
+// Le lien que quelqu'un laisse sous son nom finit dans un `href`, sur le site
+// et dans la file. `javascript:` y est une URL valide : encodeURI ne touche pas
+// au schema, et le navigateur decode avant d'executer. Echapper ne suffit donc
+// pas, il faut une liste blanche de schemas.
+//
+// Elle est posee a l'ecriture, pas au rendu : la base ne doit jamais porter un
+// lien qu'un gabarit pourrait rendre par erreur. Les rendus la reposent quand
+// meme, pour les lignes ecrites avant ce controle.
+export function lienSur(valeur) {
+  const v = (valeur || "").trim().slice(0, 300);
+  if (!v) return null;
+  if (/^https?:\/\//i.test(v)) return v;
+  // Quelqu'un qui tape « linkedin.com/in/xyz » a donne un lien, pas un schema.
+  // On le complete plutot que de le perdre en silence : sans schema, le
+  // navigateur le lisait comme un chemin du site et le lien etait deja casse.
+  if (/^[^\s/:]+\.[^\s/:]+/.test(v)) return "https://" + v;
+  return null;
+}
+
 export const seuils = { FENETRE, PLAFOND_IP, PLAFOND_CLIENT, PLAFOND_NOTES_IP, AGE_JETON, VIE_JETON };

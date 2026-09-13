@@ -52,7 +52,7 @@ sommaire de l'EPUB et dans les signets du PDF.
             <h3 class="chapter-title">{{ c.title }}</h3>
           {% endif %}
           {% if c.description %}<p class="chapter-lede">{{ c.description }}</p>{% endif %}
-          {% if c.author %}<p class="chapter-author">Écrite par {{ c.author }}</p>{% endif %}
+          {% if c.author %}<p class="chapter-author">Écrite par {{ c.author | escape }}</p>{% endif %}
         </header>
 
         <!-- Les liens entre chapitres deviennent des renvois internes au tirage. -->

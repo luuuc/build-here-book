@@ -24,6 +24,13 @@
   const champTexte = form.querySelector('[name="texte"]');
 
   const echappe = (s) => String(s ?? "").replace(/[<&]/g, (c) => (c === "<" ? "&lt;" : "&amp;"));
+
+  // Le lien laisse sous un nom part dans un href. encodeURI ne touche pas au
+  // schema : `javascript:` y survit intact, et le navigateur decode avant
+  // d'executer. Echapper ne sert a rien contre ca, seule une liste blanche de
+  // schemas tient. L'API filtre deja a l'ecriture, ceci couvre les lignes
+  // ecrites avant.
+  const lien = (u) => (/^https?:\/\//i.test(u || "") ? encodeURI(u) : null);
   const quand = (t) =>
     new Date(t * 1000).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
 
@@ -55,8 +62,8 @@
           '<article class="avis' + (c.auteur_du_livre ? " avis--auteur" : "") + '">' +
           (c.passage ? '<blockquote class="avis-passage">' + echappe(c.passage) + "</blockquote>" : "") +
           '<p class="avis-qui">' +
-          (c.lien
-            ? '<a href="' + encodeURI(c.lien) + '" rel="noopener nofollow" target="_blank">' + echappe(c.auteur) + "</a>"
+          (lien(c.lien)
+            ? '<a href="' + lien(c.lien) + '" rel="noopener nofollow" target="_blank">' + echappe(c.auteur) + "</a>"
             : echappe(c.auteur)) +
           '<small>' + quand(c.cree_le) + "</small></p>" +
           '<div class="avis-texte">' + paragraphes(c.texte) + "</div>" +

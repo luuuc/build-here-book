@@ -38,7 +38,7 @@ descendent donc d'un cran, comme pour le PDF.
         {% if c.metadata.reading_time_in_minutes %}<span>{{ c.metadata.reading_time_in_minutes }} min</span>{% endif %}
       </div>
       {% if c.description %}<div class="chapter-lede">{{ c.description }}</div>{% endif %}
-      {% if c.author %}<p class="chapter-author">Écrite par {{ c.author }}</p>{% endif %}
+      {% if c.author %}<p class="chapter-author">Écrite par {{ c.author | escape }}</p>{% endif %}
 
       <!-- Les liens entre chapitres deviennent des renvois internes au livre. -->
       <div class="prose">{{ body }}</div>

@@ -11,6 +11,7 @@
 import { verifier, rapport as texteDuRapport } from "./lint.mjs";
 import {
   composerNumero,
+  lienSur,
   verifierJeton,
   regarderIp,
   retenirIp,
@@ -116,7 +117,7 @@ export async function recevoir(requete, env, sections) {
       r.lu?.titre || null,
       markdown,
       auteur,
-      (donnees.auteur_lien || "").trim() || null,
+      lienSur(donnees.auteur_lien),
       JSON.stringify({ ...r, texte }),
       rang({ markdown, jetonOk: j.ok, jetonRaison: j.raison }),
       client || null,
@@ -201,9 +202,12 @@ export async function approuver(env, id, { sections, carte }) {
   if (c.pr_url) return { erreur: "Une pull request existe déjà.", pr_url: c.pr_url };
   if (!env.GITHUB_TOKEN) return { erreur: "GITHUB_TOKEN n'est pas configuré." };
 
+  // Le lien est deja filtre a l'arrivee. On le refiltre ici parce que c'est le
+  // seul passage vers le depot : une ligne ecrite avant ce controle ne doit pas
+  // poser un `href` que le gabarit rendrait tel quel.
   const markdown = injecterFrontMatter(c.markdown, {
     auteur: c.auteur,
-    auteur_lien: c.auteur_lien,
+    auteur_lien: lienSur(c.auteur_lien),
   });
 
   const part = (markdown.match(/^part:\s*["']?(.+?)["']?\s*$/m) || [])[1] || "";

@@ -14,6 +14,7 @@
 
 import {
   composerNumero,
+  lienSur,
   verifierJeton,
   regarderIp,
   retenirIp,
@@ -115,7 +116,7 @@ export async function recevoir(requete, env) {
       parent,
       auteur,
       (d.ville || "").trim().slice(0, 80) || null,
-      (d.lien || "").trim().slice(0, 300) || null,
+      lienSur(d.lien),
       texte,
       (d.passage || "").trim().slice(0, 1000) || null,
       // Pas de signal de brievete ici : un avis court est la regle.

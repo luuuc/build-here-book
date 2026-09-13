@@ -79,6 +79,15 @@ const api = (c, o) => fetch(c, { headers: { accept: "application/json" }, ...o }
 const date = (t) => new Date(t * 1000).toLocaleString("fr-FR", { dateStyle: "short", timeStyle: "short" });
 const echappe = (s) => String(s ?? "").replace(/[<&]/g, (c) => (c === "<" ? "&lt;" : "&amp;"));
 
+// Meme raison que \`lienSur\` cote Worker, et elle compte davantage ici.
+// encodeURI ne touche pas au schema : \`javascript:\` reste \`javascript:\`, et le
+// navigateur decode avant d'executer. Un clic sur « son lien » faisait donc
+// tourner le script de quelqu'un d'autre sur cette origine, dans la session
+// Access, celle qui rend les coordonnees de tous les contributeurs.
+//
+// Le Worker filtre deja a l'ecriture. Ceci couvre les lignes ecrites avant.
+const lien = (u) => (/^https?:\\/\\//i.test(u || "") ? encodeURI(u) : null);
+
 let onglet = "entrees";
 let filtre = "";
 
@@ -148,7 +157,7 @@ async function detailAvis(id) {
     '<div class="detail"><h2>' + echappe(c.titre || c.page) + "</h2>" +
     '<p class="meta">' + echappe(c.auteur) +
     (c.ville ? " · " + echappe(c.ville) : "") +
-    (c.lien ? ' · <a href="' + encodeURI(c.lien) + '" rel="noopener nofollow" target="_blank">son lien</a>' : "") +
+    (lien(c.lien) ? ' · <a href="' + lien(c.lien) + '" rel="noopener nofollow" target="_blank">son lien</a>' : "") +
     (c.contact ? " · " + echappe(c.contact.canal) + " " + echappe(c.contact.valeur) : " · aucun contact") +
     " · rang " + c.rang + "</p>" +
     (c.parent ? "<h3>Il répond à</h3><pre>" + echappe(c.parent.auteur) + " : " + echappe(c.parent.texte) + "</pre>" : "") +
@@ -200,7 +209,7 @@ async function detail(id) {
 
   $("#detail").innerHTML =
     '<div class="detail"><h2>' + echappe(c.titre || "sans titre") + "</h2>" +
-    '<p class="meta">' + echappe(c.auteur) + (c.auteur_lien ? ' · <a href="' + encodeURI(c.auteur_lien) + '" rel="noopener nofollow" target="_blank">son lien</a>' : "") +
+    '<p class="meta">' + echappe(c.auteur) + (lien(c.auteur_lien) ? ' · <a href="' + lien(c.auteur_lien) + '" rel="noopener nofollow" target="_blank">son lien</a>' : "") +
     (c.contact ? " · " + echappe(c.contact.canal) + " " + echappe(c.contact.valeur) : " · aucun contact") +
     " · " + echappe(c.etat) + ' · rang ' + c.rang + '</p>' +
     "<h3>Le contrôle des règles</h3><pre>" + echappe(rapport) + "</pre>" +
