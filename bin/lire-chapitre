@@ -1,0 +1,165 @@
+#!/usr/bin/env python3
+"""Lit un chapitre a voix haute avec la voix de reference, et ecrit un MP3."""
+
+import argparse
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+RACINE = Path(__file__).resolve().parent.parent
+SORTIE = RACINE / "audio"
+
+# Pauses inserees dans la lecture, en secondes.
+PAUSE_TITRE = 0.7
+PAUSE_PARAGRAPHE = 0.4
+PAUSE_MORCEAU = 0.15
+
+TAILLE_MORCEAU = 280
+
+# Le modele lit trop vite : on ralentit la sortie sans toucher a la hauteur de voix.
+DEBIT = 0.92
+
+
+def sans_front_matter(brut):
+    if not brut.startswith("---"):
+        return brut, ""
+    fin = brut.find("\n---", 3)
+    if fin == -1:
+        return brut, ""
+    entete = brut[3:fin]
+    titre = re.search(r'^title:\s*"?(.*?)"?\s*$', entete, re.M)
+    return brut[fin + 4:], titre.group(1) if titre else ""
+
+
+def nettoyer(ligne):
+    ligne = re.sub(r"\{%.*?%\}", "", ligne)
+    ligne = re.sub(r"\{\{.*?\}\}", "", ligne)
+    ligne = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", ligne)
+    ligne = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", ligne)
+    ligne = re.sub(r"^\s*[-*+]\s+", "", ligne)
+    ligne = re.sub(r"^\s*>\s?", "", ligne)
+    ligne = re.sub(r"[*_`]+", "", ligne)
+    return ligne.strip()
+
+
+def blocs(chemin):
+    """Rend une liste de (texte, pause qui suit)."""
+    brut = chemin.read_text(encoding="utf-8")
+    corps, titre = sans_front_matter(brut)
+
+    sortie = []
+    if titre:
+        sortie.append((titre, PAUSE_TITRE))
+
+    paragraphe = []
+
+    def vider():
+        if paragraphe:
+            sortie.append((" ".join(paragraphe), PAUSE_PARAGRAPHE))
+            paragraphe.clear()
+
+    for ligne in corps.splitlines():
+        nue = ligne.strip()
+        if not nue or re.fullmatch(r"[-*_]{3,}", nue):
+            vider()
+            continue
+        entete = re.match(r"#{1,6}\s+(.*)", nue)
+        if entete:
+            vider()
+            texte = nettoyer(entete.group(1))
+            if texte:
+                sortie.append((texte, PAUSE_TITRE))
+            continue
+        texte = nettoyer(ligne)
+        if texte:
+            paragraphe.append(texte)
+        else:
+            vider()
+    vider()
+    return sortie
+
+
+def morceaux(texte):
+    """Coupe un bloc trop long aux fins de phrase."""
+    if len(texte) <= TAILLE_MORCEAU:
+        return [texte]
+    bouts = []
+    courant = ""
+    for phrase in re.split(r"(?<=[.!?…])\s+", texte):
+        if courant and len(courant) + len(phrase) + 1 > TAILLE_MORCEAU:
+            bouts.append(courant)
+            courant = phrase
+        else:
+            courant = f"{courant} {phrase}".strip()
+    if courant:
+        bouts.append(courant)
+    return bouts
+
+
+def decouper(chemin):
+    """Rend la liste finale de (texte a dire, pause qui suit)."""
+    final = []
+    for texte, pause in blocs(chemin):
+        bouts = morceaux(texte)
+        for i, bout in enumerate(bouts):
+            dernier = i == len(bouts) - 1
+            final.append((bout, pause if dernier else PAUSE_MORCEAU))
+    return final
+
+
+def lire(chemin, voix, appareil):
+    import torch
+    import torchaudio
+    from chatterbox.mtl_tts import ChatterboxMultilingualTTS
+
+    parts = decouper(chemin)
+    total = len(parts)
+    print(f"{chemin.name} : {total} morceaux", flush=True)
+
+    modele = ChatterboxMultilingualTTS.from_pretrained(device=appareil)
+
+    pistes = []
+    for i, (texte, pause) in enumerate(parts, 1):
+        print(f"  [{i}/{total}] {texte[:60]}...", flush=True)
+        wav = modele.generate(texte, language_id="fr", audio_prompt_path=str(voix))
+        pistes.append(wav.cpu())
+        if pause:
+            pistes.append(torch.zeros(1, int(pause * modele.sr)))
+
+    SORTIE.mkdir(exist_ok=True)
+    brut = SORTIE / f"{chemin.stem}.wav"
+    mp3 = SORTIE / f"{chemin.stem}.mp3"
+    torchaudio.save(str(brut), torch.cat(pistes, dim=1), modele.sr)
+    subprocess.run(
+        ["ffmpeg", "-y", "-loglevel", "error", "-i", str(brut),
+         "-filter:a", f"atempo={DEBIT}", "-b:a", "96k", str(mp3)],
+        check=True,
+    )
+    brut.unlink()
+    print(f"-> {mp3}")
+
+
+def main():
+    a = argparse.ArgumentParser(description=__doc__)
+    a.add_argument("chapitre", type=Path)
+    a.add_argument("--voix", type=Path, default=Path.home() / "Desktop" / "voix-ref-airpods.wav")
+    a.add_argument("--appareil", default="mps")
+    a.add_argument("--texte-seul", action="store_true", help="affiche le texte sans generer")
+    args = a.parse_args()
+
+    if not args.chapitre.exists():
+        sys.exit(f"introuvable : {args.chapitre}")
+
+    if args.texte_seul:
+        for texte, pause in decouper(args.chapitre):
+            print(f"[{pause}s] {texte}")
+        return
+
+    if not args.voix.exists():
+        sys.exit(f"voix de reference introuvable : {args.voix}")
+    lire(args.chapitre, args.voix, args.appareil)
+
+
+if __name__ == "__main__":
+    main()
