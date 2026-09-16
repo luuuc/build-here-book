@@ -27,13 +27,13 @@ Neuf mois à faire tenir un tunnel de paiement sur deux rails qui ne se parlent 
 
 ## Pourquoi
 
-Tout ce que le livre t'a demandé jusqu'ici fait circuler l'information dans un sens. Tu lis des postmortems de systèmes que tu n'opéreras jamais, tu importes un niveau, tu cales ton travail sur des gens qui ne connaissent ni tes rails de paiement ni tes appareils. C'est utile et c'est incomplet, parce que rien n'est jamais reparti dans l'autre sens.
+Tout ce que le livre t'a demandé jusqu'ici fait circuler l'information dans un sens. Tu lis des postmortems de systèmes que tu n'auras jamais à exploiter, tu importes un niveau, tu cales ton travail sur des gens qui ne connaissent ni tes rails de paiement ni tes appareils. C'est utile et c'est incomplet, parce que rien n'est jamais reparti dans l'autre sens.
 
-Fais l'expérience avant de me croire. Cherche comment on rattrape un paiement mobile échoué chez un opérateur qui répond au téléphone. Comment on tient un premier écran utilisable sur deux barres de réseau et un appareil de trois ans. Comment on couvre un support qui vit sur WhatsApp à vingt-trois heures. Tu trouveras des analyses du marché africain écrites pour des investisseurs, et presque rien sur la mécanique.
+Fais l'expérience avant de me croire. Cherche comment on rattrape un paiement mobile qui a échoué chez un opérateur qui répond au téléphone. Comment on tient un premier écran utilisable sur deux barres de réseau et un appareil de trois ans. Comment on assure le support sur WhatsApp à vingt-trois heures. Tu trouveras des analyses du marché africain écrites pour des investisseurs, et presque rien sur la mécanique.
 
-Ce n'est pas une revendication de supériorité et je n'ai aucun chiffre pour en faire une. Ce qui est vérifiable est plus étroit et plus utile. Le texte n'existe pas. Tant qu'il n'existe pas, personne ne peut dire si ce que tu fais est en avance, en retard ou parfaitement banal, et toi non plus.
+Ce n'est pas une revendication de supériorité et je n'ai aucun chiffre pour en faire une. Ce qu'on peut vérifier est plus précis et plus utile. Le texte n'existe pas. Tant qu'il n'existe pas, personne ne peut dire si ce que tu fais est en avance, en retard ou parfaitement banal, et toi non plus.
 
-La contrainte se déplace, ce qui est l'argument pratique. Le budget serré, l'appareil bon marché, la connexion qui coupe, le fournisseur payé dans une monnaie qui n'est pas celle du revenu, ce ne sont plus des particularités locales nulle part. Une équipe qui écrit comment elle a tenu ça écrit pour beaucoup plus de gens qu'elle ne le croit. C'est aussi la seule façon dont *Ton marché peut être local. Ton niveau, non* fonctionne dans les deux sens.
+Ces contraintes concernent aussi d'autres marchés. Le budget serré, l'appareil bon marché, la connexion qui coupe, le fournisseur payé dans une monnaie qui n'est pas celle du revenu, rien de tout ça n'est propre à ton marché. Une équipe qui écrit comment elle a tenu ça écrit pour beaucoup plus de gens qu'elle ne le croit. C'est aussi la seule façon dont *Ton marché peut être local. Ton niveau, non* fonctionne dans les deux sens.
 
 ## À essayer
 

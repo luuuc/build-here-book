@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Les douze tests"
-description: "Ce qu'une entrée doit survivre"
+description: "Les tests auxquels une entrée doit résister"
 show_chapter_number: false
 part: "Annexes"
 order: 90
@@ -28,7 +28,7 @@ S'il te faut un "et aussi" pour dire laquelle, il y en a deux.
 
 **2. Est-ce qu'elle tient seule ?**
 
-Les entrées sont capturées et partagées sans le livre autour. Quelqu'un qui découvre l'ensemble par celle-là doit tout obtenir.
+Les entrées sont capturées et partagées sans le livre autour. Quelqu'un qui découvre le livre par cette entrée doit pouvoir la comprendre sans les autres.
 
 **3. Est-ce qu'elle se comprend en moins de deux minutes ?**
 
@@ -50,9 +50,9 @@ Cherche l'action concrète. Une entrée qui se termine sur une prise de conscien
 
 La question de fin doit produire des réponses différentes selon les personnes. Si tout le monde répond pareil, ce n'est pas une discussion, c'est un vote.
 
-**8. Est-ce qu'elle se lit comme la leur, dans les deux sens ?**
+**8. Est-ce que des lecteurs d'ici et d'ailleurs s'y reconnaissent ?**
 
-Deux questions, et les deux doivent être oui.
+Deux questions auxquelles il faut pouvoir répondre oui.
 
 Est-ce qu'un builder à Abidjan, Lagos, Nairobi ou Dakar reconnaîtrait sa propre semaine dedans ? Est-ce qu'un builder à Berlin reconnaîtrait la sienne ?
 
@@ -64,15 +64,15 @@ Relis en chassant les généralisations. "Ici, les gens ne..." est une alarme. L
 
 **10. Est-ce qu'on tient compte des conditions derrière le comportement ?**
 
-Demande si le comportement est disponible pour quelqu'un dans une organisation ordinaire. Si non, l'entrée a besoin de sa jumelle, adressée à la direction.
+Demande si ce comportement est possible pour quelqu'un dans une organisation ordinaire. Si non, l'entrée a besoin de sa jumelle, adressée à la direction.
 
 **11. Est-ce que les excellents builders font vraiment ça ?**
 
 Pas ce qu'ils disent en interview. Ce qui apparaît dans leur travail, leur code, leurs décisions publiques.
 
-**12. Est-ce que ça vaut le partage ?**
+**12. Est-ce qu'elle mérite d'être partagée ?**
 
-Le plus simple et le plus difficile. Est-ce que tu enverrais cette entrée à un collègue sans note d'excuse attachée ?
+Le plus simple et le plus difficile. Est-ce que tu enverrais cette entrée à un collègue sans avoir à t'en excuser ?
 
 ---
 
@@ -84,7 +84,7 @@ Le plus simple et le plus difficile. Est-ce que tu enverrais cette entrée à un
 
 **Le test du désaccord.** Donne l'entrée à quelqu'un d'expérimenté qui n'est pas d'accord avec elle. S'il n'a rien à répondre, l'entrée est soit évidente, soit trop molle. Une bonne entrée attire un contre-argument sérieux, et ce contre-argument a sa place dans le texte.
 
-Traite-le à l'intérieur du mécanisme. Ne l'annonce pas. Une entrée qui s'arrête pour dire "l'objection est légitime" avant de concéder en un mot a transformé l'honnêteté en mobilier, et un lecteur qui en est à sa troisième entrée sent le rythme arriver. Environ une entrée sur cinq devrait annoncer un contre-argument à voix haute. Les autres le traitent sans que le lecteur remarque qu'il a été traité.
+Intègre-le au raisonnement. Ne l'annonce pas. Une entrée qui s'arrête pour dire "l'objection est légitime" avant de concéder en un mot fait de l'honnêteté une formule de façade, et un lecteur qui en est à sa troisième entrée sent le rythme arriver. Environ une entrée sur cinq devrait annoncer un contre-argument à voix haute. Les autres le traitent sans que le lecteur remarque qu'il a été traité.
 
 ---
 

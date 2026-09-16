@@ -20,9 +20,9 @@ seo:
 
 Quelqu'un a choisi un fournisseur en un après-midi, il y a trois ans.
 
-C'est aujourd'hui dans la marge, dans la roadmap, et dans une conversation sur les effectifs que personne dans la salle ne relie à cet après-midi-là.
+Ce choix pèse aujourd'hui sur la marge, la feuille de route et les discussions sur les effectifs. Personne ne fait le lien avec cet après-midi-là.
 
-Cette section parle aux deux moitiés en même temps. Les fondateurs qui n'ont jamais appris de quoi leur produit est fait, et les ingénieurs qui veulent un siège là où les engagements se prennent.
+Cette section s'adresse aux deux côtés. Les fondateurs qui n'ont jamais appris de quoi leur produit est fait, et les ingénieurs qui veulent un siège là où les engagements se prennent.
 
 ---
 

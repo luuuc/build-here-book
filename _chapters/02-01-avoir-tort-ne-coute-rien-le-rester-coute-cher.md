@@ -11,7 +11,7 @@ categories:
   - honnetete-intellectuelle
   - culture
 seo:
-  description: "Une décision annulée en semaine un coûte une semaine. La même décision, défendue jusqu'au bout parce que trois personnes y ont accroché leur crédibilité, coûte un trimestre."
+  description: "Une décision annulée dès la première semaine coûte une semaine. La même décision, défendue jusqu'au bout parce que trois personnes y ont accroché leur crédibilité, coûte un trimestre."
   keywords: "build here, ego et honnetete intellectuelle, tech afrique, builder, avoir, tort, coute, rien, rester"
 ---
 
@@ -23,15 +23,15 @@ Changer d'avis en cours de route passe pour de la faiblesse. Alors tu continues.
 
 ## Le réflexe builder
 
-> "Les chiffres ne vont pas là où on pensait. On arrête."
+> "Les chiffres ne confirment pas ce qu'on pensait. On arrête."
 
 ## Pourquoi
 
-Une décision annulée en semaine un coûte une semaine. La même décision, défendue jusqu'au bout parce que trois personnes y ont accroché leur crédibilité, coûte un trimestre.
+Une décision annulée dès la première semaine coûte une semaine. La même décision, défendue jusqu'au bout parce que trois personnes y ont accroché leur crédibilité, coûte un trimestre.
 
-Ce n'est pas l'erreur qui se compose. C'est tout ce qui a été construit par-dessus pendant que personne n'avait le droit de le dire. Le schéma sur lequel deux autres équipes ont commencé à écrire. Le slide montré au board. Le recrutement fait pour une stack que tu es sur le point de quitter.
+Ce n'est pas l'erreur initiale qui s'aggrave toute seule. C'est tout ce qui a été construit par-dessus pendant que personne n'avait le droit de le dire. Le schéma sur lequel deux autres équipes ont commencé à écrire. La présentation montrée au conseil d'administration. Le recrutement fait pour une stack que tu es sur le point de quitter.
 
-Si tu ne peux pas nommer ce que tu as appris depuis la décision, tu ne corriges pas, tu vacilles. Le délai est rarement technique. Celui qui doit arrêter est celui qui a proposé, et au bout de deux mois il en est propriétaire en public. Tout le coût tient dans une seule gorge.
+Si tu ne peux pas nommer ce que tu as appris depuis la décision, tu ne corriges pas, tu vacilles. Le délai est rarement technique. Celui qui doit arrêter est celui qui a proposé, et au bout de deux mois tout le monde l'associe à cette décision. C'est à lui de dire qu'il faut arrêter, et c'est ce qui rend la chose difficile.
 
 ## À essayer
 
@@ -43,9 +43,9 @@ Quand une décision engage plusieurs semaines, écris une ligne à côté avant 
 
 ## Depuis ton siège
 
-- **Engineer** : le schéma sur lequel deux autres équipes écrivent déjà est la partie qui se compose.
+- **Engineer** : le schéma sur lequel deux autres équipes écrivent déjà alourdit le coût de l'erreur.
 - **Product** : ta spec a un critère d'abandon, ou tu le découvriras au lancement.
-- **Manager** : celui qui a proposé est celui qui doit arrêter. Rends-le survivable ou rien ne s'arrête.
+- **Manager** : celui qui a proposé est celui qui doit arrêter. Permets-le sans le discréditer.
 - **Recrutement** : recruter pour une stack qu'on s'apprête à quitter est le même coût, en plus lent.
 
 ## À discuter

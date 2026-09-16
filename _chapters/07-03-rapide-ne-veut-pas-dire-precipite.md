@@ -11,13 +11,13 @@ categories:
   - livraison
   - produit
 seo:
-  description: "La vitesse tenable ne vient pas du travail bâclé. Elle vient de couper ce qui n'était pas nécessaire."
+  description: "Une vitesse qu'on peut tenir dans la durée ne vient pas du travail bâclé. Elle vient de couper ce qui n'était pas nécessaire."
   keywords: "build here, execution, tech afrique, builder, rapide, veut, dire, precipite"
 ---
 
 ## Le réflexe
 
-L'ingénieur qui bloque la release y est déjà passé. La dernière fois qu'un truc est parti en catastrophe contre une date promise à un client, il y a laissé deux nuits blanches et le client est parti quand même. Il ne fait pas le précieux. C'est la seule personne de la salle qui a déjà payé.
+L'ingénieur qui bloque la release y est déjà passé. La dernière fois qu'un truc est parti en catastrophe pour tenir une date promise à un client, il y a laissé deux nuits blanches et le client est parti quand même. Il ne fait pas le précieux. C'est la seule personne de la salle qui a déjà payé.
 
 En face, l'échéance est réelle aussi, et l'argent derrière l'est également.
 
@@ -29,13 +29,13 @@ Aucun des deux camps ne plaide de mauvaise foi. C'est pour ça que le débat ne 
 
 ## Pourquoi
 
-La vitesse tenable ne vient pas du travail bâclé. Elle vient de couper ce qui n'était pas nécessaire.
+Une vitesse qu'on peut tenir dans la durée ne vient pas du travail bâclé. Elle vient de couper ce qui n'était pas nécessaire.
 
-Le travail précipité est rapide une fois, puis taxe tout ce qui suit. Le patch d'urgence de mars est la raison pour laquelle plus rien n'avance en septembre. La dette n'est pas une abstraction, c'est un frottement que l'équipe cesse de percevoir, comme on cesse d'entendre un ventilateur. La lenteur au nom de la qualité cache souvent autre chose. La peur de la mise en production, un périmètre que personne n'a taillé, ou l'absence de décision sur ce qu'on ne fera pas.
+Le travail précipité est rapide une fois, puis ralentit tout le travail qui suit. Le patch d'urgence de mars est la raison pour laquelle plus rien n'avance en septembre. La dette n'est pas une abstraction, c'est un frottement que l'équipe cesse de percevoir, comme on cesse d'entendre un ventilateur. La lenteur au nom de la qualité cache souvent autre chose. La peur de la mise en production, un périmètre que personne n'a taillé, ou l'absence de décision sur ce qu'on ne fera pas.
 
-La formule se détourne dans les deux sens. "On ne se précipite pas, on va vite" est ce que la précipitation dit d'elle-même quand elle veut que la réunion se termine. Et "rapide ne veut pas dire précipité" est tout aussi utilisable par quelqu'un qui n'a rien livré depuis mars. L'adjectif ne tranche rien. Nomme ce qui est coupé. Un périmètre coupé exprès, c'est de la vitesse. Un périmètre coupé par accident et découvert en production, c'était de la précipitation, quel que soit le nom qu'on lui a donné sur le moment. Sur le coup, les deux se ressemblent beaucoup, et j'ai plusieurs fois mis six mois à savoir laquelle des deux j'avais faite.
+La formule se détourne dans les deux sens. "On ne se précipite pas, on va vite" est ce que la précipitation dit d'elle-même quand elle veut que la réunion se termine. Et "rapide ne veut pas dire précipité" est tout aussi utilisable par quelqu'un qui n'a rien livré depuis mars. L'adjectif ne tranche rien. Nomme ce qui est coupé. Un périmètre réduit volontairement, c'est de la vitesse. Des oublis qu'on découvre en production, c'était de la précipitation, quel que soit le nom qu'on lui a donné sur le moment. Sur le coup, les deux se ressemblent beaucoup, et j'ai plusieurs fois mis six mois à savoir laquelle des deux j'avais faite.
 
-Parfois la version précipitée est le bon arbitrage. Le client repart et ce contrat fait l'année, le bricolage tient, tu le prends. Ce qui sépare ça de la décomposition, c'est de l'écrire avec un nom et une date à côté. Une dette prise exprès est un emprunt ; une dette prise en silence est une fuite, et la fuite se découvre le jour où le plancher cède.
+Parfois la version précipitée est le bon arbitrage. Le client repart et ce contrat fait l'année, le bricolage tient, tu le prends. Ce qui empêche le bricolage de devenir permanent, c'est de l'écrire avec un nom et une date à côté. Une dette prise exprès est un emprunt ; une dette prise en silence est une fuite, et la fuite se découvre le jour où le plancher cède.
 
 ## À essayer
 
@@ -45,7 +45,7 @@ Quand une échéance paraît impossible, ne discute pas l'échéance. Discute le
 
 ## Depuis ton siège
 
-- **Design** : coupe des écrans, pas du soin sur chaque écran. Le second se voit, le premier se décide.
+- **Design** : réduis le nombre d'écrans. Garde le même soin pour ceux que tu livres.
 - **Founder** : une dette prise exprès est un emprunt. Prise en silence, c'est une fuite. Écris le nom et la date.
 - **Manager** : la lenteur au nom de la qualité cache souvent une décision que personne n'a prise.
 - **Customer-facing** : annonce ce qui saute avant la date. Le client arbitre mieux qu'on ne le croit.

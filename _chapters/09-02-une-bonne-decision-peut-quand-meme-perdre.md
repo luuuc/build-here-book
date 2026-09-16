@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Une bonne décision peut quand même perdre"
+title: "Une bonne décision peut quand même mal tourner"
 part: "Leadership"
 order: 48
 metadata:
@@ -11,7 +11,7 @@ categories:
   - decision
   - management
 seo:
-  description: "La qualité d'une décision et la qualité d'un résultat sont deux mesures différentes, et une seule des deux est sous le contrôle de qui que ce soit."
+  description: "La qualité d'une décision et la qualité d'un résultat sont deux mesures différentes, et tu ne maîtrises que la première."
   keywords: "build here, leadership, tech afrique, builder, bonne, decision, peut, quand, meme"
 ---
 
@@ -27,13 +27,13 @@ Puis le premier arbitrage autonome qui tourne mal est traité comme une faute.
 
 ## Pourquoi
 
-La qualité d'une décision et la qualité d'un résultat sont deux mesures différentes, et une seule des deux est sous le contrôle de qui que ce soit. Un arbitrage prudent peut mal tomber. Un arbitrage imprudent peut avoir de la chance et récolter des applaudissements. Note sur les résultats et les gens apprennent un seul coup sûr, l'option dont l'éventail de résultats est le plus étroit. Tu te retrouves avec une équipe pleine de décisions. Toutes petites.
+La qualité d'une décision et la qualité d'un résultat sont deux mesures différentes, et tu ne maîtrises que la première. Un arbitrage prudent peut mal tomber. Un arbitrage imprudent peut avoir de la chance et récolter des applaudissements. Juge uniquement les résultats et les gens apprennent un seul coup sûr, l'option qui présente le moins d'incertitude. Tu te retrouves avec une équipe pleine de décisions. Toutes petites.
 
-"Le droit à l'échec" énoncé platement sonne comme un permis avec l'argent des autres. Le droit s'applique aux arbitrages réversibles, un prix que tu peux remettre en fin de semaine. Tout ce qui est à sens unique, un contrat signé, des données supprimées, une promesse écrite à un client, est une autre conversation. Où passe la ligne se discute à chaque fois, et deux personnes raisonnables la placent rarement au même endroit.
+"Le droit à l'échec" énoncé platement peut donner l'impression qu'on autorise à gaspiller l'argent des autres. Le droit s'applique aux arbitrages réversibles, un tarif que tu peux rétablir en fin de semaine. Tout ce qui est à sens unique, un contrat signé, des données supprimées, une promesse écrite à un client, est une autre conversation. Où passe la ligne se discute à chaque fois, et deux personnes raisonnables la placent rarement au même endroit.
 
 Sur un marché assez petit pour que tout le monde finisse par travailler avec tout le monde, un échec public suit la personne jusqu'à son prochain poste, et jusque dans la salle où son prochain poste se discute. Lever la main coûte cher. C'est ta première réaction qui fixe ce prix.
 
-La ligne n'est pas avoir raison contre avoir tort. Elle est de savoir si le raisonnement existait au moment de décider ou a été reconstitué après. Quelqu'un qui s'est trompé en ayant lu ce qu'il y avait à lire n'a pas été imprudent. Celui qui n'a pas ouvert la chose qui était à un message, si.
+La distinction ne se fait pas entre avoir raison et avoir tort. Elle est de savoir si le raisonnement existait au moment de décider ou a été reconstitué après. Quelqu'un qui s'est trompé en ayant lu ce qu'il y avait à lire n'a pas été imprudent. Celui qui n'a pas ouvert la chose qui était à un message, si.
 
 ## À essayer
 
@@ -41,7 +41,7 @@ La prochaine fois qu'une initiative échoue, fais la revue sur le raisonnement.
 
 > "Tu savais quoi au moment de décider ? Qu'est-ce qui aurait pu être su en dix minutes et ne l'a pas été ?"
 
-Dans cet ordre. La première protège l'appétit. La seconde est la redevabilité, sans que personne soit le coupable.
+Dans cet ordre. La première préserve l'envie d'agir. La seconde demande de rendre compte du travail, sans chercher un coupable.
 
 ## Depuis ton siège
 
@@ -49,7 +49,7 @@ Dans cet ordre. La première protège l'appétit. La seconde est la redevabilit�
 - **Design** : une direction validée qui échoue au test n'était pas mauvaise. C'était un test.
 - **Founder** : réversible ou à sens unique. Trie d'abord, discute ensuite. La ligne bouge à chaque fois.
 - **Customer-facing** : un échec public suit la personne jusqu'au poste suivant. Ta réaction fixe le prix.
-- **Recrutement** : demande une décision que le candidat a perdue, et ce qu'il savait en la prenant.
+- **Recrutement** : demande une décision du candidat qui a mal tourné, et ce qu'il savait en la prenant.
 
 ## À discuter
 

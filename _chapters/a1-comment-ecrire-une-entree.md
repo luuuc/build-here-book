@@ -18,11 +18,11 @@ seo:
 
 Il manque à ce livre les entrées que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks. Si tu construis depuis un moment, tu en portes plusieurs.
 
-Voici le format, écrit pour que quelqu'un d'autre que moi puisse s'en servir. Prends-le. Écris l'entrée. Renvoie-la avec le raisonnement attaché, pour qu'on puisse la discuter.
+Voici le format, écrit pour que quelqu'un d'autre que moi puisse s'en servir. Prends-le. Écris l'entrée. Renvoie-la en expliquant ton raisonnement, pour qu'on puisse la discuter.
 
 Une entrée porte une idée. Elle se lit en moins de deux minutes et se comprend par quelqu'un qui n'a rien lu d'autre du livre.
 
-Chaque entrée utilise les mêmes six blocs, dans le même ordre. La répétition est le principe. Au bout de trois entrées, un lecteur sait où se trouve l'action sans avoir à scanner.
+Chaque entrée utilise les mêmes six blocs, dans le même ordre. La répétition est le principe. Au bout de trois entrées, un lecteur sait où se trouve l'action sans avoir à parcourir toute la page.
 
 ---
 
@@ -47,7 +47,7 @@ Deux ou trois phrases sur ce qui change.
 
 ## Pourquoi
 
-L'explication. Quatre paragraphes, plafond dur.
+L'explication. Quatre paragraphes au maximum.
 
 ## À essayer
 
@@ -67,7 +67,7 @@ Une question qu'une équipe peut poser à voix haute.
 
 ## Le titre
 
-Assez court pour survivre à l'intérieur d'une conversation.
+Assez court pour être repris dans une conversation.
 
 Une entrée fonctionne quand les gens se mettent à répéter la phrase. "Le ticket n'est pas le travail" se dit en réunion. "Considérations sur la mesure de la production dans les équipes produit" ne se dit nulle part.
 
@@ -86,7 +86,7 @@ Un titre qui décrit le sujet a déjà perdu. Le titre porte la position, pas le
 
 > "Ce n'est pas dans mon périmètre."
 
-Le lecteur doit reconnaître la phrase avant de la juger. Si le réflexe ressemble à une chose que seul un imbécile dirait, l'entrée n'atterrit sur personne.
+Le lecteur doit reconnaître la phrase avant de la juger. Si le réflexe ressemble à une chose que seul un imbécile dirait, personne ne se reconnaîtra dans l'entrée.
 
 Le comportement doit avoir l'air raisonnable, parce que vu de l'intérieur il l'est presque toujours. C'est ce qui le rend difficile à lâcher.
 
@@ -94,7 +94,7 @@ Le comportement doit avoir l'air raisonnable, parce que vu de l'intérieur il l'
 
 ## Le réflexe builder
 
-Le basculement, en une ou deux lignes. Un contraste, livré sans la leçon.
+Le basculement, en une ou deux lignes. Une autre façon d'agir, sans faire la leçon.
 
 Garde-le atteignable. Si la version builder exige un courage rare ou une organisation qui n'existe pas, l'entrée est décorative.
 
@@ -110,10 +110,10 @@ Ce qui marche :
 
 → un mécanisme. Comment le comportement produit son effet, la morale en moins.
 → un coût visible. Des heures, de l'argent, une décision qui a attendu, une information qui a cessé de circuler.
-→ une raison d'avoir de la sympathie. Pourquoi des gens intelligents finissent là.
+→ une raison de comprendre ceux qui agissent ainsi. Pourquoi des gens intelligents finissent là.
 → le contre-argument le plus fort, traité à l'intérieur du mécanisme plutôt qu'annoncé.
 
-Ce dernier point avait autrefois son paragraphe dédié dans chaque entrée, ouvrant sur une variante de "l'objection est légitime" et fermant sur une concession d'un mot. Lis six entrées d'affilée et tu sens le rythme arriver. Une entrée sur cinq environ devrait annoncer un contre-argument. Le chiffre est un réglage, pas une mesure, et il est probablement encore trop haut. Dans les autres, replie-le pour que le lecteur ne voie jamais la couture, ou retire-le si l'entrée tient sans.
+Ce dernier point avait autrefois son paragraphe dédié dans chaque entrée, ouvrant sur une variante de "l'objection est légitime" et fermant sur une concession d'un mot. Lis six entrées d'affilée et tu sens le rythme arriver. Une entrée sur cinq environ devrait annoncer un contre-argument. Le chiffre est un réglage, pas une mesure, et il est probablement encore trop haut. Dans les autres, intègre-le au raisonnement sans en faire un passage obligé, ou retire-le si l'entrée tient sans.
 
 Ce qui ne marche pas : les affirmations sur ce que font les bonnes équipes. Personne ne change de comportement parce qu'on lui a dit que les meilleurs font autrement. Un paragraphe qui explique une scène que le lecteur avait déjà comprise ne marche pas non plus. Fais confiance à la scène et coupe le paragraphe d'après.
 
@@ -135,15 +135,15 @@ Quatre à six lignes, une par siège, sur ce que l'entrée change à une place q
 
 C'est ce bloc qui rend une entrée utilisable par une équipe entière d'un coup. Sans lui, chaque entrée atterrit sur le builder qui a déjà le réflexe, et personne d'autre ne sait ce qu'on lui demande. Les sièges sont décrits dans [Comment lire ce livre](/chapters/00-comment-lire-ce-livre.html).
 
-Cinq règles, et les quatre premières servent toutes à empêcher la même chose, un bloc qui remplit.
+Cinq règles, et les quatre premières servent toutes à empêcher la même chose, un bloc de remplissage.
 
-**1. Quatre à six sièges. Jamais sept par principe.** Un bloc qui liste tout le monde à chaque fois finit par dire une seule chose sous sept objets différents.
+**1. Quatre à six sièges. Jamais sept par principe.** Un bloc qui liste tout le monde à chaque fois finit par dire une seule chose sous sept intitulés différents.
 
 **2. Le siège dont « À essayer » donne déjà l'action ne prend pas de ligne.** C'est le plus souvent Engineer, puisque l'action de l'entrée est déjà écrite pour lui.
 
 **3. Un siège qui n'a rien de différent à dire ne prend pas de ligne.** N'écris pas « ce siège n'est pas concerné », et ne reformule pas le titre. Une ligne vide se lit et coûte du temps. Une ligne absente ne coûte rien.
 
-**4. Cent caractères après les deux-points, plafond dur.** Une ligne, qui ne se replie pas sur un téléphone. Si la différence ne tient pas en une ligne, ce siège a besoin de sa propre entrée, pas d'une ligne plus longue.
+**4. Cent caractères après les deux-points, maximum.** Une ligne, qui ne passe pas à la ligne sur un téléphone. Si la différence ne tient pas en une ligne, ce siège a besoin de sa propre entrée, pas d'une ligne plus longue.
 
 **5. Le bloc ne compte pas dans les mots de l'entrée.** Ce n'est pas de la prose, c'est une table. Un lecteur y prend sa ligne, pas les six.
 
@@ -159,7 +159,7 @@ Les meilleures pointent le passé récent, pas les intentions. "Qui a signalé u
 
 ## Les paires
 
-Certaines entrées en appellent une deuxième. Quand une entrée demande un comportement à quelqu'un, vérifie si ce comportement lui est disponible dans une organisation ordinaire.
+Certaines entrées en appellent une deuxième. Quand une entrée demande un comportement à quelqu'un, vérifie s'il peut adopter ce comportement dans une organisation ordinaire.
 
 Si ce n'est pas le cas, l'entrée manquante est celle adressée à qui façonne les conditions. Elle porte la marque ⇄ dans la table des matières.
 
@@ -169,7 +169,7 @@ Sans la paire, le livre devient une liste d'exigences dirigées vers le bas.
 
 ## L'ancrage
 
-L'ancrage n'est pas rationné. C'est un livre écrit depuis un endroit, et un endroit est précis ou c'est une salle d'attente. Sers-toi du détail de terrain : l'environnement de staging partagé, la connexion comptée, le fournisseur qui facture en dollars contre un revenu qui arrive en monnaie locale, la ligne de support à huit fuseaux, le senior qui est la seule personne du pays à avoir fait tourner ça en production.
+Ne limite pas les détails de terrain. Ce livre part d'un lieu et d'une expérience : le lecteur doit pouvoir les reconnaître. Sers-toi du détail de terrain : l'environnement de staging partagé, la connexion comptée, le fournisseur qui facture en dollars contre un revenu qui arrive en monnaie locale, la ligne de support à huit fuseaux, le senior qui est la seule personne du pays à avoir fait tourner ça en production.
 
 La seule règle qui reste. Le détail est dans une scène, et le livre n'explique jamais le continent à ceux qui y vivent.
 
@@ -181,11 +181,11 @@ Cinq règles, et ce ne sont pas des préférences stylistiques. C'est ce qui emp
 
 **1. C'est la salle qui est drôle. Jamais les gens qui sont dedans.** La comédie vise la structure, à chaque fois. La seule entrée où elle glisse sur une personne est celle qui sera capturée en screenshot.
 
-**2. L'ennemi est le marché de la visibilité.** Qui est recommandé, qui obtient l'introduction, qui monte sur le panel, et le rapport que tout ça entretient avec le fait de livrer. Jamais une culture, jamais une catégorie, jamais le lecteur.
+**2. L'ennemi est le marché de la visibilité.** Qui est recommandé, qui est mis en relation, qui monte sur le panel, et le rapport que tout ça entretient avec le fait de livrer. Jamais une culture, jamais une catégorie, jamais le lecteur.
 
 **3. Pince-sans-rire.** Phrase plate, fait scandaleux, aucun point d'exclamation. N'apporte aucune indignation. Le lecteur a la sienne et elle est meilleure que la tienne.
 
-**4. Une scène précise et une phrase transportable.** La scène est pour le builder, qui doit reconnaître sa propre semaine. La phrase est pour celui qui la citera en réunion, et qui est la distribution.
+**4. Une scène précise et une phrase transportable.** La scène est pour le builder, qui doit reconnaître sa propre semaine. La phrase est pour celui qui la citera en réunion, et qui fera circuler le livre.
 
 **5. Aucun diagnostic de catégorie.** Pas de "ici, les gens ne...". Les salles décrites dans ce livre existent partout. Ce qui change, c'est le nombre de gens qui en ont vu une qui fonctionne.
 
@@ -195,7 +195,7 @@ Cinq règles, et ce ne sont pas des préférences stylistiques. C'est ce qui emp
 
 La plupart des entrées ouvrent sur un réflexe manifestement faux dès qu'il est dit à voix haute. Écrit comme ça soixante-dix fois, le livre ne s'adresse qu'à celui qui n'a pas encore compris, et celui qui a compris le referme.
 
-Donc environ une entrée sur huit ouvre sur un réflexe réellement défendable. L'ingénieur qui bloque la release s'est déjà brûlé. Le fondateur qui a tout centralisé a vu une décision manquer de tuer sa boîte. Personne dans cette scène n'est bête, et l'entrée doit battre la bonne raison, pas la mauvaise.
+Donc environ une entrée sur huit ouvre sur un réflexe réellement défendable. L'ingénieur qui bloque la release s'est déjà brûlé. Le fondateur qui a tout centralisé a vu une décision manquer de tuer sa boîte. Personne dans cette scène n'est bête, et l'entrée doit répondre à cette bonne raison, pas en inventer une mauvaise.
 
 Ces mêmes entrées portent l'autre moitié, à savoir la façon dont le titre se détourne. Une formule comme *être bloqué est une décision* s'utilise comme un bâton. *Ton code n'est pas ton bébé* s'utilise pour écarter une objection juste. Nomme-le à l'intérieur de l'entrée. Un lecteur avec quinze ans de métier ne se demande pas si le principe est vrai. Il se demande si tu as vu comment on en abuse, et il le repère en un paragraphe.
 
@@ -203,7 +203,7 @@ Ces mêmes entrées portent l'autre moitié, à savoir la façon dont le titre s
 
 ## La longueur
 
-300 à 500 mots par entrée. Jusqu'à 550 quand elle porte un réflexe défendable ou une garde contre le détournement, puisque ce sont deux paragraphes en plus et qu'aucun des deux n'est du remplissage.
+300 à 500 mots par entrée. Jusqu'à 550 quand elle porte un réflexe défendable ou une mise en garde contre un détournement du principe, puisque ce sont deux paragraphes en plus et qu'aucun des deux n'est du remplissage.
 
 Ces chiffres décrivent les soixante-huit entrées existantes, médiane 434. Ils te disent où tu te situes par rapport au livre, pas où tu dois être. Le vrai plafond est le test 3, et il se lit autrement : une entrée qui demande plus de deux minutes n'est pas mauvaise, elle est moins lue.
 
@@ -215,7 +215,7 @@ Une entrée qui s'allonge est en général deux entrées sous un seul titre. Cou
 
 ## En envoyer une
 
-Écris-la contre [les douze tests](/chapters/a2-les-douze-tests.html) avant de l'envoyer. Une entrée qui y survit arrive prête à être discutée, ce qui est le seul état dans lequel elle vaut la peine d'être lue.
+Écris-la en t'appuyant sur [les douze tests](/chapters/a2-les-douze-tests.html) avant de l'envoyer. Une entrée qui les passe arrive prête à être discutée, ce qui est le seul état dans lequel elle vaut la peine d'être lue.
 
 Inclus ce qu'elle t'a coûté. Pas comme une histoire, comme un mécanisme. L'entrée est la chose que tu aurais voulu qu'on te tende quatre ans plus tôt, et ce qui la rend transmissible, c'est la partie que tu as dû payer.
 
@@ -233,9 +233,9 @@ Si tu n'as jamais fait ni l'un ni l'autre, lis *[Ta première contribution](/cha
 
 ### Ce qui se passe ensuite
 
-Elle est relue contre les douze tests, et la relecture est écrite. Si elle échoue, tu sauras sur quel test, ce qui vaut mieux qu'un silence poli.
+Elle est relue à l'aide des douze tests, et la relecture est écrite. Si elle échoue, tu sauras sur quel test, ce qui vaut mieux qu'un silence poli.
 
-Si elle tient, elle rejoint le livre **sous ton nom**, avec un lien vers où tu veux. Pas besoin d'être connu, pas besoin d'avoir déjà écrit, pas besoin de me connaître.
+Si elle tient, elle rejoint le livre **sous ton nom**, avec un lien vers la page de ton choix. Pas besoin d'être connu, pas besoin d'avoir déjà écrit, pas besoin de me connaître.
 
 Deux lignes dans le front matter, et c'est tout ce que ça demande.
 

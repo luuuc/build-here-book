@@ -11,7 +11,7 @@ categories:
   - leadership
   - transmission
 seo:
-  description: "Le mentorat a un débit. Une conversation, une personne, et il s'arrête le jour où tu changes d'entreprise."
+  description: "Le mentorat a une portée limitée. Une conversation, une personne, et il s'arrête le jour où tu changes d'entreprise."
   keywords: "build here, reference, leadership, tech afrique, builder, transmission"
 ---
 
@@ -27,13 +27,13 @@ C'est vrai, et c'est une des meilleures choses que tu fasses. Tu expliques la m�
 
 ## Pourquoi
 
-Le mentorat a un débit. Une conversation, une personne, et il s'arrête le jour où tu changes d'entreprise. Ton successeur recommence à zéro, avec les mêmes explications, devant des gens qui poseront les mêmes questions. Fais le compte. Huit ans à quarante conversations par an, c'est trois cent vingt transmissions, dont zéro ne survit à ton départ. Un texte de neuf cents mots publié une fois est lu par plus de gens que ça, pendant plus longtemps, sans que tu sois dans la pièce.
+Le mentorat a une portée limitée. Une conversation, une personne, et il s'arrête le jour où tu changes d'entreprise. Ton successeur recommence à zéro, avec les mêmes explications, devant des gens qui poseront les mêmes questions. Fais le compte. Huit ans à quarante conversations par an, c'est trois cent vingt transmissions, dont aucune n'est consultable après ton départ. Un texte de neuf cents mots publié une fois est lu par plus de gens que ça, pendant plus longtemps, sans que tu sois dans la pièce.
 
 Ce qui empêche de l'écrire est un biais, pas un manque de temps. Vu de l'intérieur, ce que tu sais a l'air évident. Tu le sais depuis huit ans, donc ça ressemble à du bon sens, donc l'écrire ressemble à énoncer une banalité. La chose que tu trouves banale est souvent celle que personne du pays n'a jamais écrite, et tu es la dernière personne capable d'en juger.
 
-L'ouverture le dit déjà et cette entrée n'est que sa facture. *Tu es la référence qui manquait, et si personne autour de toi ne s'en sert, c'est que rien de tout ça n'est jamais sorti de ta tête.* Expliquer rapporte immédiatement, un visage qui comprend en face de toi. Écrire est plus lent et le retour est nul pendant des mois. Tout le monde choisit l'explication et c'est rationnel, ce qui est exactement pourquoi rien ne change tant que personne ne décide de payer la différence.
+L'ouverture le dit déjà et cette entrée te demande de passer à l'action. *Tu es la référence qui manquait, et si personne autour de toi ne s'en sert, c'est que rien de tout ça n'est jamais sorti de ta tête.* Expliquer rapporte immédiatement, un visage qui comprend en face de toi. Écrire est plus lent et le retour est nul pendant des mois. Tout le monde choisit l'explication et c'est rationnel. Voilà pourquoi rien ne change tant que personne n'accepte cet effort sans résultat immédiat.
 
-Il reste la partie que tu ne contrôles pas volontairement. L'équipe copie ce que tu fais, pas ce que tu recommandes. Un senior qui n'a jamais rien publié enseigne à toute la salle que publier ne fait pas partie du métier, quoi qu'il dise en entretien individuel.
+Il reste l'exemple que tu donnes, même sans le vouloir. L'équipe copie ce que tu fais, pas ce que tu recommandes. Un senior qui n'a jamais rien publié enseigne à toute la salle que publier ne fait pas partie du métier, quoi qu'il dise en entretien individuel.
 
 ## À essayer
 
@@ -44,7 +44,7 @@ Il reste la partie que tu ne contrôles pas volontairement. L'équipe copie ce q
 ## Depuis ton siège
 
 - **Engineer** : la troisième fois que tu expliques la même chose, écris-la et envoie le lien à la quatrième.
-- **Product** : trois cent vingt conversations en huit ans, dont zéro ne survit à ton départ. Fais le compte.
+- **Product** : après huit ans de conversations, qu'est-ce qu'on peut encore consulter quand tu pars ?
 - **Founder** : l'équipe copie ce que tu fais, pas ce que tu recommandes. Ton silence enseigne aussi.
 - **Customer-facing** : ce que tu expliques à chaque nouveau client mérite une page publique, pas un script.
 - **Recrutement** : compare ce que tu as publié en huit ans avec ce que tu attends de ceux que tu encadres.

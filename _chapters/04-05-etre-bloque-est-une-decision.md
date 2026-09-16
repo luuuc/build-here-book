@@ -11,7 +11,7 @@ categories:
   - responsabilite
   - execution
 seo:
-  description: "Attendre est confortable parce que ça photographie comme de la rigueur. Personne n'est dérangé, aucun risque n'est pris"
+  description: "Attendre est confortable parce que ça donne une impression de rigueur. Personne n'est dérangé, aucun risque n'est pris"
   keywords: "build here, ownership, tech afrique, builder, etre, bloque, decision"
 ---
 
@@ -29,17 +29,17 @@ Vingt minutes dessus. Tu en as la moitié. Tu demandes l'autre moitié.
 
 ## Pourquoi
 
-Attendre est confortable parce que ça photographie comme de la rigueur. Personne n'est dérangé, aucun risque n'est pris, et si l'échéance glisse le blocage porte le nom de quelqu'un d'autre.
+Attendre est confortable parce que ça donne une impression de rigueur. Personne n'est dérangé, aucun risque n'est pris, et si l'échéance glisse le blocage porte le nom de quelqu'un d'autre.
 
-La plupart des réponses ne sont pas protégées, elles sont enterrées. Le code est lisible. Le client décroche si tu appelles. Le fournisseur a aussi une ligne de support, et elle se réveille au moment où ton après-midi se termine, donc une question envoyée coûte une journée au lieu d'une heure. D'où le rendement de vingt minutes passées à creuser toi-même.
+La plupart des réponses ne sont pas protégées, elles sont enterrées. Le code est lisible. Le client décroche si tu appelles. Le fournisseur a aussi une ligne de support, et elle ouvre au moment où ton après-midi se termine, donc une question envoyée coûte une journée au lieu d'une heure. D'où le rendement de vingt minutes passées à creuser toi-même.
 
 Ensuite il y a ce que la recherche laisse derrière et que la réponse ne laisse jamais. Chaque traversée du système ajoute une pièce à une carte que tu dessines sans le remarquer. Au bout d'un an tu arrêtes de chercher, parce que tu sais où regarder. Celui qui a toujours attendu n'a jamais dessiné la carte, et il reste dépendant de celui qui l'a fait.
 
-Vingt minutes est un plafond, pas un devoir. Ceci vise l'attente par défaut, pas le fait de demander, et ce n'est pas non plus une phrase à ressortir à quelqu'un. Dite sur ton propre travail, elle veut dire creuse avant de frapper. Dite à une personne qui a levé la main à la vingt-cinquième minute, elle enseigne à toute l'équipe que demander a un prix, et tu viens de construire la salle dont parle le reste de ce livre.
+Vingt minutes, c'est un maximum, pas une obligation. Ceci vise l'attente par défaut, pas le fait de demander, et ce n'est pas non plus une phrase à ressortir à quelqu'un. Dite sur ton propre travail, elle veut dire creuse avant de frapper. Dite à une personne qui a levé la main à la vingt-cinquième minute, elle enseigne à toute l'équipe que demander a un prix, et tu viens de construire la salle dont parle le reste de ce livre.
 
 ## À essayer
 
-Vingt minutes à toi avant de demander. Puis demande en montrant le terrain que tu as couvert.
+Vingt minutes à toi avant de demander. Puis demande en expliquant ce que tu as déjà vérifié.
 
 > "Ça passe par ce service, j'ai lu la config, je bloque sur ce paramètre. Ça te dit quelque chose ?"
 
@@ -50,7 +50,7 @@ Plus rapide, plus précis, et trente secondes de la journée de quelqu'un au lie
 - **Product** : ton blocage est une réponse qui n'arrive pas. Va la chercher chez la personne.
 - **Design** : ce qui te manque est chez l'utilisateur, pas chez le développeur.
 - **Founder** : une décision que tu n'as pas prise bloque plus de monde qu'un bug.
-- **Manager** : sers cette phrase à quelqu'un qui a levé la main, et demander devient cher pour tout le monde.
+- **Manager** : reproche à quelqu'un de demander de l'aide, et plus personne n'osera le faire.
 - **Customer-facing** : le client ne sait pas que tu attends quelqu'un. Dis-lui où ça en est.
 - **Recrutement** : demande la dernière fois que le candidat s'est débloqué seul, et par où il est passé.
 

@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Apprentissage"
-description: "Se comparer à plus loin que son bâtiment"
+description: "Chercher des références au-delà de son équipe"
 show_chapter_number: false
 illustration: "apprentissage"
 section_number: 8
@@ -22,7 +22,7 @@ Ton idée de ce qu'est le bon niveau vient de quelque part.
 
 Pour la plupart des gens, elle vient des trois dernières équipes où ils ont travaillé. Un échantillon de trois, sélectionné par la géographie et le salaire, puis traité comme la norme pour une carrière entière.
 
-C'est la section la plus proche de la raison d'être de ce livre. La référence dont tu as besoin n'est pas dans ton bâtiment, et elle n'est pas non plus sur le panel. Elle est sur une machine, en accès libre, gratuite, et elle ne viendra pas te chercher.
+C'est la section la plus proche de la raison d'être de ce livre. La référence dont tu as besoin n'est pas dans ton bâtiment, et elle n'est pas non plus à la table ronde. Elle est sur une machine, en accès libre, gratuite, et elle ne viendra pas te chercher.
 
 ---
 

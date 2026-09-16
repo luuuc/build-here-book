@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Le product, ce n'est pas la personne qui écrit les tickets"
+title: "Le rôle du product, ce n'est pas de rédiger des tickets"
 part: "Produit"
 order: 32
 metadata:
@@ -11,7 +11,7 @@ categories:
   - client
   - arbitrage
 seo:
-  description: "Une fonction qui accepte tout et le classe n'ajoute rien que la file d'attente ne faisait déjà. Sa valeur tient entièrement dans le refus."
+  description: "Si le rôle consiste à accepter puis à classer toutes les demandes, une file d'attente fait déjà le travail. La valeur du rôle produit tient dans sa capacité à refuser."
   keywords: "build here, produit, tech afrique, builder, product, personne, ecrit, tickets"
 ---
 
@@ -27,9 +27,9 @@ Le product décide ce qu'on ne va pas faire.
 
 ## Pourquoi
 
-Une fonction qui accepte tout et le classe n'ajoute rien que la file d'attente ne faisait déjà. Sa valeur tient entièrement dans le refus. Et un refus ne tient que s'il repose sur une connaissance du client assez solide pour contredire le fondateur, et juste assez souvent pour qu'on continue à l'écouter.
+Si le rôle consiste à accepter puis à classer toutes les demandes, une file d'attente fait déjà le travail. La valeur du rôle produit tient dans sa capacité à refuser. Et un refus ne tient que s'il repose sur une connaissance du client assez solide pour contredire le fondateur, et juste assez souvent pour qu'on continue à l'écouter.
 
-Là où n'importe qui peut ajouter et personne ne peut refuser, il n'y a pas de produit. Il y a une file, et une règle implicite. Celui qui insiste le plus fort, ou qui a le titre le plus haut, passe devant. Cette règle tourne, écrite ou non.
+Là où n'importe qui peut ajouter et personne ne peut refuser, il n'y a pas de produit. Il y a une file, et une règle implicite. Celui qui insiste le plus fort, ou qui a le titre le plus haut, passe devant. Cette règle s'applique, qu'elle soit écrite ou non.
 
 Rien de tout ça n'est une fiche de poste. Un ingénieur qui dit "je sais le construire, je pense qu'on ne devrait pas, et voilà pourquoi" fait du product. L'agent support qui relie quinze tickets identiques à une seule étape cassée aussi. Et dans une équipe de six, celui qui doit refuser sa propre idée devant les autres, c'est en général le fondateur.
 
@@ -37,7 +37,7 @@ Rien de tout ça n'est une fiche de poste. Un ingénieur qui dit "je sais le con
 
 Tiens la liste des non. Un fichier court. La demande, qui la portait, la raison du refus, la date. Range-le à côté de la roadmap, même endroit, mêmes lecteurs.
 
-L'arbitrage devient visible, et un refus devient quelque chose qu'on rouvre dans trois mois au lieu d'une décision qu'on ne peut montrer du doigt.
+L'arbitrage devient visible, et on peut réexaminer un refus trois mois plus tard, avec les raisons qui l'ont motivé.
 
 ## Depuis ton siège
 

@@ -27,13 +27,13 @@ Tu reprends les trois derniers engagements et tu regardes qui savait ce que ça 
 
 ## Pourquoi
 
-Regarde qui décide de la composition de la salle. Un chiffrage produit après un engagement ne peut faire que deux choses. Le confirmer, ou faire passer quelqu'un pour un frein sur une chose déjà annoncée. Personne ne choisit la seconde deux fois. Alors les estimations qui reviennent après coup sont larges, prudentes et conformes, et tu conclus que l'équipe manque d'ambition.
+Regarde qui choisit les personnes présentes quand la décision se prend. Un chiffrage produit après un engagement ne peut faire que deux choses. Le confirmer, ou faire passer quelqu'un pour un frein sur une chose déjà annoncée. Personne n'accepte deux fois de passer pour le frein. Alors les estimations qui reviennent après coup sont larges, prudentes et conformes, et tu conclus que l'équipe manque d'ambition.
 
 Le coût qui compte n'est pas l'engagement raté, parce que celui-là a droit à sa réunion. C'est l'option qui n'a jamais été posée sur la table. Tout le monde a supposé que c'était hors de portée, et deux étages plus bas quelqu'un savait que c'était quinze jours. Cette conversation n'a jamais eu lieu, donc elle n'apparaît nulle part, et il n'existe aucun moment de l'année où tu apprendrais qu'elle aurait dû avoir lieu.
 
-Quelqu'un de technique dans une discussion commerciale répond souvent dans la mauvaise monnaie, transforme un arbitrage en revue d'architecture, et fait perdre quarante minutes à six personnes. Alors définis le siège au lieu d'ouvrir la porte. Pas une estimation. Trois lignes, en dates et en argent, sans un nom d'outil dedans. Ce qui est bon marché, ce qui est cher, ce qui est hors de portée. C'est une compétence, elle s'apprend en trois réunions, et quelqu'un doit dire que c'est le livrable attendu.
+Quelqu'un de technique dans une discussion commerciale parle souvent en termes techniques, transforme un arbitrage en revue d'architecture, et fait perdre quarante minutes à six personnes. Précise donc ce qu'on attend de sa participation. Pas une estimation. Trois lignes, en dates et en argent, sans un nom d'outil dedans. Ce qui est bon marché, ce qui est cher, ce qui est hors de portée. C'est une compétence, elle s'apprend en trois réunions, et quelqu'un doit dire que c'est le livrable attendu.
 
-Ici, la salle n'est souvent pas une réunion. C'est un appel, un dîner, une réponse à un investisseur sur WhatsApp un dimanche. Tu es dans toutes ces salles et personne d'autre n'y est. Ce que tu ne fais pas entrer avec toi n'entrera pas.
+Ici, les décisions ne se prennent pas toujours en réunion. C'est un appel, un dîner, une réponse à un investisseur sur WhatsApp un dimanche. Tu participes à tous ces échanges, souvent seul. Ce que tu ne fais pas entrer avec toi n'entrera pas.
 
 ## À essayer
 

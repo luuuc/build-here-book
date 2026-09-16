@@ -11,7 +11,7 @@ categories:
   - client
   - arbitrage
 seo:
-  description: "L'entrée précédente demande à quelqu'un de refuser du travail. Ce refus n'existe que si tu le rends survivable."
+  description: "L'entrée précédente demande à quelqu'un de refuser du travail. Encore faut-il que tu permettes ce refus sans désavouer celui qui le porte."
   keywords: "build here, produit, tech afrique, builder, conditions, feuille, route, personne, droit"
 ---
 
@@ -21,7 +21,7 @@ La roadmap est validée. Quelques jours plus tard, tu transfères un mail du cli
 
 > "Celui-là, on doit le faire !"
 
-Tu n'as pas tort. Les perdre termine l'année.
+Tu n'as pas tort. Perdre ce client compromettrait l'année.
 
 ## Le réflexe builder
 
@@ -29,13 +29,13 @@ Tu n'as pas tort. Les perdre termine l'année.
 
 ## Pourquoi
 
-L'entrée précédente demande à quelqu'un de refuser du travail. Ce refus n'existe que si tu le rends survivable.
+L'entrée précédente demande à quelqu'un de refuser du travail. Encore faut-il que tu permettes ce refus sans désavouer celui qui le porte.
 
-Chaque passage en force enseigne l'arithmétique. Dire non au fondateur, c'est risquer d'être désavoué devant l'équipe. Dire oui, il ne se passe rien. Deux tours de ça et la fonction produit arrête d'arbitrer et se met à transcrire. Tu diras plus tard qu'elle manque d'initiative.
+Chaque passage en force apprend à l'équipe ce qu'elle risque. Dire non au fondateur, c'est risquer d'être désavoué devant l'équipe. Dire oui, il ne se passe rien. Au bout de deux fois, la fonction produit arrête d'arbitrer et se met à transcrire. Tu diras plus tard qu'elle manque d'initiative.
 
-Tes propres idées sont plus difficiles, parce qu'elles n'arrivent pas comme un passage en force. Elles arrivent dans un couloir, avec ton nom dessus, et se construisent sans jamais passer les critères que la roadmap utilise. Personne ne vit ça comme une décision.
+Tes propres idées sont plus difficiles, parce qu'elles n'arrivent pas comme un passage en force. Elles arrivent dans un couloir, avec ton nom dessus, et se construisent sans jamais être examinées selon les critères de la feuille de route. Personne ne vit ça comme une décision.
 
-L'interruption est souvent justifiée, et c'est exactement ce qui la rend dangereuse. Le logo entreprise pour lequel tu as construit il y a dix-huit mois est encore dans le code, encore en train de peser sur chaque estimation, et il avait tout son sens le jour où tu as signé. Ce qui sépare un produit d'une file d'attente, ce n'est pas de refuser le gros client. C'est de nommer l'arbitrage à voix haute, contre quelque chose de précis qu'il a poussé dehors.
+L'interruption est souvent justifiée, et c'est exactement ce qui la rend dangereuse. Le développement sur mesure réalisé pour ce grand compte il y a dix-huit mois est encore dans le code, encore en train de peser sur chaque estimation, et il avait tout son sens le jour où tu as signé. Ce qui sépare un produit d'une file d'attente, ce n'est pas de refuser le gros client. C'est de nommer l'arbitrage à voix haute, en disant précisément quel autre travail doit céder la place.
 
 ## À essayer
 
@@ -46,7 +46,7 @@ L'interruption est souvent justifiée, et c'est exactement ce qui la rend danger
 ## Depuis ton siège
 
 - **Engineer** : une insertion qui ne nomme pas ce qu'elle déplace n'est pas une décision, c'est une file.
-- **Product** : ton non ne vaut que s'il survit en public. Regarde ce qui est arrivé aux trois derniers.
+- **Product** : la direction doit soutenir ton refus devant l'équipe. Regarde les trois derniers cas.
 - **Manager** : dire non au fondateur risque un désaveu public. Dire oui ne coûte rien. Change ce calcul.
 - **Customer-facing** : le client qui insiste le plus fort n'est pas le plus représentatif. Donne le nombre.
 - **Recrutement** : demande combien de fois le candidat a été désavoué après un refus, et ce qu'il en a fait.

@@ -11,7 +11,7 @@ categories:
   - visibilite
   - trace
 seo:
-  description: "Une personnalité doit être entretenue. Une référence, non. C'est toute la différence, et elle décide de ce que tu construis."
+  description: "La notoriété s'entretient. Un travail de référence continue de servir. C'est toute la différence, et elle décide de ce que tu construis."
   keywords: "build here, reference, visibilite, tech afrique, builder, personnalite"
 ---
 
@@ -27,13 +27,13 @@ Il y a deux façons d'être connu et elles ne se ressemblent pas. L'une doit êt
 
 ## Pourquoi
 
-Une personnalité s'arrête quand tu t'arrêtes, parce que ce que les gens consomment est ta présence. Trois mois sans rien publier et il ne reste rien, ce qui oblige à publier quoi qu'il arrive, y compris les semaines où tu n'as rien à dire. C'est ce mécanisme qui produit les avis sur l'avenir du secteur, et pas un défaut de caractère chez ceux qui les écrivent. Une référence ne s'arrête pas. Le postmortem écrit en 2023 est trouvé en 2027 par quelqu'un dont le problème vient d'arriver. Tu peux disparaître deux ans, changer d'entreprise, arrêter complètement, il continue de travailler sans toi.
+Une notoriété fondée sur ta seule présence s'efface quand tu cesses de te montrer. Trois mois sans rien publier et il ne reste rien, ce qui oblige à publier quoi qu'il arrive, y compris les semaines où tu n'as rien à dire. C'est ce mécanisme qui produit les avis sur l'avenir du secteur, et pas un défaut de caractère chez ceux qui les écrivent. Une référence ne s'arrête pas. Le postmortem écrit en 2023 est trouvé en 2027 par quelqu'un dont le problème vient d'arriver. Tu peux disparaître deux ans, changer d'entreprise, arrêter complètement, il continue de travailler sans toi.
 
 Le test tient en une question. Qu'est-ce qui reste si la personne cesse de publier six mois ? Une personnalité disparaît de la conversation. Une référence continue d'être citée par des gens qui ne savent pas si elle est encore active.
 
-Ce que ça change pour toi est la meilleure nouvelle de ce mouvement et elle est rarement dite. Tu n'as pas besoin d'être présent, régulier, sympathique, ni d'avoir un avis sur ce qui vient de se passer. Le prix est la vitesse. Une personnalité se construit en six mois. Une référence prend des années et rien ne compense ça. Si tu as besoin d'un résultat ce trimestre, ce n'est pas le bon chemin et il vaut mieux le savoir maintenant.
+Ce que ça change pour toi est la meilleure nouvelle de ce mouvement et elle est rarement dite. Tu n'as pas besoin d'être présent, régulier, sympathique, ni d'avoir un avis sur ce qui vient de se passer. En contrepartie, cela prend du temps. Une personnalité se construit en six mois. Une référence prend des années et rien ne compense ça. Si tu as besoin d'un résultat ce trimestre, ce n'est pas le bon chemin et il vaut mieux le savoir maintenant.
 
-Et quand ça marche, tu ne le verras pas. Quelqu'un calera son travail sur le tien sans te le dire, ne te citera jamais, et repartira. C'est le seul résultat qui compte et il est invisible, ce qui est très exactement le problème décrit au début de ce livre, retourné dans le bon sens.
+Et quand ça marche, tu ne le verras pas. Quelqu'un calera son travail sur le tien sans te le dire, ne te citera jamais, et repartira. C'est le seul résultat qui compte et il est invisible, ce qui est très exactement l'invisibilité décrite au début du livre, sauf que cette fois le travail circule.
 
 ## À essayer
 
@@ -46,7 +46,7 @@ Regarde laquelle des deux listes tu pourrais citer dans une décision technique 
 ## Depuis ton siège
 
 - **Engineer** : le postmortem écrit en 2023 est trouvé en 2027. Tu peux avoir arrêté entre-temps.
-- **Design** : tu n'as pas besoin d'être présent, régulier ni sympathique. Le prix est la lenteur.
+- **Design** : tu n'as pas besoin d'être présent, régulier ni sympathique. En contrepartie, il faut du temps.
 - **Founder** : une personnalité se construit en six mois, une référence en années. Rien ne compense ça.
 - **Manager** : ce que vous citez en décision technique vient de gens qui publient peu et durablement.
 - **Recrutement** : distingue celui qu'on voit souvent de celui qu'on cite. Ce ne sont pas les mêmes.

@@ -22,7 +22,7 @@ L'incident de mars, tu l'as expliqué quatre fois. À ton binôme, au support, e
 
 Quatre transmissions, quatre personnes, et le compteur s'arrête là. La cinquième explication n'aura pas lieu, parce que dans six mois tu ne sauras plus dans quel ordre les choses sont arrivées.
 
-Cette section porte sur la différence entre expliquer et laisser. Une explication a une audience de un, choisie par le hasard des couloirs. Une trace a une audience que tu ne choisis pas, que tu ne rencontreras pas, et qui arrive des années après toi.
+Cette section porte sur la différence entre une explication orale et une trace écrite. La première s'adresse à la personne que tu croises. La seconde peut servir, des années plus tard, à des lecteurs que tu n'as pas choisis et que tu ne rencontreras jamais.
 
 ---
 

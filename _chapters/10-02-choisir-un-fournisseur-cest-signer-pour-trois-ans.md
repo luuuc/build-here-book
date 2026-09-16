@@ -11,7 +11,7 @@ categories:
   - business
   - strategie
 seo:
-  description: "Certains choix d'engineering atterrissent directement dans le compte de résultat, et dans la facilité avec laquelle l'entreprise pourra changer d'avis plus tard."
+  description: "Certains choix techniques pèsent directement sur les résultats financiers et sur la possibilité de changer de direction plus tard."
   keywords: "build here, technologie et business, tech afrique, builder, choisir, fournisseur, signer, trois"
 ---
 
@@ -27,17 +27,17 @@ Personne d'extérieur ne regarde, jusqu'à la première facture ou la première 
 
 ## Pourquoi
 
-Certains choix d'engineering atterrissent directement dans le compte de résultat, et dans la facilité avec laquelle l'entreprise pourra changer d'avis plus tard. Un fournisseur de messagerie facturé au message, ce n'est rien à cinq mille par mois. À quatre cent mille, c'est une part visible de la marge, et à ce moment-là il est câblé dans l'inscription, les rappels et les reçus.
+Certains choix techniques pèsent directement sur les résultats financiers et sur la possibilité de changer de direction plus tard. Un fournisseur de messagerie facturé au message, ce n'est rien à cinq mille par mois. À quatre cent mille, c'est une part visible de la marge, et à ce moment-là il est intégré à l'inscription, les rappels et les reçus.
 
-Ensuite il y a la devise sur la facture. Le fournisseur facture en dollars. Tes clients paient dans la monnaie dans laquelle ils gagnent, et le taux entre les deux bouge pendant que tout le monde dort. Personne n'a décidé de prendre une position sur ce taux. Quelqu'un a choisi un fournisseur et la position est arrivée avec. Ça remonte des mois plus tard sous forme de marge qui a fondu sur un trimestre où les ventes ont monté, et la réunion qui suit portera sur les remises et les effectifs, parce que ce sont les parties qu'on peut montrer du doigt.
+Ensuite il y a la devise sur la facture. Le fournisseur facture en dollars. Tes clients paient dans la monnaie dans laquelle ils sont rémunérés, et le taux entre les deux bouge pendant que tout le monde dort. Personne n'a choisi de parier sur le taux de change. Mais le choix du fournisseur a exposé l'entreprise à ses variations. Ça remonte des mois plus tard sous forme de marge qui a fondu sur un trimestre où les ventes ont monté, et la réunion qui suit portera sur les remises et les effectifs, parce que ce sont les parties qu'on peut montrer du doigt.
 
-Tous les choix ne méritent pas ce traitement. Une librairie de logs se remplace en quelques heures. Le test n'est pas l'importance, c'est le coût de sortie. Si sortir prend plus de quelques semaines, ou si le prix monte avec ton chiffre d'affaires, ce n'est plus une affaire interne à l'engineering.
+Tous les choix ne méritent pas ce traitement. Une bibliothèque de logs se remplace en quelques heures. Le test n'est pas l'importance, c'est le coût de sortie. Si sortir prend plus de quelques semaines, ou si le prix monte avec ton chiffre d'affaires, ce n'est plus une affaire interne à l'engineering.
 
 Les ingénieurs sont en général les seuls à le voir venir, et en général les seuls absents de la salle où ça se signe.
 
 ## À essayer
 
-Pour tout choix qui rate le test, écris trois lignes lisibles par n'importe qui.
+Pour tout choix dont le coût de sortie est élevé, écris trois lignes lisibles par n'importe qui.
 
 > Coût aujourd'hui, et à dix fois le volume : 90k par mois, environ 700k
 > S'ils doublent les prix ou ferment : deux semaines de service dégradé, aucune alternative testée
@@ -48,8 +48,8 @@ Puis envoie-les avant de signer, pas après.
 ## Depuis ton siège
 
 - **Product** : un fournisseur câblé dans l'inscription, les rappels et les reçus n'est plus un choix technique.
-- **Founder** : il facture en dollars, tes clients paient en monnaie locale. Tu as pris une position.
-- **Manager** : le test n'est pas l'importance, c'est le coût de sortie. Plus de quelques semaines, tu montes.
+- **Founder** : il facture en dollars, tes clients paient en monnaie locale. Tu dépends du taux de change.
+- **Manager** : si changer de fournisseur prend plus de quelques semaines, consulte la direction.
 - **Customer-facing** : la panne du fournisseur, c'est toi qui l'expliques. Demande l'alternative avant.
 - **Recrutement** : chaque fournisseur choisi réduit le nombre de gens capables de le faire tourner ici.
 

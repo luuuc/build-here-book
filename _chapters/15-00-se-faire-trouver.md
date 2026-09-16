@@ -20,9 +20,9 @@ seo:
 
 Tu as écrit le postmortem. Il est dans un document interne, ou sur une page que personne n'a de raison d'ouvrir.
 
-Il est écrit et il est invisible, ce qui est un progrès d'exactement zéro.
+Il est écrit et il est invisible, personne de plus ne peut s'en servir.
 
-La distance entre écrit et trouvable est plus longue qu'elle n'en a l'air, et elle se parcourt dans le noir. Cette section porte sur l'endroit où poser la trace, sur ce que publier coûte réellement d'ici, et sur le moment où tu auras publié cinq fois sans que personne ne dise rien.
+Il reste du travail entre écrire un texte et permettre aux autres de le trouver, souvent sans savoir si l'on avance. Cette section porte sur l'endroit où poser la trace, sur ce que publier coûte réellement d'ici, et sur le moment où tu auras publié cinq fois sans que personne ne dise rien.
 
 ---
 

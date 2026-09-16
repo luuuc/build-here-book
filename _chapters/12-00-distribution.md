@@ -20,9 +20,9 @@ seo:
 
 Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du code.
 
-La construction est visible et le chemin ne l'est pas. C'est pour ça que le chemin est financé en dernier, par quelqu'un qui n'était dans aucune des décisions qui l'ont rendu nécessaire.
+On voit le produit se construire. On voit moins le travail nécessaire pour le faire connaître. C'est pour ça que ce travail est financé en dernier, par quelqu'un qui n'a participé à aucune des décisions qui l'ont rendu nécessaire.
 
-Cette section ferme le premier mouvement. Elle porte sur le produit qu'on ne trouve pas. Le mouvement suivant porte sur le builder qu'on ne trouve pas, et ce sont deux problèmes qui se ressemblent assez pour être confondus sans jamais être le même.
+Cette section ferme le premier mouvement. Elle porte sur le produit qu'on ne trouve pas. Le mouvement suivant porte sur le builder qu'on ne trouve pas, et ce sont deux problèmes qui se ressemblent assez pour être confondus tout en restant distincts.
 
 ---
 

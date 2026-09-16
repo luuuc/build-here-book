@@ -23,7 +23,7 @@ Le travail arrive prédécoupé. Savoir si le découpage était bon, c'est la qu
 
 ## Le réflexe builder
 
-Tu fermes le ticket, et tu ajoutes ce que tu as vu en le faisant. La cause est une couche en dessous, et voilà ce que tu changerais.
+Tu fermes le ticket, et tu ajoutes ce que tu as vu en le faisant. La cause est plus profonde, et voilà ce que tu changerais.
 
 ## Pourquoi
 
@@ -31,7 +31,7 @@ Celui qui écrit le ticket l'écrit depuis l'extérieur du code. Celui qui le fa
 
 "Le formulaire ne s'affiche pas sur mobile" est une tâche. "Personne sur mobile ne s'est inscrit depuis trois semaines" est un problème. L'un change une ligne de code. L'autre change ce sur quoi l'équipe travaille ensuite, et sur un marché où le téléphone est l'ordinateur, il change ce qu'est l'entreprise.
 
-Tu fais le ticket d'abord, toujours. La trouvaille voyage avec la livraison, elle ne la remplace jamais. Rends une analyse à la place d'un code qui marche et la prochaine sera lue comme une manœuvre.
+Tu fais le ticket d'abord, toujours. Ce que tu as découvert accompagne la livraison. Ça ne la remplace jamais. Rends une analyse à la place d'un code qui marche et la prochaine sera lue comme une manœuvre.
 
 ## À essayer
 
@@ -52,4 +52,4 @@ Personne ne les a demandées. C'est le principe.
 
 ## À discuter
 
-Quelqu'un ici a déjà découvert, en le faisant, que la tâche demandée n'était pas la bonne. Il l'a dit à qui ?
+Quelqu'un ici a déjà découvert, en réalisant une tâche, que la demande n'était pas la bonne. Il l'a dit à qui ?

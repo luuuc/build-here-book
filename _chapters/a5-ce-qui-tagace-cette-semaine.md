@@ -33,13 +33,13 @@ Les soixante-huit entrées y sont, chacune au moins une fois. Aucun classement p
 
 ## On exécute, et personne ne demande pourquoi
 
-- "C'est dans la spec, je construis."  →  [Si tu ne comprends pas le pourquoi, tu n'es pas prêt à construire](/chapters/01-02-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html)
-- Le ticket est fini, et ce que j'ai appris dedans est resté dedans  →  [N'apporte pas la tâche. Apporte le problème](/chapters/04-01-napporte-pas-la-tache-apporte-le-probleme.html)
-- Un mot passe en réunion depuis des mois et personne n'ose demander ce qu'il couvre  →  [Pose la question naïve tout de suite](/chapters/01-03-pose-la-question-naive-tout-de-suite.html)
+- "C'est dans la spec, je construis."  →  [Si tu ne comprends pas pourquoi, tu n'es pas prêt à construire](/chapters/01-02-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html)
+- Le ticket est fini, et je n'ai partagé aucune de mes découvertes  →  [N'apporte pas la tâche. Apporte le problème](/chapters/04-01-napporte-pas-la-tache-apporte-le-probleme.html)
+- Un mot passe en réunion depuis des mois et personne n'ose demander ce qu'il veut dire  →  [Pose la question naïve tout de suite](/chapters/01-03-pose-la-question-naive-tout-de-suite.html)
 - Personne n'a jamais ouvert le code de ce dont le produit dépend  →  [Lis le code source](/chapters/06-03-lis-le-code-source.html) · [La curiosité est facturable](/chapters/01-01-la-curiosite-est-facturable.html)
-- Chacun lit dans son couloir, et les problèmes vivent entre les couloirs  →  [Lis en dehors de ton couloir](/chapters/01-04-lis-en-dehors-de-ton-couloir.html)
+- Chacun reste dans son domaine, et personne ne voit les problèmes entre équipes  →  [Lis en dehors de ton couloir](/chapters/01-04-lis-en-dehors-de-ton-couloir.html)
 - On a corrigé le symptôme et on ne sait toujours pas pourquoi ça cassait  →  [Ne t'arrête pas à la première réponse](/chapters/01-05-ne-tarrete-pas-a-la-premiere-reponse.html)
-- Les questions qu'on me pose restent sans réponse, alors on a arrêté de poser  →  [⇄ Personne ne demande deux fois](/chapters/01-06-leader-personne-ne-demande-deux-fois.html)
+- Les questions qu'on me pose restent sans réponse, alors on a arrêté de m'en poser  →  [⇄ Personne ne demande deux fois](/chapters/01-06-leader-personne-ne-demande-deux-fois.html)
 
 ## Personne ne dit ce qu'il pense
 
@@ -48,19 +48,19 @@ Les soixante-huit entrées y sont, chacune au moins une fois. Aucun classement p
 - Les revues de code sont devenues fluides, et le code moins bon  →  [Ton code n'est pas ton bébé](/chapters/02-03-ton-code-nest-pas-ton-bebe.html)
 - On improvise une réponse plausible au lieu de dire je ne sais pas  →  ["Je ne sais pas" est une réponse professionnelle](/chapters/02-04-je-ne-sais-pas-est-une-reponse-professionnelle.html)
 - La discussion s'arrête à la seconde où celui qui tranche exprime une préférence  →  [Trancher et avoir raison sont deux métiers différents](/chapters/03-03-trancher-et-avoir-raison-sont-deux-metiers-differents.html)
-- Signaler une erreur coûte quelque chose ici, et tout le monde l'a compris  →  [⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute](/chapters/02-05-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html)
+- Signaler une erreur coûte quelque chose ici, et tout le monde l'a compris  →  [⇄ Si reconnaître une erreur te discrédite, plus personne ne le fera](/chapters/02-05-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html)
 - "Ma porte est ouverte", et personne n'entre  →  [⇄ Tu ne peux pas demander de la franchise et garder le dernier mot](/chapters/03-05-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html)
 
 ## On livre, et rien ne change pour personne
 
 - Dix-huit tickets fermés, et rien qu'un client sache faire de neuf  →  [Le ticket n'est pas le travail](/chapters/05-01-le-ticket-nest-pas-le-travail.html)
 - On construit ce qui était dans un document validé il y a deux ans  →  [Valider une spec ne la rend pas juste](/chapters/05-02-valider-une-spec-ne-la-rend-pas-juste.html)
-- Six semaines de polissage, et personne dehors n'a encore vu l'écran  →  [Plus tu peaufines, plus il devient difficile de changer d'avis](/chapters/05-05-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html)
-- Un gros client a demandé une fonctionnalité précise, on l'a construite à la lettre  →  [Une demande de feature n'est pas le problème](/chapters/11-03-une-demande-de-feature-nest-pas-le-probleme.html)
+- Six semaines de polissage, et personne à l'extérieur n'a encore vu l'écran  →  [Plus tu peaufines, plus il devient difficile de changer d'avis](/chapters/05-05-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html)
+- Un gros client a demandé une fonctionnalité précise, on l'a construite à la lettre  →  [Une demande de fonctionnalité n'est pas le problème](/chapters/11-03-une-demande-de-feature-nest-pas-le-probleme.html)
 - Personne dans la salle n'a parlé à un utilisateur ce mois-ci  →  [Parle à la personne qui a le problème](/chapters/11-02-parle-a-la-personne-qui-a-le-probleme.html)
-- Le support est piloté sur le temps de réponse, et la file ne change jamais de nature  →  [Le support client, c'est de la recherche produit avec des participants énervés](/chapters/11-01-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html)
+- Le support est piloté sur le temps de réponse, et les mêmes demandes reviennent toujours  →  [Le support client, c'est de la recherche produit avec des participants énervés](/chapters/11-01-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html)
 - La démo s'ouvre sur l'architecture, et le client attend poliment  →  [Le client ne s'intéresse pas à ton architecture](/chapters/05-04-le-client-ne-sinteresse-pas-a-ton-architecture.html)
-- Le product transcrit les demandes au lieu d'arbitrer  →  [Le product, ce n'est pas la personne qui écrit les tickets](/chapters/05-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html) · [⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente](/chapters/05-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)
+- Le product transcrit les demandes au lieu d'arbitrer  →  [Le rôle du product, ce n'est pas de rédiger des tickets](/chapters/05-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html) · [⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente](/chapters/05-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)
 - Un ingénieur qui veut vingt minutes avec un client doit passer par trois personnes  →  [⇄ L'accès au client est un budget, pas une valeur](/chapters/11-05-leader-lacces-au-client-est-un-budget-pas-une-valeur.html)
 
 ## Tout arrive en retard, et personne ne sait où le temps est passé
@@ -68,7 +68,7 @@ Les soixante-huit entrées y sont, chacune au moins une fois. Aucun classement p
 - Les retards se découvrent la veille de la démo  →  [Une bonne nouvelle peut attendre. Une mauvaise, non](/chapters/04-04-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
 - On attend le collègue qui sait, et il revient la semaine prochaine  →  [Être bloqué est une décision](/chapters/04-05-etre-bloque-est-une-decision.html)
 - On discute l'échéance au lieu de discuter le périmètre  →  [Rapide ne veut pas dire précipité](/chapters/07-03-rapide-ne-veut-pas-dire-precipite.html)
-- Le travail reste à l'abri jusqu'à ce qu'il soit prêt, donc on n'apprend rien  →  [Shipper crée de l'information](/chapters/07-02-shipper-cree-de-linformation.html)
+- Le travail reste à l'abri jusqu'à ce qu'il soit prêt, donc on n'apprend rien  →  [Livrer permet d'apprendre](/chapters/07-02-shipper-cree-de-linformation.html)
 - Le système est devenu compliqué sans que personne l'ait décidé  →  [Faire simple est une performance technique](/chapters/06-02-faire-simple-est-une-performance-technique.html)
 - "Ce n'est pas dans mon périmètre", et le problème est là depuis deux ans  →  [L'ownership commence là où la fiche de poste s'arrête](/chapters/04-02-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html)
 - Quelqu'un a pris une initiative utile et s'est fait reprendre sur la forme  →  [⇄ La première réaction fait la règle](/chapters/04-06-leader-la-premiere-reaction-fait-la-regle.html)
@@ -77,12 +77,12 @@ Les soixante-huit entrées y sont, chacune au moins une fois. Aucun classement p
 
 ## On ne progresse plus, et rien ne le signale
 
-- Le plus fort de l'équipe est devenu la définition du bon  →  [Ton meilleur professeur ne travaille pas ici](/chapters/08-01-ton-meilleur-professeur-ne-travaille-pas-ici.html)
+- Le meilleur de l'équipe est devenu notre seule référence  →  [Ton meilleur professeur ne travaille pas ici](/chapters/08-01-ton-meilleur-professeur-ne-travaille-pas-ici.html)
 - "Pour ce marché, c'est largement suffisant"  →  [Ton marché peut être local. Ton niveau, non](/chapters/08-04-ton-marche-peut-etre-local-ton-niveau-non.html)
 - "On n'a pas accès aux mêmes choses ici"  →  [Le savoir n'est pas ce qui te manque](/chapters/08-05-le-savoir-nest-pas-ce-qui-te-manque.html)
 - On dépend de projets ouverts dont personne n'a jamais lu les discussions  →  [L'open source est une salle de classe](/chapters/08-02-lopen-source-est-une-salle-de-classe.html)
 - Progresser se fait le soir, sur son temps à soi  →  [⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser](/chapters/08-06-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html)
-- Un arbitrage prudent a mal tourné et a été traité comme une faute  →  [Une bonne décision peut quand même perdre](/chapters/09-02-une-bonne-decision-peut-quand-meme-perdre.html)
+- Un arbitrage prudent a mal tourné et a été traité comme une faute  →  [Une bonne décision peut quand même mal tourner](/chapters/09-02-une-bonne-decision-peut-quand-meme-perdre.html)
 - La même plainte sur l'équipe revient depuis plus d'un an  →  [On fabrique l'environnement dont on se plaint](/chapters/09-06-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
 - "On a cherché, il n'y a personne de ce niveau ici"  →  [Le filtre que tu fais tourner](/chapters/09-07-le-filtre-que-tu-fais-tourner.html)
 
@@ -94,9 +94,9 @@ Les soixante-huit entrées y sont, chacune au moins une fois. Aucun classement p
 - Le produit est bon et personne ne le trouve  →  [La distribution fait partie du produit](/chapters/12-02-la-distribution-fait-partie-du-produit.html) · [Une audience met plus de temps à se construire qu'un produit](/chapters/12-01-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html)
 - Le marketing arrive à la fin, pour rendre la chose présentable  →  [Le marketing n'est pas de la décoration](/chapters/12-04-le-marketing-nest-pas-de-la-decoration.html)
 - Notre première phrase parle de nous  →  [Parle du problème avant de parler de toi](/chapters/12-05-parle-du-probleme-avant-de-parler-de-toi.html)
-- On demande d'être plus visibles, et chaque heure du plan a une fonctionnalité dessus  →  [⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités](/chapters/12-06-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html)
+- On demande d'être plus visibles, et chaque heure prévue est consacrée à une fonctionnalité  →  [⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités](/chapters/12-06-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html)
 
-## On est bons, et personne dehors ne le sait
+## On est bons, et personne à l'extérieur ne le sait
 
 - Quinze ans de métier, et zéro trace que quelqu'un puisse ouvrir  →  [Mets ton nom dessus](/chapters/14-01-mets-ton-nom-dessus.html) · [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/chapters/16-04-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
 - L'incident est réglé, tout le monde ici sait ce qui s'est passé, rien n'est écrit  →  [Écris ce qui a cassé](/chapters/14-03-ecris-ce-qui-a-casse.html)

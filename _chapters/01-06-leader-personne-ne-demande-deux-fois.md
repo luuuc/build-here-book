@@ -11,7 +11,7 @@ categories:
   - apprentissage
   - engineering
 seo:
-  description: "Une question est une boucle avec une latence. Tu demandes, tu attends, rien ne revient, tu apprends."
+  description: "Tu poses une question, tu attends, personne ne répond. Tu en retiens qu'il est inutile de demander."
   keywords: "build here, curiosite, tech afrique, builder, conditions, personne, demande, deux, fois"
 ---
 
@@ -25,13 +25,13 @@ Tu vois le comportement, tu l'attribues aux personnes, et tu réserves une forma
 
 > "À quand remonte la dernière vraie question qu'on m'a posée, et combien de temps j'ai mis à répondre ?"
 
-La curiosité n'est pas un trait de caractère. C'est une réponse à une salle.
+La curiosité ne dépend pas seulement du caractère. Elle dépend aussi de la façon dont l'équipe accueille les questions.
 
 ## Pourquoi
 
-Une question est une boucle avec une latence. Tu demandes, tu attends, rien ne revient, tu apprends.
+Tu poses une question, tu attends, personne ne répond. Tu en retiens qu'il est inutile de demander.
 
-Les gens arrêtent pour des raisons qui se tiennent depuis leur place. La question a été posée en avril et n'a jamais eu de réponse. Le plan a été construit avec des heures d'exécution pures et rien autour. La dernière personne qui a contesté une décision s'est fait rappeler, aimablement, que ce n'était pas son arbitrage. Une équipe qui exécute sans comprendre a été dressée à le faire, en général par quelqu'un qui n'avait aucune intention de l'enseigner.
+Les gens arrêtent pour des raisons compréhensibles quand on se met à leur place. La question a été posée en avril et n'a jamais eu de réponse. Le plan a été construit en ne comptant que le temps d'exécution. La dernière personne qui a contesté une décision s'est fait rappeler, aimablement, que ce n'était pas son arbitrage. Une équipe qui exécute sans comprendre a été dressée à le faire, en général par quelqu'un qui n'avait aucune intention de l'enseigner.
 
 "Mais je réponds, et ils ne demandent quand même pas." Alors vérifie où la réponse a atterri. Une réponse donnée dans une réunion à trois n'a pas atteint les onze qui n'y étaient pas. Puis vérifie ce qui est arrivé à la dernière personne qui a eu raison contre toi en public. Tout le monde a regardé, tout le monde en a tiré une conclusion, et personne ne l'a écrite.
 
@@ -49,7 +49,7 @@ Une réponse en trois semaines est un non avec de meilleures manières. Dis plut
 - **Product** : le pourquoi que tu ne mets pas dans le ticket sera inventé par celui qui l'exécute.
 - **Founder** : une réponse en trois semaines est un non avec de meilleures manières.
 - **Customer-facing** : tu détiens le pourquoi sous sa forme brute. Colle la phrase du client au ticket.
-- **Recrutement** : tu ne recruteras pas la curiosité que ta salle éteint en six semaines.
+- **Recrutement** : inutile de recruter des gens curieux si ton équipe les décourage en six semaines.
 
 ## À discuter
 

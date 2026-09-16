@@ -29,9 +29,9 @@ En face, le client attend poliment la partie qui le concerne.
 
 Personne n'achète une architecture. Les gens achètent du temps récupéré, un risque écarté, une chose de moins à vérifier.
 
-Le travail technique invisible compte, et c'est lui qui rend le reste possible. Mais il doit être traduit pour exister aux yeux de ceux qui le financent. Une équipe qui ne traduit jamais se prend un mur au moment du budget. Personne dans la salle ne sait relier six mois de reprise à quoi que ce soit qu'un client ait ressenti, donc l'ensemble se lit comme de la dépense.
+Le travail technique invisible compte, et c'est lui qui rend le reste possible. Mais il doit être traduit pour exister aux yeux de ceux qui le financent. Une équipe qui n'explique jamais l'utilité de son travail se heurte à un mur au moment du budget. Personne dans la salle ne sait relier six mois de reprise à quoi que ce soit qu'un client ait ressenti, donc l'ensemble se lit comme de la dépense.
 
-Certains projets résistent à l'exercice, et c'est là que les équipes abandonnent tôt. La rotation des clés. Une piste d'audit. La logique de retry derrière les paiements. Aucune fonctionnalité au bout. La phrase existe quand même, elle décrit simplement quelque chose qui cesse de se produire. "Un paiement échoué disparaissait en silence et le vendeur l'apprenait par le client." Ça survit à une réunion budget. Si aucune version de cette phrase n'existe à aucun temps, ça te dit quelque chose sur le projet.
+Certains projets résistent à l'exercice, et c'est là que les équipes abandonnent tôt. La rotation des clés. Une piste d'audit. La logique de retry derrière les paiements. Aucune fonctionnalité au bout. La phrase existe quand même, elle décrit simplement quelque chose qui cesse de se produire. "Un paiement qui avait échoué disparaissait en silence et le vendeur l'apprenait par le client." Ça se défend en réunion budgétaire. Si tu n'arrives à décrire aucun bénéfice, passé ou attendu, interroge-toi sur l'utilité du projet.
 
 ## À essayer
 
@@ -40,11 +40,11 @@ Pour chaque projet technique en cours, écris l'avant et l'après avec les mots 
 > Avant : le vendeur attendait la fermeture pour savoir s'il avait été payé.
 > Après : il le voit arriver.
 
-Lis-le à quelqu'un du commercial. S'il pose une question de suite, ça fonctionne.
+Lis-le à quelqu'un du commercial. S'il pose aussitôt une question, ça fonctionne.
 
 ## Depuis ton siège
 
-- **Product** : si aucune phrase client n'existe à aucun temps, ça te dit quelque chose sur le projet.
+- **Product** : si tu ne sais pas expliquer le bénéfice pour le client, interroge-toi sur le projet.
 - **Founder** : six mois de reprise que personne ne relie à un client se lisent comme de la dépense.
 - **Manager** : demande la phrase client avant de financer, pas au moment du budget.
 - **Customer-facing** : tu es le traducteur par défaut. Exige la phrase avant d'annoncer quoi que ce soit.

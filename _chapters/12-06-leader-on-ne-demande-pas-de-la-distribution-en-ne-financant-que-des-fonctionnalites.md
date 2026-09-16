@@ -19,17 +19,17 @@ seo:
 
 > "Personne ne sait qu'on existe. Il faut être plus visibles ce trimestre."
 
-Dit en all-hands. Puis la revue de roadmap commence, et chaque heure dessus a une fonctionnalité attachée.
+Dit devant toute l'entreprise. Puis la revue de roadmap commence, et chaque heure prévue est consacrée à une fonctionnalité.
 
 ## Le réflexe builder
 
-> "Si publier compte, ça a un propriétaire nommé, un créneau, et ça survit à un mauvais mois."
+> "Si publier compte, on désigne un responsable et on lui réserve un créneau, même quand le mois se passe mal."
 
 ## Pourquoi
 
 La visibilité est demandée et jamais financée. Celui qui a passé l'après-midi à écrire arrive au point hebdo sans rien de livré, à côté de quelqu'un qui a fermé quatre tickets. Tu n'as jamais besoin de punir ça. Demander ce qui a été livré, chaque semaine, suffit. Il retournera aux tickets, et il aura raison.
 
-L'arithmétique ne se corrigera pas toute seule. Une fonctionnalité rembourse en deux semaines ; une audience, en six mois ; le positionnement, jamais d'une manière que tu puisses attribuer. Tout ce qui est à six mois perd chaque arbitrage dans lequel il entre, sauf si quelqu'un décide à l'avance qu'il n'y entre pas. Personne en dessous de toi ne peut prendre cette décision.
+Ce déséquilibre ne se corrigera pas tout seul. Une fonctionnalité peut rapporter en deux semaines ; une audience, en six mois. Les effets du positionnement, eux, sont difficiles à isoler. Le travail qui ne rapporte que dans six mois passe après le reste, sauf si quelqu'un protège ce temps à l'avance. Personne en dessous de toi ne peut prendre cette décision.
 
 Les félicitations ne sont pas une protection. Le trimestre se passe mal, quelque chose doit sauter, et le créneau d'écriture est la chose la moins chère du tableau parce que rien ne casse quand il part. Ce que tu coupes en premier est lu comme ce que tu voulais dire depuis le début, et la lecture est juste.
 
@@ -43,8 +43,8 @@ Les questions de positionnement subissent le même sort. Une semaine à débattr
 
 ## Depuis ton siège
 
-- **Engineer** : l'après-midi passé à écrire arrive au point hebdo sans rien de livré. Nomme-le un livrable.
-- **Product** : une fonctionnalité rembourse en deux semaines, une audience en six mois. Le second perd.
+- **Engineer** : au point hebdo, présente le texte que tu as écrit comme un résultat du travail.
+- **Product** : une fonctionnalité rapporte plus vite qu'une audience. Protège le travail à long terme.
 - **Founder** : ce que tu coupes en premier est lu comme ce que tu voulais dire. La lecture est juste.
 - **Customer-facing** : on te demande de la visibilité sans créneau. Demande le créneau, avec un nom dessus.
 - **Recrutement** : une entreprise que personne ne connaît recrute par recommandation. Tu connais ce filtre.

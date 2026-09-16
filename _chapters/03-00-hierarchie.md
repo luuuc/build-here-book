@@ -22,7 +22,7 @@ Cette section ne plaide pas contre la hiérarchie. Une organisation a besoin de 
 
 Elle plaide contre une confusion précise. Celle où ta position sur l'organigramme décide de ce qui est vrai.
 
-Cette confusion n'a rien d'africain, quoi qu'on te raconte. Elle tourne à Munich et elle tourne à Palo Alto. Ce qui change ici, c'est le nombre de gens qui ne se sont jamais assis dans une salle où elle ne tournait pas, donc le nombre de gens qui savent qu'une salle peut se construire autrement.
+Cette confusion n'a rien d'africain, quoi qu'on te raconte. On la retrouve à Munich comme à Palo Alto. Ce qui change ici, c'est le nombre de gens qui n'ont jamais connu d'autre façon de travailler. Ils sont donc moins nombreux à savoir qu'on peut organiser une équipe autrement.
 
 ---
 

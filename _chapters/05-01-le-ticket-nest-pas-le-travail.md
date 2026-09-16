@@ -29,7 +29,7 @@ Personne ne demande ce qu'un client peut faire aujourd'hui qu'il ne pouvait pas 
 
 Un ticket est un outil de coordination. Il empêche quatre personnes de se marcher dessus sur le même fichier. C'est tout ce pour quoi il a été construit.
 
-Il devient un problème le jour où il se transforme en unité de mesure. La façon la moins chère de faire monter un compteur, c'est de découper le travail plus fin. Les tickets rétrécissent, le tableau a l'air plus sain chaque semaine, le produit reste où il était. Il n'y a pas de tricherie. Les gens visent ce qui est regardé.
+Il devient un problème le jour où il se transforme en unité de mesure. La façon la plus simple de faire monter un compteur, c'est de découper le travail plus fin. Les tickets rétrécissent, le tableau a l'air meilleur chaque semaine, le produit reste où il était. Il n'y a pas de tricherie. Les gens privilégient ce sur quoi on les évalue.
 
 Garde le tableau. Compter n'a jamais été le problème. Ne compter que ça, si. Une équipe qui annonce son chiffre et ne peut nommer une seule chose qu'un utilisateur sait faire maintenant a passé trois semaines à être occupée.
 
@@ -43,7 +43,7 @@ Remplis-la, ou laisse-la vide. Vide, à côté de trente tickets fermés, ça en
 
 ## Depuis ton siège
 
-- **Product** : découpe pour livrer utilisable plus tôt, jamais pour faire monter le compteur.
+- **Product** : découpe pour livrer plus tôt quelque chose d'utilisable, jamais pour faire monter le compteur.
 - **Founder** : la vélocité n'est pas un chiffre à montrer à ton conseil.
 - **Manager** : ce que tu regardes en revue devient ce que l'équipe optimise.
 - **Customer-facing** : si la note de version est vide, elle le dira au client à ta place.

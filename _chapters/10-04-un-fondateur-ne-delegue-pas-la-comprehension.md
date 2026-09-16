@@ -29,11 +29,11 @@ La confiance est réelle et souvent méritée. Elle sert aussi de permission de 
 
 Déléguer l'exécution, c'est le métier. Déléguer la compréhension laisse un dirigeant incapable d'évaluer quoi que ce soit de ce qu'on lui dit.
 
-Un ingénieur dit six semaines. Estimation honnête, marge cachée, ou optimisme fou ? Sans modèle de ce dont le produit est fait, l'estimation est soit avalée telle quelle, soit contestée à l'instinct. Pareil pour un incident. Grave ou banal ? Le seul signal qui reste est le niveau d'inquiétude de celui qui le rapporte, ce qui mesure son tempérament et rien d'autre.
+Un ingénieur dit six semaines. Estimation honnête, marge cachée, ou optimisme fou ? Si tu ne comprends pas comment le produit est construit, tu acceptes l'estimation telle quelle ou tu la contestes à l'instinct. Pareil pour un incident. Grave ou banal ? Le seul signal qui reste est le niveau d'inquiétude de celui qui le rapporte, ce qui mesure son tempérament et rien d'autre.
 
-Disons que le plan est de passer à un prestataire de paiement moins cher le trimestre prochain. Tout le monde acquiesce. Ce qui n'est pas dit, c'est que l'actuel est le seul câblé sur les rails locaux, et que partir veut dire reconstruire le tunnel de paiement, la réconciliation et les remboursements, pas échanger une clé. Personne n'a menti. La question venait de quelqu'un sans moyen d'entendre la réponse, donc elle est revenue à la taille de la question.
+Disons que le plan est de passer à un prestataire de paiement moins cher le trimestre prochain. Tout le monde acquiesce. Ce qui n'est pas dit, c'est que l'actuel est le seul câblé sur les rails locaux, et que partir veut dire reconstruire le tunnel de paiement, la réconciliation et les remboursements, pas échanger une clé. Personne n'a menti. La question venait de quelqu'un sans moyen d'entendre la réponse, donc la réponse s'est limitée à ce qu'il était capable de demander.
 
-La barre est plus basse que ne le supposent la plupart des fondateurs non techniques. Pas programmer. Savoir de quoi le produit est fait, quelles parties sont fragiles, ce qui est cher à changer. Quelques heures par an, pas une reconversion, et pas un permis de commencer à relire des pull requests.
+Il en faut moins que ne le supposent la plupart des fondateurs non techniques. Pas programmer. Savoir de quoi le produit est fait, quelles parties sont fragiles, ce qui est cher à changer. Quelques heures par an, pas une reconversion, et pas un permis de commencer à relire des pull requests.
 
 ## À essayer
 
@@ -45,11 +45,11 @@ Deux heures. Les arrêts sont l'exercice, pas une interruption de l'exercice.
 
 ## Depuis ton siège
 
-- **Engineer** : quand la question arrive petite, la réponse revient petite. Donne ce qu'on n'a pas demandé.
-- **Product** : six semaines, honnête ou avec marge ? Sans modèle, tu avales ou tu contestes à l'instinct.
+- **Engineer** : une question limitée appelle une réponse limitée. Explique aussi ce qu'on n'a pas pensé à demander.
+- **Product** : sans comprendre le produit, tu acceptes ou refuses les estimations à l'instinct.
 - **Design** : un produit que la direction ne sait pas dessiner au tableau se conçoit par morceaux.
 - **Customer-facing** : tu promets ce que tu crois simple. Demande une fois de quoi le produit est fait.
-- **Recrutement** : sans modèle du produit, tu recrutes sur l'aisance. C'est le filtre du début de ce livre.
+- **Recrutement** : sans comprendre le produit, tu recrutes sur l'aisance. C'est le filtre du début de ce livre.
 
 ## À discuter
 

@@ -21,7 +21,7 @@ Chez Douglas Adams[^adams], la galaxie a une encyclopédie, et cette encyclopéd
 
 L'entrée dit, intégralement : **Globalement inoffensive.**
 
-Deux mots pour une planète. Classée par quelqu'un qui est passé, s'est fait une idée, et a continué sa route. L'entrée fait la longueur de l'attention qu'on y a mise.
+Deux mots pour une planète. Classée par quelqu'un qui est passé, s'est fait une idée, et a continué sa route. La longueur de l'entrée dit le peu d'attention qu'on lui a accordé.
 
 L'industrie tech a une entrée pour ce continent. Elle dit, intégralement :
 
@@ -33,16 +33,16 @@ Tu peux trouver **le mot agaçant**. L'agacement est la réaction la moins utile
 
 Regarde plutôt le nombre de gens ici qui l'ont lu, qui ont trouvé qu'il était juste, et qui ont réglé leurs ambitions sur ce qu'on attendait d'eux.
 
-Le mot n'est pas le problème. Le niveau est là. Il n'est simplement jamais devenu le standard, parce que presque personne ne le voit travailler.
+Le mot n'est pas le problème. Le niveau est là. Il n'est simplement jamais devenu le standard, parce que presque personne ne voit ceux qui l'atteignent à l'œuvre.
 
-Ce playbook est l'entrée longue.
+Ce guide en propose la version longue.
 Une idée. Elle tient seule. Deux minutes.
 
 ## Ce qui tourne déjà
 
 Ushahidi a été écrit à Nairobi en 2008[^ushahidi], pendant les violences post-électorales, pour cartographier ce que les gens signalaient par SMS. Le code est ouvert. Il a été déployé plus de 100 000 fois, dans 159 pays, en 45 langues, par des gens qui n'ont jamais mis les pieds à Nairobi.
 
-MainOne a allumé en juillet 2010 un câble sous-marin de 7 000 kilomètres entre le Portugal et Lagos[^mainone]. Funke Opeke avait quitté vingt ans de carrière aux États-Unis, dont Verizon, pour rentrer le poser.
+MainOne a mis en service en juillet 2010 un câble sous-marin de 7 000 kilomètres entre le Portugal et Lagos[^mainone]. Funke Opeke avait quitté les États-Unis après vingt ans de carrière, notamment chez Verizon, pour rentrer mener ce projet.
 
 InstaDeep a démarré à Tunis en 2014, avec deux ordinateurs et deux mille dollars[^instadeep]. Ses modèles servent aujourd'hui à concevoir des médicaments.
 
@@ -52,9 +52,9 @@ Helium Health est née à Lagos en 2016[^helium]. 7 000 soignants s'en servent, 
 
 Yassir tourne depuis Alger[^yassir]. Huit millions d'utilisateurs, six pays.
 
-Depuis 2020, à Abidjan, Djamo fait passer l'argent d'un million de personnes en Côte d'Ivoire et au Sénégal[^djamo]. 4,5 milliards de dollars sur des rails que 250 personnes tiennent.
+Depuis 2020, à Abidjan, Djamo fait passer l'argent d'un million de personnes en Côte d'Ivoire et au Sénégal[^djamo]. 4,5 milliards de dollars acheminés par une infrastructure que 250 personnes font fonctionner.
 
-Lelapa AI s'est monté à Johannesburg en 2022[^lelapa]. L'équipe a entraîné InkubaLM depuis zéro, un modèle de langue pour l'isiZulu, le yoruba, le haoussa, le swahili et l'isiXhosa. Les poids sont publiés. N'importe qui peut les télécharger ce soir.
+Lelapa AI s'est monté à Johannesburg en 2022[^lelapa]. L'équipe a entraîné InkubaLM à partir de zéro, un modèle de langue pour l'isiZulu, le yoruba, le haoussa, le swahili et l'isiXhosa. Les poids sont publiés. N'importe qui peut les télécharger ce soir.
 
 ...Et une centaine d'autres.
 
@@ -65,27 +65,27 @@ Rien d'émergent là-dedans. Juste des builders qui tiennent la comparaison avec
 
 ## Là où je me suis planté
 
-À partir de 2018, dans Afrikrea devenue Anka, je voulais monter une équipe produit et engineering à l'échelle du continent.
+À partir de 2018, dans Afrikrea devenue Anka, je voulais monter une équipe de conception et de développement produit à l'échelle du continent.
 
-Pas une équipe de delivery. Des builders. Des gens qui demandent pourquoi avant de demander comment. Qui rouvrent une spec en réunion et disent ce qui ne va pas dedans. Qui vont lire le code source quand la doc est mince. Qui arrivent avec le problème qu'ils ont trouvé sous la tâche, et qui savent dire "je ne sais pas" sans que leur voix change.
+Pas une équipe qui se contente d'exécuter les commandes. Des builders. Des gens qui demandent pourquoi avant de demander comment. Qui rouvrent une spec en réunion et disent ce qui ne va pas dedans. Qui vont lire le code source quand la doc est mince. Qui arrivent avec le problème qu'ils ont trouvé sous la tâche, et qui savent dire "je ne sais pas" sans que leur voix change.
 
 J'ai cherché pendant deux ans.
 
 J'ai utilisé tous les canaux qui existent ici. Les recommandations de ceux qui connaissent tout le monde. Les noms qui remontent des événements. Les profils transférés avec "celui-là est excellent, tu vas voir". Les pubs ciblées dans les communautés tech. Les gens déjà visibles, parce que visible, c'est ce qu'un canal renvoie.
 
-Et je tombais souvent sur un type de candidat. À l'aise. Extrêmement bien connecté. Excellent en visio. Capable de décrire une architecture à l'altitude d'un talk de conférence, et incapable de dire ce qui avait cassé dedans en production, parce que rien n'avait cassé, parce que ça n'avait jamais tourné.
+Et je tombais souvent sur un type de candidat. À l'aise. Extrêmement bien connecté. Excellent en visio. Capable de décrire une architecture dans les grandes lignes, comme dans une conférence, et incapable de dire ce qui avait cassé dedans en production, parce que rien n'avait cassé, parce que ça n'avait jamais tourné.
 
 Et plus ma startup grossissait, plus le canal m'en renvoyait. Une entreprise qui fait des millions et qui lève des millions, c'est l'endroit où il faut se montrer. Elle attire donc en priorité ceux qui savent se montrer.
 
 Je veux être précis ici, parce que c'est l'endroit où ce livre pourrait déraper en une phrase.
 
-Ces gens ne sont pas des imposteurs et ce ne sont pas les méchants de l'histoire. Ce sont des gens qui se sont correctement adaptés. Sur un marché où être connu paie mieux que livrer, devenir connu est la carrière rationnelle. N'importe qui jouerait ce coup. Beaucoup d'entre eux sont bons à des choses qui comptent. Ils n'étaient pas ce que je cherchais, et c'était tout ce que le système avait à me tendre.
+Ces gens ne sont pas des imposteurs et ce ne sont pas les méchants de l'histoire. Ce sont des gens qui se sont correctement adaptés. Sur un marché où être connu paie mieux que livrer, devenir connu est la carrière rationnelle. N'importe qui jouerait ce coup. Beaucoup d'entre eux sont bons à des choses qui comptent. Ils n'étaient pas ce que je cherchais, et c'étaient les seuls profils que mes recherches me permettaient de trouver.
 
 Alors j'ai conclu la chose évidente. Les builders ne sont pas ici.
 
 J'ai recruté à l'international. J'ai monté mon équipe. J'ai rangé l'autre projet et j'ai arrêté d'en parler. Et pendant longtemps j'ai cru avoir appris quelque chose. Ce que j'avais appris était plus étroit, et bien pire.
 
-J'avais fait tourner un filtre. Le filtre a renvoyé exactement ce pour quoi il était construit. Et j'ai lu sa sortie comme un fait.
+Ma recherche agissait comme un filtre. Elle sélectionnait exactement les profils qu'elle était conçue pour trouver. J'en ai tiré une conclusion sur tous les autres.
 
 Les builders étaient là depuis le début. Certains à une heure de mon bureau à Cocody, d'autres au Nigéria, au Bénin, en Guinée, au Kenya, au Cameroun, au Rwanda, au Ghana, partout.
 
@@ -105,32 +105,32 @@ Le même bâtiment tient debout ici. En bas, ceux qui écrivent le code et qui t
 
 Certains de ces rôles d'en haut sont nécessaires. Il faut bien que quelqu'un lève de l'argent. Il faut bien que quelqu'un explique le secteur à des gens qui n'ouvriront jamais un terminal.
 
-Ailleurs, les voix techniques que j'écoute appartiennent en général à des praticiens. Dans les salles où je me suis assis ici, beaucoup moins souvent. Le niveau visible, celui qui définit ce qu'est l'excellence, finit fixé par des gens qui n'ont jamais eu à l'atteindre.
+Ailleurs, les voix techniques que j'écoute appartiennent en général à des praticiens. Dans les salles où je me suis assis ici, beaucoup moins souvent. Le niveau visible, celui qui définit ce qu'est l'excellence, finit par être fixé par des gens qui n'ont jamais eu à l'atteindre.
 
 Et personne d'en haut ne va descendre te chercher. Ils n'ont aucune raison de le faire. Vu d'en haut, le sous-sol, c'est l'endroit d'où sort internet.
 
 
 ## Pourquoi c'est absurde et pas tragique
 
-Tout ce qu'il y a dans ce livre est réglé depuis longtemps. Pas avancé. Pas discuté. Pas un avis tranchant. De la pratique ordinaire dans n'importe quelle startup tech correcte sur cette planète, débattue il y a vingt ans, écrite, publiée, ennuyeuse. Qu'un ticket n'est pas le travail. Qu'une spec est une hypothèse. Que celui qui tranche n'est pas automatiquement celui qui a raison. Que shipper est la façon dont on apprend quoi que ce soit.
+Les idées de ce livre sont connues depuis longtemps. Rien de nouveau ni de particulièrement audacieux. De la pratique ordinaire dans n'importe quelle startup tech correcte sur cette planète, débattue il y a vingt ans, écrite, publiée, ennuyeuse. Qu'un ticket n'est pas le travail. Qu'une spec est une hypothèse. Que celui qui tranche n'est pas automatiquement celui qui a raison. Que c'est en livrant qu'on apprend.
 
-Rien de tout ça n'est secret. Tout est gratuit. L'essentiel est à un onglet, sur la connexion avec laquelle tu lis ces lignes. La liste est en annexe 3, avec les dates.
+Rien de tout ça n'est secret. Tout est gratuit. L'essentiel est accessible en ligne, avec la connexion qui te permet de lire ces lignes. La liste est en annexe 3, avec les dates.
 
-Tout est disponible, et rien n'est devenu la norme. C'est ce décalage-là qui tient tout le reste debout.
+Tout est disponible, et rien n'est devenu la norme. C'est ce décalage qui entretient le problème.
 
-Une équipe qui ne se mesure qu'à elle-même atterrit sur sa propre moyenne, et rien ne casse pour le signaler. Le sprint se clôture. La release part. Le client renouvelle. Aucun incident, aucune alarme, aucun mauvais trimestre. Juste un plafond que personne ne voit, qui tient des années.
+Une équipe qui ne se mesure qu'à elle-même finit par prendre sa propre moyenne pour référence, et rien ne casse pour le signaler. Le sprint se clôture. La release part. Le client renouvelle. Aucun incident, aucune alarme, aucun mauvais trimestre. Juste un plafond que personne ne voit, qui tient des années.
 
 Ceux qui pourraient incarner le niveau sont invisibles.
-Donc le niveau a l'air optionnel.
+Donc ce niveau paraît facultatif.
 Donc personne ne l'exige.
 Donc l'incarner ne rapporte rien.
-Donc ceux qui pourraient l'incarner restent au sous-sol, ou prennent le visa.
+Donc ceux qui pourraient l'incarner restent au sous-sol, ou partent à l'étranger.
 
 Chaque étape, prise isolément, est raisonnable. Mises bout à bout, elles sont absurdes.
 
 Et ceux qui deviennent bons et se font voir partent en majorité, ce qui est de l'arithmétique et pas une trahison, et le continent finit par former des ingénieurs pour les entreprises des autres, à ses frais.
 
-Personne n'a conçu ça. Ce n'est la faute de personne en particulier, et c'est pour ça que personne ne va le réparer en particulier.
+Personne n'a conçu ce système. Aucun responsable ne se dégage, alors personne ne se charge de le changer.
 
 
 ## Une dernière chose

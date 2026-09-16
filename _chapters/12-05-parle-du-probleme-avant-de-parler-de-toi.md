@@ -17,21 +17,21 @@ seo:
 
 ## Le réflexe
 
-Le pitch ouvre sur l'entreprise. Fondée en, une équipe de, construite sur, et voici les modules.
+La présentation commence par l'entreprise. Fondée en, une équipe de, construite sur, et voici les modules.
 
 Le lecteur, qui t'a rencontré il y a neuf secondes, n'a aucune raison de s'intéresser à quoi que ce soit de tout ça.
 
 ## Le réflexe builder
 
-> "Décris leur journée assez précisément pour qu'ils le reconnaissent, ensuite dis ce qu'on vend."
+> "Décris leur journée assez précisément pour qu'ils s'y reconnaissent, ensuite dis ce qu'on vend."
 
 ## Pourquoi
 
 Personne ne s'intéresse à une entreprise avant d'avoir compris ce qu'elle change pour lui. Une description précise du problème donne au lecteur l'impression que tu étais dans son bureau, et il continue en supposant que celui qui connaît le problème à ce point sait quelque chose sur la réponse.
 
-C'est la précision qui porte tout. "Optimisez vos opérations" ne bouge personne. "Chaque soir tu retapes les commandes WhatsApp de la journée dans un tableur, et tu sais déjà que deux sont fausses" bouge ceux qui font exactement ça, et eux seuls. Bon échange.
+C'est la précision qui porte tout. "Optimisez vos opérations" ne touche personne. "Chaque soir tu retapes les commandes WhatsApp de la journée dans un tableur, et tu sais déjà que deux sont fausses" parle à ceux qui font exactement ça, et eux seuls. Bon échange.
 
-Les fondateurs attrapent le slide équipe à ce moment-là. La crédibilité ne se revendique pas, elle se démontre par la justesse de la description. Celui qui nomme le détail de ta pire heure a prouvé plus qu'un mur de logos.
+C'est le moment où les fondateurs passent à la diapositive sur l'équipe. La crédibilité ne se revendique pas, elle se démontre par la justesse de la description. Celui qui nomme le détail de ta pire heure a prouvé plus qu'un mur de logos.
 
 ## À essayer
 
@@ -43,7 +43,7 @@ Relis à voix haute. Si le niveau de détail te rend légèrement nerveux, c'est
 
 ## Depuis ton siège
 
-- **Engineer** : ta doc aussi ouvre sur le problème. Personne ne lit une page qui commence par l'architecture.
+- **Engineer** : commence aussi ta doc par le problème. L'architecture viendra après.
 - **Design** : la première phrase fait plus pour la conversion que tout ce que tu dessineras autour.
 - **Founder** : nommer le détail de leur pire heure prouve plus qu'un mur de logos.
 - **Manager** : si le niveau de détail rend la salle nerveuse, c'est en général le bon niveau.

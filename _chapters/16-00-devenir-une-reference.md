@@ -14,11 +14,11 @@ categories:
   - visibilite
   - open-source
 seo:
-  description: "Une référence n'est pas un statut qu'on obtient. C'est quelque chose qui arrive à quelqu'un d'autre, ailleurs, sans toi."
+  description: "Tu deviens une référence le jour où quelqu'un s'appuie sur ton travail, ailleurs, sans toi."
   keywords: "build here, reference, visibilite, tech afrique, builder"
 ---
 
-Une référence n'est pas un statut qu'on obtient. C'est quelque chose qui arrive à quelqu'un d'autre, ailleurs, sans toi, et que tu n'apprendras probablement jamais.
+Tu deviens une référence le jour où quelqu'un s'appuie sur ton travail, ailleurs, sans toi, et tu ne l'apprendras probablement jamais.
 
 Les deux sections précédentes portaient sur ce que tu fais. Celle-ci porte sur ce qui se passe ensuite, hors de ta vue, et sur la différence entre les deux façons d'être connu qu'on range sous le même mot.
 

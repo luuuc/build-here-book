@@ -11,7 +11,7 @@ categories:
   - honnetete-intellectuelle
   - culture
 seo:
-  description: "Ce que tu produis passe par toi. Ça ne te définit pas. Confondre les deux rend les revues de code tendues, les critiques de design polies"
+  description: "Tu es l'auteur de ton travail. Ça ne te définit pas. Confondre les deux rend les revues de code tendues, les critiques de design polies"
   keywords: "build here, ego et honnetete intellectuelle, tech afrique, builder, code, bebe"
 ---
 
@@ -27,13 +27,13 @@ Tu réponds vite. Tu expliques le contexte. Tu mentionnes les contraintes que tu
 
 ## Pourquoi
 
-Ce que tu produis passe par toi. Ça ne te définit pas. Confondre les deux rend les revues de code tendues, les critiques de design polies, et un retour honnête sur un plan marketing impossible.
+Tu es l'auteur de ton travail. Ça ne te définit pas. Confondre les deux rend les revues de code tendues, les critiques de design polies, et un retour honnête sur un plan marketing impossible.
 
-Le signal est physique, ce qui le rend facile à attraper. Le pouls qui monte quand quelqu'un ouvre ton travail, l'attachement est là. Ça veut dire que tu tiens à ce que tu fais. La question est de savoir vers quoi ça pointe. Vers le résultat pour le client, ça te fait réparer. Vers la ligne que tu as écrite, ça te fait argumenter.
+Le signal est physique, donc facile à repérer. Le pouls qui monte quand quelqu'un ouvre ton travail, l'attachement est là. Ça veut dire que tu tiens à ce que tu fais. La question est de savoir à quoi tu tiens. Au résultat pour le client ? Tu cherches à corriger. À la ligne que tu as écrite ? Tu cherches à la défendre.
 
-L'attachement transforme une revue en transaction avec un prix. À partir du moment où laisser un commentaire coûte au relecteur dix minutes de gestion de ta réaction, il commence à choisir lesquels valent le coup. Les petits partent en premier, le nommage et la forme. Puis les structurels. Ouvre un thread de revue d'il y a un an et un de le mois dernier. Moins de commentaires, moins bon code. Personne n'a décidé ça. Les gens ont juste arrêté de payer. Tu seras le dernier au courant, parce que de là où tu es, les revues sont devenues plus fluides.
+L'attachement transforme chaque commentaire de revue en effort de négociation. À partir du moment où laisser un commentaire coûte au relecteur dix minutes de gestion de ta réaction, il commence à choisir lesquels valent le coup. Les petits partent en premier, le nommage et la forme. Puis les structurels. Ouvre un thread de revue d'il y a un an et un du mois dernier. Moins de commentaires, moins bon code. Personne n'a décidé ça. Les gens ont juste arrêté de payer. Tu seras le dernier au courant, parce que de là où tu es, les revues sont devenues plus fluides.
 
-L'entrée coupe aussi dans l'autre sens, et c'est cette moitié-là qu'on oublie. "Tu es attaché à ton code" est le moyen le plus rapide d'écarter une objection à laquelle tu ne sais pas répondre. Celui qui fait tourner ce système depuis trois ans et qui dit que le changement tombe sous la charge ne défend en général pas un bébé. Il tient une panne que personne d'autre dans le thread n'a jamais vue. L'attachement est une chose que tu diagnostiques chez toi. Braqué sur quelqu'un d'autre en plein débat, c'est une façon de gagner sans discuter, et ça te coûte la revue que cette entrée essaie justement de protéger.
+Le principe peut aussi être détourné, et c'est cette moitié-là qu'on oublie. "Tu es attaché à ton code" est le moyen le plus rapide d'écarter une objection à laquelle tu ne sais pas répondre. Celui qui fait tourner ce système depuis trois ans et qui dit que le système ne tiendra pas la charge avec ce changement ne défend en général pas un bébé. Il se souvient d'une panne que personne d'autre dans la discussion n'a connue. L'attachement est une chose que tu diagnostiques chez toi. Braqué sur quelqu'un d'autre en plein débat, c'est une façon de gagner sans discuter, et ça te coûte la revue que cette entrée essaie justement de protéger.
 
 ## À essayer
 
@@ -48,7 +48,7 @@ Puis une règle quand les commentaires arrivent. Ne réponds à aucun avant d'av
 ## Depuis ton siège
 
 - **Product** : quand on critique ta spec, demande ce qui casse chez le client, pas qui a écrit la ligne.
-- **Design** : une critique polie sur une maquette veut dire qu'on a arrêté de payer le commentaire.
+- **Design** : si les retours sur tes maquettes sont tous polis, les critiques ont peut-être été découragées.
 - **Manager** : compare un thread de revue d'il y a un an et un du mois dernier. Compte les commentaires.
 - **Customer-facing** : le client qui démonte le produit ne te démonte pas. Rapporte-le mot pour mot.
 - **Recrutement** : demande la dernière fois qu'on a démonté son travail, et ce qu'il a fait ensuite.

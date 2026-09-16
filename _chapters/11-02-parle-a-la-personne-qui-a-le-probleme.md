@@ -11,7 +11,7 @@ categories:
   - support
   - produit
 seo:
-  description: "Chaque relais filtre. Le commercial ramène ce qui aide à signer. Le fondateur garde la phrase qui a piqué. L'équipe rebouche le reste avec son propre modèle de l'utilisateur."
+  description: "Chaque relais filtre. Le commercial ramène ce qui aide à signer. Le fondateur garde la phrase qui a piqué. L'équipe comble les trous avec sa propre idée de l'utilisateur."
   keywords: "build here, client, tech afrique, builder, parle, personne, probleme"
 ---
 
@@ -27,11 +27,11 @@ Personne dans la salle n'a parlé à un utilisateur ce mois-ci.
 
 ## Pourquoi
 
-Chaque relais filtre. Le commercial ramène ce qui aide à signer. Le fondateur garde la phrase qui a piqué. L'équipe rebouche le reste avec son propre modèle de l'utilisateur. Personne ne ment. C'est simplement la façon dont l'information circule entre les gens. Après trois sauts, ce qui arrive dans le backlog est une caricature du problème, crue parce qu'elle est arrivée de trois directions à la fois.
+Chaque relais filtre. Le commercial ramène ce qui aide à signer. Le fondateur garde la phrase qui a piqué. L'équipe comble les trous avec sa propre idée de l'utilisateur. Personne ne ment. C'est simplement la façon dont l'information circule entre les gens. Après trois intermédiaires, ce qui arrive dans le backlog est une caricature du problème, jugée crédible parce que trois personnes ont rapporté la même chose.
 
-Vingt minutes avec la personne réparent les trois sauts. Et ton client est à un coup de fil, sur un marché que tu pourrais traverser en une journée, et il va décrocher. Ce n'est pas vrai des entreprises dont tu lis les playbooks produit le soir. C'est un des rares avantages structurels de construire ici, et il est presque toujours laissé de côté.
+Vingt minutes avec la personne permettent de retrouver ce qui s'est perdu en route. Et ton client est à un coup de fil, sur un marché que tu pourrais traverser en une journée, et il va décrocher. Ce n'est pas vrai des entreprises dont tu lis les playbooks produit le soir. C'est un des rares avantages structurels de construire ici, et il est presque toujours laissé de côté.
 
-Ce qu'aucun résumé ne transporte jamais, c'est le contournement. Le tableur qu'il nettoie à la main. Le groupe WhatsApp qui contient la moitié du processus que ton produit s'arrête juste avant de couvrir. Ce contournement est l'objet le plus utile de l'appel. Il montre le résultat que la personne poursuit, et la taxe que ton produit lui fait payer pour y arriver.
+Ce qu'aucun résumé ne transporte jamais, c'est le contournement. Le tableur qu'il nettoie à la main. Le groupe WhatsApp qui contient la moitié du processus que ton produit s'arrête juste avant de couvrir. Ce contournement est l'objet le plus utile de l'appel. Il montre le résultat que la personne poursuit, et l'effort supplémentaire que ton produit lui impose pour y arriver.
 
 Ton tableau de bord t'aurait montré l'abandon et ne t'aurait jamais dit si c'était le prix, la formulation, ou quelqu'un qui quitte l'écran pour aller demander à son responsable. Il te dit où regarder. Il ne t'a jamais dit ce qu'il y avait là.
 
@@ -49,7 +49,7 @@ Puis arrête de parler. La partie utile arrive après le premier silence, quand 
 - **Design** : le contournement est l'objet le plus utile de l'appel. Le tableur, le groupe WhatsApp.
 - **Founder** : ton client est à un coup de fil et il décroche. C'est un avantage structurel d'ici.
 - **Manager** : si personne dans la salle n'a parlé à un utilisateur ce mois-ci, on conçoit par ouï-dire.
-- **Customer-facing** : tu entends la phrase brute. Ne la résume pas, transporte-la entière.
+- **Customer-facing** : tu entends la phrase brute. Rapporte-la telle quelle.
 - **Recrutement** : demande le dernier utilisateur à qui le candidat a parlé, et ce qu'il l'a vu faire.
 
 ## À discuter

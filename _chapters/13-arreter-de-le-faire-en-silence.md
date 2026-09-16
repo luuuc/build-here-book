@@ -21,7 +21,7 @@ Il y a une phrase à la fin de l'ouverture que j'ai écrite vite et que j'ai mis
 
 *Le travail que ce livre te demande ne s'arrête pas à devenir meilleur.*
 
-Les douze sections que tu viens de lire traitent la première moitié. Elles sont utiles, elles sont ordinaires, et elles ne règlent rien du problème posé à la page un. Une équipe peut appliquer toutes les entrées précédentes à la lettre pendant trois ans et rester exactement aussi invisible qu'avant. Rien dans le fait de bien travailler ne produit une trace.
+Les douze sections que tu viens de lire traitent la première moitié. Elles sont utiles, elles sont ordinaires, et elles ne règlent rien du problème posé à la première page. Une équipe peut appliquer toutes les entrées précédentes à la lettre pendant trois ans et rester exactement aussi invisible qu'avant. Rien dans le fait de bien travailler ne produit une trace.
 
 Voilà la deuxième moitié. C'est la difficile.
 
@@ -31,11 +31,11 @@ En 2020, j'ai arrêté de chercher des builders et j'ai conclu qu'il n'y en avai
 
 Voilà la partie que je n'ai pas racontée. Entre le moment où j'ai compris que j'avais tort et la première ligne de ce livre, il s'est passé six ans.
 
-Six ans à expliquer les mêmes choses en privé, à des gens que je croisais, une conversation à la fois, avec un taux de transmission d'exactement une personne par conversation. Je me plaignais que personne ici n'écrive rien, depuis une position où je n'avais moi-même jamais rien publié. Quinze ans de choses apprises à la dure, et zéro trace.
+Six ans à expliquer les mêmes choses en privé, à des gens que je croisais, une conversation à la fois, sans toucher plus d'une personne par conversation. Je me plaignais que personne ici n'écrive rien, depuis une position où je n'avais moi-même jamais rien publié. Quinze ans de choses apprises à la dure, et zéro trace.
 
 Je n'étais pas seulement le fondateur qui n'avait pas trouvé les builders. J'étais aussi l'un de ceux qu'il n'avait pas trouvés.
 
-Ce mouvement sort de là. Pas d'une théorie sur la visibilité. Du fait que la personne qui a écrit l'ouverture était des deux côtés du problème et a mis six ans à s'en apercevoir.
+C'est de là que vient ce second mouvement. Pas d'une théorie sur la visibilité. Du fait que la personne qui a écrit l'ouverture était des deux côtés du problème et a mis six ans à s'en apercevoir.
 
 ## Pourquoi ça ne se lit pas seul
 
@@ -67,7 +67,7 @@ Il y a un objet, un seul, et tout le reste en découle.
 
 **Un artefact est une chose dont quelqu'un que tu ne connais pas peut se servir sans savoir qui tu es.**
 
-Un postmortem avec la chronologie dedans. Une librairie. Un benchmark avec les chiffres attachés. Une réponse correcte dans un thread. Une entrée de ce livre, écrite par toi, sur un échec que je n'ai pas eu.
+Un postmortem avec la chronologie dedans. Une bibliothèque. Un benchmark avec ses résultats chiffrés. Une réponse correcte dans un thread. Une entrée de ce livre, écrite par toi, sur un échec que je n'ai pas eu.
 
 Un avis sur l'avenir de la tech africaine n'est pas un artefact. Il en existe déjà assez.
 
@@ -75,7 +75,7 @@ Un avis sur l'avenir de la tech africaine n'est pas un artefact. Il en existe d�
 
 **Laisser une trace.** Ce qui compte comme trace, et comment on en fabrique une à partir de ce qu'on vient de faire.
 
-**Se faire trouver.** Où la poser, ce que publier coûte réellement ici, et ce qui se passe au quatrième mois quand personne n'a rien dit.
+**Se faire trouver.** Où la publier, ce que publier coûte réellement ici, et ce qui se passe au quatrième mois quand personne n'a rien dit.
 
 **Devenir une référence.** Ce qui arrive ensuite, sans toi, chez quelqu'un que tu ne rencontreras jamais.
 

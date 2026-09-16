@@ -14,15 +14,15 @@ categories:
   - simplicite
   - technique
 seo:
-  description: "Le niveau technique se voit dans ce qu'on a laissé dehors."
+  description: "Le niveau technique se voit aussi dans ce qu'on a choisi de ne pas ajouter."
   keywords: "build here, engineering, tech afrique, builder"
 ---
 
-Le niveau technique se voit dans ce qu'on a laissé dehors.
+Le niveau technique se voit aussi dans ce qu'on a choisi de ne pas ajouter.
 
-N'importe qui sait ajouter. L'entretien d'embauche teste l'ajout. La production teste l'autre, discrètement, pendant des années, la nuit et en général sur la même personne.
+N'importe qui sait ajouter. L'entretien d'embauche teste l'ajout. En production, on découvre ce qu'il aurait fallu éviter d'ajouter. Pendant des années, souvent la nuit, la même personne en paie le prix.
 
-Rien de ce que fait cette section n'est visible sur un écran de démo.
+Rien de ce que propose cette section n'est visible sur un écran de démo.
 
 ---
 

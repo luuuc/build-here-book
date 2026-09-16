@@ -11,7 +11,7 @@ categories:
   - apprentissage
   - engineering
 seo:
-  description: "La première réponse est la plus facile à trouver, ce qui est une autre façon de dire qu'elle traite le symptôme le plus visible. C'est ce qui lui donne l'air d'une réponse."
+  description: "La première réponse qu'on trouve traite souvent le symptôme le plus visible. Comme ce symptôme disparaît, on croit avoir compris le problème."
   keywords: "build here, curiosite, tech afrique, builder, arrete, premiere, reponse"
 ---
 
@@ -25,17 +25,17 @@ Symptôme parti. Ticket suivant.
 
 > "Ça marche. Mais pourquoi ça ne marchait pas ?"
 
-Un correctif que tu ne sais pas expliquer est une dette avec un visage sympathique.
+Un correctif que tu ne sais pas expliquer règle peut-être l'urgence. Il laisse le problème de fond intact.
 
 ## Pourquoi
 
-La première réponse est la plus facile à trouver, ce qui est une autre façon de dire qu'elle traite le symptôme le plus visible. C'est ce qui lui donne l'air d'une réponse.
+La première réponse qu'on trouve traite souvent le symptôme le plus visible. Comme ce symptôme disparaît, on croit avoir compris le problème.
 
-Le job d'import est mort dans la nuit. Tu le relances, les chiffres reviennent, tu fermes le ticket. Trois semaines plus tard il remeurt, à une autre heure avec une autre erreur, donc le lien ne se fait pas. Il aura fallu deux nuits mortes avant que quelqu'un demande ce que les deux fichiers avaient en commun. Une couche en dessous coûte environ trente minutes de plus. Ne pas descendre coûte le même problème, pendant des années, avec une explication neuve à chaque fois.
+Le traitement d'import s'est arrêté dans la nuit. Tu le relances, les chiffres reviennent, tu fermes le ticket. Trois semaines plus tard il échoue à nouveau, à une autre heure avec une autre erreur, donc le lien ne se fait pas. Il aura fallu deux nuits d'échec avant que quelqu'un demande ce que les deux fichiers avaient en commun. Chercher la cause demande environ trente minutes de plus. S'arrêter au symptôme, c'est retrouver le même problème pendant des années, avec une nouvelle explication à chaque fois.
 
-Et personne ne va te tendre cette couche. Aucun senior du plateau n'a fait tourner ce système. La deuxième réponse sort du code source, ou de la doc du fournisseur, lue par toi, lentement, sur une connexion qui te fait réfléchir à l'utilité de la vidéo.
+Et personne ne fera cette recherche à ta place. Aucun senior du plateau n'a fait tourner ce système. La deuxième réponse sort du code source, ou de la doc du fournisseur, lue par toi, lentement, sur une connexion qui te fait réfléchir à l'utilité de la vidéo.
 
-Deux niveaux suffisent presque toujours. Un template de cinq pourquoi avec une réunion récurrente attachée est la façon dont le travail sur les causes racines est discrètement abandonné. Ça a cassé, pourquoi ? Le champ était vide. Pourquoi il était vide ? Rien n'empêche qu'il soit vide. C'est cette deuxième réponse qui mérite d'être écrite, parce que le suivant ne peut pas y arriver seul.
+Deux niveaux suffisent presque toujours. À force d'imposer un formulaire des cinq pourquoi et une réunion récurrente, on finit par décourager la recherche des causes. Ça a cassé, pourquoi ? Le champ était vide. Pourquoi il était vide ? Rien n'empêche qu'il soit vide. C'est cette deuxième réponse qui mérite d'être écrite, parce que le suivant ne peut pas y arriver seul.
 
 ## À essayer
 
@@ -47,7 +47,7 @@ Si la deuxième est "pas clair", écris-le. C'est vrai, et ça marque l'endroit 
 
 - **Product** : un bug qui revient sous trois formes est une décision produit que personne n'a prise.
 - **Design** : quand un utilisateur contourne ton écran, le contournement n'est pas la cause.
-- **Manager** : si fermer vite est ce qui se voit, la deuxième couche ne sera jamais cherchée.
+- **Manager** : si fermer vite est ce qui se voit, personne ne cherchera la cause.
 - **Customer-facing** : note ce que le client faisait juste avant. C'est souvent la deuxième réponse.
 - **Recrutement** : demande un bug que le candidat a compris, pas un bug qu'il a fait disparaître.
 

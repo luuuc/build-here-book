@@ -14,15 +14,15 @@ categories:
   - responsabilite
   - execution
 seo:
-  description: "Le bug n'est pas dans ton service. Tu l'as vu, tu sais à peu près où il vit, et il appartient à une équipe qui coule cette semaine."
+  description: "Le bug n'est pas dans ton service. Tu l'as vu, tu sais à peu près d'où il vient, et l'équipe concernée est débordée cette semaine."
   keywords: "build here, ownership, tech afrique, builder"
 ---
 
-Le bug n'est pas dans ton service. Tu l'as vu, tu sais à peu près où il vit, et il appartient à une équipe qui coule cette semaine.
+Le bug n'est pas dans ton service. Tu l'as vu, tu sais à peu près d'où il vient, et l'équipe concernée est débordée cette semaine.
 
 Ce que tu fais dans les dix minutes qui suivent, c'est toute la section.
 
-Deux entrées d'ici tirent dans des sens opposés. *Être bloqué est une décision* te demande de chercher seul avant de lever la main. *Une bonne nouvelle peut attendre. Une mauvaise, non* te demande de la lever tout de suite. Les deux sont vraies. Ce qui tranche, c'est ce que coûte l'heure suivante.
+Deux entrées de cette section donnent des conseils qui semblent opposés. *Être bloqué est une décision* te demande de chercher seul avant de lever la main. *Une bonne nouvelle peut attendre. Une mauvaise, non* te demande de la lever tout de suite. Les deux sont vraies. Ce qui tranche, c'est ce que coûte l'heure suivante.
 
 ---
 

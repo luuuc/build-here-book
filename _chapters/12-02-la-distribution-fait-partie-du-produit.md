@@ -25,13 +25,13 @@ Tu traces le chemin par lequel une personne qui a ce problème atterrit devant t
 
 ## Pourquoi
 
-Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du code. La construction est visible et le chemin ne l'est pas, donc le chemin est sous-estimé par tout le bâtiment.
+Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du code. On voit le produit se construire. On voit moins le travail nécessaire pour le faire connaître, alors toute l'entreprise le sous-estime.
 
-Les chemins se conçoivent. Certains produits portent leur propre diffusion. Une raison d'inviter quelqu'un, un artefact qui mérite d'être transmis, une chose qui marche mieux quand le bureau d'à côté s'en sert aussi. Ça ne se visse pas en mois neuf. Ça se décide pendant que le modèle de données est encore mou.
+Les chemins se conçoivent. Certains produits portent leur propre diffusion. Une raison d'inviter quelqu'un, un artefact qui mérite d'être transmis, une chose qui marche mieux quand le bureau d'à côté s'en sert aussi. Ça ne s'ajoute pas au neuvième mois. Ça se prévoit quand on peut encore changer le modèle de données.
 
-Poser la question tôt change ce que tu construis. Une équipe dont les utilisateurs arrivent d'un résultat de recherche construit un premier écran qui répond à cette recherche. Une équipe dont les utilisateurs arrivent par un lien transféré dans un groupe WhatsApp, ouvert sur un Android d'entrée de gamme avec deux barres, construit un premier écran qui survit au trajet. Un écran générique ne sert ni l'un ni l'autre.
+Poser la question tôt change ce que tu construis. Une équipe dont les utilisateurs arrivent d'un résultat de recherche construit un premier écran qui répond à cette recherche. Une équipe dont les utilisateurs arrivent par un lien transféré dans un groupe WhatsApp, ouvert sur un Android d'entrée de gamme avec deux barres, construit un premier écran qui s'affiche malgré ces contraintes. Un écran générique ne sert ni l'un ni l'autre.
 
-En B2B le chemin ressemble au problème du commercial, donc il n'est conçu nulle part. Il existe quand même. Une boîte mail précise, une réunion précise, un slide montré à un patron qui n'était pas dans la salle. Conçois pour ce slide, ou le deal s'enlise à un endroit où tu ne seras jamais assis.
+En B2B, on considère que ce parcours relève du commercial, alors personne ne le conçoit. Il existe quand même. Une boîte mail précise, une réunion précise, un slide montré à un patron qui n'était pas dans la salle. Prépare de quoi convaincre ce patron, sinon la vente se bloquera dans une discussion à laquelle tu ne participeras pas.
 
 ## À essayer
 
@@ -44,8 +44,8 @@ Marque chaque étape que tu as devinée. Cette liste, c'est le travail.
 ## Depuis ton siège
 
 - **Engineer** : le premier écran d'un lien ouvert sur deux barres n'est pas celui d'un résultat de recherche.
-- **Founder** : ça se décide pendant que le modèle de données est encore mou, pas au mois neuf.
-- **Manager** : le chemin n'est visible nulle part, donc il est sous-estimé par tout le bâtiment.
+- **Founder** : prévois la diffusion avant de figer le modèle de données.
+- **Manager** : rends visible le travail nécessaire pour faire connaître le produit.
 - **Customer-facing** : en B2B, le chemin est un slide montré à un patron absent de la salle. Conçois-le.
 - **Recrutement** : tu cherches quelqu'un qui sait tracer un chemin, pas quelqu'un qui sait faire du bruit.
 

@@ -11,7 +11,7 @@ categories:
   - responsabilite
   - execution
 seo:
-  description: "Une phrase suffit à retirer l'initiative d'une équipe, et elle n'a même pas besoin d'être dite méchamment pour fonctionner."
+  description: "Une phrase suffit à décourager toute initiative dans une équipe, et elle n'a même pas besoin d'être dite méchamment pour fonctionner."
   keywords: "build here, ownership, tech afrique, builder, conditions, premiere, reaction, fait, regle"
 ---
 
@@ -29,19 +29,19 @@ L'inquiétude est réelle. L'effet est sans commune mesure avec elle.
 
 ## Pourquoi
 
-Une phrase suffit à retirer l'initiative d'une équipe, et elle n'a même pas besoin d'être dite méchamment pour fonctionner.
+Une phrase suffit à décourager toute initiative dans une équipe, et elle n'a même pas besoin d'être dite méchamment pour fonctionner.
 
-La personne ne réessaiera pas, et c'est la petite partie. Les quatre autres qui ont regardé ont capté la règle plus vite qu'elle, et ce qu'ils ont capté te concerne toi, pas le cas.
+La personne ne réessaiera pas, et ce n'est qu'une partie du problème. Les quatre autres qui ont regardé ont capté la règle plus vite qu'elle, et ce qu'ils ont capté te concerne toi, pas le cas.
 
-Refais le calcul comme le fait celui qui hésite. Agir sans demander rapporte peu et peut finir en correction publique. Attendre ne coûte rien. Avec cette matrice, attendre est rationnel, et tu obtiens l'équipe passive dont tu te plains à ton prochain entretien individuel.
+Refais le calcul comme le fait celui qui hésite. Agir sans demander rapporte peu et peut finir en correction publique. Attendre ne coûte rien. Dans ces conditions, attendre est rationnel, et tu obtiens l'équipe passive dont tu te plains à ton prochain entretien individuel.
 
-Certaines initiatives sont réellement dangereuses. La facturation. Un contrat signé. La production quand il ne reste personne pour réparer. Ce qui les protège n'est pas une réaction plus dure après coup, c'est une ligne tracée avant. Une frontière non marquée fait qu'on demande pour tout, puis qu'on agit à l'aveugle le jour où demander devient fatigant. L'ownership se permet une fois et se protège les trois premières fois où ça se passe mal, et ces trois-là sont la partie chère que personne ne peut faire à ta place.
+Certaines initiatives sont réellement dangereuses. La facturation. Un contrat signé. La production quand il ne reste personne pour réparer. Ce qui les protège n'est pas une réaction plus dure après coup, c'est une ligne tracée avant. Une frontière non marquée fait qu'on demande pour tout, puis qu'on agit à l'aveugle le jour où demander devient fatigant. Autoriser l'initiative ne suffit pas. Il faut la défendre les premières fois qu'elle tourne mal. C'est le plus difficile, et personne ne peut le faire à ta place.
 
 ## À essayer
 
 → Prends le fond avant la forme. Si l'initiative était juste, dis-le avant de dire quoi que ce soit sur le processus.
 → Écris la frontière. "Tu décides seul en dessous de ce montant, de ce niveau de risque, de ce nombre de clients impactés."
-→ Quand une initiative échoue, fais la revue en public, sur ce qu'elle enseigne. Les autres regardent pour savoir si essayer est survivable.
+→ Quand une initiative échoue, fais la revue en public, sur ce qu'elle enseigne. Les autres regardent pour savoir ce qu'ils risquent en essayant.
 
 ## Depuis ton siège
 

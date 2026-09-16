@@ -11,7 +11,7 @@ categories:
   - apprentissage
   - engineering
 seo:
-  description: "Une équipe ne peut construire que ce qu'elle comprend. Tout le reste, elle l'estime."
+  description: "Une équipe ne peut construire que ce qu'elle comprend. Pour le reste, elle avance à l'aveugle."
   keywords: "build here, curiosite, tech afrique, builder, facturable"
 ---
 
@@ -23,19 +23,19 @@ La curiosité est classée comme un loisir. Le soir, le week-end, sur ton temps 
 
 ## Le réflexe builder
 
-> "Je ne comprenais pas comment marchait la facturation, alors j'ai passé une matinée à la lire."
+> "Je ne comprenais pas comment marchait la facturation, alors j'ai passé une matinée à en lire le code."
 
-Sur le temps de travail. Ouvertement. Sur une ligne que quelqu'un peut voir.
+Sur le temps de travail. Ouvertement. Avec un créneau clairement indiqué dans l'agenda.
 
 ## Pourquoi
 
-Une équipe ne peut construire que ce qu'elle comprend. Tout le reste, elle l'estime.
+Une équipe ne peut construire que ce qu'elle comprend. Pour le reste, elle avance à l'aveugle.
 
-Regarde ce qui se passe quand on comprend mal le système. Un changement de config d'une ligne est chiffré à trois jours, parce que le script de déploiement n'a pas été rouvert depuis que celui qui l'a écrit est parti à Berlin, et que le seul chiffre sûr est un gros chiffre. La marge devient le plan. Le plan devient la roadmap. Personne n'a menti, et le trimestre est quand même faux.
+Regarde ce qui se passe quand on comprend mal le système. Un changement de config d'une ligne est chiffré à trois jours, parce que le script de déploiement n'a pas été rouvert depuis que celui qui l'a écrit est parti à Berlin, et qu'on annonce donc un délai large par prudence. La marge devient le plan. Le plan devient la roadmap. Personne n'a menti, mais le planning du trimestre ne repose sur rien de solide.
 
-Laissée libre, la curiosité se transforme effectivement en une semaine perdue sur une réécriture non demandée. C'est pour ça qu'on l'interdit, et c'est pour ça qu'il faut plutôt la borner. Trente minutes, sur une chose que tu touches chaque semaine, sur un système qui te facturera l'ignorance si tu continues.
+Sans limite, la curiosité se transforme effectivement en une semaine perdue sur une réécriture non demandée. C'est pour ça qu'on l'interdit, et c'est pour ça qu'il faut plutôt la borner. Trente minutes, sur une chose que tu touches chaque semaine, sur un système où ton manque de compréhension finira par te coûter cher.
 
-Trente minutes par semaine, c'est vingt-quatre heures par an. Aucun sprint ne signale leur départ. Au bout d'un an, c'est vers cette personne que les questions remontent, et on ne sait plus dire depuis quand.
+Trente minutes par semaine, c'est vingt-quatre heures par an. Ça passe inaperçu dans le planning des sprints. Au bout d'un an, c'est vers cette personne que les questions remontent, et on ne sait plus dire depuis quand.
 
 ## À essayer
 

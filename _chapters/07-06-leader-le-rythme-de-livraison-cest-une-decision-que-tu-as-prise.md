@@ -11,7 +11,7 @@ categories:
   - livraison
   - produit
 seo:
-  description: "Le rythme n'est pas un trait de l'équipe. C'est la somme des portes entre un changement fini et un utilisateur"
+  description: "Le rythme dépend des étapes à franchir entre un changement terminé et sa mise à disposition"
   keywords: "build here, execution, tech afrique, builder, conditions, rythme, livraison, decision, prise"
 ---
 
@@ -27,17 +27,17 @@ Tu comptes les gens qui doivent dire oui avant qu'un changement atteigne un clie
 
 ## Pourquoi
 
-Le rythme n'est pas un trait de l'équipe. C'est la somme des portes entre un changement fini et un utilisateur, et chaque porte a été installée par quelqu'un qui avait l'autorité de l'installer. Deux validations. Une fenêtre. Une signature qui attend ton agenda. Toutes bon marché le jour où elles sont posées. Ensemble, elles fixent le plafond qu'on demande maintenant à l'équipe de dépasser.
+Le rythme dépend des étapes à franchir entre un changement terminé et sa mise à disposition, et chacune de ces étapes a été imposée par quelqu'un qui en avait l'autorité. Deux validations. Un créneau de déploiement. Une signature qui attend que tu sois disponible. Chacune semblait peu coûteuse au départ. Ensemble, elles fixent le plafond qu'on demande maintenant à l'équipe de dépasser.
 
-Le périmètre marche pareil. Dis aux gens de couper le périmètre au lieu de discuter la date, et ils feront le calcul sur les trois dernières fois où quelqu'un est arrivé avec les deux tiers. Si ça s'est lu comme de la sous-livraison en revue, devant les pairs, alors couper le périmètre est une chose que tu dis et qu'ils ne peuvent pas se permettre. Ce que tu récompenses quand un retard est annoncé tôt, c'est ça la règle. Le reste est un slogan.
+Le périmètre marche pareil. Dis aux gens de couper le périmètre au lieu de discuter la date, et ils feront le calcul sur les trois dernières fois où quelqu'un est arrivé avec les deux tiers. Si on leur a reproché de ne pas avoir tout livré, devant leurs collègues, alors couper le périmètre est une chose que tu dis et qu'ils ne peuvent pas se permettre. Ce que tu récompenses quand un retard est annoncé tôt, c'est ça la règle. Le reste est un slogan.
 
-Les expériences bon marché ont besoin de la même couverture. La fausse page et le tableur de deux semaines ressemblent à du travail faible tant que quelqu'un de senior n'a pas dit que la lecture est le livrable.
+Les essais peu coûteux ont besoin du même soutien. Une page de test et un tableur utilisés pendant deux semaines peuvent sembler dérisoires. À un responsable de rappeler que le résultat attendu, c'est ce qu'ils permettent d'apprendre.
 
 Chaque porte était une réponse raisonnable à quelque chose qui a cassé une fois. La question est de savoir si tu sais encore nommer l'incident.
 
 ## À essayer
 
-→ Compte les portes. Fais marcher un petit changement de l'écrit au live, liste chaque validation et chaque attente, puis retire-en une ce mois-ci.
+→ Compte les portes. Suis un petit changement du code à la mise en production, liste chaque validation et chaque attente, puis retire-en une ce mois-ci.
 → Dis la règle de périmètre avant l'échéance. "Les deux tiers à la date valent mieux que tout en retard" ne compte que tant que l'issue est encore ouverte.
 → La prochaine fois que quelqu'un signale un retard quatre semaines à l'avance, surveille tes dix premières secondes. C'est là-dessus que l'équipe se cale.
 
@@ -45,11 +45,11 @@ Chaque porte était une réponse raisonnable à quelque chose qui a cassé une f
 
 - **Engineer** : compte les portes entre ton commit et un client. Chacune a été posée par quelqu'un.
 - **Product** : couper le périmètre est impossible tant que les deux tiers se lisent comme un échec.
-- **Design** : une fausse page et un tableur sont un livrable si quelqu'un dit que la lecture compte.
+- **Design** : une page de test et un tableur sont utiles si l'on reconnaît ce qu'ils permettent d'apprendre.
 - **Founder** : chaque porte répondait à un incident. Tu sais encore nommer lequel ?
 - **Customer-facing** : un correctif d'une ligne qui met trois semaines, c'est toi qui l'expliques au client.
 - **Recrutement** : le rythme que tu promets en entretien est celui de tes portes, pas de ton discours.
 
 ## À discuter
 
-C'est quoi le plus rapide qu'un correctif d'une ligne ait mis pour atteindre un client ici, et quelle étape entre les deux l'un d'entre nous défendrait aujourd'hui ?
+Quel est le délai le plus court dans lequel un correctif d'une ligne a atteint un client ici, et quelle étape entre les deux l'un d'entre nous défendrait aujourd'hui ?

@@ -27,13 +27,13 @@ C'est vrai. Rien n'est interdit, rien n'est écrit, et personne ne publie jamais
 
 ## Pourquoi
 
-Un vide n'est pas une permission. Devant un vide, les gens calculent. Publier un postmortem peut froisser un client, exposer une faiblesse, ou déplaire à quelqu'un dont tu dépends. Ne rien publier ne coûte rien et n'a jamais valu un mot à personne. Avec cette matrice, se taire est le coup rationnel, et tu obtiens une équipe silencieuse dont tu diras plus tard qu'elle manque de rayonnement.
+Un vide n'est pas une permission. Devant un vide, les gens calculent. Publier un postmortem peut froisser un client, exposer une faiblesse, ou déplaire à quelqu'un dont tu dépends. Ne rien publier ne coûte rien et n'a jamais valu un mot à personne. Dans ces conditions, se taire est rationnel, et tu obtiens une équipe silencieuse dont tu diras plus tard qu'elle manque de rayonnement.
 
-La première fois fixe la règle, exactement comme dans *La première réaction fait la règle*. Quelqu'un publie, et ce qui sort de ta bouche est une question sur qui a validé. Les six autres qui regardaient ont capté le tarif avant l'intéressé, et ce qu'ils ont capté te concerne toi, pas le texte.
+La première fois fixe la règle, exactement comme dans *La première réaction fait la règle*. Quelqu'un publie, et ce qui sort de ta bouche est une question sur qui a validé. Les six autres qui regardaient ont capté le tarif avant l'intéressé, et ils ont compris comment tu réagis, quel que soit le texte.
 
-L'inquiétude derrière est réelle et petite. Quelqu'un publie un chiffre qui ne devrait pas sortir, nomme un client, ou décrit une faille encore ouverte. Trois lignes écrites une fois règlent les trois cas, définitivement, pour toute l'entreprise.
+La crainte est réelle, mais elle porte sur des cas précis. Quelqu'un publie un chiffre qui ne devrait pas sortir, nomme un client, ou décrit une faille encore ouverte. Trois lignes écrites une fois règlent les trois cas, définitivement, pour toute l'entreprise.
 
-Le coût du silence, lui, ne se présente jamais comme un coût. Il arrive sous forme de recrutement. Une entreprise dont personne ne connaît les ingénieurs ne peut recruter que par recommandation, c'est-à-dire par le canal qui sélectionne la visibilité et pas la livraison. Tu fais tourner le filtre de l'ouverture, et tu conclus ensuite qu'il n'y a personne de ce niveau ici.
+Le coût du silence apparaît ailleurs, notamment dans les difficultés de recrutement. Une entreprise dont personne ne connaît les ingénieurs ne peut recruter que par recommandation, c'est-à-dire par le canal qui sélectionne la visibilité et pas la livraison. Tu fais tourner le filtre de l'ouverture, et tu conclus ensuite qu'il n'y a personne de ce niveau ici.
 
 ## À essayer
 

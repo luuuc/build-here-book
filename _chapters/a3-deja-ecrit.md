@@ -44,9 +44,9 @@ Seize titres. Il y en aurait soixante, ça ne prouverait rien de plus. Le plus a
 
 **1999. Amy Edmondson, *Psychological Safety and Learning Behavior in Work Teams*.** Les meilleures équipes soignantes déclarent plus d'erreurs que les mauvaises. Pas qu'elles en commettent plus. Qu'elles peuvent les dire. Publié dans Administrative Science Quarterly, avec les données.
 
-**2001. Peter Norvig, *Teach Yourself Programming in Ten Years*.** Mille cinq cents mots contre l'industrie du apprenez X en vingt-et-un jours. Six minutes de lecture, et c'est gratuit.
+**2001. Peter Norvig, *Teach Yourself Programming in Ten Years*.** Mille cinq cents mots contre l'industrie des méthodes « apprenez X en vingt-et-un jours ». Six minutes de lecture, et c'est gratuit.
 
-**2011. Rich Hickey, *Simple Made Easy*.** Une heure sur la différence entre simple et facile. Simple compte les choses emmêlées, facile mesure l'effort immédiat, et confondre les deux produit la moitié des systèmes en production.
+**2011. Rich Hickey, *Simple Made Easy*.** Une heure sur la différence entre simple et facile. La simplicité dépend du nombre d'éléments imbriqués, la facilité de l'effort immédiat, et confondre les deux produit la moitié des systèmes en production.
 
 **2013. Rob Fitzpatrick, *The Mom Test*.** Comment parler à un client sans récolter la réponse polie qui ne sert à rien. Cent trente pages, et la règle centrale tient en une phrase. Ne parle jamais de ton idée.
 

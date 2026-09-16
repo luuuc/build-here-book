@@ -11,7 +11,7 @@ categories:
   - decision
   - management
 seo:
-  description: "Une personne qui se comporte d'une certaine façon, ça parle d'elle ; tout le monde qui se comporte de cette façon, ça parle du lieu."
+  description: "Quand une personne se comporte d'une certaine façon, on peut s'interroger sur elle ; quand tout le monde se comporte ainsi, il faut s'interroger sur l'organisation."
   keywords: "build here, leadership, tech afrique, builder, fabrique, environnement, dont, plaint"
 ---
 
@@ -27,13 +27,13 @@ Quand le comportement est général, la cause est dans le système. Pas dans les
 
 ## Pourquoi
 
-Une personne qui se comporte d'une certaine façon, ça parle d'elle. Tout le monde qui se comporte de cette façon, ça parle du lieu. Des gens avec des histoires, des écoles et des âges différents n'atterrissent pas spontanément sur la même posture. Quand ils le font, quelque chose dans la salle les y a menés.
+Quand une personne se comporte d'une certaine façon, on peut s'interroger sur elle. Quand tout le monde se comporte ainsi, il faut s'interroger sur l'organisation. Des gens avec des histoires, des écoles et des âges différents n'atterrissent pas spontanément sur la même posture. Quand ils le font, quelque chose dans la salle les y a menés.
 
-La salle est faite de choses concrètes, et c'est toi qui les as presque toutes fixées. Ce qui est mesuré. Ce qui est promu. Ce qui est arrivé la dernière fois que quelqu'un a échoué en public.
+L'environnement de travail repose sur des choix concrets, et c'est toi qui les as presque tous faits. Ce qui est mesuré. Ce qui est promu. Ce qui est arrivé la dernière fois que quelqu'un a échoué en public.
 
-Le ratio te dit dans quelle conversation tu es. Une personne passive sur douze est une conversation de recrutement. Neuf sur douze est une conversation de conception, et c'est toi le concepteur.
+Le ratio te dit dans quelle conversation tu es. Une personne passive sur douze est une conversation de recrutement. Neuf sur douze, c'est un problème d'organisation. Et cette organisation, c'est toi qui la définis.
 
-La plainte qu'on entend à chaque événement, celle selon laquelle les talents d'ici manquent d'initiative, est parfois formulée par ceux qui ont construit la salle qui la produit. La culpabilité est la mauvaise conclusion, et de toute façon l'inutile. Changer les gens prend un an. Changer un morceau du système se fait cette semaine.
+La plainte qu'on entend à chaque événement, celle selon laquelle les talents d'ici manquent d'initiative, est parfois formulée par ceux qui ont construit la salle qui la produit. Inutile d'en conclure qu'il faut culpabiliser. Changer les gens prend un an. Changer un morceau du système se fait cette semaine.
 
 ## À essayer
 
@@ -48,7 +48,7 @@ Cherche dans les incitations, pas dans les caractères. La réponse ramène en g
 - **Engineer** : si tout le monde autour de toi contourne la même chose, ce n'est pas un défaut de caractère.
 - **Design** : quand tous les utilisateurs se trompent au même endroit, c'est l'écran. Ici, c'est la salle.
 - **Founder** : changer les gens prend un an. Changer un morceau du système se fait cette semaine.
-- **Recrutement** : un sur douze se recrute. Neuf sur douze ne se recrute pas, ça se répare.
+- **Recrutement** : une personne sur douze, regarde le recrutement. Neuf sur douze, regarde l'organisation.
 
 ## À discuter
 

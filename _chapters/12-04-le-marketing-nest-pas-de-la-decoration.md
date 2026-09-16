@@ -29,9 +29,9 @@ Le marketing, c'est savoir pour qui c'est et pourquoi ils changeraient. Tout ce 
 
 Le travail qui compte se passe avant que quiconque ouvre un outil de design. Pour qui c'est. Ce qu'ils utilisent aujourd'hui. Ce qui change pour eux.
 
-Ces réponses ne décrivent pas le produit, elles le décident. Une équipe qui sait que son utilisateur est celui qui compte le stock à 19h construit une application différente d'une équipe qui construit pour "les commerçants". Même marché, produit différent.
+Ces réponses déterminent le produit à construire. Une équipe qui sait que son utilisateur est celui qui compte le stock à 19h construit une application différente d'une équipe qui construit pour "les commerçants". Même marché, produit différent.
 
-Quand les réponses sont floues, aucune exécution ne sauve rien. Un site magnifique adressé à tout le monde ne convertit personne, parce que personne en le lisant ne se sent adressé. La phrase du fondateur ici, c'est qu'un bon produit se vend tout seul. Il se vend tout seul une fois, à des gens qui te connaissaient déjà. Le deuxième marché n'a jamais entendu parler de toi.
+Quand les réponses sont floues, même un travail soigné ne suffit pas. Un site magnifique adressé à tout le monde ne convertit personne, parce que personne n'a l'impression qu'on lui parle. La phrase du fondateur ici, c'est qu'un bon produit se vend tout seul. Il se vend tout seul une fois, à des gens qui te connaissaient déjà. Le deuxième marché n'a jamais entendu parler de toi.
 
 Le coût remonte plus tard, mal diagnostiqué. Définis le marketing comme la couche visible et ceux qui en sont responsables ne sont jamais invités aux décisions. On leur tend un produit fini et on leur demande de le vendre. Quand ça ne se vend pas, le verdict est que le marketing est faible. Il était exclu, pas faible.
 
@@ -48,7 +48,7 @@ Fais répondre trois personnes séparément, puis mets les réponses côte à c�
 
 ## Depuis ton siège
 
-- **Engineer** : pour qui c'est ne décrit pas le produit, ça le décide. Tu construis autre chose selon la réponse.
+- **Engineer** : savoir à qui s'adresse le produit détermine ce que tu construis.
 - **Product** : celui qui compte le stock à 19h et les commerçants ne donnent pas la même application.
 - **Design** : un site magnifique adressé à tout le monde ne convertit personne. Personne ne s'y sent visé.
 - **Founder** : un bon produit se vend tout seul une fois, à ceux qui te connaissaient déjà.
@@ -56,4 +56,4 @@ Fais répondre trois personnes séparément, puis mets les réponses côte à c�
 
 ## À discuter
 
-Cite le dernier client à qui on aurait dû dire non. Qu'est-ce que dans notre façon de nous décrire l'a laissé passer ?
+Cite le dernier client à qui on aurait dû dire non. Qu'est-ce qui, dans notre façon de nous présenter, lui a fait croire que le produit lui convenait ?

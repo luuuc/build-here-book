@@ -23,13 +23,13 @@ Puis le jour du lancement arrive. Le produit est prêt et la salle est vide.
 
 ## Le réflexe builder
 
-> "On écrit sur ce problème depuis six mois. Le jour où on livre, une partie de la réponse attend déjà."
+> "On écrit sur ce problème depuis six mois. Le jour où on livre, des lecteurs intéressés nous attendent déjà."
 
 ## Pourquoi
 
 L'attention n'apparaît pas sur commande. Elle s'accumule par répétition, chez des gens qui ont eu le temps de comprendre ce que tu publies. Six mois de ça, c'est un petit groupe qui lit l'annonce au lieu de la faire défiler.
 
-Le deuxième effet se rate. Une audience construite pendant que tu construis te corrige. Une réponse, une question après une démo à moitié fonctionnelle, quelqu'un qui dit "nous on a résolu ça autrement". C'est de la recherche sans une ligne de code, assez tôt pour changer la roadmap.
+On oublie souvent le deuxième effet. Des lecteurs qui te suivent pendant le développement peuvent te faire changer de direction. Une réponse, une question après une démo à moitié fonctionnelle, quelqu'un qui dit "nous on a résolu ça autrement". C'est de la recherche sans une ligne de code, assez tôt pour changer la roadmap.
 
 On va se faire copier, et écrire c'est du temps qu'on ne passe pas à livrer. Les deux sont vrais. Les idées voyagent gratuitement, l'exécution non, et personne n'a jamais été tué par un concurrent qui avait lu son article. Beaucoup l'ont été faute d'être connus. Le coût réel est d'une heure tous les quinze jours.
 
@@ -37,9 +37,9 @@ On ne te trouvera pas par accident, et il n'existe aucune salle où le travail s
 
 ## À essayer
 
-Un créneau récurrent de 60 minutes, un jour toute les deux semaines. Écris sur le problème, jamais sur le produit. Ce que tu as vu, ce que tu as raté, ce qui t'a surpris. Pas de liste de fonctionnalités, pas d'appel à l'action.
+Un créneau d'une heure toutes les deux semaines. Écris sur le problème, jamais sur le produit. Ce que tu as vu, ce que tu as raté, ce qui t'a surpris. Pas de liste de fonctionnalités, pas d'appel à l'action.
 
-Six mois plus tard, douze textes et une poignée de gens qui comprennent le sujet. C'est ça la condition d'un lancement, pas un bonus dessus.
+Six mois plus tard, douze textes et une poignée de gens qui comprennent le sujet. C'est ça la condition d'un lancement, pas un supplément facultatif.
 
 ## Depuis ton siège
 

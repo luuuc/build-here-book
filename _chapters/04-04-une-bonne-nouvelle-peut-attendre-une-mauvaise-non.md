@@ -19,7 +19,7 @@ seo:
 
 Le travail est fini, il est bon, il dort dans une branche. Tu attends que ça remonte tout seul.
 
-Ou la version chère. Quelque chose glisse depuis deux semaines et tu attends qu'on vienne te le demander.
+Ou la version chère. Un projet prend du retard depuis deux semaines et tu attends qu'on vienne te le demander.
 
 ## Le réflexe builder
 
@@ -29,7 +29,7 @@ Ou la version chère. Quelque chose glisse depuis deux semaines et tu attends qu
 
 Personne ne suit ton travail avec l'attention que tu lui donnes. Du bon travail non annoncé met simplement plus longtemps à devenir utile.
 
-Une échéance ratée ne se comporte pas comme ça. Elle pourrit. Signalée, c'est de la planification. Découverte la veille de la démo, c'est une crise. Même fait, dix fois le prix, et la seule variable est le temps que tu as passé assis dessus.
+Un retard, lui, s'aggrave quand tu le caches. Signalé tôt, il permet de revoir le planning. Découvert la veille de la démo, il provoque une crise. Même retard, dix fois le coût. La différence tient au temps que tu as mis à le signaler.
 
 Tu espérais rattraper avant la date, et parfois ça marche. Une alerte précoce ressemble d'abord à quelqu'un qui n'arrive pas à livrer. Au bout de deux tours, ça s'inverse. Celui qui dit à mi-parcours que la date ne tiendra pas, puis livre exactement ce qu'il a promis, finit par être celui dont on croit les dates.
 
@@ -37,7 +37,7 @@ Tu espérais rattraper avant la date, et parfois ça marche. Une alerte précoce
 
 Quand tu sais qu'une échéance ne tiendra pas, vingt-quatre heures maximum avant de le dire. Pas quand tu as une solution. Quand tu sais.
 
-> "La date ne se fera pas. J'en suis là, je peux encore livrer ça, voilà ce qui saute. Dites-moi si la priorité est ailleurs."
+> "On ne tiendra pas la date. J'en suis là, je peux encore livrer ça, voilà ce qui saute. Dites-moi si la priorité est ailleurs."
 
 ## Depuis ton siège
 
@@ -49,4 +49,4 @@ Quand tu sais qu'une échéance ne tiendra pas, vingt-quatre heures maximum avan
 
 ## À discuter
 
-Ici, qu'est-ce qui remonte le plus vite, un retard ou une victoire ? Prends les deux derniers de chaque et compare.
+Ici, qu'est-ce qui remonte le plus vite, un retard ou une victoire ? Prends les deux derniers exemples de chaque et compare.
