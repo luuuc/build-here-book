@@ -17,25 +17,25 @@ seo:
 
 ## Le réflexe
 
-> "Ticket fini. Je prends quoi après ?"
+> "C'est fait. Je prends quoi après ?"
 
 Le travail arrive prédécoupé. Savoir si le découpage était bon, c'est la question de quelqu'un d'autre.
 
 ## Le réflexe builder
 
-Tu fermes le ticket, et tu ajoutes ce que tu as vu en le faisant. La cause est plus profonde, et voilà ce que tu changerais.
+Tu termines la tâche, et tu ajoutes ce que tu as vu en la faisant. La cause est plus profonde, et voilà ce que tu changerais.
 
 ## Pourquoi
 
-Celui qui écrit le ticket l'écrit depuis l'extérieur du code. Celui qui le fait passe deux jours dedans et apprend ce que l'auteur n'avait aucun moyen de savoir. Cette connaissance est nette pendant environ une journée, puis elle se dissout dans le sentiment général que le système est un peu bizarre à cet endroit. Si elle ne remonte pas, le ticket suivant porte le même angle mort, et l'équipe redécoupe le même problème deux trimestres plus tard avec un autre numéro dessus.
+Celui qui découpe le travail le fait depuis l'extérieur. Celui qui l'exécute passe deux jours dedans et apprend ce que l'auteur n'avait aucun moyen de savoir. L'agent support voit que la demande revient après chaque remboursement. La recruteuse entend cinq candidats buter sur la même phrase. L'ingénieur découvre que le ticket ne touche pas seulement le fichier prévu. Cette connaissance est nette pendant environ une journée, puis elle se dissout. Si elle ne remonte pas, la tâche suivante porte le même angle mort et l'équipe redécoupe le même problème deux trimestres plus tard avec un autre nom.
 
 "Le formulaire ne s'affiche pas sur mobile" est une tâche. "Personne sur mobile ne s'est inscrit depuis trois semaines" est un problème. L'un change une ligne de code. L'autre change ce sur quoi l'équipe travaille ensuite, et sur un marché où le téléphone est l'ordinateur, il change ce qu'est l'entreprise.
 
-Tu fais le ticket d'abord, toujours. Ce que tu as découvert accompagne la livraison. Ça ne la remplace jamais. Rends une analyse à la place d'un code qui marche et la prochaine sera lue comme une manœuvre.
+Tu fais le travail d'abord, toujours. Ce que tu as découvert accompagne la livraison. Ça ne la remplace jamais. Rends une analyse à la place de ce qui était attendu et la prochaine sera lue comme une manœuvre.
 
 ## À essayer
 
-Deux lignes dans le ticket, avant de le fermer.
+Deux lignes dans l'endroit où le travail est suivi, avant de le fermer.
 
 > Ce que ça m'a appris sur le vrai problème : ...
 > Ce que je ferais autrement en repartant de zéro : ...

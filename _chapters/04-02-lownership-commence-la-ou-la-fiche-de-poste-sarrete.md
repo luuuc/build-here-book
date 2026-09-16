@@ -29,7 +29,7 @@ Le périmètre se lit comme une clôture. Dedans, ça m'engage. Dehors, c'est l'
 
 Une fiche de poste est un plancher. Quelque part en route, elle s'est mise à être lue comme un plafond.
 
-Les problèmes qui coûtent le plus cher n'appartiennent formellement à personne. Le message d'erreur que le support explique quinze fois par semaine. Le fichier de config que trois d'entre vous sur six refusent de toucher, sur l'unique environnement de staging que les six partagent. Le script qu'il faut lancer à la main chaque mois, par celui qui y pense. Aucune fiche de poste ne dit clairement qui doit s'en occuper. La chose reste là deux ans, à coûter quelques heures par semaine sans jamais apparaître sur un plan.
+Les problèmes qui coûtent le plus cher n'appartiennent formellement à personne. Le message d'erreur que le support explique quinze fois par semaine. Le mail envoyé à chaque candidat entre deux entretiens, que ni le recrutement ni le manager ne croit devoir écrire. Le fichier de config que trois d'entre vous sur six refusent de toucher. Le rapprochement mensuel fait à la main par celui qui y pense. Aucune fiche de poste ne dit clairement qui doit s'en occuper. La chose reste là deux ans, à coûter quelques heures par semaine sans jamais apparaître sur un plan.
 
 Raison pour laquelle "et je le dis" n'est pas décoratif. Annonce avant, pas après. Dix minutes avec celui qui est le plus proche, et s'il est déjà dessus tu as gagné du contexte au lieu de dupliquer une semaine.
 
@@ -39,7 +39,7 @@ Personne ne se dispute ces problèmes sans responsable, ce qui en fait le seul t
 
 Choisis un petit problème que les gens contournent depuis des mois. Répare-le, puis dis-le simplement.
 
-> "J'ai réécrit le message d'erreur de la page de paiement, il envoyait les clients au mauvais endroit. Dites-moi si j'ai raté une raison pour laquelle il était écrit comme ça."
+> "J'ai écrit le mail qui manquait entre les deux entretiens, cinq candidats attendaient sans savoir quoi faire. Dites-moi si j'ai raté une raison pour laquelle ce silence existait."
 
 ## Depuis ton siège
 

@@ -17,7 +17,7 @@ seo:
 
 ## Le réflexe
 
-La discussion technique et la décision tiennent dans une seule conversation. Le plus ancien parle en premier, et ce qui est vrai se règle dans la même minute que ce qu'on va faire.
+La discussion et la décision tiennent dans une seule conversation. Le fondateur préfère vendre l'offre à l'année. Il le dit dans la première minute. Le produit, la finance et le commercial avaient chacun une objection. Elles deviennent soudain des détails à régler après.
 
 ## Le réflexe builder
 
@@ -27,9 +27,9 @@ La discussion technique et la décision tiennent dans une seule conversation. Le
 
 Deux formes d'autorité coexistent dans chaque équipe, et elles appartiennent à des personnes différentes.
 
-L'autorité intellectuelle va à celui qui a le meilleur argument sur ce sujet précis. Elle se déplace avec le sujet, et peut appartenir à celui qui est arrivé il y a six semaines et a lu le changelog du fournisseur plus attentivement que les autres.
+L'autorité intellectuelle va à celui qui a le meilleur argument sur ce sujet précis. Elle se déplace avec le sujet, et peut appartenir à celle qui est arrivée il y a six semaines et a écouté vingt appels de vente, ou à celui qui a lu le changelog du fournisseur plus attentivement que les autres.
 
-L'autorité de décision va à celui qui porte les conséquences. Stable, nécessaire, et pas soumise au vote quand la release est demain.
+L'autorité de décision va à celui qui porte les conséquences. Stable, nécessaire, et pas soumise au vote quand le prix doit partir demain.
 
 C'est de les mélanger dans la même minute qui fait les dégâts. L'exploration s'arrête à la seconde où celui qui tranche exprime une préférence, parce qu'à partir de là être en désaccord coûte quelque chose et être d'accord ne coûte rien. Il décide alors sans toutes les informations dont l'équipe disposait, et il ne le saura jamais.
 

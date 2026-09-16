@@ -27,7 +27,9 @@ Un texte sur ce que l'écosystème devrait faire. Une réaction à une levée de
 
 ## Pourquoi
 
-On appelle publier deux choses différentes, qui rendent toutes deux ton nom visible. Une seule produit une référence. La différence est dans la façon dont on arrive dessus. Un avis est consommé au moment où il passe, par des gens qui ne cherchaient rien. Un artefact est trouvé, plus tard, par quelqu'un qui a déjà le problème. Personne ne tape "que devrait faire la tech africaine" dans un moteur de recherche. Quelqu'un tape le message d'erreur exact, à deux heures du matin, et il ne sait pas qu'il te cherche. Un exemple à consulter ce soir. Lelapa AI a publié les poids d'InkubaLM, entraîné sur cinq langues africaines. N'importe qui peut les télécharger et dire ce qui ne va pas dedans, sans rien savoir de l'équipe.
+On appelle publier deux choses différentes, qui rendent toutes deux ton nom visible. Une seule produit une référence. La différence est dans la façon dont on arrive dessus. Un avis est consommé au moment où il passe, par des gens qui ne cherchaient rien. Un artefact est trouvé, plus tard, par quelqu'un qui a déjà le problème. Personne ne tape « que devrait faire la tech africaine » dans un moteur de recherche. Quelqu'un cherche pourquoi ses candidats abandonnent après le deuxième entretien, comment classer mille demandes support, ou tape le message d'erreur exact à deux heures du matin. Il ne sait pas encore qu'il te cherche.
+
+Un artefact peut être un modèle qu'on télécharge, mais aussi une grille d'entretien avec ses critères, un tableau anonymisé des motifs de contact ou cinq écrans écartés avec le résultat des tests. Dans chaque cas, un inconnu peut le poser à côté de son propre travail et dire précisément ce qui lui manque.
 
 Regarde aussi contre qui tu te places. Sur un avis, tu es en concurrence avec tous ceux qui ont un avis, c'est-à-dire tout le monde, et celui qui gagne est celui qui poste le plus souvent. Sur la façon dont ton équipe a réconcilié des paiements sur deux rails qui ne se parlent pas, tu es en concurrence avec les gens qui l'ont fait. Ils sont douze et ils n'écrivent pas.
 
@@ -37,7 +39,7 @@ Le test se retourne, et c'est cette moitié-là qu'on oublie. "Ce n'est qu'un av
 
 ## À essayer
 
-Prends la dernière chose que tu as publiée. Cherche dedans une chose vérifiable par quelqu'un d'autre. Un chiffre, une chronologie, une commande, dix lignes de code, une version.
+Prends la dernière chose que tu as publiée. Cherche dedans une chose vérifiable par quelqu'un d'autre. Un chiffre, une chronologie, une grille, un écran avant et après, une commande, dix lignes de code, une version.
 
 S'il n'y en a aucune, tu as publié un avis. Ce n'est pas grave, mais ce n'est pas une trace, et il ne faut pas compter les deux dans le même total.
 

@@ -11,7 +11,7 @@ categories:
   - distribution
   - trace
 seo:
-  description: "Personne ne cherche ton nom. On cherche un message d'erreur, un nom de version, deux outils qui refusent de se parler."
+  description: "Personne ne cherche ton nom. On cherche le problème avec les mots qu'on possède déjà."
   keywords: "build here, visibilite, distribution, tech afrique, builder, publie, cherche"
 ---
 
@@ -27,9 +27,9 @@ Ou dans un document partagé, ou dans un canal ouvert à toute l'entreprise. C'e
 
 ## Pourquoi
 
-Personne ne cherche ton nom. On cherche un message d'erreur, un nom de version, deux outils qui refusent de se parler. La trace n'est trouvée que par quelqu'un qui a déjà le problème, ce qui décide tout le reste.
+Personne ne cherche ton nom. On cherche « candidats qui abandonnent après entretien », « remboursement mobile money introuvable », un message d'erreur, un nom de version, deux outils qui refusent de se parler. La trace n'est trouvée que par quelqu'un qui a déjà le problème, ce qui décide tout le reste.
 
-Le titre doit donc contenir les mots du problème et pas les mots de ta conclusion. *Ce que j'ai appris sur la résilience* ne se cherche pas. *Le job d'import meurt quand un nom de fichier contient une virgule* se cherche, par exactement les gens à qui il sert, et des gens continueront de chercher ce problème pendant des années.
+Le titre doit donc contenir les mots du problème et pas les mots de ta conclusion. *Ce que j'ai appris sur l'expérience candidat* ne se cherche pas. *Pourquoi la moitié de nos candidats abandonnaient entre deux entretiens* se cherche, par exactement les gens à qui il sert. *Ce que j'ai appris sur la résilience* ne se cherche pas non plus. *Le job d'import meurt quand un nom de fichier contient une virgule* se cherche. Des gens continueront de rencontrer les deux problèmes pendant des années.
 
 L'endroit compte autant que le titre, et c'est là que la plupart des traces meurent. Une réponse posée sous la question qui l'a provoquée, un ticket dans le tracker de la dépendance concernée, un dépôt public, un texte à une adresse qui t'appartient. Ces endroits sont indexés, ils sont permanents, et personne ne décide à ta place qui les voit. Une plateforme sociale fait l'inverse des trois. Elle te donne une audience aujourd'hui et efface la chose dans quarante-huit heures.
 

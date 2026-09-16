@@ -27,11 +27,11 @@ Le plus fort de l'équipe fixe le niveau. Tu le regardes, tu apprends de lui, et
 
 Une équipe qui ne se compare qu'à elle-même finit par prendre sa propre moyenne pour référence. C'est le plus facile : les exemples sont peu nombreux, proches et immédiatement accessibles.
 
-Le plafond est silencieux. Rien ne casse quand une équipe arrête de progresser. Les sprints se clôturent, la revue passe, les releases partent à l'heure. Le seul signal dont tu aurais besoin est celui que tu n'as pas. Quelqu'un de l'extérieur qui lit la même pull request et grimace.
+Le plafond est silencieux. Rien ne casse quand une équipe arrête de progresser. Les sprints se clôturent, les campagnes partent, les recrutements se terminent. Le seul signal dont tu aurais besoin est celui que tu n'as pas. Quelqu'un de l'extérieur qui ouvre le même travail et voit immédiatement ce qui manque.
 
 Ce quelqu'un n'est pas non plus sur la scène de la conférence locale. Ceux qui font le travail sont ceux dont personne n'a entendu parler, et ça t'inclut.
 
-La référence existe, et elle ne va pas descendre te chercher. Tu cherches un niveau d'exigence auquel te mesurer, pas une solution à copier. Ces gens ne connaissent ni tes rails de paiement ni tes appareils de trois ans d'âge. Mais quelqu'un qui a résolu ce type de problème vingt fois sait ce qu'on peut raisonnablement exiger, et cette idée voyage même quand le code ne voyage pas. Ton senior répond à la question locale. La référence extérieure répond à celle que personne dans le bâtiment n'a pensé à poser.
+La référence existe, et elle ne va pas descendre te chercher. Tu cherches un niveau d'exigence auquel te mesurer, pas une solution à copier. Compare ton parcours au produit que tes clients ouvrent tous les jours, ta réponse support à la meilleure que tu aies reçue, ta grille d'entretien à une grille publique qui explique chaque critère, ton système aux équipes qui ont déjà connu son échelle. Ces gens ne connaissent ni tes rails de paiement ni tes appareils de trois ans d'âge. Mais quelqu'un qui a résolu ce type de problème vingt fois sait ce qu'on peut raisonnablement exiger. Ton senior répond à la question locale. La référence extérieure répond à celle que personne dans le bâtiment n'a pensé à poser.
 
 ## À essayer
 

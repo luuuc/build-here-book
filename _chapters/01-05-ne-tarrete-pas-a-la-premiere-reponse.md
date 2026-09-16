@@ -10,6 +10,7 @@ categories:
   - curiosite
   - apprentissage
   - engineering
+  - support
 seo:
   description: "La première réponse qu'on trouve traite souvent le symptôme le plus visible. Comme ce symptôme disparaît, on croit avoir compris le problème."
   keywords: "build here, curiosite, tech afrique, builder, arrete, premiere, reponse"
@@ -17,7 +18,7 @@ seo:
 
 ## Le réflexe
 
-> "J'ai trouvé un post avec le fix, ça remarche."
+> "J'ai répondu au client, il est satisfait."
 
 Symptôme parti. Ticket suivant.
 
@@ -25,7 +26,7 @@ Symptôme parti. Ticket suivant.
 
 > "Ça marche. Mais pourquoi ça ne marchait pas ?"
 
-Un correctif que tu ne sais pas expliquer règle peut-être l'urgence. Il laisse le problème de fond intact.
+Une réponse qui fait disparaître le symptôme règle peut-être l'urgence. Elle laisse le problème de fond intact.
 
 ## Pourquoi
 
@@ -33,13 +34,15 @@ La première réponse qu'on trouve traite souvent le symptôme le plus visible. 
 
 Le traitement d'import s'est arrêté dans la nuit. Tu le relances, les chiffres reviennent, tu fermes le ticket. Trois semaines plus tard il échoue à nouveau, à une autre heure avec une autre erreur, donc le lien ne se fait pas. Il aura fallu deux nuits d'échec avant que quelqu'un demande ce que les deux fichiers avaient en commun. Chercher la cause demande environ trente minutes de plus. S'arrêter au symptôme, c'est retrouver le même problème pendant des années, avec une nouvelle explication à chaque fois.
 
+Le même piège existe loin du code. Trois clients demandent comment télécharger leur reçu. Le support envoie le bon lien, vite, et les trois repartent contents. La première réponse est bonne. La deuxième question est meilleure : pourquoi trois personnes qui viennent de payer ne trouvent-elles pas ce lien seules ? Tant que personne ne la pose, le support gagne sur son temps de réponse et l'entreprise paie la même réponse chaque semaine.
+
 Et personne ne fera cette recherche à ta place. Aucun senior du plateau n'a fait tourner ce système. La deuxième réponse sort du code source, ou de la doc du fournisseur, lue par toi, lentement, sur une connexion qui te fait réfléchir à l'utilité de la vidéo.
 
 Deux niveaux suffisent presque toujours. À force d'imposer un formulaire des cinq pourquoi et une réunion récurrente, on finit par décourager la recherche des causes. Ça a cassé, pourquoi ? Le champ était vide. Pourquoi il était vide ? Rien n'empêche qu'il soit vide. C'est cette deuxième réponse qui mérite d'être écrite, parce que le suivant ne peut pas y arriver seul.
 
 ## À essayer
 
-Pendant une semaine, ne ferme pas un ticket tant que le champ résolution ne contient pas deux phrases. Ce que tu as changé, et ce qui permettait au problème d'exister.
+Pendant une semaine, ne ferme pas une demande, un incident ou une objection tant que sa résolution ne contient pas deux phrases. Ce que tu as fait, et ce qui permettait au problème d'exister.
 
 Si la deuxième est "pas clair", écris-le. C'est vrai, et ça marque l'endroit pour le prochain qui tombera dessus.
 

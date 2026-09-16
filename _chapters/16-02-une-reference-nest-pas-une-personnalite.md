@@ -41,14 +41,14 @@ Prends les trois personnes dont le travail t'a le plus appris cette année. Comp
 
 Puis les trois personnes dont tu vois le nom le plus souvent. Compte la même chose.
 
-Regarde laquelle des deux listes tu pourrais citer dans une décision technique demain.
+Regarde laquelle des deux listes tu pourrais citer dans une décision réelle demain.
 
 ## Depuis ton siège
 
 - **Engineer** : le postmortem écrit en 2023 est trouvé en 2027. Tu peux avoir arrêté entre-temps.
 - **Design** : tu n'as pas besoin d'être présent, régulier ni sympathique. En contrepartie, il faut du temps.
 - **Founder** : une personnalité se construit en six mois, une référence en années. Rien ne compense ça.
-- **Manager** : ce que vous citez en décision technique vient de gens qui publient peu et durablement.
+- **Manager** : ce que vous citez pour décider vient de gens qui publient peu et durablement.
 - **Recrutement** : distingue celui qu'on voit souvent de celui qu'on cite. Ce ne sont pas les mêmes.
 
 ## À discuter
