@@ -25,7 +25,7 @@ Les deux sont retirés automatiquement après chaque déploiement du site, par [
 
 ## Ce qu'il y a dedans
 
-Une ouverture, un mode d'emploi (*Comment lire ce livre*), **deux mouvements** et quatre annexes.
+Une introduction, un mode d'emploi (*Comment lire ce livre*), **deux mouvements** et quatre annexes.
 
 Le premier mouvement te rend meilleur. Le second rend ton travail visible. Ce sont deux problèmes différents, et le second est le plus difficile des deux.
 
@@ -50,7 +50,7 @@ Le premier mouvement te rend meilleur. Le second rend ton travail visible. Ce so
 - **Se faire trouver** - écrit et invisible, c'est un progrès d'exactement zéro
 - **Devenir une référence** - ça arrive à quelqu'un d'autre, ailleurs, sans toi
 
-Puis *L'escalier*, la dernière page.
+Puis une conclusion : laisser quelque chose que le suivant pourra trouver.
 
 Les annexes donnent le format d'une entrée, les douze tests qu'elle doit survivre, et seize titres publiés entre 1954 et 2018 où tout ça était déjà écrit.
 

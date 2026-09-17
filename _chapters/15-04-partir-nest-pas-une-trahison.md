@@ -27,7 +27,7 @@ Personne ne te doit sa carrière. La question n'est pas où tu travailles, c'est
 
 ## Pourquoi
 
-L'offre est réelle et l'arithmétique aussi. L'ouverture de ce livre le dit en une ligne, ceux qui deviennent bons et se font voir partent en majorité, ce qui est de l'arithmétique et pas une trahison. Un salaire multiplié, une équipe qui a déjà fait la chose, parfois un visa. Personne ne refuse ça par loyauté et personne ne devrait avoir à s'en justifier.
+L'offre est réelle et l'arithmétique aussi. Ceux qui deviennent bons et se font voir reçoivent davantage d'offres, puis beaucoup partent. Un salaire multiplié, une équipe qui a déjà fait la chose, parfois un visa. Personne ne refuse ça par loyauté et personne ne devrait avoir à s'en justifier.
 
 Le débat se limite au lieu où tu vis. Mais ce qui circule, c'est aussi ton savoir. Quelqu'un qui part après avoir publié quatre postmortems laisse quatre postmortems, consultables de n'importe où, y compris par la personne recrutée pour le remplacer. Quelqu'un qui reste dix ans sans rien écrire laisse une réputation locale qui s'éteint le jour où il change d'étage. Le second a l'air plus loyal et transmet moins.
 

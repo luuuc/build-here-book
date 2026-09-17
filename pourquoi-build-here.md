@@ -1,20 +1,17 @@
 ---
-layout: chapter
-title: "Ouverture"
-description: "Un guide pratique pour ceux qui construisent sur ce continent"
-show_chapter_number: false
-illustration: "ouverture"
-part: "Ouverture"
-order: 1
+layout: page
+title: "Ils étaient là depuis le début"
+description: "Les builders étaient là depuis le début. C'est moi qui ne savais pas les trouver."
+permalink: /pourquoi-build-here/
 metadata:
   reading_time_in_minutes: 10
 categories:
-  - ouverture
+  - projet
   - builders
   - afrique
 seo:
   description: "Chez Douglas Adams, la galaxie a une encyclopédie, et cette encyclopédie a une entrée pour la Terre."
-  keywords: "build here, ouverture, tech afrique, builder"
+  keywords: "build here, tech afrique, builder, pourquoi ce livre"
 ---
 
 Chez Douglas Adams[^adams], la galaxie a une encyclopédie, et cette encyclopédie a une entrée pour la Terre.
@@ -25,7 +22,7 @@ Deux mots pour une planète. Classée par quelqu'un qui est passé, s'est fait u
 
 L'industrie tech a une entrée pour ce continent. Elle dit, intégralement :
 
-**Émergent.**
+~~Émergent.~~
 
 Un mot, et il tient depuis vingt ans. Émergent de quoi, vers quoi, à quelle échéance, personne ne le précise, parce que le mot n'a pas besoin d'une seconde moitié pour faire son travail. Il veut dire pas encore. Il veut dire on repassera, c'est classé.
 
@@ -35,8 +32,7 @@ Regarde plutôt le nombre de gens ici qui l'ont lu, qui ont trouvé qu'il était
 
 Le mot n'est pas le problème. Le niveau est là. Il n'est simplement jamais devenu le standard, parce que presque personne ne voit ceux qui l'atteignent à l'œuvre.
 
-Ce guide en propose la version longue.
-Une idée. Elle tient seule. Deux minutes.
+Build Here est né de l'écart entre ce qui se construit déjà ici et ce qu'on en voit. Voici d'où vient le livre.
 
 ## Ce qui tourne déjà
 
@@ -133,13 +129,11 @@ Et ceux qui deviennent bons et se font voir partent en majorité, ce qui est de 
 Personne n'a conçu ce système. Aucun responsable ne se dégage, alors personne ne se charge de le changer.
 
 
-## Une dernière chose
+## Ce que le livre demande
 
-Le travail que ce livre te demande ne s'arrête pas à devenir meilleur. Il te demande aussi d'arrêter de le faire en silence. Livre en public. Mets ton nom sur ton travail. Mets-le sur internet, là où ça reste. Écris ce qui a cassé et ce que tu as fait. Réponds à la question dans le thread. Dis le chiffre à voix haute en réunion.
+Le travail que Build Here te demande ne s'arrête pas à devenir meilleur. Il te demande aussi d'arrêter de le faire en silence. Livre en public. Mets ton nom sur ton travail. Mets-le sur internet, là où ça reste. Écris ce qui a cassé et ce que tu as fait. Réponds à la question dans le thread. Dis le chiffre à voix haute en réunion.
 
 Pas pour devenir visible à la place de ton travail. Pour rendre ton travail visible. Fais-le pour celui qui a trois ans de moins que toi, qui n'a personne sur qui se caler, et qui est en train de conclure, comme moi à l'époque, qu'il n'y a personne ici.
-
-Le sous-sol a un escalier, et personne d'en haut ne va descendre te chercher. Pose un pied sur la première marche.
 
 **Les builders sont là depuis le début. Toi compris.**
 

@@ -4,7 +4,7 @@ title: "Faire tourner ça dans ton équipe"
 description: "Six semaines, trente minutes par semaine"
 show_chapter_number: false
 illustration: "faire-tourner"
-part: "Ouverture"
+part: "Introduction"
 order: 3
 metadata:
   reading_time_in_minutes: 4

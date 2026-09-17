@@ -33,7 +33,7 @@ La première fois fixe la règle, exactement comme dans *La première réaction 
 
 La crainte est réelle, mais elle porte sur des cas précis. Quelqu'un publie un chiffre qui ne devrait pas sortir, nomme un client, ou décrit une faille encore ouverte. Trois lignes écrites une fois règlent les trois cas, définitivement, pour toute l'entreprise.
 
-Le coût du silence apparaît ailleurs, notamment dans les difficultés de recrutement. Une entreprise dont personne ne connaît les ingénieurs ne peut recruter que par recommandation, c'est-à-dire par le canal qui sélectionne la visibilité et pas la livraison. Tu fais tourner le filtre de l'ouverture, et tu conclus ensuite qu'il n'y a personne de ce niveau ici.
+Le coût du silence apparaît ailleurs, notamment dans les difficultés de recrutement. Une entreprise dont personne ne connaît les ingénieurs ne peut recruter que par recommandation, c'est-à-dire par le canal qui sélectionne la visibilité et pas la livraison. Tu cherches parmi les gens déjà connus, puis tu conclus qu'il n'y a personne de ce niveau ici.
 
 ## À essayer
 

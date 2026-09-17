@@ -31,7 +31,7 @@ Le mentorat a une portée limitée. Une conversation, une personne, et il s'arr�
 
 Ce qui empêche de l'écrire est un biais, pas un manque de temps. Vu de l'intérieur, ce que tu sais a l'air évident. Tu le sais depuis huit ans, donc ça ressemble à du bon sens, donc l'écrire ressemble à énoncer une banalité. La chose que tu trouves banale est souvent celle que personne du pays n'a jamais écrite, et tu es la dernière personne capable d'en juger.
 
-L'ouverture le dit déjà et cette entrée te demande de passer à l'action. *Tu es la référence qui manquait, et si personne autour de toi ne s'en sert, c'est que rien de tout ça n'est jamais sorti de ta tête.* Expliquer rapporte immédiatement, un visage qui comprend en face de toi. Écrire est plus lent et le retour est nul pendant des mois. Tout le monde choisit l'explication et c'est rationnel. Voilà pourquoi rien ne change tant que personne n'accepte cet effort sans résultat immédiat.
+Cette entrée te demande de passer à l'action. *Tu es la référence qui manquait, et si personne autour de toi ne s'en sert, c'est que rien de tout ça n'est jamais sorti de ta tête.* Expliquer rapporte immédiatement, un visage qui comprend en face de toi. Écrire est plus lent et le retour est nul pendant des mois. Tout le monde choisit l'explication et c'est rationnel. Voilà pourquoi rien ne change tant que personne n'accepte cet effort sans résultat immédiat.
 
 Il reste l'exemple que tu donnes, même sans le vouloir. L'équipe copie ce que tu fais, pas ce que tu recommandes. Un senior qui n'a jamais rien publié enseigne à toute la salle que publier ne fait pas partie du métier, quoi qu'il dise en entretien individuel.
 

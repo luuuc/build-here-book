@@ -22,7 +22,7 @@ Tu deviens une référence le jour où quelqu'un s'appuie sur ton travail, aille
 
 Les deux sections précédentes portaient sur ce que tu fais. Celle-ci porte sur ce qui se passe ensuite, hors de ta vue, et sur la différence entre les deux façons d'être connu qu'on range sous le même mot.
 
-C'est la dernière section du livre, et c'est celle qui ferme la boucle de l'ouverture.
+C'est la dernière section du livre. Elle porte sur ce que ton travail permet à quelqu'un d'autre de faire.
 
 ---
 

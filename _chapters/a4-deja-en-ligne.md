@@ -32,7 +32,7 @@ Ce n'est pas là pour prouver quoi que ce soit à qui que ce soit. Si tu cherche
 
 ## Ce qui n'y est pas
 
-Les entreprises qu'on ne peut que regarder. Elles sont dans l'ouverture, à leur place, et une levée de fonds n'offre rien à quoi contribuer.
+Les entreprises qu'on ne peut que regarder. Leur réussite compte, mais une levée de fonds n'offre rien à quoi contribuer.
 
 Le critère écarte des projets excellents. C'est assumé. Une liste qui admet tout ne dit rien.
 

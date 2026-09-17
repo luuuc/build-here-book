@@ -24,7 +24,7 @@ Des entrées de deux minutes, écrites pour ceux qui fabriquent des choses ici. 
 
 Le livre a deux mouvements. Le premier te rend meilleur. Le second rend ton travail visible. Ce sont deux problèmes différents, et le second est le plus difficile des deux.
 
-L'[ouverture](/chapters/00-ouverture.html) raconte d'où vient le livre, y compris l'endroit où je me suis planté. L'[escalier](/chapters/17-lescalier.html) est la dernière page.
+L'[introduction](/chapters/00-introduction.html) explique comment utiliser le livre. La page [Ils étaient là depuis le début](/pourquoi-build-here/) raconte d'où vient le projet, y compris l'endroit où je me suis planté.
 
 ## Écris la suivante
 

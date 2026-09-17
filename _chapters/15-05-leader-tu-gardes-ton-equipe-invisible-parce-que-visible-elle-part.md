@@ -27,7 +27,7 @@ Les publications sortent sous le logo. Le nom de celui qui a fait le travail n'y
 
 ## Pourquoi
 
-Reconnaissons d'abord que la peur est fondée. Quelqu'un de visible reçoit des offres. Sur un marché où un salaire à distance vaut plusieurs fois le tien, ces offres arrivent vite et elles sont sérieuses. Ce n'est pas de la paranoïa, c'est de l'arithmétique, et l'ouverture de ce livre dit déjà que ceux qui deviennent bons et se font voir partent en majorité.
+Reconnaissons d'abord que la peur est fondée. Quelqu'un de visible reçoit des offres. Sur un marché où un salaire à distance vaut plusieurs fois le tien, ces offres arrivent vite et elles sont sérieuses. Ce n'est pas de la paranoïa, c'est de l'arithmétique : ceux qui deviennent bons et se font voir sont aussi ceux que les entreprises étrangères peuvent recruter.
 
 Regarde maintenant ce que le silence t'apporte réellement. Il ne retient personne. Quelqu'un qui veut partir part, et la raison sera le salaire, le travail, ou toi. Ce que le silence garantit, c'est que tu ne pourras pas recruter la personne suivante autrement que par recommandation, c'est-à-dire par le canal qui sélectionne ceux qui savent se montrer. Tu fais tourner le filtre décrit à la page trois, et tu conclus ensuite qu'il n'y a personne de ce niveau ici.
 

@@ -4,7 +4,7 @@ title: "Comment lire ce livre"
 description: "Pour qui il est écrit, et depuis quelle place le lire"
 show_chapter_number: false
 illustration: "sept-sieges"
-part: "Ouverture"
+part: "Introduction"
 order: 2
 redirect_from:
   - /chapters/00-les-six-sieges.html

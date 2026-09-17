@@ -17,7 +17,7 @@ seo:
   keywords: "build here, visibilite, trace, tech afrique, builder, silence"
 ---
 
-Il y a une phrase à la fin de l'ouverture que j'ai écrite vite et que j'ai mis six ans à comprendre.
+Il y a une phrase que j'ai écrite vite et que j'ai mis six ans à comprendre.
 
 *Le travail que ce livre te demande ne s'arrête pas à devenir meilleur.*
 
@@ -27,7 +27,9 @@ Voilà la deuxième moitié. C'est la difficile.
 
 ## Ce que j'ai mis six ans à faire
 
-En 2020, j'ai arrêté de chercher des builders et j'ai conclu qu'il n'y en avait pas ici. Tu connais la suite, elle est dans l'ouverture. Le filtre, la conclusion, et le fait qu'elle était fausse.
+À partir de 2018, je voulais monter chez Afrikrea, devenue Anka, une équipe de conception et de développement produit à l'échelle du continent. J'ai cherché pendant deux ans par les recommandations, les événements, les communautés tech et les profils déjà visibles. Je trouvais surtout des gens qui savaient se montrer. J'ai fini par conclure que les builders que je cherchais n'étaient pas ici, puis j'ai recruté à l'international.
+
+La conclusion était fausse. Ma recherche sélectionnait exactement les profils qu'elle était conçue pour trouver : des gens connus. Ceux qui livraient étaient là, parfois à une heure de mon bureau, mais leur travail ne laissait presque aucune trace dans les canaux où je les cherchais.
 
 Voilà la partie que je n'ai pas racontée. Entre le moment où j'ai compris que j'avais tort et la première ligne de ce livre, il s'est passé six ans.
 
@@ -35,7 +37,7 @@ Six ans à expliquer les mêmes choses en privé, à des gens que je croisais, u
 
 Je n'étais pas seulement le fondateur qui n'avait pas trouvé les builders. J'étais aussi l'un de ceux qu'il n'avait pas trouvés.
 
-C'est de là que vient ce second mouvement. Pas d'une théorie sur la visibilité. Du fait que la personne qui a écrit l'ouverture était des deux côtés du problème et a mis six ans à s'en apercevoir.
+C'est de là que vient ce second mouvement. Pas d'une théorie sur la visibilité. Du fait que j'étais des deux côtés du problème et que j'ai mis six ans à m'en apercevoir.
 
 ## Pourquoi ça ne se lit pas seul
 
@@ -51,7 +53,7 @@ Chaque entrée travaille sur un objet que le premier mouvement a produit. Le pos
 
 Deux chiffres, et je n'en ai pas de meilleurs.
 
-L'ouverture donne le premier. Deux ans pour qu'une information traverse une ville, entre des gens qui se cherchaient activement.
+Le premier vient de cette recherche. Deux ans pour qu'une information traverse une ville, entre des gens qui se cherchaient activement.
 
 Le second est celui-ci. Six ans entre savoir quelque chose et l'écrire, chez quelqu'un dont le métier est d'arbitrer des priorités.
 
