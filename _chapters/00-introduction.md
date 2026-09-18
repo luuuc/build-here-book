@@ -15,11 +15,11 @@ seo:
   keywords: "build here, introduction, builder, echelle"
 ---
 
-Ce livre décrit comment devenir un builder, et dans quel ordre ça s'apprend.
+Ce livre aborde les étapes qui définissent ce qu'est un builder.
 
 Le mot est souvent confisqué par un métier. Un builder serait celui qui écrit du logiciel. C'est l'erreur qui rend tout le reste faux.
 
-Dans une entreprise qui fabrique quelque chose, construire est une façon de travailler, pas une fonction. L'ingénieur construit des systèmes. Le commerce construit une manière répétable d'aller chercher des clients. Le support construit de la confiance et une connaissance des gens que personne d'autre ne possède. Les opérations construisent des processus. Le marketing construit de la distribution. Le produit construit de la compréhension et des arbitrages. La finance construit de la discipline. Un fondateur construit l'entreprise elle-même.
+Dans une entreprise qui fabrique quelque chose, construire est une façon de travailler, pas une fonction. L'ingénieur construit des systèmes. Le commercial construit une manière répétable d'aller chercher des clients. L'agent support construit de la confiance et une connaissance des gens que personne d'autre ne possède. Le responsable des opérations construit des processus. Le marketeur construit de la distribution. Le product manager construit de la compréhension et des arbitrages. Le comptable construit de la discipline. Le fondateur construit l'entreprise elle-même.
 
 Personne n'a besoin de changer de métier pour être concerné par ces pages.
 
@@ -53,5 +53,3 @@ Le reste peut attendre.
 Une bonne entreprise tech n'est pas un endroit où les ingénieurs construisent pendant que tous les autres les soutiennent.
 
 C'est une entreprise de builders qui pratiquent des métiers différents.
-
-Pourquoi ce livre existe est raconté ailleurs, dans [Ils étaient là depuis le début](/pourquoi-build-here/).
