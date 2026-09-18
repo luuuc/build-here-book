@@ -36,7 +36,7 @@ Personne n'a besoin de changer de métier pour être concerné par ces pages.
 **9. Le leadership.** Je fabrique des builders autour de moi.
 **10. La référence.** On apprend de ma façon de travailler.
 
-Chaque étape s'appuie sur celles d'en dessous. Un métier sans agency produit un exécutant très qualifié. Un levier posé sur un travail qu'on n'a pas compris multiplie une erreur.
+Chaque étape s'appuie sur une capacité travaillée en dessous. Un métier sans initiative produit un exécutant très qualifié. Un levier posé sur un travail qu'on n'a pas compris multiplie une erreur. C'est l'hypothèse d'organisation du livre ; le mode d'emploi dit comment la mettre à l'épreuve.
 
 L'échelle n'est pas un classement. Les étapes s'accumulent, elles ne se distribuent pas comme des grades, et personne ne les tient toutes en même temps sur tous les sujets. Se demander à quel niveau on se situe est la façon de lire ce livre qui fait perdre le plus de temps.
 

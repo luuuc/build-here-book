@@ -38,9 +38,11 @@ Une étape est considérée comme suffisamment présente à partir de 57 %. Ce 
 
 ## Des prérequis, pas une moyenne
 
-Les dix étapes sont une progression. Un score élevé en leadership ne compense donc pas une boucle d'ownership qui ne se ferme jamais.
+Le test applique l'hypothèse du livre : les dix étapes forment une progression. Un score élevé en leadership ne compense donc pas, dans la recommandation, une boucle d'ownership qui ne se ferme jamais.
 
 Le résultat parcourt les étapes dans l'ordre et s'arrête à la première qui n'atteint pas le seuil. Les forces observées plus loin restent affichées comme appuis. Elles ne permettent pas de sauter la marche manquante.
+
+Elles comptent aussi comme objections. Si les résultats montrent régulièrement une capacité haute sans son prérequis supposé, le problème peut venir de la question, du seuil ou de l'ordre lui-même. Le test ne doit pas protéger l'échelle contre les données qu'il recueille.
 
 La recommandation donne alors trois cartes de cette marche : un diagnostic, un principe et une pratique. Quand la marche concerne les conditions de travail, une carte système peut remplacer l'une des trois.
 
