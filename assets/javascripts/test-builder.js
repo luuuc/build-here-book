@@ -40,7 +40,7 @@
     ]},
     { n: 8, name: "Le levier", line: "Tu multiplies un jugement solide au lieu de multiplier seulement l'activité.", practice: "Liste les demandes de la semaine. Regroupe celles qui se répètent et automatise seulement la partie dont tu sais vérifier la sortie.", cards: [
       ["Diagnostic", "Trente pour cent de ce qui arrive est la même chose", "/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html"],
-      ["Principe", "Le but n'est pas d'en faire plus", "/chapters/08-01-le-but-nest-pas-den-faire-plus.html"],
+      ["Principe", "Le levier le moins cher est déjà payé", "/chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html"],
       ["Pratique", "L'IA est un levier, pas un raccourci", "/chapters/08-03-lia-est-un-levier-pas-un-raccourci.html"]
     ]},
     { n: 9, name: "Le leadership", line: "Tu fabriques un environnement où d'autres builders peuvent agir.", practice: "Prends la plainte que tu répètes le plus sur l'équipe. Change une règle ou une incitation qui rend ce comportement rationnel.", cards: [
@@ -50,7 +50,7 @@
     ]},
     { n: 10, name: "La référence", line: "Ton travail laisse une trace dont quelqu'un peut apprendre sans t'avoir dans la pièce.", practice: "Publie un artefact qui répond à une question réelle : décision, méthode, incident, exemple ou outil réutilisable.", cards: [
       ["Diagnostic", "Un avis n'est pas un artefact", "/chapters/10-02-un-avis-nest-pas-un-artefact.html"],
-      ["Principe", "Une référence n'est pas une personnalité", "/chapters/10-09-une-reference-nest-pas-une-personnalite.html"],
+      ["Principe", "Une trace n'est pas forcément du code", "/chapters/10-03-une-trace-nest-pas-forcement-du-code.html"],
       ["Pratique", "Réponds à la question en public", "/chapters/10-04-reponds-a-la-question-en-public.html"]
     ]}
   ];

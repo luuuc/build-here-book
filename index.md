@@ -6,7 +6,7 @@ categories:
   - tech
 
 seo:
-  description: Un guide pratique pour ceux qui construisent. Dix étapes, quatre-vingt-sept cartes, une idée par carte.
+  description: Un guide pratique pour ceux qui construisent. Dix étapes, quatre-vingt-une cartes, une idée par carte.
   keywords: build here, builders, ingénierie logicielle, produit, ownership, leadership, guide pratique, visibilité
 
 title: Build Here

@@ -19,7 +19,7 @@ categories:
   - methode
   - references
 seo:
-  description: "À gauche une phrase qu'on dit, à droite la carte qui la conteste. Les quatre-vingt-sept cartes du livre, rangées par symptôme."
+  description: "À gauche une phrase qu'on dit, à droite la carte qui la conteste. Les quatre-vingt-une cartes du livre, rangées par symptôme."
   keywords: "build here, annexes, builder, index, symptome, sommaire"
 ---
 
@@ -27,7 +27,7 @@ Le mode d'emploi dit d'ouvrir le livre à l'étape qui correspond à ce qui t'ag
 
 À gauche, une phrase qu'on dit, ou une semaine qu'on vient de vivre. À droite, une carte, parfois deux, jamais dix. Un index qui renvoie quarante cartes n'a rien trié.
 
-Les quatre-vingt-sept cartes y sont, chacune au moins une fois. Aucun classement par importance, aucun ordre de lecture.
+Les quatre-vingt-une cartes y sont, chacune au moins une fois. Aucun classement par importance, aucun ordre de lecture.
 
 ---
 
@@ -62,7 +62,7 @@ Les quatre-vingt-sept cartes y sont, chacune au moins une fois. Aucun classement
 - La démo s'ouvre sur l'architecture, et le client attend poliment  →  [Le client ne s'intéresse pas à ton architecture](/chapters/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html)
 - Le product transcrit les demandes au lieu d'arbitrer  →  [Le rôle du product, ce n'est pas de rédiger des tickets](/chapters/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html) · [⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente](/chapters/03-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)
 - Un ingénieur qui veut vingt minutes avec un client doit passer par trois personnes  →  [⇄ L'accès au client est un budget, pas une valeur](/chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html)
-- "Je lui ai envoyé la proposition", et personne ne sait s'il a répondu  →  [L'email envoyé n'est pas une réponse obtenue](/chapters/06-01-lemail-envoye-nest-pas-une-reponse-obtenue.html)
+- "Je lui ai envoyé la proposition", et personne ne sait s'il a répondu  →  [Fini de ton côté ne veut pas dire réglé](/chapters/06-02-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
 - Chacun a fini sa partie et le dossier n'est jamais arrivé au bout  →  [Fini de ton côté ne veut pas dire réglé](/chapters/06-02-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
 - C'est livré depuis six mois et personne ne sait si quelqu'un s'en sert  →  [Reviens voir un mois plus tard](/chapters/06-03-reviens-voir-un-mois-plus-tard.html)
 - Le sujet est porté par six personnes et n'avance pas depuis trois mois  →  [Une responsabilité partagée par six personnes n'existe pas](/chapters/06-04-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html)
@@ -85,7 +85,7 @@ Les quatre-vingt-sept cartes y sont, chacune au moins une fois. Aucun classement
 - "Demande à Kofi, il sait"  →  [Une connaissance qui tient dans une seule tête est une panne à venir](/chapters/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html)
 - Une règle naît à chaque incident, et aucune n'est jamais retirée  →  [Tout ne mérite pas de devenir un processus](/chapters/07-04-tout-ne-merite-pas-de-devenir-un-processus.html)
 - Le processus est écrit, à jour, et personne ne le suit  →  [Le raccourci que tout le monde prend est le vrai processus](/chapters/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html)
-- On parle d'industrialiser depuis deux ans et ça n'arrive jamais  →  [⇄ Personne ne systématise sur un planning plein](/chapters/07-07-leader-personne-ne-systematise-sur-un-planning-plein.html)
+- On parle d'industrialiser depuis deux ans et ça n'arrive jamais  →  [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
 
 ## On ne progresse plus, et rien ne le signale
 
@@ -112,7 +112,7 @@ Les quatre-vingt-sept cartes y sont, chacune au moins une fois. Aucun classement
 
 ## On abat plus de travail et le volume ne baisse jamais
 
-- "On est débordés, il nous faut quelqu'un de plus"  →  [Le but n'est pas d'en faire plus](/chapters/08-01-le-but-nest-pas-den-faire-plus.html)
+- "On est débordés, il nous faut quelqu'un de plus"  →  [Trente pour cent de ce qui arrive est la même chose](/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html)
 - "Chaque client est différent", et personne n'a jamais compté  →  [Trente pour cent de ce qui arrive est la même chose](/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html)
 - On a mis de l'IA dessus et personne ne vérifie ce qui en sort  →  [L'IA est un levier, pas un raccourci](/chapters/08-03-lia-est-un-levier-pas-un-raccourci.html)
 - "Il nous faudrait un outil pour ça"  →  [Le levier le moins cher est déjà payé](/chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html)
@@ -126,13 +126,13 @@ Les quatre-vingt-sept cartes y sont, chacune au moins une fois. Aucun classement
 - La même question m'est posée en privé pour la troisième fois  →  [Réponds à la question en public](/chapters/10-04-reponds-a-la-question-en-public.html)
 - "Je n'écris pas de code, je n'ai rien à publier"  →  [Une trace n'est pas forcément du code](/chapters/10-03-une-trace-nest-pas-forcement-du-code.html)
 - On publie, et personne n'arrive jamais dessus  →  [Publie là où on cherche](/chapters/10-05-publie-la-ou-on-cherche.html)
-- Cinq publications, aucun retour, on se demande si ça marche ici  →  [Le quatrième mois](/chapters/10-06-le-quatrieme-mois.html)
+- Plusieurs publications, aucun retour, on se demande si ça marche ici  →  [Publie là où on cherche](/chapters/10-05-publie-la-ou-on-cherche.html)
 - "Chez nous, on ne peut pas publier ce genre de chose"  →  [Ce que publier coûte vraiment](/chapters/10-08-ce-que-publier-coute-vraiment.html)
 - Ce que l'entreprise publie sort sous le logo, sans le nom de qui l'a fait  →  [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/09-04-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
 - Ce qu'on sait faire n'est écrit nulle part, par personne  →  [Personne n'a écrit ce que tu sais faire](/chapters/10-10-personne-na-ecrit-ce-que-tu-sais-faire.html)
-- Publier ressemble à de l'auto-promotion, et ceux qui le font ne construisent rien  →  [Un avis n'est pas un artefact](/chapters/10-02-un-avis-nest-pas-un-artefact.html) · [Une référence n'est pas une personnalité](/chapters/10-09-une-reference-nest-pas-une-personnalite.html)
+- Publier ressemble à de l'auto-promotion, et ceux qui le font ne construisent rien  →  [Un avis n'est pas un artefact](/chapters/10-02-un-avis-nest-pas-un-artefact.html)
 - Personne ne sait ce qu'on a le droit de publier, alors personne ne publie  →  [⇄ L'absence de règle est une interdiction](/chapters/09-03-leader-labsence-de-regle-est-une-interdiction.html)
-- "Je veux être payé à ma valeur"  →  [On te paie ce qui se vérifie](/chapters/10-07-on-te-paie-ce-qui-se-verifie.html) · [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-05-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
+- "Je veux être payé à ma valeur"  →  [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-05-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
 - Ceux qui deviennent bons reçoivent une offre et partent  →  [Partir n'est pas une trahison](/chapters/10-11-partir-nest-pas-une-trahison.html)
 
 ---

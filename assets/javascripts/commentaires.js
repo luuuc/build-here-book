@@ -119,7 +119,7 @@
     const select = champs.querySelector('[name="indicatif"]');
 
     // La liste est servie une fois pour tout le site plutot que rendue dans
-    // chaque page : 187 options sur 87 cartes pesaient onze kilo-octets par
+    // chaque page : 181 options sur 81 cartes pesaient onze kilo-octets par
     // page, pour un champ que presque personne ne remplit. Sans JavaScript le
     // select reste vide, et la personne tape son numero en entier, ce que le
     // serveur accepte.

@@ -11,7 +11,7 @@
 const FENETRE = 3600; // une heure, en secondes
 const PLAFOND_IP = 60; // large : un NAT operateur met une ville derriere une IP
 // Une note est un clic, pas un texte. Quelqu'un qui lit le livre d'une traite
-// en pose legitimement plusieurs dizaines, et le livre compte 87 cartes.
+// en pose legitimement plusieurs dizaines, et le livre compte 81 cartes.
 const PLAFOND_NOTES_IP = 300;
 // Un test demande plusieurs minutes. Cette limite ne vise que les scripts qui
 // rempliraient la table, tout en laissant un reseau partage finir le test.
