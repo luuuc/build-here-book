@@ -7,11 +7,11 @@ categories:
   - tech
 
 seo:
-  description: Comment devenir un builder, en dix étapes. Des cartes de deux minutes, une idée par carte.
+  description: Un guide pratique pour ceux qui construisent. Dix étapes, quatre-vingt-huit cartes, une idée par carte.
   keywords: build here, builders, tech afrique, ingénierie logicielle, produit, ownership, leadership, startup africaine, guide pratique, visibilité
 
 title: Build Here
-description: Comment devenir un builder, en dix étapes
+description: Un guide pratique pour ceux qui construisent
 ---
 
 <img
