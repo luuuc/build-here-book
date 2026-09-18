@@ -29,7 +29,9 @@ Client, problème, produit, distribution, revenu, coûts, opérations, rétentio
 
 Personne n'a besoin de la connaître également partout. Chacun a besoin d'en savoir assez pour voir où son travail atterrit. Le support devrait savoir pourquoi les clients achètent. L'engineering devrait savoir comment l'entreprise gagne de l'argent. Le commerce devrait savoir ce que le produit sait réellement faire. Le produit devrait savoir ce que l'opération peut absorber. Un fondateur devrait tenir toute la chaîne.
 
-Sans ça, chaque département optimise correctement sa propre partie, et l'entreprise perd. Ce n'est pas un problème de coopération et ça ne se répare pas avec un séminaire. Une équipe qui ne voit pas la chaîne prend des décisions justes localement, et personne dans la salle n'a l'information qui montrerait qu'elles s'annulent.
+Le commerce promet une mise en service en deux semaines, et c'est ce qui fait signer. Le produit tient la date en retirant l'import des données historiques, qui ne figurait pas au contrat. Le support reprend cet import à la main, client par client, parce que personne ne démarre sans son historique. Personne ne s'est trompé. L'entreprise a vendu deux semaines et en livre six.
+
+Chaque département optimise correctement sa propre partie, et l'entreprise perd. Ce n'est pas un problème de coopération et ça ne se répare pas avec un séminaire. Une équipe qui ne voit pas la chaîne prend des décisions justes localement, et personne dans la salle n'a l'information qui montrerait qu'elles s'annulent.
 
 Ce qui empêche le plus souvent de franchir cette étape porte un nom respectable : « ce n'est pas mon périmètre », ou, dans sa version polie, « je ne veux pas marcher sur les plates-bandes de quelqu'un ». Il y a aussi une raison plus simple. Comprendre la chaîne prend du temps. Ce temps n'apparaît dans aucun planning, alors que son absence se remarque immédiatement.
 
