@@ -43,7 +43,7 @@ CREATE INDEX IF NOT EXISTS commentaires_page ON commentaires (page, etat, cree_l
 CREATE INDEX IF NOT EXISTS commentaires_file ON commentaires (etat, rang, cree_le);
 CREATE INDEX IF NOT EXISTS commentaires_parent ON commentaires (parent_id);
 
--- Les coordonnees, a part, comme pour les contributions. Des coordonnees de
+-- Les coordonnees vivent a part. Des coordonnees de
 -- gens nommes attachees a un texte public sont la donnee la plus sensible du
 -- systeme, et aucune lecture publique ne doit pouvoir les atteindre.
 --

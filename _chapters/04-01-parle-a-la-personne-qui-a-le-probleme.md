@@ -1,0 +1,62 @@
+---
+layout: chapter
+title: "Parle à la personne qui a le problème"
+part: "La compréhension"
+order: 401
+card_type: pratique
+metadata:
+  principle: "4.01"
+  reading_time_in_minutes: 2
+categories:
+  - client
+  - support
+  - produit
+seo:
+  description: "Chaque relais filtre. Le commercial ramène ce qui aide à signer. Le fondateur garde la phrase qui a piqué. L'équipe comble les trous avec sa propre idée de l'utilisateur."
+  keywords: "build here, client, builder, parle, personne, probleme"
+redirect_from:
+  - /chapters/11-02-parle-a-la-personne-qui-a-le-probleme.html
+---
+
+## Le point de départ
+
+Tu conçois à partir de ce que le commercial a rapporté, de ce que le fondateur a entendu chez un client, et de ce que l'équipe suppose pour boucher les trous.
+
+Personne dans la salle n'a parlé à un utilisateur ce mois-ci.
+
+## Le geste
+
+> "Avant de décider, appelons trois personnes qui vivent avec ça tous les jours."
+
+## Pourquoi ça marche
+
+Chaque relais filtre. Le commercial ramène ce qui aide à signer. Le fondateur garde la phrase qui a piqué. L'équipe comble les trous avec sa propre idée de l'utilisateur. Personne ne ment. C'est simplement la façon dont l'information circule entre les gens. Après trois intermédiaires, ce qui arrive dans le backlog est une caricature du problème, jugée crédible parce que trois personnes ont rapporté la même chose.
+
+Vingt minutes avec la personne permettent de retrouver ce qui s'est perdu en route. Et ton client est à un coup de fil, sur un marché que tu pourrais traverser en une journée, et il va décrocher. Ce n'est pas vrai des entreprises dont tu lis les playbooks produit le soir. C'est un des rares avantages structurels de construire ici, et il est presque toujours laissé de côté.
+
+Ce qu'aucun résumé ne transporte jamais, c'est le contournement. Le tableur qu'il nettoie à la main. Le groupe WhatsApp qui contient la moitié du processus que ton produit s'arrête juste avant de couvrir. Ce contournement est l'objet le plus utile de l'appel. Il montre le résultat que la personne poursuit, et l'effort supplémentaire que ton produit lui impose pour y arriver.
+
+Ton tableau de bord t'aurait montré l'abandon et ne t'aurait jamais dit si c'était le prix, la formulation, ou quelqu'un qui quitte l'écran pour aller demander à son responsable. Il te dit où regarder. Il ne t'a jamais dit ce qu'il y avait là.
+
+## À essayer
+
+Cale un appel cette semaine. Pas de démo, pas de slides. Ouvre avec ça.
+
+> "Montre-moi comment tu fais ça aujourd'hui."
+
+Puis arrête de parler. La partie utile arrive après le premier silence, quand la personne commence à s'excuser de son propre processus.
+
+## Depuis ton siège
+
+- **Ingénierie** : vingt minutes avec la personne valent trois relais. Tu as le droit de demander l'appel.
+- **Design** : le contournement est l'objet le plus utile de l'appel. Le tableur, le groupe WhatsApp.
+- **Fondateur** : ton client est à un coup de fil et il décroche. C'est un avantage structurel d'ici.
+- **Management** : si personne dans la salle n'a parlé à un utilisateur ce mois-ci, on conçoit par ouï-dire.
+- **Relation client** : tu entends la phrase brute. Rapporte-la telle quelle.
+- **Recrutement** : demande le dernier utilisateur à qui le candidat a parlé, et ce qu'il l'a vu faire.
+
+## À discuter
+
+Cite le dernier utilisateur à qui chaque ingénieur ici a parlé. Si le nom ne vient pas, notre conception repose sur quoi ?
+
+*À vérifier ailleurs :* *The Mom Test*, de Rob Fitzpatrick, propose une méthode pour interroger un comportement passé sans récolter seulement une réponse polie. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.

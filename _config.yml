@@ -1,8 +1,8 @@
 title: Build Here
 description: >-
-  Un guide pratique pour ceux qui construisent sur ce continent.
-  Une entrée, deux minutes, une idée qui tient seule. Curiosité, ownership,
-  produit, engineering et visibilité.
+  Un guide pratique pour ceux qui construisent. Une carte, deux minutes,
+  une idée qui tient seule. De l'état d'esprit au métier, de la livraison
+  à l'ownership, des systèmes au levier, jusqu'à la référence.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://build-here.africa" # the base hostname & protocol for your site
 
@@ -19,8 +19,11 @@ repository: luuuc/build-here-book
 locale: fr_FR
 theme_color: "#1C1A17"
 
-# Contact for new entries
-contact_email: entree@build-here.africa
+# Ruban d'angle affiche sur toutes les pages du site. La valeur est le texte
+# affiche ; vider la ligne, ou la supprimer, retire le ruban partout d'un coup.
+# Le PDF et l'EPUB ne sont pas concernes : les pages de _pdf sont en layout none
+# et n'incluent pas l'en-tete.
+draft_banner: "draft version"
 
 # Google Analytics (leave blank to disable)
 google_analytics: G-044F0FSRYM
@@ -55,6 +58,17 @@ plugins:
 # Include dot-directories (for .well-known)
 include:
   - .well-known
+
+# Sources et sorties de travail qui ne font pas partie du site. `build/` doit
+# rester exclu : il contient une copie du site destinée aux tirages et, sans
+# cette ligne, Jekyll la recopie dans `_site/build/site` puis l'indexe.
+exclude:
+  - build
+  - worker
+  - bin
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
 # Les deux tirages, publies par .github/workflows/book.yml sur la release qui
 # porte book.version. « latest » suit toujours la derniere publiee : ces deux

@@ -3,6 +3,8 @@ layout: page
 title: "Ils étaient là depuis le début"
 description: "Les builders étaient là depuis le début. C'est moi qui ne savais pas les trouver."
 permalink: /pourquoi-build-here/
+redirect_from:
+  - /chapters/13-arreter-de-le-faire-en-silence.html
 metadata:
   reading_time_in_minutes: 10
 categories:
@@ -10,17 +12,17 @@ categories:
   - builders
   - afrique
 seo:
-  description: "Chez Douglas Adams, la galaxie a une encyclopédie, et cette encyclopédie a une entrée pour la Terre."
+  description: "Chez Douglas Adams, la galaxie a une encyclopédie, et cette encyclopédie a une carte pour la Terre."
   keywords: "build here, tech afrique, builder, pourquoi ce livre"
 ---
 
-Chez Douglas Adams[^adams], la galaxie a une encyclopédie, et cette encyclopédie a une entrée pour la Terre.
+Chez Douglas Adams[^adams], la galaxie a une encyclopédie, et cette encyclopédie a une carte pour la Terre.
 
-L'entrée dit, intégralement : **Globalement inoffensive.**
+La carte dit, intégralement : **Globalement inoffensive.**
 
-Deux mots pour une planète. Classée par quelqu'un qui est passé, s'est fait une idée, et a continué sa route. La longueur de l'entrée dit le peu d'attention qu'on lui a accordé.
+Deux mots pour une planète. Classée par quelqu'un qui est passé, s'est fait une idée, et a continué sa route. La longueur de la carte dit le peu d'attention qu'on lui a accordé.
 
-L'industrie tech a une entrée pour ce continent. Elle dit, intégralement :
+L'industrie tech a une carte pour ce continent. Elle dit, intégralement :
 
 ~~Émergent.~~
 
@@ -90,6 +92,22 @@ Ils n'étaient pas dans mes résultats parce que rien, dans la machine qui produ
 Ça s'est débloqué ensuite, et je ne saurais pas te dire ce qui a changé en premier. La seule chose nette est la durée. Deux ans pour que l'information traverse une ville, dans les deux sens, entre des gens qui se cherchaient.
 
 Je n'ai jamais refait la recherche autrement. Je ne sais donc pas combien de gens j'ai manqués, ni si le filtre explique tout, et je n'ai aucun moyen de le savoir. Depuis, j'ai entendu assez de fondateurs raconter la même recherche, faire tourner le même filtre et arriver à la même conclusion.
+
+## J'étais aussi de l'autre côté
+
+Il y a une partie que je n'ai pas racontée.
+
+Entre le moment où j'ai compris que ma conclusion était fausse et la première ligne de ce livre, il s'est passé six ans.
+
+Six ans à expliquer les mêmes choses en privé, à des gens que je croisais, une conversation à la fois, sans jamais toucher plus d'une personne par conversation. Je me plaignais que personne ici n'écrive rien, depuis une position où je n'avais moi-même jamais rien publié. Quinze ans de choses apprises à la dure, et zéro trace.
+
+Je n'étais pas seulement le fondateur qui n'avait pas trouvé les builders.
+
+J'étais aussi l'un de ceux qu'il n'avait pas trouvés.
+
+Deux chiffres sortent de là, et je n'en ai pas de meilleurs. Deux ans pour qu'une information traverse une ville, entre des gens qui se cherchaient activement. Six ans entre savoir quelque chose et l'écrire, chez quelqu'un dont le métier est d'arbitrer des priorités.
+
+Ce sont des durées de silence, pas des durées de publication. Je ne peux pas te dire combien de temps il faut pour qu'un inconnu te trouve, parce que je suis en train de le découvrir en même temps que toi et que ce livre est ma première tentative sérieuse. Ce que je peux te dire, c'est que celui qui t'annonce trois mois vend quelque chose.
 
 ## Le sous-sol
 

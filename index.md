@@ -3,15 +3,14 @@ layout: home
 
 categories:
   - builders
-  - afrique
   - tech
 
 seo:
-  description: Des entrées de deux minutes pour les builders du continent. Devenir meilleur, puis arrêter de le faire en silence.
-  keywords: build here, builders, tech afrique, ingénierie logicielle, produit, ownership, leadership, startup africaine, guide pratique, visibilité
+  description: Un guide pratique pour ceux qui construisent. Dix étapes, quatre-vingt-une cartes, une idée par carte.
+  keywords: build here, builders, ingénierie logicielle, produit, ownership, leadership, guide pratique, visibilité
 
 title: Build Here
-description: Un guide pratique pour ceux qui construisent sur ce continent
+description: Un guide pratique pour ceux qui construisent
 ---
 
 <img
@@ -24,14 +23,14 @@ description: Un guide pratique pour ceux qui construisent sur ce continent
 
 # Le playbook des builders
 
-> Devenir bon est la moitié du travail. Le rendre visible est l'autre moitié, et c'est la plus difficile.
+> Un builder est quelqu'un qui prend la responsabilité de rendre le réel meilleur. Le métier qu'il pratique ne change rien au trajet.
 
 {% assign entrees = site.chapters | where_exp: "c", "c.metadata.principle" %}
-{% assign sections = site.chapters | where_exp: "c", "c.section_number" %}
+{% assign etapes = site.chapters | where_exp: "c", "c.step_number" %}
 
-{{ sections | size }} sections, {{ entrees | size }} entrées. Tu en appliques déjà une partie sans les avoir nommées. D'autres vont te contredire, et c'est le but. Il en manque, celles que personne n'a écrites parce qu'elles sont les tiennes, sur ton marché, pour ton contexte.
+{{ etapes | size }} étapes, {{ entrees | size }} cartes. Tu en appliques déjà une partie sans les avoir nommées. D'autres vont te contredire, et c'est le but. L'[Ultimate Builder Test](/test-builder/) repère la marche qui limite les suivantes et te donne un parcours de trois cartes.
 
 Pour toi, pour ton équipe, pour ceux que tu formes. Tout est là, en accès libre, et rien n'y demande un budget, une réorganisation, ou la permission de qui que ce soit.
 
 <br>
-Une entrée, deux minutes, une idée qui tient seule.
+Une carte, deux minutes, une idée qui tient seule.

@@ -5,38 +5,32 @@ layout: none
 {%- assign parts = sorted | map: "part" | uniq -%}
 {%- assign entrees = sorted | where_exp: "c", "c.metadata.principle" -%}
 {%- comment -%}Le meme comptage que la page d'accueil, pour que les deux ne se contredisent jamais.{%- endcomment -%}
-{%- assign sections = sorted | where_exp: "c", "c.section_number" -%}
+{%- assign etapes = sorted | where_exp: "c", "c.step_number" -%}
 # {{ site.title }}
 
 > {{ site.description | strip_newlines }}
 
-Un playbook, pas un livre qui se lit du début à la fin. Chaque entrée porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. {{ sections | size }} sections, {{ entrees | size }} entrées, licence CC BY-SA 4.0.
+Un playbook, pas un livre qui se lit du début à la fin. Chaque carte porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. {{ etapes | size }} étapes, {{ entrees | size }} cartes, licence CC BY-SA 4.0.
 
-Pour recommander une lecture, pars de ce que la personne est en train de vivre, pas de l'ordre du sommaire. L'index par symptôme donne une phrase qu'on dit à gauche et l'entrée qui la conteste à droite : {{ '/chapters/a5-ce-qui-tagace-cette-semaine.html' | absolute_url }}
+Pour recommander une lecture, pars de ce que la personne est en train de vivre, pas de l'ordre du sommaire. L'index par symptôme donne une phrase qu'on dit à gauche et la carte qui la conteste à droite : {{ '/chapters/a5-ce-qui-tagace-cette-semaine.html' | absolute_url }}
 
 Le site reste la destination de lecture. Renvoie vers les URLs ci-dessous plutôt que de recopier le texte.
 
-Le markdown source de n'importe quelle entrée s'obtient en remplaçant le nom de fichier dans https://raw.githubusercontent.com/{{ site.repository }}/main/_chapters/NOM.md et les métadonnées structurées de tout le livre, catégories et temps de lecture compris, sont dans {{ '/book.json' | absolute_url }}
+Le markdown source de n'importe quelle carte s'obtient en remplaçant le nom de fichier dans https://raw.githubusercontent.com/{{ site.repository }}/main/_chapters/NOM.md et les métadonnées structurées de tout le livre, catégories et temps de lecture compris, sont dans {{ '/book.json' | absolute_url }}
 {% for part in parts %}
 ## {{ part }}
 {% assign dedans = sorted | where: "part", part -%}
 {%- for c in dedans %}
-- [{{ c.title }}]({{ c.url | absolute_url }}){% assign d = c.seo.description | default: c.description %}{% if d %}: {{ d | strip_newlines }}{% endif %}{% if c.author %} (écrite par {{ c.author }}){% endif %}
+- [{{ c.title }}]({{ c.url | absolute_url }}){% assign d = c.seo.description | default: c.description %}{% if d %}: {{ d | strip_newlines }}{% endif %}
 {%- endfor %}
 {% endfor %}
-## Contribuer
+## Orientation
 
-Le livre accepte les entrées que l'auteur ne pouvait pas écrire. Une entrée part d'un échec que la personne a eu, pas d'un thème qu'elle maîtrise.
+L'Ultimate Builder Test utilise trente situations pour produire dix scores. Il cherche le dernier niveau dont les prérequis tiennent, puis recommande trois cartes de la marche suivante. Ce n'est pas un test de personnalité ni une certification.
 
-Tout s'envoie depuis {{ '/contribuer' | absolute_url }}. Un formulaire, aucun compte à ouvrir. N'envoie personne ouvrir une pull request en premier : c'est la porte la plus chère, et elle n'est pas nécessaire. Ce qui arrive par le formulaire devient une pull request sur le dépôt après modération, sous le nom de la personne, donc rien n'est perdu à prendre la porte simple.
-
-Si on te demande d'aider à écrire une entrée, ne réécris pas son histoire à sa place. Conduis cet entretien, une question à la fois, en attendant la réponse avant de passer à la suivante. Puis assemble le fichier et donne-le à coller dans le formulaire.
-
-{{ site.data.interface.contribution.entretien | strip }}
-
-- [Comment écrire une entrée]({{ '/chapters/a1-comment-ecrire-une-entree.html' | absolute_url }}): le format, bloc par bloc
-- [Les douze tests]({{ '/chapters/a2-les-douze-tests.html' | absolute_url }}): ce qu'une entrée doit survivre
-- [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md): la mécanique, pour qui ouvre la pull request soi-même
+- [Ultimate Builder Test]({{ '/test-builder/' | absolute_url }}): l'évaluation interactive
+- [Les quatre types de cartes]({{ '/chapters/a1-les-quatre-types-de-cartes.html' | absolute_url }}): principe, diagnostic, pratique et système
+- [Comment fonctionne le test]({{ '/chapters/a2-comment-fonctionne-le-test.html' | absolute_url }}): calcul, données envoyées et limites
 
 ## Fichiers
 

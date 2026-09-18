@@ -1,0 +1,35 @@
+#!/usr/bin/env node
+// Verifie validation, ecriture anonyme et agregation de l'endpoint du test.
+
+import { recevoir, resume } from "../worker/evaluation.mjs";
+
+const appels = [];
+const db = {
+  prepare(sql) {
+    return {
+      bind(...args) { appels.push({ sql, args }); return this; },
+      async run() { return { success: true }; },
+      async all() {
+        if (sql.includes("GROUP BY niveau")) return { results: [{ niveau: 3, prochain: 4, total: 2 }] };
+        return { results: [{ scores: JSON.stringify([30,40,50,60,70,80,90,60,50,40]) }] };
+      },
+    };
+  },
+};
+const env = { DB: db, JETON_SECRET: "verification" };
+const requete = (body) => new Request("https://api.build-here.africa/evaluation", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
+
+const propre = { version: 1, scores: [60,60,60,50,40,30,20,10,0,0], niveau: 3, prochain: 4 };
+const ok = await recevoir(requete(propre), env);
+if (ok.statut !== 201) throw new Error(`Une évaluation valide répond ${ok.statut}.`);
+const insertion = appels.find((a) => a.sql.includes("INSERT INTO evaluations"));
+if (!insertion || insertion.args.length !== 6) throw new Error("L'évaluation valide n'est pas écrite correctement.");
+if (insertion.args.some((v) => typeof v === "string" && /@|whatsapp|mail/i.test(v))) throw new Error("Une coordonnée inattendue part en base.");
+
+const mauvais = await recevoir(requete({ ...propre, scores: [101] }), env);
+if (mauvais.statut !== 400) throw new Error("Des scores invalides sont acceptés.");
+
+const agregat = await resume(env);
+if (agregat.total !== 2 || agregat.moyennes[0] !== 30 || agregat.moyennes.length !== 10) throw new Error("L'agrégation est fausse.");
+
+console.log("Endpoint évaluation valide : contrôle, insertion anonyme et agrégation.");

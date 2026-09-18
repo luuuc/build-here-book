@@ -29,13 +29,13 @@ descendent donc d'un cran, comme pour le PDF.
       {% endif %}
 
       <div class="chapter-kicker">
-        {% if c.section_number %}
-          <span>{% if c.section_number < 13 %}Mouvement un{% else %}Mouvement deux{% endif %}</span>
-          <span>Section {{ c.section_number }}</span>
+        {% if c.step_number %}
+          <span>Étape {{ c.step_number }}</span>
         {% else %}
           {% unless c.part == c.title %}<span>{{ c.part }}</span>{% endunless %}
         {% endif %}
         {% if c.metadata.reading_time_in_minutes %}<span>{{ c.metadata.reading_time_in_minutes }} min</span>{% endif %}
+        {% if c.card_type %}<span>{{ site.data.interface.lecture.types[c.card_type] }}</span><span>{{ c.action_scope | default: site.data.interface.lecture.portees[c.card_type] }}</span>{% endif %}
       </div>
       {% if c.description %}<div class="chapter-lede">{{ c.description }}</div>{% endif %}
       {% if c.author %}<p class="chapter-author">Écrite par {{ c.author | escape }}</p>{% endif %}

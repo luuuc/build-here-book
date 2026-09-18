@@ -5,8 +5,8 @@
 # est ce qui part devant le numero.
 #
 # La liste est complete et triee par nom francais, accents ignores au tri.
-# Elle ne privilegie aucun pays : le livre s'ecrit depuis le continent et se
-# lit aussi ailleurs.
+# Elle ne privilegie aucun pays. Le livre se lit partout, et le formulaire
+# doit marcher depuis n'importe quel numero.
 
 - code: AF
   nom: "Afghanistan"

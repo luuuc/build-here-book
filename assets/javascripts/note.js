@@ -24,7 +24,7 @@
 
   let etat = { valeur: null, raison: null };
 
-  // Le meme identifiant que la page de contribution : une seule identite
+  // Le meme identifiant que les commentaires : une seule identite
   // locale, et elle ne quitte jamais le navigateur autrement que comme
   // clef de deduplication.
   function client() {

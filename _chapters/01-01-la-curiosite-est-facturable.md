@@ -1,10 +1,11 @@
 ---
 layout: chapter
 title: "La curiosité est facturable"
-part: "Curiosité"
-order: 5
+part: "L'état d'esprit"
+order: 101
+card_type: principe
 metadata:
-  principle: "1"
+  principle: "1.01"
   reading_time_in_minutes: 2
 categories:
   - curiosite
@@ -14,7 +15,7 @@ categories:
   - operations
 seo:
   description: "Une équipe ne peut construire que ce qu'elle comprend. Pour le reste, elle avance à l'aveugle."
-  keywords: "build here, curiosite, tech afrique, builder, facturable"
+  keywords: "build here, curiosite, builder, facturable"
 ---
 
 ## Le réflexe
@@ -37,9 +38,7 @@ Regarde ce qui se passe quand on comprend mal le système. Le support répond po
 
 La même chose arrive dans le code. Un changement de config d'une ligne est chiffré à trois jours parce que le script de déploiement n'a pas été rouvert depuis le départ de son auteur. Dans les deux cas, la marge devient le plan. Personne n'a menti, mais le planning repose sur une partie du travail que personne n'a regardée.
 
-Sans limite, la curiosité se transforme effectivement en une semaine perdue sur une réécriture non demandée. C'est pour ça qu'on l'interdit, et c'est pour ça qu'il faut plutôt la borner. Trente minutes, sur une chose que tu touches chaque semaine, sur un système où ton manque de compréhension finira par te coûter cher.
-
-Trente minutes par semaine, c'est vingt-quatre heures par an. Ça passe inaperçu dans le planning des sprints. Au bout d'un an, c'est vers cette personne que les questions remontent, et on ne sait plus dire depuis quand.
+Sans limite, la curiosité se transforme effectivement en une semaine perdue sur une réécriture non demandée. C'est pour ça qu'on l'interdit, et c'est pour ça qu'il faut plutôt la borner. Trente minutes, sur une chose que tu touches chaque semaine, sur un système où ton manque de compréhension finira par te coûter cher. Trente minutes par semaine, c'est vingt-six heures par an, et ça passe inaperçu dans le planning des sprints. Au bout d'un an, c'est vers cette personne que les questions remontent, et on ne sait plus dire depuis quand.
 
 ## À essayer
 
@@ -51,10 +50,10 @@ Puis écris quatre lignes sur ce que tu as trouvé, quelque part où l'équipe p
 
 ## Depuis ton siège
 
-- **Product** : trente minutes dans le système que tu spécifies, ou tu arbitres sur des coûts devinés.
-- **Founder** : ce que personne ici ne comprend devient un chiffrage que personne ne sait faire.
-- **Manager** : si comprendre n'a pas de ligne dans la semaine, ça se fait le soir ou pas du tout.
-- **Customer-facing** : le client qui demande pourquoi mérite mieux qu'une reformulation de la doc.
+- **Produit** : trente minutes dans le système que tu spécifies, ou tu arbitres sur des coûts devinés.
+- **Fondateur** : ce que personne ici ne comprend devient un chiffrage que personne ne sait faire.
+- **Management** : si comprendre n'a pas de ligne dans la semaine, ça se fait le soir ou pas du tout.
+- **Relation client** : le client qui demande pourquoi mérite mieux qu'une reformulation de la doc.
 - **Recrutement** : demande ce que le candidat a lu récemment dans un système qu'il n'avait pas écrit.
 
 ## À discuter

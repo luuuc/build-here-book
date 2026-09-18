@@ -8,7 +8,7 @@
 # venue d'un fork n'a qu'un jeton en lecture, donc un commentaire echouerait
 # precisement pour les contributeurs que ce livre cherche a accueillir.
 
-name: Relire une entrée
+name: Relire une carte
 
 on:
   pull_request:
@@ -30,13 +30,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Relire chaque entrée touchée
+      - name: Relire chaque carte touchée
         run: |
           base="origin/${{ github.base_ref }}"
           fichiers=$(git diff --name-only --diff-filter=d "$base"...HEAD -- '_chapters/*.md')
 
           if [ -z "$fichiers" ]; then
-            echo "Aucune entrée touchée." >> "$GITHUB_STEP_SUMMARY"
+            echo "Aucune carte touchée." >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
 
@@ -79,7 +79,7 @@ jobs:
             echo "$rapport"
           done
 
-          echo "Les douze tests sont une lecture humaine. Rien ici ne refuse une entrée." >> "$GITHUB_STEP_SUMMARY"
+          echo "Les douze tests sont une lecture humaine. Rien ici ne refuse une carte." >> "$GITHUB_STEP_SUMMARY"
 
       - name: L'index par symptôme couvre le livre
         # Une entree qui arrive n'entre pas toute seule dans l'index par

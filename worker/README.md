@@ -1,104 +1,56 @@
 # L'API de Build Here
 
-Le livre reste statique et se lit sans rien d'ici. Si ce Worker tombe, le
-livre se lit. C'est le principe qui décide tout le reste.
+Le livre et l'Ultimate Builder Test restent utilisables sans le Worker. Le calcul du test se fait dans le navigateur. L'API garde seulement les interactions qui ont besoin d'un état partagé.
 
-## Les points d'entrée
+## Points d'entrée publics
 
-### Public
+| Route | Rôle |
+|---|---|
+| `GET /jeton` | Jeton court et pays pour protéger les commentaires sans captcha |
+| `POST /lint` | Vérification éditoriale locale des cartes du dépôt |
+| `POST /note` | Retour structuré sur l'utilité d'une carte |
+| `GET /commentaires?page=` | Commentaires publiés d'une carte |
+| `POST /commentaire` | Commentaire envoyé en modération |
+| `POST /evaluation` | Résumé anonyme d'un Ultimate Builder Test terminé |
 
-`GET /jeton` rend un jeton de formulaire signé, valable deux heures.
+`POST /evaluation` accepte une version, dix scores entiers de 0 à 100, le dernier niveau dont les prérequis tiennent et le prochain niveau. Il ne reçoit ni les réponses individuelles, ni contact, ni texte libre, ni identifiant stable.
 
-`POST /lint` vérifie une entrée contre les règles de l'annexe 1 et rend un
-rapport. Il ne refuse jamais rien : le tri final est une lecture humaine
-contre les douze tests.
+## Derrière Cloudflare Access
+
+`GET /admin` sert le tableau de bord. Il utilise :
+
+- `/admin/commentaires` et les actions publier/refuser ;
+- `/admin/notes` pour le retour éditorial ;
+- `/admin/evaluations` pour la distribution agrégée du test.
+
+La politique Cloudflare Access sur `api.build-here.africa/admin` est obligatoire. Le Worker vérifie aussi l'en-tête d'identité et l'origine des requêtes d'écriture.
+
+## Base D1
+
+Installation initiale :
 
 ```sh
-curl -sX POST https://api.build-here.africa/lint \
-  -H 'content-type: application/json' \
-  -d "$(jq -n --arg s "$(cat ../_chapters/05-01-le-ticket-nest-pas-le-travail.md)" \
-        '{filename: "05-01-le-ticket-nest-pas-le-travail.md", source: $s, nouvelle: false}')" \
-  | jq -r .rapport
+npx wrangler d1 create build-here
+npx wrangler d1 execute build-here --remote --file=schema.sql
+npx wrangler d1 execute build-here --remote --file=schema-commentaires.sql
+npx wrangler d1 execute build-here --remote --file=schema-notes.sql
+npx wrangler d1 execute build-here --remote --file=schema-evaluations.sql
 ```
 
-`nouvelle` distingue une contribution qui arrive d'une entrée déjà intégrée.
-Sur une contribution, `order` et `principle` sont attendus à 999. Sur une
-entrée du livre, ils portent leur vrai numéro. Le défaut est `true`.
+Pour une base qui portait l'ancien formulaire de cartes :
 
-`POST /contribution` reçoit une entrée. Accepte du JSON et un formulaire
-classique : sans JavaScript la page poste directement et reçoit une page en
-retour, parce qu'un envoi doit passer sur une mauvaise connexion.
+```sh
+npx wrangler d1 execute build-here --remote --file=schema-remove-contributions.sql
+```
 
-### Derrière Cloudflare Access
-
-`GET /admin` est la file de modération. `GET /admin/contributions`,
-`GET /admin/contributions/:id`, puis `POST .../approuver`, `.../a-corriger`,
-`.../refuser`.
-
-Approuver ouvre la pull request. Rien n'atteint le dépôt avant.
-
-## Les modules
-
-| Fichier | Ce qu'il fait |
-|---|---|
-| `lint.mjs` | les règles de l'annexe 1. Aucune entrée-sortie, aucun appel |
-| `garde.mjs` | jetons, garde-fou anti-flood, rang de la file |
-| `github.mjs` | nommage du fichier, front matter imposé, pull request |
-| `contribution.mjs` | recevoir, lister, approuver |
-| `admin.mjs` | la page de modération |
-| `index.mjs` | le routage, et la seule partie qui lit le dépôt |
-
-`lint.mjs` est appelé depuis trois endroits, et il n'existe qu'une fois :
-`bin/lint-entree` en local, ce Worker, et `.github/workflows/entree.yml` sur
-une pull request. Un contributeur et une relecture reçoivent donc le même
-verdict sur la même entrée.
-
-## Ce qui protège la file
-
-La modération est le vrai filtre : rien n'atteint un lecteur sans
-approbation. Tout le reste protège l'attention de l'auteur, pas le site.
-
-Aucun défi visible, ni Turnstile ni Bot Fight Mode. Derrière du NAT
-opérateur, le défi tombe le plus souvent sur les lecteurs à qui ce livre
-s'adresse.
-
-- un champ piège, hors de l'écran. Rempli, rejet silencieux et aucune ligne
-- un jeton signé qui porte son horodatage. Moins de trois secondes, refus
-- une limite serrée sur l'identifiant local du navigateur
-- un garde-fou grossier par réseau, 60 par heure. Large, parce qu'une adresse
-  peut porter une ville entière
-- un rang qui trie la file et ne refuse jamais. Un texte qui cite trois
-  sources est exactement celui qu'on veut lire
+Cette dernière migration supprime définitivement les anciennes cartes reçues et leurs coordonnées. Elle ne doit être exécutée qu'après l'export éventuellement souhaité de ces données.
 
 ## Déployer
 
 ```sh
 npx wrangler login
-
-npx wrangler d1 create build-here
-# recopier l'id rendu dans wrangler.toml
-npx wrangler d1 execute build-here --remote --file=schema.sql
-
-npx wrangler secret put JETON_SECRET   # une chaîne longue et aléatoire
-npx wrangler secret put GITHUB_TOKEN   # portée fine, ce dépôt seul
-
+npx wrangler secret put JETON_SECRET
 npx wrangler deploy
 ```
 
-Le jeton GitHub demande `contents:write` et `pull_requests:write` sur
-`luuuc/build-here-book` seul. Il ne peut rien faire d'autre que créer une
-branche, y poser un fichier et ouvrir une pull request.
-
-Puis une politique Cloudflare Access sur `api.build-here.africa/admin`,
-**sinon la file de modération est publique.**
-
-## Le durcissement qui reste
-
-`/admin` vérifie la présence de l'en-tête `Cf-Access-Authenticated-User-Email`,
-que Cloudflare Access injecte. C'est une seconde barrière derrière la
-politique du bord : si la politique est retirée par accident, l'en-tête
-disparaît et rien ne passe.
-
-La vérification cryptographique du JWT d'Access, contre les clés de l'équipe,
-serait plus forte. Elle est à faire avant que quelqu'un d'autre que l'auteur
-ait accès à la file.
+`JETON_SECRET` signe les jetons de commentaire et les condensats temporaires utilisés pour les garde-fous réseau. Aucun jeton GitHub n'est nécessaire.

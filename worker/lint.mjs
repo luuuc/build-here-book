@@ -1,4 +1,4 @@
-// Les regles de l'annexe 1, en un seul endroit.
+// Les regles communes aux quatre types de cartes, en un seul endroit.
 //
 // Ce module ne lit aucun fichier et n'appelle rien. Il prend une source et
 // rend un rapport. C'est ce qui lui permet de tourner aussi bien dans un
@@ -8,23 +8,20 @@
 // Deux principes, decides par le conseil de relecture.
 //
 // 1. Il ne refuse jamais rien. Il dit ce qui manque, il ne ferme pas la porte.
-//    Le tri final est une lecture humaine contre les douze tests.
 //
 // 2. Le rapport commence par ce qui a ete compris, pas par ce qui manque.
 //    Quelqu'un doit lire d'abord qu'on a lu son idee.
 //
 // Deux niveaux, et ils ne se melangent pas dans le rapport. « regle » vient
-// de l'annexe 1, qui est ecrite et publique. « mesure » n'est qu'une
+// de l'annexe sur les quatre formats. « mesure » n'est qu'une
 // statistique sur les entrees existantes, et n'engage personne.
 
-export const BLOCS = [
-  "Le réflexe",
-  "Le réflexe builder",
-  "Pourquoi",
-  "À essayer",
-  "Depuis ton siège",
-  "À discuter",
-];
+export const BLOCS_PAR_TYPE = {
+  principe: ["Le réflexe", "Le réflexe builder", "Pourquoi", "À essayer", "Depuis ton siège", "À discuter"],
+  diagnostic: ["Le symptôme", "Le signal", "Ce qui se passe", "À vérifier", "Depuis ton siège", "À discuter"],
+  pratique: ["Le point de départ", "Le geste", "Pourquoi ça marche", "À essayer", "Depuis ton siège", "À discuter"],
+  systeme: ["Ce que tu demandes", "Ce que le système entend", "Ce que ça produit", "La décision", "Depuis ton siège", "À discuter"],
+};
 
 export const SIEGES = [
   "Engineer",
@@ -36,13 +33,13 @@ export const SIEGES = [
   "Recrutement",
 ];
 
-// Des mesures et non des regles, alignees sur l'annexe 1 depuis le 12/09/2026.
+// Des mesures et non des regles, alignees sur le livre existant.
 //
 // Mesure avec ce comptage, bloc « Depuis ton siege » exclu comme l'annexe le
-// demande, les 68 entrees vont de 307 a 596 mots, mediane 434, p90 517.
+// demande, les cartes vont de 310 a 597 mots, mediane 448, p90 528.
 //
 // L'annexe ecrivait « 200 a 350 mots, jusqu'a 450 ». Ces chiffres couvraient 12 %
-// du livre et aucune entree n'etait sous 300 : un contributeur qui les suivait
+// du livre et aucune entree n'etait sous 300 : une carte qui les suivait
 // produisait un texte 20 % plus court que tout ce qui l'entoure. L'annexe dit
 // maintenant 300 a 500, jusqu'a 550, et ces deux seuils sont ceux-la.
 //
@@ -155,10 +152,10 @@ function mots(corps) {
 /**
  * @param {{filename?: string, source: string, sections?: string[], nouvelle?: boolean}} entree
  *
- * `nouvelle` distingue une contribution qui arrive d'une entree deja
+ * `nouvelle` distingue une carte ajoutee d'une entree deja
  * integree. Les champs de sequence doivent valoir 999 dans le premier cas et
  * portent leur vrai numero dans le second : sans ce drapeau, le linter
- * signalerait les 68 entrees du livre pour un champ qui est correct.
+ * signalerait les cartes du livre pour un champ qui est correct.
  */
 export function verifier({ filename = "", source = "", sections = [], nouvelle = false }) {
   const { data, corps } = frontMatter(source);
@@ -172,7 +169,7 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
       fichier: filename,
       estUneEntree: false,
       lu: null,
-      regles: ["Aucun front matter. Copie celui de n'importe quelle entrée existante."],
+      regles: ["Aucun front matter. Copie celui de n'importe quelle carte existante."],
       mesures: [],
     };
   }
@@ -209,12 +206,12 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
   if (!estUneEntree) {
     // `metadata.principle` ne peut pas etre une cle requise partout : c'est son
     // absence qui distingue une ouverture de section ou une annexe d'une
-    // entree, et le livre en compte vingt-cinq. Mais sur une contribution, on
+    // entree, et le livre en compte vingt-cinq. Mais sur une nouvelle carte, on
     // sait que la personne propose une entree, et alors le champ manque.
     if (nouvelle) {
       regle(
         "Le front matter n'a pas `metadata.principle`. C'est ce champ qui fait qu'un fichier " +
-          "est une entrée : sans lui, la page est rendue comme une ouverture de section et " +
+          "est une carte : sans lui, la page est rendue comme une ouverture de section et " +
           "l'accueil ne la compte pas. Mets-le à 999, il se recalcule à l'intégration."
       );
     }
@@ -222,6 +219,11 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
   }
 
   // ---- Ce qui ne vaut que pour une entree ----
+
+  const type = data.card_type;
+  if (!Object.prototype.hasOwnProperty.call(BLOCS_PAR_TYPE, type)) {
+    regle("`card_type` doit être `principe`, `diagnostic`, `pratique` ou `systeme`.");
+  }
 
   if (filename && !/^\d{2}-\d{2}-[a-z0-9-]+\.md$/.test(filename.split("/").pop())) {
     regle(
@@ -241,25 +243,26 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
 
   const trouves = blocs(corps);
   const titres = trouves.map((b) => b.titre);
+  const attendus = BLOCS_PAR_TYPE[type] || BLOCS_PAR_TYPE.principe;
 
-  if (titres.join("|") !== BLOCS.join("|")) {
-    const manquants = BLOCS.filter((b) => !titres.includes(b));
-    const intrus = titres.filter((t) => !BLOCS.includes(t));
+  if (titres.join("|") !== attendus.join("|")) {
+    const manquants = attendus.filter((b) => !titres.includes(b));
+    const intrus = titres.filter((t) => !attendus.includes(t));
 
     if (manquants.length) regle(`Bloc${manquants.length > 1 ? "s" : ""} manquant${manquants.length > 1 ? "s" : ""} : ${manquants.map((m) => `« ${m} »`).join(", ")}.`);
     if (intrus.length) regle(`Bloc${intrus.length > 1 ? "s" : ""} qui n'existe${intrus.length > 1 ? "nt" : ""} pas dans le format : ${intrus.map((m) => `« ${m} »`).join(", ")}.`);
     if (!manquants.length && !intrus.length) {
-      regle(`Les six blocs sont là mais pas dans l'ordre. L'ordre est : ${BLOCS.join(", ")}.`);
+      regle(`Les six blocs sont là mais pas dans l'ordre pour le type ${type}. L'ordre est : ${attendus.join(", ")}.`);
     }
   }
 
-  const pourquoi = corpsDuBloc(corps, "Pourquoi");
+  const pourquoi = corpsDuBloc(corps, attendus[2]);
   if (pourquoi) {
     const paragraphes = pourquoi.split(/\n\s*\n/).filter((p) => p.trim()).length;
     if (paragraphes > 4) {
       regle(
-        `« Pourquoi » a ${paragraphes} paragraphes. L'annexe 1 en fixe quatre, plafond dur. ` +
-          `Une entrée qui en demande plus est en général deux entrées sous un seul titre.`
+        `« ${attendus[2]} » a ${paragraphes} paragraphes. Le plafond est quatre. ` +
+          `Une carte qui en demande plus est en général deux cartes sous un seul titre.`
       );
     }
   }
@@ -271,7 +274,7 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
     if (lignes.length < 4 || lignes.length > 6) {
       regle(
         `« Depuis ton siège » a ${lignes.length} ligne${lignes.length > 1 ? "s" : ""}. ` +
-          `L'annexe 1 en demande quatre à six, jamais sept par principe.`
+        `Le format en demande quatre à six, jamais sept par principe.`
       );
     }
 
@@ -317,15 +320,15 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
   const n = mots(corps);
   if (n > MOTS_SIGNAL) {
     mesure(
-      `${n} mots hors bloc « Depuis ton siège ». L'annexe 1 donne 300 à 500, jusqu'à 550 pour une ` +
-        `entrée qui porte un réflexe défendable. Les 68 entrées vont de 307 à 596, médiane 434. ` +
-        `Au-delà, une entrée est souvent deux entrées sous un seul titre.`
+      `${n} mots hors bloc « Depuis ton siège ». Le signal éditorial va de 300 à 500, jusqu'à 550 pour une ` +
+        `carte qui porte un réflexe défendable. Les cartes vont de 310 à 597, médiane 448. ` +
+        `Au-delà, une carte est souvent deux cartes sous un seul titre.`
     );
   }
   if (n < MOTS_PLANCHER) {
     mesure(
-      `${n} mots hors bloc « Depuis ton siège ». La plus courte entrée du livre en fait 307. ` +
-        `Une entrée trop courte est en général un principe sans situation : cherche le moment ` +
+      `${n} mots hors bloc « Depuis ton siège ». La plus courte carte du livre en fait 310. ` +
+        `Une carte trop courte est en général un principe sans situation : cherche le moment ` +
         `exact où le comportement apparaît.`
     );
   }
@@ -340,7 +343,7 @@ export function rapport(r) {
   if (r.lu && r.lu.titre) {
     l.push(`Ce que j'ai lu : ${r.lu.titre}`);
     if (r.lu.phrase) l.push(`  « ${r.lu.phrase} »`);
-    const meta = [r.lu.section, r.lu.auteur ? `écrite par ${r.lu.auteur}` : null, r.estUneEntree ? `${r.mots} mots` : "pas une entrée"].filter(Boolean);
+    const meta = [r.lu.section, r.lu.auteur ? `écrite par ${r.lu.auteur}` : null, r.estUneEntree ? `${r.mots} mots` : "pas une carte"].filter(Boolean);
     l.push(`  ${meta.join(" · ")}`);
   } else {
     l.push(`Ce que j'ai lu : ${r.fichier || "un fichier sans titre"}`);
@@ -349,12 +352,12 @@ export function rapport(r) {
   l.push("");
 
   if (!r.regles.length && !r.mesures.length) {
-    l.push("Le format est propre. Les douze tests sont une lecture humaine, pas un contrôle.");
+    l.push("Le format est propre. Le jugement éditorial reste une lecture humaine.");
     return l.join("\n");
   }
 
   if (r.regles.length) {
-    l.push(`Les règles de l'annexe 1, ${r.regles.length} à regarder :`);
+    l.push(`Les règles du format, ${r.regles.length} à regarder :`);
     r.regles.forEach((m) => l.push(`  → ${m}`));
     l.push("");
   }
@@ -365,6 +368,6 @@ export function rapport(r) {
     l.push("");
   }
 
-  l.push("Rien ici ne refuse l'entrée. Les douze tests sont une lecture humaine.");
+  l.push("Rien ici ne refuse la carte. Le jugement éditorial reste une lecture humaine.");
   return l.join("\n");
 }

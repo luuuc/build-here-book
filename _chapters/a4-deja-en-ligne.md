@@ -4,16 +4,16 @@ title: "Déjà en ligne"
 description: "Ce qu'on peut ouvrir ce soir"
 show_chapter_number: false
 part: "Annexes"
-order: 92
+order: 1204
 metadata:
   reading_time_in_minutes: 3
 categories:
   - annexes
   - references
-  - contribution
+  - ressources
 seo:
   description: "Une liste de choses qu'on peut ouvrir. Une seule règle d'admission, un inconnu peut en faire quelque chose ce soir."
-  keywords: "build here, annexes, tech afrique, builder, deja, en ligne, open source"
+  keywords: "build here, annexes, builder, deja, en ligne, open source"
 ---
 
 Ce n'est pas un annuaire, ni une carte de l'écosystème, ni une sélection. Ces documents existent déjà, il y en a un par ville, et la plupart n'ont pas survécu à leur deuxième mise à jour.
@@ -28,7 +28,7 @@ L'annexe 3 liste ce qui a été écrit ailleurs, il y a longtemps. Celle-ci list
 
 La clôture du livre dit qu'à chaque fois que quelqu'un publie une chose utilisable, le nombre de références disponibles pour le suivant augmente de un. C'est le compteur.
 
-Ce n'est pas là pour prouver quoi que ce soit à qui que ce soit. Si tu cherches où contribuer et que tu ne sais pas où atterrir, c'est pour toi. Sinon, referme.
+Ce n'est pas là pour prouver quoi que ce soit à qui que ce soit. Si tu cherches quelque chose d'ouvert à utiliser, étudier ou rejoindre ce soir, c'est pour toi. Sinon, referme.
 
 ## Ce qui n'y est pas
 
@@ -46,23 +46,46 @@ C'est le prix d'une liste de choses vivantes.
 
 ---
 
-{% assign lignes = site.data['deja-en-ligne'] | sort: "nom" %}
-{% for l in lignes %}
-**{{ l.nom }}**, {{ l.lieu }}. {{ l.fait }}. {{ l.par }}. [{{ l.porte }}]({{ l.lien }}){:target="_blank" rel="noopener"}, vérifié le {{ l.verifie | date: "%d/%m/%Y" }}.
-{% endfor %}
+**AfriSpeech-200**, Lagos. 200 heures d'anglais africain, 120 accents, 13 pays, CC BY-NC-SA 4.0. Intron Health et CLAIR Lab. [Le jeu de données](https://huggingface.co/datasets/intronhealth/afrispeech-200), vérifié le 12/09/2026.
+
+**AfVoices**, Bamako. 423 heures de bambara spontané, 512 locuteurs, sud du Mali, CC-BY-4.0. RobotsMali AI4D Lab. [Le jeu de données](https://huggingface.co/datasets/RobotsMali/afvoices), vérifié le 12/09/2026.
+
+**Code d'Ivoire**, Abidjan. made-in-ci, un registre du code écrit en Côte d'Ivoire, pull requests ouvertes. Une communauté de développeurs ivoiriens. [Le dépôt](https://github.com/codedivoire/made-in-ci), vérifié le 12/09/2026.
+
+**Code for Africa**, panafricain. 245 dépôts civiques, dont sensors.AFRICA et openAFRICA, licences GPL, Apache et MIT. [Les dépôts](https://github.com/CodeForAfrica), vérifié le 12/09/2026.
+
+**Code for Senegal**, Dakar. 20 dépôts de technologie civique tenus par des bénévoles, licences MIT et GPL-3.0. [Les dépôts](https://github.com/Code-for-Senegal), vérifié le 12/09/2026.
+
+**Digital Umuganda**, Kigali. 22 jeux de données et 39 modèles de parole, kinyarwanda et swahili. [Les jeux de données](https://huggingface.co/DigitalUmuganda), vérifié le 12/09/2026.
+
+**Ghana NLP**, Accra. Traduction et parole, 41 variétés de langues ghanéennes évaluées, licences MIT. [Les dépôts](https://github.com/GhanaNLP), vérifié le 12/09/2026.
+
+**HausaNLP**, Kano. NaijaSenti, corpus de sentiment pour le haoussa, l'igbo, le yoruba et le pidgin. [Les dépôts](https://github.com/hausanlp), vérifié le 12/09/2026.
+
+**InFashAI**, Cotonou. 15 716 images de mode africaine annotées, GPL-3.0. Gilles Hacheme, Ai4Innov. [Le dépôt](https://github.com/hgilles06/infashai), vérifié le 10/09/2026.
+
+**InkubaLM**, Johannesburg. Modèle de 0,4 milliard de paramètres, cinq langues africaines, poids publiés. Lelapa AI. [Les poids](https://huggingface.co/lelapa/InkubaLM-0.4B), vérifié le 10/09/2026.
+
+**InstaDeep**, Tunis. 76 modèles et 31 jeux de données publiés, génomique et protéines. [Les modèles](https://huggingface.co/InstaDeepAI), vérifié le 12/09/2026.
+
+**Jumanji**, Tunis. Environnements d'apprentissage par renforcement en JAX, Apache-2.0, CONTRIBUTING.md. InstaDeep. [Le dépôt](https://github.com/instadeepai/jumanji), vérifié le 12/09/2026.
+
+**Makerere AI Lab**, Kampala. Parole et texte en luganda, maladies des cultures, licence MIT. Université Makerere. [Les dépôts](https://github.com/AI-Lab-Makerere), vérifié le 12/09/2026.
+
+**MasakhaNER**, panafricain. Reconnaissance d'entités nommées annotée pour 20 langues africaines, CC-BY-4.0. Masakhane. [Le dépôt](https://github.com/masakhane-io/masakhane-ner), vérifié le 12/09/2026.
+
+**Masakhane**, panafricain. Collectif de traduction automatique, une trentaine de dépôts, licences permissives. [Par où entrer](https://github.com/masakhane-io/masakhane-community), vérifié le 10/09/2026.
+
+**Mbaza NLP**, Kigali. Reconnaissance vocale, synthèse et traduction kinyarwanda, modèles et données publiés. [Les modèles](https://huggingface.co/mbazaNLP), vérifié le 12/09/2026.
+
+**SALAMA**, Cotonou. Reconnaissance vocale, synthèse et modèle de langue pour langues africaines. Ai4Innov. [Les modèles](https://huggingface.co/Ai4Innov), vérifié le 10/09/2026.
+
+**Sunbird AI**, Kampala. Modèles de parole et de langue couvrant jusqu'à 67 langues africaines. [Les modèles](https://huggingface.co/Sunbird), vérifié le 12/09/2026.
+
+**Ushahidi**, Nairobi. Plateforme de signalement, AGPL-3.0, CONTRIBUTING.md, pull requests ouvertes. [Le dépôt](https://github.com/ushahidi/platform), vérifié le 10/09/2026.
+
+**Zindi**, panafricain. Compétitions de science des données, profil gratuit, défis ouverts sans introduction. [Les défis](https://zindi.world/), vérifié le 12/09/2026.
 
 ---
 
-## Ajouter une ligne
-
-Même porte que le reste du livre. Une pull request sur [le dépôt](https://github.com/{{ site.repository }}), une ligne dans `_data/deja-en-ligne.yml`, sept champs. Ou un mail à [{{ site.contact_email }}](mailto:{{ site.contact_email }}) et je m'occupe du fichier.
-
-Trois choses à savoir avant.
-
-→ **Tu n'as pas besoin d'être l'auteur.** Ajouter le travail de quelqu'un d'autre est le cas le plus utile. C'est aussi le seul disponible pour celui qui n'a pas le droit de publier ce qu'il fait chez son employeur.
-
-→ **Pas de classement, pas de mise en avant, pas de logo.** Ordre alphabétique, toutes les lignes de la même longueur. Le jour où une place dans cette liste devient une récompense, la page a rejoint ce contre quoi le livre est écrit.
-
-→ **Quinze mots de faits après le nom.** Une communauté dynamique de passionnés n'est pas un fait. Deux rencontres par mois, une trentaine de personnes, en est un.
-
-Si c'est ta première pull request, *[Ta première contribution](/chapters/16-01-ta-premiere-contribution.html)* décrit exactement ce qui va se passer.
+La liste n'est ni un classement, ni une mise en avant. L'ordre reste alphabétique, les descriptions factuelles et les liens morts sont retirés lors des revues éditoriales.

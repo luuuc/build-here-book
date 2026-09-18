@@ -1,10 +1,10 @@
 ---
 layout: chapter
 title: "Déjà écrit"
-description: "Seize titres, de 1954 à 2018"
+description: "Dix-huit titres, de 1911 à 2018"
 show_chapter_number: false
 part: "Annexes"
-order: 91
+order: 1203
 metadata:
   reading_time_in_minutes: 3
 categories:
@@ -13,24 +13,28 @@ categories:
   - references
 seo:
   description: "Ce livre répète que rien de tout ça n'est nouveau. Voilà de quoi vérifier."
-  keywords: "build here, annexes, tech afrique, builder, deja, ecrit"
+  keywords: "build here, annexes, builder, deja, ecrit"
 ---
 
 Ce livre répète que rien de tout ça n'est nouveau. Voilà de quoi vérifier.
 
-Seize titres. Il y en aurait soixante, ça ne prouverait rien de plus. Le plus ancien a soixante-douze ans, le plus récent en a huit.
+Dix-huit titres. Il y en aurait soixante, ça ne prouverait rien de plus. Le plus ancien a cent quinze ans, le plus récent en a huit.
 
 ---
 
+**1911. Frederick Winslow Taylor, *The Principles of Scientific Management*.** Le travail de chaque ouvrier est planifié par l'encadrement un jour à l'avance, et chacun reçoit par écrit sa tâche, la méthode et le temps exact accordé. Le ticket a cent quinze ans, et il n'a pas été inventé pour mesurer qui que ce soit.
+
 **1954. Peter Drucker, *The Practice of Management*.** L'entreprise n'a qu'une définition valable, créer un client. L'organigramme, la stack et le process en découlent. Publié près de trente ans avant le premier ordinateur personnel.
 
-**1960. Theodore Levitt, *Marketing Myopia*.** Les compagnies de chemin de fer croyaient faire du rail. Elles faisaient du transport, et l'ont compris trop tard. L'entrée *Le marketing n'est pas de la décoration* raconte la même histoire avec d'autres exemples.
+**1960. Theodore Levitt, *Marketing Myopia*.** Les compagnies de chemin de fer croyaient faire du rail. Elles faisaient du transport, et l'ont compris trop tard. La carte *Le marketing n'est pas de la décoration* raconte la même histoire avec d'autres exemples.
 
 **1968. Melvin Conway, *How Do Committees Invent?*** Neuf pages. Un système finit par avoir la forme de l'organisation qui l'a produit. Quand une architecture n'a pas d'explication technique, regarde le trombinoscope.
 
 **1975. Fred Brooks, *The Mythical Man-Month*.** Ajouter des gens à un projet en retard le retarde davantage. La phrase est citée partout, le livre est peu lu, et il parle surtout du coût de la communication.
 
 **1977. Michel Crozier et Erhard Friedberg, *L'Acteur et le Système*.** Le pouvoir appartient à celui qui contrôle une incertitude que les autres subissent. Chez toi, c'est la seule personne qui sait déployer.
+
+**1979. Donald T. Campbell, *Assessing the Impact of Planned Social Change*.** Plus un indicateur chiffré sert à prendre des décisions, plus il déforme le processus qu'il était censé mesurer. Publié dans Evaluation and Program Planning, avec le raisonnement au complet. Vaut pour la vélocité comme pour les notes à l'école.
 
 **1982. W. Edwards Deming, *Out of the Crisis*.** Il attribuait au système, et non aux gens, l'écrasante majorité des problèmes d'une organisation. Le chiffre qu'il avançait, 94 %, est son estimation et il a bougé d'une édition à l'autre. Le système, lui, appartient à la direction.
 
@@ -50,7 +54,7 @@ Seize titres. Il y en aurait soixante, ça ne prouverait rien de plus. Le plus a
 
 **2013. Rob Fitzpatrick, *The Mom Test*.** Comment parler à un client sans récolter la réponse polie qui ne sert à rien. Cent trente pages, et la règle centrale tient en une phrase. Ne parle jamais de ton idée.
 
-**2017. Marty Cagan, *Inspired*.** La différence entre une équipe à qui on donne des fonctionnalités à livrer et une équipe à qui on donne un problème à résoudre. Deux entrées de la section Produit sortent de cette distinction.
+**2017. Marty Cagan, *Inspired*.** La différence entre une équipe à qui on donne des fonctionnalités à livrer et une équipe à qui on donne un problème à résoudre. Deux cartes du livre sortent de cette distinction.
 
 **2018. Nicole Forsgren, Jez Humble, Gene Kim, *Accelerate*.** Quatre ans de recherche, plus de vingt mille réponses. Les équipes qui livrent le plus souvent sont aussi celles qui cassent le moins. Le débat vitesse contre qualité est tranché, avec des données.
 

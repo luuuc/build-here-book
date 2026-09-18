@@ -1,12 +1,12 @@
-# La structure du sommaire, en cinq groupes.
+# La structure du sommaire, en quatre groupes.
 #
-# Chaque groupe liste ses sections dans l'ordre du livre, par leur `part`
-# exact tel qu'il est écrit dans le front matter des chapitres. Une section
-# qui n'apparaît nulle part ici ne sera pas affichée dans le menu : quand tu
-# ajoutes une section, ajoute sa ligne ici.
+# Chaque groupe liste ses étapes dans l'ordre du livre, par leur `part` exact
+# tel qu'il est écrit dans le front matter des chapitres. Une étape qui
+# n'apparaît nulle part ici ne sera pas affichée dans le menu : quand tu
+# ajoutes une étape, ajoute sa ligne ici.
 #
-# Un groupe qui ne contient qu'une section affiche ses entrées à plat, sans
-# en-tête intermédiaire. Sinon chaque section devient un en-tête, et cet
+# Un groupe qui ne contient qu'une étape affiche ses cartes à plat, sans
+# en-tête intermédiaire. Sinon chaque étape devient un en-tête, et cet
 # en-tête pointe vers sa page d'ouverture.
 
 - roman: I
@@ -15,35 +15,25 @@
     - Introduction
 
 - roman: II
-  titre: Devenir meilleur
+  titre: Les dix étapes
   sections:
-    - Curiosité
-    - Ego et honnêteté intellectuelle
-    - Hiérarchie
-    - Ownership
-    - Produit
-    - Engineering
-    - Exécution
-    - Apprentissage
-    - Leadership
-    - Technologie et business
-    - Client
-    - Distribution
+    - L'état d'esprit
+    - Le métier
+    - L'autonomie
+    - La compréhension
+    - La livraison
+    - L'ownership
+    - Les systèmes
+    - Le levier
+    - Le leadership
+    - La référence
 
 - roman: III
-  titre: Rendre le niveau visible
-  sections:
-    - Arrêter de le faire en silence
-    - Laisser une trace
-    - Se faire trouver
-    - Devenir une référence
-
-- roman: IV
   titre: Clôture
   sections:
     - Clôture
 
-- roman: V
+- roman: IV
   titre: Annexes
   sections:
     - Annexes
