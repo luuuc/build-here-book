@@ -8,7 +8,7 @@ categories:
 
 seo:
   description: Écris la carte que ce livre n'a pas. Le format, les tests, et un formulaire qui te répond en quelques secondes sur ce qui manque.
-  keywords: build here, contribuer, écrire une carte, contribution, builders afrique
+  keywords: build here, contribuer, écrire une carte, contribution
 
 title: Écrire la suivante
 description: La carte que ce livre n'a pas

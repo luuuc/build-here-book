@@ -12,7 +12,7 @@ categories:
   - ecriture
 seo:
   description: "Deux choses différentes portent le même nom. Publier un avis, et publier un artefact."
-  keywords: "build here, trace, visibilite, tech afrique, builder, avis, artefact"
+  keywords: "build here, trace, visibilite, builder, avis, artefact"
 redirect_from:
   - /chapters/14-02-un-avis-nest-pas-un-artefact.html
 ---
@@ -29,7 +29,7 @@ Un texte sur ce que l'écosystème devrait faire. Une réaction à une levée de
 
 ## Pourquoi
 
-On appelle publier deux choses différentes, qui rendent toutes deux ton nom visible. Une seule produit une référence. La différence est dans la façon dont on arrive dessus. Un avis est consommé au moment où il passe, par des gens qui ne cherchaient rien. Un artefact est trouvé, plus tard, par quelqu'un qui a déjà le problème. Personne ne tape « que devrait faire la tech africaine » dans un moteur de recherche. Quelqu'un cherche pourquoi ses candidats abandonnent après le deuxième entretien, comment classer mille demandes support, ou tape le message d'erreur exact à deux heures du matin. Il ne sait pas encore qu'il te cherche.
+On appelle publier deux choses différentes, qui rendent toutes deux ton nom visible. Une seule produit une référence. La différence est dans la façon dont on arrive dessus. Un avis est consommé au moment où il passe, par des gens qui ne cherchaient rien. Un artefact est trouvé, plus tard, par quelqu'un qui a déjà le problème. Personne ne tape « ce que devrait faire l'industrie tech » dans un moteur de recherche. Quelqu'un cherche pourquoi ses candidats abandonnent après le deuxième entretien, comment classer mille demandes support, ou recopie le message d'erreur exact, mot pour mot. Il ne sait pas encore qu'il te cherche.
 
 Un artefact peut être un modèle qu'on télécharge, mais aussi une grille d'entretien avec ses critères, un tableau anonymisé des motifs de contact ou cinq écrans écartés avec le résultat des tests. Dans chaque cas, un inconnu peut le poser à côté de son propre travail et dire précisément ce qui lui manque.
 

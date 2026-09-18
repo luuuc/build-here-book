@@ -12,7 +12,7 @@ categories:
   - engineering
 seo:
   description: "Tu poses une question, tu attends, personne ne répond. Tu en retiens qu'il est inutile de demander."
-  keywords: "build here, curiosite, tech afrique, builder, conditions, personne, demande, deux, fois"
+  keywords: "build here, curiosite, builder, conditions, personne, demande, deux, fois"
 redirect_from:
   - /chapters/01-06-leader-personne-ne-demande-deux-fois.html
 ---

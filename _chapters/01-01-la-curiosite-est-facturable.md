@@ -14,7 +14,7 @@ categories:
   - operations
 seo:
   description: "Une équipe ne peut construire que ce qu'elle comprend. Pour le reste, elle avance à l'aveugle."
-  keywords: "build here, curiosite, tech afrique, builder, facturable"
+  keywords: "build here, curiosite, builder, facturable"
 ---
 
 ## Le réflexe

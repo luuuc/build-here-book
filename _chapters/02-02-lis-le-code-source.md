@@ -12,7 +12,7 @@ categories:
   - technique
 seo:
   description: "Presque tout ce dont tu dépends est lisible. Le framework, le client HTTP, le driver de base de données, le script de déploiement."
-  keywords: "build here, engineering, tech afrique, builder, code, source"
+  keywords: "build here, engineering, builder, code, source"
 redirect_from:
   - /chapters/06-03-lis-le-code-source.html
 ---

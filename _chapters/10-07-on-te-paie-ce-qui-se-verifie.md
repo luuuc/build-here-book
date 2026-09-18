@@ -12,7 +12,7 @@ categories:
   - trace
 seo:
   description: "Un prix n'est pas une mesure de ce que tu vaux. C'est un pari qu'un acheteur fait sur la partie de ton travail qu'il peut vérifier avant de signer."
-  keywords: "build here, carriere, visibilite, tech afrique, builder, valeur, salaire, prix"
+  keywords: "build here, carriere, visibilite, builder, valeur, salaire, prix"
 redirect_from:
   - /chapters/15-06-on-te-paie-ce-qui-se-verifie.html
 ---

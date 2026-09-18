@@ -12,7 +12,7 @@ categories:
   - engineering
 seo:
   description: "Une demande arrive déjà traduite, et chaque traduction perd quelque chose."
-  keywords: "build here, curiosite, tech afrique, builder, comprends, pourquoi, pret, construire"
+  keywords: "build here, curiosite, builder, comprends, pourquoi, pret, construire"
 redirect_from:
   - /chapters/01-02-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html
 ---

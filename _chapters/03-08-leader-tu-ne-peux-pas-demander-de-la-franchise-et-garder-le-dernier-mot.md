@@ -12,7 +12,7 @@ categories:
   - culture
 seo:
   description: "L'invitation ne suffit pas. L'écart de pouvoir ne s'évapore pas parce que tu l'as déclaré nul."
-  keywords: "build here, hierarchie, tech afrique, builder, conditions, peux, demander, franchise, garder"
+  keywords: "build here, hierarchie, builder, conditions, peux, demander, franchise, garder"
 redirect_from:
   - /chapters/03-05-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html
 ---

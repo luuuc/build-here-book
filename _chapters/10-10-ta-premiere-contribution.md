@@ -12,7 +12,7 @@ categories:
   - contribution
 seo:
   description: "Ce qui arrête les gens n'est presque jamais la difficulté technique. C'est de ne pas savoir ce qui va se passer."
-  keywords: "build here, reference, open source, tech afrique, builder, premiere, contribution"
+  keywords: "build here, reference, open source, builder, premiere, contribution"
 redirect_from:
   - /chapters/16-01-ta-premiere-contribution.html
 ---

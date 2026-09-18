@@ -12,7 +12,7 @@ categories:
   - culture
 seo:
   description: "Tu es l'auteur de ton travail. Ça ne te définit pas. Confondre les deux rend les revues de code tendues, les critiques de design polies"
-  keywords: "build here, ego et honnetete intellectuelle, tech afrique, builder, code, bebe"
+  keywords: "build here, ego et honnetete intellectuelle, builder, code, bebe"
 redirect_from:
   - /chapters/02-03-ton-code-nest-pas-ton-bebe.html
 ---

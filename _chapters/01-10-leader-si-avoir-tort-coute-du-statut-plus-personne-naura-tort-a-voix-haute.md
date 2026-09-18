@@ -12,7 +12,7 @@ categories:
   - culture
 seo:
   description: "Les gens n'écoutent pas ce qui est déclaré. Ils regardent ce qui arrive à celui qui y va en premier."
-  keywords: "build here, ego et honnetete intellectuelle, tech afrique, builder, conditions, avoir, tort, coute, statut"
+  keywords: "build here, ego et honnetete intellectuelle, builder, conditions, avoir, tort, coute, statut"
 redirect_from:
   - /chapters/02-05-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html
 ---

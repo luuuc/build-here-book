@@ -12,7 +12,7 @@ categories:
   - marketing
 seo:
   description: "Le travail qui compte se passe avant que quiconque ouvre un outil de design. Pour qui c'est. Ce qu'ils utilisent aujourd'hui. Ce qui change pour eux."
-  keywords: "build here, visibilite, tech afrique, builder, marketing, decoration"
+  keywords: "build here, visibilite, builder, marketing, decoration"
 redirect_from:
   - /chapters/12-04-le-marketing-nest-pas-de-la-decoration.html
 ---

@@ -20,7 +20,7 @@ categories:
   - references
 seo:
   description: "À gauche une phrase qu'on dit, à droite la carte qui la conteste. Les quatre-vingt-huit cartes du livre, rangées par symptôme."
-  keywords: "build here, annexes, tech afrique, builder, index, symptome, sommaire"
+  keywords: "build here, annexes, builder, index, symptome, sommaire"
 ---
 
 Le mode d'emploi dit d'ouvrir le livre à l'étape qui correspond à ce qui t'agace cette semaine. Voilà cette liste, en clair.

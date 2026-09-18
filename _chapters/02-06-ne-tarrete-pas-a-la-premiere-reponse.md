@@ -13,7 +13,7 @@ categories:
   - support
 seo:
   description: "La première réponse qu'on trouve traite souvent le symptôme le plus visible. Comme ce symptôme disparaît, on croit avoir compris le problème."
-  keywords: "build here, curiosite, tech afrique, builder, arrete, premiere, reponse"
+  keywords: "build here, curiosite, builder, arrete, premiere, reponse"
 redirect_from:
   - /chapters/01-05-ne-tarrete-pas-a-la-premiere-reponse.html
 ---

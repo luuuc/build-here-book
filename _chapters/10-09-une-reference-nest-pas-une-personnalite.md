@@ -12,7 +12,7 @@ categories:
   - trace
 seo:
   description: "La notoriété s'entretient. Un travail de référence continue de servir. C'est toute la différence, et elle décide de ce que tu construis."
-  keywords: "build here, reference, visibilite, tech afrique, builder, personnalite"
+  keywords: "build here, reference, visibilite, builder, personnalite"
 redirect_from:
   - /chapters/16-02-une-reference-nest-pas-une-personnalite.html
 ---

@@ -3,12 +3,11 @@ layout: home
 
 categories:
   - builders
-  - afrique
   - tech
 
 seo:
   description: Un guide pratique pour ceux qui construisent. Dix étapes, quatre-vingt-huit cartes, une idée par carte.
-  keywords: build here, builders, tech afrique, ingénierie logicielle, produit, ownership, leadership, startup africaine, guide pratique, visibilité
+  keywords: build here, builders, ingénierie logicielle, produit, ownership, leadership, guide pratique, visibilité
 
 title: Build Here
 description: Un guide pratique pour ceux qui construisent

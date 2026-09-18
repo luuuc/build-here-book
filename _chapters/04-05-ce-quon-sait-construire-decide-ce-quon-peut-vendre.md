@@ -12,7 +12,7 @@ categories:
   - strategie
 seo:
   description: "Une entreprise dont le produit est du logiciel n'exécute pas sa stratégie avec de la technologie. Elle en est faite."
-  keywords: "build here, technologie et business, tech afrique, builder, sait, construire, decide, peut, vendre"
+  keywords: "build here, technologie et business, builder, sait, construire, decide, peut, vendre"
 redirect_from:
   - /chapters/10-01-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html
 ---

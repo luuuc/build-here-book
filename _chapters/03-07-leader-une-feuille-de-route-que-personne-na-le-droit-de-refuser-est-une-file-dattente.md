@@ -12,7 +12,7 @@ categories:
   - arbitrage
 seo:
   description: "La carte précédente demande à quelqu'un de refuser du travail. Encore faut-il que tu permettes ce refus sans désavouer celui qui le porte."
-  keywords: "build here, produit, tech afrique, builder, conditions, feuille, route, personne, droit"
+  keywords: "build here, produit, builder, conditions, feuille, route, personne, droit"
 redirect_from:
   - /chapters/05-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html
 ---

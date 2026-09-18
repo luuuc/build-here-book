@@ -12,7 +12,7 @@ categories:
   - arbitrage
 seo:
   description: "Une spec contient tout ce que tu croyais le jour où tu l'as écrite, y compris les parties fausses. Elle a été écrite sans ce que le développement allait t'apprendre."
-  keywords: "build here, produit, tech afrique, builder, valider, spec, rend, juste"
+  keywords: "build here, produit, builder, valider, spec, rend, juste"
 redirect_from:
   - /chapters/05-02-valider-une-spec-ne-la-rend-pas-juste.html
 ---

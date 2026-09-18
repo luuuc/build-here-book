@@ -12,7 +12,7 @@ categories:
   - marketing
 seo:
   description: "Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du code. La construction est visible et le chemin ne l'est pas"
-  keywords: "build here, visibilite, tech afrique, builder, distribution, fait, partie, produit"
+  keywords: "build here, visibilite, builder, distribution, fait, partie, produit"
 redirect_from:
   - /chapters/12-02-la-distribution-fait-partie-du-produit.html
 ---

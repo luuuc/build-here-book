@@ -12,7 +12,7 @@ categories:
   - produit
 seo:
   description: "Le rythme dépend des étapes à franchir entre un changement terminé et sa mise à disposition"
-  keywords: "build here, execution, tech afrique, builder, conditions, rythme, livraison, decision, prise"
+  keywords: "build here, execution, builder, conditions, rythme, livraison, decision, prise"
 redirect_from:
   - /chapters/07-06-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html
 ---

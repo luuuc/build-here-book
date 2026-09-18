@@ -12,7 +12,7 @@ categories:
   - technique
 seo:
   description: "Tout ce que cette section demande est invisible sur un écran de démo. L'architecture sans fioritures. Les trois cents lignes retirées. L'après-midi passé à lire un driver de base de données."
-  keywords: "build here, engineering, tech afrique, builder, conditions, recoltes, complexite, recompenses"
+  keywords: "build here, engineering, builder, conditions, recoltes, complexite, recompenses"
 redirect_from:
   - /chapters/06-06-leader-tu-recoltes-la-complexite-que-tu-recompenses.html
 ---

@@ -12,7 +12,7 @@ categories:
   - produit
 seo:
   description: "Une entreprise paiera une agence pour recruter huit utilisateurs et réserver une salle avec une glace sans tain."
-  keywords: "build here, client, tech afrique, builder, support, recherche, produit, participants"
+  keywords: "build here, client, builder, support, recherche, produit, participants"
 redirect_from:
   - /chapters/11-01-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html
 ---

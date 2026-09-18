@@ -12,7 +12,7 @@ categories:
   - decision
 seo:
   description: "Une méthode de recrutement sélectionne certains profils plutôt que d'autres. Ses résultats sont donc prévisibles. On en tire pourtant des conclusions sur l'ensemble des candidats."
-  keywords: "build here, leadership, recrutement, tech afrique, builder, filtre"
+  keywords: "build here, leadership, recrutement, builder, filtre"
 redirect_from:
   - /chapters/09-07-le-filtre-que-tu-fais-tourner.html
 ---

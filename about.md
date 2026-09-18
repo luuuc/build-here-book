@@ -9,8 +9,8 @@ categories:
   - open-source
 
 seo:
-  description: Build Here est un guide libre pour les builders du continent. Licence Creative Commons BY-SA 4.0, source ouverte, cartes ouvertes aux contributions.
-  keywords: build here, à propos, licence creative commons, contribution, open source, builders afrique
+  description: Build Here est un guide libre pour ceux qui construisent. Licence Creative Commons BY-SA 4.0, source ouverte, cartes ouvertes aux contributions.
+  keywords: build here, à propos, licence creative commons, contribution, open source
 
 title: À propos
 description: Un livre ouvert, à compléter

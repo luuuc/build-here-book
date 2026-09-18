@@ -13,7 +13,7 @@ categories:
   - contribution
 seo:
   description: "Une liste de choses qu'on peut ouvrir. Une seule règle d'admission, un inconnu peut en faire quelque chose ce soir."
-  keywords: "build here, annexes, tech afrique, builder, deja, en ligne, open source"
+  keywords: "build here, annexes, builder, deja, en ligne, open source"
 ---
 
 Ce n'est pas un annuaire, ni une carte de l'écosystème, ni une sélection. Ces documents existent déjà, il y en a un par ville, et la plupart n'ont pas survécu à leur deuxième mise à jour.

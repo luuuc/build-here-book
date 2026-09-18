@@ -12,7 +12,7 @@ categories:
   - niveau
 seo:
   description: "Le code, c'est le corrigé. Ce que tu n'obtiens nulle part ailleurs, c'est le raisonnement."
-  keywords: "build here, apprentissage, tech afrique, builder, open, source, salle, classe"
+  keywords: "build here, apprentissage, builder, open, source, salle, classe"
 redirect_from:
   - /chapters/08-02-lopen-source-est-une-salle-de-classe.html
 ---

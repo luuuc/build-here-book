@@ -12,7 +12,7 @@ categories:
   - marketing
 seo:
   description: "Personne ne s'intéresse à une entreprise avant d'avoir compris ce qu'elle change pour lui, donc c'est la séquence qui fait le travail."
-  keywords: "build here, visibilite, tech afrique, builder, parle, probleme, avant, parler"
+  keywords: "build here, visibilite, builder, parle, probleme, avant, parler"
 redirect_from:
   - /chapters/12-05-parle-du-probleme-avant-de-parler-de-toi.html
 ---

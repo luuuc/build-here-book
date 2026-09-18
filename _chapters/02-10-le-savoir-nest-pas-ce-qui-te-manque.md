@@ -12,7 +12,7 @@ categories:
   - niveau
 seo:
   description: "Commence par ce qui est vrai. Le capital est rare. Un réseau solide aussi, l'accès à des clients qui paient bien aussi, et parfois l'électricité et la bande passante."
-  keywords: "build here, apprentissage, tech afrique, builder, savoir, manque"
+  keywords: "build here, apprentissage, builder, savoir, manque"
 redirect_from:
   - /chapters/08-05-le-savoir-nest-pas-ce-qui-te-manque.html
   - /chapters/08-05-ce-qui-manque-ici-ce-nest-pas-le-savoir.html

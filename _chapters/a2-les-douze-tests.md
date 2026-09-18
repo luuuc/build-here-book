@@ -13,7 +13,7 @@ categories:
   - references
 seo:
   description: "Douze questions à faire passer à une carte avant de la publier. Les miennes y sont passées."
-  keywords: "build here, annexes, tech afrique, builder, douze, tests"
+  keywords: "build here, annexes, builder, douze, tests"
 ---
 
 Douze questions à faire passer à une carte avant de la publier. Les miennes y sont passées. Celle que tu écris devrait y passer aussi, et celle des miennes que tu trouves fausse également.

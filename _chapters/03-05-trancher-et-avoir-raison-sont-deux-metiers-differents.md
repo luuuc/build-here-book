@@ -12,7 +12,7 @@ categories:
   - culture
 seo:
   description: "Deux formes d'autorité coexistent dans chaque équipe, et elles appartiennent à des personnes différentes."
-  keywords: "build here, hierarchie, tech afrique, builder, trancher, avoir, raison, sont, deux"
+  keywords: "build here, hierarchie, builder, trancher, avoir, raison, sont, deux"
 redirect_from:
   - /chapters/03-03-trancher-et-avoir-raison-sont-deux-metiers-differents.html
 ---

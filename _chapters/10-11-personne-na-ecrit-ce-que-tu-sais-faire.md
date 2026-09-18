@@ -12,7 +12,7 @@ categories:
   - contexte
 seo:
   description: "Toute cette étape fait circuler l'information dans un sens. Rien n'est jamais reparti dans l'autre."
-  keywords: "build here, reference, trace, tech afrique, builder, ecrire, savoir"
+  keywords: "build here, reference, trace, builder, ecrire, savoir"
 redirect_from:
   - /chapters/16-03-personne-na-ecrit-ce-que-tu-sais-faire.html
 ---
@@ -31,7 +31,7 @@ Neuf mois à faire tenir un tunnel de paiement sur deux rails qui ne se parlent 
 
 Tout ce que le livre t'a demandé jusqu'ici fait circuler l'information dans un sens. Tu lis des postmortems de systèmes que tu n'auras jamais à exploiter, tu importes un niveau, tu cales ton travail sur des gens qui ne connaissent ni tes rails de paiement ni tes appareils. C'est utile et c'est incomplet, parce que rien n'est jamais reparti dans l'autre sens.
 
-Fais l'expérience avant de me croire. Cherche comment on rattrape un paiement mobile qui a échoué chez un opérateur qui répond au téléphone. Comment on tient un premier écran utilisable sur deux barres de réseau et un appareil de trois ans. Comment on assure le support sur WhatsApp à vingt-trois heures. Tu trouveras des analyses du marché africain écrites pour des investisseurs, et presque rien sur la mécanique.
+Fais l'expérience avant de me croire. Cherche comment on rattrape un paiement mobile qui a échoué chez un opérateur qui répond au téléphone. Comment on tient un premier écran utilisable sur deux barres de réseau et un appareil de trois ans. Comment on assure le support sur le canal où tes clients vivent déjà, qui n'est pas l'outil de ticketing que tu paies. Tu trouveras des analyses de marché écrites pour des investisseurs, et presque rien sur la mécanique.
 
 Ce n'est pas une revendication de supériorité et je n'ai aucun chiffre pour en faire une. Ce qu'on peut vérifier est plus précis et plus utile. Le texte n'existe pas. Tant qu'il n'existe pas, personne ne peut dire si ce que tu fais est en avance, en retard ou parfaitement banal, et toi non plus.
 

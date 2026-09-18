@@ -12,7 +12,7 @@ categories:
   - arbitrage
 seo:
   description: "Un ticket est un outil de coordination. Il empêche quatre personnes de se marcher dessus sur le même fichier. C'est tout ce pour quoi il a été construit."
-  keywords: "build here, produit, tech afrique, builder, ticket, travail"
+  keywords: "build here, produit, builder, ticket, travail"
 redirect_from:
   - /chapters/05-01-le-ticket-nest-pas-le-travail.html
 ---

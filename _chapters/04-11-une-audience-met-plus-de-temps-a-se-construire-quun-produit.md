@@ -12,7 +12,7 @@ categories:
   - marketing
 seo:
   description: "L'attention n'apparaît pas sur commande. Elle s'accumule par répétition, chez des gens qui ont eu le temps de comprendre ce que tu publies."
-  keywords: "build here, visibilite, tech afrique, builder, audience, temps, construire, produit"
+  keywords: "build here, visibilite, builder, audience, temps, construire, produit"
 redirect_from:
   - /chapters/12-01-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html
 ---

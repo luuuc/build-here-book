@@ -13,7 +13,7 @@ categories:
   - apprentissage
 seo:
   description: "Un postmortem contient une chose qu'aucune rétro ne garde. L'hypothèse fausse, et combien de temps tu l'as gardée."
-  keywords: "build here, trace, postmortem, tech afrique, builder, incident"
+  keywords: "build here, trace, postmortem, builder, incident"
 redirect_from:
   - /chapters/14-03-ecris-ce-qui-a-casse.html
 ---

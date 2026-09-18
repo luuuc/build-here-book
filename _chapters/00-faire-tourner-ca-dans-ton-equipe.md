@@ -14,7 +14,7 @@ categories:
   - builders
 seo:
   description: "Une carte discutée à six change une équipe. La même carte lue à six, chacun dans son coin, ne change rien."
-  keywords: "build here, ouverture, tech afrique, builder, equipe, seance, atelier"
+  keywords: "build here, ouverture, builder, equipe, seance, atelier"
 ---
 
 Ce livre se lit seul. Il sert surtout quand on en discute.

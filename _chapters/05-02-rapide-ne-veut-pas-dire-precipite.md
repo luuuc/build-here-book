@@ -12,7 +12,7 @@ categories:
   - produit
 seo:
   description: "Une vitesse qu'on peut tenir dans la durée ne vient pas du travail bâclé. Elle vient de couper ce qui n'était pas nécessaire."
-  keywords: "build here, execution, tech afrique, builder, rapide, veut, dire, precipite"
+  keywords: "build here, execution, builder, rapide, veut, dire, precipite"
 redirect_from:
   - /chapters/07-03-rapide-ne-veut-pas-dire-precipite.html
 ---

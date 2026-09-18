@@ -12,7 +12,7 @@ categories:
   - engineering
 seo:
   description: "Plus tu attends, plus la question devient difficile à poser. La raison est toute simple. Passé la première semaine, les gens arrêtent d'expliquer. Ils supposent que tu sais."
-  keywords: "build here, curiosite, tech afrique, builder, pose, question, naive, tout, suite"
+  keywords: "build here, curiosite, builder, pose, question, naive, tout, suite"
 redirect_from:
   - /chapters/01-03-pose-la-question-naive-tout-de-suite.html
 ---

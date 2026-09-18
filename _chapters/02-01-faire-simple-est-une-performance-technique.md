@@ -12,7 +12,7 @@ categories:
   - technique
 seo:
   description: "Personne n'écrit la solution simple en premier. Le premier jet couvre tous les cas que tu peux imaginer, parce que tu ne sais pas encore lesquels arrivent."
-  keywords: "build here, engineering, tech afrique, builder, faire, simple, performance, technique"
+  keywords: "build here, engineering, builder, faire, simple, performance, technique"
 redirect_from:
   - /chapters/06-02-faire-simple-est-une-performance-technique.html
 ---

@@ -35,7 +35,7 @@ const ETATS = ["recue", "en_relecture", "a_corriger", "pr_ouverte", "refusee"];
 const maintenant = () => Math.floor(Date.now() / 1000);
 
 // E.164, validation large. Chiffres et un plus, huit a quinze caracteres.
-// Aucune regle par pays : la lecture est panafricaine et diasporique, et un
+// Aucune regle par pays : le livre se lit partout, et un
 // validateur strict rejetterait de vrais numeros.
 function contactValide(canal, valeur) {
   const v = (valeur || "").trim();

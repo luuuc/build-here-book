@@ -12,7 +12,7 @@ categories:
   - engineering
 seo:
   description: "Les problèmes les plus coûteux se trouvent entre les équipes, là où personne ne s'en charge."
-  keywords: "build here, curiosite, tech afrique, builder, dehors, couloir"
+  keywords: "build here, curiosite, builder, dehors, couloir"
 redirect_from:
   - /chapters/01-04-lis-en-dehors-de-ton-couloir.html
 ---

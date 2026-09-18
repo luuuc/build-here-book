@@ -12,7 +12,7 @@ categories:
   - arbitrage
 seo:
   description: "Chaque semaine passée sans montrer le produit aux utilisateurs retarde leur réponse. Et s'ils n'en veulent pas, il devient plus coûteux de changer de direction."
-  keywords: "build here, produit, tech afrique, builder, peaufines, devient, difficile, changer, avis"
+  keywords: "build here, produit, builder, peaufines, devient, difficile, changer, avis"
 redirect_from:
   - /chapters/05-05-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html
 ---

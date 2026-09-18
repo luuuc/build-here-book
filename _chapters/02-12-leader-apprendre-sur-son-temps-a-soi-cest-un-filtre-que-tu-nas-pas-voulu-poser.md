@@ -12,7 +12,7 @@ categories:
   - niveau
 seo:
   description: "Regarde ce que demandent les cinq cartes précédentes. Des heures à lire des threads de mainteneurs. Un mois assis en silence dans une salle où tu suis la moitié."
-  keywords: "build here, apprentissage, tech afrique, builder, conditions, apprendre, temps, filtre, voulu"
+  keywords: "build here, apprentissage, builder, conditions, apprendre, temps, filtre, voulu"
 redirect_from:
   - /chapters/08-06-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html
 ---

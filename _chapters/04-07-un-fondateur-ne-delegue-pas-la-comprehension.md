@@ -12,7 +12,7 @@ categories:
   - strategie
 seo:
   description: "Déléguer l'exécution, c'est le métier. Déléguer la compréhension laisse un dirigeant incapable d'évaluer quoi que ce soit de ce qu'on lui dit."
-  keywords: "build here, technologie et business, tech afrique, builder, comprehension, delegue"
+  keywords: "build here, technologie et business, builder, comprehension, delegue"
 redirect_from:
   - /chapters/10-04-un-fondateur-ne-delegue-pas-la-comprehension.html
 ---

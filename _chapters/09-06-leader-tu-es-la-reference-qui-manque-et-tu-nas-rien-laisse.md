@@ -12,7 +12,7 @@ categories:
   - transmission
 seo:
   description: "Le mentorat a une portée limitée. Une conversation, une personne, et il s'arrête le jour où tu changes d'entreprise."
-  keywords: "build here, reference, leadership, tech afrique, builder, transmission"
+  keywords: "build here, reference, leadership, builder, transmission"
 redirect_from:
   - /chapters/16-04-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
 ---

@@ -12,7 +12,7 @@ categories:
   - visibilite
 seo:
   description: "Un vide n'est pas une permission. Devant un vide, les gens calculent, et le calcul donne toujours le même résultat."
-  keywords: "build here, trace, leadership, tech afrique, builder, regle, interdiction"
+  keywords: "build here, trace, leadership, builder, regle, interdiction"
 redirect_from:
   - /chapters/14-06-leader-labsence-de-regle-est-une-interdiction.html
 ---

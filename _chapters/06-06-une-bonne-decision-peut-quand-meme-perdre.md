@@ -12,7 +12,7 @@ categories:
   - management
 seo:
   description: "La qualité d'une décision et la qualité d'un résultat sont deux mesures différentes, et tu ne maîtrises que la première."
-  keywords: "build here, leadership, tech afrique, builder, bonne, decision, peut, quand, meme"
+  keywords: "build here, leadership, builder, bonne, decision, peut, quand, meme"
 redirect_from:
   - /chapters/09-02-une-bonne-decision-peut-quand-meme-perdre.html
 ---

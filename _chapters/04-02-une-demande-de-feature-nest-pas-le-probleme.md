@@ -12,7 +12,7 @@ categories:
   - produit
 seo:
   description: "Un client connaît son problème, pas forcément la meilleure façon de le résoudre dans ton produit. Ce qu'il te propose, c'est une piste."
-  keywords: "build here, client, tech afrique, builder, demande, feature, probleme"
+  keywords: "build here, client, builder, demande, feature, probleme"
 redirect_from:
   - /chapters/11-03-une-demande-de-feature-nest-pas-le-probleme.html
 ---

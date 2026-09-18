@@ -12,7 +12,7 @@ categories:
   - execution
 seo:
   description: "Une fiche de poste est un plancher. Quelque part en route, elle s'est mise à être lue comme un plafond."
-  keywords: "build here, ownership, tech afrique, builder, commence, fiche, poste, arrete"
+  keywords: "build here, ownership, builder, commence, fiche, poste, arrete"
 redirect_from:
   - /chapters/04-02-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html
 ---

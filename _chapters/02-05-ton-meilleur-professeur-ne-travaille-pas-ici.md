@@ -12,7 +12,7 @@ categories:
   - niveau
 seo:
   description: "Une équipe qui ne se compare qu'à elle-même finit par prendre sa propre moyenne pour référence. C'est le plus facile : les exemples sont peu nombreux, proches et immédiatement accessibles."
-  keywords: "build here, apprentissage, tech afrique, builder, meilleur, professeur, travaille"
+  keywords: "build here, apprentissage, builder, meilleur, professeur, travaille"
 redirect_from:
   - /chapters/08-01-ton-meilleur-professeur-ne-travaille-pas-ici.html
 ---

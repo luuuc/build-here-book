@@ -12,7 +12,7 @@ categories:
   - produit
 seo:
   description: "Une équipe qui livre chaque semaine collecte cinquante réponses par an. Une équipe qui livre deux fois par an en collecte deux."
-  keywords: "build here, execution, tech afrique, builder, shipper, cree, information"
+  keywords: "build here, execution, builder, shipper, cree, information"
 redirect_from:
   - /chapters/07-02-shipper-cree-de-linformation.html
 ---

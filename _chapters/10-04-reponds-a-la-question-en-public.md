@@ -12,7 +12,7 @@ categories:
   - transmission
 seo:
   description: "C'est la seule action de cette étape qui ne demande presque aucun travail supplémentaire. Tu allais écrire la réponse de toute façon."
-  keywords: "build here, trace, visibilite, tech afrique, builder, question, public"
+  keywords: "build here, trace, visibilite, builder, question, public"
 redirect_from:
   - /chapters/14-04-reponds-a-la-question-en-public.html
 ---

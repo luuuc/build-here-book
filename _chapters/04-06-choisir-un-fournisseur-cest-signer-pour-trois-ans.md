@@ -12,7 +12,7 @@ categories:
   - strategie
 seo:
   description: "Certains choix techniques pèsent directement sur les résultats financiers et sur la possibilité de changer de direction plus tard."
-  keywords: "build here, technologie et business, tech afrique, builder, choisir, fournisseur, signer, trois"
+  keywords: "build here, technologie et business, builder, choisir, fournisseur, signer, trois"
 redirect_from:
   - /chapters/10-02-choisir-un-fournisseur-cest-signer-pour-trois-ans.html
 ---

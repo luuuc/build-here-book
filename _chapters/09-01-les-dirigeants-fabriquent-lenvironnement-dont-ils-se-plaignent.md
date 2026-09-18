@@ -12,7 +12,7 @@ categories:
   - management
 seo:
   description: "Quand une personne se comporte d'une certaine façon, on peut s'interroger sur elle ; quand tout le monde se comporte ainsi, il faut s'interroger sur l'organisation."
-  keywords: "build here, leadership, tech afrique, builder, fabrique, environnement, dont, plaint"
+  keywords: "build here, leadership, builder, fabrique, environnement, dont, plaint"
 redirect_from:
   - /chapters/09-06-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html
 ---

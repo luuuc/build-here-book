@@ -13,7 +13,7 @@ categories:
   - references
 seo:
   description: "Ce livre répète que rien de tout ça n'est nouveau. Voilà de quoi vérifier."
-  keywords: "build here, annexes, tech afrique, builder, deja, ecrit"
+  keywords: "build here, annexes, builder, deja, ecrit"
 ---
 
 Ce livre répète que rien de tout ça n'est nouveau. Voilà de quoi vérifier.

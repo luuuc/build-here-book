@@ -12,7 +12,7 @@ categories:
   - trace
 seo:
   description: "Personne ne cherche ton nom. On cherche le problème avec les mots qu'on possède déjà."
-  keywords: "build here, visibilite, distribution, tech afrique, builder, publie, cherche"
+  keywords: "build here, visibilite, distribution, builder, publie, cherche"
 redirect_from:
   - /chapters/15-01-publie-la-ou-on-cherche.html
 ---

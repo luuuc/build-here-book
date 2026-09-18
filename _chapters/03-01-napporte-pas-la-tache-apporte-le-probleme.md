@@ -12,7 +12,7 @@ categories:
   - execution
 seo:
   description: "Celui qui écrit le ticket l'écrit depuis l'extérieur du code. Celui qui le fait passe deux jours dedans et apprend ce que l'auteur n'avait aucun moyen de savoir."
-  keywords: "build here, ownership, tech afrique, builder, apporte, tache, probleme"
+  keywords: "build here, ownership, builder, apporte, tache, probleme"
 redirect_from:
   - /chapters/04-01-napporte-pas-la-tache-apporte-le-probleme.html
 ---

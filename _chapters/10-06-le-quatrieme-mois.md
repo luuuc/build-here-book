@@ -12,7 +12,7 @@ categories:
   - perseverance
 seo:
   description: "Une trace n'est pas lue le jour où tu la publies. Elle est lue le jour où quelqu'un a ton problème."
-  keywords: "build here, visibilite, trace, tech afrique, builder, quatrieme, mois"
+  keywords: "build here, visibilite, trace, builder, quatrieme, mois"
 redirect_from:
   - /chapters/15-02-le-quatrieme-mois.html
 ---

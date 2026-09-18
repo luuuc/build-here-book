@@ -12,7 +12,7 @@ categories:
   - produit
 seo:
   description: "Les cartes précédentes demandent aux gens de lire des tickets, d'appeler trois utilisateurs, de démonter une réclamation. Maintenant regarde qui tient la porte."
-  keywords: "build here, client, tech afrique, builder, conditions, acces, budget, valeur"
+  keywords: "build here, client, builder, conditions, acces, budget, valeur"
 redirect_from:
   - /chapters/11-05-leader-lacces-au-client-est-un-budget-pas-une-valeur.html
 ---

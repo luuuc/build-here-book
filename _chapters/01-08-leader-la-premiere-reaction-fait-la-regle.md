@@ -12,7 +12,7 @@ categories:
   - execution
 seo:
   description: "Une phrase suffit à décourager toute initiative dans une équipe, et elle n'a même pas besoin d'être dite méchamment pour fonctionner."
-  keywords: "build here, ownership, tech afrique, builder, conditions, premiere, reaction, fait, regle"
+  keywords: "build here, ownership, builder, conditions, premiere, reaction, fait, regle"
 redirect_from:
   - /chapters/04-06-leader-la-premiere-reaction-fait-la-regle.html
 ---

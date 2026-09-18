@@ -12,7 +12,7 @@ categories:
   - culture
 seo:
   description: "Une décision annulée dès la première semaine coûte une semaine. La même décision, défendue jusqu'au bout parce que trois personnes y ont accroché leur crédibilité, coûte un trimestre."
-  keywords: "build here, ego et honnetete intellectuelle, tech afrique, builder, avoir, tort, coute, rien, rester"
+  keywords: "build here, ego et honnetete intellectuelle, builder, avoir, tort, coute, rien, rester"
 redirect_from:
   - /chapters/02-01-avoir-tort-ne-coute-rien-le-rester-coute-cher.html
 ---

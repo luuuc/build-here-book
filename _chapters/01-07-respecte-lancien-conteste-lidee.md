@@ -12,7 +12,7 @@ categories:
   - culture
 seo:
   description: "Le respect est dû à la personne. Il n'est pas dû à la phrase."
-  keywords: "build here, hierarchie, tech afrique, builder, respecte, ancien, conteste, idee"
+  keywords: "build here, hierarchie, builder, respecte, ancien, conteste, idee"
 redirect_from:
   - /chapters/03-01-respecte-lancien-conteste-lidee.html
 ---

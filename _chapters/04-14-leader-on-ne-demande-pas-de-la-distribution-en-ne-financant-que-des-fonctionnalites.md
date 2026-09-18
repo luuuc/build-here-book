@@ -12,7 +12,7 @@ categories:
   - marketing
 seo:
   description: "La visibilité est demandée et jamais financée. Celui qui a passé l'après-midi à écrire arrive au point hebdo sans rien de livré, à côté de quelqu'un qui a fermé quatre tickets."
-  keywords: "build here, visibilite, tech afrique, builder, conditions, demande, distribution, financant, fonctionnalites"
+  keywords: "build here, visibilite, builder, conditions, demande, distribution, financant, fonctionnalites"
 redirect_from:
   - /chapters/12-06-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html
 ---

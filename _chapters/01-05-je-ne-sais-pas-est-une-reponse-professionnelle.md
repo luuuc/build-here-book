@@ -12,7 +12,7 @@ categories:
   - culture
 seo:
   description: "Une réponse fausse mais plausible est plus dangereuse qu'une absence de réponse, parce qu'elle voyage. Quelqu'un la répète en réunion. Elle atterrit dans un document."
-  keywords: "build here, ego et honnetete intellectuelle, tech afrique, builder, sais, reponse, professionnelle"
+  keywords: "build here, ego et honnetete intellectuelle, builder, sais, reponse, professionnelle"
 redirect_from:
   - /chapters/02-04-je-ne-sais-pas-est-une-reponse-professionnelle.html
 ---

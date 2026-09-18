@@ -12,7 +12,7 @@ categories:
   - strategie
 seo:
   description: "L'engagement se prend dans une salle. Le chiffrage se demande dans une autre, deux semaines plus tard, et l'ordre est tout le problème."
-  keywords: "build here, technologie et business, tech afrique, builder, conditions, chiffrage, decision, engagement"
+  keywords: "build here, technologie et business, builder, conditions, chiffrage, decision, engagement"
 redirect_from:
   - /chapters/10-05-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html
 ---

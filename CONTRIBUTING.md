@@ -56,7 +56,7 @@ categories:
   - responsabilite
 seo:
   description: "La phrase la plus forte de la carte."
-  keywords: "build here, ownership, tech afrique, builder"
+  keywords: "build here, ownership, builder"
 ---
 ```
 

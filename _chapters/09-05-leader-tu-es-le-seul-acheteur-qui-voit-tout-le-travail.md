@@ -12,7 +12,7 @@ categories:
   - carriere
 seo:
   description: "Le marché fixe le prix d'un inconnu. Toi, tu ne paies pas des inconnus, et tu choisis quand même le prix de l'inconnu."
-  keywords: "build here, visibilite, leadership, tech afrique, builder, salaire, valeur, augmentation"
+  keywords: "build here, visibilite, leadership, builder, salaire, valeur, augmentation"
 redirect_from:
   - /chapters/15-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html
 ---

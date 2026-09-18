@@ -12,7 +12,7 @@ categories:
   - produit
 seo:
   description: "Le test n'a jamais parlé de code. Il demande si un inconnu peut s'en servir sans savoir qui tu es."
-  keywords: "build here, trace, support, produit, tech afrique, builder, code"
+  keywords: "build here, trace, support, produit, builder, code"
 redirect_from:
   - /chapters/14-05-une-trace-nest-pas-forcement-du-code.html
 ---

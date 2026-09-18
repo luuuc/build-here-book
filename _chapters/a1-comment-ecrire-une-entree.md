@@ -13,7 +13,7 @@ categories:
   - references
 seo:
   description: "Il manque à ce livre les cartes que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks."
-  keywords: "build here, annexes, tech afrique, builder, comment, ecrire, entree"
+  keywords: "build here, annexes, builder, comment, ecrire, entree"
 ---
 
 Il manque à ce livre les cartes que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks. Si tu construis depuis un moment, tu en portes plusieurs.

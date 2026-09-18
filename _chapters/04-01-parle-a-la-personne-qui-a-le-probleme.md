@@ -12,7 +12,7 @@ categories:
   - produit
 seo:
   description: "Chaque relais filtre. Le commercial ramène ce qui aide à signer. Le fondateur garde la phrase qui a piqué. L'équipe comble les trous avec sa propre idée de l'utilisateur."
-  keywords: "build here, client, tech afrique, builder, parle, personne, probleme"
+  keywords: "build here, client, builder, parle, personne, probleme"
 redirect_from:
   - /chapters/11-02-parle-a-la-personne-qui-a-le-probleme.html
 ---

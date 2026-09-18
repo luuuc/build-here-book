@@ -12,7 +12,7 @@ categories:
   - retention
 seo:
   description: "La peur est réelle et l'arithmétique aussi. Ce que le silence ne fait pas, c'est retenir qui que ce soit."
-  keywords: "build here, visibilite, leadership, tech afrique, builder, equipe, invisible"
+  keywords: "build here, visibilite, leadership, builder, equipe, invisible"
 redirect_from:
   - /chapters/15-05-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
 ---

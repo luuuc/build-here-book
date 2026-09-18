@@ -12,7 +12,7 @@ categories:
   - execution
 seo:
   description: "Attendre est confortable parce que ça donne une impression de rigueur. Personne n'est dérangé, aucun risque n'est pris"
-  keywords: "build here, ownership, tech afrique, builder, etre, bloque, decision"
+  keywords: "build here, ownership, builder, etre, bloque, decision"
 redirect_from:
   - /chapters/04-05-etre-bloque-est-une-decision.html
 ---

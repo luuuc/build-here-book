@@ -1,6 +1,6 @@
 # Build Here
 
-Un guide pratique pour ceux qui construisent sur ce continent.
+Un guide pratique pour ceux qui construisent.
 
 Une carte, deux minutes, une idée qui tient seule. Chacune se lit sans avoir lu celles d'avant. Certaines portent la marque ⇄ et s'adressent à qui fixe les conditions.
 

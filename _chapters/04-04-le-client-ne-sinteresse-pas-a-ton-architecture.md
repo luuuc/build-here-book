@@ -12,7 +12,7 @@ categories:
   - arbitrage
 seo:
   description: "Personne n'achète une architecture. Les gens achètent du temps récupéré, un risque écarté, une chose de moins à vérifier."
-  keywords: "build here, produit, tech afrique, builder, client, interesse, architecture"
+  keywords: "build here, produit, builder, client, interesse, architecture"
 redirect_from:
   - /chapters/05-04-le-client-ne-sinteresse-pas-a-ton-architecture.html
 ---

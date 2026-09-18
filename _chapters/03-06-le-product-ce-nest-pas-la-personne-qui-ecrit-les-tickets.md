@@ -12,7 +12,7 @@ categories:
   - arbitrage
 seo:
   description: "Si le rôle consiste à accepter puis à classer toutes les demandes, une file d'attente fait déjà le travail. La valeur du rôle produit tient dans sa capacité à refuser."
-  keywords: "build here, produit, tech afrique, builder, product, personne, ecrit, tickets"
+  keywords: "build here, produit, builder, product, personne, ecrit, tickets"
 redirect_from:
   - /chapters/05-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html
 ---
