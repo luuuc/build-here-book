@@ -46,10 +46,45 @@ C'est le prix d'une liste de choses vivantes.
 
 ---
 
-{% assign lignes = site.data['deja-en-ligne'] | sort: "nom" %}
-{% for l in lignes %}
-**{{ l.nom }}**, {{ l.lieu }}. {{ l.fait }}. {{ l.par }}. [{{ l.porte }}]({{ l.lien }}){:target="_blank" rel="noopener"}, vérifié le {{ l.verifie | date: "%d/%m/%Y" }}.
-{% endfor %}
+**AfriSpeech-200**, Lagos. 200 heures d'anglais africain, 120 accents, 13 pays, CC BY-NC-SA 4.0. Intron Health et CLAIR Lab. [Le jeu de données](https://huggingface.co/datasets/intronhealth/afrispeech-200), vérifié le 12/09/2026.
+
+**AfVoices**, Bamako. 423 heures de bambara spontané, 512 locuteurs, sud du Mali, CC-BY-4.0. RobotsMali AI4D Lab. [Le jeu de données](https://huggingface.co/datasets/RobotsMali/afvoices), vérifié le 12/09/2026.
+
+**Code d'Ivoire**, Abidjan. made-in-ci, un registre du code écrit en Côte d'Ivoire, pull requests ouvertes. Une communauté de développeurs ivoiriens. [Le dépôt](https://github.com/codedivoire/made-in-ci), vérifié le 12/09/2026.
+
+**Code for Africa**, panafricain. 245 dépôts civiques, dont sensors.AFRICA et openAFRICA, licences GPL, Apache et MIT. [Les dépôts](https://github.com/CodeForAfrica), vérifié le 12/09/2026.
+
+**Code for Senegal**, Dakar. 20 dépôts de technologie civique tenus par des bénévoles, licences MIT et GPL-3.0. [Les dépôts](https://github.com/Code-for-Senegal), vérifié le 12/09/2026.
+
+**Digital Umuganda**, Kigali. 22 jeux de données et 39 modèles de parole, kinyarwanda et swahili. [Les jeux de données](https://huggingface.co/DigitalUmuganda), vérifié le 12/09/2026.
+
+**Ghana NLP**, Accra. Traduction et parole, 41 variétés de langues ghanéennes évaluées, licences MIT. [Les dépôts](https://github.com/GhanaNLP), vérifié le 12/09/2026.
+
+**HausaNLP**, Kano. NaijaSenti, corpus de sentiment pour le haoussa, l'igbo, le yoruba et le pidgin. [Les dépôts](https://github.com/hausanlp), vérifié le 12/09/2026.
+
+**InFashAI**, Cotonou. 15 716 images de mode africaine annotées, GPL-3.0. Gilles Hacheme, Ai4Innov. [Le dépôt](https://github.com/hgilles06/infashai), vérifié le 10/09/2026.
+
+**InkubaLM**, Johannesburg. Modèle de 0,4 milliard de paramètres, cinq langues africaines, poids publiés. Lelapa AI. [Les poids](https://huggingface.co/lelapa/InkubaLM-0.4B), vérifié le 10/09/2026.
+
+**InstaDeep**, Tunis. 76 modèles et 31 jeux de données publiés, génomique et protéines. [Les modèles](https://huggingface.co/InstaDeepAI), vérifié le 12/09/2026.
+
+**Jumanji**, Tunis. Environnements d'apprentissage par renforcement en JAX, Apache-2.0, CONTRIBUTING.md. InstaDeep. [Le dépôt](https://github.com/instadeepai/jumanji), vérifié le 12/09/2026.
+
+**Makerere AI Lab**, Kampala. Parole et texte en luganda, maladies des cultures, licence MIT. Université Makerere. [Les dépôts](https://github.com/AI-Lab-Makerere), vérifié le 12/09/2026.
+
+**MasakhaNER**, panafricain. Reconnaissance d'entités nommées annotée pour 20 langues africaines, CC-BY-4.0. Masakhane. [Le dépôt](https://github.com/masakhane-io/masakhane-ner), vérifié le 12/09/2026.
+
+**Masakhane**, panafricain. Collectif de traduction automatique, une trentaine de dépôts, licences permissives. [Par où entrer](https://github.com/masakhane-io/masakhane-community), vérifié le 10/09/2026.
+
+**Mbaza NLP**, Kigali. Reconnaissance vocale, synthèse et traduction kinyarwanda, modèles et données publiés. [Les modèles](https://huggingface.co/mbazaNLP), vérifié le 12/09/2026.
+
+**SALAMA**, Cotonou. Reconnaissance vocale, synthèse et modèle de langue pour langues africaines. Ai4Innov. [Les modèles](https://huggingface.co/Ai4Innov), vérifié le 10/09/2026.
+
+**Sunbird AI**, Kampala. Modèles de parole et de langue couvrant jusqu'à 67 langues africaines. [Les modèles](https://huggingface.co/Sunbird), vérifié le 12/09/2026.
+
+**Ushahidi**, Nairobi. Plateforme de signalement, AGPL-3.0, CONTRIBUTING.md, pull requests ouvertes. [Le dépôt](https://github.com/ushahidi/platform), vérifié le 10/09/2026.
+
+**Zindi**, panafricain. Compétitions de science des données, profil gratuit, défis ouverts sans introduction. [Les défis](https://zindi.world/), vérifié le 12/09/2026.
 
 ---
 
