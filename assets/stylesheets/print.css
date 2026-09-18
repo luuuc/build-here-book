@@ -514,3 +514,6 @@ em { font-style: italic; }
 .prose .footnotes li { margin-bottom: 0.45em; }
 .prose .footnotes p { margin-bottom: 0; }
 .prose .footnotes a { text-decoration: none; color: #8A6100; }
+
+/* La pastille de brouillon est un repere d'ecran. */
+.pastille-brouillon { display: none; }

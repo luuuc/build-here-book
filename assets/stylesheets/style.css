@@ -1801,3 +1801,36 @@ sup a {
 .contact-champs > input {
   align-self: end;
 }
+
+/* ==========================================================================
+   Pastille de brouillon
+   Echafaudage, pas un element de design : le rouge est volontairement hors
+   palette pour qu'elle ne se fonde pas dans le livre. Tout tient dans ce bloc,
+   plus _includes/pastille-brouillon.html et la ligne draft_banner du
+   _config.yml. Les trois se retirent ensemble le jour de la publication.
+   ========================================================================== */
+
+.pastille-brouillon {
+  position: fixed;
+  bottom: 0.6rem;
+  left: 0.6rem;
+  /* Au-dessus de l'en-tete, qui est fixe et monte a 1000. */
+  z-index: 1100;
+  /* Ne doit jamais intercepter un clic destine a ce qu'elle recouvre. */
+  pointer-events: none;
+}
+
+.pastille-brouillon span {
+  display: block;
+  padding: 0.3rem 0.7rem;
+  border-radius: 2px;
+  background: #C0392B;
+  color: #fff;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}

@@ -19,6 +19,12 @@ repository: luuuc/build-here-book
 locale: fr_FR
 theme_color: "#1C1A17"
 
+# Ruban d'angle affiche sur toutes les pages du site. La valeur est le texte
+# affiche ; vider la ligne, ou la supprimer, retire le ruban partout d'un coup.
+# Le PDF et l'EPUB ne sont pas concernes : les pages de _pdf sont en layout none
+# et n'incluent pas l'en-tete.
+draft_banner: "draft version"
+
 # Google Analytics (leave blank to disable)
 google_analytics: G-044F0FSRYM
 
