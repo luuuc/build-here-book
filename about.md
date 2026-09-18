@@ -33,7 +33,7 @@ L'[annexe 1](/chapters/a1-les-quatre-types-de-cartes.html) décrit les quatre fo
 
 ## Vérifier
 
-L'[annexe 3](/chapters/a3-deja-ecrit.html) liste seize titres, de 1954 à 2018, où tout ce que dit ce livre était déjà écrit et publié. La page existe pour qu'on n'ait pas à me croire sur parole.
+L'[annexe 3](/chapters/a3-deja-ecrit.html) liste dix-huit titres, de 1911 à 2018, où tout ce que dit ce livre était déjà écrit et publié. La page existe pour qu'on n'ait pas à me croire sur parole.
 
 ## Construit en public
 
