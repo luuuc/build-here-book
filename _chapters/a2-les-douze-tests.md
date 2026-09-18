@@ -54,9 +54,9 @@ La question de fin doit produire des réponses différentes selon les personnes.
 
 Deux questions auxquelles il faut pouvoir répondre oui.
 
-Est-ce qu'un builder à Abidjan, Lagos, Nairobi ou Dakar reconnaîtrait sa propre semaine dedans ? Est-ce qu'un builder à Berlin reconnaîtrait la sienne ?
+Est-ce qu'un builder là où tu travailles reconnaîtrait sa propre semaine dedans ? Est-ce qu'un builder à l'autre bout du monde reconnaîtrait la sienne ?
 
-Le continent fournit les situations et les enjeux. Le principe doit survivre au déplacement. Un seul oui donne une carte plus faible. Zéro donne une carte qui ne devrait pas sortir.
+Ton terrain fournit les situations. Le principe, lui, doit survivre au déplacement. Un seul oui donne une carte plus faible. Zéro donne une carte qui ne devrait pas sortir.
 
 **9. Est-ce qu'on attaque un comportement plutôt qu'un groupe de personnes ?**
 

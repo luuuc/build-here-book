@@ -3,7 +3,7 @@ layout: chapter
 title: "Les systèmes"
 description: "Je rends la prochaine fois plus facile"
 show_chapter_number: false
-illustration: "produit"
+illustration: "systemes"
 step_number: 7
 part: "Les systèmes"
 order: 700

@@ -11,7 +11,7 @@ categories:
   - trace
   - contexte
 seo:
-  description: "Tout ce mouvement fait circuler l'information dans un sens. Rien n'est jamais reparti dans l'autre."
+  description: "Toute cette étape fait circuler l'information dans un sens. Rien n'est jamais reparti dans l'autre."
   keywords: "build here, reference, trace, tech afrique, builder, ecrire, savoir"
 redirect_from:
   - /chapters/16-03-personne-na-ecrit-ce-que-tu-sais-faire.html

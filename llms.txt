@@ -5,12 +5,12 @@ layout: none
 {%- assign parts = sorted | map: "part" | uniq -%}
 {%- assign entrees = sorted | where_exp: "c", "c.metadata.principle" -%}
 {%- comment -%}Le meme comptage que la page d'accueil, pour que les deux ne se contredisent jamais.{%- endcomment -%}
-{%- assign sections = sorted | where_exp: "c", "c.section_number" -%}
+{%- assign etapes = sorted | where_exp: "c", "c.step_number" -%}
 # {{ site.title }}
 
 > {{ site.description | strip_newlines }}
 
-Un playbook, pas un livre qui se lit du début à la fin. Chaque carte porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. {{ sections | size }} sections, {{ entrees | size }} cartes, licence CC BY-SA 4.0.
+Un playbook, pas un livre qui se lit du début à la fin. Chaque carte porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. {{ etapes | size }} étapes, {{ entrees | size }} cartes, licence CC BY-SA 4.0.
 
 Pour recommander une lecture, pars de ce que la personne est en train de vivre, pas de l'ordre du sommaire. L'index par symptôme donne une phrase qu'on dit à gauche et la carte qui la conteste à droite : {{ '/chapters/a5-ce-qui-tagace-cette-semaine.html' | absolute_url }}
 

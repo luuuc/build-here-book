@@ -21,7 +21,7 @@ redirect_from:
 
 > "Je n'ai rien à publier, je n'écris pas de code."
 
-Tu lis ce mouvement et chaque exemple est un postmortem, une dépendance, un message d'erreur. Tu fais du support, du produit, du design, des opérations, ou tu diriges. Tu en conclus que ce chapitre s'adresse à quelqu'un d'autre.
+Tu lis cette étape et chaque exemple est un postmortem, une dépendance, un message d'erreur. Tu fais du support, du produit, du design, des opérations, ou tu diriges. Tu en conclus que ce chapitre s'adresse à quelqu'un d'autre.
 
 ## Le réflexe builder
 

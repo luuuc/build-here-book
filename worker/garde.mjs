@@ -13,7 +13,7 @@ const FENETRE = 3600; // une heure, en secondes
 const PLAFOND_IP = 60; // large : un NAT operateur met une ville derriere une IP
 const PLAFOND_CLIENT = 4; // genereux pour une personne reelle
 // Une note est un clic, pas un texte. Quelqu'un qui lit le livre d'une traite
-// en pose legitimement plusieurs dizaines, et le livre compte 68 entrees.
+// en pose legitimement plusieurs dizaines, et le livre compte 88 cartes.
 const PLAFOND_NOTES_IP = 300;
 const AGE_JETON = 3; // secondes minimum entre le chargement et l'envoi
 const VIE_JETON = 7200; // deux heures, le temps d'ecrire

@@ -169,9 +169,9 @@ Sans la paire, le livre devient une liste d'exigences dirigées vers le bas.
 
 ## L'ancrage
 
-Ne limite pas les détails de terrain. Ce livre part d'un lieu et d'une expérience : le lecteur doit pouvoir les reconnaître. Sers-toi du détail de terrain : l'environnement de staging partagé, la connexion comptée, le fournisseur qui facture en dollars contre un revenu qui arrive en monnaie locale, la ligne de support à huit fuseaux, le senior qui est la seule personne du pays à avoir fait tourner ça en production.
+Ne limite pas les détails de terrain. Une carte tient parce qu'un lecteur y reconnaît une semaine qu'il a vécue, et ça se joue dans le détail : l'environnement de staging partagé, la connexion comptée, le fournisseur qui facture dans une monnaie que tu n'encaisses pas, la ligne de support à huit fuseaux, le senior qui est le seul de la boîte à avoir fait tourner ça en production.
 
-La seule règle qui reste. Le détail est dans une scène, et le livre n'explique jamais le continent à ceux qui y vivent.
+La seule règle qui reste. Le détail est dans une scène, et il ne sert jamais à expliquer un endroit à ceux qui y vivent.
 
 ---
 
@@ -205,7 +205,7 @@ Ces mêmes cartes portent l'autre moitié, à savoir la façon dont le titre se 
 
 300 à 500 mots par carte. Jusqu'à 550 quand elle porte un réflexe défendable ou une mise en garde contre un détournement du principe, puisque ce sont deux paragraphes en plus et qu'aucun des deux n'est du remplissage.
 
-Ces chiffres décrivent les soixante-huit cartes existantes, médiane 434. Ils te disent où tu te situes par rapport au livre, pas où tu dois être. Le vrai plafond est le test 3, et il se lit autrement : une carte qui demande plus de deux minutes n'est pas mauvaise, elle est moins lue.
+Ces chiffres décrivent les quatre-vingt-huit cartes existantes, médiane 448. Ils te disent où tu te situes par rapport au livre, pas où tu dois être. Le vrai plafond est le test 3, et il se lit autrement : une carte qui demande plus de deux minutes n'est pas mauvaise, elle est moins lue.
 
 Le bloc « Depuis ton siège » ne compte pas dans ces mots. Son budget est le sien, six lignes de cent caractères au plus, et la règle est dans le bloc.
 

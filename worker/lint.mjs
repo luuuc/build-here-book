@@ -39,7 +39,7 @@ export const SIEGES = [
 // Des mesures et non des regles, alignees sur l'annexe 1 depuis le 12/09/2026.
 //
 // Mesure avec ce comptage, bloc « Depuis ton siege » exclu comme l'annexe le
-// demande, les 68 entrees vont de 307 a 596 mots, mediane 434, p90 517.
+// demande, les 88 cartes vont de 310 a 597 mots, mediane 448, p90 528.
 //
 // L'annexe ecrivait « 200 a 350 mots, jusqu'a 450 ». Ces chiffres couvraient 12 %
 // du livre et aucune entree n'etait sous 300 : un contributeur qui les suivait
@@ -158,7 +158,7 @@ function mots(corps) {
  * `nouvelle` distingue une contribution qui arrive d'une entree deja
  * integree. Les champs de sequence doivent valoir 999 dans le premier cas et
  * portent leur vrai numero dans le second : sans ce drapeau, le linter
- * signalerait les 68 entrees du livre pour un champ qui est correct.
+ * signalerait les 88 cartes du livre pour un champ qui est correct.
  */
 export function verifier({ filename = "", source = "", sections = [], nouvelle = false }) {
   const { data, corps } = frontMatter(source);
@@ -318,13 +318,13 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
   if (n > MOTS_SIGNAL) {
     mesure(
       `${n} mots hors bloc « Depuis ton siège ». L'annexe 1 donne 300 à 500, jusqu'à 550 pour une ` +
-        `carte qui porte un réflexe défendable. Les 68 cartes vont de 307 à 596, médiane 434. ` +
+        `carte qui porte un réflexe défendable. Les 88 cartes vont de 310 à 597, médiane 448. ` +
         `Au-delà, une carte est souvent deux cartes sous un seul titre.`
     );
   }
   if (n < MOTS_PLANCHER) {
     mesure(
-      `${n} mots hors bloc « Depuis ton siège ». La plus courte carte du livre en fait 307. ` +
+      `${n} mots hors bloc « Depuis ton siège ». La plus courte carte du livre en fait 310. ` +
         `Une carte trop courte est en général un principe sans situation : cherche le moment ` +
         `exact où le comportement apparaît.`
     );

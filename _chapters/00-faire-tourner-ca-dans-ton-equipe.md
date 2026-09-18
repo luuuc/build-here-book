@@ -53,23 +53,23 @@ La décision n'a pas besoin d'être ambitieuse.
 
 ---
 
-## Choisir la section
+## Choisir l'étape
 
-Une section, pas le livre. Prends celle qui correspond à ce qui vous agace ce trimestre et fais ses cartes dans l'ordre.
+Une étape, pas le livre. Prends celle qui correspond à ce qui vous agace ce trimestre et fais ses cartes dans l'ordre.
 
 → **Curiosité**, si les gens exécutent sans demander pourquoi.
 → **Produit**, si les sprints se terminent et que rien ne change pour personne.
 → **Exécution**, si tout arrive en retard et que personne ne sait où le temps est passé.
 → **Client**, si les décisions se prennent sur ce que quelqu'un a rapporté d'une réunion.
-→ **Laisser une trace**, si l'équipe est bonne et que personne à l'extérieur ne le sait.
+→ **La référence**, si l'équipe est bonne et que personne à l'extérieur ne le sait.
 
-Six semaines, puis vous arrêtez. Une section de plus au trimestre suivant si ça a servi. Un rituel qui dure toute l'année finit par être un point d'agenda que plus personne n'ose supprimer.
+Six semaines, puis vous arrêtez. Une étape de plus au trimestre suivant si ça a servi. Un rituel qui dure toute l'année finit par être un point d'agenda que plus personne n'ose supprimer.
 
 ---
 
 ## Selon ta place dans l'équipe
 
-**Tu as commencé l'an dernier.** Ne mène pas la séance. Prends la ligne d'un siège que tu ne comprends pas encore, et demande à celui qui l'occupe de raconter une fois où ça lui est arrivé. Tu apprendras plus dans sa réponse que dans les douze sections.
+**Tu as commencé l'an dernier.** Ne mène pas la séance. Prends la ligne d'un siège que tu ne comprends pas encore, et demande à celui qui l'occupe de raconter une fois où ça lui est arrivé. Tu apprendras plus dans sa réponse que dans les dix étapes.
 
 **Tu construis depuis six ans.** C'est toi qui mènes, et ton travail est de parler en dernier. La moitié de ce livre, tu la sais déjà, apprise sur un truc qui a cassé devant un client. Fais circuler la carte au lieu de refaire le discours pour la quarantième fois.
 

@@ -36,7 +36,7 @@ Rien ne distingue les cartes selon leur chemin d'arrivée, et la relecture est l
 
 Un fichier par carte, dans `_chapters/`.
 
-**Nom du fichier.** `SS-NN-titre-en-slug.md`, où `SS` est le numéro de section et `NN` la position dans la section. Exemple, `04-07-mon-titre.md`. Prends le numéro libre suivant dans ta section, je renumérote à la fin.
+**Nom du fichier.** `EE-NN-titre-en-slug.md`, où `EE` est le numéro d'étape et `NN` la position dans l'étape. Exemple, `04-07-mon-titre.md`. Prends le numéro libre suivant dans ton étape, je renumérote à la fin.
 
 **Front matter.** Copie celui de n'importe quelle carte existante et change ce qui te concerne.
 
@@ -46,7 +46,7 @@ layout: chapter
 title: "Le titre de la carte"
 author: "Ton nom"
 author_link: "https://là-où-tu-veux-qu-on-te-trouve"
-part: "Ownership"
+part: "L'ownership"
 order: 999
 metadata:
   principle: "999"

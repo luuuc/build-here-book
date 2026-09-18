@@ -3,7 +3,7 @@ layout: chapter
 title: "Le levier"
 description: "Je multiplie mon impact"
 show_chapter_number: false
-illustration: "distribution"
+illustration: "levier"
 step_number: 8
 part: "Le levier"
 order: 800
