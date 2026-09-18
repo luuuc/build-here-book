@@ -50,7 +50,7 @@ Seize titres. Il y en aurait soixante, ça ne prouverait rien de plus. Le plus a
 
 **2013. Rob Fitzpatrick, *The Mom Test*.** Comment parler à un client sans récolter la réponse polie qui ne sert à rien. Cent trente pages, et la règle centrale tient en une phrase. Ne parle jamais de ton idée.
 
-**2017. Marty Cagan, *Inspired*.** La différence entre une équipe à qui on donne des fonctionnalités à livrer et une équipe à qui on donne un problème à résoudre. Deux cartes de la section Produit sortent de cette distinction.
+**2017. Marty Cagan, *Inspired*.** La différence entre une équipe à qui on donne des fonctionnalités à livrer et une équipe à qui on donne un problème à résoudre. Deux cartes du livre sortent de cette distinction.
 
 **2018. Nicole Forsgren, Jez Humble, Gene Kim, *Accelerate*.** Quatre ans de recherche, plus de vingt mille réponses. Les équipes qui livrent le plus souvent sont aussi celles qui cassent le moins. Le débat vitesse contre qualité est tranché, avec des données.
 

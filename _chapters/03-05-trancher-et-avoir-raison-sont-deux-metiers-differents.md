@@ -4,6 +4,7 @@ title: "Trancher et avoir raison sont deux métiers différents"
 part: "L'autonomie"
 order: 305
 card_type: principe
+action_scope: "Portée : accord d'équipe"
 metadata:
   principle: "3.05"
   reading_time_in_minutes: 1
@@ -46,10 +47,10 @@ Si tu es celui qui tranche, parle en dernier. Ton avis exprimé en premier te co
 
 ## Depuis ton siège
 
-- **Engineer** : celui qui a lu le changelog détient l'argument, même s'il est arrivé il y a six semaines.
+- **Ingénierie** : celui qui a lu le changelog détient l'argument, même s'il est arrivé il y a six semaines.
 - **Design** : demande un temps pour discuter les écrans avant de trancher.
-- **Founder** : l'autorité de décision est à toi. L'autorité intellectuelle se déplace avec le sujet.
-- **Customer-facing** : ce que le client a dit est un fait. Rapporte-le avant qu'on tranche.
+- **Fondateur** : l'autorité de décision est à toi. L'autorité intellectuelle se déplace avec le sujet.
+- **Relation client** : ce que le client a dit est un fait. Rapporte-le avant qu'on tranche.
 - **Recrutement** : demande une fois où il a eu raison contre son responsable, et ce qui a suivi.
 
 ## À discuter

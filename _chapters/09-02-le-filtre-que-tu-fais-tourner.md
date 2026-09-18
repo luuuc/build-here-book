@@ -46,9 +46,9 @@ J'ai appliqué ce filtre pendant deux ans et pris son résultat pour un fait. Ce
 
 ## Depuis ton siège
 
-- **Engineer** : on te trouvera par une trace ou pas du tout. Le canal ne remonte pas les silencieux.
-- **Product** : ne prends pas ce que révèle ton filtre pour une vérité sur tous tes utilisateurs.
-- **Manager** : un recrutement raté a droit à sa conversation. Le candidat jamais remonté n'a droit à rien.
+- **Ingénierie** : on te trouvera par une trace ou pas du tout. Le canal ne remonte pas les silencieux.
+- **Produit** : ne prends pas ce que révèle ton filtre pour une vérité sur tous tes utilisateurs.
+- **Management** : un recrutement raté a droit à sa conversation. Le candidat jamais remonté n'a droit à rien.
 - **Recrutement** : écris mon canal ne m'a renvoyé personne, pas il n'y a personne. Ce n'est pas pareil.
 
 ## À discuter

@@ -46,10 +46,10 @@ Le coût du silence apparaît ailleurs, notamment dans les difficultés de recru
 
 ## Depuis ton siège
 
-- **Engineer** : personne n'a dit non, et personne n'a dit oui. Demande la frontière par écrit, une fois.
-- **Product** : publier un chiffre sans nom de client ne coûte rien. Le vide t'a fait croire le contraire.
-- **Founder** : tant que le premier texte de l'entreprise n'est pas signé de toi, la frontière est théorique.
-- **Customer-facing** : tu es le plus exposé au risque client, donc le premier à te taire. Demande les trois lignes.
+- **Ingénierie** : personne n'a dit non, et personne n'a dit oui. Demande la frontière par écrit, une fois.
+- **Produit** : publier un chiffre sans nom de client ne coûte rien. Le vide t'a fait croire le contraire.
+- **Fondateur** : tant que le premier texte de l'entreprise n'est pas signé de toi, la frontière est théorique.
+- **Relation client** : tu es le plus exposé au risque client, donc le premier à te taire. Demande les trois lignes.
 - **Recrutement** : une entreprise dont personne ne connaît les ingénieurs recrute par recommandation, et rien d'autre.
 
 ## À discuter

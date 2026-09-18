@@ -49,8 +49,8 @@ Marque chaque écart comme contrainte ou comme niveau. Ce sont deux listes diff�
 ## Depuis ton siège
 
 - **Design** : le bouton retour, le temps de démarrage, l'erreur qui dit quoi faire. De l'attention, pas du budget.
-- **Founder** : un produit calibré sur le niveau local y reste, sans que personne l'ait décidé.
-- **Customer-facing** : ta réponse est comparée à la meilleure que cette personne ait jamais reçue.
+- **Fondateur** : un produit calibré sur le niveau local y reste, sans que personne l'ait décidé.
+- **Relation client** : ta réponse est comparée à la meilleure que cette personne ait jamais reçue.
 - **Recrutement** : écris le niveau que tu cherches en choses faites, pas en suffisant pour ici.
 
 ## À discuter

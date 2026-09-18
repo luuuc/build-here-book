@@ -48,10 +48,10 @@ L'interruption est souvent justifiée, et c'est exactement ce qui la rend danger
 
 ## Depuis ton siège
 
-- **Engineer** : une insertion qui ne nomme pas ce qu'elle déplace n'est pas une décision, c'est une file.
-- **Product** : la direction doit soutenir ton refus devant l'équipe. Regarde les trois derniers cas.
-- **Manager** : dire non au fondateur risque un désaveu public. Dire oui ne coûte rien. Change ce calcul.
-- **Customer-facing** : le client qui insiste le plus fort n'est pas le plus représentatif. Donne le nombre.
+- **Ingénierie** : une insertion qui ne nomme pas ce qu'elle déplace n'est pas une décision, c'est une file.
+- **Produit** : la direction doit soutenir ton refus devant l'équipe. Regarde les trois derniers cas.
+- **Management** : dire non au fondateur risque un désaveu public. Dire oui ne coûte rien. Change ce calcul.
+- **Relation client** : le client qui insiste le plus fort n'est pas le plus représentatif. Donne le nombre.
 - **Recrutement** : demande combien de fois le candidat a été désavoué après un refus, et ce qu'il en a fait.
 
 ## À discuter

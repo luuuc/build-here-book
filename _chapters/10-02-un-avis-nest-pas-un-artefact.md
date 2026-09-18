@@ -48,10 +48,10 @@ S'il n'y en a aucune, tu as publié un avis. Ce n'est pas grave, mais ce n'est p
 
 ## Depuis ton siège
 
-- **Engineer** : dix lignes de code, une version, une commande. Une seule chose vérifiable suffit.
+- **Ingénierie** : dix lignes de code, une version, une commande. Une seule chose vérifiable suffit.
 - **Design** : publie l'écran avec le taux avant et après. Sans le chiffre, c'est une capture d'écran.
-- **Founder** : sur un avis, tu es en concurrence avec tout le monde. Sur ce que tu as fait, vous êtes douze.
-- **Customer-facing** : publie les proportions de tes motifs de contact sur un an, avec ton analyse.
+- **Fondateur** : sur un avis, tu es en concurrence avec tout le monde. Sur ce que tu as fait, vous êtes douze.
+- **Relation client** : publie les proportions de tes motifs de contact sur un an, avec ton analyse.
 - **Recrutement** : cherche une trace où un inconnu peut vérifier une chose, pas un fil d'opinions.
 
 ## À discuter

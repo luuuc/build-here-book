@@ -36,7 +36,7 @@ Alors on apprend le soir. Et tout le monde n'a pas ses soirées libres. L'ingén
 
 Pas besoin d'un budget supplémentaire pour commencer. Quatre heures par mois, c'est deux pour cent du travail que tu paies déjà. Tu as dépensé plus que ça le trimestre dernier sur une migration que personne n'avait demandée.
 
-Laisse l'apprentissage en dehors du temps de travail et la première carte de cette section revient par la porte de derrière. Une équipe où seuls ceux qui ont des soirées libres continuent de progresser converge vers la moyenne de tous les autres.
+Laisse l'apprentissage en dehors du temps de travail et la première carte de cette étape revient par la porte de derrière. Une équipe où seuls ceux qui ont des soirées libres continuent de progresser converge vers la moyenne de tous les autres.
 
 ## La décision
 
@@ -46,10 +46,10 @@ Laisse l'apprentissage en dehors du temps de travail et la première carte de ce
 
 ## Depuis ton siège
 
-- **Engineer** : si ta progression se fait après vingt heures, dis-le. C'est une information sur le plan.
-- **Product** : l'apprentissage n'a pas de numéro de ticket, donc il n'entre dans aucun sprint.
-- **Founder** : quatre heures par mois, c'est deux pour cent du travail que tu paies déjà.
-- **Customer-facing** : le support apprend le produit en continu, et personne ne compte ces heures-là.
+- **Ingénierie** : si ta progression se fait après vingt heures, dis-le. C'est une information sur le plan.
+- **Produit** : l'apprentissage n'a pas de numéro de ticket, donc il n'entre dans aucun sprint.
+- **Fondateur** : quatre heures par mois, c'est deux pour cent du travail que tu paies déjà.
+- **Relation client** : le support apprend le produit en continu, et personne ne compte ces heures-là.
 - **Recrutement** : à la revue de mi-année, tu mesures qui a ses soirées libres. Tu appelles ça l'ambition.
 
 ## À discuter

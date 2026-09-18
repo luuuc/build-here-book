@@ -46,12 +46,14 @@ Puis supprime une de ces choses cette semaine. Pour de bon, pas derrière un fla
 
 ## Depuis ton siège
 
-- **Product** : une fonctionnalité retirée est un arbitrage. Même revue qu'un lancement.
+- **Produit** : une fonctionnalité retirée est un arbitrage. Même revue qu'un lancement.
 - **Design** : un écran qu'on supprime vaut souvent mieux qu'un écran qu'on clarifie.
-- **Founder** : demande ce que la version compliquée permettait. La réponse sépare le simple de l'inachevé.
-- **Customer-facing** : les cas abandonnés reviennent avec des noms de clients dessus, et par toi.
+- **Fondateur** : demande ce que la version compliquée permettait. La réponse sépare le simple de l'inachevé.
+- **Relation client** : les cas abandonnés reviennent avec des noms de clients dessus, et par toi.
 - **Recrutement** : demande ce que le candidat a supprimé, pas ce qu'il a construit. Peu ont la réponse.
 
 ## À discuter
+
+*À vérifier ailleurs :* *Simple Made Easy*, de Rich Hickey, distingue la simplicité mesurable de la facilité immédiate. La référence complète est dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
 
 Quelle suppression a été applaudie ici ?

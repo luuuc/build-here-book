@@ -44,11 +44,11 @@ Relis-le à la fin. Tu ne cherches pas la plus longue, tu cherches la plus fréq
 
 ## Depuis ton siège
 
-- **Product** : la même demande reformulée par quatre clients est un problème, pas quatre tickets.
+- **Produit** : la même demande reformulée par quatre clients est un problème, pas quatre tickets.
 - **Design** : un écran que tu redessines à chaque projet demande un composant, pas une maquette.
-- **Founder** : la décision que tu reprends chaque mois demande un principe écrit une fois.
-- **Manager** : la question qui revient à chaque arrivée dit ce qui manque à ton onboarding.
-- **Customer-facing** : compte les réponses, pas les tickets. La même phrase copiée dix fois est un signal.
+- **Fondateur** : la décision que tu reprends chaque mois demande un principe écrit une fois.
+- **Management** : la question qui revient à chaque arrivée dit ce qui manque à ton onboarding.
+- **Relation client** : compte les réponses, pas les tickets. La même phrase copiée dix fois est un signal.
 
 ## À discuter
 

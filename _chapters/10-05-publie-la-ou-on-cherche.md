@@ -36,7 +36,7 @@ Le titre doit donc contenir les mots du problème et pas les mots de ta conclusi
 
 L'endroit compte autant que le titre, et c'est là que la plupart des traces meurent. Une réponse posée sous la question qui l'a provoquée, un ticket dans le tracker de la dépendance concernée, un dépôt public, un texte à une adresse qui t'appartient. Ces endroits sont indexés, ils sont permanents, et personne ne décide à ta place qui les voit. Une plateforme sociale fait l'inverse des trois. Elle te donne une audience aujourd'hui et efface la chose dans quarante-huit heures.
 
-Ce qui ne veut pas dire qu'il faut ignorer l'endroit où les gens sont déjà. C'est une question d'ordre. Publie d'abord le texte à une adresse durable, puis annonce-le là où on te lit. L'annonce est jetable et c'est normal. Le texte vers lequel elle renvoie doit rester accessible. La même logique s'applique aux produits, et la section Distribution la traite à cette échelle. Ici c'est toi le produit qu'on ne trouve pas, et le chemin se conçoit de la même façon.
+Ce qui ne veut pas dire qu'il faut ignorer l'endroit où les gens sont déjà. C'est une question d'ordre. Publie d'abord le texte à une adresse durable, puis annonce-le là où on te lit. L'annonce est jetable et c'est normal. Le texte vers lequel elle renvoie doit rester accessible. La même logique s'applique aux produits, et l'étape *La compréhension* la traite à cette échelle. Ici c'est toi le produit qu'on ne trouve pas, et le chemin se conçoit de la même façon.
 
 ## À essayer
 
@@ -46,11 +46,11 @@ Regarde où tu arrives. Si tu n'es pas dans les deux premières pages, le titre 
 
 ## Depuis ton siège
 
-- **Engineer** : le titre porte le message d'erreur exact, pas ta conclusion sur la résilience.
-- **Product** : publie d'abord à une adresse durable, annonce-la ensuite. L'annonce est jetable, pas la trace.
-- **Founder** : un endroit qui t'appartient, indexé, permanent. Personne n'y décide à ta place qui te voit.
-- **Manager** : un wiki interne est lu par les quatre personnes qui étaient déjà au courant.
-- **Customer-facing** : tu connais les mots exacts que les gens tapent. Donne-les à celui qui écrit le titre.
+- **Ingénierie** : le titre porte le message d'erreur exact, pas ta conclusion sur la résilience.
+- **Produit** : publie d'abord à une adresse durable, annonce-la ensuite. L'annonce est jetable, pas la trace.
+- **Fondateur** : un endroit qui t'appartient, indexé, permanent. Personne n'y décide à ta place qui te voit.
+- **Management** : un wiki interne est lu par les quatre personnes qui étaient déjà au courant.
+- **Relation client** : tu connais les mots exacts que les gens tapent. Donne-les à celui qui écrit le titre.
 
 ## À discuter
 

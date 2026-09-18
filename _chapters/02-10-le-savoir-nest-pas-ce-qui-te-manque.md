@@ -52,10 +52,10 @@ Si la première te paraît courte, l'annexe 3 la raccourcit encore.
 
 ## Depuis ton siège
 
-- **Engineer** : les postmortems des systèmes que tu n'auras jamais à exploiter sont publiés avec les horodatages.
-- **Product** : ce que tu appelles un manque de données est souvent un client que tu n'as pas appelé.
+- **Ingénierie** : les postmortems des systèmes que tu n'auras jamais à exploiter sont publiés avec les horodatages.
+- **Produit** : ce que tu appelles un manque de données est souvent un client que tu n'as pas appelé.
 - **Design** : des systèmes de design entiers sont publics, avec la raison derrière chaque règle.
-- **Manager** : prévois un budget de connexion. Ce qu'on croit inaccessible, on n'essaie plus de l'obtenir.
+- **Management** : prévois un budget de connexion. Ce qu'on croit inaccessible, on n'essaie plus de l'obtenir.
 - **Recrutement** : quelqu'un sans diplôme connu a pu lire exactement les mêmes choses que les autres.
 
 ## À discuter

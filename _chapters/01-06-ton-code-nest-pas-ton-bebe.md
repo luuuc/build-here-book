@@ -50,10 +50,10 @@ Puis une règle quand les commentaires arrivent. Ne réponds à aucun avant d'av
 
 ## Depuis ton siège
 
-- **Product** : quand on critique ta spec, demande ce qui casse chez le client, pas qui a écrit la ligne.
+- **Produit** : quand on critique ta spec, demande ce qui casse chez le client, pas qui a écrit la ligne.
 - **Design** : si les retours sur tes maquettes sont tous polis, les critiques ont peut-être été découragées.
-- **Manager** : compare un thread de revue d'il y a un an et un du mois dernier. Compte les commentaires.
-- **Customer-facing** : le client qui démonte le produit ne te démonte pas. Rapporte-le mot pour mot.
+- **Management** : compare un thread de revue d'il y a un an et un du mois dernier. Compte les commentaires.
+- **Relation client** : le client qui démonte le produit ne te démonte pas. Rapporte-le mot pour mot.
 - **Recrutement** : demande la dernière fois qu'on a démonté son travail, et ce qu'il a fait ensuite.
 
 ## À discuter

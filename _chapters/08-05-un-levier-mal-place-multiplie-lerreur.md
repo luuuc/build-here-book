@@ -2,10 +2,10 @@
 layout: chapter
 title: "Un levier mal placé multiplie l'erreur"
 part: "Le levier"
-order: 805
+order: 804
 card_type: diagnostic
 metadata:
-  principle: "8.05"
+  principle: "8.04"
   reading_time_in_minutes: 2
 categories:
   - levier
@@ -44,11 +44,11 @@ Puis, une fois en place, garde un rendez-vous court pour regarder un échantillo
 
 ## Depuis ton siège
 
-- **Product** : une règle automatique est une décision prise une fois et appliquée sans discussion.
-- **Engineer** : l'alerte qui compte n'est pas que ça a tourné, c'est que le résultat est plausible.
-- **Founder** : demande ce qui se passe quand c'est faux, et combien de fois avant qu'on le voie.
-- **Manager** : une automatisation sans échantillon relu régulièrement finit par dériver en silence.
-- **Customer-facing** : tu vois les dégâts en premier. Un canal direct vers celui qui a posé la règle.
+- **Produit** : une règle automatique est une décision prise une fois et appliquée sans discussion.
+- **Ingénierie** : l'alerte qui compte n'est pas que ça a tourné, c'est que le résultat est plausible.
+- **Fondateur** : demande ce qui se passe quand c'est faux, et combien de fois avant qu'on le voie.
+- **Management** : une automatisation sans échantillon relu régulièrement finit par dériver en silence.
+- **Relation client** : tu vois les dégâts en premier. Un canal direct vers celui qui a posé la règle.
 
 ## À discuter
 

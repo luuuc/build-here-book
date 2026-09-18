@@ -47,10 +47,10 @@ Une spec sans hypothèse qu'on puisse vérifier est une liste de souhaits avec u
 
 ## Depuis ton siège
 
-- **Engineer** : une erreur trouvée dans le document à la troisième semaine est le premier signe utile du chantier.
-- **Founder** : valider n'ajoute pas de connaissance, ça ajoute de l'engagement. Sache ce que tu achètes.
-- **Manager** : si contredire une spec validée coûte quelque chose, on divergera en silence jusqu'à la démo.
-- **Customer-facing** : le premier utilisateur qui bute contredit le document. Rapporte-le avant la démo.
+- **Ingénierie** : une erreur trouvée dans le document à la troisième semaine est le premier signe utile du chantier.
+- **Fondateur** : valider n'ajoute pas de connaissance, ça ajoute de l'engagement. Sache ce que tu achètes.
+- **Management** : si contredire une spec validée coûte quelque chose, on divergera en silence jusqu'à la démo.
+- **Relation client** : le premier utilisateur qui bute contredit le document. Rapporte-le avant la démo.
 - **Recrutement** : demande une spec que le candidat a fait changer avant le code, et comment.
 
 ## À discuter

@@ -4,6 +4,7 @@ title: "Tout ne mérite pas de devenir un processus"
 part: "Les systèmes"
 order: 704
 card_type: principe
+action_scope: "Portée : accord d'équipe"
 metadata:
   principle: "7.04"
   reading_time_in_minutes: 2
@@ -44,10 +45,10 @@ Puis, si la règle passe quand même, fais écrire à côté la raison et une da
 
 ## Depuis ton siège
 
-- **Engineer** : une étape de validation ajoutée après un incident reste dix ans. Écris pourquoi.
-- **Product** : un champ obligatoire de plus est une règle, même si ça ne s'appelle pas comme ça.
-- **Founder** : tu peux créer une règle en une phrase. La retirer prendra une réunion et six mois.
-- **Manager** : la règle rassure celui qui la crée et ralentit ceux qui ne sauront jamais pourquoi.
+- **Ingénierie** : une étape de validation ajoutée après un incident reste dix ans. Écris pourquoi.
+- **Produit** : un champ obligatoire de plus est une règle, même si ça ne s'appelle pas comme ça.
+- **Fondateur** : tu peux créer une règle en une phrase. La retirer prendra une réunion et six mois.
+- **Management** : la règle rassure celui qui la crée et ralentit ceux qui ne sauront jamais pourquoi.
 - **Recrutement** : une étape ajoutée au processus après un mauvais recrutement filtre rarement la même chose.
 
 ## À discuter

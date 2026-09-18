@@ -48,10 +48,10 @@ Une réponse en trois semaines est un non avec de meilleures manières. Dis plut
 
 ## Depuis ton siège
 
-- **Engineer** : une question d'avril restée sans réponse est une donnée. Note la date et redemande.
-- **Product** : le pourquoi que tu ne mets pas dans le ticket sera inventé par celui qui l'exécute.
-- **Founder** : une réponse en trois semaines est un non avec de meilleures manières.
-- **Customer-facing** : tu détiens le pourquoi sous sa forme brute. Colle la phrase du client au ticket.
+- **Ingénierie** : une question d'avril restée sans réponse est une donnée. Note la date et redemande.
+- **Produit** : le pourquoi que tu ne mets pas dans le ticket sera inventé par celui qui l'exécute.
+- **Fondateur** : une réponse en trois semaines est un non avec de meilleures manières.
+- **Relation client** : tu détiens le pourquoi sous sa forme brute. Colle la phrase du client au ticket.
 - **Recrutement** : inutile de recruter des gens curieux si ton équipe les décourage en six semaines.
 
 ## À discuter

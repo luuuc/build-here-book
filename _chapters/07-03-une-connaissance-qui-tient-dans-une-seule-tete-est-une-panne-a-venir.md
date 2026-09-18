@@ -44,11 +44,11 @@ Quatre lignes suffisent. Ce n'est pas de la documentation, c'est une réponse qu
 
 ## Depuis ton siège
 
-- **Engineer** : le script que toi seul sais lancer est un incident qui attend la bonne semaine.
-- **Product** : l'historique des décisions vit dans ta tête. Un nouveau va reproposer ce qui a été refusé.
-- **Founder** : ce que seul toi comprends fixe la taille maximale de l'entreprise.
-- **Manager** : remercie la page, pas la réponse, ou tu continueras à recevoir des réponses.
-- **Customer-facing** : la réponse que tu retapes chaque semaine appartient déjà à l'aide en ligne.
+- **Ingénierie** : le script que toi seul sais lancer est un incident qui attend la bonne semaine.
+- **Produit** : l'historique des décisions vit dans ta tête. Un nouveau va reproposer ce qui a été refusé.
+- **Fondateur** : ce que seul toi comprends fixe la taille maximale de l'entreprise.
+- **Management** : remercie la page, pas la réponse, ou tu continueras à recevoir des réponses.
+- **Relation client** : la réponse que tu retapes chaque semaine appartient déjà à l'aide en ligne.
 
 ## À discuter
 

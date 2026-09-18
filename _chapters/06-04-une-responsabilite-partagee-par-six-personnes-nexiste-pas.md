@@ -2,10 +2,11 @@
 layout: chapter
 title: "Une responsabilité partagée par six personnes n'existe pas"
 part: "L'ownership"
-order: 604
+order: 603
 card_type: diagnostic
+action_scope: "Portée : accord d'équipe"
 metadata:
-  principle: "6.04"
+  principle: "6.03"
   reading_time_in_minutes: 2
 categories:
   - ownership
@@ -46,11 +47,11 @@ Si un nom ne vient pas pour l'un des trois, tu viens d'apprendre pourquoi il n'a
 
 ## Depuis ton siège
 
-- **Engineer** : un service que personne ne nomme est un service que personne ne met à jour.
-- **Product** : un sujet sans nom revient à chaque priorisation et repart à chaque fois entier.
-- **Founder** : tu es le propriétaire par défaut de tout ce que tu n'as attribué à personne.
-- **Manager** : écrire un nom ne coûte rien là où un mauvais résultat ne coûte pas de statut.
-- **Customer-facing** : quand personne ne répond du sujet, c'est toi qui réponds au client à sa place.
+- **Ingénierie** : un service que personne ne nomme est un service que personne ne met à jour.
+- **Produit** : un sujet sans nom revient à chaque priorisation et repart à chaque fois entier.
+- **Fondateur** : tu es le propriétaire par défaut de tout ce que tu n'as attribué à personne.
+- **Management** : écrire un nom ne coûte rien là où un mauvais résultat ne coûte pas de statut.
+- **Relation client** : quand personne ne répond du sujet, c'est toi qui réponds au client à sa place.
 
 ## À discuter
 

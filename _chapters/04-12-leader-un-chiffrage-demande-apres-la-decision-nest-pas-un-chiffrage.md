@@ -46,10 +46,10 @@ Ici, les décisions ne se prennent pas toujours en réunion. C'est un appel, un 
 
 ## Depuis ton siège
 
-- **Engineer** : réponds en dates et en argent, sans un nom d'outil. C'est ça le livrable attendu.
+- **Ingénierie** : réponds en dates et en argent, sans un nom d'outil. C'est ça le livrable attendu.
 - **Design** : on te montre la décision, pas le problème. Demande l'option la moins chère avant de dessiner.
-- **Manager** : compte les engagements du trimestre chiffrés avant d'être annoncés. Zéro veut dire ratification.
-- **Customer-facing** : la salle est parfois un dîner. Ce que tu n'y emportes pas n'y entrera pas.
+- **Management** : compte les engagements du trimestre chiffrés avant d'être annoncés. Zéro veut dire ratification.
+- **Relation client** : la salle est parfois un dîner. Ce que tu n'y emportes pas n'y entrera pas.
 - **Recrutement** : tu cherches quelqu'un qui parle en dates et en argent. Ça s'apprend en trois réunions.
 
 ## À discuter

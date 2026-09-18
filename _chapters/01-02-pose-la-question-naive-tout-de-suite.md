@@ -50,10 +50,10 @@ Regarde combien de têtes se tournent vers celui qui répond.
 
 ## Depuis ton siège
 
-- **Product** : quand deux tableaux se contredisent, cherche d'abord si un mot désigne deux choses.
-- **Founder** : si tu oses poser la question, les plus jeunes oseront aussi.
-- **Manager** : si c'est toujours le même junior qui demande, les autres ont appris à se taire.
-- **Customer-facing** : écris le mot du client et le mot interne côte à côte. L'écart est un bug.
+- **Produit** : quand deux tableaux se contredisent, cherche d'abord si un mot désigne deux choses.
+- **Fondateur** : si tu oses poser la question, les plus jeunes oseront aussi.
+- **Management** : si c'est toujours le même junior qui demande, les autres ont appris à se taire.
+- **Relation client** : écris le mot du client et le mot interne côte à côte. L'écart est un bug.
 - **Recrutement** : un candidat qui dit ne pas connaître un terme vient de te montrer quelque chose.
 
 ## À discuter

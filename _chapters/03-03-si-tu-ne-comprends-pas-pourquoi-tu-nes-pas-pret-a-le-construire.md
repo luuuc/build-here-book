@@ -50,11 +50,11 @@ Tu n'arrives pas à la remplir ? Propose volontairement une réponse fausse et 
 
 ## Depuis ton siège
 
-- **Product** : ne fais pas suivre une demande dont tu n'as pas cherché la cause.
+- **Produit** : ne fais pas suivre une demande dont tu n'as pas cherché la cause.
 - **Design** : ne dessine pas un écran sans savoir ce que la personne essaie d'accomplir.
-- **Founder** : ne finance pas un projet dont tu ne sais pas énoncer le problème client.
-- **Manager** : explique l'objectif avant de demander de passer à l'action.
-- **Customer-facing** : ne réponds pas à une demande sans savoir ce que la personne tentait de faire.
+- **Fondateur** : ne finance pas un projet dont tu ne sais pas énoncer le problème client.
+- **Management** : explique l'objectif avant de demander de passer à l'action.
+- **Relation client** : ne réponds pas à une demande sans savoir ce que la personne tentait de faire.
 - **Recrutement** : n'ouvre pas un poste dont tu ne sais pas énoncer le problème à résoudre.
 
 ## À discuter

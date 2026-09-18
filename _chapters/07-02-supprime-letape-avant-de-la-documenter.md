@@ -4,6 +4,7 @@ title: "Supprime l'étape avant de la documenter"
 part: "Les systèmes"
 order: 702
 card_type: pratique
+action_scope: "Portée : équipe ou direction"
 metadata:
   principle: "7.02"
   reading_time_in_minutes: 2
@@ -46,11 +47,11 @@ Si personne ne le sait, tu as ta réponse.
 
 ## Depuis ton siège
 
-- **Engineer** : une étape manuelle documentée survit dix ans. Supprimée, elle ne revient pas.
-- **Product** : un champ obligatoire que tout le monde remplit au hasard est du bruit, pas une donnée.
-- **Founder** : compte les validations qui passent par toi. Chacune a eu une raison en son temps.
-- **Manager** : une équipe n'a jamais retiré une étape que tu as remerciée quelqu'un d'avoir écrite.
-- **Customer-facing** : l'étape que tu expliques dix fois par semaine au client est une étape à supprimer.
+- **Ingénierie** : une étape manuelle documentée survit dix ans. Supprimée, elle ne revient pas.
+- **Produit** : un champ obligatoire que tout le monde remplit au hasard est du bruit, pas une donnée.
+- **Fondateur** : compte les validations qui passent par toi. Chacune a eu une raison en son temps.
+- **Management** : une équipe n'a jamais retiré une étape que tu as remerciée quelqu'un d'avoir écrite.
+- **Relation client** : l'étape que tu expliques dix fois par semaine au client est une étape à supprimer.
 
 ## À discuter
 

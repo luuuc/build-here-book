@@ -4,6 +4,7 @@ title: "Livrer permet d'apprendre"
 part: "La livraison"
 order: 501
 card_type: principe
+action_scope: "Portée : accord d'équipe"
 metadata:
   principle: "5.01"
   reading_time_in_minutes: 2
@@ -45,11 +46,13 @@ Suis un seul changement de bout en bout et note chaque endroit où il a attendu.
 ## Depuis ton siège
 
 - **Design** : aucune réunion ne dit si les gens trouvent le bouton. Une mise en production, si.
-- **Founder** : trois mois de travail dans une release, c'est trois mois de suspects quand ça casse.
-- **Manager** : l'attente n'est presque jamais un build. C'est un agenda, et souvent le tien.
-- **Customer-facing** : tu sais en premier si nos mots veulent dire pour eux ce qu'ils voulaient dire pour nous.
+- **Fondateur** : trois mois de travail dans une release, c'est trois mois de suspects quand ça casse.
+- **Management** : l'attente n'est presque jamais un build. C'est un agenda, et souvent le tien.
+- **Relation client** : tu sais en premier si nos mots veulent dire pour eux ce qu'ils voulaient dire pour nous.
 - **Recrutement** : demande la fréquence de livraison chez le candidat, puis ce qu'il en a appris.
 
 ## À discuter
+
+*À vérifier ailleurs :* *Accelerate*, de Nicole Forsgren, Jez Humble et Gene Kim, relie fréquence de livraison, stabilité et performance à partir de quatre années de recherche. La référence complète est dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
 
 Ici, combien de temps entre le travail prêt à être vu et la personne servie ?

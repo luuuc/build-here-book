@@ -2,10 +2,10 @@
 layout: chapter
 title: "Reviens voir un mois plus tard"
 part: "L'ownership"
-order: 603
+order: 602
 card_type: pratique
 metadata:
-  principle: "6.03"
+  principle: "6.02"
   reading_time_in_minutes: 2
 categories:
   - ownership
@@ -46,11 +46,11 @@ Pas « voir si le tableau de bord va bien ». Plutôt « combien de personnes l'
 
 ## Depuis ton siège
 
-- **Engineer** : la donnée d'usage existe déjà quelque part. Regarde-la une fois, un mois après.
-- **Product** : ce que tu ne revérifies pas devient la base de ta prochaine feuille de route.
-- **Founder** : demande ce qu'est devenue une chose livrée il y a six mois. La réponse dit tout.
-- **Manager** : une équipe qui ne revient jamais en arrière accumule des croyances, pas du savoir.
-- **Customer-facing** : tu vois en premier ce que personne n'utilise. Écris-le à ceux qui l'ont construit.
+- **Ingénierie** : la donnée d'usage existe déjà quelque part. Regarde-la une fois, un mois après.
+- **Produit** : ce que tu ne revérifies pas devient la base de ta prochaine feuille de route.
+- **Fondateur** : demande ce qu'est devenue une chose livrée il y a six mois. La réponse dit tout.
+- **Management** : une équipe qui ne revient jamais en arrière accumule des croyances, pas du savoir.
+- **Relation client** : tu vois en premier ce que personne n'utilise. Écris-le à ceux qui l'ont construit.
 
 ## À discuter
 

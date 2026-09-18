@@ -44,11 +44,11 @@ Deux titres chacune. Lis-en un.
 
 ## Depuis ton siège
 
-- **Engineer** : tu lis déjà. Regarde plutôt la littérature du métier de la personne à côté de toi.
-- **Product** : la moitié de ce que ton équipe débat chaque trimestre a été tranchée et publiée.
-- **Founder** : ce que tu improvises en finance et en recrutement est documenté depuis quarante ans.
-- **Manager** : personne ne lira sur son métier si ce temps n'existe nulle part dans la semaine.
-- **Customer-facing** : le traitement des demandes entrantes est un domaine étudié, pas une question de bon sens.
+- **Ingénierie** : tu lis déjà. Regarde plutôt la littérature du métier de la personne à côté de toi.
+- **Produit** : la moitié de ce que ton équipe débat chaque trimestre a été tranchée et publiée.
+- **Fondateur** : ce que tu improvises en finance et en recrutement est documenté depuis quarante ans.
+- **Management** : personne ne lira sur son métier si ce temps n'existe nulle part dans la semaine.
+- **Relation client** : le traitement des demandes entrantes est un domaine étudié, pas une question de bon sens.
 
 ## À discuter
 

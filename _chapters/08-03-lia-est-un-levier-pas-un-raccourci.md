@@ -2,10 +2,10 @@
 layout: chapter
 title: "L'IA est un levier, pas un raccourci"
 part: "Le levier"
-order: 803
+order: 802
 card_type: pratique
 metadata:
-  principle: "8.03"
+  principle: "8.02"
   reading_time_in_minutes: 3
 categories:
   - levier
@@ -44,11 +44,11 @@ Commence par celle-là, pas par la plus impressionnante. Garde la vérification,
 
 ## Depuis ton siège
 
-- **Product** : fais-toi résumer cent verbatims, puis va lire dix originaux pour vérifier le résumé.
+- **Produit** : fais-toi résumer cent verbatims, puis va lire dix originaux pour vérifier le résumé.
 - **Design** : accélère l'exploration, pas la décision. Vingt pistes ne remplacent pas un utilisateur.
-- **Founder** : demande sur quoi c'est vérifiable avant de demander combien de temps c'est gagné.
-- **Manager** : interdire sans alternative pousse l'usage hors de vue, sans le faire disparaître.
-- **Customer-facing** : un brouillon assisté relu vaut mieux qu'une réponse envoyée sans lecture.
+- **Fondateur** : demande sur quoi c'est vérifiable avant de demander combien de temps c'est gagné.
+- **Management** : interdire sans alternative pousse l'usage hors de vue, sans le faire disparaître.
+- **Relation client** : un brouillon assisté relu vaut mieux qu'une réponse envoyée sans lecture.
 
 ## À discuter
 

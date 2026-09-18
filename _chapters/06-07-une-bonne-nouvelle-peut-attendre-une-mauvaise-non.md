@@ -2,10 +2,10 @@
 layout: chapter
 title: "Une bonne nouvelle peut attendre. Une mauvaise, non"
 part: "L'ownership"
-order: 607
+order: 606
 card_type: principe
 metadata:
-  principle: "6.07"
+  principle: "6.06"
   reading_time_in_minutes: 1
 categories:
   - ownership
@@ -44,10 +44,10 @@ Quand tu sais qu'une échéance ne tiendra pas, vingt-quatre heures maximum avan
 
 ## Depuis ton siège
 
-- **Product** : une hypothèse qui s'effondre est une mauvaise nouvelle. Elle pourrit comme les autres.
-- **Founder** : ce que tu apprends en dernier, tu l'apprends au prix fort. Regarde d'où vient le délai.
-- **Manager** : tes dix premières secondes sur une alerte précoce décident si tu en auras d'autres.
-- **Customer-facing** : une date repoussée qu'on annonce bat toujours une date ratée en silence.
+- **Produit** : une hypothèse qui s'effondre est une mauvaise nouvelle. Elle pourrit comme les autres.
+- **Fondateur** : ce que tu apprends en dernier, tu l'apprends au prix fort. Regarde d'où vient le délai.
+- **Management** : tes dix premières secondes sur une alerte précoce décident si tu en auras d'autres.
+- **Relation client** : une date repoussée qu'on annonce bat toujours une date ratée en silence.
 - **Recrutement** : demande la dernière mauvaise nouvelle que le candidat a annoncée, et en combien de temps.
 
 ## À discuter

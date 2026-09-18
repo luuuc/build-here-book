@@ -50,11 +50,11 @@ Demande l'ordre du jour deux jours à l'avance. Réponds à un point en parlant 
 
 ## Depuis ton siège
 
-- **Product** : l'option jamais posée sur la table n'a droit à aucun post mortem, et elles sont nombreuses.
+- **Produit** : l'option jamais posée sur la table n'a droit à aucun post mortem, et elles sont nombreuses.
 - **Design** : ce que le système sait faire décide des écrans possibles. Lis le vote avant de dessiner.
-- **Founder** : une colonne choisie il y a deux ans pèse sur toutes tes discussions de tarifs.
-- **Manager** : une contrainte seule sonne comme un non. À côté d'une option moins chère, c'est une décision.
-- **Customer-facing** : ce que tu promets en rendez-vous a un prix que quelqu'un connaît déjà. Demande-le.
+- **Fondateur** : une colonne choisie il y a deux ans pèse sur toutes tes discussions de tarifs.
+- **Management** : une contrainte seule sonne comme un non. À côté d'une option moins chère, c'est une décision.
+- **Relation client** : ce que tu promets en rendez-vous a un prix que quelqu'un connaît déjà. Demande-le.
 
 ## À discuter
 

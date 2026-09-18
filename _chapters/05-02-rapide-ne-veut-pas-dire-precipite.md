@@ -49,9 +49,9 @@ Quand une échéance paraît impossible, ne discute pas l'échéance. Discute le
 ## Depuis ton siège
 
 - **Design** : réduis le nombre d'écrans. Garde le même soin pour ceux que tu livres.
-- **Founder** : une dette prise exprès est un emprunt. Prise en silence, c'est une fuite. Écris le nom et la date.
-- **Manager** : la lenteur au nom de la qualité cache souvent une décision que personne n'a prise.
-- **Customer-facing** : annonce ce qui saute avant la date. Le client arbitre mieux qu'on ne le croit.
+- **Fondateur** : une dette prise exprès est un emprunt. Prise en silence, c'est une fuite. Écris le nom et la date.
+- **Management** : la lenteur au nom de la qualité cache souvent une décision que personne n'a prise.
+- **Relation client** : annonce ce qui saute avant la date. Le client arbitre mieux qu'on ne le croit.
 - **Recrutement** : demande un raccourci que le candidat a pris exprès, et ce qu'il a écrit à côté.
 
 ## À discuter

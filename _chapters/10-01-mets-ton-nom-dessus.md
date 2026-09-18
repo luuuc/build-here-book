@@ -50,11 +50,11 @@ Publie-le là où quelqu'un qui rencontre le même problème le trouvera. Puis e
 
 ## Depuis ton siège
 
-- **Product** : une chose que vous avez décidé de ne pas faire, et pourquoi.
+- **Produit** : une chose que vous avez décidé de ne pas faire, et pourquoi.
 - **Design** : les écrans que tu as jetés, et la raison. C'est le raisonnement qui se réutilise.
-- **Founder** : ton équipe ne publiera pas si tu ne l'as jamais fait.
-- **Manager** : dis à voix haute ce qui est publiable, ou ton silence vaut interdiction.
-- **Customer-facing** : la réponse que tu as écrite trois fois à trois clients est un texte public.
+- **Fondateur** : ton équipe ne publiera pas si tu ne l'as jamais fait.
+- **Management** : dis à voix haute ce qui est publiable, ou ton silence vaut interdiction.
+- **Relation client** : la réponse que tu as écrite trois fois à trois clients est un texte public.
 - **Recrutement** : pas de trace en ligne ne veut pas dire pas de niveau. Cherche l'artefact, pas la notoriété.
 
 ## À discuter

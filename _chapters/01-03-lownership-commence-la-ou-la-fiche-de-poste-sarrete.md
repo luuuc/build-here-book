@@ -4,6 +4,7 @@ title: "L'ownership commence là où la fiche de poste s'arrête"
 part: "L'état d'esprit"
 order: 103
 card_type: principe
+action_scope: "Portée : individu ou sponsor"
 metadata:
   principle: "1.03"
   reading_time_in_minutes: 2
@@ -46,10 +47,10 @@ Choisis un petit problème que les gens contournent depuis des mois. Répare-le,
 
 ## Depuis ton siège
 
-- **Product** : le problème orphelin le plus cher est celui que le support explique quinze fois par semaine.
+- **Produit** : le problème orphelin le plus cher est celui que le support explique quinze fois par semaine.
 - **Design** : l'écran dont personne ne s'occupe est celui que tout le monde contourne. Prends-le.
-- **Manager** : une fiche de poste est un plancher. Dis-le, ou elle sera lue comme un plafond.
-- **Customer-facing** : tu connais les trois contournements que personne n'a jamais écrits. Écris-en un.
+- **Management** : une fiche de poste est un plancher. Dis-le, ou elle sera lue comme un plafond.
+- **Relation client** : tu connais les trois contournements que personne n'a jamais écrits. Écris-en un.
 - **Recrutement** : demande ce que le candidat a réparé sans que ce soit à lui. C'est la question qui trie.
 
 ## À discuter

@@ -48,12 +48,14 @@ Certaines initiatives sont réellement dangereuses. La facturation. Un contrat s
 
 ## Depuis ton siège
 
-- **Engineer** : quand tu prends une initiative, annonce-la avant. Dix minutes, et elle est protégée.
-- **Product** : si toute initiative doit passer par toi, tu es devenu la file d'attente que tu déplores.
+- **Ingénierie** : quand tu prends une initiative, annonce-la avant. Dix minutes, et elle est protégée.
+- **Produit** : si toute initiative doit passer par toi, tu es devenu la file d'attente que tu déplores.
 - **Design** : quelqu'un a corrigé ton écran sans demander ? Réponds sur la correction, pas sur la forme.
-- **Founder** : la frontière s'écrit avant. Montant, risque, nombre de clients touchés.
-- **Customer-facing** : un agent qui règle un cas hors procédure t'a montré un trou. Commence par le trou.
+- **Fondateur** : la frontière s'écrit avant. Montant, risque, nombre de clients touchés.
+- **Relation client** : un agent qui règle un cas hors procédure t'a montré un trou. Commence par le trou.
 
 ## À discuter
+
+*À vérifier ailleurs :* l'étude d'Amy Edmondson sur la sécurité psychologique et les comportements d'apprentissage montre pourquoi davantage d'erreurs déclarées peut signaler une équipe plus sûre, pas plus mauvaise. La référence complète est dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
 
 Quand quelqu'un ici a agi sans autorisation, la première phrase qu'il a entendue portait sur le résultat ou sur la procédure ?

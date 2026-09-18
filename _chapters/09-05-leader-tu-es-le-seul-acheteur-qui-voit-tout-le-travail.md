@@ -46,10 +46,10 @@ Et refaire une grille salariale prend du temps. Mais ce n'est pas une raison d'a
 
 ## Depuis ton siège
 
-- **Engineer** : ce qui a été le plus payé cette année t'apprend ce qui compte ici. Tout le monde l'a remarqué.
+- **Ingénierie** : ce qui a été le plus payé cette année t'apprend ce qui compte ici. Tout le monde l'a remarqué.
 - **Design** : ce qui n'est jamais récompensé cesse d'être fait, sans qu'aucune réunion l'ait décidé.
-- **Founder** : tu importes dans ta paie le filtre que tu maudis dans ton recrutement.
-- **Customer-facing** : celui qui répond quand personne ne regarde n'est jamais dans les trois plus payés.
+- **Fondateur** : tu importes dans ta paie le filtre que tu maudis dans ton recrutement.
+- **Relation client** : celui qui répond quand personne ne regarde n'est jamais dans les trois plus payés.
 - **Recrutement** : compare ce que tu paies le plus cher avec ce que tu dis chercher en entretien.
 
 ## À discuter

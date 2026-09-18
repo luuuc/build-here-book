@@ -46,10 +46,10 @@ Relis à voix haute. Si le niveau de détail te rend légèrement nerveux, c'est
 
 ## Depuis ton siège
 
-- **Engineer** : commence aussi ta doc par le problème. L'architecture viendra après.
+- **Ingénierie** : commence aussi ta doc par le problème. L'architecture viendra après.
 - **Design** : la première phrase fait plus pour la conversion que tout ce que tu dessineras autour.
-- **Founder** : nommer le détail de leur pire heure prouve plus qu'un mur de logos.
-- **Manager** : si le niveau de détail rend la salle nerveuse, c'est en général le bon niveau.
+- **Fondateur** : nommer le détail de leur pire heure prouve plus qu'un mur de logos.
+- **Management** : si le niveau de détail rend la salle nerveuse, c'est en général le bon niveau.
 - **Recrutement** : ton offre d'emploi commence par ton entreprise. Commence par le problème à résoudre.
 
 ## À discuter

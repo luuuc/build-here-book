@@ -46,10 +46,10 @@ Les questions de positionnement subissent le même sort. Une semaine à débattr
 
 ## Depuis ton siège
 
-- **Engineer** : au point hebdo, présente le texte que tu as écrit comme un résultat du travail.
-- **Product** : une fonctionnalité rapporte plus vite qu'une audience. Protège le travail à long terme.
-- **Founder** : ce que tu coupes en premier est lu comme ce que tu voulais dire. La lecture est juste.
-- **Customer-facing** : on te demande de la visibilité sans créneau. Demande un créneau attribué à quelqu'un.
+- **Ingénierie** : au point hebdo, présente le texte que tu as écrit comme un résultat du travail.
+- **Produit** : une fonctionnalité rapporte plus vite qu'une audience. Protège le travail à long terme.
+- **Fondateur** : ce que tu coupes en premier est lu comme ce que tu voulais dire. La lecture est juste.
+- **Relation client** : on te demande de la visibilité sans créneau. Demande un créneau attribué à quelqu'un.
 - **Recrutement** : une entreprise que personne ne connaît recrute par recommandation. Tu connais ce filtre.
 
 ## À discuter

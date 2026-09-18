@@ -12,7 +12,7 @@ categories:
   - simplicite
   - technique
 seo:
-  description: "Tout ce que cette section demande est invisible sur un écran de démo. L'architecture sans fioritures. Les trois cents lignes retirées. L'après-midi passé à lire un driver de base de données."
+  description: "Tout ce que cette étape demande est invisible sur un écran de démo. L'architecture sans fioritures. Les trois cents lignes retirées. L'après-midi passé à lire un driver de base de données."
   keywords: "build here, engineering, builder, conditions, recoltes, complexite, recompenses"
 redirect_from:
   - /chapters/06-06-leader-tu-recoltes-la-complexite-que-tu-recompenses.html
@@ -30,7 +30,7 @@ Chaque fin de semaine, en toute bonne foi, une question a sa place fixe à l'ord
 
 ## Ce que ça produit
 
-Tout ce que cette section demande est invisible sur un écran de démo. L'architecture sans fioritures. Les trois cents lignes retirées. L'après-midi passé à lire un driver de base de données. La mesure qui a réglé en dix minutes un débat prévu pour quarante.
+Tout ce que cette étape demande est invisible sur un écran de démo. L'architecture sans fioritures. Les trois cents lignes retirées. L'après-midi passé à lire un driver de base de données. La mesure qui a réglé en dix minutes un débat prévu pour quarante.
 
 Alors le calcul se fait tout seul. Un nouveau service fournit un beau schéma pour la présentation. En retirer un produit un diff plein de lignes rouges et une question polie sur ta semaine. Personne n'a besoin de décider que supprimer n'est pas récompensé ici. Quatre vendredis suffisent pour que tout le monde le comprenne et arrête d'en parler.
 
@@ -46,10 +46,10 @@ Les ingénieurs ne peuvent pas corriger seuls ce système de récompense. Choisi
 
 ## Depuis ton siège
 
-- **Engineer** : simplifier peut nuire à ta carrière si seuls les ajouts sont récompensés.
-- **Product** : ce qui rétrécit ne fait pas de slide. Demande-le quand même en revue de fin de semaine.
-- **Founder** : la complexité que tu applaudis réveillera encore la personne d'astreinte dans deux ans.
-- **Customer-facing** : une étape supprimée se raconte aussi au client. Une étape en moins est une amélioration.
+- **Ingénierie** : simplifier peut nuire à ta carrière si seuls les ajouts sont récompensés.
+- **Produit** : ce qui rétrécit ne fait pas de slide. Demande-le quand même en revue de fin de semaine.
+- **Fondateur** : la complexité que tu applaudis réveillera encore la personne d'astreinte dans deux ans.
+- **Relation client** : une étape supprimée se raconte aussi au client. Une étape en moins est une amélioration.
 - **Recrutement** : tu recrutes pour tenir la complexité que tu récompenses. Compte-la avant d'ouvrir le poste.
 
 ## À discuter

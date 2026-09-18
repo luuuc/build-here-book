@@ -52,10 +52,10 @@ Publie-le là où quelqu'un qui rencontre le même problème le trouvera. Pas se
 
 ## Depuis ton siège
 
-- **Product** : l'hypothèse fausse et sa durée valent plus que la cause. C'est ce qui manque au suivant.
-- **Founder** : décris le mécanisme. Inutile de nommer le client ou de donner le montant exact.
-- **Manager** : là où signaler une erreur te discrédite, personne ne publiera. Vérifie de quel côté tu es d'abord.
-- **Customer-facing** : tu tiens la chronologie côté client, minute par minute. Elle manque à tous les postmortems.
+- **Produit** : l'hypothèse fausse et sa durée valent plus que la cause. C'est ce qui manque au suivant.
+- **Fondateur** : décris le mécanisme. Inutile de nommer le client ou de donner le montant exact.
+- **Management** : là où signaler une erreur te discrédite, personne ne publiera. Vérifie de quel côté tu es d'abord.
+- **Relation client** : tu tiens la chronologie côté client, minute par minute. Elle manque à tous les postmortems.
 - **Recrutement** : un candidat qui raconte l'hypothèse gardée deux heures t'en dit plus qu'un CV entier.
 
 ## À discuter

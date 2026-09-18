@@ -44,10 +44,10 @@ Découpe-la jusqu'à obtenir un morceau que tu peux refaire dix fois cette semai
 
 ## Depuis ton siège
 
-- **Product** : tu rédiges vite. Vérifie si tu arbitres mieux qu'il y a deux ans, c'est une autre compétence.
+- **Produit** : tu rédiges vite. Vérifie si tu arbitres mieux qu'il y a deux ans, c'est une autre compétence.
 - **Design** : refaire douze fois le même écran est de la production, pas de la pratique.
-- **Founder** : ton métier a changé trois fois depuis le début et personne ne te l'a signalé.
-- **Manager** : demande la chose apprise cette année, pas les années d'ancienneté. La réponse est courte ou vide.
+- **Fondateur** : ton métier a changé trois fois depuis le début et personne ne te l'a signalé.
+- **Management** : demande la chose apprise cette année, pas les années d'ancienneté. La réponse est courte ou vide.
 - **Recrutement** : douze ans d'expérience et douze fois la même année ont le même aspect sur un CV.
 
 ## À discuter

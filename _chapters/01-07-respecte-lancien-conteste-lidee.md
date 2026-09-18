@@ -50,10 +50,10 @@ Il ne reste que le problème sur la table.
 
 ## Depuis ton siège
 
-- **Engineer** : mets ton désaccord par écrit avant la revue. Il pourra changer d'avis sans public.
-- **Product** : choisis tes batailles. Les objections rares et solides font davantage bouger les décisions.
-- **Founder** : si la correction vit dans le couloir, tu détiens le mauvais plan et sa réponse, séparément.
-- **Manager** : si tout le savoir repose sur un ancien, organise sa transmission.
+- **Ingénierie** : mets ton désaccord par écrit avant la revue. Il pourra changer d'avis sans public.
+- **Produit** : choisis tes batailles. Les objections rares et solides font davantage bouger les décisions.
+- **Fondateur** : si la correction vit dans le couloir, tu détiens le mauvais plan et sa réponse, séparément.
+- **Management** : si tout le savoir repose sur un ancien, organise sa transmission.
 - **Recrutement** : demande la dernière fois qu'il a contredit plus ancien que lui, et comment.
 
 ## À discuter

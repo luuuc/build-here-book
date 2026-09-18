@@ -46,9 +46,9 @@ Quand une décision engage plusieurs semaines, écris une ligne à côté avant 
 
 ## Depuis ton siège
 
-- **Engineer** : le schéma sur lequel deux autres équipes écrivent déjà alourdit le coût de l'erreur.
-- **Product** : ta spec a un critère d'abandon, ou tu le découvriras au lancement.
-- **Manager** : celui qui a proposé est celui qui doit arrêter. Permets-le sans le discréditer.
+- **Ingénierie** : le schéma sur lequel deux autres équipes écrivent déjà alourdit le coût de l'erreur.
+- **Produit** : ta spec a un critère d'abandon, ou tu le découvriras au lancement.
+- **Management** : celui qui a proposé est celui qui doit arrêter. Permets-le sans le discréditer.
 - **Recrutement** : recruter pour une stack qu'on s'apprête à quitter est le même coût, en plus lent.
 
 ## À discuter

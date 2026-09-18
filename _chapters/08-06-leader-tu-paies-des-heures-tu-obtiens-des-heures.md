@@ -2,10 +2,10 @@
 layout: chapter
 title: "⇄ Tu paies des heures, tu obtiens des heures"
 part: "Le levier"
-order: 806
+order: 805
 card_type: systeme
 metadata:
-  principle: "8.06"
+  principle: "8.05"
   reading_time_in_minutes: 2
 categories:
   - levier
@@ -44,10 +44,10 @@ Puis va chercher le chiffre de la dernière suppression en date, et dis-le à vo
 
 ## Depuis ton siège
 
-- **Product** : une feuille de route mesurée en livraisons ne contiendra jamais de suppression.
-- **Engineer** : chiffre en heures rendues par an. C'est le seul format qui entre dans un arbitrage.
-- **Founder** : ton entreprise grandit en effectifs sans grandir en production. C'est ici que ça se joue.
-- **Customer-facing** : ton indicateur te punit si le volume baisse. Dis-le, c'est une information utile.
+- **Produit** : une feuille de route mesurée en livraisons ne contiendra jamais de suppression.
+- **Ingénierie** : chiffre en heures rendues par an. C'est le seul format qui entre dans un arbitrage.
+- **Fondateur** : ton entreprise grandit en effectifs sans grandir en production. C'est ici que ça se joue.
+- **Relation client** : ton indicateur te punit si le volume baisse. Dis-le, c'est une information utile.
 - **Recrutement** : recruter pour absorber du travail répété achète du délai au prix d'un salaire annuel.
 
 ## À discuter

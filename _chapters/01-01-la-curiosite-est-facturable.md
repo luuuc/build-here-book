@@ -52,10 +52,10 @@ Puis écris quatre lignes sur ce que tu as trouvé, quelque part où l'équipe p
 
 ## Depuis ton siège
 
-- **Product** : trente minutes dans le système que tu spécifies, ou tu arbitres sur des coûts devinés.
-- **Founder** : ce que personne ici ne comprend devient un chiffrage que personne ne sait faire.
-- **Manager** : si comprendre n'a pas de ligne dans la semaine, ça se fait le soir ou pas du tout.
-- **Customer-facing** : le client qui demande pourquoi mérite mieux qu'une reformulation de la doc.
+- **Produit** : trente minutes dans le système que tu spécifies, ou tu arbitres sur des coûts devinés.
+- **Fondateur** : ce que personne ici ne comprend devient un chiffrage que personne ne sait faire.
+- **Management** : si comprendre n'a pas de ligne dans la semaine, ça se fait le soir ou pas du tout.
+- **Relation client** : le client qui demande pourquoi mérite mieux qu'une reformulation de la doc.
 - **Recrutement** : demande ce que le candidat a lu récemment dans un système qu'il n'avait pas écrit.
 
 ## À discuter

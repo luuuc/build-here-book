@@ -2,10 +2,10 @@
 layout: chapter
 title: "⇄ Tu demandes des résultats et tu passes en revue de l'activité"
 part: "L'ownership"
-order: 608
+order: 607
 card_type: systeme
 metadata:
-  principle: "6.08"
+  principle: "6.07"
   reading_time_in_minutes: 2
 categories:
   - ownership
@@ -46,10 +46,10 @@ Puis la première fois qu'un mauvais chiffre arrive dedans, regarde ce que tu fa
 
 ## Depuis ton siège
 
-- **Product** : si la revue ne suit que les livraisons, ta feuille de route deviendra une liste de livraisons.
-- **Engineer** : demande où va la donnée d'usage. Souvent nulle part, et personne ne l'a décidé.
-- **Founder** : ton point d'équipe est la vraie spec de ce que l'entreprise valorise. Relis-le.
-- **Customer-facing** : tu détiens des résultats que la revue ne demande jamais. Apporte-les sans attendre.
+- **Produit** : si la revue ne suit que les livraisons, ta feuille de route deviendra une liste de livraisons.
+- **Ingénierie** : demande où va la donnée d'usage. Souvent nulle part, et personne ne l'a décidé.
+- **Fondateur** : ton point d'équipe est la vraie spec de ce que l'entreprise valorise. Relis-le.
+- **Relation client** : tu détiens des résultats que la revue ne demande jamais. Apporte-les sans attendre.
 - **Recrutement** : un processus mesuré en entretiens passés produit des entretiens, pas des recrutements.
 
 ## À discuter

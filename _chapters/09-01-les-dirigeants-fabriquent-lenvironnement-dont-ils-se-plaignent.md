@@ -48,11 +48,13 @@ Cherche dans les incitations, pas dans les caractères. La réponse ramène en g
 
 ## Depuis ton siège
 
-- **Engineer** : si tout le monde autour de toi contourne la même chose, ce n'est pas un défaut de caractère.
+- **Ingénierie** : si tout le monde autour de toi contourne la même chose, ce n'est pas un défaut de caractère.
 - **Design** : quand tous les utilisateurs se trompent au même endroit, c'est l'écran. Ici, c'est la salle.
-- **Founder** : changer les gens prend un an. Changer un morceau du système se fait cette semaine.
+- **Fondateur** : changer les gens prend un an. Changer un morceau du système se fait cette semaine.
 - **Recrutement** : une personne sur douze, regarde le recrutement. Neuf sur douze, regarde l'organisation.
 
 ## À discuter
+
+*À vérifier ailleurs :* Deming attribue l'essentiel des problèmes au système que la direction possède ; Crozier et Friedberg montrent comment les acteurs répondent aux incertitudes qu'ils contrôlent. Les références complètes sont dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
 
 Quelle plainte tourne ici depuis plus d'un an sans qu'on ait changé le système ?

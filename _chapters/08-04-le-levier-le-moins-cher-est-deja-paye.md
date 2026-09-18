@@ -2,10 +2,11 @@
 layout: chapter
 title: "Le levier le moins cher est déjà payé"
 part: "Le levier"
-order: 804
+order: 803
 card_type: principe
+action_scope: "Portée : décision budgétaire"
 metadata:
-  principle: "8.04"
+  principle: "8.03"
   reading_time_in_minutes: 2
 categories:
   - levier
@@ -44,11 +45,11 @@ Trente minutes. C'est le même geste que lire le code source, appliqué à la fa
 
 ## Depuis ton siège
 
-- **Engineer** : la base de données que tu as sait souvent faire ce que tu allais ajouter à côté.
-- **Product** : la donnée qui manque à ton arbitrage est souvent collectée et jamais regardée.
-- **Founder** : demande la liste des abonnements et ce que chacun sert à faire. La lecture est instructive.
-- **Manager** : personne ne sera félicité pour un achat évité. Fais-le remarquer toi-même.
-- **Customer-facing** : la réponse que tu allais écrire existe peut-être déjà, écrite par quelqu'un d'autre.
+- **Ingénierie** : la base de données que tu as sait souvent faire ce que tu allais ajouter à côté.
+- **Produit** : la donnée qui manque à ton arbitrage est souvent collectée et jamais regardée.
+- **Fondateur** : demande la liste des abonnements et ce que chacun sert à faire. La lecture est instructive.
+- **Management** : personne ne sera félicité pour un achat évité. Fais-le remarquer toi-même.
+- **Relation client** : la réponse que tu allais écrire existe peut-être déjà, écrite par quelqu'un d'autre.
 
 ## À discuter
 

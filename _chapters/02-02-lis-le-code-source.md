@@ -44,10 +44,10 @@ Quinze minutes. Tu ne comprendras pas le projet. Tu comprendras au moins ce que 
 
 ## Depuis ton siège
 
-- **Product** : le comportement par défaut d'une dépendance est une décision produit que tu n'as pas prise.
+- **Produit** : le comportement par défaut d'une dépendance est une décision produit que tu n'as pas prise.
 - **Design** : le composant que tu utilises impose ses règles. Ouvre-le avant de dessiner autour.
-- **Manager** : lire un pilote de base de données, c'est travailler. Dis-le à l'équipe.
-- **Customer-facing** : le bug que décrit le client est parfois documenté nulle part et lisible en dix minutes.
+- **Management** : lire un pilote de base de données, c'est travailler. Dis-le à l'équipe.
+- **Relation client** : le bug que décrit le client est parfois documenté nulle part et lisible en dix minutes.
 - **Recrutement** : demande une dépendance dont le candidat a lu le code, et ce qu'il y a trouvé.
 
 ## À discuter

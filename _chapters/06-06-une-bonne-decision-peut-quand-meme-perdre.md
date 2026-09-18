@@ -2,10 +2,10 @@
 layout: chapter
 title: "Une bonne décision peut quand même mal tourner"
 part: "L'ownership"
-order: 606
+order: 605
 card_type: principe
 metadata:
-  principle: "6.06"
+  principle: "6.05"
   reading_time_in_minutes: 2
 categories:
   - leadership
@@ -48,10 +48,10 @@ Dans cet ordre. La première préserve l'envie d'agir. La seconde demande de ren
 
 ## Depuis ton siège
 
-- **Engineer** : écris ce que tu savais au moment de décider. C'est la seule défense qui tient six mois après.
+- **Ingénierie** : écris ce que tu savais au moment de décider. C'est la seule défense qui tient six mois après.
 - **Design** : une direction validée qui échoue au test n'était pas mauvaise. C'était un test.
-- **Founder** : réversible ou à sens unique. Trie d'abord, discute ensuite. La ligne bouge à chaque fois.
-- **Customer-facing** : un échec public suit la personne jusqu'au poste suivant. Ta réaction fixe le prix.
+- **Fondateur** : réversible ou à sens unique. Trie d'abord, discute ensuite. La ligne bouge à chaque fois.
+- **Relation client** : un échec public suit la personne jusqu'au poste suivant. Ta réaction fixe le prix.
 - **Recrutement** : demande une décision du candidat qui a mal tourné, et ce qu'il savait en la prenant.
 
 ## À discuter

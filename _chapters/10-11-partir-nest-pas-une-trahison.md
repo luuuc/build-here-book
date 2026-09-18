@@ -2,10 +2,10 @@
 layout: chapter
 title: "Partir n'est pas une trahison"
 part: "La référence"
-order: 1011
+order: 1008
 card_type: principe
 metadata:
-  principle: "10.11"
+  principle: "10.08"
   reading_time_in_minutes: 3
 categories:
   - reference
@@ -45,14 +45,14 @@ Si tu y penses, ou si quelque chose vient d'arriver dans ta boîte mail, fais la
 
 > Trois choses que je sais et qui ne sont écrites nulle part ici.
 
-Publie-en une, sous ton nom, avant de donner ta réponse. Ça ne changera pas ta décision. Ça change ce qu'elle coûte à ceux qui restent, et ça tient dans un après-midi.
+Rends-en une utilisable par ceux qui restent avant de donner ta réponse : note interne, procédure, décision commentée ou transmission à ton successeur. Si elle peut être publique sans exposer ce qui ne t'appartient pas, elle voyagera plus loin. Ça ne changera pas ta décision. Ça change ce qu'elle coûte à ceux qui restent.
 
 ## Depuis ton siège
 
-- **Product** : écris les raisons d'une demande que tu as refusée. Elles ne sont consignées nulle part.
+- **Produit** : écris les raisons d'une demande que tu as refusée. Elles ne sont consignées nulle part.
 - **Design** : ton système de design reste dans ta tête tant que ses règles ne sont pas écrites.
-- **Founder** : après dix ans sans rien écrire, il reste une réputation qui s'éteint au changement d'étage.
-- **Manager** : ceux qui partent nous vident est une phrase adressée à des gens de vingt-six ans.
+- **Fondateur** : après dix ans sans rien écrire, il reste une réputation qui s'éteint au changement d'étage.
+- **Management** : ceux qui partent nous vident est une phrase adressée à des gens de vingt-six ans.
 - **Recrutement** : ce que laissent les partants est ce que lira la personne recrutée pour les remplacer.
 
 ## À discuter

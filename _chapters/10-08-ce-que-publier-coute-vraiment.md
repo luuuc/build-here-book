@@ -2,10 +2,11 @@
 layout: chapter
 title: "Ce que publier coûte vraiment"
 part: "La référence"
-order: 1008
+order: 1006
 card_type: diagnostic
+action_scope: "Portée : individu et politique interne"
 metadata:
-  principle: "10.08"
+  principle: "10.06"
   reading_time_in_minutes: 3
 categories:
   - reference
@@ -47,11 +48,11 @@ Puis ouvre ton contrat de travail et cherche le mot confidentialité. La premiè
 
 ## Depuis ton siège
 
-- **Engineer** : la séquence technique n'appartient à personne. C'est la seule partie qui doit être précise.
-- **Product** : un chiffre publié sans nom de client ne dit rien au concurrent et beaucoup à un inconnu.
+- **Ingénierie** : la séquence technique n'appartient à personne. C'est la seule partie qui doit être précise.
+- **Produit** : un chiffre publié sans nom de client ne dit rien au concurrent et beaucoup à un inconnu.
 - **Design** : une maquette sans données réelles ne révèle rien. Tu t'interdis plus que ton contrat.
-- **Founder** : une partie de ces coûts sont des conditions que tu fixes. Écris-les ou elles resteront supposées.
-- **Customer-facing** : le client concerné lira le texte le lendemain. Le fournisseur peut rester un prestataire.
+- **Fondateur** : une partie de ces coûts sont des conditions que tu fixes. Écris-les ou elles resteront supposées.
+- **Relation client** : le client concerné lira le texte le lendemain. Le fournisseur peut rester un prestataire.
 
 ## À discuter
 

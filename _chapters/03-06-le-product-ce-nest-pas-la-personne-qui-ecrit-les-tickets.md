@@ -44,11 +44,11 @@ L'arbitrage devient visible, et on peut réexaminer un refus trois mois plus tar
 
 ## Depuis ton siège
 
-- **Engineer** : je sais le construire, je pense qu'on ne devrait pas, et voilà pourquoi. C'est du product.
+- **Ingénierie** : je sais le construire, je pense qu'on ne devrait pas, et voilà pourquoi. C'est du product.
 - **Design** : dire quel écran ne doit pas exister vaut mieux que dessiner les cinq qu'on te demande.
-- **Founder** : dans une équipe de six, celui qui doit refuser sa propre idée devant les autres, c'est toi.
-- **Manager** : sans droit de refus, tu n'as pas de produit. Tu as une file où le plus insistant passe.
-- **Customer-facing** : quinze tickets identiques reliés à une seule étape cassée, c'est du product.
+- **Fondateur** : dans une équipe de six, celui qui doit refuser sa propre idée devant les autres, c'est toi.
+- **Management** : sans droit de refus, tu n'as pas de produit. Tu as une file où le plus insistant passe.
+- **Relation client** : quinze tickets identiques reliés à une seule étape cassée, c'est du product.
 - **Recrutement** : demande la dernière demande importante que le candidat a refusée, et à qui.
 
 ## À discuter

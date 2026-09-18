@@ -4,6 +4,7 @@ title: "La compréhension ne se délègue pas"
 part: "La compréhension"
 order: 407
 card_type: principe
+action_scope: "Portée : direction"
 metadata:
   principle: "4.07"
   reading_time_in_minutes: 2
@@ -48,10 +49,10 @@ Deux heures. Les arrêts sont l'exercice, pas une interruption de l'exercice.
 
 ## Depuis ton siège
 
-- **Engineer** : une question limitée appelle une réponse limitée. Explique aussi ce qu'on n'a pas pensé à demander.
-- **Product** : sans comprendre le produit, tu acceptes ou refuses les estimations à l'instinct.
+- **Ingénierie** : une question limitée appelle une réponse limitée. Explique aussi ce qu'on n'a pas pensé à demander.
+- **Produit** : sans comprendre le produit, tu acceptes ou refuses les estimations à l'instinct.
 - **Design** : un produit que la direction ne sait pas dessiner au tableau se conçoit par morceaux.
-- **Customer-facing** : tu promets ce que tu crois simple. Demande une fois de quoi le produit est fait.
+- **Relation client** : tu promets ce que tu crois simple. Demande une fois de quoi le produit est fait.
 - **Recrutement** : sans comprendre le produit, tu recrutes sur l'aisance. C'est le filtre du début de ce livre.
 
 ## À discuter

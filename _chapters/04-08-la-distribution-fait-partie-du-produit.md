@@ -4,6 +4,7 @@ title: "La distribution fait partie du produit"
 part: "La compréhension"
 order: 408
 card_type: principe
+action_scope: "Portée : accord d'équipe"
 metadata:
   principle: "4.08"
   reading_time_in_minutes: 2
@@ -46,10 +47,10 @@ Marque chaque étape que tu as devinée. Cette liste, c'est le travail.
 
 ## Depuis ton siège
 
-- **Engineer** : le premier écran d'un lien ouvert sur deux barres n'est pas celui d'un résultat de recherche.
-- **Founder** : prévois la diffusion avant de figer le modèle de données.
-- **Manager** : rends visible le travail nécessaire pour faire connaître le produit.
-- **Customer-facing** : en B2B, le chemin est un slide montré à un patron absent de la salle. Conçois-le.
+- **Ingénierie** : le premier écran d'un lien ouvert sur deux barres n'est pas celui d'un résultat de recherche.
+- **Fondateur** : prévois la diffusion avant de figer le modèle de données.
+- **Management** : rends visible le travail nécessaire pour faire connaître le produit.
+- **Relation client** : en B2B, le chemin est un slide montré à un patron absent de la salle. Conçois-le.
 - **Recrutement** : tu cherches quelqu'un qui sait tracer un chemin, pas quelqu'un qui sait faire du bruit.
 
 ## À discuter

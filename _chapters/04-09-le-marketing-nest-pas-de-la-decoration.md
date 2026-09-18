@@ -51,11 +51,11 @@ Fais répondre trois personnes séparément, puis mets les réponses côte à c�
 
 ## Depuis ton siège
 
-- **Engineer** : savoir à qui s'adresse le produit détermine ce que tu construis.
-- **Product** : celui qui compte le stock à 19h et les commerçants ne donnent pas la même application.
+- **Ingénierie** : savoir à qui s'adresse le produit détermine ce que tu construis.
+- **Produit** : celui qui compte le stock à 19h et les commerçants ne donnent pas la même application.
 - **Design** : un site magnifique adressé à tout le monde ne convertit personne. Personne ne s'y sent visé.
-- **Founder** : un bon produit se vend tout seul une fois, à ceux qui te connaissaient déjà.
-- **Manager** : exclus le marketing des décisions, puis conclus qu'il est faible. Il était exclu, pas faible.
+- **Fondateur** : un bon produit se vend tout seul une fois, à ceux qui te connaissaient déjà.
+- **Management** : exclus le marketing des décisions, puis conclus qu'il est faible. Il était exclu, pas faible.
 
 ## À discuter
 

@@ -43,9 +43,9 @@ Dis que c'est tôt. Laisse-les tranquilles une semaine, puis va voir ce qui s'es
 ## Depuis ton siège
 
 - **Design** : peaufiner trois écrans avant de montrer le premier rend plus difficile le fait d'y renoncer.
-- **Founder** : tu as dix numéros dans ton téléphone. Ils pardonnent un défaut, cent inscriptions non.
-- **Manager** : trois noms sur une fonctionnalité ignorée, et l'échec se lira comme un problème d'onboarding.
-- **Customer-facing** : tu sais qui accepterait de voir une version tôt. Donne les dix noms.
+- **Fondateur** : tu as dix numéros dans ton téléphone. Ils pardonnent un défaut, cent inscriptions non.
+- **Management** : trois noms sur une fonctionnalité ignorée, et l'échec se lira comme un problème d'onboarding.
+- **Relation client** : tu sais qui accepterait de voir une version tôt. Donne les dix noms.
 - **Recrutement** : demande la plus petite chose que le candidat a mise devant un vrai utilisateur.
 
 ## À discuter

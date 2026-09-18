@@ -46,10 +46,10 @@ Remplis-la, ou laisse-la vide. Vide, à côté de trente tickets fermés, ça en
 
 ## Depuis ton siège
 
-- **Product** : découpe pour livrer plus tôt quelque chose d'utilisable, jamais pour faire monter le compteur.
-- **Founder** : la vélocité n'est pas un chiffre à montrer à ton conseil.
-- **Manager** : ce que tu regardes en revue devient ce que l'équipe optimise.
-- **Customer-facing** : si la note de version est vide, elle le dira au client à ta place.
+- **Produit** : découpe pour livrer plus tôt quelque chose d'utilisable, jamais pour faire monter le compteur.
+- **Fondateur** : la vélocité n'est pas un chiffre à montrer à ton conseil.
+- **Management** : ce que tu regardes en revue devient ce que l'équipe optimise.
+- **Relation client** : si la note de version est vide, elle le dira au client à ta place.
 - **Recrutement** : demande ce qu'un utilisateur savait faire après son dernier projet.
 
 ## À discuter

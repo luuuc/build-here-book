@@ -2,10 +2,10 @@
 layout: chapter
 title: "Le mauvais résultat t'appartient aussi"
 part: "L'ownership"
-order: 605
+order: 604
 card_type: principe
 metadata:
-  principle: "6.05"
+  principle: "6.04"
   reading_time_in_minutes: 2
 categories:
   - ownership
@@ -46,10 +46,10 @@ Mets-les là où l'équipe peut les lire.
 
 ## Depuis ton siège
 
-- **Product** : la fonctionnalité que personne n'utilise est une réponse, pas un accident.
-- **Founder** : ce que tu fais du premier échec annoncé décide de tous les suivants.
-- **Manager** : si l'échec coûte du statut, tu recevras des résultats en retard et arrangés.
-- **Customer-facing** : le client qui part explique souvent mieux l'échec que toute la réunion.
+- **Produit** : la fonctionnalité que personne n'utilise est une réponse, pas un accident.
+- **Fondateur** : ce que tu fais du premier échec annoncé décide de tous les suivants.
+- **Management** : si l'échec coûte du statut, tu recevras des résultats en retard et arrangés.
+- **Relation client** : le client qui part explique souvent mieux l'échec que toute la réunion.
 - **Recrutement** : demande un échec précis et ce qu'il a changé. Les deux, ou la réponse ne vaut rien.
 
 ## À discuter

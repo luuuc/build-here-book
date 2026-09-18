@@ -46,10 +46,10 @@ Fais-le chaque mois. La liste se met à se répéter, et ces répétitions montr
 
 ## Depuis ton siège
 
-- **Product** : ton meilleur exemple d'arbitrage produit n'est pas dans cette boîte. Va le chercher.
+- **Produit** : ton meilleur exemple d'arbitrage produit n'est pas dans cette boîte. Va le chercher.
 - **Design** : compare ton parcours à un produit que tes utilisateurs ouvrent tous les jours.
-- **Founder** : ton senior répond à la question locale. Une référence extérieure pose celle que personne n'a posée.
-- **Customer-facing** : lis une heure le support d'un produit mondial. Le niveau de réponse se compare aussi.
+- **Fondateur** : ton senior répond à la question locale. Une référence extérieure pose celle que personne n'a posée.
+- **Relation client** : lis une heure le support d'un produit mondial. Le niveau de réponse se compare aussi.
 - **Recrutement** : cherche tes références à l'extérieur, sinon tu recrutes à partir de ta propre moyenne.
 
 ## À discuter

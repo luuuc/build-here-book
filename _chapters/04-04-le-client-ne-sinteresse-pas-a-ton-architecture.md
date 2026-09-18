@@ -47,10 +47,10 @@ Lis-le à quelqu'un du commercial. S'il pose aussitôt une question, ça fonctio
 
 ## Depuis ton siège
 
-- **Product** : si tu ne sais pas expliquer le bénéfice pour le client, interroge-toi sur le projet.
-- **Founder** : six mois de reprise sans bénéfice client visible finissent par apparaître comme une simple dépense.
-- **Manager** : demande la phrase client avant de financer, pas au moment du budget.
-- **Customer-facing** : tu es le traducteur par défaut. Exige la phrase avant d'annoncer quoi que ce soit.
+- **Produit** : si tu ne sais pas expliquer le bénéfice pour le client, interroge-toi sur le projet.
+- **Fondateur** : six mois de reprise sans bénéfice client visible finissent par apparaître comme une simple dépense.
+- **Management** : demande la phrase client avant de financer, pas au moment du budget.
+- **Relation client** : tu es le traducteur par défaut. Exige la phrase avant d'annoncer quoi que ce soit.
 - **Recrutement** : demande à quoi a servi son plus gros chantier technique, sans un mot technique.
 
 ## À discuter

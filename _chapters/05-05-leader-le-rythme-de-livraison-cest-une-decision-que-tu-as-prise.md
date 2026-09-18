@@ -46,11 +46,11 @@ Chaque porte était une réponse raisonnable à quelque chose qui a cassé une f
 
 ## Depuis ton siège
 
-- **Engineer** : compte les portes entre ton commit et un client. Chacune a été posée par quelqu'un.
-- **Product** : réduire le périmètre est impossible tant que livrer les deux tiers est considéré comme un échec.
+- **Ingénierie** : compte les portes entre ton commit et un client. Chacune a été posée par quelqu'un.
+- **Produit** : réduire le périmètre est impossible tant que livrer les deux tiers est considéré comme un échec.
 - **Design** : une page de test et un tableur sont utiles si l'on reconnaît ce qu'ils permettent d'apprendre.
-- **Founder** : chaque porte répondait à un incident. Tu sais encore nommer lequel ?
-- **Customer-facing** : un correctif d'une ligne qui met trois semaines, c'est toi qui l'expliques au client.
+- **Fondateur** : chaque porte répondait à un incident. Tu sais encore nommer lequel ?
+- **Relation client** : un correctif d'une ligne qui met trois semaines, c'est toi qui l'expliques au client.
 - **Recrutement** : le rythme que tu promets en entretien est celui de tes portes, pas de ton discours.
 
 ## À discuter

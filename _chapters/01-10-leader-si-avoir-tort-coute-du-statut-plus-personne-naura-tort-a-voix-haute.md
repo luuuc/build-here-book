@@ -46,10 +46,10 @@ Une équipe qui cache ses erreurs n'en fait pas moins. Elle te les annonce plus 
 
 ## Depuis ton siège
 
-- **Engineer** : regarde ce qui est arrivé au dernier qui a signalé un incident. C'est ça, la règle.
+- **Ingénierie** : regarde ce qui est arrivé au dernier qui a signalé un incident. C'est ça, la règle.
 - **Design** : un test utilisateur qui contredit l'écran validé se raconte en entier ou ne sert à rien.
-- **Founder** : sanctionne la négligence, jamais le fait de la signaler.
-- **Customer-facing** : tu apprends les erreurs en premier, par le client. Le délai de remontée est l'indicateur.
+- **Fondateur** : sanctionne la négligence, jamais le fait de la signaler.
+- **Relation client** : tu apprends les erreurs en premier, par le client. Le délai de remontée est l'indicateur.
 - **Recrutement** : demande une erreur que le candidat a signalée lui-même, et ce que ça lui a coûté.
 
 ## À discuter

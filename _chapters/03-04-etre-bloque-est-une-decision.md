@@ -50,11 +50,11 @@ Plus rapide, plus précis, et trente secondes de la journée de quelqu'un au lie
 
 ## Depuis ton siège
 
-- **Product** : ton blocage est une réponse qui n'arrive pas. Va la chercher chez la personne.
+- **Produit** : ton blocage est une réponse qui n'arrive pas. Va la chercher chez la personne.
 - **Design** : ce qui te manque est chez l'utilisateur, pas chez le développeur.
-- **Founder** : une décision que tu n'as pas prise bloque plus de monde qu'un bug.
-- **Manager** : reproche à quelqu'un de demander de l'aide, et plus personne n'osera le faire.
-- **Customer-facing** : le client ne sait pas que tu attends quelqu'un. Dis-lui où ça en est.
+- **Fondateur** : une décision que tu n'as pas prise bloque plus de monde qu'un bug.
+- **Management** : reproche à quelqu'un de demander de l'aide, et plus personne n'osera le faire.
+- **Relation client** : le client ne sait pas que tu attends quelqu'un. Dis-lui où ça en est.
 - **Recrutement** : demande la dernière fois que le candidat s'est débloqué seul, et par où il est passé.
 
 ## À discuter

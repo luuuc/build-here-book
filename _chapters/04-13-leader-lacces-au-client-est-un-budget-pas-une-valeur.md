@@ -48,11 +48,11 @@ Ces précautions évitent les accrocs dans la relation client pendant un trimest
 
 ## Depuis ton siège
 
-- **Engineer** : tu n'oses plus demander un appel client ? Dis-le : l'accès est devenu trop compliqué.
-- **Product** : une décision prise sur un résumé est une décision prise sur trois filtres empilés.
+- **Ingénierie** : tu n'oses plus demander un appel client ? Dis-le : l'accès est devenu trop compliqué.
+- **Produit** : une décision prise sur un résumé est une décision prise sur trois filtres empilés.
 - **Design** : un accès en lecture à la file de support vaut mieux qu'une étude trimestrielle.
-- **Founder** : on peut répondre à cette crainte. Assiste au premier appel, puis arrête d'assister.
-- **Customer-facing** : tu tiens la porte sans l'avoir voulu. Liste cinq clients qui acceptent un appel de vingt minutes.
+- **Fondateur** : on peut répondre à cette crainte. Assiste au premier appel, puis arrête d'assister.
+- **Relation client** : tu tiens la porte sans l'avoir voulu. Liste cinq clients qui acceptent un appel de vingt minutes.
 - **Recrutement** : tu recrutes des gens curieux du client, puis tu leur fermes la porte. Choisis.
 
 ## À discuter

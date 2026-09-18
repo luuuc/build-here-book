@@ -47,12 +47,14 @@ Personne ne les a demandées. C'est le principe.
 
 ## Depuis ton siège
 
-- **Product** : ce que celui qui a fait le ticket a appris dedans est ta meilleure source. Va la chercher.
+- **Produit** : ce que celui qui a fait le ticket a appris dedans est ta meilleure source. Va la chercher.
 - **Design** : ce que tu apprends au troisième écran invalide souvent le premier. Dis-le tout de suite.
-- **Manager** : si rapporter une trouvaille passe pour un refus de faire la tâche, tu n'en auras plus.
-- **Customer-facing** : trois fois le même ticket est un problème, pas trois tâches. Compte, puis remonte.
+- **Management** : si rapporter une trouvaille passe pour un refus de faire la tâche, tu n'en auras plus.
+- **Relation client** : trois fois le même ticket est un problème, pas trois tâches. Compte, puis remonte.
 - **Recrutement** : demande un ticket où le candidat a découvert que la demande n'était pas la bonne.
 
 ## À discuter
+
+*À vérifier ailleurs :* *Inspired*, de Marty Cagan, développe la distinction entre équipe chargée de fonctionnalités et équipe chargée d'un problème. La référence complète est dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
 
 Quelqu'un ici a déjà découvert, en réalisant une tâche, que la demande n'était pas la bonne. Il l'a dit à qui ?

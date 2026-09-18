@@ -34,7 +34,7 @@ C'est la seule action de cette étape qui ne demande presque aucun travail suppl
 
 Regarde aussi pourquoi la question t'est arrivée. Elle t'est arrivée parce que tu es la personne à portée, pas parce que tu es la seule à savoir. Tant que la réponse reste dans tes messages, tu restes la porte, et *Être bloqué est une décision* dit déjà ce que ça coûte à l'équipe qui n'a jamais dessiné la carte. Une fois publiée, la réponse est accessible même quand tu n'es pas disponible.
 
-Le privé est plus confortable pour une raison honnête. En public, on peut te corriger. C'est vrai, ça arrive, et c'est exactement ce que la section Apprentissage te demandait d'aller chercher. Une correction publique par quelqu'un de meilleur que toi est le seul retour gratuit de ce métier, et il n'arrive que si tu t'exposes.
+Le privé est plus confortable pour une raison honnête. En public, on peut te corriger. C'est vrai, ça arrive, et c'est exactement ce que l'étape *Le métier* te demandait d'aller chercher. Une correction publique par quelqu'un de meilleur que toi est le seul retour gratuit de ce métier, et il n'arrive que si tu t'exposes.
 
 Ne transforme pas pour autant chaque message en occasion de publier. Beaucoup de questions ne concernent qu'une personne, une situation, un compte. Celles qui méritent la version publique sont celles qu'on t'a posées plus d'une fois.
 
@@ -46,11 +46,11 @@ Ne transforme pas pour autant chaque message en occasion de publier. Beaucoup de
 
 ## Depuis ton siège
 
-- **Engineer** : la réponse qui reste dans tes messages fait de toi la porte. Publiée, elle te libère.
-- **Product** : la question posée trois fois ce trimestre est une page, pas trois réponses privées.
-- **Founder** : une correction publique par quelqu'un de plus expérimenté est le seul retour gratuit de ce métier.
-- **Manager** : les réponses privées de ton meilleur élément sont un actif que l'entreprise n'a pas.
-- **Customer-facing** : la réponse que tu écris quinze fois par semaine a un seul lecteur à chaque fois.
+- **Ingénierie** : la réponse qui reste dans tes messages fait de toi la porte. Publiée, elle te libère.
+- **Produit** : la question posée trois fois ce trimestre est une page, pas trois réponses privées.
+- **Fondateur** : une correction publique par quelqu'un de plus expérimenté est le seul retour gratuit de ce métier.
+- **Management** : les réponses privées de ton meilleur élément sont un actif que l'entreprise n'a pas.
+- **Relation client** : la réponse que tu écris quinze fois par semaine a un seul lecteur à chaque fois.
 
 ## À discuter
 

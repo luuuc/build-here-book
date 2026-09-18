@@ -51,10 +51,10 @@ Si la deuxième est "pas clair", écris-le. C'est vrai, et ça marque l'endroit 
 
 ## Depuis ton siège
 
-- **Product** : un bug qui revient sous trois formes est une décision produit que personne n'a prise.
+- **Produit** : un bug qui revient sous trois formes est une décision produit que personne n'a prise.
 - **Design** : quand un utilisateur contourne ton écran, le contournement n'est pas la cause.
-- **Manager** : si fermer vite est ce qui se voit, personne ne cherchera la cause.
-- **Customer-facing** : note ce que le client faisait juste avant. C'est souvent la deuxième réponse.
+- **Management** : si fermer vite est ce qui se voit, personne ne cherchera la cause.
+- **Relation client** : note ce que le client faisait juste avant. C'est souvent la deuxième réponse.
 - **Recrutement** : demande un bug que le candidat a compris, pas un bug qu'il a fait disparaître.
 
 ## À discuter

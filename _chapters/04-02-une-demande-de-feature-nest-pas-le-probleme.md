@@ -46,10 +46,10 @@ Sur la prochaine demande, avant que quiconque chiffre, renvoie un message.
 
 ## Depuis ton siège
 
-- **Engineer** : exécuter la demande à la lettre te vaut un merci, puis de la maintenance.
+- **Ingénierie** : exécuter la demande à la lettre te vaut un merci, puis de la maintenance.
 - **Design** : derrière ajoutez un champ, il y a un processus que l'écran ignore.
-- **Founder** : questionner peut donner l'impression de freiner. Fais-le au moment même où tu acceptes la demande.
-- **Customer-facing** : tu reçois une hypothèse de correctif. Demande à quel moment de la semaine ça arrive.
+- **Fondateur** : questionner peut donner l'impression de freiner. Fais-le au moment même où tu acceptes la demande.
+- **Relation client** : tu reçois une hypothèse de correctif. Demande à quel moment de la semaine ça arrive.
 - **Recrutement** : demande quelle demande le candidat a refusé de réaliser telle quelle, et pourquoi.
 
 ## À discuter

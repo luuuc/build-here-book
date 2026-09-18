@@ -2,10 +2,10 @@
 layout: chapter
 title: "Fini de ton côté ne veut pas dire réglé"
 part: "L'ownership"
-order: 602
+order: 601
 card_type: diagnostic
 metadata:
-  principle: "6.02"
+  principle: "6.01"
   reading_time_in_minutes: 2
 categories:
   - ownership
@@ -44,11 +44,11 @@ Suivre chaque chose jusqu'au bout est impossible et ce n'est pas ce qu'on te dem
 
 ## Depuis ton siège
 
-- **Engineer** : « mergé » n'est pas « en production », et « en production » n'est pas « utilisé ».
-- **Product** : une décision prise en réunion n'a atteint que les présents. Écris-la quelque part.
-- **Founder** : compte les passations d'un dossier type. Tes semaines perdues sont là.
-- **Manager** : personne ne suit une passation quand seule sa propre partie est regardée.
-- **Customer-facing** : tu es le dernier maillon, donc tu reçois tout ce que la chaîne a laissé tomber.
+- **Ingénierie** : « mergé » n'est pas « en production », et « en production » n'est pas « utilisé ».
+- **Produit** : une décision prise en réunion n'a atteint que les présents. Écris-la quelque part.
+- **Fondateur** : compte les passations d'un dossier type. Tes semaines perdues sont là.
+- **Management** : personne ne suit une passation quand seule sa propre partie est regardée.
+- **Relation client** : tu es le dernier maillon, donc tu reçois tout ce que la chaîne a laissé tomber.
 
 ## À discuter
 

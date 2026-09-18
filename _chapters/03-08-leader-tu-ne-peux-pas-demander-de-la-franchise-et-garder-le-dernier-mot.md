@@ -46,9 +46,9 @@ Tu prends peut-être le silence pour un accord. Demande à trois personnes sépa
 
 ## Depuis ton siège
 
-- **Engineer** : dis l'objection dans la salle, pas dans le thread privé vingt minutes après.
-- **Product** : ton arbitrage n'a pas été contesté ? Demande à trois personnes séparément avant de conclure.
-- **Customer-facing** : tu portes le client contre une décision déjà prise. Insiste, même si c'est inconfortable.
+- **Ingénierie** : dis l'objection dans la salle, pas dans le thread privé vingt minutes après.
+- **Produit** : ton arbitrage n'a pas été contesté ? Demande à trois personnes séparément avant de conclure.
+- **Relation client** : tu portes le client contre une décision déjà prise. Insiste, même si c'est inconfortable.
 - **Recrutement** : tes entretiens passent devant toi en dernier ? Tu recrutes ceux qui savent te plaire.
 
 ## À discuter

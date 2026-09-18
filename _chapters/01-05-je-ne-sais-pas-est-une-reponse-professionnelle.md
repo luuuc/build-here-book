@@ -48,10 +48,10 @@ Puis reviens demain matin. La crédibilité est entièrement dans le retour.
 
 ## Depuis ton siège
 
-- **Engineer** : une estimation lâchée sous pression devient une date dans un plan. Donne la source avec.
-- **Founder** : tiens compte du décalage horaire du fournisseur avant de promettre une réponse.
-- **Manager** : ce qui arrive à celui qui dit je ne sais pas décide si tu entendras encore la phrase.
-- **Customer-facing** : je vérifie et je te réponds à telle heure bat toujours une réponse plausible.
+- **Ingénierie** : une estimation lâchée sous pression devient une date dans un plan. Donne la source avec.
+- **Fondateur** : tiens compte du décalage horaire du fournisseur avant de promettre une réponse.
+- **Management** : ce qui arrive à celui qui dit je ne sais pas décide si tu entendras encore la phrase.
+- **Relation client** : je vérifie et je te réponds à telle heure bat toujours une réponse plausible.
 - **Recrutement** : un candidat qui dit je ne sais pas en entretien vient de te donner une donnée sûre.
 
 ## À discuter

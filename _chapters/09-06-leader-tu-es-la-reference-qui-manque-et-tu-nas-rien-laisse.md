@@ -46,10 +46,10 @@ Il reste l'exemple que tu donnes, même sans le vouloir. L'équipe copie ce que 
 
 ## Depuis ton siège
 
-- **Engineer** : la troisième fois que tu expliques la même chose, écris-la et envoie le lien à la quatrième.
-- **Product** : après huit ans de conversations, qu'est-ce qu'on peut encore consulter quand tu pars ?
-- **Founder** : l'équipe copie ce que tu fais, pas ce que tu recommandes. Ton silence enseigne aussi.
-- **Customer-facing** : ce que tu expliques à chaque nouveau client mérite une page publique, pas un script.
+- **Ingénierie** : la troisième fois que tu expliques la même chose, écris-la et envoie le lien à la quatrième.
+- **Produit** : après huit ans de conversations, qu'est-ce qu'on peut encore consulter quand tu pars ?
+- **Fondateur** : l'équipe copie ce que tu fais, pas ce que tu recommandes. Ton silence enseigne aussi.
+- **Relation client** : ce que tu expliques à chaque nouveau client mérite une page publique, pas un script.
 - **Recrutement** : compare ce que tu as publié en huit ans avec ce que tu attends de ceux que tu encadres.
 
 ## À discuter

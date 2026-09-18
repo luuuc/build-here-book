@@ -46,10 +46,10 @@ La rétention se paie en argent, en autonomie et en travail intéressant. Elle n
 
 ## Depuis ton siège
 
-- **Engineer** : ton nom sur ce que l'entreprise publie est gratuit. Demande-le une fois, par écrit.
+- **Ingénierie** : ton nom sur ce que l'entreprise publie est gratuit. Demande-le une fois, par écrit.
 - **Design** : les gens signent leur travail partout ailleurs. Une équipe anonyme se remarque de l'extérieur.
-- **Founder** : le silence ne retient personne. Il garantit juste que tu recruteras par recommandation.
-- **Customer-facing** : une entreprise sans visage attire ceux qui ne comparent pas. Les clients aussi.
+- **Fondateur** : le silence ne retient personne. Il garantit juste que tu recruteras par recommandation.
+- **Relation client** : une entreprise sans visage attire ceux qui ne comparent pas. Les clients aussi.
 - **Recrutement** : compte tes recrutements par canal sur deux ans. Tout en recommandation dit tout.
 
 ## À discuter

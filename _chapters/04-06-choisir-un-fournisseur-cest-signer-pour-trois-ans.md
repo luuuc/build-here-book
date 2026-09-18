@@ -4,6 +4,7 @@ title: "Choisir un fournisseur, c'est signer pour trois ans"
 part: "La compréhension"
 order: 406
 card_type: principe
+action_scope: "Portée : décision budgétaire"
 metadata:
   principle: "4.06"
   reading_time_in_minutes: 2
@@ -50,10 +51,10 @@ Puis envoie-les avant de signer, pas après.
 
 ## Depuis ton siège
 
-- **Product** : un fournisseur câblé dans l'inscription, les rappels et les reçus n'est plus un choix technique.
-- **Founder** : il facture en dollars, tes clients paient en monnaie locale. Tu dépends du taux de change.
-- **Manager** : si changer de fournisseur prend plus de quelques semaines, consulte la direction.
-- **Customer-facing** : la panne du fournisseur, c'est toi qui l'expliques. Demande l'alternative avant.
+- **Produit** : un fournisseur câblé dans l'inscription, les rappels et les reçus n'est plus un choix technique.
+- **Fondateur** : il facture en dollars, tes clients paient en monnaie locale. Tu dépends du taux de change.
+- **Management** : si changer de fournisseur prend plus de quelques semaines, consulte la direction.
+- **Relation client** : la panne du fournisseur, c'est toi qui l'expliques. Demande l'alternative avant.
 - **Recrutement** : chaque fournisseur choisi réduit le nombre de gens capables de le faire tourner ici.
 
 ## À discuter

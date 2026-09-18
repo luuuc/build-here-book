@@ -44,11 +44,11 @@ Note l'écart. Puis demande ce que l'étape sautée devait produire, et pour qui
 
 ## Depuis ton siège
 
-- **Engineer** : la commande que tout le monde lance à la main plutôt que le script dit quelque chose du script.
-- **Product** : si personne ne remplit le champ, la donnée que tu analyses est inventée.
-- **Founder** : le raccourci que ton équipe prend a été validé par l'usage. Regarde-le avant de le corriger.
-- **Manager** : rappeler la règle plus fort la troisième fois ne l'a jamais fait appliquer.
-- **Customer-facing** : ce que tu fais en dehors de l'outil officiel est la version qui marche. Dis-le.
+- **Ingénierie** : la commande que tout le monde lance à la main plutôt que le script dit quelque chose du script.
+- **Produit** : si personne ne remplit le champ, la donnée que tu analyses est inventée.
+- **Fondateur** : le raccourci que ton équipe prend a été validé par l'usage. Regarde-le avant de le corriger.
+- **Management** : rappeler la règle plus fort la troisième fois ne l'a jamais fait appliquer.
+- **Relation client** : ce que tu fais en dehors de l'outil officiel est la version qui marche. Dis-le.
 
 ## À discuter
 

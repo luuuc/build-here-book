@@ -2,10 +2,10 @@
 layout: chapter
 title: "Trente pour cent de ce qui arrive est la même chose"
 part: "Le levier"
-order: 802
+order: 801
 card_type: diagnostic
 metadata:
-  principle: "8.02"
+  principle: "8.01"
   reading_time_in_minutes: 2
 categories:
   - levier
@@ -44,10 +44,10 @@ Trie. Regarde les quatre premières lignes du classement. Choisis-en une.
 
 ## Depuis ton siège
 
-- **Product** : range les demandes par cause et ta feuille de route se réécrit dans l'après-midi.
-- **Engineer** : les erreurs en production se comptent aussi. Trois messages couvrent souvent la moitié.
-- **Founder** : demande la composition, pas le volume. Un total ne dit jamais quoi faire.
-- **Manager** : ce comptage n'arrive jamais tout seul. Il demande une demi-journée que tu dois donner.
+- **Produit** : range les demandes par cause et ta feuille de route se réécrit dans l'après-midi.
+- **Ingénierie** : les erreurs en production se comptent aussi. Trois messages couvrent souvent la moitié.
+- **Fondateur** : demande la composition, pas le volume. Un total ne dit jamais quoi faire.
+- **Management** : ce comptage n'arrive jamais tout seul. Il demande une demi-journée que tu dois donner.
 - **Recrutement** : classe les refus par motif réel. Le motif fréquent n'est presque jamais celui qu'on cite.
 
 ## À discuter

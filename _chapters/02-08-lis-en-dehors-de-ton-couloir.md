@@ -50,10 +50,10 @@ Puis pose une question sur l'une d'elles, dans le canal, en citant les trois foi
 
 ## Depuis ton siège
 
-- **Product** : après le paiement, vérifie qui prend le relais. Les responsabilités y sont souvent floues.
+- **Produit** : après le paiement, vérifie qui prend le relais. Les responsabilités y sont souvent floues.
 - **Design** : suis un ticket de support jusqu'au bout. Tu verras l'écran que les gens contournent.
-- **Manager** : celui qui lit le couloir d'à côté n'a pas de titre pour ça. Sache au moins qui c'est.
-- **Customer-facing** : tu vois les problèmes entre équipes en premier. Signale-les, avec trois exemples datés.
+- **Management** : celui qui lit le couloir d'à côté n'a pas de titre pour ça. Sache au moins qui c'est.
+- **Relation client** : tu vois les problèmes entre équipes en premier. Signale-les, avec trois exemples datés.
 - **Recrutement** : demande ce qui se passe avant et après le travail du candidat. Tu verras s'il comprend l'ensemble.
 
 ## À discuter

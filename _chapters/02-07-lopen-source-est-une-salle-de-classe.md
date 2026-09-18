@@ -44,10 +44,10 @@ Puis envoie un petit correctif. Une documentation ambiguë compte. La première 
 
 ## Depuis ton siège
 
-- **Product** : une proposition rejetée avec ses trois paragraphes de raisons est un cours d'arbitrage.
+- **Produit** : une proposition rejetée avec ses trois paragraphes de raisons est un cours d'arbitrage.
 - **Design** : les débats d'API montrent comment on rend une chose compréhensible sans explication.
-- **Founder** : une relecture exigeante par un mainteneur expérimenté, gratuitement.
-- **Customer-facing** : l'explication du bug qui casse tes clients est souvent dans un thread de 2023.
+- **Fondateur** : une relecture exigeante par un mainteneur expérimenté, gratuitement.
+- **Relation client** : l'explication du bug qui casse tes clients est souvent dans un thread de 2023.
 - **Recrutement** : personne n'y voit d'où vient quelqu'un. C'est une source que tu n'utilises pas.
 
 ## À discuter
