@@ -36,7 +36,7 @@ Cette étape contient aussi les cartes marquées ⇄ des neuf autres, et c'est v
 
 Tu es passé à l'étape suivante quand quelqu'un a pris une bonne décision sans toi, en s'appuyant sur quelque chose que tu avais laissé.
 
-**Ce qui change :** ta capacité devient celle d'autres personnes et de l'organisation. **La tension qui reste :** elle demeure enfermée dans son réseau tant qu'aucun artefact ne peut voyager au-delà. L'étape suivante rend ce travail trouvable — en interne d'abord, en public quand c'est possible.
+**Ce qui change :** ta capacité devient celle d'autres personnes et de l'organisation. **La tension qui reste :** elle demeure enfermée dans son réseau tant qu'aucun artefact ne peut voyager au-delà. L'étape suivante rend ce travail trouvable, en interne d'abord, en public quand c'est possible.
 
 ---
 

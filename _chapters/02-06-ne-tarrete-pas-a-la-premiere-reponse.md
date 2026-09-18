@@ -39,8 +39,6 @@ Le traitement d'import s'est arrêté dans la nuit. Tu le relances, les chiffres
 
 Le même piège existe loin du code. Trois clients demandent comment télécharger leur reçu. Le support envoie le bon lien, vite, et les trois repartent contents. La première réponse est bonne. La deuxième question est meilleure : pourquoi trois personnes qui viennent de payer ne trouvent-elles pas ce lien seules ? Tant que personne ne la pose, le support gagne sur son temps de réponse et l'entreprise paie la même réponse chaque semaine.
 
-Et personne ne fera cette recherche à ta place. Aucun senior du plateau n'a fait tourner ce système. La deuxième réponse sort du code source, ou de la doc du fournisseur, lue par toi, lentement, sur une connexion qui te fait réfléchir à l'utilité de la vidéo.
-
 Deux niveaux suffisent presque toujours. À force d'imposer un formulaire des cinq pourquoi et une réunion récurrente, on finit par décourager la recherche des causes. Ça a cassé, pourquoi ? Le champ était vide. Pourquoi il était vide ? Rien n'empêche qu'il soit vide. C'est cette deuxième réponse qui mérite d'être écrite, parce que le suivant ne peut pas y arriver seul.
 
 ## À essayer
