@@ -27,9 +27,7 @@ La demande est précise, le besoin est réel, et il existe effectivement un prod
 
 ## Pourquoi
 
-Les entreprises achètent des outils et en utilisent une petite part. Ce n'est pas de la négligence, c'est ce qui arrive quand la fonctionnalité qui manquait a été achetée séparément trois fois, à trois moments où personne n'avait le temps d'aller voir.
-
-Acheter ressemble à une décision. On l'annonce, elle a une date, elle a un budget, et elle donne le sentiment d'avoir traité le sujet. Lire la documentation d'un outil qu'on paie déjà ne ressemble à rien, ne s'annonce pas, et n'apparaît sur aucun compte rendu. Le geste le plus rentable de cette étape est donc aussi le moins visible, et c'est pour ça qu'il n'est presque jamais fait.
+Les entreprises achètent des outils et en utilisent une petite part. Ce n'est pas de la négligence, c'est ce qui arrive quand la fonctionnalité qui manquait a été achetée séparément trois fois, à trois moments où personne n'avait le temps d'aller voir. Acheter ressemble à une décision. On l'annonce, elle a une date, elle a un budget, et elle donne le sentiment d'avoir traité le sujet. Lire la documentation d'un outil qu'on paie déjà ne ressemble à rien, ne s'annonce pas, et n'apparaît sur aucun compte rendu. Le geste le plus rentable de cette étape est donc aussi le moins visible, et c'est pour ça qu'il n'est presque jamais fait.
 
 Le coût de l'achat en plus dépasse largement l'abonnement. Un outil de plus, c'est un compte à gérer, un accès à retirer quand quelqu'un part, une intégration à maintenir, une deuxième liste de clients qui diverge de la première, et un endroit supplémentaire où une information peut se cacher. Ces coûts arrivent tous plus tard et aucun n'est chiffré le jour de la décision.
 

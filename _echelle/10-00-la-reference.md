@@ -54,3 +54,4 @@ Cette marche est la seule dont tu ne verras pas le résultat. Quelqu'un règle s
 - 10.09 Une référence n'est pas une personnalité
 - 10.10 Ta première contribution
 - 10.11 Personne n'a écrit ce que tu sais faire
+- 10.12 Partir n'est pas une trahison

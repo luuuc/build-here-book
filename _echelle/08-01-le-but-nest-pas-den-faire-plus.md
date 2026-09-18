@@ -27,9 +27,7 @@ Le volume est réel, l'équipe fatigue, et personne dans la salle ne conteste s�
 
 ## Pourquoi
 
-Quelqu'un traite cinquante conversations par jour. Un bon builder ne cherche pas à en traiter cent.
-
-Il regarde les cinquante. Il trouve que trente pour cent portent sur la même étape de paiement, que les gens comprennent de travers. Il travaille avec le produit pour supprimer la confusion, réécrit deux articles d'aide, prépare une réponse assistée pour les cas qui restent, et fait disparaître plusieurs milliers de conversations à venir. Le volume ne baisse pas de dix pour cent, il change de forme.
+Quelqu'un traite cinquante conversations par jour. Un bon builder ne cherche pas à en traiter cent. Il regarde les cinquante. Il trouve que trente pour cent portent sur la même étape de paiement, que les gens comprennent de travers. Il travaille avec le produit pour supprimer la confusion, réécrit deux articles d'aide, prépare une réponse assistée pour les cas qui restent, et fait disparaître plusieurs milliers de conversations à venir. Le volume ne baisse pas de dix pour cent, il change de forme.
 
 Ajouter de la capacité à un flux qu'on n'a pas examiné multiplie aussi ses défauts. Deux personnes répondent désormais deux fois plus vite à une question qui n'aurait jamais dû se poser, et l'entreprise paie deux salaires pour entretenir une confusion à trois cents euros de correction. Six mois plus tard, le volume a repris sa croissance, la demande d'embauche revient, et elle est toujours aussi justifiée.
 

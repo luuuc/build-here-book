@@ -35,11 +35,13 @@ Tu es passé à l'étape suivante quand quelqu'un d'une autre équipe t'apporte 
 
 - 2.01 Faire simple est une performance technique
 - 2.02 Lis le code source
-- 2.03 Ton meilleur professeur ne travaille pas ici
-- 2.04 Ne t'arrête pas à la première réponse
-- 2.05 L'open source est une salle de classe
-- 2.06 Lis en dehors de ton couloir
-- 2.07 Ton marché peut être local. Ton niveau, non
-- 2.08 Le savoir n'est pas ce qui te manque
-- 2.09 ⇄ Tu récoltes la complexité que tu récompenses
-- 2.10 ⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser
+- 2.03 Douze ans d'expérience, ou douze fois la même année
+- 2.04 Ton métier a une littérature, et tu ne l'as pas lue
+- 2.05 Ton meilleur professeur ne travaille pas ici
+- 2.06 Ne t'arrête pas à la première réponse
+- 2.07 L'open source est une salle de classe
+- 2.08 Lis en dehors de ton couloir
+- 2.09 Ton marché peut être local. Ton niveau, non
+- 2.10 Le savoir n'est pas ce qui te manque
+- 2.11 ⇄ Tu récoltes la complexité que tu récompenses
+- 2.12 ⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser

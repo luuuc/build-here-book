@@ -27,9 +27,7 @@ La phrase est exacte. Ta partie est terminée, proprement, dans les temps. Elle 
 
 ## Pourquoi
 
-Une chaîne de quatre équipes où chacune fait correctement sa partie peut produire zéro résultat. C'est le genre de phrase qu'on croit exagérée jusqu'à en voir une.
-
-Une entreprise change sa grille tarifaire. Le produit l'a spécifiée. L'engineering l'a livrée. Le marketing l'a annoncée. Personne n'a changé le contrat type que le commerce envoie, parce que ce n'était le côté de personne. Le premier client de la nouvelle grille signe l'ancien prix, et il le signe pour trois ans. Quatre équipes avaient fini.
+Une chaîne de quatre équipes où chacune fait correctement sa partie peut produire zéro résultat. C'est le genre de phrase qu'on croit exagérée jusqu'à en voir une. Une entreprise change sa grille tarifaire. Le produit l'a spécifiée. L'engineering l'a livrée. Le marketing l'a annoncée. Personne n'a changé le contrat type que le commerce envoie, parce que ce n'était le côté de personne. Le premier client de la nouvelle grille signe l'ancien prix, et il le signe pour trois ans. Quatre équipes avaient fini.
 
 Le mécanisme est toujours le même. À chaque passation, celui qui envoie considère que c'est terminé, celui qui reçoit n'a pas encore commencé, et le dossier vit dans l'intervalle. L'intervalle n'appartient à personne, donc personne ne le compte, donc il n'apparaît dans aucun bilan. Additionne quatre intervalles et tu obtiens les semaines que ton entreprise perd sans jamais réussir à dire où.
 
