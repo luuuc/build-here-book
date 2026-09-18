@@ -32,7 +32,7 @@ Ce qui empêche le plus souvent de franchir cette étape se dit rarement à voix
 
 L'autre frein est plus banal. Une conversation, une personne. Le mentorat s'arrête le jour où tu changes d'entreprise, et il ne touche jamais plus d'une personne à la fois.
 
-Cette étape contient aussi les cartes marquées ⇄ des neuf autres, et c'est voulu. Un builder qui monte l'échelle demande des choses aux gens autour de lui, et la plupart de ces choses sont impossibles dans une organisation ordinaire. Celui qui fabrique les conditions décide donc de ce que les autres ont le droit de faire. Une première réaction, une question sans réponse ou un planning plein suffisent à rendre l'attente rationnelle pour huit personnes.
+Les cartes marquées ⇄ du livre entier relèvent de cette étape, même quand elles sont rangées ailleurs, à côté de la carte individuelle qu'elles rendent possible. Un builder qui monte l'échelle demande des choses aux gens autour de lui, et la plupart de ces choses sont impossibles dans une organisation ordinaire. Celui qui fabrique les conditions décide donc de ce que les autres ont le droit de faire. Une première réaction, une question sans réponse ou un planning plein suffisent à rendre l'attente rationnelle pour huit personnes.
 
 Tu es passé à l'étape suivante quand quelqu'un a pris une bonne décision sans toi, en s'appuyant sur quelque chose que tu avais laissé.
 

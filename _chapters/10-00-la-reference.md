@@ -44,6 +44,8 @@ L'objet de cette étape est unique et tout en découle. Un artefact est une chos
 
 Cette marche est la seule dont tu ne verras pas le résultat. Quelqu'un s'appuie sur ton travail, ne te le dit pas, ne te cite pas, et repart. C'est la seule preuve qui compte et elle est invisible.
 
+Cette étape ne porte aucune carte ⇄, et ce n'est pas parce qu'elle n'en a pas besoin. Ce qu'elle demande, publier sous son nom, répondre en public, laisser une trace qui sorte de l'entreprise, dépend de deux conditions qu'un autre fixe : *L'absence de règle est une interdiction* et *Tu gardes ton équipe invisible parce que visible, elle part*. Les deux sont à l'étape précédente. Si tu lis celle-ci sans pouvoir agir sur celles-là, commence par les faire lire.
+
 **Ce qui change :** le savoir devient trouvable, vérifiable et corrigeable sans son auteur. **La tension qui reste :** un artefact vieillit. La conclusion explique comment arbitrer entre les cartes, constater un échec, corriger une trace et la retirer.
 
 ---
