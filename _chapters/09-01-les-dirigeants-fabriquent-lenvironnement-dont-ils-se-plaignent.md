@@ -34,7 +34,7 @@ Quand une personne se comporte d'une certaine façon, on peut s'interroger sur e
 
 L'environnement de travail repose sur des choix concrets, et c'est toi qui les as presque tous faits. Ce qui est mesuré. Ce qui est promu. Ce qui est arrivé la dernière fois que quelqu'un a échoué en public.
 
-Le ratio te dit dans quelle conversation tu es. Une personne passive sur douze est une conversation de recrutement. Neuf sur douze, c'est un problème d'organisation. Et cette organisation, c'est toi qui la définis.
+Le ratio te dit dans quelle conversation tu es. Une seule personne passive est une conversation de recrutement. Presque toute l'équipe, c'est un problème d'organisation. Et cette organisation, c'est toi qui la définis.
 
 La plainte qu'on entend à chaque événement, celle selon laquelle les talents d'ici manquent d'initiative, est parfois formulée par ceux qui ont construit la salle qui la produit. Inutile d'en conclure qu'il faut culpabiliser. Changer les gens prend un an. Changer un morceau du système se fait cette semaine.
 
@@ -51,7 +51,7 @@ Cherche dans les incitations, pas dans les caractères. La réponse ramène en g
 - **Ingénierie** : si tout le monde autour de toi contourne la même chose, ce n'est pas un défaut de caractère.
 - **Design** : quand tous les utilisateurs se trompent au même endroit, c'est l'écran. Ici, c'est la salle.
 - **Fondateur** : changer les gens prend un an. Changer un morceau du système se fait cette semaine.
-- **Recrutement** : une personne sur douze, regarde le recrutement. Neuf sur douze, regarde l'organisation.
+- **Recrutement** : une seule personne, regarde le recrutement. Presque toute l'équipe, regarde l'organisation.
 
 ## À discuter
 

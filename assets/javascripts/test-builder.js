@@ -39,7 +39,7 @@
       ["Pratique", "Supprime l'étape avant de la documenter", "/chapters/07-02-supprime-letape-avant-de-la-documenter.html"]
     ]},
     { n: 8, name: "Le levier", line: "Tu multiplies un jugement solide au lieu de multiplier seulement l'activité.", practice: "Liste les demandes de la semaine. Regroupe celles qui se répètent et automatise seulement la partie dont tu sais vérifier la sortie.", cards: [
-      ["Diagnostic", "Trente pour cent de ce qui arrive est la même chose", "/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html"],
+      ["Diagnostic", "Range-les par cause, pas par sujet", "/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html"],
       ["Principe", "Le levier le moins cher est déjà payé", "/chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html"],
       ["Pratique", "L'IA est un levier, pas un raccourci", "/chapters/08-03-lia-est-un-levier-pas-un-raccourci.html"]
     ]},

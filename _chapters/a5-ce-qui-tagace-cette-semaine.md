@@ -112,8 +112,8 @@ Les quatre-vingt-une cartes y sont, chacune au moins une fois. Aucun classement 
 
 ## On abat plus de travail et le volume ne baisse jamais
 
-- "On est débordés, il nous faut quelqu'un de plus"  →  [Trente pour cent de ce qui arrive est la même chose](/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html)
-- "Chaque client est différent", et personne n'a jamais compté  →  [Trente pour cent de ce qui arrive est la même chose](/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html)
+- "On est débordés, il nous faut quelqu'un de plus"  →  [Range-les par cause, pas par sujet](/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html)
+- "Chaque client est différent", et personne n'a jamais compté  →  [Range-les par cause, pas par sujet](/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html)
 - On a mis de l'IA dessus et personne ne vérifie ce qui en sort  →  [L'IA est un levier, pas un raccourci](/chapters/08-03-lia-est-un-levier-pas-un-raccourci.html)
 - "Il nous faudrait un outil pour ça"  →  [Le levier le moins cher est déjà payé](/chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html)
 - On a automatisé, et la même erreur est partie quarante mille fois  →  [Un levier mal placé multiplie l'erreur](/chapters/08-05-un-levier-mal-place-multiplie-lerreur.html)

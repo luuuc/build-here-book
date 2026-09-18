@@ -38,9 +38,7 @@ Regarde ce qui se passe quand on comprend mal le système. Le support répond po
 
 La même chose arrive dans le code. Un changement de config d'une ligne est chiffré à trois jours parce que le script de déploiement n'a pas été rouvert depuis le départ de son auteur. Dans les deux cas, la marge devient le plan. Personne n'a menti, mais le planning repose sur une partie du travail que personne n'a regardée.
 
-Sans limite, la curiosité se transforme effectivement en une semaine perdue sur une réécriture non demandée. C'est pour ça qu'on l'interdit, et c'est pour ça qu'il faut plutôt la borner. Trente minutes, sur une chose que tu touches chaque semaine, sur un système où ton manque de compréhension finira par te coûter cher.
-
-Trente minutes par semaine, c'est vingt-quatre heures par an. Ça passe inaperçu dans le planning des sprints. Au bout d'un an, c'est vers cette personne que les questions remontent, et on ne sait plus dire depuis quand.
+Sans limite, la curiosité se transforme effectivement en une semaine perdue sur une réécriture non demandée. C'est pour ça qu'on l'interdit, et c'est pour ça qu'il faut plutôt la borner. Trente minutes, sur une chose que tu touches chaque semaine, sur un système où ton manque de compréhension finira par te coûter cher. Trente minutes par semaine, c'est vingt-six heures par an, et ça passe inaperçu dans le planning des sprints. Au bout d'un an, c'est vers cette personne que les questions remontent, et on ne sait plus dire depuis quand.
 
 ## À essayer
 

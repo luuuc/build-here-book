@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Trente pour cent de ce qui arrive est la même chose"
+title: "Range-les par cause, pas par sujet"
 part: "Le levier"
 order: 801
 card_type: diagnostic
