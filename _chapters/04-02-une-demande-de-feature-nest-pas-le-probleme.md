@@ -33,7 +33,7 @@ Un client connaît son problème, pas forcément la meilleure façon de le réso
 
 Cette hypothèse est un signal fort et une mauvaise spécification. Derrière "il nous faut un export de fin de mois", il y a quelqu'un qui doit prouver un chiffre à un auditeur. Derrière "ajoutez un champ", il y a un processus que ton produit ignore. Construis exactement ce qui est demandé et tu achètes une semaine de bonne volonté, le besoin reste où il était, et tu dois maintenant assurer la maintenance.
 
-Le client pèse lourd, la demande est écrite, et poser des questions se lit comme un frein sur un contrat qui paie les salaires du mois. Alors ne freine pas. Pose la question en même temps que tu acceptes la demande.
+Le client pèse lourd, la demande est écrite, et poser des questions peut donner l'impression qu'on freine un contrat qui paie les salaires du mois. Alors ne bloque pas la demande. Pose la question au moment même où tu l'acceptes.
 
 Comprendre le besoin permet parfois de livrer une solution moins coûteuse. Le problème de l'auditeur, c'est une vue filtrée et un bouton d'export, pas un module de reporting.
 
@@ -47,7 +47,7 @@ Sur la prochaine demande, avant que quiconque chiffre, renvoie un message.
 
 - **Engineer** : exécuter la demande à la lettre te vaut un merci, puis de la maintenance.
 - **Design** : derrière ajoutez un champ, il y a un processus que l'écran ignore.
-- **Founder** : poser la question se lit comme un frein. Pose la question en même temps que tu acceptes la demande.
+- **Founder** : questionner peut donner l'impression de freiner. Fais-le au moment même où tu acceptes la demande.
 - **Customer-facing** : tu reçois une hypothèse de correctif. Demande à quel moment de la semaine ça arrive.
 - **Recrutement** : demande quelle demande le candidat a refusé de réaliser telle quelle, et pourquoi.
 

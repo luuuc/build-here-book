@@ -31,7 +31,7 @@ Personne n'a besoin de la connaître également partout. Chacun a besoin d'en sa
 
 Sans ça, chaque département optimise correctement sa propre partie, et l'entreprise perd. Ce n'est pas un problème de coopération et ça ne se répare pas avec un séminaire. Une équipe qui ne voit pas la chaîne prend des décisions justes localement, et personne dans la salle n'a l'information qui montrerait qu'elles s'annulent.
 
-Ce qui retient à cette étape porte un nom respectable. Ce n'est pas mon périmètre, et la version polie, je ne veux pas marcher sur les plates-bandes de quelqu'un. Il y a aussi une raison plus simple. Comprendre la chaîne prend du temps, et ce temps n'apparaît dans aucun planning, alors qu'il se remarque immédiatement quand il manque.
+Ce qui empêche le plus souvent de franchir cette étape porte un nom respectable : « ce n'est pas mon périmètre », ou, dans sa version polie, « je ne veux pas marcher sur les plates-bandes de quelqu'un ». Il y a aussi une raison plus simple. Comprendre la chaîne prend du temps. Ce temps n'apparaît dans aucun planning, alors que son absence se remarque immédiatement.
 
 C'est l'étape la plus fournie du livre, parce que c'est là que le métier des autres devient lisible. Quatre familles de cartes y vivent ensemble : ce que la technologie décide du business, ce que le client sait et ne sait pas, ce qu'un produit promet, et par où les gens arrivent.
 
@@ -55,4 +55,3 @@ Tu es passé à l'étape suivante quand tu peux dire comment ce que tu as livré
 - 4.12 [⇄ Un chiffrage demandé après la décision n'est pas un chiffrage](/chapters/04-12-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html)
 - 4.13 [⇄ L'accès au client est un budget, pas une valeur](/chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html)
 - 4.14 [⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités](/chapters/04-14-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html)
-

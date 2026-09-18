@@ -28,7 +28,7 @@ Tu partages ce que tu as trouvé. Tu l'écris. Tu l'apprends à quelqu'un. Tu mo
 
 Ta capacité devient la capacité de l'organisation.
 
-Ce qui retient à cette étape se dit rarement à voix haute. Transmettre ce que tu sais faire réduit ce qui te distingue. Si ton avantage tient à être le seul à savoir, l'enseigner ressemble à se saborder. Le calcul est faux, mais il est sincère, et il suffit à expliquer des années de savoir gardé.
+Ce qui empêche le plus souvent de franchir cette étape se dit rarement à voix haute. Transmettre ce que tu sais faire réduit ce qui te distingue. Si ton avantage tient au fait d'être le seul à savoir, l'enseigner ressemble à du sabotage. Le calcul est faux, mais il est sincère, et il suffit à expliquer des années de savoir gardé pour soi.
 
 L'autre frein est plus banal. Une conversation, une personne. Le mentorat s'arrête le jour où tu changes d'entreprise, et il ne touche jamais plus d'une personne à la fois.
 
@@ -46,4 +46,3 @@ Tu es passé à l'étape suivante quand quelqu'un a pris une bonne décision san
 - 9.04 [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/09-04-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
 - 9.05 [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-05-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
 - 9.06 [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/chapters/09-06-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
-

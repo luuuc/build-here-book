@@ -28,7 +28,7 @@ Les leviers ne manquent pas et la plupart ne coûtent rien. Le logiciel en est u
 
 Le but n'est pas d'abattre plus de travail. C'est que chaque unité de travail produise davantage.
 
-Ce qui retient à cette étape est le mode de mesure. Presque partout, la quantité de travail visible est le signe qu'on regarde. Celui qui traite cent conversations a une bonne semaine. Celui qui en supprime mille n'a rien à montrer pendant deux semaines, puis plus rien à montrer du tout, parce que son résultat prend la forme d'une absence. Une absence ne remplit aucun rapport.
+Ce qui empêche le plus souvent de franchir cette étape, c'est la façon dont le travail est mesuré. Presque partout, on regarde d'abord la quantité de travail visible. Celui qui traite cent conversations a une bonne semaine. Celui qui en supprime mille n'a rien à montrer pendant deux semaines, puis plus rien à montrer du tout, parce que son résultat prend la forme d'une absence. Une absence ne remplit aucun rapport.
 
 Il faut aussi nommer le danger de cette marche, et il est sérieux. Un levier multiplie ce sur quoi tu le poses, y compris une erreur. Automatiser un processus mauvais produit du mauvais plus vite et plus loin. Mettre de l'argent derrière un message qui ne marche pas achète de l'indifférence à grande échelle. C'est pourquoi cette étape vient après la compréhension et après les systèmes, et pas avant.
 
@@ -44,4 +44,3 @@ Tu es passé à l'étape suivante quand ce que tu produis a cessé de suivre le 
 - 8.04 [Le levier le moins cher est déjà payé](/chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html)
 - 8.05 [Un levier mal placé multiplie l'erreur](/chapters/08-05-un-levier-mal-place-multiplie-lerreur.html)
 - 8.06 [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
-

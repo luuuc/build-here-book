@@ -225,11 +225,11 @@ Inclus ce qu'elle t'a coûté. Pas comme une histoire, comme un mécanisme. La c
 
 La même page donne de quoi écrire à deux mains avec ton assistant. Un entretien de huit questions à copier-coller, il te les pose une par une et assemble le fichier au format décrit ci-dessus. C'est là pour la page blanche, qui est le vrai obstacle, pas le markdown.
 
-**Ce que tu envoies devient une pull request sur [le dépôt](https://github.com/{{ site.repository }}), sous ton nom.** Le formulaire fait l'étape Git à ta place, il ne range pas ton carte ailleurs. La relecture se passe donc en public dans les deux cas.
+**Ce que tu envoies devient une pull request sur [le dépôt](https://github.com/{{ site.repository }}), sous ton nom.** Le formulaire fait l'étape Git à ta place, il ne range pas ta carte ailleurs. La relecture se passe donc en public dans les deux cas.
 
 Si tu as déjà un compte GitHub, ouvre-la directement. Le modèle de pull request est la liste des douze tests en cases à cocher, et le [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md) donne les détails mécaniques, le nommage des fichiers et le champ `order`.
 
-Si tu n'as jamais fait ni l'un ni l'autre, lis *[Ta première contribution](/chapters/10-10-ta-premiere-contribution.html)*, qui décrit exactement ce qui va se passer. Et l'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ton carte.
+Si tu n'as jamais fait ni l'un ni l'autre, lis *[Ta première contribution](/chapters/10-10-ta-premiere-contribution.html)*, qui décrit exactement ce qui va se passer. Et l'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ta carte.
 
 ### Ce qui se passe ensuite
 

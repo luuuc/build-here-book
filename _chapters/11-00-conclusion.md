@@ -11,7 +11,7 @@ categories:
   - cloture
   - builders
 seo:
-  description: "Un builder est quelqu'un qui prend la responsabilité de rendre le réel meilleur."
+  description: "Un builder est quelqu'un qui prend la responsabilité d'améliorer concrètement ce qui l'entoure."
   keywords: "build here, conclusion, builder, echelle"
 redirect_from:
   - /chapters/17-conclusion.html
@@ -19,12 +19,12 @@ redirect_from:
 
 Tout ce livre tient dans un paragraphe, et le voici.
 
-Un builder est quelqu'un qui prend la responsabilité de rendre le réel meilleur.
+Un builder est quelqu'un qui prend la responsabilité d'améliorer concrètement ce qui l'entoure.
 
 Il développe un métier.
 Il comprend l'ensemble.
 Il cherche des problèmes plutôt que des tâches.
-Il met des solutions dans le réel.
+Il met ses solutions à l'épreuve des usages.
 Il répond de ce qui arrive ensuite.
 Il apprend du résultat.
 Il transforme ce qu'il a résolu deux fois en système.
@@ -40,7 +40,7 @@ Les huit premières étapes rendent meilleur. Elles sont exigeantes et elles son
 
 Les deux dernières sont d'une autre nature, et c'est là que la plupart des carrières s'arrêtent sans que personne le remarque. Une personne peut appliquer les huit premières à la lettre pendant dix ans, être excellente, et ne laisser strictement rien derrière elle. Rien dans le fait de bien travailler ne produit une trace. Il faut le décider.
 
-C'est aussi la seule partie de ce livre dont tu ne verras pas le résultat. Quelqu'un règle son travail sur le tien, ne te le dit pas, ne te cite pas, et repart. Ce n'est pas une raison pour garder ce que tu sais dans ta tête.
+C'est aussi la seule partie de ce livre dont tu ne verras pas le résultat. Quelqu'un s'appuie sur ton travail, ne te le dit pas, ne te cite pas, et repart. Ce n'est pas une raison pour garder ce que tu sais dans ta tête.
 
 ## Écris la carte suivante
 

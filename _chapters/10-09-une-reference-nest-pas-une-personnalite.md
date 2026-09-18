@@ -35,7 +35,7 @@ Le test tient en une question. Qu'est-ce qui reste si la personne cesse de publi
 
 Ce que ça change pour toi est la meilleure nouvelle de cette étape et elle est rarement dite. Tu n'as pas besoin d'être présent, régulier, sympathique, ni d'avoir un avis sur ce qui vient de se passer. En contrepartie, cela prend du temps. Une personnalité se construit en six mois. Une référence prend des années et rien ne compense ça. Si tu as besoin d'un résultat ce trimestre, ce n'est pas le bon chemin et il vaut mieux le savoir maintenant.
 
-Et quand ça marche, tu ne le verras pas. Quelqu'un calera son travail sur le tien sans te le dire, ne te citera jamais, et repartira. C'est le seul résultat qui compte et il est invisible, ce qui est très exactement l'invisibilité décrite au début du livre, sauf que cette fois le travail circule.
+Et quand ça marche, tu ne le verras pas. Quelqu'un s'appuiera sur ton travail sans te le dire, ne te citera jamais, et repartira. C'est le seul résultat qui compte et il est invisible, ce qui est très exactement l'invisibilité décrite au début du livre, sauf que cette fois le travail circule.
 
 ## À essayer
 

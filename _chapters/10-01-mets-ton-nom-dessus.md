@@ -41,7 +41,7 @@ Tu auras l'impression de faire ta propre publicité les trois premières fois. P
 
 ## À essayer
 
-Une chose, cette semaine, avec ton nom dessus, en public.
+Une chose, cette semaine, publiée sous ton nom.
 
 La chose que tu as comprise le mois dernier, écrite. L'incident, les cinquante demandes support classées par cause, l'écran abandonné après cinq tests, l'étape de recrutement où les bons candidats partaient. Ce que tu croyais, ce que tu as observé, ce que tu as changé. Neuf cents mots, aucune conclusion sur l'industrie.
 

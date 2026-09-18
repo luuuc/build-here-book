@@ -46,7 +46,7 @@ Chaque porte était une réponse raisonnable à quelque chose qui a cassé une f
 ## Depuis ton siège
 
 - **Engineer** : compte les portes entre ton commit et un client. Chacune a été posée par quelqu'un.
-- **Product** : couper le périmètre est impossible tant que les deux tiers se lisent comme un échec.
+- **Product** : réduire le périmètre est impossible tant que livrer les deux tiers est considéré comme un échec.
 - **Design** : une page de test et un tableur sont utiles si l'on reconnaît ce qu'ils permettent d'apprendre.
 - **Founder** : chaque porte répondait à un incident. Tu sais encore nommer lequel ?
 - **Customer-facing** : un correctif d'une ligne qui met trois semaines, c'est toi qui l'expliques au client.

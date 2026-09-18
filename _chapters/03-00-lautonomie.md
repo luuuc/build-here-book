@@ -26,7 +26,7 @@ Trois niveaux, trois phrases, et la progression est la même partout. Elle vaut 
 
 Plus un builder progresse, moins quelqu'un a besoin de découper la réalité en tâches pour lui. Tu passes d'exécuter des instructions à poursuivre un résultat.
 
-Ce qui retient à cette étape est presque toujours mutuel, et c'est ce qui la rend difficile à débloquer. D'un côté, la traduction est un service. Recevoir un ticket propre est confortable, arrive avec une échéance claire, et protège de l'accusation d'avoir mal compris. De l'autre, celui qui traduit y gagne le contrôle et paie l'embouteillage. Les deux ont de bonnes raisons de garder le système en place, et l'équipe finit avec une personne qui sait pourquoi et huit qui savent quoi.
+Le blocage, à cette étape, est presque toujours partagé, et c'est ce qui le rend difficile à lever. D'un côté, traduire le problème en tâche rend service. Recevoir un ticket propre est confortable : il arrive avec une échéance claire et protège de l'accusation d'avoir mal compris. De l'autre, celui qui traduit garde le contrôle, mais devient un goulot d'étranglement. Les deux ont de bonnes raisons de maintenir le système, et l'équipe finit avec une personne qui sait pourquoi et huit qui savent quoi.
 
 L'autonomie n'est pas non plus la permission de partir seul dans une direction. C'est la capacité de remonter d'une tâche vers le problème qu'elle prétend résoudre, et de discuter le lien. Souvent le lien tient. Parfois la tâche demandée est la troisième meilleure façon de traiter le problème, et personne ne le saura si tu exécutes.
 
@@ -44,4 +44,3 @@ Tu es passé à l'étape suivante quand on t'apporte une situation au lieu d'une
 - 3.06 [Le rôle du product, ce n'est pas de rédiger des tickets](/chapters/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html)
 - 3.07 [⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente](/chapters/03-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)
 - 3.08 [⇄ Tu ne peux pas demander de la franchise et garder le dernier mot](/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html)
-

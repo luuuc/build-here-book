@@ -29,7 +29,7 @@ Neuf mois à faire tenir un tunnel de paiement sur deux rails qui ne se parlent 
 
 ## Pourquoi
 
-Tout ce que le livre t'a demandé jusqu'ici fait circuler l'information dans un sens. Tu lis des postmortems de systèmes que tu n'auras jamais à exploiter, tu importes un niveau, tu cales ton travail sur des gens qui ne connaissent ni tes rails de paiement ni tes appareils. C'est utile et c'est incomplet, parce que rien n'est jamais reparti dans l'autre sens.
+Tout ce que le livre t'a demandé jusqu'ici fait circuler l'information dans un sens. Tu lis des postmortems de systèmes que tu n'auras jamais à exploiter, tu découvres d'autres niveaux d'exigence, tu prends pour références des gens qui ne connaissent ni tes rails de paiement ni tes appareils. C'est utile et c'est incomplet, parce que rien n'est jamais reparti dans l'autre sens.
 
 Fais l'expérience avant de me croire. Cherche comment on rattrape un paiement mobile qui a échoué chez un opérateur qui répond au téléphone. Comment on tient un premier écran utilisable sur deux barres de réseau et un appareil de trois ans. Comment on assure le support sur le canal où tes clients vivent déjà, qui n'est pas l'outil de ticketing que tu paies. Tu trouveras des analyses de marché écrites pour des investisseurs, et presque rien sur la mécanique.
 

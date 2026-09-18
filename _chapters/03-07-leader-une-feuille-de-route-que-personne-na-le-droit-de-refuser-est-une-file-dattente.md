@@ -35,7 +35,7 @@ La carte précédente demande à quelqu'un de refuser du travail. Encore faut-il
 
 Chaque passage en force apprend à l'équipe ce qu'elle risque. Dire non au fondateur, c'est risquer d'être désavoué devant l'équipe. Dire oui, il ne se passe rien. Au bout de deux fois, la fonction produit arrête d'arbitrer et se met à transcrire. Tu diras plus tard qu'elle manque d'initiative.
 
-Tes propres idées sont plus difficiles, parce qu'elles n'arrivent pas comme un passage en force. Elles arrivent dans un couloir, avec ton nom dessus, et se construisent sans jamais être examinées selon les critères de la feuille de route. Personne ne vit ça comme une décision.
+Tes propres idées sont plus difficiles, parce qu'elles ne ressemblent pas à un passage en force. Tu les évoques dans un couloir ; parce qu'elles viennent de toi, elles se construisent sans jamais être examinées selon les critères de la feuille de route. Personne ne perçoit cela comme une décision.
 
 L'interruption est souvent justifiée, et c'est exactement ce qui la rend dangereuse. Le développement sur mesure réalisé pour ce grand compte il y a dix-huit mois est encore dans le code, encore en train de peser sur chaque estimation, et il avait tout son sens le jour où tu as signé. Ce qui sépare un produit d'une file d'attente, ce n'est pas de refuser le gros client. C'est de nommer l'arbitrage à voix haute, en disant précisément quel autre travail doit céder la place.
 

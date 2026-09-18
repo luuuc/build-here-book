@@ -32,7 +32,7 @@ C'est probablement la marche qui définit le mieux un builder, et c'est la plus 
 
 L'activité appartient au poste. Le résultat appartient au builder.
 
-Ce qui retient à cette étape n'est pas le courage, c'est la passation. Il existe un moment précis, dans chaque travail, où la chose quitte tes mains. Le mail part. Le ticket change de colonne. Le dossier passe à l'équipe d'après. Ce moment est vécu partout comme une fin, et c'est exactement là que l'ownership meurt. Personne ne le remarque, parce que tout le monde a correctement fait sa partie.
+Ce qui empêche le plus souvent de franchir cette étape n'est pas le courage, mais la passation. Il existe un moment précis, dans chaque travail, où la chose quitte tes mains. Le mail part. Le ticket change de colonne. Le dossier passe à l'équipe suivante. Ce moment est partout considéré comme une fin, et c'est exactement là que l'ownership disparaît. Personne ne le remarque, parce que tout le monde a correctement fait sa partie.
 
 Il y a une objection sérieuse et elle mérite mieux qu'une concession. Si on te tient responsable d'un résultat que tu ne maîtrises pas, tu apprendras vite à ne promettre que ce qui est sûr, et l'entreprise deviendra prudente. La réponse n'est pas de renoncer au résultat. C'est de séparer deux questions à la relecture : la décision était-elle bonne avec ce qu'on savait, et qu'est-ce que le résultat nous a appris. Une bonne décision peut mal tourner. Elle reste à toi quand même.
 
@@ -50,4 +50,3 @@ Tu es passé à l'étape suivante quand tu sais ce qui s'est passé après, sans
 - 6.06 [Une bonne décision peut quand même mal tourner](/chapters/06-06-une-bonne-decision-peut-quand-meme-perdre.html)
 - 6.07 [Une bonne nouvelle peut attendre. Une mauvaise, non](/chapters/06-07-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
 - 6.08 [⇄ Tu demandes des résultats et tu passes en revue de l'activité](/chapters/06-08-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html)
-

@@ -38,11 +38,11 @@ La dernière marche ne veut dire ni dirigeant, ni personnalité, ni personne qu'
 
 Il faut distinguer deux choses qui rendent toutes les deux ton nom visible. Une notoriété doit être entretenue, et trois mois de silence l'effacent. Une référence s'accumule et continue de servir pendant que tu fais autre chose.
 
-Ce qui retient à cette étape n'est presque jamais la modestie. C'est qu'il n'existe rien à trouver. Quinze ans de choses apprises à la dure, et aucune trace. Un savoir qui n'est pas sorti d'une tête n'est pas discret, il est absent, et il disparaît avec la personne.
+Ce qui empêche le plus souvent de franchir cette étape n'est pas la modestie. C'est qu'il n'existe rien à trouver. Quinze ans de choses apprises à la dure, et aucune trace. Un savoir qui n'est jamais sorti d'une tête n'est pas discret : il est absent et disparaît avec la personne.
 
 L'objet de cette étape est unique et tout en découle. Un artefact est une chose dont quelqu'un que tu ne connais pas peut se servir sans savoir qui tu es. Un postmortem avec sa chronologie. Une bibliothèque. Un benchmark avec ses chiffres. Une réponse juste dans un fil public. Un avis sur l'avenir du secteur n'en est pas un, et il en existe déjà beaucoup.
 
-Cette marche est la seule dont tu ne verras pas le résultat. Quelqu'un règle son travail sur le tien, ne te le dit pas, ne te cite pas, et repart. C'est la seule preuve qui compte et elle est invisible.
+Cette marche est la seule dont tu ne verras pas le résultat. Quelqu'un s'appuie sur ton travail, ne te le dit pas, ne te cite pas, et repart. C'est la seule preuve qui compte et elle est invisible.
 
 ---
 
@@ -60,4 +60,3 @@ Cette marche est la seule dont tu ne verras pas le résultat. Quelqu'un règle s
 - 10.10 [Ta première contribution](/chapters/10-10-ta-premiere-contribution.html)
 - 10.11 [Personne n'a écrit ce que tu sais faire](/chapters/10-11-personne-na-ecrit-ce-que-tu-sais-faire.html)
 - 10.12 [Partir n'est pas une trahison](/chapters/10-12-partir-nest-pas-une-trahison.html)
-
