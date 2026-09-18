@@ -25,11 +25,11 @@ L'étape précédente produit un risque, et il vaut mieux le nommer tout de suit
 
 Devenir builder ne dispense de rien. Un commercial doit devenir excellent à vendre, un designer à concevoir, un comptable à tenir des comptes, un ingénieur à construire des systèmes qui tiennent. Connais tes outils. Comprends ton domaine. Regarde travailler des gens meilleurs que toi. Entraîne-toi sur des choses qui te résistent.
 
-Ce qui retient à cette étape se confond avec son contraire. Douze ans d'expérience peuvent être douze fois la même année. Un métier se répète tout seul dès qu'il est confortable, et la répétition ressemble beaucoup à de la maîtrise vue de l'intérieur. Ce qui distingue les deux est simple à vérifier. Est-ce que tu as appris quelque chose cette année que tu ne savais pas l'année dernière, et est-ce que tu peux le nommer.
+Ce qui empêche de progresser à cette étape ressemble justement à de la maîtrise. Douze ans d'expérience peuvent être douze fois la même année. Dès qu'un métier devient confortable, on répète ce qu'on sait déjà faire et, de l'intérieur, cette répétition ressemble beaucoup à de l'expertise. La différence est simple à vérifier : as-tu appris cette année quelque chose que tu ne savais pas l'année dernière, et peux-tu le nommer ?
 
-L'autre piège est de l'autre côté. Un métier devient une frontière dès qu'il sert à décrire ce qui ne te concerne pas. Ton métier est l'endroit où tu commences, pas celui où ta responsabilité s'arrête. Les huit étapes suivantes se passent presque toutes en dehors de lui.
+L'autre piège se trouve à l'extrême opposé. Un métier devient une frontière dès qu'il sert à décrire ce qui ne te concerne pas. Ton métier est ton point de départ, pas la limite de ta responsabilité. Les huit étapes suivantes te conduisent presque toutes au-delà.
 
-Cette étape est la seule du livre où tu es seul juge du niveau, et c'est précisément pour ça qu'elle a besoin d'une référence extérieure. Une équipe qui ne se compare qu'à elle-même finit sur sa propre moyenne, et l'appelle le standard.
+Cette étape est la seule du livre où tu es seul juge du niveau, et c'est précisément pour ça qu'elle a besoin d'une référence extérieure. Une équipe qui ne se compare qu'à elle-même finit par prendre sa propre moyenne pour référence.
 
 Tu es passé à l'étape suivante quand quelqu'un d'une autre équipe t'apporte une question de ton domaine et que ta réponse n'est pas une supposition.
 
@@ -49,4 +49,3 @@ Tu es passé à l'étape suivante quand quelqu'un d'une autre équipe t'apporte 
 - 2.10 [Le savoir n'est pas ce qui te manque](/chapters/02-10-le-savoir-nest-pas-ce-qui-te-manque.html)
 - 2.11 [⇄ Tu récoltes la complexité que tu récompenses](/chapters/02-11-leader-tu-recoltes-la-complexite-que-tu-recompenses.html)
 - 2.12 [⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser](/chapters/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html)
-

@@ -29,7 +29,7 @@ Rien de faux dans cette phrase. Elle ne dit simplement pas quand.
 
 ## Pourquoi
 
-Regarde ce que demandent les cinq cartes précédentes. Des heures à lire des threads de mainteneurs. Un mois assis en silence dans une salle où tu suis la moitié. Un talk de quarante minutes sur une connexion que quelqu'un paie lui-même. Rien de tout ça n'a de numéro de ticket, donc rien de tout ça n'entre dans un sprint planifié à l'heure près.
+Regarde ce que demandent les cinq cartes précédentes. Des heures à lire des échanges entre mainteneurs. Un mois à suivre en silence un canal dont tu ne comprends que la moitié. Une conférence de quarante minutes regardée sur une connexion que quelqu'un paie lui-même. Rien de tout ça n'a de numéro de ticket, donc rien de tout ça n'entre dans un sprint planifié à l'heure près.
 
 Alors on apprend le soir. Et tout le monde n'a pas ses soirées libres. L'ingénieur avec quatre-vingt-dix minutes de trajet dans chaque sens. Celui qui a un deuxième emploi. Celui dont la maison est dans le noir à vingt heures. Celui qui a un petit. Même ambition. Au bilan de mi-année, ceux qui ont du temps libre ont davantage progressé. Et tu attribues l'écart à leur motivation.
 
@@ -39,7 +39,7 @@ Laisse l'apprentissage en dehors du temps de travail et la première carte de ce
 
 ## À essayer
 
-→ Mets les heures d'apprentissage dans le plan comme l'astreinte est dans le plan. Quatre heures par mois, sur le temps de travail, avec un nom dessus.
+→ Inscris les heures d'apprentissage dans le planning, comme les astreintes. Quatre heures par mois, sur le temps de travail, attribuées à une personne.
 → Prends en charge les frais de connexion. Si un talk coûte à quelqu'un son propre forfait, tu as mis un prix sur l'apprentissage, et ce prix n'est pas zéro.
 → Chaque trimestre, regarde qui a utilisé les heures et qui non. Les noms qui n'apparaissent jamais te parlent de leur semaine, pas de leur ambition.
 

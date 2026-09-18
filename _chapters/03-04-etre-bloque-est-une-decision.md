@@ -37,7 +37,7 @@ La plupart des réponses ne sont pas protégées, elles sont enterrées. Le cont
 
 Ensuite il y a ce que la recherche laisse derrière et que la réponse ne laisse jamais. Chaque traversée du système ajoute une pièce à une carte que tu dessines sans le remarquer. Au bout d'un an tu arrêtes de chercher, parce que tu sais où regarder. Celui qui a toujours attendu n'a jamais dessiné la carte, et il reste dépendant de celui qui l'a fait.
 
-Vingt minutes, c'est un maximum, pas une obligation. Ceci vise l'attente par défaut, pas le fait de demander, et ce n'est pas non plus une phrase à ressortir à quelqu'un. Dite sur ton propre travail, elle veut dire creuse avant de frapper. Dite à une personne qui a levé la main à la vingt-cinquième minute, elle enseigne à toute l'équipe que demander a un prix, et tu viens de construire la salle dont parle le reste de ce livre.
+Vingt minutes, c'est un maximum, pas une obligation. Cette règle vise l'attente par défaut, pas le fait de demander de l'aide. Appliquée à ton propre travail, elle signifie : cherche avant de solliciter quelqu'un. Opposée à une personne qui demande de l'aide après vingt-cinq minutes, elle apprend à toute l'équipe que demander a un prix. Tu crées alors exactement l'environnement que le reste de ce livre dénonce.
 
 ## À essayer
 

@@ -29,7 +29,7 @@ Personne n'a besoin de changer de métier pour être concerné par ces pages.
 **2. Le métier.** Je suis excellent à quelque chose.
 **3. L'autonomie.** Donne-moi le problème, pas la procédure.
 **4. La compréhension.** Je comprends toute l'entreprise.
-**5. La livraison.** Je mets des choses dans le réel.
+**5. La livraison.** Je confronte ce que je construis à l'usage.
 **6. L'ownership.** Je réponds du résultat.
 **7. Les systèmes.** Je rends la prochaine fois plus facile.
 **8. Le levier.** Je multiplie mon impact.

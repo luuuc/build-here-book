@@ -19,7 +19,7 @@ redirect_from:
 
 ## Le réflexe
 
-La simplicité se lit comme un point de départ. On commence simple parce qu'on ne sait pas encore faire mieux, puis on devient sérieux en devenant compliqué.
+On présente la simplicité comme un point de départ. On commencerait simplement faute de savoir faire mieux, avant de devenir sérieux en devenant compliqué.
 
 ## Le réflexe builder
 

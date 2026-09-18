@@ -31,9 +31,9 @@ Le contraire d'un builder n'est pas quelqu'un qui ne code pas. C'est un passager
 
 Un passager fait correctement ce qu'on lui confie. Il voit exactement ce que tu vois, il en pense souvent du mal en privé, et il attend que ce soit traité par celui dont c'est le périmètre. Ce n'est pas de la paresse, et ce n'est pas un défaut de caractère. C'est ce que la plupart des organisations demandent, et elles le demandent assez clairement pour n'avoir jamais eu besoin de l'écrire.
 
-Ce qui retient à cette étape tient donc rarement à l'envie. Personne ne t'a rien demandé, la fiche de poste fait son travail, qui est de décrire un plancher, et elle finit par se lire comme un plafond. S'y ajoute une arithmétique que tout le monde a faite une fois. Celui qui soulève un problème hérite du problème.
+Ce qui empêche le plus souvent de franchir cette étape, ce n'est donc pas le manque d'envie. Personne ne t'a rien demandé. La fiche de poste, censée décrire un minimum, finit par fixer une limite. S'y ajoute un calcul que tout le monde a déjà fait : celui qui soulève un problème en hérite.
 
-Les neuf étapes qui suivent supposent toutes celle-ci. Un métier sans agency produit un exécutant très qualifié. De l'autonomie sans agency produit quelqu'un qui attend mieux. Il n'existe pas de raccourci qui saute cette page.
+Les neuf étapes qui suivent supposent toutes celle-ci. Un métier sans agency produit un exécutant très qualifié. De l'autonomie sans agency produit quelqu'un qui attend mieux. Il n'existe pas de raccourci pour éviter cette étape.
 
 Tu es passé à l'étape suivante quand tu peux nommer une chose que tu as améliorée sans qu'on te le demande, et dire ce qu'elle a changé pour quelqu'un d'autre que toi.
 
@@ -51,4 +51,3 @@ Tu es passé à l'étape suivante quand tu peux nommer une chose que tu as amél
 - 1.08 [⇄ La première réaction fait la règle](/chapters/01-08-leader-la-premiere-reaction-fait-la-regle.html)
 - 1.09 [⇄ Personne ne demande deux fois](/chapters/01-09-leader-personne-ne-demande-deux-fois.html)
 - 1.10 [⇄ Si reconnaître une erreur te discrédite, plus personne ne le fera](/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html)
-
