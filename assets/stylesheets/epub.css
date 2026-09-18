@@ -120,6 +120,10 @@ h2.chapter-title--section {
   color: #C9C2B4;
 }
 
+.chapter--diagnostic .chapter-head { border-top: 0.18em solid #F5B301; padding-top: 1em; }
+.chapter--pratique .chapter-head { border-top: 0.18em dotted #8A6100; padding-top: 1em; }
+.chapter--systeme .chapter-head { border-top: 0.22em double #1C1A17; padding-top: 1em; }
+
 .chapter-lede {
   font-family: "Archivo", sans-serif;
   font-size: 0.95em;

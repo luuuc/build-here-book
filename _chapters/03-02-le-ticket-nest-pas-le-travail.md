@@ -3,6 +3,7 @@ layout: chapter
 title: "Le ticket n'est pas le travail"
 part: "L'autonomie"
 order: 302
+card_type: diagnostic
 metadata:
   principle: "3.02"
   reading_time_in_minutes: 1
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/05-01-le-ticket-nest-pas-le-travail.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 Revue de sprint. Dix-huit tickets fermés, le burndown est propre, tout le monde ressort satisfait.
 
 Personne ne demande ce qu'un client peut faire aujourd'hui qu'il ne pouvait pas faire il y a trois semaines.
 
-## Le réflexe builder
+## Le signal
 
 > "Dix-huit fermés. Qu'est-ce qui a changé pour l'utilisateur ?"
 
-## Pourquoi
+## Ce qui se passe
 
 Un ticket est un outil de coordination. Il empêche quatre personnes de se marcher dessus sur le même fichier. C'est tout ce pour quoi il a été construit.
 
@@ -35,7 +36,7 @@ Il devient un problème le jour où il se transforme en unité de mesure. La fa�
 
 Garde le tableau. Compter n'a jamais été le problème. Ne compter que ça, si. Une équipe qui annonce son chiffre et ne peut nommer une seule chose qu'un utilisateur sait faire maintenant a passé trois semaines à être occupée.
 
-## À essayer
+## À vérifier
 
 À la fin de chaque cycle, avant n'importe quel tableau de bord, une ligne.
 

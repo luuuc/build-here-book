@@ -3,6 +3,7 @@ layout: chapter
 title: "Le support client, c'est de la recherche produit avec des participants énervés"
 part: "La compréhension"
 order: 403
+card_type: diagnostic
 metadata:
   principle: "4.03"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/11-01-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 Le support est un centre de coût. L'objectif est un délai de première réponse court et une file qui rétrécit.
 
 Ce que les gens ont écrit dans ces tickets reste dans l'outil de support.
 
-## Le réflexe builder
+## Le signal
 
 Le support est le seul endroit où des utilisateurs disent ce qui est cassé, tous les jours, gratuitement.
 
-## Pourquoi
+## Ce qui se passe
 
 Une entreprise paiera une agence pour recruter huit utilisateurs et réserver une salle avec une glace sans tain. La même entreprise reçoit chaque jour des retours spontanés, venant de gens qui utilisent le produit pour de vrai et qui ont tenu à écrire.
 
@@ -37,7 +38,7 @@ On perd surtout de vue le nombre de fois où le même problème revient. Quinze 
 
 Une équipe qui pilote le support comme un coût devient très bonne à répondre vite. Le problème auquel on répond reste entier.
 
-## À essayer
+## À vérifier
 
 À la fin de la semaine, exporte les tickets et étiquette chacun avec une cause, pas une catégorie. Trie par cause. Mets la première dans le prochain sprint.
 

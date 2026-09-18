@@ -2,9 +2,10 @@
 layout: chapter
 title: "Personne n'a écrit ce que tu sais faire"
 part: "La référence"
-order: 1011
+order: 1010
+card_type: principe
 metadata:
-  principle: "10.11"
+  principle: "10.10"
   reading_time_in_minutes: 3
 categories:
   - reference
@@ -14,6 +15,7 @@ seo:
   description: "Toute cette étape fait circuler l'information dans un sens. Rien n'est jamais reparti dans l'autre."
   keywords: "build here, reference, trace, builder, ecrire, savoir"
 redirect_from:
+  - /chapters/10-11-personne-na-ecrit-ce-que-tu-sais-faire.html
   - /chapters/16-03-personne-na-ecrit-ce-que-tu-sais-faire.html
 ---
 

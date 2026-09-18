@@ -63,7 +63,7 @@ module BuildHere
 
     def carte(site, doc)
       meta = [doc.data["part"]]
-      meta << "écrite par #{doc.data["author"]}" if doc.data["author"]
+      meta << doc.data["card_type"] if doc.data["card_type"]
       meta << "#{site.config["url"]}#{doc.url}"
 
       "# #{doc.data["title"]}\n#{meta.join(" · ")}\n\n#{corps(doc)}\n"

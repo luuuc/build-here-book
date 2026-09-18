@@ -3,6 +3,7 @@ layout: chapter
 title: "L'email envoyé n'est pas une réponse obtenue"
 part: "L'ownership"
 order: 601
+card_type: diagnostic
 metadata:
   principle: "6.01"
   reading_time_in_minutes: 2
@@ -15,19 +16,19 @@ seo:
   keywords: "build here, ownership, resultat, builder, activite"
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "Je lui ai envoyé la proposition."
 
 C'est vrai, c'est vérifiable, et ça remplit la ligne du point d'équipe. Personne ne demande la suite, parce que la phrase a la forme d'une fin.
 
-## Le réflexe builder
+## Le signal
 
 > "Envoyée, relancée une fois, toujours rien. J'appelle demain matin."
 
 Même travail. Une phrase qui laisse la question ouverte au lieu de la refermer.
 
-## Pourquoi
+## Ce qui se passe
 
 Rendre compte de son activité est parfaitement rationnel. Ton activité dépend entièrement de toi. Le résultat dépend d'un client qui décide, d'un marché qui répond, d'une équipe qui suit. Annoncer ce que tu maîtrises est donc la seule chose que tu peux promettre sans risque, et presque toutes les organisations mesurent exactement ça.
 
@@ -37,7 +38,7 @@ Le mécanisme se répète à toutes les échelles. La campagne est partie, la fo
 
 Il y a une façon de retourner cette carte contre les gens et elle est facile. Dite à quelqu'un qui n'a aucun moyen d'obtenir la réponse, elle enseigne à ne plus rien annoncer du tout. Ce qu'on te demande ici n'est pas de garantir un résultat. C'est d'aller chercher l'information sur ce qui s'est passé après, et de la rapporter avec le reste.
 
-## À essayer
+## À vérifier
 
 Prends trois choses que tu as déclarées faites ce mois-ci. Écris à côté de chacune ce qui s'est passé ensuite.
 

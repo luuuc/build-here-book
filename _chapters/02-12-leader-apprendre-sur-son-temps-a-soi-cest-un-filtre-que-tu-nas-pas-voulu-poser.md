@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser"
 part: "Le métier"
 order: 212
+card_type: systeme
 metadata:
   principle: "2.12"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/08-06-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "On soutient l'apprentissage ici. Celui qui veut progresser progresse."
 
 Rien de faux dans cette phrase. Elle ne dit simplement pas quand.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Si la progression se fait en dehors du travail, je ne mesure pas qui est bon. Je mesure qui a ses soirées libres."
 
-## Pourquoi
+## Ce que ça produit
 
 Regarde ce que demandent les cinq cartes précédentes. Des heures à lire des échanges entre mainteneurs. Un mois à suivre en silence un canal dont tu ne comprends que la moitié. Une conférence de quarante minutes regardée sur une connexion que quelqu'un paie lui-même. Rien de tout ça n'a de numéro de ticket, donc rien de tout ça n'entre dans un sprint planifié à l'heure près.
 
@@ -37,7 +38,7 @@ Pas besoin d'un budget supplémentaire pour commencer. Quatre heures par mois, c
 
 Laisse l'apprentissage en dehors du temps de travail et la première carte de cette section revient par la porte de derrière. Une équipe où seuls ceux qui ont des soirées libres continuent de progresser converge vers la moyenne de tous les autres.
 
-## À essayer
+## La décision
 
 → Inscris les heures d'apprentissage dans le planning, comme les astreintes. Quatre heures par mois, sur le temps de travail, attribuées à une personne.
 → Prends en charge les frais de connexion. Si un talk coûte à quelqu'un son propre forfait, tu as mis un prix sur l'apprentissage, et ce prix n'est pas zéro.

@@ -3,6 +3,7 @@ layout: chapter
 title: "Fini de ton côté ne veut pas dire réglé"
 part: "L'ownership"
 order: 602
+card_type: diagnostic
 metadata:
   principle: "6.02"
   reading_time_in_minutes: 2
@@ -15,17 +16,17 @@ seo:
   keywords: "build here, ownership, passation, equipe, builder"
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "De mon côté c'est fait."
 
 La phrase est exacte. Ta partie est terminée, proprement, dans les temps. Elle dit aussi, sans avoir à le dire, que la suite ne te regarde plus.
 
-## Le réflexe builder
+## Le signal
 
 > "C'est parti chez l'équipe d'après. Je vérifie dans trois jours que c'est bien arrivé."
 
-## Pourquoi
+## Ce qui se passe
 
 Une chaîne de quatre équipes où chacune fait correctement sa partie peut produire zéro résultat. C'est le genre de phrase qu'on croit exagérée jusqu'à en voir une. Une entreprise change sa grille tarifaire. Le produit l'a spécifiée. L'engineering l'a livrée. Le marketing l'a annoncée. Personne n'a changé le contrat type que le commerce envoie, parce que ce n'était le côté de personne. Le premier client de la nouvelle grille signe l'ancien prix, et il le signe pour trois ans. Quatre équipes avaient fini.
 
@@ -35,7 +36,7 @@ Le mécanisme est toujours le même. À chaque passation, celui qui envoie consi
 
 Suivre chaque chose jusqu'au bout est impossible et ce n'est pas ce qu'on te demande. La règle est plus courte. Tu ne suis pas jusqu'au résultat, tu suis jusqu'au premier signe que quelqu'un d'autre a commencé. C'est une vérification de trois minutes, et elle couvre l'endroit où les dossiers disparaissent réellement.
 
-## À essayer
+## À vérifier
 
 À ta prochaine passation, ne t'arrête pas à l'envoi. Note une date de vérification, courte, et garde-la tant que rien ne t'est revenu.
 

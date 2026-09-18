@@ -1,8 +1,7 @@
 // Ce qui protege la file, et rien de plus.
 //
-// La moderation est le vrai filtre : aucune contribution n'atteint un lecteur
-// sans approbation. Tout ce qui suit protege donc l'attention de l'auteur, pas
-// le site. Il faut assez de friction pour que la file reste lisible, pas un mur.
+// La moderation est le vrai filtre : aucun commentaire n'atteint un lecteur
+// sans approbation. Tout ce qui suit protege donc l'attention de l'auteur.
 //
 // Aucun defi visible. Ni Turnstile ni Bot Fight Mode : derriere du NAT
 // operateur, le defi tombe le plus souvent sur les lecteurs a qui ce livre
@@ -11,10 +10,12 @@
 
 const FENETRE = 3600; // une heure, en secondes
 const PLAFOND_IP = 60; // large : un NAT operateur met une ville derriere une IP
-const PLAFOND_CLIENT = 4; // genereux pour une personne reelle
 // Une note est un clic, pas un texte. Quelqu'un qui lit le livre d'une traite
-// en pose legitimement plusieurs dizaines, et le livre compte 88 cartes.
+// en pose legitimement plusieurs dizaines, et le livre compte 87 cartes.
 const PLAFOND_NOTES_IP = 300;
+// Un test demande plusieurs minutes. Cette limite ne vise que les scripts qui
+// rempliraient la table, tout en laissant un reseau partage finir le test.
+const PLAFOND_EVALUATIONS_IP = 120;
 const AGE_JETON = 3; // secondes minimum entre le chargement et l'envoi
 const VIE_JETON = 7200; // deux heures, le temps d'ecrire
 
@@ -59,7 +60,7 @@ export async function verifierJeton(secret, jeton) {
 // jours ne se correlent pas.
 //
 // `usage` separe les compteurs. Sans lui, un lecteur qui note cinq entrees
-// entamerait le quota de contribution de tout son NAT operateur, ce qui est
+// entamerait le quota de commentaire de tout son NAT operateur, ce qui est
 // exactement le genre de couplage qu'on ne voit qu'en production.
 async function cleIp(secret, ip, usage) {
   const jour = new Date().toISOString().slice(0, 10);
@@ -78,7 +79,7 @@ async function cleIp(secret, ip, usage) {
 //
 // `regarder` ne compte rien, `retenir` compte une acceptation. Un envoi refuse
 // pour n'importe quelle autre raison ne coute donc rien a son voisin de NAT.
-export async function regarderIp(db, secret, ip, usage = "contribution", plafond = PLAFOND_IP) {
+export async function regarderIp(db, secret, ip, usage = "commentaire", plafond = PLAFOND_IP) {
   if (!ip) return { ok: true, compte: 0 };
 
   const cle = await cleIp(secret, ip, usage);
@@ -110,22 +111,11 @@ export async function retenirIp(db, { cle, fenetre }) {
     .run();
 }
 
-export async function tropDeContributions(db, client) {
-  if (!client) return false;
-  const depuis = Math.floor(Date.now() / 1000) - FENETRE;
-  const r = await db
-    .prepare("SELECT COUNT(*) AS n FROM contributions WHERE client = ? AND cree_le > ?")
-    .bind(client, depuis)
-    .first();
-  return (r?.n ?? 0) >= PLAFOND_CLIENT;
-}
-
 // Le rang trie la file, il ne refuse jamais. Un texte qui cite trois sources
 // est exactement celui qu'on veut lire : il descend dans la file, il n'est
 // pas ecarte.
 // `seuilCourt` est le point ou un texte devient suspect par sa brievete. Il
-// vaut 400 pour une contribution, qui fait 2000 caracteres quand elle est
-// honnete. Il ne veut rien dire pour un avis : « meme chose a Abidjan » fait
+// vaut 400 pour un texte long. Il ne veut rien dire pour un avis : « meme chose a Abidjan » fait
 // vingt caracteres et c'est exactement ce qu'on veut lire. Passe a zero, le
 // signal est eteint.
 export function rang({ markdown, jetonOk, jetonRaison, seuilCourt = 400 }) {
@@ -196,4 +186,4 @@ export function lienSur(valeur) {
   return null;
 }
 
-export const seuils = { FENETRE, PLAFOND_IP, PLAFOND_CLIENT, PLAFOND_NOTES_IP, AGE_JETON, VIE_JETON };
+export const seuils = { FENETRE, PLAFOND_IP, PLAFOND_NOTES_IP, PLAFOND_EVALUATIONS_IP, AGE_JETON, VIE_JETON };

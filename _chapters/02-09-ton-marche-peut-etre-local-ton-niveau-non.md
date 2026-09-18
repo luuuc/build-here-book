@@ -3,6 +3,7 @@ layout: chapter
 title: "Ton marché peut être local. Ton niveau, non"
 part: "Le métier"
 order: 209
+card_type: principe
 metadata:
   principle: "2.09"
   reading_time_in_minutes: 2

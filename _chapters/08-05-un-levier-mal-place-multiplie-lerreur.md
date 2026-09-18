@@ -3,6 +3,7 @@ layout: chapter
 title: "Un levier mal placé multiplie l'erreur"
 part: "Le levier"
 order: 805
+card_type: diagnostic
 metadata:
   principle: "8.05"
   reading_time_in_minutes: 2
@@ -15,17 +16,17 @@ seo:
   keywords: "build here, levier, automatisation, erreur, builder"
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "On automatise, ça ira plus vite."
 
 C'est exact. C'est aussi tout ce que la phrase garantit.
 
-## Le réflexe builder
+## Le signal
 
 > "Est-ce que ce processus est bon ? Parce qu'on s'apprête à le faire cent fois plus."
 
-## Pourquoi
+## Ce qui se passe
 
 Un levier est indifférent à la direction. Il multiplie ce sur quoi tu le poses, et il ne vérifie pas d'abord que la chose méritait d'être multipliée. Automatiser un mauvais processus produit du mauvais plus vite, plus loin, et de façon plus régulière.
 
@@ -35,7 +36,7 @@ Les dégâts sont faciles à imaginer parce qu'ils arrivent partout. Une séquen
 
 Ce n'est pas un argument pour rester à la main, ce serait renoncer à l'étape entière. C'est un argument sur l'ordre. Tu pointes le levier vers un travail dont tu as déjà vérifié qu'il marche, et tu gardes un endroit où quelqu'un regarde un échantillon. Une automatisation que personne ne regarde plus n'est pas un système, c'est une décision prise une fois et appliquée sans limite.
 
-## À essayer
+## À vérifier
 
 Avant de multiplier quoi que ce soit, fais-le tourner à la main sur dix cas et regarde les dix résultats, un par un.
 

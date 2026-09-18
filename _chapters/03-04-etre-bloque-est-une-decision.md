@@ -3,6 +3,7 @@ layout: chapter
 title: "Être bloqué est une décision"
 part: "L'autonomie"
 order: 304
+card_type: diagnostic
 metadata:
   principle: "3.04"
   reading_time_in_minutes: 2
@@ -17,7 +18,7 @@ redirect_from:
   - /chapters/04-05-etre-bloque-est-une-decision.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "J'attends le collègue qui sait. Il revient la semaine prochaine."
 
@@ -25,11 +26,11 @@ Parfois c'est le bon arbitrage et la salle le sait. C'est lui qui a construit la
 
 La même phrase couvre aussi l'autre cas. La réponse est dans le repo, dans un doc, dans un ancien devis, dans un thread de mars, chez le client ou à un coup de fil. Rien de tout ça n'a été ouvert.
 
-## Le réflexe builder
+## Le signal
 
 Vingt minutes dessus. Tu en as la moitié. Tu demandes l'autre moitié.
 
-## Pourquoi
+## Ce qui se passe
 
 Attendre est confortable parce que ça donne une impression de rigueur. Personne n'est dérangé, aucun risque n'est pris, et si l'échéance glisse le blocage porte le nom de quelqu'un d'autre.
 
@@ -39,7 +40,7 @@ Ensuite il y a ce que la recherche laisse derrière et que la réponse ne laisse
 
 Vingt minutes, c'est un maximum, pas une obligation. Cette règle vise l'attente par défaut, pas le fait de demander de l'aide. Appliquée à ton propre travail, elle signifie : cherche avant de solliciter quelqu'un. Opposée à une personne qui demande de l'aide après vingt-cinq minutes, elle apprend à toute l'équipe que demander a un prix. Tu crées alors exactement l'environnement que le reste de ce livre dénonce.
 
-## À essayer
+## À vérifier
 
 Vingt minutes à toi avant de demander. Puis demande en expliquant ce que tu as déjà vérifié.
 

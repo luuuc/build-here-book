@@ -3,6 +3,7 @@ layout: chapter
 title: "\"Je ne sais pas\" est une réponse professionnelle"
 part: "L'état d'esprit"
 order: 105
+card_type: principe
 metadata:
   principle: "1.05"
   reading_time_in_minutes: 2

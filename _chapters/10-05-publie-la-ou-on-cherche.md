@@ -3,6 +3,7 @@ layout: chapter
 title: "Publie là où on cherche"
 part: "La référence"
 order: 1005
+card_type: pratique
 metadata:
   principle: "10.05"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/15-01-publie-la-ou-on-cherche.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 > "C'est sur notre blog."
 
 Ou dans un document partagé, ou dans un canal ouvert à toute l'entreprise. C'est écrit, c'est accessible, et personne n'arrivera jamais dessus.
 
-## Le réflexe builder
+## Le geste
 
 > "Quelqu'un qui a ce problème tape quoi, et où ?"
 
-## Pourquoi
+## Pourquoi ça marche
 
 Personne ne cherche ton nom. On cherche « candidats qui abandonnent après entretien », « remboursement mobile money introuvable », un message d'erreur, un nom de version, deux outils qui refusent de se parler. La trace n'est trouvée que par quelqu'un qui a déjà le problème, ce qui décide tout le reste.
 

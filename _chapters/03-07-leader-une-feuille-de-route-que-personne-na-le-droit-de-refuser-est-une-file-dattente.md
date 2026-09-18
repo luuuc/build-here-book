@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente"
 part: "L'autonomie"
 order: 307
+card_type: systeme
 metadata:
   principle: "3.07"
   reading_time_in_minutes: 2
@@ -17,7 +18,7 @@ redirect_from:
   - /chapters/05-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 La roadmap est validée. Quelques jours plus tard, tu transfères un mail du client qui représente quarante pour cent du revenu, avec une ligne au-dessus.
 
@@ -25,11 +26,11 @@ La roadmap est validée. Quelques jours plus tard, tu transfères un mail du cli
 
 Tu n'as pas tort. Perdre ce client compromettrait l'année.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Ça déplace le travail sur l'onboarding. Je fais cet arbitrage, et voilà ce qu'il nous coûte."
 
-## Pourquoi
+## Ce que ça produit
 
 La carte précédente demande à quelqu'un de refuser du travail. Encore faut-il que tu permettes ce refus sans désavouer celui qui le porte.
 
@@ -39,7 +40,7 @@ Tes propres idées sont plus difficiles, parce qu'elles ne ressemblent pas à un
 
 L'interruption est souvent justifiée, et c'est exactement ce qui la rend dangereuse. Le développement sur mesure réalisé pour ce grand compte il y a dix-huit mois est encore dans le code, encore en train de peser sur chaque estimation, et il avait tout son sens le jour où tu as signé. Ce qui sépare un produit d'une file d'attente, ce n'est pas de refuser le gros client. C'est de nommer l'arbitrage à voix haute, en disant précisément quel autre travail doit céder la place.
 
-## À essayer
+## La décision
 
 → Quand tu insères quelque chose, nomme ce que ça déplace dans la même phrase. Si tu n'y arrives pas, la roadmap n'était pas réelle.
 → Fais passer tes propres demandes par la même porte que celles des autres. Écrites, dans la file, avec la raison et le nombre de clients.

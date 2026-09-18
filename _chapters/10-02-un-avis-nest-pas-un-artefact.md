@@ -3,6 +3,7 @@ layout: chapter
 title: "Un avis n'est pas un artefact"
 part: "La référence"
 order: 1002
+card_type: diagnostic
 metadata:
   principle: "10.02"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/14-02-un-avis-nest-pas-un-artefact.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "J'ai publié quelque chose cette semaine."
 
 Un texte sur ce que l'écosystème devrait faire. Une réaction à une levée de fonds. Trois paragraphes sur l'IA. C'est publié, c'est sous ton nom, et ça compte comme être sorti du silence.
 
-## Le réflexe builder
+## Le signal
 
 > "Est-ce que quelqu'un qui ne me connaît pas peut s'en servir ?"
 
-## Pourquoi
+## Ce qui se passe
 
 On appelle publier deux choses différentes, qui rendent toutes deux ton nom visible. Une seule produit une référence. La différence est dans la façon dont on arrive dessus. Un avis est consommé au moment où il passe, par des gens qui ne cherchaient rien. Un artefact est trouvé, plus tard, par quelqu'un qui a déjà le problème. Personne ne tape « ce que devrait faire l'industrie tech » dans un moteur de recherche. Quelqu'un cherche pourquoi ses candidats abandonnent après le deuxième entretien, comment classer mille demandes support, ou recopie le message d'erreur exact, mot pour mot. Il ne sait pas encore qu'il te cherche.
 
@@ -39,7 +40,7 @@ L'avis est aussi beaucoup moins cher à produire et rapporte une réaction immé
 
 Le test se retourne, et c'est cette moitié-là qu'on oublie. "Ce n'est qu'un avis" est le moyen le plus rapide d'écarter un argument auquel tu ne sais pas répondre. Une position défendue par quelqu'un qui a fait la chose, chiffres à l'appui, est un artefact quel que soit le genre du texte. Ce qui se vérifie n'est pas la forme. C'est de savoir s'il y a dedans une seule chose qu'un lecteur puisse aller contrôler lui-même.
 
-## À essayer
+## À vérifier
 
 Prends la dernière chose que tu as publiée. Cherche dedans une chose vérifiable par quelqu'un d'autre. Un chiffre, une chronologie, une grille, un écran avant et après, une commande, dix lignes de code, une version.
 

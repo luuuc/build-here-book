@@ -3,6 +3,7 @@ layout: chapter
 title: "Valider une spec ne la rend pas juste"
 part: "La livraison"
 order: 504
+card_type: diagnostic
 metadata:
   principle: "5.04"
   reading_time_in_minutes: 2
@@ -17,15 +18,15 @@ redirect_from:
   - /chapters/05-02-valider-une-spec-ne-la-rend-pas-juste.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 Le document est validé. Il devient la référence. Toutes les réunions suivantes portent sur la conformité du produit au document, jamais sur la justesse du document.
 
-## Le réflexe builder
+## Le signal
 
 > "C'est notre meilleure hypothèse de mars. Allons chercher ce qu'elle a raté."
 
-## Pourquoi
+## Ce qui se passe
 
 Une spec contient tout ce que tu croyais le jour où tu l'as écrite, y compris les parties fausses. Elle a été écrite sans ce que le développement allait t'apprendre. Sans la réaction du premier utilisateur. Sans la contrainte qui n'apparaît que quand deux systèmes se rencontrent.
 
@@ -35,7 +36,7 @@ Ce n'est pas un argument contre l'écriture de specs. Quatre personnes ne peuven
 
 On voit bien comment ce principe peut être détourné. Une carte qui dit que la spec peut être fausse se lit, pour celui qui refuse toute contrainte, comme l'autorisation de construire autre chose et d'appeler ça de l'apprentissage. Ce n'en est pas. Dire que la spec est fausse est une affirmation qu'il faut pouvoir étayer comme n'importe quelle autre. Dis-le à voix haute, à celui qui a validé, avant que le code existe, avec ce que tu as trouvé. Diverger en silence et l'expliquer pendant la démo n'est pas de l'honnêteté intellectuelle. Tu imposes à ton tour une décision que personne ne peut discuter. Une erreur trouvée dans le document à la troisième semaine montre au moins que le développement t'a appris quelque chose.
 
-## À essayer
+## À vérifier
 
 En haut de la spec, au-dessus des exigences, deux lignes.
 

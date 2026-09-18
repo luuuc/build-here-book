@@ -3,6 +3,7 @@ layout: chapter
 title: "Le rôle du product, ce n'est pas de rédiger des tickets"
 part: "L'autonomie"
 order: 306
+card_type: principe
 metadata:
   principle: "3.06"
   reading_time_in_minutes: 2

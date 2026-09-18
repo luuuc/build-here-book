@@ -3,6 +3,7 @@ layout: chapter
 title: "Tout ne mérite pas de devenir un processus"
 part: "Les systèmes"
 order: 704
+card_type: principe
 metadata:
   principle: "7.04"
   reading_time_in_minutes: 2

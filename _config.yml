@@ -19,9 +19,6 @@ repository: luuuc/build-here-book
 locale: fr_FR
 theme_color: "#1C1A17"
 
-# Contact for new entries
-contact_email: entree@build-here.africa
-
 # Google Analytics (leave blank to disable)
 google_analytics: G-044F0FSRYM
 
@@ -55,6 +52,17 @@ plugins:
 # Include dot-directories (for .well-known)
 include:
   - .well-known
+
+# Sources et sorties de travail qui ne font pas partie du site. `build/` doit
+# rester exclu : il contient une copie du site destinée aux tirages et, sans
+# cette ligne, Jekyll la recopie dans `_site/build/site` puis l'indexe.
+exclude:
+  - build
+  - worker
+  - bin
+  - vendor
+  - Gemfile
+  - Gemfile.lock
 
 # Les deux tirages, publies par .github/workflows/book.yml sur la release qui
 # porte book.version. « latest » suit toujours la derniere publiee : ces deux

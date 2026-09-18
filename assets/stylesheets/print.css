@@ -342,6 +342,10 @@ em { font-style: italic; }
   color: #C9C2B4;
 }
 
+.chapter--diagnostic .chapter-head { border-top: 1.2mm solid #F5B301; padding-top: 4mm; }
+.chapter--pratique .chapter-head { border-top: 1.2mm dotted #8A6100; padding-top: 4mm; }
+.chapter--systeme .chapter-head { border-top: 1.2mm double #1C1A17; padding-top: 4mm; }
+
 .chapter-title {
   font-size: 21pt;
   font-weight: 700;

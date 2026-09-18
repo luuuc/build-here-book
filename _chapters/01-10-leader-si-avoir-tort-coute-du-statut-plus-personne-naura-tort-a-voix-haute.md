@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Si reconnaître une erreur te discrédite, plus personne ne le fera"
 part: "L'état d'esprit"
 order: 110
+card_type: systeme
 metadata:
   principle: "1.10"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/02-05-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "Je leur répète que le droit à l'erreur existe, on n'est pas dans une culture du blâme."
 
 Tu le penses sincèrement. Rien ne bouge.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Concrètement, ici, il arrive quoi à quelqu'un qui signale une erreur ?"
 
-## Pourquoi
+## Ce que ça produit
 
 Les gens n'écoutent pas ce qui est déclaré. Ils regardent ce qui arrive à celui qui y va en premier.
 
@@ -37,7 +38,7 @@ Il y a un vrai argument en face. Les erreurs doivent avoir des conséquences, et
 
 Une équipe qui cache ses erreurs n'en fait pas moins. Elle te les annonce plus tard, quand elles coûtent plus cher, en général le jour où plus personne ne peut réagir.
 
-## À essayer
+## La décision
 
 → Vas-y en premier, avec une erreur qui t'a coûté quelque chose de réel. Pas du genre "je travaille trop".
 → Sépare l'analyse d'incident de l'évaluation des personnes. Si tu fais les deux dans la même réunion, personne n'analysera franchement l'incident.

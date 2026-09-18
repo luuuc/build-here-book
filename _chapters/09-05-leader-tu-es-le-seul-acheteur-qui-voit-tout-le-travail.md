@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Tu es le seul acheteur qui voit tout le travail"
 part: "Le leadership"
 order: 905
+card_type: systeme
 metadata:
   principle: "9.05"
   reading_time_in_minutes: 3
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/15-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "On paie au marché."
 
 La phrase la plus raisonnable de toutes les conversations de salaire, et celle qui contient le plus de décisions que personne n'a prises.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Le marché fixe mon plancher. Ce que je paie le plus cher chez moi, c'est moi qui le décide."
 
-## Pourquoi
+## Ce que ça produit
 
 Reconnais d'abord ce qui est vrai. Tu ne peux pas surenchérir sur une entreprise à huit mille kilomètres qui paie en devises fortes et qui ne verra jamais ta trésorerie. Personne ne te demande ça. Ce minimum ne justifie pas tout pour autant. Payer sous ce qu'un travail vaut ici et appeler ça de la culture est la version dirigeante de "l'argent n'est pas l'essentiel", et elle n'est vraie que dans la bouche de celui qui ne verse pas.
 
@@ -37,7 +38,7 @@ Ton équipe regarde ce que tu rémunères le mieux avant de lire tes valeurs aff
 
 Et refaire une grille salariale prend du temps. Mais ce n'est pas une raison d'attendre pour agir. Le classement se décide à la prochaine augmentation, sur une seule décision, et il est lu plus attentivement que n'importe quel document que tu publieras cette année.
 
-## À essayer
+## La décision
 
 → Les trois plus grosses augmentations ou primes de l'année, de mémoire. À côté de chacune, une phrase qui dit ce que la personne a fait pour l'obtenir, écrite comme quelqu'un de ton équipe l'écrirait.
 → Compare ces trois phrases avec ce que tu dis chercher quand tu recrutes.

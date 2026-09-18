@@ -35,8 +35,8 @@ routes = [
 # ne connait que ce nom la. Tout autre nom d'hote qui sert le meme code sert
 # donc `/admin` sans Access devant, et il ne reste alors que la presence de
 # l'en-tete `Cf-Access-Authenticated-User-Email`, que n'importe qui peut poser
-# lui-meme. La file de moderation, les coordonnees des contributeurs et
-# l'ouverture de pull requests avec le jeton GitHub passeraient avec.
+# lui-meme. La moderation des commentaires et les retours prives passeraient
+# alors avec un simple en-tete forge.
 #
 # Deux noms de ce genre existent par defaut, et les deux se coupent ici.
 #
@@ -61,21 +61,16 @@ NOM_AUTEUR = "Luc"
 [[d1_databases]]
 # Le nom de la liaison est celui que le code lit, `env.DB`, et pas celui que
 # `wrangler d1 create` propose d'apres le nom de la base. Renommee, le Worker
-# repond « La base n'est pas configuree » sur chaque contribution.
+# repond « La base n'est pas configuree » sur chaque interaction.
 binding = "DB"
 database_name = "build-here"
 database_id = "6f9badfe-6a72-4df3-b8cb-579cfe0942f7"
 
-# Deux secrets, jamais dans ce fichier :
+# Un secret, jamais dans ce fichier :
 #
 #   npx wrangler secret put JETON_SECRET
 #     n'importe quelle chaine longue et aleatoire. Elle signe les jetons de
-#     formulaire et sale les condensats d'IP du garde-fou anti-flood.
-#
-#   npx wrangler secret put GITHUB_TOKEN
-#     un jeton GitHub a portee fine, sur luuuc/build-here-book seul, avec
-#     contents:write et pull_requests:write. Il ne peut rien faire d'autre
-#     que creer une branche, y poser un fichier et ouvrir une pull request.
+#     commentaire et sale les condensats d'IP du garde-fou anti-flood.
 #
 # Et une politique Cloudflare Access sur api.build-here.africa/admin, sinon
 # la file de moderation est publique.

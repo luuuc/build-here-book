@@ -3,6 +3,7 @@ layout: chapter
 title: "Ton code n'est pas ton bébé"
 part: "L'état d'esprit"
 order: 106
+card_type: principe
 metadata:
   principle: "1.06"
   reading_time_in_minutes: 3

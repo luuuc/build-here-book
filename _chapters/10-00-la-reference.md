@@ -57,6 +57,5 @@ Cette marche est la seule dont tu ne verras pas le résultat. Quelqu'un s'appuie
 - 10.07 [On te paie ce qui se vérifie](/chapters/10-07-on-te-paie-ce-qui-se-verifie.html)
 - 10.08 [Ce que publier coûte vraiment](/chapters/10-08-ce-que-publier-coute-vraiment.html)
 - 10.09 [Une référence n'est pas une personnalité](/chapters/10-09-une-reference-nest-pas-une-personnalite.html)
-- 10.10 [Ta première contribution](/chapters/10-10-ta-premiere-contribution.html)
-- 10.11 [Personne n'a écrit ce que tu sais faire](/chapters/10-11-personne-na-ecrit-ce-que-tu-sais-faire.html)
-- 10.12 [Partir n'est pas une trahison](/chapters/10-12-partir-nest-pas-une-trahison.html)
+- 10.10 [Personne n'a écrit ce que tu sais faire](/chapters/10-10-personne-na-ecrit-ce-que-tu-sais-faire.html)
+- 10.11 [Partir n'est pas une trahison](/chapters/10-11-partir-nest-pas-une-trahison.html)

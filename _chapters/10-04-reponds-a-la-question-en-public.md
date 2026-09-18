@@ -3,6 +3,7 @@ layout: chapter
 title: "Réponds à la question en public"
 part: "La référence"
 order: 1004
+card_type: pratique
 metadata:
   principle: "10.04"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/14-04-reponds-a-la-question-en-public.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 La question arrive en message privé. Tu réponds bien, en dix minutes, avec le détail qu'il faut.
 
 Une personne a la réponse. C'est fini.
 
-## Le réflexe builder
+## Le geste
 
 > "Je réponds au même endroit où on peut me retrouver."
 
-## Pourquoi
+## Pourquoi ça marche
 
 C'est la seule action de cette étape qui ne demande presque aucun travail supplémentaire. Tu allais écrire la réponse de toute façon. La seule décision est l'endroit où tu la poses. Une réponse privée a un lecteur, aujourd'hui. La même réponse publique en a un aujourd'hui et un nombre inconnu ensuite, sur des années, sans que tu aies rien à faire de plus. Il n'existe aucun autre endroit du livre où le rapport entre l'effort et la portée est aussi déséquilibré, et c'est pour ça que cette carte est la plus facile à appliquer cette semaine.
 

@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Personne ne systématise sur un planning plein"
 part: "Les systèmes"
 order: 707
+card_type: systeme
 metadata:
   principle: "7.07"
   reading_time_in_minutes: 2
@@ -15,17 +16,17 @@ seo:
   keywords: "build here, systemes, leadership, conditions, builder"
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "Ils ne prennent jamais le temps d'industrialiser."
 
 L'observation est juste. L'équipe refait les mêmes choses depuis deux ans et parle régulièrement de les automatiser, sans que ça arrive jamais.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Où est-ce que ce temps existe dans la semaine ?"
 
-## Pourquoi
+## Ce que ça produit
 
 Le travail qui supprime du travail n'a pas d'échéance. Il perd donc contre tout ce qui en a une, chaque fois, et sans que personne ait à choisir. Ce n'est pas un arbitrage, c'est ce qui se passe quand deux tâches se présentent et qu'une seule a une date.
 
@@ -35,7 +36,7 @@ Ce que ça produit est prévisible. L'équipe reste exactement à sa capacité, 
 
 La correction n'est pas une semaine consacrée à ça une fois par an, qui sert surtout à solder l'urgence accumulée. C'est un créneau récurrent, petit, protégé, et défendu par toi la première fois que quelqu'un demande de le sacrifier à un client. Cette première fois est le seul moment qui compte, parce que c'est elle qui sera racontée.
 
-## À essayer
+## La décision
 
 Ouvre le point d'équipe par ce qui a été supprimé cette semaine. Une étape, une réunion, un champ, une tâche manuelle.
 

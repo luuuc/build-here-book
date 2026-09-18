@@ -3,6 +3,7 @@ layout: chapter
 title: "Une demande de fonctionnalité n'est pas le problème"
 part: "La compréhension"
 order: 402
+card_type: diagnostic
 metadata:
   principle: "4.02"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/11-03-une-demande-de-feature-nest-pas-le-probleme.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 Un gros client demande une fonctionnalité précise. Tu la construis à la lettre, dans les temps.
 
 Elle est livrée. Il l'ouvre deux fois. Le même problème revient au trimestre suivant, sous une autre demande.
 
-## Le réflexe builder
+## Le signal
 
 > "Tu essaies d'aboutir à quoi, et tu fais comment sans ça aujourd'hui ?"
 
-## Pourquoi
+## Ce qui se passe
 
 Un client connaît son problème, pas forcément la meilleure façon de le résoudre dans ton produit. Ce qu'il te propose, c'est une piste.
 
@@ -37,7 +38,7 @@ Le client pèse lourd, la demande est écrite, et poser des questions peut donne
 
 Comprendre le besoin permet parfois de livrer une solution moins coûteuse. Le problème de l'auditeur, c'est une vue filtrée et un bouton d'export, pas un module de reporting.
 
-## À essayer
+## À vérifier
 
 Sur la prochaine demande, avant que quiconque chiffre, renvoie un message.
 

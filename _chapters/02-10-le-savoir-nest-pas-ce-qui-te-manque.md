@@ -3,6 +3,7 @@ layout: chapter
 title: "Le savoir n'est pas ce qui te manque"
 part: "Le métier"
 order: 210
+card_type: principe
 metadata:
   principle: "2.10"
   reading_time_in_minutes: 2

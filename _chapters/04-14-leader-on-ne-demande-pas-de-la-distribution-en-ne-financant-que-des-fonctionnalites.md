@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités"
 part: "La compréhension"
 order: 414
+card_type: systeme
 metadata:
   principle: "4.14"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/12-06-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "Personne ne sait qu'on existe. Il faut être plus visibles ce trimestre."
 
 Dit devant toute l'entreprise. Puis la revue de roadmap commence, et chaque heure prévue est consacrée à une fonctionnalité.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Si publier compte, on désigne un responsable et on lui réserve un créneau, même quand le mois se passe mal."
 
-## Pourquoi
+## Ce que ça produit
 
 La visibilité est demandée et jamais financée. Celui qui a passé l'après-midi à écrire arrive au point hebdo sans rien de livré, à côté de quelqu'un qui a fermé quatre tickets. Tu n'as jamais besoin de punir ça. Demander ce qui a été livré, chaque semaine, suffit. Il retournera aux tickets, et il aura raison.
 
@@ -37,7 +38,7 @@ Les félicitations ne sont pas une protection. Le trimestre se passe mal, quelqu
 
 Les questions de positionnement subissent le même sort. Une semaine à débattre, rien à démontrer au bout, et aucune équipe ne dépense cette semaine tant que tu n'as pas dit toi-même que le débat est le travail.
 
-## À essayer
+## La décision
 
 → Donne-lui un nom et un créneau. Une heure, un jour toutes les deux semaines, dans l'agenda d'une personne, pas dans celui de l'équipe.
 → Change ce par quoi tu ouvres le point hebdo. Si "qu'est-ce qui a été livré" est la seule question, c'est le seul travail que quiconque fera.

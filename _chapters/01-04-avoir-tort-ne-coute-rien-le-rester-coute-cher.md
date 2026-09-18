@@ -3,6 +3,7 @@ layout: chapter
 title: "Avoir tort ne coûte rien. Le rester coûte cher"
 part: "L'état d'esprit"
 order: 104
+card_type: principe
 metadata:
   principle: "1.04"
   reading_time_in_minutes: 1

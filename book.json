@@ -41,6 +41,7 @@ layout: none
       "order": {{ chapter.order }},
       "title": "{{ chapter.title | escape }}",
       "part": "{{ chapter.part }}",
+      "cardType": {{ chapter.card_type | jsonify }},
       "url": "{{ chapter.url | absolute_url | replace:'.html','' }}",
       "description": "{{ chapter.seo.description | default: chapter.description | escape }}",
       {% if chapter.metadata.reading_time_in_minutes %}

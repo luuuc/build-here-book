@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Le rythme de livraison, c'est une décision que tu as prise"
 part: "La livraison"
 order: 505
+card_type: systeme
 metadata:
   principle: "5.05"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/07-06-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "Il faut qu'ils livrent plus petit et plus vite !"
 
 Dit dans trois revues consécutives. Rien n'a changé dans la façon dont le travail atteint un client depuis la première.
 
-## Le réflexe builder
+## Ce que le système entend
 
 Tu comptes les gens qui doivent dire oui avant qu'un changement atteigne un client. Tu les nommes.
 
-## Pourquoi
+## Ce que ça produit
 
 Le rythme dépend des étapes à franchir entre un changement terminé et sa mise à disposition, et chacune de ces étapes a été imposée par quelqu'un qui en avait l'autorité. Deux validations. Un créneau de déploiement. Une signature qui attend que tu sois disponible. Chacune semblait peu coûteuse au départ. Ensemble, elles fixent le plafond qu'on demande maintenant à l'équipe de dépasser.
 
@@ -37,7 +38,7 @@ Les essais peu coûteux ont besoin du même soutien. Une page de test et un tabl
 
 Chaque porte était une réponse raisonnable à quelque chose qui a cassé une fois. La question est de savoir si tu sais encore nommer l'incident.
 
-## À essayer
+## La décision
 
 → Compte les portes. Suis un petit changement du code à la mise en production, liste chaque validation et chaque attente, puis retire-en une ce mois-ci.
 → Dis la règle de périmètre avant l'échéance. "Les deux tiers à la date valent mieux que tout en retard" ne compte que tant que l'issue est encore ouverte.

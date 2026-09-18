@@ -3,6 +3,7 @@ layout: chapter
 title: "Le filtre que tu fais tourner"
 part: "Le leadership"
 order: 902
+card_type: diagnostic
 metadata:
   principle: "9.02"
   reading_time_in_minutes: 3
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/09-07-le-filtre-que-tu-fais-tourner.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "On a cherché. Il n'y a personne de ce niveau ici."
 
 Six mois de recherche, des dizaines de profils, et la conclusion s'impose d'elle-même. Elle est sincère, elle est fondée sur ce que tu as réellement vu, et la moitié des fondateurs que tu connais est arrivée à la même.
 
-## Le réflexe builder
+## Le signal
 
 > "Qu'est-ce que mon canal est capable de me renvoyer ?"
 
-## Pourquoi
+## Ce qui se passe
 
 Une méthode de recrutement sélectionne certains profils plutôt que d'autres. Ses résultats sont donc prévisibles. Les recommandations de ceux qui connaissent tout le monde. Les noms qui remontent des événements. Les profils transférés avec "celui-là est excellent". Tous repèrent ceux qui sont visibles, aucun ne vérifie ce qu'ils ont livré, et sur un marché où être connu paie mieux que livrer, les deux se trouvent rarement chez la même personne.
 
@@ -37,7 +38,7 @@ Pour sortir de cette impasse, cherche une trace au lieu d'une réputation. Du co
 
 J'ai appliqué ce filtre pendant deux ans et pris son résultat pour un fait. Ce livre existe parce que je me suis trompé.
 
-## À essayer
+## À vérifier
 
 → Avant de demander la moindre recommandation sur ta prochaine recherche, cherche des traces. Un dépôt, un texte, une réponse. Compte combien de candidats sortent de chaque canal, et garde le compte.
 → Écris ce que tu cherches en choses faites, pas en niveau. "A déjà réparé un rapprochement de paiements entre deux systèmes" se cherche. "Ingénieur senior" ne se cherche pas.

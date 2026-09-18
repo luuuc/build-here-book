@@ -3,6 +3,7 @@ layout: chapter
 title: "Lis en dehors de ton couloir"
 part: "Le métier"
 order: 208
+card_type: pratique
 metadata:
   principle: "2.08"
   reading_time_in_minutes: 2
@@ -17,19 +18,19 @@ redirect_from:
   - /chapters/01-04-lis-en-dehors-de-ton-couloir.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 > "Ça, c'est le domaine de l'équipe data !"
 
 Chacun lit dans son couloir. Le back n'ouvre jamais le fichier de design. Le marketing ne sait pas faire une démonstration du produit sur lequel il écrit.
 
-## Le réflexe builder
+## Le geste
 
 > "Je veux savoir ce qui se passe avant moi et après moi."
 
 Pas pour prendre le travail. Pour comprendre comment ton travail s'insère dans l'ensemble.
 
-## Pourquoi
+## Pourquoi ça marche
 
 Les problèmes les plus coûteux se trouvent entre les équipes, là où personne ne s'en charge.
 

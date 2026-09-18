@@ -3,6 +3,7 @@ layout: chapter
 title: "Une connaissance qui tient dans une seule tête est une panne à venir"
 part: "Les systèmes"
 order: 703
+card_type: diagnostic
 metadata:
   principle: "7.03"
   reading_time_in_minutes: 2
@@ -15,17 +16,17 @@ seo:
   keywords: "build here, systemes, transmission, connaissance, builder"
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "Demande à Kofi, il sait."
 
 Kofi sait vraiment. La réponse arrive en quatre minutes, elle est juste, et tout le monde repart content. Ça marche depuis trois ans.
 
-## Le réflexe builder
+## Le signal
 
 > "Kofi, la prochaine fois qu'on te pose la question, écris la réponse quelque part avant de la donner."
 
-## Pourquoi
+## Ce qui se passe
 
 Celui qui sait est un mur porteur qui n'apparaît sur aucun plan. Tant qu'il est là, rien ne signale le problème. Le jour où il est en congé, en déplacement, malade ou parti ailleurs, une chose que l'entreprise croyait acquise redevient impossible, et la surprise est totale parce que rien ne l'avait annoncée.
 
@@ -35,7 +36,7 @@ Ce qui maintient ce système en place n'est pas l'égoïsme. Être celui qui sai
 
 Tout n'a pas à être écrit et essayer produit une documentation que personne ne lit. Le test est étroit : ce dont quelqu'un aura besoin pendant que tu n'es pas joignable. Le reste peut rester dans ta tête sans que ça coûte quoi que ce soit.
 
-## À essayer
+## À vérifier
 
 La prochaine question qu'on te pose et que tu as déjà entendue, écris la réponse avant de la donner. Puis envoie le lien plutôt que la réponse.
 

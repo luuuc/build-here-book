@@ -34,7 +34,7 @@ export async function noter(requete, env) {
   // Pas de captcha : la cible n'en vaut pas la peine, et un defi coute plus
   // aux lecteurs qu'il ne coute a qui voudrait fausser trois chiffres.
   // Un garde-fou reseau large suffit a borner la table, et il a son propre
-  // compteur pour ne pas entamer celui des contributions.
+  // compteur pour ne pas entamer celui des commentaires.
   const reseau = await regarderIp(
     env.DB,
     env.JETON_SECRET,

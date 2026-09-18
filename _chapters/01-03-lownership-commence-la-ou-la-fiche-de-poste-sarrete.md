@@ -3,6 +3,7 @@ layout: chapter
 title: "L'ownership commence là où la fiche de poste s'arrête"
 part: "L'état d'esprit"
 order: 103
+card_type: principe
 metadata:
   principle: "1.03"
   reading_time_in_minutes: 2

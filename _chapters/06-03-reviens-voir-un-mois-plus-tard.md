@@ -3,6 +3,7 @@ layout: chapter
 title: "Reviens voir un mois plus tard"
 part: "L'ownership"
 order: 603
+card_type: pratique
 metadata:
   principle: "6.03"
   reading_time_in_minutes: 2
@@ -15,19 +16,19 @@ seo:
   keywords: "build here, ownership, verification, resultat, builder"
 ---
 
-## Le réflexe
+## Le point de départ
 
 > "C'est livré, on est passés à la suite."
 
 La suite existe vraiment, elle est déjà planifiée, et rien dans l'organisation ne prévoit de revenir en arrière.
 
-## Le réflexe builder
+## Le geste
 
 > "Trente minutes dans un mois, pour regarder ce que ça a donné."
 
 Une date de livraison se planifie toujours. Une date de vérification ne se planifie jamais.
 
-## Pourquoi
+## Pourquoi ça marche
 
 Sans date de vérification, une équipe n'apprend que des choses qui cassent bruyamment. L'incident se signale tout seul. L'échec silencieux, lui, ne remonte jamais.
 

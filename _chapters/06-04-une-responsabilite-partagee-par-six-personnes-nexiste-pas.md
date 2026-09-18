@@ -3,6 +3,7 @@ layout: chapter
 title: "Une responsabilité partagée par six personnes n'existe pas"
 part: "L'ownership"
 order: 604
+card_type: diagnostic
 metadata:
   principle: "6.04"
   reading_time_in_minutes: 2
@@ -15,19 +16,19 @@ seo:
   keywords: "build here, ownership, responsabilite, equipe, builder"
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "C'est un sujet transverse. Toute l'équipe est responsable."
 
 La phrase est généreuse et elle est dite de bonne foi. Elle refuse de désigner quelqu'un, ce qui ressemble à du respect.
 
-## Le réflexe builder
+## Le signal
 
 > "C'est Awa qui en répond. Les autres aident."
 
 Répondre d'un sujet n'est pas le porter seul. C'est être la personne à qui on demande où ça en est.
 
-## Pourquoi
+## Ce qui se passe
 
 Six responsables produisent zéro responsable, et le mécanisme n'a rien à voir avec la mauvaise volonté. Chacun regarde les cinq autres pour savoir si quelqu'un a commencé. Chacun a une semaine chargée et une bonne raison de ne pas s'y mettre aujourd'hui plutôt que demain. Chacun suppose que le sujet est couvert, puisque cinq personnes sont dessus. Le sujet n'avance pas, et aucune de ces six personnes n'a rien fait de reprochable.
 
@@ -37,7 +38,7 @@ L'objection sérieuse est qu'écrire un nom ressemble à désigner un coupable �
 
 Un nom ne veut pas dire un exécutant unique. Le sujet peut occuper quatre personnes. Une seule doit pouvoir dire où il en est sans aller demander.
 
-## À essayer
+## À vérifier
 
 Prends les trois sujets transverses en cours ici. Écris un nom en face de chacun, à voix haute, dans la réunion où ils sont suivis.
 

@@ -3,6 +3,7 @@ layout: chapter
 title: "Supprime l'étape avant de la documenter"
 part: "Les systèmes"
 order: 702
+card_type: pratique
 metadata:
   principle: "7.02"
   reading_time_in_minutes: 2
@@ -15,19 +16,19 @@ seo:
   keywords: "build here, systemes, process, documentation, builder"
 ---
 
-## Le réflexe
+## Le point de départ
 
 > "Je vais écrire une procédure pour que tout le monde sache la faire."
 
 C'est généreux, c'est du travail réel, et ça règle effectivement le problème de la semaine.
 
-## Le réflexe builder
+## Le geste
 
 > "Avant d'écrire comment on la fait, pourquoi est-ce qu'elle existe ?"
 
 Trois questions dans l'ordre. Est-ce qu'on peut la supprimer. Sinon, est-ce qu'une machine peut la faire. Sinon seulement, on l'écrit.
 
-## Pourquoi
+## Pourquoi ça marche
 
 Une documentation est souvent le lot de consolation d'une étape qui n'aurait pas dû exister. Elle a l'avantage d'être rapide à produire et de donner l'impression d'avoir traité le sujet. Elle a l'inconvénient de rendre l'étape permanente.
 

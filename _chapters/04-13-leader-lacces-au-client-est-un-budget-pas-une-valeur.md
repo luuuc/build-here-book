@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ L'accès au client est un budget, pas une valeur"
 part: "La compréhension"
 order: 413
+card_type: systeme
 metadata:
   principle: "4.13"
   reading_time_in_minutes: 2
@@ -17,7 +18,7 @@ redirect_from:
   - /chapters/11-05-leader-lacces-au-client-est-un-budget-pas-une-valeur.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 L'obsession client est au mur et dans le deck d'onboarding. Puis un ingénieur demande vingt minutes avec un vrai compte.
 
@@ -25,11 +26,11 @@ La demande part chez le responsable de compte, qui vérifie avec le commercial, 
 
 L'appel n'a pas lieu.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Deux ingénieurs par mois ont un appel client. Voilà la liste, inscrivez-vous."
 
-## Pourquoi
+## Ce que ça produit
 
 Les cartes précédentes demandent aux gens de lire des tickets, d'appeler trois utilisateurs, de démonter une réclamation. Maintenant regarde qui tient la porte. Les accès à l'outil de support sont réservés au support. La liste client est dans un CRM auquel les ingénieurs n'ont pas accès. La relation appartient à celui qui a signé.
 
@@ -39,7 +40,7 @@ La crainte est réelle, mais on peut y répondre simplement. Quelqu'un de techni
 
 Ces précautions évitent les accrocs dans la relation client pendant un trimestre. Mais elles dégradent toutes les décisions prises entre-temps, par des gens qui travaillent sur une description du problème au lieu du problème.
 
-## À essayer
+## La décision
 
 → Donne à chaque ingénieur et designer un accès en lecture à la file de support cette semaine. Pas un résumé. La boîte.
 → Publie une liste de cinq clients qui ont accepté un appel de vingt minutes. N'importe qui peut réserver, sans justification, et dis cette partie-là clairement.

@@ -1,0 +1,31 @@
+#!/usr/bin/env node
+// Controle le contrat statique du test sans navigateur.
+
+import { readFileSync, existsSync } from "node:fs";
+import { join } from "node:path";
+
+const racine = new URL("..", import.meta.url).pathname;
+const script = readFileSync(join(racine, "assets/javascripts/test-builder.js"), "utf8");
+const page = readFileSync(join(racine, "test-builder.md"), "utf8");
+
+const debut = script.indexOf("const questions = [");
+const fin = script.indexOf("\n  ];", debut);
+const questions = script.slice(debut, fin).match(/^    \[\d+,"/gm) || [];
+if (questions.length !== 30) throw new Error(`${questions.length} questions trouvées, 30 attendues.`);
+
+for (let n = 1; n <= 10; n++) {
+  const compte = (script.slice(debut, fin).match(new RegExp(`^    \\[${n},`, "gm")) || []).length;
+  if (compte !== 3) throw new Error(`L'étape ${n} porte ${compte} questions, 3 attendues.`);
+}
+
+const liens = [...script.matchAll(/"(\/chapters\/[^"?]+\.html)"/g)].map((m) => m[1]);
+for (const lien of liens) {
+  const rendu = join(racine, "_site", lien.replace(/^\//, ""));
+  if (!existsSync(rendu)) throw new Error(`Carte recommandée introuvable dans le build : ${lien}`);
+}
+
+for (const marqueur of ["data-test-start", "data-test-question", "data-result-route", "data-test-restart"]) {
+  if (!page.includes(marqueur)) throw new Error(`Marqueur d'interface absent : ${marqueur}`);
+}
+
+console.log(`Test Builder valide : 30 situations, 10 étapes, ${liens.length} recommandations résolues.`);

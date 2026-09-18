@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Un chiffrage demandé après la décision n'est pas un chiffrage"
 part: "La compréhension"
 order: 412
+card_type: systeme
 metadata:
   principle: "4.12"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/10-05-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "On leur envoie dès que c'est calé. Ils chiffrent, et on ajuste si besoin."
 
 Ça ressemble à de la méthode. La décision est propre, la demande est écrite, l'équipe technique est consultée pour de vrai.
 
-## Le réflexe builder
+## Ce que le système entend
 
 Tu reprends les trois derniers engagements et tu regardes qui savait ce que ça coûtait à construire, et quand il l'a su.
 
-## Pourquoi
+## Ce que ça produit
 
 Regarde qui choisit les personnes présentes quand la décision se prend. Un chiffrage produit après un engagement ne peut faire que deux choses. Le confirmer, ou faire passer quelqu'un pour un frein sur une chose déjà annoncée. Personne n'accepte deux fois de passer pour le frein. Alors les estimations qui reviennent après coup sont larges, prudentes et conformes, et tu conclus que l'équipe manque d'ambition.
 
@@ -37,7 +38,7 @@ Quelqu'un de technique dans une discussion commerciale parle souvent en termes t
 
 Ici, les décisions ne se prennent pas toujours en réunion. C'est un appel, un dîner, une réponse à un investisseur sur WhatsApp un dimanche. Tu participes à tous ces échanges, souvent seul. Ce que tu ne fais pas entrer avec toi n'entrera pas.
 
-## À essayer
+## La décision
 
 → Avant tout engagement qui pèse plus d'un trimestre, une personne qui construit est dans la boucle, et pas pour chiffrer. Trois lignes : bon marché, cher, hors de portée.
 → Demande l'option la moins chère avant de demander le devis de celle que tu as déjà choisie.

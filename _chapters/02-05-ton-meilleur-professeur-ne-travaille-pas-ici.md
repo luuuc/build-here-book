@@ -3,6 +3,7 @@ layout: chapter
 title: "Ton meilleur professeur ne travaille pas ici"
 part: "Le métier"
 order: 205
+card_type: principe
 metadata:
   principle: "2.05"
   reading_time_in_minutes: 2

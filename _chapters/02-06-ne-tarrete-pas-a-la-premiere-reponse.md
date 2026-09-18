@@ -3,6 +3,7 @@ layout: chapter
 title: "Ne t'arrête pas à la première réponse"
 part: "Le métier"
 order: 206
+card_type: pratique
 metadata:
   principle: "2.06"
   reading_time_in_minutes: 2
@@ -18,19 +19,19 @@ redirect_from:
   - /chapters/01-05-ne-tarrete-pas-a-la-premiere-reponse.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 > "J'ai répondu au client, il est satisfait."
 
 Symptôme parti. Ticket suivant.
 
-## Le réflexe builder
+## Le geste
 
 > "Ça marche. Mais pourquoi ça ne marchait pas ?"
 
 Une réponse qui fait disparaître le symptôme règle peut-être l'urgence. Elle laisse le problème de fond intact.
 
-## Pourquoi
+## Pourquoi ça marche
 
 La première réponse qu'on trouve traite souvent le symptôme le plus visible. Comme ce symptôme disparaît, on croit avoir compris le problème.
 

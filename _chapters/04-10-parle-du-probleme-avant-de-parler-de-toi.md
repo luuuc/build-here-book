@@ -3,6 +3,7 @@ layout: chapter
 title: "Parle du problème avant de parler de toi"
 part: "La compréhension"
 order: 410
+card_type: pratique
 metadata:
   principle: "4.10"
   reading_time_in_minutes: 1
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/12-05-parle-du-probleme-avant-de-parler-de-toi.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 La présentation commence par l'entreprise. Fondée en, une équipe de, construite sur, et voici les modules.
 
 Le lecteur, qui t'a rencontré il y a neuf secondes, n'a aucune raison de s'intéresser à quoi que ce soit de tout ça.
 
-## Le réflexe builder
+## Le geste
 
 > "Décris leur journée assez précisément pour qu'ils s'y reconnaissent, ensuite dis ce qu'on vend."
 
-## Pourquoi
+## Pourquoi ça marche
 
 Personne ne s'intéresse à une entreprise avant d'avoir compris ce qu'elle change pour lui. Une description précise du problème donne au lecteur l'impression que tu étais dans son bureau, et il continue en supposant que celui qui connaît le problème à ce point sait quelque chose sur la réponse.
 

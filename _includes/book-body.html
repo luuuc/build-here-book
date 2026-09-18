@@ -30,7 +30,7 @@ sommaire de l'EPUB et dans les signets du PDF.
         | replace: '<h3', '<h5' | replace: '</h3>', '</h5>'
         | replace: '<h2', '<h4' | replace: '</h2>', '</h4>' %}
       <section
-        class="chapter{% if is_section %} chapter--section{% else %} chapter--entry{% endif %}"
+        class="chapter{% if is_section %} chapter--section{% else %} chapter--entry{% endif %}{% if c.card_type %} chapter--{{ c.card_type }}{% endif %}"
         id="{{ c.url | split: '/' | last }}"
       >
         <header class="chapter-head">
@@ -44,6 +44,7 @@ sommaire de l'EPUB et dans les signets du PDF.
               {% unless c.part == c.title %}<span>{{ c.part }}</span>{% endunless %}
             {% endif %}
             {% if c.metadata.reading_time_in_minutes %}<span>{{ c.metadata.reading_time_in_minutes }} min</span>{% endif %}
+            {% if c.card_type %}<span>{{ site.data.interface.lecture.types[c.card_type] }}</span>{% endif %}
           </p>
           {% if is_section %}
             <h2 class="chapter-title">{{ c.title }}</h2>
@@ -51,7 +52,6 @@ sommaire de l'EPUB et dans les signets du PDF.
             <h3 class="chapter-title">{{ c.title }}</h3>
           {% endif %}
           {% if c.description %}<p class="chapter-lede">{{ c.description }}</p>{% endif %}
-          {% if c.author %}<p class="chapter-author">Écrite par {{ c.author | escape }}</p>{% endif %}
         </header>
 
         <!-- Les liens entre chapitres deviennent des renvois internes au tirage. -->

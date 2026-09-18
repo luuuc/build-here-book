@@ -3,6 +3,7 @@ layout: chapter
 title: "Le raccourci que tout le monde prend est le vrai processus"
 part: "Les systèmes"
 order: 705
+card_type: diagnostic
 metadata:
   principle: "7.05"
   reading_time_in_minutes: 2
@@ -15,17 +16,17 @@ seo:
   keywords: "build here, systemes, process, contournement, builder"
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "Le processus est écrit, ils ne le suivent pas."
 
 Le document existe, il est à jour, il a été présenté. Le problème semble donc être ailleurs, du côté des gens.
 
-## Le réflexe builder
+## Le signal
 
 > "Regarde ce qu'ils font à la place. C'est ça, le processus."
 
-## Pourquoi
+## Ce qui se passe
 
 Un contournement pris par une personne est un écart. Un contournement pris par tout le monde est une information, et elle porte sur le chemin officiel, pas sur la discipline de l'équipe. Personne ne prend un chemin plus long par distraction.
 
@@ -35,7 +36,7 @@ C'est ce quelque chose qui est le vrai sujet. Un processus officiel fait en gén
 
 Tous les contournements ne se valent pas et il faut trier. La question à poser est de savoir si l'étape sautée protège contre une chose qui est réellement arrivée. Si oui, le raccourci est un incident en préparation et il faut comprendre pourquoi le chemin officiel est si pénible. Si personne ne sait contre quoi l'étape protégeait, le raccourci vient de trancher un débat que la salle n'avait pas osé ouvrir.
 
-## À essayer
+## À vérifier
 
 Prends un processus écrit ici. Va regarder comment il se passe réellement, une fois, en observant.
 

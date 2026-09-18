@@ -3,6 +3,7 @@ layout: chapter
 title: "Une audience met plus de temps à se construire qu'un produit"
 part: "La compréhension"
 order: 411
+card_type: principe
 metadata:
   principle: "4.11"
   reading_time_in_minutes: 2

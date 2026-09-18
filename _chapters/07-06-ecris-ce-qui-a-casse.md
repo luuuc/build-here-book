@@ -3,6 +3,7 @@ layout: chapter
 title: "Écris ce qui a cassé"
 part: "Les systèmes"
 order: 706
+card_type: pratique
 metadata:
   principle: "7.06"
   reading_time_in_minutes: 3
@@ -18,17 +19,17 @@ redirect_from:
   - /chapters/14-03-ecris-ce-qui-a-casse.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 > "Tout le monde ici sait ce qui s'est passé."
 
 L'incident est réglé. La campagne a raté, le recrutement a duré quatre mois, le passage de relais a perdu un client, ou le service est tombé. On en a parlé, le canal contient les messages, et l'équipe est passée à autre chose. Écrire ça proprement ressemble à de la paperasse sur une chose déjà digérée.
 
-## Le réflexe builder
+## Le geste
 
 > "Ce que ça m'a appris n'existe nulle part hors de ma tête."
 
-## Pourquoi
+## Pourquoi ça marche
 
 Un postmortem contient une chose qu'aucune rétro ne garde. L'hypothèse fausse, et combien de temps tu l'as gardée. C'est ce qui t'a coûté le plus de temps, et c'est le premier détail que tu oublies. Six mois plus tard tu te souviens que le message ne parlait à personne, que le meilleur candidat avait décliné, ou que le mauvais service était en cause. Tu ne te souviens plus des deux semaines où tu accusais le canal, du critère qui écartait les bons profils, ni des deux heures passées à regarder au mauvais endroit. Or c'est exactement ce dont a besoin le suivant, parce qu'il va faire la même erreur pour les mêmes bonnes raisons.
 

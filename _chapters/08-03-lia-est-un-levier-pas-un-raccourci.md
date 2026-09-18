@@ -3,6 +3,7 @@ layout: chapter
 title: "L'IA est un levier, pas un raccourci"
 part: "Le levier"
 order: 803
+card_type: pratique
 metadata:
   principle: "8.03"
   reading_time_in_minutes: 3
@@ -15,17 +16,17 @@ seo:
   keywords: "build here, levier, ia, automatisation, builder"
 ---
 
-## Le réflexe
+## Le point de départ
 
 > "On a mis de l'IA dessus, on va deux fois plus vite."
 
 C'est souvent vrai, mesuré sur le temps de production. Le reste de la phrase n'est pas dit, parce que personne ne l'a mesuré.
 
-## Le réflexe builder
+## Le geste
 
 > "Sur quelle partie exactement, et qu'est-ce qui se passe quand elle se trompe ?"
 
-## Pourquoi
+## Pourquoi ça marche
 
 Un levier demande un point d'appui. Ici, le point d'appui est ta capacité à dire ce qu'est une bonne réponse. Si tu sais reconnaître le travail juste en trente secondes, la machine te rend un multiplicateur. Si tu ne sais pas, elle te rend du volume dont tu ne peux rien faire, avec une assurance qui rend l'erreur plus difficile à repérer qu'une erreur humaine, laquelle hésite en général avant de se tromper.
 

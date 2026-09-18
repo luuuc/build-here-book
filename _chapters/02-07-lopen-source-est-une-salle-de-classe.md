@@ -3,6 +3,7 @@ layout: chapter
 title: "L'open source est une salle de classe"
 part: "Le métier"
 order: 207
+card_type: principe
 metadata:
   principle: "2.07"
   reading_time_in_minutes: 2

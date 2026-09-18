@@ -3,6 +3,7 @@ layout: chapter
 title: "La deuxième fois est une information"
 part: "Les systèmes"
 order: 701
+card_type: diagnostic
 metadata:
   principle: "7.01"
   reading_time_in_minutes: 2
@@ -15,17 +16,17 @@ seo:
   keywords: "build here, systemes, repetition, process, builder"
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "Je l'ai refait, ça m'a pris dix minutes."
 
 Dix minutes ne se discutent pas. C'est moins long que la réunion où on en parlerait, donc on le refait, et on a raison de le refaire.
 
-## Le réflexe builder
+## Le signal
 
 > "C'est la deuxième fois ce mois-ci. Je le note. À la troisième, je change quelque chose."
 
-## Pourquoi
+## Ce qui se passe
 
 Le coût d'une tâche répétée est invisible parce que chaque occurrence est minuscule. Personne ne ment sur les dix minutes. Personne ne les additionne non plus. Trois fois par semaine pendant un an, ce sont vingt-six heures, prises en tranches trop petites pour apparaître dans un planning, et suffisamment régulières pour que plus personne ne les remarque.
 
@@ -35,7 +36,7 @@ La règle utile tient en deux temps. La première fois, tu fais, et tu ne conclu
 
 Noter tout ce qui se répète deviendrait à son tour un travail. La note est une ligne dans un fichier que tu rouvres une fois par mois, pas un outil, pas un tableau, pas un rituel. Si la tenue du compteur demande plus de discipline que la tâche elle-même, il est trop gros.
 
-## À essayer
+## À vérifier
 
 Ouvre un fichier, appelle-le comme tu veux, et note pendant deux semaines chaque chose que tu fais pour la deuxième fois.
 

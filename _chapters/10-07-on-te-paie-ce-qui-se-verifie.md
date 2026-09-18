@@ -3,6 +3,7 @@ layout: chapter
 title: "On te paie ce qui se vérifie"
 part: "La référence"
 order: 1007
+card_type: diagnostic
 metadata:
   principle: "10.07"
   reading_time_in_minutes: 3
@@ -17,19 +18,19 @@ redirect_from:
   - /chapters/15-06-on-te-paie-ce-qui-se-verifie.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "Je veux être payé à ma valeur."
 
 Personne ne conteste cette phrase, et c'est ce qui la rend inutilisable. Elle suppose un nombre juste, connu de toi, que quelqu'un en face refuse de payer.
 
-## Le réflexe builder
+## Le signal
 
 > "Ma valeur, c'est ce que je sais faire tourner. Mon prix, c'est la partie que quelqu'un peut vérifier."
 
 Deux choses différentes. Une seule des deux se négocie ce mois-ci.
 
-## Pourquoi
+## Ce qui se passe
 
 Je réponds depuis des années "connais ta valeur, ne travaille pas gratuitement", et j'entends la phrase revenir traduite en "demande plus". C'est la mauvaise moitié, et la traduction est de ma faute. Reconnais d'abord ce qui est vrai. L'écart de salaire pour le même travail se compte en multiples, il ne récompense aucune compétence, et il rend l'offre venue d'ailleurs parfaitement rationnelle. Personne ne doit un vœu de pauvreté à personne, et celui qui répond à cette question par de la vocation est en général en train de vendre quelque chose.
 
@@ -39,7 +40,7 @@ Deux chemins mènent à une augmentation, devenir meilleur et se rendre visible,
 
 La phrase se détourne dans les deux sens. Un employeur s'en sert pour rappeler que l'argent n'est pas l'essentiel, ce qui n'est vrai que dans la bouche de celui qui ne le verse pas. Un builder s'en sert comme slogan de négociation sans rien derrière, et une valeur qu'on annonce sans pouvoir la montrer est juste un prix plus élevé. Ne travaille pas gratuitement reste juste, pour une raison qui n'est pas la tienne. Un travail livré à zéro apprend à l'acheteur ce que ce travail coûte, et il l'applique à celui qui passe après toi.
 
-## À essayer
+## À vérifier
 
 Dix lignes, dix minutes. Pas un CV, pas des intitulés de poste.
 

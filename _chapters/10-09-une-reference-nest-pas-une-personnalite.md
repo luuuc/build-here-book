@@ -3,6 +3,7 @@ layout: chapter
 title: "Une référence n'est pas une personnalité"
 part: "La référence"
 order: 1009
+card_type: principe
 metadata:
   principle: "10.09"
   reading_time_in_minutes: 3

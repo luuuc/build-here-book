@@ -21,13 +21,14 @@
       <div class="container">
         <!-- Le fil d'ariane vit au-dessus du titre et du dessin : il prend
              toute la ligne, a toutes les largeurs. -->
-        <div class="chapter-number">
+        <div class="chapter-number{% if page.card_type %} chapter-number--{{ page.card_type }}{% endif %}">
           {% if page.step_number %}
           <span>Étape {{page.step_number}}</span>
           {% else %}
           {% unless page.part == page.title %}<span>{{page.part}}</span>{% endunless %}
           {% endif %}
           {% if page.metadata.reading_time_in_minutes %}<span>{{page.metadata.reading_time_in_minutes}} min</span>{% endif %}
+          {% if page.card_type %}<span class="card-type">{{ site.data.interface.lecture.types[page.card_type] }}</span>{% endif %}
           <!-- Les deux actions de page, groupees. Le conteneur porte la
                marge automatique : sur les boutons eux-memes, deux marges
                automatiques se partagent l'espace libre et laissent un trou
@@ -84,27 +85,6 @@
             {% if page.description %}
             <p>{{page.description}}</p>
             {% endif %}
-            {% if page.author %}
-            {%- comment -%}
-              Les deux champs viennent d'une contribution, donc de quelqu'un
-              d'exterieur, et deux choses distinctes peuvent mal tourner.
-
-              Liquid n'echappe rien tout seul : sans `escape`, une guillemet
-              dans `author_link` sortait de l'attribut et le reste de la valeur
-              devenait du HTML.
-
-              Et `escape` ne dit rien du schema : `javascript:` reste
-              `javascript:` une fois echappe, et s'execute au clic. Le Worker le
-              filtre deja deux fois, a l'arrivee et a l'approbation, mais il
-              n'est pas le seul chemin vers `_chapters` : une pull request
-              ecrite a la main n'en passe pas par lui. C'est le dernier rendu
-              avant les lecteurs, donc le controle se repose ici.
-            {%- endcomment -%}
-            {%- assign schema = page.author_link | downcase | split: "://" | first -%}
-            {%- assign lien_ok = false -%}
-            {%- if schema == "https" or schema == "http" -%}{%- assign lien_ok = true -%}{%- endif -%}
-            <p class="chapter-author">Écrite par {% if lien_ok %}<a href="{{ page.author_link | escape }}" target="_blank" rel="noopener">{{ page.author | escape }}</a>{% else %}{{ page.author | escape }}{% endif %}</p>
-            {% endif %}
           </div>
           {% if page.illustration %}
           <div class="hero-art">
@@ -123,7 +103,7 @@
     <!-- Content -->
     {% assign content_parts = content | split: '<div class="footnotes" role="doc-endnotes">' %}
     <main
-      class="content{% if page.metadata.principle %} content--entry{% endif %}{% if page.step_number %} content--section{% endif %}"
+      class="content{% if page.metadata.principle %} content--entry{% endif %}{% if page.step_number %} content--section{% endif %}{% if page.card_type %} content--{{ page.card_type }}{% endif %}"
       {% if page.filtre_symptomes %}data-filtre-symptomes="{{ site.data.interface.lecture.filtre }}"
       data-filtre-vide="{{ site.data.interface.lecture.filtre_vide }}"{% endif %}
     >

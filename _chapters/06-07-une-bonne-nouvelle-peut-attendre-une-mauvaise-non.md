@@ -3,6 +3,7 @@ layout: chapter
 title: "Une bonne nouvelle peut attendre. Une mauvaise, non"
 part: "L'ownership"
 order: 607
+card_type: principe
 metadata:
   principle: "6.07"
   reading_time_in_minutes: 1

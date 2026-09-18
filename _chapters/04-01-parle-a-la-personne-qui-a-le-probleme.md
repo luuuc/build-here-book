@@ -3,6 +3,7 @@ layout: chapter
 title: "Parle à la personne qui a le problème"
 part: "La compréhension"
 order: 401
+card_type: pratique
 metadata:
   principle: "4.01"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/11-02-parle-a-la-personne-qui-a-le-probleme.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 Tu conçois à partir de ce que le commercial a rapporté, de ce que le fondateur a entendu chez un client, et de ce que l'équipe suppose pour boucher les trous.
 
 Personne dans la salle n'a parlé à un utilisateur ce mois-ci.
 
-## Le réflexe builder
+## Le geste
 
 > "Avant de décider, appelons trois personnes qui vivent avec ça tous les jours."
 
-## Pourquoi
+## Pourquoi ça marche
 
 Chaque relais filtre. Le commercial ramène ce qui aide à signer. Le fondateur garde la phrase qui a piqué. L'équipe comble les trous avec sa propre idée de l'utilisateur. Personne ne ment. C'est simplement la façon dont l'information circule entre les gens. Après trois intermédiaires, ce qui arrive dans le backlog est une caricature du problème, jugée crédible parce que trois personnes ont rapporté la même chose.
 

@@ -3,6 +3,7 @@ layout: chapter
 title: "Choisir un fournisseur, c'est signer pour trois ans"
 part: "La compréhension"
 order: 406
+card_type: principe
 metadata:
   principle: "4.06"
   reading_time_in_minutes: 2

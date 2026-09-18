@@ -3,6 +3,7 @@ layout: chapter
 title: "Le but n'est pas d'en faire plus"
 part: "Le levier"
 order: 801
+card_type: principe
 metadata:
   principle: "8.01"
   reading_time_in_minutes: 2

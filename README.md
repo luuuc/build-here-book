@@ -44,17 +44,11 @@ Les huit premières rendent meilleur. Les deux dernières sont celles que presqu
 
 Puis une conclusion : un builder en onze lignes, et laisser quelque chose que le suivant pourra trouver.
 
-Les annexes donnent le format d'une carte, les douze tests qu'elle doit survivre, et seize titres publiés entre 1954 et 2018 où tout ça était déjà écrit.
+Les annexes expliquent les quatre formats de cartes, la méthode de l'Ultimate Builder Test, et seize titres publiés entre 1954 et 2018 où tout ça était déjà écrit.
 
-## Écrire la suivante
+## Trouver sa prochaine marche
 
-Il manque à ce livre les cartes que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
-
-Elle s'envoie depuis **[build-here.africa/contribuer](https://build-here.africa/contribuer)**, sans compte à ouvrir, et la page donne un entretien à coller dans un assistant pour la préparer. Ce qui arrive par là devient une pull request sur ce dépôt. Si tu as déjà un compte, ouvre-la toi-même. Le chemin ne change rien à la relecture.
-
-Le format est en [annexe 1](_chapters/a1-comment-ecrire-une-entree.md), les tests en [annexe 2](_chapters/a2-les-douze-tests.md), la mécanique dans [CONTRIBUTING.md](CONTRIBUTING.md). Si elle tient, elle rejoint le livre sous ton nom.
-
-Pas besoin d'être connu. C'est à peu près le sujet.
+L'**[Ultimate Builder Test](https://build-here.africa/test-builder/)** présente trente situations de travail. Il situe le dernier niveau dont les prérequis tiennent, repère la marche suivante et construit un parcours de trois cartes. Le calcul se fait dans le navigateur ; le backend ne reçoit qu'un résumé anonyme des dix scores pour améliorer les questions.
 
 ## Licence
 

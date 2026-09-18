@@ -3,6 +3,7 @@ layout: chapter
 title: "Si tu ne comprends pas pourquoi, tu n'es pas prêt à construire"
 part: "L'autonomie"
 order: 303
+card_type: principe
 metadata:
   principle: "3.03"
   reading_time_in_minutes: 1

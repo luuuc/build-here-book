@@ -3,6 +3,7 @@ layout: chapter
 title: "Lis le code source"
 part: "Le métier"
 order: 202
+card_type: pratique
 metadata:
   principle: "2.02"
   reading_time_in_minutes: 2
@@ -17,15 +18,15 @@ redirect_from:
   - /chapters/06-03-lis-le-code-source.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 La bibliothèque ne se comporte pas comme prévu. Tu cherches, tu essaies trois réponses d'un thread de forum, et tu gardes celle qui fait taire l'erreur.
 
-## Le réflexe builder
+## Le geste
 
 Tu ouvres le fichier. Tu lis la fonction que tu appelles.
 
-## Pourquoi
+## Pourquoi ça marche
 
 Presque tout ce dont tu dépends est lisible. Le framework, le client HTTP, le driver de base de données, le script de déploiement. C'est déjà sur ton disque, dans le dossier des dépendances.
 

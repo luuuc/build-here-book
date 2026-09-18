@@ -3,6 +3,7 @@ layout: chapter
 title: "Ton métier a une littérature, et tu ne l'as pas lue"
 part: "Le métier"
 order: 204
+card_type: principe
 metadata:
   principle: "2.04"
   reading_time_in_minutes: 2

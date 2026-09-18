@@ -3,6 +3,7 @@ layout: chapter
 title: "Douze ans d'expérience, ou douze fois la même année"
 part: "Le métier"
 order: 203
+card_type: diagnostic
 metadata:
   principle: "2.03"
   reading_time_in_minutes: 2
@@ -15,17 +16,17 @@ seo:
   keywords: "build here, metier, experience, pratique, builder"
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "Ça fait douze ans que je fais ce métier."
 
 C'est vrai, c'est long, et la phrase suffit en général à clore la discussion. Elle est d'ailleurs prononcée par des gens compétents, ce qui la rend encore plus difficile à contester.
 
-## Le réflexe builder
+## Le signal
 
 > "Qu'est-ce que je sais faire cette année que je ne savais pas faire l'an dernier ?"
 
-## Pourquoi
+## Ce qui se passe
 
 Un métier se répète tout seul dès qu'il devient confortable, et la répétition ressemble beaucoup à de la maîtrise vue de l'intérieur. Le mécanisme est presque gentil. Au bout de deux ou trois ans, tu disposes d'un répertoire qui couvre la quasi-totalité des situations. À partir de là, chaque nouvelle situation ressemble à une que tu as déjà vue, et tu appliques la réponse qui avait marché. Ça marche encore. C'est même exactement ce que les gens appellent de l'expérience. Et l'apprentissage s'arrête là, parce que l'apprentissage vient des situations où ta réponse ne marche pas, et que tu as cessé d'en rencontrer.
 
@@ -35,7 +36,7 @@ S'entraîner vraiment ressemble à autre chose, et c'est pour ça que c'est rare
 
 Personne ne peut être en apprentissage permanent sur tout, et un métier stabilisé n'est pas un échec. Le test est étroit. Une chose par an, que tu peux nommer.
 
-## À essayer
+## À vérifier
 
 Écris la chose que tu fais le moins bien dans ton métier. Pas la plus pénible, la moins bien. Ce ne sont presque jamais les mêmes.
 

@@ -3,6 +3,7 @@ layout: chapter
 title: "Trente pour cent de ce qui arrive est la même chose"
 part: "Le levier"
 order: 802
+card_type: diagnostic
 metadata:
   principle: "8.02"
   reading_time_in_minutes: 2
@@ -15,17 +16,17 @@ seo:
   keywords: "build here, levier, comptage, cause, builder"
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "Chaque client est différent."
 
 Vu du guichet, c'est l'expérience exacte. Chaque demande arrive avec son contexte, son ton, son urgence, et deux cas identiques ne se ressemblent jamais vraiment.
 
-## Le réflexe builder
+## Le signal
 
 > "Prends cent demandes et range-les par cause, pas par sujet."
 
-## Pourquoi
+## Ce qui se passe
 
 Traité un par un, tout paraît différent. Compté, presque tout se concentre. C'est vrai des demandes support, des objections en rendez-vous commercial, des questions posées à un nouveau, des bugs remontés, des motifs de désabonnement. Quatre ou cinq causes couvrent en général plus de la moitié du volume, et personne dans l'équipe ne peut les nommer de mémoire.
 
@@ -35,7 +36,7 @@ Sans ce comptage, toutes les améliorations sont des suppositions. On corrige le
 
 C'est du travail, et c'est une seule après-midi. Cent cas, une colonne pour la cause, écrite avec tes mots et pas avec les catégories de l'outil, qui décrivent en général le sujet et jamais l'origine. Le classement par sujet donne « paiement ». Le classement par cause donne « le client croit que la commande est annulée parce que le débit apparaît deux fois ». Seul le second se corrige.
 
-## À essayer
+## À vérifier
 
 Prends les cent derniers cas de ce que tu traites. Une ligne chacun, une cause en clair.
 

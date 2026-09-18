@@ -3,6 +3,7 @@ layout: chapter
 title: "Plus tu peaufines, plus il devient difficile de changer d'avis"
 part: "La livraison"
 order: 503
+card_type: diagnostic
 metadata:
   principle: "5.03"
   reading_time_in_minutes: 2
@@ -17,15 +18,15 @@ redirect_from:
   - /chapters/05-05-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 La release glisse encore. Un cas de plus à couvrir, un écran de plus à lisser. Pendant ce temps l'équipe débat de ce que les utilisateurs vont préférer, et les débats s'étirent parce que la réponse n'est pas dans la salle.
 
-## Le réflexe builder
+## Le signal
 
 Une version minimale qui rend vraiment service, dix personnes pour l'essayer, et on observe.
 
-## Pourquoi
+## Ce qui se passe
 
 Chaque semaine passée sans montrer le produit aux utilisateurs retarde leur réponse. Et s'ils n'en veulent pas, il devient plus coûteux de changer de direction.
 
@@ -33,7 +34,7 @@ Six semaines de travail fabriquent un attachement défensif que personne n'avait
 
 L'objection sérieuse est que le travail brut coûte de la confiance, et que sur un marché de cette taille on n'a pas de deuxième première impression. La question est de choisir à qui montrer le produit à ce stade. Tu peux nommer dix personnes que ce problème gêne vraiment, et tu as les dix numéros dans ton téléphone. Appelle-les, dis que c'est tôt, et elles pardonnent un défaut et te disent ce que cent inscriptions silencieuses ne diront jamais. Une équipe qui vend à quarante millions d'anonymes ne peut pas faire ça. Un lancement est une autre décision, plus tard. Définir cette version minimale reste une affaire de jugement, et je n'ai pas de règle universelle à te donner.
 
-## À essayer
+## À vérifier
 
 Pour la prochaine fonctionnalité, isole le morceau qui répond à la question la plus incertaine, et mets seulement ça devant dix vrais utilisateurs cette semaine.
 

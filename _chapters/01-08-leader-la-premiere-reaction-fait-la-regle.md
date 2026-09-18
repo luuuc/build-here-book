@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ La première réaction fait la règle"
 part: "L'état d'esprit"
 order: 108
+card_type: systeme
 metadata:
   principle: "1.08"
   reading_time_in_minutes: 2
@@ -17,7 +18,7 @@ redirect_from:
   - /chapters/04-06-leader-la-premiere-reaction-fait-la-regle.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 Quelqu'un prend une initiative utile sans demander avant. Ce qui sort de ta bouche porte sur la forme.
 
@@ -25,11 +26,11 @@ Quelqu'un prend une initiative utile sans demander avant. Ce qui sort de ta bouc
 
 L'inquiétude est réelle. L'effet est sans commune mesure avec elle.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Bien vu ! La prochaine fois préviens-moi avant, que je dégage le terrain."
 
-## Pourquoi
+## Ce que ça produit
 
 Une phrase suffit à décourager toute initiative dans une équipe, et elle n'a même pas besoin d'être dite méchamment pour fonctionner.
 
@@ -39,7 +40,7 @@ Refais le calcul comme le fait celui qui hésite. Agir sans demander rapporte pe
 
 Certaines initiatives sont réellement dangereuses. La facturation. Un contrat signé. La production quand il ne reste personne pour réparer. Ce qui les protège n'est pas une réaction plus dure après coup, c'est une ligne tracée avant. Une frontière non marquée fait qu'on demande pour tout, puis qu'on agit à l'aveugle le jour où demander devient fatigant. Autoriser l'initiative ne suffit pas. Il faut la défendre les premières fois qu'elle tourne mal. C'est le plus difficile, et personne ne peut le faire à ta place.
 
-## À essayer
+## La décision
 
 → Prends le fond avant la forme. Si l'initiative était juste, dis-le avant de dire quoi que ce soit sur le processus.
 → Écris la frontière. "Tu décides seul en dessous de ce montant, de ce niveau de risque, de ce nombre de clients impactés."

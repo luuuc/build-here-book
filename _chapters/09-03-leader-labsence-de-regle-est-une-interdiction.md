@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ L'absence de règle est une interdiction"
 part: "Le leadership"
 order: 903
+card_type: systeme
 metadata:
   principle: "9.03"
   reading_time_in_minutes: 3
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/14-06-leader-labsence-de-regle-est-une-interdiction.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "Il n'y a aucune règle chez nous. Ils peuvent écrire ce qu'ils veulent."
 
 C'est vrai. Rien n'est interdit, rien n'est écrit, et personne ne publie jamais rien.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Personne ne publiera tant que quelqu'un n'aura pas écrit ce qui est autorisé."
 
-## Pourquoi
+## Ce que ça produit
 
 Un vide n'est pas une permission. Devant un vide, les gens calculent. Publier un postmortem peut froisser un client, exposer une faiblesse, ou déplaire à quelqu'un dont tu dépends. Ne rien publier ne coûte rien et n'a jamais valu un mot à personne. Dans ces conditions, se taire est rationnel, et tu obtiens une équipe silencieuse dont tu diras plus tard qu'elle manque de rayonnement.
 
@@ -37,7 +38,7 @@ La crainte est réelle, mais elle porte sur des cas précis. Quelqu'un publie un
 
 Le coût du silence apparaît ailleurs, notamment dans les difficultés de recrutement. Une entreprise dont personne ne connaît les ingénieurs ne peut recruter que par recommandation, c'est-à-dire par le canal qui sélectionne la visibilité et pas la livraison. Tu cherches parmi les gens déjà connus, puis tu conclus qu'il n'y a personne de ce niveau ici.
 
-## À essayer
+## La décision
 
 → Écris la frontière. Ce qui se publie sans rien demander, ce qui passe par toi, ce qui ne sort pas. Une page, et elle vaut pour tout le monde.
 → Vas-y en premier, sur un incident qui t'a coûté quelque chose de réel. Tant que le premier texte publié par l'entreprise n'est pas signé par toi, la frontière reste théorique.

@@ -3,6 +3,7 @@ layout: chapter
 title: "Mets ton nom dessus"
 part: "La référence"
 order: 1001
+card_type: pratique
 metadata:
   principle: "10.01"
   reading_time_in_minutes: 3
@@ -17,7 +18,7 @@ redirect_from:
   - /chapters/14-01-mets-ton-nom-dessus.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 > "Le travail parle de lui-même."
 
@@ -25,11 +26,11 @@ Tu y crois. Annoncer sa propre compétence est de mauvais goût, et l'auto-promo
 
 Tu as aussi regardé des gens qui ne livrent rien devenir connus en parlant, ce qui a réglé la question. Si c'est ça l'alternative, reste silencieux.
 
-## Le réflexe builder
+## Le geste
 
 Le travail ne parle pas. Il est dans un dépôt privé, une présentation interne, une file de support ou la tête de trois personnes, et il va y rester.
 
-## Pourquoi
+## Pourquoi ça marche
 
 Rien ici ne te demande de devenir la personne sur le panel. La modestie n'est pas le problème. Le problème est arithmétique. Un travail que tu n'as pas publié est un travail qui existe pour les huit personnes qui ont vu la revue, le tableau ou la présentation, et pour personne d'autre, jamais. Ce n'est pas modeste. C'est juste perdu.
 

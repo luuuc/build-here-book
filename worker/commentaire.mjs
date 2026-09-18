@@ -28,7 +28,7 @@ const PLAFOND_CLIENT = 6;
 
 function contactValide(canal, valeur) {
   const v = (valeur || "").trim();
-  if (!v) return true; // facultatif, contrairement a une contribution
+  if (!v) return true; // facultatif
   if (canal === "mail") return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v) && v.length <= 200;
   if (canal === "whatsapp") return /^\+?\d{8,15}$/.test(v.replace(/[\s.-]/g, ""));
   return false;

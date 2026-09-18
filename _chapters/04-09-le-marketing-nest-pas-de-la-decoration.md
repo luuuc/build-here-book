@@ -3,6 +3,7 @@ layout: chapter
 title: "Le marketing n'est pas de la décoration"
 part: "La compréhension"
 order: 409
+card_type: principe
 metadata:
   principle: "4.09"
   reading_time_in_minutes: 2

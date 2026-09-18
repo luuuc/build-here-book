@@ -3,6 +3,7 @@ layout: chapter
 title: "Une trace n'est pas forcément du code"
 part: "La référence"
 order: 1003
+card_type: principe
 metadata:
   principle: "10.03"
   reading_time_in_minutes: 3

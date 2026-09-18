@@ -3,6 +3,7 @@ layout: chapter
 title: "Trancher et avoir raison sont deux métiers différents"
 part: "L'autonomie"
 order: 305
+card_type: principe
 metadata:
   principle: "3.05"
   reading_time_in_minutes: 1

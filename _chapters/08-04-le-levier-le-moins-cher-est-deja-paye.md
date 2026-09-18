@@ -3,6 +3,7 @@ layout: chapter
 title: "Le levier le moins cher est déjà payé"
 part: "Le levier"
 order: 804
+card_type: principe
 metadata:
   principle: "8.04"
   reading_time_in_minutes: 2

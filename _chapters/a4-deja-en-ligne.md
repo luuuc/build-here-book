@@ -10,7 +10,7 @@ metadata:
 categories:
   - annexes
   - references
-  - contribution
+  - ressources
 seo:
   description: "Une liste de choses qu'on peut ouvrir. Une seule règle d'admission, un inconnu peut en faire quelque chose ce soir."
   keywords: "build here, annexes, builder, deja, en ligne, open source"
@@ -28,7 +28,7 @@ L'annexe 3 liste ce qui a été écrit ailleurs, il y a longtemps. Celle-ci list
 
 La clôture du livre dit qu'à chaque fois que quelqu'un publie une chose utilisable, le nombre de références disponibles pour le suivant augmente de un. C'est le compteur.
 
-Ce n'est pas là pour prouver quoi que ce soit à qui que ce soit. Si tu cherches où contribuer et que tu ne sais pas où atterrir, c'est pour toi. Sinon, referme.
+Ce n'est pas là pour prouver quoi que ce soit à qui que ce soit. Si tu cherches quelque chose d'ouvert à utiliser, étudier ou rejoindre ce soir, c'est pour toi. Sinon, referme.
 
 ## Ce qui n'y est pas
 
@@ -53,16 +53,4 @@ C'est le prix d'une liste de choses vivantes.
 
 ---
 
-## Ajouter une ligne
-
-Même porte que le reste du livre. Une pull request sur [le dépôt](https://github.com/{{ site.repository }}), une ligne dans `_data/deja-en-ligne.yml`, sept champs. Ou un mail à [{{ site.contact_email }}](mailto:{{ site.contact_email }}) et je m'occupe du fichier.
-
-Trois choses à savoir avant.
-
-→ **Tu n'as pas besoin d'être l'auteur.** Ajouter le travail de quelqu'un d'autre est le cas le plus utile. C'est aussi le seul disponible pour celui qui n'a pas le droit de publier ce qu'il fait chez son employeur.
-
-→ **Pas de classement, pas de mise en avant, pas de logo.** Ordre alphabétique, toutes les lignes de la même longueur. Le jour où une place dans cette liste devient une récompense, la page a rejoint ce contre quoi le livre est écrit.
-
-→ **Quinze mots de faits après le nom.** Une communauté dynamique de passionnés n'est pas un fait. Deux rencontres par mois, une trentaine de personnes, en est un.
-
-Si c'est ta première pull request, *[Ta première contribution](/chapters/10-10-ta-premiere-contribution.html)* décrit exactement ce qui va se passer.
+La liste n'est ni un classement, ni une mise en avant. L'ordre reste alphabétique, les descriptions factuelles et les liens morts sont retirés lors des revues éditoriales.

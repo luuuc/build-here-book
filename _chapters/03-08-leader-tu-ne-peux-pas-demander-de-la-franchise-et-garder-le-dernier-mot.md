@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Tu ne peux pas demander de la franchise et garder le dernier mot"
 part: "L'autonomie"
 order: 308
+card_type: systeme
 metadata:
   principle: "3.08"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/03-05-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "Ma porte est ouverte. Ils peuvent tout me dire."
 
 La porte est ouverte, personne n'entre, et tu lis ça comme une absence de problème.
 
-## Le réflexe builder
+## Ce que le système entend
 
 Si personne ne t'a contredit depuis six mois, interroge-toi sur ta façon de diriger.
 
-## Pourquoi
+## Ce que ça produit
 
 L'invitation ne suffit pas. L'écart de pouvoir ne s'évapore pas parce que tu l'as déclaré nul.
 
@@ -37,7 +38,7 @@ Il y a une habitude invisible depuis ton côté du bureau. Tu écoutes, tu remer
 
 Tu prends peut-être le silence pour un accord. Demande à trois personnes séparément ce qu'elles pensent de la décision de la semaine dernière, et compare les trois réponses avant de conclure.
 
-## À essayer
+## La décision
 
 → Sollicite les objections au lieu d'attendre qu'elles viennent. "Quel est le point faible de ce plan ?" force une réponse. "Des questions ?" ne coûte rien à esquiver.
 → Une fois sur trois, concède en public. Change le plan dans la salle, à cause d'une remarque, et dis de qui venait la remarque. C'est la seule preuve qui voyage.

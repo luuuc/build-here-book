@@ -3,6 +3,7 @@ layout: chapter
 title: "Une bonne décision peut quand même mal tourner"
 part: "L'ownership"
 order: 606
+card_type: principe
 metadata:
   principle: "6.06"
   reading_time_in_minutes: 2

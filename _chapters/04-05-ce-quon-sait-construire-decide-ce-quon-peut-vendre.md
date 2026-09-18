@@ -3,6 +3,7 @@ layout: chapter
 title: "Ce qu'on sait construire décide ce qu'on peut vendre"
 part: "La compréhension"
 order: 405
+card_type: principe
 metadata:
   principle: "4.05"
   reading_time_in_minutes: 2

@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Tu gardes ton équipe invisible parce que visible, elle part"
 part: "Le leadership"
 order: 904
+card_type: systeme
 metadata:
   principle: "9.04"
   reading_time_in_minutes: 3
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/15-05-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "On préfère communiquer au nom de l'entreprise."
 
 Les publications sortent sous le logo. Le nom de celui qui a fait le travail n'y figure pas. Personne n'a décidé ça méchamment, et la raison qu'on donne est la cohérence de la marque.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Si mon meilleur ingénieur devient connu, il part. C'est ça que je protège, et je ne peux pas le dire à voix haute."
 
-## Pourquoi
+## Ce que ça produit
 
 Reconnaissons d'abord que la peur est fondée. Quelqu'un de visible reçoit des offres. Sur un marché où un salaire à distance vaut plusieurs fois le tien, ces offres arrivent vite et elles sont sérieuses. Ce n'est pas de la paranoïa, c'est de l'arithmétique : ceux qui deviennent bons et se font voir sont aussi ceux que les entreprises étrangères peuvent recruter.
 
@@ -37,7 +38,7 @@ Il y a un deuxième coût et il est plus lent. Une entreprise dont on ne connaî
 
 La rétention se paie en argent, en autonomie et en travail intéressant. Elle ne se paie pas en obscurité. Tu perds sur les deux tableaux, parce que la personne finit par partir quand même, sans que rien de ce qu'elle a construit chez toi n'ait servi à faire venir la suivante.
 
-## À essayer
+## La décision
 
 → Mets le nom des gens sur ce que ton entreprise publie. C'est gratuit, c'est immédiat, et ça se remarque de l'extérieur bien avant d'être remarqué de l'intérieur.
 → Compte tes recrutements des deux dernières années par canal. Si tout est venu de recommandations, tu connais la sortie de ton filtre.

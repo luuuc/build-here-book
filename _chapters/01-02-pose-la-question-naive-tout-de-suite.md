@@ -3,6 +3,7 @@ layout: chapter
 title: "Pose la question naïve tout de suite"
 part: "L'état d'esprit"
 order: 102
+card_type: pratique
 metadata:
   principle: "1.02"
   reading_time_in_minutes: 2
@@ -17,19 +18,19 @@ redirect_from:
   - /chapters/01-03-pose-la-question-naive-tout-de-suite.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 > "J'attends de mieux comprendre avant de demander."
 
 Tu la mets de côté. Tu reliras la doc quand ça se calmera. Trois semaines passent. La question est toujours là, et elle coûte maintenant plus cher à poser.
 
-## Le réflexe builder
+## Le geste
 
 > "Attends ! Je n'ai pas compris ce mot. Il désigne quoi exactement ?"
 
 Le premier jour, cette question est celle d'un nouveau. Au bout d'un mois, elle donne l'impression que tu faisais semblant de comprendre.
 
-## Pourquoi
+## Pourquoi ça marche
 
 Plus tu attends, plus la question devient difficile à poser. La raison est toute simple. Passé la première semaine, les gens arrêtent d'expliquer. Ils supposent que tu sais. Chaque réunion suivante repose sur des notions que tu n'as jamais éclaircies.
 

@@ -19,7 +19,7 @@ categories:
   - methode
   - references
 seo:
-  description: "À gauche une phrase qu'on dit, à droite la carte qui la conteste. Les quatre-vingt-huit cartes du livre, rangées par symptôme."
+  description: "À gauche une phrase qu'on dit, à droite la carte qui la conteste. Les quatre-vingt-sept cartes du livre, rangées par symptôme."
   keywords: "build here, annexes, builder, index, symptome, sommaire"
 ---
 
@@ -27,7 +27,7 @@ Le mode d'emploi dit d'ouvrir le livre à l'étape qui correspond à ce qui t'ag
 
 À gauche, une phrase qu'on dit, ou une semaine qu'on vient de vivre. À droite, une carte, parfois deux, jamais dix. Un index qui renvoie quarante cartes n'a rien trié.
 
-Les quatre-vingt-huit cartes y sont, chacune au moins une fois. Aucun classement par importance, aucun ordre de lecture.
+Les quatre-vingt-sept cartes y sont, chacune au moins une fois. Aucun classement par importance, aucun ordre de lecture.
 
 ---
 
@@ -125,19 +125,18 @@ Les quatre-vingt-huit cartes y sont, chacune au moins une fois. Aucun classement
 - L'incident est réglé, tout le monde ici sait ce qui s'est passé, rien n'est écrit  →  [Écris ce qui a cassé](/chapters/07-06-ecris-ce-qui-a-casse.html)
 - La même question m'est posée en privé pour la troisième fois  →  [Réponds à la question en public](/chapters/10-04-reponds-a-la-question-en-public.html)
 - "Je n'écris pas de code, je n'ai rien à publier"  →  [Une trace n'est pas forcément du code](/chapters/10-03-une-trace-nest-pas-forcement-du-code.html)
-- "Je contribuerai quand je serai assez bon"  →  [Ta première contribution](/chapters/10-10-ta-premiere-contribution.html)
 - On publie, et personne n'arrive jamais dessus  →  [Publie là où on cherche](/chapters/10-05-publie-la-ou-on-cherche.html)
 - Cinq publications, aucun retour, on se demande si ça marche ici  →  [Le quatrième mois](/chapters/10-06-le-quatrieme-mois.html)
 - "Chez nous, on ne peut pas publier ce genre de chose"  →  [Ce que publier coûte vraiment](/chapters/10-08-ce-que-publier-coute-vraiment.html)
 - Ce que l'entreprise publie sort sous le logo, sans le nom de qui l'a fait  →  [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/09-04-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
-- Ce qu'on sait faire n'est écrit nulle part, par personne  →  [Personne n'a écrit ce que tu sais faire](/chapters/10-11-personne-na-ecrit-ce-que-tu-sais-faire.html)
+- Ce qu'on sait faire n'est écrit nulle part, par personne  →  [Personne n'a écrit ce que tu sais faire](/chapters/10-10-personne-na-ecrit-ce-que-tu-sais-faire.html)
 - Publier ressemble à de l'auto-promotion, et ceux qui le font ne construisent rien  →  [Un avis n'est pas un artefact](/chapters/10-02-un-avis-nest-pas-un-artefact.html) · [Une référence n'est pas une personnalité](/chapters/10-09-une-reference-nest-pas-une-personnalite.html)
 - Personne ne sait ce qu'on a le droit de publier, alors personne ne publie  →  [⇄ L'absence de règle est une interdiction](/chapters/09-03-leader-labsence-de-regle-est-une-interdiction.html)
 - "Je veux être payé à ma valeur"  →  [On te paie ce qui se vérifie](/chapters/10-07-on-te-paie-ce-qui-se-verifie.html) · [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-05-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
-- Ceux qui deviennent bons reçoivent une offre et partent  →  [Partir n'est pas une trahison](/chapters/10-12-partir-nest-pas-une-trahison.html)
+- Ceux qui deviennent bons reçoivent une offre et partent  →  [Partir n'est pas une trahison](/chapters/10-11-partir-nest-pas-une-trahison.html)
 
 ---
 
 Si rien ici ne ressemble à ta semaine, le [sommaire](/) est là pour ça.
 
-Et si la phrase qui te manque existe chez toi, c'est peut-être une carte que ce livre n'a pas encore. Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), et elle s'envoie depuis [build-here.africa/contribuer](/contribuer).
+Si tu ne sais toujours pas où commencer, l'[Ultimate Builder Test](/test-builder/) transforme trente situations en un parcours de trois cartes.

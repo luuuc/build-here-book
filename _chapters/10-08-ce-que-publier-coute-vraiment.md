@@ -3,6 +3,7 @@ layout: chapter
 title: "Ce que publier coûte vraiment"
 part: "La référence"
 order: 1008
+card_type: diagnostic
 metadata:
   principle: "10.08"
   reading_time_in_minutes: 3
@@ -17,15 +18,15 @@ redirect_from:
   - /chapters/15-03-ce-que-publier-coute-vraiment-ici.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "Chez nous, on ne peut pas publier ce genre de chose."
 
-## Le réflexe builder
+## Le signal
 
 Une partie de ce que ça coûte est réelle. Le reste est une habitude qui porte le même nom, et tant que tu les confonds, tu ne traites ni l'un ni l'autre.
 
-## Pourquoi
+## Ce qui se passe
 
 Commence par ce qui est vrai, parce que la liste est courte et sérieuse. Le milieu est étroit, quel que soit le métier. Un postmortem honnête est lu par le client concerné dès le lendemain, et par le concurrent qui recrute la semaine suivante. Un échec publié suit la personne jusque dans la salle où son prochain poste se discute, comme le rappelle *Une bonne décision peut quand même mal tourner*. Et l'employeur n'a jamais dit oui, parce que personne ne lui a jamais posé la question.
 
@@ -35,7 +36,7 @@ C'est le mélange qui coûte cher, exactement comme dans *Le savoir n'est pas ce
 
 Trie-les et la moitié du problème disparaît le jour même. Le client n'a pas besoin d'un nom, le montant n'a pas besoin d'être exact, le fournisseur peut rester un prestataire de paiement. Ce qui doit être précis, c'est la séquence des faits, et elle n'appartient à personne. La plupart des choses que tu crois ne pas pouvoir publier sont des choses que tu ne peux pas publier telles quelles. Pour l'autre moitié, il n'y a pas de raccourci. Lis ton contrat. Dix minutes, une fois, et tu sauras de quel côté de la ligne tu te trouves au lieu de le supposer depuis trois ans.
 
-## À essayer
+## À vérifier
 
 Deux colonnes, dix minutes, par écrit.
 

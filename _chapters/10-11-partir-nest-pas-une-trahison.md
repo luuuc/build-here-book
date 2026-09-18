@@ -2,9 +2,10 @@
 layout: chapter
 title: "Partir n'est pas une trahison"
 part: "La référence"
-order: 1012
+order: 1011
+card_type: principe
 metadata:
-  principle: "10.12"
+  principle: "10.11"
   reading_time_in_minutes: 3
 categories:
   - reference
@@ -14,6 +15,7 @@ seo:
   description: "Ce qui se perd à un départ n'est pas la personne. C'est ce qu'elle savait et qui n'était écrit nulle part."
   keywords: "build here, reference, carriere, trace, depart, builder"
 redirect_from:
+  - /chapters/10-12-partir-nest-pas-une-trahison.html
   - /chapters/15-04-partir-nest-pas-une-trahison.html
 ---
 

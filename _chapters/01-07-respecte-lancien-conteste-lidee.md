@@ -3,6 +3,7 @@ layout: chapter
 title: "Respecte l'ancien. Conteste l'idée"
 part: "L'état d'esprit"
 order: 107
+card_type: principe
 metadata:
   principle: "1.07"
   reading_time_in_minutes: 2

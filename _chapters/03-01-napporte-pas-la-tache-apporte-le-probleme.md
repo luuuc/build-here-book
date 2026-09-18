@@ -3,6 +3,7 @@ layout: chapter
 title: "N'apporte pas la tâche. Apporte le problème"
 part: "L'autonomie"
 order: 301
+card_type: pratique
 metadata:
   principle: "3.01"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/04-01-napporte-pas-la-tache-apporte-le-probleme.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 > "C'est fait. Je prends quoi après ?"
 
 Le travail arrive prédécoupé. Savoir si le découpage était bon, c'est la question de quelqu'un d'autre.
 
-## Le réflexe builder
+## Le geste
 
 Tu termines la tâche, et tu ajoutes ce que tu as vu en la faisant. La cause est plus profonde, et voilà ce que tu changerais.
 
-## Pourquoi
+## Pourquoi ça marche
 
 Celui qui découpe le travail le fait depuis l'extérieur. Celui qui l'exécute passe deux jours dedans et apprend ce que l'auteur n'avait aucun moyen de savoir. L'agent support voit que la demande revient après chaque remboursement. La recruteuse entend cinq candidats buter sur la même phrase. L'ingénieur découvre que le ticket ne touche pas seulement le fichier prévu. Cette connaissance est nette pendant environ une journée, puis elle se dissout. Si elle ne remonte pas, la tâche suivante porte le même angle mort et l'équipe redécoupe le même problème deux trimestres plus tard avec un autre nom.
 

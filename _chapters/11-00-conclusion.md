@@ -42,12 +42,10 @@ Les deux dernières sont d'une autre nature, et c'est là que la plupart des car
 
 C'est aussi la seule partie de ce livre dont tu ne verras pas le résultat. Quelqu'un s'appuie sur ton travail, ne te le dit pas, ne te cite pas, et repart. Ce n'est pas une raison pour garder ce que tu sais dans ta tête.
 
-## Écris la carte suivante
+## Trouve ta prochaine marche
 
-Ce livre est incomplet. Il lui manque les cartes que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
+Tu n'as pas besoin de lire quatre-vingt-sept cartes pour savoir laquelle travaille pour toi maintenant. L'[Ultimate Builder Test](/test-builder/) part de trente situations concrètes, repère la première marche qui ne tient pas encore, puis te donne un diagnostic, un principe et une pratique.
 
-Elles s'envoient depuis [build-here.africa/contribuer](/contribuer). Un formulaire, rien à installer, aucun compte à ouvrir, et de quoi conduire l'écriture avec ton assistant si tu bloques devant la page blanche. Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les tests en [annexe 2](/chapters/a2-les-douze-tests.html).
-
-Si ta carte tient, elle rejoint le livre sous ton nom. Pas besoin d'être connu.
+Le résultat n'est pas une identité. Reviens après avoir changé quelque chose et il doit pouvoir changer avec toi.
 
 **Maintenant, laisse quelque chose qu'on puisse trouver.**

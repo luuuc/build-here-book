@@ -3,6 +3,7 @@ layout: chapter
 title: "On fabrique l'environnement dont on se plaint"
 part: "Le leadership"
 order: 901
+card_type: diagnostic
 metadata:
   principle: "9.01"
   reading_time_in_minutes: 2
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/09-06-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "Le problème, c'est qu'ils ne prennent pas d'initiative !"
 
 Énoncé comme une propriété des personnes.
 
-## Le réflexe builder
+## Le signal
 
 Quand le comportement est général, la cause est dans le système. Pas dans les gens.
 
-## Pourquoi
+## Ce qui se passe
 
 Quand une personne se comporte d'une certaine façon, on peut s'interroger sur elle. Quand tout le monde se comporte ainsi, il faut s'interroger sur l'organisation. Des gens avec des histoires, des écoles et des âges différents n'atterrissent pas spontanément sur la même posture. Quand ils le font, quelque chose dans la salle les y a menés.
 
@@ -37,7 +38,7 @@ Le ratio te dit dans quelle conversation tu es. Une personne passive sur douze e
 
 La plainte qu'on entend à chaque événement, celle selon laquelle les talents d'ici manquent d'initiative, est parfois formulée par ceux qui ont construit la salle qui la produit. Inutile d'en conclure qu'il faut culpabiliser. Changer les gens prend un an. Changer un morceau du système se fait cette semaine.
 
-## À essayer
+## À vérifier
 
 Prends la plainte que tu répètes le plus sur ton équipe, et retourne la question.
 

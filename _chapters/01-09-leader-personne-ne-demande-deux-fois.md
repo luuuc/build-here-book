@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Personne ne demande deux fois"
 part: "L'état d'esprit"
 order: 109
+card_type: systeme
 metadata:
   principle: "1.09"
   reading_time_in_minutes: 2
@@ -17,19 +18,19 @@ redirect_from:
   - /chapters/01-06-leader-personne-ne-demande-deux-fois.html
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "Ils manquent de curiosité. Ils exécutent sans réfléchir."
 
 Tu vois le comportement, tu l'attribues aux personnes, et tu réserves une formation.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "À quand remonte la dernière vraie question qu'on m'a posée, et combien de temps j'ai mis à répondre ?"
 
 La curiosité ne dépend pas seulement du caractère. Elle dépend aussi de la façon dont l'équipe accueille les questions.
 
-## Pourquoi
+## Ce que ça produit
 
 Tu poses une question, tu attends, personne ne répond. Tu en retiens qu'il est inutile de demander.
 
@@ -39,7 +40,7 @@ Les gens arrêtent pour des raisons compréhensibles quand on se met à leur pla
 
 Une réponse en trois semaines est un non avec de meilleures manières. Dis plutôt "je ne sais pas, et je n'y arriverai pas ce mois-ci". C'est le délai que les gens mesurent, pas la qualité de la réponse.
 
-## À essayer
+## La décision
 
 → Mets le pourquoi dans le ticket. Pas la solution. Le problème client, avec un nom, une date, et la phrase que la personne a réellement écrite.
 → Quand quelqu'un pose une question de fond, réponds au fond avant de parler de l'échéance.

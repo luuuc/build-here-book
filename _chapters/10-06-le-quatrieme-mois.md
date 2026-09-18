@@ -3,6 +3,7 @@ layout: chapter
 title: "Le quatrième mois"
 part: "La référence"
 order: 1006
+card_type: diagnostic
 metadata:
   principle: "10.06"
   reading_time_in_minutes: 3
@@ -17,17 +18,17 @@ redirect_from:
   - /chapters/15-02-le-quatrieme-mois.html
 ---
 
-## Le réflexe
+## Le symptôme
 
 > "J'ai publié cinq fois, personne n'a rien dit. Ça ne marche pas ici."
 
 Tu as fait ce que le livre demandait, tu as pris sur ton temps, et le retour est nul. Continuer sans signal, ça ressemble à de la foi, et tu n'as pas signé pour ça.
 
-## Le réflexe builder
+## Le signal
 
 > "Cinq, c'est la taille de l'échantillon. Pas le résultat."
 
-## Pourquoi
+## Ce qui se passe
 
 Une trace n'est pas lue le jour où tu la publies. Elle est lue le jour où quelqu'un a ton problème, et tu ne choisis pas ce jour-là. Ça change complètement ce qui est en train de se passer au quatrième mois. Tu ne construis pas une audience, tu constitues un stock. Cinq traces, c'est cinq chances qu'un problème coïncide avec l'une d'elles. Cinquante, c'est cinquante chances, et les quarante-cinq premières continuent de tourner pendant que tu écris les suivantes. Rien ne s'use, et rien n'annonce le moment où la courbe cesse d'être plate.
 
@@ -37,7 +38,7 @@ Il y a un autre cas, et il faut le séparer du premier, parce que quand on publi
 
 C'est aussi pour ça que "sois patient" est une phrase dangereuse à recevoir et pire à donner. Elle est vraie dans un cas sur deux, et dans l'autre elle sert exactement à empêcher la correction.
 
-## À essayer
+## À vérifier
 
 Relis tes cinq dernières publications d'affilée, dans l'ordre, avec une seule question en tête.
 

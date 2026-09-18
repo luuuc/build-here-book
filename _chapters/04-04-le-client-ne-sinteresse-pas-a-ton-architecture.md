@@ -3,6 +3,7 @@ layout: chapter
 title: "Le client ne s'intéresse pas à ton architecture"
 part: "La compréhension"
 order: 404
+card_type: principe
 metadata:
   principle: "4.04"
   reading_time_in_minutes: 2

@@ -3,6 +3,7 @@ layout: chapter
 title: "Rapide ne veut pas dire précipité"
 part: "La livraison"
 order: 502
+card_type: pratique
 metadata:
   principle: "5.02"
   reading_time_in_minutes: 2
@@ -17,7 +18,7 @@ redirect_from:
   - /chapters/07-03-rapide-ne-veut-pas-dire-precipite.html
 ---
 
-## Le réflexe
+## Le point de départ
 
 La personne qui bloque le lancement y est déjà passée. La dernière campagne était partie sans test pour tenir une date promise à un partenaire. Trois semaines de demandes sont arrivées au mauvais endroit et le partenaire est parti quand même. Elle ne fait pas la précieuse. C'est la seule personne de la salle qui a déjà payé.
 
@@ -25,11 +26,11 @@ En face, l'échéance est réelle aussi, et l'argent derrière l'est également.
 
 Aucun des deux camps ne plaide de mauvaise foi. C'est pour ça que le débat ne finit jamais.
 
-## Le réflexe builder
+## Le geste
 
 > "Ce qui coûte du temps, c'est refaire. Pas bien faire."
 
-## Pourquoi
+## Pourquoi ça marche
 
 Une vitesse qu'on peut tenir dans la durée ne vient pas du travail bâclé. Elle vient de couper ce qui n'était pas nécessaire.
 

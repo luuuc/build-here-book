@@ -16,11 +16,13 @@ on:
     paths:
       - "worker/**"
       - "bin/verifier-admin"
+      - "bin/verifier-evaluation"
       - ".github/workflows/api.yml"
   pull_request:
     paths:
       - "worker/**"
       - "bin/verifier-admin"
+      - "bin/verifier-evaluation"
 
 permissions:
   contents: read
@@ -39,6 +41,9 @@ jobs:
 
       - name: Le script de la file compile une fois rendu
         run: bin/verifier-admin
+
+      - name: Les évaluations sont validées et agrégées
+        run: bin/verifier-evaluation
 
       - name: Les règles tournent sur le livre
         run: bin/lint-entree | tail -4

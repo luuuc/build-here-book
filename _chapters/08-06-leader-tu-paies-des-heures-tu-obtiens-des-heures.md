@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Tu paies des heures, tu obtiens des heures"
 part: "Le levier"
 order: 806
+card_type: systeme
 metadata:
   principle: "8.06"
   reading_time_in_minutes: 2
@@ -15,17 +16,17 @@ seo:
   keywords: "build here, levier, leadership, conditions, builder"
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "On reconnaît ceux qui abattent le plus de travail."
 
 C'est juste, c'est mesurable, et ça récompense des gens qui travaillent réellement beaucoup. Difficile de le présenter comme une erreur.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Qui a été félicité ici pour du travail qui a cessé d'exister ?"
 
-## Pourquoi
+## Ce que ça produit
 
 Mesurer le volume produit du volume. Si la personne au support est suivie sur les conversations traitées, faire disparaître mille conversations fait baisser son chiffre. Elle n'a pas besoin d'y penser consciemment, et elle n'est pas de mauvaise foi : tu la paies pour entretenir le volume, et elle l'entretient.
 
@@ -35,7 +36,7 @@ Cette carte double celle sur le planning, et elle traite l'autre moitié du prob
 
 Ce qui se répare tient en deux gestes, et aucun ne coûte d'argent. Compte la disparition : quatre heures par semaine rendues à l'équipe est un chiffre, au même titre que six tickets fermés. Puis nomme-le publiquement, une fois, en donnant le nom de la personne et le chiffre. Une seule fois suffit à déplacer ce que toute l'équipe comprend de ce qui compte ici.
 
-## À essayer
+## La décision
 
 À la prochaine revue d'équipe, demande ce qui a disparu, pas seulement ce qui a été produit.
 

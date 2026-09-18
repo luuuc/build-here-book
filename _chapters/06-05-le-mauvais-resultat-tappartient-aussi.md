@@ -3,6 +3,7 @@ layout: chapter
 title: "Le mauvais résultat t'appartient aussi"
 part: "L'ownership"
 order: 605
+card_type: principe
 metadata:
   principle: "6.05"
   reading_time_in_minutes: 2

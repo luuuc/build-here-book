@@ -3,6 +3,7 @@ layout: chapter
 title: "⇄ Tu demandes des résultats et tu passes en revue de l'activité"
 part: "L'ownership"
 order: 608
+card_type: systeme
 metadata:
   principle: "6.08"
   reading_time_in_minutes: 2
@@ -15,17 +16,17 @@ seo:
   keywords: "build here, ownership, leadership, conditions, builder"
 ---
 
-## Le réflexe
+## Ce que tu demandes
 
 > "Ici on parle résultats, pas activité."
 
 C'est sincère, c'est répété en réunion générale, et c'est peut-être même écrit sur un mur.
 
-## Le réflexe builder
+## Ce que le système entend
 
 > "Reprends les douze dernières lignes du point d'équipe. Combien portent un résultat ?"
 
-## Pourquoi
+## Ce que ça produit
 
 Les gens ne préparent pas ce qui est déclaré important. Ils préparent ce qui est demandé chaque semaine. Un rituel hebdomadaire bat une déclaration trimestrielle, à chaque fois, et sans que personne ait besoin d'y réfléchir.
 
@@ -35,7 +36,7 @@ Il y a un deuxième mécanisme, plus dur à voir, et c'est celui qui bloque les 
 
 Le troisième mécanisme achève le premier. Si un mauvais résultat coûte du statut à celui qui l'annonce, tu ne recevras que des bons, et tu les recevras tard. Ce que tu prends pour de la transparence est alors un délai de mise en forme.
 
-## À essayer
+## La décision
 
 Ajoute une colonne au point d'équipe, à côté de ce qui a été fait. Ce que ça a donné.
 

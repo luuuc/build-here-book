@@ -3,6 +3,7 @@ layout: chapter
 title: "La distribution fait partie du produit"
 part: "La compréhension"
 order: 408
+card_type: principe
 metadata:
   principle: "4.08"
   reading_time_in_minutes: 2
