@@ -69,6 +69,35 @@ Quel que soit son type, une carte tient sur six exigences.
 5. Une garde contre le détournement le plus probable.
 6. Une question qui produit des réponses différentes dans une équipe.
 
+Le bloc *Depuis ton siège* n'est pas un exercice d'exhaustivité. Un siège apparaît seulement si la carte y change la décision, l'information disponible ou le risque porté. Reformuler le principe avec un autre nom de métier ne compte pas ; mieux vaut une ligne absente qu'une traduction décorative.
+
+## Qui peut agir
+
+Le bandeau de chaque carte annonce sa portée. **Individuelle** signifie que tu peux tenter le geste sans nouvelle autorité. **Individu ou équipe** signifie que l'enquête peut commencer seul mais que la décision peut demander un accord. **Direction** signifie que la carte porte sur une règle, du temps, de l'argent, un droit d'accès ou une récompense que tout le monde ne peut pas modifier.
+
+Ce marquage n'est pas une permission déguisée. Une action individuelle peut rester dangereuse dans une organisation qui punit le désaccord. Dans ce cas, l'action juste est parfois de chercher un allié, de demander une frontière écrite ou de ne pas agir. Une carte qui ignore ce coût est incomplète.
+
+## D'où viennent les exemples
+
+Le livre suit quatre conventions de provenance.
+
+- Une scène sans nom est un exemple construit à partir de situations de travail répétées. Elle montre un mécanisme ; elle ne prétend pas documenter un cas précis.
+- Une phrase à la première personne rapporte l'expérience de l'auteur, avec les limites de mémoire que cela implique.
+- Un nom, un titre ou une note désigne une source que le lecteur peut retrouver.
+- Un nombre rond sert à rendre un calcul visible. Il est illustratif sauf si sa source ou sa mesure est donnée dans la même carte.
+
+Une proposition générale sans source reste une hypothèse à essayer. Sa formulation peut être ferme ; son statut ne change pas pour autant. Le résultat observé après l'essai compte davantage que le ton de la phrase.
+
+## Les mots importés
+
+**Builder** désigne ici une personne qui améliore concrètement ce qu'elle touche, quel que soit son métier. Ce n'est ni un titre ni un rang.
+
+**Produit** désigne la fonction produit : comprendre le problème, choisir ce qui ne sera pas fait et relier l'usage à une décision. Il ne désigne pas seulement un product manager.
+
+**Ownership** signifie suivre une décision jusqu'à son résultat, apprendre de ce qui arrive et rendre les passations explicites. Il ne signifie ni tout faire soi-même, ni accepter une responsabilité sans autorité, ni offrir du travail hors contrat.
+
+**Référence** désigne un travail dont d'autres peuvent vérifier et réutiliser la méthode. Elle ne suppose ni audience, ni célébrité, ni publication permanente.
+
 Le bloc « Depuis ton siège » reste disponible quand plusieurs fonctions voient réellement autre chose dans la même situation. Il disparaît quand il ne ferait que répéter le titre avec cinq objets différents.
 
 Le type sert le rythme, pas la décoration. La typographie, la voix et la durée restent celles du même livre.

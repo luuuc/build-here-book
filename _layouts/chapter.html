@@ -29,6 +29,7 @@
           {% endif %}
           {% if page.metadata.reading_time_in_minutes %}<span>{{page.metadata.reading_time_in_minutes}} min</span>{% endif %}
           {% if page.card_type %}<span class="card-type">{{ site.data.interface.lecture.types[page.card_type] }}</span>{% endif %}
+          {% if page.card_type %}<span>{{ page.action_scope | default: site.data.interface.lecture.portees[page.card_type] }}</span>{% endif %}
           <!-- Les deux actions de page, groupees. Le conteneur porte la
                marge automatique : sur les boutons eux-memes, deux marges
                automatiques se partagent l'espace libre et laissent un trou
