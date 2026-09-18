@@ -25,7 +25,7 @@ Le premier consiste à mieux construire. Aller voir soi-même. Contester une id�
 
 Le second consiste à laisser une trace de ce travail. Pas à devenir une personnalité. À publier quelque chose dont une personne que tu ne connais pas pourra se servir sans avoir à te connaître.
 
-Chaque entrée porte une idée, se lit en deux minutes et tient sans les autres. Tu peux commencer au début, ouvrir le livre là où ton travail coince, ou choisir une entrée à discuter avec ton équipe.
+Chaque carte porte une idée, se lit en deux minutes et tient sans les autres. Tu peux commencer au début, ouvrir le livre là où ton travail coince, ou choisir une carte à discuter avec ton équipe.
 
 Lis-en une. Essaie ce qu'elle propose. Garde ce qui résiste au travail réel.
 

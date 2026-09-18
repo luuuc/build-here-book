@@ -26,7 +26,7 @@ Cette section porte sur la différence entre une explication orale et une trace 
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Mets ton nom dessus](/chapters/14-01-mets-ton-nom-dessus.html)
 - [Un avis n'est pas un artefact](/chapters/14-02-un-avis-nest-pas-un-artefact.html)

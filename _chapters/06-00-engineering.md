@@ -26,7 +26,7 @@ Rien de ce que propose cette section n'est visible sur un écran de démo.
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Faire simple est une performance technique](/chapters/06-02-faire-simple-est-une-performance-technique.html)
 - [Lis le code source](/chapters/06-03-lis-le-code-source.html)

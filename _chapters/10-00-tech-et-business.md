@@ -26,7 +26,7 @@ Cette section s'adresse aux deux côtés. Les fondateurs qui n'ont jamais appris
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Ce qu'on sait construire décide ce qu'on peut vendre](/chapters/10-01-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html)
 - [Choisir un fournisseur, c'est signer pour trois ans](/chapters/10-02-choisir-un-fournisseur-cest-signer-pour-trois-ans.html)

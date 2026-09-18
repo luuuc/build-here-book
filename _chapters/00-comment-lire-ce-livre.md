@@ -15,43 +15,43 @@ categories:
   - builders
   - afrique
 seo:
-  description: "Une même entrée se lit autrement selon la place d'où on la lit, et c'est ce qui la rend utile à toute une équipe d'un coup."
+  description: "Une même carte se lit autrement selon la place d'où on la lit, et c'est ce qui la rend utile à toute une équipe d'un coup."
   keywords: "build here, ouverture, tech afrique, builder, sieges, lecture"
 ---
 
 ## Pour qui
 
-Toi, si tu fabriques des choses. Ingénieurs, fondateurs, produit, design, data, support, ops, et ceux qui les encadrent. Un même mot vous désigne tous ici. **Builder.** Celui qui fabrique quelque chose. Ton métier change la façon d'appliquer une entrée. Elle te concerne dans tous les cas.
+Toi, si tu fabriques des choses. Ingénieurs, fondateurs, produit, design, data, support, ops, et ceux qui les encadrent. Un même mot vous désigne tous ici. **Builder.** Celui qui fabrique quelque chose. Ton métier change la façon d'appliquer une carte. Elle te concerne dans tous les cas.
 
 Si tu construis depuis dix ans, tu n'es pas l'élève dans cette histoire. La moitié de ce qui suit, tu le sais déjà, appris à la dure, sur un truc qui a cassé devant un client. Tu es la référence qui manquait, et si personne autour de toi ne s'en sert, c'est que rien de tout ça n'est jamais sorti de ta tête.
 
-Le guide te demande donc deux choses. Fais circuler les entrées au lieu de refaire le discours pour la quarantième fois. Puis écris celles que je ne peux pas écrire, parce que je n'ai pas eu tes échecs, sur ton marché, sur ta stack. La fin du livre contient le format et les tests, écrits pour que ce soit possible.
+Le guide te demande donc deux choses. Fais circuler les cartes au lieu de refaire le discours pour la quarantième fois. Puis écris celles que je ne peux pas écrire, parce que je n'ai pas eu tes échecs, sur ton marché, sur ta stack. La fin du livre contient le format et les tests, écrits pour que ce soit possible.
 
 Si tu as commencé l'an dernier, tu découvriras ici des façons de travailler qu'on ne t'a peut-être jamais montrées. Tu n'as pas d'examen à passer pour y prendre part.
 
-Je dois dire d'où j'écris. Plusieurs de ces entrées décrivent des erreurs que j'ai commises pendant des années, et une ou deux décrivent des erreurs que je commettais encore en les écrivant. J'écris depuis la même rive que toi.
+Je dois dire d'où j'écris. Plusieurs de ces cartes décrivent des erreurs que j'ai commises pendant des années, et une ou deux décrivent des erreurs que je commettais encore en les écrivant. J'écris depuis la même rive que toi.
 
 ---
 
-## Ce qu'est une entrée
+## Ce qu'est une carte
 
 Tu en lis une, tu refermes, tu changes une chose. Tu en envoies une à un collègue au lieu de lui expliquer le reste du livre.
 
-Une entrée fonctionne quand quelqu'un la lit et y reconnaît une scène qu'il a vécue. Sans ça, l'argument qui suit ne sera pas lu.
+Une carte fonctionne quand quelqu'un la lit et y reconnaît une scène qu'il a vécue. Sans ça, l'argument qui suit ne sera pas lu.
 
 Ne lis pas ce livre du début à la fin, sauf si ça t'amuse. Ouvre-le à la section qui correspond à [ce qui t'agace cette semaine](/chapters/a5-ce-qui-tagace-cette-semaine.html). Mets-la en discussion. Apporte-la au point d'équipe et regarde qui se crispe.
 
-Être d'accord avec tout serait mauvais signe. Certaines entrées sont fausses pour ton équipe, et comprendre pourquoi t'apprendra plus que hocher la tête devant celles auxquelles tu crois déjà.
+Être d'accord avec tout serait mauvais signe. Certaines cartes sont fausses pour ton équipe, et comprendre pourquoi t'apprendra plus que hocher la tête devant celles auxquelles tu crois déjà.
 
 ---
 
 ## Qui est assis où
 
-Les entrées ne sont pas rangées par métier. Une même entrée se lit autrement selon la place d'où on la lit, et c'est ce qui la rend utile à toute une équipe d'un coup.
+Les cartes ne sont pas rangées par métier. Une même carte se lit autrement selon la place d'où on la lit, et c'est ce qui la rend utile à toute une équipe d'un coup.
 
 L'exercice consiste à lire depuis une place qui n'est pas la tienne.
 
-Builder est le lecteur par défaut, et ce n'est pas un siège. Chaque entrée est écrite pour cette personne d'abord.
+Builder est le lecteur par défaut, et ce n'est pas un siège. Chaque carte est écrite pour cette personne d'abord.
 
 Les sept sièges ci-dessous sont les places réellement occupées autour d'un produit. Chacun voit une partie du problème que les six autres ne voient pas.
 
@@ -73,7 +73,7 @@ Les sept sièges ci-dessous sont les places réellement occupées autour d'un pr
 
 ## Un exemple
 
-Prends l'entrée *Si tu ne comprends pas pourquoi, tu n'es pas prêt à construire*.
+Prends la carte *Si tu ne comprends pas pourquoi, tu n'es pas prêt à construire*.
 
 - **Engineer** : ne commence pas un ticket dont l'objectif client n'est pas clair.
 - **Product** : ne fais pas suivre une demande dont tu n'as pas cherché la cause.
@@ -89,8 +89,8 @@ Même principe. Sept applications, sept conversations différentes.
 
 ## Comment s'en servir
 
-**Seul.** Lis l'entrée depuis ton siège, puis depuis un autre. C'est la deuxième lecture qui t'apprend quelque chose, parce qu'elle montre ce que ton voisin vit sur le même problème.
+**Seul.** Lis la carte depuis ton siège, puis depuis un autre. C'est la deuxième lecture qui t'apprend quelque chose, parce qu'elle montre ce que ton voisin vit sur le même problème.
 
-**En équipe.** Une entrée, trente minutes, chacun sur un siège qui n'est pas le sien. La discussion qui suit vaut en général plus que l'entrée. Le format tient sur une page, c'est [Faire tourner ça dans ton équipe](/chapters/00-faire-tourner-ca-dans-ton-equipe.html).
+**En équipe.** Une carte, trente minutes, chacun sur un siège qui n'est pas le sien. La discussion qui suit vaut en général plus que la carte. Le format tient sur une page, c'est [Faire tourner ça dans ton équipe](/chapters/00-faire-tourner-ca-dans-ton-equipe.html).
 
-**En recrutement ou en onboarding.** Lire une entrée du point de vue de deux métiers montre à un nouveau comment ils travaillent ensemble. Ça vaut mieux qu'un organigramme, qui ne montre que qui dépend de qui.
+**En recrutement ou en onboarding.** Lire une carte du point de vue de deux métiers montre à un nouveau comment ils travaillent ensemble. Ça vaut mieux qu'un organigramme, qui ne montre que qui dépend de qui.

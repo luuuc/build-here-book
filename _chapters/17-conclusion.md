@@ -34,10 +34,10 @@ Elle ne le fait pas.
 
 ## Écris la suivante
 
-Ce livre est incomplet. Il lui manque les entrées que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
+Ce livre est incomplet. Il lui manque les cartes que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
 
 Elles s'envoient depuis [build-here.africa/contribuer](/contribuer). Un formulaire, rien à installer, aucun compte à ouvrir, et de quoi conduire l'écriture avec ton assistant si tu bloques devant la page blanche. Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les tests en [annexe 2](/chapters/a2-les-douze-tests.html).
 
-Si ton entrée tient, elle rejoint le livre sous ton nom. Pas besoin d'être connu.
+Si ton carte tient, elle rejoint le livre sous ton nom. Pas besoin d'être connu.
 
 **Les builders sont là depuis le début. Maintenant, laisse quelque chose qu'on puisse trouver.**

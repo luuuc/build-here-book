@@ -66,9 +66,9 @@ export async function recevoir(requete, env, sections) {
       ? composerNumero(donnees.indicatif, donnees.contact)
       : (donnees.contact || "").trim();
 
-  if (!markdown) return { statut: 400, corps: { erreur: "Le texte de l'entrée manque." } };
+  if (!markdown) return { statut: 400, corps: { erreur: "Le texte de la carte manque." } };
   if (markdown.length > 300000) return { statut: 413, corps: { erreur: "Le texte dépasse 300 Ko." } };
-  if (!auteur) return { statut: 400, corps: { erreur: "Ton nom manque. Il apparaîtra sous le titre de l'entrée." } };
+  if (!auteur) return { statut: 400, corps: { erreur: "Ton nom manque. Il apparaîtra sous le titre de la carte." } };
   if (auteur.length > 120) return { statut: 400, corps: { erreur: "Ton nom dépasse 120 caractères." } };
   if (!contactValide(canal, contact)) {
     return {
@@ -88,7 +88,7 @@ export async function recevoir(requete, env, sections) {
 
   const client = (donnees.client || "").slice(0, 64);
   if (await tropDeContributions(env.DB, client)) {
-    return { statut: 429, corps: { erreur: "Tu as déjà envoyé plusieurs entrées cette heure. Laisse-moi les lire." } };
+    return { statut: 429, corps: { erreur: "Tu as déjà envoyé plusieurs cartes cette heure. Laisse-moi les lire." } };
   }
 
   const j = await verifierJeton(env.JETON_SECRET, donnees.jeton);

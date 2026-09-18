@@ -26,7 +26,7 @@ Le manque de curiosité coûte aussi plus cher, et cette partie n'est budgétée
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [La curiosité est facturable](/chapters/01-01-la-curiosite-est-facturable.html)
 - [Si tu ne comprends pas pourquoi, tu n'es pas prêt à construire](/chapters/01-02-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html)

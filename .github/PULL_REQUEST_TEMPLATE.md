@@ -1,10 +1,10 @@
 ## Ce que porte cette pull request
 
-<!-- Une entrée neuve, un désaccord avec une existante, une correction, une traduction. Une ligne suffit. -->
+<!-- Une carte neuve, un désaccord avec une existante, une correction, une traduction. Une ligne suffit. -->
 
 ## Ce qu'elle t'a coûté
 
-<!-- Uniquement pour une entrée neuve. Pas l'histoire, le mécanisme. Ce que tu as payé pour savoir ça. -->
+<!-- Uniquement pour une carte neuve. Pas l'histoire, le mécanisme. Ce que tu as payé pour savoir ça. -->
 
 ---
 

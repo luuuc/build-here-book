@@ -22,11 +22,11 @@ Tu sais que le chiffre est faux. C'est toi qui l'as donné la semaine dernière,
 
 Tout ce qu'il y a dans cette section se joue dans les deux secondes avant que tu décides d'interrompre ou non.
 
-Ces deux secondes ont un prix, et quelqu'un l'a fixé. La dernière entrée est pour lui.
+Ces deux secondes ont un prix, et quelqu'un l'a fixé. La dernière carte est pour lui.
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Avoir tort ne coûte rien. Le rester coûte cher](/chapters/02-01-avoir-tort-ne-coute-rien-le-rester-coute-cher.html)
 - [Ton code n'est pas ton bébé](/chapters/02-03-ton-code-nest-pas-ton-bebe.html)

@@ -13,7 +13,7 @@ categories:
   - trace
   - builders
 seo:
-  description: "Une équipe peut appliquer toutes les entrées précédentes à la lettre pendant trois ans et rester exactement aussi invisible qu'avant."
+  description: "Une équipe peut appliquer toutes les cartes précédentes à la lettre pendant trois ans et rester exactement aussi invisible qu'avant."
   keywords: "build here, visibilite, trace, tech afrique, builder, silence"
 ---
 
@@ -21,7 +21,7 @@ Il y a une phrase que j'ai écrite vite et que j'ai mis six ans à comprendre.
 
 *Le travail que ce livre te demande ne s'arrête pas à devenir meilleur.*
 
-Les douze sections que tu viens de lire traitent la première moitié. Elles sont utiles, elles sont ordinaires, et elles ne règlent rien du problème posé à la première page. Une équipe peut appliquer toutes les entrées précédentes à la lettre pendant trois ans et rester exactement aussi invisible qu'avant. Rien dans le fait de bien travailler ne produit une trace.
+Les douze sections que tu viens de lire traitent la première moitié. Elles sont utiles, elles sont ordinaires, et elles ne règlent rien du problème posé à la première page. Une équipe peut appliquer toutes les cartes précédentes à la lettre pendant trois ans et rester exactement aussi invisible qu'avant. Rien dans le fait de bien travailler ne produit une trace.
 
 Voilà la deuxième moitié. C'est la difficile.
 
@@ -43,11 +43,11 @@ C'est de là que vient ce second mouvement. Pas d'une théorie sur la visibilit�
 
 Il existe une façon de lire ce qui suit qui produit exactement ce que ce livre combat. Elle consiste à sauter les douze sections précédentes.
 
-Quelqu'un qui apprend à se rendre visible sans avoir rien à montrer devient le personnage de la page trois. À l'aise, très bien connecté, excellent en visio, incapable de dire ce qui a cassé en production parce que rien n'a jamais tourné. Ce n'est pas un risque théorique. C'est la carrière la plus rationnelle sur ce marché, et rien dans les entrées qui suivent ne l'empêche.
+Quelqu'un qui apprend à se rendre visible sans avoir rien à montrer devient le personnage de la page trois. À l'aise, très bien connecté, excellent en visio, incapable de dire ce qui a cassé en production parce que rien n'a jamais tourné. Ce n'est pas un risque théorique. C'est la carrière la plus rationnelle sur ce marché, et rien dans les cartes qui suivent ne l'empêche.
 
 La règle du mouvement tient donc en une ligne. Ce qui suit ne t'apprend pas à parler. Ça t'apprend à laisser une trace de ce que tu as déjà fait.
 
-Chaque entrée travaille sur un objet que le premier mouvement a produit. Le postmortem est celui de l'incident de la section Exécution. La contribution porte sur la dépendance que la section Engineering t'a demandé d'ouvrir. La réponse publique est celle que la section Curiosité t'a appris à chercher. Si le premier mouvement n'a rien produit, le second n'a pas de matière, et ça se voit en une page.
+Chaque carte travaille sur un objet que le premier mouvement a produit. Le postmortem est celui de l'incident de la section Exécution. La contribution porte sur la dépendance que la section Engineering t'a demandé d'ouvrir. La réponse publique est celle que la section Curiosité t'a appris à chercher. Si le premier mouvement n'a rien produit, le second n'a pas de matière, et ça se voit en une page.
 
 ## Les durées, parce que personne ne les donne
 
@@ -57,7 +57,7 @@ Le premier vient de cette recherche. Deux ans pour qu'une information traverse u
 
 Le second est celui-ci. Six ans entre savoir quelque chose et l'écrire, chez quelqu'un dont le métier est d'arbitrer des priorités.
 
-Ce sont des durées de silence, pas des durées de publication. Je ne peux pas te dire combien de temps il faut pour qu'un inconnu te trouve, parce que je suis en train de le découvrir en même temps que toi et que ce livre est ma première tentative sérieuse. Ce que je peux te dire, c'est que celui qui t'annonce trois mois vend quelque chose. Le quatrième mois a son entrée dans ce mouvement, et c'est celle qui compte.
+Ce sont des durées de silence, pas des durées de publication. Je ne peux pas te dire combien de temps il faut pour qu'un inconnu te trouve, parce que je suis en train de le découvrir en même temps que toi et que ce livre est ma première tentative sérieuse. Ce que je peux te dire, c'est que celui qui t'annonce trois mois vend quelque chose. Le quatrième mois a son carte dans ce mouvement, et c'est celle qui compte.
 
 ## Ce que ce mouvement n'est pas
 
@@ -69,7 +69,7 @@ Il y a un objet, un seul, et tout le reste en découle.
 
 **Un artefact est une chose dont quelqu'un que tu ne connais pas peut se servir sans savoir qui tu es.**
 
-Un postmortem avec la chronologie dedans. Une bibliothèque. Un benchmark avec ses résultats chiffrés. Une réponse correcte dans un thread. Une entrée de ce livre, écrite par toi, sur un échec que je n'ai pas eu.
+Un postmortem avec la chronologie dedans. Une bibliothèque. Un benchmark avec ses résultats chiffrés. Une réponse correcte dans un thread. Une carte de ce livre, écrite par toi, sur un échec que je n'ai pas eu.
 
 Un avis sur l'avenir de la tech africaine n'est pas un artefact. Il en existe déjà assez.
 

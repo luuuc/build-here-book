@@ -26,7 +26,7 @@ Cette confusion n'a rien d'africain, quoi qu'on te raconte. On la retrouve à Mu
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Respecte l'ancien. Conteste l'idée](/chapters/03-01-respecte-lancien-conteste-lidee.html)
 - [Trancher et avoir raison sont deux métiers différents](/chapters/03-03-trancher-et-avoir-raison-sont-deux-metiers-differents.html)

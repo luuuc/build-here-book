@@ -14,8 +14,8 @@ function toggleMenu() {
   }
 }
 
-// Le sommaire fait près de 4 000 px pour 98 entrées. À l'ouverture, on amène
-// l'entrée courante au milieu du panneau.
+// Le sommaire fait près de 4 000 px pour 98 cartes. À l'ouverture, on amène
+// la carte courante au milieu du panneau.
 //
 // Deux précautions. On attend la fin de la transition `left` du panneau :
 // avant, il est encore hors écran et la position est calculée sur des
@@ -24,7 +24,7 @@ function toggleMenu() {
 // pas à le regarder défiler.
 function centerCurrentEntry(offcanvas) {
   const current = offcanvas.querySelector('[aria-current="page"]');
-  if (!current) return; // accueil, à propos : pas d'entrée courante
+  if (!current) return; // accueil, à propos : pas de carte courante
 
   let done = false;
   const center = () => {

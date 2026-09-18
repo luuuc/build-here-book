@@ -26,7 +26,7 @@ C'est la dernière section du livre. Elle porte sur ce que ton travail permet à
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Ta première contribution](/chapters/16-01-ta-premiere-contribution.html)
 - [Une référence n'est pas une personnalité](/chapters/16-02-une-reference-nest-pas-une-personnalite.html)

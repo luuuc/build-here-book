@@ -26,7 +26,7 @@ Il reste du travail entre écrire un texte et permettre aux autres de le trouver
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Publie là où on cherche](/chapters/15-01-publie-la-ou-on-cherche.html)
 - [Le quatrième mois](/chapters/15-02-le-quatrieme-mois.html)

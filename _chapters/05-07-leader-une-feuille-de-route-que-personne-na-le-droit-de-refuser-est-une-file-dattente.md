@@ -11,7 +11,7 @@ categories:
   - client
   - arbitrage
 seo:
-  description: "L'entrée précédente demande à quelqu'un de refuser du travail. Encore faut-il que tu permettes ce refus sans désavouer celui qui le porte."
+  description: "La carte précédente demande à quelqu'un de refuser du travail. Encore faut-il que tu permettes ce refus sans désavouer celui qui le porte."
   keywords: "build here, produit, tech afrique, builder, conditions, feuille, route, personne, droit"
 ---
 
@@ -29,7 +29,7 @@ Tu n'as pas tort. Perdre ce client compromettrait l'année.
 
 ## Pourquoi
 
-L'entrée précédente demande à quelqu'un de refuser du travail. Encore faut-il que tu permettes ce refus sans désavouer celui qui le porte.
+La carte précédente demande à quelqu'un de refuser du travail. Encore faut-il que tu permettes ce refus sans désavouer celui qui le porte.
 
 Chaque passage en force apprend à l'équipe ce qu'elle risque. Dire non au fondateur, c'est risquer d'être désavoué devant l'équipe. Dire oui, il ne se passe rien. Au bout de deux fois, la fonction produit arrête d'arbitrer et se met à transcrire. Tu diras plus tard qu'elle manque d'initiative.
 

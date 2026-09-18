@@ -33,7 +33,7 @@ Le respect est dû à la personne. Il n'est pas dû à la phrase. Cette confusio
 
 Le désaccord ne disparaît pas. Il se déplace. Le couloir, un groupe plus petit, un thread privé vingt minutes après la réunion. L'équipe se retrouve à détenir à la fois le mauvais plan et sa correction, et les deux ne se croisent jamais dans la même pièce.
 
-L'échec inverse est plus rare et beaucoup plus bruyant. Quelqu'un lit une entrée comme celle-ci et transforme la contestation en personnalité, contredit à chaque revue, traite chaque réunion comme un endroit où démontrer son indépendance. Cette personne n'aide pas l'équipe à mieux décider, elle épuise son attention, et en un mois sa seule objection sérieuse pèse exactement le poids des neuf autres. Le désaccord est un budget. Ceux dont les contestations font vraiment bouger les décisions le dépensent quatre fois par an.
+L'échec inverse est plus rare et beaucoup plus bruyant. Quelqu'un lit une carte comme celle-ci et transforme la contestation en personnalité, contredit à chaque revue, traite chaque réunion comme un endroit où démontrer son indépendance. Cette personne n'aide pas l'équipe à mieux décider, elle épuise son attention, et en un mois sa seule objection sérieuse pèse exactement le poids des neuf autres. Le désaccord est un budget. Ceux dont les contestations font vraiment bouger les décisions le dépensent quatre fois par an.
 
 Contredire en public coûte plus cher quand la personne qu'on corrige est la seule dans ton entourage à avoir cette expérience. L'équipe protège sa seule source de savoir autant que le prestige de cette personne. Là où ce coût est réel, mets le désaccord par écrit en amont, pour qu'elle puisse changer d'avis sans public.
 

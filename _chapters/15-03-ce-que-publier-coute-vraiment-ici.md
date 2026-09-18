@@ -27,7 +27,7 @@ Une partie de ce que ça coûte est réelle. Le reste est une habitude qui porte
 
 Commence par ce qui est vrai, parce que la liste est courte et qu'elle est sérieuse. Le marché est petit. Un postmortem honnête est lu par le client concerné le lendemain, et par le concurrent qui recrute la semaine suivante. Un échec publié suit la personne jusque dans la salle où son prochain poste se discute, comme le rappelle *Une bonne décision peut quand même mal tourner*. La bande passante est comptée pour beaucoup de gens. Et l'employeur n'a jamais dit oui, parce que personne ne lui a posé la question.
 
-Ces quatre obstacles ne sont pas de même nature, et c'est là que tout se joue. Les deux derniers dépendent de conditions que d'autres fixent, et ils ont leurs entrées ailleurs dans ce mouvement. Les deux premiers sont des décisions que tu prends chaque semaine sans jamais les nommer.
+Ces quatre obstacles ne sont pas de même nature, et c'est là que tout se joue. Les deux derniers dépendent de conditions que d'autres fixent, et ils ont leurs cartes ailleurs dans ce mouvement. Les deux premiers sont des décisions que tu prends chaque semaine sans jamais les nommer.
 
 C'est le mélange qui coûte cher, exactement comme dans *Le savoir n'est pas ce qui te manque*. Une seule phrase couvre la clause de confidentialité que tu n'as jamais lue et le texte que tu n'as jamais écrit. Les deux reçoivent la même réponse, et le second ne bouge jamais.
 

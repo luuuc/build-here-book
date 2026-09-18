@@ -22,11 +22,11 @@ Le bug n'est pas dans ton service. Tu l'as vu, tu sais à peu près d'où il vie
 
 Ce que tu fais dans les dix minutes qui suivent, c'est toute la section.
 
-Deux entrées de cette section donnent des conseils qui semblent opposés. *Être bloqué est une décision* te demande de chercher seul avant de lever la main. *Une bonne nouvelle peut attendre. Une mauvaise, non* te demande de la lever tout de suite. Les deux sont vraies. Ce qui tranche, c'est ce que coûte l'heure suivante.
+Deux cartes de cette section donnent des conseils qui semblent opposés. *Être bloqué est une décision* te demande de chercher seul avant de lever la main. *Une bonne nouvelle peut attendre. Une mauvaise, non* te demande de la lever tout de suite. Les deux sont vraies. Ce qui tranche, c'est ce que coûte l'heure suivante.
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [N'apporte pas la tâche. Apporte le problème](/chapters/04-01-napporte-pas-la-tache-apporte-le-probleme.html)
 - [L'ownership commence là où la fiche de poste s'arrête](/chapters/04-02-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html)

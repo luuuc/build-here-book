@@ -9,7 +9,7 @@ livre se lit. C'est le principe qui décide tout le reste.
 
 `GET /jeton` rend un jeton de formulaire signé, valable deux heures.
 
-`POST /lint` vérifie une entrée contre les règles de l'annexe 1 et rend un
+`POST /lint` vérifie une carte contre les règles de l'annexe 1 et rend un
 rapport. Il ne refuse jamais rien : le tri final est une lecture humaine
 contre les douze tests.
 
@@ -21,11 +21,11 @@ curl -sX POST https://api.build-here.africa/lint \
   | jq -r .rapport
 ```
 
-`nouvelle` distingue une contribution qui arrive d'une entrée déjà intégrée.
+`nouvelle` distingue une contribution qui arrive d'une carte déjà intégrée.
 Sur une contribution, `order` et `principle` sont attendus à 999. Sur une
-entrée du livre, ils portent leur vrai numéro. Le défaut est `true`.
+carte du livre, ils portent leur vrai numéro. Le défaut est `true`.
 
-`POST /contribution` reçoit une entrée. Accepte du JSON et un formulaire
+`POST /contribution` reçoit une carte. Accepte du JSON et un formulaire
 classique : sans JavaScript la page poste directement et reçoit une page en
 retour, parce qu'un envoi doit passer sur une mauvaise connexion.
 
@@ -41,7 +41,7 @@ Approuver ouvre la pull request. Rien n'atteint le dépôt avant.
 
 | Fichier | Ce qu'il fait |
 |---|---|
-| `lint.mjs` | les règles de l'annexe 1. Aucune entrée-sortie, aucun appel |
+| `lint.mjs` | les règles de l'annexe 1. Aucune carte-sortie, aucun appel |
 | `garde.mjs` | jetons, garde-fou anti-flood, rang de la file |
 | `github.mjs` | nommage du fichier, front matter imposé, pull request |
 | `contribution.mjs` | recevoir, lister, approuver |
@@ -51,7 +51,7 @@ Approuver ouvre la pull request. Rien n'atteint le dépôt avant.
 `lint.mjs` est appelé depuis trois endroits, et il n'existe qu'une fois :
 `bin/lint-entree` en local, ce Worker, et `.github/workflows/entree.yml` sur
 une pull request. Un contributeur et une relecture reçoivent donc le même
-verdict sur la même entrée.
+verdict sur la même carte.
 
 ## Ce qui protège la file
 

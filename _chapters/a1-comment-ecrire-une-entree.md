@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Comment écrire une entrée"
+title: "Comment écrire une carte"
 description: "Le format, bloc par bloc"
 show_chapter_number: false
 part: "Annexes"
@@ -12,23 +12,23 @@ categories:
   - methode
   - references
 seo:
-  description: "Il manque à ce livre les entrées que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks."
+  description: "Il manque à ce livre les cartes que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks."
   keywords: "build here, annexes, tech afrique, builder, comment, ecrire, entree"
 ---
 
-Il manque à ce livre les entrées que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks. Si tu construis depuis un moment, tu en portes plusieurs.
+Il manque à ce livre les cartes que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks. Si tu construis depuis un moment, tu en portes plusieurs.
 
-Voici le format, écrit pour que quelqu'un d'autre que moi puisse s'en servir. Prends-le. Écris l'entrée. Renvoie-la en expliquant ton raisonnement, pour qu'on puisse la discuter.
+Voici le format, écrit pour que quelqu'un d'autre que moi puisse s'en servir. Prends-le. Écris la carte. Renvoie-la en expliquant ton raisonnement, pour qu'on puisse la discuter.
 
-Une entrée porte une idée. Elle se lit en moins de deux minutes et se comprend par quelqu'un qui n'a rien lu d'autre du livre.
+Une carte porte une idée. Elle se lit en moins de deux minutes et se comprend par quelqu'un qui n'a rien lu d'autre du livre.
 
-Chaque entrée utilise les mêmes six blocs, dans le même ordre. La répétition est le principe. Au bout de trois entrées, un lecteur sait où se trouve l'action sans avoir à parcourir toute la page.
+Chaque carte utilise les mêmes six blocs, dans le même ordre. La répétition est le principe. Au bout de trois cartes, un lecteur sait où se trouve l'action sans avoir à parcourir toute la page.
 
 ---
 
 ## Le squelette
 
-Une entrée, un fichier. Le titre est le `#` du fichier, les six blocs sont des `##`.
+Une carte, un fichier. Le titre est le `#` du fichier, les six blocs sont des `##`.
 
 ```
 # Titre
@@ -55,7 +55,7 @@ Une action, faisable cette semaine.
 
 ## Depuis ton siège
 
-- **Product** : ce que l'entrée change pour lui, en une ligne.
+- **Product** : ce que la carte change pour lui, en une ligne.
 - **Manager** : ...
 
 ## À discuter
@@ -69,7 +69,7 @@ Une question qu'une équipe peut poser à voix haute.
 
 Assez court pour être repris dans une conversation.
 
-Une entrée fonctionne quand les gens se mettent à répéter la phrase. "Le ticket n'est pas le travail" se dit en réunion. "Considérations sur la mesure de la production dans les équipes produit" ne se dit nulle part.
+Une carte fonctionne quand les gens se mettent à répéter la phrase. "Le ticket n'est pas le travail" se dit en réunion. "Considérations sur la mesure de la production dans les équipes produit" ne se dit nulle part.
 
 Deux formes portent l'essentiel du livre.
 
@@ -86,7 +86,7 @@ Un titre qui décrit le sujet a déjà perdu. Le titre porte la position, pas le
 
 > "Ce n'est pas dans mon périmètre."
 
-Le lecteur doit reconnaître la phrase avant de la juger. Si le réflexe ressemble à une chose que seul un imbécile dirait, personne ne se reconnaîtra dans l'entrée.
+Le lecteur doit reconnaître la phrase avant de la juger. Si le réflexe ressemble à une chose que seul un imbécile dirait, personne ne se reconnaîtra dans la carte.
 
 Le comportement doit avoir l'air raisonnable, parce que vu de l'intérieur il l'est presque toujours. C'est ce qui le rend difficile à lâcher.
 
@@ -96,15 +96,15 @@ Le comportement doit avoir l'air raisonnable, parce que vu de l'intérieur il l'
 
 Le basculement, en une ou deux lignes. Une autre façon d'agir, sans faire la leçon.
 
-Garde-le atteignable. Si la version builder exige un courage rare ou une organisation qui n'existe pas, l'entrée est décorative.
+Garde-le atteignable. Si la version builder exige un courage rare ou une organisation qui n'existe pas, la carte est décorative.
 
 ---
 
 ## Pourquoi
 
-Le cœur de l'entrée, et le bloc qui demande le plus de réécriture.
+Le cœur de la carte, et le bloc qui demande le plus de réécriture.
 
-Quatre paragraphes. Pas cinq, pas six. Ce bloc s'allonge parce que c'est là qu'atterrit tout ce qui ne rentrait pas ailleurs, et une entrée qui a besoin de six paragraphes est en général deux entrées sous un seul titre.
+Quatre paragraphes. Pas cinq, pas six. Ce bloc s'allonge parce que c'est là qu'atterrit tout ce qui ne rentrait pas ailleurs, et une carte qui a besoin de six paragraphes est en général deux cartes sous un seul titre.
 
 Ce qui marche :
 
@@ -113,7 +113,7 @@ Ce qui marche :
 → une raison de comprendre ceux qui agissent ainsi. Pourquoi des gens intelligents finissent là.
 → le contre-argument le plus fort, traité à l'intérieur du mécanisme plutôt qu'annoncé.
 
-Ce dernier point avait autrefois son paragraphe dédié dans chaque entrée, ouvrant sur une variante de "l'objection est légitime" et fermant sur une concession d'un mot. Lis six entrées d'affilée et tu sens le rythme arriver. Une entrée sur cinq environ devrait annoncer un contre-argument. Le chiffre est un réglage, pas une mesure, et il est probablement encore trop haut. Dans les autres, intègre-le au raisonnement sans en faire un passage obligé, ou retire-le si l'entrée tient sans.
+Ce dernier point avait autrefois son paragraphe dédié dans chaque carte, ouvrant sur une variante de "l'objection est légitime" et fermant sur une concession d'un mot. Lis six cartes d'affilée et tu sens le rythme arriver. Une carte sur cinq environ devrait annoncer un contre-argument. Le chiffre est un réglage, pas une mesure, et il est probablement encore trop haut. Dans les autres, intègre-le au raisonnement sans en faire un passage obligé, ou retire-le si la carte tient sans.
 
 Ce qui ne marche pas : les affirmations sur ce que font les bonnes équipes. Personne ne change de comportement parce qu'on lui a dit que les meilleurs font autrement. Un paragraphe qui explique une scène que le lecteur avait déjà comprise ne marche pas non plus. Fais confiance à la scène et coupe le paragraphe d'après.
 
@@ -131,21 +131,21 @@ Quand c'est la formulation qui est difficile, donne-la mot pour mot. Une phrase 
 
 ## Depuis ton siège
 
-Quatre à six lignes, une par siège, sur ce que l'entrée change à une place qui n'est pas celle du lecteur par défaut.
+Quatre à six lignes, une par siège, sur ce que la carte change à une place qui n'est pas celle du lecteur par défaut.
 
-C'est ce bloc qui rend une entrée utilisable par une équipe entière d'un coup. Sans lui, chaque entrée atterrit sur le builder qui a déjà le réflexe, et personne d'autre ne sait ce qu'on lui demande. Les sièges sont décrits dans [Comment lire ce livre](/chapters/00-comment-lire-ce-livre.html).
+C'est ce bloc qui rend une carte utilisable par une équipe entière d'un coup. Sans lui, chaque carte atterrit sur le builder qui a déjà le réflexe, et personne d'autre ne sait ce qu'on lui demande. Les sièges sont décrits dans [Comment lire ce livre](/chapters/00-comment-lire-ce-livre.html).
 
 Cinq règles, et les quatre premières servent toutes à empêcher la même chose, un bloc de remplissage.
 
 **1. Quatre à six sièges. Jamais sept par principe.** Un bloc qui liste tout le monde à chaque fois finit par dire une seule chose sous sept intitulés différents.
 
-**2. Le siège dont « À essayer » donne déjà l'action ne prend pas de ligne.** C'est le plus souvent Engineer, puisque l'action de l'entrée est déjà écrite pour lui.
+**2. Le siège dont « À essayer » donne déjà l'action ne prend pas de ligne.** C'est le plus souvent Engineer, puisque l'action de la carte est déjà écrite pour lui.
 
 **3. Un siège qui n'a rien de différent à dire ne prend pas de ligne.** N'écris pas « ce siège n'est pas concerné », et ne reformule pas le titre. Une ligne vide se lit et coûte du temps. Une ligne absente ne coûte rien.
 
-**4. Cent caractères après les deux-points, maximum.** Une ligne, qui ne passe pas à la ligne sur un téléphone. Si la différence ne tient pas en une ligne, ce siège a besoin de sa propre entrée, pas d'une ligne plus longue.
+**4. Cent caractères après les deux-points, maximum.** Une ligne, qui ne passe pas à la ligne sur un téléphone. Si la différence ne tient pas en une ligne, ce siège a besoin de sa propre carte, pas d'une ligne plus longue.
 
-**5. Le bloc ne compte pas dans les mots de l'entrée.** Ce n'est pas de la prose, c'est une table. Un lecteur y prend sa ligne, pas les six.
+**5. Le bloc ne compte pas dans les mots de la carte.** Ce n'est pas de la prose, c'est une table. Un lecteur y prend sa ligne, pas les six.
 
 ---
 
@@ -159,9 +159,9 @@ Les meilleures pointent le passé récent, pas les intentions. "Qui a signalé u
 
 ## Les paires
 
-Certaines entrées en appellent une deuxième. Quand une entrée demande un comportement à quelqu'un, vérifie s'il peut adopter ce comportement dans une organisation ordinaire.
+Certaines cartes en appellent une deuxième. Quand une carte demande un comportement à quelqu'un, vérifie s'il peut adopter ce comportement dans une organisation ordinaire.
 
-Si ce n'est pas le cas, l'entrée manquante est celle adressée à qui façonne les conditions. Elle porte la marque ⇄ dans la table des matières.
+Si ce n'est pas le cas, la carte manquante est celle adressée à qui façonne les conditions. Elle porte la marque ⇄ dans la table des matières.
 
 Sans la paire, le livre devient une liste d'exigences dirigées vers le bas.
 
@@ -179,7 +179,7 @@ La seule règle qui reste. Le détail est dans une scène, et le livre n'expliqu
 
 Cinq règles, et ce ne sont pas des préférences stylistiques. C'est ce qui empêche ce livre de devenir la chose contre laquelle il est écrit.
 
-**1. C'est la salle qui est drôle. Jamais les gens qui sont dedans.** La comédie vise la structure, à chaque fois. La seule entrée où elle glisse sur une personne est celle qui sera capturée en screenshot.
+**1. C'est la salle qui est drôle. Jamais les gens qui sont dedans.** La comédie vise la structure, à chaque fois. La seule carte où elle glisse sur une personne est celle qui sera capturée en screenshot.
 
 **2. L'ennemi est le marché de la visibilité.** Qui est recommandé, qui est mis en relation, qui monte sur le panel, et le rapport que tout ça entretient avec le fait de livrer. Jamais une culture, jamais une catégorie, jamais le lecteur.
 
@@ -193,31 +193,31 @@ Cinq règles, et ce ne sont pas des préférences stylistiques. C'est ce qui emp
 
 ## La version dure
 
-La plupart des entrées ouvrent sur un réflexe manifestement faux dès qu'il est dit à voix haute. Écrit comme ça soixante-dix fois, le livre ne s'adresse qu'à celui qui n'a pas encore compris, et celui qui a compris le referme.
+La plupart des cartes ouvrent sur un réflexe manifestement faux dès qu'il est dit à voix haute. Écrit comme ça soixante-dix fois, le livre ne s'adresse qu'à celui qui n'a pas encore compris, et celui qui a compris le referme.
 
-Donc environ une entrée sur huit ouvre sur un réflexe réellement défendable. L'ingénieur qui bloque la release s'est déjà brûlé. Le fondateur qui a tout centralisé a vu une décision manquer de tuer sa boîte. Personne dans cette scène n'est bête, et l'entrée doit répondre à cette bonne raison, pas en inventer une mauvaise.
+Donc environ une carte sur huit ouvre sur un réflexe réellement défendable. L'ingénieur qui bloque la release s'est déjà brûlé. Le fondateur qui a tout centralisé a vu une décision manquer de tuer sa boîte. Personne dans cette scène n'est bête, et la carte doit répondre à cette bonne raison, pas en inventer une mauvaise.
 
-Ces mêmes entrées portent l'autre moitié, à savoir la façon dont le titre se détourne. Une formule comme *être bloqué est une décision* s'utilise comme un bâton. *Ton code n'est pas ton bébé* s'utilise pour écarter une objection juste. Nomme-le à l'intérieur de l'entrée. Un lecteur avec quinze ans de métier ne se demande pas si le principe est vrai. Il se demande si tu as vu comment on en abuse, et il le repère en un paragraphe.
+Ces mêmes cartes portent l'autre moitié, à savoir la façon dont le titre se détourne. Une formule comme *être bloqué est une décision* s'utilise comme un bâton. *Ton code n'est pas ton bébé* s'utilise pour écarter une objection juste. Nomme-le à l'intérieur de la carte. Un lecteur avec quinze ans de métier ne se demande pas si le principe est vrai. Il se demande si tu as vu comment on en abuse, et il le repère en un paragraphe.
 
 ---
 
 ## La longueur
 
-300 à 500 mots par entrée. Jusqu'à 550 quand elle porte un réflexe défendable ou une mise en garde contre un détournement du principe, puisque ce sont deux paragraphes en plus et qu'aucun des deux n'est du remplissage.
+300 à 500 mots par carte. Jusqu'à 550 quand elle porte un réflexe défendable ou une mise en garde contre un détournement du principe, puisque ce sont deux paragraphes en plus et qu'aucun des deux n'est du remplissage.
 
-Ces chiffres décrivent les soixante-huit entrées existantes, médiane 434. Ils te disent où tu te situes par rapport au livre, pas où tu dois être. Le vrai plafond est le test 3, et il se lit autrement : une entrée qui demande plus de deux minutes n'est pas mauvaise, elle est moins lue.
+Ces chiffres décrivent les soixante-huit cartes existantes, médiane 434. Ils te disent où tu te situes par rapport au livre, pas où tu dois être. Le vrai plafond est le test 3, et il se lit autrement : une carte qui demande plus de deux minutes n'est pas mauvaise, elle est moins lue.
 
 Le bloc « Depuis ton siège » ne compte pas dans ces mots. Son budget est le sien, six lignes de cent caractères au plus, et la règle est dans le bloc.
 
-Une entrée qui s'allonge est en général deux entrées sous un seul titre. Coupe-la en deux et les deux moitiés deviennent plus fortes.
+Une carte qui s'allonge est en général deux cartes sous un seul titre. Coupe-la en deux et les deux moitiés deviennent plus fortes.
 
 ---
 
 ## En envoyer une
 
-Écris-la en t'appuyant sur [les douze tests](/chapters/a2-les-douze-tests.html) avant de l'envoyer. Une entrée qui les passe arrive prête à être discutée, ce qui est le seul état dans lequel elle vaut la peine d'être lue.
+Écris-la en t'appuyant sur [les douze tests](/chapters/a2-les-douze-tests.html) avant de l'envoyer. Une carte qui les passe arrive prête à être discutée, ce qui est le seul état dans lequel elle vaut la peine d'être lue.
 
-Inclus ce qu'elle t'a coûté. Pas comme une histoire, comme un mécanisme. L'entrée est la chose que tu aurais voulu qu'on te tende quatre ans plus tôt, et ce qui la rend transmissible, c'est la partie que tu as dû payer.
+Inclus ce qu'elle t'a coûté. Pas comme une histoire, comme un mécanisme. La carte est la chose que tu aurais voulu qu'on te tende quatre ans plus tôt, et ce qui la rend transmissible, c'est la partie que tu as dû payer.
 
 ### Où l'envoyer
 
@@ -225,11 +225,11 @@ Inclus ce qu'elle t'a coûté. Pas comme une histoire, comme un mécanisme. L'en
 
 La même page donne de quoi écrire à deux mains avec ton assistant. Un entretien de huit questions à copier-coller, il te les pose une par une et assemble le fichier au format décrit ci-dessus. C'est là pour la page blanche, qui est le vrai obstacle, pas le markdown.
 
-**Ce que tu envoies devient une pull request sur [le dépôt](https://github.com/{{ site.repository }}), sous ton nom.** Le formulaire fait l'étape Git à ta place, il ne range pas ton entrée ailleurs. La relecture se passe donc en public dans les deux cas.
+**Ce que tu envoies devient une pull request sur [le dépôt](https://github.com/{{ site.repository }}), sous ton nom.** Le formulaire fait l'étape Git à ta place, il ne range pas ton carte ailleurs. La relecture se passe donc en public dans les deux cas.
 
 Si tu as déjà un compte GitHub, ouvre-la directement. Le modèle de pull request est la liste des douze tests en cases à cocher, et le [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md) donne les détails mécaniques, le nommage des fichiers et le champ `order`.
 
-Si tu n'as jamais fait ni l'un ni l'autre, lis *[Ta première contribution](/chapters/16-01-ta-premiere-contribution.html)*, qui décrit exactement ce qui va se passer. Et l'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ton entrée.
+Si tu n'as jamais fait ni l'un ni l'autre, lis *[Ta première contribution](/chapters/16-01-ta-premiere-contribution.html)*, qui décrit exactement ce qui va se passer. Et l'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ton carte.
 
 ### Ce qui se passe ensuite
 
@@ -244,9 +244,9 @@ author: "Ton nom"
 author_link: "https://là-où-tu-veux-qu-on-te-trouve"
 ```
 
-Le lien est facultatif, le nom non. Il apparaît sous le titre de l'entrée, sur le site, dans le PDF et dans l'EPUB.
+Le lien est facultatif, le nom non. Il apparaît sous le titre de la carte, sur le site, dans le PDF et dans l'EPUB.
 
-Un livre qui demande d'arrêter de travailler en silence ne peut pas se relire en privé. C'est pour ça que toutes les entrées finissent au même endroit, en public, quelle que soit la manière dont elles sont arrivées.
+Un livre qui demande d'arrêter de travailler en silence ne peut pas se relire en privé. C'est pour ça que toutes les cartes finissent au même endroit, en public, quelle que soit la manière dont elles sont arrivées.
 
 ---
 

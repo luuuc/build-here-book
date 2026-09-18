@@ -24,7 +24,7 @@ Tout ce dont l'entreprise va discuter le trimestre prochain est déjà décrit c
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Le support client, c'est de la recherche produit avec des participants énervés](/chapters/11-01-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html)
 - [Parle à la personne qui a le problème](/chapters/11-02-parle-a-la-personne-qui-a-le-probleme.html)

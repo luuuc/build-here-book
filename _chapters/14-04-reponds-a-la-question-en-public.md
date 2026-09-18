@@ -27,7 +27,7 @@ Une personne a la réponse. C'est fini.
 
 ## Pourquoi
 
-C'est la seule action de ce mouvement qui ne demande presque aucun travail supplémentaire. Tu allais écrire la réponse de toute façon. La seule décision est l'endroit où tu la poses. Une réponse privée a un lecteur, aujourd'hui. La même réponse publique en a un aujourd'hui et un nombre inconnu ensuite, sur des années, sans que tu aies rien à faire de plus. Il n'existe aucun autre endroit du livre où le rapport entre l'effort et la portée est aussi déséquilibré, et c'est pour ça que cette entrée est la plus facile à appliquer cette semaine.
+C'est la seule action de ce mouvement qui ne demande presque aucun travail supplémentaire. Tu allais écrire la réponse de toute façon. La seule décision est l'endroit où tu la poses. Une réponse privée a un lecteur, aujourd'hui. La même réponse publique en a un aujourd'hui et un nombre inconnu ensuite, sur des années, sans que tu aies rien à faire de plus. Il n'existe aucun autre endroit du livre où le rapport entre l'effort et la portée est aussi déséquilibré, et c'est pour ça que cette carte est la plus facile à appliquer cette semaine.
 
 Regarde aussi pourquoi la question t'est arrivée. Elle t'est arrivée parce que tu es la personne à portée, pas parce que tu es la seule à savoir. Tant que la réponse reste dans tes messages, tu restes la porte, et *Être bloqué est une décision* dit déjà ce que ça coûte à l'équipe qui n'a jamais dessiné la carte. Une fois publiée, la réponse est accessible même quand tu n'es pas disponible.
 

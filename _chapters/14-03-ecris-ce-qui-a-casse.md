@@ -34,7 +34,7 @@ Il y a deux lecteurs et aucun des deux n'était dans la rétro. Toi dans dix-hui
 
 L'objection sérieuse n'est pas la pudeur, c'est la taille du marché. Ton client peut lire le texte le lendemain, et le concurrent qui recrute aussi. Elle se règle en écrivant le mécanisme au lieu de l'incident. Le client n'a pas besoin d'être nommé, le montant n'a pas besoin d'être exact, et le fournisseur peut rester « un prestataire de paiement ». Ce qui doit être précis, c'est la séquence des faits, et elle n'appartient à aucun client.
 
-Reste le vrai obstacle. Dans une équipe où signaler une erreur discrédite celui qui la signale, personne n'en publiera une, et l'entrée qui traite ça est *Si reconnaître une erreur te discrédite, plus personne ne le fera*. Vérifie de quel côté tu es avant de demander à quelqu'un d'autre d'écrire le sien.
+Reste le vrai obstacle. Dans une équipe où signaler une erreur discrédite celui qui la signale, personne n'en publiera une, et la carte qui traite ça est *Si reconnaître une erreur te discrédite, plus personne ne le fera*. Vérifie de quel côté tu es avant de demander à quelqu'un d'autre d'écrire le sien.
 
 ## À essayer
 

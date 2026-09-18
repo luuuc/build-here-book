@@ -26,7 +26,7 @@ Cette section ferme le premier mouvement. Elle porte sur le produit qu'on ne tro
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Une audience met plus de temps à se construire qu'un produit](/chapters/12-01-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html)
 - [La distribution fait partie du produit](/chapters/12-02-la-distribution-fait-partie-du-produit.html)

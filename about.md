@@ -9,7 +9,7 @@ categories:
   - open-source
 
 seo:
-  description: Build Here est un guide libre pour les builders du continent. Licence Creative Commons BY-SA 4.0, source ouverte, entrées ouvertes aux contributions.
+  description: Build Here est un guide libre pour les builders du continent. Licence Creative Commons BY-SA 4.0, source ouverte, cartes ouvertes aux contributions.
   keywords: build here, à propos, licence creative commons, contribution, open source, builders afrique
 
 title: À propos
@@ -20,7 +20,7 @@ description: Un livre ouvert, à compléter
 
 ## Ce que c'est
 
-Des entrées de deux minutes, écrites pour ceux qui fabriquent des choses ici. Chacune tient seule. Aucune n'est nouvelle, et c'est le sujet. Tout ça est réglé depuis longtemps ailleurs, et n'est jamais devenu la norme ici.
+Des cartes de deux minutes, écrites pour ceux qui fabriquent des choses ici. Chacune tient seule. Aucune n'est nouvelle, et c'est le sujet. Tout ça est réglé depuis longtemps ailleurs, et n'est jamais devenu la norme ici.
 
 Le livre a deux mouvements. Le premier te rend meilleur. Le second rend ton travail visible. Ce sont deux problèmes différents, et le second est le plus difficile des deux.
 
@@ -28,15 +28,15 @@ L'[introduction](/chapters/00-introduction.html) explique comment utiliser le li
 
 ## Écris la suivante
 
-Il manque à ce livre les entrées que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
+Il manque à ce livre les cartes que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
 
-L'[annexe 1](/chapters/a1-comment-ecrire-une-entree.html) donne le format. L'[annexe 2](/chapters/a2-les-douze-tests.html) donne les tests à faire passer à une entrée avant de la publier, y compris à l'une des miennes que tu trouves fausse.
+L'[annexe 1](/chapters/a1-comment-ecrire-une-entree.html) donne le format. L'[annexe 2](/chapters/a2-les-douze-tests.html) donne les tests à faire passer à une carte avant de la publier, y compris à l'une des miennes que tu trouves fausse.
 
 Tout part de [build-here.africa/contribuer](/contribuer). Un formulaire, aucun compte à ouvrir, et un entretien de huit questions à coller dans ton assistant si la page blanche te tient.
 
 Ce qui arrive par là devient une pull request sur [le dépôt](https://github.com/{{ site.repository }}), sous ton nom. Si tu as déjà un compte GitHub, ouvre-la toi-même, la mécanique est dans [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md). Le chemin ne change rien à la relecture.
 
-L'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ton entrée. Si l'entrée tient, on la travaille ensemble et elle rejoint le livre, sous ton nom.
+L'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ton carte. Si la carte tient, on la travaille ensemble et elle rejoint le livre, sous ton nom.
 
 Pas besoin d'être connu. C'est un peu le sujet.
 
@@ -48,9 +48,9 @@ L'[annexe 3](/chapters/a3-deja-ecrit.html) liste seize titres, de 1954 à 2018, 
 
 Jekyll. GitHub Pages. [Le source est ici](https://github.com/{{ site.repository }}).
 
-Une entrée à proposer ? [Une pull request](https://github.com/{{ site.repository }}/pulls).
+Une carte à proposer ? [Une pull request](https://github.com/{{ site.repository }}/pulls).
 Une coquille à corriger ? Une pull request aussi.
-Un désaccord avec une entrée ? [Ouvre une discussion](https://github.com/{{ site.repository }}/discussions).
+Un désaccord avec une carte ? [Ouvre une discussion](https://github.com/{{ site.repository }}/discussions).
 Envie de le traduire ? Dis-le d'abord, qu'on ne le fasse pas deux fois.
 
 ## Contact

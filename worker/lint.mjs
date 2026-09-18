@@ -172,7 +172,7 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
       fichier: filename,
       estUneEntree: false,
       lu: null,
-      regles: ["Aucun front matter. Copie celui de n'importe quelle entrée existante."],
+      regles: ["Aucun front matter. Copie celui de n'importe quelle carte existante."],
       mesures: [],
     };
   }
@@ -214,7 +214,7 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
     if (nouvelle) {
       regle(
         "Le front matter n'a pas `metadata.principle`. C'est ce champ qui fait qu'un fichier " +
-          "est une entrée : sans lui, la page est rendue comme une ouverture de section et " +
+          "est une carte : sans lui, la page est rendue comme une ouverture de section et " +
           "l'accueil ne la compte pas. Mets-le à 999, il se recalcule à l'intégration."
       );
     }
@@ -259,7 +259,7 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
     if (paragraphes > 4) {
       regle(
         `« Pourquoi » a ${paragraphes} paragraphes. L'annexe 1 en fixe quatre, plafond dur. ` +
-          `Une entrée qui en demande plus est en général deux entrées sous un seul titre.`
+          `Une carte qui en demande plus est en général deux cartes sous un seul titre.`
       );
     }
   }
@@ -318,14 +318,14 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
   if (n > MOTS_SIGNAL) {
     mesure(
       `${n} mots hors bloc « Depuis ton siège ». L'annexe 1 donne 300 à 500, jusqu'à 550 pour une ` +
-        `entrée qui porte un réflexe défendable. Les 68 entrées vont de 307 à 596, médiane 434. ` +
-        `Au-delà, une entrée est souvent deux entrées sous un seul titre.`
+        `carte qui porte un réflexe défendable. Les 68 cartes vont de 307 à 596, médiane 434. ` +
+        `Au-delà, une carte est souvent deux cartes sous un seul titre.`
     );
   }
   if (n < MOTS_PLANCHER) {
     mesure(
-      `${n} mots hors bloc « Depuis ton siège ». La plus courte entrée du livre en fait 307. ` +
-        `Une entrée trop courte est en général un principe sans situation : cherche le moment ` +
+      `${n} mots hors bloc « Depuis ton siège ». La plus courte carte du livre en fait 307. ` +
+        `Une carte trop courte est en général un principe sans situation : cherche le moment ` +
         `exact où le comportement apparaît.`
     );
   }
@@ -340,7 +340,7 @@ export function rapport(r) {
   if (r.lu && r.lu.titre) {
     l.push(`Ce que j'ai lu : ${r.lu.titre}`);
     if (r.lu.phrase) l.push(`  « ${r.lu.phrase} »`);
-    const meta = [r.lu.section, r.lu.auteur ? `écrite par ${r.lu.auteur}` : null, r.estUneEntree ? `${r.mots} mots` : "pas une entrée"].filter(Boolean);
+    const meta = [r.lu.section, r.lu.auteur ? `écrite par ${r.lu.auteur}` : null, r.estUneEntree ? `${r.mots} mots` : "pas une carte"].filter(Boolean);
     l.push(`  ${meta.join(" · ")}`);
   } else {
     l.push(`Ce que j'ai lu : ${r.fichier || "un fichier sans titre"}`);
@@ -365,6 +365,6 @@ export function rapport(r) {
     l.push("");
   }
 
-  l.push("Rien ici ne refuse l'entrée. Les douze tests sont une lecture humaine.");
+  l.push("Rien ici ne refuse la carte. Les douze tests sont une lecture humaine.");
   return l.join("\n");
 }

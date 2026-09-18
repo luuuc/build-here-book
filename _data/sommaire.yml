@@ -5,7 +5,7 @@
 # qui n'apparaît nulle part ici ne sera pas affichée dans le menu : quand tu
 # ajoutes une section, ajoute sa ligne ici.
 #
-# Un groupe qui ne contient qu'une section affiche ses entrées à plat, sans
+# Un groupe qui ne contient qu'une section affiche ses cartes à plat, sans
 # en-tête intermédiaire. Sinon chaque section devient un en-tête, et cet
 # en-tête pointe vers sa page d'ouverture.
 

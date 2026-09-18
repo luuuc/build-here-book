@@ -26,7 +26,7 @@ C'est la section la plus proche de la raison d'être de ce livre. La référence
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Ton meilleur professeur ne travaille pas ici](/chapters/08-01-ton-meilleur-professeur-ne-travaille-pas-ici.html)
 - [L'open source est une salle de classe](/chapters/08-02-lopen-source-est-une-salle-de-classe.html)

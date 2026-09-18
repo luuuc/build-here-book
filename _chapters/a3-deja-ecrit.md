@@ -24,7 +24,7 @@ Seize titres. Il y en aurait soixante, ça ne prouverait rien de plus. Le plus a
 
 **1954. Peter Drucker, *The Practice of Management*.** L'entreprise n'a qu'une définition valable, créer un client. L'organigramme, la stack et le process en découlent. Publié près de trente ans avant le premier ordinateur personnel.
 
-**1960. Theodore Levitt, *Marketing Myopia*.** Les compagnies de chemin de fer croyaient faire du rail. Elles faisaient du transport, et l'ont compris trop tard. L'entrée *Le marketing n'est pas de la décoration* raconte la même histoire avec d'autres exemples.
+**1960. Theodore Levitt, *Marketing Myopia*.** Les compagnies de chemin de fer croyaient faire du rail. Elles faisaient du transport, et l'ont compris trop tard. La carte *Le marketing n'est pas de la décoration* raconte la même histoire avec d'autres exemples.
 
 **1968. Melvin Conway, *How Do Committees Invent?*** Neuf pages. Un système finit par avoir la forme de l'organisation qui l'a produit. Quand une architecture n'a pas d'explication technique, regarde le trombinoscope.
 
@@ -50,7 +50,7 @@ Seize titres. Il y en aurait soixante, ça ne prouverait rien de plus. Le plus a
 
 **2013. Rob Fitzpatrick, *The Mom Test*.** Comment parler à un client sans récolter la réponse polie qui ne sert à rien. Cent trente pages, et la règle centrale tient en une phrase. Ne parle jamais de ton idée.
 
-**2017. Marty Cagan, *Inspired*.** La différence entre une équipe à qui on donne des fonctionnalités à livrer et une équipe à qui on donne un problème à résoudre. Deux entrées de la section Produit sortent de cette distinction.
+**2017. Marty Cagan, *Inspired*.** La différence entre une équipe à qui on donne des fonctionnalités à livrer et une équipe à qui on donne un problème à résoudre. Deux cartes de la section Produit sortent de cette distinction.
 
 **2018. Nicole Forsgren, Jez Humble, Gene Kim, *Accelerate*.** Quatre ans de recherche, plus de vingt mille réponses. Les équipes qui livrent le plus souvent sont aussi celles qui cassent le moins. Le débat vitesse contre qualité est tranché, avec des données.
 

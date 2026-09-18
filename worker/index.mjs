@@ -355,7 +355,7 @@ function pageReponse(statut, corps, nonce) {
   const ok = statut < 400;
   const titre = ok ? "Reçue" : "Pas envoyée";
   const message = ok
-    ? "Ton entrée est arrivée. Je lis tout avant publication, et je te réponds sur le contact que tu as laissé."
+    ? "Ton carte est arrivée. Je lis tout avant publication, et je te réponds sur le contact que tu as laissé."
     : corps.erreur || "Quelque chose n'a pas marché.";
 
   return `<!doctype html>

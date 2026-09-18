@@ -19,15 +19,15 @@ categories:
   - methode
   - references
 seo:
-  description: "À gauche une phrase qu'on dit, à droite l'entrée qui la conteste. Les soixante-huit entrées du livre, rangées par symptôme."
+  description: "À gauche une phrase qu'on dit, à droite la carte qui la conteste. Les soixante-huit cartes du livre, rangées par symptôme."
   keywords: "build here, annexes, tech afrique, builder, index, symptome, sommaire"
 ---
 
 Le mode d'emploi dit d'ouvrir le livre à la section qui correspond à ce qui t'agace cette semaine. Voilà cette liste, en clair.
 
-À gauche, une phrase qu'on dit, ou une semaine qu'on vient de vivre. À droite, une entrée, parfois deux, jamais dix. Un index qui renvoie quarante entrées n'a rien trié.
+À gauche, une phrase qu'on dit, ou une semaine qu'on vient de vivre. À droite, une carte, parfois deux, jamais dix. Un index qui renvoie quarante cartes n'a rien trié.
 
-Les soixante-huit entrées y sont, chacune au moins une fois. Aucun classement par importance, aucun ordre de lecture.
+Les soixante-huit cartes y sont, chacune au moins une fois. Aucun classement par importance, aucun ordre de lecture.
 
 ---
 
@@ -117,4 +117,4 @@ Les soixante-huit entrées y sont, chacune au moins une fois. Aucun classement p
 
 Si rien ici ne ressemble à ta semaine, le [sommaire](/) est là pour ça.
 
-Et si la phrase qui te manque existe chez toi, c'est peut-être une entrée que ce livre n'a pas encore. Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), et elle s'envoie depuis [build-here.africa/contribuer](/contribuer).
+Et si la phrase qui te manque existe chez toi, c'est peut-être une carte que ce livre n'a pas encore. Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), et elle s'envoie depuis [build-here.africa/contribuer](/contribuer).

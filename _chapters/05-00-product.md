@@ -22,11 +22,11 @@ Tout le monde livre ici. Les tickets se ferment, la version est livrée, le tabl
 
 Puis tu regardes ce qui a réellement changé pour quelqu'un qui utilise le produit. Rien.
 
-C'est cet écart, le sujet. Presque toutes ces entrées demandent à quelqu'un de refuser du travail. Encore faut-il pouvoir le faire sans être désavoué.
+C'est cet écart, le sujet. Presque toutes ces cartes demandent à quelqu'un de refuser du travail. Encore faut-il pouvoir le faire sans être désavoué.
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Le ticket n'est pas le travail](/chapters/05-01-le-ticket-nest-pas-le-travail.html)
 - [Valider une spec ne la rend pas juste](/chapters/05-02-valider-une-spec-ne-la-rend-pas-juste.html)

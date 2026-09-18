@@ -26,7 +26,7 @@ Personne ne ment. Le travail a vraiment eu lieu. Rien n'est arrivé chez un clie
 
 ---
 
-## Les entrées de cette section
+## Les cartes de cette section
 
 - [Livrer permet d'apprendre](/chapters/07-02-shipper-cree-de-linformation.html)
 - [Rapide ne veut pas dire précipité](/chapters/07-03-rapide-ne-veut-pas-dire-precipite.html)

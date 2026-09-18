@@ -227,7 +227,7 @@ export async function ouvrirPullRequest(jeton, depot, { nom, markdown, titre, au
 
 function corpsDeLaPr({ titre, auteur, rapport, nom }) {
   return [
-    `Une entrée proposée par **${auteur}**, arrivée par le formulaire du site.`,
+    `Une carte proposée par **${auteur}**, arrivée par le formulaire du site.`,
     "",
     `Fichier : \`_chapters/${nom}\`. Les champs \`order\` et \`principle\` sont à 999, ils se recalculent à l'intégration.`,
     "",

@@ -7,18 +7,18 @@ categories:
   - builders
 
 seo:
-  description: Écris l'entrée que ce livre n'a pas. Le format, les tests, et un formulaire qui te répond en quelques secondes sur ce qui manque.
-  keywords: build here, contribuer, écrire une entrée, contribution, builders afrique
+  description: Écris la carte que ce livre n'a pas. Le format, les tests, et un formulaire qui te répond en quelques secondes sur ce qui manque.
+  keywords: build here, contribuer, écrire une carte, contribution, builders afrique
 
 title: Écrire la suivante
-description: L'entrée que ce livre n'a pas
+description: La carte que ce livre n'a pas
 ---
 
 {% assign c = site.data.interface.contribution %}
 
-Il manque à ce livre les entrées que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
+Il manque à ce livre les cartes que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
 
-Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les tests qu'une entrée doit survivre en [annexe 2](/chapters/a2-les-douze-tests.html). Lis les deux avant d'écrire, pas après.
+Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les tests qu'une carte doit survivre en [annexe 2](/chapters/a2-les-douze-tests.html). Lis les deux avant d'écrire, pas après.
 
 Écrire un premier texte public est difficile pour tout le monde, partout. C'est le sujet de [Ta première contribution](/chapters/16-01-ta-premiere-contribution.html) et du [Quatrième mois](/chapters/15-02-le-quatrieme-mois.html). Rien ici ne demande d'avoir déjà écrit.
 
@@ -43,7 +43,7 @@ Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les te
 ## À essayer
 ## Depuis ton siège
 ## À discuter</code></pre>
-    <p>Le front matter se copie sur n'importe quelle entrée du livre. Laisse <code>order</code> et <code>principle</code> à 999, ce sont des champs de séquence et ils ne sont pas ton problème.</p>
+    <p>Le front matter se copie sur n'importe quelle carte du livre. Laisse <code>order</code> et <code>principle</code> à 999, ce sont des champs de séquence et ils ne sont pas ton problème.</p>
   </div>
 
   <div class="contrib-aide" data-aide="ia">
@@ -83,7 +83,7 @@ Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les te
     </fieldset>
 
     <label>
-      L'entrée, en markdown, front matter compris
+      La carte, en markdown, front matter compris
       <textarea name="markdown" rows="18" required spellcheck="false"></textarea>
     </label>
 
@@ -106,7 +106,7 @@ Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les te
 
 ## Ce qui se passe ensuite
 
-Je lis tout. L'entrée est relue contre les douze tests, et si elle échoue tu sauras sur quel test, ce qui vaut mieux qu'un silence poli.
+Je lis tout. La carte est relue contre les douze tests, et si elle échoue tu sauras sur quel test, ce qui vaut mieux qu'un silence poli.
 
 Si elle tient, elle rejoint le livre **sous ton nom**, avec le lien de ton choix. Pas besoin d'être connu, pas besoin d'avoir déjà écrit, pas besoin de me connaître.
 

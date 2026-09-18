@@ -11,7 +11,7 @@ categories:
   - support
   - produit
 seo:
-  description: "Les entrées précédentes demandent aux gens de lire des tickets, d'appeler trois utilisateurs, de démonter une réclamation. Maintenant regarde qui tient la porte."
+  description: "Les cartes précédentes demandent aux gens de lire des tickets, d'appeler trois utilisateurs, de démonter une réclamation. Maintenant regarde qui tient la porte."
   keywords: "build here, client, tech afrique, builder, conditions, acces, budget, valeur"
 ---
 
@@ -29,7 +29,7 @@ L'appel n'a pas lieu.
 
 ## Pourquoi
 
-Les entrées précédentes demandent aux gens de lire des tickets, d'appeler trois utilisateurs, de démonter une réclamation. Maintenant regarde qui tient la porte. Les accès à l'outil de support sont réservés au support. La liste client est dans un CRM auquel les ingénieurs n'ont pas accès. La relation appartient à celui qui a signé.
+Les cartes précédentes demandent aux gens de lire des tickets, d'appeler trois utilisateurs, de démonter une réclamation. Maintenant regarde qui tient la porte. Les accès à l'outil de support sont réservés au support. La liste client est dans un CRM auquel les ingénieurs n'ont pas accès. La relation appartient à celui qui a signé.
 
 Personne ne refuse. La demande coûte simplement plus qu'elle ne rapporte. Trois messages, un chaperon, un créneau dans quinze jours, et à ce moment-là la décision a été prise à partir d'un résumé. L'ingénieur arrête de demander après la deuxième tentative. Concevoir par ouï-dire n'était le plan de personne, et tu appelleras ça un manque de curiosité plus tard.
 

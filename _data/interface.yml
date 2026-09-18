@@ -24,7 +24,7 @@ partage:
 lecture:
   reprendre: "Reprendre"
   gardees: "Gardées"
-  garder: "Garder cette entrée"
+  garder: "Garder cette carte"
   retirer: "Retirer des gardées"
   # Le filtre de l'index par symptome.
   filtre: "Filtrer par ce qui t'agace"
@@ -88,7 +88,7 @@ commentaire:
   # qui vient de lire une entree ouvrir un compte, une branche et une pull
   # request, pour une coquille. Une coquille se dit dans la boite au-dessus,
   # je lis tout. Ce qui n'a pas d'endroit, c'est l'entree qui manque.
-  ailleurs: "Une entrée qui manque plutôt qu'une idée à discuter ?"
+  ailleurs: "Une carte qui manque plutôt qu'une idée à discuter ?"
   contribuer: "Écrire la suivante"
 
 # La contribution, page /contribuer.
@@ -101,7 +101,7 @@ contribution:
   portes: "Deux façons d'arriver au même fichier. Écris-le toi-même si le format te parle, ou fais-toi poser huit questions par ton assistant si tu préfères raconter avant d'écrire."
   # Le tri de l'etape 3. Il leve la peur et il impose le tri du test 8.
   tri: |
-    Une entrée n'a jamais besoin du nom de ton client, du montant exact,
+    Une carte n'a jamais besoin du nom de ton client, du montant exact,
     ni du nom de ton fournisseur. Dire ce qu'il fait suffit.
     Ce qui doit être précis, c'est la séquence, et elle n'appartient à personne.
 
@@ -115,7 +115,7 @@ contribution:
   # sept : sept ne couvraient pas le bloc « A discuter ». Elles produisent la
   # matiere des six blocs de l'annexe 1, et l'assistant assemble.
   entretien: |
-    Tu vas m'aider à écrire une entrée pour Build Here, le playbook des
+    Tu vas m'aider à écrire une carte pour Build Here, le playbook des
     builders. Pose-moi ces questions une par une, attends ma réponse avant
     la suivante, puis assemble le fichier.
 
@@ -132,7 +132,7 @@ contribution:
        attendu, une information qui a cessé de circuler.
 
     5. Pourquoi des gens intelligents finissent là ? Si le réflexe a l'air
-       bête, l'entrée n'atterrira sur personne.
+       bête, la carte n'atterrira sur personne.
 
     6. Qu'est-ce que quelqu'un peut faire cette semaine, sans budget et sans
        réorganisation ? Assez précis pour qu'il sache vendredi s'il l'a fait.

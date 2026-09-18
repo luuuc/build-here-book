@@ -292,7 +292,7 @@ export function pageAdmin(email, nonce) {
 </header>
 
 <nav class="onglets">
-  <button data-onglet="entrees" aria-pressed="true">Entrées <b id="n-entrees"></b></button>
+  <button data-onglet="entrees" aria-pressed="true">Cartes <b id="n-entrees"></b></button>
   <button data-onglet="commentaires" aria-pressed="false">Commentaires <b id="n-commentaires"></b></button>
   <button data-onglet="notes" aria-pressed="false">Avis <b id="n-avis"></b></button>
 </nav>
@@ -502,7 +502,7 @@ function accueil() {
     caseChiffre(par("pr_ouverte"), "pull request ouverte") +
     "</div>" +
     (vieille ? '<p class="souffle">' + "La plus ancienne attend depuis " + depuis(vieille.cree_le).replace("il y a ", "") + "." + "</p>" : "") +
-    '<p class="invite">' + "Choisissez une entrée à gauche, ou appuyez sur j." + "</p></div>";
+    '<p class="invite">' + "Choisissez une carte à gauche, ou appuyez sur j." + "</p></div>";
 }
 
 // ---- Le detail ----
@@ -587,7 +587,7 @@ async function detailCommentaire(id) {
 
   $("#detail").scrollTop = 0;
   $("#detail").innerHTML =
-    '<article class="piece"><h2 class="libelle">' + "Sur l'entrée" + '</h2><h1><a href="' +
+    '<article class="piece"><h2 class="libelle">' + "Sur la carte" + '</h2><h1><a href="' +
     attr(SITE + encodeURI(c.page || "/")) + '" target="_blank" rel="noopener">' +
     echappe(c.titre || c.page) + '</a></h1><p class="repere">' +
     repere([
@@ -708,7 +708,7 @@ function rendreAvis() {
 
   $("#liste").innerHTML =
     '<div class="ligne' + (quelAvis === TOUTES ? " actif" : "") + '" data-page="' + TOUTES + '" tabindex="0">' +
-    '<div class="ligne-titre">Toutes les entrées</div><div class="ligne-meta"><span>' +
+    '<div class="ligne-titre">Toutes les cartes</div><div class="ligne-meta"><span>' +
     tout.avis.commentaires.length + " avis écrits</span></div></div>" +
     pages.map(lignePage).join("");
 
@@ -733,7 +733,7 @@ function rendreAvis() {
   $("#detail").innerHTML =
     '<article class="piece"><h1>' +
     (toutes
-      ? "Toutes les entrées"
+      ? "Toutes les cartes"
       : '<a href="' + attr(SITE + encodeURI(p.page)) + '" target="_blank" rel="noopener">' + echappe(p.titre || p.page) + "</a>") +
     "</h1>" +
     (raisons.length

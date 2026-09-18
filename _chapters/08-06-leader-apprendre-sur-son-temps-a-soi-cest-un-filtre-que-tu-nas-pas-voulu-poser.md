@@ -11,7 +11,7 @@ categories:
   - open-source
   - niveau
 seo:
-  description: "Regarde ce que demandent les cinq entrées précédentes. Des heures à lire des threads de mainteneurs. Un mois assis en silence dans une salle où tu suis la moitié."
+  description: "Regarde ce que demandent les cinq cartes précédentes. Des heures à lire des threads de mainteneurs. Un mois assis en silence dans une salle où tu suis la moitié."
   keywords: "build here, apprentissage, tech afrique, builder, conditions, apprendre, temps, filtre, voulu"
 ---
 
@@ -27,13 +27,13 @@ Rien de faux dans cette phrase. Elle ne dit simplement pas quand.
 
 ## Pourquoi
 
-Regarde ce que demandent les cinq entrées précédentes. Des heures à lire des threads de mainteneurs. Un mois assis en silence dans une salle où tu suis la moitié. Un talk de quarante minutes sur une connexion que quelqu'un paie lui-même. Rien de tout ça n'a de numéro de ticket, donc rien de tout ça n'entre dans un sprint planifié à l'heure près.
+Regarde ce que demandent les cinq cartes précédentes. Des heures à lire des threads de mainteneurs. Un mois assis en silence dans une salle où tu suis la moitié. Un talk de quarante minutes sur une connexion que quelqu'un paie lui-même. Rien de tout ça n'a de numéro de ticket, donc rien de tout ça n'entre dans un sprint planifié à l'heure près.
 
 Alors on apprend le soir. Et tout le monde n'a pas ses soirées libres. L'ingénieur avec quatre-vingt-dix minutes de trajet dans chaque sens. Celui qui a un deuxième emploi. Celui dont la maison est dans le noir à vingt heures. Celui qui a un petit. Même ambition. Au bilan de mi-année, ceux qui ont du temps libre ont davantage progressé. Et tu attribues l'écart à leur motivation.
 
 Pas besoin d'un budget supplémentaire pour commencer. Quatre heures par mois, c'est deux pour cent du travail que tu paies déjà. Tu as dépensé plus que ça le trimestre dernier sur une migration que personne n'avait demandée.
 
-Laisse l'apprentissage en dehors du temps de travail et la première entrée de cette section revient par la porte de derrière. Une équipe où seuls ceux qui ont des soirées libres continuent de progresser converge vers la moyenne de tous les autres.
+Laisse l'apprentissage en dehors du temps de travail et la première carte de cette section revient par la porte de derrière. Une équipe où seuls ceux qui ont des soirées libres continuent de progresser converge vers la moyenne de tous les autres.
 
 ## À essayer
 

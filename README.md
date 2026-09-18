@@ -2,7 +2,7 @@
 
 Un guide pratique pour ceux qui construisent sur ce continent.
 
-Une entrée, deux minutes, une idée qui tient seule. Chacune se lit sans avoir lu celles d'avant. Certaines portent la marque ⇄ et s'adressent à qui fixe les conditions.
+Une carte, deux minutes, une idée qui tient seule. Chacune se lit sans avoir lu celles d'avant. Certaines portent la marque ⇄ et s'adressent à qui fixe les conditions.
 
 ## Lire en ligne
 
@@ -19,7 +19,7 @@ bin/build-book epub     # l'EPUB seul
 
 Sortie dans `build/`. Jekyll assemble le livre en une page HTML par format (`_pdf/`, corps commun dans `_includes/book-body.html`), WeasyPrint pagine le PDF, Pandoc empaquette l'EPUB.
 
-Le PDF est au format A4 : couverture pleine page, sommaire paginé, une page noire par partie, et chaque ouverture de section comme chaque entrée sur une page paire. L'EPUB se reflowe, donc il garde la couverture, la navigation et la mise en page d'une entrée, mais pas les règles de pagination.
+Le PDF est au format A4 : couverture pleine page, sommaire paginé, une page noire par partie, et chaque ouverture de section comme chaque carte sur une page paire. L'EPUB se reflowe, donc il garde la couverture, la navigation et la mise en page d'une carte, mais pas les règles de pagination.
 
 Les deux sont retirés automatiquement après chaque déploiement du site, par [`.github/workflows/book.yml`](.github/workflows/book.yml).
 
@@ -52,11 +52,11 @@ Le premier mouvement te rend meilleur. Le second rend ton travail visible. Ce so
 
 Puis une conclusion : laisser quelque chose que le suivant pourra trouver.
 
-Les annexes donnent le format d'une entrée, les douze tests qu'elle doit survivre, et seize titres publiés entre 1954 et 2018 où tout ça était déjà écrit.
+Les annexes donnent le format d'une carte, les douze tests qu'elle doit survivre, et seize titres publiés entre 1954 et 2018 où tout ça était déjà écrit.
 
 ## Écrire la suivante
 
-Il manque à ce livre les entrées que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
+Il manque à ce livre les cartes que je ne pouvais pas écrire, parce que je n'ai pas eu ces échecs, sur ces marchés, sur ces stacks.
 
 Elle s'envoie depuis **[build-here.africa/contribuer](https://build-here.africa/contribuer)**, sans compte à ouvrir, et la page donne un entretien à coller dans un assistant pour la préparer. Ce qui arrive par là devient une pull request sur ce dépôt. Si tu as déjà un compte, ouvre-la toi-même. Le chemin ne change rien à la relecture.
 
@@ -84,7 +84,7 @@ bundle exec jekyll serve
 # http://localhost:4000
 ```
 
-Le contenu vit dans `_chapters/`. Un fichier par entrée, trié par le champ `order` du front matter.
+Le contenu vit dans `_chapters/`. Un fichier par carte, trié par le champ `order` du front matter.
 
 ## Contact
 

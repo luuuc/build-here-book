@@ -33,7 +33,7 @@ Le débat se limite au lieu où tu vis. Mais ce qui circule, c'est aussi ton sav
 
 Ce qui se perd à un départ n'est donc pas la personne, c'est ce qu'elle savait et qui n'était écrit nulle part. C'est aussi la seule partie réparable. Tu ne contrôles ni le marché, ni le taux de change, ni le fait qu'une entreprise à huit mille kilomètres puisse tripler ton salaire sans y réfléchir.
 
-Cette entrée se détourne dans les deux sens et il faut le dire. Elle peut servir à se donner bonne conscience, j'ai écrit deux textes, je pars la conscience tranquille. Elle peut aussi servir à réclamer une dette, tu pars, tu nous dois quelque chose. Ni l'une ni l'autre. Tu ne dois rien à personne. La trace n'est pas un droit de sortie, c'est simplement la seule chose de ton passage qui ne monte pas dans l'avion avec toi.
+Cette carte se détourne dans les deux sens et il faut le dire. Elle peut servir à se donner bonne conscience, j'ai écrit deux textes, je pars la conscience tranquille. Elle peut aussi servir à réclamer une dette, tu pars, tu nous dois quelque chose. Ni l'une ni l'autre. Tu ne dois rien à personne. La trace n'est pas un droit de sortie, c'est simplement la seule chose de ton passage qui ne monte pas dans l'avion avec toi.
 
 ## À essayer
 

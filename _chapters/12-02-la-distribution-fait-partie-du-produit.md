@@ -29,7 +29,7 @@ Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du c
 
 Les chemins se conçoivent. Certains produits portent leur propre diffusion. Une raison d'inviter quelqu'un, un artefact qui mérite d'être transmis, une chose qui marche mieux quand le bureau d'à côté s'en sert aussi. Ça ne s'ajoute pas au neuvième mois. Ça se prévoit quand on peut encore changer le modèle de données.
 
-Poser la question tôt change ce que tu construis. Une équipe dont les utilisateurs arrivent d'un résultat de recherche construit un premier écran qui répond à cette recherche. Une équipe dont les utilisateurs arrivent par un lien transféré dans un groupe WhatsApp, ouvert sur un Android d'entrée de gamme avec deux barres, construit un premier écran qui s'affiche malgré ces contraintes. Un écran générique ne sert ni l'un ni l'autre.
+Poser la question tôt change ce que tu construis. Une équipe dont les utilisateurs arrivent d'un résultat de recherche construit un premier écran qui répond à cette recherche. Une équipe dont les utilisateurs arrivent par un lien transféré dans un groupe WhatsApp, ouvert sur un Android de carte de gamme avec deux barres, construit un premier écran qui s'affiche malgré ces contraintes. Un écran générique ne sert ni l'un ni l'autre.
 
 En B2B, on considère que ce parcours relève du commercial, alors personne ne le conçoit. Il existe quand même. Une boîte mail précise, une réunion précise, un slide montré à un patron qui n'était pas dans la salle. Prépare de quoi convaincre ce patron, sinon la vente se bloquera dans une discussion à laquelle tu ne participeras pas.
 
