@@ -34,7 +34,7 @@ Le formulaire de demande n'est plus rempli, tout passe par message direct. La re
 
 C'est ce quelque chose qui est le vrai sujet. Un processus officiel fait en général deux choses à la fois : il organise le travail, et il produit une trace, une vérification ou une information dont quelqu'un d'autre a besoin plus loin. Le raccourci garde presque toujours la première et jette la seconde, parce que la seconde ne sert pas à celui qui prend le raccourci. La bonne réponse n'est donc ni de rappeler la règle ni de laisser filer. C'est d'adopter le raccourci, puis de lui rajouter la seule chose qui manquait.
 
-Tous les contournements ne se valent pas et il faut trier. La question à poser est de savoir si l'étape sautée protège contre une chose qui est réellement arrivée. Si oui, le raccourci est un incident en préparation et il faut comprendre pourquoi le chemin officiel est si pénible. Si personne ne sait contre quoi l'étape protégeait, le raccourci vient de trancher un débat que la salle n'avait pas osé ouvrir.
+Tous les contournements ne se valent pas et il faut trier. La question à poser est de savoir si l'étape sautée protège contre une chose qui est réellement arrivée. Si oui, le raccourci est un incident en préparation et il faut comprendre pourquoi le chemin officiel est si pénible. Si personne ne sait contre quoi l'étape protégeait, le raccourci vient de trancher un débat que la salle n'avait pas osé ouvrir. Dans ce cas, l'équipe a eu raison avant toi, et sans réunion.
 
 ## À vérifier
 
