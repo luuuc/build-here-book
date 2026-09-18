@@ -55,6 +55,6 @@ Cherche dans les incitations, pas dans les caractères. La réponse ramène en g
 
 ## À discuter
 
-*À vérifier ailleurs :* Deming attribue l'essentiel des problèmes au système que la direction possède ; Crozier et Friedberg montrent comment les acteurs répondent aux incertitudes qu'ils contrôlent. Les références complètes sont dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
-
 Quelle plainte tourne ici depuis plus d'un an sans qu'on ait changé le système ?
+
+*À vérifier ailleurs :* Deming attribue l'essentiel des problèmes au système que la direction possède ; Crozier et Friedberg montrent comment les acteurs répondent aux incertitudes qu'ils contrôlent. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.

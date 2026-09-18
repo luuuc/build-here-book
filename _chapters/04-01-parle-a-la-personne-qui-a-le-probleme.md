@@ -57,6 +57,6 @@ Puis arrête de parler. La partie utile arrive après le premier silence, quand 
 
 ## À discuter
 
-*À vérifier ailleurs :* *The Mom Test*, de Rob Fitzpatrick, propose une méthode pour interroger un comportement passé sans récolter seulement une réponse polie. La référence complète est dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
-
 Cite le dernier utilisateur à qui chaque ingénieur ici a parlé. Si le nom ne vient pas, notre conception repose sur quoi ?
+
+*À vérifier ailleurs :* *The Mom Test*, de Rob Fitzpatrick, propose une méthode pour interroger un comportement passé sans récolter seulement une réponse polie. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.

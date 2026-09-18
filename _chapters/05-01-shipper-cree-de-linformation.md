@@ -53,6 +53,6 @@ Suis un seul changement de bout en bout et note chaque endroit où il a attendu.
 
 ## À discuter
 
-*À vérifier ailleurs :* *Accelerate*, de Nicole Forsgren, Jez Humble et Gene Kim, relie fréquence de livraison, stabilité et performance à partir de quatre années de recherche. La référence complète est dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
-
 Ici, combien de temps entre le travail prêt à être vu et la personne servie ?
+
+*À vérifier ailleurs :* *Accelerate*, de Nicole Forsgren, Jez Humble et Gene Kim, relie fréquence de livraison, stabilité et performance à partir de quatre années de recherche. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.

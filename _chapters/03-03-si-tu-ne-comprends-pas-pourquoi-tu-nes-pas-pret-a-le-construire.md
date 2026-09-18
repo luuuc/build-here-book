@@ -51,10 +51,9 @@ Tu n'arrives pas à la remplir ? Propose volontairement une réponse fausse et 
 ## Depuis ton siège
 
 - **Produit** : ne fais pas suivre une demande dont tu n'as pas cherché la cause.
-- **Design** : ne dessine pas un écran sans savoir ce que la personne essaie d'accomplir.
 - **Fondateur** : ne finance pas un projet dont tu ne sais pas énoncer le problème client.
 - **Management** : explique l'objectif avant de demander de passer à l'action.
-- **Relation client** : ne réponds pas à une demande sans savoir ce que la personne tentait de faire.
+- **Relation client** : ne traduis pas la demande en solution avant de la transmettre. Passe la phrase du client.
 - **Recrutement** : n'ouvre pas un poste dont tu ne sais pas énoncer le problème à résoudre.
 
 ## À discuter

@@ -56,6 +56,6 @@ Certaines initiatives sont réellement dangereuses. La facturation. Un contrat s
 
 ## À discuter
 
-*À vérifier ailleurs :* l'étude d'Amy Edmondson sur la sécurité psychologique et les comportements d'apprentissage montre pourquoi davantage d'erreurs déclarées peut signaler une équipe plus sûre, pas plus mauvaise. La référence complète est dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
-
 Quand quelqu'un ici a agi sans autorisation, la première phrase qu'il a entendue portait sur le résultat ou sur la procédure ?
+
+*À vérifier ailleurs :* l'étude d'Amy Edmondson sur la sécurité psychologique et les comportements d'apprentissage montre pourquoi davantage d'erreurs déclarées peut signaler une équipe plus sûre, pas plus mauvaise. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.

@@ -54,6 +54,6 @@ Puis supprime une de ces choses cette semaine. Pour de bon, pas derrière un fla
 
 ## À discuter
 
-*À vérifier ailleurs :* *Simple Made Easy*, de Rich Hickey, distingue la simplicité mesurable de la facilité immédiate. La référence complète est dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
-
 Quelle suppression a été applaudie ici ?
+
+*À vérifier ailleurs :* *Simple Made Easy*, de Rich Hickey, distingue la simplicité mesurable de la facilité immédiate. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.

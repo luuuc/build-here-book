@@ -55,6 +55,6 @@ Personne ne les a demandées. C'est le principe.
 
 ## À discuter
 
-*À vérifier ailleurs :* *Inspired*, de Marty Cagan, développe la distinction entre équipe chargée de fonctionnalités et équipe chargée d'un problème. La référence complète est dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
-
 Quelqu'un ici a déjà découvert, en réalisant une tâche, que la demande n'était pas la bonne. Il l'a dit à qui ?
+
+*À vérifier ailleurs :* *Inspired*, de Marty Cagan, développe la distinction entre équipe chargée de fonctionnalités et équipe chargée d'un problème. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
