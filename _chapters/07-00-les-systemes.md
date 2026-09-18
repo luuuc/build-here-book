@@ -32,6 +32,8 @@ Cette étape a un défaut connu et il faut le dire ici. Systématiser trop tôt 
 
 Tu es passé à l'étape suivante quand une chose que tu faisais continue de se faire sans toi, et que tu n'as pas eu besoin de le rappeler.
 
+**Ce qui change :** une résolution survit à la personne qui l'a trouvée. **La tension qui reste :** un bon système peut encore produire à la vitesse des heures qu'on lui donne. L'étape suivante cherche ce qui multiplie son effet.
+
 ---
 
 ## Les cartes de cette étape
@@ -42,4 +44,3 @@ Tu es passé à l'étape suivante quand une chose que tu faisais continue de se 
 - 7.04 [Tout ne mérite pas de devenir un processus](/chapters/07-04-tout-ne-merite-pas-de-devenir-un-processus.html)
 - 7.05 [Le raccourci que tout le monde prend est le vrai processus](/chapters/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html)
 - 7.06 [Écris ce qui a cassé](/chapters/07-06-ecris-ce-qui-a-casse.html)
-- 7.07 [⇄ Personne ne systématise sur un planning plein](/chapters/07-07-leader-personne-ne-systematise-sur-un-planning-plein.html)

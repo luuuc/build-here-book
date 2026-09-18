@@ -34,13 +34,14 @@ Il faut aussi nommer le danger de cette marche, et il est sérieux. Un levier mu
 
 Tu es passé à l'étape suivante quand ce que tu produis a cessé de suivre le nombre d'heures que tu y passes.
 
+**Ce qui change :** l'impact cesse de suivre linéairement l'effort. **La tension qui reste :** un levier détenu par une seule personne reste une capacité individuelle. L'étape suivante la rend disponible autour d'elle.
+
 ---
 
 ## Les cartes de cette étape
 
-- 8.01 [Le but n'est pas d'en faire plus](/chapters/08-01-le-but-nest-pas-den-faire-plus.html)
-- 8.02 [Trente pour cent de ce qui arrive est la même chose](/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html)
-- 8.03 [L'IA est un levier, pas un raccourci](/chapters/08-03-lia-est-un-levier-pas-un-raccourci.html)
-- 8.04 [Le levier le moins cher est déjà payé](/chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html)
-- 8.05 [Un levier mal placé multiplie l'erreur](/chapters/08-05-un-levier-mal-place-multiplie-lerreur.html)
-- 8.06 [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
+- 8.01 [Trente pour cent de ce qui arrive est la même chose](/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html)
+- 8.02 [L'IA est un levier, pas un raccourci](/chapters/08-03-lia-est-un-levier-pas-un-raccourci.html)
+- 8.03 [Le levier le moins cher est déjà payé](/chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html)
+- 8.04 [Un levier mal placé multiplie l'erreur](/chapters/08-05-un-levier-mal-place-multiplie-lerreur.html)
+- 8.05 [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)

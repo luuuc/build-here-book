@@ -44,6 +44,8 @@ L'objet de cette étape est unique et tout en découle. Un artefact est une chos
 
 Cette marche est la seule dont tu ne verras pas le résultat. Quelqu'un s'appuie sur ton travail, ne te le dit pas, ne te cite pas, et repart. C'est la seule preuve qui compte et elle est invisible.
 
+**Ce qui change :** le savoir devient trouvable, vérifiable et corrigeable sans son auteur. **La tension qui reste :** un artefact vieillit. La conclusion explique comment arbitrer entre les cartes, constater un échec, corriger une trace et la retirer.
+
 ---
 
 ## Les cartes de cette étape
@@ -53,9 +55,6 @@ Cette marche est la seule dont tu ne verras pas le résultat. Quelqu'un s'appuie
 - 10.03 [Une trace n'est pas forcément du code](/chapters/10-03-une-trace-nest-pas-forcement-du-code.html)
 - 10.04 [Réponds à la question en public](/chapters/10-04-reponds-a-la-question-en-public.html)
 - 10.05 [Publie là où on cherche](/chapters/10-05-publie-la-ou-on-cherche.html)
-- 10.06 [Le quatrième mois](/chapters/10-06-le-quatrieme-mois.html)
-- 10.07 [On te paie ce qui se vérifie](/chapters/10-07-on-te-paie-ce-qui-se-verifie.html)
-- 10.08 [Ce que publier coûte vraiment](/chapters/10-08-ce-que-publier-coute-vraiment.html)
-- 10.09 [Une référence n'est pas une personnalité](/chapters/10-09-une-reference-nest-pas-une-personnalite.html)
-- 10.10 [Personne n'a écrit ce que tu sais faire](/chapters/10-10-personne-na-ecrit-ce-que-tu-sais-faire.html)
-- 10.11 [Partir n'est pas une trahison](/chapters/10-11-partir-nest-pas-une-trahison.html)
+- 10.06 [Ce que publier coûte vraiment](/chapters/10-08-ce-que-publier-coute-vraiment.html)
+- 10.07 [Personne n'a écrit ce que tu sais faire](/chapters/10-10-personne-na-ecrit-ce-que-tu-sais-faire.html)
+- 10.08 [Partir n'est pas une trahison](/chapters/10-11-partir-nest-pas-une-trahison.html)

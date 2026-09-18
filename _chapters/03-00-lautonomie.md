@@ -32,6 +32,8 @@ L'autonomie n'est pas non plus la permission de partir seul dans une direction. 
 
 Tu es passé à l'étape suivante quand on t'apporte une situation au lieu d'une consigne, et que ça ne surprend personne.
 
+**Ce qui change :** tu remontes de la tâche au problème. **La tension qui reste :** un problème isolé de l'argent, du client et des contraintes des autres métiers reste mal posé. L'étape suivante ouvre toute la chaîne.
+
 ---
 
 ## Les cartes de cette étape

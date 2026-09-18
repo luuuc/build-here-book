@@ -33,6 +33,8 @@ Cette étape est la seule du livre où tu es seul juge du niveau, et c'est préc
 
 Tu es passé à l'étape suivante quand quelqu'un d'une autre équipe t'apporte une question de ton domaine et que ta réponse n'est pas une supposition.
 
+**Ce qui change :** ton jugement repose sur un métier que d'autres peuvent éprouver. **La tension qui reste :** si quelqu'un découpe encore chaque problème pour toi, cette compétence reste enfermée dans des tâches. L'étape suivante retire la procédure.
+
 ---
 
 ## Les cartes de cette étape

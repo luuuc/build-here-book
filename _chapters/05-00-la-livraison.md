@@ -38,6 +38,8 @@ Il y a une limite et elle est réelle. Certaines choses ne se livrent pas par mo
 
 Tu es passé à l'étape suivante quand tu as observé ce qui s'est réellement passé et changé quelque chose en conséquence.
 
+**Ce qui change :** une hypothèse rencontre enfin l'usage. **La tension qui reste :** mettre une chose dehors ne ferme aucune boucle si chacun s'arrête à sa passation. L'étape suivante suit le résultat.
+
 ---
 
 ## Les cartes de cette étape

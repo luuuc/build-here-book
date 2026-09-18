@@ -37,6 +37,8 @@ C'est l'étape la plus fournie du livre, parce que c'est là que le métier des 
 
 Tu es passé à l'étape suivante quand tu peux dire comment ce que tu as livré ce mois-ci touche l'argent, et par quel chemin.
 
+**Ce qui change :** tu vois où ton travail atterrit et ce qu'il déplace ailleurs. **La tension qui reste :** comprendre sans confronter une solution au réel produit une analyse de plus. L'étape suivante livre assez tôt pour apprendre.
+
 ---
 
 ## Les cartes de cette étape
