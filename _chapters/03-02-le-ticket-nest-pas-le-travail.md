@@ -6,7 +6,7 @@ order: 302
 card_type: diagnostic
 metadata:
   principle: "3.02"
-  reading_time_in_minutes: 1
+  reading_time_in_minutes: 2
 categories:
   - produit
   - client
@@ -34,6 +34,8 @@ Un ticket est un outil de coordination. Il empêche quatre personnes de se march
 
 Il devient un problème le jour où il se transforme en unité de mesure. La façon la plus simple de faire monter un compteur, c'est de découper le travail plus fin. Les tickets rétrécissent, le tableau a l'air meilleur chaque semaine, le produit reste où il était. Il n'y a pas de tricherie. Les gens privilégient ce sur quoi on les évalue.
 
+Rien de tout ça n'est né avec les outils de suivi. Taylor décrit le dispositif en 1911 : le travail de chaque ouvrier est planifié par l'encadrement un jour à l'avance, et chacun reçoit par écrit sa tâche, la méthode et le temps exact accordé. Le ticket existait avant le logiciel. Ce qu'il produit quand il devient la mesure, Campbell l'énonce en 1979, plus un indicateur chiffré sert à décider, plus il déforme le processus qu'il était censé mesurer.
+
 Garde le tableau. Compter n'a jamais été le problème. Ne compter que ça, si. Une équipe qui annonce son chiffre et ne peut nommer une seule chose qu'un utilisateur sait faire maintenant a passé trois semaines à être occupée.
 
 ## À vérifier
@@ -55,3 +57,5 @@ Remplis-la, ou laisse-la vide. Vide, à côté de trente tickets fermés, ça en
 ## À discuter
 
 Quel client peut faire aujourd'hui quelque chose qu'il ne pouvait pas faire avant notre dernier bon sprint ?
+
+*À vérifier ailleurs :* Taylor décrit la tâche écrite et chronométrée en 1911 ; Campbell énonce en 1979 ce qu'un indicateur devient quand il sert à décider. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
