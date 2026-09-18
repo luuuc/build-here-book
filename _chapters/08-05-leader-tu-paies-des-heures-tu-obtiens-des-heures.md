@@ -14,6 +14,8 @@ categories:
 seo:
   description: "Si le travail traité est ce qui se voit, supprimer du travail fait baisser ton score. Tu paies les gens pour entretenir le volume."
   keywords: "build here, levier, leadership, conditions, builder"
+redirect_from:
+  - /chapters/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html
 ---
 
 ## Ce que tu demandes

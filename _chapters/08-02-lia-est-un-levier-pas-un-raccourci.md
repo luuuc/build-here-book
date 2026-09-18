@@ -14,6 +14,8 @@ categories:
 seo:
   description: "Un levier demande un point d'appui. Ici, le point d'appui est ta capacité à dire ce qu'est une bonne réponse."
   keywords: "build here, levier, ia, automatisation, builder"
+redirect_from:
+  - /chapters/08-03-lia-est-un-levier-pas-un-raccourci.html
 ---
 
 ## Le point de départ

@@ -14,6 +14,8 @@ categories:
 seo:
   description: "Les bons résultats sont revendiqués. Les mauvais sont expliqués par le contexte, et l'information qu'ils contenaient disparaît."
   keywords: "build here, ownership, echec, resultat, builder"
+redirect_from:
+  - /chapters/06-05-le-mauvais-resultat-tappartient-aussi.html
 ---
 
 ## Le réflexe

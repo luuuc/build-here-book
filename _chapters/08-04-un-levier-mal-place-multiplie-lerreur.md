@@ -14,6 +14,8 @@ categories:
 seo:
   description: "Un levier est indifférent à la direction. Automatiser un mauvais processus produit du mauvais plus vite et plus loin."
   keywords: "build here, levier, automatisation, erreur, builder"
+redirect_from:
+  - /chapters/08-05-un-levier-mal-place-multiplie-lerreur.html
 ---
 
 ## Le symptôme

@@ -14,6 +14,8 @@ categories:
 seo:
   description: "Une date de livraison se planifie. Une date de vérification ne se planifie jamais, donc la boucle ne se ferme pas."
   keywords: "build here, ownership, verification, resultat, builder"
+redirect_from:
+  - /chapters/06-03-reviens-voir-un-mois-plus-tard.html
 ---
 
 ## Le point de départ

@@ -62,16 +62,16 @@ Les quatre-vingt-une cartes y sont, chacune au moins une fois. Aucun classement 
 - La démo s'ouvre sur l'architecture, et le client attend poliment  →  [Le client ne s'intéresse pas à ton architecture](/chapters/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html)
 - Le product transcrit les demandes au lieu d'arbitrer  →  [Le rôle du product, ce n'est pas de rédiger des tickets](/chapters/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html) · [⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente](/chapters/03-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)
 - Un ingénieur qui veut vingt minutes avec un client doit passer par trois personnes  →  [⇄ L'accès au client est un budget, pas une valeur](/chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html)
-- "Je lui ai envoyé la proposition", et personne ne sait s'il a répondu  →  [Fini de ton côté ne veut pas dire réglé](/chapters/06-02-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
-- Chacun a fini sa partie et le dossier n'est jamais arrivé au bout  →  [Fini de ton côté ne veut pas dire réglé](/chapters/06-02-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
-- C'est livré depuis six mois et personne ne sait si quelqu'un s'en sert  →  [Reviens voir un mois plus tard](/chapters/06-03-reviens-voir-un-mois-plus-tard.html)
-- Le sujet est porté par six personnes et n'avance pas depuis trois mois  →  [Une responsabilité partagée par six personnes n'existe pas](/chapters/06-04-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html)
-- "Le marché n'était pas prêt"  →  [Le mauvais résultat t'appartient aussi](/chapters/06-05-le-mauvais-resultat-tappartient-aussi.html)
-- Le point d'équipe ne contient que des tâches faites  →  [⇄ Tu demandes des résultats et tu passes en revue de l'activité](/chapters/06-08-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html)
+- "Je lui ai envoyé la proposition", et personne ne sait s'il a répondu  →  [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
+- Chacun a fini sa partie et le dossier n'est jamais arrivé au bout  →  [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
+- C'est livré depuis six mois et personne ne sait si quelqu'un s'en sert  →  [Reviens voir un mois plus tard](/chapters/06-02-reviens-voir-un-mois-plus-tard.html)
+- Le sujet est porté par six personnes et n'avance pas depuis trois mois  →  [Une responsabilité partagée par six personnes n'existe pas](/chapters/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html)
+- "Le marché n'était pas prêt"  →  [Le mauvais résultat t'appartient aussi](/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html)
+- Le point d'équipe ne contient que des tâches faites  →  [⇄ Tu demandes des résultats et tu passes en revue de l'activité](/chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html)
 
 ## Tout arrive en retard, et personne ne sait où le temps est passé
 
-- Les retards se découvrent la veille de la démo  →  [Une bonne nouvelle peut attendre. Une mauvaise, non](/chapters/06-07-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
+- Les retards se découvrent la veille de la démo  →  [Une bonne nouvelle peut attendre. Une mauvaise, non](/chapters/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
 - On attend le collègue qui sait, et il revient la semaine prochaine  →  [Être bloqué est une décision](/chapters/03-04-etre-bloque-est-une-decision.html)
 - On discute l'échéance au lieu de discuter le périmètre  →  [Rapide ne veut pas dire précipité](/chapters/05-02-rapide-ne-veut-pas-dire-precipite.html)
 - Le travail reste à l'abri jusqu'à ce qu'il soit prêt, donc on n'apprend rien  →  [Livrer permet d'apprendre](/chapters/05-01-shipper-cree-de-linformation.html)
@@ -85,7 +85,7 @@ Les quatre-vingt-une cartes y sont, chacune au moins une fois. Aucun classement 
 - "Demande à Kofi, il sait"  →  [Une connaissance qui tient dans une seule tête est une panne à venir](/chapters/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html)
 - Une règle naît à chaque incident, et aucune n'est jamais retirée  →  [Tout ne mérite pas de devenir un processus](/chapters/07-04-tout-ne-merite-pas-de-devenir-un-processus.html)
 - Le processus est écrit, à jour, et personne ne le suit  →  [Le raccourci que tout le monde prend est le vrai processus](/chapters/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html)
-- On parle d'industrialiser depuis deux ans et ça n'arrive jamais  →  [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
+- On parle d'industrialiser depuis deux ans et ça n'arrive jamais  →  [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
 
 ## On ne progresse plus, et rien ne le signale
 
@@ -94,7 +94,7 @@ Les quatre-vingt-une cartes y sont, chacune au moins une fois. Aucun classement 
 - "On n'a pas accès aux mêmes choses ici"  →  [Le savoir n'est pas ce qui te manque](/chapters/02-10-le-savoir-nest-pas-ce-qui-te-manque.html)
 - On dépend de projets ouverts dont personne n'a jamais lu les discussions  →  [L'open source est une salle de classe](/chapters/02-07-lopen-source-est-une-salle-de-classe.html)
 - Progresser se fait le soir, sur son temps à soi  →  [⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser](/chapters/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html)
-- Un arbitrage prudent a mal tourné et a été traité comme une faute  →  [Une bonne décision peut quand même mal tourner](/chapters/06-06-une-bonne-decision-peut-quand-meme-perdre.html)
+- Un arbitrage prudent a mal tourné et a été traité comme une faute  →  [Une bonne décision peut quand même mal tourner](/chapters/06-05-une-bonne-decision-peut-quand-meme-perdre.html)
 - La même plainte sur l'équipe revient depuis plus d'un an  →  [On fabrique l'environnement dont on se plaint](/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
 - "On a cherché, il n'y a personne de ce niveau ici"  →  [Le filtre que tu fais tourner](/chapters/09-02-le-filtre-que-tu-fais-tourner.html)
 - "Ça fait douze ans que je fais ce métier"  →  [Douze ans d'expérience, ou douze fois la même année](/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html)
@@ -112,12 +112,12 @@ Les quatre-vingt-une cartes y sont, chacune au moins une fois. Aucun classement 
 
 ## On abat plus de travail et le volume ne baisse jamais
 
-- "On est débordés, il nous faut quelqu'un de plus"  →  [Range-les par cause, pas par sujet](/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html)
-- "Chaque client est différent", et personne n'a jamais compté  →  [Range-les par cause, pas par sujet](/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html)
-- On a mis de l'IA dessus et personne ne vérifie ce qui en sort  →  [L'IA est un levier, pas un raccourci](/chapters/08-03-lia-est-un-levier-pas-un-raccourci.html)
-- "Il nous faudrait un outil pour ça"  →  [Le levier le moins cher est déjà payé](/chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html)
-- On a automatisé, et la même erreur est partie quarante mille fois  →  [Un levier mal placé multiplie l'erreur](/chapters/08-05-un-levier-mal-place-multiplie-lerreur.html)
-- Celui qui supprime du travail arrive au point d'équipe avec rien à montrer  →  [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
+- "On est débordés, il nous faut quelqu'un de plus"  →  [Range-les par cause, pas par sujet](/chapters/08-01-range-les-par-cause-pas-par-sujet.html)
+- "Chaque client est différent", et personne n'a jamais compté  →  [Range-les par cause, pas par sujet](/chapters/08-01-range-les-par-cause-pas-par-sujet.html)
+- On a mis de l'IA dessus et personne ne vérifie ce qui en sort  →  [L'IA est un levier, pas un raccourci](/chapters/08-02-lia-est-un-levier-pas-un-raccourci.html)
+- "Il nous faudrait un outil pour ça"  →  [Le levier le moins cher est déjà payé](/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html)
+- On a automatisé, et la même erreur est partie quarante mille fois  →  [Un levier mal placé multiplie l'erreur](/chapters/08-04-un-levier-mal-place-multiplie-lerreur.html)
+- Celui qui supprime du travail arrive au point d'équipe avec rien à montrer  →  [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
 
 ## On est bons, et personne à l'extérieur ne le sait
 
@@ -127,13 +127,13 @@ Les quatre-vingt-une cartes y sont, chacune au moins une fois. Aucun classement 
 - "Je n'écris pas de code, je n'ai rien à publier"  →  [Une trace n'est pas forcément du code](/chapters/10-03-une-trace-nest-pas-forcement-du-code.html)
 - On publie, et personne n'arrive jamais dessus  →  [Publie là où on cherche](/chapters/10-05-publie-la-ou-on-cherche.html)
 - Plusieurs publications, aucun retour, on se demande si ça marche ici  →  [Publie là où on cherche](/chapters/10-05-publie-la-ou-on-cherche.html)
-- "Chez nous, on ne peut pas publier ce genre de chose"  →  [Ce que publier coûte vraiment](/chapters/10-08-ce-que-publier-coute-vraiment.html)
+- "Chez nous, on ne peut pas publier ce genre de chose"  →  [Ce que publier coûte vraiment](/chapters/10-06-ce-que-publier-coute-vraiment.html)
 - Ce que l'entreprise publie sort sous le logo, sans le nom de qui l'a fait  →  [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/09-04-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
-- Ce qu'on sait faire n'est écrit nulle part, par personne  →  [Personne n'a écrit ce que tu sais faire](/chapters/10-10-personne-na-ecrit-ce-que-tu-sais-faire.html)
+- Ce qu'on sait faire n'est écrit nulle part, par personne  →  [Personne n'a écrit ce que tu sais faire](/chapters/10-07-personne-na-ecrit-ce-que-tu-sais-faire.html)
 - Publier ressemble à de l'auto-promotion, et ceux qui le font ne construisent rien  →  [Un avis n'est pas un artefact](/chapters/10-02-un-avis-nest-pas-un-artefact.html)
 - Personne ne sait ce qu'on a le droit de publier, alors personne ne publie  →  [⇄ L'absence de règle est une interdiction](/chapters/09-03-leader-labsence-de-regle-est-une-interdiction.html)
 - "Je veux être payé à ma valeur"  →  [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-05-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
-- Ceux qui deviennent bons reçoivent une offre et partent  →  [Partir n'est pas une trahison](/chapters/10-11-partir-nest-pas-une-trahison.html)
+- Ceux qui deviennent bons reçoivent une offre et partent  →  [Partir n'est pas une trahison](/chapters/10-08-partir-nest-pas-une-trahison.html)
 
 ---
 

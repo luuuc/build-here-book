@@ -15,6 +15,8 @@ categories:
 seo:
   description: "Acheter ressemble à une décision. Lire la documentation d'un outil qu'on paie déjà ne ressemble à rien."
   keywords: "build here, levier, outils, budget, builder"
+redirect_from:
+  - /chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html
 ---
 
 ## Le réflexe

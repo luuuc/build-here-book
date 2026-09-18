@@ -15,6 +15,7 @@ seo:
   description: "Personne ne suit ton travail avec l'attention que tu lui donnes. Du bon travail non annoncé met simplement plus longtemps à devenir utile."
   keywords: "build here, ownership, builder, bonne, nouvelle, peut, attendre, mauvaise"
 redirect_from:
+  - /chapters/06-07-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
   - /chapters/04-04-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
 ---
 

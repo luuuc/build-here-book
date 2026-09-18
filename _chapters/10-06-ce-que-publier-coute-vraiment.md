@@ -16,6 +16,7 @@ seo:
   description: "Une partie de ce que ça coûte est réelle. Le reste est une habitude qui porte le même nom, et les deux reçoivent la même réponse."
   keywords: "build here, reference, trace, publier, cout, builder"
 redirect_from:
+  - /chapters/10-08-ce-que-publier-coute-vraiment.html
   - /chapters/15-03-ce-que-publier-coute-vraiment-ici.html
 ---
 

@@ -14,6 +14,8 @@ categories:
 seo:
   description: "Une chaîne de quatre équipes où chacune fait correctement sa partie peut produire zéro résultat."
   keywords: "build here, ownership, passation, equipe, builder"
+redirect_from:
+  - /chapters/06-02-fini-de-ton-cote-ne-veut-pas-dire-regle.html
 ---
 
 ## Le symptôme

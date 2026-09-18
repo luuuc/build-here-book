@@ -44,10 +44,10 @@ Tu es passé à l'étape suivante quand tu sais ce qui s'est passé après, sans
 
 ## Les cartes de cette étape
 
-- 6.01 [Fini de ton côté ne veut pas dire réglé](/chapters/06-02-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
-- 6.02 [Reviens voir un mois plus tard](/chapters/06-03-reviens-voir-un-mois-plus-tard.html)
-- 6.03 [Une responsabilité partagée par six personnes n'existe pas](/chapters/06-04-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html)
-- 6.04 [Le mauvais résultat t'appartient aussi](/chapters/06-05-le-mauvais-resultat-tappartient-aussi.html)
-- 6.05 [Une bonne décision peut quand même mal tourner](/chapters/06-06-une-bonne-decision-peut-quand-meme-perdre.html)
-- 6.06 [Une bonne nouvelle peut attendre. Une mauvaise, non](/chapters/06-07-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
-- 6.07 [⇄ Tu demandes des résultats et tu passes en revue de l'activité](/chapters/06-08-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html)
+- 6.01 [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
+- 6.02 [Reviens voir un mois plus tard](/chapters/06-02-reviens-voir-un-mois-plus-tard.html)
+- 6.03 [Une responsabilité partagée par six personnes n'existe pas](/chapters/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html)
+- 6.04 [Le mauvais résultat t'appartient aussi](/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html)
+- 6.05 [Une bonne décision peut quand même mal tourner](/chapters/06-05-une-bonne-decision-peut-quand-meme-perdre.html)
+- 6.06 [Une bonne nouvelle peut attendre. Une mauvaise, non](/chapters/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
+- 6.07 [⇄ Tu demandes des résultats et tu passes en revue de l'activité](/chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html)

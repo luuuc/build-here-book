@@ -40,8 +40,8 @@ Tu es passé à l'étape suivante quand ce que tu produis a cessé de suivre le 
 
 ## Les cartes de cette étape
 
-- 8.01 [Range-les par cause, pas par sujet](/chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html)
-- 8.02 [L'IA est un levier, pas un raccourci](/chapters/08-03-lia-est-un-levier-pas-un-raccourci.html)
-- 8.03 [Le levier le moins cher est déjà payé](/chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html)
-- 8.04 [Un levier mal placé multiplie l'erreur](/chapters/08-05-un-levier-mal-place-multiplie-lerreur.html)
-- 8.05 [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
+- 8.01 [Range-les par cause, pas par sujet](/chapters/08-01-range-les-par-cause-pas-par-sujet.html)
+- 8.02 [L'IA est un levier, pas un raccourci](/chapters/08-02-lia-est-un-levier-pas-un-raccourci.html)
+- 8.03 [Le levier le moins cher est déjà payé](/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html)
+- 8.04 [Un levier mal placé multiplie l'erreur](/chapters/08-04-un-levier-mal-place-multiplie-lerreur.html)
+- 8.05 [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)

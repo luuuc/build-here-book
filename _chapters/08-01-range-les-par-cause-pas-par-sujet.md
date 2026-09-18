@@ -14,6 +14,8 @@ categories:
 seo:
   description: "Traité un par un, tout paraît différent. Compté, presque tout se concentre sur quelques causes."
   keywords: "build here, levier, comptage, cause, builder"
+redirect_from:
+  - /chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html
 ---
 
 ## Le symptôme

@@ -15,6 +15,8 @@ categories:
 seo:
   description: "Le mot collectif sonne généreux et produit de l'abandon. Six responsables attendent chacun le signe qu'un autre a commencé."
   keywords: "build here, ownership, responsabilite, equipe, builder"
+redirect_from:
+  - /chapters/06-04-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html
 ---
 
 ## Le symptôme

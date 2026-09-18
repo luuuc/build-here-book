@@ -14,6 +14,8 @@ categories:
 seo:
   description: "Les gens ne préparent pas ce qui est déclaré important. Ils préparent ce qui est demandé chaque semaine."
   keywords: "build here, ownership, leadership, conditions, builder"
+redirect_from:
+  - /chapters/06-08-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html
 ---
 
 ## Ce que tu demandes
