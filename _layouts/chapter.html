@@ -22,9 +22,8 @@
         <!-- Le fil d'ariane vit au-dessus du titre et du dessin : il prend
              toute la ligne, a toutes les largeurs. -->
         <div class="chapter-number">
-          {% if page.section_number %}
-          <span>{% if page.section_number < 13 %}Mouvement un{% else %}Mouvement deux{% endif %}</span>
-          <span>Section {{page.section_number}}</span>
+          {% if page.step_number %}
+          <span>Étape {{page.step_number}}</span>
           {% else %}
           {% unless page.part == page.title %}<span>{{page.part}}</span>{% endunless %}
           {% endif %}
@@ -124,7 +123,7 @@
     <!-- Content -->
     {% assign content_parts = content | split: '<div class="footnotes" role="doc-endnotes">' %}
     <main
-      class="content{% if page.metadata.principle %} content--entry{% endif %}{% if page.section_number %} content--section{% endif %}"
+      class="content{% if page.metadata.principle %} content--entry{% endif %}{% if page.step_number %} content--section{% endif %}"
       {% if page.filtre_symptomes %}data-filtre-symptomes="{{ site.data.interface.lecture.filtre }}"
       data-filtre-vide="{{ site.data.interface.lecture.filtre_vide }}"{% endif %}
     >

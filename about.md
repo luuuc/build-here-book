@@ -22,7 +22,7 @@ description: Un livre ouvert, à compléter
 
 Des cartes de deux minutes, écrites pour ceux qui fabriquent des choses ici. Chacune tient seule. Aucune n'est nouvelle, et c'est le sujet. Tout ça est réglé depuis longtemps ailleurs, et n'est jamais devenu la norme ici.
 
-Le livre a deux mouvements. Le premier te rend meilleur. Le second rend ton travail visible. Ce sont deux problèmes différents, et le second est le plus difficile des deux.
+Le livre est une échelle en dix étapes, de l'état d'esprit jusqu'à la référence. Chacune s'appuie sur celles d'en dessous, et les deux dernières sont celles que presque personne ne monte.
 
 L'[introduction](/chapters/00-introduction.html) explique comment utiliser le livre. La page [Ils étaient là depuis le début](/pourquoi-build-here/) raconte d'où vient le projet, y compris l'endroit où je me suis planté.
 

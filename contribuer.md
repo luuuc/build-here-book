@@ -20,7 +20,7 @@ Il manque à ce livre les cartes que je ne pouvais pas écrire, parce que je n'a
 
 Le format est en [annexe 1](/chapters/a1-comment-ecrire-une-entree.html), les tests qu'une carte doit survivre en [annexe 2](/chapters/a2-les-douze-tests.html). Lis les deux avant d'écrire, pas après.
 
-Écrire un premier texte public est difficile pour tout le monde, partout. C'est le sujet de [Ta première contribution](/chapters/16-01-ta-premiere-contribution.html) et du [Quatrième mois](/chapters/15-02-le-quatrieme-mois.html). Rien ici ne demande d'avoir déjà écrit.
+Écrire un premier texte public est difficile pour tout le monde, partout. C'est le sujet de [Ta première contribution](/chapters/10-10-ta-premiere-contribution.html) et du [Quatrième mois](/chapters/10-06-le-quatrieme-mois.html). Rien ici ne demande d'avoir déjà écrit.
 
 ## {{ site.data.interface.contribution.titre }}
 

@@ -4,7 +4,7 @@ title: "Comment écrire une carte"
 description: "Le format, bloc par bloc"
 show_chapter_number: false
 part: "Annexes"
-order: 89
+order: 1201
 metadata:
   reading_time_in_minutes: 8
 categories:
@@ -229,7 +229,7 @@ La même page donne de quoi écrire à deux mains avec ton assistant. Un entreti
 
 Si tu as déjà un compte GitHub, ouvre-la directement. Le modèle de pull request est la liste des douze tests en cases à cocher, et le [CONTRIBUTING.md](https://github.com/{{ site.repository }}/blob/main/CONTRIBUTING.md) donne les détails mécaniques, le nommage des fichiers et le champ `order`.
 
-Si tu n'as jamais fait ni l'un ni l'autre, lis *[Ta première contribution](/chapters/16-01-ta-premiere-contribution.html)*, qui décrit exactement ce qui va se passer. Et l'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ton carte.
+Si tu n'as jamais fait ni l'un ni l'autre, lis *[Ta première contribution](/chapters/10-10-ta-premiere-contribution.html)*, qui décrit exactement ce qui va se passer. Et l'adresse [{{ site.contact_email }}](mailto:{{ site.contact_email }}) reste là pour une question, ou pour le cas où tu ne peux pas signer ton carte.
 
 ### Ce qui se passe ensuite
 

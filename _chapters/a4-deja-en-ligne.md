@@ -4,7 +4,7 @@ title: "Déjà en ligne"
 description: "Ce qu'on peut ouvrir ce soir"
 show_chapter_number: false
 part: "Annexes"
-order: 92
+order: 1204
 metadata:
   reading_time_in_minutes: 3
 categories:
@@ -65,4 +65,4 @@ Trois choses à savoir avant.
 
 → **Quinze mots de faits après le nom.** Une communauté dynamique de passionnés n'est pas un fait. Deux rencontres par mois, une trentaine de personnes, en est un.
 
-Si c'est ta première pull request, *[Ta première contribution](/chapters/16-01-ta-premiere-contribution.html)* décrit exactement ce qui va se passer.
+Si c'est ta première pull request, *[Ta première contribution](/chapters/10-10-ta-premiere-contribution.html)* décrit exactement ce qui va se passer.

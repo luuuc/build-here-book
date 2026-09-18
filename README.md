@@ -25,7 +25,7 @@ Les deux sont retirés automatiquement après chaque déploiement du site, par [
 
 ## Ce qu'il y a dedans
 
-Une introduction, un mode d'emploi (*Comment lire ce livre*), **deux mouvements** et quatre annexes.
+Une introduction, un mode d'emploi (*Comment lire ce livre*), **dix étapes** et cinq annexes.
 
 Le premier mouvement te rend meilleur. Le second rend ton travail visible. Ce sont deux problèmes différents, et le second est le plus difficile des deux.
 

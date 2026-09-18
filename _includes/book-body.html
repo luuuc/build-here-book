@@ -38,9 +38,8 @@ sommaire de l'EPUB et dans les signets du PDF.
             <img class="chapter-mark" src="assets/images/sections/{{ c.illustration }}.svg" alt="" />
           {% endif %}
           <p class="chapter-kicker">
-            {% if c.section_number %}
-              <span>{% if c.section_number < 13 %}Mouvement un{% else %}Mouvement deux{% endif %}</span>
-              <span>Section {{ c.section_number }}</span>
+            {% if c.step_number %}
+              <span>Étape {{ c.step_number }}</span>
             {% else %}
               {% unless c.part == c.title %}<span>{{ c.part }}</span>{% endunless %}
             {% endif %}

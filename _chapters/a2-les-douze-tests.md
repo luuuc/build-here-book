@@ -4,7 +4,7 @@ title: "Les douze tests"
 description: "Les tests auxquels une carte doit résister"
 show_chapter_number: false
 part: "Annexes"
-order: 90
+order: 1202
 metadata:
   reading_time_in_minutes: 4
 categories:

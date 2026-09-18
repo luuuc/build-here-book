@@ -6,30 +6,29 @@ show_chapter_number: false
 illustration: "sept-sieges"
 part: "Introduction"
 order: 2
-redirect_from:
-  - /chapters/00-les-six-sieges.html
 metadata:
   reading_time_in_minutes: 4
 categories:
   - ouverture
   - builders
-  - afrique
 seo:
   description: "Une même carte se lit autrement selon la place d'où on la lit, et c'est ce qui la rend utile à toute une équipe d'un coup."
-  keywords: "build here, ouverture, tech afrique, builder, sieges, lecture"
+  keywords: "build here, ouverture, builder, sieges, lecture"
+redirect_from:
+  - /chapters/00-les-six-sieges.html
 ---
 
 ## Pour qui
 
-Toi, si tu fabriques des choses. Ingénieurs, fondateurs, produit, design, data, support, ops, et ceux qui les encadrent. Un même mot vous désigne tous ici. **Builder.** Celui qui fabrique quelque chose. Ton métier change la façon d'appliquer une carte. Elle te concerne dans tous les cas.
+Toi, si tu fabriques des choses. Ingénieurs, fondateurs, produit, design, data, support, commerce, marketing, ops, finance, recrutement, et ceux qui les encadrent. Un même mot vous désigne tous ici. **Builder.** Celui qui fabrique quelque chose. Ton métier change la façon d'appliquer une carte. Elle te concerne dans tous les cas.
 
 Si tu construis depuis dix ans, tu n'es pas l'élève dans cette histoire. La moitié de ce qui suit, tu le sais déjà, appris à la dure, sur un truc qui a cassé devant un client. Tu es la référence qui manquait, et si personne autour de toi ne s'en sert, c'est que rien de tout ça n'est jamais sorti de ta tête.
 
-Le guide te demande donc deux choses. Fais circuler les cartes au lieu de refaire le discours pour la quarantième fois. Puis écris celles que je ne peux pas écrire, parce que je n'ai pas eu tes échecs, sur ton marché, sur ta stack. La fin du livre contient le format et les tests, écrits pour que ce soit possible.
+Le livre te demande donc deux choses. Fais circuler les cartes au lieu de refaire le discours pour la quarantième fois. Puis écris celles que je ne peux pas écrire, parce que je n'ai pas eu tes échecs, sur ton marché, sur ta stack. La fin du livre contient le format et les tests, écrits pour que ce soit possible.
 
 Si tu as commencé l'an dernier, tu découvriras ici des façons de travailler qu'on ne t'a peut-être jamais montrées. Tu n'as pas d'examen à passer pour y prendre part.
 
-Je dois dire d'où j'écris. Plusieurs de ces cartes décrivent des erreurs que j'ai commises pendant des années, et une ou deux décrivent des erreurs que je commettais encore en les écrivant. J'écris depuis la même rive que toi.
+Je dois dire d'où j'écris. Plusieurs de ces cartes décrivent des erreurs que j'ai commises pendant des années, et une ou deux décrivent des erreurs que je commettais encore en les écrivant.
 
 ---
 
@@ -39,9 +38,17 @@ Tu en lis une, tu refermes, tu changes une chose. Tu en envoies une à un collè
 
 Une carte fonctionne quand quelqu'un la lit et y reconnaît une scène qu'il a vécue. Sans ça, l'argument qui suit ne sera pas lu.
 
-Ne lis pas ce livre du début à la fin, sauf si ça t'amuse. Ouvre-le à la section qui correspond à [ce qui t'agace cette semaine](/chapters/a5-ce-qui-tagace-cette-semaine.html). Mets-la en discussion. Apporte-la au point d'équipe et regarde qui se crispe.
-
 Être d'accord avec tout serait mauvais signe. Certaines cartes sont fausses pour ton équipe, et comprendre pourquoi t'apprendra plus que hocher la tête devant celles auxquelles tu crois déjà.
+
+---
+
+## Dans quel ordre
+
+Les dix étapes ont un ordre et il veut dire quelque chose : chacune s'appuie sur les précédentes. Ça ne t'oblige pas à lire dans cet ordre.
+
+Ouvre le livre à l'étape qui correspond à [ce qui t'agace cette semaine](/chapters/a5-ce-qui-tagace-cette-semaine.html). Mets une carte en discussion. Apporte-la au point d'équipe et regarde qui se crispe.
+
+Une seule lecture est à éviter, et c'est celle qui consiste à se situer. Personne ne tient les dix étapes en même temps, sur tous les sujets, tous les jours. Quelqu'un peut répondre du résultat sur son périmètre et rester un passager deux bureaux plus loin.
 
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: chapter
 title: "La curiosité est facturable"
-part: "Curiosité"
-order: 5
+part: "L'état d'esprit"
+order: 101
 metadata:
-  principle: "1"
+  principle: "1.01"
   reading_time_in_minutes: 2
 categories:
   - curiosite

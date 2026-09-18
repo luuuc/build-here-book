@@ -32,15 +32,15 @@ module BuildHere
 
       page = Jekyll::PageWithoutAFile.new(site, site.source, "", NOM)
       page.data = { "layout" => nil }
-      page.content = entete(site, docs) + docs.map { |d| entree(site, d) }.join("\n")
+      page.content = entete(site, docs) + docs.map { |d| carte(site, d) }.join("\n")
       site.pages << page
     end
 
     private
 
     def entete(site, docs)
-      entrees = docs.count { |d| d.data.dig("metadata", "principle") }
-      sections = docs.count { |d| d.data["section_number"] }
+      cartes = docs.count { |d| d.data.dig("metadata", "principle") }
+      etapes = docs.count { |d| d.data["step_number"] }
       url = site.config["url"]
       titre = site.config["title"]
       auteur = site.config.dig("author", "name")
@@ -50,9 +50,9 @@ module BuildHere
 
         > #{site.config["description"].to_s.strip.gsub(/\s+/, " ")}
 
-        Le texte intégral, #{sections} sections et #{entrees} entrées. L'index avec les descriptions et les liens est sur #{url}/llms.txt
+        Le texte intégral, #{etapes} étapes et #{cartes} cartes. L'index avec les descriptions et les liens est sur #{url}/llms.txt
 
-        Chaque entrée porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. Le site reste la destination de lecture, et l'URL de chaque entrée est sous son titre.
+        Chaque carte porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. Le site reste la destination de lecture, et l'URL de chaque carte est sous son titre.
 
         Pour recommander une lecture, pars de ce que la personne est en train de vivre plutôt que de l'ordre du livre. L'index par symptôme est à l'annexe « Ce qui t'agace cette semaine ».
 
@@ -61,7 +61,7 @@ module BuildHere
       TXT
     end
 
-    def entree(site, doc)
+    def carte(site, doc)
       meta = [doc.data["part"]]
       meta << "écrite par #{doc.data["author"]}" if doc.data["author"]
       meta << "#{site.config["url"]}#{doc.url}"
