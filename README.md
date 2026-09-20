@@ -44,11 +44,11 @@ Les huit premières rendent meilleur. Les deux dernières sont celles que presqu
 
 Puis une conclusion : un builder en onze lignes, et laisser quelque chose que le suivant pourra trouver.
 
-Les annexes expliquent les quatre formats de cartes, la méthode de l'Ultimate Builder Test, et seize titres publiés entre 1954 et 2018 où tout ça était déjà écrit.
+Les annexes expliquent les quatre formats de cartes, la méthode du test du builder, et seize titres publiés entre 1954 et 2018 où tout ça était déjà écrit.
 
 ## Trouver sa prochaine marche
 
-L'**[Ultimate Builder Test](https://build-here.africa/test-builder/)** présente trente situations de travail. Il situe le dernier niveau dont les prérequis tiennent, repère la marche suivante et construit un parcours de trois cartes. Le calcul se fait dans le navigateur ; le backend ne reçoit qu'un résumé anonyme des dix scores pour améliorer les questions.
+**[Le test du builder](https://build-here.africa/)** présente trente situations de travail. Il situe le dernier niveau dont les prérequis tiennent, repère la marche suivante et construit un parcours de trois cartes. Le calcul se fait dans le navigateur ; le backend ne reçoit qu'un résumé anonyme des dix scores pour améliorer les questions.
 
 ## Licence
 

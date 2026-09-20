@@ -1,6 +1,6 @@
 # L'API de Build Here
 
-Le livre et l'Ultimate Builder Test restent utilisables sans le Worker. Le calcul du test se fait dans le navigateur. L'API garde seulement les interactions qui ont besoin d'un état partagé.
+Le livre et le test du builder restent utilisables sans le Worker. Le calcul du test se fait dans le navigateur. L'API garde seulement les interactions qui ont besoin d'un état partagé.
 
 ## Points d'entrée publics
 
@@ -11,7 +11,7 @@ Le livre et l'Ultimate Builder Test restent utilisables sans le Worker. Le calcu
 | `POST /note` | Retour structuré sur l'utilité d'une carte |
 | `GET /commentaires?page=` | Commentaires publiés d'une carte |
 | `POST /commentaire` | Commentaire envoyé en modération |
-| `POST /evaluation` | Résumé anonyme d'un Ultimate Builder Test terminé |
+| `POST /evaluation` | Résumé anonyme d'un test du builder terminé |
 
 `POST /evaluation` accepte une version, dix scores entiers de 0 à 100, le dernier niveau dont les prérequis tiennent et le prochain niveau. Il ne reçoit ni les réponses individuelles, ni contact, ni texte libre, ni identifiant stable.
 

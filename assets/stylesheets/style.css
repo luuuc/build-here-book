@@ -1238,7 +1238,7 @@ sup a {
   display: none;
 }
 
-/* L'Ultimate Builder Test. Le contenu reste dans la colonne du livre, mais
+/* Le test du builder. Le contenu reste dans la colonne du livre, mais
    les reponses ont besoin d'une cible plus large qu'un lien de prose. */
 .builder-test {
   margin: 1rem 0 3rem;
@@ -1399,6 +1399,136 @@ sup a {
 .builder-test-card small { color: #8A6100; margin-bottom: 0.7rem; text-transform: uppercase; }
 .builder-test-card span { margin-top: auto; padding-top: 1rem; }
 .builder-test-disclaimer { color: #6F6A61; font-size: 0.78rem; margin-top: 2rem; }
+
+/* La page d'accueil sous le test : ce qu'il rend, l'echelle des dix etapes,
+   le livre, l'equipe. Meme grammaire que le test, en Archivo. Elle porte
+   [hidden] pendant que les trente situations defilent. */
+.landing {
+  font-family: "Archivo", system-ui, sans-serif;
+}
+
+.landing[hidden] { display: none; }
+
+.landing-bloc { margin: 3.4rem 0; }
+
+.landing-bloc h2 {
+  border-top: 4px solid #1C1A17;
+  margin-bottom: 1rem;
+  padding-top: 1.4rem;
+}
+
+.content .landing-bloc p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.landing-cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1.6rem 0;
+}
+
+.landing-card {
+  border: 1px solid #E8E3D9;
+  padding: 1.15rem;
+}
+
+.landing-card small {
+  color: #8A6100;
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.65rem;
+  text-transform: uppercase;
+}
+
+.content .landing-card p {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  margin-bottom: 0;
+}
+
+.content .landing-note {
+  color: #6F6A61;
+  font-size: 0.88rem;
+}
+
+/* L'echelle. Les dix etapes dans l'ordre, chacune vers son ouverture. */
+.content .landing-echelle {
+  list-style: none;
+  margin: 1.6rem 0;
+  padding: 0;
+}
+
+.landing-echelle li + li { border-top: 1px solid #E8E3D9; }
+
+.content .landing-echelle a {
+  align-items: baseline;
+  box-shadow: none;
+  color: #1C1A17;
+  display: flex;
+  gap: 0.9rem;
+  padding: 0.8rem 0.5rem;
+  text-decoration: none;
+}
+
+.content .landing-echelle a:hover {
+  background: #FBEEC1;
+  box-shadow: none;
+}
+
+.landing-echelle em {
+  color: #8A6100;
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: 600;
+  min-width: 1.4em;
+}
+
+.landing-echelle strong { font-size: 0.98rem; font-weight: 600; }
+
+.landing-echelle span {
+  color: #6F6A61;
+  font-size: 0.88rem;
+  margin-left: auto;
+  text-align: right;
+}
+
+.content a.landing-cta {
+  background: #1C1A17;
+  box-shadow: none;
+  color: #fff;
+  display: inline-block;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.95rem;
+  margin-top: 0.4rem;
+  padding: 0.72rem 1.15rem;
+  text-decoration: none;
+}
+
+.content a.landing-cta:hover {
+  background: #1C1A17;
+  box-shadow: none;
+  outline: 2px solid #F5B301;
+  outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+  .landing-cards { grid-template-columns: 1fr; }
+
+  .content .landing-echelle a { display: block; }
+
+  .landing-echelle em { display: inline; margin-right: 0.5rem; }
+
+  .landing-echelle span {
+    display: block;
+    margin-left: 0;
+    text-align: left;
+  }
+}
 
 @media (max-width: 640px) {
   .builder-test-result-grid,

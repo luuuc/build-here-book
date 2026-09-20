@@ -168,15 +168,15 @@
 }
 </script>
 
-<!-- Structured Data (JSON-LD) - Book (on homepage only) -->
-{% if page.layout == 'home' or page.url == '/' %}
+<!-- Structured Data (JSON-LD) - Book (sur la page du livre) -->
+{% if page.url == '/livre/' %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Book",
   "name": "{{ site.title }}",
   "description": "{{ site.description | escape }}",
-  "url": "{{ site.url }}",
+  "url": "{{ site.url }}/livre/",
   "inLanguage": "{{ site.book.language | default: 'en-US' }}",
   "datePublished": "{{ site.book.published }}",
   "dateModified": "{{ site.book.modified }}",

@@ -74,7 +74,7 @@ C'est aussi la seule partie de ce livre dont tu ne maîtriseras pas tout le rés
 
 ## Trouve ta prochaine marche
 
-Tu n'as pas besoin de lire quatre-vingt-cinq cartes pour savoir laquelle travaille pour toi maintenant. L'[Ultimate Builder Test](/test-builder/) part de trente situations concrètes, repère la première marche qui ne tient pas encore, puis te donne un diagnostic, un principe et une pratique.
+Tu n'as pas besoin de lire quatre-vingt-cinq cartes pour savoir laquelle travaille pour toi maintenant. [Le test du builder](/) part de trente situations concrètes, repère la première marche qui ne tient pas encore, puis te donne un diagnostic, un principe et une pratique.
 
 Le résultat n'est pas une identité. Reviens après avoir changé quelque chose et il doit pouvoir changer avec toi.
 

@@ -2,6 +2,11 @@
   const root = document.querySelector("[data-builder-test]");
   if (!root) return;
 
+  // La page de presentation sous le test. Elle sort de l'ecran pendant les
+  // trente situations, et revient avec le resultat.
+  const landing = document.querySelector("[data-test-landing]");
+  function showLanding(on) { if (landing) landing.hidden = !on; }
+
   const stages = [
     { n: 1, name: "L'état d'esprit", line: "Tu rends les choses meilleures au lieu d'attendre qu'on t'y autorise.", practice: "Choisis une irritation que tout le monde contourne. Répare aujourd'hui la plus petite partie qui dépend de toi.", cards: [
       ["Pratique", "Pose la question naïve tout de suite", "/chapters/01-02-pose-la-question-naive-tout-de-suite.html"],
@@ -145,6 +150,7 @@
     const strongest = stages[r.strongest - 1];
     run.hidden = true;
     result.hidden = false;
+    showLanding(true);
     el("[data-result-title]").textContent = r.reached === 10
       ? "Tu laisses une référence derrière toi."
       : current
@@ -178,12 +184,12 @@
     result.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
-  el("[data-test-start]").addEventListener("click", function () { intro.hidden = true; run.hidden = false; showQuestion(); });
+  el("[data-test-start]").addEventListener("click", function () { intro.hidden = true; run.hidden = false; showLanding(false); showQuestion(); });
   el("[data-test-back]").addEventListener("click", function () { if (index > 0) { index--; showQuestion(); } });
   el("[data-test-next]").addEventListener("click", function () { if (answers[index] === undefined) return; if (index < questions.length - 1) { index++; showQuestion(); } else showResult(); });
-  el("[data-test-restart]").addEventListener("click", function () { answers = []; index = 0; result.hidden = true; run.hidden = false; showQuestion(); });
+  el("[data-test-restart]").addEventListener("click", function () { answers = []; index = 0; result.hidden = true; run.hidden = false; showLanding(false); showQuestion(); });
   el("[data-test-copy]").addEventListener("click", function () {
-    const text = `${el("[data-result-title]").textContent}\n${el("[data-result-next]").textContent}\n${location.origin}/test-builder/`;
+    const text = `${el("[data-result-title]").textContent}\n${el("[data-result-next]").textContent}\n${location.origin}/`;
     if (navigator.clipboard) navigator.clipboard.writeText(text).then(() => { el("[data-test-copy]").textContent = "Résultat copié"; });
   });
 })();

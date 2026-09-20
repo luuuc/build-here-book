@@ -143,4 +143,4 @@ Les quatre-vingt-cinq cartes y sont, chacune au moins une fois. Aucun classement
 
 Si rien ici ne ressemble à ta semaine, le [sommaire](/) est là pour ça.
 
-Si tu ne sais toujours pas où commencer, l'[Ultimate Builder Test](/test-builder/) transforme trente situations en un parcours de trois cartes.
+Si tu ne sais toujours pas où commencer, [le test du builder](/) transforme trente situations en un parcours de trois cartes.

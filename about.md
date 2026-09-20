@@ -25,7 +25,7 @@ Le livre s'ouvre sur [ce qu'il te demande](/chapters/00-arrete-de-le-faire-en-si
 
 ## Trouver où commencer
 
-L'[Ultimate Builder Test](/test-builder/) présente trente situations de travail. Il ne donne pas un type de personnalité. Il identifie le dernier niveau dont les prérequis tiennent, la marche qui limite les suivantes et trois cartes à utiliser maintenant.
+[Le test du builder](/) présente trente situations de travail. Il ne donne pas un type de personnalité. Il identifie le dernier niveau dont les prérequis tiennent, la marche qui limite les suivantes et trois cartes à utiliser maintenant.
 
 Le calcul se fait dans ton navigateur. Le serveur reçoit seulement la version du test, dix scores agrégés et les deux niveaux produits. Il ne reçoit ni les réponses individuelles, ni un nom, ni un contact, ni un identifiant stable.
 

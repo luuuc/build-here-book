@@ -12,13 +12,13 @@ categories:
   - methode
   - evaluation
 seo:
-  description: "La méthode transparente de l'Ultimate Builder Test : trente situations, dix scores et une progression à prérequis."
-  keywords: "build here, ultimate builder test, méthode, score, limites"
+  description: "La méthode transparente du test du builder : trente situations, dix scores et une progression à prérequis."
+  keywords: "build here, test du builder, méthode, score, limites"
 redirect_from:
   - /chapters/a2-les-douze-tests.html
 ---
 
-L'Ultimate Builder Test n'essaie pas de dire qui tu es. Il cherche une réponse plus petite et plus utile : quelle capacité tient déjà, et quelle marche limite les suivantes aujourd'hui ?
+Le test du builder n'essaie pas de dire qui tu es. Il cherche une réponse plus petite et plus utile : quelle capacité tient déjà, et quelle marche limite les suivantes aujourd'hui ?
 
 La méthode est publique pour que le résultat puisse être contesté.
 

@@ -26,9 +26,9 @@ Le markdown source de n'importe quelle carte s'obtient en remplaçant le nom de 
 {% endfor %}
 ## Orientation
 
-L'Ultimate Builder Test utilise trente situations pour produire dix scores. Il cherche le dernier niveau dont les prérequis tiennent, puis recommande trois cartes de la marche suivante. Ce n'est pas un test de personnalité ni une certification.
+Le test du builder utilise trente situations pour produire dix scores. Il cherche le dernier niveau dont les prérequis tiennent, puis recommande trois cartes de la marche suivante. Ce n'est pas un test de personnalité ni une certification.
 
-- [Ultimate Builder Test]({{ '/test-builder/' | absolute_url }}): l'évaluation interactive
+- [Le test du builder]({{ '/' | absolute_url }}): l'évaluation interactive
 - [Les quatre types de cartes]({{ '/chapters/a1-les-quatre-types-de-cartes.html' | absolute_url }}): principe, diagnostic, pratique et système
 - [Comment fonctionne le test]({{ '/chapters/a2-comment-fonctionne-le-test.html' | absolute_url }}): calcul, données envoyées et limites
 
