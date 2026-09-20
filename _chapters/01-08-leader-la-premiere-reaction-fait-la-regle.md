@@ -36,7 +36,7 @@ Une phrase suffit à décourager toute initiative dans une équipe, et elle n'a 
 
 La personne ne réessaiera pas, et ce n'est qu'une partie du problème. Les quatre autres qui ont regardé ont capté la règle plus vite qu'elle, et ce qu'ils ont capté te concerne toi, pas le cas.
 
-Refais le calcul comme le fait celui qui hésite. Agir sans demander rapporte peu et peut finir en correction publique. Attendre ne coûte rien. Dans ces conditions, attendre est rationnel, et tu obtiens l'équipe passive dont tu te plains à ton prochain entretien individuel.
+Refais le calcul comme le fait celui qui hésite. Agir sans demander rapporte peu et peut finir en correction publique. Attendre ne coûte rien. Dans ces conditions, attendre est rationnel, et tu obtiens l'équipe passive dont tu te plains à ton prochain entretien individuel. Tu es alors passager de ton propre système : tu subis une passivité que ta phrase a produite, et tu attends que les gens changent sans toucher à ce qui les fait calculer ainsi.
 
 Certaines initiatives sont réellement dangereuses. La facturation. Un contrat signé. La production quand il ne reste personne pour réparer. Ce qui les protège n'est pas une réaction plus dure après coup, c'est une ligne tracée avant. Une frontière non marquée fait qu'on demande pour tout, puis qu'on agit à l'aveugle le jour où demander devient fatigant. Autoriser l'initiative ne suffit pas. Il faut la défendre les premières fois qu'elle tourne mal. C'est le plus difficile, et personne ne peut le faire à ta place.
 

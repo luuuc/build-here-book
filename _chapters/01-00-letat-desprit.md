@@ -27,13 +27,13 @@ Personne n'a mal travaillé. Vingt réponses justes ont été écrites. Ce qui n
 
 L'échelle commence là, et cette première marche ne demande aucune compétence particulière. Elle demande de considérer qu'une chose qui ne marche pas te regarde.
 
-Le contraire de construire, ici, n'est pas de ne pas coder. C'est d'exécuter sans pouvoir agir sur ce que le travail produit.
+Le contraire de construire, ici, n'est pas de ne pas coder. C'est d'exécuter sans pouvoir agir sur ce que le travail produit. C'est ça, être passager.
 
 Ce n'est pas une identité. La même personne construit sur un sujet et attend une instruction sur un autre. Elle fait correctement ce qu'on lui confie, voit souvent le problème et attend qu'il soit traité par celui dont c'est le périmètre. Ce n'est ni de la paresse ni un défaut de caractère. C'est ce que beaucoup d'organisations rendent rationnel, parfois assez clairement pour n'avoir jamais besoin de l'écrire.
 
 Ce qui empêche le plus souvent de franchir cette étape, ce n'est donc pas le manque d'envie. Personne ne t'a rien demandé. La fiche de poste, censée décrire un minimum, finit par fixer une limite. S'y ajoute un calcul que tout le monde a déjà fait : celui qui soulève un problème en hérite.
 
-Les neuf étapes qui suivent supposent toutes celle-ci. Un métier sans capacité d'agir produit un exécutant très qualifié. De l'autonomie sans capacité d'agir produit quelqu'un qui attend mieux. Il n'existe pas de raccourci pour éviter cette étape.
+Les neuf étapes qui suivent supposent toutes celle-ci. Un métier sans capacité d'agir produit un passager très qualifié. De l'autonomie sans capacité d'agir produit quelqu'un qui choisit comment faire, sans jamais peser sur ce qui est fait. Il n'existe pas de raccourci pour éviter cette étape.
 
 Tu es passé à l'étape suivante quand tu peux nommer une chose que tu as améliorée sans qu'on te le demande, et dire ce qu'elle a changé pour quelqu'un d'autre que toi.
 

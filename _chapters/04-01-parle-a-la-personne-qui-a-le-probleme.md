@@ -50,7 +50,7 @@ Puis arrête de parler. La partie utile arrive après le premier silence, quand 
 
 - **Ingénierie** : vingt minutes avec la personne valent trois relais. Tu as le droit de demander l'appel.
 - **Design** : le contournement est l'objet le plus utile de l'appel. Le tableur, le groupe WhatsApp.
-- **Fondateur** : ton client est à un coup de fil et il décroche. C'est un avantage structurel d'ici.
+- **Fondateur** : personne ne peut te refuser l'accès à un client. C'est l'avantage le plus mal utilisé de ta place.
 - **Management** : si personne dans la salle n'a parlé à un utilisateur ce mois-ci, on conçoit par ouï-dire.
 - **Relation client** : tu entends la phrase brute. Rapporte-la telle quelle.
 - **Recrutement** : demande le dernier utilisateur à qui le candidat a parlé, et ce qu'il l'a vu faire.

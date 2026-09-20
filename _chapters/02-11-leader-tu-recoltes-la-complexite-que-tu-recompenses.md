@@ -36,6 +36,8 @@ Alors le calcul se fait tout seul. Un nouveau service fournit un beau schéma po
 
 La complexité que tu as récompensée ne part pas quand part celui qui l'a construite. Elle continuera de réveiller la personne d'astreinte dans deux ans, et à ce moment-là elle ressemblera à de la malchance plutôt qu'à une série de choix que tu as applaudis.
 
+C'est là que tu deviens passager de ton propre système. La complexité arrive comme un temps qu'on subit, alors qu'elle sort chaque vendredi de la question que tu poses.
+
 Les ingénieurs ne peuvent pas corriger seuls ce système de récompense. Choisir la solution sans fioritures est un risque de carrière dans une équipe qui compte les ajouts, et lire du code source un après-midi ressemble exactement à un après-midi sans production visible. C'est ta réaction qui fixe la valeur des deux, pas ton document sur les principes techniques.
 
 ## La décision

@@ -2,10 +2,10 @@
 layout: chapter
 title: "⇄ Tu es la référence qui manque, et tu n'as rien laissé"
 part: "Le leadership"
-order: 906
+order: 908
 card_type: systeme
 metadata:
-  principle: "9.06"
+  principle: "9.08"
   reading_time_in_minutes: 3
 categories:
   - reference
@@ -15,6 +15,7 @@ seo:
   description: "Le mentorat a une portée limitée. Une conversation, une personne, et il s'arrête le jour où tu changes d'entreprise."
   keywords: "build here, reference, leadership, builder, transmission"
 redirect_from:
+  - /chapters/09-06-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
   - /chapters/16-04-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
 ---
 

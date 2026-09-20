@@ -7,7 +7,7 @@ categories:
   - projet
   - open-source
 seo:
-  description: Build Here est un guide libre et un test pratique pour ceux qui construisent.
+  description: Ton travail vaut ce qu'il continue de produire quand tu n'es pas là. Une échelle en dix étapes, en accès libre, et un test pour trouver ta marche.
   keywords: build here, à propos, licence creative commons, open source, ultimate builder test
 title: À propos
 description: Un livre ouvert, une échelle, un prochain mouvement
@@ -17,11 +17,11 @@ description: Un livre ouvert, une échelle, un prochain mouvement
 
 ## Ce que c'est
 
-Des cartes de deux minutes, écrites pour ceux qui fabriquent des choses ici. Chacune tient seule. Aucune idée n'est nouvelle, et c'est le sujet : une grande partie de ce qui bloque une équipe a déjà été comprise ailleurs sans devenir la norme partout.
+Ton travail vaut ce qu'il continue de produire quand tu n'es pas là. Le livre est une échelle en dix étapes, de l'état d'esprit jusqu'à la référence, et elles mesurent une seule chose : combien de ta présence ton travail exige encore. Chacune s'appuie sur celles d'en dessous.
 
-Le livre est une échelle en dix étapes, de l'état d'esprit jusqu'à la référence. Chacune s'appuie sur celles d'en dessous. Les cartes prennent quatre formes : principe, diagnostic, pratique et système.
+Des cartes de deux minutes, chacune tient seule, en quatre formes : principe, diagnostic, pratique et système. Aucune idée n'est nouvelle, et c'est le sujet : une grande partie de ce qui bloque une équipe a déjà été comprise ailleurs sans devenir la norme partout.
 
-L'[introduction](/chapters/00-introduction.html) explique comment utiliser le livre. La page [Ils étaient là depuis le début](/pourquoi-build-here/) raconte d'où vient le projet, y compris l'endroit où je me suis planté.
+Le livre s'ouvre sur [ce qu'il te demande](/chapters/00-arrete-de-le-faire-en-silence.html), puis l'[introduction](/chapters/00-introduction.html) explique comment s'en servir.
 
 ## Trouver où commencer
 

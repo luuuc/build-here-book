@@ -12,7 +12,7 @@ categories:
   - methode
   - formats
 seo:
-  description: "Principe, diagnostic, pratique et système : les quatre formats qui donnent un rythme au livre."
+  description: "Principe, diagnostic, pratique et système : quatre façons de rendre visible la même posture, celle dont rien ne continue quand elle n'est plus là."
   keywords: "build here, cartes, principe, diagnostic, pratique, système"
 redirect_from:
   - /chapters/a1-comment-ecrire-une-entree.html
@@ -31,6 +31,8 @@ Un principe remplace un réflexe plausible mais coûteux par une règle plus sol
 **Mouvement :** je croyais ceci, je vois maintenant pourquoi cela produit cet effet, j'agis autrement.
 
 Il porte en général le réflexe, le réflexe builder, la raison, une action et une discussion. C'est le format d'origine du livre et il reste le plus fréquent.
+
+Le bloc *Le réflexe* est le passager qui parle. La phrase entre guillemets est toujours raisonnable et toujours dite de bonne foi, et c'est ce qui la rend difficile à refuser.
 
 ## Diagnostic
 
@@ -55,6 +57,14 @@ Une carte système s'adresse à qui fixe les conditions : fondateur, manager, r
 **Mouvement :** ce que je demande et ce que mon environnement rend rationnel se contredisent. Je change une condition et je mesure ce qu'elle produit.
 
 Elle ne demande pas aux individus de compenser une organisation qui les punit quand ils obéissent.
+
+---
+
+## Où se tient le passager
+
+Le livre nomme une posture plutôt qu'un rang : le passager, celui dont rien ne continue quand il n'est plus là. Chaque type la rend visible autrement. Le principe lui donne la parole. Le diagnostic montre ce qu'elle laisse derrière elle, un symptôme qu'on prend pour le problème. La pratique donne le geste qui en sort. Le système décrit les conditions qui la rendent rationnelle, et celui qui les fixe peut être passager de son propre système.
+
+La posture n'est jamais une personne. Une carte qui range quelqu'un dans une catégorie a manqué sa cible, quel que soit son type.
 
 ---
 

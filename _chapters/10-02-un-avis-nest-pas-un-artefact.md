@@ -48,7 +48,7 @@ S'il n'y en a aucune, tu as publié un avis. Ce n'est pas grave, mais ce n'est p
 
 - **Ingénierie** : dix lignes de code, une version, une commande. Une seule chose vérifiable suffit.
 - **Design** : publie l'écran avec le taux avant et après. Sans le chiffre, c'est une capture d'écran.
-- **Fondateur** : sur un avis, tu es en concurrence avec tout le monde. Sur ce que tu as fait, vous êtes douze.
+- **Fondateur** : on t'invitera pour ton avis, jamais pour tes chiffres. C'est à toi de venir avec les deux.
 - **Relation client** : publie les proportions de tes motifs de contact sur un an, avec ton analyse.
 - **Recrutement** : cherche une trace où un inconnu peut vérifier une chose, pas un fil d'opinions.
 

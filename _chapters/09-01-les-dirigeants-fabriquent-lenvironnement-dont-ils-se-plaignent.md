@@ -36,7 +36,7 @@ L'environnement de travail repose sur des choix concrets, et c'est toi qui les a
 
 Le ratio te dit dans quelle conversation tu es. Une seule personne passive est une conversation de recrutement. Presque toute l'équipe, c'est un problème d'organisation. Et cette organisation, c'est toi qui la définis.
 
-La plainte qu'on entend à chaque événement, celle selon laquelle les talents d'ici manquent d'initiative, est parfois formulée par ceux qui ont construit la salle qui la produit. Inutile d'en conclure qu'il faut culpabiliser. Changer les gens prend un an. Changer un morceau du système se fait cette semaine.
+La plainte est banale, celle selon laquelle les gens manquent d'initiative, et elle est souvent formulée par ceux qui ont construit la salle qui la produit. Inutile d'en conclure qu'il faut culpabiliser. Changer les gens prend un an. Changer un morceau du système se fait cette semaine.
 
 ## À vérifier
 

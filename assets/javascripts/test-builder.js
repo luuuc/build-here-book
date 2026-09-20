@@ -46,7 +46,7 @@
     { n: 9, name: "Le leadership", line: "Tu fabriques un environnement où d'autres builders peuvent agir.", practice: "Prends la plainte que tu répètes le plus sur l'équipe. Change une règle ou une incitation qui rend ce comportement rationnel.", cards: [
       ["Diagnostic", "On fabrique l'environnement dont on se plaint", "/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html"],
       ["Principe", "Le filtre que tu fais tourner", "/chapters/09-02-le-filtre-que-tu-fais-tourner.html"],
-      ["Système", "L'absence de règle est une interdiction", "/chapters/09-03-leader-labsence-de-regle-est-une-interdiction.html"]
+      ["Pratique", "Confie un problème, pas une tâche", "/chapters/09-03-confie-un-probleme-pas-une-tache.html"]
     ]},
     { n: 10, name: "La référence", line: "Ton travail laisse une trace dont quelqu'un peut apprendre sans t'avoir dans la pièce.", practice: "Publie un artefact qui répond à une question réelle : décision, méthode, incident, exemple ou outil réutilisable.", cards: [
       ["Diagnostic", "Un avis n'est pas un artefact", "/chapters/10-02-un-avis-nest-pas-un-artefact.html"],

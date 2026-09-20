@@ -16,8 +16,7 @@
 # Pages, qui n'executerait pas _plugins.
 #
 # Le Liquid des chapitres est laisse actif : il ne reference que `site`, donc
-# la liste de l'annexe 4 et les entrees signees de l'annexe 1 se developpent
-# comme sur le site.
+# les listes construites depuis `site.chapters` se developpent comme sur le site.
 
 module BuildHere
   class LlmsFull < Jekyll::Generator

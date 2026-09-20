@@ -28,8 +28,6 @@ Le livre te demande donc deux choses. Fais circuler les cartes au lieu de refair
 
 Si tu as commencé l'an dernier, tu découvriras ici des façons de travailler qu'on ne t'a peut-être jamais montrées. Tu n'as pas d'examen à passer pour y prendre part.
 
-Je dois dire d'où j'écris. Plusieurs de ces cartes décrivent des erreurs que j'ai commises pendant des années, et une ou deux décrivent des erreurs que je commettais encore en les écrivant.
-
 ---
 
 ## Ce qu'est une carte

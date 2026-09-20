@@ -1,20 +1,21 @@
 ---
 layout: chapter
 title: "⇄ Tu gardes ton équipe invisible parce que visible, elle part"
-part: "Le leadership"
-order: 904
+part: "La référence"
+order: 1010
 card_type: systeme
 metadata:
-  principle: "9.04"
+  principle: "10.10"
   reading_time_in_minutes: 3
 categories:
   - visibilite
   - leadership
   - retention
 seo:
-  description: "La peur est réelle et l'arithmétique aussi. Ce que le silence ne fait pas, c'est retenir qui que ce soit."
-  keywords: "build here, visibilite, leadership, builder, equipe, invisible"
+  description: "Le travail à distance a retiré la protection sur laquelle reposait ton calcul. Ce que le silence ne fait toujours pas, c'est retenir qui que ce soit."
+  keywords: "build here, visibilite, leadership, builder, equipe, invisible, travail a distance"
 redirect_from:
+  - /chapters/09-04-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
   - /chapters/15-05-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
 ---
 
@@ -30,9 +31,9 @@ Les publications sortent sous le logo. Le nom de celui qui a fait le travail n'y
 
 ## Ce que ça produit
 
-Reconnaissons d'abord que la peur est fondée. Quelqu'un de visible reçoit des offres. Sur un marché où un salaire à distance vaut plusieurs fois le tien, ces offres arrivent vite et elles sont sérieuses. Ce n'est pas de la paranoïa, c'est de l'arithmétique : ceux qui deviennent bons et se font voir sont aussi ceux que les entreprises étrangères peuvent recruter.
+Reconnaissons d'abord que la peur est fondée. Quelqu'un de visible reçoit des offres. Le travail à distance a retiré la protection sur laquelle ton calcul reposait : ton équipe n'est plus comparée aux employeurs de ta ville, mais à tous ceux qui recrutent sans demander de déménager. Ce n'est pas de la paranoïa, c'est de l'arithmétique. Ceux qui deviennent bons et se font voir sont exactement ceux qu'un employeur lointain sait repérer, et il n'a même plus besoin de te prendre la personne : il lui suffit de l'embaucher là où elle est.
 
-Regarde maintenant ce que le silence t'apporte réellement. Il ne retient personne. Quelqu'un qui veut partir part, et la raison sera le salaire, le travail, ou toi. Ce que le silence garantit, c'est que tu ne pourras pas recruter la personne suivante autrement que par recommandation, c'est-à-dire par le canal qui sélectionne ceux qui savent se montrer. Tu fais tourner le filtre décrit à la page trois, et tu conclus ensuite qu'il n'y a personne de ce niveau ici.
+Regarde maintenant ce que le silence t'apporte réellement. Il ne retient personne. Quelqu'un qui veut partir part, et la raison sera le salaire, le travail, ou toi. Ce que le silence garantit, c'est que tu ne pourras pas recruter la personne suivante autrement que par recommandation, c'est-à-dire par le canal qui sélectionne ceux qui savent se montrer. Tu fais tourner le filtre décrit dans *Le filtre que tu fais tourner*, et tu conclus ensuite qu'il n'y a personne de ce niveau.
 
 Il y a un deuxième coût et il est plus lent. Une entreprise dont on ne connaît aucun ingénieur n'attire que des gens qui ne comparent pas. C'est un filtre lui aussi, il fonctionne dans les deux sens, et ton équipe actuelle sait très bien de quel côté elle est.
 
@@ -42,7 +43,7 @@ La rétention se paie en argent, en autonomie et en travail intéressant. Elle n
 
 → Mets le nom des gens sur ce que ton entreprise publie. C'est gratuit, c'est immédiat, et ça se remarque de l'extérieur bien avant d'être remarqué de l'intérieur.
 → Compte tes recrutements des deux dernières années par canal. Si tout est venu de recommandations, tu connais la sortie de ton filtre.
-→ Écris ce que tu offres à quelqu'un qui reçoit une offre à trois fois le salaire. Réponds honnêtement, avant que la question te soit posée, parce qu'elle le sera.
+→ Écris ce que tu offres à quelqu'un qui reçoit une offre à distance nettement mieux payée. Réponds honnêtement, avant que la question te soit posée, parce qu'elle le sera.
 
 ## Depuis ton siège
 

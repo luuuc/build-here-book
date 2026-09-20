@@ -52,7 +52,7 @@ Rends-en une utilisable par ceux qui restent avant de donner ta réponse : note 
 
 - **Produit** : écris les raisons d'une demande que tu as refusée. Elles ne sont consignées nulle part.
 - **Design** : ton système de design reste dans ta tête tant que ses règles ne sont pas écrites.
-- **Fondateur** : après dix ans sans rien écrire, il reste une réputation qui s'éteint au changement d'étage.
+- **Fondateur** : un départ ne fait que révéler ce que tu as laissé vivre dans une seule tête. Ça se décide des années avant la démission.
 - **Management** : ceux qui partent nous vident est une phrase adressée à des gens de vingt-six ans.
 - **Recrutement** : ce que laissent les partants est ce que lira la personne recrutée pour les remplacer.
 

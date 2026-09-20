@@ -11,13 +11,13 @@ categories:
   - cloture
   - builders
 seo:
-  description: "Un builder est quelqu'un qui prend la responsabilité d'améliorer concrètement ce qui l'entoure."
+  description: "Le travail d'un builder continue de fonctionner quand il n'est pas là. Chaque étape de ce livre en retire un peu de sa présence."
   keywords: "build here, conclusion, builder, echelle"
 redirect_from:
   - /chapters/17-conclusion.html
 ---
 
-Tout ce livre tient dans un paragraphe, et le voici.
+Le travail d'un builder continue de fonctionner quand il n'est pas là. Chaque étape de ce livre en retire un peu de ta présence.
 
 Un builder est quelqu'un qui prend la responsabilité d'améliorer concrètement ce qui l'entoure.
 
@@ -74,7 +74,7 @@ C'est aussi la seule partie de ce livre dont tu ne maîtriseras pas tout le rés
 
 ## Trouve ta prochaine marche
 
-Tu n'as pas besoin de lire quatre-vingt-une cartes pour savoir laquelle travaille pour toi maintenant. L'[Ultimate Builder Test](/test-builder/) part de trente situations concrètes, repère la première marche qui ne tient pas encore, puis te donne un diagnostic, un principe et une pratique.
+Tu n'as pas besoin de lire quatre-vingt-cinq cartes pour savoir laquelle travaille pour toi maintenant. L'[Ultimate Builder Test](/test-builder/) part de trente situations concrètes, repère la première marche qui ne tient pas encore, puis te donne un diagnostic, un principe et une pratique.
 
 Le résultat n'est pas une identité. Reviens après avoir changé quelque chose et il doit pouvoir changer avec toi.
 

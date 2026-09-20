@@ -32,7 +32,7 @@ Chaque semaine passée sans montrer le produit aux utilisateurs retarde leur ré
 
 Six semaines de travail fabriquent un attachement défensif que personne n'avait prévu. La fonctionnalité a été présentée en interne, les tickets sont fermés, trois personnes ont leur nom dessus. Quand les premiers vrais utilisateurs l'ignorent, la lecture honnête, celle qui dit qu'on a construit la mauvaise chose, coûte quelque chose à chacun des trois. Alors on y voit un problème de déploiement, un problème d'onboarding, un problème de communication. À force de peaufiner, l'équipe n'a pas seulement retardé les retours. Elle s'est donné des raisons de ne pas les entendre.
 
-L'objection sérieuse est que le travail brut coûte de la confiance, et que sur un marché de cette taille on n'a pas de deuxième première impression. La question est de choisir à qui montrer le produit à ce stade. Tu peux nommer dix personnes que ce problème gêne vraiment, et tu as les dix numéros dans ton téléphone. Appelle-les, dis que c'est tôt, et elles pardonnent un défaut et te disent ce que cent inscriptions silencieuses ne diront jamais. Une équipe qui vend à quarante millions d'anonymes ne peut pas faire ça. Un lancement est une autre décision, plus tard. Définir cette version minimale reste une affaire de jugement, et je n'ai pas de règle universelle à te donner.
+L'objection sérieuse est que le travail brut coûte de la confiance, et que sur un marché de cette taille on n'a pas de deuxième première impression. La question est de choisir à qui montrer le produit à ce stade. Tu peux nommer dix personnes que ce problème gêne vraiment, et quelqu'un chez toi sait comment les joindre. Appelle-les, dis que c'est tôt, et elles pardonnent un défaut et te disent ce que cent inscriptions silencieuses ne diront jamais. Montrer la même version à un public anonyme est une autre décision, plus tard. Définir cette version minimale reste une affaire de jugement, et je n'ai pas de règle universelle à te donner.
 
 ## À vérifier
 
@@ -43,7 +43,7 @@ Dis que c'est tôt. Laisse-les tranquilles une semaine, puis va voir ce qui s'es
 ## Depuis ton siège
 
 - **Design** : peaufiner trois écrans avant de montrer le premier rend plus difficile le fait d'y renoncer.
-- **Fondateur** : tu as dix numéros dans ton téléphone. Ils pardonnent un défaut, cent inscriptions non.
+- **Fondateur** : dix clients qu'on peut appeler valent cent inscriptions silencieuses. Tu sais lesquels.
 - **Management** : trois noms sur une fonctionnalité ignorée, et l'échec se lira comme un problème d'onboarding.
 - **Relation client** : tu sais qui accepterait de voir une version tôt. Donne les dix noms.
 - **Recrutement** : demande la plus petite chose que le candidat a mise devant un vrai utilisateur.

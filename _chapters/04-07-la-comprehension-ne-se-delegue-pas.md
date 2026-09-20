@@ -17,6 +17,7 @@ seo:
   keywords: "build here, technologie et business, builder, comprehension, delegue"
 redirect_from:
   - /chapters/10-04-un-fondateur-ne-delegue-pas-la-comprehension.html
+  - /chapters/04-07-un-fondateur-ne-delegue-pas-la-comprehension.html
 ---
 
 ## Le réflexe
@@ -53,7 +54,7 @@ Deux heures. Les arrêts sont l'exercice, pas une interruption de l'exercice.
 - **Produit** : sans comprendre le produit, tu acceptes ou refuses les estimations à l'instinct.
 - **Design** : un produit que la direction ne sait pas dessiner au tableau se conçoit par morceaux.
 - **Relation client** : tu promets ce que tu crois simple. Demande une fois de quoi le produit est fait.
-- **Recrutement** : sans comprendre le produit, tu recrutes sur l'aisance. C'est le filtre du début de ce livre.
+- **Recrutement** : sans comprendre le produit, tu recrutes sur l'aisance. C'est le filtre décrit dans *Le filtre que tu fais tourner*.
 
 ## À discuter
 

@@ -1,11 +1,11 @@
 ---
 layout: chapter
 title: "⇄ L'absence de règle est une interdiction"
-part: "Le leadership"
-order: 903
+part: "La référence"
+order: 1009
 card_type: systeme
 metadata:
-  principle: "9.03"
+  principle: "10.09"
   reading_time_in_minutes: 3
 categories:
   - trace
@@ -15,6 +15,7 @@ seo:
   description: "Un vide n'est pas une permission. Devant un vide, les gens calculent, et le calcul donne toujours le même résultat."
   keywords: "build here, trace, leadership, builder, regle, interdiction"
 redirect_from:
+  - /chapters/09-03-leader-labsence-de-regle-est-une-interdiction.html
   - /chapters/14-06-leader-labsence-de-regle-est-une-interdiction.html
 ---
 
@@ -30,7 +31,7 @@ C'est vrai. Rien n'est interdit, rien n'est écrit, et personne ne publie jamais
 
 ## Ce que ça produit
 
-Un vide n'est pas une permission. Devant un vide, les gens calculent. Publier un postmortem peut froisser un client, exposer une faiblesse, ou déplaire à quelqu'un dont tu dépends. Ne rien publier ne coûte rien et n'a jamais valu un mot à personne. Dans ces conditions, se taire est rationnel, et tu obtiens une équipe silencieuse dont tu diras plus tard qu'elle manque de rayonnement.
+Un vide n'est pas une permission. Devant un vide, les gens calculent. Publier un postmortem peut froisser un client, exposer une faiblesse, ou déplaire à quelqu'un dont tu dépends. Ne rien publier ne coûte rien et n'a jamais valu un mot à personne. Dans ces conditions, se taire est rationnel, et tu obtiens une équipe silencieuse dont tu diras plus tard qu'elle manque de rayonnement. Tu es passager de ton propre système : le silence te tombe dessus comme un trait de caractère collectif, alors qu'il sort du vide que tu as laissé.
 
 La première fois fixe la règle, exactement comme dans *La première réaction fait la règle*. Quelqu'un publie, et ce qui sort de ta bouche est une question sur qui a validé. Les six autres qui regardaient ont capté le tarif avant l'intéressé, et ils ont compris comment tu réagis, quel que soit le texte.
 

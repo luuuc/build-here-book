@@ -71,7 +71,7 @@ layout: none
   ],
   "keywords": [
     "builders",
-    "tech africaine",
+    "présence",
     "ingénierie logicielle",
     "produit",
     "ownership",
@@ -87,10 +87,6 @@ layout: none
     {
       "@type": "Thing",
       "name": "Product management"
-    },
-    {
-      "@type": "Thing",
-      "name": "Startups in Africa"
     },
     {
       "@type": "Thing",

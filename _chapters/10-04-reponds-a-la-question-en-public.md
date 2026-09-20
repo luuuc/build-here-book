@@ -48,7 +48,7 @@ Ne transforme pas pour autant chaque message en occasion de publier. Beaucoup de
 
 - **Ingénierie** : la réponse qui reste dans tes messages fait de toi la porte. Publiée, elle te libère.
 - **Produit** : la question posée trois fois ce trimestre est une page, pas trois réponses privées.
-- **Fondateur** : une correction publique par quelqu'un de plus expérimenté est le seul retour gratuit de ce métier.
+- **Fondateur** : le jour où quelqu'un chez toi se trompe en public, ce que tu dis décide si les autres répondront encore.
 - **Management** : les réponses privées de ton meilleur élément sont un actif que l'entreprise n'a pas.
 - **Relation client** : la réponse que tu écris quinze fois par semaine a un seul lecteur à chaque fois.
 

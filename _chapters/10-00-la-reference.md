@@ -44,7 +44,7 @@ L'objet de cette étape est unique et tout en découle. Un artefact est une chos
 
 Cette marche est la seule dont tu ne verras pas le résultat. Quelqu'un s'appuie sur ton travail, ne te le dit pas, ne te cite pas, et repart. C'est la seule preuve qui compte et elle est invisible.
 
-Cette étape ne porte aucune carte ⇄, et ce n'est pas parce qu'elle n'en a pas besoin. Ce qu'elle demande, publier sous son nom, répondre en public, laisser une trace qui sorte de l'entreprise, dépend de deux conditions qu'un autre fixe : *L'absence de règle est une interdiction* et *Tu gardes ton équipe invisible parce que visible, elle part*. Les deux sont à l'étape précédente. Si tu lis celle-ci sans pouvoir agir sur celles-là, commence par les faire lire.
+Ce que cette étape demande, publier sous son nom, répondre en public, laisser une trace qui sorte de l'entreprise, dépend de deux conditions qu'un autre fixe : *L'absence de règle est une interdiction* et *Tu gardes ton équipe invisible parce que visible, elle part*. Les deux ferment l'étape. Si tu lis les huit premières cartes sans pouvoir agir sur ces deux-là, commence par les faire lire à qui décide.
 
 **Ce qui change :** le savoir devient trouvable, vérifiable et corrigeable sans son auteur. **La tension qui reste :** un artefact vieillit. La conclusion explique comment arbitrer entre les cartes, constater un échec, corriger une trace et la retirer.
 
@@ -60,3 +60,5 @@ Cette étape ne porte aucune carte ⇄, et ce n'est pas parce qu'elle n'en a pas
 - 10.06 [Ce que publier coûte vraiment](/chapters/10-06-ce-que-publier-coute-vraiment.html)
 - 10.07 [Personne n'a écrit ce que tu sais faire](/chapters/10-07-personne-na-ecrit-ce-que-tu-sais-faire.html)
 - 10.08 [Partir n'est pas une trahison](/chapters/10-08-partir-nest-pas-une-trahison.html)
+- 10.09 [⇄ L'absence de règle est une interdiction](/chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html)
+- 10.10 [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/10-10-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)

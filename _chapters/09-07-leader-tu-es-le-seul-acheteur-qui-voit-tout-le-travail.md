@@ -2,10 +2,10 @@
 layout: chapter
 title: "⇄ Tu es le seul acheteur qui voit tout le travail"
 part: "Le leadership"
-order: 905
+order: 907
 card_type: systeme
 metadata:
-  principle: "9.05"
+  principle: "9.07"
   reading_time_in_minutes: 3
 categories:
   - visibilite
@@ -15,6 +15,7 @@ seo:
   description: "Le marché fixe le prix d'un inconnu. Toi, tu ne paies pas des inconnus, et tu choisis quand même le prix de l'inconnu."
   keywords: "build here, visibilite, leadership, builder, salaire, valeur, augmentation"
 redirect_from:
+  - /chapters/09-05-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html
   - /chapters/15-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html
 ---
 

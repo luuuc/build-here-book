@@ -48,7 +48,7 @@ Regarde où tu arrives. Si tu n'es pas dans les deux premières pages, le titre 
 
 - **Ingénierie** : le titre porte le message d'erreur exact, pas ta conclusion sur la résilience.
 - **Produit** : publie d'abord à une adresse durable, annonce-la ensuite. L'annonce est jetable, pas la trace.
-- **Fondateur** : un endroit qui t'appartient, indexé, permanent. Personne n'y décide à ta place qui te voit.
+- **Fondateur** : ce que l'entreprise publie sur une plateforme louée s'éteint avec elle. Le domaine et l'archive sont une décision.
 - **Management** : un wiki interne est lu par les quatre personnes qui étaient déjà au courant.
 - **Relation client** : tu connais les mots exacts que les gens tapent. Donne-les à celui qui écrit le titre.
 

@@ -51,7 +51,7 @@ Tu es passé à l'étape suivante quand tu peux dire comment ce que tu as livré
 - 4.04 [Le client ne s'intéresse pas à ton architecture](/chapters/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html)
 - 4.05 [Ce qu'on sait construire décide ce qu'on peut vendre](/chapters/04-05-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html)
 - 4.06 [Choisir un fournisseur, c'est signer pour trois ans](/chapters/04-06-choisir-un-fournisseur-cest-signer-pour-trois-ans.html)
-- 4.07 [La compréhension ne se délègue pas](/chapters/04-07-un-fondateur-ne-delegue-pas-la-comprehension.html)
+- 4.07 [La compréhension ne se délègue pas](/chapters/04-07-la-comprehension-ne-se-delegue-pas.html)
 - 4.08 [La distribution fait partie du produit](/chapters/04-08-la-distribution-fait-partie-du-produit.html)
 - 4.09 [Le marketing n'est pas de la décoration](/chapters/04-09-le-marketing-nest-pas-de-la-decoration.html)
 - 4.10 [Parle du problème avant de parler de toi](/chapters/04-10-parle-du-probleme-avant-de-parler-de-toi.html)

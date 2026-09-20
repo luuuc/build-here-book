@@ -44,7 +44,9 @@ Tu es passé à l'étape suivante quand quelqu'un a pris une bonne décision san
 
 - 9.01 [On fabrique l'environnement dont on se plaint](/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
 - 9.02 [Le filtre que tu fais tourner](/chapters/09-02-le-filtre-que-tu-fais-tourner.html)
-- 9.03 [⇄ L'absence de règle est une interdiction](/chapters/09-03-leader-labsence-de-regle-est-une-interdiction.html)
-- 9.04 [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/09-04-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
-- 9.05 [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-05-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
-- 9.06 [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/chapters/09-06-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
+- 9.03 [Confie un problème, pas une tâche](/chapters/09-03-confie-un-probleme-pas-une-tache.html)
+- 9.04 [Une relecture qui dit seulement oui n'apprend rien](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html)
+- 9.05 [Laisse-le porter ce qui est réversible](/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html)
+- 9.06 [Rends-toi remplaçable sur un sujet](/chapters/09-06-rends-toi-remplacable-sur-un-sujet.html)
+- 9.07 [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
+- 9.08 [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)

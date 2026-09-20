@@ -46,7 +46,7 @@ Puis envoie un petit correctif. Une documentation ambiguë compte. La première 
 
 - **Produit** : une proposition rejetée avec ses trois paragraphes de raisons est un cours d'arbitrage.
 - **Design** : les débats d'API montrent comment on rend une chose compréhensible sans explication.
-- **Fondateur** : une relecture exigeante par un mainteneur expérimenté, gratuitement.
+- **Fondateur** : contribuer est du temps de travail ou du bénévolat. Personne ne s'y mettra tant que tu ne l'auras pas tranché.
 - **Relation client** : l'explication du bug qui casse tes clients est souvent dans un thread de 2023.
 - **Recrutement** : personne n'y voit d'où vient quelqu'un. C'est une source que tu n'utilises pas.
 

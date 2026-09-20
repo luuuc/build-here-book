@@ -19,15 +19,15 @@ categories:
   - methode
   - references
 seo:
-  description: "À gauche une phrase qu'on dit, à droite la carte qui la conteste. Les quatre-vingt-une cartes du livre, rangées par symptôme."
+  description: "À gauche le passager qui parle, à droite la carte qui le conteste. Les quatre-vingt-cinq cartes du livre, rangées par symptôme."
   keywords: "build here, annexes, builder, index, symptome, sommaire"
 ---
 
 Le mode d'emploi dit d'ouvrir le livre à l'étape qui correspond à ce qui t'agace cette semaine. Voilà cette liste, en clair.
 
-À gauche, une phrase qu'on dit, ou une semaine qu'on vient de vivre. À droite, une carte, parfois deux, jamais dix. Un index qui renvoie quarante cartes n'a rien trié.
+À gauche, c'est le passager qui parle : une phrase raisonnable, dite de bonne foi, ou une semaine qu'on vient de vivre. À droite, une carte, parfois deux, jamais dix, qui la conteste. Un index qui renvoie quarante cartes n'a rien trié.
 
-Les quatre-vingt-une cartes y sont, chacune au moins une fois. Aucun classement par importance, aucun ordre de lecture.
+Les quatre-vingt-cinq cartes y sont, chacune au moins une fois. Aucun classement par importance, aucun ordre de lecture.
 
 ---
 
@@ -99,12 +99,16 @@ Les quatre-vingt-une cartes y sont, chacune au moins une fois. Aucun classement 
 - "On a cherché, il n'y a personne de ce niveau ici"  →  [Le filtre que tu fais tourner](/chapters/09-02-le-filtre-que-tu-fais-tourner.html)
 - "Ça fait douze ans que je fais ce métier"  →  [Douze ans d'expérience, ou douze fois la même année](/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html)
 - "Mon métier, ça s'apprend sur le terrain", et rien n'a jamais été lu dessus  →  [Ton métier a une littérature, et tu ne l'as pas lue](/chapters/02-04-ton-metier-a-une-litterature.html)
+- Je découpe tout moi-même, et personne autour de moi n'apprend à poser un problème  →  [Confie un problème, pas une tâche](/chapters/09-03-confie-un-probleme-pas-une-tache.html)
+- Les relectures se résument à "c'est bon pour moi"  →  [Une relecture qui dit seulement oui n'apprend rien](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html)
+- Je porte tous les sujets, parce que si ça rate c'est moi qu'on viendra voir  →  [Laisse-le porter ce qui est réversible](/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html)
+- "Si je transmets ce que je sais, je perds ce qui me rend utile ici"  →  [Rends-toi remplaçable sur un sujet](/chapters/09-06-rends-toi-remplacable-sur-un-sujet.html)
 
 ## La technique et l'argent ne se parlent pas
 
 - Les décisions stratégiques arrivent en tickets, et le chiffrage vient après  →  [Ce qu'on sait construire décide ce qu'on peut vendre](/chapters/04-05-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html) · [⇄ Un chiffrage demandé après la décision n'est pas un chiffrage](/chapters/04-12-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html)
 - On a choisi un fournisseur sans regarder ce que coûterait d'en sortir  →  [Choisir un fournisseur, c'est signer pour trois ans](/chapters/04-06-choisir-un-fournisseur-cest-signer-pour-trois-ans.html)
-- "Je ne suis pas technique, je fais confiance à l'équipe"  →  [La compréhension ne se délègue pas](/chapters/04-07-un-fondateur-ne-delegue-pas-la-comprehension.html)
+- "Je ne suis pas technique, je fais confiance à l'équipe"  →  [La compréhension ne se délègue pas](/chapters/04-07-la-comprehension-ne-se-delegue-pas.html)
 - Le produit est bon et personne ne le trouve  →  [La distribution fait partie du produit](/chapters/04-08-la-distribution-fait-partie-du-produit.html) · [Une audience met plus de temps à se construire qu'un produit](/chapters/04-11-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html)
 - Le marketing arrive à la fin, pour rendre la chose présentable  →  [Le marketing n'est pas de la décoration](/chapters/04-09-le-marketing-nest-pas-de-la-decoration.html)
 - Notre première phrase parle de nous  →  [Parle du problème avant de parler de toi](/chapters/04-10-parle-du-probleme-avant-de-parler-de-toi.html)
@@ -121,18 +125,18 @@ Les quatre-vingt-une cartes y sont, chacune au moins une fois. Aucun classement 
 
 ## On est bons, et personne à l'extérieur ne le sait
 
-- Quinze ans de métier, et zéro trace que quelqu'un puisse ouvrir  →  [Mets ton nom dessus](/chapters/10-01-mets-ton-nom-dessus.html) · [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/chapters/09-06-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
+- Quinze ans de métier, et zéro trace que quelqu'un puisse ouvrir  →  [Mets ton nom dessus](/chapters/10-01-mets-ton-nom-dessus.html) · [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
 - L'incident est réglé, tout le monde ici sait ce qui s'est passé, rien n'est écrit  →  [Écris ce qui a cassé](/chapters/07-06-ecris-ce-qui-a-casse.html)
 - La même question m'est posée en privé pour la troisième fois  →  [Réponds à la question en public](/chapters/10-04-reponds-a-la-question-en-public.html)
 - "Je n'écris pas de code, je n'ai rien à publier"  →  [Une trace n'est pas forcément du code](/chapters/10-03-une-trace-nest-pas-forcement-du-code.html)
 - On publie, et personne n'arrive jamais dessus  →  [Publie là où on cherche](/chapters/10-05-publie-la-ou-on-cherche.html)
 - Plusieurs publications, aucun retour, on se demande si ça marche ici  →  [Publie là où on cherche](/chapters/10-05-publie-la-ou-on-cherche.html)
 - "Chez nous, on ne peut pas publier ce genre de chose"  →  [Ce que publier coûte vraiment](/chapters/10-06-ce-que-publier-coute-vraiment.html)
-- Ce que l'entreprise publie sort sous le logo, sans le nom de qui l'a fait  →  [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/09-04-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
+- Ce que l'entreprise publie sort sous le logo, sans le nom de qui l'a fait  →  [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/10-10-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
 - Ce qu'on sait faire n'est écrit nulle part, par personne  →  [Personne n'a écrit ce que tu sais faire](/chapters/10-07-personne-na-ecrit-ce-que-tu-sais-faire.html)
 - Publier ressemble à de l'auto-promotion, et ceux qui le font ne construisent rien  →  [Un avis n'est pas un artefact](/chapters/10-02-un-avis-nest-pas-un-artefact.html)
-- Personne ne sait ce qu'on a le droit de publier, alors personne ne publie  →  [⇄ L'absence de règle est une interdiction](/chapters/09-03-leader-labsence-de-regle-est-une-interdiction.html)
-- "Je veux être payé à ma valeur"  →  [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-05-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
+- Personne ne sait ce qu'on a le droit de publier, alors personne ne publie  →  [⇄ L'absence de règle est une interdiction](/chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html)
+- "Je veux être payé à ma valeur"  →  [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
 - Ceux qui deviennent bons reçoivent une offre et partent  →  [Partir n'est pas une trahison](/chapters/10-08-partir-nest-pas-une-trahison.html)
 
 ---

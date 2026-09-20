@@ -1,8 +1,8 @@
 title: Build Here
 description: >-
-  Un guide pratique pour ceux qui construisent. Une carte, deux minutes,
-  une idée qui tient seule. De l'état d'esprit au métier, de la livraison
-  à l'ownership, des systèmes au levier, jusqu'à la référence.
+  Bâtir là où tu es, pour que ça tienne sans toi. Dix étapes qui mesurent
+  une seule chose : combien de ta présence ton travail exige encore.
+  Où que tu sois, un builder est un builder.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://build-here.africa" # the base hostname & protocol for your site
 
@@ -23,7 +23,7 @@ theme_color: "#1C1A17"
 # affiche ; vider la ligne, ou la supprimer, retire le ruban partout d'un coup.
 # Le PDF et l'EPUB ne sont pas concernes : les pages de _pdf sont en layout none
 # et n'incluent pas l'en-tete.
-draft_banner: "draft version"
+draft_banner: "very draft version"
 
 # Google Analytics (leave blank to disable)
 google_analytics: G-044F0FSRYM

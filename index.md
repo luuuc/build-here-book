@@ -6,11 +6,11 @@ categories:
   - tech
 
 seo:
-  description: Un guide pratique pour ceux qui construisent. Dix étapes, quatre-vingt-une cartes, une idée par carte.
+  description: Ton travail vaut ce qu'il continue de produire quand tu n'es pas là. Dix étapes qui mesurent combien de ta présence il exige encore.
   keywords: build here, builders, ingénierie logicielle, produit, ownership, leadership, guide pratique, visibilité
 
 title: Build Here
-description: Un guide pratique pour ceux qui construisent
+description: Bâtir là où tu es, pour que ça tienne sans toi
 ---
 
 <img
@@ -23,14 +23,14 @@ description: Un guide pratique pour ceux qui construisent
 
 # Le playbook des builders
 
-> Un builder est quelqu'un qui prend la responsabilité de rendre le réel meilleur. Le métier qu'il pratique ne change rien au trajet.
+> Ton travail vaut ce qu'il continue de produire quand tu n'es pas là. Les dix étapes mesurent une seule chose : combien de ta présence il exige encore.
 
 {% assign entrees = site.chapters | where_exp: "c", "c.metadata.principle" %}
 {% assign etapes = site.chapters | where_exp: "c", "c.step_number" %}
 
 {{ etapes | size }} étapes, {{ entrees | size }} cartes. Tu en appliques déjà une partie sans les avoir nommées. D'autres vont te contredire, et c'est le but. L'[Ultimate Builder Test](/test-builder/) repère la marche qui limite les suivantes et te donne un parcours de trois cartes.
 
-Pour toi, pour ton équipe, pour ceux que tu formes. Tout est là, en accès libre, et rien n'y demande un budget, une réorganisation, ou la permission de qui que ce soit.
+Pour toi, pour ton équipe, pour ceux que tu formes. Tout est là, en accès libre. Et rien de ce que le livre demande n'attend un budget, une réorganisation, un meilleur employeur ou la permission de qui que ce soit. Ça commence là où tu es, avec ce que tu as sous la main.
 
 <br>
 Une carte, deux minutes, une idée qui tient seule.
