@@ -71,7 +71,7 @@ Elles ne sont plus des scores.
 
 ## 4. Les questions
 
-**Trente-six questions notées**, vingt-quatre situations et douze événements,
+**Trente-six questions notées**, vingt-cinq situations et onze événements,
 plus quatre questions de marge non notées. Environ huit minutes.
 
 ### Les situations
@@ -224,14 +224,54 @@ Une phrase simple sur la page vaut mieux qu'une bannière.
 
 ## 9. Ce qui reste à faire
 
-- [ ] Écrire les trente-six questions selon les règles du point 4.
-- [ ] Faire noter les options par trois ou quatre praticiens, garder la moyenne.
-- [ ] Écrire les descriptions de zone, en appliquant le test de fausseté.
-- [ ] Refaire le calcul et l'affichage dans `assets/javascripts/test-builder.js`.
-- [ ] Version 2 du schéma et de `worker/evaluation.mjs`, horodatage au jour.
-- [ ] Réécrire l'annexe `a2-comment-fonctionne-le-test.md` le jour de la bascule.
-- [ ] Plus tard : mesurer l'alpha et le test-retest, publier les chiffres,
-      remplacer la bande éditoriale par la vraie.
+Deux seuils différents, et il ne faut pas les confondre. **Utilisable** veut
+dire qu'on peut le mettre en ligne sans mentir au lecteur. **Fini** veut dire
+qu'on peut défendre ses chiffres devant quelqu'un qui cherche la faute.
+
+### Utilisable : ce qu'il faut avant de le mettre en ligne
+
+- [x] Écrire les trente-six questions selon les règles du point 4.
+      Voir `questions-test-du-builder.md`.
+- [ ] Relecture d'auteur sur la voix, et sur les options trop proches pour
+      être départagées de bonne foi.
+- [ ] Faire noter les options par trois ou quatre praticiens, sur une version
+      sans les valeurs ni les lignes « ce qui sépare ». Garder la moyenne.
+      Tant que ce n'est pas fait, la clé est un avis, pas une clé.
+- [ ] Écrire les descriptions de zone, chacune passée au test de fausseté :
+      elle doit être fausse pour quelqu'un situé trente points plus loin.
+- [ ] Écrire l'épreuve d'absence, c'est-à-dire le texte qui traduit une bande
+      en ce qui s'arrêterait si le lecteur partait deux semaines.
+- [ ] Refaire le calcul et l'affichage dans `assets/javascripts/test-builder.js` :
+      trois facettes, ordre des options tiré au hasard, bande au lieu d'un
+      score, citation des réponses du lecteur, plus de seuil.
+- [ ] Version 2 du schéma et de `worker/evaluation.mjs` : réponses question par
+      question, horodatage au jour et non à la seconde.
+- [ ] Réécrire l'annexe `a2-comment-fonctionne-le-test.md`, le jour de la
+      bascule et pas avant. Le livre ne documente pas une version qui n'existe
+      pas.
+- [ ] Mettre à jour la page d'accueil : le nombre de questions, la durée, et
+      la promesse, qui parlent encore de trente situations.
+
+### Fini : ce qu'il faut pour défendre les chiffres
+
+- [ ] Cinq cents passages environ, pour calculer les statistiques d'item et
+      l'alpha de chaque facette. Une facette sous 0,70 doit être réécrite,
+      pas publiée avec une excuse.
+- [ ] Une mesure de fidélité test-retest : proposer à quelques lecteurs de
+      repasser le test à un mois. Sans elle, la bande reste une prudence
+      éditoriale, et la note doit continuer de le dire.
+- [ ] Remplacer la bande de dix points par la vraie erreur de mesure.
+- [ ] Publier alpha, test-retest et la distribution des scores dans l'annexe,
+      chiffres à l'appui. La méthode se publie, la clé de notation non.
+- [ ] Décider des percentiles : seulement au-delà de mille passages, et
+      libellés « parmi les personnes qui ont passé ce test ».
+
+### Ce qui reste hors de portée, et qu'il faut dire
+
+Le test ne prédira rien tant qu'aucune étude de critère n'aura été menée. La
+version la moins chère : un courriel six mois plus tard, une seule question de
+résultat concret, corrélée au score. Tant qu'elle n'existe pas, aucune phrase
+du livre ne doit laisser entendre que le score annonce une carrière.
 
 ## 10. Sources
 
