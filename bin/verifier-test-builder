@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 // Controle le contrat statique du test sans navigateur.
+// Le test vit sur la page d'accueil : index.md porte son balisage.
 
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 
 const racine = new URL("..", import.meta.url).pathname;
 const script = readFileSync(join(racine, "assets/javascripts/test-builder.js"), "utf8");
-const page = readFileSync(join(racine, "test-builder.md"), "utf8");
+const page = readFileSync(join(racine, "index.md"), "utf8");
 
 const debut = script.indexOf("const questions = [");
 const fin = script.indexOf("\n  ];", debut);
@@ -28,4 +29,4 @@ for (const marqueur of ["data-test-start", "data-test-question", "data-result-ro
   if (!page.includes(marqueur)) throw new Error(`Marqueur d'interface absent : ${marqueur}`);
 }
 
-console.log(`Test Builder valide : 30 situations, 10 étapes, ${liens.length} recommandations résolues.`);
+console.log(`Test du builder valide : 30 situations, 10 étapes, ${liens.length} recommandations résolues.`);
