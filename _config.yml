@@ -64,6 +64,7 @@ include:
 # cette ligne, Jekyll la recopie dans `_site/build/site` puis l'indexe.
 exclude:
   - build
+  - docs
   - worker
   - bin
   - vendor
