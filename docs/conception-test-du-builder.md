@@ -241,9 +241,14 @@ qu'on peut défendre ses chiffres devant quelqu'un qui cherche la faute.
       elle doit être fausse pour quelqu'un situé trente points plus loin.
 - [ ] Écrire l'épreuve d'absence, c'est-à-dire le texte qui traduit une bande
       en ce qui s'arrêterait si le lecteur partait deux semaines.
-- [ ] Refaire le calcul et l'affichage dans `assets/javascripts/test-builder.js` :
-      trois facettes, ordre des options tiré au hasard, bande au lieu d'un
-      score, citation des réponses du lecteur, plus de seuil.
+- [x] Refaire le calcul et l'affichage : trois facettes, ordre des options
+      tiré au hasard, bande au lieu d'un score, citation des réponses du
+      lecteur, plus de seuil. Fait dans `_brouillon/test-du-builder/`, que
+      Jekyll ne publie pas. Aperçu : ouvrir `apercu.html` dans un navigateur.
+- [ ] Basculer le brouillon en ligne, une fois les clés notées : le moteur
+      vers `assets/javascripts/`, le balisage vers `index.md`, le style vers
+      `assets/stylesheets/style.css`, et mettre à jour
+      `bin/verifier-test-builder`, qui compte encore trente questions.
 - [ ] Version 2 du schéma et de `worker/evaluation.mjs` : réponses question par
       question, horodatage au jour et non à la seconde.
 - [ ] Réécrire l'annexe `a2-comment-fonctionne-le-test.md`, le jour de la

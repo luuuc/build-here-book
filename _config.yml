@@ -65,6 +65,7 @@ include:
 exclude:
   - build
   - docs
+  - _brouillon
   - worker
   - bin
   - vendor

@@ -1,0 +1,129 @@
+<!doctype html>
+<!--
+  Aperçu du test du builder, version 2. Brouillon, non publié.
+
+  À ouvrir directement dans un navigateur :
+    open _brouillon/test-du-builder/apercu.html
+
+  Les liens vers les cartes ne résolvent pas depuis un fichier local, c'est
+  normal. Le style en bas de page rejoindra assets/stylesheets/style.css le
+  jour de la bascule, pas avant : il n'y a aucune raison de publier le style
+  d'un test qui n'est pas publié.
+-->
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aperçu du test du builder</title>
+    <link rel="stylesheet" href="../../assets/stylesheets/style.css" />
+    <style>
+      .apercu-bandeau {
+        background: #8A1C1C; color: #fff; font-family: "Archivo", sans-serif;
+        font-size: 0.8rem; letter-spacing: 0.1em; padding: 0.6rem 1rem;
+        text-align: center; text-transform: uppercase;
+      }
+      .builder-test-band {
+        font-family: "Archivo", sans-serif; font-size: 2rem; font-weight: 600;
+        color: #1C1A17; margin: 0.4rem 0 0.2rem;
+      }
+      .builder-test-band-note { color: #6F6A61; font-size: 0.85rem; }
+      .builder-test-absence {
+        background: #FBEEC1; border-left: 4px solid #F5B301;
+        margin: 1.6rem 0; padding: 1.1rem 1.3rem;
+      }
+      [data-result-citations] blockquote {
+        border-left: 2px solid #E8E3D9; margin: 1rem 0; padding-left: 1rem;
+      }
+      [data-result-citations] small {
+        color: #6F6A61; display: block; font-size: 0.82rem; margin-bottom: 0.3rem;
+      }
+      [data-result-citations] p { margin: 0; }
+      .builder-test-rdv {
+        border-top: 1px solid #E8E3D9; color: #6F6A61; font-size: 0.9rem;
+        margin-top: 2rem; padding-top: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="apercu-bandeau">Brouillon, non publié. Les valeurs des options ne sont pas encore notées.</div>
+
+    <section class="hero">
+      <div class="container">
+        <h1>Le test du builder</h1>
+        <p>Ton travail vaut ce qu'il continue de produire quand tu n'es pas là. Quarante questions mesurent combien de ta présence il exige encore.</p>
+      </div>
+    </section>
+
+    <main class="content">
+      <div class="container">
+        <section class="builder-test" data-builder-test>
+          <div class="builder-test-intro" data-test-intro>
+            <p class="builder-test-eyebrow">40 questions · 8 minutes · sans compte</p>
+            <h2>Ce test ne te note pas. Il mesure ton travail.</h2>
+            <p>Le passager est transporté par le travail et ne transporte rien. Il fait correctement ce qu'on lui apporte, et rien ne continue quand il n'est plus là. Ce n'est pas une catégorie de personnes, c'est une posture, et tout le monde l'occupe sur un sujet ou un autre. Ce test cherche laquelle, et il le cherche dans ce que ton travail exige encore de ta présence.</p>
+            <ul>
+              <li>Réponds avec ce que tu fais vraiment, pas avec la réponse qui sonne bien.</li>
+              <li>Les questions de fait demandent un souvenir compté, pas une impression.</li>
+              <li>Ton résultat reste dans ce navigateur.</li>
+            </ul>
+            <button type="button" class="builder-test-primary" data-test-start>Commencer le test</button>
+          </div>
+
+          <div class="builder-test-run" data-test-run hidden>
+            <div class="builder-test-progress" aria-live="polite">
+              <span data-test-count></span>
+              <span class="builder-test-progress-track" aria-hidden="true"><span data-test-progress></span></span>
+            </div>
+            <p class="builder-test-stage" data-test-stage></p>
+            <h2 data-test-question tabindex="-1"></h2>
+            <div class="builder-test-answers" data-test-answers></div>
+            <div class="builder-test-nav">
+              <button type="button" data-test-back>Précédente</button>
+              <button type="button" data-test-next disabled>Suivante</button>
+            </div>
+          </div>
+
+          <section class="builder-test-result" data-test-result hidden aria-live="polite">
+            <p class="builder-test-eyebrow">Ce que ton travail exige encore de toi</p>
+            <p class="builder-test-band" data-result-band></p>
+            <p class="builder-test-band-note">La largeur de cette bande est une prudence éditoriale. Elle sera remplacée par l'erreur de mesure réelle quand le test aura été repassé assez de fois pour la calculer.</p>
+            <h2 data-result-title></h2>
+
+            <div class="builder-test-absence">
+              <h3>Si tu pars deux semaines</h3>
+              <p data-result-absence></p>
+              <p><small>Cette phrase est une prédiction. Confronte-la à la dernière fois où c'est arrivé.</small></p>
+            </div>
+
+            <h3>Tes trois facettes</h3>
+            <div class="builder-test-scale" data-result-facettes></div>
+
+            <h3>Les réponses qui ont produit ce résultat</h3>
+            <p data-result-citations-note></p>
+            <div data-result-citations></div>
+
+            <h3>La marge que ton poste te laisse</h3>
+            <p data-result-marge></p>
+
+            <h3>La marche qui limite les autres</h3>
+            <p class="builder-test-lede" data-result-next></p>
+
+            <div class="builder-test-practice">
+              <h3>Cette semaine</h3>
+              <p data-result-practice></p>
+            </div>
+
+            <h3>Trois cartes</h3>
+            <div class="builder-test-route" data-result-route></div>
+
+            <p class="builder-test-rdv">Repasse ce test dans trois mois. Le résultat n'est pas une identité : s'il ne bouge pas alors que ton travail a changé, c'est le test qui a tort.</p>
+            <p class="builder-test-disclaimer">Ce test est un outil éditorial d'orientation. Ce n'est ni un diagnostic psychologique, ni un outil de recrutement, ni une mesure de valeur professionnelle.</p>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <script src="questions.js"></script>
+    <script src="test-du-builder.js"></script>
+  </body>
+</html>

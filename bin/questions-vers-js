@@ -1,0 +1,133 @@
+#!/usr/bin/env python3
+"""Traduit le brouillon des questions en données pour le test.
+
+  bin/questions-vers-js
+
+Lit docs/questions-test-du-builder.md et écrit
+_brouillon/test-du-builder/questions.js.
+
+Le brouillon en prose est la source de vérité : c'est lui qu'on relit, qu'on
+fait noter et qu'on corrige. Le jour où les praticiens rendent leur notation,
+on change les valeurs dans le brouillon et on relance ce script. Personne ne
+tient deux listes à la main.
+"""
+
+import json
+import re
+import sys
+from pathlib import Path
+
+RACINE = Path(__file__).resolve().parent.parent
+SOURCE = RACINE / "docs" / "questions-test-du-builder.md"
+SORTIE = RACINE / "_brouillon" / "test-du-builder" / "questions.js"
+
+FACETTES = {
+    "ce que tu lances": "lance",
+    "ce que tu fermes": "ferme",
+    "ce que tu laisses": "laisse",
+}
+
+EN_TETE = """// Les questions du test du builder. Fichier produit, ne pas modifier ici.
+//
+//   source  : docs/questions-test-du-builder.md
+//   produit : bin/questions-vers-js
+//
+// Les valeurs sont provisoires tant que la notation par les praticiens n'a
+// pas eu lieu. L'ordre des options est celui du brouillon ; le test le tire
+// au hasard à l'affichage.
+"""
+
+
+def main():
+    texte = SOURCE.read_text(encoding="utf-8")
+    facette = None
+    etape_section = 0
+    questions = []
+
+    # Une question commence a `> **`. Le texte qui suit jusqu'au prochain
+    # titre porte la note d'etape des questions d'evenement.
+    for bloc in re.finditer(
+        r"^(?:# (?P<facette>.+)|## (?P<section>.+)|> \*\*(?P<enonce>.+?)\*\*\n(?P<corps>(?:>.*\n)*)(?P<notes>(?:(?!^#|^> ).*\n)*))",
+        texte,
+        flags=re.M,
+    ):
+        if bloc.group("facette"):
+            nom = bloc.group("facette").removeprefix("Facette : ").strip().lower()
+            facette = FACETTES.get(nom)
+            etape_section = 0
+            continue
+
+        if bloc.group("section"):
+            trouve = re.search(r"\(étape (\d+)\)", bloc.group("section"))
+            etape_section = int(trouve.group(1)) if trouve else 0
+            continue
+
+        if not facette:
+            continue
+
+        corps, notes = bloc.group("corps"), bloc.group("notes") or ""
+        options = [
+            {"t": t, "v": int(v)}
+            for t, v in re.findall(r"^> - (.+?) \*\((\d)\)\*$", corps, flags=re.M)
+        ]
+        type_q = "situation"
+        if not options:
+            options = [
+                {"t": t.strip(), "v": int(v)}
+                for t, v in re.findall(r"([^·>\n]+?) \*\((\d)\)\*", corps)
+            ]
+            type_q = "evenement"
+        if len(options) != 4:
+            continue  # la marge : pas de valeurs, pas de score
+
+        etape = etape_section
+        note = re.search(r"\*Étape (\d+)", notes)
+        if note:
+            etape = int(note.group(1))
+        elif re.search(r"\*Étape : aucune", notes):
+            etape = 0
+
+        questions.append(
+            {
+                "facette": facette,
+                "etape": etape,
+                "type": type_q,
+                "enonce": bloc.group("enonce").strip(),
+                "options": options,
+            }
+        )
+
+    compte = {}
+    for q in questions:
+        compte[q["facette"]] = compte.get(q["facette"], 0) + 1
+    if len(questions) != 36:
+        sys.exit(f"{len(questions)} questions notées trouvées, 36 attendues : {compte}")
+    for cle, n in compte.items():
+        if n != 12:
+            sys.exit(f"La facette {cle} porte {n} questions, 12 attendues.")
+
+    marge = [
+        {"enonce": e.strip(), "options": [o.strip() for o in o_.split(" · ")]}
+        for e, o_ in re.findall(
+            r"^> \*\*(.+?)\*\*\n>\n> ([^*\n]+·[^*\n]+)$", texte, flags=re.M
+        )
+    ]
+    if len(marge) != 4:
+        sys.exit(f"{len(marge)} questions de marge trouvées, 4 attendues.")
+
+    corps = json.dumps(questions, ensure_ascii=False, indent=2)
+    bord = json.dumps(marge, ensure_ascii=False, indent=2)
+    SORTIE.write_text(
+        f"{EN_TETE}\nwindow.QUESTIONS = {corps};\n\nwindow.MARGE = {bord};\n",
+        encoding="utf-8",
+    )
+    situations = sum(1 for q in questions if q["type"] == "situation")
+    print(
+        f"{SORTIE.relative_to(RACINE)} : {len(questions)} questions, "
+        f"{situations} situations, {len(questions) - situations} événements, "
+        f"{len(marge)} questions de marge, {compte}"
+    )
+
+
+if __name__ == "__main__":
+    main()
