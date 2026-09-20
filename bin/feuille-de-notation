@@ -1,0 +1,87 @@
+#!/usr/bin/env python3
+"""Sort la feuille de notation du test, sans les clés.
+
+  bin/feuille-de-notation
+
+Lit docs/questions-test-du-builder.md et écrit docs/questions-a-noter.md :
+les vingt-cinq situations, leurs options mélangées, sans les valeurs et sans
+les lignes « ce qui sépare ». Un praticien qui lit la réponse attendue avant
+de la donner ne note plus rien.
+
+Les questions d'événement ne sont pas dans la feuille : leur clé est
+mécanique, plus souvent vaut plus. Les questions de marge non plus, elles ne
+sont pas notées.
+
+Le mélange est tiré d'une graine stable par question. Relancer le script sur
+des questions inchangées redonne le même fichier, donc aucun bruit dans git.
+"""
+
+import random
+import re
+import zlib
+from pathlib import Path
+
+RACINE = Path(__file__).resolve().parent.parent
+SOURCE = RACINE / "docs" / "questions-test-du-builder.md"
+SORTIE = RACINE / "docs" / "questions-a-noter.md"
+
+EN_TETE = """# Feuille de notation du test du builder
+
+Merci. Ce qui suit est vingt-cinq situations de travail, chacune avec quatre
+réponses possibles. Elles sont mélangées.
+
+**Ce qu'on te demande.** Pour chaque situation, classe les quatre réponses en
+leur donnant 0, 1, 2 et 3, une valeur par réponse, sans ex aequo.
+
+**Le critère.** 3 va à la réponse qui laisse derrière elle le plus de travail
+capable de continuer sans son auteur : une décision prise ailleurs, une cause
+supprimée, une trace dont quelqu'un d'autre peut se servir. 0 va à celle qui
+laisse la situation entière, ou qui la règle d'une façon qui devra être
+refaite à l'identique la prochaine fois.
+
+**Ce qu'on ne te demande pas.** Ni ce que tu ferais, ni ce qui est réaliste
+dans ton entreprise. Ce qui est le plus efficace, dans la plupart des
+contextes.
+
+Plusieurs réponses sont raisonnables. C'est voulu : l'écart utile est entre la
+bonne et la presque bonne.
+
+Trois ou quatre personnes remplissent cette feuille chacune de son côté. La
+moyenne devient la clé du test.
+
+---
+
+"""
+
+
+def options(bloc):
+    return re.findall(r"^> - (.+?) \*\(\d\)\*$", bloc, flags=re.M)
+
+
+def main():
+    texte = SOURCE.read_text(encoding="utf-8")
+    blocs = re.split(r"^> \*\*", texte, flags=re.M)[1:]
+
+    lignes = [EN_TETE]
+    n = 0
+    for bloc in blocs:
+        choix = options(bloc)
+        if len(choix) != 4:  # événement ou question de marge
+            continue
+        n += 1
+        enonce = bloc.splitlines()[0].removesuffix("**")
+        melange = list(choix)
+        random.Random(zlib.crc32(enonce.encode("utf-8"))).shuffle(melange)
+        lignes.append(f"## {n}. {enonce}\n")
+        for reponse in melange:
+            lignes.append(f"- `[ ]` {reponse}")
+        lignes.append("")
+
+    lignes.append("---\n")
+    lignes.append(f"Fin. {n} situations.")
+    SORTIE.write_text("\n".join(lignes) + "\n", encoding="utf-8")
+    print(f"{SORTIE.relative_to(RACINE)} : {n} situations, options mélangées, sans clés.")
+
+
+if __name__ == "__main__":
+    main()
