@@ -237,10 +237,12 @@ qu'on peut défendre ses chiffres devant quelqu'un qui cherche la faute.
 - [ ] Faire noter les options par trois ou quatre praticiens, sur une version
       sans les valeurs ni les lignes « ce qui sépare ». Garder la moyenne.
       Tant que ce n'est pas fait, la clé est un avis, pas une clé.
-- [ ] Écrire les descriptions de zone, chacune passée au test de fausseté :
-      elle doit être fausse pour quelqu'un situé trente points plus loin.
-- [ ] Écrire l'épreuve d'absence, c'est-à-dire le texte qui traduit une bande
-      en ce qui s'arrêterait si le lecteur partait deux semaines.
+- [x] Écrire les quatre descriptions de zone, chacune passée au test de
+      fausseté : elle doit être fausse pour quelqu'un situé trente points plus
+      loin. Premier jet dans le moteur, en attente de la relecture d'auteur.
+- [x] Écrire l'épreuve d'absence, le texte qui traduit une bande en ce qui
+      s'arrêterait si le lecteur partait deux semaines. Une par zone, même
+      réserve.
 - [x] Refaire le calcul et l'affichage : trois facettes, ordre des options
       tiré au hasard, bande au lieu d'un score, citation des réponses du
       lecteur, plus de seuil. Fait dans `_brouillon/test-du-builder/`, que
