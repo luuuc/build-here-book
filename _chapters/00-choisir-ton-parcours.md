@@ -97,4 +97,4 @@ Tu vois la valeur de cette manière de travailler et tu veux lui donner plus de 
 
 ---
 
-Tu peux garder une carte pour plus tard et revenir à ces parcours quand ton besoin change. Pour une difficulté précise, consulte l'[index par situation](/chapters/a5-ce-qui-tagace-cette-semaine.html). Pour explorer tes habitudes à travers des situations de travail, le [test du builder](/) reste une autre entrée.
+Tu peux garder une carte pour plus tard et revenir à ces parcours quand ton besoin change. Pour une difficulté précise, consulte l'[index par situation](/chapters/a5-ce-qui-tagace-cette-semaine.html). Pour explorer une pratique à partir de situations que tu as rencontrées ou aimerais découvrir, les [questions facultatives](https://build-here.africa/) restent une autre entrée.

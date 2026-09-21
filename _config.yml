@@ -1,8 +1,8 @@
 title: Build Here
 description: >-
-  Bâtir là où tu es, pour que ça tienne sans toi. Dix étapes qui mesurent
-  une seule chose : combien de ta présence ton travail exige encore.
-  Où que tu sois, un builder est un builder.
+  Bâtir là où tu es, apprendre de ce que tu changes. Des pratiques pour commencer,
+  progresser, développer une équipe et soutenir des builders, avec des exemples
+  et des modèles à adapter à ta situation.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://build-here.africa" # the base hostname & protocol for your site
 
@@ -85,7 +85,7 @@ downloads:
 # Book metadata for AI parsing
 book:
   published: "2026-09-08"
-  modified: "2026-09-08"
+  modified: "2026-09-21"
   # Numero de secours, pour un tirage local. Le numero publie vient du tag :
   # .github/workflows/book.yml lit le plus haut tag et ajoute un au dernier
   # nombre, puis l'injecte dans le build.

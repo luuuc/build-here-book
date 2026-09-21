@@ -1,5 +1,9 @@
 # Feuille de notation du test du builder
 
+> **Archive de conception, remplacée le 21 septembre 2026.** Ce document conserve une proposition antérieure ; ses scores, classements, règles d'atelier et tâches à faire ne décrivent pas le livre ni le questionnaire actuels. Ne pas utiliser cette version pour évaluer des personnes ou préparer l'atelier. Voir la [méthode actuelle](../_chapters/a2-comment-fonctionne-le-test.md), le [guide d'atelier](../_chapters/00-faire-tourner-ca-dans-ton-equipe.md) et les [modèles de suivi](../_chapters/a9-modeles-pour-agir-et-revoir.md). Les fichiers de ce dossier sont exclus du site publié.
+
+---
+
 Merci. Ce qui suit est vingt-cinq situations de travail, chacune avec quatre
 réponses possibles. Elles sont mélangées.
 

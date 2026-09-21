@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Ce qui t'agace cette semaine"
-description: "L'index, par symptôme"
+description: "L'index, par situation"
 show_chapter_number: false
 part: "Annexes"
 # L'index est la ou on explore le livre. /explore y mene, et le filtre
@@ -19,128 +19,126 @@ categories:
   - methode
   - references
 seo:
-  description: "À gauche le passager qui parle, à droite la carte qui le conteste. Les quatre-vingt-cinq cartes du livre, rangées par symptôme."
+  description: "Des situations et des envies de progresser pour rejoindre les quatre-vingt-cinq cartes, sans jugement sur les personnes."
   keywords: "build here, annexes, builder, index, symptome, sommaire"
 ---
 
-Le mode d'emploi dit d'ouvrir le livre à l'étape qui correspond à ce qui t'agace cette semaine. Voilà cette liste, en clair.
+Cet index part de situations et d'envies de progresser. Une ligne propose une ou deux cartes pour examiner le sujet ; elle ne décrit pas une catégorie de personnes et ne suppose pas que le problème vient de toi.
 
-À gauche, c'est le passager qui parle : une phrase raisonnable, dite de bonne foi, ou une semaine qu'on vient de vivre. À droite, une carte, parfois deux, jamais dix, qui la conteste. Un index qui renvoie quarante cartes n'a rien trié.
+Tu peux chercher une difficulté, une force à approfondir ou un appui à proposer. Les quatre-vingt-cinq cartes sont accessibles ici, chacune au moins une fois, sans classement par importance ni ordre obligatoire.
 
-Les quatre-vingt-cinq cartes y sont, chacune au moins une fois. Aucun classement par importance, aucun ordre de lecture.
-
----
-
-## On exécute, et personne ne demande pourquoi
-
-- "C'est dans la spec, je construis."  →  [Clarifie le pourquoi avant de t'engager](/chapters/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html)
-- Le ticket est fini, et je n'ai partagé aucune de mes découvertes  →  [N'apporte pas la tâche. Apporte le problème](/chapters/03-01-napporte-pas-la-tache-apporte-le-probleme.html)
-- Un mot passe en réunion depuis des mois et personne n'ose demander ce qu'il veut dire  →  [Pose la question naïve tout de suite](/chapters/01-02-pose-la-question-naive-tout-de-suite.html)
-- Personne n'a jamais ouvert le code de ce dont le produit dépend  →  [Lis le code source](/chapters/02-02-lis-le-code-source.html) · [La curiosité est facturable](/chapters/01-01-la-curiosite-est-facturable.html)
-- Chacun reste dans son domaine, et personne ne voit les problèmes entre équipes  →  [Lis en dehors de ton couloir](/chapters/02-08-lis-en-dehors-de-ton-couloir.html)
-- On a corrigé le symptôme et on ne sait toujours pas pourquoi ça cassait  →  [Ne t'arrête pas à la première réponse](/chapters/02-06-ne-tarrete-pas-a-la-premiere-reponse.html)
-- Les questions qu'on me pose restent sans réponse, alors on a arrêté de m'en poser  →  [⇄ Donne une suite aux questions](/chapters/01-09-leader-personne-ne-demande-deux-fois.html)
-
-## Personne ne dit ce qu'il pense
-
-- On sait qu'une décision est fausse, et on continue parce qu'on a tranché  →  [Reviens sur une décision quand les faits changent](/chapters/01-04-avoir-tort-ne-coute-rien-le-rester-coute-cher.html)
-- On contredit dans le couloir, jamais dans la salle  →  [Respecte l'ancien. Conteste l'idée](/chapters/01-07-respecte-lancien-conteste-lidee.html)
-- Les revues de code sont devenues fluides, et le code moins bon  →  [Ton travail peut changer sans te remettre en cause](/chapters/01-06-ton-code-nest-pas-ton-bebe.html)
-- On improvise une réponse plausible au lieu de dire je ne sais pas  →  ["Je ne sais pas" est une réponse professionnelle](/chapters/01-05-je-ne-sais-pas-est-une-reponse-professionnelle.html)
-- La discussion s'arrête à la seconde où celui qui tranche exprime une préférence  →  [Trancher et avoir raison sont deux métiers différents](/chapters/03-05-trancher-et-avoir-raison-sont-deux-metiers-differents.html)
-- Signaler une erreur coûte quelque chose ici, et tout le monde l'a compris  →  [⇄ Protège le signalement des erreurs](/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html)
-- "Ma porte est ouverte", et personne n'entre  →  [⇄ Donne une suite réelle aux objections](/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html)
-
-## On livre, et rien ne change pour personne
-
-- Dix-huit tickets fermés, et rien qu'un client sache faire de neuf  →  [Le ticket n'est pas le travail](/chapters/03-02-le-ticket-nest-pas-le-travail.html)
-- On construit ce qui était dans un document validé il y a deux ans  →  [Valider une spec ne la rend pas juste](/chapters/05-04-valider-une-spec-ne-la-rend-pas-juste.html)
-- Six semaines de polissage, et personne à l'extérieur n'a encore vu l'écran  →  [Plus tu peaufines, plus il devient difficile de changer d'avis](/chapters/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html)
-- Un gros client a demandé une fonctionnalité précise, on l'a construite à la lettre  →  [Une demande de fonctionnalité n'est pas le problème](/chapters/04-02-une-demande-de-feature-nest-pas-le-probleme.html)
-- Personne dans la salle n'a parlé à un utilisateur ce mois-ci  →  [Parle à la personne qui a le problème](/chapters/04-01-parle-a-la-personne-qui-a-le-probleme.html)
-- Le support est piloté sur le temps de réponse, et les mêmes demandes reviennent toujours  →  [Apprends des demandes de support](/chapters/04-03-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html)
-- La démo s'ouvre sur l'architecture, et le client attend poliment  →  [Relie l'architecture à ce qu'elle rend possible](/chapters/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html)
-- Le product transcrit les demandes au lieu d'arbitrer  →  [Le rôle produit relie les demandes aux résultats](/chapters/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html) · [⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente](/chapters/03-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)
-- Un ingénieur qui veut vingt minutes avec un client doit passer par trois personnes  →  [⇄ Organise un accès utile aux retours du terrain](/chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html)
-- "Je lui ai envoyé la proposition", et personne ne sait s'il a répondu  →  [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
-- Chacun a fini sa partie et le dossier n'est jamais arrivé au bout  →  [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
-- C'est livré depuis six mois et personne ne sait si quelqu'un s'en sert  →  [Prévois quand vérifier le résultat](/chapters/06-02-reviens-voir-un-mois-plus-tard.html)
-- Le sujet est porté par six personnes et n'avance pas depuis trois mois  →  [Clarifie qui coordonne et qui décide](/chapters/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html)
-- "Le marché n'était pas prêt"  →  [Tire une leçon d'un résultat décevant](/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html)
-- Le point d'équipe ne contient que des tâches faites  →  [⇄ Relie la revue d'activité aux résultats](/chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html)
-
-## Tout arrive en retard, et personne ne sait où le temps est passé
-
-- Les retards se découvrent la veille de la démo  →  [Signale à temps ce qui change l'engagement](/chapters/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
-- On attend le collègue qui sait, et il revient la semaine prochaine  →  [Quand tu bloques, rends la suite explicite](/chapters/03-04-etre-bloque-est-une-decision.html)
-- On discute l'échéance au lieu de discuter le périmètre  →  [Rapide ne veut pas dire précipité](/chapters/05-02-rapide-ne-veut-pas-dire-precipite.html)
-- Le travail reste à l'abri jusqu'à ce qu'il soit prêt, donc on n'apprend rien  →  [Livrer permet d'apprendre](/chapters/05-01-shipper-cree-de-linformation.html)
-- Le système est devenu compliqué sans que personne l'ait décidé  →  [Faire simple est une performance technique](/chapters/02-01-faire-simple-est-une-performance-technique.html)
-- "Ce n'est pas dans mon périmètre", et le problème est là depuis deux ans  →  [Prends l'initiative, clarifie les limites](/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html)
-- Quelqu'un a pris une initiative utile et s'est fait reprendre sur la forme  →  [⇄ La première réaction fait la règle](/chapters/01-08-leader-la-premiere-reaction-fait-la-regle.html)
-- Je répète qu'il faut livrer plus petit et plus vite, et rien ne bouge  →  [⇄ Organise un rythme de livraison utile](/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html)
-- Supprimer du code ne rapporte rien ici, en ajouter oui  →  [⇄ Tu récoltes la complexité que tu récompenses](/chapters/02-11-leader-tu-recoltes-la-complexite-que-tu-recompenses.html)
-- La même manipulation est refaite à la main toutes les semaines  →  [La deuxième fois est une information](/chapters/07-01-la-deuxieme-fois-est-une-information.html)
-- On écrit une procédure pour une étape que personne ne sait expliquer  →  [Comprends l'étape avant de la simplifier](/chapters/07-02-supprime-letape-avant-de-la-documenter.html)
-- "Demande à Kofi, il sait"  →  [Prépare un relais pour les savoirs essentiels](/chapters/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html)
-- Une règle naît à chaque incident, et aucune n'est jamais retirée  →  [Tout ne mérite pas de devenir un processus](/chapters/07-04-tout-ne-merite-pas-de-devenir-un-processus.html)
-- Le processus est écrit, à jour, et personne ne le suit  →  [Le raccourci révèle un écart à comprendre](/chapters/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html)
-- On parle d'industrialiser depuis deux ans et ça n'arrive jamais  →  [⇄ Reconnais aussi le travail évité et le service préservé](/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
-
-## On ne progresse plus, et rien ne le signale
-
-- Le meilleur de l'équipe est devenu notre seule référence  →  [Cherche aussi des références ailleurs](/chapters/02-05-ton-meilleur-professeur-ne-travaille-pas-ici.html)
-- "Pour ce marché, c'est largement suffisant"  →  [Ton marché peut être local. Ton niveau, non](/chapters/02-09-ton-marche-peut-etre-local-ton-niveau-non.html)
-- "On n'a pas accès aux mêmes choses ici"  →  [Trouve un accès à ce qu'il te manque pour apprendre](/chapters/02-10-le-savoir-nest-pas-ce-qui-te-manque.html)
-- On dépend de projets ouverts dont personne n'a jamais lu les discussions  →  [L'open source est une salle de classe](/chapters/02-07-lopen-source-est-une-salle-de-classe.html)
-- Progresser se fait le soir, sur son temps à soi  →  [⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser](/chapters/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html)
-- Un arbitrage prudent a mal tourné et a été traité comme une faute  →  [Une bonne décision peut quand même mal tourner](/chapters/06-05-une-bonne-decision-peut-quand-meme-perdre.html)
-- La même plainte sur l'équipe revient depuis plus d'un an  →  [Examine les conditions de l'initiative](/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
-- "On a cherché, il n'y a personne de ce niveau ici"  →  [Le filtre que tu fais tourner](/chapters/09-02-le-filtre-que-tu-fais-tourner.html)
-- "Ça fait douze ans que je fais ce métier"  →  [Choisis ce que tu veux mieux maîtriser](/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html)
-- "Mon métier, ça s'apprend sur le terrain", et rien n'a jamais été lu dessus  →  [Ton métier a une littérature](/chapters/02-04-ton-metier-a-une-litterature.html)
-- Je découpe tout moi-même, et personne autour de moi n'apprend à poser un problème  →  [Confie un problème avec les appuis nécessaires](/chapters/09-03-confie-un-probleme-pas-une-tache.html)
-- Les relectures se résument à "c'est bon pour moi"  →  [Explique ce que ta relecture a vérifié](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html)
-- Je porte tous les sujets, parce que si ça rate c'est moi qu'on viendra voir  →  [Confie une décision dans un cadre clair](/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html)
-- "Si je transmets ce que je sais, je perds ce qui me rend utile ici"  →  [Prépare une relève sur un sujet](/chapters/09-06-rends-toi-remplacable-sur-un-sujet.html)
-
-## La technique et l'argent ne se parlent pas
-
-- Les décisions stratégiques arrivent en tickets, et le chiffrage vient après  →  [Ce qu'on sait construire décide ce qu'on peut vendre](/chapters/04-05-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html) · [⇄ Fais entrer le coût avant l'engagement](/chapters/04-12-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html)
-- On a choisi un fournisseur sans regarder ce que coûterait d'en sortir  →  [Choisir un fournisseur, c'est préparer aussi la sortie](/chapters/04-06-choisir-un-fournisseur-cest-signer-pour-trois-ans.html)
-- "Je ne suis pas technique, je fais confiance à l'équipe"  →  [La compréhension ne se délègue pas](/chapters/04-07-la-comprehension-ne-se-delegue-pas.html)
-- Le produit est bon et personne ne le trouve  →  [La distribution fait partie du produit](/chapters/04-08-la-distribution-fait-partie-du-produit.html) · [Prépare le lien avec tes premiers utilisateurs](/chapters/04-11-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html)
-- Le marketing arrive à la fin, pour rendre la chose présentable  →  [Le marketing n'est pas de la décoration](/chapters/04-09-le-marketing-nest-pas-de-la-decoration.html)
-- Notre première phrase parle de nous  →  [Parle du problème avant de parler de toi](/chapters/04-10-parle-du-probleme-avant-de-parler-de-toi.html)
-- On demande d'être plus visibles, et chaque heure prévue est consacrée à une fonctionnalité  →  [⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités](/chapters/04-14-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html)
-
-## On abat plus de travail et le volume ne baisse jamais
-
-- "On est débordés, il nous faut quelqu'un de plus"  →  [Regroupe les cas, puis vérifie les causes](/chapters/08-01-range-les-par-cause-pas-par-sujet.html)
-- "Chaque client est différent", et personne n'a jamais compté  →  [Regroupe les cas, puis vérifie les causes](/chapters/08-01-range-les-par-cause-pas-par-sujet.html)
-- On a mis de l'IA dessus et personne ne vérifie ce qui en sort  →  [L'IA est un levier, pas un raccourci](/chapters/08-02-lia-est-un-levier-pas-un-raccourci.html)
-- "Il nous faudrait un outil pour ça"  →  [Examine ce que tu as avant d'ajouter un outil](/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html)
-- On a automatisé, et la même erreur est partie quarante mille fois  →  [Un levier mal placé multiplie l'erreur](/chapters/08-04-un-levier-mal-place-multiplie-lerreur.html)
-- Celui qui supprime du travail arrive au point d'équipe avec rien à montrer  →  [⇄ Reconnais aussi le travail évité et le service préservé](/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
-
-## On est bons, et personne à l'extérieur ne le sait
-
-- Quinze ans de métier, et zéro trace que quelqu'un puisse ouvrir  →  [Rends les contributions identifiables](/chapters/10-01-mets-ton-nom-dessus.html) · [⇄ Donne des moyens à la transmission](/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
-- L'incident est réglé, tout le monde ici sait ce qui s'est passé, rien n'est écrit  →  [Écris ce qui a cassé](/chapters/07-06-ecris-ce-qui-a-casse.html)
-- La même question m'est posée en privé pour la troisième fois  →  [Rends une réponse utile retrouvable](/chapters/10-04-reponds-a-la-question-en-public.html)
-- "Je n'écris pas de code, je n'ai rien à publier"  →  [Une trace n'est pas forcément du code](/chapters/10-03-une-trace-nest-pas-forcement-du-code.html)
-- On publie, et personne n'arrive jamais dessus  →  [Place la ressource là où ses lecteurs cherchent](/chapters/10-05-publie-la-ou-on-cherche.html)
-- Plusieurs publications, aucun retour, on se demande si ça marche ici  →  [Place la ressource là où ses lecteurs cherchent](/chapters/10-05-publie-la-ou-on-cherche.html)
-- "Chez nous, on ne peut pas publier ce genre de chose"  →  [Ce que publier coûte vraiment](/chapters/10-06-ce-que-publier-coute-vraiment.html)
-- Ce que l'entreprise publie sort sous le logo, sans le nom de qui l'a fait  →  [⇄ Soutiens une visibilité choisie](/chapters/10-10-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
-- Ce qu'on sait faire n'est écrit nulle part, par personne  →  [Partage ce que ton contexte t'a appris](/chapters/10-07-personne-na-ecrit-ce-que-tu-sais-faire.html)
-- Publier ressemble à de l'auto-promotion, et ceux qui le font ne construisent rien  →  [Donne au lecteur de quoi examiner ton raisonnement](/chapters/10-02-un-avis-nest-pas-un-artefact.html)
-- Personne ne sait ce qu'on a le droit de publier, alors personne ne publie  →  [⇄ Clarifie les conditions du partage](/chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html)
-- "Je veux être payé à ma valeur"  →  [⇄ Relie la reconnaissance aux contributions réelles](/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
-- Ceux qui deviennent bons reçoivent une offre et partent  →  [Partir n'est pas une trahison](/chapters/10-08-partir-nest-pas-une-trahison.html)
+Pour un premier essai sans emploi ni équipe, pour approfondir une pratique, développer un groupe ou soutenir quelqu'un, les [quatre parcours](/chapters/00-choisir-ton-parcours.html) offrent aussi des entrées directes.
 
 ---
 
-Si rien ici ne ressemble à ta semaine, le [sommaire](/) est là pour ça.
+## Comprendre le problème et poser une question
 
-Si tu ne sais toujours pas où commencer, [le test du builder](/) transforme trente situations en un parcours de trois cartes.
+- Je veux préciser le problème derrière une demande  →  [Clarifie le pourquoi avant de t'engager](/chapters/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html)
+- Une découverte pendant le travail mérite d'être partagée  →  [N'apporte pas la tâche. Apporte le problème](/chapters/03-01-napporte-pas-la-tache-apporte-le-probleme.html)
+- J'ai besoin de clarifier un mot avant de décider  →  [Pose la question naïve tout de suite](/chapters/01-02-pose-la-question-naive-tout-de-suite.html)
+- Une dépendance logicielle mérite un examen plus précis  →  [Lis le code source](/chapters/02-02-lis-le-code-source.html) · [La curiosité est facturable](/chapters/01-01-la-curiosite-est-facturable.html)
+- Je veux comprendre un passage entre plusieurs métiers  →  [Lis en dehors de ton couloir](/chapters/02-08-lis-en-dehors-de-ton-couloir.html)
+- Une correction fonctionne, mais sa cause reste incertaine  →  [Ne t'arrête pas à la première réponse](/chapters/02-06-ne-tarrete-pas-a-la-premiere-reponse.html)
+- Je veux donner une suite visible aux questions reçues  →  [⇄ Donne une suite aux questions](/chapters/01-09-leader-personne-ne-demande-deux-fois.html)
+
+## Examiner un désaccord ou un retour
+
+- Un fait nouveau invite à revoir une décision  →  [Reviens sur une décision quand les faits changent](/chapters/01-04-avoir-tort-ne-coute-rien-le-rester-coute-cher.html)
+- Je cherche une manière d'examiner un désaccord avec une personne expérimentée  →  [Respecte l'ancien. Conteste l'idée](/chapters/01-07-respecte-lancien-conteste-lidee.html)
+- Je veux tirer davantage d'une relecture de mon travail  →  [Ton travail peut changer sans te remettre en cause](/chapters/01-06-ton-code-nest-pas-ton-bebe.html)
+- Je ne sais pas encore répondre et dois convenir d'une vérification  →  ["Je ne sais pas" est une réponse professionnelle](/chapters/01-05-je-ne-sais-pas-est-une-reponse-professionnelle.html)
+- Nous voulons clarifier qui contribue à la discussion et qui tranche  →  [Trancher et avoir raison sont deux métiers différents](/chapters/03-05-trancher-et-avoir-raison-sont-deux-metiers-differents.html)
+- Nous voulons faciliter le signalement des erreurs  →  [⇄ Protège le signalement des erreurs](/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html)
+- Je veux rendre les objections possibles et leur donner une suite  →  [⇄ Donne une suite réelle aux objections](/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html)
+
+## Relier le travail à ses effets
+
+- Nous terminons des tâches sans savoir ce qu'elles permettent  →  [Le ticket n'est pas le travail](/chapters/03-02-le-ticket-nest-pas-le-travail.html)
+- Une solution validée demande encore à être confrontée à l'usage  →  [Valider une spec ne la rend pas juste](/chapters/05-04-valider-une-spec-ne-la-rend-pas-juste.html)
+- Nous avons beaucoup préparé et peu de retours sur la solution  →  [Plus tu peaufines, plus il devient difficile de changer d'avis](/chapters/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html)
+- Une personne demande une solution précise ; son besoin reste à comprendre  →  [Une demande de fonctionnalité n'est pas le problème](/chapters/04-02-une-demande-de-feature-nest-pas-le-probleme.html)
+- Je veux apprendre d'une personne concernée par le problème  →  [Parle à la personne qui a le problème](/chapters/04-01-parle-a-la-personne-qui-a-le-probleme.html)
+- Des demandes de support peuvent éclairer une amélioration  →  [Apprends des demandes de support](/chapters/04-03-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html)
+- Je veux relier une explication technique aux besoins de mon interlocuteur  →  [Relie l'architecture à ce qu'elle rend possible](/chapters/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html)
+- Nous voulons mieux relier les demandes aux résultats attendus  →  [Le rôle produit relie les demandes aux résultats](/chapters/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html) · [⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente](/chapters/03-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)
+- Un accès au terrain manque pour éclairer le travail  →  [⇄ Organise un accès utile aux retours du terrain](/chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html)
+- J'ai transmis une proposition et dois clarifier qui reprend  →  [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
+- Plusieurs parties sont terminées, mais la suite du dossier reste incertaine  →  [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
+- Je veux savoir ce qu'un travail livré a changé  →  [Prévois quand vérifier le résultat](/chapters/06-02-reviens-voir-un-mois-plus-tard.html)
+- Nous devons clarifier la coordination et les décisions sur un sujet partagé  →  [Clarifie qui coordonne et qui décide](/chapters/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html)
+- Un résultat décevant mérite d'être examiné  →  [Tire une leçon d'un résultat décevant](/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html)
+- Nous voulons discuter les effets du travail, pas seulement les tâches faites  →  [⇄ Relie la revue d'activité aux résultats](/chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html)
+
+## Agir avec un périmètre et des appuis
+
+- Un changement menace un engagement et doit être signalé  →  [Signale à temps ce qui change l'engagement](/chapters/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
+- Je dépends d'une réponse ou d'un appui pour continuer  →  [Quand tu bloques, rends la suite explicite](/chapters/03-04-etre-bloque-est-une-decision.html)
+- Nous devons choisir ce qui peut attendre sans perdre les protections utiles  →  [Rapide ne veut pas dire précipité](/chapters/05-02-rapide-ne-veut-pas-dire-precipite.html)
+- Je cherche un essai limité qui permettrait d'apprendre  →  [Livrer permet d'apprendre](/chapters/05-01-shipper-cree-de-linformation.html)
+- Une façon de faire semble plus compliquée que nécessaire  →  [Faire simple est une performance technique](/chapters/02-01-faire-simple-est-une-performance-technique.html)
+- Je veux proposer une amélioration au-delà de mon périmètre habituel  →  [Prends l'initiative, clarifie les limites](/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html)
+- Je veux répondre à une initiative en clarifiant sa suite et ses limites  →  [⇄ La première réaction fait la règle](/chapters/01-08-leader-la-premiere-reaction-fait-la-regle.html)
+- Nous voulons faciliter des essais utiles dans le temps disponible  →  [⇄ Organise un rythme de livraison utile](/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html)
+- Nous voulons reconnaître aussi la simplification et la maintenance  →  [⇄ Tu récoltes la complexité que tu récompenses](/chapters/02-11-leader-tu-recoltes-la-complexite-que-tu-recompenses.html)
+- Une activité revient ; nous devons décider si un changement vaut l'effort  →  [La deuxième fois est une information](/chapters/07-01-la-deuxieme-fois-est-une-information.html)
+- Une étape est mal comprise et mérite une enquête avant modification  →  [Comprends l'étape avant de la simplifier](/chapters/07-02-supprime-letape-avant-de-la-documenter.html)
+- Je veux préparer un relais pour un savoir essentiel  →  [Prépare un relais pour les savoirs essentiels](/chapters/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html)
+- Nous voulons vérifier si une règle reste utile  →  [Tout ne mérite pas de devenir un processus](/chapters/07-04-tout-ne-merite-pas-de-devenir-un-processus.html)
+- Un raccourci mérite d'être compris avec les personnes concernées  →  [Le raccourci révèle un écart à comprendre](/chapters/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html)
+- Nous voulons reconnaître le travail évité et le service préservé  →  [⇄ Reconnais aussi le travail évité et le service préservé](/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
+
+## Apprendre et développer une force
+
+- Je veux compléter les repères disponibles autour de moi  →  [Cherche aussi des références ailleurs](/chapters/02-05-ton-meilleur-professeur-ne-travaille-pas-ici.html)
+- Je cherche des critères de qualité adaptés à l'usage, au-delà d'une comparaison locale  →  [Ton marché peut être local. Ton niveau, non](/chapters/02-09-ton-marche-peut-etre-local-ton-niveau-non.html)
+- Une ressource, une langue ou un accès me manque pour apprendre  →  [Trouve un accès à ce qu'il te manque pour apprendre](/chapters/02-10-le-savoir-nest-pas-ce-qui-te-manque.html)
+- Je veux apprendre d'un projet ouvert, avec un premier pas à ma portée  →  [L'open source est une salle de classe](/chapters/02-07-lopen-source-est-une-salle-de-classe.html)
+- Nous voulons prévoir l'apprentissage dans le temps disponible  →  [⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser](/chapters/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html)
+- Une décision prudente a mal tourné ; nous voulons comprendre pourquoi  →  [Une bonne décision peut quand même mal tourner](/chapters/06-05-une-bonne-decision-peut-quand-meme-perdre.html)
+- Je veux examiner les conditions qui permettraient davantage d'initiative  →  [Examine les conditions de l'initiative](/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
+- Nous voulons ouvrir le recrutement à d'autres preuves de capacité  →  [Le filtre que tu fais tourner](/chapters/09-02-le-filtre-que-tu-fais-tourner.html)
+- Je veux approfondir une compétence que j'utilise déjà  →  [Choisis ce que tu veux mieux maîtriser](/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html)
+- Je cherche des sources pour mieux comprendre mon métier  →  [Ton métier a une littérature](/chapters/02-04-ton-metier-a-une-litterature.html)
+- Je veux confier un problème avec le cadrage et l'aide nécessaires  →  [Confie un problème avec les appuis nécessaires](/chapters/09-03-confie-un-probleme-pas-une-tache.html)
+- Je veux expliquer ce que ma relecture a vérifié  →  [Explique ce que ta relecture a vérifié](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html)
+- Nous voulons répartir des décisions dans un cadre clair  →  [Confie une décision dans un cadre clair](/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html)
+- Je veux préparer une relève sans transmettre tout mon travail à la fois  →  [Prépare une relève sur un sujet](/chapters/09-06-rends-toi-remplacable-sur-un-sujet.html)
+
+## Relier les choix, les moyens et les destinataires
+
+- Nous voulons examiner capacités et coûts avant de prendre un engagement  →  [Ce qu'on sait construire décide ce qu'on peut vendre](/chapters/04-05-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html) · [⇄ Fais entrer le coût avant l'engagement](/chapters/04-12-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html)
+- Nous devons prévoir aussi la sortie d'un fournisseur  →  [Choisir un fournisseur, c'est préparer aussi la sortie](/chapters/04-06-choisir-un-fournisseur-cest-signer-pour-trois-ans.html)
+- Je veux comprendre assez un choix pour assumer ma part de décision  →  [La compréhension ne se délègue pas](/chapters/04-07-la-comprehension-ne-se-delegue-pas.html)
+- Je cherche comment les premiers destinataires trouveront une réalisation  →  [La distribution fait partie du produit](/chapters/04-08-la-distribution-fait-partie-du-produit.html) · [Prépare le lien avec tes premiers utilisateurs](/chapters/04-11-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html)
+- Nous voulons préparer la relation aux destinataires avant la fin du projet  →  [Le marketing n'est pas de la décoration](/chapters/04-09-le-marketing-nest-pas-de-la-decoration.html)
+- Je veux expliquer ce que ma proposition aide à faire  →  [Parle du problème avant de parler de toi](/chapters/04-10-parle-du-probleme-avant-de-parler-de-toi.html)
+- Nous devons réserver des moyens à l'accès et à l'adoption  →  [⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités](/chapters/04-14-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html)
+
+## Comparer les causes, les outils et les coûts
+
+- Nous voulons comprendre ce qui alimente la charge avant de choisir une réponse  →  [Regroupe les cas, puis vérifie les causes](/chapters/08-01-range-les-par-cause-pas-par-sujet.html)
+- Des demandes se ressemblent ; leur cause commune reste à vérifier  →  [Regroupe les cas, puis vérifie les causes](/chapters/08-01-range-les-par-cause-pas-par-sujet.html)
+- Je veux savoir comment vérifier une sortie d'IA, ou choisir une autre méthode  →  [L'IA est un levier, pas un raccourci](/chapters/08-02-lia-est-un-levier-pas-un-raccourci.html)
+- Je veux comparer un outil nouveau avec les ressources déjà disponibles  →  [Examine ce que tu as avant d'ajouter un outil](/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html)
+- Nous voulons garder les contrôles utiles avant d'amplifier une opération  →  [Un levier mal placé multiplie l'erreur](/chapters/08-04-un-levier-mal-place-multiplie-lerreur.html)
+- Nous voulons rendre visible une contribution de prévention ou de service  →  [⇄ Reconnais aussi le travail évité et le service préservé](/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
+
+## Transmettre, reconnaître et préparer la suite
+
+- Nous voulons rendre les contributions identifiables et soutenir leur transmission  →  [Rends les contributions identifiables](/chapters/10-01-mets-ton-nom-dessus.html) · [⇄ Donne des moyens à la transmission](/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
+- Un incident peut nous apprendre quelque chose à conserver  →  [Écris ce qui a cassé](/chapters/07-06-ecris-ce-qui-a-casse.html)
+- Je veux rendre une réponse utile retrouvable sans supprimer l'aide directe  →  [Rends une réponse utile retrouvable](/chapters/10-04-reponds-a-la-question-en-public.html)
+- Je cherche une forme de transmission adaptée à mon métier  →  [Une trace n'est pas forcément du code](/chapters/10-03-une-trace-nest-pas-forcement-du-code.html)
+- Une ressource utile reste difficile à trouver  →  [Place la ressource là où ses lecteurs cherchent](/chapters/10-05-publie-la-ou-on-cherche.html)
+- Nous voulons vérifier si une ressource aide ses destinataires  →  [Place la ressource là où ses lecteurs cherchent](/chapters/10-05-publie-la-ou-on-cherche.html)
+- Je veux examiner ce qui peut être partagé, avec quel coût et quels accords  →  [Ce que publier coûte vraiment](/chapters/10-06-ce-que-publier-coute-vraiment.html)
+- Nous voulons convenir d'une visibilité et d'une attribution choisies  →  [⇄ Soutiens une visibilité choisie](/chapters/10-10-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
+- Je veux partager un apprentissage situé, avec ses limites  →  [Partage ce que ton contexte t'a appris](/chapters/10-07-personne-na-ecrit-ce-que-tu-sais-faire.html)
+- Je veux donner au lecteur de quoi examiner mon raisonnement  →  [Donne au lecteur de quoi examiner ton raisonnement](/chapters/10-02-un-avis-nest-pas-un-artefact.html)
+- Nous voulons clarifier les conditions d'un partage interne ou public  →  [⇄ Clarifie les conditions du partage](/chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html)
+- Nous voulons relier la reconnaissance aux contributions réelles  →  [⇄ Relie la reconnaissance aux contributions réelles](/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
+- Un départ demande une passation limitée et acceptée  →  [Partir n'est pas une trahison](/chapters/10-08-partir-nest-pas-une-trahison.html)
+
+---
+
+Si aucune ligne ne correspond, ouvre le [sommaire complet](https://build-here.africa/livre/#sommaire). Les [questions facultatives du test](https://build-here.africa/) peuvent aussi t'aider à choisir une piste, sans score et sans devoir répondre aux trente questions.

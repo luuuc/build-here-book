@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Construire ici, et faire circuler ce qu’on apprend"
+title: "Construire ici, et faire circuler ce qu'on apprend"
 description: "Une chose utile, un apprentissage, une suite possible"
 show_chapter_number: false
 part: "Introduction"

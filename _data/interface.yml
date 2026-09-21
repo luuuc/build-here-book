@@ -27,7 +27,7 @@ lecture:
   garder: "Garder cette carte"
   retirer: "Retirer des gardées"
   # Le filtre de l'index par symptome.
-  filtre: "Filtrer par ce qui t'agace"
+  filtre: "Filtrer par situation"
   filtre_vide: "Rien ne correspond."
   types:
     principe: "Principe"
@@ -35,10 +35,10 @@ lecture:
     pratique: "Pratique"
     systeme: "Système"
   portees:
-    principe: "Portée : individuelle"
-    diagnostic: "Portée : individu ou équipe"
-    pratique: "Portée : individuelle"
-    systeme: "Portée : direction"
+    principe: "Portée : à adapter à ton périmètre"
+    diagnostic: "Portée : enquête individuelle ou partagée"
+    pratique: "Portée : à adapter à ton périmètre"
+    systeme: "Portée : autorité sur les conditions concernées"
 
 # La note d'une entree.
 #
@@ -85,7 +85,7 @@ commentaire:
   nom: "Ton nom"
   ville: "Ta ville, si tu veux"
   lien: "Un lien, si tu veux"
-  contact: "Pour que je puisse te répondre. Jamais affiché, jamais transmis."
+  contact: "Pour que je puisse te répondre. Ce contact n’est pas publié."
   mail: "Mail"
   whatsapp: "WhatsApp"
   envoyer: "Envoyer"

@@ -1,5 +1,9 @@
 # Le test du builder, refonte
 
+> **Archive de conception, remplacée le 21 septembre 2026.** Ce document conserve une proposition antérieure ; ses scores, classements, règles d'atelier et tâches à faire ne décrivent pas le livre ni le questionnaire actuels. Ne pas utiliser cette version pour évaluer des personnes ou préparer l'atelier. Voir la [méthode actuelle](../_chapters/a2-comment-fonctionne-le-test.md), le [guide d'atelier](../_chapters/00-faire-tourner-ca-dans-ton-equipe.md) et les [modèles de suivi](../_chapters/a9-modeles-pour-agir-et-revoir.md). Les fichiers de ce dossier sont exclus du site publié.
+
+---
+
 Note de conception. Elle décrit le test à construire, pas celui qui tourne
 aujourd'hui. L'annexe `a2-comment-fonctionne-le-test.md` décrit le test en
 ligne et devra être réécrite le jour où celui-ci le remplace, pas avant : le

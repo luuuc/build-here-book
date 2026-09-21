@@ -7,42 +7,38 @@ categories:
   - projet
   - open-source
 seo:
-  description: Ton travail vaut ce qu'il continue de produire quand tu n'es pas là. Une échelle en dix étapes, en accès libre, et un test pour trouver ta marche.
-  keywords: build here, à propos, licence creative commons, open source, ultimate builder test
+  description: Un livre ouvert pour commencer à construire, approfondir sa pratique, développer une équipe et soutenir des builders. Sources, retours et réutilisation.
+  keywords: build here, à propos, licence creative commons, open source, pratiques, apprentissage
 title: À propos
-description: Un livre ouvert, une échelle, un prochain mouvement
+description: Un livre ouvert pour apprendre à construire
 ---
 
-[Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Lis-le, prends-en des morceaux, adapte-le, partage-le. Cite la source et garde-le ouvert.
+Build Here aide à comprendre un problème, essayer une amélioration et apprendre de ce qu'elle change. Il s'adresse à ceux qui veulent commencer, aux builders qui souhaitent progresser, aux personnes qui développent une équipe et à celles qui veulent leur apporter un soutien concret.
 
-## Ce que c'est
+Tu peux pratiquer dans un métier, des études, une association ou un projet personnel. Aider directement, entretenir un service, faciliter un accès et transmettre un savoir sont aussi des façons de construire.
 
-Ton travail vaut ce qu'il continue de produire quand tu n'es pas là. Le livre est une échelle en dix étapes, de l'état d'esprit jusqu'à la référence, et elles mesurent une seule chose : combien de ta présence ton travail exige encore. Chacune s'appuie sur celles d'en dessous.
+## Trouver une lecture utile
 
-Des cartes de deux minutes, chacune tient seule, en quatre formes : principe, diagnostic, pratique et système. Aucune idée n'est nouvelle, et c'est le sujet : une grande partie de ce qui bloque une équipe a déjà été comprise ailleurs sans devenir la norme partout.
+Les [quatre parcours](/chapters/00-choisir-ton-parcours.html) donnent une entrée directe. Les cartes courtes se lisent indépendamment : principe, diagnostic, pratique ou système. Les dix capacités organisent le livre sans classer les personnes ni imposer une progression unique.
 
-Le livre s'ouvre sur [ce qu'il te demande](/chapters/00-arrete-de-le-faire-en-silence.html), puis l'[introduction](/chapters/00-introduction.html) explique comment s'en servir.
+Si tu ne sais pas encore quel sujet choisir, les [questions du test](/) sont facultatives. Tu peux explorer trois questions, choisir une force à approfondir ou une condition à clarifier, puis retenir une piste. Aucun score n'est calculé. Les réponses restent dans la mémoire de la page et ne sont pas envoyées au service d'évaluation ; copie la piste pour la conserver. La [méthode](/chapters/a2-comment-fonctionne-le-test.html) décrit les choix et les limites.
 
-## Trouver où commencer
+## Examiner les idées et les exemples
 
-[Le test du builder](/) présente trente situations de travail. Il ne donne pas un type de personnalité. Il identifie le dernier niveau dont les prérequis tiennent, la marche qui limite les suivantes et trois cartes à utiliser maintenant.
+Le livre rassemble des pratiques, des distinctions et des propositions à adapter. Il ne prétend pas avoir inventé chaque idée ni démontré une méthode universelle. La [bibliographie commentée](/chapters/a3-deja-ecrit.html) permet de retrouver les textes cités et d'examiner leurs apports et leurs limites.
 
-Le calcul se fait dans ton navigateur. Le serveur reçoit seulement la version du test, dix scores agrégés et les deux niveaux produits. Il ne reçoit ni les réponses individuelles, ni un nom, ni un contact, ni un identifiant stable.
+Les [formats de cartes](/chapters/a1-les-quatre-types-de-cartes.html) expliquent comment lire les conseils, leur portée et leurs exemples. Les cas construits ne sont pas des résultats observés sur le terrain. Une pratique utile dans un contexte peut demander un autre accord, plus de temps ou une autre démarche ailleurs.
 
-L'[annexe 1](/chapters/a1-les-quatre-types-de-cartes.html) décrit les quatre formats de cartes. L'[annexe 2](/chapters/a2-comment-fonctionne-le-test.html) documente le calcul et ses limites.
+## Faire un retour
 
-## Vérifier
+Sur une carte, « Ça t'a servi ? » permet de signaler ce qui aide ou ce qui manque. « En discuter » accueille une expérience, une question ou un désaccord, après relecture avant publication. Ces fonctions demandent JavaScript ; un compte GitHub n'est pas nécessaire pour les utiliser.
 
-L'[annexe 3](/chapters/a3-deja-ecrit.html) liste dix-huit titres, de 1911 à 2018, où tout ce que dit ce livre était déjà écrit et publié. La page existe pour qu'on n'ait pas à me croire sur parole.
+Donne le titre ou le lien de la carte, le passage concerné et ce que ton contexte change. Un contre-exemple précis aide autant qu'une correction. Évite d'inclure des informations que tu n'as pas le droit de partager.
 
-## Construit en public
+Tu peux aussi me contacter sur [LinkedIn](https://www.linkedin.com/in/{{ site.author.linkedin }}), notamment si les formulaires ne fonctionnent pas. Si tu utilises GitHub, les [tickets](https://github.com/{{ site.repository }}/issues) et [discussions](https://github.com/{{ site.repository }}/discussions) restent ouverts. Pour proposer une traduction, un échange préalable peut éviter de dupliquer un travail déjà engagé.
 
-Jekyll. GitHub Pages. Cloudflare Workers et D1 pour les interactions. [Le source est ici](https://github.com/{{ site.repository }}).
+## Réutiliser et adapter
 
-Une coquille ou un bug ? [Ouvre un ticket](https://github.com/{{ site.repository }}/issues).
-Un désaccord avec une carte ? [Ouvre une discussion](https://github.com/{{ site.repository }}/discussions).
-Envie de le traduire ? Dis-le d'abord, qu'on ne le fasse pas deux fois.
+Le livre est sous [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Tu peux le partager et l'adapter, y compris pour un atelier, selon les conditions de cette licence : indique la source et les modifications, et partage les adaptations sous la même licence. Le [texte de référence](/cc-by-sa-licence.md) reste accessible.
 
-## Contact
-
-[LinkedIn](https://www.linkedin.com/in/{{ site.author.linkedin }})
+Le [dépôt source](https://github.com/{{ site.repository }}) contient le texte, le site et les outils de vérification. Il sert aussi à proposer une correction ou une adaptation. Les informations techniques pour construire le site et les éditions sont dans son README.

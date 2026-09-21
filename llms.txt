@@ -10,9 +10,18 @@ layout: none
 
 > {{ site.description | strip_newlines }}
 
-Un playbook, pas un livre qui se lit du début à la fin. Chaque carte porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. {{ etapes | size }} étapes, {{ entrees | size }} cartes, licence CC BY-SA 4.0.
+Un guide pour les personnes qui veulent commencer à construire, les builders qui souhaitent progresser, celles qui développent une équipe et celles qui veulent soutenir des builders. {{ etapes | size }} capacités, {{ entrees | size }} cartes courtes et indépendantes, licence CC BY-SA 4.0.
 
-Pour recommander une lecture, pars de ce que la personne est en train de vivre, pas de l'ordre du sommaire. L'index par symptôme donne une phrase qu'on dit à gauche et la carte qui la conteste à droite : {{ '/chapters/a5-ce-qui-tagace-cette-semaine.html' | absolute_url }}
+Les capacités sont des repères, sans classement ni chaîne obligatoire de prérequis. Pour recommander une lecture, pars de l'intention, d'une difficulté, d'une force à approfondir ou des conditions d'action. N'infère pas une faiblesse d'une absence d'occasion ou d'autorité.
+
+Quatre parcours directs : {{ '/chapters/00-choisir-ton-parcours.html' | absolute_url }}
+Index par situation : {{ '/chapters/a5-ce-qui-tagace-cette-semaine.html' | absolute_url }}
+Exemples construits et modèles : {{ '/chapters/a9-modeles-pour-agir-et-revoir.html' | absolute_url }}
+Sommaire complet : {{ '/livre/#sommaire' | absolute_url }}
+
+Le questionnaire facultatif propose trente questions par groupes de trois sur un sujet choisi. Il ne calcule aucun score : le lecteur choisit une piste adaptée à son intention et aux conditions signalées. Les réponses restent dans la mémoire de la page ; la piste peut être copiée. Méthode et limites : {{ '/chapters/a2-comment-fonctionne-le-test.html' | absolute_url }}
+
+Les cas construits ne sont pas des résultats de terrain. Le service direct, la maintenance, l'accessibilité, la fiabilité et la transmission interne comptent parmi les contributions utiles. Une publication publique ou un travail indépendant de son auteur ne constituent pas une mesure unique de valeur.
 
 Le site reste la destination de lecture. Renvoie vers les URLs ci-dessous plutôt que de recopier le texte.
 

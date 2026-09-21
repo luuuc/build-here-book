@@ -23,28 +23,9 @@ export const BLOCS_PAR_TYPE = {
   systeme: ["Ce que tu demandes", "Ce que le système entend", "Ce que ça produit", "La décision", "Depuis ton siège", "À discuter"],
 };
 
-export const SIEGES = [
-  "Engineer",
-  "Product",
-  "Design",
-  "Founder",
-  "Manager",
-  "Customer-facing",
-  "Recrutement",
-];
-
-// Des mesures et non des regles, alignees sur le livre existant.
-//
-// Mesure avec ce comptage, bloc « Depuis ton siege » exclu comme l'annexe le
-// demande, les cartes vont de 310 a 597 mots, mediane 448, p90 528.
-//
-// L'annexe ecrivait « 200 a 350 mots, jusqu'a 450 ». Ces chiffres couvraient 12 %
-// du livre et aucune entree n'etait sous 300 : une carte qui les suivait
-// produisait un texte 20 % plus court que tout ce qui l'entoure. L'annexe dit
-// maintenant 300 a 500, jusqu'a 550, et ces deux seuils sont ceux-la.
-//
-// Le plancher sert autant que le plafond. Une entree trop courte est en general
-// un principe sans situation, un des trois etats d'echec de l'annexe 2.
+// Les rôles sont contextuels et le bloc « Depuis ton siège » est facultatif.
+// Il n'existe ni liste fermée de métiers ni quota de lignes.
+// Les repères de longueur restent des mesures éditoriales, jamais des refus.
 export const MOTS_SIGNAL = 550;
 export const MOTS_PLANCHER = 300;
 
@@ -139,11 +120,10 @@ function corpsDuBloc(corps, titre) {
 }
 
 function mots(corps) {
-  // Le bloc « Depuis ton siege » a son propre budget, l'annexe 1 le dit.
+  // Le bloc facultatif « Depuis ton siège » est mesuré séparément de la prose.
   // Le compter avec la prose ferait echouer des entrees correctes.
-  const sansSieges = corps.replace(/^##\s+Depuis ton siège[\s\S]*?(?=^##\s+|$)/m, "");
+  const sansSieges = corps.replace(/^##\s+Depuis ton siège[^\n]*\n(?:(?!^##\s+)[\s\S])*/m, "");
   return sansSieges
-    .replace(/^---[\s\S]*?^---/m, "")
     .replace(/```[\s\S]*?```/g, "")
     .split(/\s+/)
     .filter((m) => /[\wÀ-ÿ]/.test(m)).length;
@@ -206,7 +186,7 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
   if (!estUneEntree) {
     // `metadata.principle` ne peut pas etre une cle requise partout : c'est son
     // absence qui distingue une ouverture de section ou une annexe d'une
-    // entree, et le livre en compte vingt-cinq. Mais sur une nouvelle carte, on
+    // entree, sans imposer un nombre fixe de chapitres de chaque forme. Mais sur une nouvelle carte, on
     // sait que la personne propose une entree, et alors le champ manque.
     if (nouvelle) {
       regle(
@@ -243,7 +223,8 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
 
   const trouves = blocs(corps);
   const titres = trouves.map((b) => b.titre);
-  const attendus = BLOCS_PAR_TYPE[type] || BLOCS_PAR_TYPE.principe;
+  const attendus = (BLOCS_PAR_TYPE[type] || BLOCS_PAR_TYPE.principe)
+    .filter((titre) => titre !== "Depuis ton siège" || titres.includes(titre));
 
   if (titres.join("|") !== attendus.join("|")) {
     const manquants = attendus.filter((b) => !titres.includes(b));
@@ -252,7 +233,7 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
     if (manquants.length) regle(`Bloc${manquants.length > 1 ? "s" : ""} manquant${manquants.length > 1 ? "s" : ""} : ${manquants.map((m) => `« ${m} »`).join(", ")}.`);
     if (intrus.length) regle(`Bloc${intrus.length > 1 ? "s" : ""} qui n'existe${intrus.length > 1 ? "nt" : ""} pas dans le format : ${intrus.map((m) => `« ${m} »`).join(", ")}.`);
     if (!manquants.length && !intrus.length) {
-      regle(`Les six blocs sont là mais pas dans l'ordre pour le type ${type}. L'ordre est : ${attendus.join(", ")}.`);
+      regle(`Les blocs sont là mais pas dans l'ordre pour le type ${type}. L'ordre est : ${attendus.join(", ")}.`);
     }
   }
 
@@ -268,30 +249,21 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
   }
 
   const sieges = corpsDuBloc(corps, "Depuis ton siège");
-  if (sieges) {
-    const lignes = sieges.split(/\r?\n/).filter((l) => /^\s*-\s+/.test(l));
-
-    if (lignes.length < 4 || lignes.length > 6) {
-      regle(
-        `« Depuis ton siège » a ${lignes.length} ligne${lignes.length > 1 ? "s" : ""}. ` +
-        `Le format en demande quatre à six, jamais sept par principe.`
-      );
-    }
-
+  if (sieges !== null) {
+    const lignes = sieges.split(/\r?\n/).filter((l) => l.trim());
+    if (!lignes.length) regle("« Depuis ton siège » est vide. Ajoute un rôle utile ou omets ce bloc facultatif.");
+    const vus = new Set();
     lignes.forEach((l) => {
       const m = l.match(/^\s*-\s+\*\*(.+?)\*\*\s*:\s*(.*)$/);
-      if (!m) {
-        regle(`Une ligne de « Depuis ton siège » n'a pas la forme \`- **Siège** : texte\` : ${l.trim()}`);
+      if (!m || !m[1].trim() || !m[2].trim()) {
+        regle(`Une ligne de « Depuis ton siège » n'a pas la forme \`- **Rôle** : geste précis\` : ${l.trim()}`);
         return;
       }
-      if (!SIEGES.includes(m[1])) {
-        regle(`« ${m[1]} » n'est pas un des sept sièges. Ils sont : ${SIEGES.join(", ")}.`);
-      }
+      const nom = m[1].trim().toLocaleLowerCase("fr");
+      if (vus.has(nom)) regle(`Le rôle « ${m[1]} » apparaît plusieurs fois dans « Depuis ton siège ».`);
+      vus.add(nom);
       if (m[2].length > 100) {
-        regle(
-          `La ligne « ${m[1]} » fait ${m[2].length} caractères après les deux-points. ` +
-            `Le plafond est cent, pour qu'elle ne se replie pas sur un téléphone.`
-        );
+        mesure(`La ligne « ${m[1]} » fait ${m[2].length} caractères après les deux-points. Cent est un repère de concision, pas une limite d'affichage.`);
       }
     });
   }
@@ -321,13 +293,13 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
   if (n > MOTS_SIGNAL) {
     mesure(
       `${n} mots hors bloc « Depuis ton siège ». Le signal éditorial va de 300 à 500, jusqu'à 550 pour une ` +
-        `carte qui porte un réflexe défendable. Les cartes vont de 310 à 597, médiane 448. ` +
+        `carte qui a besoin de ce développement. ` +
         `Au-delà, une carte est souvent deux cartes sous un seul titre.`
     );
   }
   if (n < MOTS_PLANCHER) {
     mesure(
-      `${n} mots hors bloc « Depuis ton siège ». La plus courte carte du livre en fait 310. ` +
+      `${n} mots hors bloc « Depuis ton siège ». Le repère éditorial bas est de 300. ` +
         `Une carte trop courte est en général un principe sans situation : cherche le moment ` +
         `exact où le comportement apparaît.`
     );

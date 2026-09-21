@@ -51,7 +51,7 @@ Puis reviens à l'heure convenue avec la réponse ou l'état de la recherche et 
 - **Ingénierie** : une estimation lâchée sous pression devient une date dans un plan. Donne la source avec.
 - **Fondateur** : tiens compte du décalage horaire du fournisseur avant de promettre une réponse.
 - **Management** : ce qui arrive à celui qui dit je ne sais pas décide si tu entendras encore la phrase.
-- **Relation client** : je vérifie et je te réponds à telle heure bat toujours une réponse plausible.
+- **Relation client** : annonce ce que tu peux vérifier et un délai réaliste de retour.
 - **Recrutement** : demande ce que le candidat sait et comment il vérifierait le reste.
 
 ## À discuter

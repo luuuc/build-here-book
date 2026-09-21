@@ -5,44 +5,52 @@ permalink: /livre/
 
 categories:
   - builders
-  - tech
+  - pratiques
 
 seo:
-  description: "Build Here, le playbook des builders. Dix étapes et quatre-vingt-cinq cartes qui mesurent une seule chose : combien de ta présence ton travail exige encore."
+  description: "Build Here : des pratiques pour commencer, progresser, développer une équipe et soutenir des builders. Cartes, exemples et modèles en accès libre."
   keywords: build here, livre, builders, ingénierie logicielle, produit, ownership, leadership, guide pratique
 
 title: Le livre
-description: Bâtir là où tu es, pour que ça tienne sans toi
+description: Comprendre, essayer, observer et apprendre
 ---
 
-<img
-  src="/assets/images/couverture.png"
-  alt="Couverture de Build Here"
-  class="book-cover"
-  width="1200"
-  height="1800"
-/>
+<img src="/assets/images/couverture.png" alt="Couverture de Build Here" class="book-cover" width="1200" height="1800" />
 
-# Le playbook des builders
+## Le playbook des builders
 
-> Ton travail vaut ce qu'il continue de produire quand tu n'es pas là. Les dix étapes mesurent une seule chose : combien de ta présence il exige encore.
+Un builder cherche à améliorer concrètement une situation, observe ce que son action produit et apprend pour la suite. Tu peux commencer sans titre, sans équipe et sans réalisation publique. Si tu construis déjà, le livre aide aussi à approfondir ce qui fonctionne.
 
 {% assign entrees = site.chapters | where_exp: "c", "c.metadata.principle" %}
 {% assign etapes = site.chapters | where_exp: "c", "c.step_number" %}
 
-{{ etapes | size }} étapes, {{ entrees | size }} cartes. Tu en appliques déjà une partie sans les avoir nommées. D'autres vont te contredire, et c'est le but. [Le test du builder](/) repère la marche qui limite les suivantes et te donne un parcours de trois cartes.
+{{ etapes | size }} capacités, {{ entrees | size }} cartes courtes. Chacune se lit indépendamment et propose une situation, un raisonnement et une action à adapter. Les étapes du sommaire sont des repères de lecture, sans classement ni prérequis obligatoires.
 
-Pour toi, pour ton équipe, pour ceux que tu formes. Tout est là, en accès libre. Et rien de ce que le livre demande n'attend un budget, une réorganisation, un meilleur employeur ou la permission de qui que ce soit. Ça commence là où tu es, avec ce que tu as sous la main.
-
-<br>
-Une carte, deux minutes, une idée qui tient seule.
-
-<a class="cta-button" href="/chapters/00-introduction.html">Commencer la lecture →</a>
+L'utilité peut être un service rendu, un risque réduit, une exploration, une fiabilité préservée ou un savoir transmis. Faire continuer un travail sans son auteur est une contribution parmi ces autres formes.
 
 ## Choisir ton parcours
 
-Trois cartes et un premier essai selon ce que tu veux faire maintenant. Tu peux entrer directement dans le livre par l'un de ces parcours.
+Trois cartes et un premier essai selon ce que tu veux faire maintenant :
 
 {% include parcours.html %}
 
-Tu as déjà une difficulté précise en tête ? L'[index par situation](/chapters/a5-ce-qui-tagace-cette-semaine.html) te mène aux cartes concernées.
+Une situation précise en tête ? L'[index par situation](/chapters/a5-ce-qui-tagace-cette-semaine.html) mène directement aux cartes concernées. Pour explorer sans besoin déjà défini, les [questions facultatives du test](/) aident à choisir une piste, sans score. Tu peux aussi [commencer par l'introduction](/chapters/00-introduction.html).
+
+## Passer de la lecture à un essai
+
+Choisis une seule pratique. Précise ce que tu peux essayer, les accords ou appuis nécessaires, le temps disponible et le travail que cet effort déplace. Le livre n'exige pas de compenser seul une condition manquante.
+
+Les [exemples et modèles](/chapters/a9-modeles-pour-agir-et-revoir.html) montrent comment préparer un essai, observer un résultat et convenir d'une fin ou d'un relais. Les cas sont construits ; ils illustrent une démarche, sans promettre le même résultat chez toi.
+
+Pour un groupe, le [guide d'atelier](/chapters/00-faire-tourner-ca-dans-ton-equipe.html) propose une séance volontaire et un retour adapté. Un supporter peut apporter une relecture, du temps ou un accès convenu, sans diriger le travail.
+
+## Lire, emporter, adapter
+
+Le livre est en accès libre. Tu peux lire ici, [télécharger le PDF]({{ site.downloads.pdf }}) ou [l'EPUB]({{ site.downloads.epub }}). Les téléchargements correspondent à la dernière édition publiée.
+
+La [page À propos](/a-propos/) explique comment faire un retour, retrouver les sources et réutiliser le contenu.
+
+## Sommaire
+{: #sommaire }
+
+{% include sommaire-livre.html %}

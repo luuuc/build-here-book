@@ -23,7 +23,7 @@
              toute la ligne, a toutes les largeurs. -->
         <div class="chapter-number{% if page.card_type %} chapter-number--{{ page.card_type }}{% endif %}">
           {% if page.step_number %}
-          <span>Étape {{page.step_number}}</span>
+          <span>Capacité {{page.step_number}}</span>
           {% else %}
           {% unless page.part == page.title %}<span>{{page.part}}</span>{% endunless %}
           {% endif %}

@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Les quatre types de cartes"
-description: "Une même exigence, quatre mouvements"
+description: "Quatre usages, une même attention au contexte"
 show_chapter_number: false
 part: "Annexes"
 order: 1201
@@ -12,102 +12,89 @@ categories:
   - methode
   - formats
 seo:
-  description: "Principe, diagnostic, pratique et système : quatre façons de rendre visible la même posture, celle dont rien ne continue quand elle n'est plus là."
+  description: "Principe, diagnostic, pratique et système : comprendre les cartes, leurs conditions, leurs exemples et leurs limites, sans classer les personnes."
   keywords: "build here, cartes, principe, diagnostic, pratique, système"
 redirect_from:
   - /chapters/a1-comment-ecrire-une-entree.html
 ---
 
-Toutes les idées ne demandent pas le même mouvement. Une croyance à corriger, un problème à reconnaître, une méthode à appliquer et une condition à changer ne devraient pas forcer le lecteur dans le même couloir.
+Une idée à examiner, un problème à comprendre, un geste à essayer et une condition à rendre possible n'appellent pas la même lecture. Le livre utilise quatre types de cartes pour rendre ces différences visibles.
 
-Le livre utilise donc quatre types de cartes. Le type n'est pas une catégorie de sujet. Il dit ce que la carte doit produire chez celui qui la lit.
-
----
+Le type indique l'usage proposé. Il ne classe ni les sujets ni les lecteurs, et aucune carte n'exige que tu aies lu les précédentes.
 
 ## Principe
 
-Un principe remplace un réflexe plausible mais coûteux par une règle plus solide. Il explique le mécanisme, pas seulement la morale.
+Un principe examine un réflexe plausible, en explique les limites et propose une autre manière de juger la situation.
 
-**Mouvement :** je croyais ceci, je vois maintenant pourquoi cela produit cet effet, j'agis autrement.
+**Mouvement :** je comprends ce que ce réflexe permet, ce qu'il peut coûter et quand il serait utile d'en changer.
 
-Il porte en général le réflexe, le réflexe builder, la raison, une action et une discussion. C'est le format d'origine du livre et il reste le plus fréquent.
-
-Le bloc *Le réflexe* est le passager qui parle. La phrase entre guillemets est toujours raisonnable et toujours dite de bonne foi, et c'est ce qui la rend difficile à refuser.
+Le bloc *Le réflexe* donne un point de départ, pas la parole à une catégorie de personnes. Une même réaction peut être adaptée à un contexte et coûteuse dans un autre. Lis les conditions avec le conseil.
 
 ## Diagnostic
 
-Un diagnostic aide à reconnaître un problème avant d'essayer de le résoudre. Il part d'un symptôme observable, distingue plusieurs causes possibles et donne une façon de vérifier laquelle est présente.
+Un diagnostic aide à reconnaître une situation avant de choisir une solution. Il distingue des explications possibles et propose ce qu'il faudrait observer pour les départager.
 
-**Mouvement :** ce que je prenais pour le problème était seulement sa trace.
+**Mouvement :** je vérifie mon interprétation au lieu de déduire trop vite une cause ou une intention.
 
-Une bonne carte diagnostic ne prescrit pas la même solution à tous. Elle rend la situation assez nette pour décider.
+Ce n'est pas un diagnostic sur une personne. Une absence de pratique peut venir d'une occasion manquante, d'un accès fermé ou d'un accord qui n'existe pas encore.
 
 ## Pratique
 
-Une pratique donne un geste répétable : quand l'utiliser, comment commencer, ce qu'un exemple concret montre et où se trouvent les garde-fous.
+Une pratique donne un geste à adapter : un point de départ, une manière d'essayer, des limites et un retour à organiser.
 
-**Mouvement :** je peux essayer cela cette semaine et savoir si je l'ai réellement fait.
+**Mouvement :** je peux préparer ou essayer ce geste dans mon périmètre, puis examiner ce qu'il change.
 
-Une pratique n'est pas une checklist universelle. Elle dit aussi quand elle ne s'applique pas et ce qu'elle peut casser si on la suit mécaniquement.
+Faire le geste ne suffit pas à démontrer son utilité. Une observation peut conduire à le modifier, le réduire ou l'abandonner. Une première préparation sur un exemple construit peut aussi être une étape utile.
 
 ## Système
 
-Une carte système s'adresse à qui fixe les conditions : fondateur, manager, responsable de fonction ou toute personne qui décide des règles, du temps et des récompenses. La marque ⇄ la rend visible dans le livre.
+Une carte système porte la marque ⇄. Elle examine les conditions qui permettent d'agir : temps, accès, appui, priorités, règles ou reconnaissance.
 
-**Mouvement :** ce que je demande et ce que mon environnement rend rationnel se contredisent. Je change une condition et je mesure ce qu'elle produit.
+**Mouvement :** je regarde ce qui aide ou empêche la pratique, puis je propose une condition à améliorer avec les personnes qui peuvent en décider.
 
-Elle ne demande pas aux individus de compenser une organisation qui les punit quand ils obéissent.
-
----
-
-## Où se tient le passager
-
-Le livre nomme une posture plutôt qu'un rang : le passager, celui dont rien ne continue quand il n'est plus là. Chaque type la rend visible autrement. Le principe lui donne la parole. Le diagnostic montre ce qu'elle laisse derrière elle, un symptôme qu'on prend pour le problème. La pratique donne le geste qui en sort. Le système décrit les conditions qui la rendent rationnelle, et celui qui les fixe peut être passager de son propre système.
-
-La posture n'est jamais une personne. Une carte qui range quelqu'un dans une catégorie a manqué sa cible, quel que soit son type.
-
----
+La carte peut servir à une personne qui fixe ces conditions, à un groupe qui en discute ou à quelqu'un qui prépare une demande. Elle n'autorise pas chaque lecteur à modifier seul une règle. Soutenir l'apprentissage peut aussi consister à financer un créneau, ouvrir un accès limité ou déplacer une priorité.
 
 ## Le contrat commun
 
-Quel que soit son type, une carte tient sur six exigences.
+Quel que soit son type, une carte doit permettre d'examiner six points :
 
-1. Une idée centrale, sans « et aussi ».
-2. Une scène ou un comportement observable.
-3. Un mécanisme qui explique l'effet.
-4. Une décision ou une action possible sans réorganisation.
-5. Une garde contre le détournement le plus probable.
-6. Une question qui produit des réponses différentes dans une équipe.
+1. Une situation reconnaissable, sans supposer un défaut chez le lecteur.
+2. Une idée et un mécanisme compréhensibles.
+3. Une action ou une demande adaptée aux possibilités du lecteur.
+4. Les accords, appuis, coûts et limites qui comptent pour cette action.
+5. Un fait à observer et une décision de suite, y compris arrêter ou passer la main.
+6. Une discussion sur des pratiques ou des conditions, sans classer les collègues.
 
-Le bloc *Depuis ton siège* n'est pas un exercice d'exhaustivité. Un siège apparaît seulement si la carte y change la décision, l'information disponible ou le risque porté. Reformuler le principe avec un autre nom de métier ne compte pas ; mieux vaut une ligne absente qu'une traduction décorative.
+Ces points traversent le texte. Ils ne constituent ni une preuve que la pratique fonctionnera ni une checklist à imposer à chaque situation.
+
+## Depuis ton siège
+
+Ce bloc est facultatif. Il apparaît quand plusieurs rôles changent réellement l'information disponible, la décision à prendre ou le risque porté. Finance, opérations, vente, soutien associatif, apprentissage et fonctions techniques peuvent y figurer selon le sujet. Il n'existe ni liste fermée de métiers ni nombre de lignes à atteindre.
+
+Une ligne utile propose un geste propre à ce rôle. Répéter le titre avec un autre métier n'aide pas : mieux vaut omettre cette ligne, ou le bloc entier. Le rôle peut être temporaire et ne suppose pas un poste dans une entreprise.
 
 ## Qui peut agir
 
-Le bandeau de chaque carte annonce sa portée. **Individuelle** signifie que tu peux tenter le geste sans nouvelle autorité. **Individu ou équipe** signifie que l'enquête peut commencer seul mais que la décision peut demander un accord. **Direction** signifie que la carte porte sur une règle, du temps, de l'argent, un droit d'accès ou une récompense que tout le monde ne peut pas modifier.
+Le bandeau indique une portée à préciser dans ta situation. Une enquête peut commencer individuellement alors que l'essai demande un accord. Une décision sur du temps collectif, un accès ou une règle exige l'autorité correspondante. Certaines cartes donnent une portée plus précise que le libellé général de leur type.
 
-Ce marquage n'est pas une permission déguisée. Une action individuelle peut rester dangereuse dans une organisation qui punit le désaccord. Dans ce cas, l'action juste est parfois de chercher un allié, de demander une frontière écrite ou de ne pas agir. Une carte qui ignore ce coût est incomplète.
+Ce bandeau ne vaut pas autorisation. Même une question simple peut être difficile à poser dans certains environnements. Chercher un allié disponible, demander un cadre ou suspendre la démarche peut être plus adapté. Les cartes ne demandent pas de compenser seul ces conditions.
 
 ## D'où viennent les exemples
 
-Le livre suit quatre conventions de provenance.
+Les scènes construites illustrent un raisonnement. Leurs personnes, événements et chiffres ne constituent pas des résultats de terrain. Elles sont signalées comme exemples ; une scène sans source ne doit pas être citée comme une étude de cas réelle.
 
-- Une scène sans nom est un exemple construit à partir de situations de travail répétées. Elle montre un mécanisme ; elle ne prétend pas documenter un cas précis.
-- Une phrase à la première personne rapporte l'expérience de l'auteur, avec les limites de mémoire que cela implique.
-- Un nom, un titre ou une note désigne une source que le lecteur peut retrouver.
-- Un nombre rond sert à rendre un calcul visible. Il est illustratif sauf si sa source ou sa mesure est donnée dans la même carte.
+Un récit à la première personne appartient à l'expérience rapportée par l'auteur, avec ses limites. Un texte ou une étude attribués peuvent être retrouvés par leur référence. Les nombres illustratifs doivent être distingués des mesures dont la méthode est donnée. Un constat qualitatif peut être utile sans chiffre.
 
-Une proposition générale sans source reste une hypothèse à essayer. Sa formulation peut être ferme ; son statut ne change pas pour autant. Le résultat observé après l'essai compte davantage que le ton de la phrase.
+Les cartes proposent des hypothèses et des pratiques à examiner. Les sources éclairent certains raisonnements ; elles ne valident pas automatiquement le conseil dans ton contexte. Les [repères bibliographiques](/chapters/a3-deja-ecrit.html) rendent ces rapprochements inspectables.
 
 ## Les mots importés
 
-**Builder** désigne ici une personne qui améliore concrètement ce qu'elle touche, quel que soit son métier. Ce n'est ni un titre ni un rang.
+**Builder** désigne une personne qui cherche à améliorer concrètement une situation et apprend de ce qu'elle observe. Ce n'est ni un titre ni un rang.
 
-**Produit** désigne la fonction produit : comprendre le problème, choisir ce qui ne sera pas fait et relier l'usage à une décision. Il ne désigne pas seulement un product manager.
+**Produit** peut désigner une fonction qui relie besoins, usages et décisions. Le mot ne suppose pas toujours un poste de product manager ; le contexte de la carte précise de quoi il s'agit.
 
-**Ownership** signifie suivre une décision jusqu'à son résultat, apprendre de ce qui arrive et rendre les passations explicites. Il ne signifie ni tout faire soi-même, ni accepter une responsabilité sans autorité, ni offrir du travail hors contrat.
+**Ownership** signifie rendre le suivi du résultat et les passations explicites. Cela inclut demander de l'aide, ajuster un engagement, convenir d'une fin ou d'un relais. Cela ne signifie ni tout contrôler ni accepter une responsabilité sans moyens.
 
-**Référence** désigne un travail dont d'autres peuvent vérifier et réutiliser la méthode. Elle ne suppose ni audience, ni célébrité, ni publication permanente.
+**Référence** désigne ici ce dont d'autres peuvent apprendre : une méthode expliquée, un exemple, une ressource ou une pratique transmise. Sa valeur ne dépend pas nécessairement d'une publication publique.
 
-Le bloc « Depuis ton siège » reste disponible quand plusieurs fonctions voient réellement autre chose dans la même situation. Il disparaît quand il ne ferait que répéter le titre avec cinq objets différents.
-
-Le type sert le rythme, pas la décoration. La typographie, la voix et la durée restent celles du même livre.
+Pour choisir une première lecture, les [quatre parcours](/chapters/00-choisir-ton-parcours.html) donnent des entrées selon ton intention. Les cartes sont des supports de jugement, pas des étiquettes à appliquer aux personnes.

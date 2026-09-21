@@ -11,7 +11,7 @@ redirect_from:
 
 categories:
   - builders
-  - tech
+  - pratiques
 
 seo:
   description: Choisis une pratique à explorer selon ton intention, ton expérience et tes conditions. Des questions facultatives, une piste à adapter et le livre en accès libre.
@@ -61,9 +61,9 @@ description: Des questions facultatives pour choisir une pratique, trois cartes 
       {% assign etapes = site.chapters | where_exp: "c", "c.step_number" %}
       {% assign entrees = site.chapters | where_exp: "c", "c.metadata.principle" %}
       <h2>Le builder mindset se cultive dans ce que tu fais</h2>
-      <p>Un builder prend un problème au sérieux et cherche comment le résoudre. Il fait un premier pas, confronte son idée au réel et améliore ce qu’il construit. Tu peux développer cette manière de faire dans ton métier, un projet personnel ou une équipe.</p>
-      <p>Le support qui transforme des questions récurrentes en un guide utile construit. Le commercial qui trouve une approche que ses collègues peuvent reprendre construit aussi. Le code est une façon de construire parmi d’autres.</p>
-      <p>{{ etapes | size }} étapes, {{ entrees | size }} cartes, une idée par carte, deux minutes chacune. Si tu débutes, tu trouveras des pratiques pour te lancer. Si tu construis déjà, tu pourras mettre des mots sur tes réflexes, les questionner et les transmettre. Chaque carte te propose quelque chose à essayer dans ta situation.</p>
+      <p>Un builder prend un problème au sérieux et cherche comment le résoudre. Il fait un premier pas, confronte son idée au réel et améliore ce qu'il construit. Tu peux développer cette manière de faire dans ton métier, tes études, une association, un projet personnel ou une équipe.</p>
+      <p>Une personne qui facilite l'accueil d'une association construit. Une équipe qui préserve un service fiable ou améliore une passation construit aussi. Comprendre, entretenir, rendre accessible et transmettre comptent autant que créer une nouveauté. Le code est une façon de construire parmi d'autres.</p>
+      <p>{{ etapes | size }} capacités, {{ entrees | size }} cartes courtes à lire indépendamment. Si tu débutes, choisis un premier essai. Si tu construis déjà, pars d'une difficulté ou d'une force à approfondir. L'ordre du livre est un repère, pas un classement. Chaque carte aide à adapter une pratique au temps, aux appuis et aux accords dont tu disposes.</p>
       <p>Choisis une entrée selon ce que tu veux faire maintenant :</p>
       {% include parcours.html %}
       <a class="landing-cta landing-cta--calme" href="/livre/">Ouvrir le livre →</a>
@@ -73,9 +73,9 @@ description: Des questions facultatives pour choisir une pratique, trois cartes 
   <section class="landing-bloc landing-bloc--shell">
     <div class="landing-wrap">
       <h2>Faire grandir le builder mindset dans ton équipe</h2>
-      <p>Tu vois ce que des builders peuvent apporter et tu veux développer cette manière de travailler autour de toi. Le livre propose un format pour commencer : trente minutes par semaine pendant six semaines. À chaque séance, une carte, une discussion sur votre travail et une décision écrite, avec un nom et une date.</p>
-      <p>Choisissez un sujet sur lequel vous pouvez agir ensemble. Essayez votre décision dans la semaine, puis revenez sur ce qu’elle a changé. Vous construisez ainsi des habitudes communes à partir de votre expérience.</p>
-      <p>Si tu diriges l’équipe, commence par une carte qui concerne tes propres décisions. Partage ce que tu vas essayer et invite l’équipe à te faire un retour. Tu donnes à chacun un exemple concret de la pratique que vous cherchez à développer.</p>
+      <p>Tu veux développer cette manière de travailler autour de toi. Commencez par une carte et une situation que les participants souhaitent examiner. Le livre propose une séance de trente minutes, à adapter, puis un retour au moment utile. Chacun peut passer ou contribuer par écrit.</p>
+      <p>Choisissez une difficulté ou une pratique qui fonctionne déjà. Clarifiez le temps à réserver, ce qu'il déplace et les accords nécessaires. Convenez d'un essai limité et de ce que vous regarderez ensuite. Demander un appui, réduire la proposition ou la suspendre sont aussi des suites possibles.</p>
+      <p>Tu peux contribuer comme pair, responsable ou soutien extérieur. Si tu décides du temps ou des moyens, rends cet appui concret. Sinon, propose une aide précise, avec l'accord des personnes concernées et une fin convenue. Le parcours pour soutenir des builders ne demande pas de passer le test.</p>
       <a class="landing-cta landing-cta--calme" href="/chapters/00-faire-tourner-ca-dans-ton-equipe.html">Faire tourner ça dans ton équipe →</a>
     </div>
   </section>
