@@ -11,7 +11,9 @@ Le livre et le test du builder restent utilisables sans le Worker. Le calcul du 
 | `POST /note` | Retour structuré sur l'utilité d'une carte |
 | `GET /commentaires?page=` | Commentaires publiés d'une carte |
 | `POST /commentaire` | Commentaire envoyé en modération |
-| `POST /evaluation` | Résumé anonyme d'un test du builder terminé |
+| `POST /evaluation` | Ancien résumé à scores, version 1 uniquement |
+
+Le questionnaire actuel ne transmet plus d'évaluation. Les données et écrans ci-dessous concernent uniquement l'ancien questionnaire à scores (version 1), conservé pour compatibilité et consultation historique. Aucun résultat actuel ne doit être comparé à ces niveaux.
 
 `POST /evaluation` accepte une version, dix scores entiers de 0 à 100, le dernier niveau dont les prérequis tiennent et le prochain niveau. Il ne reçoit ni les réponses individuelles, ni contact, ni texte libre, ni identifiant stable.
 
@@ -21,7 +23,7 @@ Le livre et le test du builder restent utilisables sans le Worker. Le calcul du 
 
 - `/admin/commentaires` et les actions publier/refuser ;
 - `/admin/notes` pour le retour éditorial ;
-- `/admin/evaluations` pour la distribution agrégée du test.
+- `/admin/evaluations` pour la distribution historique agrégée de la version 1.
 
 La politique Cloudflare Access sur `api.build-here.africa/admin` est obligatoire. Le Worker vérifie aussi l'en-tête d'identité et l'origine des requêtes d'écriture.
 

@@ -1,32 +1,142 @@
 #!/usr/bin/env node
-// Controle le contrat statique du test sans navigateur.
-// Le test vit sur la page d'accueil : index.md porte son balisage.
-
+// Vérifie les règles réelles du questionnaire et les références du build choisi.
+import assert from "node:assert/strict";
+import { createRequire } from "node:module";
 import { readFileSync, existsSync } from "node:fs";
-import { join } from "node:path";
-
-const racine = new URL("..", import.meta.url).pathname;
-const script = readFileSync(join(racine, "assets/javascripts/test-builder.js"), "utf8");
-const page = readFileSync(join(racine, "index.md"), "utf8");
-
-const debut = script.indexOf("const questions = [");
-const fin = script.indexOf("\n  ];", debut);
-const questions = script.slice(debut, fin).match(/^    \[\d+,"/gm) || [];
-if (questions.length !== 30) throw new Error(`${questions.length} questions trouvées, 30 attendues.`);
-
-for (let n = 1; n <= 10; n++) {
-  const compte = (script.slice(debut, fin).match(new RegExp(`^    \\[${n},`, "gm")) || []).length;
-  if (compte !== 3) throw new Error(`L'étape ${n} porte ${compte} questions, 3 attendues.`);
-}
-
-const liens = [...script.matchAll(/"(\/chapters\/[^"?]+\.html)"/g)].map((m) => m[1]);
-for (const lien of liens) {
-  const rendu = join(racine, "_site", lien.replace(/^\//, ""));
-  if (!existsSync(rendu)) throw new Error(`Carte recommandée introuvable dans le build : ${lien}`);
-}
-
-for (const marqueur of ["data-test-start", "data-test-question", "data-result-route", "data-test-restart"]) {
-  if (!page.includes(marqueur)) throw new Error(`Marqueur d'interface absent : ${marqueur}`);
-}
-
-console.log(`Test du builder valide : 30 situations, 10 étapes, ${liens.length} recommandations résolues.`);
+import { resolve, join } from "node:path";
+import { fileURLToPath } from "node:url";
+const require = createRequire(import.meta.url);
+const model = require("../assets/javascripts/test-builder-model.js");
+const root = fileURLToPath(new URL("..", import.meta.url));
+const destination = resolve(process.argv[2] || join(root, "_site"));
+let checks = 0;
+function check(name, run) { run(); checks++; }
+const start = (intent = "start") => model.setIntent(model.initialState(), intent);
+const fill = (mode) => model.questions.reduce((s, q) => model.answer(s, q.id, mode), start());
+check("30 questions uniques et 10 capacités indépendantes", () => {
+  assert.equal(model.questions.length, 30);
+  assert.equal(new Set(model.questions.map((q) => q.id)).size, 30);
+  assert.equal(model.capabilities.length, 10);
+  for (const c of model.capabilities) assert.equal(model.questions.filter((q) => q.capabilityId === c.id).length, 3);
+});
+check("Aucune déduction en absence de réponse ou de sujet pertinent", () => {
+  for (const state of [start(), fill("skip"), fill("outside")]) {
+    assert.deepEqual(model.candidates(state), []);
+    assert.equal(model.plan(state), null);
+  }
+});
+check("Aucune sélection automatique ni classement", () => {
+  for (const mode of model.modes) {
+    const state = fill(mode);
+    assert.equal(model.candidates(state).length, 30);
+    assert.equal(model.plan(state), null);
+    const result = model.plan(model.select(state, model.candidates(state)[29]));
+    assert.match(result.title, /La référence/);
+    assert.equal(Boolean(result.appui), mode === "deepen");
+    assert.doesNotMatch(result.title + result.reason, /niveau|%|maîtris|première marche/);
+  }
+});
+check("Trois premiers essais sans faux appui", () => {
+  let s = start();
+  for (const q of model.questions.slice(0, 3)) s = model.answer(s, q.id, "discover");
+  const p = model.plan(model.select(s, model.candidates(s)[0]));
+  assert.equal(p.appui, null);
+  assert.match(p.fields[1][1], /exemple construit/);
+  assert.match(p.resources[0].title, /premier essai/);
+});
+check("Besoins mixtes conservés, aucun prérequis", () => {
+  let s = model.answer(start(), "mindset-1", "revisit");
+  s = model.answer(s, "mindset-2", "deepen");
+  s = model.answer(s, "mindset-3", "blocked");
+  s = model.answer(s, "reference-3", "deepen");
+  assert.equal(model.candidates(s).length, 4);
+  const p = model.plan(model.select(s, model.candidates(s)[3]));
+  assert.match(p.appui, /ressource ou une explication/);
+});
+check("Conditions facultatives, multiples et nettoyées", () => {
+  let s = model.answer(start("support"), "leadership-1", "blocked");
+  const choose = (s) => model.plan(model.select(s, model.candidates(s)[0]));
+  assert.match(choose(s).fields[3][1], /clarifier/);
+  s = model.answer(s, "leadership-1", "blocked", ["time", "authority", "time", "invalid"]);
+  assert.deepEqual(s.answers["leadership-1"].conditions, ["time", "authority"]);
+  const p = choose(s);
+  assert.match(p.fields[3][1], /Temps ou priorité/);
+  assert.match(p.fields[3][1], /Accord ou droit de décision/);
+  assert.match(p.fields[2][1], /dans tes moyens/);
+  assert.equal(p.cards[0].url, model.capabilities.find((c) => c.id === "leadership").cards[2].url);
+  s = model.select(s, model.candidates(s)[0]);
+  s = model.answer(s, "leadership-1", "deepen");
+  assert.deepEqual(s.answers["leadership-1"].conditions, []);
+  assert.equal(model.plan(s), null);
+});
+check("160 combinaisons directes capacité, mode, intention", () => {
+  for (const intent of model.intentions) for (const c of model.capabilities) for (const mode of model.modes) {
+    const p = model.plan(model.select(start(intent.id), { capabilityId: c.id, mode }));
+    assert.match(p.reason, /sans déduction/);
+    assert.equal(p.cards.length, 3);
+    assert.equal(p.fields.length, 7);
+    assert.equal(p.intent, intent.label);
+    assert.equal(p.appui, null);
+    assert(p.resources.some((r) => r.url === intent.resource.url));
+    if (mode === "discover") assert(p.resources.some((r) => /a6-/.test(r.url)));
+  }
+});
+check("Changement d'intention et recommencement", () => {
+  let s = model.answer(start(), "craft-1", "deepen");
+  s = model.select(s, model.candidates(s)[0]);
+  s = model.setIntent(s, "team");
+  assert.equal(model.plan(s), null);
+  assert.equal(model.candidates(s).length, 1);
+  const p = model.plan(model.select(s, model.candidates(s)[0]));
+  assert.match(p.fields[2][1], /participants volontaires/);
+  assert.equal(model.initialState().intent, null);
+  assert.deepEqual(model.initialState().answers, {});
+});
+check("Le choix manuel ne reprend pas des conditions d'un autre exemple", () => {
+  const s = model.answer(start(), "craft-1", "blocked", ["time"]);
+  const p = model.plan(model.select(s, { capabilityId: "reference", mode: "blocked" }));
+  assert.doesNotMatch(p.fields[3][1], /Temps ou priorité/);
+});
+check("Copie complète et limitée à la piste retenue", () => {
+  let s = model.answer(start("support"), "leadership-1", "blocked", ["access"]);
+  s = model.answer(s, "craft-2", "revisit");
+  const p = model.plan(model.select(s, model.candidates(s).find((c) => c.questionId === "leadership-1")));
+  const copy = model.copyText(p, "https://example.test");
+  for (const [title, value] of p.fields) { assert(copy.includes(title)); assert(copy.includes(value)); }
+  for (const card of [...p.cards, ...p.resources]) assert(copy.includes(`https://example.test${card.url}`));
+  assert(copy.includes(p.reason));
+  assert.doesNotMatch(copy, /Repense à une méthode que tu as apprise/);
+});
+check("Ancienne sélection invalidée quand une réponse change", () => {
+  let s = model.answer(start(), "mindset-1", "revisit");
+  const candidate = model.candidates(s)[0];
+  s = model.select(s, candidate);
+  s = model.answer(s, "mindset-1", "outside");
+  assert.equal(model.plan(s), null);
+  assert.throws(() => model.select(s, candidate));
+});
+const source = (file) => readFileSync(join(root, file), "utf8");
+check("Titres, types et URL des recommandations", () => {
+  for (const c of model.capabilities) for (const card of c.cards) {
+    const md = source(`_chapters/${card.url.split("/").pop().replace(/\.html$/, ".md")}`);
+    assert.equal(md.match(/^title: "(.*)"$/m)?.[1], card.title);
+    assert.equal(md.match(/^card_type: (.*)$/m)?.[1], card.type);
+    assert(existsSync(join(destination, card.url)), card.url);
+  }
+  for (const intent of model.intentions) {
+    const p = model.plan(model.select(start(intent.id), { capabilityId: "reference", mode: "discover" }));
+    for (const r of p.resources) assert(existsSync(join(destination, r.url)), r.url);
+    const route = readFileSync(join(destination, "chapters/00-choisir-ton-parcours.html"), "utf8");
+    assert(route.includes(`id="parcours-${intent.anchor}"`));
+  }
+});
+check("Aucun calcul historique, envoi ou stockage persistant dans le questionnaire", () => {
+  const js = source("assets/javascripts/test-builder.js") + source("assets/javascripts/test-builder-model.js");
+  assert.doesNotMatch(js, /\bfetch\s*\(|XMLHttpRequest|sendBeacon|\.setItem\s*\(|sessionStorage|\breached\b|\bscores\b/);
+  assert.match(js, /removeItem\("build-here:test-builder"\)/);
+  const page = readFileSync(join(destination, "index.html"), "utf8");
+  assert(page.indexOf('src="/assets/javascripts/test-builder-model.js"') < page.indexOf('src="/assets/javascripts/test-builder.js"'));
+  assert.doesNotMatch(page, /data-api="[^"]*evaluation|data-result-scale|57\s*%/);
+  assert.match(page, /data-test-start(?:="")? hidden/);
+});
+console.log(`Questionnaire valide : ${checks} groupes de vérifications, dont 160 combinaisons ; liens vérifiés dans ${destination}.`);

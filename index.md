@@ -14,86 +14,46 @@ categories:
   - tech
 
 seo:
-  description: Trente situations, dix minutes. Que tu commences ou que tu construises depuis des années, le test du builder t'aide à repérer tes points d'appui et une pratique à développer cette semaine. Le playbook complet est en accès libre.
+  description: Choisis une pratique à explorer selon ton intention, ton expérience et tes conditions. Des questions facultatives, une piste à adapter et le livre en accès libre.
   keywords: test du builder, build here, livre, équipe, builders, ownership, autonomie, leadership
 
 # Le titre ne s'affiche pas sur la page : le layout `landing` n'a pas de
 # bandeau de titre. Il sert a l'onglet, aux moteurs et au partage.
 title: Le test du builder
-description: Trente situations, dix minutes. Tu repars avec tes points d'appui, une pratique à développer et trois cartes pour passer à l'action cette semaine.
+description: Des questions facultatives pour choisir une pratique, trois cartes et une suite adaptée à ta situation, sans score ni classement.
 ---
 
-<section class="builder-test" data-builder-test data-api="https://api.build-here.africa/evaluation">
-
-  <!-- L'ouverture disparait quand le test demarre : on ne repond pas a trente
-       situations avec une page de presentation sous les pieds. -->
+<section class="builder-test" data-builder-test>
   <div data-test-intro>
     <div class="landing-hero">
       <div class="landing-wrap">
-        <p class="landing-eyebrow">Le test du builder · 30 situations · 10 minutes · sans compte</p>
-        <h1 class="landing-quote">Tu veux construire quelque chose qui compte. Quel est ton prochain pas ?</h1>
-        <p class="landing-lede">Passer d’une idée à quelque chose d’utile. Comprendre ce qui manque, essayer, apprendre et améliorer. Que tu commences ou que tu construises depuis des années, ce test t’aide à repérer tes points d’appui et une pratique à développer cette semaine.</p>
-        <button type="button" class="landing-cta" data-test-start>Passer le test</button>
-        <p class="landing-fineprint"><a href="/chapters/00-choisir-ton-parcours.html">Choisir un parcours de lecture →</a></p>
-        <p class="landing-fineprint">Pars de ce que tu fais aujourd’hui, même sur de petits projets. Tes réponses te proposent une piste à explorer et trois cartes pour passer à l’action. Elles restent dans ce navigateur ; seul un résumé anonyme est transmis pour améliorer les questions. <a href="/chapters/a2-comment-fonctionne-le-test.html">Découvrir comment fonctionne le test</a>.</p>
+        <p class="landing-eyebrow">Le test du builder · sans compte · à ton rythme</p>
+        <h1 class="landing-quote">Choisis une pratique à explorer</h1>
+        <p class="landing-lede">Pars d'une situation vécue, d'une force à approfondir ou d'un premier essai. Ces questions t'aident à choisir une lecture et une suite possible. Elles ne mesurent pas ton niveau de builder.</p>
+        <button type="button" class="landing-cta" data-test-start hidden>Explorer les questions</button>
+        <p>Tu peux explorer trois questions sur un sujet, passer une question ou choisir directement ton parcours.</p>
+        {% include parcours.html %}
+        <p class="landing-fineprint">Tes réponses restent dans la mémoire de cette page et ne sont pas envoyées au service d'évaluation. Elles disparaissent quand tu quittes ou recharges la page. Copie ta piste pour la garder. <a href="/chapters/a2-comment-fonctionne-le-test.html">Découvrir comment fonctionne le test</a>.</p>
       </div>
     </div>
   </div>
-
   <div class="landing-wrap">
-    <div class="builder-test-run" data-test-run hidden>
-      <div class="builder-test-progress" aria-live="polite">
-        <span data-test-count></span>
-        <span class="builder-test-progress-track" aria-hidden="true"><span data-test-progress></span></span>
-      </div>
-      <p class="builder-test-stage" data-test-stage></p>
-      <h2 data-test-question tabindex="-1"></h2>
-      <div class="builder-test-answers" data-test-answers></div>
-      <div class="builder-test-nav">
-        <button type="button" data-test-back>Précédente</button>
-        <button type="button" data-test-next disabled>Suivante</button>
-      </div>
+    <div class="builder-test-workspace" data-test-workspace hidden>
+      <nav class="builder-test-actions" aria-label="Navigation du questionnaire">
+        <button type="button" data-test-intent>Changer d'intention</button>
+        <button type="button" data-test-topics>Explorer une autre capacité</button>
+        <button type="button" data-test-pistes>Voir mes pistes</button>
+        <button type="button" data-test-restart>Recommencer</button>
+      </nav>
+      <p><a href="/chapters/00-choisir-ton-parcours.html" data-test-direct>Choisir directement mon parcours →</a></p>
+      <p data-test-context></p>
+      <div data-test-screen></div>
     </div>
-
-    <section class="builder-test-result" data-test-result hidden aria-live="polite">
-      <p class="builder-test-eyebrow">Ton résultat</p>
-      <h2 data-result-title></h2>
-      <p class="builder-test-lede" data-result-summary></p>
-
-      <div class="builder-test-result-grid">
-        <div>
-          <h3>Ton appui</h3>
-          <p data-result-strength></p>
-        </div>
-        <div>
-          <h3>Ta prochaine pratique</h3>
-          <p data-result-next></p>
-        </div>
-      </div>
-
-      <div class="builder-test-scale" data-result-scale aria-label="Résultat par étape"></div>
-
-      <h3>Ton parcours maintenant</h3>
-      <div class="builder-test-route" data-result-route></div>
-
-      <div class="builder-test-practice">
-        <h3>Cette semaine</h3>
-        <p data-result-practice></p>
-      </div>
-
-      <div class="builder-test-actions">
-        <button type="button" class="builder-test-primary" data-test-restart>Repasser le test</button>
-        <button type="button" data-test-copy>Copier mon résultat</button>
-      </div>
-      <p class="builder-test-disclaimer">Ce résultat est une piste de réflexion à confronter à ton expérience, pas une note sur tes capacités.</p>
-    </section>
-
-    <noscript><p>Le test a besoin de JavaScript pour calculer ton parcours. Le livre reste entièrement lisible sans lui.</p></noscript>
+    <noscript><p>Les questions interactives demandent JavaScript. Les quatre parcours de lecture et le livre restent entièrement accessibles par les liens ci-dessus.</p></noscript>
   </div>
 </section>
 
-<!-- Les deux bandes qui suivent sortent aussi pendant le test. Le script les
-     remet en place quand le resultat s'affiche. -->
+<!-- La présentation du livre revient avec la piste choisie. -->
 <div data-test-landing>
 
   <section class="landing-bloc">

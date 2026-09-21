@@ -21,7 +21,7 @@ main{max-width:1100px;margin:0 auto;padding:1.5rem}.etat{color:var(--ambre);font
 <nav aria-label="Sections">
   <button data-tab="commentaires" aria-pressed="true">Commentaires</button>
   <button data-tab="notes" aria-pressed="false">Notes</button>
-  <button data-tab="evaluations" aria-pressed="false">Ultimate Builder Test</button>
+  <button data-tab="evaluations" aria-pressed="false">Archives du test · v1</button>
 </nav>
 <main><p class="etat" data-etat>Chargement…</p><section data-contenu></section></main>
 <script type="module" nonce="${nonce}">
@@ -48,9 +48,9 @@ async function notes(){
 
 async function evaluations(){
   const d=await api("/admin/evaluations");
-  if(!d.total)return vide("Aucun test terminé.");
+  if(!d.total)return vide("Aucun résultat historique de la version 1. Le questionnaire actuel ne transmet aucune évaluation.");
   const noms=["État d'esprit","Métier","Autonomie","Compréhension","Livraison","Ownership","Systèmes","Levier","Leadership","Référence"];
-  contenu.innerHTML='<article class="carte"><h2>'+d.total+' tests terminés</h2><div>'+d.moyennes.map((m,i)=>'<div><span>'+(i+1)+'. '+noms[i]+' · '+m+'%</span><div class="barre"><i data-largeur="'+m+'"></i></div></div>').join('')+'</div></article><table class="table"><thead><tr><th>Niveau</th><th>Prochain</th><th>Tests</th></tr></thead><tbody>'+d.niveaux.map(n=>'<tr><td>'+n.niveau+'</td><td>'+n.prochain+'</td><td>'+n.total+'</td></tr>').join('')+'</tbody></table>';
+  contenu.innerHTML='<article class="carte"><h2>'+d.total+' anciens tests terminés (v1)</h2><p>Résultats historiques du questionnaire à scores. Le questionnaire actuel ne transmet aucune évaluation et ne produit pas de niveaux.</p><div>'+d.moyennes.map((m,i)=>'<div><span>'+(i+1)+'. '+noms[i]+' · '+m+'%</span><div class="barre"><i data-largeur="'+m+'"></i></div></div>').join('')+'</div></article><table class="table"><thead><tr><th>Niveau</th><th>Prochain</th><th>Tests</th></tr></thead><tbody>'+d.niveaux.map(n=>'<tr><td>'+n.niveau+'</td><td>'+n.prochain+'</td><td>'+n.total+'</td></tr>').join('')+'</tbody></table>';
   contenu.querySelectorAll("[data-largeur]").forEach(i=>i.style.width=i.dataset.largeur+"%");
 }
 

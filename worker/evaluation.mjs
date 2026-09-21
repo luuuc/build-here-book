@@ -1,9 +1,6 @@
-// Resultats anonymes de l'Ultimate Builder Test.
-//
-// Le calcul reste dans le navigateur : le test fonctionne si le Worker tombe.
-// L'API ne recoit ni reponses individuelles, ni nom, ni contact, ni identifiant
-// stable. Elle garde uniquement les dix scores et le prochain niveau, afin de
-// voir si une question ou une etape produit des resultats aberrants.
+// Archives du questionnaire à scores (version 1 uniquement).
+// Le questionnaire actuel ne transmet plus d'évaluation.
+// L'endpoint reste disponible pour les anciens clients ; les données sont historiques.
 
 import { regarderIp, retenirIp, seuils } from "./garde.mjs";
 

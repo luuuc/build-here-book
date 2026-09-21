@@ -147,7 +147,7 @@
 
 /* Le test. Les reponses ont besoin d'une cible plus large qu'un lien de
    prose, et l'ecran leur appartient : l'ouverture et les blocs sortent
-   pendant les trente situations, et reviennent avec le resultat. */
+   pendant les questions, et reviennent avec la piste choisie. */
 .builder-test-run,
 .builder-test-result,
 .builder-test noscript {
@@ -289,22 +289,6 @@
 .builder-test-result-grid h3,
 .builder-test-practice h3 { margin-top: 0; }
 
-.builder-test-scale { margin: 2rem 0; }
-
-.builder-test-scale-row {
-  align-items: center;
-  display: grid;
-  font-size: 0.78rem;
-  gap: 0.7rem;
-  grid-template-columns: minmax(8.5rem, 1fr) 2fr 2.6rem;
-  margin: 0.55rem 0;
-}
-
-.builder-test-scale-row.is-next { font-weight: 600; }
-.builder-test-score { background: #E8E3D9; height: 7px; }
-.builder-test-score i { background: #8A6100; display: block; height: 100%; }
-.builder-test-scale-row.is-next .builder-test-score i { background: #F5B301; }
-
 .builder-test-route {
   display: grid;
   gap: 0.8rem;
@@ -342,8 +326,36 @@
   .builder-test-result-grid,
   .builder-test-route { grid-template-columns: 1fr; }
 
-  .builder-test-scale-row { grid-template-columns: minmax(7.5rem, 1fr) 1fr 2.4rem; }
 
   .builder-test-nav,
   .builder-test-actions { flex-wrap: wrap; }
+}
+
+/* Le questionnaire propose des choix de lecture sans échelle de scores. */
+.builder-test [hidden] { display: none !important; }
+.builder-test-workspace { padding: 7rem 0 3.5rem; }
+.builder-test-workspace h2 { margin: 0.5rem 0 1rem; font-size: clamp(1.4rem, 3.4vw, 2rem); line-height: 1.3; }
+.builder-test-workspace h2:focus { outline: 2px solid #8A6100; outline-offset: 6px; }
+.builder-test-workspace h3 { font-size: 1.05rem; margin: 1.5rem 0 0.7rem; }
+.builder-test-workspace fieldset { border: 0; padding: 0; min-width: 0; margin: 1.5rem 0; }
+.builder-test-workspace legend { font-weight: 600; margin-bottom: 0.8rem; }
+.builder-test-workspace .builder-test-actions { flex-wrap: wrap; justify-content: flex-start; }
+.builder-test-workspace .builder-test-answer { display: block; width: 100%; }
+.builder-test-answer strong, .builder-test-answer span { display: block; }
+.builder-test-answer span { margin-top: 0.4rem; }
+.builder-test-answer[aria-pressed="true"]::before { content: "✓ "; font-weight: bold; }
+.builder-test-topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.builder-test-topics section { border-top: 1px solid #D8D2C7; }
+.builder-test-topics button + button { margin-top: 0.5rem; }
+.builder-test-conditions label { display: flex; align-items: baseline; gap: 0.65rem; padding: 0.5rem 0; }
+.builder-test-conditions input { flex: 0 0 auto; }
+.builder-test-recap { margin: 1.5rem 0; }
+.builder-test-recap summary { cursor: pointer; }
+.builder-test-workspace textarea { display: block; box-sizing: border-box; width: 100%; font: inherit; padding: 0.75rem; }
+.builder-test-workspace p { white-space: pre-line; }
+.builder-test a:focus-visible, .builder-test input:focus-visible,
+.builder-test summary:focus-visible, .builder-test textarea:focus-visible { outline: 2px solid #8A6100; outline-offset: 3px; }
+@media (max-width: 640px) {
+  .builder-test-workspace { padding-top: 5.5rem; }
+  .builder-test-topics { grid-template-columns: 1fr; }
 }
