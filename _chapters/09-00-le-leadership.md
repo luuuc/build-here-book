@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Le leadership"
-description: "Je fabrique des builders autour de moi"
+description: "J'aide les autres à comprendre et à agir"
 show_chapter_number: false
 illustration: "leadership"
 step_number: 9
@@ -14,39 +14,39 @@ categories:
   - equipe
   - builders
 seo:
-  description: "Ta capacité devient la capacité de l'organisation. C'est du leadership, que quelqu'un dépende de toi ou non."
+  description: "Développe les capacités autour de toi par des appuis adaptés, entre pairs ou dans un rôle de responsabilité, sans imposer une voie unique."
   keywords: "build here, leadership, equipe, builder, transmission"
 redirect_from:
   - /chapters/09-00-leadership.html
 ---
 
-Le leadership cesse ici d'être un synonyme de management.
+Le leadership peut consister à aider une personne à comprendre, à décider ou à agir dans de meilleures conditions. Il se pratique aussi entre pairs, dans une association ou dans un projet personnel. Il ne demande pas d'attendre d'être expert partout pour apporter une aide utile.
 
-Quelqu'un au support peut en faire preuve. Un stagiaire aussi. Rien dans ce qui suit ne demande que quelqu'un dépende de toi sur un organigramme.
+Un retour précis, une question qui éclaire un choix, une démonstration ou une introduction acceptée peuvent déjà servir. Une personne qui débute peut expliquer une difficulté qu'elle vient de rencontrer. Une personne expérimentée peut partager ses critères ou aider à préparer un relais. La valeur tient à l'effet de cette aide, pas au titre de celui qui la propose.
 
-Tu partages ce que tu as trouvé. Tu l'écris. Tu l'apprends à quelqu'un. Tu montres les problèmes au lieu de les couvrir. Tu améliores les outils dont tout le monde se sert. Tu rends tes décisions lisibles, pour que d'autres puissent en prendre de semblables sans toi.
+Exemple construit : deux bénévoles préparent l'accueil d'un atelier. L'un a déjà organisé une séance, l'autre découvre l'activité. Ils choisissent ensemble une partie que le second préparera, précisent les contraintes et conviennent d'un point de retour. Le premier montre un exemple si cela aide, puis laisse une vraie place aux choix de son pair. Après l'atelier, ils examinent ce qui a fonctionné et ce qui demande encore un appui.
 
-Ta capacité devient la capacité de l'organisation.
+Développer des capacités demande du temps aux deux personnes. Une consigne précise, une observation ou une pratique accompagnée peut être la bonne entrée. Confier un problème plus large devient utile lorsque le contexte, les accès et le soutien permettent de le traiter. L'autonomie ne se mesure pas à l'absence d'aide.
 
-Ce qui empêche le plus souvent de franchir cette étape se dit rarement à voix haute. Transmettre ce que tu sais faire réduit ce qui te distingue. Si ton avantage tient au fait d'être le seul à savoir, l'enseigner ressemble à du sabotage. Le calcul est faux, mais il est sincère, et il suffit à expliquer des années de savoir gardé pour soi.
+Le management apporte des responsabilités particulières : attribuer des moyens, clarifier des mandats, organiser une évaluation ou décider d'une rémunération. Certaines cartes s'adressent donc aux personnes qui ont cette autorité. Les lecteurs sans ce mandat peuvent proposer, documenter ou chercher un appui, sans être tenus responsables d'un changement qu'ils ne peuvent décider.
 
-L'autre frein est plus banal. Une conversation, une personne. Le mentorat s'arrête le jour où tu changes d'entreprise, et il ne touche jamais plus d'une personne à la fois.
+Si tu recrutes, cherche des capacités liées au travail par plusieurs voies. Une réalisation publique est un élément possible, pas un passage obligé. Des contributions internes, une explication contextualisée ou un cas guidé peuvent aussi éclairer le jugement et les besoins d'apprentissage.
 
-Les cartes marquées ⇄ du livre entier relèvent de cette étape, même quand elles sont rangées ailleurs, à côté de la carte individuelle qu'elles rendent possible. Un builder qui monte l'échelle demande des choses aux gens autour de lui, et la plupart de ces choses sont impossibles dans une organisation ordinaire. Celui qui fabrique les conditions décide donc de ce que les autres ont le droit de faire. Une première réaction, une question sans réponse ou un planning plein suffisent à rendre l'attente rationnelle pour huit personnes.
+Le mentorat, les échanges et les supports écrits peuvent se compléter. Les capacités acquises par une personne peuvent durer et circuler au-delà de l'échange initial. Une publication ajoute une voie de découverte lorsqu'elle est pertinente et autorisée ; elle n'est ni une preuve supérieure de transmission ni une obligation pour diriger.
 
-Tu es passé à l'étape suivante quand quelqu'un a pris une bonne décision sans toi, en s'appuyant sur quelque chose que tu avais laissé.
+**Un signe de progression :** la personne aidée peut expliquer ce que l'appui lui a permis de comprendre ou de faire, et ce dont elle a encore besoin. Un relais réussi ou une décision mieux éclairée compte, même si l'accompagnement reste utile.
 
-**Ce qui change :** ta capacité devient celle d'autres personnes et de l'organisation. **La tension qui reste :** elle demeure enfermée dans son réseau tant qu'aucun artefact ne peut voyager au-delà. L'étape suivante rend ce travail trouvable, en interne d'abord, en public quand c'est possible.
+Choisis une carte selon ton rôle et la situation : conditions de l'initiative, recrutement, accompagnement, relecture, décision, relève, reconnaissance ou transmission. Les cartes marquées ⇄ ailleurs dans le livre éclairent aussi les conditions d'action. Celles de l'étape suivante proposent des façons de rendre une expérience accessible et réutilisable, sans imposer une progression vers la visibilité publique.
 
 ---
 
 ## Les cartes de cette étape
 
-- 9.01 [On fabrique l'environnement dont on se plaint](/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
+- 9.01 [Examine les conditions de l'initiative](/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
 - 9.02 [Le filtre que tu fais tourner](/chapters/09-02-le-filtre-que-tu-fais-tourner.html)
-- 9.03 [Confie un problème, pas une tâche](/chapters/09-03-confie-un-probleme-pas-une-tache.html)
-- 9.04 [Une relecture qui dit seulement oui n'apprend rien](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html)
-- 9.05 [Laisse-le porter ce qui est réversible](/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html)
-- 9.06 [Rends-toi remplaçable sur un sujet](/chapters/09-06-rends-toi-remplacable-sur-un-sujet.html)
-- 9.07 [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
-- 9.08 [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
+- 9.03 [Confie un problème avec les appuis nécessaires](/chapters/09-03-confie-un-probleme-pas-une-tache.html)
+- 9.04 [Explique ce que ta relecture a vérifié](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html)
+- 9.05 [Confie une décision dans un cadre clair](/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html)
+- 9.06 [Prépare une relève sur un sujet](/chapters/09-06-rends-toi-remplacable-sur-un-sujet.html)
+- 9.07 [⇄ Relie la reconnaissance aux contributions réelles](/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
+- 9.08 [⇄ Donne des moyens à la transmission](/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)

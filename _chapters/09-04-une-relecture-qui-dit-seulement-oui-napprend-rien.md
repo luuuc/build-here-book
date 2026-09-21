@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Une relecture qui dit seulement oui n'apprend rien"
+title: "Explique ce que ta relecture a vérifié"
 part: "Le leadership"
 order: 904
 card_type: principe
@@ -12,44 +12,45 @@ categories:
   - transmission
   - equipe
 seo:
-  description: "La relecture est l'enseignement le moins cher d'une entreprise : le contexte est déjà chargé, l'exemple est réel, et il part en production cette semaine."
-  keywords: "build here, leadership, transmission, builder, relecture, revue"
+  description: "Partage des critères et des limites de relecture utiles, avec un effort proportionné et sans dévaloriser une validation déjà comprise."
+  keywords: "build here, builder, leadership, relecture, criteres, apprentissage"
 ---
 
 ## Le réflexe
 
-> "C'est bon pour moi."
-
-La relecture a pris quarante secondes. Rien ne cassait, la forme tenait, et tu avais ton propre travail à finir.
+Tu relis un travail et donnes ton accord ou demandes une correction. La personne sait ce qui est accepté, mais pas toujours ce que tu as examiné pour le décider.
 
 ## Le réflexe builder
 
-Une relecture qui ne dit que oui ou non fait du contrôle qualité. Dis aussi pourquoi c'est bon, et ce que tu as regardé en premier.
+Explique un critère utile, ce que tu as observé et les limites de ta relecture. Une validation peut aussi rendre visible ce qui fonctionne.
 
 ## Pourquoi
 
-La relecture est le seul moment où quelqu'un examine ton travail de près et peut te dire ce qu'il voit. C'est l'enseignement le moins cher qui existe dans une entreprise : le contexte est déjà chargé chez les deux personnes, l'exemple est réel, et il concerne une chose qui part cette semaine.
+Une relecture peut aider à apprendre à partir d'un exemple réel. Elle n'est pas la seule occasion d'apprentissage, et son coût dépend de la complexité et du contexte partagé. Un accord bref peut suffire lorsque les critères sont déjà compris ; il n'est pas nécessaire de transformer chaque vérification en cours.
 
-Un "c'est bon" ne transporte rien. Il valide le résultat et laisse invisible le raisonnement qui l'a jugé bon. La personne apprend qu'elle a réussi, pas ce qu'elle a réussi, et à la relecture suivante elle repart du même endroit.
+Quand un raisonnement mérite d'être transmis, nomme-le précisément. Exemple construit : un collègue prépare une réponse à un usager. Tu vérifies d'abord que le prochain geste est compréhensible et que la date annoncée est confirmée. Dire pourquoi ces points comptent aide davantage que présenter la formulation comme simplement bonne ou mauvaise.
 
-L'inverse existe et coûte plus cher encore. Une relecture qui ne relève que des fautes apprend à éviter des fautes. Personne n'y découvre comment un relecteur expérimenté décide où regarder en premier, quelle question il se pose devant un chiffre, ni ce qu'il vérifie qu'on ne lui a pas montré. Ce n'est pas une affaire de code : devant un devis, une maquette, un message client ou un budget, le relecteur applique en quelques secondes un modèle qu'il n'a jamais énoncé. Le rendre visible prend deux phrases.
+La relecture peut aussi confirmer une force, révéler une hypothèse ou montrer ce que tu n'as pas pu examiner. Distingue une exigence, un risque et une préférence de style. Un avis situé n'est pas une garantie sur tout le travail. Si le sujet dépasse tes compétences, indique cette limite et propose une personne capable d'aider, avec l'accord du destinataire.
 
-La garde est simple. Une relecture qui enseigne n'est pas une relecture plus longue, c'est la même à laquelle on ajoute la raison. Si tu commences à réécrire le travail de l'autre pour montrer comment tu aurais fait, tu as changé de métier et tu lui as pris le sien.
+Entre pairs, demande le type de retour recherché et le temps disponible. Une personne qui débute peut vérifier la compréhension d'une consigne ou poser une question utile. Une personne expérimentée peut expliquer ses critères sans réécrire tout le document. Réécrire ensemble peut néanmoins être formateur si c'est souhaité et si les choix sont discutés.
 
 ## À essayer
 
-La prochaine fois que tu approuves quelque chose, ajoute une phrase : ce que tu as vérifié en premier, et pourquoi c'est là que tu as regardé.
+Sur une prochaine relecture, convenez du périmètre. Ajoute un retour précis :
 
-La fois d'après, ajoute la deuxième : ce que tu aurais regardé si tu avais eu dix minutes de plus.
+> "J'ai vérifié ... parce que ... Ici, cela fonctionne grâce à ... Ce point reste à examiner par ..."
+
+Ne remplis pas toutes les lignes si elles ne sont pas utiles. Demande si la personne comprend le critère et comment elle pourrait l'utiliser. Elle peut aussi contester ton interprétation ou apporter du contexte.
+
+Sur un cas suivant, regarde si le retour a aidé à décider ou à vérifier. Si les mêmes ambiguïtés persistent, clarifiez le critère ou choisissez une démonstration plutôt que d'allonger systématiquement les commentaires.
 
 ## Depuis ton siège
 
-- **Ingénierie** : approuver en quarante secondes reste possible. Dis lequel des risques tu as éliminé.
-- **Produit** : quand tu valides une spec, écris la question que tu t'es posée avant de la valider.
-- **Design** : "c'est joli" ne transmet rien. Dis ce que l'écran fait comprendre, et à quel moment.
-- **Management** : tu relis des documents toute la semaine. C'est ton principal temps d'enseignement disponible.
-- **Relation client** : relis la réponse d'un collègue et dis ce que le client aurait compris de travers.
+- **Ingénierie** : précise les cas vérifiés et ce que la revue ne couvre pas.
+- **Design** : relie ton retour à ce que la personne doit comprendre ou faire.
+- **Finance** : distingue une hypothèse de calcul d'une donnée confirmée.
+- **Management** : prévois un retour proportionné et reconnais aussi les points solides.
 
 ## À discuter
 
-La dernière relecture que tu as reçue, qu'est-ce qu'elle t'a appris que tu ne savais pas ?
+Quel critère de relecture gagnerait à être expliqué, et dans quelle situation un accord bref suffit-il ?

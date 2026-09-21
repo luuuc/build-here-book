@@ -6,13 +6,13 @@ order: 1008
 card_type: principe
 metadata:
   principle: "10.08"
-  reading_time_in_minutes: 3
+  reading_time_in_minutes: 2
 categories:
   - reference
   - carriere
   - trace
 seo:
-  description: "Ce qui se perd à un départ n'est pas la personne. C'est ce qu'elle savait et qui n'était écrit nulle part."
+  description: "Prépare un relais réaliste lors d'un départ sans conditionner le choix de carrière à une publication ni demander une disponibilité indéfinie."
   keywords: "build here, reference, carriere, trace, depart, builder"
 redirect_from:
   - /chapters/10-11-partir-nest-pas-une-trahison.html
@@ -22,40 +22,37 @@ redirect_from:
 
 ## Le réflexe
 
-> "Si je pars, je fais partie du problème."
-
-Les employeurs ont leur version de la phrase. Ceux qui partent nous vident. Elle est le plus souvent adressée à des gens de vingt-six ans qui viennent de recevoir la première offre sérieuse de leur vie.
+Tu envisages de quitter une équipe, une mission ou une activité. La question de la continuité se mélange parfois à un jugement sur ta loyauté.
 
 ## Le réflexe builder
 
-Personne ne te doit sa carrière. La question n'est pas où tu travailles, c'est ce qui reste trouvable quand tu n'es plus là.
+Sépare le choix de ton parcours de l'organisation du relais. Une passation réaliste se prépare dans le cadre convenu ; elle n'est pas une preuve publique à fournir pour légitimer un départ.
 
 ## Pourquoi
 
-L'offre est réelle et l'arithmétique aussi. Ceux qui deviennent bons et se font voir reçoivent davantage de propositions, et beaucoup partent. Un salaire qui change d'ordre de grandeur, une équipe qui a déjà fait la chose que tu veux apprendre, parfois un pays. Personne ne refuse ça par loyauté et personne ne devrait avoir à s'en justifier.
+Les raisons de partir ou de rester peuvent être professionnelles, personnelles ou matérielles. Elles ne se résument pas à la visibilité, au salaire ou à une obligation envers un milieu. Un départ peut affecter un collectif ; reconnaître cet effet ne signifie pas rendre une personne responsable de toute sa continuité future.
 
-Le débat se limite toujours à l'endroit où tu vas travailler. Ce qui circule, pourtant, c'est aussi ton savoir. Quelqu'un qui part après avoir publié quatre postmortems laisse quatre postmortems, consultables de n'importe où, y compris par la personne recrutée pour le remplacer. Quelqu'un qui reste dix ans sans rien écrire laisse une réputation locale qui s'éteint le jour où il change d'étage. Le second a l'air plus loyal et transmet moins.
+Ce qui reste peut prendre plusieurs formes : personnes accompagnées, habitudes de travail, service rendu, décisions expliquées, documents ou outils entretenus. Une publication publique n'est pas supérieure par principe à ces contributions. Comparer les partants et ceux qui restent au nombre de textes efface une grande partie du travail réel.
 
-Ce qui se perd à un départ n'est donc pas la personne, c'est ce qu'elle savait et qui n'était écrit nulle part. C'est aussi la seule partie réparable. Tu ne contrôles ni le marché, ni ce qu'une entreprise plus riche peut proposer sans y réfléchir, ni le moment où quelqu'un décide de changer de vie.
+Exemple construit : une bénévole cesse d'organiser des ateliers. Elle convient avec le groupe de transmettre le calendrier, les contacts partageables et les points encore ouverts à une personne qui accepte le relais. Le groupe doit aussi décider des activités qu'il peut continuer avec ses moyens. La passation ne consiste pas à demander à la partante de rester joignable sans limite.
 
-Cette carte se détourne dans les deux sens et il faut le dire. Elle peut servir à se donner bonne conscience, j'ai écrit deux textes, je pars la conscience tranquille. Elle peut aussi servir à réclamer une dette, tu pars, tu nous dois quelque chose. Ni l'une ni l'autre. Tu ne dois rien à personne. La trace n'est pas un droit de sortie, c'est simplement la seule chose de ton passage qui ne parte pas avec toi.
+Le temps, les engagements applicables et les accès déterminent ce qui peut être transmis. La personne responsable de la continuité doit aider à choisir les priorités, affecter les moyens et accepter les limites. Il n'est pas toujours possible de transférer tout le savoir avant le départ. Ce manque appelle une décision sur le service, pas une dette morale ou une exigence de publication.
 
 ## À essayer
 
-Si tu y penses, ou si quelque chose vient d'arriver dans ta boîte mail, fais la liste avant de répondre.
+Si un relais se prépare, liste les activités en cours, les décisions ouvertes, les ressources utiles et les accès à organiser. Priorise avec la personne responsable ce qui compte pour la suite dans le temps disponible.
 
-> Trois choses que je sais et qui ne sont écrites nulle part ici.
+Faites accepter les responsabilités par les destinataires et prévoyez une vérification adaptée. Identifiez ce qui ne pourra pas être transmis et ce qu'il faudra réduire, reporter ou apprendre autrement.
 
-Rends-en une utilisable par ceux qui restent avant de donner ta réponse : note interne, procédure, décision commentée ou transmission à ton successeur. Si elle peut être publique sans exposer ce qui ne t'appartient pas, elle voyagera plus loin. Ça ne changera pas ta décision. Ça change ce qu'elle coûte à ceux qui restent.
+Convenez de la fin de ton intervention. Une aide ultérieure éventuelle demande un nouvel accord. Tu n'as pas à achever une publication avant de répondre à une opportunité ; le partage public reste une décision distincte, selon son utilité et ses conditions.
 
 ## Depuis ton siège
 
-- **Produit** : écris les raisons d'une demande que tu as refusée. Elles ne sont consignées nulle part.
-- **Design** : ton système de design reste dans ta tête tant que ses règles ne sont pas écrites.
-- **Fondateur** : un départ ne fait que révéler ce que tu as laissé vivre dans une seule tête. Ça se décide des années avant la démission.
-- **Management** : ceux qui partent nous vident est une phrase adressée à des gens de vingt-six ans.
-- **Recrutement** : ce que laissent les partants est ce que lira la personne recrutée pour les remplacer.
+- **Produit** : transmets les décisions ouvertes et le contexte utile à leur suite.
+- **Opérations** : vérifie les relais acceptés et les activités qui doivent être adaptées.
+- **Management** : prévois la continuité avec les moyens disponibles et des limites explicites.
+- **Recrutement** : décris les besoins du relais sans exiger une copie de la personne qui part.
 
 ## À discuter
 
-Les trois dernières personnes parties d'ici, qu'est-ce qui reste d'elles qu'on puisse encore ouvrir ?
+Quel relais demandons-nous réellement lors d'un départ, et quelles décisions restent à la charge du collectif ?

@@ -4,15 +4,16 @@ title: "Le filtre que tu fais tourner"
 part: "Le leadership"
 order: 902
 card_type: diagnostic
+action_scope: "Portée : personnes impliquées dans le recrutement"
 metadata:
   principle: "9.02"
-  reading_time_in_minutes: 3
+  reading_time_in_minutes: 2
 categories:
   - leadership
   - recrutement
   - decision
 seo:
-  description: "Une méthode de recrutement sélectionne certains profils plutôt que d'autres. Ses résultats sont donc prévisibles. On en tire pourtant des conclusions sur l'ensemble des candidats."
+  description: "Évalue des capacités liées au travail par plusieurs voies, sans confondre visibilité, portfolio public et compétence."
   keywords: "build here, leadership, recrutement, builder, filtre"
 redirect_from:
   - /chapters/09-07-le-filtre-que-tu-fais-tourner.html
@@ -20,37 +21,37 @@ redirect_from:
 
 ## Le symptôme
 
-> "On a cherché. Il n'y a personne de ce niveau ici."
-
-Six mois de recherche, des dizaines de profils, et la conclusion s'impose d'elle-même. Elle est sincère, elle est fondée sur ce que tu as réellement vu, et la moitié des fondateurs que tu connais est arrivée à la même.
+Une recherche de candidats ne donne pas les résultats attendus. Il devient tentant d'en tirer une conclusion sur toutes les personnes du métier ou du lieu où l'on cherche.
 
 ## Le signal
 
-> "Qu'est-ce que mon canal est capable de me renvoyer ?"
+Examine ce que tes canaux permettent de voir, ce que tes critères évaluent et quelles personnes capables peuvent rester hors du parcours.
 
 ## Ce qui se passe
 
-Une méthode de recrutement sélectionne certains profils plutôt que d'autres. Ses résultats sont donc prévisibles. Les recommandations de ceux qui connaissent tout le monde. Les noms qui remontent des événements. Les profils transférés avec "celui-là est excellent". Tous repèrent ceux qui sont visibles, aucun ne vérifie ce qu'ils ont livré, et sur un marché où être connu paie mieux que livrer, les deux se trouvent rarement chez la même personne.
+Une recommandation, un événement, une candidature directe ou un travail public donne accès à certaines personnes. Aucun de ces canaux ne décrit à lui seul les capacités disponibles. La visibilité ne prouve ni ne contredit la compétence. Un canal peut apporter une piste utile sans fournir toute l'évaluation.
 
-L'erreur est difficile à voir, parce que tu as réellement rencontré ces candidats. Ils étaient vraiment à l'aise, et vraiment incapables de dire ce qui avait cassé en production. Rien n'était faux dans l'observation. C'est la conclusion tirée de cette observation qui l'était : tu as pris ce que révélait ton filtre pour une vérité sur toute une population. Or un filtre ne dit jamais rien de ceux qu'il a écartés. Un recrutement raté donne lieu à une discussion. Le candidat que le canal n'a jamais fait remonter, lui, reste invisible, et tu ne découvres jamais qu'il vivait à une heure de ton bureau.
+J'ai appliqué pendant deux ans un filtre fondé sur la visibilité et pris son résultat pour un fait sur les personnes disponibles. Ce livre existe parce que je me suis trompé. Remplacer la réputation par l'obligation de publier reproduirait une partie du problème : beaucoup de travaux utiles restent internes, confidentiels ou peu visibles.
 
-Pour sortir de cette impasse, cherche une trace au lieu d'une réputation. Du code, un postmortem, une réponse publique, un correctif sur une dépendance. Ces objets sont rares ici, et c'est ce qui les rend discriminants quand ils existent. Ils sont aussi peu nombreux, ce qui est le problème que le reste de ce livre décrit.
+Cherche des éléments liés au travail attendu, sous plusieurs formes possibles. Une réalisation partageable, l'explication précise d'une contribution, un exemple anonymisé dont le partage est autorisé, ou un court exercice préparé ensemble peuvent éclairer le raisonnement. N'exige pas de documents confidentiels. Pour une personne qui débute, un projet personnel, associatif ou un cas guidé peut montrer une capacité et un besoin d'apprentissage.
 
-J'ai appliqué ce filtre pendant deux ans et pris son résultat pour un fait. Ce livre existe parce que je me suis trompé.
+Des occasions différentes produisent des parcours différents. Quelqu'un peut ne jamais avoir rencontré exactement ton problème sans être incapable d'apprendre à le traiter. Distingue les compétences nécessaires dès l'arrivée de celles que l'équipe peut accompagner. Les attentes, le temps demandé et les critères de l'exercice doivent être clairs et comparables ; le recrutement ne doit pas devenir du travail réel gratuit.
 
 ## À vérifier
 
-→ Avant de demander la moindre recommandation sur ta prochaine recherche, cherche des traces. Un dépôt, un texte, une réponse. Compte combien de candidats sortent de chaque canal, et garde le compte.
-→ Écris ce que tu cherches en choses faites, pas en niveau. "A déjà réparé un rapprochement de paiements entre deux systèmes" se cherche. "Ingénieur senior" ne se cherche pas.
-→ Quand tu conclus qu'il n'y a personne, écris la phrase entière. "Mon canal, sur cette durée, ne m'a renvoyé personne." Elle est vraie, elle est vérifiable, et elle ne dit pas du tout la même chose.
+Sur une recherche, écris les activités à réaliser et les capacités à examiner. Propose plusieurs façons d'en parler ou de les montrer, dont une qui ne demande aucun portfolio public.
+
+Compare les canaux utilisés et les étapes où des personnes quittent le parcours. Demande un retour lorsque c'est possible, sans supposer connaître la raison d'un retrait. Limite la collecte aux informations utiles à la recherche.
+
+Après un cycle, regarde quelles capacités ont réellement été évaluées et quel obstacle pourrait être retiré. Une recherche infructueuse décrit un périmètre, des conditions et une durée ; elle ne suffit pas à conclure qu'il n'existe personne de capable.
 
 ## Depuis ton siège
 
-- **Ingénierie** : on te trouvera par une trace ou pas du tout. Le canal ne remonte pas les silencieux.
-- **Produit** : ne prends pas ce que révèle ton filtre pour une vérité sur tous tes utilisateurs.
-- **Management** : un recrutement raté a droit à sa conversation. Le candidat jamais remonté n'a droit à rien.
-- **Recrutement** : écris mon canal ne m'a renvoyé personne, pas il n'y a personne. Ce n'est pas pareil.
+- **Recrutement** : accepte des preuves adaptées, y compris sans réalisation publique.
+- **Management** : distingue les acquis indispensables de ce que l'équipe peut enseigner.
+- **Ingénierie** : prépare un cas limité qui permet d'expliquer le raisonnement.
+- **Opérations** : décris le travail réel et les conditions dans lesquelles il sera effectué.
 
 ## À discuter
 
-Nos trois derniers recrutements sont venus par quel canal ? Et le dernier candidat qu'on a trouvé sans passer par quelqu'un qu'on connaissait déjà, c'était quand ?
+Quelle capacité cherchons-nous à voir, et comment une personne sans portfolio public peut-elle la démontrer ?

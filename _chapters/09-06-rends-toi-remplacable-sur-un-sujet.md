@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Rends-toi remplaçable sur un sujet"
+title: "Prépare une relève sur un sujet"
 part: "Le leadership"
 order: 906
 card_type: principe
@@ -12,46 +12,43 @@ categories:
   - transmission
   - equipe
 seo:
-  description: "Être irremplaçable sur un sujet, c'est y être assigné. On ne te sort pas de là, parce qu'il n'y a personne pour te remplacer dessus."
-  keywords: "build here, leadership, transmission, builder, remplacable, savoir"
+  description: "Prépare une relève avec accord, moyens et pratique, sans présumer de rétention du savoir ni promettre que la transmission protège à elle seule."
+  keywords: "build here, builder, leadership, releve, transmission, moyens"
 ---
 
 ## Le réflexe
 
-> "Si je transmets ça, je perds ce qui me rend utile ici."
-
-La phrase se dit rarement à voix haute. Le calcul tourne quand même, et il explique des années de savoir gardé pour soi.
+Tu portes un sujet que peu de personnes connaissent. Tu souhaites préparer un relais, mais le temps, les accès ou les conditions de reconnaissance ne sont pas encore réunis.
 
 ## Le réflexe builder
 
-Ce que tu es seul à savoir ne te protège pas. Ça t'attache à un poste et ça décide de ce qu'on peut te confier ensuite.
+Choisis une part utile à transmettre et négocie les conditions pour qu'une autre personne puisse la pratiquer. Ta valeur ne dépend pas de devenir absent du travail.
 
 ## Pourquoi
 
-Le calcul suppose que ta valeur est un stock : ce que tu sais et que les autres ignorent. Dans cette vision, chaque personne à qui tu apprends quelque chose t'en prend une part.
+Une relève peut faciliter les absences, répartir la charge et ouvrir d'autres possibilités. Elle ne garantit ni promotion ni réduction immédiate des sollicitations. Le service que tu rends directement reste une contribution, et personne n'a besoin de présumer que tu retiens ton savoir pour conserver un avantage.
 
-Regarde ce qui arrive à celui qui est seul à savoir. On ne le sort pas de son sujet, faute de remplaçant dessus. Il ne part pas en congé sans son téléphone. Il est interrompu onze fois par semaine, ce qui le rend moins productif que ses collègues sur son propre travail, et on finit par le lui reprocher. Quand un sujet plus intéressant s'ouvre, il n'est pas candidat : il est indispensable là où il est. Être irremplaçable sur un sujet, c'est y être assigné.
+Exemple construit : tu prépares un suivi mensuel que personne d'autre n'a encore réalisé. Une collègue accepte d'en apprendre une partie. Vous obtenez du temps, préparez un cas et faites une première lecture ensemble. La suite peut comprendre une pratique accompagnée puis un essai avec une aide disponible. Le nombre de séances dépend de ce qui reste difficile.
 
-Le stock ne tient pas non plus dans la durée. Ce que tu es seul à savoir aujourd'hui sera écrit, outillé ou automatisé dans quelques années. Ce qui restera de toi est la capacité d'apprendre la chose suivante, pas la chose. Les gens que tu as rendus capables, eux, restent, et ils savent d'où ça vient.
+La transmission demande une personne volontaire, un périmètre et des moyens. Elle peut inclure une explication, des repères écrits et une vérification en situation. Le document seul ne prouve pas la capacité à agir, mais une dépendance résiduelle ne signifie pas que tout l'effort a échoué. Certaines décisions peuvent rester réservées à un rôle particulier.
 
-La garde est réelle. Certaines organisations récompensent effectivement le fait d'être le seul à savoir, et y transmettre ressemble à un désarmement unilatéral. Ce n'est pas une raison de s'en abstenir, c'est une raison de le faire en laissant une trace qui porte ton nom, plutôt que dans une conversation de couloir dont personne ne se souviendra.
+Si l'environnement rend la transmission risquée ou ne lui donne aucun temps, le nom sur une page ne suffit pas à protéger la personne. Cherche un accord sur la charge, le rôle et la reconnaissance avec un responsable ou un appui approprié. Réduire ou reporter la transmission peut être raisonnable tant que ces conditions manquent. Elle ne doit pas devenir une obligation supplémentaire assumée seul.
 
 ## À essayer
 
-Choisis une chose que tu es seul à savoir faire et qui bloque quelqu'un au moins une fois par mois.
+Choisissez une activité dont le relais aurait une utilité précise. Convenez de ce que la personne apprendra, du temps des deux côtés, des accès et de la manière de vérifier la pratique.
 
-Donne-toi trois semaines pour qu'une autre personne sache la faire sans toi. Pas la documenter, la faire. Tu regardes la première fois, tu réponds la deuxième, tu n'es pas là la troisième.
+Commencez par un cas adapté. Demande ce qui reste incertain et ajuste l'appui. Une personne débutante peut transmettre une petite chose qu'elle vient de comprendre, à condition d'en expliquer les limites.
 
-Puis compte ce que tu as perdu. En général, un créneau par semaine et une chose à laquelle tu tenais.
+Quand le relais peut agir dans le cadre prévu, confirmez qui porte désormais quoi et comment demander de l'aide. Après une occurrence pertinente, examinez la charge des deux personnes et la qualité du service. La passation peut alors être ajustée ou clôturée.
 
 ## Depuis ton siège
 
-- **Ingénierie** : le service que toi seul sais déployer décide de tes prochains congés.
-- **Produit** : l'historique des refus vit dans ta tête. Tant qu'il y est, tu es le seul arbitre possible.
-- **Design** : des règles non écrites obligent à passer par toi pour chaque écran.
-- **Fondateur** : ce que tu gardes te maintient dans l'opérationnel que tu dis vouloir quitter.
-- **Recrutement** : tes critères réels ne sont pas dans la fiche de poste. Personne ne peut trier sans toi.
+- **Ingénierie** : prépare un cas d'apprentissage et les accès nécessaires au relais.
+- **Finance** : distingue préparation, vérification et autorisation dans le travail transmis.
+- **Management** : négocie le temps et reconnais l'effort des deux personnes.
+- **Design** : explique un critère sur un exemple avant de demander son application autonome.
 
 ## À discuter
 
-Qu'est-ce que tu sais faire ici que personne d'autre ne sait faire, et depuis combien de temps ?
+Quel relais serait utile aux personnes concernées, et quelle condition manque pour le préparer ?

@@ -35,28 +35,28 @@
     ]},
     { n: 6, name: "L'ownership", line: "Tu fermes la boucle et réponds du résultat, y compris quand il te contredit.", practice: "Reviens sur une livraison vieille d'un mois. Écris ce qui s'est réellement passé et qui porte la prochaine décision.", cards: [
       ["Diagnostic", "Fini de ton côté ne veut pas dire réglé", "/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html"],
-      ["Principe", "Le mauvais résultat t'appartient aussi", "/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html"],
-      ["Pratique", "Reviens voir un mois plus tard", "/chapters/06-02-reviens-voir-un-mois-plus-tard.html"]
+      ["Principe", "Tire une leçon d'un résultat décevant", "/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html"],
+      ["Pratique", "Prévois quand vérifier le résultat", "/chapters/06-02-reviens-voir-un-mois-plus-tard.html"]
     ]},
     { n: 7, name: "Les systèmes", line: "Tu rends la prochaine fois plus facile et moins dépendante d'une mémoire individuelle.", practice: "Repère un problème apparu deux fois. Supprime une étape ou écris le contrôle qui empêchera la troisième.", cards: [
       ["Diagnostic", "La deuxième fois est une information", "/chapters/07-01-la-deuxieme-fois-est-une-information.html"],
       ["Principe", "Tout ne mérite pas de devenir un processus", "/chapters/07-04-tout-ne-merite-pas-de-devenir-un-processus.html"],
-      ["Pratique", "Supprime l'étape avant de la documenter", "/chapters/07-02-supprime-letape-avant-de-la-documenter.html"]
+      ["Pratique", "Comprends l'étape avant de la simplifier", "/chapters/07-02-supprime-letape-avant-de-la-documenter.html"]
     ]},
     { n: 8, name: "Le levier", line: "Tu multiplies un jugement solide au lieu de multiplier seulement l'activité.", practice: "Liste les demandes de la semaine. Regroupe celles qui se répètent et automatise seulement la partie dont tu sais vérifier la sortie.", cards: [
-      ["Diagnostic", "Range-les par cause, pas par sujet", "/chapters/08-01-range-les-par-cause-pas-par-sujet.html"],
-      ["Principe", "Le levier le moins cher est déjà payé", "/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html"],
+      ["Diagnostic", "Regroupe les cas, puis vérifie les causes", "/chapters/08-01-range-les-par-cause-pas-par-sujet.html"],
+      ["Principe", "Examine ce que tu as avant d'ajouter un outil", "/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html"],
       ["Pratique", "L'IA est un levier, pas un raccourci", "/chapters/08-02-lia-est-un-levier-pas-un-raccourci.html"]
     ]},
     { n: 9, name: "Le leadership", line: "Tu fabriques un environnement où d'autres builders peuvent agir.", practice: "Prends la plainte que tu répètes le plus sur l'équipe. Change une règle ou une incitation qui rend ce comportement rationnel.", cards: [
-      ["Diagnostic", "On fabrique l'environnement dont on se plaint", "/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html"],
+      ["Diagnostic", "Examine les conditions de l'initiative", "/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html"],
       ["Principe", "Le filtre que tu fais tourner", "/chapters/09-02-le-filtre-que-tu-fais-tourner.html"],
-      ["Pratique", "Confie un problème, pas une tâche", "/chapters/09-03-confie-un-probleme-pas-une-tache.html"]
+      ["Pratique", "Confie un problème avec les appuis nécessaires", "/chapters/09-03-confie-un-probleme-pas-une-tache.html"]
     ]},
     { n: 10, name: "La référence", line: "Ton travail laisse une trace dont quelqu'un peut apprendre sans t'avoir dans la pièce.", practice: "Publie un artefact qui répond à une question réelle : décision, méthode, incident, exemple ou outil réutilisable.", cards: [
-      ["Diagnostic", "Un avis n'est pas un artefact", "/chapters/10-02-un-avis-nest-pas-un-artefact.html"],
+      ["Diagnostic", "Donne au lecteur de quoi examiner ton raisonnement", "/chapters/10-02-un-avis-nest-pas-un-artefact.html"],
       ["Principe", "Une trace n'est pas forcément du code", "/chapters/10-03-une-trace-nest-pas-forcement-du-code.html"],
-      ["Pratique", "Réponds à la question en public", "/chapters/10-04-reponds-a-la-question-en-public.html"]
+      ["Pratique", "Rends une réponse utile retrouvable", "/chapters/10-04-reponds-a-la-question-en-public.html"]
     ]}
   ];
 

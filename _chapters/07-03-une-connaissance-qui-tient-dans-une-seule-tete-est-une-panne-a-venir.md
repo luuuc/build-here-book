@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Une connaissance qui tient dans une seule tête est une panne à venir"
+title: "Prépare un relais pour les savoirs essentiels"
 part: "Les systèmes"
 order: 703
 card_type: diagnostic
@@ -12,44 +12,43 @@ categories:
   - transmission
   - equipe
 seo:
-  description: "Celui qui sait est un mur porteur qui n'apparaît sur aucun plan. Tant qu'il est là, tout va bien."
-  keywords: "build here, systemes, transmission, connaissance, builder"
+  description: "Prépare la continuité par une transmission adaptée, avec du temps, de la pratique et une trace entretenue lorsque cela aide."
+  keywords: "build here, builder, systemes, transmission, relais, continuite"
 ---
 
 ## Le symptôme
 
-> "Demande à Kofi, il sait."
-
-Kofi sait vraiment. La réponse arrive en quatre minutes, elle est juste, et tout le monde repart content. Ça marche depuis trois ans.
+Une activité dépend d'une personne qui sait comment faire. Son aide est précieuse, mais l'équipe ne sait pas encore comment assurer le service pendant son absence.
 
 ## Le signal
 
-> "Kofi, la prochaine fois qu'on te pose la question, écris la réponse quelque part avant de la donner."
+Choisis un savoir essentiel et prépare un relais adapté : explication, démonstration, pratique accompagnée et trace utile selon le besoin.
 
 ## Ce qui se passe
 
-Celui qui sait est un mur porteur qui n'apparaît sur aucun plan. Tant qu'il est là, rien ne signale le problème. Le jour où il est en congé, en déplacement, malade ou parti ailleurs, une chose que l'entreprise croyait acquise redevient impossible, et la surprise est totale parce que rien ne l'avait annoncée.
+La dépendance peut être acceptable pendant un apprentissage ou sur une activité peu fréquente. Elle mérite un examen quand une absence bloquerait un service important ou quand les sollicitations deviennent difficiles à absorber. Il n'est pas nécessaire de supposer que la personne entretient cette dépendance ou apprécie d'être indispensable.
 
-Le coût quotidien est plus discret que le risque. Quatre minutes pour la réponse, mais l'interruption casse une heure de travail chez celui qui répond, et il répond onze fois par semaine. Il devient lentement moins productif que tout le monde sur son propre travail, ce qui lui est parfois reproché, et la cause n'est jamais reliée.
+Exemple construit : une seule bénévole sait préparer le matériel d'un atelier. Elle montre une préparation à un autre membre, qui essaie ensuite avec elle. Ils notent les vérifications faciles à oublier. Le document complète l'expérience ; il ne prétend pas remplacer la connaissance de toutes les situations possibles.
 
-Ce qui maintient ce système en place n'est pas l'égoïsme. Être celui qui sait est la seule chose qui soit récompensée sans ambiguïté dans beaucoup d'équipes. On te remercie pour la réponse, jamais pour la page qui rendrait la question inutile. Ajoute à ça une croyance vraie la première fois et fausse ensuite : expliquer va plus vite qu'écrire. C'est exact au premier passage. Au quatrième, tu as dépensé quatre fois le temps d'écriture et il ne reste rien.
+Écrire n'est pas toujours la première action utile. Une démonstration, un binôme, une liste de contacts ou une formation peut mieux convenir. Pour une question urgente, donne d'abord l'aide nécessaire puis prévois la transmission. La personne qui sait et celle qui apprend ont toutes deux besoin de temps, d'accès et d'un périmètre convenu.
 
-Tout n'a pas à être écrit et essayer produit une documentation que personne ne lit. Le test est étroit : ce dont quelqu'un aura besoin pendant que tu n'es pas joignable. Le reste peut rester dans ta tête sans que ça coûte quoi que ce soit.
+Une trace doit être trouvable, compréhensible et entretenue. Vérifie les informations qui peuvent être partagées et les personnes qui ont besoin d'y accéder. Préparer une relève n'enlève rien à la valeur du service rendu jusque-là. Reconnais la pratique directe autant que l'effort de transmission, et évite de transformer chaque échange en obligation documentaire.
 
 ## À vérifier
 
-La prochaine question qu'on te pose et que tu as déjà entendue, écris la réponse avant de la donner. Puis envoie le lien plutôt que la réponse.
+Choisissez une activité dont la continuité compte. Convenez d'un relais volontaire, d'un temps de préparation et d'une situation dans laquelle il pourra essayer sans conséquence excessive.
 
-Quatre lignes suffisent. Ce n'est pas de la documentation, c'est une réponse que tu ne réécriras pas.
+Préparez seulement les repères nécessaires : étapes, limites, signes à vérifier et personne à contacter en cas de doute. La première version peut être courte, sans nombre de lignes imposé.
+
+Lors de l'essai, observez où l'aide reste nécessaire. Complétez les repères et clarifiez ce que le relais peut désormais faire. Prévoyez qui maintient cette information lorsque le travail change, plutôt que de considérer le lien envoyé comme une transmission achevée.
 
 ## Depuis ton siège
 
-- **Ingénierie** : le script que toi seul sais lancer est un incident qui attend la bonne semaine.
-- **Produit** : l'historique des décisions vit dans ta tête. Un nouveau va reproposer ce qui a été refusé.
-- **Fondateur** : ce que seul toi comprends fixe la taille maximale de l'entreprise.
-- **Management** : remercie la page, pas la réponse, ou tu continueras à recevoir des réponses.
-- **Relation client** : la réponse que tu retapes chaque semaine appartient déjà à l'aide en ligne.
+- **Ingénierie** : accompagne le premier usage d'un outil que tu es seul à maîtriser.
+- **Opérations** : choisis les savoirs qui comptent pour la continuité du service.
+- **Management** : donne du temps à la personne qui transmet et à celle qui apprend.
+- **Support** : vérifie qu'une réponse conservée aide réellement le prochain interlocuteur.
 
 ## À discuter
 
-Qui, ici, est la seule personne à savoir faire une chose dont l'entreprise a besoin ce mois-ci ?
+Quelle activité bénéficierait d'un relais, et quel soutien rendrait cet apprentissage possible ?

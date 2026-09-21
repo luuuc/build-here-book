@@ -12,7 +12,7 @@ categories:
   - client
   - arbitrage
 seo:
-  description: "Chaque semaine passée sans montrer le produit aux utilisateurs retarde leur réponse. Et s'ils n'en veulent pas, il devient plus coûteux de changer de direction."
+  description: "Choisis le niveau de finition utile à un essai et un signe adapté au besoin, sans présumer l'accès à dix utilisateurs."
   keywords: "build here, produit, builder, peaufines, devient, difficile, changer, avis"
 redirect_from:
   - /chapters/05-05-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html
@@ -20,34 +20,37 @@ redirect_from:
 
 ## Le symptôme
 
-La release glisse encore. Un cas de plus à couvrir, un écran de plus à lisser. Pendant ce temps l'équipe débat de ce que les utilisateurs vont préférer, et les débats s'étirent parce que la réponse n'est pas dans la salle.
+Tu continues à améliorer une solution alors qu'une question importante sur son usage reste ouverte. Une nouvelle finition ne semble pas rapprocher la réponse.
 
 ## Le signal
 
-Une version minimale qui rend vraiment service, dix personnes pour l'essayer, et on observe.
+Cherche quelle partie mérite un retour maintenant et quel niveau de finition est nécessaire pour obtenir un retour utile.
 
 ## Ce qui se passe
 
-Chaque semaine passée sans montrer le produit aux utilisateurs retarde leur réponse. Et s'ils n'en veulent pas, il devient plus coûteux de changer de direction.
+Le travail déjà investi peut rendre un changement de direction plus difficile. Cela ne signifie pas que peaufiner est inutile ni que l'équipe refuse la réalité. Une finition peut être nécessaire pour rendre une proposition compréhensible, accessible ou assez fiable pour être essayée.
 
-Six semaines de travail fabriquent un attachement défensif que personne n'avait prévu. La fonctionnalité a été présentée en interne, les tickets sont fermés, trois personnes ont leur nom dessus. Quand les premiers vrais utilisateurs l'ignorent, la lecture honnête, celle qui dit qu'on a construit la mauvaise chose, coûte quelque chose à chacun des trois. Alors on y voit un problème de déploiement, un problème d'onboarding, un problème de communication. À force de peaufiner, l'équipe n'a pas seulement retardé les retours. Elle s'est donné des raisons de ne pas les entendre.
+Distingue ce qui aide à examiner l'hypothèse de ce qui peut attendre. Exemple construit : tu prépares une fiche pour aider de nouveaux bénévoles à accueillir le public. Avant de mettre en page tout le guide, fais relire et essayer un parcours à une personne volontaire. Des consignes lisibles sont nécessaires ; une identité graphique complète ne l'est peut-être pas encore.
 
-L'objection sérieuse est que le travail brut coûte de la confiance, et que sur un marché de cette taille on n'a pas de deuxième première impression. La question est de choisir à qui montrer le produit à ce stade. Tu peux nommer dix personnes que ce problème gêne vraiment, et quelqu'un chez toi sait comment les joindre. Appelle-les, dis que c'est tôt, et elles pardonnent un défaut et te disent ce que cent inscriptions silencieuses ne diront jamais. Montrer la même version à un public anonyme est une autre décision, plus tard. Définir cette version minimale reste une affaire de jugement, et je n'ai pas de règle universelle à te donner.
+Choisir un petit groupe peut limiter l'exposition, mais ne garantit ni indulgence ni disponibilité. Demande l'accord, explique ce qui fonctionne et ce qui reste provisoire, puis prévois comment aider si l'essai bloque. Si tu n'as pas accès aux destinataires, un examen accompagné ou une simulation peut déjà éclairer une partie du problème. N'en déduis pas une validation de tous les usages.
+
+Le signe de réussite dépend du besoin. Revenir utiliser une fonction peut être pertinent pour une tâche répétée, beaucoup moins pour une inscription unique ou un dispositif rarement nécessaire. Un premier usage peut déjà apporter une observation utile. Définis ce que tu regarderas avant de choisir un indicateur qui flatterait seulement le lancement.
 
 ## À vérifier
 
-Pour la prochaine fonctionnalité, isole le morceau qui répond à la question la plus incertaine, et mets seulement ça devant dix vrais utilisateurs cette semaine.
+Choisis une incertitude et prépare une version qui permet de l'examiner. Convenez du temps disponible et des personnes qui acceptent de participer ; aucun nombre fixe ne garantit une réponse.
 
-Dis que c'est tôt. Laisse-les tranquilles une semaine, puis va voir ce qui s'est passé. Compte qui est revenu s'en servir une deuxième fois. Le premier usage ne mesure que la curiosité et ton email de lancement.
+Observe ce qu'elles essaient de faire et où elles rencontrent une difficulté. Au moment adapté à cet usage, compare le retour à l'hypothèse de départ. Décide ce qui mérite une amélioration, une autre vérification ou un arrêt.
+
+Garde une courte trace de la raison du choix. Elle aide à distinguer une finition utile d'un effort poursuivi seulement parce qu'il a commencé.
 
 ## Depuis ton siège
 
-- **Design** : peaufiner trois écrans avant de montrer le premier rend plus difficile le fait d'y renoncer.
-- **Fondateur** : dix clients qu'on peut appeler valent cent inscriptions silencieuses. Tu sais lesquels.
-- **Management** : trois noms sur une fonctionnalité ignorée, et l'échec se lira comme un problème d'onboarding.
-- **Relation client** : tu sais qui accepterait de voir une version tôt. Donne les dix noms.
-- **Recrutement** : demande la plus petite chose que le candidat a mise devant un vrai utilisateur.
+- **Design** : identifie la finition nécessaire pour rendre l'essai compréhensible.
+- **Produit** : choisis un signe pertinent pour la fréquence réelle du besoin.
+- **Relation client** : propose un essai accepté et prévois l'aide nécessaire.
+- **Management** : rends possible un changement de direction après le retour.
 
 ## À discuter
 
-Qu'est-ce qu'on est encore en train de peaufiner que dix utilisateurs auraient tranché il y a un mois ?
+Quelle finition aide à répondre à notre question, et laquelle peut attendre ce retour ?

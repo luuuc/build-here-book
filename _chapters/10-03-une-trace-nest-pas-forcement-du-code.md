@@ -6,13 +6,13 @@ order: 1003
 card_type: principe
 metadata:
   principle: "10.03"
-  reading_time_in_minutes: 3
+  reading_time_in_minutes: 2
 categories:
   - trace
   - support
   - produit
 seo:
-  description: "Le test n'a jamais parlé de code. Il demande si un inconnu peut s'en servir sans savoir qui tu es."
+  description: "Choisis une trace adaptée au métier et au destinataire : exemples, schémas et observations qualitatives comptent aussi, en interne comme en public."
   keywords: "build here, trace, support, produit, builder, code"
 redirect_from:
   - /chapters/14-05-une-trace-nest-pas-forcement-du-code.html
@@ -20,39 +20,37 @@ redirect_from:
 
 ## Le réflexe
 
-> "Je n'ai rien à publier, je n'écris pas de code."
-
-Tu lis cette étape et chaque exemple est un postmortem, une dépendance, un message d'erreur. Tu fais du support, du produit, du design, des opérations, ou tu diriges. Tu en conclus que ce chapitre s'adresse à quelqu'un d'autre.
+Tu voudrais transmettre une pratique, mais les exemples de bibliothèques ou de code public te semblent éloignés de ton métier ou de ton expérience.
 
 ## Le réflexe builder
 
-> "Qu'est-ce que je sais que personne n'a écrit ?"
+Pars de la personne à aider et de ce qu'elle doit comprendre ou faire. Choisis une forme adaptée à ce besoin, technique ou non.
 
 ## Pourquoi
 
-Le test n'a jamais parlé de code. Il demande si un inconnu peut s'en servir sans savoir qui tu es. Un tableau des motifs de contact d'une année, avec les proportions, passe ce test. Un dépôt privé de trois cent mille lignes ne le passe pas.
+Une trace peut être une fiche, une explication, une décision commentée, un schéma, une démonstration enregistrée avec accord ou un exemple de travail. Elle peut servir dans une équipe, une association ou au-delà. Un dépôt privé peut être utile à ses destinataires, tout comme une page publique peut ne répondre à aucun besoin réel.
 
-Ce qui manque le plus n'est d'ailleurs pas technique. Il existe des milliers de textes sur les files d'attente distribuées et presque rien sur la façon dont on rattrape un paiement mobile qui a échoué chez un opérateur qui répond au téléphone. Personne n'a écrit comment on forme un agent support sur un produit qui change chaque semaine, ni comment on fait tenir une réunion client quand la moitié du processus vit dans un groupe WhatsApp. Ici, des gens savent faire tout ça et le trouvent banal.
+Exemple construit : une personne aux opérations prépare une fiche pour accueillir un intervenant. Elle explique les informations à vérifier, un cas qui demande de l'aide et le contact à prévenir. Un pair l'essaie puis signale une ambiguïté. La fiche devient plus utile sans contenir de code, de chiffre original ou de découverte inédite.
 
-La forme ne change pas d'un métier à l'autre. Une chronologie, un chiffre, une chose que le lecteur peut aller vérifier. *Apprends des demandes de support* propose d'examiner des cas accessibles avec leur contexte, une cause possible et une vérification. Une synthèse peut aider une autre équipe si elle distingue les observations des hypothèses et ne contient que des informations dont le partage est autorisé. Elle peut aussi rester interne.
+Les métiers ont leurs façons de transmettre. En finance, un exemple de calcul avec ses hypothèses ; au support, un cas commenté ; en design, un parcours avec ses raisons ; dans une activité bénévole, une liste de préparation. Les observations qualitatives comptent aussi. La valeur dépend de l'aide apportée et de la justesse du contexte, pas d'une obligation de quantifier.
 
-Ce qui ne compte pas est le même pour tout le monde. Le retour d'expérience sans un chiffre dedans. L'article qui décrit une méthode générale que trente personnes ont déjà décrite. Ne publie pas ce que ton métier est censé faire, publie ce que la pratique de ton métier t'a appris et qu'on ne découvre qu'en le faisant.
+Il n'est pas nécessaire d'être la première personne à expliquer une méthode. Une adaptation, une traduction ou un exemple accessible peut aider un nouveau destinataire, en reconnaissant ce qui vient d'ailleurs. Une personne qui débute peut conserver ce qui l'a aidée et faire vérifier ses explications. Une personne expérimentée peut préciser les exceptions et les limites, plutôt que chercher une originalité forcée.
 
 ## À essayer
 
-Prends ta dernière semaine et cherche le chiffre que personne d'autre ne détient. Le nombre de fois où la même demande est arrivée. Le temps réel d'un processus que ton produit prétend couvrir. L'étape précise où les gens abandonnent.
+Choisis une question qu'une personne rencontre réellement. Propose une petite ressource qui y répond, avec un exemple et ce qui reste hors de son périmètre.
 
-Publie-le avec ce que tu en as conclu, sans le nom d'un seul client. Neuf cents mots, aucune conclusion sur le secteur.
+Utilise des informations autorisées ou un cas construit clairement annoncé. Ne copie pas un dossier réel seulement pour rendre le support concret. Convenez du temps de préparation et du lieu où la personne pourra le retrouver.
+
+Fais essayer ou relire le support. Note ce qui a été compris, ce qui manque et qui pourra le corriger si la pratique change. Tu peux garder une forme interne ou accompagnée si elle répond mieux au besoin.
 
 ## Depuis ton siège
 
-- **Produit** : le temps réel d'un processus que ton produit prétend couvrir est un chiffre que personne n'a.
-- **Design** : l'étape précise où les gens abandonnent, avec les proportions, est un artefact complet.
-- **Fondateur** : un dépôt privé de trois cent mille lignes ne passe pas le test. Un tableau d'une page, oui.
-- **Management** : ce que ton équipe trouve banal est ce que personne n'a écrit. Va le lui demander.
-- **Relation client** : personne n'a écrit comment on forme un agent sur un produit qui change chaque semaine.
-- **Recrutement** : une trace n'est pas du code. Élargis ce que tu acceptes comme preuve de travail.
+- **Opérations** : explique un parcours avec ses points de vigilance et ses relais.
+- **Finance** : prépare un exemple dont les hypothèses sont compréhensibles.
+- **Support** : conserve un cas utile avec son contexte et les limites du partage.
+- **Design** : rends un choix lisible sans exiger un indicateur chiffré pour chaque observation.
 
 ## À discuter
 
-Qui ici détient un chiffre que personne d'autre dans l'entreprise ne connaît ? Où est-il écrit aujourd'hui ?
+Quelle forme aiderait le prochain destinataire de notre savoir, même sans code ni mesure originale ?

@@ -1,9 +1,10 @@
 ---
 layout: chapter
-title: "⇄ Tu demandes des résultats et tu passes en revue de l'activité"
+title: "⇄ Relie la revue d'activité aux résultats"
 part: "L'ownership"
 order: 607
 card_type: systeme
+action_scope: "Portée : accord d'équipe sur le suivi"
 metadata:
   principle: "6.07"
   reading_time_in_minutes: 2
@@ -12,48 +13,45 @@ categories:
   - leadership
   - conditions
 seo:
-  description: "Les gens ne préparent pas ce qui est déclaré important. Ils préparent ce qui est demandé chaque semaine."
-  keywords: "build here, ownership, leadership, conditions, builder"
+  description: "Relie activité et effets observés avec une cadence adaptée, des moyens de vérification et un suivi proportionné."
+  keywords: "build here, builder, ownership, revue, activite, resultats"
 redirect_from:
   - /chapters/06-08-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html
 ---
 
 ## Ce que tu demandes
 
-> "Ici on parle résultats, pas activité."
-
-C'est sincère, c'est répété en réunion générale, et c'est peut-être même écrit sur un mur.
+Tu souhaites suivre les effets du travail. Le point d'équipe décrit surtout les tâches réalisées et celles qui viennent, sans place claire pour les observations ultérieures.
 
 ## Ce que le système entend
 
-> "Reprends les douze dernières lignes du point d'équipe. Combien portent un résultat ?"
+Le format invite à préparer l'activité. Ajouter des résultats demande de préciser quelles observations sont utiles, quand elles peuvent arriver et qui peut les obtenir.
 
 ## Ce que ça produit
 
-Les gens ne préparent pas ce qui est déclaré important. Ils préparent ce qui est demandé chaque semaine. Un rituel hebdomadaire bat une déclaration trimestrielle, à chaque fois, et sans que personne ait besoin d'y réfléchir.
+Suivre l'activité aide à coordonner les personnes et à repérer une charge ou une dépendance. Ce suivi reste utile. Il ne suffit pas à savoir si le travail a amélioré une situation, préservé un service ou réduit une incertitude. Relier les deux permet de choisir la suite avec davantage de contexte.
 
-Le format pose la question « qu'est-ce que tu as fait ». Il reçoit donc ce qui a été fait. Rien dans cette réponse n'est de la mauvaise foi, c'est très exactement la question qui a été posée. Demander des résultats une fois par trimestre pendant qu'on demande de l'activité cinquante fois par an ne change rien, et laisse en prime l'impression que le sujet est traité.
+Le résultat ne suit pas toujours la cadence de la réunion. Une tâche peut être terminée cette semaine et son effet ne devenir observable qu'au prochain cycle d'usage. Forcer un résultat immédiat peut conduire à choisir un indicateur commode plutôt qu'une information pertinente. Note ce qui est attendu, ce qui reste inconnu et le moment prévu pour regarder.
 
-Il y a un deuxième mécanisme, plus dur à voir, et c'est celui qui bloque les équipes sérieuses. Un résultat met plus de temps à arriver que la cadence de la revue. Si tu regardes chaque semaine et que le résultat arrive au bout de six, ton format ne peut structurellement pas en contenir un. Les gens remplissent donc la case avec la seule chose disponible à cette échéance, qui est leur activité. Ce n'est pas un problème de culture, c'est un problème de calendrier.
+Les observations peuvent être quantitatives ou qualitatives : un cas auparavant impossible, une difficulté expliquée, un incident évité lors d'un exercice, une procédure utilisable par un relais. Une mesure demande aussi du contexte. Peu d'utilisations ne prouvent pas l'inutilité d'un service rare, et une hausse de volume ne démontre pas à elle seule une amélioration.
 
-Le troisième mécanisme achève le premier. Si un mauvais résultat coûte du statut à celui qui l'annonce, tu ne recevras que des bons, et tu les recevras tard. Ce que tu prends pour de la transparence est alors un délai de mise en forme.
+Préparer ces retours prend du temps et peut demander des accès. Convenez d'un nombre limité de sujets à suivre, avec une personne qui accepte la vérification et les moyens nécessaires. Si un résultat est décevant ou inconnu, cherchez la prochaine décision plutôt qu'une responsabilité personnelle à attribuer. Le point d'équipe doit aider à agir, pas devenir un second travail de reporting.
 
 ## La décision
 
-Ajoute une colonne au point d'équipe, à côté de ce qui a été fait. Ce que ça a donné.
+Sur un sujet important, ajoute à l'activité : l'effet attendu, l'observation disponible et la prochaine vérification. Distingue "pas encore observable", "information inaccessible" et "résultat observé".
 
-Accepte qu'elle reste vide trois semaines. Une case vide qui reste affichée fait plus de travail qu'un discours sur la culture du résultat.
+Choisis avec l'équipe qui recueillera le retour, à quel moment et avec quel effort. Accepte une vérification par échantillon ou un retour préparé si l'accès direct n'est pas approprié.
 
-Puis la première fois qu'un mauvais chiffre arrive dedans, regarde ce que tu fais dans les dix secondes qui suivent. C'est ce moment que l'équipe retiendra.
+Après un cycle pertinent, demande quelle décision ce suivi a aidée et combien de temps il a coûté. Simplifie ou arrête un suivi qui n'éclaire plus de décision, en conservant les contrôles nécessaires.
 
 ## Depuis ton siège
 
-- **Produit** : si la revue ne suit que les livraisons, ta feuille de route deviendra une liste de livraisons.
-- **Ingénierie** : demande où va la donnée d'usage. Souvent nulle part, et personne ne l'a décidé.
-- **Fondateur** : ton point d'équipe est la vraie spec de ce que l'entreprise valorise. Relis-le.
-- **Relation client** : tu détiens des résultats que la revue ne demande jamais. Apporte-les sans attendre.
-- **Recrutement** : un processus mesuré en entretiens passés produit des entretiens, pas des recrutements.
+- **Produit** : relie le résultat observé à une décision de suite.
+- **Opérations** : rends visible le service préservé, même sans nouveauté.
+- **Management** : adapte la cadence et les moyens aux observations attendues.
+- **Relation client** : apporte un retour contextualisé dans les limites du partage autorisé.
 
 ## À discuter
 
-Quel résultat a mis plus de six semaines à être connu ici, et qu'est-ce qui l'a retardé ?
+Quel résultat mérite une place dans notre revue, et quel suivi pourrions-nous alléger pour lui faire de la place ?

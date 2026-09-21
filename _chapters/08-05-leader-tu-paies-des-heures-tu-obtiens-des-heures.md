@@ -1,9 +1,10 @@
 ---
 layout: chapter
-title: "⇄ Tu paies des heures, tu obtiens des heures"
+title: "⇄ Reconnais aussi le travail évité et le service préservé"
 part: "Le levier"
 order: 805
 card_type: systeme
+action_scope: "Portée : accord d'équipe et responsables des moyens ou de l'évaluation"
 metadata:
   principle: "8.05"
   reading_time_in_minutes: 2
@@ -12,46 +13,45 @@ categories:
   - leadership
   - conditions
 seo:
-  description: "Si le travail traité est ce qui se voit, supprimer du travail fait baisser ton score. Tu paies les gens pour entretenir le volume."
-  keywords: "build here, levier, leadership, conditions, builder"
+  description: "Reconnais prévention, transmission et service direct à partir d'effets contextualisés, sans quota de suppression ni promesse de gain gratuit."
+  keywords: "build here, builder, levier, prevention, service, reconnaissance"
 redirect_from:
   - /chapters/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html
 ---
 
 ## Ce que tu demandes
 
-> "On reconnaît ceux qui abattent le plus de travail."
-
-C'est juste, c'est mesurable, et ça récompense des gens qui travaillent réellement beaucoup. Difficile de le présenter comme une erreur.
+Tu souhaites que l'équipe réduise les difficultés récurrentes. Les échanges de suivi rendent surtout visible le nombre de tâches ou de demandes traitées.
 
 ## Ce que le système entend
 
-> "Qui a été félicité ici pour du travail qui a cessé d'exister ?"
+Le travail de prévention, de simplification ou de transmission peut être moins facile à montrer, surtout pendant sa préparation ou lorsque son effet est une difficulté évitée.
 
 ## Ce que ça produit
 
-Mesurer le volume produit du volume. Si la personne au support est suivie sur les conversations traitées, faire disparaître mille conversations fait baisser son chiffre. Elle n'a pas besoin d'y penser consciemment, et elle n'est pas de mauvaise foi : tu la paies pour entretenir le volume, et elle l'entretient.
+Le volume traité renseigne sur la charge et le service rendu. Le temps consacré peut aider à organiser les moyens. Ces informations restent utiles, mais ne décrivent pas toutes les contributions. Une amélioration peut réduire les reprises, faciliter un relais ou préserver la fiabilité sans produire davantage de tâches visibles.
 
-L'asymétrie de visibilité fait le reste. Celui qui traite cent demandes a une semaine visible, racontable, chiffrée. Celui qui passe deux semaines à supprimer la cause de mille demandes a deux semaines vides, puis un résultat qui prend la forme d'une absence. Une absence ne remplit aucun rapport et ne se raconte pas en réunion. Tes meilleurs builders apprennent donc une compétence que tu n'as jamais demandée, qui est d'avoir l'air occupé.
+Exemple construit : l'équipe d'accueil clarifie une invitation et reçoit moins de questions d'accès. Elle compare des événements similaires et demande si les participants trouvent mieux le lieu. La baisse des messages seule ne prouve pas un progrès : un canal devenu difficile à joindre pourrait produire le même chiffre. Le travail direct d'accueil reste nécessaire et mérite aussi d'être reconnu.
 
-Cette carte double celle sur le planning, et elle traite l'autre moitié du problème. Le créneau protégé donne le temps. Il ne suffit pas si, au moment de l'augmentation ou de la promotion, seul le volume est regardé. Les gens croient le calendrier des récompenses, pas les intentions annoncées en réunion générale.
+Rendre ces effets visibles demande parfois une observation, une estimation ou un retour qualitatif. Ne force pas chaque contribution à devenir un nombre d'heures annuelles économisées. Distingue le gain observé du gain attendu, et ajoute les coûts de préparation et d'entretien. Une amélioration qui déplace la charge vers une autre personne n'a pas forcément réduit l'effort total.
 
-Ce qui se répare tient en deux gestes, et aucun ne coûte d'argent. Compte la disparition : quatre heures par semaine rendues à l'équipe est un chiffre, au même titre que six tickets fermés. Puis nomme-le publiquement, une fois, en donnant le nom de la personne et le chiffre. Une seule fois suffit à déplacer ce que toute l'équipe comprend de ce qui compte ici.
+Si tu développes une équipe, examine aussi les critères utilisés pour attribuer du temps, du soutien et de la reconnaissance. Une félicitation isolée ne remplace pas un accord durable sur ce qui compte. Le responsable des évaluations ou des moyens doit participer aux changements qui relèvent de son mandat. Entre pairs, on peut déjà documenter une contribution utile avec l'accord des personnes concernées.
 
 ## La décision
 
-À la prochaine revue d'équipe, demande ce qui a disparu, pas seulement ce qui a été produit.
+À une revue adaptée, choisis une amélioration et décris le service préservé ou la difficulté réduite, les observations disponibles et le travail nécessaire pour y parvenir.
 
-Puis va chercher le chiffre de la dernière suppression en date, et dis-le à voix haute avec le nom de la personne.
+Demande aux personnes affectées si le changement les aide et si une charge a été déplacée. Reconnais les contributions de réalisation, d'entretien et de service direct, sans chercher un héros unique ni publier un nom sans accord.
+
+Convenez de ce que cette observation change dans les priorités ou le soutien proposé. Au point suivant, vérifiez que cette décision a eu une suite ; allégez le suivi s'il devient plus coûteux qu'utile.
 
 ## Depuis ton siège
 
-- **Produit** : une feuille de route mesurée en livraisons ne contiendra jamais de suppression.
-- **Ingénierie** : chiffre en heures rendues par an. C'est le seul format qui entre dans un arbitrage.
-- **Fondateur** : ton entreprise grandit en effectifs sans grandir en production. C'est ici que ça se joue.
-- **Relation client** : ton indicateur te punit si le volume baisse. Dis-le, c'est une information utile.
-- **Recrutement** : recruter pour absorber du travail répété achète du délai au prix d'un salaire annuel.
+- **Produit** : montre l'effet d'une simplification avec ses limites et son entretien.
+- **Support** : distingue moins de difficultés de moins de possibilités de demander de l'aide.
+- **Management** : relie reconnaissance et moyens dans la durée.
+- **Finance** : distingue économie observée, estimation et coût déplacé.
 
 ## À discuter
 
-Qui a été augmenté ou promu ici pour avoir fait disparaître du travail, et quand ?
+Quelle contribution utile reste peu visible dans nos revues, et comment la reconnaître sans créer une nouvelle course au chiffre ?

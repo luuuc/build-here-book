@@ -1,19 +1,20 @@
 ---
 layout: chapter
-title: "⇄ Tu gardes ton équipe invisible parce que visible, elle part"
+title: "⇄ Soutiens une visibilité choisie"
 part: "La référence"
 order: 1010
 card_type: systeme
+action_scope: "Portée : accord des contributeurs et responsables de la communication ou des moyens"
 metadata:
   principle: "10.10"
-  reading_time_in_minutes: 3
+  reading_time_in_minutes: 2
 categories:
   - visibilite
   - leadership
   - retention
 seo:
-  description: "Le travail à distance a retiré la protection sur laquelle reposait ton calcul. Ce que le silence ne fait toujours pas, c'est retenir qui que ce soit."
-  keywords: "build here, visibilite, leadership, builder, equipe, invisible, travail a distance"
+  description: "Propose visibilité et crédit selon les souhaits des contributeurs, sans supposer leurs intentions ni confondre publication, carrière et rétention."
+  keywords: "build here, builder, reference, visibilite, choix, contributions"
 redirect_from:
   - /chapters/09-04-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
   - /chapters/15-05-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
@@ -21,38 +22,37 @@ redirect_from:
 
 ## Ce que tu demandes
 
-> "On préfère communiquer au nom de l'entreprise."
-
-Les publications sortent sous le logo. Le nom de celui qui a fait le travail n'y figure pas. Personne n'a décidé ça méchamment, et la raison qu'on donne est la cohérence de la marque.
+L'équipe produit un travail qui pourrait être présenté au-delà de son cercle habituel. Les préférences des contributeurs et la façon de reconnaître leur participation restent à discuter.
 
 ## Ce que le système entend
 
-> "Si mon meilleur ingénieur devient connu, il part. C'est ça que je protège, et je ne peux pas le dire à voix haute."
+La visibilité peut être une occasion pour certains et une exposition non souhaitée pour d'autres. Une communication collective ne dit pas à elle seule comment leurs contributions sont reconnues.
 
 ## Ce que ça produit
 
-Reconnaissons d'abord que la peur est fondée. Quelqu'un de visible reçoit des offres. Le travail à distance a retiré la protection sur laquelle ton calcul reposait : ton équipe n'est plus comparée aux employeurs de ta ville, mais à tous ceux qui recrutent sans demander de déménager. Ce n'est pas de la paranoïa, c'est de l'arithmétique. Ceux qui deviennent bons et se font voir sont exactement ceux qu'un employeur lointain sait repérer, et il n'a même plus besoin de te prendre la personne : il lui suffit de l'embaucher là où elle est.
+Une organisation peut choisir une voix collective pour des raisons pratiques ou éditoriales. Il faut examiner le cas plutôt que lui prêter automatiquement la peur de voir partir ses salariés. Cette forme peut néanmoins effacer des contributions si aucun autre moyen de les reconnaître n'est prévu.
 
-Regarde maintenant ce que le silence t'apporte réellement. Il ne retient personne. Quelqu'un qui veut partir part, et la raison sera le salaire, le travail, ou toi. Ce que le silence garantit, c'est que tu ne pourras pas recruter la personne suivante autrement que par recommandation, c'est-à-dire par le canal qui sélectionne ceux qui savent se montrer. Tu fais tourner le filtre décrit dans *Le filtre que tu fais tourner*, et tu conclus ensuite qu'il n'y a personne de ce niveau.
+La visibilité peut créer des rencontres, des retours ou des occasions professionnelles. Elle ne garantit ni un recrutement, ni un départ, ni la fidélité à une équipe. Les personnes choisissent selon plusieurs conditions, dont certaines échappent au responsable. Soutenir leur développement ne demande pas de promettre qu'elles resteront ou d'utiliser leur exposition comme un outil de rétention.
 
-Il y a un deuxième coût et il est plus lent. Une entreprise dont on ne connaît aucun ingénieur n'attire que des gens qui ne comparent pas. C'est un filtre lui aussi, il fonctionne dans les deux sens, et ton équipe actuelle sait très bien de quel côté elle est.
+Exemple construit : une équipe prépare une présentation d'un projet commun. Deux personnes souhaitent intervenir, une autre préfère une mention collective. Elles conviennent du contenu autorisé, des contributions à citer et du temps de préparation. La personne qui ne prend pas la parole reste reconnue pour son travail ; elle n'a pas à accepter l'exposition pour bénéficier du même soutien professionnel.
 
-La rétention se paie en argent, en autonomie et en travail intéressant. Elle ne se paie pas en obscurité. Tu perds sur les deux tableaux, parce que la personne finit par partir quand même, sans que rien de ce qu'elle a construit chez toi n'ait servi à faire venir la suivante.
+Si tu décides des moyens, distingue reconnaissance du travail, participation à la communication et discussion de carrière. Une signature publique ne remplace pas des conditions de travail examinées directement avec la personne. Si tu soutiens sans ce pouvoir, tu peux proposer une relecture ou une introduction acceptée, sans promettre une audience ni une évolution en échange.
 
 ## La décision
 
-→ Mets le nom des gens sur ce que ton entreprise publie. C'est gratuit, c'est immédiat, et ça se remarque de l'extérieur bien avant d'être remarqué de l'intérieur.
-→ Compte tes recrutements des deux dernières années par canal. Si tout est venu de recommandations, tu connais la sortie de ton filtre.
-→ Écris ce que tu offres à quelqu'un qui reçoit une offre à distance nettement mieux payée. Réponds honnêtement, avant que la question te soit posée, parce qu'elle le sera.
+Sur un partage envisagé, demande aux contributeurs comment ils souhaitent participer et être crédités. Vérifie le cadre de publication, le temps nécessaire et les informations qui peuvent circuler.
+
+Convenez des mentions personnelles ou collectives, de qui répondra aux questions et des limites de ce suivi. Prévois une reconnaissance adaptée pour les contributions qui restent internes. Le refus d'une exposition facultative ne doit pas être interprété comme un manque d'ambition ou de valeur.
+
+Après l'expérience, demande ce qu'elle a apporté, ce qu'elle a coûté et si chacun souhaite recommencer. Traite séparément les demandes concernant le rôle, la charge ou l'évolution, avec les personnes qui peuvent y répondre.
 
 ## Depuis ton siège
 
-- **Ingénierie** : ton nom sur ce que l'entreprise publie est gratuit. Demande-le une fois, par écrit.
-- **Design** : les gens signent leur travail partout ailleurs. Une équipe anonyme se remarque de l'extérieur.
-- **Fondateur** : le silence ne retient personne. Il garantit juste que tu recruteras par recommandation.
-- **Relation client** : une entreprise sans visage attire ceux qui ne comparent pas. Les clients aussi.
-- **Recrutement** : compte tes recrutements par canal sur deux ans. Tout en recommandation dit tout.
+- **Management** : distingue contribution au travail et volonté de prendre la parole.
+- **Design** : fais confirmer le contenu et les mentions avant de présenter un travail collectif.
+- **Relation client** : propose des échanges acceptés sans exposer une relation par défaut.
+- **Recrutement** : décris les conditions réelles et accepte des capacités sans visibilité publique.
 
 ## À discuter
 
-Si quelqu'un cherche le nom de nos ingénieurs, il trouve quoi ? Et si la réponse est rien, de quoi croit-on se protéger ?
+Comment proposons-nous de la visibilité sans l'imposer, et comment reconnaissons-nous ceux qui préfèrent rester en retrait ?

@@ -12,7 +12,7 @@ categories:
   - decision
   - management
 seo:
-  description: "La qualité d'une décision et la qualité d'un résultat sont deux mesures différentes, et tu ne maîtrises que la première."
+  description: "Examine raisonnement et résultat séparément, en tenant compte des informations, des moyens et des risques disponibles au moment du choix."
   keywords: "build here, leadership, builder, bonne, decision, peut, quand, meme"
 redirect_from:
   - /chapters/06-06-une-bonne-decision-peut-quand-meme-perdre.html
@@ -21,40 +21,40 @@ redirect_from:
 
 ## Le réflexe
 
-> "Je veux des gens qui décident."
-
-Puis le premier arbitrage autonome qui tourne mal est traité comme une faute.
+Une initiative tourne mal. Le résultat devient le principal argument pour juger la décision, alors que les informations disponibles au départ ont peu été examinées.
 
 ## Le réflexe builder
 
-> "Cette décision était raisonnable avec ce que tu avais. Le résultat est mauvais. La décision, non."
+Examine le raisonnement de départ, puis le résultat. Un mauvais résultat ne prouve pas une mauvaise décision ; il ne prouve pas non plus qu'elle était bonne.
 
 ## Pourquoi
 
-La qualité d'une décision et la qualité d'un résultat sont deux mesures différentes, et tu ne maîtrises que la première. Un arbitrage prudent peut mal tomber. Un arbitrage imprudent peut avoir de la chance et récolter des applaudissements. Juge uniquement les résultats et les gens apprennent un seul coup sûr, l'option qui présente le moins d'incertitude. Tu te retrouves avec une équipe pleine de décisions. Toutes petites.
+Une décision raisonnable peut rencontrer un événement défavorable. Une décision fragile peut produire un bon résultat. Pour apprendre, il faut regarder les options, les informations, les contraintes et les risques connus au moment du choix, puis ce que l'action a effectivement produit.
 
-"Le droit à l'échec" énoncé platement peut donner l'impression qu'on autorise à gaspiller l'argent des autres. Le droit s'applique aux arbitrages réversibles, un tarif que tu peux rétablir en fin de semaine. Tout ce qui est à sens unique, un contrat signé, des données supprimées, une promesse écrite à un client, est une autre conversation. Où passe la ligne se discute à chaque fois, et deux personnes raisonnables la placent rarement au même endroit.
+La qualité du raisonnement dépend aussi des conditions : temps disponible, accès, expérience et appui. Tu peux agir sur une partie de ces conditions sans les maîtriser toutes. Demander ce qui aurait été facilement accessible est utile si cette facilité est vérifiée avec la personne concernée, pas déduite après coup.
 
-Sur un marché assez petit pour que tout le monde finisse par travailler avec tout le monde, un échec public suit la personne jusqu'à son prochain poste, et jusque dans la salle où son prochain poste se discute. Lever la main coûte cher. C'est ta première réaction qui fixe ce prix.
+La réversibilité aide à choisir les protections d'un essai, mais elle est rarement totale. Rétablir un tarif ou revenir à une ancienne version peut encore laisser un coût, une confusion ou une perte de confiance. Une action difficile à reprendre demande davantage de vérifications et un mandat adapté ; son résultat défavorable mérite lui aussi une analyse équitable.
 
-La distinction ne se fait pas entre avoir raison et avoir tort. Elle est de savoir si le raisonnement existait au moment de décider ou a été reconstitué après. Quelqu'un qui s'est trompé en ayant lu ce qu'il y avait à lire n'a pas été imprudent. Celui qui n'a pas ouvert la chose qui était à un message, si.
+Exemple construit : un groupe choisit un lieu pour un atelier à partir des accès annoncés et du budget disponible. Une interruption de transport perturbe ensuite la venue. La revue peut confirmer le choix initial tout en révélant l'intérêt d'une solution de secours. Elle peut aussi montrer une information négligée. La conclusion dépend des faits, pas du besoin de défendre ou de condamner la décision.
 
 ## À essayer
 
-La prochaine fois qu'une initiative échoue, fais la revue sur le raisonnement.
+Avant une décision importante, garde quelques lignes sur l'objectif, les options, les informations et les inconnues. Proportionne cette trace à l'enjeu ; ce n'est pas un dossier à produire pour chaque geste.
 
-> "Tu savais quoi au moment de décider ? Qu'est-ce qui aurait pu être su en dix minutes et ne l'a pas été ?"
+À la revue, demande :
 
-Dans cet ordre. La première préserve l'envie d'agir. La seconde demande de rendre compte du travail, sans chercher un coupable.
+> "Que savions-nous et que pouvions-nous raisonnablement vérifier ?"
+> "Qu'avons-nous appris, et que cela change-t-il pour la prochaine décision ?"
+
+Choisis une amélioration ou explique pourquoi le raisonnement reste valable. Au prochain cas comparable, regarde si cette leçon a été utilisable. Pour un débutant, un pair peut aider à reconstruire les options sans imposer la réponse après coup.
 
 ## Depuis ton siège
 
-- **Ingénierie** : écris ce que tu savais au moment de décider. C'est la seule défense qui tient six mois après.
-- **Design** : une direction validée qui échoue au test n'était pas mauvaise. C'était un test.
-- **Fondateur** : réversible ou à sens unique. Trie d'abord, discute ensuite. La ligne bouge à chaque fois.
-- **Relation client** : un échec public suit la personne jusqu'au poste suivant. Ta réaction fixe le prix.
-- **Recrutement** : demande une décision du candidat qui a mal tourné, et ce qu'il savait en la prenant.
+- **Ingénierie** : note les hypothèses importantes avant de connaître le résultat.
+- **Design** : examine ce qu'un essai apprend sans déclarer automatiquement le choix bon ou mauvais.
+- **Management** : regarde le mandat, les moyens et les risques réellement connus.
+- **Recrutement** : demande les options envisagées et les informations disponibles à l'époque.
 
 ## À discuter
 
-Quelle erreur récente a été analysée ici sans chasse au responsable ?
+Dans une décision récente, qu'est-ce que le résultat nous apprend sans réécrire ce que nous savions au départ ?

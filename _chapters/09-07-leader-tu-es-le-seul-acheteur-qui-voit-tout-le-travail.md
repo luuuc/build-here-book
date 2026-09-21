@@ -1,19 +1,20 @@
 ---
 layout: chapter
-title: "⇄ Tu es le seul acheteur qui voit tout le travail"
+title: "⇄ Relie la reconnaissance aux contributions réelles"
 part: "Le leadership"
 order: 907
 card_type: systeme
+action_scope: "Portée : responsables de l'évaluation, des moyens et de la rémunération selon le sujet"
 metadata:
   principle: "9.07"
-  reading_time_in_minutes: 3
+  reading_time_in_minutes: 2
 categories:
   - visibilite
   - leadership
   - carriere
 seo:
-  description: "Le marché fixe le prix d'un inconnu. Toi, tu ne paies pas des inconnus, et tu choisis quand même le prix de l'inconnu."
-  keywords: "build here, visibilite, leadership, builder, salaire, valeur, augmentation"
+  description: "Examine les contributions avec des critères explicites, des faits complétables et un mandat clair, en respectant les informations individuelles."
+  keywords: "build here, builder, leadership, reconnaissance, contributions, evaluation"
 redirect_from:
   - /chapters/09-05-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html
   - /chapters/15-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html
@@ -21,38 +22,37 @@ redirect_from:
 
 ## Ce que tu demandes
 
-> "On paie au marché."
-
-La phrase la plus raisonnable de toutes les conversations de salaire, et celle qui contient le plus de décisions que personne n'a prises.
+Tu souhaites reconnaître les contributions utiles, y compris celles qui se voient peu. Les décisions de soutien, d'évolution ou de rémunération s'appuient cependant sur des informations incomplètes ou des critères peu explicités.
 
 ## Ce que le système entend
 
-> "Le marché fixe mon plancher. Ce que je paie le plus cher chez moi, c'est moi qui le décide."
+Les personnes ne savent pas toujours comment leur travail est examiné ni comment faire connaître une contribution sans devoir se mettre constamment en avant.
 
 ## Ce que ça produit
 
-Reconnais d'abord ce qui est vrai. Tu ne peux pas surenchérir sur une entreprise à huit mille kilomètres qui paie en devises fortes et qui ne verra jamais ta trésorerie. Personne ne te demande ça. Ce minimum ne justifie pas tout pour autant. Payer sous ce qu'un travail vaut ici et appeler ça de la culture est la version dirigeante de "l'argent n'est pas l'essentiel", et elle n'est vraie que dans la bouche de celui qui ne verse pas.
+Aucun responsable ne voit tout le travail. Une présentation peut être bien préparée et utile ; une maintenance discrète peut l'être aussi. Opposer ceux qui présentent et ceux qui construisent empêche d'examiner ce que chacun apporte. Cherche des faits auprès des personnes concernées plutôt que de présumer que la contribution la moins visible est toujours oubliée.
 
-Regarde maintenant ce que "le marché" désigne. Un prix fixé par des acheteurs qui ont quarante minutes et deux onglets, et qui ne peuvent donc payer que ce qui se vérifie de l'extérieur. C'est le prix d'un inconnu. Toi, tu ne paies pas des inconnus. Tu sais qui a tenu le rail de paiement pendant la coupure de mars, qui a rendu le service plus petit, qui répond quand personne ne regarde. Tu choisis quand même le prix de l'inconnu, parce qu'il se défend plus facilement en conseil. Tu importes dans ta paie le filtre que tu maudis dans ton recrutement.
+Exemple construit : une équipe remarque qu'une procédure de rapprochement produit moins de reprises. Plusieurs personnes ont contribué à la correction, à sa vérification et à son entretien. Examiner ces rôles permet de reconnaître le travail sans attribuer le résultat à la seule personne qui l'a présenté ni à un héros unique.
 
-Ton équipe regarde ce que tu rémunères le mieux avant de lire tes valeurs affichées. La question se pose chaque année et les réponses circulent. La plus grosse augmentation est allée à celui qui a présenté au comité, ou à celui qui a réparé la réconciliation. Personne ne demande, tout le monde sait, et l'année suivante tu obtiens davantage de ce que tu as payé. C'est comme ça qu'une boîte devient une boîte qui présente bien, ou une boîte qui livre, sans qu'aucune réunion n'ait jamais porté ce titre.
+Les décisions de rémunération et d'évolution dépendent de critères, de responsabilités, de cohérence entre situations et de moyens disponibles. Une référence externe peut informer la discussion sans décrire toute la contribution. Une seule décision ou félicitation ne remplace pas un cadre explicite et appliqué dans la durée. Les personnes habilitées doivent porter les changements qui relèvent de leur mandat.
 
-Et refaire une grille salariale prend du temps. Mais ce n'est pas une raison d'attendre pour agir. Le classement se décide à la prochaine augmentation, sur une seule décision, et il est lu plus attentivement que n'importe quel document que tu publieras cette année.
+Une reconnaissance ne remplace pas un arbitrage sur le salaire ou la charge. Si tu ne peux pas décider, tu peux aider à documenter une contribution et à la transmettre au bon responsable, avec accord. Respecte les informations privées : ni les montants ni les motifs individuels ne doivent devenir automatiquement un sujet de discussion publique. Les critères généraux peuvent être expliqués sans exposer les dossiers des personnes.
 
 ## La décision
 
-→ Les trois plus grosses augmentations ou primes de l'année, de mémoire. À côté de chacune, une phrase qui dit ce que la personne a fait pour l'obtenir, écrite comme quelqu'un de ton équipe l'écrirait.
-→ Compare ces trois phrases avec ce que tu dis chercher quand tu recrutes.
-→ Pour la prochaine, dis la raison à voix haute devant l'équipe, en choses faites. Le montant reste privé, la raison n'a aucune raison de l'être.
+Avec les responsables concernés, choisis un périmètre de revue et précise les contributions examinées : réalisation, service, fiabilité, coopération, transmission ou apprentissage utile au rôle.
+
+Recueille des exemples contextualisés et laisse les personnes compléter ou corriger les faits qui les concernent. Compare les critères aux décisions proposées et examine ce qui reste peu visible. Ne déduis pas une contribution d'un chiffre isolé ou de la seule aisance à la raconter.
+
+Explique individuellement la décision, ses limites et la prochaine possibilité de revue. Au point convenu, vérifie que les engagements de soutien ou d'évolution ont eu une suite.
 
 ## Depuis ton siège
 
-- **Ingénierie** : ce qui a été le plus payé cette année t'apprend ce qui compte ici. Tout le monde l'a remarqué.
-- **Design** : ce qui n'est jamais récompensé cesse d'être fait, sans qu'aucune réunion l'ait décidé.
-- **Fondateur** : tu importes dans ta paie le filtre que tu maudis dans ton recrutement.
-- **Relation client** : celui qui répond quand personne ne regarde n'est jamais dans les trois plus payés.
-- **Recrutement** : compare ce que tu paies le plus cher avec ce que tu dis chercher en entretien.
+- **Management** : recueille des faits et explique les critères dans les limites de ton mandat.
+- **Opérations** : rends visibles la continuité du service et le travail d'entretien.
+- **Recrutement** : compare les capacités annoncées aux contributions réellement reconnues.
+- **Finance** : éclaire les moyens disponibles sans les confondre avec toute la valeur du travail.
 
 ## À discuter
 
-La plus grosse augmentation d'ici cette année a récompensé quoi exactement, et est-ce que tout le monde dans cette salle donnerait la même réponse ?
+Quels critères rendent nos contributions compréhensibles, et comment une personne peut-elle compléter les faits examinés ?

@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Supprime l'étape avant de la documenter"
+title: "Comprends l'étape avant de la simplifier"
 part: "Les systèmes"
 order: 702
 card_type: pratique
@@ -13,46 +13,43 @@ categories:
   - process
   - simplicite
 seo:
-  description: "Une documentation est souvent le lot de consolation d'une étape qui n'aurait pas dû exister."
-  keywords: "build here, systemes, process, documentation, builder"
+  description: "Identifie la fonction d'une étape avant de la documenter, la modifier ou la retirer ; une raison inconnue demande une enquête."
+  keywords: "build here, builder, systemes, procedure, fonction, simplification"
 ---
 
 ## Le point de départ
 
-> "Je vais écrire une procédure pour que tout le monde sache la faire."
-
-C'est généreux, c'est du travail réel, et ça règle effectivement le problème de la semaine.
+Tu veux expliquer une étape pour qu'une autre personne puisse la faire. Son utilité ou sa forme actuelle mérite peut-être aussi d'être examinée.
 
 ## Le geste
 
-> "Avant d'écrire comment on la fait, pourquoi est-ce qu'elle existe ?"
-
-Trois questions dans l'ordre. Est-ce qu'on peut la supprimer. Sinon, est-ce qu'une machine peut la faire. Sinon seulement, on l'écrit.
+Cherche ce que l'étape produit ou protège, pour qui, puis compare les façons de préserver cette fonction : la documenter, la simplifier, l'automatiser ou la retirer.
 
 ## Pourquoi ça marche
 
-Une documentation est souvent le lot de consolation d'une étape qui n'aurait pas dû exister. Elle a l'avantage d'être rapide à produire et de donner l'impression d'avoir traité le sujet. Elle a l'inconvénient de rendre l'étape permanente.
+Documenter peut rendre le travail accessible, sécuriser un relais et permettre de discuter une pratique. Cela ne rend pas l'étape permanente. Écrire sa raison et ses limites aide justement à la revoir plus tard. Il peut être utile de documenter une procédure provisoire pendant qu'une amélioration est étudiée.
 
-Le mécanisme est presque comique. Une étape non documentée est fragile : le jour où elle agace quelqu'un, elle disparaît. Une étape documentée est défendue. Elle a une page, la page a un auteur, l'auteur a passé du temps dessus, et remettre l'étape en question revient maintenant à remettre en question un travail. Tu n'as pas seulement conservé l'étape, tu lui as donné un avocat.
+Exemple construit : une équipe recopie une référence d'un formulaire vers un tableau. Avant de supprimer cette copie, elle découvre que le tableau sert à vérifier les dossiers incomplets. Une intégration pourrait préserver cette vérification ; retirer seulement la copie laisserait un manque. Le besoin porte sur le contrôle, pas nécessairement sur le geste actuel.
 
-Regarde ce qui se documente dans une entreprise de cinq ans. Une validation qui existe à cause d'un incident qui ne peut plus se produire depuis la refonte. Un champ à recopier d'un outil dans un autre parce qu'une intégration n'a jamais été finie. Une double vérification instaurée après une erreur commise une fois par une personne qui est partie. Chacune a eu une bonne raison. Aucune n'a été rouverte, parce qu'il n'existe aucun moment prévu pour rouvrir une raison.
+Si personne ne connaît la raison d'une étape, c'est une inconnue à traiter, pas une autorisation de suppression. Consulte les personnes affectées, les traces disponibles et le responsable du parcours. Une protection peut rester nécessaire même si aucun incident récent n'est connu. Si l'incertitude demeure, préserve la fonction en attendant un examen compétent.
 
-Certaines étapes ne se suppriment pas et il faut le dire clairement. L'argent, la sécurité, le juridique, ce qui engage quelqu'un d'autre. Là, écris la procédure, et écris avec elle pourquoi l'étape existe. Une procédure sans sa raison connaît deux destins : elle est supprimée par le premier qui la trouve absurde, ou gardée pour toujours par prudence. Les deux sont mauvais, et la raison est la seule chose qui permet de trancher plus tard.
+L'automatisation est une option avec ses propres coûts : configuration, contrôles, maintenance et reprise en cas de panne. Une explication ou une simplification manuelle peut suffire. Choisis selon l'enjeu et les moyens disponibles, sans dévaloriser le travail de documentation ni promettre un gain que tu n'as pas observé.
 
 ## À essayer
 
-Prends la prochaine procédure que tu allais écrire. Avant de l'écrire, va demander à la personne qui a instauré l'étape pourquoi elle existe.
+Sur une étape à ta portée, écris sa fonction, son destinataire et ce qui resterait inconnu si elle disparaissait. Demande une explication à la personne qui connaît le parcours ; si tu débutes, fais cette lecture avec elle.
 
-Si personne ne le sait, tu as ta réponse.
+Propose ensuite une modification limitée, avec l'accord nécessaire et une façon de revenir en arrière. Ne retire pas seul un contrôle partagé.
+
+Au prochain cas adapté, vérifie que le résultat et la protection attendus sont conservés, puis compare l'effort. Mets à jour la procédure et note quand la revoir. Une décision de garder l'étape peut être un résultat utile de cet examen.
 
 ## Depuis ton siège
 
-- **Ingénierie** : une étape manuelle documentée survit dix ans. Supprimée, elle ne revient pas.
-- **Produit** : un champ obligatoire que tout le monde remplit au hasard est du bruit, pas une donnée.
-- **Fondateur** : compte les validations qui passent par toi. Chacune a eu une raison en son temps.
-- **Management** : une équipe n'a jamais retiré une étape que tu as remerciée quelqu'un d'avoir écrite.
-- **Relation client** : l'étape que tu expliques dix fois par semaine au client est une étape à supprimer.
+- **Opérations** : identifie ce qu'une étape rend possible pour la personne suivante.
+- **Ingénierie** : compte les contrôles et l'entretien d'une éventuelle automatisation.
+- **Management** : précise qui peut autoriser une modification du parcours.
+- **Relation client** : explique la difficulté observée sans présumer que l'étape est inutile.
 
 ## À discuter
 
-Quelle étape existe ici pour une raison que personne dans la salle ne sait plus expliquer ?
+Quelle étape gagnerait à être expliquée ou simplifiée, et quelle fonction devons-nous préserver ?

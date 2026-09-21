@@ -12,7 +12,7 @@ categories:
   - client
   - arbitrage
 seo:
-  description: "Une spec contient tout ce que tu croyais le jour où tu l'as écrite, y compris les parties fausses. Elle a été écrite sans ce que le développement allait t'apprendre."
+  description: "Distingue exigences et hypothèses dans une spécification, puis fais examiner les faits nouveaux avant de modifier le travail convenu."
   keywords: "build here, produit, builder, valider, spec, rend, juste"
 redirect_from:
   - /chapters/05-02-valider-une-spec-ne-la-rend-pas-juste.html
@@ -20,39 +20,41 @@ redirect_from:
 
 ## Le symptôme
 
-Le document est validé. Il devient la référence. Toutes les réunions suivantes portent sur la conformité du produit au document, jamais sur la justesse du document.
+Un document décrit le résultat attendu et les contraintes. Il a été validé, mais une observation nouvelle semble contredire une de ses hypothèses.
 
 ## Le signal
 
-> "C'est notre meilleure hypothèse de mars. Allons chercher ce qu'elle a raté."
+Distingue ce qui est exigé, ce qui a été vérifié et ce qui reste supposé. Fais examiner la contradiction avant de changer le travail convenu.
 
 ## Ce qui se passe
 
-Une spec contient tout ce que tu croyais le jour où tu l'as écrite, y compris les parties fausses. Elle a été écrite sans ce que le développement allait t'apprendre. Sans la réaction du premier utilisateur. Sans la contrainte qui n'apparaît que quand deux systèmes se rencontrent.
+Une spécification aide à coordonner un travail et à conserver les décisions. Sa revue peut apporter de nouvelles connaissances : une contrainte oubliée, un cas d'usage ou une vérification supplémentaire. La validation n'assure cependant pas que toutes les hypothèses résisteront à la réalisation et à l'usage.
 
-La validation n'ajoute aucune connaissance. Elle ajoute de l'engagement. S'engager sur un document écrit au moment où tu en savais le moins fige les hypothèses du premier jour dans un produit livré.
+Tout n'est pas une hypothèse de préférence. Certaines exigences correspondent à un engagement, une protection ou une contrainte de fonctionnement. Elles ne disparaissent pas parce qu'un essai produit un retour différent. Il faut comprendre leur raison et identifier qui peut autoriser une modification.
 
-Ce n'est pas un argument contre l'écriture de specs. Quatre personnes ne peuvent pas construire la même chose sans. C'est un argument sur le jour où la spec et le terrain se contredisent, parce que le terrain ne va pas changer d'avis. Et quand la spec est un contrat signé, chiffré ligne par ligne, le combat n'est pas d'écrire moins. C'est de facturer le changement.
+Exemple construit : un document prévoit un choix de créneau. L'équipe suppose que cela facilitera l'inscription. Un premier essai montre que certaines personnes ne comprennent pas les horaires proposés. Ce retour peut appeler une meilleure explication, un autre choix ou davantage d'observation ; il ne suffit pas à conclure que personne ne veut choisir.
 
-On voit bien comment ce principe peut être détourné. Une carte qui dit que la spec peut être fausse se lit, pour celui qui refuse toute contrainte, comme l'autorisation de construire autre chose et d'appeler ça de l'apprentissage. Ce n'en est pas. Dire que la spec est fausse est une affirmation qu'il faut pouvoir étayer comme n'importe quelle autre. Dis-le à voix haute, à celui qui a validé, avant que le code existe, avec ce que tu as trouvé. Diverger en silence et l'expliquer pendant la démo n'est pas de l'honnêteté intellectuelle. Tu imposes à ton tour une décision que personne ne peut discuter. Une erreur trouvée dans le document à la troisième semaine montre au moins que le développement t'a appris quelque chose.
+Une découverte ne donne pas un droit de diverger en silence. Présente les faits, leur portée et les options à la personne responsable du périmètre. Pour un document partagé ou un engagement externe, fais confirmer le changement et ses conséquences sur le délai et le coût. Une personne qui débute peut apporter un cas précis sans devoir résoudre seule toute la contradiction.
 
 ## À vérifier
 
-En haut de la spec, au-dessus des exigences, deux lignes.
+Dans un document de travail, ajoute une hypothèse qui compte pour la décision :
 
-> On suppose : les utilisateurs veulent choisir leur créneau.
-> On a tort si : moins d'un sur cinq touche le sélecteur le premier mois.
+> Nous supposons que ...
+> Nous le vérifierons par ...
+> Si l'observation contredit cette attente, nous examinerons ... avec ...
 
-Une spec sans hypothèse qu'on puisse vérifier est une liste de souhaits avec un numéro de version.
+Choisis une vérification proportionnée et précise ses limites. Une observation qualitative peut suffire à révéler une difficulté ; un seuil chiffré demande une raison et un contexte.
+
+Au retour, note ce qui a été appris et fais mettre à jour la décision si nécessaire. Une hypothèse confirmée mérite aussi d'être conservée.
 
 ## Depuis ton siège
 
-- **Ingénierie** : une erreur trouvée dans le document à la troisième semaine est le premier signe utile du chantier.
-- **Fondateur** : valider n'ajoute pas de connaissance, ça ajoute de l'engagement. Sache ce que tu achètes.
-- **Management** : si contredire une spec validée coûte quelque chose, on divergera en silence jusqu'à la démo.
-- **Relation client** : le premier utilisateur qui bute contredit le document. Rapporte-le avant la démo.
-- **Recrutement** : demande une spec que le candidat a fait changer avant le code, et comment.
+- **Ingénierie** : rapporte un cas reproductible et ses conséquences pour le périmètre.
+- **Produit** : distingue une hypothèse d'usage d'une exigence à respecter.
+- **Management** : précise qui peut accepter un changement et informer les parties concernées.
+- **Relation client** : apporte le contexte du retour sans le généraliser à tous les clients.
 
 ## À discuter
 
-Quelle partie de notre produit n'existe que parce qu'elle était dans un document validé il y a deux ans ?
+Quelle hypothèse d'un document mérite d'être vérifiée, et quelle exigence doit d'abord être comprise ?

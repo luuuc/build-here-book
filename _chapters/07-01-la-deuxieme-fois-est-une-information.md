@@ -12,44 +12,43 @@ categories:
   - process
   - execution
 seo:
-  description: "Le coût d'une tâche répétée est invisible parce que chaque occurrence est minuscule. Personne n'additionne."
+  description: "Examine une répétition selon sa fréquence, sa gravité et le coût d'une amélioration, sans attendre un nombre fixe d'occurrences."
   keywords: "build here, systemes, repetition, process, builder"
 ---
 
 ## Le symptôme
 
-> "Je l'ai refait, ça m'a pris dix minutes."
-
-Dix minutes ne se discutent pas. C'est moins long que la réunion où on en parlerait, donc on le refait, et on a raison de le refaire.
+Une petite tâche revient : corriger une saisie, chercher une information, expliquer un passage. Chaque occurrence paraît raisonnable, mais tu te demandes si une amélioration serait utile.
 
 ## Le signal
 
-> "C'est la deuxième fois ce mois-ci. Je le note. À la troisième, je change quelque chose."
+Note une répétition qui compte, puis examine sa fréquence, ses conséquences et les raisons possibles avant de choisir une réponse.
 
 ## Ce qui se passe
 
-Le coût d'une tâche répétée est invisible parce que chaque occurrence est minuscule. Personne ne ment sur les dix minutes. Personne ne les additionne non plus. Trois fois par semaine pendant un an, ce sont vingt-six heures, prises en tranches trop petites pour apparaître dans un planning, et suffisamment régulières pour que plus personne ne les remarque.
+Une répétition rend visible une question à examiner. Elle peut signaler un défaut en amont, un besoin de formation ou une activité normale du service. Expliquer plusieurs fois à des personnes différentes peut être nécessaire ; un document ne remplace pas toujours l'accompagnement.
 
-Les heures ne sont pourtant pas le vrai sujet. Une chose que tu refais est un symptôme, et le symptôme désigne quelque chose en amont. Un export manuel dit que deux outils ne se parlent pas. Une correction de données dit qu'un formulaire accepte n'importe quoi. Une explication redonnée à chaque nouveau dit qu'une décision n'a jamais été écrite. Dans les trois cas, la répétition est la seule chose qui rende le problème amont visible, et c'est aussi la chose qu'on traite le plus vite pour ne plus y penser.
+Exemple construit : au guichet d'une association, plusieurs personnes demandent quelle pièce joindre à un dossier. L'information manque peut-être sur la fiche. Elle peut aussi être difficile à comprendre, inaccessible dans le format proposé ou différente selon le cas. Compter les questions aide à choisir où regarder, sans établir à lui seul la cause.
 
-La règle utile tient en deux temps. La première fois, tu fais, et tu ne conclus rien : tu ne sais pas encore si ça revient. La deuxième fois, tu notes, une ligne, avec la date. La troisième fois, tu ne refais pas avant d'avoir regardé d'où ça vient. Ce n'est pas une méthode, c'est un compteur, et un compteur suffit parce que le vrai problème est qu'on oublie entre deux occurrences.
+La fréquence n'est pas le seul critère. Une erreur rare mais lourde de conséquences peut demander une action immédiate. Une tâche fréquente et courte peut rester moins coûteuse à faire qu'à automatiser. N'attends pas une troisième occurrence si une protection ou une aide est déjà nécessaire ; inversement, trois occurrences ne prouvent pas qu'un nouveau système est utile.
 
-Noter tout ce qui se répète deviendrait à son tour un travail. La note est une ligne dans un fichier que tu rouvres une fois par mois, pas un outil, pas un tableau, pas un rituel. Si la tenue du compteur demande plus de discipline que la tâche elle-même, il est trop gros.
+Garde une trace proportionnée : quelques cas, leur contexte, le temps approximatif et les effets observés. Précise quand une estimation est grossière. Une personne qui débute peut noter un cas avec un pair pour apprendre quoi regarder. Une personne expérimentée peut examiner une habitude installée, sans présumer que ceux qui la suivent ont oublié de réfléchir.
 
 ## À vérifier
 
-Ouvre un fichier, appelle-le comme tu veux, et note pendant deux semaines chaque chose que tu fais pour la deuxième fois.
+Choisis une seule répétition pendant une période adaptée à ton activité. Note ce qui revient et ce qui varie. Si tu observes le travail d'autres personnes, explique le but et convenez du temps à y consacrer.
 
-Relis-le à la fin. Tu ne cherches pas la plus longue, tu cherches la plus fréquente.
+À la fin, compare deux options : continuer ainsi, ou essayer une amélioration limitée. Ajoute le coût de préparation, de transmission et d'entretien de cette amélioration.
+
+Fais décider le changement par les personnes concernées. Au prochain usage comparable, vérifie si l'effort ou la difficulté a diminué sans déplacer le problème vers quelqu'un d'autre. Continuer à la main peut rester le bon choix.
 
 ## Depuis ton siège
 
-- **Produit** : la même demande reformulée par quatre clients est un problème, pas quatre tickets.
-- **Design** : un écran que tu redessines à chaque projet demande un composant, pas une maquette.
-- **Fondateur** : la décision que tu reprends chaque mois demande un principe écrit une fois.
-- **Management** : la question qui revient à chaque arrivée dit ce qui manque à ton onboarding.
-- **Relation client** : compte les réponses, pas les tickets. La même phrase copiée dix fois est un signal.
+- **Support** : distingue une question récurrente d'une cause déjà vérifiée.
+- **Design** : observe ce qui varie avant de proposer un composant commun.
+- **Opérations** : compare fréquence, gravité et coût d'une amélioration.
+- **Management** : réserve un peu de temps à l'observation sans imposer un inventaire permanent.
 
 ## À discuter
 
-Quelle chose est refaite à la main ici toutes les semaines, et depuis combien de temps ?
+Quelle répétition mérite un examen, et quelle activité répétée rend encore un service nécessaire ?

@@ -7,13 +7,13 @@ card_type: diagnostic
 action_scope: "Portée : individu et politique interne"
 metadata:
   principle: "10.06"
-  reading_time_in_minutes: 3
+  reading_time_in_minutes: 2
 categories:
   - reference
   - trace
   - contexte
 seo:
-  description: "Une partie de ce que ça coûte est réelle. Le reste est une habitude qui porte le même nom, et les deux reçoivent la même réponse."
+  description: "Examine le coût complet et les conditions d'un partage concret ; anonymiser ne suffit pas à autoriser et une option interne reste valable."
   keywords: "build here, reference, trace, publier, cout, builder"
 redirect_from:
   - /chapters/10-08-ce-que-publier-coute-vraiment.html
@@ -22,39 +22,37 @@ redirect_from:
 
 ## Le symptôme
 
-> "Chez nous, on ne peut pas publier ce genre de chose."
+Tu envisages de partager un retour d'expérience. Tu vois une utilité possible, mais le temps nécessaire, les informations partageables et les conséquences de l'exposition restent à préciser.
 
 ## Le signal
 
-Une partie de ce que ça coûte est réelle. Le reste est une habitude qui porte le même nom, et tant que tu les confonds, tu ne traites ni l'un ni l'autre.
+Prépare une décision concrète : pour qui partager, sous quelle forme, avec quels accords et quel effort ? Une version interne ou l'absence de publication peut être le bon résultat.
 
 ## Ce qui se passe
 
-Commence par ce qui est vrai, parce que la liste est courte et sérieuse. Le milieu est étroit, quel que soit le métier. Un postmortem honnête est lu par le client concerné dès le lendemain, et par le concurrent qui recrute la semaine suivante. Un échec publié suit la personne jusque dans la salle où son prochain poste se discute, comme le rappelle *Une bonne décision peut quand même mal tourner*. Et l'employeur n'a jamais dit oui, parce que personne ne lui a jamais posé la question.
+Écrire demande de reconstruire le contexte, vérifier les faits et préparer un contenu compréhensible. Faire relire, répondre aux questions et maintenir une ressource demande aussi du temps. Ce coût varie selon le sujet et les moyens ; ce n'est pas nécessairement une habitude ou un manque de volonté.
 
-Ces obstacles ne sont pas de même nature, et c'est là que tout se joue. Les derniers dépendent de conditions que d'autres fixent, et ils ont leurs cartes ailleurs dans cette étape. Les premiers sont des décisions que tu prends chaque semaine sans jamais les nommer.
+Le contenu peut concerner d'autres personnes, une organisation ou des engagements de partage. Retirer un nom, modifier un chiffre ou remplacer un fournisseur par une catégorie ne suffit pas à établir que le reste peut être publié. La combinaison de détails peut encore exposer une situation. Une séquence technique n'est pas automatiquement libre de toute restriction.
 
-C'est le mélange qui coûte cher, exactement comme dans *Trouve un accès à ce qu'il te manque pour apprendre*. Une seule phrase couvre la clause de confidentialité que tu n'as jamais lue et le texte que tu n'as jamais écrit. Les deux reçoivent la même réponse, et le second ne bouge jamais.
+Exemple construit : une équipe souhaite expliquer un incident de paiement. Avant de rédiger une version publique, elle prépare un plan sans données de dossier et identifie ce qui demande une vérification auprès des responsables concernés. Elle peut finalement choisir un exemple fictif annoncé comme tel, une note interne ou une publication limitée au mécanisme dont le partage a été confirmé.
 
-Trie-les et la moitié du problème disparaît le jour même. Le client n'a pas besoin d'un nom, le montant n'a pas besoin d'être exact, le fournisseur peut rester un prestataire de paiement. Ce qui doit être précis, c'est la séquence des faits, et elle n'appartient à personne. La plupart des choses que tu crois ne pas pouvoir publier sont des choses que tu ne peux pas publier telles quelles. Pour l'autre moitié, il n'y a pas de raccourci. Lis ton contrat. Dix minutes, une fois, et tu sauras de quel côté de la ligne tu te trouves au lieu de le supposer depuis trois ans.
+Distingue les règles connues, les questions ouvertes et tes préférences personnelles. Un document interne ou un contrat peut fournir des indications sans régler tous les cas. Adresse les points incertains à une personne habilitée à les clarifier, plutôt que de déduire une autorisation du silence. Ton propre souhait de ne pas être exposé compte également dans le choix du format.
 
 ## À vérifier
 
-Deux colonnes, dix minutes, par écrit.
+Avant d'investir dans la rédaction, note le destinataire, le bénéfice attendu, le contenu prévu et une limite d'effort. Repère les informations et les personnes concernées par le partage.
 
-> Ce que je ne peux pas publier, et la source exacte de l'interdiction.
-> Ce que je pourrais publier cette semaine et que je n'ai pas publié.
+Vérifie le cadre applicable et fais examiner les points incertains. Présente une version concrète aux personnes qui doivent se prononcer ; un accord sur un sujet général ne couvre pas nécessairement tous ses détails. Si un accord manque, conserve un périmètre déjà autorisé ou reporte le partage.
 
-Puis ouvre ton contrat de travail et cherche le mot confidentialité. La première colonne rétrécit presque toujours.
+Après l'essai retenu, compare l'aide apportée au temps de préparation et de suivi. Prévois comment corriger ou retirer la ressource, sans promettre de récupérer toutes les copies d'un contenu rendu public.
 
 ## Depuis ton siège
 
-- **Ingénierie** : la séquence technique n'appartient à personne. C'est la seule partie qui doit être précise.
-- **Produit** : un chiffre publié sans nom de client ne dit rien au concurrent et beaucoup à un inconnu.
-- **Design** : une maquette sans données réelles ne révèle rien. Tu t'interdis plus que ton contrat.
-- **Fondateur** : une partie de ces coûts sont des conditions que tu fixes. Écris-les ou elles resteront supposées.
-- **Relation client** : le client concerné lira le texte le lendemain. Le fournisseur peut rester un prestataire.
+- **Ingénierie** : vérifie aussi ce que les détails techniques permettent de déduire.
+- **Produit** : distingue un exemple fictif d'une mesure réellement observée.
+- **Management** : identifie qui peut clarifier les conditions et réserve du temps à la relecture.
+- **Relation client** : aide à examiner les informations liées à la relation et aux engagements.
 
 ## À discuter
 
-Qu'est-ce qu'on s'interdit de publier ici, et qui l'a décidé ? Est-ce que quelqu'un peut montrer où c'est écrit ?
+Quel partage serait utile, quelles conditions restent à clarifier et quelle option convient en attendant ?

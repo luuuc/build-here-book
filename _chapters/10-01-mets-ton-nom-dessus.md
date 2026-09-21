@@ -1,62 +1,56 @@
 ---
 layout: chapter
-title: "Mets ton nom dessus"
+title: "Rends les contributions identifiables"
 part: "La référence"
 order: 1001
 card_type: pratique
 metadata:
   principle: "10.01"
-  reading_time_in_minutes: 3
+  reading_time_in_minutes: 2
 categories:
   - trace
   - visibilite
   - reference
 seo:
-  description: "Rien ici ne te demande de devenir la personne sur le panel. La modestie n'est pas le problème."
-  keywords: "build here, trace, visibilite, builder, mets, dessus"
+  description: "Reconnais les contributions et leur contexte selon un accord adapté, sans faire de la signature publique une condition de valeur."
+  keywords: "build here, builder, reference, contributions, credit, partage"
 redirect_from:
   - /chapters/14-01-mets-ton-nom-dessus.html
 ---
 
 ## Le point de départ
 
-> "Le travail parle de lui-même."
-
-Tu y crois. Annoncer sa propre compétence est de mauvais goût, et l'auto-promotion c'est pour ceux qui ont moins à montrer.
-
-Tu as aussi regardé des gens qui ne livrent rien devenir connus en parlant, ce qui a réglé la question. Si c'est ça l'alternative, reste silencieux.
+Un travail utile circule, mais ses destinataires ne savent pas toujours qui y a contribué, dans quel contexte il a été produit ou à qui adresser une question.
 
 ## Le geste
 
-Le travail ne parle pas. Il est dans un dépôt privé, une présentation interne, une file de support ou la tête de trois personnes, et il va y rester.
+Rends les contributions et le contexte identifiables selon un accord adapté au partage. Un nom personnel, une équipe ou un contact peuvent remplir des fonctions différentes.
 
 ## Pourquoi ça marche
 
-Rien ici ne te demande de devenir la personne sur le panel. La modestie n'est pas le problème. Le problème est arithmétique. Un travail que tu n'as pas publié est un travail qui existe pour les huit personnes qui ont vu la revue, le tableau ou la présentation, et pour personne d'autre, jamais. Ce n'est pas modeste. C'est juste perdu.
+Attribuer un travail aide à reconnaître les contributions et à retrouver leur contexte. Cela peut aussi permettre de demander une précision ou de proposer une correction. La signature ne prouve pas à elle seule la qualité du contenu, et la personne citée ne devient pas automatiquement disponible pour toutes les questions à venir.
 
-Regarde qui perd à ce silence. Ce n'est pas seulement toi. C'est aussi le développeur qui a trois ans de moins que toi, qui n'a personne sur qui se caler et qui est en train de conclure que le niveau autour de lui est le niveau. Et c'est le prochain fondateur qui fait tourner le même filtre cassé et décide que les builders ne sont pas ici. Ce fondateur, c'était moi. J'avais tort, et j'avais tort parce qu'aucun d'entre vous n'avait rien écrit.
+Un travail interne peut déjà servir, former des personnes et laisser des capacités durables. Le publier peut élargir sa portée, mais ne lui donne pas rétroactivement sa valeur. Mon erreur de recrutement fondée sur la visibilité était la mienne ; elle ne rendait pas les personnes peu visibles responsables de ce que mon filtre ne savait pas reconnaître.
 
-Reste une objection sérieuse. Le faire mal est exactement ce que tu voulais éviter, et il existe toute une industrie de ça. La différence tient à ce que tu publies, pas à la discrétion avec laquelle tu le fais. Un artefact est une chose dont quelqu'un d'autre peut se servir. Le postmortem avec la chronologie dedans. Le tableau des motifs de contact avec leurs proportions. Les écrans écartés avec la raison. La bibliothèque. La grille d'entretien qui montre ce qu'elle mesure. Un avis sur l'avenir du secteur n'est pas un artefact, et ceux qui en produisent sont déjà en nombre suffisant. Le test est simple et il ne flatte personne. Est-ce qu'un inconnu peut en tirer quelque chose sans savoir qui tu es ?
+Exemple construit : plusieurs collègues préparent une fiche de rapprochement de dossiers. L'une a identifié les cas, un autre a essayé la procédure et une troisième a clarifié les explications. Ils conviennent de mentionner ces contributions dans la fiche interne et de désigner le contact de maintenance. Un seul nom en couverture aurait rendu une partie du travail invisible.
 
-Tu auras l'impression de faire ta propre publicité les trois premières fois. Puis quelqu'un que tu n'as jamais rencontré te citera ton propre postmortem, et c'est à ça que servaient les neuf étapes précédentes.
+La forme de crédit dépend des personnes et des conditions de partage. Certaines souhaitent être nommées, d'autres préfèrent une mention collective ou aucune exposition personnelle. Demande leur accord et respecte les informations qui ne peuvent pas sortir. On peut reconnaître une contribution en privé ou dans un espace restreint sans imposer une publication sous son nom.
 
 ## À essayer
 
-Une chose, cette semaine, publiée sous ton nom.
+Choisis une ressource déjà utile ou un premier brouillon pour un destinataire précis. Note son objectif, ses limites, les contributions et le contact approprié si un suivi est prévu.
 
-La chose que tu as comprise le mois dernier, écrite. L'incident, les cinquante demandes support classées par cause, l'écran abandonné après cinq tests, l'étape de recrutement où les bons candidats partaient. Ce que tu croyais, ce que tu as observé, ce que tu as changé. Neuf cents mots, aucune conclusion sur l'industrie.
+Fais confirmer les mentions par les personnes concernées. Si tu débutes, un exemple construit ou une explication relue peut suffire ; n'invente pas une réalisation pour avoir quelque chose à signer.
 
-Publie-le là où quelqu'un qui rencontre le même problème le trouvera. Puis envoie-le à une personne qui a trois ans de moins que toi.
+Partage dans le périmètre autorisé, puis demande à un destinataire s'il comprend ce qu'il peut utiliser et à qui s'adresser. Corrige une attribution ou une ambiguïté si nécessaire. Le succès n'exige ni une audience inconnue ni une citation publique.
 
 ## Depuis ton siège
 
-- **Produit** : une chose que vous avez décidé de ne pas faire, et pourquoi.
-- **Design** : les écrans que tu as jetés, et la raison. C'est le raisonnement qui se réutilise.
-- **Fondateur** : ton équipe ne publiera pas si tu ne l'as jamais fait.
-- **Management** : dis à voix haute ce qui est publiable, ou ton silence vaut interdiction.
-- **Relation client** : la réponse que tu as écrite trois fois à trois clients est un texte public.
-- **Recrutement** : pas de trace en ligne ne veut pas dire pas de niveau. Cherche l'artefact, pas la notoriété.
+- **Produit** : distingue les contributions à une décision et à sa mise en pratique.
+- **Design** : précise le contexte et les limites d'un exemple partagé.
+- **Management** : reconnais aussi les contributions collectives et peu visibles.
+- **Recrutement** : accepte des preuves adaptées sans exiger de signature publique.
 
 ## À discuter
 
-Qui ici a quelque chose de publié qu'un inconnu pourrait trouver ? Si la réponse est personne, qu'est-ce qu'on attend exactement pour commencer ?
+Sur une ressource utile, les contributions sont-elles reconnues de la façon souhaitée par les personnes concernées ?

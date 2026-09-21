@@ -1,19 +1,19 @@
 ---
 layout: chapter
-title: "Une bonne nouvelle peut attendre. Une mauvaise, non"
+title: "Signale à temps ce qui change l'engagement"
 part: "L'ownership"
 order: 606
 card_type: principe
 metadata:
   principle: "6.06"
-  reading_time_in_minutes: 1
+  reading_time_in_minutes: 2
 categories:
   - ownership
   - responsabilite
   - execution
 seo:
-  description: "Personne ne suit ton travail avec l'attention que tu lui donnes. Du bon travail non annoncé met simplement plus longtemps à devenir utile."
-  keywords: "build here, ownership, builder, bonne, nouvelle, peut, attendre, mauvaise"
+  description: "Adapte le moment et le canal d'une information à ses conséquences, sans attendre une solution ni imposer un délai universel."
+  keywords: "build here, builder, ownership, engagement, alerte, information"
 redirect_from:
   - /chapters/06-07-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
   - /chapters/04-04-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
@@ -21,36 +21,39 @@ redirect_from:
 
 ## Le réflexe
 
-Le travail est fini, il est bon, il dort dans une branche. Tu attends que ça remonte tout seul.
-
-Ou la version chère. Un projet prend du retard depuis deux semaines et tu attends qu'on vienne te le demander.
+Un résultat est prêt ou un engagement devient incertain. Les personnes qui en dépendent ne savent pas encore ce qui change pour elles.
 
 ## Le réflexe builder
 
-> "Je préfère le dire avant qu'on me le demande."
+Transmets l'information au moment où elle peut aider à agir, en distinguant ce qui est confirmé de ce qui reste incertain.
 
 ## Pourquoi
 
-Personne ne suit ton travail avec l'attention que tu lui donnes. Du bon travail non annoncé met simplement plus longtemps à devenir utile.
+Une bonne nouvelle peut débloquer le travail d'une autre personne. Un risque ou un retard peut demander un arbitrage. L'urgence vient de ces conséquences, pas seulement du caractère agréable ou désagréable de l'information. Une alerte importante peut devoir partir immédiatement ; une difficulté limitée peut attendre le point convenu.
 
-Un retard, lui, s'aggrave quand tu le caches. Signalé tôt, il permet de revoir le planning. Découvert la veille de la démo, il provoque une crise. Même retard, dix fois le coût. La différence tient au temps que tu as mis à le signaler.
+Signaler une incertitude ne demande pas d'avoir déjà une solution. Précise le fait observé, l'effet possible sur l'engagement et ce qui reste à vérifier. Évite aussi de transformer chaque doute en annonce définitive. Les destinataires doivent pouvoir comprendre le niveau de certitude et le prochain retour prévu.
 
-Tu espérais rattraper avant la date, et parfois ça marche. Une alerte précoce ressemble d'abord à quelqu'un qui n'arrive pas à livrer. Au bout de deux tours, ça s'inverse. Celui qui dit à mi-parcours que la date ne tiendra pas, puis livre exactement ce qu'il a promis, finit par être celui dont on croit les dates.
+Exemple construit : la livraison de matériel pour un atelier devient incertaine. L'organisateur peut encore emprunter une solution de remplacement si l'information arrive avant la préparation. La personne qui suit le fournisseur peut signaler le risque sans décider seule d'une nouvelle dépense ni garantir une date qu'elle ne contrôle pas.
+
+Le canal compte. Certains sujets demandent une alerte directe au responsable, d'autres un suivi partagé ou un échange privé. Si tu développes une équipe, précise les situations qui demandent un signalement et qui peut agir ensuite. Une réaction respectueuse et une réponse utile encouragent les prochains retours, sans garantir à elles seules que toute difficulté sera visible.
 
 ## À essayer
 
-Quand tu sais qu'une échéance ne tiendra pas, vingt-quatre heures maximum avant de le dire. Pas quand tu as une solution. Quand tu sais.
+Sur un engagement actuel, convenez des changements à signaler et du destinataire. Quand l'un survient, transmets :
 
-> "On ne tiendra pas la date. J'en suis là, je peux encore livrer ça, voilà ce qui saute. Dites-moi si la priorité est ailleurs."
+> "Voici le fait ou le risque. Voilà ce qu'il peut changer. Cette partie est encore incertaine. J'ai besoin de cet arbitrage et je reviens à ce moment."
+
+Utilise le canal adapté à l'urgence. Si la personne prévue n'est pas disponible et que la décision ne peut pas attendre, suis le relais convenu.
+
+Au prochain point, vérifie que l'information a été reçue et qu'une suite a été décidée. Ajustez le dispositif si l'alerte est restée sans réponse ou a mobilisé inutilement trop de personnes.
 
 ## Depuis ton siège
 
-- **Produit** : une hypothèse qui s'effondre est une mauvaise nouvelle. Elle pourrit comme les autres.
-- **Fondateur** : ce que tu apprends en dernier, tu l'apprends au prix fort. Regarde d'où vient le délai.
-- **Management** : tes dix premières secondes sur une alerte précoce décident si tu en auras d'autres.
-- **Relation client** : une date repoussée qu'on annonce bat toujours une date ratée en silence.
-- **Recrutement** : demande la dernière mauvaise nouvelle que le candidat a annoncée, et en combien de temps.
+- **Produit** : signale une hypothèse fragilisée avec son effet sur la décision.
+- **Opérations** : utilise le canal prévu quand la continuité du service est en jeu.
+- **Management** : accuse réception et précise qui prend en charge la suite.
+- **Relation client** : fais confirmer ce qui peut être annoncé et le prochain retour.
 
 ## À discuter
 
-Ici, qu'est-ce qui remonte le plus vite, un retard ou une victoire ? Prends les deux derniers exemples de chaque et compare.
+Quelle information récente a permis d'agir à temps, et laquelle a attendu faute de destinataire ou de canal clair ?

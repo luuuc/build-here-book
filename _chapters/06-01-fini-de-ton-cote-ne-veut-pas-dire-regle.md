@@ -12,7 +12,7 @@ categories:
   - resultat
   - equipe
 seo:
-  description: "Une chaîne de quatre équipes où chacune fait correctement sa partie peut produire zéro résultat."
+  description: "Organise un relais accepté, avec les informations et moyens nécessaires, sans conserver une responsabilité indéfinie."
   keywords: "build here, ownership, passation, equipe, builder"
 redirect_from:
   - /chapters/06-02-fini-de-ton-cote-ne-veut-pas-dire-regle.html
@@ -20,38 +20,41 @@ redirect_from:
 
 ## Le symptôme
 
-> "De mon côté c'est fait."
-
-La phrase est exacte. Ta partie est terminée, proprement, dans les temps. Elle dit aussi, sans avoir à le dire, que la suite ne te regarde plus.
+Ta partie est terminée et transmise. Il reste incertain que la personne suivante dispose des informations, du temps ou de l'accord nécessaires pour prendre le relais.
 
 ## Le signal
 
-> "C'est parti chez l'équipe d'après. Je vérifie dans trois jours que c'est bien arrivé."
+Distingue travail terminé, relais accepté et résultat vérifié. Ces trois moments peuvent appartenir à des personnes différentes.
 
 ## Ce qui se passe
 
-Une chaîne de quatre équipes où chacune fait correctement sa partie peut produire zéro résultat. C'est le genre de phrase qu'on croit exagérée jusqu'à en voir une. Une entreprise change sa grille tarifaire. Le produit l'a spécifiée. L'engineering l'a livrée. Le marketing l'a annoncée. Personne n'a changé le contrat type que le commerce envoie, parce que ce n'était le côté de personne. Le premier client de la nouvelle grille signe l'ancien prix, et il le signe pour trois ans. Quatre équipes avaient fini.
+Une passation permet de répartir le travail et de terminer un engagement. Elle peut être complète même si le résultat final n'est pas encore connu, à condition que la suite soit réellement organisée. Dire "ma partie est faite" n'est pas un alibi lorsqu'on sait ce qui a été remis et qui prend le relais.
 
-Le mécanisme est toujours le même. À chaque passation, celui qui envoie considère que c'est terminé, celui qui reçoit n'a pas encore commencé, et le dossier vit dans l'intervalle. L'intervalle n'appartient à personne, donc personne ne le compte, donc il n'apparaît dans aucun bilan. Additionne quatre intervalles et tu obtiens les semaines que ton entreprise perd sans jamais réussir à dire où.
+Exemple construit : tu prépares les invitations d'un atelier associatif. Une autre personne doit les envoyer. Le texte est prêt, mais il lui manque l'accès à la liste autorisée des destinataires. Vérifier ce point avant la passation permet de traiter le blocage sans te confier automatiquement l'envoi et tout le suivi de l'événement.
 
-« De mon côté c'est fait » est difficile à lâcher parce que c'est vrai, et parce que c'est exactement la phrase qui te protège le jour où on cherche ce qui s'est passé. Une affirmation juste qui fonctionne aussi comme un alibi est très confortable, et rien ne pousse à y renoncer.
+Un accusé de réception n'est pas toujours une acceptation du travail. Clarifie ce qui est attendu, ce qui manque et le prochain point de retour. Un outil partagé peut suffire si ses règles sont comprises. Pour un dossier plus sensible, une confirmation explicite peut être nécessaire. Le temps de passation dépend du contexte, pas d'un forfait de quelques minutes.
 
-Suivre chaque chose jusqu'au bout est impossible et ce n'est pas ce qu'on te demande. La règle est plus courte. Tu ne suis pas jusqu'au résultat, tu suis jusqu'au premier signe que quelqu'un d'autre a commencé. C'est une vérification de trois minutes, et elle couvre l'endroit où les dossiers disparaissent réellement.
+La personne qui reçoit peut manquer de capacité ou ne pas avoir le bon mandat. Dans ce cas, fais arbitrer le relais plutôt que de relancer indéfiniment ou de reprendre la tâche en silence. Une responsabilité ne se transfère pas en inscrivant le nom de quelqu'un sans son accord. Prévois aussi comment la suite sera organisée en cas d'absence.
 
 ## À vérifier
 
-À ta prochaine passation, ne t'arrête pas à l'envoi. Note une date de vérification, courte, et garde-la tant que rien ne t'est revenu.
+Pour une prochaine passation, précise :
 
-> "Je te l'ai transmis. Dis-moi juste quand tu le prends, sinon je reviens vers toi en milieu de semaine prochaine."
+> Ce qui est terminé et les limites connues : ...
+> Ce que la suite demande et qui l'accepte : ...
+> Quand signaler un problème de relais, et à qui : ...
+
+Convenez séparément de qui vérifiera le résultat final si c'est nécessaire. Une fois le relais accepté, tu peux clôturer ton engagement selon cet accord.
+
+Au prochain point convenu, examine si les informations transmises ont suffi. Améliore la passation plutôt que d'ajouter un suivi permanent à chacun.
 
 ## Depuis ton siège
 
-- **Ingénierie** : « mergé » n'est pas « en production », et « en production » n'est pas « utilisé ».
-- **Produit** : une décision prise en réunion n'a atteint que les présents. Écris-la quelque part.
-- **Fondateur** : compte les passations d'un dossier type. Tes semaines perdues sont là.
-- **Management** : personne ne suit une passation quand seule sa propre partie est regardée.
-- **Relation client** : tu es le dernier maillon, donc tu reçois tout ce que la chaîne a laissé tomber.
+- **Ingénierie** : distingue réalisation, mise à disposition et vérification de l'usage.
+- **Opérations** : confirme les accès et la capacité nécessaires au relais.
+- **Management** : arbitre un relais refusé ou impossible au lieu de laisser la tâche sans suite.
+- **Relation client** : sache qui pourra répondre au prochain point convenu.
 
 ## À discuter
 
-Sur le dernier dossier qui a traîné ici, entre quelles deux mains est-il resté le plus longtemps ?
+Sur une passation récente, qu'est-ce qui a été accepté et qui répond désormais de la suite ?

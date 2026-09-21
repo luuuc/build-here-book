@@ -12,7 +12,7 @@ categories:
   - livraison
   - produit
 seo:
-  description: "Une vitesse qu'on peut tenir dans la durée ne vient pas du travail bâclé. Elle vient de couper ce qui n'était pas nécessaire."
+  description: "Arbitre périmètre, délai et moyens en préservant les protections nécessaires et en prévoyant le coût des solutions temporaires."
   keywords: "build here, execution, builder, rapide, veut, dire, precipite"
 redirect_from:
   - /chapters/07-03-rapide-ne-veut-pas-dire-precipite.html
@@ -20,40 +20,39 @@ redirect_from:
 
 ## Le point de départ
 
-La personne qui bloque le lancement y est déjà passée. La dernière campagne était partie sans test pour tenir une date promise à un partenaire. Trois semaines de demandes sont arrivées au mauvais endroit et le partenaire est parti quand même. Elle ne fait pas la précieuse. C'est la seule personne de la salle qui a déjà payé.
-
-En face, l'échéance est réelle aussi, et l'argent derrière l'est également.
-
-Aucun des deux camps ne plaide de mauvaise foi. C'est pour ça que le débat ne finit jamais.
+Exemple construit : une équipe doit lancer une campagne à une date convenue. Une précédente campagne avait orienté des demandes vers le mauvais interlocuteur. Cette fois, elle veut tenir le délai sans reproduire ce problème.
 
 ## Le geste
 
-> "Ce qui coûte du temps, c'est refaire. Pas bien faire."
+Mets sur la table le périmètre, la date, les moyens et les protections nécessaires. Propose un arbitrage explicite plutôt qu'une promesse de tout maintenir.
 
 ## Pourquoi ça marche
 
-Une vitesse qu'on peut tenir dans la durée ne vient pas du travail bâclé. Elle vient de couper ce qui n'était pas nécessaire.
+Réduire le périmètre peut permettre de livrer plus tôt tout en préservant un usage complet. Une campagne destinée à un seul groupe peut être utile si les demandes arrivent au bon endroit et reçoivent une réponse. Une version plus petite n'est pas simplement une version à laquelle il manque des étapes essentielles.
 
-Le travail précipité est rapide une fois, puis ralentit tout le travail qui suit. Le patch d'urgence de mars est la raison pour laquelle plus rien n'avance en septembre. Le fichier de prospects lancé sans règle est la raison pour laquelle trois personnes corrigent encore les doublons à la main. La dette n'est pas une abstraction, c'est un frottement que l'équipe cesse de percevoir, comme on cesse d'entendre un ventilateur. La lenteur au nom de la qualité cache souvent autre chose. La peur de montrer, un périmètre que personne n'a taillé, ou l'absence de décision sur ce qu'on ne fera pas.
+La qualité attendue dépend du contexte, mais certaines protections ne peuvent pas être écartées pour tenir une date. Vérifie avec les personnes compétentes ce que la version doit garantir et les conséquences d'une défaillance. Une inquiétude exprimée par l'équipe peut signaler une contrainte réelle, pas une peur de montrer son travail.
 
-La formule se détourne dans les deux sens. "On ne se précipite pas, on va vite" est ce que la précipitation dit d'elle-même quand elle veut que la réunion se termine. Et "rapide ne veut pas dire précipité" est tout aussi utilisable par quelqu'un qui n'a rien livré depuis mars. L'adjectif ne tranche rien. Nomme ce qui est coupé. Un périmètre réduit volontairement, c'est de la vitesse. Des oublis qu'on découvre en production, c'était de la précipitation, quel que soit le nom qu'on lui a donné sur le moment. Sur le coup, les deux se ressemblent beaucoup, et j'ai plusieurs fois mis six mois à savoir laquelle des deux j'avais faite.
+Un raccourci temporaire peut être acceptable si ses limites sont connues, ses effets maîtrisés et sa maintenance prévue. Nommer un responsable et une date aide, sans suffire : il faut aussi du temps pour reprendre le travail et une décision si cette reprise n'est plus possible. Sinon, la promesse de corriger plus tard ne fait que déplacer le coût.
 
-Parfois la version précipitée est le bon arbitrage. Le client repart et ce contrat fait l'année, le bricolage tient, tu le prends. Ce qui empêche le bricolage de devenir permanent, c'est de l'écrire avec un nom et une date à côté. Une dette prise exprès est un emprunt ; une dette prise en silence est une fuite, et la fuite se découvre le jour où le plancher cède.
+L'échéance peut elle aussi être discutée avec la personne qui porte l'engagement. Lorsque ni le périmètre ni les protections ne peuvent être réduits, proposer un report ou renoncer reste une option. Un débutant peut préparer ces alternatives avec un pair ; il n'a pas à accepter seul un risque pour démontrer son initiative.
 
 ## À essayer
 
-Quand une échéance paraît impossible, ne discute pas l'échéance. Discute le périmètre.
+Pour une échéance difficile, propose deux options concrètes :
 
-> "En trois semaines on ne peut pas tout faire. On peut lancer sur une ville sans le programme de parrainage, ou attendre le mois prochain. Tu préfères quoi ?"
+> "À cette date, nous pouvons servir ce groupe avec ces limites. Pour couvrir le reste, il faut davantage de temps ou ces moyens."
+
+Fais confirmer l'arbitrage et les personnes à informer. Si une solution temporaire est retenue, note son coût de reprise et le moment où elle sera revue.
+
+Après la livraison, examine l'usage prévu, les problèmes rencontrés et la charge supplémentaire. Vérifie que la réduction de périmètre a réellement préservé la qualité attendue.
 
 ## Depuis ton siège
 
-- **Design** : réduis le nombre d'écrans. Garde le même soin pour ceux que tu livres.
-- **Fondateur** : une dette prise exprès est un emprunt. Prise en silence, c'est une fuite. Écris le nom et la date.
-- **Management** : la lenteur au nom de la qualité cache souvent une décision que personne n'a prise.
-- **Relation client** : annonce ce qui saute avant la date. Le client arbitre mieux qu'on ne le croit.
-- **Recrutement** : demande un raccourci que le candidat a pris exprès, et ce qu'il a écrit à côté.
+- **Design** : garde un parcours utilisable dans le périmètre réduit.
+- **Opérations** : précise les protections et la charge de la solution temporaire.
+- **Management** : arbitre aussi le délai et les moyens, pas seulement le périmètre.
+- **Relation client** : fais confirmer les limites avant de les annoncer.
 
 ## À discuter
 
-Quel raccourci pris il y a six mois nous ralentit encore aujourd'hui ?
+Quelle partie pouvons-nous réduire, et quelles protections devons-nous garder pour que l'essai reste utile ?

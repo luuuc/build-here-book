@@ -1,19 +1,19 @@
 ---
 layout: chapter
-title: "Personne n'a écrit ce que tu sais faire"
+title: "Partage ce que ton contexte t'a appris"
 part: "La référence"
 order: 1007
 card_type: principe
 metadata:
   principle: "10.07"
-  reading_time_in_minutes: 3
+  reading_time_in_minutes: 2
 categories:
   - reference
   - trace
   - contexte
 seo:
-  description: "Toute cette étape fait circuler l'information dans un sens. Rien n'est jamais reparti dans l'autre."
-  keywords: "build here, reference, trace, builder, ecrire, savoir"
+  description: "Rends une expérience située utile en la reliant aux ressources existantes, sans présumer son unicité ni imposer une publication."
+  keywords: "build here, builder, reference, contexte, experience, partage"
 redirect_from:
   - /chapters/10-10-personne-na-ecrit-ce-que-tu-sais-faire.html
   - /chapters/10-11-personne-na-ecrit-ce-que-tu-sais-faire.html
@@ -22,41 +22,37 @@ redirect_from:
 
 ## Le réflexe
 
-> "Ça n'intéresse que nous, c'est spécifique à notre marché."
-
-Neuf mois à faire tenir un tunnel de paiement sur deux rails qui ne se parlent pas. Vu de l'intérieur c'est du bricolage local, ça ne se généralise pas, donc ça ne s'écrit pas.
+Tu as appris à travailler avec des contraintes particulières et tu te demandes si cette expérience pourrait aider quelqu'un d'autre, ici ou ailleurs.
 
 ## Le réflexe builder
 
-> "Cherche-le d'abord. Si personne ne l'a écrit, ce n'est pas parce que c'est sans intérêt."
+Cherche ce qui existe, puis précise ce que ton contexte confirme, nuance ou ajoute. Une contribution n'a pas besoin d'être entièrement inédite pour être utile.
 
 ## Pourquoi
 
-Tout ce que le livre t'a demandé jusqu'ici fait circuler l'information dans un sens. Tu lis des postmortems de systèmes que tu n'auras jamais à exploiter, tu découvres d'autres niveaux d'exigence, tu prends pour références des gens qui ne connaissent ni tes rails de paiement ni tes appareils. C'est utile et c'est incomplet, parce que rien n'est jamais reparti dans l'autre sens.
+Les conditions d'usage influencent les solutions : disponibilité du réseau, appareils, langue, accès, moyens ou fonctionnement d'un partenaire. Décrire ces conditions aide un lecteur à juger si l'expérience peut éclairer son propre travail. Elles ne caractérisent pas uniformément un pays ou un marché.
 
-Fais l'expérience avant de me croire. Cherche comment on rattrape un paiement mobile qui a échoué chez un opérateur qui répond au téléphone. Comment on tient un premier écran utilisable sur deux barres de réseau et un appareil de trois ans. Comment on assure le support sur le canal où tes clients vivent déjà, qui n'est pas l'outil de ticketing que tu paies. Tu trouveras des analyses de marché écrites pour des investisseurs, et presque rien sur la mécanique.
+Exemple construit : une équipe adapte une procédure de support lorsque la connexion est intermittente. Elle précise ce qui doit rester disponible, comment le relais est organisé et quelles limites demeurent. Une autre équipe peut y trouver une idée, même si les outils ou la cause des interruptions diffèrent. Il faut expliquer le raisonnement, pas présenter la solution comme universelle.
 
-Ce n'est pas une revendication de supériorité et je n'ai aucun chiffre pour en faire une. Ce qu'on peut vérifier est plus précis et plus utile. Le texte n'existe pas. Tant qu'il n'existe pas, personne ne peut dire si ce que tu fais est en avance, en retard ou parfaitement banal, et toi non plus.
+Une recherche courte peut révéler des ressources utiles ou un manque dans ce que tu as trouvé. Elle ne prouve pas que personne n'a écrit sur le sujet. Cherche avec plusieurs formulations, dans les langues accessibles et auprès de personnes qui connaissent le domaine. Un document local, une explication orale ou une ressource peu visible peut déjà porter ce savoir.
 
-Ces contraintes concernent aussi d'autres marchés. Le budget serré, l'appareil bon marché, la connexion qui coupe, le fournisseur payé dans une monnaie qui n'est pas celle du revenu, rien de tout ça n'est propre à ton marché. Une équipe qui écrit comment elle a tenu ça écrit pour beaucoup plus de gens qu'elle ne le croit. C'est aussi la seule façon dont *Ton marché peut être local. Ton niveau, non* fonctionne dans les deux sens.
+Ta contribution peut être une adaptation, un exemple complémentaire, une traduction autorisée ou une limite observée. Cite les ressources qui t'ont aidé et distingue ton expérience de ce que tu en déduis. Une personne qui débute peut raconter un premier essai avec ses incertitudes ; une personne expérimentée peut expliquer les compromis d'une solution éprouvée. Le contexte ne crée pas une obligation de publier.
 
 ## À essayer
 
-Prends la chose la plus pénible que ton équipe ait réglée cette année, celle que tu expliques toujours en précisant que c'est particulier chez vous.
+Choisis une difficulté précise et un destinataire possible. Consacre un effort limité à chercher ce qui pourrait déjà l'aider. Note ce que tu as trouvé et ce qui manque encore pour cette situation.
 
-Cherche-la pendant dix minutes, en anglais, comme si tu avais le problème et pas la solution.
+Prépare un petit complément avec le contexte, les choix, les observations et les limites. Utilise un exemple partageable ou clairement construit, puis fais relire l'explication par une personne concernée.
 
-Si rien de ce que tu trouves ne t'aurait aidé, tu viens de trouver ce que tu dois écrire.
+Choisis un partage adapté aux accords et au temps disponibles, éventuellement interne. Demande ce que le destinataire a pu réutiliser et ce qui demande encore une explication. Une absence de retour ne démontre ni l'inutilité ni l'impact du contenu.
 
 ## Depuis ton siège
 
-- **Ingénierie** : un tunnel de paiement sur deux rails qui ne se parlent pas n'est décrit nulle part.
-- **Produit** : l'information n'est jamais repartie dans l'autre sens. Tu détiens la moitié qui manque.
-- **Design** : un premier écran utilisable sur deux barres et un appareil de trois ans n'est écrit nulle part.
-- **Fondateur** : tant que le texte n'existe pas, personne ne peut dire si vous êtes en avance ou banals.
-- **Management** : ce que ton équipe appelle du bricolage local est ce que personne du pays n'a écrit.
-- **Relation client** : un support qui vit sur WhatsApp à vingt-trois heures ne figure dans aucun manuel.
+- **Ingénierie** : explique les conditions et compromis d'une solution technique.
+- **Design** : décris les conditions d'accès observées, sans les généraliser à tous les utilisateurs.
+- **Support** : apporte un cas contextualisé et reconnais les pratiques déjà connues.
+- **Management** : aide à choisir un destinataire et un effort de partage réaliste.
 
 ## À discuter
 
-Qu'est-ce qu'on a résolu ici que personne dans cette salle n'a jamais vu écrit nulle part ?
+Quelle expérience compléterait utilement une ressource existante, et pour quel destinataire ?

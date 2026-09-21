@@ -1,10 +1,10 @@
 ---
 layout: chapter
-title: "Le levier le moins cher est déjà payé"
+title: "Examine ce que tu as avant d'ajouter un outil"
 part: "Le levier"
 order: 803
 card_type: principe
-action_scope: "Portée : décision budgétaire"
+action_scope: "Portée : exploration individuelle, accords d'accès et de budget si nécessaires"
 metadata:
   principle: "8.03"
   reading_time_in_minutes: 2
@@ -13,46 +13,45 @@ categories:
   - impact
   - outils
 seo:
-  description: "Acheter ressemble à une décision. Lire la documentation d'un outil qu'on paie déjà ne ressemble à rien."
-  keywords: "build here, levier, outils, budget, builder"
+  description: "Compare réutilisation et alternatives sur leur coût futur et leurs conditions d'usage, sans considérer les ressources existantes comme gratuites."
+  keywords: "build here, builder, levier, outils, reutilisation, cout"
 redirect_from:
   - /chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html
 ---
 
 ## Le réflexe
 
-> "Il nous faudrait un outil pour faire ça."
-
-La demande est précise, le besoin est réel, et il existe effectivement un produit qui fait exactement ça pour un abonnement mensuel raisonnable.
+Un nouveau besoin semble appeler un outil ou une ressource supplémentaire. Tu ne sais pas encore si ce qui existe pourrait y répondre dans de bonnes conditions.
 
 ## Le réflexe builder
 
-> "On en paie déjà quatre. Lequel sait le faire ?"
+Examine les ressources disponibles et compare leur adaptation à une autre solution, avec les coûts d'usage, de changement et d'entretien.
 
 ## Pourquoi
 
-Les entreprises achètent des outils et en utilisent une petite part. Ce n'est pas de la négligence, c'est ce qui arrive quand la fonctionnalité qui manquait a été achetée séparément trois fois, à trois moments où personne n'avait le temps d'aller voir. Acheter ressemble à une décision. On l'annonce, elle a une date, elle a un budget, et elle donne le sentiment d'avoir traité le sujet. Lire la documentation d'un outil qu'on paie déjà ne ressemble à rien, ne s'annonce pas, et n'apparaît sur aucun compte rendu. Le geste le plus rentable de cette étape est donc aussi le moins visible, et c'est pour ça qu'il n'est presque jamais fait.
+Un outil existant, une procédure ou un document peut déjà couvrir une partie du besoin. Les examiner peut éviter un achat ou un travail en double. Cela ne prouve pas qu'ils constituent l'option la moins chère : une adaptation difficile ou un usage mal adapté peut coûter davantage qu'une solution différente.
 
-Le coût de l'achat en plus dépasse largement l'abonnement. Un outil de plus, c'est un compte à gérer, un accès à retirer quand quelqu'un part, une intégration à maintenir, une deuxième liste de clients qui diverge de la première, et un endroit supplémentaire où une information peut se cacher. Ces coûts arrivent tous plus tard et aucun n'est chiffré le jour de la décision.
+Exemple construit : une association souhaite suivre les prêts de matériel. Un tableau partagé existe déjà pour l'inventaire. Ajouter un suivi peut convenir si les personnes comprennent comment le tenir et si les accès sont adaptés. Si cela mélange des usages incompatibles, une autre organisation peut être préférable, même sans acheter de logiciel.
 
-Cette carte ne parle pas que de logiciels. Le levier déjà payé, c'est aussi la liste de clients que personne ne sollicite, le texte écrit l'an dernier qui répond encore à la question, la relation avec un partenaire qui distribue déjà chez les mêmes gens, la donnée que tu collectes depuis trois ans sans jamais l'avoir ouverte. Le point commun est qu'il n'y a rien à approuver, donc rien à attendre.
+Compare le coût futur des options plutôt que de défendre une dépense passée. Formation, maintenance, qualité du service, droits d'accès, dépendances et sortie comptent avec l'abonnement. Le temps de recherche compte aussi : limite l'examen selon l'enjeu, sans supposer qu'une demi-heure résoudra tous les cas.
 
-Il arrive que l'outil existant ne sache vraiment pas faire. Alors achète. La règle porte sur l'ordre, pas sur la dépense : trente minutes à vérifier avant de signer trois ans.
+Une ressource disponible n'est pas automatiquement réutilisable. Un fichier de contacts, une donnée ou une relation avec un partenaire peut demander un accord et un usage compatible avec sa collecte ou ses engagements. Demande à la personne responsable ce qui est possible. Soutenir un builder peut consister à faciliter cet accès ou à aider à comparer les options, sans imposer l'outil que tu connais.
 
 ## À essayer
 
-Prends le prochain besoin qui appelle un achat. Avant de comparer des produits, liste ce que tu paies déjà et ouvre la documentation de deux d'entre eux.
+Sur un besoin précis, note le résultat attendu et les contraintes. Examine une ressource existante avec une personne qui la connaît, puis compare une autre option réaliste, y compris une méthode manuelle.
 
-Trente minutes. C'est le même geste que lire le code source, appliqué à la facture.
+Prévois un petit essai autorisé et une limite d'effort. Évalue si les utilisateurs peuvent rendre le service attendu, ce qui demande une reprise et qui entretiendra la solution.
+
+Présente la comparaison à la personne qui peut engager les moyens. Si la réutilisation est retenue, vérifie après un usage adapté que le gain espéré tient et que la dépendance supplémentaire reste acceptable.
 
 ## Depuis ton siège
 
-- **Ingénierie** : la base de données que tu as sait souvent faire ce que tu allais ajouter à côté.
-- **Produit** : la donnée qui manque à ton arbitrage est souvent collectée et jamais regardée.
-- **Fondateur** : demande la liste des abonnements et ce que chacun sert à faire. La lecture est instructive.
-- **Management** : personne ne sera félicité pour un achat évité. Fais-le remarquer toi-même.
-- **Relation client** : la réponse que tu allais écrire existe peut-être déjà, écrite par quelqu'un d'autre.
+- **Ingénierie** : compare adaptation, entretien et sortie avec l'ajout d'un outil.
+- **Finance** : distingue dépense passée et coût futur de chaque option.
+- **Opérations** : vérifie les accès, les usages et la capacité d'entretien.
+- **Management** : donne du temps à la comparaison avant d'engager les moyens.
 
 ## À discuter
 
-Qu'est-ce qu'on paie ici et qu'on utilise à moitié, et qui saurait dire ce que ça sait faire d'autre ?
+Quelle ressource existante mérite un essai, et quel coût d'adaptation pourrait justifier une autre solution ?

@@ -14,31 +14,29 @@ categories:
   - execution
   - builders
 seo:
-  description: "Livrer n'est pas une notion technique. Un argumentaire se livre, une campagne se livre, un processus se livre."
+  description: "Prépare un essai utile, observe ce qu'il produit et adapte la suite, avec un périmètre et des protections appropriés."
   keywords: "build here, livraison, shipping, execution, builder"
 redirect_from:
   - /chapters/07-00-execution.html
 ---
 
-Livrer n'est pas une notion technique, et c'est le malentendu le plus coûteux de ce livre.
+Livrer, c'est rendre un travail disponible pour l'usage auquel il est destiné. Cela peut être un outil, une invitation, une procédure, une explication ou un service. Le geste ne demande ni un métier technique ni un lancement public.
 
-Un commercial livre un nouvel argumentaire. Le marketing livre une campagne. Le support livre un article d'aide qui remplace une réponse écrite trois cents fois. La finance livre un reporting qui se lit en deux minutes. Les opérations livrent un circuit. Le recrutement livre un processus d'entretien. Un fondateur livre un partenariat.
+La livraison donne une occasion de confronter une idée au réel. Pour apprendre, il faut encore savoir quelle question on examine, observer un effet et utiliser ce retour. La fréquence des sorties ne mesure pas à elle seule la qualité de cet apprentissage.
 
-Le geste est le même partout.
+Exemple construit : tu aides à organiser un atelier dans une association. Tu proposes une nouvelle invitation parce que les indications d'accès semblent incomplètes. Avec l'accord de l'organisateur, tu la fais lire à une personne volontaire qui ne connaît pas le lieu. Tu lui demandes comment elle préparerait son trajet. Si une information manque, tu ajustes le texte avant son envoi. Au prochain atelier, un retour peut aider à vérifier si cette précision a été utile.
 
-Idée, essai, réel, retour, ajustement.
+Ce premier essai est petit, mais il a un destinataire, une question et une suite. Il ne prouve pas que tous les participants auront la même expérience. Une personne expérimentée peut appliquer le même raisonnement à une dépendance complexe ou à une hypothèse devenue habituelle.
 
-Au lieu de préparer longtemps la version parfaite.
+Livrer tôt demande de choisir ce qui peut être réduit sans rendre le service inutilisable. Les protections nécessaires, les accords et le temps de préparation font partie de ce choix. Si le périmètre utile ne tient pas dans le délai, il faut aussi pouvoir discuter la date, les moyens ou l'arrêt du projet.
 
-Ce qui empêche le plus souvent de franchir cette étape n'est pas la paresse, mais le sérieux. Montrer une chose imparfaite ressemble à du travail bâclé, et personne ne veut signer ça. La différence est pourtant nette. Bâcler, c'est conserver tout le périmètre en sacrifiant le soin. Livrer tôt, c'est réduire le périmètre sans sacrifier le soin. Cette seconde approche met rapidement quelque chose entre les mains d'une personne et rapporte une information que personne dans l'équipe ne possédait.
+Certaines actions se reprennent difficilement. Une simulation, une répétition ou une vérification sur un cas limité peut alors éclairer une partie du risque avant l'engagement. Ces essais complètent les contrôles nécessaires ; ils ne les remplacent pas automatiquement.
 
-Voilà le vrai calcul. Une équipe qui livre chaque semaine reçoit cinquante réponses du réel dans l'année. Une équipe qui livre deux fois en reçoit deux. Au bout de trois ans, l'écart entre les deux ne se rattrape plus par le talent.
+Si tu développes une équipe, aide-la à organiser le parcours entre travail prêt et usage réel. Si tu soutiens un builder, tu peux proposer un retour, du temps ou une mise en relation acceptée. L'effort d'observation doit rester proportionné pour les personnes qui participent comme pour celles qui construisent.
 
-Il y a une limite et elle est réelle. Certaines choses ne se livrent pas par morceaux, un virement, une migration de données, un contrat signé. Là, la question n'est pas de découper la livraison mais de découper l'incertitude, et de trouver la plus petite chose qui vérifie l'hypothèse la plus chère.
+**Un signe de progression :** tu peux dire ce qu'un essai a appris, ce qu'il n'a pas permis de conclure et ce que tu choisis pour la suite. Confirmer un choix ou arrêter une piste peut être aussi utile que modifier la solution.
 
-Tu es passé à l'étape suivante quand tu as observé ce qui s'est réellement passé et changé quelque chose en conséquence.
-
-**Ce qui change :** une hypothèse rencontre enfin l'usage. **La tension qui reste :** mettre une chose dehors ne ferme aucune boucle si chacun s'arrête à sa passation. L'étape suivante suit le résultat.
+Choisis une carte selon ton besoin : préparer un essai, réduire un périmètre, examiner une spécification ou améliorer le parcours de livraison. Les cartes d'ownership complètent cette lecture pour organiser le relais et la vérification du résultat.
 
 ---
 
@@ -48,4 +46,4 @@ Tu es passé à l'étape suivante quand tu as observé ce qui s'est réellement 
 - 5.02 [Rapide ne veut pas dire précipité](/chapters/05-02-rapide-ne-veut-pas-dire-precipite.html)
 - 5.03 [Plus tu peaufines, plus il devient difficile de changer d'avis](/chapters/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html)
 - 5.04 [Valider une spec ne la rend pas juste](/chapters/05-04-valider-une-spec-ne-la-rend-pas-juste.html)
-- 5.05 [⇄ Le rythme de livraison, c'est une décision que tu as prise](/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html)
+- 5.05 [⇄ Organise un rythme de livraison utile](/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html)

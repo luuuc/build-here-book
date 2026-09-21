@@ -4,7 +4,7 @@ title: "Livrer permet d'apprendre"
 part: "La livraison"
 order: 501
 card_type: principe
-action_scope: "Portée : accord d'équipe"
+action_scope: "Portée : individu ou accord des personnes concernées"
 metadata:
   principle: "5.01"
   reading_time_in_minutes: 2
@@ -13,7 +13,7 @@ categories:
   - livraison
   - produit
 seo:
-  description: "Une équipe qui livre chaque semaine collecte cinquante réponses par an. Une équipe qui livre deux fois par an en collecte deux."
+  description: "Prépare un essai limité, observe son effet et utilise le retour pour décider ; livrer souvent ne garantit pas d'apprendre."
   keywords: "build here, execution, builder, shipper, cree, information"
 redirect_from:
   - /chapters/07-02-shipper-cree-de-linformation.html
@@ -21,38 +21,39 @@ redirect_from:
 
 ## Le réflexe
 
-Le travail reste à l'abri jusqu'à ce qu'il soit prêt. L'étude doit être complète, la campagne impeccable, la release propre.
+Tu prépares un changement, mais une question d'usage reste sans réponse. Le travail continue alors que tu pourrais peut-être vérifier cette question sur une version plus petite.
 
 ## Le réflexe builder
 
-> "Ça part jeudi. On saura vendredi."
+Choisis ce que le prochain essai doit t'apprendre, puis prépare une version assez sûre et utile pour l'observer.
 
 ## Pourquoi
 
-Une équipe qui livre chaque semaine collecte cinquante réponses par an. Une équipe qui livre deux fois par an en collecte deux. Au bout de trois ans, ce qui les sépare n'est pas le talent, c'est une carte de leur propre terrain que la seconde ne peut acheter nulle part.
+Mettre un travail à disposition crée une occasion d'apprendre, pas un apprentissage automatique. Il faut que quelqu'un puisse l'utiliser, que le résultat soit observable et que le retour éclaire une décision. Plusieurs livraisons sans observation peuvent laisser la même incertitude intacte.
 
-Certaines questions ne se règlent pas en réunion. Il faut montrer la nouvelle page pour savoir si les gens trouvent le bouton. Envoyer le message à cent personnes pour savoir si les mots ont pour elles le sens que tu leur donnais. Tester le nouveau passage de relais avec une agence avant de réécrire la procédure des vingt autres.
+Exemple construit : tu aides une association à préciser les indications d'accès à un atelier. Avant de refaire toutes les invitations, propose le nouveau texte à une personne volontaire qui ne connaît pas le lieu. Demande-lui comment elle préparerait son trajet. Ce premier essai peut révéler une information manquante ; il ne prouve pas encore que tous les participants arriveront sans difficulté.
 
-Sur le risque, l'intuition est trompeuse. Une release qui porte trois mois de travail a trois mois de suspects quand elle casse. Deux jours de travail en ont deux. Ça cesse d'être théorique quand le déploiement doit se terminer avant que le courant saute à dix-huit heures. Tu veux un changement que tu peux annuler en quatre minutes, pas un trimestre de changements à examiner un par un à la lumière du téléphone.
+Un changement limité peut faciliter l'analyse et le retour en arrière. Cela dépend de ses effets, pas seulement de sa taille. Une seule ligne peut modifier beaucoup de dossiers. Vérifie le périmètre touché, les protections nécessaires et la personne qui peut autoriser l'essai. Si tu débutes, prépare-le avec quelqu'un qui connaît le contexte.
 
-Certains travaux ne peuvent pas sortir chaque semaine. Une intégration de paiement, une campagne nationale, un flux réglementé, une migration dont le rollback prend une nuit. Ce qui compte, c'est d'obtenir des retours, pas de tenir une fréquence à tout prix. Là où la livraison ne peut pas être découpée, vérifie le résultat par étapes. Une page devant dix personnes, un message envoyé à cent, un essai à blanc sur dix pour cent des données, quelque chose de vérifiable avant le jour où tout en dépend.
+Certaines actions sont difficiles à reprendre : migration, engagement externe ou changement d'une procédure essentielle. Tu peux parfois réduire l'incertitude par une simulation, une répétition ou un examen sur des cas adaptés avant la mise en service. Un essai ne remplace pas les vérifications requises pour l'action finale, et multiplier les essais ne justifie pas d'épuiser les participants.
 
 ## À essayer
 
-Mesure un chiffre. Le temps entre le moment où une chose est prête à être vue et le moment où elle atteint quelqu'un à qui elle doit servir.
+Sur un changement à ta portée, note :
 
-Suis un seul changement de bout en bout et note chaque endroit où il a attendu. L'attente, c'est en général l'agenda de quelqu'un, pas un build.
+> La question à éclairer : ...
+> Le plus petit essai utile, ses limites et l'accord nécessaire : ...
+> Ce que nous observerons et quand : ...
+
+Prévois le temps de préparation et de retour. Après l'essai, distingue observation et interprétation. Décide de poursuivre, modifier, vérifier autrement ou arrêter. Si rien de concluant n'a été observé, note-le sans transformer la livraison en preuve de réussite.
 
 ## Depuis ton siège
 
-- **Design** : aucune réunion ne dit si les gens trouvent le bouton. Une mise en production, si.
-- **Fondateur** : trois mois de travail dans une release, c'est trois mois de suspects quand ça casse.
-- **Management** : l'attente n'est presque jamais un build. C'est un agenda, et souvent le tien.
-- **Relation client** : tu sais en premier si nos mots veulent dire pour eux ce qu'ils voulaient dire pour nous.
-- **Recrutement** : demande la fréquence de livraison chez le candidat, puis ce qu'il en a appris.
+- **Design** : choisis un essai qui permet d'observer une action, pas seulement une opinion.
+- **Opérations** : prépare les conditions de reprise avant de modifier le service.
+- **Management** : réserve du temps au retour et à la décision qui suit.
+- **Recrutement** : demande ce qu'un essai a appris, sans classer les candidats par fréquence.
 
 ## À discuter
 
-Ici, combien de temps entre le travail prêt à être vu et la personne servie ?
-
-*À vérifier ailleurs :* *Accelerate*, de Nicole Forsgren, Jez Humble et Gene Kim, relie fréquence de livraison, stabilité et performance à partir de quatre années de recherche. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
+Quelle question notre prochaine livraison doit-elle éclairer, et comment saurons-nous si elle l'a fait ?

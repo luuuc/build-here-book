@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Un avis n'est pas un artefact"
+title: "Donne au lecteur de quoi examiner ton raisonnement"
 part: "La référence"
 order: 1002
 card_type: diagnostic
@@ -12,46 +12,45 @@ categories:
   - visibilite
   - ecriture
 seo:
-  description: "Deux choses différentes portent le même nom. Publier un avis, et publier un artefact."
-  keywords: "build here, trace, visibilite, builder, avis, artefact"
+  description: "Rends contexte, faits et limites accessibles pour que le lecteur puisse examiner une idée, sans imposer un chiffre ni dévaloriser les avis."
+  keywords: "build here, builder, reference, raisonnement, evidence, limites"
 redirect_from:
   - /chapters/14-02-un-avis-nest-pas-un-artefact.html
 ---
 
 ## Le symptôme
 
-> "J'ai publié quelque chose cette semaine."
-
-Un texte sur ce que l'écosystème devrait faire. Une réaction à une levée de fonds. Trois paragraphes sur l'IA. C'est publié, c'est sous ton nom, et ça compte comme être sorti du silence.
+Tu partages une conclusion ou une méthode. Le lecteur comprend ta position, mais il lui manque peut-être les éléments pour l'examiner ou l'adapter à sa situation.
 
 ## Le signal
 
-> "Est-ce que quelqu'un qui ne me connaît pas peut s'en servir ?"
+Ajoute ce qui permet de comprendre le raisonnement : contexte, faits, exemple, hypothèses, limites et manière de vérifier ce qui peut l'être.
 
 ## Ce qui se passe
 
-On appelle publier deux choses différentes, qui rendent toutes deux ton nom visible. Une seule produit une référence. La différence est dans la façon dont on arrive dessus. Un avis est consommé au moment où il passe, par des gens qui ne cherchaient rien. Un artefact est trouvé, plus tard, par quelqu'un qui a déjà le problème. Personne ne tape « ce que devrait faire l'industrie tech » dans un moteur de recherche. Quelqu'un cherche pourquoi ses candidats abandonnent après le deuxième entretien, comment classer mille demandes support, ou recopie le message d'erreur exact, mot pour mot. Il ne sait pas encore qu'il te cherche.
+Un avis peut ouvrir une question ou proposer une interprétation utile. Une ressource pratique peut aider à agir. Ces formes ne constituent pas une hiérarchie entre les personnes qui les produisent. Pour le destinataire, la question est de savoir ce que le contenu permet de comprendre, d'examiner ou de faire.
 
-Un artefact peut être un modèle qu'on télécharge, mais aussi une grille d'entretien avec ses critères, un tableau anonymisé des motifs de contact ou cinq écrans écartés avec le résultat des tests. Dans chaque cas, un inconnu peut le poser à côté de son propre travail et dire précisément ce qui lui manque.
+Exemple construit : une équipe partage une grille d'entretien. Les critères et les questions ne suffisent pas forcément à expliquer son usage. Un cas commenté, les limites de la grille et la distinction entre observation et interprétation peuvent aider un autre recruteur à l'examiner. Le même principe vaut pour une note de décision ou une procédure interne.
 
-Regarde aussi contre qui tu te places. Sur un avis, tu es en concurrence avec tous ceux qui ont un avis, c'est-à-dire tout le monde, et celui qui gagne est celui qui poste le plus souvent. Sur la façon dont ton équipe a réconcilié des paiements sur deux rails qui ne se parlent pas, tu es en concurrence avec les gens qui l'ont fait. Ils sont douze et ils n'écrivent pas.
+Une mesure peut éclairer le raisonnement si son périmètre, sa méthode et ses limites sont lisibles. Un chiffre isolé n'est pas une preuve suffisante. Un exemple qualitatif, une chronologie ou une comparaison argumentée peut aussi être utile. N'ajoute pas de quantité artificielle pour donner une apparence de solidité à un retour d'expérience.
 
-Le test se retourne, et c'est cette moitié-là qu'on oublie. "Ce n'est qu'un avis" est le moyen le plus rapide d'écarter un argument auquel tu ne sais pas répondre. Une position défendue par quelqu'un qui a fait la chose, chiffres à l'appui, est un artefact quel que soit le genre du texte. Ce qui se vérifie n'est pas la forme. C'est de savoir s'il y a dedans une seule chose qu'un lecteur puisse aller contrôler lui-même.
+Tout ne peut pas être vérifié directement par chaque lecteur. Certaines données restent privées ou demandent un accès particulier. Explique alors la nature des éléments disponibles et ce que tu ne peux pas partager, sans présenter une certitude plus grande qu'ils ne permettent. Un exemple construit doit être nommé comme tel, et une source empruntée doit être attribuée.
 
 ## À vérifier
 
-Prends la dernière chose que tu as publiée. Cherche dedans une chose vérifiable par quelqu'un d'autre. Un chiffre, une chronologie, une grille, un écran avant et après, une commande, dix lignes de code, une version.
+Choisis un contenu que tu souhaites rendre utile, même s'il n'est pas destiné à être public. Demande à une personne concernée ce qu'elle pourrait en faire et quelle information lui manque pour juger sa pertinence.
 
-S'il n'y en a aucune, tu as publié un avis. Ce n'est pas grave, mais ce n'est pas une trace, et il ne faut pas compter les deux dans le même total.
+Ajoute un élément partageable qui éclaire ce manque : un exemple, un critère, une limite ou une explication de méthode. Si rien ne permet encore de soutenir une affirmation, présente-la comme une hypothèse ou retire-la.
+
+Après la relecture, vérifie si la personne distingue mieux les faits de ta conclusion. La forme ou le nombre de publications ne mesure pas cet effet.
 
 ## Depuis ton siège
 
-- **Ingénierie** : dix lignes de code, une version, une commande. Une seule chose vérifiable suffit.
-- **Design** : publie l'écran avec le taux avant et après. Sans le chiffre, c'est une capture d'écran.
-- **Fondateur** : on t'invitera pour ton avis, jamais pour tes chiffres. C'est à toi de venir avec les deux.
-- **Relation client** : publie les proportions de tes motifs de contact sur un an, avec ton analyse.
-- **Recrutement** : cherche une trace où un inconnu peut vérifier une chose, pas un fil d'opinions.
+- **Ingénierie** : indique le contexte nécessaire pour examiner un exemple technique.
+- **Design** : explique ce qui a été observé et ce qui reste une interprétation.
+- **Finance** : donne le périmètre et les hypothèses d'un chiffre partageable.
+- **Recrutement** : regarde le raisonnement et ses limites, pas seulement la forme du support.
 
 ## À discuter
 
-La dernière chose publiée par quelqu'un ici, qu'est-ce qu'un inconnu pourrait en faire ?
+Quelle conclusion gagnerait à être accompagnée d'un exemple ou d'une limite pour aider son lecteur ?

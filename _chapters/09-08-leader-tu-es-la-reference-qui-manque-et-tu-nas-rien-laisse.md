@@ -1,19 +1,20 @@
 ---
 layout: chapter
-title: "⇄ Tu es la référence qui manque, et tu n'as rien laissé"
+title: "⇄ Donne des moyens à la transmission"
 part: "Le leadership"
 order: 908
 card_type: systeme
+action_scope: "Portée : accord des contributeurs et responsables des moyens"
 metadata:
   principle: "9.08"
-  reading_time_in_minutes: 3
+  reading_time_in_minutes: 2
 categories:
   - reference
   - leadership
   - transmission
 seo:
-  description: "Le mentorat a une portée limitée. Une conversation, une personne, et il s'arrête le jour où tu changes d'entreprise."
-  keywords: "build here, reference, leadership, builder, transmission"
+  description: "Soutiens mentorat, pratique et supports adaptés avec du temps, des accords et une vérification de leur utilité, sans publication obligatoire."
+  keywords: "build here, builder, leadership, transmission, mentorat, soutien"
 redirect_from:
   - /chapters/09-06-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
   - /chapters/16-04-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
@@ -21,38 +22,37 @@ redirect_from:
 
 ## Ce que tu demandes
 
-> "Je transmets. Je passe mon temps à expliquer aux plus jeunes."
-
-C'est vrai, et c'est une des meilleures choses que tu fasses. Tu expliques la même chose depuis huit ans, très bien, à une personne à la fois.
+Des personnes expliquent, accompagnent et transmettent déjà. Tu souhaites rendre cet apprentissage plus accessible sans ajouter une charge invisible ni remplacer une aide utile par un document.
 
 ## Ce que le système entend
 
-> "Combien de gens ont reçu ça, et combien auraient pu ?"
+Si la transmission doit prendre une nouvelle forme, il faut en préciser le destinataire, le temps, les accords et la manière de savoir si cette forme aide.
 
 ## Ce que ça produit
 
-Le mentorat a une portée limitée. Une conversation, une personne, et il s'arrête le jour où tu changes d'entreprise. Ton successeur recommence à zéro, avec les mêmes explications, devant des gens qui poseront les mêmes questions. Fais le compte. Huit ans à quarante conversations par an, c'est trois cent vingt transmissions, dont aucune n'est consultable après ton départ. Un texte de neuf cents mots publié une fois est lu par plus de gens que ça, pendant plus longtemps, sans que tu sois dans la pièce.
+Le mentorat peut laisser des capacités durables chez les personnes accompagnées, qui peuvent à leur tour transmettre. Son effet ne s'arrête pas automatiquement au départ du mentor. Une trace écrite peut compléter ce travail et faciliter un accès ultérieur ; elle ne garantit ni davantage de lecteurs ni un meilleur apprentissage.
 
-Ce qui empêche de l'écrire est un biais, pas un manque de temps. Vu de l'intérieur, ce que tu sais a l'air évident. Tu le sais depuis huit ans, donc ça ressemble à du bon sens, donc l'écrire ressemble à énoncer une banalité. La chose que tu trouves banale est souvent celle que personne du pays n'a jamais écrite, et tu es la dernière personne capable d'en juger.
+Exemple construit : une collègue aide régulièrement à préparer un entretien avec un usager. Elle propose, avec les personnes accompagnées, une courte fiche de questions et un exemple commenté. Un pair essaie la fiche puis explique où il a encore besoin d'aide. L'échange permet d'améliorer le support sans supprimer les conversations qui restent utiles.
 
-Cette carte te demande de passer à l'action. *Tu es la référence qui manquait, et si personne autour de toi ne s'en sert, c'est que rien de tout ça n'est jamais sorti de ta tête.* Expliquer rapporte immédiatement, un visage qui comprend en face de toi. Écrire est plus lent et le retour est nul pendant des mois. Tout le monde choisit l'explication et c'est rationnel. Voilà pourquoi rien ne change tant que personne n'accepte cet effort sans résultat immédiat.
+La forme dépend du besoin : binôme, démonstration, fiche interne, séance collective ou contenu public si le partage est pertinent et autorisé. Une personne débutante peut noter ce qui l'a aidée ; une personne expérimentée peut apporter le contexte et les limites. Aucun titre ni ancienneté ne donne seul la responsabilité de publier pour tout un métier.
 
-Il reste l'exemple que tu donnes, même sans le vouloir. L'équipe copie ce que tu fais, pas ce que tu recommandes. Un senior qui n'a jamais rien publié enseigne à toute la salle que publier ne fait pas partie du métier, quoi qu'il dise en entretien individuel.
+Préparation, relecture, accès et entretien demandent des moyens. Le manque de temps peut être réel. Convenez du travail déplacé et des informations partageables avant de demander un nouveau support. Si tu soutiens sans autorité budgétaire, propose une aide précise ou porte la demande au responsable. La reconnaissance et le crédit se discutent avec les contributeurs, sans quota de publication ni exposition imposée.
 
 ## La décision
 
-→ La prochaine fois que tu expliques quelque chose pour la troisième fois, écris-le juste après, et envoie le lien à la quatrième personne.
-→ Une chose par trimestre, sous ton nom, hors des murs de l'entreprise. Quatre par an, pas quarante.
-→ Compte ce que tu as publié en huit ans, puis compare avec ce que tu attends des gens que tu encadres.
+Choisissez un besoin de transmission avec ses destinataires. Demandez quelle forme les aiderait et ce qui existe déjà. Garder un accompagnement oral peut être la bonne réponse.
+
+Si un nouveau support est utile, prévoyez un effort limité, un responsable volontaire ou mandaté et une manière de le maintenir. Pour un contenu public, faites vérifier les droits de partage ; une version interne reste un résultat valable.
+
+Après un essai, regardez ce que les personnes savent mieux faire ou expliquer et quelle aide reste nécessaire. Ajustez, poursuivez ou arrêtez le support selon ce retour. Un lien diffusé ne suffit pas à démontrer que la transmission a eu lieu.
 
 ## Depuis ton siège
 
-- **Ingénierie** : la troisième fois que tu expliques la même chose, écris-la et envoie le lien à la quatrième.
-- **Produit** : après huit ans de conversations, qu'est-ce qu'on peut encore consulter quand tu pars ?
-- **Fondateur** : l'équipe copie ce que tu fais, pas ce que tu recommandes. Ton silence enseigne aussi.
-- **Relation client** : ce que tu expliques à chaque nouveau client mérite une page publique, pas un script.
-- **Recrutement** : compare ce que tu as publié en huit ans avec ce que tu attends de ceux que tu encadres.
+- **Ingénierie** : complète une démonstration par les repères que le destinataire trouve utiles.
+- **Produit** : choisis un besoin de transmission avant de choisir un format.
+- **Management** : réserve préparation et entretien dans la charge de travail.
+- **Support** : associe les personnes qui utilisent une fiche à sa mise à jour.
 
 ## À discuter
 
-Nomme la chose que tu expliques le plus souvent ici. Où est-elle écrite, et qui peut la lire sans passer par toi ?
+Quelle transmission fonctionne déjà, et quel appui lui donnerait davantage d'utilité sans l'alourdir ?

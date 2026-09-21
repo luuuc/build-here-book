@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Une responsabilité partagée par six personnes n'existe pas"
+title: "Clarifie qui coordonne et qui décide"
 part: "L'ownership"
 order: 603
 card_type: diagnostic
@@ -13,48 +13,49 @@ categories:
   - resultat
   - equipe
 seo:
-  description: "Le mot collectif sonne généreux et produit de l'abandon. Six responsables attendent chacun le signe qu'un autre a commencé."
-  keywords: "build here, ownership, responsabilite, equipe, builder"
+  description: "Organise une responsabilité partagée avec des contributions, une coordination, des moyens et des décisions explicites."
+  keywords: "build here, builder, ownership, coordination, decision, responsabilite"
 redirect_from:
   - /chapters/06-04-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html
 ---
 
 ## Le symptôme
 
-> "C'est un sujet transverse. Toute l'équipe est responsable."
-
-La phrase est généreuse et elle est dite de bonne foi. Elle refuse de désigner quelqu'un, ce qui ressemble à du respect.
+Plusieurs personnes contribuent à un sujet, mais il reste difficile de savoir qui coordonne la prochaine action ou à qui demander un arbitrage.
 
 ## Le signal
 
-> "C'est Awa qui en répond. Les autres aident."
-
-Répondre d'un sujet n'est pas le porter seul. C'est être la personne à qui on demande où ça en est.
+Rends explicites les contributions, la coordination et les décisions. Une responsabilité collective peut fonctionner si son organisation est claire.
 
 ## Ce qui se passe
 
-Six responsables produisent zéro responsable, et le mécanisme n'a rien à voir avec la mauvaise volonté. Chacun regarde les cinq autres pour savoir si quelqu'un a commencé. Chacun a une semaine chargée et une bonne raison de ne pas s'y mettre aujourd'hui plutôt que demain. Chacun suppose que le sujet est couvert, puisque cinq personnes sont dessus. Le sujet n'avance pas, et aucune de ces six personnes n'a rien fait de reprochable.
+Une liste de noms ne décrit pas comment le travail avance. Chacun peut avoir une tâche précise, ou supposer que quelqu'un d'autre organise la suite. Le problème n'est pas le nombre de personnes : c'est l'ambiguïté sur les engagements et sur ce qui se passe quand une étape bloque.
 
-Trois mois plus tard, la réunion sur le sujet transverse existe toujours, les six personnes y viennent toujours, et rien n'a bougé. Ce n'est pas un problème de motivation. C'est ce que produit une liste de noms quand aucun n'est le premier.
+Un point de contact aide à retrouver l'état du sujet. Il peut s'agir d'une personne, d'un binôme ou d'un rôle tournant avec une passation organisée. Cela ne lui donne pas automatiquement autorité sur toutes les décisions ni responsabilité personnelle pour chaque conséquence. Le collectif conserve ses contributions et ses obligations.
 
-L'objection sérieuse est qu'écrire un nom ressemble à désigner un coupable à l'avance. C'est vrai, mais seulement dans une salle où un mauvais résultat coûte du statut. Change ça et le nom redevient ce qu'il est, une adresse. Quelqu'un à qui poser la question, quelqu'un qui a le droit de dire que ça n'avance pas, quelqu'un qui peut demander de l'aide sans que ce soit un aveu.
+Exemple construit : une petite équipe prépare un atelier. Une personne suit les inscriptions, une autre le lieu, une troisième coordonne le point de préparation. La coordination rassemble les informations et signale les dépendances ; elle ne remplace pas le travail des deux autres. Si le budget doit changer, la décision revient à la personne mandatée pour cela.
 
-Un nom ne veut pas dire un exécutant unique. Le sujet peut occuper quatre personnes. Une seule doit pouvoir dire où il en est sans aller demander.
+Avant de nommer quelqu'un, vérifie son accord, sa capacité et les accès nécessaires. Un nom sans moyens peut créer une charge invisible ou un point de fragilité. Précise comment demander de l'aide, signaler un retard et passer le relais. Une personne qui débute peut coordonner un petit périmètre avec un appui identifié, sans devoir tout savoir sans consulter les autres.
 
 ## À vérifier
 
-Prends les trois sujets transverses en cours ici. Écris un nom en face de chacun, à voix haute, dans la réunion où ils sont suivis.
+Sur un sujet partagé, écrivez ensemble :
 
-Si un nom ne vient pas pour l'un des trois, tu viens d'apprendre pourquoi il n'avance pas.
+> Qui contribue à quoi ?
+> Qui coordonne le prochain point et avec quels moyens ?
+> Qui arbitre, et comment organise-t-on les absences ?
+
+Faites confirmer les engagements par les personnes concernées. Si personne ne peut prendre la coordination, ajustez le périmètre ou demandez un arbitrage plutôt que d'imposer un nom.
+
+Au prochain point, vérifiez si une question a trouvé une réponse, si les dépendances ont été traitées et si la charge reste tenable.
 
 ## Depuis ton siège
 
-- **Ingénierie** : un service que personne ne nomme est un service que personne ne met à jour.
-- **Produit** : un sujet sans nom revient à chaque priorisation et repart à chaque fois entier.
-- **Fondateur** : tu es le propriétaire par défaut de tout ce que tu n'as attribué à personne.
-- **Management** : écrire un nom ne coûte rien là où un mauvais résultat ne coûte pas de statut.
-- **Relation client** : quand personne ne répond du sujet, c'est toi qui réponds au client à sa place.
+- **Produit** : distingue coordination du sujet et pouvoir de priorisation.
+- **Opérations** : organise le relais quand le point de contact est absent.
+- **Management** : confirme le mandat et les moyens avec la personne concernée.
+- **Relation client** : identifie le contact utile sans lui attribuer toutes les tâches.
 
 ## À discuter
 
-Quel sujet est suivi ici depuis plus de trois mois sans qu'on puisse dire qui en répond ?
+Sur quel sujet partagé une décision ou un relais reste-t-il ambigu, et comment pouvons-nous le clarifier ?

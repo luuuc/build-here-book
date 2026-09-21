@@ -1,19 +1,20 @@
 ---
 layout: chapter
-title: "⇄ L'absence de règle est une interdiction"
+title: "⇄ Clarifie les conditions du partage"
 part: "La référence"
 order: 1009
 card_type: systeme
+action_scope: "Portée : responsables du cadre de partage et des moyens"
 metadata:
   principle: "10.09"
-  reading_time_in_minutes: 3
+  reading_time_in_minutes: 2
 categories:
   - trace
   - leadership
   - visibilite
 seo:
-  description: "Un vide n'est pas une permission. Devant un vide, les gens calculent, et le calcul donne toujours le même résultat."
-  keywords: "build here, trace, leadership, builder, regle, interdiction"
+  description: "Rends le cadre et le parcours de partage compréhensibles, avec des interlocuteurs, des moyens et des options internes ou sans publication."
+  keywords: "build here, builder, reference, cadre, partage, moyens"
 redirect_from:
   - /chapters/09-03-leader-labsence-de-regle-est-une-interdiction.html
   - /chapters/14-06-leader-labsence-de-regle-est-une-interdiction.html
@@ -21,38 +22,37 @@ redirect_from:
 
 ## Ce que tu demandes
 
-> "Il n'y a aucune règle chez nous. Ils peuvent écrire ce qu'ils veulent."
-
-C'est vrai. Rien n'est interdit, rien n'est écrit, et personne ne publie jamais rien.
+Tu souhaites permettre aux personnes de partager leur expérience. Le cadre reste cependant peu lisible : contenus possibles, personnes à consulter, temps disponible et forme de crédit.
 
 ## Ce que le système entend
 
-> "Personne ne publiera tant que quelqu'un n'aura pas écrit ce qui est autorisé."
+Devant une incertitude, certaines personnes peuvent attendre ou limiter le partage. D'autres peuvent interpréter différemment les mêmes consignes. Il faut clarifier ce qui est possible sans imposer de publier.
 
 ## Ce que ça produit
 
-Un vide n'est pas une permission. Devant un vide, les gens calculent. Publier un postmortem peut froisser un client, exposer une faiblesse, ou déplaire à quelqu'un dont tu dépends. Ne rien publier ne coûte rien et n'a jamais valu un mot à personne. Dans ces conditions, se taire est rationnel, et tu obtiens une équipe silencieuse dont tu diras plus tard qu'elle manque de rayonnement. Tu es passager de ton propre système : le silence te tombe dessus comme un trait de caractère collectif, alors qu'il sort du vide que tu as laissé.
+Un cadre explicite aide à préparer un partage et à identifier les questions qui demandent une réponse. Son absence n'est pas toujours une interdiction ; elle peut néanmoins rendre la décision difficile. Une déclaration générale d'ouverture ne suffit pas à préciser les droits et les engagements pour un contenu particulier.
 
-La première fois fixe la règle, exactement comme dans *La première réaction fait la règle*. Quelqu'un publie, et ce qui sort de ta bouche est une question sur qui a validé. Les six autres qui regardaient ont capté le tarif avant l'intéressé, et ils ont compris comment tu réagis, quel que soit le texte.
+Les conditions peuvent dépendre du sujet, des personnes concernées et du destinataire. Une note interne, un retour entre partenaires et une publication publique n'ont pas le même périmètre. Désigne les personnes habilitées à clarifier ces cas. Quelques catégories utiles peuvent guider les demandes, sans prétendre régler définitivement toutes les situations.
 
-La crainte est réelle, mais elle porte sur des cas précis. Quelqu'un publie un chiffre qui ne devrait pas sortir, nomme un client, ou décrit une faille encore ouverte. Trois lignes écrites une fois règlent les trois cas, définitivement, pour toute l'entreprise.
+Exemple construit : une équipe veut expliquer une amélioration du service. Elle distingue un exemple fictif, des observations internes et des éléments liés à un client. Elle prépare une version dont le périmètre peut être examiné, puis adapte le partage aux accords obtenus. Un refus ou une question doit recevoir une explication et, si possible, une option utile dans un cadre différent.
 
-Le coût du silence apparaît ailleurs, notamment dans les difficultés de recrutement. Une entreprise dont personne ne connaît les ingénieurs ne peut recruter que par recommandation, c'est-à-dire par le canal qui sélectionne la visibilité et pas la livraison. Tu cherches parmi les gens déjà connus, puis tu conclus qu'il n'y a personne de ce niveau ici.
+La possibilité de partager comprend aussi des moyens : rédaction, relecture, accessibilité et entretien. Une personne peut préférer contribuer oralement ou rester dans un espace interne. Les responsables peuvent montrer comment le cadre fonctionne sans être obligés de publier leur propre incident en premier. Le succès se mesure à une décision de partage compréhensible et applicable, pas au nombre de signatures publiques.
 
 ## La décision
 
-→ Écris la frontière. Ce qui se publie sans rien demander, ce qui passe par toi, ce qui ne sort pas. Une page, et elle vaut pour tout le monde.
-→ Vas-y en premier, sur un incident qui t'a coûté quelque chose de réel. Tant que le premier texte publié par l'entreprise n'est pas signé par toi, la frontière reste théorique.
-→ Cite la publication au point hebdo au même titre qu'une livraison. Si "qu'est-ce qui a été livré" reste la seule question posée, tu connais déjà la réponse que les gens donneront.
+Avec les responsables concernés, décrivez les contenus déjà partageables, ceux qui demandent une vérification et ceux qui doivent rester dans un périmètre défini. Indiquez à qui adresser une question et comment obtenir une suite.
+
+Essayez ce cadre sur un cas concret avec une personne volontaire. Préparez une version à examiner, précisez le temps disponible et convenez des mentions de contribution. Tant qu'un accord nécessaire manque, ne supposez pas qu'un délai écoulé vaut autorisation.
+
+Après ce cas, examinez les ambiguïtés et la charge du parcours. Ajustez les consignes sans supprimer les protections nécessaires. Une version interne ou la décision de ne pas publier doit rester recevable.
 
 ## Depuis ton siège
 
-- **Ingénierie** : personne n'a dit non, et personne n'a dit oui. Demande la frontière par écrit, une fois.
-- **Produit** : publier un chiffre sans nom de client ne coûte rien. Le vide t'a fait croire le contraire.
-- **Fondateur** : tant que le premier texte de l'entreprise n'est pas signé de toi, la frontière est théorique.
-- **Relation client** : tu es le plus exposé au risque client, donc le premier à te taire. Demande les trois lignes.
-- **Recrutement** : une entreprise dont personne ne connaît les ingénieurs recrute par recommandation, et rien d'autre.
+- **Management** : clarifie le parcours de décision avec les personnes habilitées.
+- **Produit** : prépare un contenu concret plutôt qu'une demande générale de publier.
+- **Relation client** : apporte les engagements à respecter dans le cas examiné.
+- **Ingénierie** : signale les détails dont le partage demande une vérification particulière.
 
 ## À discuter
 
-Qui ici a publié quelque chose sous son propre nom cette année ? Est-ce qu'il a dû demander la permission, et à qui ?
+Une personne sait-elle à qui poser sa question de partage et quelles options restent possibles si le public ne convient pas ?

@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Le mauvais résultat t'appartient aussi"
+title: "Tire une leçon d'un résultat décevant"
 part: "L'ownership"
 order: 604
 card_type: principe
@@ -12,48 +12,48 @@ categories:
   - resultat
   - honnetete
 seo:
-  description: "Les bons résultats sont revendiqués. Les mauvais sont expliqués par le contexte, et l'information qu'ils contenaient disparaît."
-  keywords: "build here, ownership, echec, resultat, builder"
+  description: "Examine les résultats, les hypothèses et les contraintes sans confondre apprentissage, culpabilité et contrôle de toutes les conséquences."
+  keywords: "build here, builder, ownership, resultat, apprentissage, contraintes"
 redirect_from:
   - /chapters/06-05-le-mauvais-resultat-tappartient-aussi.html
 ---
 
 ## Le réflexe
 
-> "Le marché n'était pas prêt."
-
-C'est peut-être vrai. C'est surtout la phrase qui met fin à l'analyse, et elle la termine en une seconde.
+Un résultat déçoit. Plusieurs explications circulent : le contexte, une hypothèse, un accès manquant ou une décision. Il reste à savoir ce qui est étayé et ce qu'on peut en apprendre.
 
 ## Le réflexe builder
 
-> "Ça n'a pas marché. Voilà ce que je croyais, et voilà l'endroit précis où je me trompais."
+Rapporte le résultat tel qu'il est connu, examine les hypothèses et distingue les choix possibles des contraintes que tu ne maîtrisais pas.
 
 ## Pourquoi
 
-Les bons résultats sont revendiqués à la première personne. Les mauvais changent de sujet grammatical et deviennent des circonstances. Le marché, le timing, le budget, l'équipe d'en face, la saison. Aucune de ces explications n'est forcément fausse, et c'est ce qui les rend efficaces.
+Une explication par le contexte peut être juste. Elle mérite d'être examinée comme une explication par la décision, sans supposer que l'une sert à se disculper et l'autre à être honnête. Il arrive aussi qu'on ne puisse pas isoler une cause avec les informations disponibles.
 
-Le coût est précis. Un échec attribué à l'extérieur ne laisse rien derrière lui. Un échec dont l'hypothèse a été écrite laisse une information réutilisable par quelqu'un qui ne t'a jamais rencontré. Sans ça, la même erreur revient dans deux ans, sous un autre nom, souvent portée par quelqu'un qui n'était pas là la première fois. Une entreprise qui ne garde pas ses échecs les rachète tous les trois ans au prix fort.
+Exemple construit : une association prépare un atelier, mais peu de personnes viennent. L'horaire, l'accès au lieu, la formulation de l'invitation et un événement imprévu peuvent tous avoir joué. Comparer les retours disponibles aide à décider quoi vérifier ensuite ; cela n'oblige pas l'organisateur à reconnaître une faute ni les absents à justifier leur choix.
 
-La seule chose qui rend cette carte tenable est une distinction que peu de salles font. La qualité d'une décision et la qualité d'un résultat se mesurent séparément. Tu réponds de la décision, c'est-à-dire du raisonnement que tu as tenu avec les informations disponibles. Tu rapportes le résultat, y compris quand il te contredit. Confondre les deux fabrique soit des gens prudents, soit des gens qui embellissent, et souvent les deux dans la même équipe.
+Le raisonnement de départ et le résultat s'examinent séparément. Une hypothèse raisonnable peut être contredite. Une information utile pouvait aussi manquer faute d'accès, de temps ou de moyens. Regarde ce qui était possible au moment de décider, sans transformer ce qu'on sait maintenant en évidence que chacun aurait dû voir.
 
-Il y a une limite, et l'ignorer transforme cette carte en machine à culpabiliser. Certaines choses échouent pour des raisons que personne dans la salle ne contrôlait. La question n'est jamais de savoir si c'est ta faute. Elle est de savoir ce que cet échec t'a appris que tu ne savais pas avant, et si tu es le seul à le savoir.
+Une trace courte peut aider la même personne, un relais ou une autre équipe. Choisis un espace adapté et des informations partageables. Une revue privée peut être suffisante, notamment lorsque les conséquences sont sensibles. Si tu accompagnes une équipe, rends possible une analyse qui débouche sur du soutien ou une correction, pas sur une obligation de confession publique.
 
 ## À essayer
 
-Prends une chose qui n'a pas marché cette année, portée par toi.
+Choisis un essai dont le résultat mérite une revue. Avec les personnes concernées, note :
 
-Écris quatre lignes. Ce que tu croyais. Ce qui l'a contredit. Le moment où tu aurais pu le savoir. Ce que tu ferais autrement.
+> Ce que nous attendions et sur quoi cela reposait : ...
+> Ce que nous avons observé et ce qui reste inconnu : ...
+> Les contraintes et options accessibles à ce moment : ...
+> La suite proposée, son responsable et son moment de revue : ...
 
-Mets-les là où l'équipe peut les lire.
+La suite peut être une modification, une nouvelle vérification ou un arrêt. Au point convenu, examine si la leçon a réellement changé une décision. Tu peux aussi constater qu'aucun changement pertinent n'est encore identifié.
 
 ## Depuis ton siège
 
-- **Produit** : la fonctionnalité que personne n'utilise est une réponse, pas un accident.
-- **Fondateur** : ce que tu fais du premier échec annoncé décide de tous les suivants.
-- **Management** : si l'échec coûte du statut, tu recevras des résultats en retard et arrangés.
-- **Relation client** : le client qui part explique souvent mieux l'échec que toute la réunion.
-- **Recrutement** : demande un échec précis et ce qu'il a changé. Les deux, ou la réponse ne vaut rien.
+- **Produit** : distingue une observation d'une explication encore hypothétique.
+- **Management** : examine aussi les moyens et le soutien disponibles au moment du choix.
+- **Relation client** : apporte les retours autorisés sans promettre qu'ils expliquent tout.
+- **Recrutement** : accueille un exemple d'apprentissage sans exiger une faute personnelle.
 
 ## À discuter
 
-Quel échec a été analysé ici publiquement ces six derniers mois, et qu'est-ce qui a changé après ?
+Quel résultat mérite une revue, et quelles explications sont encore des hypothèses ?

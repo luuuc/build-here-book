@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Réponds à la question en public"
+title: "Rends une réponse utile retrouvable"
 part: "La référence"
 order: 1004
 card_type: pratique
@@ -12,46 +12,45 @@ categories:
   - visibilite
   - transmission
 seo:
-  description: "C'est la seule action de cette étape qui ne demande presque aucun travail supplémentaire. Tu allais écrire la réponse de toute façon."
-  keywords: "build here, trace, visibilite, builder, question, public"
+  description: "Prépare une réponse réutilisable dans un espace adapté, en reconnaissant le coût d'adaptation et la valeur des échanges privés."
+  keywords: "build here, builder, reference, reponse, acces, transmission"
 redirect_from:
   - /chapters/14-04-reponds-a-la-question-en-public.html
 ---
 
 ## Le point de départ
 
-La question arrive en message privé. Tu réponds bien, en dix minutes, avec le détail qu'il faut.
-
-Une personne a la réponse. C'est fini.
+Tu réponds à une question dans un échange direct. Cette réponse pourrait peut-être aider de nouveau, mais elle contient du contexte propre à la personne qui l'a posée.
 
 ## Le geste
 
-> "Je réponds au même endroit où on peut me retrouver."
+Réponds au besoin immédiat, puis examine si une version réutilisable serait utile et dans quel espace elle peut être partagée.
 
 ## Pourquoi ça marche
 
-C'est la seule action de cette étape qui ne demande presque aucun travail supplémentaire. Tu allais écrire la réponse de toute façon. La seule décision est l'endroit où tu la poses. Une réponse privée a un lecteur, aujourd'hui. La même réponse publique en a un aujourd'hui et un nombre inconnu ensuite, sur des années, sans que tu aies rien à faire de plus. Il n'existe aucun autre endroit du livre où le rapport entre l'effort et la portée est aussi déséquilibré, et c'est pour ça que cette carte est la plus facile à appliquer cette semaine.
+Une réponse privée peut être la bonne forme de service. Elle peut aussi nourrir un apprentissage chez son destinataire. La conserver ailleurs peut faciliter un prochain usage, sans rendre le premier échange perdu ni obliger à transformer chaque conversation en publication.
 
-Regarde aussi pourquoi la question t'est arrivée. Elle t'est arrivée parce que tu es la personne à portée, pas parce que tu es la seule à savoir. *Quand tu bloques, rends la suite explicite* propose de garder un repère utile après avoir résolu un blocage. Une réponse documentée dans un espace adapté peut servir à nouveau quand tu n'es pas disponible, sans devoir être publique.
+Exemple construit : un nouveau bénévole demande comment préparer l'accueil d'une séance. Après l'avoir aidé, vous repérez une explication qui servirait aux prochains arrivants. Une fiche interne peut reprendre le geste et ses limites, sans copier la conversation ni les détails personnels. Le bénévole peut dire ce qui l'a aidé à comprendre.
 
-Le privé est plus confortable pour une raison honnête. En public, on peut te corriger. C'est vrai, ça arrive, et c'est exactement ce que l'étape *Le métier* te demandait d'aller chercher. Une correction publique par quelqu'un de meilleur que toi est le seul retour gratuit de ce métier, et il n'arrive que si tu t'exposes.
+Préparer une réponse pour d'autres lecteurs demande parfois de retirer du contexte, d'en ajouter ou de vérifier qu'elle reste exacte. Il faut choisir un titre, un accès et un responsable de mise à jour si cela compte. Ce travail n'est pas automatiquement gratuit parce qu'une première réponse existe déjà.
 
-Ne transforme pas pour autant chaque message en occasion de publier. Beaucoup de questions ne concernent qu'une personne, une situation, un compte. Celles qui méritent la version publique sont celles qu'on t'a posées plus d'une fois.
+Le lieu peut être un dossier partagé, une aide interne, un espace de communauté ou une page publique lorsque le contenu s'y prête et que le partage est autorisé. Un retour utile peut arriver en privé ou entre pairs. S'exposer publiquement n'est pas la seule manière d'être corrigé, et le destinataire initial n'a pas à accepter cette exposition pour recevoir de l'aide.
 
 ## À essayer
 
-À la prochaine question dont la réponse ne contient rien de confidentiel, réponds en privé comme d'habitude. Puis pose la même réponse quelque part où elle reste, et renvoie le lien à la personne.
+Choisis une réponse dont la réutilisation semble utile. Définis le prochain destinataire et le contexte dont il aura besoin. Vérifie les informations partageables et les accords nécessaires avant de reprendre un échange.
 
-> "Je l'ai écrit ici, ce sera plus simple si tu dois y revenir."
+Prépare une version courte dans un espace adapté. Indique quand elle s'applique, ses limites et comment signaler une erreur. Si elle ne répond qu'à un cas particulier, garder l'échange privé peut suffire.
+
+À la prochaine question comparable, propose le lien avec l'aide nécessaire. Demande s'il a permis d'avancer et corrige ce qui manque. Ne mesure pas la réussite au seul nombre de liens envoyés.
 
 ## Depuis ton siège
 
-- **Ingénierie** : la réponse qui reste dans tes messages fait de toi la porte. Publiée, elle te libère.
-- **Produit** : la question posée trois fois ce trimestre est une page, pas trois réponses privées.
-- **Fondateur** : le jour où quelqu'un chez toi se trompe en public, ce que tu dis décide si les autres répondront encore.
-- **Management** : les réponses privées de ton meilleur élément sont un actif que l'entreprise n'a pas.
-- **Relation client** : la réponse que tu écris quinze fois par semaine a un seul lecteur à chaque fois.
+- **Ingénierie** : précise les versions ou conditions nécessaires à l'usage de la réponse.
+- **Support** : distingue le cas individuel d'une explication réutilisable.
+- **Management** : prévois le temps d'adaptation et d'entretien si la ressource est demandée.
+- **Produit** : vérifie qu'une réponse conservée reste cohérente avec le service actuel.
 
 ## À discuter
 
-Quelle question t'a été posée trois fois ce trimestre ? Où est la réponse écrite aujourd'hui ?
+Quelle réponse mériterait une version réutilisable, et dans quel espace serait-elle utile et appropriée ?

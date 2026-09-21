@@ -1,9 +1,10 @@
 ---
 layout: chapter
-title: "Confie un problème, pas une tâche"
+title: "Confie un problème avec les appuis nécessaires"
 part: "Le leadership"
 order: 903
 card_type: pratique
+action_scope: "Portée : accord entre les personnes et mandat sur le travail confié"
 metadata:
   principle: "9.03"
   reading_time_in_minutes: 2
@@ -12,46 +13,43 @@ categories:
   - equipe
   - transmission
 seo:
-  description: "Une tâche transmet une décision déjà prise. Celui qui l'exécute peut la réussir dix fois sans jamais apprendre à poser le problème."
-  keywords: "build here, leadership, equipe, builder, delegation, probleme"
+  description: "Adapte le cadrage, l'autonomie et l'accompagnement à la personne et à l'enjeu, sans confondre apprentissage et absence d'aide."
+  keywords: "build here, builder, leadership, accompagnement, probleme, mandat"
 ---
 
 ## Le point de départ
 
-Tu sais comment faire. Tu découpes, tu écris trois tâches claires, tu les distribues. Elles reviennent faites, à l'heure, correctes.
-
-La fois d'après, c'est encore toi qui découpes.
+Tu aides quelqu'un à prendre en charge un travail. Tu sais le découper, mais tu souhaites aussi lui permettre d'apprendre à comprendre le besoin et à proposer une démarche.
 
 ## Le geste
 
-Donne le problème et le critère de réussite. Garde le découpage pour toi, et ne le sors que si on te le demande.
+Partage l'objectif, le contexte, les limites et les moyens. Convenez ensemble de la part de cadrage que la personne prendra et de l'aide disponible.
 
 ## Pourquoi ça marche
 
-Une tâche transmet une décision déjà prise. Elle contient ton diagnostic, ton arbitrage et ta solution, et il n'en reste rien pour celui qui la reçoit. Il peut l'exécuter parfaitement dix fois sans jamais apprendre à poser un problème, parce que personne ne le lui a laissé faire.
+Une tâche précise peut être une bonne entrée pour apprendre : elle donne un repère et limite la difficulté. Expliquer pourquoi elle existe permet déjà de développer le jugement. Confier un problème plus large devient utile lorsque la personne peut explorer des options avec suffisamment de contexte et d'appui.
 
-Le coût est invisible au début. Découper est rapide quand tu connais le sujet, et la première fois que quelqu'un d'autre s'y essaie, c'est plus lent et le découpage est moins bon. C'est le prix de l'apprentissage, et c'est le seul moment où il se paie.
+Exemple construit : dans une association, tu accompagnes une personne qui prépare l'accueil des nouveaux membres. Au lieu de lui donner seulement la liste des messages à envoyer, vous examinez ce que les nouveaux doivent comprendre. Elle propose une démarche sur un petit périmètre. Tu peux montrer un exemple ou réfléchir avec elle si cela l'aide, sans transformer ton propre plan en réponse obligatoire.
 
-Il y a un effet que tu n'avais pas prévu. Celui qui reçoit le problème regarde de plus près une partie que tu avais survolée. Une fois sur trois, il revient avec un découpage meilleur que le tien, et tu ne l'aurais jamais su.
+L'apprentissage demande du temps et peut nécessiter plusieurs retours. La personne peut découvrir une meilleure option ou avoir besoin d'un découpage plus guidé. Aucun de ces résultats ne permet à lui seul de juger sa motivation. Convenez de ce qu'elle peut décider, de ce qui demande un accord et de la manière de signaler une difficulté.
 
-Ça ne marche pas sur tout. Un sujet dont personne d'autre ne connaît le contexte, une contrainte réglementaire, une échéance de trois jours : là, la tâche est la bonne unité et l'honnêteté consiste à le dire. Confier un problème sans donner le temps, l'accès et le droit de se tromper dedans n'est pas de la délégation, c'est un piège.
+Ne retiens pas une information importante pour rendre l'exercice formateur. Une démonstration ou une question préparée peut aider sans prendre la place de l'autre. Avec une échéance serrée ou des conséquences importantes, réduis l'exploration et explique ce choix. Entre pairs, on peut proposer cette démarche avec l'accord de chacun, sans prétendre attribuer une autorité qu'on ne possède pas.
 
 ## À essayer
 
-Prends le prochain travail que tu allais découper. Écris trois lignes à la place : ce qui ne va pas aujourd'hui, ce qui devra être vrai à la fin, et ce à quoi il ne faut pas toucher.
+Choisissez un problème limité. Écrivez le résultat attendu, le contexte connu, les contraintes, le temps disponible et les décisions autorisées.
 
-Envoie ça, puis tais-toi deux jours.
+Demande quel appui serait utile : exemple, premier découpage ensemble, point de retour ou accès à une autre personne. Fixez ce point selon le besoin, sans imposer deux jours de silence. Reste disponible pour une question importante.
 
-Quand le découpage revient, dis ce que tu aurais fait autrement et pourquoi. Une fois, après. Pas avant.
+Au retour, examinez le raisonnement et ce que l'essai a produit. Distingue les exigences des préférences personnelles. Convenez de ce que la personne souhaite prendre en charge ensuite et du soutien qui reste nécessaire.
 
 ## Depuis ton siège
 
-- **Ingénierie** : "corrige ce bug" est une tâche. "Les clients perdent leur panier au paiement" est un problème.
-- **Produit** : donner la maquette, c'est donner ta solution. Donne l'usage qui ne marche pas.
-- **Fondateur** : ce que tu découpes toi-même fixe le nombre de sujets que l'entreprise peut porter.
-- **Management** : un plan que personne n'a construit est un plan que personne ne défendra.
-- **Relation client** : ne transmets pas "rembourse ce client". Transmets ce que le client essayait de faire.
+- **Produit** : explique le besoin et les contraintes avant de proposer une solution.
+- **Management** : réserve du temps à l'exploration et aux retours convenus.
+- **Support** : partage un cas et accompagne la première analyse d'un pair.
+- **Design** : propose un exemple comme appui, sans l'imposer comme seule réponse.
 
 ## À discuter
 
-Quelle est la dernière chose que tu as découpée pour quelqu'un qui aurait pu la découper lui-même ?
+Quel petit périmètre permettrait à quelqu'un de proposer sa démarche, et quel appui lui manque ?

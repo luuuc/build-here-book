@@ -12,7 +12,7 @@ categories:
   - impact
   - risque
 seo:
-  description: "Un levier est indifférent à la direction. Automatiser un mauvais processus produit du mauvais plus vite et plus loin."
+  description: "Vérifie exceptions, protections, arrêt et entretien avant d'amplifier un travail ; aucun petit échantillon ne garantit à lui seul la qualité."
   keywords: "build here, levier, automatisation, erreur, builder"
 redirect_from:
   - /chapters/08-05-un-levier-mal-place-multiplie-lerreur.html
@@ -20,38 +20,37 @@ redirect_from:
 
 ## Le symptôme
 
-> "On automatise, ça ira plus vite."
-
-C'est exact. C'est aussi tout ce que la phrase garantit.
+Une tâche fonctionne dans plusieurs cas et l'équipe envisage de l'automatiser ou de la diffuser davantage. Les exceptions et les contrôles actuels restent peu décrits.
 
 ## Le signal
 
-> "Est-ce que ce processus est bon ? Parce qu'on s'apprête à le faire cent fois plus."
+Avant d'augmenter la portée, examine ce qui peut se tromper, comment le détecter et qui pourra arrêter ou reprendre le travail.
 
 ## Ce qui se passe
 
-Un levier est indifférent à la direction. Il multiplie ce sur quoi tu le poses, et il ne vérifie pas d'abord que la chose méritait d'être multipliée. Automatiser un mauvais processus produit du mauvais plus vite, plus loin, et de façon plus régulière.
+Une automatisation peut répéter une erreur à grande échelle. Une pratique manuelle peut aussi laisser passer des erreurs, parfois longtemps. Le choix ne se résume donc pas à opposer humain prudent et machine aveugle : il faut comprendre les contrôles de chaque solution et les conséquences d'une défaillance.
 
-Il y a pire, et c'est ce qui rend cette carte nécessaire. Le travail manuel contient des points de contrôle involontaires. Quelqu'un remarque qu'un montant est étrange. Quelqu'un trouve que ce client-là ne devrait pas recevoir ce message. Ces vérifications ne sont écrites nulle part, personne ne les a demandées, et elles rattrapent une part des erreurs depuis des années. L'automatisation retire le travail, et elle retire ces contrôles avec, sans que personne n'ait décidé de les supprimer puisque personne ne savait qu'ils existaient.
+Certaines vérifications sont implicites dans le travail. Une personne remarque un montant inhabituel ou une situation qui demande un autre traitement. Décris ces décisions avec elle avant de modifier le parcours. Une règle, une validation humaine ou un traitement séparé des exceptions peut être nécessaire pour conserver la protection.
 
-Les dégâts sont faciles à imaginer parce qu'ils arrivent partout. Une séquence de messages part sur le mauvais segment et écrit à quarante mille personnes au lieu de quatre cents. Une règle de remboursement automatique traite un cas qu'elle n'aurait pas dû toucher, et le traite huit cents fois avant qu'un humain regarde. Une erreur de tarif dans un modèle de proposition part chez tous les prospects du trimestre. Dans les trois cas, la version manuelle aurait produit une erreur, une seule, repérée le jour même.
+Exemple construit : une équipe souhaite envoyer automatiquement des rappels de dossier. Elle vérifie les cas ordinaires, mais aussi les dossiers clos, les coordonnées modifiées et les personnes qui ne doivent plus être contactées. Un petit échantillon aléatoire peut manquer ces cas. Le choix des vérifications dépend de la diversité des situations et de la gravité d'une erreur, sans garantie attachée au nombre dix.
 
-Ce n'est pas un argument pour rester à la main, ce serait renoncer à l'étape entière. C'est un argument sur l'ordre. Tu pointes le levier vers un travail dont tu as déjà vérifié qu'il marche, et tu gardes un endroit où quelqu'un regarde un échantillon. Une automatisation que personne ne regarde plus n'est pas un système, c'est une décision prise une fois et appliquée sans limite.
+Une mise en place demande aussi un responsable, du temps de surveillance et une solution de reprise. Si ces moyens ne sont pas disponibles, garder une partie manuelle ou renoncer peut être le meilleur arbitrage. Pour un débutant, une simulation sur des cas préparés avec un pair permet d'apprendre sans lancer une action réelle sur tout un service.
 
 ## À vérifier
 
-Avant de multiplier quoi que ce soit, fais-le tourner à la main sur dix cas et regarde les dix résultats, un par un.
+Avant l'essai, note les résultats attendus, les exceptions connues et les protections nécessaires. Fais confirmer le périmètre et les accords par les personnes responsables du service.
 
-Puis, une fois en place, garde un rendez-vous court pour regarder un échantillon. Dix cas au hasard suffisent.
+Commence dans un cadre limité où les résultats peuvent être examinés avant de produire des effets. Choisis des cas variés, y compris ceux qui pourraient invalider la règle. Pour des conséquences importantes, demande les vérifications adaptées plutôt que de te fier à un échantillon seul.
+
+Si l'essai est retenu, prévois les signaux d'erreur, qui les reçoit, comment arrêter et comment traiter les effets déjà produits. Réexamine qualité, charge de contrôle et utilité quand les conditions changent.
 
 ## Depuis ton siège
 
-- **Produit** : une règle automatique est une décision prise une fois et appliquée sans discussion.
-- **Ingénierie** : l'alerte qui compte n'est pas que ça a tourné, c'est que le résultat est plausible.
-- **Fondateur** : demande ce qui se passe quand c'est faux, et combien de fois avant qu'on le voie.
-- **Management** : une automatisation sans échantillon relu régulièrement finit par dériver en silence.
-- **Relation client** : tu vois les dégâts en premier. Un canal direct vers celui qui a posé la règle.
+- **Ingénierie** : prépare les contrôles, l'arrêt et la reprise avant d'élargir l'usage.
+- **Opérations** : explicite les exceptions que la pratique actuelle traite déjà.
+- **Management** : attribue les moyens de suivi, pas seulement ceux de construction.
+- **Relation client** : prévois un canal de retour vers la personne qui peut agir.
 
 ## À discuter
 
-Qu'est-ce qui tourne tout seul ici, et à quand remonte la dernière fois que quelqu'un a regardé le résultat ?
+Quel contrôle risquons-nous de perdre en automatisant, et comment saurons-nous qu'il faut arrêter ?

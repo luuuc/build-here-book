@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Range-les par cause, pas par sujet"
+title: "Regroupe les cas, puis vérifie les causes"
 part: "Le levier"
 order: 801
 card_type: diagnostic
@@ -12,46 +12,45 @@ categories:
   - impact
   - client
 seo:
-  description: "Traité un par un, tout paraît différent. Compté, presque tout se concentre sur quelques causes."
-  keywords: "build here, levier, comptage, cause, builder"
+  description: "Regroupe des cas contextualisés et vérifie leurs causes possibles avant de prioriser une amélioration, sans seuil ni gain garanti."
+  keywords: "build here, builder, levier, regroupement, hypothese, cause"
 redirect_from:
   - /chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html
 ---
 
 ## Le symptôme
 
-> "Chaque client est différent."
-
-Vu du guichet, c'est l'expérience exacte. Chaque demande arrive avec son contexte, son ton, son urgence, et deux cas identiques ne se ressemblent jamais vraiment.
+Tu traites des demandes une par une. Certains motifs semblent revenir, mais il reste difficile de savoir lesquels méritent une amélioration commune.
 
 ## Le signal
 
-> "Prends cent demandes et range-les par cause, pas par sujet."
+Regroupe des cas comparables, distingue les symptômes des causes possibles et vérifie une hypothèse avant de choisir une correction.
 
 ## Ce qui se passe
 
-Traité un par un, tout paraît différent. Compté, presque tout se concentre. C'est vrai des demandes support, des objections en rendez-vous commercial, des questions posées à un nouveau, des bugs remontés, des motifs de désabonnement. Quatre ou cinq causes couvrent en général plus de la moitié du volume, et personne dans l'équipe ne peut les nommer de mémoire.
+Un regroupement aide à voir une répartition que le traitement quotidien ne montre pas toujours. Il complète la connaissance des personnes qui assurent le service. Il ne garantit pas que quelques causes expliquent la majorité des demandes, ni que le cas le plus fréquent soit le plus important.
 
-La raison est mécanique et elle n'a rien d'humiliant. Depuis l'intérieur du flux, tu ne vois jamais sa forme. Tu vois un cas, puis le suivant, chacun dans son propre contexte, et ton cerveau conserve les plus marquants plutôt que les plus fréquents. Le cas rare et pénible est mémorable. Le cas fréquent et banal est traité sans y penser. Une équipe entière peut donc travailler quatre ans dans un flux sans connaître sa composition, tout en ayant l'impression de très bien le connaître.
+Exemple construit : plusieurs messages concernent un paiement qui semble apparaître deux fois. Tu peux regrouper ce symptôme. Il reste à vérifier s'il s'agit de deux opérations, de deux affichages ou d'une autre situation. Écrire "le client a mal compris" dans une colonne ne démontre pas cette cause et peut orienter trop tôt la solution.
 
-Sans ce comptage, toutes les améliorations sont des suppositions. On corrige le cas dont quelqu'un a parlé en réunion, ou le dernier qui a énervé un dirigeant. Ça fait du travail réel avec un rendement aléatoire. Avec le comptage, tu sais où se trouve la masse, et une seule correction peut retirer un tiers du flux.
+Choisis des cas accessibles et adaptés à la question. Les derniers reçus peuvent dépendre d'une campagne, d'un incident ou d'une période particulière. Note ces limites avant de généraliser. Compare aussi la gravité, l'effort de traitement et les personnes qui n'apparaissent pas dans les données, plutôt que de prioriser uniquement le volume.
 
-C'est du travail, et c'est une seule après-midi. Cent cas, une colonne pour la cause, écrite avec tes mots et pas avec les catégories de l'outil, qui décrivent en général le sujet et jamais l'origine. Le classement par sujet donne « paiement ». Le classement par cause donne « le client croit que la commande est annulée parce que le débit apparaît deux fois ». Seul le second se corrige.
+L'analyse demande du temps et parfois l'aide d'un autre métier. Une personne qui débute peut examiner quelques cas préparés avec un pair. Une personne expérimentée peut comparer plusieurs périodes ou rechercher un contre-exemple. Un classement assisté par un outil reste à vérifier ; il ne remplace pas les éléments qui étayent une cause.
 
 ## À vérifier
 
-Prends les cent derniers cas de ce que tu traites. Une ligne chacun, une cause en clair.
+Choisis une question et limite le temps d'analyse. Avec l'accord nécessaire, prépare un ensemble de cas sans informations inutiles. Pour chacun, note le symptôme, le contexte et la cause supposée ou confirmée.
 
-Trie. Regarde les quatre premières lignes du classement. Choisis-en une.
+Regroupe les cas et garde ceux qui ne rentrent pas dans les catégories. Choisis une hypothèse dont la vérification pourrait changer une décision. Si elle est confirmée, propose une amélioration proportionnée avec les personnes concernées.
+
+Au prochain point pertinent, regarde si le problème a diminué dans des conditions comparables et si d'autres difficultés sont apparues. Une baisse des demandes peut aussi venir d'un accès au support devenu plus difficile.
 
 ## Depuis ton siège
 
-- **Produit** : range les demandes par cause et ta feuille de route se réécrit dans l'après-midi.
-- **Ingénierie** : les erreurs en production se comptent aussi. Trois messages couvrent souvent la moitié.
-- **Fondateur** : demande la composition, pas le volume. Un total ne dit jamais quoi faire.
-- **Management** : ce comptage n'arrive jamais tout seul. Il demande une demi-journée que tu dois donner.
-- **Recrutement** : classe les refus par motif réel. Le motif fréquent n'est presque jamais celui qu'on cite.
+- **Support** : apporte le contexte des demandes et distingue constat et interprétation.
+- **Produit** : compare fréquence, gravité et valeur d'une vérification.
+- **Ingénierie** : cherche un cas qui confirme ou contredit la cause proposée.
+- **Management** : réserve un effort d'analyse proportionné à la décision attendue.
 
 ## À discuter
 
-Quelles sont les quatre causes les plus fréquentes de ce qui arrive ici, et qui saurait les citer ?
+Quel groupe de cas mérite une vérification, et que savons-nous réellement de sa cause ?

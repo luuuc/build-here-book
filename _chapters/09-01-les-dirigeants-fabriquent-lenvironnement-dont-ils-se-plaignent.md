@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "On fabrique l'environnement dont on se plaint"
+title: "Examine les conditions de l'initiative"
 part: "Le leadership"
 order: 901
 card_type: diagnostic
@@ -12,49 +12,45 @@ categories:
   - decision
   - management
 seo:
-  description: "Quand une personne se comporte d'une certaine façon, on peut s'interroger sur elle ; quand tout le monde se comporte ainsi, il faut s'interroger sur l'organisation."
-  keywords: "build here, leadership, builder, fabrique, environnement, dont, plaint"
+  description: "Examine les conditions d'une initiative avec les personnes concernées, sans attribuer automatiquement la difficulté aux individus ou à leur responsable."
+  keywords: "build here, builder, leadership, initiative, conditions, soutien"
 redirect_from:
   - /chapters/09-06-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html
 ---
 
 ## Le symptôme
 
-> "Le problème, c'est qu'ils ne prennent pas d'initiative !"
-
-Énoncé comme une propriété des personnes.
+Tu aimerais voir davantage d'initiative autour de toi. Certaines propositions n'arrivent pas ou restent sans suite, et les raisons ne sont pas encore claires.
 
 ## Le signal
 
-Quand le comportement est général, la cause est dans le système. Pas dans les gens.
+Examine une situation concrète avec les personnes concernées : objectif, temps, accès, compétences, mandat et réponse aux propositions précédentes.
 
 ## Ce qui se passe
 
-Quand une personne se comporte d'une certaine façon, on peut s'interroger sur elle. Quand tout le monde se comporte ainsi, il faut s'interroger sur l'organisation. Des gens avec des histoires, des écoles et des âges différents n'atterrissent pas spontanément sur la même posture. Quand ils le font, quelque chose dans la salle les y a menés.
+Une difficulté répétée invite à regarder les conditions de travail. Elle ne prouve pas que tout vient de l'organisation. Une difficulté individuelle ne prouve pas davantage une erreur de recrutement. Les informations disponibles, l'expérience, les relations et les contraintes peuvent se combiner. Il faut comprendre le cas avant d'attribuer une cause.
 
-L'environnement de travail repose sur des choix concrets, et c'est toi qui les as presque tous faits. Ce qui est mesuré. Ce qui est promu. Ce qui est arrivé la dernière fois que quelqu'un a échoué en public.
+Exemple construit : plusieurs membres d'une équipe attendent une validation pour modifier une fiche d'accueil. Le responsable pense que cette décision leur appartient ; eux ont vu une modification précédente annulée sans explication. Clarifier le périmètre et les critères pourrait aider. Dans un autre cas, le blocage pourrait venir d'un accès manquant ou d'une charge déjà pleine.
 
-Le ratio te dit dans quelle conversation tu es. Une seule personne passive est une conversation de recrutement. Presque toute l'équipe, c'est un problème d'organisation. Et cette organisation, c'est toi qui la définis.
+Si tu diriges l'équipe, distingue ce que tu peux modifier de ce qui dépend d'un autre responsable. Si tu agis entre pairs, tu peux poser une question, rendre une contrainte visible ou proposer un essai. Tu n'as pas à refaire seul l'organisation ni à prendre un risque de confrontation pour montrer ton engagement. Un échange privé ou l'appui d'un allié peut être plus adapté.
 
-La plainte est banale, celle selon laquelle les gens manquent d'initiative, et elle est souvent formulée par ceux qui ont construit la salle qui la produit. Inutile d'en conclure qu'il faut culpabiliser. Changer les gens prend un an. Changer un morceau du système se fait cette semaine.
+Une règle changée ne produit pas nécessairement un effet immédiat. Les personnes peuvent avoir besoin d'explications, de pratique et de voir comment une initiative est accueillie. Prévois ce soutien et regarde aussi ce qui fonctionne déjà. Développer une équipe peut consister à étendre une bonne pratique, sans commencer par une plainte.
 
 ## À vérifier
 
-Prends la plainte que tu répètes le plus sur ton équipe, et retourne la question.
+Choisis une situation récente plutôt qu'une étiquette sur une personne. Demande ce qui était attendu, ce qui était possible et quelle suite a été donnée.
 
-> Qu'est-ce qui, dans cet endroit, rend ce comportement rationnel ?
+Avec les personnes concernées, propose un changement limité : clarifier un mandat, obtenir un accès, réserver du temps ou rendre un retour plus prévisible. Fais arbitrer ce qui dépasse ton rôle.
 
-Cherche dans les incitations, pas dans les caractères. La réponse ramène en général à une décision que tu as prise.
+Après une occasion réelle de pratiquer, regarde si le changement a aidé et ce qui reste difficile. Si l'essai n'a pas pu avoir lieu, examine cette contrainte au lieu de conclure que les personnes manquent d'initiative.
 
 ## Depuis ton siège
 
-- **Ingénierie** : si tout le monde autour de toi contourne la même chose, ce n'est pas un défaut de caractère.
-- **Design** : quand tous les utilisateurs se trompent au même endroit, c'est l'écran. Ici, c'est la salle.
-- **Fondateur** : changer les gens prend un an. Changer un morceau du système se fait cette semaine.
-- **Recrutement** : une seule personne, regarde le recrutement. Presque toute l'équipe, regarde l'organisation.
+- **Ingénierie** : décris une dépendance concrète avant d'attribuer un manque d'autonomie.
+- **Support** : apporte un cas où une proposition a reçu, ou non, une suite.
+- **Management** : clarifie ton périmètre et cherche les appuis nécessaires ailleurs.
+- **Recrutement** : distingue besoins d'apprentissage, conditions de travail et critères du poste.
 
 ## À discuter
 
-Quelle plainte tourne ici depuis plus d'un an sans qu'on ait changé le système ?
-
-*À vérifier ailleurs :* Deming attribue l'essentiel des problèmes au système que la direction possède ; Crozier et Friedberg montrent comment les acteurs répondent aux incertitudes qu'ils contrôlent. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
+Quelle condition faciliterait une initiative utile, et qui peut nous aider à la modifier ?

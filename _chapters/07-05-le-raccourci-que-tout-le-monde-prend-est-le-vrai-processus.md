@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Le raccourci que tout le monde prend est le vrai processus"
+title: "Le raccourci révèle un écart à comprendre"
 part: "Les systèmes"
 order: 705
 card_type: diagnostic
@@ -12,44 +12,43 @@ categories:
   - process
   - equipe
 seo:
-  description: "Un contournement pris par tout le monde n'est pas un problème de discipline. C'est une information sur le chemin officiel."
-  keywords: "build here, systemes, process, contournement, builder"
+  description: "Observe les écarts entre procédure et pratique sans présumer que le raccourci est juste ; vérifie les fonctions et protections à préserver."
+  keywords: "build here, builder, systemes, ecart, processus, observation"
 ---
 
 ## Le symptôme
 
-> "Le processus est écrit, ils ne le suivent pas."
-
-Le document existe, il est à jour, il a été présenté. Le problème semble donc être ailleurs, du côté des gens.
+Le travail observé diffère du parcours écrit. Certaines personnes utilisent un message, un fichier ou une vérification différente pour arriver au résultat.
 
 ## Le signal
 
-> "Regarde ce qu'ils font à la place. C'est ça, le processus."
+Examine le parcours réel et la fonction de l'étape contournée avant de rappeler la règle ou d'adopter le raccourci.
 
 ## Ce qui se passe
 
-Un contournement pris par une personne est un écart. Un contournement pris par tout le monde est une information, et elle porte sur le chemin officiel, pas sur la discipline de l'équipe. Personne ne prend un chemin plus long par distraction.
+Un écart est une information sur la pratique. Il peut venir d'un accès manquant, d'une consigne mal comprise, d'une urgence, d'une préférence ou d'une étape devenue inutile. Le fait que plusieurs personnes l'utilisent ne prouve ni son efficacité ni son acceptabilité. Il aide à choisir où regarder.
 
-Le formulaire de demande n'est plus rempli, tout passe par message direct. La revue à deux relecteurs se fait à un, avec un accord donné à l'oral. La fiche de suivi est remplie en fin de semaine, de mémoire, pour les cinq jours d'un coup. Dans les trois cas, le travail avance plus vite que ce que le document prévoit, et quelque chose est perdu en route sans que personne l'ait décidé.
+Exemple construit : des demandes arrivent par message direct plutôt que par le formulaire prévu. Le formulaire peut être difficile à ouvrir sur le téléphone utilisé. Le message permet d'avancer, mais laisse peut-être de côté une information nécessaire à la personne qui prend le relais. Ces deux effets doivent entrer dans l'analyse.
 
-C'est ce quelque chose qui est le vrai sujet. Un processus officiel fait en général deux choses à la fois : il organise le travail, et il produit une trace, une vérification ou une information dont quelqu'un d'autre a besoin plus loin. Le raccourci garde presque toujours la première et jette la seconde, parce que la seconde ne sert pas à celui qui prend le raccourci. La bonne réponse n'est donc ni de rappeler la règle ni de laisser filer. C'est d'adopter le raccourci, puis de lui rajouter la seule chose qui manquait.
+Observe avec les personnes concernées ce que le raccourci facilite, ce qu'il perd et à qui cela importe. Certains contrôles protègent contre un risque même s'il ne s'est jamais produit. Si leur fonction reste inconnue, demande un examen au responsable du parcours ; l'absence d'explication immédiate ne valide pas le contournement.
 
-Tous les contournements ne se valent pas et il faut trier. La question à poser est de savoir si l'étape sautée protège contre une chose qui est réellement arrivée. Si oui, le raccourci est un incident en préparation et il faut comprendre pourquoi le chemin officiel est si pénible. Si personne ne sait contre quoi l'étape protégeait, le raccourci vient de trancher un débat que la salle n'avait pas osé ouvrir. Dans ce cas, l'équipe a eu raison avant toi, et sans réunion.
+La réponse peut être une correction de l'accès, une meilleure explication, une exception encadrée ou une modification du processus. Elle peut aussi être de préserver le parcours tout en le rendant plus praticable. Ne demande pas à quelqu'un de reproduire une action risquée seulement pour la démontrer. Un récit ou un cas préparé peut suffire pour commencer.
 
 ## À vérifier
 
-Prends un processus écrit ici. Va regarder comment il se passe réellement, une fois, en observant.
+Choisis un cas accessible et explique que tu cherches à comprendre le travail, pas à évaluer une personne. Compare les étapes prévues et réelles. Note ce que chacune produit et pour qui.
 
-Note l'écart. Puis demande ce que l'étape sautée devait produire, et pour qui.
+Prépare une amélioration avec les personnes qui utilisent le parcours et celles qui en dépendent. Fais confirmer les accords nécessaires et les protections à conserver avant un essai limité.
+
+Après l'essai, examine l'effort, la qualité du relais et les conséquences imprévues. Mets à jour le document si le changement est retenu. Une procédure plus courte n'est utile que si elle conserve ce qui compte.
 
 ## Depuis ton siège
 
-- **Ingénierie** : la commande que tout le monde lance à la main plutôt que le script dit quelque chose du script.
-- **Produit** : si personne ne remplit le champ, la donnée que tu analyses est inventée.
-- **Fondateur** : le raccourci que ton équipe prend a été validé par l'usage. Regarde-le avant de le corriger.
-- **Management** : rappeler la règle plus fort la troisième fois ne l'a jamais fait appliquer.
-- **Relation client** : ce que tu fais en dehors de l'outil officiel est la version qui marche. Dis-le.
+- **Ingénierie** : cherche pourquoi l'outil prévu est contourné avant d'en imposer l'usage.
+- **Produit** : vérifie ce que deviennent les informations manquantes dans la suite du parcours.
+- **Management** : rends possible une description des écarts sans accusation préalable.
+- **Relation client** : explique ce que le raccourci facilite et ce qu'il laisse en suspens.
 
 ## À discuter
 
-Quel processus écrit ici est suivi par moins de la moitié des gens, et qu'est-ce qu'ils font à la place ?
+Quel écart entre pratique et procédure mérite un examen, et qui en voit les conséquences ?
