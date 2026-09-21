@@ -40,6 +40,8 @@ Tu veux rendre quelque chose utile et tu cherches par où prendre le problème. 
 
 **Ce que tu regardes ensuite.** La personne a-t-elle trouvé le lieu ? Qu'a-t-elle encore dû demander ? Reprends le message à partir de sa réponse. Pour ton propre projet, choisis de la même façon un geste limité, un accord si tu touches au travail d'autrui et une occasion d'observer l'usage.
 
+**Un cas complet.** [Un premier essai utile](/chapters/a6-un-premier-essai-utile.html) montre la question, les deux versions du message, le critère d'arrêt et le retour, avec une fin explicite à l'aide apportée.
+
 ## Je veux progresser
 {: #parcours-progresser }
 
@@ -55,6 +57,8 @@ Tu construis déjà. Pars d'une réalisation dont tu es satisfait, d'une difficu
 
 **Ce que tu regardes ensuite.** Après cette occasion, note ce que tu as gardé, changé ou écarté, et l'effet que tu as pu observer. Si le retour est encore inconnu, fixe le moment où tu pourras le chercher. Tu peux approfondir ton métier avec ce parcours, quel que soit ton rôle dans l'équipe.
 
+**Un cas complet.** [Améliorer sans tout reprendre](/chapters/a7-ameliorer-sans-tout-reprendre.html) part d'une pratique déjà solide et déroule une décision, un avant/après, un bilan limité et un relais accepté.
+
 ## Je veux faire grandir mon équipe
 {: #parcours-equipe }
 
@@ -69,6 +73,8 @@ Tu veux que les personnes autour de toi puissent mieux comprendre, décider et a
 **Votre premier essai.** Avec les personnes concernées, choisissez un problème limité et une décision réversible. Convenez de qui peut décider, du temps disponible, de l'aide accessible et de ce à quoi il ne faut pas toucher. Si un accord manque, cherchez-le avec cette proposition concrète avant de commencer.
 
 **Ce que vous regardez ensuite.** À la date convenue, reprenez la décision et son effet. La personne a-t-elle pu agir dans les limites annoncées ? Qu'est-ce qui a aidé ou bloqué ? Choisissez ensemble ce que vous gardez ou ajustez.
+
+**Un cas complet.** [Six semaines pour apprendre ensemble](/chapters/a8-six-semaines-pour-apprendre-ensemble.html) montre un journal de décisions et de résultats, un refus d'accès, une adaptation et un bilan.
 
 Pour organiser plusieurs discussions, le livre propose aussi un [format de séance](/chapters/00-faire-tourner-ca-dans-ton-equipe.html).
 
@@ -86,6 +92,8 @@ Tu vois la valeur de cette manière de travailler et tu veux lui donner plus de 
 **Ton premier soutien.** Convenez avec une personne d'une aide précise et d'une date : une relecture de trente minutes, un accès à demander ou un créneau protégé si tu peux le décider. Vérifie que cet engagement tient dans vos agendas. Choisissez un essai assez petit pour les moyens disponibles.
 
 **Ce que vous regardez ensuite.** L'aide a-t-elle été apportée ? Qu'a-t-elle permis d'essayer, de décider ou d'apprendre ? Demande à la personne si elle souhaite la poursuivre ou la modifier. Une transmission au sein de l'équipe peut suffire ; une publication reste un choix à discuter selon le projet.
+
+**Un soutien délimité.** Dans [Six semaines pour apprendre ensemble](/chapters/a8-six-semaines-pour-apprendre-ensemble.html), Nora apporte une relecture sans pouvoir hiérarchique. Son engagement a une limite et une fin. Les [modèles à adapter](/chapters/a9-modeles-pour-agir-et-revoir.html) comprennent une fiche de soutien et les supports des autres parcours.
 
 ---
 

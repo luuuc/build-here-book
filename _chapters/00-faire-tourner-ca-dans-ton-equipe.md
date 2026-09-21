@@ -1,86 +1,112 @@
 ---
 layout: chapter
 title: "Faire tourner ça dans ton équipe"
-description: "Six semaines, trente minutes par semaine"
+description: "Une carte, un essai convenu, un retour utile"
 show_chapter_number: false
 illustration: "faire-tourner"
 part: "Introduction"
 order: 3
 metadata:
-  reading_time_in_minutes: 4
+  reading_time_in_minutes: 7
 categories:
   - ouverture
   - methode
   - builders
 seo:
-  description: "Une carte discutée à six change une équipe. La même carte lue à six, chacun dans son coin, ne change rien."
+  description: "Une séance adaptable avec un cadre volontaire, des décisions selon le mandat, une fiche de facilitation et un suivi des effets observés."
   keywords: "build here, ouverture, builder, equipe, seance, atelier"
 ---
 
-Ce livre se lit seul. Il sert surtout quand on en discute.
+Une carte peut aider à examiner une situation et à préparer un essai ensemble. La discussion ne garantit pas un changement ; lire seul peut aussi être utile. Choisissez le format selon le besoin, les personnes et les moyens disponibles.
 
-Une carte discutée à six change une équipe. La même carte lue à six, chacun dans son coin, ne change rien du tout, et tout le monde repart convaincu d'être déjà d'accord.
+Commencez par une séance, avec un retour à un moment pertinent pour l'essai. Trente minutes est une proposition de durée, pas une contrainte à tenir au détriment de la lecture ou de la compréhension. Vous pouvez poursuivre sur plusieurs semaines si les retours justifient l'effort, puis arrêter.
 
-Voilà le format. Trente minutes, une fois par semaine, six semaines. Aucun budget, aucune réorganisation, personne à convaincre au-dessus.
+## Préparer un cadre simple
 
----
+Choisissez un fait partageable : une passation qui reste ambiguë, un retour difficile à utiliser ou une question d'usage à vérifier. Une pratique qui fonctionne et que vous voulez approfondir convient aussi. Un cas construit permet de commencer sans exposer un dossier ni une personne.
 
-## La séance
+Convenez du temps, de qui facilite et de qui garde la courte trace des décisions. La préparation, la participation et le suivi prennent une place réelle dans les agendas. Si cela modifie le travail prévu, faites confirmer ce qui sera décalé par la personne qui peut l'arbitrer.
 
-**Avant.** Choisis la carte le vendredi et envoie le lien. Personne ne prépare rien. Une carte qu'il faut préparer ne sera pas lue.
+L'animation repose sur un accord et un appui, pas sur un nombre d'années de métier. Une personne débutante peut coanimer, garder le temps ou guider la lecture d'un cas préparé. Une personne expérimentée peut apporter du contexte sans devenir la seule à interpréter la carte.
 
-**Cinq minutes.** Chacun lit la carte dans la salle, pour de vrai, en silence. C'est le seul moyen connu d'avoir six personnes qui l'ont réellement lue.
+Annoncez le cadre aux participants : chacun peut passer son tour, répondre par écrit ou préférer le cas construit. La séance ne sert ni à attribuer un niveau de builder ni à évaluer publiquement les personnes. Demandez l'accord avant de conserver une contribution attribuée ; ne promettez pas une confidentialité que le groupe ne peut garantir.
 
-**Dix minutes.** Le bloc *Depuis ton siège*. Chacun prend une ligne qui n'est pas la sienne et dit ce que ça change pour celui qui occupe cette place. Puis la personne concernée répond. C'est là que la séance se gagne ou se perd.
+## Une petite sélection pour commencer
 
-**Dix minutes.** La question *À discuter*. Elle porte sur des faits récents plutôt que sur des intentions, et elle est écrite pour que les réponses divergent. Si tout le monde répond pareil en deux minutes, passe à la carte suivante. Celle-là était déjà acquise.
+Choisissez une seule carte selon la question, sans devoir parcourir toute une étape dans l'ordre.
 
-**Cinq minutes.** Une décision, écrite, avec un nom et une date. Une seule.
+| Question du groupe | Carte de départ |
+|---|---|
+| Comment rendre une passation plus claire ? | [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html) |
+| Quel retour nous aiderait à apprendre ? | [Explique ce que ta relecture a vérifié](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html) |
+| Quel petit essai éclairerait notre décision ? | [Livrer permet d'apprendre](/chapters/05-01-shipper-cree-de-linformation.html) |
+| Comment donner une suite aux objections ? | [⇄ Donne une suite réelle aux objections](/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html) |
 
----
+Les cartes ⇄ peuvent aider à préparer une demande. Elles ne donnent pas au groupe l'autorité de changer une règle. Si les conditions demandent une décision ailleurs, identifiez l'interlocuteur et préparez une proposition limitée.
 
-## Ce qui reste
+## Une séance de trente minutes
 
-Sans la dernière ligne, tu as tenu une conversation agréable et rien d'autre.
+**Cinq minutes : lire et clarifier.** Laissez du temps pour lire la carte ou entendre une lecture si cela convient. Expliquez un mot ou un exemple nécessaire. Le lien peut être envoyé avant, sans supposer que chacun aura pu le lire. Si le texte demande plus de temps, réduisez la suite ou prolongez avec accord.
 
-La décision n'a pas besoin d'être ambitieuse.
+**Huit minutes : examiner un cas.** Demandez : "Que savons-nous de cette situation ? Qu'est-ce qui fonctionne déjà ? Qu'est-ce qui reste une hypothèse ?" Invitez les personnes concernées à compléter, sans leur imposer un récit. Le bloc *Depuis ton siège* suggère des points de vue : ne parlez pas au nom d'un métier absent. Notez plutôt la question à lui poser.
 
-> À partir de lundi, le problème client va en haut de chaque ticket, et c'est Awa qui relit avant qu'on démarre.
+**Dix minutes : comparer des options.** Cherchez un essai utile, l'option de garder la pratique actuelle et les contraintes de chacun. Précisez l'effet attendu, le temps, les accès et les protections. Demandez ce qui pourrait rendre l'essai inadapté. Un accord rapide ne prouve pas que la pratique est acquise ; un désaccord ne prouve pas un manque d'esprit builder.
 
-> On arrête de compter les tickets fermés en revue de sprint. On compte ce qu'un utilisateur sait faire et qu'il ne savait pas faire avant.
+**Sept minutes : convenir de la suite.** Distinguez une décision dans le mandat du groupe, une proposition soumise à accord, une information à obtenir ou une clôture sans action. Aucun participant ne reçoit une responsabilité sans l'accepter. Choisissez un moment où un effet pourra être observé, ou une date pour obtenir la réponse nécessaire.
 
-Écris-la au même endroit chaque semaine. Au bout de six séances tu as six lignes. Relis-les à voix haute à la septième et compte celles qui ont tenu. C'est le seul bilan qui compte et il prend quatre minutes.
+## La fiche de la personne qui facilite
 
----
+Tu peux reprendre ces lignes avant la séance :
 
-## Choisir l'étape
+- **But :** nous voulons éclairer ... à partir du cas ... et de la carte ...
+- **Participation :** les personnes ont été invitées ; elles peuvent passer ou proposer une autre forme de retour.
+- **Temps et appui :** préparation ... ; séance ... ; suivi ... ; travail déplacé et accord ...
+- **Mandat :** nous pouvons décider ... ; nous devons demander ... à ...
+- **Animation et trace :** ... facilite, ... note ce qui est convenu ; accès à la note ...
+- **Sortie acceptable :** essai autorisé, demande précise, vérification ou choix explicite de ne pas poursuivre.
 
-Une étape, pas le livre. Prends celle qui correspond à ce qui vous agace ce trimestre et fais ses cartes dans l'ordre.
+Pendant l'échange, utilise des relances concrètes : "Quel fait nous permet de le dire ?", "Qui subirait ce changement ?", "Quel accord manque ?", "Quelle aide rendrait l'essai possible ?" Si tu portes l'autorité de décision, laisse d'abord les autres apporter leurs informations et indique ce qui reste ouvert.
 
-→ **Curiosité**, si les gens exécutent sans demander pourquoi.
-→ **Produit**, si les sprints se terminent et que rien ne change pour personne.
-→ **Exécution**, si tout arrive en retard et que personne ne sait où le temps est passé.
-→ **Client**, si les décisions se prennent sur ce que quelqu'un a rapporté d'une réunion.
-→ **La référence**, si l'équipe est bonne et que personne à l'extérieur ne le sait.
+Si une carte sert à viser un collègue, interromps cette utilisation et reviens au fait ou au cas construit. Si un sujet exige un traitement individuel, propose le canal approprié hors de la séance. Si une personne ne souhaite plus participer, n'interprète pas son retrait comme un diagnostic. Si la discussion reste tendue ou manque d'informations, suspendre est une issue possible.
 
-Six semaines, puis vous arrêtez. Une étape de plus au trimestre suivant si ça a servi. Un rituel qui dure toute l'année finit par être un point d'agenda que plus personne n'ose supprimer.
+## Une trace courte, avec un statut clair
 
----
+Exemple entièrement construit d'une sortie de séance :
 
-## Selon ta place dans l'équipe
+> **Fait :** dans le cas examiné, le dossier envoyé n'avait pas de prochaine action explicite.
+>
+> **Proposition :** essayer une ligne "prochaine action et relais accepté par" sur les dossiers ordinaires pendant un cycle d'activité.
+>
+> **Moyens :** Jo accepte de préparer un exemple en vingt minutes. La responsable doit confirmer ce temps et le périmètre avant tout changement partagé.
+>
+> **Limites :** conserver les contrôles et les accès ; arrêter si le destinataire ne peut pas prendre le relais.
+>
+> **Statut :** en attente d'accord. Lina accepte de demander une réponse vendredi. Le silence ne vaut pas autorisation.
+>
+> **Observation prévue si l'essai est autorisé :** vérifier avec le destinataire s'il identifie la prochaine action, puis noter les questions et le temps ajouté.
 
-**Tu as commencé l'an dernier.** Ne mène pas la séance. Prends la ligne d'un siège que tu ne comprends pas encore, et demande à celui qui l'occupe de raconter une fois où ça lui est arrivé. Tu apprendras plus dans sa réponse que dans les dix étapes.
+Le [journal de décisions et de résultats](/chapters/a9-modeles-pour-agir-et-revoir.html) permet de conserver cette suite. Écrire "essai lancé" alors qu'un accord manque ferait disparaître une contrainte importante.
 
-**Tu construis depuis six ans.** C'est toi qui mènes, et ton travail est de parler en dernier. La moitié de ce livre, tu la sais déjà, apprise sur un truc qui a cassé devant un client. Fais circuler la carte au lieu de refaire le discours pour la quarantième fois.
+## Le retour qui justifie la suite
 
-**Tu fixes les conditions.** Les cartes marquées ⇄ te sont adressées. Mets-en une dans les six, et prends la décision écrite sur celle-là, devant tout le monde. Une séance où celui qui dirige commente les cartes des autres et saute la sienne montre à l'équipe que le responsable s'exempte des efforts qu'il demande aux autres.
+Au moment convenu, réservez un point bref, par exemple quinze minutes : trois pour rappeler la question et le statut, cinq pour les observations, cinq pour la décision et deux pour confirmer les responsabilités. Adaptez cette répartition au cas.
 
----
+Demandez ce qui a réellement été essayé, quel effet a été observé et ce qui reste inconnu. Examinez aussi l'effort, l'aide reçue et la charge déplacée. Une action non réalisée peut signaler un accès ou une capacité manquante ; ce n'est pas automatiquement un défaut d'engagement.
 
-## Ce qui casse la séance
+Choisissez de garder, modifier, arrêter ou vérifier autrement. Faites accepter la suite et clôturez les responsabilités terminées. Le nombre de séances et de décisions écrites décrit une activité ; il ne démontre pas que le service ou l'apprentissage s'est amélioré.
 
-Trois choses, et les trois arrivent.
+Le cas [Six semaines pour apprendre ensemble](/chapters/a8-six-semaines-pour-apprendre-ensemble.html) montre des décisions successives et un bilan avec ses limites. Utilisez une durée plus courte ou plus longue selon le cycle réel, sans instaurer un rendez-vous permanent par défaut.
 
-→ **La carte sert à viser quelqu'un.** "Tiens, celle-là, c'est pour toi." La séance est finie, et personne ne voudra recommencer.
-→ **Personne n'a lu.** D'où les cinq minutes de lecture dans la salle. Ce n'est pas de la méfiance, c'est tenir compte des agendas de chacun.
-→ **La décision est reportée à la semaine prochaine.** Elle ne sera pas prise la semaine prochaine.
+## Adapter aux personnes et aux conditions
+
+**Entre pairs.** Choisissez un cas que vous pouvez examiner et un geste dans votre périmètre. L'animation peut tourner. Pour modifier le travail d'autres personnes, préparez la demande avec elles ; un consensus entre pairs ne remplace pas l'accord nécessaire.
+
+**À distance ou à des horaires différents.** Utilisez une note accessible dans un espace autorisé. Convenez d'une fenêtre de lecture et de retours compatible avec les horaires, puis d'une personne qui synthétise les accords et les inconnues. Une absence de réponse n'est pas un accord. Si l'accès ou l'écrit pose problème, prévoyez un échange court ou un autre support.
+
+**Avec une équipe récente ou des débutants.** Commencez par un exemple construit, explicitez les termes et proposez une coanimation. Une première séance peut seulement produire une meilleure compréhension du cas. Réduisez le périmètre plutôt que d'exiger une décision que personne n'est prêt à porter.
+
+**Sans soutien de la hiérarchie.** Un échange volontaire sur un cas autorisé peut rester utile. Ne lancez pas un changement collectif sans mandat et ne supposez pas que le suivi se fera le soir. Si une demande est refusée, cherchez la contrainte et, si possible, une option plus petite. Après un refus maintenu, suspendez cette piste et faites préciser ce que cela change aux engagements existants.
+
+**Avec une personne qui veut soutenir.** Proposez une aide délimitée : relecture, accès à demander ou mise en relation acceptée. Cette personne n'a pas à diriger la séance ni à prendre possession du projet. Les [modèles de soutien et de bilan](/chapters/a9-modeles-pour-agir-et-revoir.html) aident à préciser l'engagement et sa fin.
+
+Après le premier retour, demandez si ce format a aidé et si les personnes souhaitent le reprendre. Garder une lecture individuelle, un binôme ou une discussion ponctuelle peut être la bonne suite.

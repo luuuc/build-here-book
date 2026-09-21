@@ -82,3 +82,9 @@ Chacun apporte une information différente. Avant de décider, demandez à la pe
 **Pour accueillir ou accompagner quelqu'un.** Lisez une carte à partir d'un cas réel et expliquez les choix qui ont été faits. La personne peut demander ce qui manque et proposer une autre façon de faire. Cet échange sert à apprendre ensemble, sans attribuer un niveau à partir des réponses.
 
 Si une carte demande un pouvoir ou un temps dont tu ne disposes pas, réduis l'essai, cherche un soutien ou choisis une autre carte. Reviens ensuite au fait observé : qu'est-ce qui a changé, et qu'allez-vous en faire ?
+
+## Des cas complets et des supports à reprendre
+
+Trois exemples construits montrent le passage des cartes à une pratique : [un premier essai sans emploi ni équipe](/chapters/a6-un-premier-essai-utile.html), [une amélioration avec décision et passation](/chapters/a7-ameliorer-sans-tout-reprendre.html), et [six semaines d'apprentissage collectif](/chapters/a8-six-semaines-pour-apprendre-ensemble.html). Leurs observations sont fictives et leurs limites sont explicites.
+
+Les [modèles à adapter](/chapters/a9-modeles-pour-agir-et-revoir.html) permettent de préparer un essai, une décision, une comparaison, un relais, un soutien ou une revue. Choisis un seul support utile à ta situation plutôt que de remplir un dossier pour appliquer une carte.
