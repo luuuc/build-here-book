@@ -4,6 +4,7 @@ title: "⇄ On ne demande pas de la distribution en ne finançant que des foncti
 part: "La compréhension"
 order: 414
 card_type: systeme
+action_scope: "Portée : accord d'équipe et arbitrage de moyens"
 metadata:
   principle: "4.14"
   reading_time_in_minutes: 2
@@ -12,7 +13,7 @@ categories:
   - distribution
   - marketing
 seo:
-  description: "La visibilité est demandée et jamais financée. Celui qui a passé l'après-midi à écrire arrive au point hebdo sans rien de livré, à côté de quelqu'un qui a fermé quatre tickets."
+  description: "Donne des moyens à un essai de distribution adapté, puis examine usages, retours et coûts pour décider de la suite."
   keywords: "build here, visibilite, builder, conditions, demande, distribution, financant, fonctionnalites"
 redirect_from:
   - /chapters/12-06-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html
@@ -20,38 +21,37 @@ redirect_from:
 
 ## Ce que tu demandes
 
-> "Personne ne sait qu'on existe. Il faut être plus visibles ce trimestre."
-
-Dit devant toute l'entreprise. Puis la revue de roadmap commence, et chaque heure prévue est consacrée à une fonctionnalité.
+Tu souhaites que davantage de personnes découvrent ou utilisent le service. Le planning ne prévoit pourtant que sa réalisation, sans temps pour expliquer, accompagner ou recueillir les retours.
 
 ## Ce que le système entend
 
-> "Si publier compte, on désigne un responsable et on lui réserve un créneau, même quand le mois se passe mal."
+Sans moyens ni arbitrage, ce travail supplémentaire devra être pris sur autre chose, souvent sans que cela soit discuté.
 
 ## Ce que ça produit
 
-La visibilité est demandée et jamais financée. Celui qui a passé l'après-midi à écrire arrive au point hebdo sans rien de livré, à côté de quelqu'un qui a fermé quatre tickets. Tu n'as jamais besoin de punir ça. Demander ce qui a été livré, chaque semaine, suffit. Il retournera aux tickets, et il aura raison.
+La distribution peut passer par des démonstrations, un partenariat, une formation interne, une vente accompagnée ou des publications. Le canal pertinent dépend des destinataires et du service. Financer la distribution ne signifie donc pas imposer un créneau d'écriture à chacun. Le travail comprend aussi la préparation et la suite : répondre aux questions, vérifier les accès, aider au premier usage. Une activité visible comme un texte publié n'est qu'une partie possible de l'effort. Il faut regarder si les personnes visées arrivent à utiliser ce qui a été construit.
 
-Ce déséquilibre ne se corrigera pas tout seul. Une fonctionnalité peut rapporter en deux semaines ; une audience, en six mois. Les effets du positionnement, eux, sont difficiles à isoler. Le travail qui ne rapporte que dans six mois passe après le reste, sauf si quelqu'un protège ce temps à l'avance. Personne en dessous de toi ne peut prendre cette décision.
+Quand la revue ne montre que les tâches de réalisation, cet effort peut rester invisible. Ajouter les questions apprises, les usages observés et les prochains essais aide à décider de sa place. Cela ne transforme pas chaque échange en obligation de résultat immédiat.
 
-Les félicitations ne sont pas une protection. Le trimestre se passe mal, quelque chose doit sauter, et le créneau d'écriture est la chose la moins chère du tableau parce que rien ne casse quand il part. Ce que tu coupes en premier est lu comme ce que tu voulais dire depuis le début, et la lecture est juste.
+Les délais et les coûts sont variables. Aucun forfait d'une heure tous les quinze jours ne convient à tous les projets. Discute la capacité réelle, les compétences nécessaires et le travail que l'essai déplace avec la personne qui porte le budget ou les priorités.
 
-Les questions de positionnement subissent le même sort. Une semaine à débattre, rien à démontrer au bout, et aucune équipe ne dépense cette semaine tant que tu n'as pas dit toi-même que le débat est le travail.
+Il peut être raisonnable d'arrêter un canal ou de réduire l'effort quand le contexte change. Explique l'arbitrage et ses conséquences plutôt que de protéger une activité par principe. Une équipe qui connaît la raison d'un changement peut adapter ses engagements.
 
 ## La décision
 
-→ Donne-lui un nom et un créneau. Une heure, un jour toutes les deux semaines, dans l'agenda d'une personne, pas dans celui de l'équipe.
-→ Change ce par quoi tu ouvres le point hebdo. Si "qu'est-ce qui a été livré" est la seule question, c'est le seul travail que quiconque fera.
-→ La prochaine fois que tu es en retard, coupe autre chose en premier, et dis dans la salle que celui-là tu le gardes.
+→ Choisis un objectif d'usage, un canal et un essai limité avec un responsable volontaire ou mandaté. Prévois préparation, réalisation et suivi.
+→ Nomme le temps ou le budget disponible et ce qui est déplacé. Une personne sans autorité budgétaire peut préparer cette proposition pour arbitrage.
+→ À une date convenue, examine les personnes réellement jointes, les premiers usages, les retours et le coût. Décide de poursuivre, modifier ou arrêter.
+
+Pour un projet interne ou associatif, l'essai peut être une présentation accompagnée à quelques destinataires. Une audience publique n'est pas une condition de réussite.
 
 ## Depuis ton siège
 
-- **Ingénierie** : au point hebdo, présente le texte que tu as écrit comme un résultat du travail.
-- **Produit** : une fonctionnalité rapporte plus vite qu'une audience. Protège le travail à long terme.
-- **Fondateur** : ce que tu coupes en premier est lu comme ce que tu voulais dire. La lecture est juste.
-- **Relation client** : on te demande de la visibilité sans créneau. Demande un créneau attribué à quelqu'un.
-- **Recrutement** : une entreprise que personne ne connaît recrute par recommandation. Tu connais ce filtre.
+- **Marketing** : propose un canal et un signe utile à observer, avec leur coût.
+- **Produit** : relie découverte, premier usage et difficultés rencontrées.
+- **Management** : rends le travail déplacé et les conditions de poursuite explicites.
+- **Relation client** : compte le temps d'accompagnement dans l'essai proposé.
 
 ## À discuter
 
-La dernière fois qu'on était en retard, qu'est-ce qui a sauté en premier ? Qui l'a remarqué, et qu'est-ce qu'il en a déduit sur ce qu'on paie vraiment ?
+Quel effort rendrait notre service plus accessible à ses destinataires, et que faudrait-il déplacer pour l'essayer ?

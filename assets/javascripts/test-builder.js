@@ -10,18 +10,18 @@
   const stages = [
     { n: 1, name: "L'état d'esprit", line: "Tu rends les choses meilleures au lieu d'attendre qu'on t'y autorise.", practice: "Choisis une irritation que tout le monde contourne. Répare aujourd'hui la plus petite partie qui dépend de toi.", cards: [
       ["Pratique", "Pose la question naïve tout de suite", "/chapters/01-02-pose-la-question-naive-tout-de-suite.html"],
-      ["Principe", "L'ownership commence là où la fiche de poste s'arrête", "/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html"],
-      ["Principe", "Avoir tort ne coûte rien. Le rester coûte cher", "/chapters/01-04-avoir-tort-ne-coute-rien-le-rester-coute-cher.html"]
+      ["Principe", "Prends l'initiative, clarifie les limites", "/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html"],
+      ["Principe", "Reviens sur une décision quand les faits changent", "/chapters/01-04-avoir-tort-ne-coute-rien-le-rester-coute-cher.html"]
     ]},
     { n: 2, name: "Le métier", line: "Tu construis un niveau qui ne dépend pas seulement de ton environnement immédiat.", practice: "Prends un problème résolu cette semaine et trouve une source primaire écrite par quelqu'un qui l'a déjà résolu ailleurs.", cards: [
-      ["Diagnostic", "Douze ans d'expérience, ou douze fois la même année", "/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html"],
+      ["Diagnostic", "Choisis ce que tu veux mieux maîtriser", "/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html"],
       ["Principe", "Ton marché peut être local. Ton niveau, non", "/chapters/02-09-ton-marche-peut-etre-local-ton-niveau-non.html"],
       ["Pratique", "Lis le code source", "/chapters/02-02-lis-le-code-source.html"]
     ]},
     { n: 3, name: "L'autonomie", line: "Tu pars du problème et tu remontes ce que l'exécution t'apprend.", practice: "Sur ton prochain ticket, écris le problème en une phrase et ce que tu devras observer pour savoir qu'il est réglé.", cards: [
       ["Diagnostic", "Le ticket n'est pas le travail", "/chapters/03-02-le-ticket-nest-pas-le-travail.html"],
       ["Pratique", "N'apporte pas la tâche. Apporte le problème", "/chapters/03-01-napporte-pas-la-tache-apporte-le-probleme.html"],
-      ["Diagnostic", "Être bloqué est une décision", "/chapters/03-04-etre-bloque-est-une-decision.html"]
+      ["Diagnostic", "Quand tu bloques, rends la suite explicite", "/chapters/03-04-etre-bloque-est-une-decision.html"]
     ]},
     { n: 4, name: "La compréhension", line: "Tu relies ton travail au client, au revenu et au reste de l'entreprise.", practice: "Parle vingt minutes à la personne la plus proche du client et note une chose que ton équipe croyait vraie à tort.", cards: [
       ["Diagnostic", "Une demande de fonctionnalité n'est pas le problème", "/chapters/04-02-une-demande-de-feature-nest-pas-le-probleme.html"],

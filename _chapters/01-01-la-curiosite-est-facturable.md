@@ -4,6 +4,7 @@ title: "La curiosité est facturable"
 part: "L'état d'esprit"
 order: 101
 card_type: principe
+action_scope: "Portée : individu ou accord de planning"
 metadata:
   principle: "1.01"
   reading_time_in_minutes: 2
@@ -14,48 +15,44 @@ categories:
   - support
   - operations
 seo:
-  description: "Une équipe ne peut construire que ce qu'elle comprend. Pour le reste, elle avance à l'aveugle."
+  description: "Prévoir un temps limité pour comprendre une dépendance peut améliorer les décisions et éviter du travail répété."
   keywords: "build here, curiosite, builder, facturable"
 ---
 
 ## Le réflexe
 
-> "J'ai fait ce qu'on m'a demandé."
+> "Je regarderai comment ça marche quand j'aurai fini le reste."
 
-La curiosité est classée comme un loisir. Le soir, le week-end, sur ton temps à toi, parce que tu aimes ça.
+La question revient chaque semaine. Aucun créneau n'est prévu pour l'examiner.
 
 ## Le réflexe builder
 
-> "Je ne comprenais pas pourquoi les remboursements revenaient au support, alors j'ai passé une matinée à suivre le parcours entier."
-
-Sur le temps de travail. Ouvertement. Avec un créneau clairement indiqué dans l'agenda.
+> "Je propose trente minutes pour suivre un remboursement du début à la fin. On décidera ensuite s'il faut creuser."
 
 ## Pourquoi
 
-Une équipe ne peut construire que ce qu'elle comprend. Pour le reste, elle avance à l'aveugle.
+Comprendre ce dont ton travail dépend peut éviter des réponses répétées ou des estimations faites avec trop peu d'information.
 
-Regarde ce qui se passe quand on comprend mal le système. Le support répond pour la troisième fois au même client, parce que personne n'a suivi ce qui arrive entre le bouton « rembourser » et l'argent reçu. Le produit suppose que c'est un délai bancaire. La finance suppose que le support vérifie. Chacun traite correctement sa partie, et le client revient. Une matinée à suivre un remboursement de bout en bout révèle une validation manuelle qui attend dans la boîte d'une seule personne.
+Dans cet exemple, le support répond au même client parce que personne n'a suivi ce qui arrive entre sa demande de remboursement et l'argent reçu. Le produit suppose un délai bancaire. La finance suppose que le support vérifie. En suivant un dossier avec les personnes concernées, l'équipe découvre une validation qui attend dans une boîte partagée.
 
-La même chose arrive dans le code. Un changement de config d'une ligne est chiffré à trois jours parce que le script de déploiement n'a pas été rouvert depuis le départ de son auteur. Dans les deux cas, la marge devient le plan. Personne n'a menti, mais le planning repose sur une partie du travail que personne n'a regardée.
+L'enquête n'a pas besoin de devenir une refonte. Elle peut s'arrêter après avoir nommé une attente, identifié qui peut répondre et proposé une vérification. Le même geste vaut pour une candidature, un déploiement ou l'inscription à une activité associative.
 
-Sans limite, la curiosité se transforme effectivement en une semaine perdue sur une réécriture non demandée. C'est pour ça qu'on l'interdit, et c'est pour ça qu'il faut plutôt la borner. Trente minutes, sur une chose que tu touches chaque semaine, sur un système où ton manque de compréhension finira par te coûter cher. Trente minutes par semaine, c'est vingt-six heures par an, et ça passe inaperçu dans le planning des sprints. Au bout d'un an, c'est vers cette personne que les questions remontent, et on ne sait plus dire depuis quand.
+Ce temps a un coût. Choisis une question assez étroite et prévois le créneau avec les autres engagements. Si tu n'as pas les accès ou la compétence nécessaires, demande une visite guidée. Une personne qui connaît le sujet peut t'aider à délimiter ce qu'il est utile de regarder.
 
 ## À essayer
 
-Choisis une chose que tu as utilisée cette semaine sans savoir comment elle marche. Le remboursement. La sélection des candidatures. Le passage d'un prospect au support. Le déploiement. La logique de retry écrite par quelqu'un en 2022.
+Prends une chose que tu utilises sans bien comprendre une de ses étapes. Écris la question avant de chercher : "Qui confirme que l'argent est arrivé ?" est un meilleur départ que "comprendre toute la facturation".
 
-Mets trente minutes dans ton agenda, avec le vrai nom dessus. "Lire comment marche la facturation", pas "temps d'apprentissage".
+Réserve un créneau court, avec l'accord nécessaire s'il déplace un autre travail. À la fin, note ce que tu as compris, ce qui reste incertain et qui pourrait vérifier. Une note personnelle suffit pour commencer ; partage ce qui sera utile aux personnes concernées.
 
-Puis écris quatre lignes sur ce que tu as trouvé, quelque part où l'équipe peut les lire. Une curiosité que tu ne peux pas montrer reste un loisir.
+À la prochaine occurrence, regarde si cette information t'aide à mieux répondre ou à poser une question plus précise. Si elle n'aide pas, reformule le sujet avant d'y consacrer davantage de temps.
 
 ## Depuis ton siège
 
-- **Produit** : trente minutes dans le système que tu spécifies, ou tu arbitres sur des coûts devinés.
-- **Fondateur** : ce que personne ici ne comprend devient un chiffrage que personne ne sait faire.
-- **Management** : si comprendre n'a pas de ligne dans la semaine, ça se fait le soir ou pas du tout.
-- **Relation client** : le client qui demande pourquoi mérite mieux qu'une reformulation de la doc.
-- **Recrutement** : demande ce que le candidat a lu récemment dans un système qu'il n'avait pas écrit.
+- **Finance** : montre le parcours d'un dossier, y compris l'étape où tu attends une confirmation.
+- **Management** : inscris l'enquête dans la charge prévue et dis ce qui peut attendre.
+- **Support** : apporte un cas précis, avec les informations que tu es autorisé à partager.
 
 ## À discuter
 
-Où, dans la semaine, est prévue la dernière demi-journée que quelqu'un ici a passée à comprendre un système ?
+Quelle question récurrente mériterait un court temps d'enquête, et quelle décision cette enquête pourrait-elle éclairer ?

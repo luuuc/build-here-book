@@ -12,7 +12,7 @@ categories:
   - support
   - produit
 seo:
-  description: "Chaque relais filtre. Le commercial ramène ce qui aide à signer. Le fondateur garde la phrase qui a piqué. L'équipe comble les trous avec sa propre idée de l'utilisateur."
+  description: "Éclaire une décision avec un cas vécu, en respectant le consentement, les accès et les limites d'un témoignage."
   keywords: "build here, client, builder, parle, personne, probleme"
 redirect_from:
   - /chapters/11-02-parle-a-la-personne-qui-a-le-probleme.html
@@ -20,43 +20,39 @@ redirect_from:
 
 ## Le point de départ
 
-Tu conçois à partir de ce que le commercial a rapporté, de ce que le fondateur a entendu chez un client, et de ce que l'équipe suppose pour boucher les trous.
-
-Personne dans la salle n'a parlé à un utilisateur ce mois-ci.
+Tu disposes de résumés, de chiffres ou de demandes, mais un détail important de l'usage reste incertain. Un échange avec une personne concernée pourrait éclairer la décision.
 
 ## Le geste
 
-> "Avant de décider, appelons trois personnes qui vivent avec ça tous les jours."
+Propose un échange court sur une situation vécue. Si le contact direct n'est pas possible, cherche avec la personne responsable de la relation un exemple partageable ou une observation accompagnée.
 
 ## Pourquoi ça marche
 
-Chaque relais filtre. Le commercial ramène ce qui aide à signer. Le fondateur garde la phrase qui a piqué. L'équipe comble les trous avec sa propre idée de l'utilisateur. Personne ne ment. C'est simplement la façon dont l'information circule entre les gens. Après trois intermédiaires, ce qui arrive dans le backlog est une caricature du problème, jugée crédible parce que trois personnes ont rapporté la même chose.
+Un résumé sélectionne l'information pour la rendre utilisable. Il peut être fidèle et utile, tout en laissant de côté un détail nécessaire à ta question. Revenir à un cas concret complète les connaissances de l'équipe sans dévaloriser ceux qui les ont recueillies. Exemple construit : une personne explique qu'elle termine une opération dans un tableur après avoir utilisé le produit. Observer ce passage, avec son accord, permet de comprendre le résultat qu'elle cherche et la partie que le produit ne couvre pas. Le contournement peut être une adaptation pertinente, pas forcément une erreur à supprimer.
 
-Vingt minutes avec la personne permettent de retrouver ce qui s'est perdu en route. Et ton client est à un coup de fil, sur un marché que tu pourrais traverser en une journée, et il va décrocher. Ce n'est pas vrai des entreprises dont tu lis les playbooks produit le soir. C'est un des rares avantages structurels de construire ici, et il est presque toujours laissé de côté.
+La proximité aide parfois à organiser une rencontre, mais elle ne garantit ni la disponibilité ni le droit d'accéder aux données. Prépare une question précise, respecte le refus et évite de transformer une demande d'aide en entretien imposé.
 
-Ce qu'aucun résumé ne transporte jamais, c'est le contournement. Le tableur qu'il nettoie à la main. Le groupe WhatsApp qui contient la moitié du processus que ton produit s'arrête juste avant de couvrir. Ce contournement est l'objet le plus utile de l'appel. Il montre le résultat que la personne poursuit, et l'effort supplémentaire que ton produit lui impose pour y arriver.
+Un échange éclaire un cas ; il ne représente pas tous les usages. Croise-le avec d'autres situations et les données disponibles avant de généraliser. Un tableau de bord et une conversation peuvent se compléter : l'un indique une fréquence, l'autre aide à comprendre un déroulement.
 
-Ton tableau de bord t'aurait montré l'abandon et ne t'aurait jamais dit si c'était le prix, la formulation, ou quelqu'un qui quitte l'écran pour aller demander à son responsable. Il te dit où regarder. Il ne t'a jamais dit ce qu'il y avait là.
+Pour commencer sans client ni entreprise, parle à une personne que ton projet personnel ou associatif vise à aider. Une situation récente suffit pour apprendre à distinguer ce que tu as observé de ce que tu supposes.
 
 ## À essayer
 
-Cale un appel cette semaine. Pas de démo, pas de slides. Ouvre avec ça.
+Demande l'accord pour un échange limité et explique son but. Ouvre par :
 
-> "Montre-moi comment tu fais ça aujourd'hui."
+> "Peux-tu me raconter la dernière fois que tu as essayé de faire cela ?"
 
-Puis arrête de parler. La partie utile arrive après le premier silence, quand la personne commence à s'excuser de son propre processus.
+Une démonstration est possible si la personne le souhaite et peut éviter les informations sensibles. Ne promets pas de fonctionnalité pendant l'échange.
+
+Note le fait observé, l'hypothèse qu'il change et ce qui reste à vérifier. À la prochaine décision, regarde si cet échange a modifié une option ou confirmé ce que tu savais déjà.
 
 ## Depuis ton siège
 
-- **Ingénierie** : vingt minutes avec la personne valent trois relais. Tu as le droit de demander l'appel.
-- **Design** : le contournement est l'objet le plus utile de l'appel. Le tableur, le groupe WhatsApp.
-- **Fondateur** : personne ne peut te refuser l'accès à un client. C'est l'avantage le plus mal utilisé de ta place.
-- **Management** : si personne dans la salle n'a parlé à un utilisateur ce mois-ci, on conçoit par ouï-dire.
-- **Relation client** : tu entends la phrase brute. Rapporte-la telle quelle.
-- **Recrutement** : demande le dernier utilisateur à qui le candidat a parlé, et ce qu'il l'a vu faire.
+- **Design** : demande un cas récent et laisse la personne expliquer son chemin.
+- **Relation client** : aide à organiser un contact accepté et adapté à la relation.
+- **Management** : prévois le temps et les accès nécessaires, ou une alternative utile.
+- **Recrutement** : accepte aussi un exemple d'observation dans un projet personnel.
 
 ## À discuter
 
-Cite le dernier utilisateur à qui chaque ingénieur ici a parlé. Si le nom ne vient pas, notre conception repose sur quoi ?
-
-*À vérifier ailleurs :* *The Mom Test*, de Rob Fitzpatrick, propose une méthode pour interroger un comportement passé sans récolter seulement une réponse polie. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
+Quelle incertitude d'usage justifie un échange, et comment pouvons-nous l'organiser sans l'imposer ?

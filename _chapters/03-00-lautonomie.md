@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "L'autonomie"
-description: "Donne-moi le problème, pas la procédure"
+description: "J'avance avec un objectif, des appuis et des limites"
 show_chapter_number: false
 illustration: "hierarchie"
 step_number: 3
@@ -14,25 +14,27 @@ categories:
   - ownership
   - builders
 seo:
-  description: "Plus un builder progresse, moins quelqu'un a besoin de traduire le réel en tâches pour lui."
+  description: "Développe une autonomie adaptée au périmètre, avec un objectif clair, la possibilité de demander de l'aide et des décisions explicites."
   keywords: "build here, autonomie, builder, probleme, procedure"
 redirect_from:
   - /chapters/03-00-hierarchie.html
 ---
 
-Une personne au support commence avec une phrase à recopier. Puis on lui confie le problème du client, entier, sans lui dire quoi répondre. Plus tard on lui dit qu'il arrive trop de questions sur l'inscription et qu'il faut comprendre pourquoi.
+L'autonomie permet d'avancer sans devoir faire préciser chaque geste. Elle se construit avec un objectif, des repères et des personnes à qui demander de l'aide. Elle peut concerner une petite tâche avant de s'étendre à un problème plus large.
 
-Trois niveaux, trois phrases, et la progression est la même partout. Elle vaut pour un ingénieur, un commercial, un designer, quelqu'un aux opérations. Ce qui change à chaque marche, c'est la quantité de réel qui te parvient déjà traduite.
+Exemple construit : tu aides une association à préparer un atelier. On te demande de mettre à jour l'invitation. En la relisant, tu remarques que le lieu est indiqué, mais pas la façon d'y accéder. Tu peux proposer une précision à l'organisateur sans reprendre toute l'organisation. Tu vérifies ensuite si l'information permet aux participants de venir.
 
-Plus un builder progresse, moins quelqu'un a besoin de découper la réalité en tâches pour lui. Tu passes d'exécuter des instructions à poursuivre un résultat.
+Dans une équipe expérimentée, le même geste peut porter sur un incident, une demande commerciale ou une décision de produit. Comprendre le résultat attendu aide à choisir ce qui mérite une investigation, ce qui peut être fait dans le périmètre et ce qui doit être arbitré.
 
-Le blocage, à cette étape, est presque toujours partagé, et c'est ce qui le rend difficile à lever. D'un côté, traduire le problème en tâche rend service. Recevoir un ticket propre est confortable : il arrive avec une échéance claire et protège de l'accusation d'avoir mal compris. De l'autre, celui qui traduit garde le contrôle, mais devient un goulot d'étranglement. Les deux ont de bonnes raisons de maintenir le système, et l'équipe finit avec une personne qui sait pourquoi et huit qui savent quoi.
+Les consignes et les procédures restent utiles. Elles transmettent une expérience, protègent certaines opérations et peuvent aider à débuter. L'autonomie consiste aussi à savoir quand les suivre, quand demander une explication et comment proposer une amélioration. Elle ne se mesure pas au nombre de règles contournées ou de problèmes résolus seul.
 
-L'autonomie n'est pas non plus la permission de partir seul dans une direction. C'est la capacité de remonter d'une tâche vers le problème qu'elle prétend résoudre, et de discuter le lien. Souvent le lien tient. Parfois la tâche demandée est la troisième meilleure façon de traiter le problème, et personne ne le saura si tu exécutes.
+Les conditions comptent : accès aux informations, temps, compétences, mandat et soutien. Une personne bloquée par une autorisation manquante ne devient pas plus autonome en agissant sans accord. Elle peut rendre le blocage visible, chercher une aide appropriée et faire clarifier la suite.
 
-Tu es passé à l'étape suivante quand on t'apporte une situation au lieu d'une consigne, et que ça ne surprend personne.
+Si tu développes une équipe, précise les décisions qui lui appartiennent et celles qui demandent un arbitrage. Si tu soutiens un builder, aide-le à trouver un repère, un retour ou la bonne personne. Donner tout de suite un problème immense sans appui n'est pas la seule manière de faire confiance.
 
-**Ce qui change :** tu remontes de la tâche au problème. **La tension qui reste :** un problème isolé de l'argent, du client et des contraintes des autres métiers reste mal posé. L'étape suivante ouvre toute la chaîne.
+**Un signe de progression :** tu peux expliquer le résultat visé, proposer une prochaine action et nommer ce qui te manque pour la mener. Tu sais aussi reconnaître une situation où l'aide ou l'attente reste le bon choix.
+
+Choisis une carte selon ton besoin : clarifier une demande, débloquer une situation, faire examiner une option ou organiser une décision. Les cartes de compréhension peuvent compléter ce travail quand une contrainte d'un autre métier ou un usage reste mal connu. Il n'est pas nécessaire d'avoir tout maîtrisé ici pour les lire.
 
 ---
 
@@ -40,9 +42,9 @@ Tu es passé à l'étape suivante quand on t'apporte une situation au lieu d'une
 
 - 3.01 [N'apporte pas la tâche. Apporte le problème](/chapters/03-01-napporte-pas-la-tache-apporte-le-probleme.html)
 - 3.02 [Le ticket n'est pas le travail](/chapters/03-02-le-ticket-nest-pas-le-travail.html)
-- 3.03 [Si tu ne comprends pas pourquoi, tu n'es pas prêt à construire](/chapters/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html)
-- 3.04 [Être bloqué est une décision](/chapters/03-04-etre-bloque-est-une-decision.html)
+- 3.03 [Clarifie le pourquoi avant de t'engager](/chapters/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html)
+- 3.04 [Quand tu bloques, rends la suite explicite](/chapters/03-04-etre-bloque-est-une-decision.html)
 - 3.05 [Trancher et avoir raison sont deux métiers différents](/chapters/03-05-trancher-et-avoir-raison-sont-deux-metiers-differents.html)
-- 3.06 [Le rôle du product, ce n'est pas de rédiger des tickets](/chapters/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html)
+- 3.06 [Le rôle produit relie les demandes aux résultats](/chapters/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html)
 - 3.07 [⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente](/chapters/03-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)
-- 3.08 [⇄ Tu ne peux pas demander de la franchise et garder le dernier mot](/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html)
+- 3.08 [⇄ Donne une suite réelle aux objections](/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html)

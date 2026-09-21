@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Ton métier a une littérature, et tu ne l'as pas lue"
+title: "Ton métier a une littérature"
 part: "Le métier"
 order: 204
 card_type: principe
@@ -12,44 +12,40 @@ categories:
   - apprentissage
   - references
 seo:
-  description: "Le terrain t'apprend ce qui marche. Il ne t'apprend jamais pourquoi, ni ce qui a été essayé avant toi et abandonné pour de bonnes raisons."
+  description: "Une ressource de ton métier peut éclairer un problème. Compare son contexte au tien et mets une idée à l'épreuve."
   keywords: "build here, metier, lecture, references, builder"
 ---
 
 ## Le réflexe
 
-> "Mon métier, ça s'apprend sur le terrain."
-
-La phrase est juste et elle est souvent dite par quelqu'un d'excellent. Elle sous-entend aussi qu'il n'y a rien à lire, ce qui est faux pour à peu près tous les métiers.
+Un problème nouveau arrive. Tu repars de ton expérience, sans savoir si quelqu'un a décrit une autre façon de le traiter.
 
 ## Le réflexe builder
 
-> "Qui a écrit sur ce que je fais, et qu'est-ce que j'en ai lu ?"
+> "Qui a travaillé cette question, dans quelles conditions, et qu'est-ce que je peux en essayer ?"
 
 ## Pourquoi
 
-Les ingénieurs ont un avantage bête à reconnaître. Leur métier s'est construit en public. Le code est lisible, les décisions sont archivées, les échecs sont racontés en détail par ceux qui les ont vécus, et tout est gratuit. Quelqu'un qui débute peut lire quinze ans de raisonnement en une semaine.
+La pratique et la lecture peuvent se nourrir l'une l'autre. Un texte peut nommer un mécanisme que tu as déjà rencontré, expliquer un échec ou proposer une méthode à comparer à la tienne.
 
-La vente, le recrutement, les opérations, la finance, le support et le design ont aussi une littérature. Elle est ancienne, elle est vaste, elle contient des résultats mesurés, et presque personne dans ces métiers ne l'a ouverte. Le mot terrain sert de dispense, et il est prononcé avec une fierté qui rend la question difficile à poser.
+La vente, le support, le design, la finance, les opérations, le recrutement et l'ingénierie disposent de ressources de formes diverses : livres, enquêtes, guides professionnels, décisions commentées ou cas détaillés. Leur utilité dépend de la question que tu te poses et de leur qualité, pas du prestige du métier ou de l'auteur.
 
-Le terrain t'apprend ce qui marche chez toi. Il ne t'apprend jamais pourquoi, ni ce qui marche ailleurs, ni ce qui a été essayé avant toi et abandonné pour de bonnes raisons. Tu redécouvres donc à tes frais une chose qui était réglée et publiée depuis vingt ans. Une équipe réinvente sa qualification de prospects, une autre son processus d'entretien, une troisième sa façon de classer les demandes entrantes. Chacun de ces sujets a une littérature, avec des chiffres, et le coût de ne pas la connaître se paie en trimestres.
+Un exemple proche n'est pas une recette. Regarde qui a été observé, dans quel contexte et avec quelles limites. Un chiffre peut aider, mais il ne remplace pas une méthode explicite. Un récit qualitatif précis peut éclairer une décision ; une promesse universelle mérite d'être interrogée.
 
-Il y a une objection solide et elle mérite d'être dite. La littérature de ces métiers contient aussi beaucoup de charlatanisme, largement plus que la technique, et s'en méfier est raisonnable. Le tri se fait sur un seul critère, le même que celui de la dernière partie de ce livre. L'auteur donne-t-il ses chiffres, ses conditions, et les cas où ça n'a pas marché. Ce qui ne contient ni chiffre, ni condition, ni échec est un avis, et ton terrain vaut mieux que l'avis de quelqu'un d'autre.
+Si tu débutes, un passage accompagné d'un exemple sera parfois plus utile qu'un ouvrage entier. Si tu connais déjà la littérature du sujet, cherche une objection ou un cas où ton approche habituelle fonctionne moins bien. Certaines ressources demandent un achat, une traduction ou des connaissances préalables : leur accès fait partie du choix.
 
 ## À essayer
 
-Demande à deux personnes de ton métier, en dehors de ton entreprise, ce qu'elles feraient lire à quelqu'un qui débute.
+Formule une question liée à ton travail ou à ton projet. Demande une ressource accessible à un pair, un enseignant, une bibliothèque ou une communauté du métier.
 
-Deux titres chacune. Lis-en un.
+Lis un passage et note une idée que tu peux vérifier sur un petit cas. Écris aussi une différence entre le contexte de l'auteur et le tien. Après l'essai, regarde ce que la lecture t'a permis de comprendre ou de décider. Garde la référence avec cette limite pour pouvoir y revenir.
 
 ## Depuis ton siège
 
-- **Ingénierie** : tu lis déjà. Regarde plutôt la littérature du métier de la personne à côté de toi.
-- **Produit** : la moitié de ce que ton équipe débat chaque trimestre a été tranchée et publiée.
-- **Fondateur** : ce que tu improvises en finance et en recrutement est documenté depuis quarante ans.
-- **Management** : personne ne lira sur son métier si ce temps n'existe nulle part dans la semaine.
-- **Relation client** : le traitement des demandes entrantes est un domaine étudié, pas une question de bon sens.
+- **Ingénierie** : confronte une explication technique à la version et au contexte que tu utilises.
+- **Finance** : distingue une méthode de gestion d'une règle qui dépend du pays ou de la période.
+- **Management** : prévois le temps et l'accès nécessaires à une lecture utile.
 
 ## À discuter
 
-Qu'est-ce que la dernière personne de cette équipe a lu sur son propre métier, et quand ?
+Quelle ressource nous a récemment aidés à changer ou à confirmer une décision, et pourquoi ?

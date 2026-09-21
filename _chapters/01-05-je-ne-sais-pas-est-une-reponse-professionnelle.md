@@ -20,9 +20,9 @@ redirect_from:
 
 ## Le réflexe
 
-Un client, un investisseur, un directeur pose une question. Tu n'as pas la réponse. Tu produis quelque chose de plausible sur le bon ton, et la conversation continue.
+Un client, un investisseur, un directeur pose une question. Tu n'as pas la réponse. La pression pour répondre vite peut te pousser à avancer une explication que tu n'as pas vérifiée.
 
-Personne n'a rien remarqué. C'est ça, le problème.
+Si cette explication est reprise comme un fait, l'incertitude disparaît du récit.
 
 ## Le réflexe builder
 
@@ -36,7 +36,7 @@ Dit à quelqu'un deux niveaux au-dessus, "je ne sais pas" a l'air d'un aveu alor
 
 Choisis donc une échéance qui tient compte du temps nécessaire pour vérifier. Quand la réponse est chez un fournisseur dont le support ouvre au moment où ta journée se termine, à huit heures d'écart, "à 17h" est une promesse intenable, et tu as échangé une improvisation contre un engagement rompu. Dis demain midi, et tiens demain midi.
 
-Refuser de donner un chiffre à quelqu'un qui en a besoin avant de sortir de la salle n'est pas non plus de l'intégrité. Donne la fourchette en précisant d'où elle vient, pour qu'elle ne puisse pas te revenir plus tard comme un fait.
+Si une décision doit être prise avant la vérification, donne une fourchette quand tu peux l'étayer, avec sa source et ses limites. Sinon, dis quelle information manque et quel risque prendrait une décision immédiate. Tu peux demander l'aide d'une personne mieux placée pour vérifier.
 
 ## À essayer
 
@@ -44,7 +44,7 @@ Prépare la formulation, pour ne pas la chercher sous pression.
 
 > Je ne veux pas te donner un chiffre au doigt mouillé là-dessus. Je vérifie et je te réponds demain matin.
 
-Puis reviens demain matin. La crédibilité est entièrement dans le retour.
+Puis reviens à l'heure convenue avec la réponse ou l'état de la recherche et un prochain point réaliste. Vérifie que la personne sait ce qu'elle peut utiliser comme fait et ce qui reste incertain.
 
 ## Depuis ton siège
 
@@ -52,7 +52,7 @@ Puis reviens demain matin. La crédibilité est entièrement dans le retour.
 - **Fondateur** : tiens compte du décalage horaire du fournisseur avant de promettre une réponse.
 - **Management** : ce qui arrive à celui qui dit je ne sais pas décide si tu entendras encore la phrase.
 - **Relation client** : je vérifie et je te réponds à telle heure bat toujours une réponse plausible.
-- **Recrutement** : un candidat qui dit je ne sais pas en entretien vient de te donner une donnée sûre.
+- **Recrutement** : demande ce que le candidat sait et comment il vérifierait le reste.
 
 ## À discuter
 

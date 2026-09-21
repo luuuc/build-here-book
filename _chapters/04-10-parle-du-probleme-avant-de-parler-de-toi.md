@@ -6,13 +6,13 @@ order: 410
 card_type: pratique
 metadata:
   principle: "4.10"
-  reading_time_in_minutes: 1
+  reading_time_in_minutes: 2
 categories:
   - visibilite
   - distribution
   - marketing
 seo:
-  description: "Personne ne s'intéresse à une entreprise avant d'avoir compris ce qu'elle change pour lui, donc c'est la séquence qui fait le travail."
+  description: "Présente une situation vérifiée, puis la proposition et ses preuves, avec un niveau de détail adapté et partageable."
   keywords: "build here, visibilite, builder, parle, probleme, avant, parler"
 redirect_from:
   - /chapters/12-05-parle-du-probleme-avant-de-parler-de-toi.html
@@ -20,38 +20,37 @@ redirect_from:
 
 ## Le point de départ
 
-La présentation commence par l'entreprise. Fondée en, une équipe de, construite sur, et voici les modules.
-
-Le lecteur, qui t'a rencontré il y a neuf secondes, n'a aucune raison de s'intéresser à quoi que ce soit de tout ça.
+Une présentation commence par l'histoire de l'organisation, son équipe et ses outils. La personne qui la reçoit cherche encore ce que cela peut changer pour elle.
 
 ## Le geste
 
-> "Décris leur journée assez précisément pour qu'ils s'y reconnaissent, ensuite dis ce qu'on vend."
+Ouvre par une situation que ton destinataire reconnaît, puis explique ta proposition, ses limites et les raisons de lui faire confiance.
 
 ## Pourquoi ça marche
 
-Personne ne s'intéresse à une entreprise avant d'avoir compris ce qu'elle change pour lui. Une description précise du problème donne au lecteur l'impression que tu étais dans son bureau, et il continue en supposant que celui qui connaît le problème à ce point sait quelque chose sur la réponse.
+Une situation précise aide à comprendre à qui s'adresse une proposition. Elle donne un point de départ à la conversation : est-ce bien le problème rencontré, dans ces conditions, avec cette conséquence ? Exemple construit : "Chaque soir, tu recopies les commandes reçues par messagerie dans un tableur" décrit un usage plus concret que "optimisez vos opérations". Mais cette phrase ne convient que si tu as observé ou vérifié la situation auprès des personnes visées. N'invente pas leur quotidien pour produire un effet de reconnaissance.
 
-C'est la précision qui porte tout. "Optimisez vos opérations" ne touche personne. "Chaque soir tu retapes les commandes WhatsApp de la journée dans un tableur, et tu sais déjà que deux sont fausses" parle à ceux qui font exactement ça, et eux seuls. Bon échange.
+La précision ne remplace pas les preuves. Connaître un problème ne démontre pas que tu sais le résoudre. Montre ensuite un résultat vérifié, une démonstration ou un essai possible. Présente comme attendu ce qui n'a pas encore été observé.
 
-C'est le moment où les fondateurs passent à la diapositive sur l'équipe. La crédibilité ne se revendique pas, elle se démontre par la justesse de la description. Celui qui nomme le détail de ta pire heure a prouvé plus qu'un mur de logos.
+Selon le destinataire, l'équipe, les références ou les détails techniques peuvent être nécessaires pour établir la confiance. Donne-leur une place qui répond à sa décision, sans les supprimer par principe. Une invitation à un atelier peut aussi devoir préciser qui l'organise et dans quelles conditions.
+
+Le niveau de détail doit rester partageable. Une phrase qui met mal à l'aise peut révéler une information privée plutôt qu'une bonne compréhension. Utilise un exemple autorisé ou clairement construit, sans promettre qu'en retirer un nom suffit à le rendre publiable.
 
 ## À essayer
 
-Ouvre ta page d'accueil. Lis la première phrase à voix haute.
+Choisis une page, une invitation ou une présentation. Réécris son ouverture avec une situation, une proposition et une limite. Il n'est pas nécessaire de publier : un brouillon montré en privé suffit pour commencer.
 
-Si elle parle de toi, remplace-la par une phrase qui décrit la journée de ton client, assez précise pour qu'il dise "c'est exactement ça !"
+Demande à une personne concernée ce qu'elle comprend, à qui elle pense que cela s'adresse et ce qui lui manque pour décider. Ne cherche pas seulement son approbation.
 
-Relis à voix haute. Si le niveau de détail te rend légèrement nerveux, c'est le bon.
+Après le retour, corrige un malentendu. Si la présentation est utilisée, observe si les questions suivantes portent sur le bon besoin ; un test de formulation ne prouve pas à lui seul la valeur du service.
 
 ## Depuis ton siège
 
-- **Ingénierie** : commence aussi ta doc par le problème. L'architecture viendra après.
-- **Design** : la première phrase fait plus pour la conversion que tout ce que tu dessineras autour.
-- **Fondateur** : nommer le détail de leur pire heure prouve plus qu'un mur de logos.
-- **Management** : si le niveau de détail rend la salle nerveuse, c'est en général le bon niveau.
-- **Recrutement** : ton offre d'emploi commence par ton entreprise. Commence par le problème à résoudre.
+- **Ingénierie** : ouvre la documentation par l'usage, puis donne les détails nécessaires.
+- **Design** : vérifie ce que le lecteur comprend, au-delà de son appréciation visuelle.
+- **Commerce** : distingue une preuve disponible d'un bénéfice encore attendu.
+- **Recrutement** : décris le travail, les conditions et les attentes du poste.
 
 ## À discuter
 
-Notre première phrase décrit la semaine de qui ?
+Notre ouverture décrit quelle situation, et sur quoi nous appuyons-nous pour la présenter ainsi ?

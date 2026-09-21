@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "L'état d'esprit"
-description: "Je rends les choses meilleures"
+description: "Je cherche ce que je peux améliorer"
 show_chapter_number: false
 illustration: "curiosite"
 step_number: 1
@@ -14,30 +14,26 @@ categories:
   - agency
   - builders
 seo:
-  description: "Construire n'est pas un métier : c'est pouvoir agir sur ce que le travail produit."
+  description: "Je cherche ce que je peux améliorer"
   keywords: "build here, etat d'esprit, builder, agency"
 redirect_from:
   - /chapters/01-00-curiosite.html
   - /chapters/02-00-ego-et-honnetete.html
 ---
 
-La même réclamation arrive pour la vingtième fois. Elle reçoit une vingtième réponse, correcte, polie, envoyée dans les délais. La vingt et unième est déjà en route.
+La même question revient après chaque inscription. Les réponses aident les personnes qui les reçoivent. En regardant ce qu'elles demandent, tu remarques qu'une phrase du formulaire peut se comprendre de deux façons.
 
-Personne n'a mal travaillé. Vingt réponses justes ont été écrites. Ce qui n'a pas eu lieu, c'est la question de savoir pourquoi la réclamation arrive.
+Tu peux commencer par vérifier cette lecture avec une personne concernée. Tu peux proposer une formulation à celui qui tient le formulaire, ou essayer un changement si tu en as la responsabilité. Le premier geste dépend de ce que tu sais et de ce que tu peux engager.
 
-L'échelle commence là, et cette première marche ne demande aucune compétence particulière. Elle demande de considérer qu'une chose qui ne marche pas te regarde.
+Cette étape rassemble des pratiques pour apprendre de ce qui t'entoure : poser une question, reconnaître une erreur, recevoir une critique, proposer une amélioration. Elles servent aussi bien à un premier projet qu'à un métier exercé depuis longtemps.
 
-Le contraire de construire, ici, n'est pas de ne pas coder. C'est d'exécuter sans pouvoir agir sur ce que le travail produit. C'est ça, être passager.
+Certaines conditions les rendent difficiles. Une question peut rester sans réponse. Une initiative peut ajouter une charge à une semaine déjà pleine. Signaler un problème peut être interprété comme l'engagement de le résoudre seul. Ces conditions se discutent ; les cartes marquées ⇄ s'adressent à ceux qui peuvent les changer.
 
-Ce n'est pas une identité. La même personne construit sur un sujet et attend une instruction sur un autre. Elle fait correctement ce qu'on lui confie, voit souvent le problème et attend qu'il soit traité par celui dont c'est le périmètre. Ce n'est ni de la paresse ni un défaut de caractère. C'est ce que beaucoup d'organisations rendent rationnel, parfois assez clairement pour n'avoir jamais besoin de l'écrire.
+Si tu débutes, choisis une chose que tu peux observer sans modifier le travail des autres. Si tu as déjà de l'expérience, pars d'une décision que tu aimerais mieux comprendre ou d'un retour que tu voudrais rendre plus utile. Une demande d'aide ou un signalement précis peuvent être le bon résultat de cet essai.
 
-Ce qui empêche le plus souvent de franchir cette étape, ce n'est donc pas le manque d'envie. Personne ne t'a rien demandé. La fiche de poste, censée décrire un minimum, finit par fixer une limite. S'y ajoute un calcul que tout le monde a déjà fait : celui qui soulève un problème en hérite.
+Tu peux voir une progression quand une question apporte une information qui manquait, qu'un retour fait évoluer ton travail ou qu'une initiative produit un effet que tu sais décrire. Le résultat peut aussi montrer pourquoi il vaut mieux ne pas intervenir.
 
-Les neuf étapes qui suivent supposent toutes celle-ci. Un métier sans capacité d'agir produit un passager très qualifié. De l'autonomie sans capacité d'agir produit quelqu'un qui choisit comment faire, sans jamais peser sur ce qui est fait. Il n'existe pas de raccourci pour éviter cette étape.
-
-Tu es passé à l'étape suivante quand tu peux nommer une chose que tu as améliorée sans qu'on te le demande, et dire ce qu'elle a changé pour quelqu'un d'autre que toi.
-
-**Ce qui change :** tu ne confonds plus « personne ne me l'a demandé » avec « cela ne me regarde pas ». **La tension qui reste :** remarquer sans savoir faire produit seulement des avis. L'étape suivante construit le métier capable d'agir.
+**À explorer ensuite :** le métier donne des outils pour examiner ce que tu as remarqué. Tu peux le travailler en parallèle, à partir du même problème.
 
 ---
 
@@ -45,11 +41,11 @@ Tu es passé à l'étape suivante quand tu peux nommer une chose que tu as amél
 
 - 1.01 [La curiosité est facturable](/chapters/01-01-la-curiosite-est-facturable.html)
 - 1.02 [Pose la question naïve tout de suite](/chapters/01-02-pose-la-question-naive-tout-de-suite.html)
-- 1.03 [L'ownership commence là où la fiche de poste s'arrête](/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html)
-- 1.04 [Avoir tort ne coûte rien. Le rester coûte cher](/chapters/01-04-avoir-tort-ne-coute-rien-le-rester-coute-cher.html)
+- 1.03 [Prends l'initiative, clarifie les limites](/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html)
+- 1.04 [Reviens sur une décision quand les faits changent](/chapters/01-04-avoir-tort-ne-coute-rien-le-rester-coute-cher.html)
 - 1.05 [\"Je ne sais pas\" est une réponse professionnelle](/chapters/01-05-je-ne-sais-pas-est-une-reponse-professionnelle.html)
-- 1.06 [Ton code n'est pas ton bébé](/chapters/01-06-ton-code-nest-pas-ton-bebe.html)
+- 1.06 [Ton travail peut changer sans te remettre en cause](/chapters/01-06-ton-code-nest-pas-ton-bebe.html)
 - 1.07 [Respecte l'ancien. Conteste l'idée](/chapters/01-07-respecte-lancien-conteste-lidee.html)
 - 1.08 [⇄ La première réaction fait la règle](/chapters/01-08-leader-la-premiere-reaction-fait-la-regle.html)
-- 1.09 [⇄ Personne ne demande deux fois](/chapters/01-09-leader-personne-ne-demande-deux-fois.html)
-- 1.10 [⇄ Si reconnaître une erreur te discrédite, plus personne ne le fera](/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html)
+- 1.09 [⇄ Donne une suite aux questions](/chapters/01-09-leader-personne-ne-demande-deux-fois.html)
+- 1.10 [⇄ Protège le signalement des erreurs](/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html)

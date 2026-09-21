@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "La compréhension"
-description: "Je comprends toute l'entreprise"
+description: "Je comprends où mon travail arrive et ce qu'il change"
 show_chapter_number: false
 illustration: "tech-et-business"
 step_number: 4
@@ -14,7 +14,7 @@ categories:
   - business
   - client
 seo:
-  description: "Sans cette étape, chaque département optimise sa propre partie et l'entreprise perd."
+  description: "Relie ton travail aux usages, aux moyens et aux autres métiers, dans une entreprise, une association ou un projet personnel."
   keywords: "build here, comprehension, business, client, distribution"
 redirect_from:
   - /chapters/05-00-product.html
@@ -23,23 +23,23 @@ redirect_from:
   - /chapters/12-00-distribution.html
 ---
 
-Une chaîne traverse toute entreprise qui vend quelque chose.
+Comprendre, ici, c'est relier son travail à ce qui se passe avant et après. Qui rencontre le problème ? Comment la personne découvre-t-elle la solution ? Que faut-il pour rendre le service, l'entretenir et savoir s'il aide ?
 
-Client, problème, produit, distribution, revenu, coûts, opérations, rétention.
+Dans une entreprise, ces questions touchent les clients, le produit, la distribution, le revenu, les coûts et les opérations. Dans une association ou un projet personnel, elles peuvent porter sur les participants, les accès, le temps disponible, les relais et la continuité. L'argent compte lorsqu'il conditionne l'action ; il n'est pas la seule mesure de son utilité.
 
-Personne n'a besoin de la connaître également partout. Chacun a besoin d'en savoir assez pour voir où son travail atterrit. Le support devrait savoir pourquoi les clients achètent. L'engineering devrait savoir comment l'entreprise gagne de l'argent. Le commerce devrait savoir ce que le produit sait réellement faire. Le produit devrait savoir ce que l'opération peut absorber. Un fondateur devrait tenir toute la chaîne.
+Exemple construit : une association ouvre les inscriptions à un atelier. Le formulaire fonctionne, mais la personne chargée de l'accueil ne reçoit pas les informations nécessaires. Les participants doivent répéter sur place ce qu'ils ont déjà écrit. Comprendre le passage entre inscription et accueil aide à choisir une amélioration utile sans refaire tout le système.
 
-Le commerce promet une mise en service en deux semaines, et c'est ce qui fait signer. Le produit tient la date en retirant l'import des données historiques, qui ne figurait pas au contrat. Le support reprend cet import à la main, client par client, parce que personne ne démarre sans son historique. Personne ne s'est trompé. L'entreprise a vendu deux semaines et en livre six.
+Personne n'a besoin de tout connaître au même degré. Commence par une dépendance qui change ta décision. La finance peut expliquer un coût, le support un usage, les opérations une contrainte de continuité. Une personne qui débute peut demander une visite guidée ; une personne expérimentée peut examiner une hypothèse devenue habituelle.
 
-Chaque département optimise correctement sa propre partie, et l'entreprise perd. Ce n'est pas un problème de coopération et ça ne se répare pas avec un séminaire. Une équipe qui ne voit pas la chaîne prend des décisions justes localement, et personne dans la salle n'a l'information qui montrerait qu'elles s'annulent.
+Ce travail demande du temps et des accès. Prépare une question précise avec les personnes qui connaissent le contexte. Certains documents ou contacts ne sont pas directement accessibles : un exemple préparé ou un échange accompagné peut alors suffire. Comprendre le métier des autres ne donne pas un mandat pour décider à leur place.
 
-Ce qui empêche le plus souvent de franchir cette étape porte un nom respectable : « ce n'est pas mon périmètre », ou, dans sa version polie, « je ne veux pas marcher sur les plates-bandes de quelqu'un ». Il y a aussi une raison plus simple. Comprendre la chaîne prend du temps. Ce temps n'apparaît dans aucun planning, alors que son absence se remarque immédiatement.
+Les cartes réunissent quatre sujets : besoins et retours du terrain, capacités de réalisation, promesses du service et chemins vers l'usage. Les situations commerciales et logicielles y restent présentes, avec leurs limites. Tu peux les traduire vers un projet plus petit sans devoir avoir une entreprise ou une audience publique.
 
-C'est l'étape la plus fournie du livre, parce que c'est là que le métier des autres devient lisible. Quatre familles de cartes y vivent ensemble : ce que la technologie décide du business, ce que le client sait et ne sait pas, ce qu'un produit promet, et par où les gens arrivent.
+Si tu développes une équipe, organise les échanges et rends leurs coûts visibles. Si tu soutiens un projet, tu peux proposer une introduction acceptée, du temps d'observation ou une aide pour vérifier une hypothèse. Le soutien n'exige pas de prendre le contrôle du travail.
 
-Tu es passé à l'étape suivante quand tu peux dire comment ce que tu as livré ce mois-ci touche l'argent, et par quel chemin.
+**Un signe de progression :** tu sais expliquer une conséquence de ton choix pour une autre personne ou une autre activité, en distinguant ce que tu as observé de ce que tu supposes.
 
-**Ce qui change :** tu vois où ton travail atterrit et ce qu'il déplace ailleurs. **La tension qui reste :** comprendre sans confronter une solution au réel produit une analyse de plus. L'étape suivante livre assez tôt pour apprendre.
+Choisis une carte selon la décision à éclairer. Tu peux ensuite revenir au cadrage, préparer un essai ou lire les cartes de livraison pour confronter une solution au réel. Ces capacités se développent ensemble.
 
 ---
 
@@ -47,15 +47,15 @@ Tu es passé à l'étape suivante quand tu peux dire comment ce que tu as livré
 
 - 4.01 [Parle à la personne qui a le problème](/chapters/04-01-parle-a-la-personne-qui-a-le-probleme.html)
 - 4.02 [Une demande de fonctionnalité n'est pas le problème](/chapters/04-02-une-demande-de-feature-nest-pas-le-probleme.html)
-- 4.03 [Le support client, c'est de la recherche produit avec des participants énervés](/chapters/04-03-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html)
-- 4.04 [Le client ne s'intéresse pas à ton architecture](/chapters/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html)
+- 4.03 [Apprends des demandes de support](/chapters/04-03-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html)
+- 4.04 [Relie l'architecture à ce qu'elle rend possible](/chapters/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html)
 - 4.05 [Ce qu'on sait construire décide ce qu'on peut vendre](/chapters/04-05-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html)
-- 4.06 [Choisir un fournisseur, c'est signer pour trois ans](/chapters/04-06-choisir-un-fournisseur-cest-signer-pour-trois-ans.html)
+- 4.06 [Choisir un fournisseur, c'est préparer aussi la sortie](/chapters/04-06-choisir-un-fournisseur-cest-signer-pour-trois-ans.html)
 - 4.07 [La compréhension ne se délègue pas](/chapters/04-07-la-comprehension-ne-se-delegue-pas.html)
 - 4.08 [La distribution fait partie du produit](/chapters/04-08-la-distribution-fait-partie-du-produit.html)
 - 4.09 [Le marketing n'est pas de la décoration](/chapters/04-09-le-marketing-nest-pas-de-la-decoration.html)
 - 4.10 [Parle du problème avant de parler de toi](/chapters/04-10-parle-du-probleme-avant-de-parler-de-toi.html)
-- 4.11 [Une audience met plus de temps à se construire qu'un produit](/chapters/04-11-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html)
-- 4.12 [⇄ Un chiffrage demandé après la décision n'est pas un chiffrage](/chapters/04-12-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html)
-- 4.13 [⇄ L'accès au client est un budget, pas une valeur](/chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html)
+- 4.11 [Prépare le lien avec tes premiers utilisateurs](/chapters/04-11-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html)
+- 4.12 [⇄ Fais entrer le coût avant l'engagement](/chapters/04-12-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html)
+- 4.13 [⇄ Organise un accès utile aux retours du terrain](/chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html)
 - 4.14 [⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités](/chapters/04-14-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html)

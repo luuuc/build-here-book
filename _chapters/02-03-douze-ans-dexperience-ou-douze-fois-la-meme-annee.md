@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Douze ans d'expérience, ou douze fois la même année"
+title: "Choisis ce que tu veux mieux maîtriser"
 part: "Le métier"
 order: 203
 card_type: diagnostic
@@ -12,44 +12,42 @@ categories:
   - apprentissage
   - niveau
 seo:
-  description: "Un métier se répète tout seul dès qu'il devient confortable, et la répétition ressemble beaucoup à de la maîtrise vue de l'intérieur."
+  description: "L'expérience donne des repères. Pour approfondir une compétence, choisis un geste précis, un retour et une comparaison entre les essais."
   keywords: "build here, metier, experience, pratique, builder"
 ---
 
 ## Le symptôme
 
-> "Ça fait douze ans que je fais ce métier."
-
-C'est vrai, c'est long, et la phrase suffit en général à clore la discussion. Elle est d'ailleurs prononcée par des gens compétents, ce qui la rend encore plus difficile à contester.
+Tu connais bien ton travail. Tu aimerais progresser sur un point, mais accumuler les mêmes situations ne semble plus beaucoup t'aider.
 
 ## Le signal
 
-> "Qu'est-ce que je sais faire cette année que je ne savais pas faire l'an dernier ?"
+> "Quel geste précis voudrais-je mieux maîtriser, et comment pourrais-je l'exercer autrement ?"
 
 ## Ce qui se passe
 
-Un métier se répète tout seul dès qu'il devient confortable, et la répétition ressemble beaucoup à de la maîtrise vue de l'intérieur. Le mécanisme est presque gentil. Au bout de deux ou trois ans, tu disposes d'un répertoire qui couvre la quasi-totalité des situations. À partir de là, chaque nouvelle situation ressemble à une que tu as déjà vue, et tu appliques la réponse qui avait marché. Ça marche encore. C'est même exactement ce que les gens appellent de l'expérience. Et l'apprentissage s'arrête là, parce que l'apprentissage vient des situations où ta réponse ne marche pas, et que tu as cessé d'en rencontrer.
+L'expérience apporte des repères, de la fiabilité et une connaissance des exceptions. Elle peut aussi rendre certains gestes automatiques, au point qu'on ne les examine plus. Cela ne suffit pas à conclure à une stagnation : une pratique stable peut répondre très bien au besoin.
 
-Voilà à quoi ça ressemble de l'extérieur. Un commercial tient le même rendez-vous depuis huit ans, avec le même argumentaire, et un taux de transformation stable. Stable est le mot important. Rien ne casse, aucun client ne se plaint, aucun trimestre n'est mauvais. Le plafond ne se signale jamais, il se contente d'exister. La même scène existe au support, aux opérations, à la finance, au design et à l'engineering, avec d'autres décors.
+Pour choisir un axe, regarde une difficulté récurrente ou une force que tu souhaites approfondir. Un commercial peut vouloir mieux expliquer un prix. Une personne au support peut travailler la première question qui l'aide à comprendre la demande. Un designer peut chercher à rendre un écran plus lisible avec moins d'éléments.
 
-S'entraîner vraiment ressemble à autre chose, et c'est pour ça que c'est rare. Tu choisis une chose précise que tu fais mal, tu la travailles séparément du reste, et tu regardes le résultat. Le commercial qui perd ses affaires au moment d'annoncer le prix ne prend pas plus de rendez-vous. Il travaille cette minute-là, il l'enregistre, il la réécoute, il la refait autrement. C'est inconfortable pendant trois semaines, et ça déplace une compétence que douze ans de pratique ordinaire n'avaient pas bougée.
+L'exercice devient utile quand le morceau est assez petit pour être essayé, observé et repris. Répéter sans retour peut renforcer la même erreur. À l'inverse, un commentaire précis peut suffire pour changer la prochaine tentative.
 
-Personne ne peut être en apprentissage permanent sur tout, et un métier stabilisé n'est pas un échec. Le test est étroit. Une chose par an, que tu peux nommer.
+Le temps et les occasions d'exercice influencent ce que tu peux apprendre. Si le geste dépend d'un accès ou d'un collègue disponible, prévois-le. Un exercice simulé peut permettre de commencer sans faire porter le coût d'apprentissage à un client.
 
 ## À vérifier
 
-Écris la chose que tu fais le moins bien dans ton métier. Pas la plus pénible, la moins bien. Ce ne sont presque jamais les mêmes.
+Choisis une compétence et garde un exemple de ton travail actuel. Fixe un critère avec un pair ou à partir d'une référence adaptée : ce que le destinataire comprend, l'erreur à éviter ou le temps nécessaire pour réaliser une tâche.
 
-Découpe-la jusqu'à obtenir un morceau que tu peux refaire dix fois cette semaine, puis refais-le dix fois.
+Prévois deux ou trois essais courts dans le temps disponible, avec un retour entre eux. Si tu débutes, prends un geste élémentaire et demande une démonstration.
+
+Compare ensuite le premier et le dernier essai. Note ce qui a changé, ce qui reste difficile et si l'exercice mérite d'être poursuivi. Un résultat stable peut conduire à choisir une autre méthode ou un autre sujet.
 
 ## Depuis ton siège
 
-- **Produit** : tu rédiges vite. Vérifie si tu arbitres mieux qu'il y a deux ans, c'est une autre compétence.
-- **Design** : refaire douze fois le même écran est de la production, pas de la pratique.
-- **Fondateur** : ton métier a changé trois fois depuis le début et personne ne te l'a signalé.
-- **Management** : demande la chose apprise cette année, pas les années d'ancienneté. La réponse est courte ou vide.
-- **Recrutement** : douze ans d'expérience et douze fois la même année ont le même aspect sur un CV.
+- **Design** : fais essayer la même tâche avant et après la modification.
+- **Management** : regarde les possibilités d'exercice et de retour avant d'interpréter une progression.
+- **Recrutement** : demande un apprentissage concret ; un projet personnel ou une expérience courte conviennent.
 
 ## À discuter
 
-Qu'est-ce que chacun ici sait faire aujourd'hui qu'il ne savait pas faire il y a un an ?
+Quelle compétence voudrions-nous approfondir, et quel retour nous permettrait de savoir si nous avançons ?

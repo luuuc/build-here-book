@@ -12,7 +12,7 @@ categories:
   - business
   - strategie
 seo:
-  description: "Une entreprise dont le produit est du logiciel n'exécute pas sa stratégie avec de la technologie. Elle en est faite."
+  description: "Fais entrer les capacités de réalisation, les contraintes et les options dans la décision avant l'engagement."
   keywords: "build here, technologie et business, builder, sait, construire, decide, peut, vendre"
 redirect_from:
   - /chapters/10-01-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html
@@ -30,32 +30,31 @@ Les vraies décisions se prennent ailleurs et arrivent sous forme de tickets.
 
 ## Pourquoi
 
-Une entreprise dont le produit est du logiciel n'exécute pas sa stratégie avec de la technologie. Elle en est faite.
+Les choix de réalisation influencent les offres possibles, leur délai et leur coût. Dans un produit logiciel, la manière de gérer les prix peut faciliter ou compliquer une nouvelle tarification. Dans un service, la capacité d'accueil ou la disponibilité du matériel joue un rôle comparable. Exemple construit : une équipe souhaite proposer des tarifs régionaux. Le système gère aujourd'hui un seul prix. Avant de promettre une date, il faut examiner les modifications nécessaires et les solutions plus limitées qui pourraient convenir.
 
-Quelqu'un a décidé, il y a deux ans, de stocker un prix par produit. Une colonne, une devise. Le prix régional est aujourd'hui un trimestre de travail au lieu d'un champ dans un écran d'admin. Cette colonne pèse sur toutes les discussions de l'entreprise sur ses tarifs, et personne dans la réunion de direction ne sait qu'elle existe.
+Cette information sert autant à découvrir une possibilité qu'à identifier une contrainte. Une capacité existante peut rendre une option abordable, alors que le groupe la croyait hors de portée. Inversement, un changement apparemment petit peut déplacer du travail vers le support ou la comptabilité.
 
-Traite la tech comme un service et tu obtiens trois échecs, dont un silencieux. Des promesses commerciales faites sans idée de ce qu'elles coûtent. Des choix techniques fondés sur le critère le plus familier, en général l'élégance. Et, plus discrètement, une option jamais envisagée parce que toute la salle l'a crue hors de portée. Les engagements ratés donnent lieu à un postmortem. Les possibilités manquées ne laissent aucune trace, alors qu'elles sont plus nombreuses.
+Les compétences se complètent. La réalisation éclaire la faisabilité, le commerce les engagements et la demande, la finance les coûts, les opérations la continuité du service. Aucun métier ne détient seul la stratégie, et le goût de la technique ne dit rien à lui seul du jugement commercial d'une personne.
 
-Rien de tout ça ne finit avec des ingénieurs qui décident ce qu'on vend. Le jugement commercial est une vraie compétence et la plupart des ingénieurs ne l'ont pas. Ce qui est bon marché, ce qui est cher, ce qui est hors de portée, ça a sa place dans la salle pour éclairer la décision, pas dans une estimation fournie deux semaines plus tard.
+La bonne profondeur dépend de la décision. Il n'est pas nécessaire de transformer chaque échange en revue détaillée. Présente les options, les hypothèses et les inconnues qui changent l'arbitrage. Une estimation reste une estimation ; elle doit pouvoir être révisée quand une information arrive.
 
 ## À essayer
 
-Amène une contrainte dans la prochaine discussion stratégique, formulée comme un choix et pas comme un refus.
+Sur une décision à venir, prépare une contrainte et une option, avec les personnes qui connaissent la réalisation :
 
-> "Les abonnements, c'est environ six semaines avec ce qu'on a. La facturation à l'usage, deux, parce que le compteur existe déjà. Est-ce que ça change l'ordre ?"
+> "Cette option demande de modifier ... Une version plus limitée permettrait ... Il faut encore vérifier ..."
 
-Une contrainte seule sonne comme un non. À côté d'une option moins chère, elle sonne comme une décision.
+Demande par quel canal ces informations peuvent entrer avant l'engagement. Sans accès à la réunion, transmets une note à son responsable. Pour un premier projet, compare deux façons de rendre le même service.
 
-Demande l'ordre du jour deux jours à l'avance. Réponds à un point en parlant de conséquences, de délais et d'argent, sans un seul nom d'outil dedans. Trois fois et il commence à arriver sans que tu demandes.
+Après l'arbitrage, vérifie quelles hypothèses ont guidé le choix et quand elles seront réexaminées. Ne promets ni délai ni budget au nom d'une autre équipe.
 
 ## Depuis ton siège
 
-- **Produit** : l'option jamais posée sur la table n'a droit à aucun post mortem, et elles sont nombreuses.
-- **Design** : ce que le système sait faire décide des écrans possibles. Lis le vote avant de dessiner.
-- **Fondateur** : une colonne choisie il y a deux ans pèse sur toutes tes discussions de tarifs.
-- **Management** : une contrainte seule sonne comme un non. À côté d'une option moins chère, c'est une décision.
-- **Relation client** : ce que tu promets en rendez-vous a un prix que quelqu'un connaît déjà. Demande-le.
+- **Ingénierie** : expose une possibilité autant qu'une contrainte, avec ses inconnues.
+- **Commerce** : confronte la promesse aux capacités disponibles avant de l'engager.
+- **Finance** : distingue le coût initial de celui du fonctionnement dans la durée.
+- **Opérations** : montre ce que chaque option change dans le service quotidien.
 
 ## À discuter
 
-Sur notre dernière grande décision stratégique, est-ce que quelqu'un dans la salle pouvait dire ce que ça coûtait à construire ?
+Quelle capacité ou contrainte devrait entrer dans notre prochaine décision avant que nous nous engagions ?

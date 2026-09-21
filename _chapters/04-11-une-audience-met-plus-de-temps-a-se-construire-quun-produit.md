@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Une audience met plus de temps à se construire qu'un produit"
+title: "Prépare le lien avec tes premiers utilisateurs"
 part: "La compréhension"
 order: 411
 card_type: principe
@@ -12,46 +12,45 @@ categories:
   - distribution
   - marketing
 seo:
-  description: "L'attention n'apparaît pas sur commande. Elle s'accumule par répétition, chez des gens qui ont eu le temps de comprendre ce que tu publies."
-  keywords: "build here, visibilite, builder, audience, temps, construire, produit"
+  description: "Prépare des échanges adaptés avant le lancement, sans imposer une audience publique ni un calendrier universel."
+  keywords: "build here, builder, distribution, premiers utilisateurs, retours"
 redirect_from:
   - /chapters/12-01-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html
 ---
 
 ## Le réflexe
 
-Construire d'abord, parler après. Annoncer quoi que ce soit avant que ça marche paraît prématuré, et un peu gênant.
-
-Puis le jour du lancement arrive. Le produit est prêt et la salle est vide.
+Le lancement approche. L'équipe découvre qu'elle n'a pas encore de chemin clair pour joindre les premières personnes concernées et recueillir leurs retours.
 
 ## Le réflexe builder
 
-> "On écrit sur ce problème depuis six mois. Le jour où on livre, des lecteurs intéressés nous attendent déjà."
+Prépare ce lien pendant la construction, par un canal adapté. Une audience publique est une possibilité parmi d'autres.
 
 ## Pourquoi
 
-L'attention n'apparaît pas sur commande. Elle s'accumule par répétition, chez des gens qui ont eu le temps de comprendre ce que tu publies. Six mois de ça, c'est un petit groupe qui lit l'annonce au lieu de la faire défiler.
+La confiance et l'attention demandent parfois plusieurs échanges. Leur durée dépend du sujet, des personnes, du canal et des relations existantes. Aucun calendrier de publication ne garantit qu'un groupe attendra ton lancement. Un contact précoce peut éclairer la construction. Une personne montre une autre façon de résoudre le problème, pose une question sur l'accès ou accepte un essai. Ces retours peuvent être utiles avant qu'une solution soit complète, à condition de présenter honnêtement ce qui fonctionne déjà.
 
-On oublie souvent le deuxième effet. Des lecteurs qui te suivent pendant le développement peuvent te faire changer de direction. Une réponse, une question après une démo à moitié fonctionnelle, quelqu'un qui dit "nous on a résolu ça autrement". C'est de la recherche sans une ligne de code, assez tôt pour changer la roadmap.
+Publier peut permettre de rencontrer des personnes au-delà de son cercle. Mais un partenariat, une démonstration privée, un réseau professionnel ou une passation interne peuvent mieux convenir. Un service destiné à quelques utilisateurs connus n'a pas besoin de devenir un média. Chaque voie a un coût. Écrire demande de préparer, de relire et parfois d'obtenir des accords. Organiser des échanges demande de trouver des créneaux et de donner une suite. Prévois ce temps dans le projet plutôt que de l'ajouter automatiquement aux soirées d'une personne.
 
-On va se faire copier, et écrire c'est du temps qu'on ne passe pas à livrer. Les deux sont vrais. Les idées voyagent gratuitement, l'exécution non, et personne n'a jamais été tué par un concurrent qui avait lu son article. Beaucoup l'ont été faute d'être connus. Le coût réel est d'une heure tous les quinze jours.
+Choisis aussi ce qui peut être partagé. Des contraintes de confidentialité, de concurrence ou de maturité du projet peuvent justifier un essai privé ou une attente. On peut décrire un besoin sans exposer des informations qui ne nous appartiennent pas.
 
-On ne te trouvera pas par accident, et il n'existe aucune salle où le travail se présente tout seul. Publier n'est pas un deuxième métier empilé sur la construction. C'est la partie du travail qui décide si le reste sera vu, et elle est en général la seule qu'on ne planifie pas.
+Pour débuter, une personne volontaire et une question précise suffisent. Pour progresser, examine si tes contacts actuels couvrent les usages qui t'intéressent ou seulement ceux qui te sont familiers.
 
 ## À essayer
 
-Un créneau d'une heure toutes les deux semaines. Écris sur le problème, jamais sur le produit. Ce que tu as vu, ce que tu as raté, ce qui t'a surpris. Pas de liste de fonctionnalités, pas d'appel à l'action.
+Choisis un destinataire, un canal et un effort limité : un échange, une démonstration ou un texte si c'est pertinent. Précise ce que tu veux apprendre et ce que tu peux montrer.
 
-Six mois plus tard, douze textes et une poignée de gens qui comprennent le sujet. C'est ça la condition d'un lancement, pas un supplément facultatif.
+Après cet essai, regarde qui a réellement été joint, ce qui a été compris et quelle suite a été acceptée. Compare cet effet au temps consacré avant de répéter, modifier ou arrêter.
+
+Le nombre de publications ou d'abonnés ne suffit pas à établir qu'un lancement est prêt.
 
 ## Depuis ton siège
 
-- **Ingénierie** : écris sur le problème pendant que tu construis. Une question après une démo vaut une étude.
-- **Produit** : une audience construite pendant que tu construis te corrige à temps pour changer la roadmap.
-- **Fondateur** : le jour du lancement, la salle est pleine ou vide. Ça s'est décidé six mois plus tôt.
-- **Management** : une heure tous les quinze jours, dans l'agenda d'une personne. C'est le coût réel.
-- **Recrutement** : les gens qui te trouvent par un texte se présentent seuls. C'est le canal qui te manque.
+- **Produit** : cherche un retour utile pendant la construction, sans promettre un produit fini.
+- **Marketing** : compare plusieurs chemins, dont les échanges et les relais existants.
+- **Management** : prévois le temps de préparation et de suivi dans la charge de travail.
+- **Relation client** : propose des essais aux personnes volontaires et organise leur suite.
 
 ## À discuter
 
-Notre dernière release. Cite les gens hors de l'entreprise qui savaient à quoi elle servait avant. On atteint cinq ?
+Quel premier lien avec les destinataires serait utile à notre projet, et quel effort pouvons-nous y consacrer ?

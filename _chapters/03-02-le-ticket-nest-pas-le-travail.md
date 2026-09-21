@@ -12,7 +12,7 @@ categories:
   - client
   - arbitrage
 seo:
-  description: "Un ticket est un outil de coordination. Il empêche quatre personnes de se marcher dessus sur le même fichier. C'est tout ce pour quoi il a été construit."
+  description: "Relie le suivi des tâches à ce qu'elles améliorent, préservent ou apprennent, sans confondre activité et résultat."
   keywords: "build here, produit, builder, ticket, travail"
 redirect_from:
   - /chapters/05-01-le-ticket-nest-pas-le-travail.html
@@ -20,42 +20,38 @@ redirect_from:
 
 ## Le symptôme
 
-Revue de sprint. Dix-huit tickets fermés, le burndown est propre, tout le monde ressort satisfait.
-
-Personne ne demande ce qu'un client peut faire aujourd'hui qu'il ne pouvait pas faire il y a trois semaines.
+Exemple construit : une équipe ferme dix-huit tickets pendant un cycle. Le tableau décrit bien le travail accompli, mais la revue ne dit pas encore ce que ce travail a permis de préserver, d'améliorer ou d'apprendre.
 
 ## Le signal
 
-> "Dix-huit fermés. Qu'est-ce qui a changé pour l'utilisateur ?"
+> "Dix-huit fermés. Qu'est-ce qui a changé pour l'utilisateur ?"
 
 ## Ce qui se passe
 
-Un ticket est un outil de coordination. Il empêche quatre personnes de se marcher dessus sur le même fichier. C'est tout ce pour quoi il a été construit.
+Un ticket aide à coordonner le travail : description, responsabilité, dépendances, état d'avancement. Il peut aussi contenir le résultat attendu et les éléments qui permettront de le vérifier. Le compter renseigne sur une activité, pas à lui seul sur son utilité. Quand le nombre de tickets fermés devient l'objectif principal, le découpage peut prendre plus de place que le résultat. Deux équipes qui découpent différemment le même travail produisent des nombres différents. Ce compteur a besoin de contexte pour éclairer une décision.
 
-Il devient un problème le jour où il se transforme en unité de mesure. La façon la plus simple de faire monter un compteur, c'est de découper le travail plus fin. Les tickets rétrécissent, le tableau a l'air meilleur chaque semaine, le produit reste où il était. Il n'y a pas de tricherie. Les gens privilégient ce sur quoi on les évalue.
+L'utilité ne se limite pas à une nouvelle fonctionnalité. Une maintenance peut préserver un service, une enquête écarter une mauvaise piste, une amélioration d'accessibilité ouvrir un usage. Un travail préparatoire peut être nécessaire avant qu'un effet soit visible. Il faut pouvoir expliquer ce lien sans inventer un résultat déjà acquis.
 
-Rien de tout ça n'est né avec les outils de suivi. Taylor décrit le dispositif en 1911 : le travail de chaque ouvrier est planifié par l'encadrement un jour à l'avance, et chacun reçoit par écrit sa tâche, la méthode et le temps exact accordé. Le ticket existait avant le logiciel. Ce qu'il produit quand il devient la mesure, Campbell l'énonce en 1979, plus un indicateur chiffré sert à décider, plus il déforme le processus qu'il était censé mesurer.
+Distingue donc ce qui a été fait, ce qui a été observé et ce qui reste attendu. "Le correctif est déployé" décrit une action. "Le cas qui échouait passe maintenant" apporte une vérification. "Les demandes de support devraient diminuer" reste une hypothèse tant qu'on ne l'a pas examinée.
 
-Garde le tableau. Compter n'a jamais été le problème. Ne compter que ça, si. Une équipe qui annonce son chiffre et ne peut nommer une seule chose qu'un utilisateur sait faire maintenant a passé trois semaines à être occupée.
+Cette distinction sert aussi sans outil de tickets. Une personne qui prépare un événement peut suivre les tâches réalisées et vérifier séparément si les participants disposent des informations nécessaires. Elle n'a pas besoin d'un tableau de bord complexe.
 
 ## À vérifier
 
-À la fin de chaque cycle, avant n'importe quel tableau de bord, une ligne.
+Choisis un travail terminé et complète :
 
-> Ce qu'un utilisateur peut faire maintenant et ne pouvait pas avant : ...
+> Ce que cela a amélioré, préservé ou appris : ...
+> Ce qui nous permet de le dire, ou quand nous le vérifierons : ...
 
-Remplis-la, ou laisse-la vide. Vide, à côté de trente tickets fermés, ça en dit plus que n'importe quelle courbe de vélocité.
+Si tu n'as pas accès au résultat, demande un retour à la personne concernée. Une réponse encore inconnue appelle une vérification, pas un verdict sur l'effort fourni. À la prochaine revue, regarde si ce retour change la suite du travail.
 
 ## Depuis ton siège
 
-- **Produit** : découpe pour livrer plus tôt quelque chose d'utilisable, jamais pour faire monter le compteur.
-- **Fondateur** : la vélocité n'est pas un chiffre à montrer à ton conseil.
-- **Management** : ce que tu regardes en revue devient ce que l'équipe optimise.
-- **Relation client** : si la note de version est vide, elle le dira au client à ta place.
-- **Recrutement** : demande ce qu'un utilisateur savait faire après son dernier projet.
+- **Produit** : relie l'activité à un effet attendu et distingue les résultats encore inconnus.
+- **Opérations** : rends visible la fiabilité préservée, même sans nouveau service.
+- **Management** : examine le contexte avant de comparer des compteurs.
+- **Recrutement** : demande un résultat, un apprentissage ou une maintenance utile.
 
 ## À discuter
 
-Quel client peut faire aujourd'hui quelque chose qu'il ne pouvait pas faire avant notre dernier bon sprint ?
-
-*À vérifier ailleurs :* Taylor décrit la tâche écrite et chronométrée en 1911 ; Campbell énonce en 1979 ce qu'un indicateur devient quand il sert à décider. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
+Quel travail récent a été utile sans ajouter de fonctionnalité, et comment le savons-nous ?

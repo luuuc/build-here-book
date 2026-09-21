@@ -1,9 +1,10 @@
 ---
 layout: chapter
-title: "⇄ Tu ne peux pas demander de la franchise et garder le dernier mot"
+title: "⇄ Donne une suite réelle aux objections"
 part: "L'autonomie"
 order: 308
 card_type: systeme
+action_scope: "Portée : responsable de la décision et accord d'équipe"
 metadata:
   principle: "3.08"
   reading_time_in_minutes: 2
@@ -12,45 +13,45 @@ categories:
   - decision
   - culture
 seo:
-  description: "L'invitation ne suffit pas. L'écart de pouvoir ne s'évapore pas parce que tu l'as déclaré nul."
-  keywords: "build here, hierarchie, builder, conditions, peux, demander, franchise, garder"
+  description: "Accueille et examine les objections tout en gardant une responsabilité de décision claire, sans quota de concessions."
+  keywords: "build here, builder, leadership, objections, decision, suivi"
 redirect_from:
   - /chapters/03-05-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html
 ---
 
 ## Ce que tu demandes
 
-> "Ma porte est ouverte. Ils peuvent tout me dire."
-
-La porte est ouverte, personne n'entre, et tu lis ça comme une absence de problème.
+Tu invites les objections avant une décision. Peu de personnes répondent, et il reste difficile de savoir si le plan est compris, accepté ou encore mal examiné.
 
 ## Ce que le système entend
 
-Si personne ne t'a contredit depuis six mois, interroge-toi sur ta façon de diriger.
+L'invitation sera jugée aussi sur ce qui arrive après une objection : examen, réponse, changement éventuel et effets sur la personne qui l'a formulée.
 
 ## Ce que ça produit
 
-L'invitation ne suffit pas. L'écart de pouvoir ne s'évapore pas parce que tu l'as déclaré nul.
+Les écarts de pouvoir peuvent rendre le désaccord coûteux. Une personne peut craindre pour son évaluation, sa relation avec l'équipe ou ses prochaines occasions de travail. Le silence peut aussi venir d'un manque de temps ou d'information. Il ne suffit donc pas à conclure à l'accord ou à la peur.
 
-Celui qui vient te contredire risque des choses qu'il sait nommer. Son évaluation, son projet, sa prochaine augmentation. Et le marché sur lequel il chercherait ailleurs, tu le traverses en deux coups de fil. La personne qui te dit que la roadmap est fausse aura peut-être besoin d'une référence de ta part dans trois ans, auprès de gens qui seront aux trois mêmes événements que toi. Toi tu ne risques rien. Les risques sont très différents, et celui qui a le plus à perdre a déjà fait le calcul.
+Tu peux garder la responsabilité de trancher et accueillir une objection sérieusement. Écouter ne t'oblige pas à adopter chaque proposition. Il faut pouvoir montrer ce qui a été examiné, pourquoi la décision tient ou pourquoi elle change. Une réponse immédiate et longue du responsable peut fermer l'examen avant que d'autres faits arrivent. Prendre le temps de reformuler, de vérifier une hypothèse ou de revenir par écrit rend l'échange plus utile. Les personnes n'ont pas toutes besoin de parler devant le groupe.
 
-Il y a une habitude invisible depuis ton côté du bureau. Tu écoutes, tu remercies chaleureusement, puis tu expliques pendant quatre minutes pourquoi la personne a tort. Pour toi c'est un dialogue. Pour elle c'est un rappel de qui parle en dernier. Trois fois de suite et les propositions cessent d'arriver.
+Ne fixe pas de quota de concessions. Modifier un plan pour atteindre un chiffre serait un autre moyen de ne pas regarder les faits. Reconnais la contribution avec l'accord de son auteur, surtout si sa mise en avant pourrait l'exposer.
 
-Tu prends peut-être le silence pour un accord. Demande à trois personnes séparément ce qu'elles pensent de la décision de la semaine dernière, et compare les trois réponses avant de conclure.
+Pour développer une équipe, protège aussi la suite : une objection de bonne foi ne doit pas devenir un reproche lors d'une évaluation. Si tu n'as pas autorité sur ces règles, propose un canal et un cadre à la personne qui en répond, sans promettre une protection que tu ne peux assurer.
 
 ## La décision
 
-→ Sollicite les objections au lieu d'attendre qu'elles viennent. "Quel est le point faible de ce plan ?" force une réponse. "Des questions ?" ne coûte rien à esquiver.
-→ Une fois sur trois, concède en public. Change le plan dans la salle, à cause d'une remarque, et dis de qui venait la remarque. C'est la seule preuve qui voyage.
-→ Compte. Si tu ne peux pas nommer trois décisions modifiées cette année par quelqu'un plus junior que toi, ton ouverture reste un discours.
+→ Avant un arbitrage, précise ce qui reste ouvert et offre une possibilité de retour écrit ou privé.
+→ Examine une objection sur ses faits et ses conséquences. Donne une réponse, même si la décision reste inchangée.
+→ Après la mise en pratique, demande si une information a manqué et regarde comment les objections ont été traitées.
+
+Commence sur une décision limitée. Convenez du temps disponible pour les retours et du moment où la décision sera expliquée.
 
 ## Depuis ton siège
 
-- **Ingénierie** : dis l'objection dans la salle, pas dans le thread privé vingt minutes après.
-- **Produit** : ton arbitrage n'a pas été contesté ? Demande à trois personnes séparément avant de conclure.
-- **Relation client** : tu portes le client contre une décision déjà prise. Insiste, même si c'est inconfortable.
-- **Recrutement** : tes entretiens passent devant toi en dernier ? Tu recrutes ceux qui savent te plaire.
+- **Management** : explique ce qu'une objection a changé dans l'examen ou dans le choix.
+- **Ingénierie** : utilise le canal qui permet d'exposer les faits sans risque inutile.
+- **Relation client** : apporte la conséquence pour l'utilisateur, avec un exemple partageable.
+- **Recrutement** : accueille les questions du candidat sans les confondre avec un manque d'intérêt.
 
 ## À discuter
 
-Ici, il arrive quoi à quelqu'un qui contredit un dirigeant devant les autres ? Lequel d'entre nous pourrait dire cette réponse à voix haute, avec lui dans la salle ?
+Comment une objection récente a-t-elle été examinée, et sa réponse est-elle connue des personnes concernées ?

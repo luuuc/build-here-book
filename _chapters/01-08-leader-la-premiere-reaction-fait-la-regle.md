@@ -12,7 +12,7 @@ categories:
   - responsabilite
   - execution
 seo:
-  description: "Une phrase suffit à décourager toute initiative dans une équipe, et elle n'a même pas besoin d'être dite méchamment pour fonctionner."
+  description: "Une frontière claire et une réaction qui examine les faits aident les personnes à prendre des initiatives dans un périmètre convenu."
   keywords: "build here, ownership, builder, conditions, premiere, reaction, fait, regle"
 redirect_from:
   - /chapters/04-06-leader-la-premiere-reaction-fait-la-regle.html
@@ -20,42 +20,34 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Quelqu'un prend une initiative utile sans demander avant. Ce qui sort de ta bouche porte sur la forme.
-
-> "Qui t'a demandé de faire ça ?"
-
-L'inquiétude est réelle. L'effet est sans commune mesure avec elle.
+Tu veux que l'équipe prenne des initiatives utiles. Une personne modifie une façon de faire sans te consulter, et tu cherches à savoir si le changement était dans son périmètre.
 
 ## Ce que le système entend
 
-> "Bien vu ! La prochaine fois préviens-moi avant, que je dégage le terrain."
+> "Est-ce que je pourrai encore proposer quelque chose si cet essai ne marche pas ?"
 
 ## Ce que ça produit
 
-Une phrase suffit à décourager toute initiative dans une équipe, et elle n'a même pas besoin d'être dite méchamment pour fonctionner.
+La réaction à une initiative donne une information sur ce qui est possible. Si la première réponse porte seulement sur l'autorisation, la personne peut conclure qu'il vaut mieux demander pour tout. Si seul le résultat heureux est applaudi, les autres peuvent éviter les essais dont l'issue est incertaine.
 
-La personne ne réessaiera pas, et ce n'est qu'une partie du problème. Les quatre autres qui ont regardé ont capté la règle plus vite qu'elle, et ce qu'ils ont capté te concerne toi, pas le cas.
+Tu peux accueillir ce que la personne a cherché à améliorer tout en examinant ce qu'elle a engagé. Un agent prépare une réponse plus claire : il peut la faire relire et l'essayer sur un périmètre convenu. Modifier un remboursement, un contrat ou un accès demande d'autres limites. Les écrire avant l'action protège aussi ceux qui prennent l'initiative.
 
-Refais le calcul comme le fait celui qui hésite. Agir sans demander rapporte peu et peut finir en correction publique. Attendre ne coûte rien. Dans ces conditions, attendre est rationnel, et tu obtiens l'équipe passive dont tu te plains à ton prochain entretien individuel. Tu es alors passager de ton propre système : tu subis une passivité que ta phrase a produite, et tu attends que les gens changent sans toucher à ce qui les fait calculer ainsi.
-
-Certaines initiatives sont réellement dangereuses. La facturation. Un contrat signé. La production quand il ne reste personne pour réparer. Ce qui les protège n'est pas une réaction plus dure après coup, c'est une ligne tracée avant. Une frontière non marquée fait qu'on demande pour tout, puis qu'on agit à l'aveugle le jour où demander devient fatigant. Autoriser l'initiative ne suffit pas. Il faut la défendre les premières fois qu'elle tourne mal. C'est le plus difficile, et personne ne peut le faire à ta place.
+Quand une frontière n'était pas claire, reconnais-le et précise-la avec l'équipe. Si elle a été franchie, traite les conséquences et cherche ce qui s'est passé. Une revue partagée doit préserver les personnes et les informations sensibles ; elle n'exige pas un aveu public.
 
 ## La décision
 
-→ Prends le fond avant la forme. Si l'initiative était juste, dis-le avant de dire quoi que ce soit sur le processus.
-→ Écris la frontière. "Tu décides seul en dessous de ce montant, de ce niveau de risque, de ce nombre de clients impactés."
-→ Quand une initiative échoue, fais la revue en public, sur ce qu'elle enseigne. Les autres regardent pour savoir ce qu'ils risquent en essayant.
+Choisis un type d'initiative que tu veux rendre possible. Avec l'équipe, écris ce qui peut être décidé seul, ce qui demande un accord et ce qui impose de s'arrêter. Donne un exemple concret, un contact disponible et un temps d'essai.
+
+Sur les prochaines initiatives, commence par comprendre le but et les effets. Restaure d'abord ce qui doit l'être si un dommage est en cours. Au point de retour convenu, demande si la frontière a permis d'agir et si le soutien annoncé était disponible. Ajuste-la à partir des cas rencontrés.
 
 ## Depuis ton siège
 
-- **Ingénierie** : quand tu prends une initiative, annonce-la avant. Dix minutes, et elle est protégée.
-- **Produit** : si toute initiative doit passer par toi, tu es devenu la file d'attente que tu déplores.
-- **Design** : quelqu'un a corrigé ton écran sans demander ? Réponds sur la correction, pas sur la forme.
-- **Fondateur** : la frontière s'écrit avant. Montant, risque, nombre de clients touchés.
-- **Relation client** : un agent qui règle un cas hors procédure t'a montré un trou. Commence par le trou.
+- **Ingénierie** : vérifie le périmètre autorisé avant de modifier un système utilisé par d'autres.
+- **Management** : donne un contact et une réponse attendue lorsque l'essai rencontre sa limite.
+- **Relation client** : un cas hors procédure peut signaler une exception à examiner.
 
 ## À discuter
 
-Quand quelqu'un ici a agi sans autorisation, la première phrase qu'il a entendue portait sur le résultat ou sur la procédure ?
+Quelle initiative récente a montré que notre frontière était claire ou, au contraire, qu'il fallait la préciser ?
 
-*À vérifier ailleurs :* l'étude d'Amy Edmondson sur la sécurité psychologique et les comportements d'apprentissage montre pourquoi davantage d'erreurs déclarées peut signaler une équipe plus sûre, pas plus mauvaise. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
+*À vérifier ailleurs :* les travaux d'Amy Edmondson sur la sécurité psychologique et l'apprentissage en équipe figurent dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.

@@ -1,0 +1,349 @@
+/* La page d'accueil. Elle ne suit pas la mise en page du livre : pas de
+   colonne de lecture, pas de bandeau de titre, pas de prose. Une suite de
+   bandes pleine largeur, et le test qui prend l'ecran quand il demarre.
+   Ce fichier n'est charge que par le layout `landing`.
+
+   Meme palette que le reste du site, meme grammaire de boutons :
+   #1C1A17 encre, #FBEEC1 bande, #F5B301 signal, #8A6100 ambre,
+   #F2EFE9 coquille, #FAF7F0 papier, #E8E3D9 filet. */
+
+.landing-page {
+  font-family: "Archivo", system-ui, sans-serif;
+  color: #2B2925;
+  line-height: 1.6;
+}
+
+.landing-page [hidden] { display: none; }
+
+/* La colonne. Plus large que celle du livre : ici on ne lit pas
+   quatre-vingt-cinq cartes, on lit trois blocs et on clique. */
+.landing-wrap {
+  margin: 0 auto;
+  max-width: 44rem;
+  padding: 0 1.25rem;
+}
+
+/* L'ouverture. La citation tient la bande, le reste s'accroche dessous. */
+.landing-hero {
+  background: #FBEEC1;
+  border-bottom: 3px solid #F5B301;
+  padding: 7.5rem 0 3.5rem;
+}
+
+.landing-eyebrow {
+  color: #8A6100;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-bottom: 1.4rem;
+  text-transform: uppercase;
+}
+
+.landing-quote {
+  color: #1C1A17;
+  font-family: "Merriweather", Georgia, serif;
+  font-size: clamp(1.85rem, 5vw, 2.65rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.22;
+  text-wrap: balance;
+}
+
+.landing-lede {
+  color: #8A6100;
+  font-size: 1.0625rem;
+  margin: 1.1rem 0 2rem;
+  max-width: 34em;
+  text-wrap: pretty;
+}
+
+/* Le meme bouton partout : le noir plein pour l'action de la bande,
+   et rien d'autre a apprendre d'un bloc au suivant. */
+.landing-cta {
+  background: #1C1A17;
+  border: 1px solid #1C1A17;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.85rem 1.4rem;
+  text-decoration: none;
+}
+
+.landing-cta:hover,
+.landing-cta:focus-visible {
+  outline: 2px solid #F5B301;
+  outline-offset: 2px;
+}
+
+/* Le test est l'action de la page. Les deux autres bandes proposent, elles
+   n'insistent pas : meme forme, poids en dessous. */
+.landing-cta--calme {
+  background: transparent;
+  color: #1C1A17;
+}
+
+.landing-cta--calme:hover { background: #FBEEC1; }
+
+/* Ce qu'il faut savoir avant de repondre : ni un avertissement legal,
+   ni une note de bas de page qu'on decouvre apres coup. */
+.landing-fineprint {
+  color: #6F6A61;
+  font-size: 0.8rem;
+  line-height: 1.55;
+  margin-top: 1.6rem;
+  max-width: 42em;
+}
+
+.landing-fineprint a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #F5B301;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.landing-fineprint a:hover { color: #1C1A17; }
+
+/* Les blocs sous le test. Une bande, un titre, un texte, un bouton. */
+.landing-bloc { padding: 3.75rem 0; }
+
+.landing-bloc + .landing-bloc { border-top: 1px solid #E8E3D9; }
+
+.landing-bloc--shell { background: #F2EFE9; }
+.landing-bloc--shell + .landing-bloc { border-top: 0; }
+
+.landing-bloc h2 {
+  color: #1C1A17;
+  font-size: clamp(1.4rem, 3.2vw, 1.75rem);
+  line-height: 1.25;
+  margin-bottom: 1.1rem;
+  text-wrap: balance;
+}
+
+.landing-bloc p {
+  margin-bottom: 1.1rem;
+  max-width: 38em;
+  text-wrap: pretty;
+}
+
+.landing-bloc p:last-of-type { margin-bottom: 1.8rem; }
+
+/* Un lien dans une bande se souligne comme dans le livre, au marqueur. */
+.landing-bloc p a {
+  color: #1C1A17;
+  text-decoration: underline;
+  text-decoration-color: #F5B301;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.landing-bloc p a:hover {
+  background: #F5B301;
+  text-decoration-color: transparent;
+}
+
+/* Le test. Les reponses ont besoin d'une cible plus large qu'un lien de
+   prose, et l'ecran leur appartient : l'ouverture et les blocs sortent
+   pendant les trente situations, et reviennent avec le resultat. */
+.builder-test-run,
+.builder-test-result,
+.builder-test noscript {
+  display: block;
+  padding: 8rem 0 3.5rem;
+}
+
+.builder-test-eyebrow,
+.builder-test-stage {
+  color: #8A6100;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.builder-test-primary,
+.builder-test-nav button,
+.builder-test-actions button {
+  border: 1px solid #1C1A17;
+  background: #fff;
+  color: #1C1A17;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.72rem 1.15rem;
+}
+
+.builder-test-primary,
+.builder-test-nav button:last-child {
+  background: #1C1A17;
+  color: #fff;
+}
+
+.builder-test button:hover:not(:disabled),
+.builder-test button:focus-visible {
+  border-color: #8A6100;
+  outline: 2px solid #F5B301;
+  outline-offset: 2px;
+}
+
+.builder-test button:disabled { cursor: default; opacity: 0.38; }
+
+.builder-test-progress {
+  align-items: center;
+  display: flex;
+  font-size: 0.8rem;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.builder-test-progress-track {
+  background: #E8E3D9;
+  display: block;
+  height: 4px;
+  width: min(18rem, 48%);
+}
+
+.builder-test-progress-track span {
+  background: #F5B301;
+  display: block;
+  height: 100%;
+  transition: width 180ms ease;
+}
+
+.builder-test-run h2 {
+  color: #1C1A17;
+  font-size: clamp(1.3rem, 3.4vw, 1.6rem);
+  line-height: 1.3;
+  margin: 0.4rem 0 1.5rem;
+  text-wrap: balance;
+}
+
+/* La question prend le focus a chaque situation, pour que le lecteur
+   d'ecran la lise. L'anneau reste visible, dans la couleur du site. */
+.builder-test-run h2:focus-visible {
+  outline: 2px solid #F5B301;
+  outline-offset: 6px;
+}
+
+.builder-test-answers { display: grid; gap: 0.65rem; }
+
+.builder-test-answer {
+  background: #fff;
+  border: 1px solid #D8D2C7;
+  color: #1C1A17;
+  cursor: pointer;
+  font: inherit;
+  line-height: 1.45;
+  padding: 0.9rem 1rem;
+  text-align: left;
+}
+
+.builder-test-answer[aria-pressed="true"] {
+  background: #FBEEC1;
+  border-color: #8A6100;
+  box-shadow: inset 4px 0 0 #F5B301;
+}
+
+.builder-test-nav,
+.builder-test-actions {
+  display: flex;
+  gap: 0.7rem;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+/* Le resultat. */
+.builder-test-result h2 {
+  color: #1C1A17;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  line-height: 1.25;
+  margin: 0.5rem 0 1rem;
+  text-wrap: balance;
+}
+
+.builder-test-result h3 {
+  color: #1C1A17;
+  font-size: 1.05rem;
+  margin: 2rem 0 0.8rem;
+}
+
+.builder-test-lede { font-size: 1.15rem; }
+
+.builder-test-result-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 2rem 0;
+}
+
+.builder-test-result-grid > div,
+.builder-test-practice {
+  background: #FAF7F0;
+  border-left: 3px solid #F5B301;
+  padding: 1rem 1.2rem;
+}
+
+.builder-test-result-grid h3,
+.builder-test-practice h3 { margin-top: 0; }
+
+.builder-test-scale { margin: 2rem 0; }
+
+.builder-test-scale-row {
+  align-items: center;
+  display: grid;
+  font-size: 0.78rem;
+  gap: 0.7rem;
+  grid-template-columns: minmax(8.5rem, 1fr) 2fr 2.6rem;
+  margin: 0.55rem 0;
+}
+
+.builder-test-scale-row.is-next { font-weight: 600; }
+.builder-test-score { background: #E8E3D9; height: 7px; }
+.builder-test-score i { background: #8A6100; display: block; height: 100%; }
+.builder-test-scale-row.is-next .builder-test-score i { background: #F5B301; }
+
+.builder-test-route {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 2rem;
+}
+
+.builder-test-card {
+  border: 1px solid #E8E3D9;
+  color: #1C1A17;
+  display: flex;
+  flex-direction: column;
+  min-height: 9rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.builder-test-card:hover { background: #FBEEC1; border-color: #F5B301; }
+.builder-test-card small { color: #8A6100; margin-bottom: 0.7rem; text-transform: uppercase; }
+.builder-test-card span { margin-top: auto; padding-top: 1rem; }
+
+.builder-test-disclaimer {
+  color: #6F6A61;
+  font-size: 0.78rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 640px) {
+  .landing-hero { padding-top: 6.5rem; }
+
+  .builder-test-run,
+  .builder-test-result,
+  .builder-test noscript { padding-top: 6.5rem; }
+
+  .builder-test-result-grid,
+  .builder-test-route { grid-template-columns: 1fr; }
+
+  .builder-test-scale-row { grid-template-columns: minmax(7.5rem, 1fr) 1fr 2.4rem; }
+
+  .builder-test-nav,
+  .builder-test-actions { flex-wrap: wrap; }
+}

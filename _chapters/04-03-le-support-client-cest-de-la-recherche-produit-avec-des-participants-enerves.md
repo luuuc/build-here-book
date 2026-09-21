@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Le support client, c'est de la recherche produit avec des participants énervés"
+title: "Apprends des demandes de support"
 part: "La compréhension"
 order: 403
 card_type: diagnostic
@@ -12,46 +12,43 @@ categories:
   - support
   - produit
 seo:
-  description: "Une entreprise paiera une agence pour recruter huit utilisateurs et réserver une salle avec une glace sans tain."
-  keywords: "build here, client, builder, support, recherche, produit, participants"
+  description: "Examine les demandes de support avec leur contexte, sans confondre fréquence, cause et représentativité."
+  keywords: "build here, builder, support, usages, observation, hypotheses"
 redirect_from:
   - /chapters/11-01-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html
 ---
 
 ## Le symptôme
 
-Le support est un centre de coût. L'objectif est un délai de première réponse court et une file qui rétrécit.
-
-Ce que les gens ont écrit dans ces tickets reste dans l'outil de support.
+Le support résout des demandes et suit les délais de réponse. Des difficultés récurrentes restent pourtant peu visibles dans les décisions sur le service.
 
 ## Le signal
 
-Le support est le seul endroit où des utilisateurs disent ce qui est cassé, tous les jours, gratuitement.
+Les demandes de support peuvent révéler des problèmes à examiner. Elles complètent la recherche et les autres retours, sans représenter toutes les personnes qui utilisent le service.
 
 ## Ce qui se passe
 
-Une entreprise paiera une agence pour recruter huit utilisateurs et réserver une salle avec une glace sans tain. La même entreprise reçoit chaque jour des retours spontanés, venant de gens qui utilisent le produit pour de vrai et qui ont tenu à écrire.
+Une demande de support contient un effort déjà fait par quelqu'un pour obtenir de l'aide. La première responsabilité est de répondre à ce besoin. Transformer ce contact en source d'apprentissage ne doit pas retarder la prise en charge ni traiter la personne comme un participant recruté à son insu. Les échanges peuvent arriver dans un outil de tickets, au téléphone, au guichet ou sur un canal de messagerie prévu pour cela. Le support possède une connaissance du contexte qui mérite d'accompagner les extraits transmis. Lire les messages sans cette explication peut conduire à une mauvaise interprétation.
 
-Ça arrive mal emballé. Mauvais mots, mauvais ton, sur WhatsApp à 23h, parce que c'est là que tes clients vivent déjà, pendant que l'outil de ticketing que tu paies chaque mois reste à moitié vide. La recherche est dans le canal que tu n'as pas choisi.
+Exemple construit : plusieurs personnes demandent où télécharger une facture. Le bouton peut être difficile à trouver, mais d'autres causes sont possibles : un accès manquant, une facture non produite ou un terme mal compris. Regrouper les demandes ne suffit pas à établir la cause.
 
-On perd surtout de vue le nombre de fois où le même problème revient. Quinze tickets en une semaine qui demandent où est passé le téléchargement de facture, ce ne sont pas quinze utilisateurs difficiles. C'est un bouton au mauvais endroit, qui coûte quinze réponses humaines par semaine tant que personne ne le déplace. Ce coût n'apparaît jamais à côté du gros pari du trimestre, et c'est comme ça que le bouton garde sa place pendant deux ans.
+Le motif le plus fréquent n'est pas toujours le plus important. Examine aussi la gravité, les personnes touchées et les difficultés de ceux qui ne contactent jamais le support. Une correction du produit, une procédure ou une aide plus claire peuvent chacune être utiles selon le cas.
 
-Une équipe qui pilote le support comme un coût devient très bonne à répondre vite. Le problème auquel on répond reste entier.
+Ce travail a un coût de lecture et d'analyse. Réserve un créneau avec l'équipe de support et utilise uniquement les informations nécessaires et autorisées. Pour débuter, quelques cas préparés avec elle peuvent suffire.
 
 ## À vérifier
 
-À la fin de la semaine, exporte les tickets et étiquette chacun avec une cause, pas une catégorie. Trie par cause. Mets la première dans le prochain sprint.
+Choisis avec le support un petit ensemble de demandes accessibles. Note le problème décrit, une cause possible et ce qui permettrait de la vérifier. Ne confonds pas l'étiquette et le diagnostic.
 
-Corrigée dans le produit. Pas documentée dans un article d'aide.
+Propose une réponse proportionnée avec les personnes qui peuvent décider. Au prochain point, regarde si la difficulté est mieux résolue et si elle revient, en tenant compte du volume d'usage. Moins de contacts ne prouve pas à lui seul que tout va mieux.
 
 ## Depuis ton siège
 
-- **Ingénierie** : quinze réponses humaines par semaine sur un bouton mal placé sont un coût que tu peux retirer.
-- **Produit** : tu paierais une agence pour huit utilisateurs, et tu jettes un flux quotidien gratuit.
-- **Design** : le premier motif de contact est presque toujours un écran, pas une question.
-- **Fondateur** : une équipe pilotée sur le temps de réponse devient très bonne à répondre vite. Rien d'autre.
-- **Recrutement** : l'agent qui relie quinze tickets à une seule cause fait du product. Sache le repérer.
+- **Support** : apporte le contexte des cas et protège le temps de prise en charge.
+- **Produit** : compare fréquence, gravité et usages absents des demandes reçues.
+- **Design** : vérifie une hypothèse de compréhension avant de déplacer un bouton.
+- **Management** : réserve du temps pour analyser et donner une suite aux observations.
 
 ## À discuter
 
-Qui a décidé de laisser notre premier motif de contact dans le top trois ?
+Quel motif récurrent mérite une vérification, et quelle information nous manque pour choisir la réponse ?

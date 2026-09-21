@@ -12,7 +12,7 @@ categories:
   - responsabilite
   - execution
 seo:
-  description: "Celui qui écrit le ticket l'écrit depuis l'extérieur du code. Celui qui le fait passe deux jours dedans et apprend ce que l'auteur n'avait aucun moyen de savoir."
+  description: "Rapporte ce que l'exécution t'apprend et fais arbitrer une découverte qui change le périmètre, avant de poursuivre si nécessaire."
   keywords: "build here, ownership, builder, apporte, tache, probleme"
 redirect_from:
   - /chapters/04-01-napporte-pas-la-tache-apporte-le-probleme.html
@@ -20,41 +20,41 @@ redirect_from:
 
 ## Le point de départ
 
-> "C'est fait. Je prends quoi après ?"
+Une tâche est terminée. En la réalisant, tu as aussi découvert un contournement, une contrainte ou une question qui mérite une suite.
 
-Le travail arrive prédécoupé. Savoir si le découpage était bon, c'est la question de quelqu'un d'autre.
+Le compte rendu dit seulement : "C'est fait."
 
 ## Le geste
 
-Tu termines la tâche, et tu ajoutes ce que tu as vu en la faisant. La cause est plus profonde, et voilà ce que tu changerais.
+Livre ce qui reste utile et rapporte ce que l'exécution t'a appris. Si la découverte remet en cause le travail demandé, signale-la avant de continuer.
 
 ## Pourquoi ça marche
 
-Celui qui découpe le travail le fait depuis l'extérieur. Celui qui l'exécute passe deux jours dedans et apprend ce que l'auteur n'avait aucun moyen de savoir. L'agent support voit que la demande revient après chaque remboursement. La recruteuse entend cinq candidats buter sur la même phrase. L'ingénieur découvre que le ticket ne touche pas seulement le fichier prévu. Cette connaissance est nette pendant environ une journée, puis elle se dissout. Si elle ne remonte pas, la tâche suivante porte le même angle mort et l'équipe redécoupe le même problème deux trimestres plus tard avec un autre nom.
+La personne qui réalise le travail rencontre des détails que le cadrage initial pouvait ignorer. Au support, une demande revient après chaque remboursement. Dans une association, plusieurs participants interprètent différemment la même invitation. En ingénierie, le correctif touche une partie qui n'était pas prévue. Ces observations peuvent confirmer le choix de départ, améliorer la prochaine tâche ou justifier un changement. Les noter pendant qu'elles sont précises évite de devoir les reconstituer. Elles complètent le travail de cadrage ; elles ne prouvent pas que la personne qui l'a fait s'est trompée.
 
-"Le formulaire ne s'affiche pas sur mobile" est une tâche. "Personne sur mobile ne s'est inscrit depuis trois semaines" est un problème. L'un change une ligne de code. L'autre change ce sur quoi l'équipe travaille ensuite, et sur un marché où le téléphone est l'ordinateur, il change ce qu'est l'entreprise.
+Exemple construit : on te demande de corriger l'affichage d'un formulaire sur mobile. En vérifiant, tu constates que certaines inscriptions échouent aussi après l'envoi. Ce sont deux faits différents. Corriger l'affichage reste utile, mais ne suffit pas à conclure que l'inscription fonctionne.
 
-Tu fais le travail d'abord, toujours. Ce que tu as découvert accompagne la livraison. Ça ne la remplace jamais. Rends une analyse à la place de ce qui était attendu et la prochaine sera lue comme une manœuvre.
+Tu n'as pas besoin de résoudre seul le problème élargi. Distingue le fait observé, ton interprétation et la suite que tu proposes. Une personne qui débute peut rapporter un cas précis et demander de l'aide pour l'interpréter. Une personne expérimentée peut proposer plusieurs options.
+
+Si continuer risque de gaspiller un effort important ou de provoquer un dommage, demande un arbitrage. Sinon, termine le périmètre convenu et organise la suite. Une découverte ne t'attribue pas automatiquement un nouveau chantier.
 
 ## À essayer
 
-Deux lignes dans l'endroit où le travail est suivi, avant de le fermer.
+Avant de fermer une tâche, ajoute deux lignes au compte rendu :
 
-> Ce que ça m'a appris sur le vrai problème : ...
-> Ce que je ferais autrement en repartant de zéro : ...
+> Ce que j'ai observé en la réalisant : ...
+> Ce que cela change, ou ce qu'il faudrait vérifier : ...
 
-Personne ne les a demandées. C'est le principe.
+Propose une suite proportionnée et nomme qui peut l'accepter. À la prochaine revue, vérifie si l'observation a changé une décision, confirmé le résultat ou révélé le besoin d'une réponse. Pour un premier projet, ce retour peut se faire avec la personne que tu aides.
 
 ## Depuis ton siège
 
-- **Produit** : ce que celui qui a fait le ticket a appris dedans est ta meilleure source. Va la chercher.
-- **Design** : ce que tu apprends au troisième écran invalide souvent le premier. Dis-le tout de suite.
+- **Produit** : demande ce que la réalisation a confirmé ou révélé sur le besoin.
+- **Design** : rapporte un fait nouveau qui confirme ou remet en cause le parcours prévu.
 - **Management** : si rapporter une trouvaille passe pour un refus de faire la tâche, tu n'en auras plus.
-- **Relation client** : trois fois le même ticket est un problème, pas trois tâches. Compte, puis remonte.
-- **Recrutement** : demande un ticket où le candidat a découvert que la demande n'était pas la bonne.
+- **Relation client** : signale une répétition en précisant les cas et leur contexte.
+- **Recrutement** : demande une observation qui a confirmé ou changé la suite d'un projet.
 
 ## À discuter
 
-Quelqu'un ici a déjà découvert, en réalisant une tâche, que la demande n'était pas la bonne. Il l'a dit à qui ?
-
-*À vérifier ailleurs :* *Inspired*, de Marty Cagan, développe la distinction entre équipe chargée de fonctionnalités et équipe chargée d'un problème. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
+Quelle observation récente a changé notre façon de traiter une tâche, et comment lui avons-nous donné une suite ?

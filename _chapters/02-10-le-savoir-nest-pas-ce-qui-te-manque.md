@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Le savoir n'est pas ce qui te manque"
+title: "Trouve un accès à ce qu'il te manque pour apprendre"
 part: "Le métier"
 order: 210
 card_type: principe
@@ -12,7 +12,7 @@ categories:
   - open-source
   - niveau
 seo:
-  description: "Commence par ce qui est vrai. Le capital est rare. Un réseau solide aussi, l'accès à des clients qui paient bien aussi, et parfois l'électricité et la bande passante."
+  description: "Précise ce qui manque pour apprendre : ressource, temps, accès, explication ou retour. Choisis une voie compatible avec tes moyens."
   keywords: "build here, apprentissage, builder, savoir, manque"
 redirect_from:
   - /chapters/08-05-le-savoir-nest-pas-ce-qui-te-manque.html
@@ -21,43 +21,38 @@ redirect_from:
 
 ## Le réflexe
 
-> "On n'a pas accès aux mêmes choses ici."
+> "Il me manque de quoi apprendre cette partie."
 
-L'écart est attribué à l'environnement. Ça devient une explication permanente, et une explication permanente est une raison d'arrêter de chercher.
+Le besoin est réel, mais ce qui manque peut être une ressource, du temps, une explication ou une occasion de pratiquer.
 
 ## Le réflexe builder
 
-Une partie de ce qui te manque n'est pas disponible ici. L'essentiel est un onglet que tu n'as jamais ouvert.
+> "Quelle est la prochaine chose à comprendre, et quelle aide la rendrait accessible ?"
 
 ## Pourquoi
 
-Commence par ce qui est vrai. Le capital est rare. Un réseau solide aussi, l'accès à des clients qui paient bien aussi, et parfois l'électricité et la bande passante. Prétendre le contraire est une malhonnêteté à part entière.
+Des cours, des guides et des retours d'expérience sont disponibles en ligne ou dans des lieux de formation. Les trouver ne suffit pas toujours à pouvoir s'en servir. La langue, le coût, la connexion, les connaissances préalables et la possibilité d'obtenir un retour comptent aussi.
 
-Le savoir a quitté cette liste. Les postmortems de systèmes que tu n'auras jamais à exploiter sont publiés intégralement, avec les horodatages. Les cours universitaires sont en ligne. Les articles de recherche à l'origine de tes outils sont gratuits. Les mainteneurs se disputent en public et laissent leurs échanges en ligne.
+Une personne qui découvre un métier peut avoir accès à un manuel sans savoir quel chapitre correspond à son problème. Un pair peut l'aider à choisir un exemple. Une personne expérimentée peut chercher une information qui n'est pas publiée et avoir besoin d'un échange avec un fournisseur ou un autre praticien.
 
-L'objection sérieuse, c'est la bande passante et le temps. Un talk de quarante minutes sur une connexion comptée est une vraie décision, et celui qui la prend deux fois par semaine le sent sur ce qui reste du forfait. Mais ça, c'est un budget, et un budget se planifie. Ce qu'on croit inaccessible, en revanche, on n'essaie même plus de l'obtenir.
+Nommer précisément le manque permet de choisir une action adaptée. Une vidéo trop coûteuse à consulter peut avoir une transcription. Un livre inaccessible peut être disponible en bibliothèque. Un savoir de terrain peut demander une démonstration. Ces pistes ne garantissent pas une solution, mais elles donnent des demandes concrètes à adresser.
 
-C'est ce que coûte le mélange des deux. Une seule phrase couvre le problème structurel et la chose que tu n'as jamais pris le temps de faire, les deux reçoivent la même réponse, et la seconde ne bouge jamais. Trie-les et tu peux traiter les deux correctement. Bats-toi durement là où l'environnement est l'adversaire ; ne concède rien là où rien ne t'arrête.
+Le soutien peut venir d'un enseignant, d'un collègue, d'une communauté ou de quelqu'un qui organise le travail. Si aucun accès réaliste n'existe pour l'instant, réduire le périmètre du projet peut être une décision raisonnable.
 
 ## À essayer
 
-Deux colonnes, dix minutes, par écrit.
+Choisis une seule question. Écris ce qu'il te faut pour avancer : une explication, un exemple, un outil, un créneau ou un retour sur ton essai.
 
-> Ça me manque, et je ne peux pas l'avoir d'ici : ...
-> Ça me manque, et je pourrais l'avoir cette semaine avec du temps et une connexion : ...
+Cherche une voie compatible avec tes moyens et limite le temps de recherche. Si elle ne fonctionne pas, prépare une demande précise à une personne qui peut aider. Pour une équipe, nomme le coût et la priorité qu'il faudrait déplacer.
 
-Puis regarde la longueur de la deuxième colonne.
-
-Si la première te paraît courte, l'annexe 3 la raccourcit encore.
+Après la lecture ou l'échange, essaie un petit cas et vérifie ce que tu sais maintenant faire ou expliquer. Si tu restes bloqué, note le préalable manquant. Ce résultat aide à choisir le soutien suivant sans conclure à un manque de motivation.
 
 ## Depuis ton siège
 
-- **Ingénierie** : les postmortems des systèmes que tu n'auras jamais à exploiter sont publiés avec les horodatages.
-- **Produit** : ce que tu appelles un manque de données est souvent un client que tu n'as pas appelé.
-- **Design** : des systèmes de design entiers sont publics, avec la raison derrière chaque règle.
-- **Management** : prévois un budget de connexion. Ce qu'on croit inaccessible, on n'essaie plus de l'obtenir.
-- **Recrutement** : quelqu'un sans diplôme connu a pu lire exactement les mêmes choses que les autres.
+- **Management** : examine le temps, la langue, les accès et les possibilités de retour.
+- **Produit** : précise quelle information manque avant de demander davantage de données.
+- **Recrutement** : examine ce que la personne sait faire au-delà du nom de sa formation.
 
 ## À discuter
 
-Cite une chose qu'on explique par notre environnement depuis plus d'un an. Qu'est-ce qu'il faudrait pour tester si c'est encore vrai ?
+Quel apprentissage est bloqué aujourd'hui, et quelle aide précise pourrait rendre le prochain essai possible ?

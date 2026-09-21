@@ -4,6 +4,7 @@ title: "Faire simple est une performance technique"
 part: "Le métier"
 order: 201
 card_type: principe
+action_scope: "Portée : individu ou accord d'équipe"
 metadata:
   principle: "2.01"
   reading_time_in_minutes: 2
@@ -12,7 +13,7 @@ categories:
   - simplicite
   - technique
 seo:
-  description: "Personne n'écrit la solution simple en premier. Le premier jet couvre tous les cas que tu peux imaginer, parce que tu ne sais pas encore lesquels arrivent."
+  description: "Simplifier demande de comprendre ce qu'on retire, de vérifier les usages concernés et de préserver un retour en arrière."
   keywords: "build here, engineering, builder, faire, simple, performance, technique"
 redirect_from:
   - /chapters/06-02-faire-simple-est-une-performance-technique.html
@@ -20,40 +21,38 @@ redirect_from:
 
 ## Le réflexe
 
-On présente la simplicité comme un point de départ. On commencerait simplement faute de savoir faire mieux, avant de devenir sérieux en devenant compliqué.
+Une solution accumule les options pour couvrir tous les cas imaginés. Chacune paraît raisonnable quand on la regarde seule.
 
 ## Le réflexe builder
 
-La version simple est la dernière que tu écris, pas la première.
+> "De quoi les personnes ont-elles réellement besoin, et quelle partie ajoute un coût sans les aider ?"
 
 ## Pourquoi
 
-Personne n'écrit la solution simple en premier. Le premier jet couvre tous les cas que tu peux imaginer, parce que tu ne sais pas encore lesquels arrivent.
+Simplifier demande de comprendre ce qu'on retire. Un formulaire peut perdre un champ inutile et devenir plus facile à remplir. Il peut aussi perdre l'information dont une autre personne a besoin pour traiter le dossier.
 
-Passer de trois cents lignes à quarante n'est pas du travail de débutant. C'est la distance entre le domaine que tu imaginais dès la première semaine et le domaine que tu as observé en production pendant un an.
+Dans le code, une version plus courte peut être plus lisible, mais le nombre de lignes ne tranche pas la qualité. Un cas rare peut protéger une opération importante. L'absence de ce cas dans les observations disponibles ne démontre pas qu'il ne se produira jamais.
 
-La version à quarante lignes laisse parfois tomber un cas qui finit par poser problème. Le test, c'est pourquoi il a disparu. Disparu parce que les logs montrent qu'il ne se produit jamais, c'est de la compréhension. Disparu parce que le traiter était pénible, c'est l'incident du trimestre prochain avec une stack trace plus courte. Nomme ce que tu as retiré dans la pull request et laisse quelqu'un te contredire.
+La version simple peut venir d'une meilleure connaissance du besoin ou d'un périmètre volontairement étroit dès le départ. Un débutant peut proposer une simplification utile ; un collègue plus expérimenté peut l'aider à vérifier les conséquences qu'il ne voit pas encore.
 
-Le mot sert aussi de bouclier. "Restons simples" peut vouloir dire j'ai compris ce domaine et j'ai enlevé ce dont il n'a pas besoin. Ça peut aussi vouloir dire je n'ai pas envie d'apprendre la partie réellement difficile. Les deux sonnent pareil en réunion, et elles se séparent sur une seule question. Est-ce que la personne sait dire ce que la version compliquée permettait ? Si tu ne sais pas expliquer ce que tu as retiré, ta solution n'est pas simple. Elle est inachevée, et les cas abandonnés reviennent plus tard à travers les réclamations des clients.
+L'enjeu est de préserver ce qui rend le travail juste en réduisant ce qui le complique. Cela vaut pour un écran, une procédure, un rapport ou une architecture. Une suppression mérite donc les mêmes questions qu'un ajout : qui est concerné, qu'est-ce qui change, et comment revenir en arrière si l'hypothèse est fausse ?
 
 ## À essayer
 
-Prends une partie du système que tu connais bien. Pose une question.
+Choisis une partie que tu comprends assez pour expliquer son rôle. Note ce que tu voudrais retirer et ce que cette partie permet aujourd'hui.
 
-> Si je l'écrivais aujourd'hui, avec ce que je sais maintenant, qu'est-ce que je ne construirais pas du tout ?
+Demande un retour à une personne qui l'utilise ou en dépend. Si le changement est autorisé et réversible, essaie-le sur un périmètre limité, avec une façon de restaurer l'existant. Sinon, commence par une maquette ou une copie de travail.
 
-Puis supprime une de ces choses cette semaine. Pour de bon, pas derrière un flag.
+Après un cycle d'usage convenu, regarde si la tâche est plus facile et si un besoin a été perdu. Garde, adapte ou annule la simplification selon ce que tu observes.
 
 ## Depuis ton siège
 
-- **Produit** : une fonctionnalité retirée est un arbitrage. Même revue qu'un lancement.
-- **Design** : un écran qu'on supprime vaut souvent mieux qu'un écran qu'on clarifie.
-- **Fondateur** : demande ce que la version compliquée permettait. La réponse sépare le simple de l'inachevé.
-- **Relation client** : les cas abandonnés reviennent avec des noms de clients dessus, et par toi.
-- **Recrutement** : demande ce que le candidat a supprimé, pas ce qu'il a construit. Peu ont la réponse.
+- **Produit** : examine les usages affectés par un retrait avec les personnes concernées.
+- **Opérations** : vérifie l'information que l'étape transmet à la suivante.
+- **Management** : laisse du temps pour vérifier une suppression, même si elle produit peu de nouveauté visible.
 
 ## À discuter
 
-Quelle suppression a été applaudie ici ?
+Quelle simplification récente a réduit l'effort tout en préservant le service rendu ?
 
-*À vérifier ailleurs :* *Simple Made Easy*, de Rich Hickey, distingue la simplicité mesurable de la facilité immédiate. Dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
+*À vérifier ailleurs :* Rich Hickey examine la distinction entre simplicité et facilité dans *Simple Made Easy*, cité dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.

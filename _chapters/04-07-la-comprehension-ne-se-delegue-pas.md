@@ -4,7 +4,7 @@ title: "La compréhension ne se délègue pas"
 part: "La compréhension"
 order: 407
 card_type: principe
-action_scope: "Portée : direction"
+action_scope: "Portée : individu, avec accès et temps convenus"
 metadata:
   principle: "4.07"
   reading_time_in_minutes: 2
@@ -13,7 +13,7 @@ categories:
   - business
   - strategie
 seo:
-  description: "Déléguer l'exécution, c'est le métier. Déléguer la compréhension laisse un dirigeant incapable d'évaluer quoi que ce soit de ce qu'on lui dit."
+  description: "Comprends les dépendances utiles à ta décision avec l'aide des spécialistes, sans confondre compréhension et contrôle."
   keywords: "build here, technologie et business, builder, comprehension, delegue"
 redirect_from:
   - /chapters/10-04-un-fondateur-ne-delegue-pas-la-comprehension.html
@@ -22,40 +22,39 @@ redirect_from:
 
 ## Le réflexe
 
-> "Je ne suis pas technique, je fais confiance à l'équipe."
-
-La confiance est réelle et souvent méritée. Elle sert aussi de permission de ne jamais apprendre.
+Tu confies la réalisation à des personnes compétentes. Pour prendre une décision, il te manque encore une vue des dépendances, des risques et des options.
 
 ## Le réflexe builder
 
-> "Je n'écrirai jamais de code. J'ai besoin de savoir ce que nos choix coûtent et ce qu'ils excluent."
+Demande assez d'explication pour exercer ta responsabilité, sans devoir devenir spécialiste de chaque métier.
 
 ## Pourquoi
 
-Déléguer l'exécution, c'est le métier. Déléguer la compréhension laisse un dirigeant incapable d'évaluer quoi que ce soit de ce qu'on lui dit.
+Faire confiance et comprendre se renforcent. Une explication adaptée permet de poser des questions utiles, de reconnaître une incertitude et de décider quand une expertise supplémentaire est nécessaire. Tu n'as pas besoin de vérifier toi-même chaque estimation. Demande ce qu'elle couvre, sur quelles hypothèses elle repose et ce qui pourrait la faire changer. L'objectif est de comprendre l'engagement, pas de chercher une marge cachée ou de contester un métier à l'intuition.
 
-Un ingénieur dit six semaines. Estimation honnête, marge cachée, ou optimisme fou ? Si tu ne comprends pas comment le produit est construit, tu acceptes l'estimation telle quelle ou tu la contestes à l'instinct. Pareil pour un incident. Grave ou banal ? Le seul signal qui reste est le niveau d'inquiétude de celui qui le rapporte, ce qui mesure son tempérament et rien d'autre.
+Exemple construit : une équipe envisage de changer de prestataire de paiement. Le tarif annoncé est inférieur, mais le remplacement touche aussi les moyens de paiement disponibles, la réconciliation et les remboursements. Une visite du parcours rend ces dépendances visibles avant de choisir.
 
-Disons que le plan est de passer à un prestataire de paiement moins cher le trimestre prochain. Tout le monde acquiesce. Ce qui n'est pas dit, c'est que l'actuel est le seul câblé sur les rails locaux, et que partir veut dire reconstruire le tunnel de paiement, la réconciliation et les remboursements, pas échanger une clé. Personne n'a menti. La question venait de quelqu'un sans moyen d'entendre la réponse, donc la réponse s'est limitée à ce qu'il était capable de demander.
+Ce besoin n'appartient pas seulement à la direction. Une personne qui organise un événement doit comprendre comment une inscription devient un accueil effectif. Une personne qui soutient un projet peut demander ce que son aide rend possible et quelles limites demeurent.
 
-Il en faut moins que ne le supposent la plupart des fondateurs non techniques. Pas programmer. Savoir de quoi le produit est fait, quelles parties sont fragiles, ce qui est cher à changer. Quelques heures par an, pas une reconversion, et pas un permis de commencer à relire des pull requests.
+Le temps nécessaire dépend du sujet et de tes connaissances. Commence par une décision réelle plutôt que par un cours sur tout le système. Respecte le temps de préparation et les informations auxquelles tu peux accéder. Comprendre davantage ne donne pas un droit d'intervenir dans tous les détails.
 
 ## À essayer
 
-Deux fois par an, demande une visite guidée de bout en bout, avec une règle.
+Organise une visite guidée d'un parcours avec quelqu'un qui le connaît. Convenez de la durée, du but et d'un cas partageable.
 
-> "Emmène-moi du clic du client jusqu'au client servi. Chaque fois que tu utilises un mot que je ne connais pas, je t'arrête et on reste dessus jusqu'à ce que je le connaisse."
+> "Du besoin au service rendu, quelles étapes comptent pour cette décision ? Où sont les dépendances et les inconnues ?"
 
-Deux heures. Les arrêts sont l'exercice, pas une interruption de l'exercice.
+Reformule le parcours avec tes mots et fais corriger les erreurs. Choisis ensuite une implication pour la décision. Après celle-ci, vérifie si la visite a permis d'éviter une hypothèse fausse ou de mieux organiser la suite.
+
+Un débutant peut commencer par une seule étape et demander les mots nécessaires pour la décrire.
 
 ## Depuis ton siège
 
-- **Ingénierie** : une question limitée appelle une réponse limitée. Explique aussi ce qu'on n'a pas pensé à demander.
-- **Produit** : sans comprendre le produit, tu acceptes ou refuses les estimations à l'instinct.
-- **Design** : un produit que la direction ne sait pas dessiner au tableau se conçoit par morceaux.
-- **Relation client** : tu promets ce que tu crois simple. Demande une fois de quoi le produit est fait.
-- **Recrutement** : sans comprendre le produit, tu recrutes sur l'aisance. C'est le filtre décrit dans *Le filtre que tu fais tourner*.
+- **Ingénierie** : explique les dépendances utiles à la décision, sans imposer tout le vocabulaire.
+- **Finance** : demande ce que le coût couvre et quelles hypothèses restent ouvertes.
+- **Relation client** : vérifie le parcours réel derrière la promesse de service.
+- **Management** : réserve du temps à l'explication et respecte le domaine de décision des autres.
 
 ## À discuter
 
-Si deux personnes de notre direction dessinaient notre produit au tableau, on obtiendrait le même schéma ?
+Quelle décision demande une meilleure compréhension partagée, et qui peut nous guider sur le parcours ?

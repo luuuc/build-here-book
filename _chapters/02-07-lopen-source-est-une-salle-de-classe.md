@@ -12,7 +12,7 @@ categories:
   - open-source
   - niveau
 seo:
-  description: "Le code, c'est le corrigé. Ce que tu n'obtiens nulle part ailleurs, c'est le raisonnement."
+  description: "Les échanges d'un projet ouvert peuvent montrer comment une décision se construit. Choisis un cas accessible et respecte le temps des contributeurs."
   keywords: "build here, apprentissage, builder, open, source, salle, classe"
 redirect_from:
   - /chapters/08-02-lopen-source-est-une-salle-de-classe.html
@@ -20,36 +20,37 @@ redirect_from:
 
 ## Le réflexe
 
-L'open source est un stock de pièces. Tu l'installes, tu l'utilises, tu le mets à jour. La relation s'arrête là.
+Tu utilises un projet ouvert pour ce qu'il permet de faire. Les discussions qui ont conduit à ses choix restent en dehors de ton champ de lecture.
 
 ## Le réflexe builder
 
-> "Dix ans de disputes ont produit cette API. Les disputes sont encore en ligne."
+> "Comment cette décision a-t-elle été prise, et quelles options ont été écartées ?"
 
 ## Pourquoi
 
-Le code, c'est le corrigé. Ce que tu n'obtiens nulle part ailleurs, c'est le raisonnement. La proposition qui a été rejetée, avec trois paragraphes expliquant pourquoi. La revue où un mainteneur explique qu'une approche ne survivra pas aux écritures concurrentes. Le rapport de bug où l'hypothèse de quelqu'un est réfutée publiquement, sous son nom et sans crispation, puis conservée en ligne pendant dix ans.
+Un projet ouvert peut donner accès à du raisonnement : une proposition discutée, un correctif relu, une documentation modifiée après un retour. Ces échanges montrent les contraintes que le résultat final ne rend pas toujours visibles.
 
-Il y a une version pratique de ça. La prochaine fois qu'une mise à jour casse ton application, l'explication est dans un thread d'il y a deux ans, écrite par celui qui a fait le changement et qui savait ce qu'il coûterait. La plupart des équipes ne le lisent jamais. Elles patchent le symptôme et repaient à la version majeure suivante.
+Sur une dépendance logicielle, une note de version et la discussion associée peuvent expliquer un changement de comportement. Dans un guide ou un projet de données ouvert, les échanges peuvent montrer pourquoi une catégorie a été retenue ou une formulation abandonnée.
 
-Et contribuer n'est pas l'activité bénévole à laquelle on le réduit, donc "on livre, on n'a pas le temps" répond à la mauvaise question. La revue d'un mainteneur, c'est une heure de relecture exigeante par quelqu'un de plus expérimenté que tes relecteurs habituels, sur ton code, gratuitement. Quand le nombre de gens capables de te relire correctement est petit, il n'y a aucun autre moyen d'acheter cette heure à quelque prix que ce soit.
+La qualité de cet apprentissage dépend du projet et du fil choisi. Certaines discussions sont anciennes, incomplètes ou difficiles à suivre. Une longue conversation n'est pas forcément une bonne entrée pour un débutant. Cherche un petit changement documenté et prends le temps de comprendre son contexte.
 
-C'est aussi la seule salle où personne ne peut voir d'où tu viens tant que tu ne le dis pas.
+Contribuer peut apporter un retour, mais les personnes qui maintiennent le projet ne doivent ni disponibilité immédiate ni cours individuel. Leur temps compte autant que le tien. Respecte les consignes de contribution et choisis un périmètre compatible avec tes connaissances. Lire et comprendre une décision est déjà un apprentissage, même sans publication.
 
 ## À essayer
 
-Prends une bibliothèque dont ton produit dépend. Lis les trois threads ouverts les plus longs de son tracker. Pas le code. La discussion.
+Choisis un projet que tu utilises ou dont le sujet t'intéresse. Lis une discussion courte liée à un changement précis. Note le besoin, une option écartée et la raison du choix final.
 
-Puis envoie un petit correctif. Une documentation ambiguë compte. La première contribution t'apprend le processus, et le processus est l'endroit où les gens abandonnent.
+Compare ce raisonnement à un petit problème de ton propre travail. Si tu souhaites contribuer, vérifie d'abord les consignes et propose une correction limitée, par exemple une clarification de documentation. Prévois un temps borné et accepte que le retour tarde ou que la proposition soit refusée.
+
+À la fin, écris ce que tu comprends mieux et ce que tu pourrais appliquer. Le nombre de contributions acceptées ne mesure pas à lui seul cet apprentissage.
 
 ## Depuis ton siège
 
-- **Produit** : une proposition rejetée avec ses trois paragraphes de raisons est un cours d'arbitrage.
-- **Design** : les débats d'API montrent comment on rend une chose compréhensible sans explication.
-- **Fondateur** : contribuer est du temps de travail ou du bénévolat. Personne ne s'y mettra tant que tu ne l'auras pas tranché.
-- **Relation client** : l'explication du bug qui casse tes clients est souvent dans un thread de 2023.
-- **Recrutement** : personne n'y voit d'où vient quelqu'un. C'est une source que tu n'utilises pas.
+- **Produit** : une proposition refusée avec ses raisons peut éclairer un arbitrage.
+- **Design** : regarde comment un échange a conduit à rendre un usage plus clair.
+- **Management** : prévois le temps de contribution lorsqu'elle sert le travail de l'équipe.
+- **Recrutement** : accepte des preuves privées ou un exercice adapté, sans imposer un parcours public.
 
 ## À discuter
 
-Est-ce que quelqu'un ici a ouvert une pull request sur une de nos dépendances ? Qu'est-ce qui a arrêté le dernier qui y a pensé ?
+Quel échange ouvert nous a appris une façon de raisonner que nous pouvons essayer ici ?

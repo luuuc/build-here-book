@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Si reconnaître une erreur te discrédite, plus personne ne le fera"
+title: "⇄ Protège le signalement des erreurs"
 part: "L'état d'esprit"
 order: 110
 card_type: systeme
@@ -12,7 +12,7 @@ categories:
   - honnetete-intellectuelle
   - culture
 seo:
-  description: "Les gens n'écoutent pas ce qui est déclaré. Ils regardent ce qui arrive à celui qui y va en premier."
+  description: "Accueillir un signalement, protéger ce qui doit l'être et examiner les faits séparément de l'évaluation des personnes."
   keywords: "build here, ego et honnetete intellectuelle, builder, conditions, avoir, tort, coute, statut"
 redirect_from:
   - /chapters/02-05-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html
@@ -20,38 +20,38 @@ redirect_from:
 
 ## Ce que tu demandes
 
-> "Je leur répète que le droit à l'erreur existe, on n'est pas dans une culture du blâme."
+> "Signalez les erreurs assez tôt pour qu'on puisse réagir."
 
-Tu le penses sincèrement. Rien ne bouge.
+L'équipe doit pouvoir faire remonter un problème, y compris quand la personne qui le voit a participé à la décision.
 
 ## Ce que le système entend
 
-> "Concrètement, ici, il arrive quoi à quelqu'un qui signale une erreur ?"
+> "Qu'arrivera-t-il quand je dirai ce qui s'est passé ?"
 
 ## Ce que ça produit
 
-Les gens n'écoutent pas ce qui est déclaré. Ils regardent ce qui arrive à celui qui y va en premier.
+La façon dont un signalement est reçu influence les suivants. Remercier la personne aide, mais elle regardera aussi si elle peut expliquer les faits sans être exposée ou écartée avant que la situation soit comprise.
 
-Une seule scène fixe la règle pour des mois. Un incident signalé publiquement, et cette personne discrètement écartée du projet intéressant le mois suivant. Une erreur assumée en réunion, suivie d'un silence une seconde de trop. Aucune sanction formelle n'est nécessaire. Il suffit que le coût soit visible une fois. Quand ceux qui signalent encore sont uniquement des seniors installés, l'endroit est sûr pour eux et pour personne d'autre.
+Une équipe peut en apprendre davantage sur ses erreurs quand les signaler devient plus facile. Le nombre de signalements ne suffit donc pas à juger la qualité du travail. Regarde aussi leur gravité, le délai avant l'alerte et ce que les corrections ont changé.
 
-Il y a un vrai argument en face. Les erreurs doivent avoir des conséquences, et un endroit où il ne se passe jamais rien n'est pas un endroit sûr, c'est un endroit mou. Alors sanctionne la négligence, pas le fait de la signaler. Livrer pour la troisième fois une migration sans la tester mérite qu'on intervienne. La signaler dans l'heure, c'est faire son travail.
+L'apprentissage et la responsabilité ont chacun leur place. Une erreur peut révéler une consigne ambiguë, une vérification inaccessible, une charge excessive ou une règle ignorée. Examiner ces causes permet de décider d'une réponse proportionnée. Le fait d'avoir donné l'alerte doit rester distinct de l'action qui a causé le problème.
 
-Une équipe qui cache ses erreurs n'en fait pas moins. Elle te les annonce plus tard, quand elles coûtent plus cher, en général le jour où plus personne ne peut réagir.
+Le cadre doit fonctionner pour une personne qui arrive autant que pour un collègue installé. Offre un canal privé si le sujet touche à des personnes ou à des informations sensibles. Le groupe peut apprendre d'un mécanisme sans connaître tous les noms.
 
 ## La décision
 
-→ Vas-y en premier, avec une erreur qui t'a coûté quelque chose de réel. Pas du genre "je travaille trop".
-→ Sépare l'analyse d'incident de l'évaluation des personnes. Si tu fais les deux dans la même réunion, personne n'analysera franchement l'incident.
-→ Quand quelqu'un signale une erreur, commence par ce qu'elle révèle du fonctionnement de l'équipe. Qui est responsable peut attendre une heure.
+Sur le prochain signalement, cherche d'abord ce qui doit être protégé et qui peut intervenir. Confirme ensuite comment les faits seront examinés et avec qui.
+
+Sépare ce retour de l'évaluation individuelle. Si tu partages une de tes propres erreurs, montre le raisonnement et la correction, sans demander à chacun d'exposer la sienne en retour.
+
+Après la revue, vérifie que l'action décidée a été suivie et demande en privé si le signalement a pu se faire dans de bonnes conditions. Ces retours aideront à corriger le cadre.
 
 ## Depuis ton siège
 
-- **Ingénierie** : regarde ce qui est arrivé au dernier qui a signalé un incident. C'est ça, la règle.
-- **Design** : un test utilisateur qui contredit l'écran validé se raconte en entier ou ne sert à rien.
-- **Fondateur** : sanctionne la négligence, jamais le fait de la signaler.
-- **Relation client** : tu apprends les erreurs en premier, par le client. Le délai de remontée est l'indicateur.
-- **Recrutement** : demande une erreur que le candidat a signalée lui-même, et ce que ça lui a coûté.
+- **Design** : rapporte un essai qui contredit une hypothèse avec ce que tu as observé.
+- **Management** : sépare l'analyse des faits et des conditions de travail de l'évaluation individuelle.
+- **Support** : précise l'effet côté client et le moment où il a été remarqué.
 
 ## À discuter
 
-Qui ici a assumé publiquement une erreur significative cette année, et il lui est arrivé quoi ensuite ?
+Sur un incident récent, qu'est-ce qui a facilité ou retardé l'alerte, et quelle condition pouvons-nous améliorer ?

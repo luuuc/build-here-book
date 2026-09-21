@@ -12,7 +12,7 @@ categories:
   - support
   - produit
 seo:
-  description: "Un client connaît son problème, pas forcément la meilleure façon de le résoudre dans ton produit. Ce qu'il te propose, c'est une piste."
+  description: "Examine le besoin derrière une solution demandée, sans disqualifier l'expertise du client ni promettre avant l'arbitrage."
   keywords: "build here, client, builder, demande, feature, probleme"
 redirect_from:
   - /chapters/11-03-une-demande-de-feature-nest-pas-le-probleme.html
@@ -20,38 +20,40 @@ redirect_from:
 
 ## Le symptôme
 
-Un gros client demande une fonctionnalité précise. Tu la construis à la lettre, dans les temps.
-
-Elle est livrée. Il l'ouvre deux fois. Le même problème revient au trimestre suivant, sous une autre demande.
+Exemple construit : un client demande un export. L'équipe le livre, mais la difficulté signalée revient. Elle sait que le fichier existe, moins bien ce qu'il devait permettre de faire.
 
 ## Le signal
 
-> "Tu essaies d'aboutir à quoi, et tu fais comment sans ça aujourd'hui ?"
+> "Tu essaies d'aboutir à quoi, et tu fais comment sans ça aujourd'hui ?"
 
 ## Ce qui se passe
 
-Un client connaît son problème, pas forcément la meilleure façon de le résoudre dans ton produit. Ce qu'il te propose, c'est une piste.
+Une demande de fonctionnalité est une piste de solution. Elle peut être très pertinente : la personne connaît son activité et peut avoir déjà comparé des options. Comprendre son besoin permet de vérifier cette piste, pas de lui expliquer d'avance qu'elle se trompe. Derrière un export, il peut y avoir un contrôle mensuel, un transfert vers un autre outil ou une exigence de format. Ces situations n'appellent pas forcément le même travail. Le contexte, la fréquence et le résultat attendu changent ce qu'il faut construire.
 
-Cette hypothèse est un signal fort et une mauvaise spécification. Derrière "il nous faut un export de fin de mois", il y a quelqu'un qui doit prouver un chiffre à un auditeur. Derrière "ajoutez un champ", il y a un processus que ton produit ignore. Construis exactement ce qui est demandé et tu achètes une semaine de bonne volonté, le besoin reste où il était, et tu dois maintenant assurer la maintenance.
+Une solution plus petite suffit parfois. Dans d'autres cas, le format demandé est une contrainte réelle et le raccourci imaginé par l'équipe ne convient pas. Demande un exemple de l'utilisation finale plutôt que de déduire la réponse du nom de la fonctionnalité.
 
-Le client pèse lourd, la demande est écrite, et poser des questions peut donner l'impression qu'on freine un contrat qui paie les salaires du mois. Alors ne bloque pas la demande. Pose la question au moment même où tu l'acceptes.
+Accuser réception ne signifie pas s'engager à livrer. Tu peux dire que la demande est comprise et annoncer quand une réponse sera donnée. Si un engagement existe déjà, précise-le avant de proposer un changement et fais valider celui-ci par la personne responsable.
 
-Comprendre le besoin permet parfois de livrer une solution moins coûteuse. Le problème de l'auditeur, c'est une vue filtrée et un bouton d'export, pas un module de reporting.
+Ce geste vaut aussi hors logiciel : demander un nouveau formulaire, une réunion ou un document propose déjà une solution. Pour un premier projet, examiner une seule demande avec son destinataire permet de pratiquer sans lancer une étude complète.
 
 ## À vérifier
 
-Sur la prochaine demande, avant que quiconque chiffre, renvoie un message.
+Sur une demande à ta portée, pose deux questions :
 
-> "Bien noté, et je veux construire la bonne chose. À quel moment de ta semaine ça arrive, et tu fais quoi à la place aujourd'hui ?"
+> "À quel moment en as-tu besoin, et que fais-tu avec le résultat ?"
+> "Comment fais-tu aujourd'hui, et qu'est-ce qui pose problème ?"
+
+Note les contraintes confirmées et une option de réponse, sans promettre au-delà de ton mandat. Convenez de ce qui permettra de vérifier l'utilité au prochain usage.
+
+Après cet usage, compare le résultat à l'attente. Une fonctionnalité peu utilisée n'est pas automatiquement inutile : certaines opérations sont rares mais importantes.
 
 ## Depuis ton siège
 
-- **Ingénierie** : exécuter la demande à la lettre te vaut un merci, puis de la maintenance.
-- **Design** : derrière ajoutez un champ, il y a un processus que l'écran ignore.
-- **Fondateur** : questionner peut donner l'impression de freiner. Fais-le au moment même où tu acceptes la demande.
-- **Relation client** : tu reçois une hypothèse de correctif. Demande à quel moment de la semaine ça arrive.
-- **Recrutement** : demande quelle demande le candidat a refusé de réaliser telle quelle, et pourquoi.
+- **Produit** : distingue réception d'une demande et engagement de livraison.
+- **Ingénierie** : vérifie les contraintes avant de proposer une solution plus petite.
+- **Relation client** : demande un exemple du résultat attendu, sans contester le besoin.
+- **Opérations** : explique ce qui doit se passer après l'export ou le formulaire.
 
 ## À discuter
 
-La dernière fonctionnalité construite mot pour mot comme demandé, son usage ressemble à quoi ?
+Quelle demande récente avons-nous reliée à son usage final, et qu'est-ce que cela a changé ?

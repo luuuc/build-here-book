@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Le métier"
-description: "Je suis excellent à quelque chose"
+description: "Je développe une compétence et mon jugement"
 show_chapter_number: false
 illustration: "apprentissage"
 step_number: 2
@@ -14,26 +14,28 @@ categories:
   - apprentissage
   - builders
 seo:
-  description: "Ton métier est l'endroit où tu commences, pas celui où ta responsabilité s'arrête."
+  description: "Choisir une compétence, observer une pratique, essayer et demander un retour pour développer son jugement."
   keywords: "build here, metier, craft, builder, apprentissage"
 redirect_from:
   - /chapters/06-00-engineering.html
   - /chapters/08-00-apprentissage.html
 ---
 
-L'étape précédente produit un risque, et il vaut mieux le nommer tout de suite. Quelqu'un qui remarque tout et ne sait rien réparer devient une source d'avis.
+Une commerciale apprend à poser une question qui éclaire le besoin. Un comptable repère une incohérence et sait la vérifier. Une personne au support explique une étape difficile sans laisser son interlocuteur deviner la suite. Un ingénieur rend un changement plus facile à comprendre et à entretenir.
 
-Devenir builder ne dispense de rien. Un commercial doit devenir excellent à vendre, un designer à concevoir, un comptable à tenir des comptes, un ingénieur à construire des systèmes qui tiennent. Connais tes outils. Comprends ton domaine. Regarde travailler des gens meilleurs que toi. Entraîne-toi sur des choses qui te résistent.
+Le métier se développe dans ces gestes précis. Il associe des outils, des connaissances et un jugement que la pratique permet d'affiner. Tu peux travailler une compétence nouvelle ou approfondir une chose que tu fais déjà bien.
 
-Ce qui empêche de progresser à cette étape ressemble justement à de la maîtrise. Douze ans d'expérience peuvent être douze fois la même année. Dès qu'un métier devient confortable, on répète ce qu'on sait déjà faire et, de l'intérieur, cette répétition ressemble beaucoup à de l'expertise. La différence est simple à vérifier : as-tu appris cette année quelque chose que tu ne savais pas l'année dernière, et peux-tu le nommer ?
+Si tu débutes, choisis une tâche à ta portée et un exemple que tu peux examiner. Refais un petit morceau, demande un retour sur un point et recommence. Tu n'as pas besoin de maîtriser tout le domaine pour apprendre quelque chose d'utile.
 
-L'autre piège se trouve à l'extrême opposé. Un métier devient une frontière dès qu'il sert à décrire ce qui ne te concerne pas. Ton métier est ton point de départ, pas la limite de ta responsabilité. Les huit étapes suivantes te conduisent presque toutes au-delà.
+Avec de l'expérience, tu disposes de repères qui valent la peine d'être conservés. Une nouvelle contrainte, un cas inhabituel ou une comparaison extérieure peut t'aider à voir ce qui reste solide et ce qui mérite d'évoluer. Une pratique stable peut aussi être une réussite : l'apprentissage ne demande pas de changer ce qui fonctionne sans raison.
 
-Cette étape est la seule du livre où tu es seul juge du niveau, et c'est précisément pour ça qu'elle a besoin d'une référence extérieure. Une équipe qui ne se compare qu'à elle-même finit par prendre sa propre moyenne pour référence.
+Les cartes proposent plusieurs moyens de progresser : lire une source, regarder un raisonnement, comparer deux approches, chercher une cause ou écouter un autre métier. Certaines concernent directement le logiciel. D'autres se transposent à une procédure, un document ou un service. Choisis celle dont tu peux réellement faire l'essai.
 
-Tu es passé à l'étape suivante quand quelqu'un d'une autre équipe t'apporte une question de ton domaine et que ta réponse n'est pas une supposition.
+Le temps, l'accès aux ressources et la possibilité de recevoir un retour comptent. Les cartes ⇄ aident les personnes qui organisent le travail à prévoir ces conditions, plutôt que de faire dépendre la progression des soirées disponibles.
 
-**Ce qui change :** ton jugement repose sur un métier que d'autres peuvent éprouver. **La tension qui reste :** si quelqu'un découpe encore chaque problème pour toi, cette compétence reste enfermée dans des tâches. L'étape suivante retire la procédure.
+Un signe de progression peut être une décision mieux expliquée, une erreur que tu sais maintenant repérer ou un geste que tu réalises avec moins d'aide. Compare des situations assez proches pour comprendre ce qui a changé.
+
+**À explorer ensuite :** l'autonomie aide à utiliser cette compétence dans un problème dont le périmètre reste à préciser. Tu peux l'exercer avec un soutien adapté, sans attendre d'être expert.
 
 ---
 
@@ -41,13 +43,13 @@ Tu es passé à l'étape suivante quand quelqu'un d'une autre équipe t'apporte 
 
 - 2.01 [Faire simple est une performance technique](/chapters/02-01-faire-simple-est-une-performance-technique.html)
 - 2.02 [Lis le code source](/chapters/02-02-lis-le-code-source.html)
-- 2.03 [Douze ans d'expérience, ou douze fois la même année](/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html)
-- 2.04 [Ton métier a une littérature, et tu ne l'as pas lue](/chapters/02-04-ton-metier-a-une-litterature.html)
-- 2.05 [Ton meilleur professeur ne travaille pas ici](/chapters/02-05-ton-meilleur-professeur-ne-travaille-pas-ici.html)
+- 2.03 [Choisis ce que tu veux mieux maîtriser](/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html)
+- 2.04 [Ton métier a une littérature](/chapters/02-04-ton-metier-a-une-litterature.html)
+- 2.05 [Cherche aussi des références ailleurs](/chapters/02-05-ton-meilleur-professeur-ne-travaille-pas-ici.html)
 - 2.06 [Ne t'arrête pas à la première réponse](/chapters/02-06-ne-tarrete-pas-a-la-premiere-reponse.html)
 - 2.07 [L'open source est une salle de classe](/chapters/02-07-lopen-source-est-une-salle-de-classe.html)
 - 2.08 [Lis en dehors de ton couloir](/chapters/02-08-lis-en-dehors-de-ton-couloir.html)
 - 2.09 [Ton marché peut être local. Ton niveau, non](/chapters/02-09-ton-marche-peut-etre-local-ton-niveau-non.html)
-- 2.10 [Le savoir n'est pas ce qui te manque](/chapters/02-10-le-savoir-nest-pas-ce-qui-te-manque.html)
+- 2.10 [Trouve un accès à ce qu'il te manque pour apprendre](/chapters/02-10-le-savoir-nest-pas-ce-qui-te-manque.html)
 - 2.11 [⇄ Tu récoltes la complexité que tu récompenses](/chapters/02-11-leader-tu-recoltes-la-complexite-que-tu-recompenses.html)
 - 2.12 [⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser](/chapters/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html)

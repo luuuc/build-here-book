@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Ton meilleur professeur ne travaille pas ici"
+title: "Cherche aussi des références ailleurs"
 part: "Le métier"
 order: 205
 card_type: principe
@@ -12,7 +12,7 @@ categories:
   - open-source
   - niveau
 seo:
-  description: "Une équipe qui ne se compare qu'à elle-même finit par prendre sa propre moyenne pour référence. C'est le plus facile : les exemples sont peu nombreux, proches et immédiatement accessibles."
+  description: "Un exemple extérieur peut élargir tes choix. Compare le problème, les contraintes et les effets avant de reprendre une solution."
   keywords: "build here, apprentissage, builder, meilleur, professeur, travaille"
 redirect_from:
   - /chapters/08-01-ton-meilleur-professeur-ne-travaille-pas-ici.html
@@ -20,38 +20,35 @@ redirect_from:
 
 ## Le réflexe
 
-Le plus fort de l'équipe fixe le niveau. Tu le regardes, tu apprends de lui, et son niveau devient discrètement la définition du bon.
+Tu apprends auprès des personnes proches de toi. Leurs exemples sont disponibles, leur contexte t'est familier et tu peux leur poser des questions.
 
 ## Le réflexe builder
 
-> "Notre senior est une référence. Pas la référence."
+> "Quel autre exemple pourrait m'aider à examiner ce choix ?"
 
 ## Pourquoi
 
-Une équipe qui ne se compare qu'à elle-même finit par prendre sa propre moyenne pour référence. C'est le plus facile : les exemples sont peu nombreux, proches et immédiatement accessibles.
+Un collègue expérimenté apporte une connaissance précieuse du terrain. Une référence extérieure peut ouvrir une autre possibilité : une façon de présenter un devis, un parcours plus clair, une grille d'entretien ou une architecture adaptée à un problème comparable.
 
-Le plafond est silencieux. Rien ne casse quand une équipe arrête de progresser. Les sprints se clôturent, les campagnes partent, les recrutements se terminent. Le seul signal dont tu aurais besoin est celui que tu n'as pas. Quelqu'un de l'extérieur qui ouvre le même travail et voit immédiatement ce qui manque.
+Tu peux chercher cette référence dans un autre service, une association, une communauté professionnelle ou un travail publié. La célébrité et la taille de l'organisation ne disent pas à elles seules si l'exemple te sera utile. Ce qui compte est de pouvoir examiner une décision et ce qu'elle permet.
 
-Ce quelqu'un n'est pas non plus sur la scène de la conférence locale. Ceux qui font le travail sont ceux dont personne n'a entendu parler, et ça t'inclut.
+Compare aussi les contraintes. Une équipe disposant de plus de moyens peut financer une assistance que tu ne peux pas proposer. Un service construit pour une connexion stable peut mal répondre à un usage sur réseau intermittent. Tu peux retenir une manière de raisonner sans reprendre toute la solution.
 
-La référence existe, et elle ne va pas descendre te chercher. Tu cherches un niveau d'exigence auquel te mesurer, pas une solution à copier. Compare ton parcours au produit que tes clients ouvrent tous les jours, ta réponse support à la meilleure que tu aies reçue, ta grille d'entretien à une grille publique qui explique chaque critère, ton système aux équipes qui ont déjà connu son échelle. Ces gens ne connaissent ni tes rails de paiement ni tes appareils de trois ans d'âge. Mais quelqu'un qui a résolu ce type de problème vingt fois sait ce qu'on peut raisonnablement exiger. Ton senior répond à la question locale. La référence extérieure répond à celle que personne dans le bâtiment n'a pensé à poser.
+Cette comparaison peut confirmer une force de ton propre travail. Elle sert à élargir tes choix, y compris quand ta solution actuelle reste la meilleure pour le besoin. Si tu débutes, un seul exemple commenté peut suffire pour apprendre un geste.
 
 ## À essayer
 
-Choisis un domaine où tu veux progresser cette année. Un seul.
+Choisis un sujet à approfondir et un exemple accessible qui traite un problème proche. Mets-le à côté de ton travail et note une décision différente, une contrainte différente et une chose que tu veux garder.
 
-Nomme trois personnes visiblement bonnes dedans. Pas célèbres. Bonnes. Mets une chose qu'elles ont livrée ou écrite à côté de ton propre travail sur le même problème, et note deux décisions qu'elles ont prises et que tu n'aurais pas prises.
-
-Fais-le chaque mois. La liste se met à se répéter, et ces répétitions montrent ce qu'il te reste à apprendre.
+Essaie une adaptation limitée ou demande une relecture à un pair. À la prochaine utilisation, regarde si elle aide le destinataire. Si elle ajoute du coût sans bénéfice observable, reviens au choix précédent et conserve la raison.
 
 ## Depuis ton siège
 
-- **Produit** : ton meilleur exemple d'arbitrage produit n'est pas dans cette boîte. Va le chercher.
-- **Design** : compare ton parcours à un produit que tes utilisateurs ouvrent tous les jours.
-- **Fondateur** : ton senior répond à la question locale. Une référence extérieure pose celle que personne n'a posée.
-- **Relation client** : lis une heure le support d'un produit mondial. Le niveau de réponse se compare aussi.
-- **Recrutement** : cherche tes références à l'extérieur, sinon tu recrutes à partir de ta propre moyenne.
+- **Produit** : compare les besoins servis avant de comparer les fonctionnalités.
+- **Design** : essaie le parcours dans les conditions réelles de ses utilisateurs.
+- **Support** : examine une réponse qui t'a aidé et le contexte qui la rendait pertinente.
+- **Recrutement** : compare les critères d'une grille, sans supposer que le prestige de son auteur les valide.
 
 ## À discuter
 
-Cite la dernière décision qu'on a changée à cause de quelqu'un d'extérieur à cette entreprise.
+Quelle comparaison extérieure nous a aidés à améliorer ou à confirmer notre propre façon de faire ?

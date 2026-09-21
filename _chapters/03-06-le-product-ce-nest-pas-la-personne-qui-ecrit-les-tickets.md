@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Le rôle du product, ce n'est pas de rédiger des tickets"
+title: "Le rôle produit relie les demandes aux résultats"
 part: "L'autonomie"
 order: 306
 card_type: principe
@@ -12,45 +12,43 @@ categories:
   - client
   - arbitrage
 seo:
-  description: "Si le rôle consiste à accepter puis à classer toutes les demandes, une file d'attente fait déjà le travail. La valeur du rôle produit tient dans sa capacité à refuser."
-  keywords: "build here, produit, builder, product, personne, ecrit, tickets"
+  description: "Relie cadrage, arbitrage et observation des résultats, avec un mandat explicite pour décider."
+  keywords: "build here, builder, produit, demandes, arbitrage, resultats"
 redirect_from:
   - /chapters/05-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html
 ---
 
 ## Le réflexe
 
-Le rôle est traité comme de la traduction. Les demandes arrivent du commercial, du fondateur, du plus gros client, et ressortent en tickets.
-
-Du secrétariat technique avec un titre flatteur.
+Les demandes arrivent du commercial, de la direction ou des utilisateurs. Le travail produit est surtout visible quand elles deviennent des tickets bien rédigés.
 
 ## Le réflexe builder
 
-Le product décide ce qu'on ne va pas faire.
+Le rôle produit aide à choisir les problèmes à traiter, à expliquer les arbitrages et à vérifier les résultats. La rédaction sert ces décisions.
 
 ## Pourquoi
 
-Si le rôle consiste à accepter puis à classer toutes les demandes, une file d'attente fait déjà le travail. La valeur du rôle produit tient dans sa capacité à refuser. Et un refus ne tient que s'il repose sur une connaissance du client assez solide pour contredire le fondateur, et juste assez souvent pour qu'on continue à l'écouter.
+Décrire et organiser le travail est utile. Sans cela, les décisions restent difficiles à mettre en pratique. Mais la qualité d'une demande écrite ne dit pas encore si elle mérite de passer avant une autre. Arbitrer demande de relier les besoins observés, les objectifs, les contraintes et la capacité disponible. Selon le contexte, on peut accepter, réduire, reporter ou refuser une demande. Le refus est une option, pas une preuve de courage ni la seule valeur du rôle produit.
 
-Là où n'importe qui peut ajouter et personne ne peut refuser, il n'y a pas de produit. Il y a une file, et une règle implicite. Celui qui insiste le plus fort, ou qui a le titre le plus haut, passe devant. Cette règle s'applique, qu'elle soit écrite ou non.
+Ce jugement se construit avec d'autres métiers. Le support repère des difficultés récurrentes, le commercial connaît un engagement, les opérations voient la charge à venir. L'équipe de réalisation peut proposer une solution plus petite. Aucune perspective ne remplace toutes les autres.
 
-Rien de tout ça n'est une fiche de poste. Un ingénieur qui dit "je sais le construire, je pense qu'on ne devrait pas, et voilà pourquoi" fait du product. L'agent support qui relie quinze tickets identiques à une seule étape cassée aussi. Et celui dont l'idée est la plus difficile à refuser devant les autres, c'est en général celui qui dirige.
+Pour exercer cet arbitrage, il faut un mandat clair. Une personne sans droit de modifier la feuille de route peut préparer des options et demander une décision ; on ne peut pas juger son autonomie au nombre de demandes qu'elle a refusées.
+
+Cette pratique existe aussi sans poste produit. Dans un projet associatif, décider quelle difficulté traiter avec le temps disponible relève du même travail. Une personne expérimentée peut aider à expliciter les critères ; une personne qui débute peut apporter un cas que le groupe n'avait pas vu.
 
 ## À essayer
 
-Tiens la liste des non. Un fichier court. La demande, qui la portait, la raison du refus, la date. Range-le à côté de la roadmap, même endroit, mêmes lecteurs.
+Tiens un relevé court des arbitrages : demande, besoin, décision, raison, responsable et condition de réexamen. Évite d'y recopier des informations sensibles inutiles.
 
-L'arbitrage devient visible, et on peut réexaminer un refus trois mois plus tard, avec les raisons qui l'ont motivé.
+Commence par une décision récente, puis partage-la avec les personnes concernées. À la date convenue, vérifie si le besoin, les contraintes ou les résultats justifient de la maintenir. Il n'est pas nécessaire de rouvrir un refus seulement pour montrer de l'ouverture.
 
 ## Depuis ton siège
 
-- **Ingénierie** : je sais le construire, je pense qu'on ne devrait pas, et voilà pourquoi. C'est du product.
-- **Design** : dire quel écran ne doit pas exister vaut mieux que dessiner les cinq qu'on te demande.
-- **Fondateur** : celui dont l'idée coûte le plus cher à refuser, c'est toi. Personne ne le fera à ta place.
-- **Management** : sans droit de refus, tu n'as pas de produit. Tu as une file où le plus insistant passe.
-- **Relation client** : quinze tickets identiques reliés à une seule étape cassée, c'est du product.
-- **Recrutement** : demande la dernière demande importante que le candidat a refusée, et à qui.
+- **Produit** : rends les critères visibles, y compris pour une demande acceptée.
+- **Ingénierie** : propose une option plus petite et explique ce qu'elle permet.
+- **Management** : précise les décisions que l'équipe peut prendre et celles à faire arbitrer.
+- **Relation client** : distingue le besoin observé de l'engagement déjà pris.
 
 ## À discuter
 
-C'est quoi la dernière demande significative qu'on a refusée ?
+Quel arbitrage récent pouvons-nous expliquer, et quelle information pourrait le faire changer ?

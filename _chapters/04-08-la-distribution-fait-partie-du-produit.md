@@ -13,7 +13,7 @@ categories:
   - distribution
   - marketing
 seo:
-  description: "Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du code. La construction est visible et le chemin ne l'est pas"
+  description: "Prépare et vérifie un chemin vers l'usage, adapté aux destinataires, aux conditions d'accès et aux moyens du projet."
   keywords: "build here, visibilite, builder, distribution, fait, partie, produit"
 redirect_from:
   - /chapters/12-02-la-distribution-fait-partie-du-produit.html
@@ -21,38 +21,39 @@ redirect_from:
 
 ## Le réflexe
 
-"Comment les gens vont le trouver" est une question pour plus tard, une fois que la chose marche. Elle est confiée à celui qui fait le marketing, après que toutes les décisions ont été prises.
+Le service prend forme. La manière dont les personnes concernées vont le découvrir et commencer à l'utiliser reste une question pour plus tard.
 
 ## Le réflexe builder
 
-Tu traces le chemin par lequel une personne qui a ce problème atterrit devant toi.
+Trace un chemin plausible entre le besoin et le premier usage utile, puis vérifie les passages que tu as supposés.
 
 ## Pourquoi
 
-Un produit que personne ne trouve n'existe pas, quelle que soit la qualité du code. On voit le produit se construire. On voit moins le travail nécessaire pour le faire connaître, alors toute l'entreprise le sous-estime.
+Un service peut être utile à un petit groupe sans chercher une large audience. Il faut néanmoins que ses destinataires sachent qu'il existe, comprennent à quoi il sert et puissent y accéder. Pour un outil interne, cela peut passer par une passation. Pour une association, par les personnes qui accueillent les nouveaux membres. Examiner ce chemin tôt aide à concevoir le premier usage. Un lien reçu par messagerie et ouvert avec une connexion limitée demande une entrée adaptée. Une personne qui arrive après une démonstration peut avoir d'autres questions. Ces situations se vérifient ; elles ne se déduisent pas du seul pays ou du métier de l'utilisateur.
 
-Les chemins se conçoivent. Certains produits portent leur propre diffusion. Une raison d'inviter quelqu'un, un artefact qui mérite d'être transmis, une chose qui marche mieux quand le bureau d'à côté s'en sert aussi. Ça ne s'ajoute pas au neuvième mois. Ça se prévoit quand on peut encore changer le modèle de données.
+Les chemins peuvent inclure une recommandation, un partenaire, une recherche, une vente accompagnée ou une publication. Aucun canal n'est obligatoire pour tous les projets. Choisis selon les personnes visées, le temps disponible et la relation que tu peux entretenir.
 
-Poser la question tôt change ce que tu construis. Une équipe dont les utilisateurs arrivent d'un résultat de recherche construit un premier écran qui répond à cette recherche. Une équipe dont les utilisateurs arrivent par un lien transféré dans un groupe WhatsApp, ouvert sur un Android de carte de gamme avec deux barres, construit un premier écran qui s'affiche malgré ces contraintes. Un écran générique ne sert ni l'un ni l'autre.
+Dans une organisation, le destinataire de la présentation n'est pas toujours celui qui autorise l'usage. Comprendre ce passage aide à préparer une explication ou un essai adapté. Cela ne justifie pas de collecter plus d'informations personnelles que nécessaire ni de multiplier les sollicitations.
 
-En B2B, on considère que ce parcours relève du commercial, alors personne ne le conçoit. Il existe quand même. Une boîte mail précise, une réunion précise, un slide montré à un patron qui n'était pas dans la salle. Prépare de quoi convaincre ce patron, sinon la vente se bloquera dans une discussion à laquelle tu ne participeras pas.
+La distribution demande du travail : organiser une démonstration, répondre aux questions, former un relais. Rends cet effort visible dans le périmètre du projet. Une petite expérience peut suffire à découvrir une difficulté avant d'investir davantage.
 
 ## À essayer
 
-Une séance, une page. Le chemin, sans rien sauter.
+Sur une page, décris un chemin :
 
-> Quelqu'un a ce problème. Il tape quoi, et où ? Il atterrit sur quoi ? Qu'est-ce qu'il y a en premier à l'écran ? Pourquoi il essaierait au lieu de fermer l'onglet ?
+> Où la personne entend-elle parler du service ? Que comprend-elle ? Comment essaie-t-elle ? Qui l'aide si elle bloque ?
 
-Marque chaque étape que tu as devinée. Cette liste, c'est le travail.
+Marque les passages supposés. Avec l'accord des personnes concernées, vérifie le plus incertain sur un essai limité. Sans produit, fais-le pour une activité ou une ressource que tu souhaites rendre accessible.
+
+Après l'essai, observe où la personne a avancé, hésité ou renoncé, et pourquoi si elle accepte de l'expliquer. Ajuste le chemin avant de chercher davantage de visiteurs.
 
 ## Depuis ton siège
 
-- **Ingénierie** : le premier écran d'un lien ouvert sur deux barres n'est pas celui d'un résultat de recherche.
-- **Fondateur** : prévois la diffusion avant de figer le modèle de données.
-- **Management** : rends visible le travail nécessaire pour faire connaître le produit.
-- **Relation client** : en B2B, le chemin est un slide montré à un patron absent de la salle. Conçois-le.
-- **Recrutement** : tu cherches quelqu'un qui sait tracer un chemin, pas quelqu'un qui sait faire du bruit.
+- **Ingénierie** : vérifie le premier usage dans les conditions d'accès visées.
+- **Marketing** : choisis un canal selon les destinataires et les moyens disponibles.
+- **Opérations** : prépare le relais entre découverte et service réellement rendu.
+- **Management** : compte le temps d'accompagnement dans l'effort du projet.
 
 ## À discuter
 
-Nos dix derniers utilisateurs, un par un. Chacun est venu d'où, et lesquels de ces chemins on pourrait refaire exprès ?
+Quel passage entre découverte et usage repose encore sur une supposition, et comment le vérifier ?

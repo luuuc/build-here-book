@@ -12,7 +12,7 @@ categories:
   - apprentissage
   - engineering
 seo:
-  description: "Les problèmes les plus coûteux se trouvent entre les équipes, là où personne ne s'en charge."
+  description: "Comprendre ce qui précède et suit ton travail aide à améliorer les passations, avec les accès et les accords adaptés."
   keywords: "build here, curiosite, builder, dehors, couloir"
 redirect_from:
   - /chapters/01-04-lis-en-dehors-de-ton-couloir.html
@@ -20,42 +20,35 @@ redirect_from:
 
 ## Le point de départ
 
-> "Ça, c'est le domaine de l'équipe data !"
-
-Chacun lit dans son couloir. Le back n'ouvre jamais le fichier de design. Le marketing ne sait pas faire une démonstration du produit sur lequel il écrit.
+Tu connais bien ta partie du travail. Tu vois moins ce qui arrive avant et après, surtout quand le dossier change d'équipe.
 
 ## Le geste
 
-> "Je veux savoir ce qui se passe avant moi et après moi."
-
-Pas pour prendre le travail. Pour comprendre comment ton travail s'insère dans l'ensemble.
+> "Peux-tu me montrer ce que tu reçois de moi et ce dont tu as besoin pour continuer ?"
 
 ## Pourquoi ça marche
 
-Les problèmes les plus coûteux se trouvent entre les équipes, là où personne ne s'en charge.
+Une passation peut laisser une information nécessaire entre deux responsabilités. Dans cet exemple, le support lance un remboursement, la finance annule le débit et personne ne sait qui doit modifier le droit d'accès. Chaque équipe traite sa partie, mais l'ensemble reste incomplet.
 
-Le support lance un remboursement. La facturation annule le débit. Rien ne révoque le droit d'accès, donc le client garde tout pendant un mois de plus. Le support suppose que la facturation s'en occupe. La facturation suppose que le produit le fait. Le produit n'a jamais été prévenu. Chacun a fait son travail correctement et l'entreprise a offert un mois.
+Suivre un cas avec les personnes concernées rend cette attente visible. Tu peux alors préciser une transmission ou poser une question à qui peut décider. Comprendre le travail voisin ne t'oblige pas à le reprendre et ne t'autorise pas à modifier seul son fonctionnement.
 
-C'est invisible depuis n'importe quel couloir. C'est visible pour celui qui lit des tickets de support qu'il n'est pas obligé de lire, et cette personne devient celle vers qui tout le monde se tourne. Le rôle n'apparaît quasiment jamais sur l'organigramme, et il vaut plus que la plupart des titres qui y figurent.
+L'observation demande un accès adapté. Un canal de support, un dossier financier ou une candidature peut contenir des informations qui ne doivent pas circuler largement. Une démonstration, un exemple anonymisé ou une conversation guidée peuvent suffire.
 
-S'intéresser au travail des autres ne veut pas dire donner son avis sur tout. Un avis dans le canal d'une autre équipe dès la première semaine ne te rapporte rien et leur coûte une demi-journée. Lis d'abord. Assez longtemps pour te tromper en privé.
+Si tu débutes ou travailles seul, regarde la personne qui utilisera ton résultat. Ce qu'elle fait juste avant et juste après peut t'apprendre pourquoi une consigne claire pour toi lui pose problème. Avec de l'expérience, la même enquête peut révéler une contrainte qui a changé depuis la dernière passation.
 
 ## À essayer
 
-Rejoins un canal qui n'est pas le tien. Support. Incidents. Sales.
+Demande un court échange à une personne dont le travail touche le tien. Convenez d'un cas partageable et suis-le jusqu'au passage de relais. Note une chose reçue, une chose attendue et une incertitude.
 
-Lis-le pendant quinze jours sans rien poster. Tiens une liste des choses que tu as vues se répéter sans pouvoir les expliquer.
-
-Puis pose une question sur l'une d'elles, dans le canal, en citant les trois fois où tu l'as vue passer.
+Fais confirmer cette description avant de proposer un changement. Si une amélioration est décidée, vérifiez ensemble la prochaine passation : l'information utile est-elle arrivée au bon moment ? Si le problème dépasse vos responsabilités, transmettez le cas et la décision manquante à la personne concernée.
 
 ## Depuis ton siège
 
-- **Produit** : après le paiement, vérifie qui prend le relais. Les responsabilités y sont souvent floues.
-- **Design** : suis un ticket de support jusqu'au bout. Tu verras l'écran que les gens contournent.
-- **Management** : celui qui lit le couloir d'à côté n'a pas de titre pour ça. Sache au moins qui c'est.
-- **Relation client** : tu vois les problèmes entre équipes en premier. Signale-les, avec trois exemples datés.
-- **Recrutement** : demande ce qui se passe avant et après le travail du candidat. Tu verras s'il comprend l'ensemble.
+- **Opérations** : montre où le dossier attend et ce qui permet de le reprendre.
+- **Finance** : précise les confirmations nécessaires sans ouvrir des données inutiles à l'enquête.
+- **Management** : facilite un échange limité plutôt que d'ajouter une responsabilité informelle.
+- **Relation client** : rapporte le parcours vécu par la personne et les attentes encore ouvertes.
 
 ## À discuter
 
-Est-ce que quelqu'un ici peut expliquer, sans préparation, ce qui se passe entre le moment où un client paie et le moment où il est servi ?
+Quelle information manque lors d'une passation récente, et à qui demander de vérifier le parcours ?

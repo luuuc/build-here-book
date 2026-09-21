@@ -34,7 +34,7 @@ Le test n'a jamais parlé de code. Il demande si un inconnu peut s'en servir san
 
 Ce qui manque le plus n'est d'ailleurs pas technique. Il existe des milliers de textes sur les files d'attente distribuées et presque rien sur la façon dont on rattrape un paiement mobile qui a échoué chez un opérateur qui répond au téléphone. Personne n'a écrit comment on forme un agent support sur un produit qui change chaque semaine, ni comment on fait tenir une réunion client quand la moitié du processus vit dans un groupe WhatsApp. Ici, des gens savent faire tout ça et le trouvent banal.
 
-La forme ne change pas d'un métier à l'autre. Une chronologie, un chiffre, une chose que le lecteur peut aller vérifier. *Le support client, c'est de la recherche produit avec des participants énervés* demande d'étiqueter une semaine de tickets par cause. Ce tableau, publié avec les proportions et sans le nom d'un seul client, est un artefact qu'une équipe ailleurs peut poser à côté du sien dès demain.
+La forme ne change pas d'un métier à l'autre. Une chronologie, un chiffre, une chose que le lecteur peut aller vérifier. *Apprends des demandes de support* propose d'examiner des cas accessibles avec leur contexte, une cause possible et une vérification. Une synthèse peut aider une autre équipe si elle distingue les observations des hypothèses et ne contient que des informations dont le partage est autorisé. Elle peut aussi rester interne.
 
 Ce qui ne compte pas est le même pour tout le monde. Le retour d'expérience sans un chiffre dedans. L'article qui décrit une méthode générale que trente personnes ont déjà décrite. Ne publie pas ce que ton métier est censé faire, publie ce que la pratique de ton métier t'a appris et qu'on ne découvre qu'en le faisant.
 

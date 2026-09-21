@@ -12,7 +12,7 @@ categories:
   - simplicite
   - technique
 seo:
-  description: "Presque tout ce dont tu dépends est lisible. Le framework, le client HTTP, le driver de base de données, le script de déploiement."
+  description: "Quand une dépendance te surprend, sa source peut éclairer le comportement. Vérifie la version, le contexte et un cas précis."
   keywords: "build here, engineering, builder, code, source"
 redirect_from:
   - /chapters/06-03-lis-le-code-source.html
@@ -20,36 +20,34 @@ redirect_from:
 
 ## Le point de départ
 
-La bibliothèque ne se comporte pas comme prévu. Tu cherches, tu essaies trois réponses d'un thread de forum, et tu gardes celle qui fait taire l'erreur.
+Une bibliothèque logicielle se comporte autrement que prévu. La documentation et les exemples que tu as trouvés n'expliquent pas encore ton cas.
 
 ## Le geste
 
-Tu ouvres le fichier. Tu lis la fonction que tu appelles.
+Ouvre l'implémentation correspondant à la version utilisée et cherche la fonction concernée.
 
 ## Pourquoi ça marche
 
-Presque tout ce dont tu dépends est lisible. Le framework, le client HTTP, le driver de base de données, le script de déploiement. C'est déjà sur ton disque, dans le dossier des dépendances.
+Quand le code est accessible, il peut montrer une règle que la documentation résume : une durée d'attente par défaut, une condition sur une valeur ou la façon de construire une clé de cache. Cette lecture aide à transformer une supposition en hypothèse vérifiable.
 
-La plupart des gens ne l'ouvrent jamais, ce qui te laisse avec ce que la documentation a choisi de couvrir. Elle est en retard, partielle, et n'a pas été écrite pour ton cas. Le code, si. Un timeout par défaut à trente secondes. Une clé de cache qui inclut la locale, ce qui explique pourquoi le staging allait bien et la prod non.
+Le fichier doit correspondre à ce qui tourne réellement. Une autre version, une configuration différente ou un service distant peuvent expliquer l'écart. Le code seul ne raconte pas toujours les conditions d'exécution.
 
-Lis seulement la fonction que tu appelles vraiment, et saute les builds minifiés et les clients générés. La personne qui te répondrait en trente secondes n'existe pas dans le bâtiment, et le support du fournisseur travaille pendant que tu dors.
+Tu n'as pas besoin de lire le projet entier. Pars d'une entrée et suis-la jusqu'au comportement qui t'intéresse. Si tu débutes, demande à quelqu'un de parcourir cette fonction avec toi. Une session courte peut t'apprendre où regarder et quels mots chercher ensuite.
 
-Personne n'a le droit de te dire que ce savoir est réservé à quelques-uns. Il n'y a pas de porte. C'est ouvert, c'est complet, c'est déjà sur ta machine, et c'est la même copie, au bit près, que celle que lit la personne que tu prends pour l'expert.
+Cette carte concerne une pratique technique. Dans un autre métier, le geste voisin consiste à revenir au document qui fixe la règle : une procédure, une formule de calcul ou les conditions d'un service. Si la source est fermée ou hors de tes accès, demande un exemple reproductible ou une explication au fournisseur. Lire le code n'est pas une condition pour être builder.
 
 ## À essayer
 
-La prochaine fois qu'une bibliothèque te surprend, ouvre le fichier avant d'ouvrir l'onglet de recherche.
+Prends un comportement précis et note ce que tu attendais. Consacre quinze minutes à la source disponible, puis écris une hypothèse et l'endroit qui la soutient.
 
-Quinze minutes. Tu ne comprendras pas le projet. Tu comprendras au moins ce que fait cette fonction.
+Vérifie-la dans un environnement adapté, avec un petit exemple ou une personne compétente. Si tu ne peux pas conclure, transmets ce que tu as regardé et la question qui reste. À la fin, tu dois pouvoir distinguer ce que la source montre de ce que tu supposes encore.
 
 ## Depuis ton siège
 
-- **Produit** : le comportement par défaut d'une dépendance est une décision produit que tu n'as pas prise.
-- **Design** : le composant que tu utilises impose ses règles. Ouvre-le avant de dessiner autour.
-- **Management** : lire un pilote de base de données, c'est travailler. Dis-le à l'équipe.
-- **Relation client** : le bug que décrit le client est parfois documenté nulle part et lisible en dix minutes.
-- **Recrutement** : demande une dépendance dont le candidat a lu le code, et ce qu'il y a trouvé.
+- **Ingénierie** : conserve la version et le cas qui permettent de retrouver l'observation.
+- **Produit** : demande ce que le comportement technique implique pour l'usage.
+- **Management** : prévois une aide à la lecture pour les personnes qui découvrent le système.
 
 ## À discuter
 
-Qui ici a lu le code source d'une dépendance sans laquelle notre produit ne tourne pas ?
+Quel comportement récent avons-nous mieux compris en revenant à sa source, et comment l'avons-nous vérifié ?

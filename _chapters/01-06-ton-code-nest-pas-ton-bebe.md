@@ -1,18 +1,18 @@
 ---
 layout: chapter
-title: "Ton code n'est pas ton bébé"
+title: "Ton travail peut changer sans te remettre en cause"
 part: "L'état d'esprit"
 order: 106
 card_type: principe
 metadata:
   principle: "1.06"
-  reading_time_in_minutes: 3
+  reading_time_in_minutes: 2
 categories:
   - ego
   - honnetete-intellectuelle
   - culture
 seo:
-  description: "Tu es l'auteur de ton travail. Ça ne te définit pas. Confondre les deux rend les revues de code tendues, les critiques de design polies"
+  description: "Une critique devient utile quand elle précise un cas, un critère et une amélioration à vérifier."
   keywords: "build here, ego et honnetete intellectuelle, builder, code, bebe"
 redirect_from:
   - /chapters/02-03-ton-code-nest-pas-ton-bebe.html
@@ -20,42 +20,36 @@ redirect_from:
 
 ## Le réflexe
 
-Quelqu'un critique une fonction que tu as écrite, et tu sens quelque chose. Pas de la curiosité. Un serrement.
-
-Tu réponds vite. Tu expliques le contexte. Tu mentionnes les contraintes que tu avais.
+Quelqu'un critique une fonction, une maquette ou un message que tu as préparé. Tu commences à expliquer tes contraintes avant d'avoir compris son objection.
 
 ## Le réflexe builder
 
-> "Oui, c'est moche ! J'avais deux jours. On fait quoi maintenant ?"
+> "Qu'est-ce qui te fait penser que ça ne répond pas au besoin ? Regardons le cas ensemble."
 
 ## Pourquoi
 
-Tu es l'auteur de ton travail. Ça ne te définit pas. Confondre les deux rend les revues de code tendues, les critiques de design polies, et un retour honnête sur un plan marketing impossible.
+Tu peux tenir à ton travail et examiner ce qui mérite d'y changer. Une réaction défensive n'annule pas ton savoir du contexte ; une critique ne prouve pas non plus que son auteur a raison.
 
-Le signal est physique, donc facile à repérer. Le pouls qui monte quand quelqu'un ouvre ton travail, l'attachement est là. Ça veut dire que tu tiens à ce que tu fais. La question est de savoir à quoi tu tiens. Au résultat pour le client ? Tu cherches à corriger. À la ligne que tu as écrite ? Tu cherches à la défendre.
+Dans une revue, un commentaire sur une erreur possible mérite d'être relié à un cas. Un relecteur dit que le message envoyé aux nouveaux inscrits est trop court. Son inquiétude porte en fait sur l'absence d'adresse. Ajouter cette information peut suffire, sans réécrire tout le message.
 
-L'attachement transforme chaque commentaire de revue en effort de négociation. À partir du moment où laisser un commentaire coûte au relecteur dix minutes de gestion de ta réaction, il commence à choisir lesquels valent le coup. Les petits partent en premier, le nommage et la forme. Puis les structurels. Ouvre un thread de revue d'il y a un an et un du mois dernier. Moins de commentaires, moins bon code. Personne n'a décidé ça. Les gens ont juste arrêté de payer. Tu seras le dernier au courant, parce que de là où tu es, les revues sont devenues plus fluides.
+Le mécanisme inverse existe aussi. Celui qui entretient un système peut défendre un choix parce qu'il se souvient d'une panne. Dire qu'il est "attaché à son code" écarte cette information sans l'examiner. Cherche ce que le désaccord révèle avant d'en interpréter la cause.
 
-Le principe peut aussi être détourné, et c'est cette moitié-là qu'on oublie. "Tu es attaché à ton code" est le moyen le plus rapide d'écarter une objection à laquelle tu ne sais pas répondre. Celui qui fait tourner ce système depuis trois ans et qui dit que le système ne tiendra pas la charge avec ce changement ne défend en général pas un bébé. Il se souvient d'une panne que personne d'autre dans la discussion n'a connue. L'attachement est une chose que tu diagnostiques chez toi. Braqué sur quelqu'un d'autre en plein débat, c'est une façon de gagner sans discuter, et ça te coûte la revue que cette carte essaie justement de protéger.
+Un échange utile permet aux deux personnes d'expliciter leurs critères : à qui le travail sert, ce qu'il doit permettre et les contraintes à respecter. Pour un premier projet, tu peux demander un retour sur un seul point. Pour un travail expérimenté, tu peux inviter quelqu'un à examiner une hypothèse dont tu es moins sûr.
 
 ## À essayer
 
-À ta prochaine revue de code, ou ton prochain document, ajoute une ligne en haut.
+En demandant une relecture, nomme la question sur laquelle tu veux de l'aide et le temps disponible.
 
-> C'est cette partie dont je suis le moins sûr. Regardez là en premier.
+> "Peux-tu regarder si quelqu'un qui découvre le sujet saura quoi faire ensuite ?"
 
-Meilleur retour, et la critique est désamorcée. Tu l'as demandée.
-
-Puis une règle quand les commentaires arrivent. Ne réponds à aucun avant d'avoir reformulé l'objection et obtenu un "oui, c'est ça". Si tu ne sais pas l'énoncer mieux que celui qui l'a soulevée, tu n'y as pas répondu. Tu l'as contournée.
+Sur un désaccord important, reformule l'objection puis apporte ton contexte. Décidez ce que vous changez, ce que vous gardez et ce qui demande un essai. Après la prochaine utilisation, regardez si le problème soulevé apparaît encore. Un désaccord argumenté peut rester ouvert sans empêcher toute avancée.
 
 ## Depuis ton siège
 
-- **Produit** : quand on critique ta spec, demande ce qui casse chez le client, pas qui a écrit la ligne.
-- **Design** : si les retours sur tes maquettes sont tous polis, les critiques ont peut-être été découragées.
-- **Management** : compare un thread de revue d'il y a un an et un du mois dernier. Compte les commentaires.
-- **Relation client** : le client qui démonte le produit ne te démonte pas. Rapporte-le mot pour mot.
-- **Recrutement** : demande la dernière fois qu'on a démonté son travail, et ce qu'il a fait ensuite.
+- **Design** : demande ce que la personne essaie de faire devant l'écran.
+- **Management** : aide à distinguer une préférence d'un risque ou d'une contrainte vérifiable.
+- **Relation client** : apporte un exemple d'incompréhension en protégeant les informations du client.
 
 ## À discuter
 
-À qui dans cette équipe on hésite à donner un retour direct ?
+Quel retour récent a changé notre travail, et qu'est-ce qui l'a rendu utile ?

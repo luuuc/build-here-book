@@ -1,18 +1,18 @@
 ---
 layout: chapter
-title: "Avoir tort ne coûte rien. Le rester coûte cher"
+title: "Reviens sur une décision quand les faits changent"
 part: "L'état d'esprit"
 order: 104
 card_type: principe
 metadata:
   principle: "1.04"
-  reading_time_in_minutes: 1
+  reading_time_in_minutes: 2
 categories:
   - ego
   - honnetete-intellectuelle
   - culture
 seo:
-  description: "Une décision annulée dès la première semaine coûte une semaine. La même décision, défendue jusqu'au bout parce que trois personnes y ont accroché leur crédibilité, coûte un trimestre."
+  description: "Des faits nouveaux peuvent justifier de revoir une décision. Écris ce qui ferait changer le plan et examine le coût de la correction."
   keywords: "build here, ego et honnetete intellectuelle, builder, avoir, tort, coute, rien, rester"
 redirect_from:
   - /chapters/02-01-avoir-tort-ne-coute-rien-le-rester-coute-cher.html
@@ -22,35 +22,36 @@ redirect_from:
 
 > "On a déjà tranché. On y va."
 
-Changer d'avis en cours de route passe pour de la faiblesse. Alors tu continues.
+Des faits nouveaux fragilisent le choix, mais changer de direction engage le travail déjà lancé.
 
 ## Le réflexe builder
 
-> "Les chiffres ne confirment pas ce qu'on pensait. On arrête."
+> "Voilà ce qui a changé depuis la décision. Regardons si le plan tient encore."
 
 ## Pourquoi
 
-Une décision annulée dès la première semaine coûte une semaine. La même décision, défendue jusqu'au bout parce que trois personnes y ont accroché leur crédibilité, coûte un trimestre.
+Une décision engage d'autres choix : une équipe prépare une campagne, une autre construit un écran, une troisième annonce une date. Quand une hypothèse devient douteuse, continuer sans en parler peut augmenter le coût de la correction.
 
-Ce n'est pas l'erreur initiale qui s'aggrave toute seule. C'est tout ce qui a été construit par-dessus pendant que personne n'avait le droit de le dire. Le schéma sur lequel deux autres équipes ont commencé à écrire. La présentation montrée au conseil d'administration. Le recrutement fait pour une stack que tu es sur le point de quitter.
+Revenir sur un choix a aussi un coût. Il faut comprendre les conséquences, prévenir les personnes engagées et parfois maintenir une partie du travail pour tenir une obligation. Reconnaître l'erreur et arrêter immédiatement ne sont pas toujours la même décision.
 
-Si tu ne peux pas nommer ce que tu as appris depuis la décision, tu ne corriges pas, tu vacilles. Le délai est rarement technique. Celui qui doit arrêter est celui qui a proposé, et au bout de deux mois tout le monde l'associe à cette décision. C'est à lui de dire qu'il faut arrêter, et c'est ce qui rend la chose difficile.
+Un signal isolé ne suffit pas forcément. Si une première personne n'utilise pas le nouveau parcours, tu peux chercher pourquoi et examiner d'autres cas avant de conclure. Ce qui compte est de rendre l'incertitude visible assez tôt pour pouvoir encore choisir.
+
+Écrire à l'avance ce qui ferait réexaminer le plan aide à séparer les faits de l'attachement au travail accompli. Ce critère peut évoluer, mais sa modification mérite elle aussi une raison écrite. Un pair peut relire cette raison avec toi.
 
 ## À essayer
 
-Quand une décision engage plusieurs semaines, écris une ligne à côté avant de commencer.
+Pour un prochain choix, note trois lignes : l'hypothèse, le fait qui la mettrait en doute et le moment où tu le vérifieras. Sur un petit projet, la prochaine utilisation peut suffire.
 
-> Ce qui me ferait revenir en arrière, et la date à laquelle je vérifie : ...
+À cette date, compare l'observation à l'attente. Propose de continuer, de modifier, d'enquêter davantage ou d'arrêter, avec les conséquences de chaque option. Si d'autres portent l'engagement, prends la décision avec eux avant de changer ce qui leur a été promis.
 
-Écris-la pendant que tu es encore neutre. Trois semaines plus tard, tu tordras le critère jusqu'à ce que ce que tu as construit passe. Mets une date, et tiens-la.
+Relis ensuite ce que la correction a produit. Tu sauras si elle a traité le problème ou seulement déplacé l'incertitude.
 
 ## Depuis ton siège
 
-- **Ingénierie** : le schéma sur lequel deux autres équipes écrivent déjà alourdit le coût de l'erreur.
-- **Produit** : ta spec a un critère d'abandon, ou tu le découvriras au lancement.
-- **Management** : celui qui a proposé est celui qui doit arrêter. Permets-le sans le discréditer.
-- **Recrutement** : recruter pour une stack qu'on s'apprête à quitter est le même coût, en plus lent.
+- **Ingénierie** : identifie les autres travaux qui dépendent du choix technique.
+- **Produit** : garde la date et la raison d'un changement d'hypothèse.
+- **Management** : accueille les faits nouveaux avant d'évaluer qui avait proposé le plan.
 
 ## À discuter
 
-Quelle décision on garde uniquement parce que revenir en arrière serait gênant ?
+Quel fait récent mérite de rouvrir une décision, et qui doit participer à son réexamen ?

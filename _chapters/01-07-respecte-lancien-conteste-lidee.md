@@ -24,7 +24,7 @@ La plus ancienne commerciale explique pourquoi il ne faut pas changer l'offre ce
 
 Deux d'entre eux savent aussi que la raison qu'elle vient de donner a cessé d'être vraie il y a dix-huit mois.
 
-Ni l'un ni l'autre ne le dit. Le contredire devant tout le monde serait grossier.
+Ni l'un ni l'autre ne le dit. La contredire devant tout le monde leur paraît difficile.
 
 ## Le réflexe builder
 
@@ -36,7 +36,7 @@ Le respect est dû à la personne. Il n'est pas dû à la phrase. Cette confusio
 
 Le désaccord ne disparaît pas. Il se déplace. Le couloir, un groupe plus petit, un thread privé vingt minutes après la réunion. L'équipe se retrouve à détenir à la fois le mauvais plan et sa correction, et les deux ne se croisent jamais dans la même pièce.
 
-L'échec inverse est plus rare et beaucoup plus bruyant. Quelqu'un lit une carte comme celle-ci et transforme la contestation en personnalité, contredit à chaque revue, traite chaque réunion comme un endroit où démontrer son indépendance. Cette personne n'aide pas l'équipe à mieux décider, elle épuise son attention, et en un mois sa seule objection sérieuse pèse exactement le poids des neuf autres. La capacité d'une équipe à entendre les désaccords n'est pas infinie. Ceux dont les objections font vraiment bouger les décisions choisissent leurs batailles.
+Le désaccord peut aussi perdre son utilité quand il devient systématique. Quelqu'un lit une carte comme celle-ci et transforme la contestation en personnalité, contredit à chaque revue, traite chaque réunion comme un endroit où démontrer son indépendance. Cette personne n'aide pas l'équipe à mieux décider, elle épuise son attention, et en un mois sa seule objection sérieuse pèse exactement le poids des neuf autres. La capacité d'une équipe à entendre les désaccords n'est pas infinie. Ceux dont les objections font vraiment bouger les décisions choisissent leurs batailles.
 
 Contredire en public coûte plus cher quand la personne qu'on corrige est la seule dans ton entourage à avoir cette expérience. L'équipe protège sa seule source de savoir autant que le prestige de cette personne. Là où ce coût est réel, mets le désaccord par écrit en amont, pour qu'elle puisse changer d'avis sans public.
 
@@ -46,16 +46,16 @@ Sépare les deux niveaux en une phrase.
 
 > "Je te suis sur l'objectif. C'est la méthode qui me bloque."
 
-Il ne reste que le problème sur la table.
+Ajoute un fait précis et demande ce qui pourrait te manquer. Choisis un échange privé ou cherche un allié si parler dans le groupe t'expose. Après la décision, vérifie si l'objection a été examinée et où son traitement est consigné, même si le choix initial est maintenu.
 
 ## Depuis ton siège
 
-- **Ingénierie** : mets ton désaccord par écrit avant la revue. Il pourra changer d'avis sans public.
+- **Ingénierie** : choisis un échange écrit ou privé si cela facilite l'examen du désaccord.
 - **Produit** : choisis tes batailles. Les objections rares et solides font davantage bouger les décisions.
 - **Fondateur** : si la correction vit dans le couloir, tu détiens le mauvais plan et sa réponse, séparément.
 - **Management** : si tout le savoir repose sur un ancien, organise sa transmission.
-- **Recrutement** : demande la dernière fois qu'il a contredit plus ancien que lui, et comment.
+- **Recrutement** : demande un exemple de désaccord examiné, y compris entre pairs ou dans un projet personnel.
 
 ## À discuter
 
-La dernière fois que quelqu'un a contredit le plus ancien ici, où est-ce que les autres l'ont appris ? En réunion, ou dans le couloir ?
+Lors d'un désaccord récent, quel fait avons-nous examiné, et comment la décision a-t-elle été expliquée aux personnes concernées ?

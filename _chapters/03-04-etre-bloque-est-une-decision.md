@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Être bloqué est une décision"
+title: "Quand tu bloques, rends la suite explicite"
 part: "L'autonomie"
 order: 304
 card_type: diagnostic
@@ -12,51 +12,47 @@ categories:
   - responsabilite
   - execution
 seo:
-  description: "Attendre est confortable parce que ça donne une impression de rigueur. Personne n'est dérangé, aucun risque n'est pris"
-  keywords: "build here, ownership, builder, etre, bloque, decision"
+  description: "Distingue recherche, aide, accès et arbitrage pour organiser la suite d'un blocage réel."
+  keywords: "build here, builder, autonomie, blocage, aide, acces, arbitrage"
 redirect_from:
   - /chapters/04-05-etre-bloque-est-une-decision.html
 ---
 
 ## Le symptôme
 
-> "J'attends le collègue qui sait. Il revient la semaine prochaine."
-
-Parfois c'est le bon arbitrage et la salle le sait. C'est lui qui a construit la chose, la réponse n'existe que dans sa tête, et trois jours de tes suppositions produisent une version moins bonne de ce qu'il dirait en quatre minutes.
-
-La même phrase couvre aussi l'autre cas. La réponse est dans le repo, dans un doc, dans un ancien devis, dans un thread de mars, chez le client ou à un coup de fil. Rien de tout ça n'a été ouvert.
+Tu attends un accès, une réponse ou une décision. Le travail ne peut pas avancer comme prévu, et tu ne sais pas encore quelle suite proposer.
 
 ## Le signal
 
-Vingt minutes dessus. Tu en as la moitié. Tu demandes l'autre moitié.
+Distingue ce que tu peux vérifier, l'aide qu'il te faut et la décision qui appartient à quelqu'un d'autre.
 
 ## Ce qui se passe
 
-Attendre est confortable parce que ça donne une impression de rigueur. Personne n'est dérangé, aucun risque n'est pris, et si l'échéance glisse le blocage porte le nom de quelqu'un d'autre.
+Un blocage peut être réel : une autorisation manque, une personne détient une information, un outil est indisponible. Le rendre visible aide à agir dessus. Il ne prouve ni un manque d'initiative ni un défaut d'organisation de ta part.
 
-La plupart des réponses ne sont pas protégées, elles sont enterrées. Le contrat est dans un dossier partagé. Le client décroche si tu appelles. Les cinq derniers entretiens contiennent peut-être le motif qui manque. Le code est lisible. Le fournisseur a aussi une ligne de support, et elle ouvre au moment où ton après-midi se termine, donc une question envoyée coûte une journée au lieu d'une heure. D'où le rendement de vingt minutes passées à creuser toi-même.
+Certains blocages se réduisent par une recherche courte dans une documentation, un ancien cas ou un exemple connu. D'autres demandent de l'aide immédiatement. Quand tu débutes, ne pas savoir où chercher constitue déjà une raison de demander une orientation. Fixe une limite à la recherche selon l'urgence, le risque et ce que tu sais déjà. Vingt minutes peuvent être un repère pour une question ordinaire, jamais un droit d'entrée pour obtenir de l'aide. En incident ou devant une action irréversible, sollicite la personne compétente sans attendre ce délai.
 
-Ensuite il y a ce que la recherche laisse derrière et que la réponse ne laisse jamais. Chaque traversée du système ajoute une pièce à une carte que tu dessines sans le remarquer. Au bout d'un an tu arrêtes de chercher, parce que tu sais où regarder. Celui qui a toujours attendu n'a jamais dessiné la carte, et il reste dépendant de celui qui l'a fait.
+Une demande précise facilite la réponse : voici le résultat visé, le point bloqué, ce qui a été vérifié et l'effet sur la suite. Si tu ne peux pas faire ces vérifications, explique simplement ce qui manque. Tu n'as pas à contourner un accès ou à engager quelqu'un sans accord.
 
-Vingt minutes, c'est un maximum, pas une obligation. Cette règle vise l'attente par défaut, pas le fait de demander de l'aide. Appliquée à ton propre travail, elle signifie : cherche avant de solliciter quelqu'un. Opposée à une personne qui demande de l'aide après vingt-cinq minutes, elle apprend à toute l'équipe que demander a un prix. Tu crées alors exactement l'environnement que le reste de ce livre dénonce.
+Il arrive que la bonne décision reste d'attendre. Dans ce cas, nommez la prochaine date de retour et le travail qui peut avancer à côté. Si personne ne peut répondre, la personne responsable du périmètre doit pouvoir réduire l'engagement ou reporter l'échéance.
 
 ## À vérifier
 
-Vingt minutes à toi avant de demander. Puis demande en expliquant ce que tu as déjà vérifié.
+Sur un blocage actuel, écris :
 
-> "J'ai relu le document, vérifié les trois derniers cas et appelé le fournisseur. Je bloque encore sur cette étape. Ça te dit quelque chose ?"
+> Je cherche à ... Je bloque sur ... J'ai pu vérifier ... Il me manque ... L'effet sur le délai est ...
 
-Plus rapide, plus précis, et trente secondes de la journée de quelqu'un au lieu de dix minutes.
+Adresse la demande à une personne qui peut aider ou orienter. Propose un moment pour faire le point, sans promettre sa disponibilité à sa place.
+
+À ce moment, vérifie si le blocage est levé, s'il faut une autre aide ou si l'engagement doit changer. Garde un repère utile pour la prochaine fois.
 
 ## Depuis ton siège
 
-- **Produit** : ton blocage est une réponse qui n'arrive pas. Va la chercher chez la personne.
-- **Design** : ce qui te manque est chez l'utilisateur, pas chez le développeur.
-- **Fondateur** : une décision que tu n'as pas prise bloque plus de monde qu'un bug.
-- **Management** : reproche à quelqu'un de demander de l'aide, et plus personne n'osera le faire.
-- **Relation client** : le client ne sait pas que tu attends quelqu'un. Dis-lui où ça en est.
-- **Recrutement** : demande la dernière fois que le candidat s'est débloqué seul, et par où il est passé.
+- **Ingénierie** : distingue une recherche possible d'un accès qui nécessite un accord.
+- **Management** : rends la demande d'aide possible sans exiger une durée minimale de recherche.
+- **Relation client** : explique l'état du dossier et le prochain point convenu.
+- **Recrutement** : demande comment la personne a cherché de l'aide, pas seulement agi seule.
 
 ## À discuter
 
-Quelle question est posée ici encore et encore parce que la réponse n'a jamais été écrite ?
+Quel blocage demande une recherche, lequel demande un accès, et lequel demande un arbitrage ?

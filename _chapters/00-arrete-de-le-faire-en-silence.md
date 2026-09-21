@@ -1,68 +1,46 @@
 ---
 layout: chapter
-title: "Arrête de le faire en silence"
-description: "La blague, c'est le bâtiment"
+title: "Construire ici, et faire circuler ce qu’on apprend"
+description: "Une chose utile, un apprentissage, une suite possible"
 show_chapter_number: false
 part: "Introduction"
 order: 0
 metadata:
-  reading_time_in_minutes: 4
+  reading_time_in_minutes: 2
 categories:
   - introduction
   - builders
   - visibilite
 seo:
-  description: "Tout ce que demande ce livre est connu, gratuit et disponible depuis vingt ans. Rien n'est devenu la norme, parce que ceux qui pourraient l'incarner sont invisibles."
-  keywords: "build here, manifeste, builder, visibilite, sous-sol"
+  description: "Commencer, approfondir son métier, aider une équipe ou soutenir ceux qui construisent. Build Here relie des pratiques à une chose utile que tu peux essayer."
+  keywords: "build here, manifeste, builder, apprentissage, transmission"
 redirect_from:
   - /pourquoi-build-here/
   - /chapters/13-arreter-de-le-faire-en-silence.html
 ---
 
-## Le sous-sol
+## Une chose qui devient plus facile
 
-Il existe une sitcom britannique qui s'appelle *The IT Crowd*. Deux personnes qui savent réellement faire le travail sont installées au sous-sol, avec les tuyaux et les cartons. Personne ne descend. À l'étage, à la lumière, avec un bureau et un titre, il y a la personne qui représente le service informatique auprès de toute l'entreprise et qui ne sait pas allumer un ordinateur.
+Quelqu'un trouve enfin le bon renseignement. Un remboursement arrive sans trois relances. Une personne qui débute comprend assez le problème pour proposer sa propre solution. Une opération fragile tient le jour où l'équipe en a besoin.
 
-La série ne se moque jamais des deux du sous-sol. Elle les aime bien. La blague, c'est le bâtiment.
+Ces situations donnent une direction au travail : quelque chose devient plus utile, plus fiable ou plus accessible pour quelqu'un. Tu peux y contribuer en écrivant du code, en organisant un rendez-vous, en tenant des comptes, en répondant à une demande ou en aidant une personne à apprendre.
 
-Ce bâtiment tient debout là où tu es. En bas, ceux qui écrivent le code et qui tiennent quatre systèmes dans leur tête. Celle qui fait le produit et qui a passé une journée entière dans l'arrière-boutique d'un client, à le regarder faire. Le fondateur qui répond lui-même au support. En haut, en table ronde, en keynote d'ouverture, dans l'accélérateur, dans le carrousel des voix du secteur, ceux qui parlent au nom de tout ça.
+Tu peux aussi commencer sans métier établi. Repérer une difficulté à ta portée, écouter la personne qui la rencontre et essayer un petit changement. Le retour te donnera de quoi faire le pas suivant.
 
-Certains de ces rôles d'en haut sont nécessaires. Il faut bien que quelqu'un lève de l'argent. Il faut bien que quelqu'un explique le métier à des gens qui n'ouvriront jamais un terminal.
+## Pourquoi ce livre existe
 
-Le sous-sol ne dépend pas de la taille de l'entreprise, et il est plus profond chez un employeur de cent mille personnes que dans une équipe de six, parce qu'il y a davantage d'étages entre celui qui fait le travail et celui qui le raconte. Le niveau visible, celui qui finit par définir ce qu'est l'excellence, est alors fixé par des gens qui n'ont jamais eu à l'atteindre.
+J'ai cherché des builders en regardant surtout ceux que mon réseau rendait visibles. J'ai pris le résultat de ce filtre pour une mesure du niveau autour de moi. C'était mon erreur. Il m'appartenait de regarder le travail de plus près.
 
-Et personne d'en haut ne va descendre te chercher. Ils n'ont aucune raison de le faire. Vu d'en haut, le sous-sol, c'est l'endroit d'où sort internet.
+Ce livre part de cette correction. Il rassemble des pratiques pour construire, progresser et permettre à d'autres de le faire. Plusieurs viennent d'une littérature ancienne, présentée en [annexe 3](/chapters/a3-deja-ecrit.html). Leur intérêt ici est de les relier à une situation reconnaissable et à un geste qu'on peut essayer.
 
-## Pourquoi c'est absurde et pas tragique
+Si tu construis déjà, tu reconnaîtras des habitudes que tu as développées. Tu pourras en approfondir une, en discuter une autre, ou t'appuyer sur une carte pour accompagner quelqu'un. Si tu veux soutenir ce travail, le livre t'aide à choisir les conditions que tu peux rendre possibles : du temps, un accès, un retour précis, une décision claire.
 
-Les idées de ce livre sont connues depuis longtemps. Rien de nouveau ni de particulièrement audacieux. De la pratique ordinaire, débattue il y a vingt ans, écrite, publiée, ennuyeuse. Qu'un ticket n'est pas le travail. Qu'une spec est une hypothèse. Que celui qui tranche n'est pas automatiquement celui qui a raison. Que c'est en livrant qu'on apprend.
+## Faire une place à la pratique
 
-Rien de tout ça n'est secret. Tout est gratuit. L'essentiel est accessible avec la connexion qui te permet de lire ces lignes. La liste est en [annexe 3](/chapters/a3-deja-ecrit.html), avec les dates.
+Choisis une chose assez petite pour le temps dont tu disposes. Si elle engage d'autres personnes, conviens avec elles du périmètre et de la façon d'observer le résultat. Dans une équipe, ce temps se prévoit avec le reste du travail : il faut parfois déplacer une priorité pour lui faire une place.
 
-Tout est disponible, et rien n'est devenu la norme. C'est ce décalage qui entretient le problème.
+L'essai peut réussir, échouer ou révéler que le problème était ailleurs. Garde ce qu'il t'a appris. Une conversation avec un pair, une note interne, une personne formée ou un exemple public peuvent aider le suivant. La forme dépend du besoin et de ce que tu peux partager.
 
-Une équipe qui ne se mesure qu'à elle-même finit par prendre sa propre moyenne pour référence, et rien ne casse pour le signaler. Le sprint se clôture. La release part. Le client renouvelle. Aucun incident, aucune alarme, aucun mauvais trimestre. Juste un plafond que personne ne voit, qui tient des années.
+Un travail qui continue sans toi est précieux. Le service rendu aujourd'hui et le premier essai qui t'apprend quelque chose le sont aussi.
 
-Ceux qui pourraient incarner le niveau sont invisibles.
-Donc ce niveau paraît facultatif.
-Donc personne ne l'exige.
-Donc l'incarner ne rapporte rien.
-Donc ceux qui pourraient l'incarner restent au sous-sol, ou s'en vont.
-
-Chaque étape, prise isolément, est raisonnable. Mises bout à bout, elles sont absurdes.
-
-Et ceux qui deviennent bons et se font voir partent en majorité, ce qui est de l'arithmétique et pas une trahison. L'endroit qui les a formés paie la formation, et quelqu'un d'autre encaisse.
-
-Personne n'a conçu ce système. Aucun responsable ne se dégage, alors personne ne se charge de le changer.
-
-## Ce que ce livre te demande
-
-Il ne te demande pas seulement de devenir meilleur. Il te demande d'arrêter de le faire en silence. Livre en public. Mets ton nom sur ton travail. Mets-le sur internet, là où ça reste. Écris ce qui a cassé et ce que tu as fait. Réponds à la question dans le thread. Dis le chiffre à voix haute en réunion.
-
-Pas pour devenir visible à la place de ton travail. Pour rendre ton travail visible.
-
-Ça se paie. Publier expose ce que tu ne sais pas, date tes erreurs, et donne à d'autres de quoi te contredire avec tes propres mots. Tu le feras sur ton temps, souvent sans que personne le remarque, et l'essentiel de ce que ça rapporte arrivera à des gens que tu ne rencontreras pas.
-
-Fais-le quand même, pour celui qui a trois ans de moins que toi, qui n'a personne sur qui se caler, et qui est en train de conclure qu'il n'y a personne ici.
-
-**Les builders sont là depuis le début. Toi compris.**
+**Commence par ce que tu veux rendre possible.** Les [quatre parcours de lecture](/chapters/00-choisir-ton-parcours.html) proposent chacun trois cartes et un premier essai.

@@ -37,4 +37,12 @@ Pour toi, pour ton équipe, pour ceux que tu formes. Tout est là, en accès lib
 <br>
 Une carte, deux minutes, une idée qui tient seule.
 
-<a class="landing-cta" href="/chapters/00-introduction.html">Commencer la lecture →</a>
+<a class="cta-button" href="/chapters/00-introduction.html">Commencer la lecture →</a>
+
+## Choisir ton parcours
+
+Trois cartes et un premier essai selon ce que tu veux faire maintenant. Tu peux entrer directement dans le livre par l'un de ces parcours.
+
+{% include parcours.html %}
+
+Tu as déjà une difficulté précise en tête ? L'[index par situation](/chapters/a5-ce-qui-tagace-cette-semaine.html) te mène aux cartes concernées.

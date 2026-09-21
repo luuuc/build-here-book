@@ -12,7 +12,7 @@ categories:
   - niveau
   - client
 seo:
-  description: "Le suffisant repose sur une erreur de comparaison. Il suppose que la référence de ton client est ton marché. Elle ne l'est pas."
+  description: "Compare les usages et les contraintes pour choisir une amélioration utile, sans confondre qualité et imitation d'un autre marché."
   keywords: "build here, metier, niveau, comparaison, builder"
 redirect_from:
   - /chapters/08-04-ton-marche-peut-etre-local-ton-niveau-non.html
@@ -20,39 +20,38 @@ redirect_from:
 
 ## Le réflexe
 
-> "Pour notre marché, c'est largement suffisant."
+> "C'est comparable à ce qui se fait autour de nous."
 
-Le niveau est fixé par la concurrence qu'on a sous les yeux, et elle est parfois faible.
+Cette comparaison donne un repère. Elle ne dit pas encore si le travail répond bien au besoin de la personne qui l'utilise.
 
 ## Le réflexe builder
 
-Ton client ne te compare pas à tes concurrents. Il te compare à ce qu'il a utilisé dix minutes plus tôt.
+> "Qu'est-ce que cette personne doit pouvoir faire, dans quelles conditions, et quels exemples peuvent nous aider ?"
 
 ## Pourquoi
 
-Le suffisant repose sur une erreur de comparaison. Il suppose que la référence de ton client est ton marché. Elle ne l'est pas, et elle ne l'a jamais été.
+Les attentes se forment à travers plusieurs expériences. Une personne peut comparer ton service à un autre secteur, à un outil connu ou à une façon de faire sans outil. L'écart utile à regarder est celui qui gêne son usage.
 
-Il ouvre ton application juste après une autre, même téléphone, même pouce, et son idée de la normale a été calibrée par quelqu'un qui a mille ingénieurs. Personne n'accorde de remise en attendant qu'un écran s'affiche. Le même mécanisme vaut pour tous les métiers. Ta réponse au support est comparée à la meilleure réponse que cette personne a reçue de sa vie, pas aux tiennes. Ton rapport est comparé au plus clair qu'elle ait lu. Ta proposition commerciale est comparée à la mieux construite qu'on lui ait envoyée, dans un autre secteur, l'an dernier.
+Une connexion instable, un appareil ancien, un budget limité ou un moyen de paiement imposé changent les choix possibles. Une solution excellente dans un autre contexte peut échouer dans celui-ci. Construire avec ces contraintes demande du jugement et peut produire un exemple dont d'autres apprendront.
 
-Il faut alors séparer deux choses que la phrase « suffisant pour ce marché » mélange en permanence. S'adapter à des contraintes réelles est du métier. Connexions instables, appareils bon marché, moyens de paiement imposés, budget serré, client qui ne lit que sur téléphone, équipe de trois personnes. Bien travailler là-dedans est difficile et la majorité des praticiens du monde s'y casserait les dents. Baisser le niveau est autre chose, et ça ne se dit jamais à voix haute. Une partie de la qualité coûte vraiment cher : le nombre de fonctionnalités, le soin sur tout le produit, une assistance en continu. La majorité de ce qu'on juge dans les soixante premières secondes, non. Le temps de démarrage. Le bouton retour qui marche. L'erreur qui dit quoi faire ensuite. La phrase qui dit au client ce qui se passe maintenant. Ça coûte de l'attention, pas du budget.
+La qualité a aussi un coût. Clarifier un message peut demander peu de temps ; réduire un délai de chargement peut exiger une reprise importante. Il faut estimer l'effort au lieu de ranger chaque défaut dans un manque d'attention ou chaque contrainte dans une impossibilité.
 
-Ce choix décide aussi de ce qui reste possible ensuite. Un travail calibré sur le niveau local reste local, sans que personne ait eu à le décider.
+Une référence extérieure sert à ouvrir des options. Le choix final se fait avec les usages réels, les moyens disponibles et ce qu'une amélioration déplacerait. Maintenir un service fiable peut être préférable à ajouter une fonction plus impressionnante.
 
 ## À essayer
 
-Prends ton parcours ou ton livrable principal, et fais-le passer dans les pires conditions de tes clients. Chronomètre, ou compte les étapes.
+Choisis une tâche importante pour une personne qui utilise ton travail. Observe-la dans ses conditions habituelles, avec son accord, puis examine un autre exemple qui répond au même besoin.
 
-Refais-le avec l'équivalent le plus connu que tes clients utilisent déjà.
+Note un écart concret, son effet et l'effort estimé pour le réduire. Distingue ce que tu sais de ce qui reste à vérifier. Propose une amélioration limitée ou explique pourquoi elle ne vaut pas encore son coût.
 
-Marque chaque écart comme contrainte ou comme niveau. Ce sont deux listes différentes, et on range beaucoup trop de choses dans la première.
+Après l'essai, reprends la même tâche dans des conditions comparables. Regarde ce qui est devenu plus facile et ce qui reste difficile. Le résultat peut aussi confirmer qu'un choix local était bien adapté.
 
 ## Depuis ton siège
 
-- **Design** : le bouton retour, le temps de démarrage, l'erreur qui dit quoi faire. De l'attention, pas du budget.
-- **Fondateur** : un produit calibré sur le niveau local y reste, sans que personne l'ait décidé.
-- **Relation client** : ta réponse est comparée à la meilleure que cette personne ait jamais reçue.
-- **Recrutement** : écris le niveau que tu cherches en choses faites, pas en suffisant pour ici.
+- **Design** : observe le parcours sur les appareils réellement utilisés.
+- **Finance** : mets l'effort et le coût d'entretien à côté du bénéfice attendu.
+- **Relation client** : demande quel autre service ou quelle pratique sert de comparaison.
 
 ## À discuter
 
-Quand on dit ici que c'est suffisant, on compare à quoi, et qui a choisi cette comparaison ?
+Quel écart compte vraiment pour nos utilisateurs, et quel effort sommes-nous prêts à consacrer à le réduire ?

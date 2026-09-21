@@ -13,7 +13,7 @@ categories:
   - engineering
   - support
 seo:
-  description: "La première réponse qu'on trouve traite souvent le symptôme le plus visible. Comme ce symptôme disparaît, on croit avoir compris le problème."
+  description: "Une réponse peut résoudre la demande sans expliquer sa cause. Choisis les répétitions qui justifient une enquête proportionnée."
   keywords: "build here, curiosite, builder, arrete, premiere, reponse"
 redirect_from:
   - /chapters/01-05-ne-tarrete-pas-a-la-premiere-reponse.html
@@ -21,40 +21,38 @@ redirect_from:
 
 ## Le point de départ
 
-> "J'ai répondu au client, il est satisfait."
+> "J'ai envoyé le lien du reçu, la personne a pu le télécharger."
 
-Symptôme parti. Ticket suivant.
+La réponse a rendu service. Une demande semblable revient quelques jours plus tard.
 
 ## Le geste
 
-> "Ça marche. Mais pourquoi ça ne marchait pas ?"
-
-Une réponse qui fait disparaître le symptôme règle peut-être l'urgence. Elle laisse le problème de fond intact.
+> "Qu'est-ce qui rend ce lien difficile à trouver ?"
 
 ## Pourquoi ça marche
 
-La première réponse qu'on trouve traite souvent le symptôme le plus visible. Comme ce symptôme disparaît, on croit avoir compris le problème.
+Résoudre une demande et comprendre ce qui l'a provoquée sont deux travaux utiles. Le premier aide la personne maintenant. Le second peut éviter que d'autres rencontrent la même difficulté.
 
-Le traitement d'import s'est arrêté dans la nuit. Tu le relances, les chiffres reviennent, tu fermes le ticket. Trois semaines plus tard il échoue à nouveau, à une autre heure avec une autre erreur, donc le lien ne se fait pas. Il aura fallu deux nuits d'échec avant que quelqu'un demande ce que les deux fichiers avaient en commun. Chercher la cause demande environ trente minutes de plus. S'arrêter au symptôme, c'est retrouver le même problème pendant des années, avec une nouvelle explication à chaque fois.
+Trois demandes de reçu peuvent venir d'un bouton peu visible, d'un message qui n'arrive pas ou de situations différentes. Les regrouper trop vite sous une même cause produit une correction mal ciblée. Regarde ce que les personnes ont fait avant de demander et ce que tu peux effectivement vérifier.
 
-Le même piège existe loin du code. Trois clients demandent comment télécharger leur reçu. Le support envoie le bon lien, vite, et les trois repartent contents. La première réponse est bonne. La deuxième question est meilleure : pourquoi trois personnes qui viennent de payer ne trouvent-elles pas ce lien seules ? Tant que personne ne la pose, le support gagne sur son temps de réponse et l'entreprise paie la même réponse chaque semaine.
+La même démarche vaut pour un traitement informatique relancé après une erreur, un dossier renvoyé pour une pièce manquante ou une consigne qui doit être réexpliquée. Une résolution réussie donne un point de départ à l'enquête ; elle ne prouve pas que la cause est connue.
 
-Deux niveaux suffisent presque toujours. À force d'imposer un formulaire des cinq pourquoi et une réunion récurrente, on finit par décourager la recherche des causes. Ça a cassé, pourquoi ? Le champ était vide. Pourquoi il était vide ? Rien n'empêche qu'il soit vide. C'est cette deuxième réponse qui mérite d'être écrite, parce que le suivant ne peut pas y arriver seul.
+L'effort doit rester proportionné. Une urgence peut demander de restaurer le service d'abord. Un cas isolé sans conséquence durable peut ne pas justifier une recherche longue. Pour une répétition coûteuse, conviens d'un temps d'enquête et d'une personne à qui transmettre les faits si la cause dépasse ton accès.
 
 ## À essayer
 
-Pendant une semaine, ne ferme pas une demande, un incident ou une objection tant que sa résolution ne contient pas deux phrases. Ce que tu as fait, et ce qui permettait au problème d'exister.
+Sur une demande qui revient, note deux phrases : ce qui a aidé cette fois et ce qui pourrait expliquer la difficulté. Marque clairement la deuxième comme hypothèse si elle n'est pas vérifiée.
 
-Si la deuxième est "pas clair", écris-le. C'est vrai, et ça marque l'endroit pour le prochain qui tombera dessus.
+Choisis un cas à examiner avec la personne concernée. Si tu débutes, fais cette lecture avec quelqu'un qui connaît le parcours. Cherche aussi un cas qui contredit ton explication.
+
+Après une correction éventuelle, regarde les prochaines occurrences sur une durée adaptée. Si la demande revient, réexamine la cause au lieu de répéter la correction. Tu peux clore la demande servie tout en gardant une enquête distincte avec un responsable et une date.
 
 ## Depuis ton siège
 
-- **Produit** : un bug qui revient sous trois formes est une décision produit que personne n'a prise.
-- **Design** : quand un utilisateur contourne ton écran, le contournement n'est pas la cause.
-- **Management** : si fermer vite est ce qui se voit, personne ne cherchera la cause.
-- **Relation client** : note ce que le client faisait juste avant. C'est souvent la deuxième réponse.
-- **Recrutement** : demande un bug que le candidat a compris, pas un bug qu'il a fait disparaître.
+- **Produit** : compare les cas avant de transformer une répétition en priorité générale.
+- **Management** : distingue le temps de réponse du temps nécessaire pour enquêter.
+- **Support** : conserve ce que la personne essayait de faire juste avant la difficulté.
 
 ## À discuter
 
-Nomme un problème qui revient ici sous des formes différentes.
+Quelle résolution récente nous a laissé une question sur la cause, et quel fait permettrait de l'examiner ?

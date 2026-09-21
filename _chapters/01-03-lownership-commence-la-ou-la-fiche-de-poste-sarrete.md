@@ -1,10 +1,10 @@
 ---
 layout: chapter
-title: "L'ownership commence là où la fiche de poste s'arrête"
+title: "Prends l'initiative, clarifie les limites"
 part: "L'état d'esprit"
 order: 103
 card_type: principe
-action_scope: "Portée : individu ou sponsor"
+action_scope: "Portée : individu et accord des personnes concernées"
 metadata:
   principle: "1.03"
   reading_time_in_minutes: 2
@@ -13,7 +13,7 @@ categories:
   - responsabilite
   - execution
 seo:
-  description: "Une fiche de poste est un plancher. Quelque part en route, elle s'est mise à être lue comme un plafond."
+  description: "Une initiative utile clarifie le problème, le périmètre, le temps disponible et la personne qui prendra la suite."
   keywords: "build here, ownership, builder, commence, fiche, poste, arrete"
 redirect_from:
   - /chapters/04-02-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html
@@ -21,38 +21,38 @@ redirect_from:
 
 ## Le réflexe
 
-> "Ce n'est pas dans mon périmètre."
+> "Ce problème touche deux équipes. Je ne sais pas à qui le transmettre."
 
-Le périmètre devient une clôture. Ce qui est dedans m'engage. Ce qui est dehors regarde une autre équipe.
+La difficulté est connue, mais son suivi n'est attribué à personne.
 
 ## Le réflexe builder
 
-> "Ce n'est pas mon domaine, mais personne ne s'en occupe. Je commence et je préviens."
+> "J'ai repéré ce qui manque. Qui peut décider de la suite, et quelle part puis-je proposer de prendre ?"
 
 ## Pourquoi
 
-Une fiche de poste est un plancher. Quelque part en route, elle s'est mise à être lue comme un plafond.
+Les passages entre métiers peuvent laisser un besoin sans responsable clair. Un candidat attend la suite de son entretien. Le recrutement pense que le manager écrit ; le manager pense que le recrutement s'en charge. Signaler ce trou avec un exemple aide déjà à le rendre traitable.
 
-Les problèmes qui coûtent le plus cher n'appartiennent formellement à personne. Le message d'erreur que le support explique quinze fois par semaine. Le mail envoyé à chaque candidat entre deux entretiens, que ni le recrutement ni le manager ne croit devoir écrire. Le fichier de config que trois d'entre vous sur six refusent de toucher. Le rapprochement mensuel fait à la main par celui qui y pense. Aucune fiche de poste ne dit clairement qui doit s'en occuper. La chose reste là deux ans, à coûter quelques heures par semaine sans jamais apparaître sur un plan.
+Tu peux ensuite proposer un geste limité : préparer un message, regarder quelques dossiers ou décrire une correction. Vérifie d'abord si quelqu'un intervient déjà et ce que ta proposition déplace. Un problème sans propriétaire visible peut cacher une décision, un risque ou une charge que tu ne connais pas encore.
 
-C'est pourquoi « je préviens » n'est pas un détail. Annonce-le avant, pas après. Dix minutes avec la personne la plus proche du sujet suffisent : si elle s'en occupe déjà, tu récupères du contexte au lieu de refaire une semaine de travail.
+Ta fiche de poste fixe des engagements. Une initiative au-delà de ceux-ci se discute avec les personnes concernées, surtout si elle prend du temps ou change un service. Aider une fois ne signifie pas accepter d'en devenir responsable pour toujours.
 
-Personne ne se dispute ces problèmes sans responsable, ce qui en fait le seul travail disponible ici en quantité illimitée. C'est aussi le chemin le plus rapide pour devenir celui dont le nom remonte, ce qui est tout l'objet du livre que tu tiens.
+Dans un premier projet, le même principe tient : tu remarques une difficulté chez quelqu'un, tu lui proposes une aide et vous convenez de ce que tu feras. Si l'accord, le temps ou l'accès manquent, une description claire du problème reste une contribution utile.
 
 ## À essayer
 
-Choisis un petit problème que les gens contournent depuis des mois. Répare-le, puis dis-le simplement.
+Choisis un petit problème et propose une intervention avec une limite.
 
-> "J'ai écrit le mail qui manquait entre les deux entretiens, cinq candidats attendaient sans savoir quoi faire. Dites-moi si j'ai raté une raison pour laquelle ce silence existait."
+> "Je peux préparer le message pour les candidats avant jeudi. Qui valide son contenu, et qui assurera l'envoi ensuite ? Il faut que je décale la mise à jour du guide."
+
+Avant de commencer, confirme ces points avec les personnes qui peuvent décider. Après l'essai, vérifie si le besoin est couvert et si la suite a un responsable. Sans accord sur la suite, reviens en discuter plutôt que de reprendre la tâche en silence.
 
 ## Depuis ton siège
 
-- **Produit** : le problème orphelin le plus cher est celui que le support explique quinze fois par semaine.
-- **Design** : l'écran dont personne ne s'occupe est celui que tout le monde contourne. Prends-le.
-- **Management** : une fiche de poste est un plancher. Dis-le, ou elle sera lue comme un plafond.
-- **Relation client** : tu connais les trois contournements que personne n'a jamais écrits. Écris-en un.
-- **Recrutement** : demande ce que le candidat a réparé sans que ce soit à lui. C'est la question qui trie.
+- **Design** : montre la friction avant de modifier un écran dont une autre équipe dépend.
+- **Management** : arbitre la charge et rends explicite ce que l'initiative n'engage pas.
+- **Recrutement** : vérifie qui prend le relais auprès du candidat après chaque entretien.
 
 ## À discuter
 
-Cite trois problèmes ici que tout le monde connaît et dont personne ne s'occupe. Qui est le plus proche de chacun ?
+Quel besoin entre deux périmètres pouvons-nous clarifier cette semaine, et qui peut décider de sa prise en charge ?

@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Personne ne demande deux fois"
+title: "⇄ Donne une suite aux questions"
 part: "L'état d'esprit"
 order: 109
 card_type: systeme
@@ -12,7 +12,7 @@ categories:
   - apprentissage
   - engineering
 seo:
-  description: "Tu poses une question, tu attends, personne ne répond. Tu en retiens qu'il est inutile de demander."
+  description: "Une question a besoin d'un interlocuteur, d'un délai adapté et d'une réponse accessible aux personnes concernées."
   keywords: "build here, curiosite, builder, conditions, personne, demande, deux, fois"
 redirect_from:
   - /chapters/01-06-leader-personne-ne-demande-deux-fois.html
@@ -20,40 +20,36 @@ redirect_from:
 
 ## Ce que tu demandes
 
-> "Ils manquent de curiosité. Ils exécutent sans réfléchir."
+> "J'aimerais que les questions arrivent avant qu'on ait construit la solution."
 
-Tu vois le comportement, tu l'attribues aux personnes, et tu réserves une formation.
+Tu veux connaître les doutes assez tôt pour qu'ils puissent éclairer la décision.
 
 ## Ce que le système entend
 
-> "À quand remonte la dernière vraie question qu'on m'a posée, et combien de temps j'ai mis à répondre ?"
-
-La curiosité ne dépend pas seulement du caractère. Elle dépend aussi de la façon dont l'équipe accueille les questions.
+> "Si je pose cette question, qui répondra et dans quel délai ?"
 
 ## Ce que ça produit
 
-Tu poses une question, tu attends, personne ne répond. Tu en retiens qu'il est inutile de demander.
+Une question restée sans suite peut décourager la suivante. La personne ne sait pas si elle a été oubliée, si elle dépasse son rôle ou si la réponse demande simplement du temps.
 
-Les gens arrêtent pour des raisons compréhensibles quand on se met à leur place. La question a été posée en avril et n'a jamais eu de réponse. Le plan a été construit en ne comptant que le temps d'exécution. La dernière personne qui a contesté une décision s'est fait rappeler, aimablement, que ce n'était pas son arbitrage. Une équipe qui exécute sans comprendre a été dressée à le faire, en général par quelqu'un qui n'avait aucune intention de l'enseigner.
+L'exemple est courant : une question sur l'objectif d'un projet reçoit une réponse dans une réunion à trois. Les collègues absents continuent avec une autre interprétation. Le problème peut venir du chemin de la réponse, pas d'un manque de curiosité ou d'une mauvaise intention.
 
-"Mais je réponds, et ils ne demandent quand même pas." Alors vérifie où la réponse a atterri. Une réponse donnée dans une réunion à trois n'a pas atteint les onze qui n'y étaient pas. Puis vérifie ce qui est arrivé à la dernière personne qui a eu raison contre toi en public. Tout le monde a regardé, tout le monde en a tiré une conclusion, et personne ne l'a écrite.
+Répondre utilement demande parfois une recherche. Un délai annoncé permet de s'organiser. Une réponse rapide mais incertaine doit garder cette incertitude visible. Selon l'urgence, la personne peut avancer sur une partie réversible, attendre ou demander un arbitrage.
 
-Une réponse en trois semaines est un non avec de meilleures manières. Dis plutôt "je ne sais pas, et je n'y arriverai pas ce mois-ci". C'est le délai que les gens mesurent, pas la qualité de la réponse.
+Rendre le suivi visible ne demande pas forcément un nouvel outil. Le document ou le fil où le travail se discute peut contenir la question, la personne qui la prend et la date de retour. Les échanges personnels ou sensibles gardent un cercle de lecteurs adapté.
 
 ## La décision
 
-→ Mets le pourquoi dans le ticket. Pas la solution. Le problème client, avec un nom, une date, et la phrase que la personne a réellement écrite.
-→ Quand quelqu'un pose une question de fond, réponds au fond avant de parler de l'échéance.
-→ Donne-toi 48 heures sur les questions. Réponds, ou refuse par écrit. Ne laisse jamais une question s'éteindre toute seule.
+Choisis avec l'équipe un endroit pour les questions qui influencent une décision. Sur la prochaine, indique qui cherche la réponse et à quel moment elle est nécessaire. Si tu ne peux pas la traiter, dis-le et convenez d'une autre voie.
+
+À la fin de la semaine, reprenez quelques questions ouvertes. Vérifiez si leur réponse est arrivée aux personnes concernées et ce qu'elle a permis de décider. Ajustez les délais selon les sujets. Un accusé de réception sert à organiser la suite ; il ne remplace pas une réponse de fond.
 
 ## Depuis ton siège
 
-- **Ingénierie** : une question d'avril restée sans réponse est une donnée. Note la date et redemande.
-- **Produit** : le pourquoi que tu ne mets pas dans le ticket sera inventé par celui qui l'exécute.
-- **Fondateur** : une réponse en trois semaines est un non avec de meilleures manières.
-- **Relation client** : tu détiens le pourquoi sous sa forme brute. Colle la phrase du client au ticket.
-- **Recrutement** : inutile de recruter des gens curieux si ton équipe les décourage en six semaines.
+- **Produit** : garde l'objectif du travail et les incertitudes accessibles dans le même document.
+- **Management** : rends visible la charge nécessaire pour répondre, surtout si elle dépasse ton équipe.
+- **Relation client** : conserve la formulation du besoin avec le contexte partageable.
 
 ## À discuter
 
-Quand quelqu'un ici demande pourquoi, combien de temps passe avant une vraie réponse ?
+Quelle question attend encore une suite, et qu'est-ce qui permettrait à son auteur de savoir comment avancer ?

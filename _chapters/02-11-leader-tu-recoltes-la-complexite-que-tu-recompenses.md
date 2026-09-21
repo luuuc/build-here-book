@@ -12,7 +12,7 @@ categories:
   - simplicite
   - technique
 seo:
-  description: "Tout ce que cette étape demande est invisible sur un écran de démo. L'architecture sans fioritures. Les trois cents lignes retirées. L'après-midi passé à lire un driver de base de données."
+  description: "Donne aux simplifications et aux investigations une place dans la revue, avec leur effet observé et leurs limites."
   keywords: "build here, engineering, builder, conditions, recoltes, complexite, recompenses"
 redirect_from:
   - /chapters/06-06-leader-tu-recoltes-la-complexite-que-tu-recompenses.html
@@ -20,40 +20,38 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Chaque fin de semaine, en toute bonne foi, une question a sa place fixe à l'ordre du jour.
+> "Qu'avons-nous livré cette semaine ?"
 
-> "On a livré quoi cette semaine ?"
+La question rend visibles les ajouts. Une simplification ou une investigation peut avoir moins de place dans la réponse.
 
 ## Ce que le système entend
 
-> "Montre-moi ce qu'on a simplifié."
+> "Comment montrer la valeur d'un travail qui retire quelque chose ou évite une difficulté ?"
 
 ## Ce que ça produit
 
-Tout ce que cette étape demande est invisible sur un écran de démo. L'architecture sans fioritures. Les trois cents lignes retirées. L'après-midi passé à lire un driver de base de données. La mesure qui a réglé en dix minutes un débat prévu pour quarante.
+Une nouvelle fonctionnalité se montre facilement. Retirer une étape de validation devenue inutile, clarifier un calcul ou abandonner une dépendance demande d'expliquer ce qui devient plus simple et ce qui reste protégé.
 
-Alors le calcul se fait tout seul. Un nouveau service fournit un beau schéma pour la présentation. En retirer un produit un diff plein de lignes rouges et une question polie sur ta semaine. Personne n'a besoin de décider que supprimer n'est pas récompensé ici. Quatre vendredis suffisent pour que tout le monde le comprenne et arrête d'en parler.
+Si les revues ne montrent que les ajouts, les personnes peuvent donner priorité aux travaux dont elles savent raconter le résultat. Le cadre de reconnaissance peut être élargi sans présumer que tout le travail passé était mal choisi.
 
-La complexité que tu as récompensée ne part pas quand part celui qui l'a construite. Elle continuera de réveiller la personne d'astreinte dans deux ans, et à ce moment-là elle ressemblera à de la malchance plutôt qu'à une série de choix que tu as applaudis.
+La simplification n'est pas un objectif à compter seule. Retirer du code, des contrôles ou des étapes peut déplacer une charge vers le support ou accroître un risque. Une réduction utile doit être reliée à un effet : moins d'attente, une opération plus fiable, une maintenance plus facile ou un raisonnement mieux compris.
 
-C'est là que tu deviens passager de ton propre système. La complexité arrive comme un temps qu'on subit, alors qu'elle sort chaque vendredi de la question que tu poses.
-
-Les ingénieurs ne peuvent pas corriger seuls ce système de récompense. Choisir la solution sans fioritures est un risque de carrière dans une équipe qui compte les ajouts, et lire du code source un après-midi ressemble exactement à un après-midi sans production visible. C'est ta réaction qui fixe la valeur des deux, pas ton document sur les principes techniques.
+Le travail d'enquête peut aussi se terminer sans suppression. Découvrir qu'une étape protège encore un cas important est une information utile. La revue doit permettre de l'expliquer, avec les limites de ce qui a été vérifié.
 
 ## La décision
 
-→ Donne aux suppressions la même place qu'aux lancements, même revue, même ton. Composants retirés, dépendances abandonnées, code supprimé, chacun avec le nom de celui qui l'a fait.
-→ Une fois par mois, finance un après-midi sans rien à montrer. Une personne, une dépendance sans laquelle le produit ne tourne pas, qui lit le code. Elle raconte ce qu'elle a trouvé, pas ce qu'elle a construit.
-→ Quand tu valides une architecture, écris qui la portera dans deux ans. Un nom, dans le document. Puis vérifie si cette personne était dans la salle.
+À une prochaine revue, demandez un exemple de simplification ou de risque évité en plus des livraisons. Faites préciser ce qui a changé, pour qui et sur quels faits repose le bénéfice annoncé.
+
+Pour une investigation, prévoyez un créneau et nommez le travail déplacé. Associez une personne qui devra utiliser ou entretenir le résultat. Choisissez une date pour regarder si l'amélioration tient et si une charge a été transférée ailleurs.
+
+Après quelques revues, demandez à l'équipe si ces travaux sont plus faciles à proposer et à expliquer. Ajustez le format sans créer un quota de suppressions.
 
 ## Depuis ton siège
 
-- **Ingénierie** : simplifier peut nuire à ta carrière si seuls les ajouts sont récompensés.
-- **Produit** : ce qui rétrécit ne fait pas de slide. Demande-le quand même en revue de fin de semaine.
-- **Fondateur** : la complexité que tu applaudis réveillera encore la personne d'astreinte dans deux ans.
-- **Relation client** : une étape supprimée se raconte aussi au client. Une étape en moins est une amélioration.
-- **Recrutement** : tu recrutes pour tenir la complexité que tu récompenses. Compte-la avant d'ouvrir le poste.
+- **Ingénierie** : explique ce qu'une dépendance retirée change pour l'entretien du système.
+- **Opérations** : vérifie que l'étape supprimée ne reporte pas une vérification sur une autre personne.
+- **Management** : reconnais aussi l'enquête qui montre pourquoi conserver l'existant.
 
 ## À discuter
 
-C'est quoi la dernière chose pour laquelle quelqu'un ici a été félicité et qui a rendu le système plus petit ?
+Quel travail a récemment rendu une tâche plus simple ou plus fiable, et comment l'avons-nous reconnu ?

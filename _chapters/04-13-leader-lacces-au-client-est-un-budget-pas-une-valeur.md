@@ -1,9 +1,10 @@
 ---
 layout: chapter
-title: "⇄ L'accès au client est un budget, pas une valeur"
+title: "⇄ Organise un accès utile aux retours du terrain"
 part: "La compréhension"
 order: 413
 card_type: systeme
+action_scope: "Portée : responsables des accès et de la relation client"
 metadata:
   principle: "4.13"
   reading_time_in_minutes: 2
@@ -12,49 +13,45 @@ categories:
   - support
   - produit
 seo:
-  description: "Les cartes précédentes demandent aux gens de lire des tickets, d'appeler trois utilisateurs, de démonter une réclamation. Maintenant regarde qui tient la porte."
-  keywords: "build here, client, builder, conditions, acces, budget, valeur"
+  description: "Prévois temps, consentement et accès adaptés pour apprendre des usages, avec des alternatives au contact direct."
+  keywords: "build here, builder, acces, terrain, consentement, retours"
 redirect_from:
   - /chapters/11-05-leader-lacces-au-client-est-un-budget-pas-une-valeur.html
 ---
 
 ## Ce que tu demandes
 
-L'obsession client est au mur et dans le deck d'onboarding. Puis un ingénieur demande vingt minutes avec un vrai compte.
-
-La demande part chez le responsable de compte, qui vérifie avec le commercial, qui veut savoir ce qui sera demandé.
-
-L'appel n'a pas lieu.
+Tu souhaites que l'équipe comprenne mieux les usages. Une personne demande un exemple ou un échange client, mais le chemin pour l'obtenir reste incertain.
 
 ## Ce que le système entend
 
-> "Deux ingénieurs par mois ont un appel client. Voilà la liste, inscrivez-vous."
+Si chaque demande nécessite de reconstruire les accords, la préparation et les accès, apprendre du terrain devient difficile à planifier.
 
 ## Ce que ça produit
 
-Les cartes précédentes demandent aux gens de lire des tickets, d'appeler trois utilisateurs, de démonter une réclamation. Maintenant regarde qui tient la porte. Les accès à l'outil de support sont réservés au support. La liste client est dans un CRM auquel les ingénieurs n'ont pas accès. La relation appartient à celui qui a signé.
+Un accès utile demande des moyens et un cadre. Les personnes chargées de la relation client peuvent organiser les échanges, expliquer le contexte et éviter des sollicitations répétées. Elles ne sont pas un obstacle à contourner. Certains accès doivent rester limités : les dossiers peuvent contenir des informations personnelles, confidentielles ou sans rapport avec la question étudiée. Ouvrir toute la file de support à toute l'équipe n'est pas la seule façon d'apprendre. Des cas préparés, un accès adapté ou une observation accompagnée peuvent suffire.
 
-Personne ne refuse. La demande coûte simplement plus qu'elle ne rapporte. Trois messages, un chaperon, un créneau dans quinze jours, et à ce moment-là la décision a été prise à partir d'un résumé. L'ingénieur arrête de demander après la deuxième tentative. Concevoir par ouï-dire n'était le plan de personne, et tu appelleras ça un manque de curiosité plus tard.
+Le contact direct demande le consentement des personnes et du temps de préparation. Clarifie le but, la durée, ce qui sera noté et ce qui peut être promis. L'accompagnement nécessaire dépend de l'expérience et du contexte ; un premier appel ne garantit pas que toute aide devient inutile ensuite.
 
-La crainte est réelle, mais on peut y répondre simplement. Quelqu'un de technique promet une fonctionnalité à un client payant, ou fait passer le produit pour inachevé. Dix minutes de briefing règlent ça. Assiste au premier appel, puis arrête d'assister.
+Pour développer l'équipe, rends ce chemin compréhensible et prévois le temps des personnes qui l'organisent. Si tu soutiens le projet sans décider des accès, tu peux aider à formuler la demande ou proposer une introduction acceptée des deux côtés.
 
-Ces précautions évitent les accrocs dans la relation client pendant un trimestre. Mais elles dégradent toutes les décisions prises entre-temps, par des gens qui travaillent sur une description du problème au lieu du problème.
+Ne déduis pas le manque de curiosité du nombre d'appels effectués. Une personne peut disposer de bons retours par d'autres voies ou rencontrer des contraintes réelles. Ce qui compte est de savoir quelle question a été éclairée et ce qui reste incertain.
 
 ## La décision
 
-→ Donne à chaque ingénieur et designer un accès en lecture à la file de support cette semaine. Pas un résumé. La boîte.
-→ Publie une liste de cinq clients qui ont accepté un appel de vingt minutes. N'importe qui peut réserver, sans justification, et dis cette partie-là clairement.
-→ Quand un problème t'arrive sous forme de résumé, demande par combien de personnes il est passé. Si la réponse est trois, remets l'appel à l'agenda.
+→ Choisis avec la relation client une question utile et le moyen le moins contraignant de l'éclairer : cas préparé, observation ou échange volontaire.
+→ Précise qui organise, les accords nécessaires et le temps réservé. Donne aux débutants un accompagnement adapté.
+→ Après un premier essai, vérifie ce que l'équipe a appris, l'effort demandé aux participants et ce qu'il faut ajuster.
+
+Si l'accès n'est pas possible, nomme cette limite dans la décision plutôt que de la remplacer par une certitude. Convenez d'une autre source ou d'un choix plus prudent.
 
 ## Depuis ton siège
 
-- **Ingénierie** : tu n'oses plus demander un appel client ? Dis-le : l'accès est devenu trop compliqué.
-- **Produit** : une décision prise sur un résumé est une décision prise sur trois filtres empilés.
-- **Design** : un accès en lecture à la file de support vaut mieux qu'une étude trimestrielle.
-- **Fondateur** : on peut répondre à cette crainte. Assiste au premier appel, puis arrête d'assister.
-- **Relation client** : tu tiens la porte sans l'avoir voulu. Liste cinq clients qui acceptent un appel de vingt minutes.
-- **Recrutement** : tu recrutes des gens curieux du client, puis tu leur fermes la porte. Choisis.
+- **Relation client** : prépare des accès utiles, acceptés et compatibles avec les engagements.
+- **Design** : précise la question et les informations nécessaires avant de demander un accès.
+- **Management** : réserve du temps à l'organisation autant qu'à l'échange.
+- **Support** : propose des cas avec leur contexte et les limites de ce qu'ils représentent.
 
 ## À discuter
 
-Le trimestre dernier, qui hors commercial et support a parlé à un client payant ?
+Quel chemin permet aujourd'hui d'éclairer une question d'usage, et où avons-nous besoin de temps ou d'un accord ?
