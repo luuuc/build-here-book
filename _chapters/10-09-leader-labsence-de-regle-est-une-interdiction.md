@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Clarifie les conditions du partage"
+title: "⇄ L'absence de règle est une interdiction"
 part: "La référence"
 order: 1009
 card_type: systeme
@@ -14,7 +14,7 @@ categories:
   - visibilite
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-09-make-the-terms-of-sharing-clear.html
+  en: /en/chapters/10-09-the-absence-of-a-rule-is-a-ban.html
 seo:
   description: "Rends le cadre et le parcours de partage compréhensibles, avec des interlocuteurs, des moyens et des options internes ou sans publication."
   keywords: "build here, builder, reference, cadre, partage, moyens"
@@ -37,7 +37,7 @@ Un cadre explicite aide à préparer un partage et à identifier les questions q
 
 Les conditions peuvent dépendre du sujet, des personnes concernées et du destinataire. Une note interne, un retour entre partenaires et une publication publique n'ont pas le même périmètre. Désigne les personnes habilitées à clarifier ces cas. Quelques catégories utiles peuvent guider les demandes, sans prétendre régler définitivement toutes les situations.
 
-Exemple construit : une équipe veut expliquer une amélioration du service. Elle distingue un exemple fictif, des observations internes et des éléments liés à un client. Elle prépare une version dont le périmètre peut être examiné, puis adapte le partage aux accords obtenus. Un refus ou une question doit recevoir une explication et, si possible, une option utile dans un cadre différent.
+Une équipe veut expliquer une amélioration du service. Elle distingue un exemple fictif, des observations internes et des éléments liés à un client. Elle prépare une version dont le périmètre peut être examiné, puis adapte le partage aux accords obtenus. Un refus ou une question doit recevoir une explication et, si possible, une option utile dans un cadre différent.
 
 La possibilité de partager comprend aussi des moyens : rédaction, relecture, accessibilité et entretien. Une personne peut préférer contribuer oralement ou rester dans un espace interne. Les responsables peuvent montrer comment le cadre fonctionne sans être obligés de publier leur propre incident en premier. Le succès se mesure à une décision de partage compréhensible et applicable, pas au nombre de signatures publiques.
 

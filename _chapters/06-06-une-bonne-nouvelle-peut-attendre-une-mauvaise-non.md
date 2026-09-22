@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Signale à temps ce qui change l'engagement"
+title: "Une bonne nouvelle peut attendre. Une mauvaise, non"
 part: "L'ownership"
 order: 606
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - execution
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/06-06-flag-in-time-what-changes-the-commitment.html
+  en: /en/chapters/06-06-good-news-can-wait-bad-news-cannot.html
 seo:
   description: "Adapte le moment et le canal d'une information à ses conséquences, sans attendre une solution ni imposer un délai universel."
   keywords: "build here, builder, ownership, engagement, alerte, information"
@@ -36,7 +36,7 @@ Une bonne nouvelle peut débloquer le travail d'une autre personne. Un risque ou
 
 Signaler une incertitude ne demande pas d'avoir déjà une solution. Précise le fait observé, l'effet possible sur l'engagement et ce qui reste à vérifier. Évite aussi de transformer chaque doute en annonce définitive. Les destinataires doivent pouvoir comprendre le niveau de certitude et le prochain retour prévu.
 
-Exemple construit : la livraison de matériel pour un atelier devient incertaine. L'organisateur peut encore emprunter une solution de remplacement si l'information arrive avant la préparation. La personne qui suit le fournisseur peut signaler le risque sans décider seule d'une nouvelle dépense ni garantir une date qu'elle ne contrôle pas.
+La livraison de matériel pour un atelier devient incertaine. L'organisateur peut encore emprunter une solution de remplacement si l'information arrive avant la préparation. La personne qui suit le fournisseur peut signaler le risque sans décider seule d'une nouvelle dépense ni garantir une date qu'elle ne contrôle pas.
 
 Le canal compte. Certains sujets demandent une alerte directe au responsable, d'autres un suivi partagé ou un échange privé. Si tu développes une équipe, précise les situations qui demandent un signalement et qui peut agir ensuite. Une réaction respectueuse et une réponse utile encouragent les prochains retours, sans garantir à elles seules que toute difficulté sera visible.
 

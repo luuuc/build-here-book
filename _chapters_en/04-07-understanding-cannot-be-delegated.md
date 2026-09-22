@@ -31,7 +31,7 @@ Ask for enough explanation to exercise your responsibility, without having to be
 
 Trusting and understanding reinforce each other. An explanation pitched right lets you ask useful questions, recognise an uncertainty, and decide when further expertise is needed. You do not need to check every estimate yourself. Ask what it covers, what assumptions it rests on, and what could change it. The aim is to understand the commitment, not to hunt for hidden padding or contest a craft on instinct.
 
-A constructed example: a team is thinking of changing payment provider. The headline price is lower, but the replacement also touches which payment methods are available, reconciliation, and refunds. Walking the flow makes those dependencies visible before you choose.
+A team is thinking of changing payment provider. The headline price is lower, but the replacement also touches which payment methods are available, reconciliation, and refunds. Walking the flow makes those dependencies visible before you choose.
 
 This need does not belong only to leadership. Someone organising an event has to understand how a sign-up becomes an actual welcome. Someone supporting a project can ask what their help makes possible and what limits remain.
 

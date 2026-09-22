@@ -32,7 +32,7 @@ An automation can repeat a mistake at scale. A manual practice can let mistakes 
 
 Some checks are implicit in the work. A person notices an unusual amount or a situation that calls for different handling. Describe those decisions with them before changing the flow. A rule, a human approval, or separate handling of the exceptions may be necessary to keep the protection.
 
-A constructed example: a team wants to send file reminders automatically. They check the ordinary cases, but also closed files, changed contact details, and people who must not be contacted again. A small random sample can miss those. Which checks you need depends on how varied the situations are and on how bad a mistake would be, with no guarantee attached to the number ten.
+A team wants to send file reminders automatically. They check the ordinary cases, but also closed files, changed contact details, and people who must not be contacted again. A small random sample can miss those. Which checks you need depends on how varied the situations are and on how bad a mistake would be, with no guarantee attached to the number ten.
 
 Putting it in place also needs an owner, monitoring time, and a way to recover. If those means are not available, keeping part of it manual, or giving up, can be the better call. For someone starting out, a simulation on cases prepared with a peer lets them learn without firing a real action across a whole service.
 

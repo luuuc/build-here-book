@@ -37,7 +37,7 @@ Prépare une décision concrète : pour qui partager, sous quelle forme, avec qu
 
 Le contenu peut concerner d'autres personnes, une organisation ou des engagements de partage. Retirer un nom, modifier un chiffre ou remplacer un fournisseur par une catégorie ne suffit pas à établir que le reste peut être publié. La combinaison de détails peut encore exposer une situation. Une séquence technique n'est pas automatiquement libre de toute restriction.
 
-Exemple construit : une équipe souhaite expliquer un incident de paiement. Avant de rédiger une version publique, elle prépare un plan sans données de dossier et identifie ce qui demande une vérification auprès des responsables concernés. Elle peut finalement choisir un exemple fictif annoncé comme tel, une note interne ou une publication limitée au mécanisme dont le partage a été confirmé.
+Une équipe souhaite expliquer un incident de paiement. Avant de rédiger une version publique, elle prépare un plan sans données de dossier et identifie ce qui demande une vérification auprès des responsables concernés. Elle peut finalement choisir un exemple fictif annoncé comme tel, une note interne ou une publication limitée au mécanisme dont le partage a été confirmé.
 
 Distingue les règles connues, les questions ouvertes et tes préférences personnelles. Un document interne ou un contrat peut fournir des indications sans régler tous les cas. Adresse les points incertains à une personne habilitée à les clarifier, plutôt que de déduire une autorisation du silence. Ton propre souhait de ne pas être exposé compte également dans le choix du format.
 

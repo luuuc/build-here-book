@@ -42,9 +42,9 @@ Choisissez une seule carte selon la question, sans devoir parcourir toute une é
 | Question du groupe | Carte de départ |
 |---|---|
 | Comment rendre une passation plus claire ? | [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html) |
-| Quel retour nous aiderait à apprendre ? | [Explique ce que ta relecture a vérifié](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html) |
-| Quel petit essai éclairerait notre décision ? | [Livrer permet d'apprendre](/chapters/05-01-shipper-cree-de-linformation.html) |
-| Comment donner une suite aux objections ? | [⇄ Donne une suite réelle aux objections](/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html) |
+| Quel retour nous aiderait à apprendre ? | [Une relecture qui dit seulement oui n'apprend rien](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html) |
+| Quel petit essai éclairerait notre décision ? | [Shipper crée de l'information](/chapters/05-01-shipper-cree-de-linformation.html) |
+| Comment donner une suite aux objections ? | [⇄ Tu ne peux pas demander de la franchise et garder le dernier mot](/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html) |
 
 Les cartes ⇄ peuvent aider à préparer une demande. Elles ne donnent pas au groupe l'autorité de changer une règle. Si les conditions demandent une décision ailleurs, identifiez l'interlocuteur et préparez une proposition limitée.
 

@@ -21,7 +21,7 @@ seo:
 
 ## What you are asking for
 
-A constructed example: a roadmap is agreed, then an important customer asks for an urgent adaptation. You propose adding it to protect the relationship.
+A roadmap is agreed, then an important customer asks for an urgent adaptation. You propose adding it to protect the relationship.
 
 ## What the system hears
 

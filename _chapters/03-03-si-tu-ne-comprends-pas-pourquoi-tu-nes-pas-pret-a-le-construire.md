@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Clarifie le pourquoi avant de t'engager"
+title: "Si tu ne comprends pas pourquoi, tu n'es pas prêt à le construire"
 part: "L'autonomie"
 order: 303
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - engineering
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/03-03-get-the-why-clear-before-you-commit.html
+  en: /en/chapters/03-03-if-you-dont-understand-why-you-are-not-ready-to-build-it.html
 seo:
   description: "Clarifie l'objectif et les inconnues décisives ; un essai limité peut aussi aider à comprendre."
   keywords: "build here, builder, autonomie, objectif, hypothese, perimetre"
@@ -33,7 +33,7 @@ Demande quel problème le travail doit résoudre, pour qui, et ce qu'il faut sav
 
 Une demande peut passer par plusieurs personnes. À chaque relais, des détails sont sélectionnés pour rendre le travail compréhensible. Il est utile de retrouver ceux qui changent la solution, sans supposer que tout résumé déforme le besoin.
 
-Exemple construit : un client ne retrouve pas ses factures. La demande devient "ajouter une recherche". En examinant un cas, l'équipe découvre que les factures attendues sont rattachées à un autre compte. Une recherche peut rester utile, mais elle ne répond pas forcément à cette difficulté.
+Un client ne retrouve pas ses factures. La demande devient "ajouter une recherche". En examinant un cas, l'équipe découvre que les factures attendues sont rattachées à un autre compte. Une recherche peut rester utile, mais elle ne répond pas forcément à cette difficulté.
 
 Comprendre l'objectif aide à choisir quels cas traiter, quelle qualité préserver et où s'arrêter. Cela ne demande pas de tout connaître avant de commencer. Un premier essai peut justement servir à comprendre, s'il est limité, autorisé et sans conséquence difficile à reprendre. À l'inverse, une décision coûteuse ou difficile à annuler mérite de clarifier les inconnues importantes avant l'engagement. En situation urgente, applique le cadre prévu pour préserver le service et note les questions à reprendre ensuite.
 

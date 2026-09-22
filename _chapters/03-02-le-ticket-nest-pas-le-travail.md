@@ -23,7 +23,7 @@ redirect_from:
 
 ## Le symptôme
 
-Exemple construit : une équipe ferme dix-huit tickets pendant un cycle. Le tableau décrit bien le travail accompli, mais la revue ne dit pas encore ce que ce travail a permis de préserver, d'améliorer ou d'apprendre.
+Une équipe ferme dix-huit tickets pendant un cycle. Le tableau décrit bien le travail accompli, mais la revue ne dit pas encore ce que ce travail a permis de préserver, d'améliorer ou d'apprendre.
 
 ## Le signal
 

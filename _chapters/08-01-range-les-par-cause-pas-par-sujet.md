@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Regroupe les cas, puis vérifie les causes"
+title: "Range-les par cause, pas par sujet"
 part: "Le levier"
 order: 801
 card_type: diagnostic
@@ -13,7 +13,7 @@ categories:
   - client
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/08-01-group-the-cases-then-check-the-causes.html
+  en: /en/chapters/08-01-sort-them-by-cause-not-by-subject.html
 seo:
   description: "Regroupe des cas contextualisés et vérifie leurs causes possibles avant de prioriser une amélioration, sans seuil ni gain garanti."
   keywords: "build here, builder, levier, regroupement, hypothese, cause"
@@ -33,7 +33,7 @@ Regroupe des cas comparables, distingue les symptômes des causes possibles et v
 
 Un regroupement aide à voir une répartition que le traitement quotidien ne montre pas toujours. Il complète la connaissance des personnes qui assurent le service. Il ne garantit pas que quelques causes expliquent la majorité des demandes, ni que le cas le plus fréquent soit le plus important.
 
-Exemple construit : plusieurs messages concernent un paiement qui semble apparaître deux fois. Tu peux regrouper ce symptôme. Il reste à vérifier s'il s'agit de deux opérations, de deux affichages ou d'une autre situation. Écrire "le client a mal compris" dans une colonne ne démontre pas cette cause et peut orienter trop tôt la solution.
+Plusieurs messages concernent un paiement qui semble apparaître deux fois. Tu peux regrouper ce symptôme. Il reste à vérifier s'il s'agit de deux opérations, de deux affichages ou d'une autre situation. Écrire "le client a mal compris" dans une colonne ne démontre pas cette cause et peut orienter trop tôt la solution.
 
 Choisis des cas accessibles et adaptés à la question. Les derniers reçus peuvent dépendre d'une campagne, d'un incident ou d'une période particulière. Note ces limites avant de généraliser. Compare aussi la gravité, l'effort de traitement et les personnes qui n'apparaissent pas dans les données, plutôt que de prioriser uniquement le volume.
 

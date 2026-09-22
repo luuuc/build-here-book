@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Une bonne décision peut quand même mal tourner"
+title: "Une bonne décision peut quand même perdre"
 part: "L'ownership"
 order: 605
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - management
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/06-05-a-good-decision-can-still-turn-out-badly.html
+  en: /en/chapters/06-05-a-good-decision-can-still-lose.html
 seo:
   description: "Examine raisonnement et résultat séparément, en tenant compte des informations, des moyens et des risques disponibles au moment du choix."
   keywords: "build here, leadership, builder, bonne, decision, peut, quand, meme"
@@ -38,7 +38,7 @@ La qualité du raisonnement dépend aussi des conditions : temps disponible, acc
 
 La réversibilité aide à choisir les protections d'un essai, mais elle est rarement totale. Rétablir un tarif ou revenir à une ancienne version peut encore laisser un coût, une confusion ou une perte de confiance. Une action difficile à reprendre demande davantage de vérifications et un mandat adapté ; son résultat défavorable mérite lui aussi une analyse équitable.
 
-Exemple construit : un groupe choisit un lieu pour un atelier à partir des accès annoncés et du budget disponible. Une interruption de transport perturbe ensuite la venue. La revue peut confirmer le choix initial tout en révélant l'intérêt d'une solution de secours. Elle peut aussi montrer une information négligée. La conclusion dépend des faits, pas du besoin de défendre ou de condamner la décision.
+Un groupe choisit un lieu pour un atelier à partir des accès annoncés et du budget disponible. Une interruption de transport perturbe ensuite la venue. La revue peut confirmer le choix initial tout en révélant l'intérêt d'une solution de secours. Elle peut aussi montrer une information négligée. La conclusion dépend des faits, pas du besoin de défendre ou de condamner la décision.
 
 ## À essayer
 

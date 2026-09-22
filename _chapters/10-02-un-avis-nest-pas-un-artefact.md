@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Donne au lecteur de quoi examiner ton raisonnement"
+title: "Un avis n'est pas un artefact"
 part: "La référence"
 order: 1002
 card_type: diagnostic
@@ -13,7 +13,7 @@ categories:
   - ecriture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-02-give-the-reader-enough-to-examine-your-reasoning.html
+  en: /en/chapters/10-02-an-opinion-is-not-an-artifact.html
 seo:
   description: "Rends contexte, faits et limites accessibles pour que le lecteur puisse examiner une idée, sans imposer un chiffre ni dévaloriser les avis."
   keywords: "build here, builder, reference, raisonnement, evidence, limites"
@@ -33,7 +33,7 @@ Ajoute ce qui permet de comprendre le raisonnement : contexte, faits, exemple, h
 
 Un avis peut ouvrir une question ou proposer une interprétation utile. Une ressource pratique peut aider à agir. Ces formes ne constituent pas une hiérarchie entre les personnes qui les produisent. Pour le destinataire, la question est de savoir ce que le contenu permet de comprendre, d'examiner ou de faire.
 
-Exemple construit : une équipe partage une grille d'entretien. Les critères et les questions ne suffisent pas forcément à expliquer son usage. Un cas commenté, les limites de la grille et la distinction entre observation et interprétation peuvent aider un autre recruteur à l'examiner. Le même principe vaut pour une note de décision ou une procédure interne.
+Une équipe partage une grille d'entretien. Les critères et les questions ne suffisent pas forcément à expliquer son usage. Un cas commenté, les limites de la grille et la distinction entre observation et interprétation peuvent aider un autre recruteur à l'examiner. Le même principe vaut pour une note de décision ou une procédure interne.
 
 Une mesure peut éclairer le raisonnement si son périmètre, sa méthode et ses limites sont lisibles. Un chiffre isolé n'est pas une preuve suffisante. Un exemple qualitatif, une chronologie ou une comparaison argumentée peut aussi être utile. N'ajoute pas de quantité artificielle pour donner une apparence de solidité à un retour d'expérience.
 

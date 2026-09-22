@@ -44,7 +44,7 @@ Ne cherche pas la carte la plus haute dans le sommaire. Commence par examiner ce
 4. **Quel essai limité permettrait d'apprendre ?** Précise la portée, le temps, ce que l'effort déplace, les protections et les conditions d'arrêt. Si aucun essai acceptable n'est possible, une préparation ou une suspension peut être la bonne suite.
 5. **Quel fait nous ferait revoir la proposition ?** Définis ce que tu voudrais observer, mais garde une place aux effets inattendus et aux informations encore manquantes.
 
-Une carte ne remplace pas une obligation applicable, une compétence nécessaire ou un accord. Elle peut aider à formuler une question, à examiner une règle ou à demander un appui. Le refus persiste ? Clarifie ce qui reste impossible et les engagements à revoir, sans contourner la limite ni absorber seul le coût.
+Une carte ne remplace pas une obligation applicable, une compétence nécessaire ou un accord. Le refus persiste ? Clarifie ce qui reste impossible et les engagements à revoir, sans contourner la limite ni absorber seul le coût.
 
 ## Quand le résultat déçoit
 

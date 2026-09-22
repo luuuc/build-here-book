@@ -31,11 +31,11 @@ This book starts from that correction. It gathers practices for building, for ge
 
 ## Start from what you can do
 
-You may open this book with a solid craft behind you, with the urge to start, or with a team to support. A familiar practice can help you pass on reasoning you were using without explaining it. A difficulty that keeps coming back can give you a question to explore. One person available for a review can make a first attempt possible.
+You open this book with a solid craft behind you, with the urge to start, or with a team to support. Each of those starting points works. A familiar practice gives you reasoning to pass on. A difficulty that keeps coming back gives you a question. One person willing to review gives you a first attempt.
 
 Support hears what goes wrong after use. Sales knows the questions that come before a choice. Design makes a use understandable. Finance sheds light on commitments. Operations sees the handovers. Engineering builds and maintains the systems. Each of these seats gives access to part of the problem. In a personal or community project, one person may hold several of them.
 
-Here is a constructed example. Mariam helps a community group welcome new participants. Several of them turn up in the wrong place. She looks at the invitation with someone seeing it for the first time, spots an ambiguous line, and proposes different wording to the organiser. They agree to try it at the next meeting. Afterwards she asks what still caused trouble, and leaves the corrected text with whoever will prepare the next invitation.
+Mariam helps a community group welcome new participants. Several of them turn up in the wrong place. She looks at the invitation with someone seeing it for the first time, spots an ambiguous line, and proposes different wording to the organiser. They agree to try it at the next meeting. Afterwards she asks what still caused trouble, and leaves the corrected text with whoever will prepare the next invitation.
 
 That one attempt is enough to exercise several capabilities: listening, understanding, shipping, checking and passing on. If the message does not help, Mariam has a new question. If it does help, the service rendered already has value. She can end her contribution by agreeing the handover, without becoming responsible for every invitation to come.
 
@@ -47,14 +47,12 @@ Understanding widens the view to the people served and to the effects of your wo
 
 Systems make the next time easier, when the repetition justifies the effort. Leverage looks at how useful work can produce more. Leadership is about what you make possible for other people. Being the reference is about what they can learn from your work: a method, an explanation, an example, or a practice passed on.
 
-This order suggests a path through the book. These capabilities grow together, and you can come back to any of them as you need. You may teach what you have only just learned, or discover a basic question after years in the job. The sections give a frame; the cards let you stop on one precise subject.
+This order suggests a path through the book. These capabilities grow together, and you can come back to any of them as you need. You may teach what you have only just learned, or discover a basic question after years in the job.
 
 ## Reading a card, trying a move
 
-Each card carries one idea. Start with its situation, then look at what resembles yours and what differs. A principle helps you judge, a diagnostic helps you understand, a practice gives you a move to try. The system cards, marked ⇄, question the conditions of the work: time, access, decisions, backing, recognition. They can serve to prepare a conversation with the person who can change those conditions.
+Each card carries one idea. Cards marked ⇄ are about the conditions of the work: time, access, decisions, backing, recognition. They are addressed to whoever can change them.
 
-You can read in order or go straight to one card. The block "From where you sit", where it appears, shows how several roles come at the same subject. The constructed scenes illustrate a line of reasoning; they are not field results. You can keep, adapt or set aside any proposal, saying what your context changes.
+Pick a move small enough for the time you have. Agree the remit with the people involved. Plan one fact to observe and a moment to come back and look at it.
 
-To move to practice, pick a move small enough for the time you have. If other people are involved, agree the remit and the means with them. Plan one fact to observe and a moment to come back and look at it. The result will help you decide what comes next. A conversation, an internal note or a handover can hold on to what you learned.
-
-The paths, workshops, examples and templates live on the [book's site](/en/book/). You can go to them when they become useful. For now, start with this simple attention: look at what is happening around you, and look for what you could understand better.
+The rest, paths, workshops and templates, is on the [book's site](/en/book/). Start by looking at what is happening around you.

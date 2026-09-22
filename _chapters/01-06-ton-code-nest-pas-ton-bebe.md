@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Ton travail peut changer sans te remettre en cause"
+title: "Ton code n'est pas ton bébé"
 part: "L'état d'esprit"
 order: 106
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - culture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/01-06-your-work-can-change-without-it-being-about-you.html
+  en: /en/chapters/01-06-your-code-is-not-your-baby.html
 seo:
   description: "Une critique devient utile quand elle précise un cas, un critère et une amélioration à vérifier."
   keywords: "build here, ego et honnetete intellectuelle, builder, code, bebe"

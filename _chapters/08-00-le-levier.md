@@ -23,7 +23,7 @@ seo:
 
 Chercher du levier, c'est examiner comment un effort peut rendre davantage de service ou éviter un effort inutile. Cela peut passer par un document réutilisé, une meilleure explication, un outil, un partenariat ou une pratique transmise. Le gain peut être du temps, de la fiabilité, un accès plus simple ou une capacité partagée.
 
-Exemple construit : une équipe d'accueil reçoit souvent une même question sur les pièces à fournir. Elle examine plusieurs cas et teste une explication plus claire avec les personnes concernées. Si la difficulté diminue, elle peut réutiliser cette explication. Elle vérifie aussi que les personnes qui ont encore besoin d'aide peuvent la demander. Réduire le nombre de conversations n'est pas le but à lui seul.
+Une équipe d'accueil reçoit souvent une même question sur les pièces à fournir. Elle examine plusieurs cas et teste une explication plus claire avec les personnes concernées. Si la difficulté diminue, elle peut réutiliser cette explication. Elle vérifie aussi que les personnes qui ont encore besoin d'aide peuvent la demander. Réduire le nombre de conversations n'est pas le but à lui seul.
 
 Les moyens ont un coût, même lorsqu'ils sont déjà disponibles. Préparer, apprendre, obtenir un accès, vérifier, maintenir et remplacer demandent du temps. Un outil déjà payé n'est pas automatiquement le meilleur choix ; une activité faite à la main peut rester plus adaptée qu'une automatisation.
 
@@ -37,14 +37,14 @@ Commence par une question précise plutôt que par un objectif de multiplication
 
 **Un signe de progression :** tu sais expliquer ce qu'une amélioration apporte, ce qu'elle coûte et dans quelles conditions elle reste pertinente. Décider de ne pas automatiser ou d'arrêter un outil peut être une conclusion solide.
 
-Choisis une carte selon le besoin : regrouper des cas, essayer l'IA, examiner l'existant, préserver les contrôles ou reconnaître une contribution peu visible. Les cartes sur le leadership peuvent aider à partager ces capacités ; les cartes de compréhension et de livraison restent utiles pour réexaminer une hypothèse.
+Les cartes sur le leadership peuvent aider à partager ces capacités ; les cartes de compréhension et de livraison restent utiles pour réexaminer une hypothèse.
 
 ---
 
 ## Les cartes de cette étape
 
-- 8.01 [Regroupe les cas, puis vérifie les causes](/chapters/08-01-range-les-par-cause-pas-par-sujet.html)
+- 8.01 [Range-les par cause, pas par sujet](/chapters/08-01-range-les-par-cause-pas-par-sujet.html)
 - 8.02 [L'IA est un levier, pas un raccourci](/chapters/08-02-lia-est-un-levier-pas-un-raccourci.html)
-- 8.03 [Examine ce que tu as avant d'ajouter un outil](/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html)
+- 8.03 [Le levier le moins cher est déjà payé](/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html)
 - 8.04 [Un levier mal placé multiplie l'erreur](/chapters/08-04-un-levier-mal-place-multiplie-lerreur.html)
-- 8.05 [⇄ Reconnais aussi le travail évité et le service préservé](/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
+- 8.05 [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)

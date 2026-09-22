@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Le raccourci révèle un écart à comprendre"
+title: "Le raccourci que tout le monde prend est le vrai processus"
 part: "Les systèmes"
 order: 705
 card_type: diagnostic
@@ -13,7 +13,7 @@ categories:
   - equipe
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/07-05-a-workaround-points-at-a-gap-worth-understanding.html
+  en: /en/chapters/07-05-the-shortcut-everyone-takes-is-the-real-process.html
 seo:
   description: "Observe les écarts entre procédure et pratique sans présumer que le raccourci est juste ; vérifie les fonctions et protections à préserver."
   keywords: "build here, builder, systemes, ecart, processus, observation"
@@ -31,7 +31,7 @@ Examine le parcours réel et la fonction de l'étape contournée avant de rappel
 
 Un écart est une information sur la pratique. Il peut venir d'un accès manquant, d'une consigne mal comprise, d'une urgence, d'une préférence ou d'une étape devenue inutile. Le fait que plusieurs personnes l'utilisent ne prouve ni son efficacité ni son acceptabilité. Il aide à choisir où regarder.
 
-Exemple construit : des demandes arrivent par message direct plutôt que par le formulaire prévu. Le formulaire peut être difficile à ouvrir sur le téléphone utilisé. Le message permet d'avancer, mais laisse peut-être de côté une information nécessaire à la personne qui prend le relais. Ces deux effets doivent entrer dans l'analyse.
+Des demandes arrivent par message direct plutôt que par le formulaire prévu. Le formulaire peut être difficile à ouvrir sur le téléphone utilisé. Le message permet d'avancer, mais laisse peut-être de côté une information nécessaire à la personne qui prend le relais. Ces deux effets doivent entrer dans l'analyse.
 
 Observe avec les personnes concernées ce que le raccourci facilite, ce qu'il perd et à qui cela importe. Certains contrôles protègent contre un risque même s'il ne s'est jamais produit. Si leur fonction reste inconnue, demande un examen au responsable du parcours ; l'absence d'explication immédiate ne valide pas le contournement.
 

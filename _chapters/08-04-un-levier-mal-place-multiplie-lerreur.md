@@ -35,7 +35,7 @@ Une automatisation peut répéter une erreur à grande échelle. Une pratique ma
 
 Certaines vérifications sont implicites dans le travail. Une personne remarque un montant inhabituel ou une situation qui demande un autre traitement. Décris ces décisions avec elle avant de modifier le parcours. Une règle, une validation humaine ou un traitement séparé des exceptions peut être nécessaire pour conserver la protection.
 
-Exemple construit : une équipe souhaite envoyer automatiquement des rappels de dossier. Elle vérifie les cas ordinaires, mais aussi les dossiers clos, les coordonnées modifiées et les personnes qui ne doivent plus être contactées. Un petit échantillon aléatoire peut manquer ces cas. Le choix des vérifications dépend de la diversité des situations et de la gravité d'une erreur, sans garantie attachée au nombre dix.
+Une équipe souhaite envoyer automatiquement des rappels de dossier. Elle vérifie les cas ordinaires, mais aussi les dossiers clos, les coordonnées modifiées et les personnes qui ne doivent plus être contactées. Un petit échantillon aléatoire peut manquer ces cas. Le choix des vérifications dépend de la diversité des situations et de la gravité d'une erreur, sans garantie attachée au nombre dix.
 
 Une mise en place demande aussi un responsable, du temps de surveillance et une solution de reprise. Si ces moyens ne sont pas disponibles, garder une partie manuelle ou renoncer peut être le meilleur arbitrage. Pour un débutant, une simulation sur des cas préparés avec un pair permet d'apprendre sans lancer une action réelle sur tout un service.
 

@@ -29,7 +29,7 @@ Une expérience devient une référence lorsque quelqu'un peut s'en servir pour 
 
 Le but n'est pas d'atteindre un dernier grade de builder. Une personne qui débute peut partager un exemple relu de ce qu'elle vient d'apprendre. Une personne expérimentée peut rendre un raisonnement ou ses limites plus accessibles. Aucun volume de publications ne mesure à lui seul cette contribution.
 
-Exemple construit : une équipe prépare une fiche pour traiter un dossier incomplet. Elle décrit un cas, les vérifications, les limites et le contact utile. Une nouvelle collègue l'essaie et signale une ambiguïté. L'équipe corrige la fiche et convient de qui la maintient. Cette ressource interne sert déjà de référence, même si personne ne souhaite la publier.
+Une équipe prépare une fiche pour traiter un dossier incomplet. Elle décrit un cas, les vérifications, les limites et le contact utile. Une nouvelle collègue l'essaie et signale une ambiguïté. L'équipe corrige la fiche et convient de qui la maintient. Cette ressource interne sert déjà de référence, même si personne ne souhaite la publier.
 
 Un contenu public peut permettre à d'autres de découvrir et d'examiner l'expérience. Sa portée n'est pas garantie. Une conversation, un mentorat ou un travail privé peut aussi laisser des capacités durables, même si l'effet est moins facile à compter. La visibilité ne remplace pas l'utilité et son absence ne prouve pas une absence de transmission.
 
@@ -41,19 +41,19 @@ Si tu développes une équipe, prépare un cadre qui laisse une place aux suppor
 
 **Un signe de progression :** un destinataire peut expliquer ce qu'il a compris ou réutilisé, et les limites qu'il doit encore examiner. Un retour direct peut le montrer. Quand aucun retour n'arrive, tu peux constater cette incertitude sans inventer un impact ni conclure que le travail ne sert pas.
 
-Choisis une carte selon le besoin : crédit, raisonnement, forme, accès, coût, contexte ou continuité. Une ressource peut vieillir, être corrigée, remplacée ou retirée. Préparer cette suite fait partie de la transmission, sans obliger son auteur à rester disponible indéfiniment.
+Une ressource peut vieillir, être corrigée, remplacée ou retirée. Préparer cette suite fait partie de la transmission, sans obliger son auteur à rester disponible indéfiniment.
 
 ---
 
 ## Les cartes de cette étape
 
-- 10.01 [Rends les contributions identifiables](/chapters/10-01-mets-ton-nom-dessus.html)
-- 10.02 [Donne au lecteur de quoi examiner ton raisonnement](/chapters/10-02-un-avis-nest-pas-un-artefact.html)
+- 10.01 [Mets ton nom dessus](/chapters/10-01-mets-ton-nom-dessus.html)
+- 10.02 [Un avis n'est pas un artefact](/chapters/10-02-un-avis-nest-pas-un-artefact.html)
 - 10.03 [Une trace n'est pas forcément du code](/chapters/10-03-une-trace-nest-pas-forcement-du-code.html)
-- 10.04 [Rends une réponse utile retrouvable](/chapters/10-04-reponds-a-la-question-en-public.html)
-- 10.05 [Place la ressource là où ses lecteurs cherchent](/chapters/10-05-publie-la-ou-on-cherche.html)
+- 10.04 [Réponds à la question en public](/chapters/10-04-reponds-a-la-question-en-public.html)
+- 10.05 [Publie là où on cherche](/chapters/10-05-publie-la-ou-on-cherche.html)
 - 10.06 [Ce que publier coûte vraiment](/chapters/10-06-ce-que-publier-coute-vraiment.html)
-- 10.07 [Partage ce que ton contexte t'a appris](/chapters/10-07-personne-na-ecrit-ce-que-tu-sais-faire.html)
+- 10.07 [Personne n'a écrit ce que tu sais faire](/chapters/10-07-personne-na-ecrit-ce-que-tu-sais-faire.html)
 - 10.08 [Partir n'est pas une trahison](/chapters/10-08-partir-nest-pas-une-trahison.html)
-- 10.09 [⇄ Clarifie les conditions du partage](/chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html)
-- 10.10 [⇄ Soutiens une visibilité choisie](/chapters/10-10-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
+- 10.09 [⇄ L'absence de règle est une interdiction](/chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html)
+- 10.10 [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/10-10-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)

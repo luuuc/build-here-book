@@ -24,7 +24,7 @@ Ownership means making a commitment and what follows it explicit: what you take 
 
 Work finished, a handover accepted, and a result observed are three different things. They can be followed by different people. Connecting them stops a question being left hanging, while still letting each person close a commitment that was genuinely passed on.
 
-A constructed example: you prepare the invitation for a community workshop. The organiser accepts the text and takes on sending it. You agree that they will gather the access questions at the next workshop. You can end your contribution without watching every reply. If you take part in the review, you can look together at what the text made easier and what still needs pinning down.
+You prepare the invitation for a community workshop. The organiser accepts the text and takes on sending it. You agree that they will gather the access questions at the next workshop. You can end your contribution without watching every reply. If you take part in the review, you can look together at what the text made easier and what still needs pinning down.
 
 A responsibility needs a mandate and means. Information, time and authority can be missing even for an experienced person. Asking for help, negotiating the scope, handing over, or stopping with the people concerned are all ways of handling that limit. Naming someone without their agreement does not solve the problem.
 
@@ -36,16 +36,16 @@ If you are growing a team, make clear who contributes, who coordinates, and who 
 
 **A sign of progress:** the people concerned know what was accepted, who answers for the next step, and when an effect deserves examining. They also know what to do if the handover or the result does not turn up as planned.
 
-Choose a card according to your current difficulty: handover, checking, coordination, reviewing a result, or flagging a change. The systems cards can help when the same difficulty keeps coming back; you can also go back to framing, or to a new attempt.
+The systems cards can help when the same difficulty keeps coming back; you can also go back to framing, or to a new attempt.
 
 ---
 
 ## The cards in this capability
 
 - 6.01 [Done on your side does not mean solved](/en/chapters/06-01-done-on-your-side-does-not-mean-solved.html)
-- 6.02 [Plan when you will check the result](/en/chapters/06-02-plan-when-you-will-check-the-result.html)
-- 6.03 [Be clear who coordinates and who decides](/en/chapters/06-03-be-clear-who-coordinates-and-who-decides.html)
-- 6.04 [Take the lesson from a disappointing result](/en/chapters/06-04-take-the-lesson-from-a-disappointing-result.html)
-- 6.05 [A good decision can still turn out badly](/en/chapters/06-05-a-good-decision-can-still-turn-out-badly.html)
-- 6.06 [Flag in time what changes the commitment](/en/chapters/06-06-flag-in-time-what-changes-the-commitment.html)
-- 6.07 [⇄ Tie the review to outcomes](/en/chapters/06-07-tie-the-review-to-outcomes.html)
+- 6.02 [Come back a month later](/en/chapters/06-02-come-back-a-month-later.html)
+- 6.03 [A responsibility shared by six people does not exist](/en/chapters/06-03-a-responsibility-shared-by-six-people-does-not-exist.html)
+- 6.04 [The bad outcome is yours too](/en/chapters/06-04-the-bad-outcome-is-yours-too.html)
+- 6.05 [A good decision can still lose](/en/chapters/06-05-a-good-decision-can-still-lose.html)
+- 6.06 [Good news can wait. Bad news cannot](/en/chapters/06-06-good-news-can-wait-bad-news-cannot.html)
+- 6.07 [⇄ You ask for outcomes and you review activity](/en/chapters/06-07-you-ask-for-outcomes-and-you-review-activity.html)

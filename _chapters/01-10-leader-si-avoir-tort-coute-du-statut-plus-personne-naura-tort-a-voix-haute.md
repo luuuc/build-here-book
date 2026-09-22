@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Protège le signalement des erreurs"
+title: "⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute"
 part: "L'état d'esprit"
 order: 110
 card_type: systeme
@@ -13,7 +13,7 @@ categories:
   - culture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/01-10-protect-the-reporting-of-mistakes.html
+  en: /en/chapters/01-10-if-being-wrong-costs-status-nobody-will-be-wrong-out-loud.html
 seo:
   description: "Accueillir un signalement, protéger ce qui doit l'être et examiner les faits séparément de l'évaluation des personnes."
   keywords: "build here, ego et honnetete intellectuelle, builder, conditions, avoir, tort, coute, statut"

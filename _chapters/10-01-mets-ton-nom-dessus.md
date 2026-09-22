@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Rends les contributions identifiables"
+title: "Mets ton nom dessus"
 part: "La référence"
 order: 1001
 card_type: pratique
@@ -13,7 +13,7 @@ categories:
   - reference
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-01-make-contributions-identifiable.html
+  en: /en/chapters/10-01-put-your-name-on-it.html
 seo:
   description: "Reconnais les contributions et leur contexte selon un accord adapté, sans faire de la signature publique une condition de valeur."
   keywords: "build here, builder, reference, contributions, credit, partage"
@@ -35,7 +35,7 @@ Attribuer un travail aide à reconnaître les contributions et à retrouver leur
 
 Un travail interne peut déjà servir, former des personnes et laisser des capacités durables. Le publier peut élargir sa portée, mais ne lui donne pas rétroactivement sa valeur. Mon erreur de recrutement fondée sur la visibilité était la mienne ; elle ne rendait pas les personnes peu visibles responsables de ce que mon filtre ne savait pas reconnaître.
 
-Exemple construit : plusieurs collègues préparent une fiche de rapprochement de dossiers. L'une a identifié les cas, un autre a essayé la procédure et une troisième a clarifié les explications. Ils conviennent de mentionner ces contributions dans la fiche interne et de désigner le contact de maintenance. Un seul nom en couverture aurait rendu une partie du travail invisible.
+Plusieurs collègues préparent une fiche de rapprochement de dossiers. L'une a identifié les cas, un autre a essayé la procédure et une troisième a clarifié les explications. Ils conviennent de mentionner ces contributions dans la fiche interne et de désigner le contact de maintenance. Un seul nom en couverture aurait rendu une partie du travail invisible.
 
 La forme de crédit dépend des personnes et des conditions de partage. Certaines souhaitent être nommées, d'autres préfèrent une mention collective ou aucune exposition personnelle. Demande leur accord et respecte les informations qui ne peuvent pas sortir. On peut reconnaître une contribution en privé ou dans un espace restreint sans imposer une publication sous son nom.
 

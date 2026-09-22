@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Livrer permet d'apprendre"
+title: "Shipper crée de l'information"
 part: "La livraison"
 order: 501
 card_type: principe
@@ -14,7 +14,7 @@ categories:
   - produit
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/05-01-shipping-is-how-you-learn.html
+  en: /en/chapters/05-01-shipping-creates-information.html
 seo:
   description: "Prépare un essai limité, observe son effet et utilise le retour pour décider ; livrer souvent ne garantit pas d'apprendre."
   keywords: "build here, execution, builder, shipper, cree, information"
@@ -34,7 +34,7 @@ Choisis ce que le prochain essai doit t'apprendre, puis prépare une version ass
 
 Mettre un travail à disposition crée une occasion d'apprendre, pas un apprentissage automatique. Il faut que quelqu'un puisse l'utiliser, que le résultat soit observable et que le retour éclaire une décision. Plusieurs livraisons sans observation peuvent laisser la même incertitude intacte.
 
-Exemple construit : tu aides une association à préciser les indications d'accès à un atelier. Avant de refaire toutes les invitations, propose le nouveau texte à une personne volontaire qui ne connaît pas le lieu. Demande-lui comment elle préparerait son trajet. Ce premier essai peut révéler une information manquante ; il ne prouve pas encore que tous les participants arriveront sans difficulté.
+Tu aides une association à préciser les indications d'accès à un atelier. Avant de refaire toutes les invitations, propose le nouveau texte à une personne volontaire qui ne connaît pas le lieu. Demande-lui comment elle préparerait son trajet. Ce premier essai peut révéler une information manquante ; il ne prouve pas encore que tous les participants arriveront sans difficulté.
 
 Un changement limité peut faciliter l'analyse et le retour en arrière. Cela dépend de ses effets, pas seulement de sa taille. Une seule ligne peut modifier beaucoup de dossiers. Vérifie le périmètre touché, les protections nécessaires et la personne qui peut autoriser l'essai. Si tu débutes, prépare-le avec quelqu'un qui connaît le contexte.
 

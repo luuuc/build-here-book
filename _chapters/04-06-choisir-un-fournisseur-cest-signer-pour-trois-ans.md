@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Choisir un fournisseur, c'est préparer aussi la sortie"
+title: "Choisir un fournisseur, c'est signer pour trois ans"
 part: "La compréhension"
 order: 406
 card_type: principe
@@ -14,7 +14,7 @@ categories:
   - strategie
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/04-06-choosing-a-vendor-means-preparing-the-exit-too.html
+  en: /en/chapters/04-06-choosing-a-vendor-is-signing-up-for-three-years.html
 seo:
   description: "Examine le coût, les dépendances et les conditions de sortie d'un fournisseur avec les personnes concernées."
   keywords: "build here, builder, fournisseur, cout, dependance, sortie"

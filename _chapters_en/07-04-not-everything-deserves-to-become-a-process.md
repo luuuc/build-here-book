@@ -33,7 +33,7 @@ A rule can protect a service, help a beginner, or make an agreement explicit. It
 
 One occurrence can be enough to justify acting if the consequences are serious. It can even make sense to guard against a risk before any incident. For a limited nuisance that is still poorly understood, watching a few cases may be better than immediately imposing the same procedure on everyone. No threshold of three occurrences replaces that judgement.
 
-A constructed example: at a workshop, a piece of equipment is missing at opening time. Depending on the context, a preparation list, a spare, a clarified handover, or a one-off check may help. Adding a signature every time equipment moves is not automatically the best answer. You have to understand what was missing and who would carry the new load.
+At a workshop, a piece of equipment is missing at opening time. Depending on the context, a preparation list, a spare, a clarified handover, or a one-off check may help. Adding a signature every time equipment moves is not automatically the best answer. You have to understand what was missing and who would carry the new load.
 
 Compare the effects on other people too: extra time, harder access, ambiguity, or work moved elsewhere. A useful protection can cost time without being useless. Have its reason stated, and the conditions under which it could change. If a provisional measure is needed before the analysis ends, say it is provisional and who will revisit it.
 

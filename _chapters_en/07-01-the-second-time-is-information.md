@@ -30,7 +30,7 @@ Note a repetition that matters, then examine its frequency, its consequences, an
 
 A repetition makes a question visible. It can signal a defect upstream, a need for training, or ordinary activity for the service. Explaining several times to different people can be necessary; a document does not always replace being there.
 
-A constructed example: at a community group's desk, several people ask which document to attach to a file. The information may be missing from the form. It may also be hard to understand, out of reach in the format offered, or different depending on the case. Counting the questions helps you choose where to look, without establishing the cause on its own.
+At a community group's desk, several people ask which document to attach to a file. The information may be missing from the form. It may also be hard to understand, out of reach in the format offered, or different depending on the case. Counting the questions helps you choose where to look, without establishing the cause on its own.
 
 Frequency is not the only criterion. A rare mistake with heavy consequences can call for immediate action. A frequent, short task can stay cheaper to do than to automate. Do not wait for a third occurrence if a protection or some help is already needed; conversely, three occurrences do not prove a new system is useful.
 

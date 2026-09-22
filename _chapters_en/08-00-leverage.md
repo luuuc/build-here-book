@@ -22,7 +22,7 @@ seo:
 
 Looking for leverage means examining how an effort can deliver more service, or avoid effort that serves nothing. It can run through a reused document, a better explanation, a tool, a partnership, or a practice passed on. The gain can be time, reliability, easier access, or a shared capability.
 
-A constructed example: a welcome desk often gets the same question about which documents to bring. They examine several cases and test a clearer explanation with the people concerned. If the difficulty goes down, they can reuse that explanation. They also check that the people who still need help can ask for it. Cutting the number of conversations is not the goal on its own.
+A welcome desk often gets the same question about which documents to bring. They examine several cases and test a clearer explanation with the people concerned. If the difficulty goes down, they can reuse that explanation. They also check that the people who still need help can ask for it. Cutting the number of conversations is not the goal on its own.
 
 Means cost something, even when they are already available. Preparing, learning, getting access, checking, maintaining and replacing all take time. A tool you already pay for is not automatically the best choice; an activity done by hand can stay better suited than an automation.
 
@@ -36,14 +36,14 @@ Start from a precise question rather than from a target multiple. An experienced
 
 **A sign of progress:** you can explain what an improvement brings, what it costs, and under which conditions it still fits. Deciding not to automate, or to stop using a tool, can be a solid conclusion.
 
-Choose a card according to the need: grouping cases, trying AI, examining what exists, keeping the controls, or recognising a contribution that is hard to see. The leadership cards can help share these capabilities; the understanding and delivery cards stay useful for re-examining an assumption.
+The leadership cards can help share these capabilities; the understanding and delivery cards stay useful for re-examining an assumption.
 
 ---
 
 ## The cards in this capability
 
-- 8.01 [Group the cases, then check the causes](/en/chapters/08-01-group-the-cases-then-check-the-causes.html)
+- 8.01 [Sort them by cause, not by subject](/en/chapters/08-01-sort-them-by-cause-not-by-subject.html)
 - 8.02 [AI is leverage, not a shortcut](/en/chapters/08-02-ai-is-leverage-not-a-shortcut.html)
-- 8.03 [Look at what you have before adding a tool](/en/chapters/08-03-look-at-what-you-have-before-adding-a-tool.html)
+- 8.03 [The cheapest leverage is already paid for](/en/chapters/08-03-the-cheapest-leverage-is-already-paid-for.html)
 - 8.04 [Leverage in the wrong place multiplies the mistake](/en/chapters/08-04-leverage-in-the-wrong-place-multiplies-the-mistake.html)
-- 8.05 [⇄ Credit the work avoided and the service kept running](/en/chapters/08-05-credit-the-work-avoided-and-the-service-kept-running.html)
+- 8.05 [⇄ You pay for hours, you get hours](/en/chapters/08-05-you-pay-for-hours-you-get-hours.html)

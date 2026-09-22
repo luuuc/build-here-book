@@ -41,7 +41,7 @@ Do not look for the highest card in the contents. Start by examining these five 
 4. **Which bounded attempt would let us learn?** State the reach, the time, what the effort displaces, the protections, and the conditions for stopping. If no acceptable attempt is possible, preparing or pausing can be the right next step.
 5. **Which fact would make us revisit the proposal?** Define what you would want to observe, but leave room for unexpected effects and for information you still do not have.
 
-A card does not replace an applicable obligation, a necessary skill, or an agreement. It can help you frame a question, examine a rule, or ask for backing. Still refused? Make clear what stays impossible and which commitments have to be revisited, without working around the limit or absorbing the cost alone.
+A card does not replace an applicable obligation, a necessary skill, or an agreement. Still refused? Make clear what stays impossible and which commitments have to be revisited, without working around the limit or absorbing the cost alone.
 
 ## When the result disappoints
 

@@ -170,12 +170,12 @@
         "type": "pratique"
       },
       {
-        "title": "Prends l'initiative, clarifie les limites",
+        "title": "L'ownership commence là où la fiche de poste s'arrête",
         "url": "/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html",
         "type": "principe"
       },
       {
-        "title": "⇄ Donne une suite aux questions",
+        "title": "⇄ Personne ne demande deux fois",
         "url": "/chapters/01-09-leader-personne-ne-demande-deux-fois.html",
         "type": "systeme"
       }
@@ -187,7 +187,7 @@
     "seed": "Choisir un détail du métier à travailler et une source ou une relecture accessible.",
     "cards": [
       {
-        "title": "Choisis ce que tu veux mieux maîtriser",
+        "title": "Douze ans d'expérience, ou douze fois la même année",
         "url": "/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html",
         "type": "diagnostic"
       },
@@ -214,12 +214,12 @@
         "type": "pratique"
       },
       {
-        "title": "Quand tu bloques, rends la suite explicite",
+        "title": "Être bloqué est une décision",
         "url": "/chapters/03-04-etre-bloque-est-une-decision.html",
         "type": "diagnostic"
       },
       {
-        "title": "⇄ Donne une suite réelle aux objections",
+        "title": "⇄ Tu ne peux pas demander de la franchise et garder le dernier mot",
         "url": "/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html",
         "type": "systeme"
       }
@@ -241,7 +241,7 @@
         "type": "diagnostic"
       },
       {
-        "title": "⇄ Organise un accès utile aux retours du terrain",
+        "title": "⇄ L'accès au client est un budget, pas une valeur",
         "url": "/chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html",
         "type": "systeme"
       }
@@ -253,7 +253,7 @@
     "seed": "Définir un essai limité, ce qu'il pourrait apprendre et les protections à garder.",
     "cards": [
       {
-        "title": "Livrer permet d'apprendre",
+        "title": "Shipper crée de l'information",
         "url": "/chapters/05-01-shipper-cree-de-linformation.html",
         "type": "principe"
       },
@@ -263,7 +263,7 @@
         "type": "pratique"
       },
       {
-        "title": "⇄ Organise un rythme de livraison utile",
+        "title": "⇄ Le rythme de livraison, c'est une décision que tu as prise",
         "url": "/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html",
         "type": "systeme"
       }
@@ -280,12 +280,12 @@
         "type": "diagnostic"
       },
       {
-        "title": "Prévois quand vérifier le résultat",
+        "title": "Reviens voir un mois plus tard",
         "url": "/chapters/06-02-reviens-voir-un-mois-plus-tard.html",
         "type": "pratique"
       },
       {
-        "title": "⇄ Relie la revue d'activité aux résultats",
+        "title": "⇄ Tu demandes des résultats et tu passes en revue de l'activité",
         "url": "/chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html",
         "type": "systeme"
       }
@@ -302,12 +302,12 @@
         "type": "diagnostic"
       },
       {
-        "title": "Comprends l'étape avant de la simplifier",
+        "title": "Supprime l'étape avant de la documenter",
         "url": "/chapters/07-02-supprime-letape-avant-de-la-documenter.html",
         "type": "pratique"
       },
       {
-        "title": "Confie un problème avec les appuis nécessaires",
+        "title": "Confie un problème, pas une tâche",
         "url": "/chapters/09-03-confie-un-probleme-pas-une-tache.html",
         "type": "pratique"
       }
@@ -319,17 +319,17 @@
     "seed": "Comparer une réutilisation possible avec la pratique actuelle, coûts et vérifications compris.",
     "cards": [
       {
-        "title": "Regroupe les cas, puis vérifie les causes",
+        "title": "Range-les par cause, pas par sujet",
         "url": "/chapters/08-01-range-les-par-cause-pas-par-sujet.html",
         "type": "diagnostic"
       },
       {
-        "title": "Examine ce que tu as avant d'ajouter un outil",
+        "title": "Le levier le moins cher est déjà payé",
         "url": "/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html",
         "type": "principe"
       },
       {
-        "title": "⇄ Reconnais aussi le travail évité et le service préservé",
+        "title": "⇄ Tu paies des heures, tu obtiens des heures",
         "url": "/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html",
         "type": "systeme"
       }
@@ -341,17 +341,17 @@
     "seed": "Demander à une personne l'appui qu'elle souhaite et convenir d'une contribution limitée.",
     "cards": [
       {
-        "title": "Explique ce que ta relecture a vérifié",
+        "title": "Une relecture qui dit seulement oui n'apprend rien",
         "url": "/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html",
         "type": "principe"
       },
       {
-        "title": "Confie un problème avec les appuis nécessaires",
+        "title": "Confie un problème, pas une tâche",
         "url": "/chapters/09-03-confie-un-probleme-pas-une-tache.html",
         "type": "pratique"
       },
       {
-        "title": "⇄ Donne des moyens à la transmission",
+        "title": "⇄ Tu es la référence qui manque, et tu n'as rien laissé",
         "url": "/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html",
         "type": "systeme"
       }
@@ -363,17 +363,17 @@
     "seed": "Adapter une réponse pour un destinataire volontaire, dans un espace de partage autorisé.",
     "cards": [
       {
-        "title": "Donne au lecteur de quoi examiner ton raisonnement",
+        "title": "Un avis n'est pas un artefact",
         "url": "/chapters/10-02-un-avis-nest-pas-un-artefact.html",
         "type": "diagnostic"
       },
       {
-        "title": "Rends une réponse utile retrouvable",
+        "title": "Réponds à la question en public",
         "url": "/chapters/10-04-reponds-a-la-question-en-public.html",
         "type": "pratique"
       },
       {
-        "title": "⇄ Clarifie les conditions du partage",
+        "title": "⇄ L'absence de règle est une interdiction",
         "url": "/chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html",
         "type": "systeme"
       }

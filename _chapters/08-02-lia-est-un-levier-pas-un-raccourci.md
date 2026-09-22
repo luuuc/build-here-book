@@ -36,7 +36,7 @@ Un brouillon, une reformulation ou une proposition de classement peut aider lors
 
 Si tu débutes, tu peux apprendre avec une personne compétente ou sur un exercice dont la réponse est vérifiable. L'absence de compétence pour contrôler une sortie est une limite à traiter, pas une raison de croire le résultat. Si personne ne peut vérifier une partie importante, réduis l'essai, cherche un appui ou garde une autre méthode. Choisir de ne pas utiliser l'IA peut être raisonnable.
 
-Exemple construit : une équipe essaie de préparer une réponse à partir d'une fiche d'aide approuvée. Elle vérifie que le brouillon conserve les conditions, ne promet rien de plus et répond au cas. Elle compte la préparation, la relecture et les corrections, puis compare à sa méthode habituelle. Ce résultat local ne permet pas de conclure sur toutes ses réponses.
+Une équipe essaie de préparer une réponse à partir d'une fiche d'aide approuvée. Elle vérifie que le brouillon conserve les conditions, ne promet rien de plus et répond au cas. Elle compte la préparation, la relecture et les corrections, puis compare à sa méthode habituelle. Ce résultat local ne permet pas de conclure sur toutes ses réponses.
 
 Vérifie aussi si l'outil et les informations utilisées conviennent au cadre de travail. Pour commencer, des cas fictifs ou des contenus autorisés peuvent suffire. Le coût comprend l'accès, la préparation, la vérification, les reprises et le suivi si la pratique dure. Un gain de production n'est utile que si la qualité et le service restent adaptés.
 

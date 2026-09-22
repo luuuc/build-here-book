@@ -33,7 +33,7 @@ Distingue travail terminé, relais accepté et résultat vérifié. Ces trois mo
 
 Une passation permet de répartir le travail et de terminer un engagement. Elle peut être complète même si le résultat final n'est pas encore connu, à condition que la suite soit réellement organisée. Dire "ma partie est faite" n'est pas un alibi lorsqu'on sait ce qui a été remis et qui prend le relais.
 
-Exemple construit : tu prépares les invitations d'un atelier associatif. Une autre personne doit les envoyer. Le texte est prêt, mais il lui manque l'accès à la liste autorisée des destinataires. Vérifier ce point avant la passation permet de traiter le blocage sans te confier automatiquement l'envoi et tout le suivi de l'événement.
+Tu prépares les invitations d'un atelier associatif. Une autre personne doit les envoyer. Le texte est prêt, mais il lui manque l'accès à la liste autorisée des destinataires. Vérifier ce point avant la passation permet de traiter le blocage sans te confier automatiquement l'envoi et tout le suivi de l'événement.
 
 Un accusé de réception n'est pas toujours une acceptation du travail. Clarifie ce qui est attendu, ce qui manque et le prochain point de retour. Un outil partagé peut suffire si ses règles sont comprises. Pour un dossier plus sensible, une confirmation explicite peut être nécessaire. Le temps de passation dépend du contexte, pas d'un forfait de quelques minutes.
 

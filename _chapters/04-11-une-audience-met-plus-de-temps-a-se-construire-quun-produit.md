@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Prépare le lien avec tes premiers utilisateurs"
+title: "Une audience met plus de temps à se construire qu'un produit"
 part: "La compréhension"
 order: 411
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - marketing
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/04-11-set-up-the-line-to-your-first-users.html
+  en: /en/chapters/04-11-an-audience-takes-longer-to-build-than-a-product.html
 seo:
   description: "Prépare des échanges adaptés avant le lancement, sans imposer une audience publique ni un calendrier universel."
   keywords: "build here, builder, distribution, premiers utilisateurs, retours"

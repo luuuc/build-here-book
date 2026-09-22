@@ -20,7 +20,7 @@ seo:
 
 ## The symptom
 
-A constructed example: a customer asks for an export. The team ships it, but the difficulty they reported comes back. The team knows the file exists; it knows less well what the file was supposed to make possible.
+A customer asks for an export. The team ships it, but the difficulty they reported comes back. The team knows the file exists; it knows less well what the file was supposed to make possible.
 
 ## The signal
 

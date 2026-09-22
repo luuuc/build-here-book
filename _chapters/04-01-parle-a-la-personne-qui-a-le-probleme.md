@@ -31,7 +31,7 @@ Propose un échange court sur une situation vécue. Si le contact direct n'est p
 
 ## Pourquoi ça marche
 
-Un résumé sélectionne l'information pour la rendre utilisable. Il peut être fidèle et utile, tout en laissant de côté un détail nécessaire à ta question. Revenir à un cas concret complète les connaissances de l'équipe sans dévaloriser ceux qui les ont recueillies. Exemple construit : une personne explique qu'elle termine une opération dans un tableur après avoir utilisé le produit. Observer ce passage, avec son accord, permet de comprendre le résultat qu'elle cherche et la partie que le produit ne couvre pas. Le contournement peut être une adaptation pertinente, pas forcément une erreur à supprimer.
+Un résumé sélectionne l'information pour la rendre utilisable. Il peut être fidèle et utile, tout en laissant de côté un détail nécessaire à ta question. Revenir à un cas concret complète les connaissances de l'équipe sans dévaloriser ceux qui les ont recueillies. Une personne explique qu'elle termine une opération dans un tableur après avoir utilisé le produit. Observer ce passage, avec son accord, permet de comprendre le résultat qu'elle cherche et la partie que le produit ne couvre pas. Le contournement peut être une adaptation pertinente, pas forcément une erreur à supprimer.
 
 La proximité aide parfois à organiser une rencontre, mais elle ne garantit ni la disponibilité ni le droit d'accéder aux données. Prépare une question précise, respecte le refus et évite de transformer une demande d'aide en entretien imposé.
 

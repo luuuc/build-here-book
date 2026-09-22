@@ -20,7 +20,7 @@ seo:
 
 ## The symptom
 
-A constructed example: a team closes eighteen tickets in one cycle. The board describes the work done well enough, but the review does not yet say what that work preserved, improved, or taught.
+A team closes eighteen tickets in one cycle. The board describes the work done well enough, but the review does not yet say what that work preserved, improved, or taught.
 
 ## The signal
 

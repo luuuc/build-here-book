@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Comprends l'étape avant de la simplifier"
+title: "Supprime l'étape avant de la documenter"
 part: "Les systèmes"
 order: 702
 card_type: pratique
@@ -14,7 +14,7 @@ categories:
   - simplicite
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/07-02-understand-the-step-before-you-simplify-it.html
+  en: /en/chapters/07-02-delete-the-step-before-you-document-it.html
 seo:
   description: "Identifie la fonction d'une étape avant de la documenter, la modifier ou la retirer ; une raison inconnue demande une enquête."
   keywords: "build here, builder, systemes, procedure, fonction, simplification"
@@ -32,7 +32,7 @@ Cherche ce que l'étape produit ou protège, pour qui, puis compare les façons 
 
 Documenter peut rendre le travail accessible, sécuriser un relais et permettre de discuter une pratique. Cela ne rend pas l'étape permanente. Écrire sa raison et ses limites aide justement à la revoir plus tard. Il peut être utile de documenter une procédure provisoire pendant qu'une amélioration est étudiée.
 
-Exemple construit : une équipe recopie une référence d'un formulaire vers un tableau. Avant de supprimer cette copie, elle découvre que le tableau sert à vérifier les dossiers incomplets. Une intégration pourrait préserver cette vérification ; retirer seulement la copie laisserait un manque. Le besoin porte sur le contrôle, pas nécessairement sur le geste actuel.
+Une équipe recopie une référence d'un formulaire vers un tableau. Avant de supprimer cette copie, elle découvre que le tableau sert à vérifier les dossiers incomplets. Une intégration pourrait préserver cette vérification ; retirer seulement la copie laisserait un manque. Le besoin porte sur le contrôle, pas nécessairement sur le geste actuel.
 
 Si personne ne connaît la raison d'une étape, c'est une inconnue à traiter, pas une autorisation de suppression. Consulte les personnes affectées, les traces disponibles et le responsable du parcours. Une protection peut rester nécessaire même si aucun incident récent n'est connu. Si l'incertitude demeure, préserve la fonction en attendant un examen compétent.
 

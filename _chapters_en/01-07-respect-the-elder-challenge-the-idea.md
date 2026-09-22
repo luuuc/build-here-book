@@ -20,7 +20,7 @@ seo:
 
 ## The reflex
 
-In this constructed example, an experienced salesperson proposes keeping an offer as it is. She knows the customers well. A new colleague has heard several requests that seem to contradict her reading.
+In this example, an experienced salesperson proposes keeping an offer as it is. She knows the customers well. A new colleague has heard several requests that seem to contradict her reading.
 
 The colleague hesitates to speak: she may be missing context, and she does not know how her disagreement will be received. The decision moves ahead without those observations being examined.
 

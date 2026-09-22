@@ -35,7 +35,7 @@ Livre ce qui reste utile et rapporte ce que l'exécution t'a appris. Si la déco
 
 La personne qui réalise le travail rencontre des détails que le cadrage initial pouvait ignorer. Au support, une demande revient après chaque remboursement. Dans une association, plusieurs participants interprètent différemment la même invitation. En ingénierie, le correctif touche une partie qui n'était pas prévue. Ces observations peuvent confirmer le choix de départ, améliorer la prochaine tâche ou justifier un changement. Les noter pendant qu'elles sont précises évite de devoir les reconstituer. Elles complètent le travail de cadrage ; elles ne prouvent pas que la personne qui l'a fait s'est trompée.
 
-Exemple construit : on te demande de corriger l'affichage d'un formulaire sur mobile. En vérifiant, tu constates que certaines inscriptions échouent aussi après l'envoi. Ce sont deux faits différents. Corriger l'affichage reste utile, mais ne suffit pas à conclure que l'inscription fonctionne.
+On te demande de corriger l'affichage d'un formulaire sur mobile. En vérifiant, tu constates que certaines inscriptions échouent aussi après l'envoi. Ce sont deux faits différents. Corriger l'affichage reste utile, mais ne suffit pas à conclure que l'inscription fonctionne.
 
 Tu n'as pas besoin de résoudre seul le problème élargi. Distingue le fait observé, ton interprétation et la suite que tu proposes. Une personne qui débute peut rapporter un cas précis et demander de l'aide pour l'interpréter. Une personne expérimentée peut proposer plusieurs options.
 

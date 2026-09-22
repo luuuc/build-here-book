@@ -46,7 +46,7 @@
     ]},
     { n: 5, name: "La livraison", line: "Tu mets tôt quelque chose dans le réel pour produire de l'information.", practice: "Découpe ce que tu construis afin qu'une version observable rencontre le réel avant vendredi.", cards: [
       ["Diagnostic", "Plus tu peaufines, plus il devient difficile de changer d'avis", "/chapters/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html"],
-      ["Principe", "Livrer permet d'apprendre", "/chapters/05-01-shipper-cree-de-linformation.html"],
+      ["Principe", "Shipper crée de l'information", "/chapters/05-01-shipper-cree-de-linformation.html"],
       ["Pratique", "Rapide ne veut pas dire précipité", "/chapters/05-02-rapide-ne-veut-pas-dire-precipite.html"]
     ]},
     { n: 6, name: "L'ownership", line: "Tu fermes la boucle et réponds du résultat, y compris quand il te contredit.", practice: "Reviens sur une livraison vieille d'un mois. Écris ce qui s'est réellement passé et qui porte la prochaine décision.", cards: [
@@ -65,7 +65,7 @@
       ["Pratique", "L'IA est un levier, pas un raccourci", "/chapters/08-02-lia-est-un-levier-pas-un-raccourci.html"]
     ]},
     { n: 9, name: "Le leadership", line: "Tu fabriques un environnement où d'autres builders peuvent agir.", practice: "Prends la plainte que tu répètes le plus sur l'équipe. Change une règle ou une incitation qui rend ce comportement rationnel.", cards: [
-      ["Diagnostic", "On fabrique l'environnement dont on se plaint", "/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html"],
+      ["Diagnostic", "Les dirigeants fabriquent l'environnement dont ils se plaignent", "/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html"],
       ["Principe", "Le filtre que tu fais tourner", "/chapters/09-02-le-filtre-que-tu-fais-tourner.html"],
       ["Pratique", "Confie un problème, pas une tâche", "/chapters/09-03-confie-un-probleme-pas-une-tache.html"]
     ]},

@@ -32,11 +32,11 @@ Ce livre part de cette correction. Il rassemble des pratiques pour construire, p
 
 ## Partir de ce que tu peux faire
 
-Tu peux ouvrir ce livre avec un métier déjà solide, une envie de commencer ou une équipe à accompagner. Une pratique familière peut t'aider à transmettre un raisonnement que tu utilisais sans l'expliquer. Une difficulté qui revient peut donner une question à explorer. Une personne disponible pour une relecture peut rendre un premier essai possible.
+Tu ouvres ce livre avec un métier déjà solide, une envie de commencer ou une équipe à accompagner. Chacun de ces points de départ marche. Une pratique familière te donne un raisonnement à transmettre. Une difficulté qui revient te donne une question. Une personne prête à relire te donne un premier essai.
 
 Le support entend ce qui coince après l'utilisation. Le commerce connaît les questions qui précèdent un choix. Le design rend un usage compréhensible. La finance éclaire les engagements. Les opérations voient les passages de relais. L'ingénierie construit et entretient les systèmes. Chacune de ces places donne accès à une partie du problème. Dans un projet personnel ou associatif, une même personne peut en occuper plusieurs.
 
-Voici un exemple construit. Mariam aide une association à accueillir de nouveaux participants. Plusieurs arrivent au mauvais endroit. Elle regarde l'invitation avec une personne qui la découvre, repère une indication ambiguë et propose une autre formulation à l'organisateur. Ils conviennent de l'essayer au prochain rendez-vous. Après celui-ci, elle demande ce qui a encore posé problème et laisse le texte corrigé à la personne qui préparera l'invitation suivante.
+Mariam aide une association à accueillir de nouveaux participants. Plusieurs arrivent au mauvais endroit. Elle regarde l'invitation avec une personne qui la découvre, repère une indication ambiguë et propose une autre formulation à l'organisateur. Ils conviennent de l'essayer au prochain rendez-vous. Après celui-ci, elle demande ce qui a encore posé problème et laisse le texte corrigé à la personne qui préparera l'invitation suivante.
 
 Cet essai suffit pour exercer plusieurs capacités : écouter, comprendre, livrer, vérifier et transmettre. Si le message n'aide pas, Mariam dispose d'une nouvelle question. S'il aide, le service rendu a déjà de la valeur. Elle peut terminer sa contribution en convenant du relais, sans devenir responsable de toutes les invitations à venir.
 
@@ -48,14 +48,12 @@ La compréhension élargit le regard aux personnes servies et aux effets de ton 
 
 Les systèmes rendent la prochaine fois plus facile lorsque la répétition justifie cet effort. Le levier examine comment un travail utile peut produire davantage. Le leadership porte sur ce que tu rends possible pour les autres. La référence concerne ce qu'ils peuvent apprendre de ton travail : une méthode, une explication, un exemple ou une pratique transmise.
 
-Cet ordre propose un trajet de lecture. Ces capacités se développent ensemble et tu peux revenir à chacune selon ton besoin. Tu peux enseigner ce que tu viens d'apprendre ou découvrir une question élémentaire après des années de métier. Les sections donnent un cadre ; les cartes permettent de s'arrêter sur un sujet précis.
+Cet ordre propose un trajet de lecture. Ces capacités se développent ensemble et tu peux revenir à chacune selon ton besoin. Tu peux enseigner ce que tu viens d'apprendre ou découvrir une question élémentaire après des années de métier.
 
 ## Lire une carte, essayer un geste
 
-Chaque carte porte une idée. Commence par sa situation, puis examine ce qui ressemble à la tienne et ce qui en diffère. Un principe aide à juger, un diagnostic à comprendre, une pratique à essayer un geste. Les cartes système, marquées ⇄, interrogent les conditions du travail : temps, accès, décisions, appuis ou reconnaissance. Elles peuvent servir à préparer une discussion avec la personne qui peut changer ces conditions.
+Chaque carte porte une idée. Les cartes marquées ⇄ portent sur les conditions du travail : temps, accès, décisions, appuis, reconnaissance. Elles s'adressent à ceux qui peuvent les changer.
 
-Tu peux lire dans l'ordre ou choisir une carte directement. Le bloc « Depuis ton siège », lorsqu'il apparaît, montre comment plusieurs rôles abordent le même sujet. Les scènes construites illustrent un raisonnement ; elles ne constituent pas des résultats de terrain. Tu peux garder, adapter ou écarter une proposition en expliquant ce que ton contexte change.
+Choisis un geste assez petit pour le temps que tu as. Conviens du périmètre avec les personnes concernées. Prévois un fait à observer et un moment pour revenir le regarder.
 
-Pour passer à la pratique, choisis un geste assez petit pour le temps disponible. Si d'autres personnes sont concernées, conviens avec elles du périmètre et des moyens. Prévois un fait à observer et un moment pour revenir le regarder. Le résultat t'aidera à décider de la suite. Une conversation, une note interne ou une passation peuvent conserver ce que tu as appris.
-
-Les parcours, ateliers, exemples et modèles sont disponibles sur le [site du livre](/livre/). Tu peux les consulter quand ils deviennent utiles. Pour l'instant, commence par cette attention simple : regarder ce qui se passe autour de toi et chercher ce que tu pourrais mieux comprendre.
+Le reste, parcours, ateliers et modèles, est sur le [site du livre](/livre/). Commence par regarder ce qui se passe autour de toi.

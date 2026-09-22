@@ -81,4 +81,4 @@ Idriss accepte de conserver le modèle et de vérifier les indications avant cha
 
 Pour ton premier essai, garde la même logique avec un besoin accessible : une personne, une question, un accord, un geste limité et un retour. Si le premier contact refuse ou n'a pas le temps, cherche une autre occasion acceptée ; le refus n'est pas un échec personnel.
 
-Les [modèles à adapter](/modeles/) permettent de préparer ton propre essai. Les cartes [Parle à la personne qui a le problème](/chapters/04-01-parle-a-la-personne-qui-a-le-probleme.html) et [Prévois quand vérifier le résultat](/chapters/06-02-reviens-voir-un-mois-plus-tard.html) en expliquent les choix.
+Les [modèles à adapter](/modeles/) permettent de préparer ton propre essai. Les cartes [Parle à la personne qui a le problème](/chapters/04-01-parle-a-la-personne-qui-a-le-probleme.html) et [Reviens voir un mois plus tard](/chapters/06-02-reviens-voir-un-mois-plus-tard.html) en expliquent les choix.

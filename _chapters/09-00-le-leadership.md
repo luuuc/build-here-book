@@ -27,7 +27,7 @@ Le leadership peut consister à aider une personne à comprendre, à décider ou
 
 Un retour précis, une question qui éclaire un choix, une démonstration ou une introduction acceptée peuvent déjà servir. Une personne qui débute peut expliquer une difficulté qu'elle vient de rencontrer. Une personne expérimentée peut partager ses critères ou aider à préparer un relais. La valeur tient à l'effet de cette aide, pas au titre de celui qui la propose.
 
-Exemple construit : deux bénévoles préparent l'accueil d'un atelier. L'un a déjà organisé une séance, l'autre découvre l'activité. Ils choisissent ensemble une partie que le second préparera, précisent les contraintes et conviennent d'un point de retour. Le premier montre un exemple si cela aide, puis laisse une vraie place aux choix de son pair. Après l'atelier, ils examinent ce qui a fonctionné et ce qui demande encore un appui.
+Deux bénévoles préparent l'accueil d'un atelier. L'un a déjà organisé une séance, l'autre découvre l'activité. Ils choisissent ensemble une partie que le second préparera, précisent les contraintes et conviennent d'un point de retour. Le premier montre un exemple si cela aide, puis laisse une vraie place aux choix de son pair. Après l'atelier, ils examinent ce qui a fonctionné et ce qui demande encore un appui.
 
 Développer des capacités demande du temps aux deux personnes. Une consigne précise, une observation ou une pratique accompagnée peut être la bonne entrée. Confier un problème plus large devient utile lorsque le contexte, les accès et le soutien permettent de le traiter. L'autonomie ne se mesure pas à l'absence d'aide.
 
@@ -39,17 +39,17 @@ Le mentorat, les échanges et les supports écrits peuvent se compléter. Les ca
 
 **Un signe de progression :** la personne aidée peut expliquer ce que l'appui lui a permis de comprendre ou de faire, et ce dont elle a encore besoin. Un relais réussi ou une décision mieux éclairée compte, même si l'accompagnement reste utile.
 
-Choisis une carte selon ton rôle et la situation : conditions de l'initiative, recrutement, accompagnement, relecture, décision, relève, reconnaissance ou transmission. Les cartes marquées ⇄ ailleurs dans le livre éclairent aussi les conditions d'action. Celles de l'étape suivante proposent des façons de rendre une expérience accessible et réutilisable, sans imposer une progression vers la visibilité publique.
+Les cartes marquées ⇄ ailleurs dans le livre éclairent aussi les conditions d'action. Celles de l'étape suivante proposent des façons de rendre une expérience accessible et réutilisable, sans imposer une progression vers la visibilité publique.
 
 ---
 
 ## Les cartes de cette étape
 
-- 9.01 [Examine les conditions de l'initiative](/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
+- 9.01 [Les dirigeants fabriquent l'environnement dont ils se plaignent](/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
 - 9.02 [Le filtre que tu fais tourner](/chapters/09-02-le-filtre-que-tu-fais-tourner.html)
-- 9.03 [Confie un problème avec les appuis nécessaires](/chapters/09-03-confie-un-probleme-pas-une-tache.html)
-- 9.04 [Explique ce que ta relecture a vérifié](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html)
-- 9.05 [Confie une décision dans un cadre clair](/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html)
-- 9.06 [Prépare une relève sur un sujet](/chapters/09-06-rends-toi-remplacable-sur-un-sujet.html)
-- 9.07 [⇄ Relie la reconnaissance aux contributions réelles](/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
-- 9.08 [⇄ Donne des moyens à la transmission](/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
+- 9.03 [Confie un problème, pas une tâche](/chapters/09-03-confie-un-probleme-pas-une-tache.html)
+- 9.04 [Une relecture qui dit seulement oui n'apprend rien](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html)
+- 9.05 [Laisse-le porter ce qui est réversible](/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html)
+- 9.06 [Rends-toi remplaçable sur un sujet](/chapters/09-06-rends-toi-remplacable-sur-un-sujet.html)
+- 9.07 [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
+- 9.08 [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)

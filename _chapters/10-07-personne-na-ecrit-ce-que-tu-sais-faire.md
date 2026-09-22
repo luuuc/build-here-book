@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Partage ce que ton contexte t'a appris"
+title: "Personne n'a écrit ce que tu sais faire"
 part: "La référence"
 order: 1007
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - contexte
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-07-share-what-your-context-taught-you.html
+  en: /en/chapters/10-07-nobody-has-written-down-what-you-know-how-to-do.html
 seo:
   description: "Rends une expérience située utile en la reliant aux ressources existantes, sans présumer son unicité ni imposer une publication."
   keywords: "build here, builder, reference, contexte, experience, partage"
@@ -35,7 +35,7 @@ Cherche ce qui existe, puis précise ce que ton contexte confirme, nuance ou ajo
 
 Les conditions d'usage influencent les solutions : disponibilité du réseau, appareils, langue, accès, moyens ou fonctionnement d'un partenaire. Décrire ces conditions aide un lecteur à juger si l'expérience peut éclairer son propre travail. Elles ne caractérisent pas uniformément un pays ou un marché.
 
-Exemple construit : une équipe adapte une procédure de support lorsque la connexion est intermittente. Elle précise ce qui doit rester disponible, comment le relais est organisé et quelles limites demeurent. Une autre équipe peut y trouver une idée, même si les outils ou la cause des interruptions diffèrent. Il faut expliquer le raisonnement, pas présenter la solution comme universelle.
+Une équipe adapte une procédure de support lorsque la connexion est intermittente. Elle précise ce qui doit rester disponible, comment le relais est organisé et quelles limites demeurent. Une autre équipe peut y trouver une idée, même si les outils ou la cause des interruptions diffèrent. Il faut expliquer le raisonnement, pas présenter la solution comme universelle.
 
 Une recherche courte peut révéler des ressources utiles ou un manque dans ce que tu as trouvé. Elle ne prouve pas que personne n'a écrit sur le sujet. Cherche avec plusieurs formulations, dans les langues accessibles et auprès de personnes qui connaissent le domaine. Un document local, une explication orale ou une ressource peu visible peut déjà porter ce savoir.
 

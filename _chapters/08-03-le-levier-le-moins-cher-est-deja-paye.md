@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Examine ce que tu as avant d'ajouter un outil"
+title: "Le levier le moins cher est déjà payé"
 part: "Le levier"
 order: 803
 card_type: principe
@@ -14,7 +14,7 @@ categories:
   - outils
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/08-03-look-at-what-you-have-before-adding-a-tool.html
+  en: /en/chapters/08-03-the-cheapest-leverage-is-already-paid-for.html
 seo:
   description: "Compare réutilisation et alternatives sur leur coût futur et leurs conditions d'usage, sans considérer les ressources existantes comme gratuites."
   keywords: "build here, builder, levier, outils, reutilisation, cout"
@@ -34,7 +34,7 @@ Examine les ressources disponibles et compare leur adaptation à une autre solut
 
 Un outil existant, une procédure ou un document peut déjà couvrir une partie du besoin. Les examiner peut éviter un achat ou un travail en double. Cela ne prouve pas qu'ils constituent l'option la moins chère : une adaptation difficile ou un usage mal adapté peut coûter davantage qu'une solution différente.
 
-Exemple construit : une association souhaite suivre les prêts de matériel. Un tableau partagé existe déjà pour l'inventaire. Ajouter un suivi peut convenir si les personnes comprennent comment le tenir et si les accès sont adaptés. Si cela mélange des usages incompatibles, une autre organisation peut être préférable, même sans acheter de logiciel.
+Une association souhaite suivre les prêts de matériel. Un tableau partagé existe déjà pour l'inventaire. Ajouter un suivi peut convenir si les personnes comprennent comment le tenir et si les accès sont adaptés. Si cela mélange des usages incompatibles, une autre organisation peut être préférable, même sans acheter de logiciel.
 
 Compare le coût futur des options plutôt que de défendre une dépense passée. Formation, maintenance, qualité du service, droits d'accès, dépendances et sortie comptent avec l'abonnement. Le temps de recherche compte aussi : limite l'examen selon l'enjeu, sans supposer qu'une demi-heure résoudra tous les cas.
 

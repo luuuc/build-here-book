@@ -39,9 +39,9 @@ Choose a single card according to the question, without having to work through a
 | The group's question | Card to start from |
 |---|---|
 | How do we make a handover clearer? | [Done on your side does not mean solved](/en/chapters/06-01-done-on-your-side-does-not-mean-solved.html) |
-| What feedback would help us learn? | [Say what your review actually checked](/en/chapters/09-04-say-what-your-review-actually-checked.html) |
-| Which small attempt would inform our decision? | [Shipping is how you learn](/en/chapters/05-01-shipping-is-how-you-learn.html) |
-| How do we give objections a follow-up? | [⇄ Give objections a real follow-up](/en/chapters/03-08-give-objections-a-real-follow-up.html) |
+| What feedback would help us learn? | [A review that only says yes teaches nothing](/en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html) |
+| Which small attempt would inform our decision? | [Shipping creates information](/en/chapters/05-01-shipping-creates-information.html) |
+| How do we give objections a follow-up? | [⇄ You cannot ask for candor and keep the last word](/en/chapters/03-08-you-cannot-ask-for-candor-and-keep-the-last-word.html) |
 
 The ⇄ cards can help you prepare a request. They do not give the group authority to change a rule. If the conditions call for a decision elsewhere, identify who to ask and prepare a bounded proposal.
 
@@ -72,7 +72,7 @@ If a card is used to aim at a colleague, stop that use and come back to the fact
 
 ## A short record, with a clear status
 
-An entirely constructed example of what a session produces:
+An example of what a session produces:
 
 > **Fact:** in the case examined, the file that went out had no explicit next action.
 >

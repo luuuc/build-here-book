@@ -50,13 +50,13 @@
         "type": "pratique"
       },
       {
-        "title": "Take the initiative, agree the limits",
-        "url": "/en/chapters/01-03-take-the-initiative-agree-the-limits.html",
+        "title": "Ownership starts where the job description stops",
+        "url": "/en/chapters/01-03-ownership-starts-where-the-job-description-stops.html",
         "type": "principe"
       },
       {
-        "title": "⇄ Give questions a follow-up",
-        "url": "/en/chapters/01-09-give-questions-a-follow-up.html",
+        "title": "⇄ Nobody asks twice",
+        "url": "/en/chapters/01-09-nobody-asks-twice.html",
         "type": "systeme"
       }
     ]
@@ -67,8 +67,8 @@
     "seed": "Choose one detail of the craft to work on, and a source or a review you can reach.",
     "cards": [
       {
-        "title": "Choose what you want to get better at",
-        "url": "/en/chapters/02-03-choose-what-you-want-to-get-better-at.html",
+        "title": "Twelve years of experience, or the same year twelve times",
+        "url": "/en/chapters/02-03-twelve-years-of-experience-or-the-same-year-twelve-times.html",
         "type": "diagnostic"
       },
       {
@@ -94,13 +94,13 @@
         "type": "pratique"
       },
       {
-        "title": "When you are stuck, make the next step explicit",
-        "url": "/en/chapters/03-04-when-you-are-stuck-make-the-next-step-explicit.html",
+        "title": "Being stuck is a decision",
+        "url": "/en/chapters/03-04-being-stuck-is-a-decision.html",
         "type": "diagnostic"
       },
       {
-        "title": "⇄ Give objections a real follow-up",
-        "url": "/en/chapters/03-08-give-objections-a-real-follow-up.html",
+        "title": "⇄ You cannot ask for candor and keep the last word",
+        "url": "/en/chapters/03-08-you-cannot-ask-for-candor-and-keep-the-last-word.html",
         "type": "systeme"
       }
     ]
@@ -121,8 +121,8 @@
         "type": "diagnostic"
       },
       {
-        "title": "⇄ Organise useful access to field feedback",
-        "url": "/en/chapters/04-13-organise-useful-access-to-field-feedback.html",
+        "title": "⇄ Customer access is a budget, not a value",
+        "url": "/en/chapters/04-13-customer-access-is-a-budget-not-a-value.html",
         "type": "systeme"
       }
     ]
@@ -133,8 +133,8 @@
     "seed": "Define a bounded attempt, what it could teach, and the protections to keep.",
     "cards": [
       {
-        "title": "Shipping is how you learn",
-        "url": "/en/chapters/05-01-shipping-is-how-you-learn.html",
+        "title": "Shipping creates information",
+        "url": "/en/chapters/05-01-shipping-creates-information.html",
         "type": "principe"
       },
       {
@@ -143,8 +143,8 @@
         "type": "pratique"
       },
       {
-        "title": "⇄ Set a delivery rhythm that serves",
-        "url": "/en/chapters/05-05-set-a-delivery-rhythm-that-serves.html",
+        "title": "⇄ Your delivery rhythm is a decision you made",
+        "url": "/en/chapters/05-05-your-delivery-rhythm-is-a-decision-you-made.html",
         "type": "systeme"
       }
     ]
@@ -160,13 +160,13 @@
         "type": "diagnostic"
       },
       {
-        "title": "Plan when you will check the result",
-        "url": "/en/chapters/06-02-plan-when-you-will-check-the-result.html",
+        "title": "Come back a month later",
+        "url": "/en/chapters/06-02-come-back-a-month-later.html",
         "type": "pratique"
       },
       {
-        "title": "⇄ Tie the review to outcomes",
-        "url": "/en/chapters/06-07-tie-the-review-to-outcomes.html",
+        "title": "⇄ You ask for outcomes and you review activity",
+        "url": "/en/chapters/06-07-you-ask-for-outcomes-and-you-review-activity.html",
         "type": "systeme"
       }
     ]
@@ -182,13 +182,13 @@
         "type": "diagnostic"
       },
       {
-        "title": "Understand the step before you simplify it",
-        "url": "/en/chapters/07-02-understand-the-step-before-you-simplify-it.html",
+        "title": "Delete the step before you document it",
+        "url": "/en/chapters/07-02-delete-the-step-before-you-document-it.html",
         "type": "pratique"
       },
       {
-        "title": "Hand over a problem with the backing it needs",
-        "url": "/en/chapters/09-03-hand-over-a-problem-with-the-backing-it-needs.html",
+        "title": "Hand over a problem, not a task",
+        "url": "/en/chapters/09-03-hand-over-a-problem-not-a-task.html",
         "type": "pratique"
       }
     ]
@@ -199,18 +199,18 @@
     "seed": "Compare a possible reuse with the current practice, costs and checks included.",
     "cards": [
       {
-        "title": "Group the cases, then check the causes",
-        "url": "/en/chapters/08-01-group-the-cases-then-check-the-causes.html",
+        "title": "Sort them by cause, not by subject",
+        "url": "/en/chapters/08-01-sort-them-by-cause-not-by-subject.html",
         "type": "diagnostic"
       },
       {
-        "title": "Look at what you have before adding a tool",
-        "url": "/en/chapters/08-03-look-at-what-you-have-before-adding-a-tool.html",
+        "title": "The cheapest leverage is already paid for",
+        "url": "/en/chapters/08-03-the-cheapest-leverage-is-already-paid-for.html",
         "type": "principe"
       },
       {
-        "title": "⇄ Credit the work avoided and the service kept running",
-        "url": "/en/chapters/08-05-credit-the-work-avoided-and-the-service-kept-running.html",
+        "title": "⇄ You pay for hours, you get hours",
+        "url": "/en/chapters/08-05-you-pay-for-hours-you-get-hours.html",
         "type": "systeme"
       }
     ]
@@ -221,18 +221,18 @@
     "seed": "Ask one person what backing they want, and agree a bounded contribution.",
     "cards": [
       {
-        "title": "Say what your review actually checked",
-        "url": "/en/chapters/09-04-say-what-your-review-actually-checked.html",
+        "title": "A review that only says yes teaches nothing",
+        "url": "/en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html",
         "type": "principe"
       },
       {
-        "title": "Hand over a problem with the backing it needs",
-        "url": "/en/chapters/09-03-hand-over-a-problem-with-the-backing-it-needs.html",
+        "title": "Hand over a problem, not a task",
+        "url": "/en/chapters/09-03-hand-over-a-problem-not-a-task.html",
         "type": "pratique"
       },
       {
-        "title": "⇄ Give teaching the means to happen",
-        "url": "/en/chapters/09-08-give-teaching-the-means-to-happen.html",
+        "title": "⇄ You are the missing reference, and you left nothing behind",
+        "url": "/en/chapters/09-08-you-are-the-missing-reference-and-you-left-nothing-behind.html",
         "type": "systeme"
       }
     ]
@@ -243,18 +243,18 @@
     "seed": "Adapt an answer for a willing recipient, in a sharing space you are allowed to use.",
     "cards": [
       {
-        "title": "Give the reader enough to examine your reasoning",
-        "url": "/en/chapters/10-02-give-the-reader-enough-to-examine-your-reasoning.html",
+        "title": "An opinion is not an artifact",
+        "url": "/en/chapters/10-02-an-opinion-is-not-an-artifact.html",
         "type": "diagnostic"
       },
       {
-        "title": "Make a useful answer findable",
-        "url": "/en/chapters/10-04-make-a-useful-answer-findable.html",
+        "title": "Answer the question in public",
+        "url": "/en/chapters/10-04-answer-the-question-in-public.html",
         "type": "pratique"
       },
       {
-        "title": "⇄ Make the terms of sharing clear",
-        "url": "/en/chapters/10-09-make-the-terms-of-sharing-clear.html",
+        "title": "⇄ The absence of a rule is a ban",
+        "url": "/en/chapters/10-09-the-absence-of-a-rule-is-a-ban.html",
         "type": "systeme"
       }
     ]

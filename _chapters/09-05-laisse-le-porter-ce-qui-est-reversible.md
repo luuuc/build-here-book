@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Confie une décision dans un cadre clair"
+title: "Laisse-le porter ce qui est réversible"
 part: "Le leadership"
 order: 905
 card_type: pratique
@@ -14,7 +14,7 @@ categories:
   - ownership
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/09-05-hand-over-a-decision-inside-a-clear-frame.html
+  en: /en/chapters/09-05-let-them-carry-what-is-reversible.html
 seo:
   description: "Accorde des décisions réelles avec limites, soutien et mandat, en examinant les conséquences au-delà de la seule réversibilité."
   keywords: "build here, builder, leadership, delegation, decision, limites"
@@ -34,7 +34,7 @@ Prendre une décision réelle peut développer le jugement. Observer, pratiquer 
 
 Une décision facile à défaire techniquement peut laisser un coût, du travail ou une perte de confiance. Un message envoyé ne disparaît pas parce qu'on le corrige. Un retour à une version précédente peut demander de traiter les effets déjà produits. Examine donc la portée, les compétences, les moyens de reprise et les personnes affectées, plutôt qu'un délai universel d'une journée.
 
-Exemple construit : une collègue choisit l'ordre d'une séance d'accueil dans un cadre convenu. Elle peut adapter les exercices, mais le lieu et le budget restent fixés. Vous prévoyez un point de préparation et une manière de demander de l'aide. Une validation sur un élément particulier peut rester nécessaire sans annuler toutes les décisions qu'elle prend réellement.
+Une collègue choisit l'ordre d'une séance d'accueil dans un cadre convenu. Elle peut adapter les exercices, mais le lieu et le budget restent fixés. Vous prévoyez un point de préparation et une manière de demander de l'aide. Une validation sur un élément particulier peut rester nécessaire sans annuler toutes les décisions qu'elle prend réellement.
 
 Le cadre doit dire qui décide et quand un avis est requis. Évite une autorisation annoncée puis retirée parce que tu aurais préféré une autre option. Rester disponible comprend aussi la possibilité de signaler spontanément un risque important. Attendre qu'une action devienne irréversible avant d'intervenir ne protège ni l'apprentissage ni le service.
 

@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Reconnais aussi le travail évité et le service préservé"
+title: "⇄ Tu paies des heures, tu obtiens des heures"
 part: "Le levier"
 order: 805
 card_type: systeme
@@ -14,7 +14,7 @@ categories:
   - conditions
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/08-05-credit-the-work-avoided-and-the-service-kept-running.html
+  en: /en/chapters/08-05-you-pay-for-hours-you-get-hours.html
 seo:
   description: "Reconnais prévention, transmission et service direct à partir d'effets contextualisés, sans quota de suppression ni promesse de gain gratuit."
   keywords: "build here, builder, levier, prevention, service, reconnaissance"
@@ -34,7 +34,7 @@ Le travail de prévention, de simplification ou de transmission peut être moins
 
 Le volume traité renseigne sur la charge et le service rendu. Le temps consacré peut aider à organiser les moyens. Ces informations restent utiles, mais ne décrivent pas toutes les contributions. Une amélioration peut réduire les reprises, faciliter un relais ou préserver la fiabilité sans produire davantage de tâches visibles.
 
-Exemple construit : l'équipe d'accueil clarifie une invitation et reçoit moins de questions d'accès. Elle compare des événements similaires et demande si les participants trouvent mieux le lieu. La baisse des messages seule ne prouve pas un progrès : un canal devenu difficile à joindre pourrait produire le même chiffre. Le travail direct d'accueil reste nécessaire et mérite aussi d'être reconnu.
+L'équipe d'accueil clarifie une invitation et reçoit moins de questions d'accès. Elle compare des événements similaires et demande si les participants trouvent mieux le lieu. La baisse des messages seule ne prouve pas un progrès : un canal devenu difficile à joindre pourrait produire le même chiffre. Le travail direct d'accueil reste nécessaire et mérite aussi d'être reconnu.
 
 Rendre ces effets visibles demande parfois une observation, une estimation ou un retour qualitatif. Ne force pas chaque contribution à devenir un nombre d'heures annuelles économisées. Distingue le gain observé du gain attendu, et ajoute les coûts de préparation et d'entretien. Une amélioration qui déplace la charge vers une autre personne n'a pas forcément réduit l'effort total.
 

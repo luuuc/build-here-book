@@ -31,7 +31,7 @@ Ouvre par une situation que ton destinataire reconnaît, puis explique ta propos
 
 ## Pourquoi ça marche
 
-Une situation précise aide à comprendre à qui s'adresse une proposition. Elle donne un point de départ à la conversation : est-ce bien le problème rencontré, dans ces conditions, avec cette conséquence ? Exemple construit : "Chaque soir, tu recopies les commandes reçues par messagerie dans un tableur" décrit un usage plus concret que "optimisez vos opérations". Mais cette phrase ne convient que si tu as observé ou vérifié la situation auprès des personnes visées. N'invente pas leur quotidien pour produire un effet de reconnaissance.
+Une situation précise aide à comprendre à qui s'adresse une proposition. Elle donne un point de départ à la conversation : est-ce bien le problème rencontré, dans ces conditions, avec cette conséquence ? "Chaque soir, tu recopies les commandes reçues par messagerie dans un tableur" décrit un usage plus concret que "optimisez vos opérations". Mais cette phrase ne convient que si tu as observé ou vérifié la situation auprès des personnes visées. N'invente pas leur quotidien pour produire un effet de reconnaissance.
 
 La précision ne remplace pas les preuves. Connaître un problème ne démontre pas que tu sais le résoudre. Montre ensuite un résultat vérifié, une démonstration ou un essai possible. Présente comme attendu ce qui n'a pas encore été observé.
 

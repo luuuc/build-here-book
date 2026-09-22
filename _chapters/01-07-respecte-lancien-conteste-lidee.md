@@ -23,7 +23,7 @@ redirect_from:
 
 ## Le réflexe
 
-Dans cet exemple construit, une commerciale expérimentée propose de conserver une offre. Elle connaît bien les clients. Une nouvelle collègue a entendu plusieurs demandes qui semblent contredire son analyse.
+Dans cet exemple, une commerciale expérimentée propose de conserver une offre. Elle connaît bien les clients. Une nouvelle collègue a entendu plusieurs demandes qui semblent contredire son analyse.
 
 La collègue hésite à parler : elle manque peut-être de contexte, et elle ne sait pas comment son désaccord sera reçu. La décision avance sans que ces observations soient examinées.
 

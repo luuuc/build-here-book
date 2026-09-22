@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Donne des moyens à la transmission"
+title: "⇄ Tu es la référence qui manque, et tu n'as rien laissé"
 part: "Le leadership"
 order: 908
 card_type: systeme
@@ -14,7 +14,7 @@ categories:
   - transmission
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/09-08-give-teaching-the-means-to-happen.html
+  en: /en/chapters/09-08-you-are-the-missing-reference-and-you-left-nothing-behind.html
 seo:
   description: "Soutiens mentorat, pratique et supports adaptés avec du temps, des accords et une vérification de leur utilité, sans publication obligatoire."
   keywords: "build here, builder, leadership, transmission, mentorat, soutien"
@@ -35,7 +35,7 @@ Si la transmission doit prendre une nouvelle forme, il faut en préciser le dest
 
 Le mentorat peut laisser des capacités durables chez les personnes accompagnées, qui peuvent à leur tour transmettre. Son effet ne s'arrête pas automatiquement au départ du mentor. Une trace écrite peut compléter ce travail et faciliter un accès ultérieur ; elle ne garantit ni davantage de lecteurs ni un meilleur apprentissage.
 
-Exemple construit : une collègue aide régulièrement à préparer un entretien avec un usager. Elle propose, avec les personnes accompagnées, une courte fiche de questions et un exemple commenté. Un pair essaie la fiche puis explique où il a encore besoin d'aide. L'échange permet d'améliorer le support sans supprimer les conversations qui restent utiles.
+Une collègue aide régulièrement à préparer un entretien avec un usager. Elle propose, avec les personnes accompagnées, une courte fiche de questions et un exemple commenté. Un pair essaie la fiche puis explique où il a encore besoin d'aide. L'échange permet d'améliorer le support sans supprimer les conversations qui restent utiles.
 
 La forme dépend du besoin : binôme, démonstration, fiche interne, séance collective ou contenu public si le partage est pertinent et autorisé. Une personne débutante peut noter ce qui l'a aidée ; une personne expérimentée peut apporter le contexte et les limites. Aucun titre ni ancienneté ne donne seul la responsabilité de publier pour tout un métier.
 

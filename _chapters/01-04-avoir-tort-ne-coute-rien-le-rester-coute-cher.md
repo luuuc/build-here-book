@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Reviens sur une décision quand les faits changent"
+title: "Avoir tort ne coûte rien. Le rester coûte cher"
 part: "L'état d'esprit"
 order: 104
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - culture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/01-04-revisit-a-decision-when-the-facts-change.html
+  en: /en/chapters/01-04-being-wrong-is-free-staying-wrong-is-expensive.html
 seo:
   description: "Des faits nouveaux peuvent justifier de revoir une décision. Écris ce qui ferait changer le plan et examine le coût de la correction."
   keywords: "build here, ego et honnetete intellectuelle, builder, avoir, tort, coute, rien, rester"

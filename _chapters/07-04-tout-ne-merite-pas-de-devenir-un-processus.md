@@ -34,7 +34,7 @@ Une règle peut protéger un service, aider un débutant ou rendre un accord exp
 
 Une première occurrence peut suffire à justifier une action si les conséquences sont importantes. Il peut même être pertinent de prévenir un risque avant tout incident. Pour une gêne limitée et encore mal comprise, observer quelques cas peut être préférable à imposer immédiatement la même procédure à tous. Aucun seuil de trois occurrences ne remplace ce jugement.
 
-Exemple construit : lors d'un atelier, un matériel manque à l'ouverture. Selon le contexte, une liste de préparation, une réserve, une clarification du relais ou une vérification ponctuelle peut aider. Ajouter une signature à chaque déplacement du matériel n'est pas automatiquement la meilleure réponse. Il faut comprendre ce qui a manqué et qui supporterait la nouvelle charge.
+Lors d'un atelier, un matériel manque à l'ouverture. Selon le contexte, une liste de préparation, une réserve, une clarification du relais ou une vérification ponctuelle peut aider. Ajouter une signature à chaque déplacement du matériel n'est pas automatiquement la meilleure réponse. Il faut comprendre ce qui a manqué et qui supporterait la nouvelle charge.
 
 Compare aussi les effets sur les autres personnes : temps supplémentaire, accès plus difficile, ambiguïté ou travail déplacé. Une protection utile peut coûter du temps sans être inutile. Fais préciser sa raison et les conditions qui permettraient de la modifier. Si une mesure provisoire est nécessaire avant la fin de l'analyse, indique son caractère provisoire et qui la réexaminera.
 

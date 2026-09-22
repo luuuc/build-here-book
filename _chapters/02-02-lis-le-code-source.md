@@ -37,7 +37,7 @@ Le fichier doit correspondre à ce qui tourne réellement. Une autre version, un
 
 Tu n'as pas besoin de lire le projet entier. Pars d'une entrée et suis-la jusqu'au comportement qui t'intéresse. Si tu débutes, demande à quelqu'un de parcourir cette fonction avec toi. Une session courte peut t'apprendre où regarder et quels mots chercher ensuite.
 
-Cette carte concerne une pratique technique. Dans un autre métier, le geste voisin consiste à revenir au document qui fixe la règle : une procédure, une formule de calcul ou les conditions d'un service. Si la source est fermée ou hors de tes accès, demande un exemple reproductible ou une explication au fournisseur. Lire le code n'est pas une condition pour être builder.
+Hors logiciel, le geste voisin consiste à revenir au document qui fixe la règle : une procédure, une formule de calcul ou les conditions d'un service. Si la source est fermée ou hors de tes accès, demande un exemple reproductible ou une explication au fournisseur. Lire le code n'est pas une condition pour être builder.
 
 ## À essayer
 

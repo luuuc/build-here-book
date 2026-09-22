@@ -21,7 +21,7 @@ seo:
 
 ## The reflex
 
-A constructed example: the discussion and the decision fit into one conversation. The founder would rather sell the offer annually. He says so in the first minute. Product, finance and sales each had an objection. They suddenly become details to sort out afterwards.
+The discussion and the decision fit into one conversation. The founder would rather sell the offer annually. He says so in the first minute. Product, finance and sales each had an objection. They suddenly become details to sort out afterwards.
 
 ## The builder's reflex
 

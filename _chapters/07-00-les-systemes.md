@@ -25,7 +25,7 @@ Un système peut être une façon partagée de préparer un travail, de vérifie
 
 La question de départ est concrète : qu'est-ce qui rendrait la prochaine occurrence plus facile, plus fiable ou plus accessible ? Une répétition peut aider à la repérer. Une conséquence importante peut aussi justifier de préparer une protection avant que le problème revienne.
 
-Exemple construit : plusieurs bénévoles préparent le matériel d'un atelier à tour de rôle. Une liste commune précise ce qui doit être prêt, les vérifications et la personne à contacter si quelque chose manque. Le groupe l'essaie lors d'une préparation, corrige une ambiguïté et convient de qui la mettra à jour. La liste sert le travail ; elle ne remplace pas l'aide quand une situation nouvelle apparaît.
+Plusieurs bénévoles préparent le matériel d'un atelier à tour de rôle. Une liste commune précise ce qui doit être prêt, les vérifications et la personne à contacter si quelque chose manque. Le groupe l'essaie lors d'une préparation, corrige une ambiguïté et convient de qui la mettra à jour. La liste sert le travail ; elle ne remplace pas l'aide quand une situation nouvelle apparaît.
 
 Pour débuter, observe une activité limitée avec quelqu'un qui la connaît. Cherche ce qui varie, ce qui se répète et ce qui protège la suite. Avec davantage d'expérience, tu peux comparer plusieurs cas ou examiner une dépendance devenue habituelle. Aucune de ces démarches ne demande de supprimer une étape avant d'en comprendre la fonction.
 
@@ -37,15 +37,15 @@ Les processus peuvent aussi devenir trop lourds. Examine la charge de chaque rè
 
 **Un signe de progression :** la prochaine occurrence ou le prochain relais dispose de repères utiles, et tu peux dire ce qu'ils ont facilité ou ce qu'il faut ajuster. Une protection conservée après examen peut être aussi importante qu'une étape retirée.
 
-Choisis une carte selon la difficulté : répétition, étape mal comprise, transmission, règle, contournement ou retour d'expérience. Les cartes de levier complètent cette lecture si une solution mérite d'être réutilisée ou étendue, en tenant compte de son entretien.
+Les cartes de levier complètent cette lecture si une solution mérite d'être réutilisée ou étendue, en tenant compte de son entretien.
 
 ---
 
 ## Les cartes de cette étape
 
 - 7.01 [La deuxième fois est une information](/chapters/07-01-la-deuxieme-fois-est-une-information.html)
-- 7.02 [Comprends l'étape avant de la simplifier](/chapters/07-02-supprime-letape-avant-de-la-documenter.html)
-- 7.03 [Prépare un relais pour les savoirs essentiels](/chapters/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html)
+- 7.02 [Supprime l'étape avant de la documenter](/chapters/07-02-supprime-letape-avant-de-la-documenter.html)
+- 7.03 [Une connaissance qui tient dans une seule tête est une panne à venir](/chapters/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html)
 - 7.04 [Tout ne mérite pas de devenir un processus](/chapters/07-04-tout-ne-merite-pas-de-devenir-un-processus.html)
-- 7.05 [Le raccourci révèle un écart à comprendre](/chapters/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html)
+- 7.05 [Le raccourci que tout le monde prend est le vrai processus](/chapters/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html)
 - 7.06 [Écris ce qui a cassé](/chapters/07-06-ecris-ce-qui-a-casse.html)

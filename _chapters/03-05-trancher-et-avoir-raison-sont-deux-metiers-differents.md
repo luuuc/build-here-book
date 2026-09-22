@@ -24,7 +24,7 @@ redirect_from:
 
 ## Le réflexe
 
-Exemple construit : la discussion et la décision tiennent dans une seule conversation. Le fondateur préfère vendre l'offre à l'année. Il le dit dans la première minute. Le produit, la finance et le commercial avaient chacun une objection. Elles deviennent soudain des détails à régler après.
+La discussion et la décision tiennent dans une seule conversation. Le fondateur préfère vendre l'offre à l'année. Il le dit dans la première minute. Le produit, la finance et le commercial avaient chacun une objection. Elles deviennent soudain des détails à régler après.
 
 ## Le réflexe builder
 

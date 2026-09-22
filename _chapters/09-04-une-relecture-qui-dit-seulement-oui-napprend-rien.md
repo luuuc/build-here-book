@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Explique ce que ta relecture a vérifié"
+title: "Une relecture qui dit seulement oui n'apprend rien"
 part: "Le leadership"
 order: 904
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - equipe
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/09-04-say-what-your-review-actually-checked.html
+  en: /en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html
 seo:
   description: "Partage des critères et des limites de relecture utiles, avec un effort proportionné et sans dévaloriser une validation déjà comprise."
   keywords: "build here, builder, leadership, relecture, criteres, apprentissage"
@@ -31,7 +31,7 @@ Explique un critère utile, ce que tu as observé et les limites de ta relecture
 
 Une relecture peut aider à apprendre à partir d'un exemple réel. Elle n'est pas la seule occasion d'apprentissage, et son coût dépend de la complexité et du contexte partagé. Un accord bref peut suffire lorsque les critères sont déjà compris ; il n'est pas nécessaire de transformer chaque vérification en cours.
 
-Quand un raisonnement mérite d'être transmis, nomme-le précisément. Exemple construit : un collègue prépare une réponse à un usager. Tu vérifies d'abord que le prochain geste est compréhensible et que la date annoncée est confirmée. Dire pourquoi ces points comptent aide davantage que présenter la formulation comme simplement bonne ou mauvaise.
+Quand un raisonnement mérite d'être transmis, nomme-le précisément. Un collègue prépare une réponse à un usager. Tu vérifies d'abord que le prochain geste est compréhensible et que la date annoncée est confirmée. Dire pourquoi ces points comptent aide davantage que présenter la formulation comme simplement bonne ou mauvaise.
 
 La relecture peut aussi confirmer une force, révéler une hypothèse ou montrer ce que tu n'as pas pu examiner. Distingue une exigence, un risque et une préférence de style. Un avis situé n'est pas une garantie sur tout le travail. Si le sujet dépasse tes compétences, indique cette limite et propose une personne capable d'aider, avec l'accord du destinataire.
 

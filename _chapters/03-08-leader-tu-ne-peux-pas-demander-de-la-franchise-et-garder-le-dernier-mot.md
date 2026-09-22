@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Donne une suite réelle aux objections"
+title: "⇄ Tu ne peux pas demander de la franchise et garder le dernier mot"
 part: "L'autonomie"
 order: 308
 card_type: systeme
@@ -14,7 +14,7 @@ categories:
   - culture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/03-08-give-objections-a-real-follow-up.html
+  en: /en/chapters/03-08-you-cannot-ask-for-candor-and-keep-the-last-word.html
 seo:
   description: "Accueille et examine les objections tout en gardant une responsabilité de décision claire, sans quota de concessions."
   keywords: "build here, builder, leadership, objections, decision, suivi"

@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Rends une réponse utile retrouvable"
+title: "Réponds à la question en public"
 part: "La référence"
 order: 1004
 card_type: pratique
@@ -13,7 +13,7 @@ categories:
   - transmission
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-04-make-a-useful-answer-findable.html
+  en: /en/chapters/10-04-answer-the-question-in-public.html
 seo:
   description: "Prépare une réponse réutilisable dans un espace adapté, en reconnaissant le coût d'adaptation et la valeur des échanges privés."
   keywords: "build here, builder, reference, reponse, acces, transmission"
@@ -33,7 +33,7 @@ Réponds au besoin immédiat, puis examine si une version réutilisable serait u
 
 Une réponse privée peut être la bonne forme de service. Elle peut aussi nourrir un apprentissage chez son destinataire. La conserver ailleurs peut faciliter un prochain usage, sans rendre le premier échange perdu ni obliger à transformer chaque conversation en publication.
 
-Exemple construit : un nouveau bénévole demande comment préparer l'accueil d'une séance. Après l'avoir aidé, vous repérez une explication qui servirait aux prochains arrivants. Une fiche interne peut reprendre le geste et ses limites, sans copier la conversation ni les détails personnels. Le bénévole peut dire ce qui l'a aidé à comprendre.
+Un nouveau bénévole demande comment préparer l'accueil d'une séance. Après l'avoir aidé, vous repérez une explication qui servirait aux prochains arrivants. Une fiche interne peut reprendre le geste et ses limites, sans copier la conversation ni les détails personnels. Le bénévole peut dire ce qui l'a aidé à comprendre.
 
 Préparer une réponse pour d'autres lecteurs demande parfois de retirer du contexte, d'en ajouter ou de vérifier qu'elle reste exacte. Il faut choisir un titre, un accès et un responsable de mise à jour si cela compte. Ce travail n'est pas automatiquement gratuit parce qu'une première réponse existe déjà.
 

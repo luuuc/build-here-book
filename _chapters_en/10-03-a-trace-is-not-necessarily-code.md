@@ -30,7 +30,7 @@ Start from the person to help and from what they have to understand or do. Choos
 
 A trace can be a sheet, an explanation, an annotated decision, a diagram, a recorded demonstration made with agreement, or an example of work. It can serve inside a team, a community group, or beyond. A private repository can be useful to its recipients, just as a public page can answer no real need at all.
 
-A constructed example: someone in operations prepares a sheet for welcoming a visiting speaker. It explains the information to check, a case that calls for help, and who to alert. A peer tries it, then flags an ambiguity. The sheet becomes more useful without containing any code, original number, or new discovery.
+Someone in operations prepares a sheet for welcoming a visiting speaker. It explains the information to check, a case that calls for help, and who to alert. A peer tries it, then flags an ambiguity. The sheet becomes more useful without containing any code, original number, or new discovery.
 
 Crafts have their own ways of passing things on. In finance, a worked calculation with its assumptions; in support, an annotated case; in design, a flow with its reasons; in volunteer work, a preparation list. Qualitative observations count too. The value depends on the help given and on getting the context right, not on an obligation to quantify.
 

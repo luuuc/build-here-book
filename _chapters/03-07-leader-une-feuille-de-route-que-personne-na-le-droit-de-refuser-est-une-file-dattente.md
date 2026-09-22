@@ -24,7 +24,7 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Exemple construit : une feuille de route est convenue, puis un client important demande une adaptation urgente. Tu proposes de l'ajouter pour préserver la relation.
+Une feuille de route est convenue, puis un client important demande une adaptation urgente. Tu proposes de l'ajouter pour préserver la relation.
 
 ## Ce que le système entend
 

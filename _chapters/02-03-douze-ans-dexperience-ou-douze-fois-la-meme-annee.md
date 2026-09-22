@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Choisis ce que tu veux mieux maîtriser"
+title: "Douze ans d'expérience, ou douze fois la même année"
 part: "Le métier"
 order: 203
 card_type: diagnostic
@@ -13,7 +13,7 @@ categories:
   - niveau
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/02-03-choose-what-you-want-to-get-better-at.html
+  en: /en/chapters/02-03-twelve-years-of-experience-or-the-same-year-twelve-times.html
 seo:
   description: "L'expérience donne des repères. Pour approfondir une compétence, choisis un geste précis, un retour et une comparaison entre les essais."
   keywords: "build here, metier, experience, pratique, builder"

@@ -23,7 +23,7 @@ redirect_from:
 
 ## Le point de départ
 
-Exemple construit : une équipe doit lancer une campagne à une date convenue. Une précédente campagne avait orienté des demandes vers le mauvais interlocuteur. Cette fois, elle veut tenir le délai sans reproduire ce problème.
+Une équipe doit lancer une campagne à une date convenue. Une précédente campagne avait orienté des demandes vers le mauvais interlocuteur. Cette fois, elle veut tenir le délai sans reproduire ce problème.
 
 ## Le geste
 

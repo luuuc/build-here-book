@@ -40,9 +40,9 @@ You want to make something useful and you are looking for where to take hold of 
 
 1. [Talk to the person who has the problem](/en/chapters/04-01-talk-to-the-person-who-has-the-problem.html). Ask them to show you what they do today and where they hesitate or lose time. On this path, the person you are helping stands in for the customer the card talks about.
 2. [Fast does not mean rushed](/en/chapters/05-02-fast-does-not-mean-rushed.html). Choose a small thing you can do carefully inside the time you have.
-3. [Plan when you will check the result](/en/chapters/06-02-plan-when-you-will-check-the-result.html). Set a moment from the start to observe what your attempt produced. For a first move, that can be the next use, in a few days.
+3. [Come back a month later](/en/chapters/06-02-come-back-a-month-later.html). Set a moment from the start to observe what your attempt produced. For a first move, that can be the next use, in a few days.
 
-**Your first attempt.** Here is a constructed example: a community group keeps getting questions about where a meeting is held. With someone coming for the first time, look at what is missing from the invitation. Propose to the organiser a message with a clear address, a landmark, and a time. Try it with their agreement at the next meeting. You can do this work on paper or in a message.
+**Your first attempt.** A community group keeps getting questions about where a meeting is held. With someone coming for the first time, look at what is missing from the invitation. Propose to the organiser a message with a clear address, a landmark, and a time. Try it with their agreement at the next meeting. You can do this work on paper or in a message.
 
 **What you look at next.** Did the person find the place? What did they still have to ask? Revise the message from their answer. For your own project, choose in the same way a bounded move, an agreement if you touch anyone else's work, and an occasion to watch it being used.
 
@@ -55,9 +55,9 @@ You already build. Start from something you are pleased with, a difficulty that 
 
 **Three cards for deepening your practice:**
 
-1. [Look for references elsewhere too](/en/chapters/02-05-look-for-references-elsewhere-too.html). Compare one decision in your work to that of someone who handled a close problem, allowing for the differences in context.
-2. [A good decision can still turn out badly](/en/chapters/06-05-a-good-decision-can-still-turn-out-badly.html). Read back a choice, separating what you could know at the moment of deciding from what the result taught you.
-3. [Say what your review actually checked](/en/chapters/09-04-say-what-your-review-actually-checked.html). Make the reasoning visible when you review, or ask for that reasoning from whoever examines your work.
+1. [Your best teacher does not work here](/en/chapters/02-05-your-best-teacher-does-not-work-here.html). Compare one decision in your work to that of someone who handled a close problem, allowing for the differences in context.
+2. [A good decision can still lose](/en/chapters/06-05-a-good-decision-can-still-lose.html). Read back a choice, separating what you could know at the moment of deciding from what the result taught you.
+3. [A review that only says yes teaches nothing](/en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html). Make the reasoning visible when you review, or ask for that reasoning from whoever examines your work.
 
 **Your next attempt.** On something you already do well, choose a detail you would like to master better. Set aside thirty minutes to look at a comparable example and to ask a peer for precise feedback. Write down what you will try at the next occasion, and why.
 
@@ -73,8 +73,8 @@ You want the people around you to understand, decide and learn together better. 
 **Three cards for opening the discussion:**
 
 1. [⇄ The first reaction sets the rule](/en/chapters/01-08-the-first-reaction-sets-the-rule.html). Get clear on what each person can decide and how an initiative will be received if it fails.
-2. [Hand over a problem with the backing it needs](/en/chapters/09-03-hand-over-a-problem-with-the-backing-it-needs.html). Give a person the context, the expected result, the limits and the support they need to propose their own approach.
-3. [⇄ Tie the review to outcomes](/en/chapters/06-07-tie-the-review-to-outcomes.html). Make room for the result observed, the time it takes to know it, and what is still uncertain.
+2. [Hand over a problem, not a task](/en/chapters/09-03-hand-over-a-problem-not-a-task.html). Give a person the context, the expected result, the limits and the support they need to propose their own approach.
+3. [⇄ You ask for outcomes and you review activity](/en/chapters/06-07-you-ask-for-outcomes-and-you-review-activity.html). Make room for the result observed, the time it takes to know it, and what is still uncertain.
 
 **Your first attempt.** With the people concerned, choose a bounded problem and a reversible decision. Agree who can decide, the time available, the help they can reach, and what must not be touched. If an agreement is missing, go looking for it with that concrete proposal before you start.
 
@@ -92,8 +92,8 @@ You see the value in this way of working and you want to give it more room. Your
 **Three cards for choosing your backing:**
 
 1. [⇄ Learning on your own time is a filter you did not mean to set](/en/chapters/02-12-learning-on-your-own-time-is-a-filter-you-did-not-mean-to-set.html). If you organise the work, give learning real room and name what gets pushed back. If not, help the person shape a request for time or access to whoever can grant it.
-2. [Say what your review actually checked](/en/chapters/09-04-say-what-your-review-actually-checked.html). Offer feedback that explains what you examined and why. If the subject goes beyond your craft, offer an introduction with the person's agreement.
-3. [⇄ Credit the work avoided and the service kept running](/en/chapters/08-05-credit-the-work-avoided-and-the-service-kept-running.html). Make a useful contribution visible, including when it avoids work. Decisions about reward belong to whoever can make them; you can bring the facts that inform them.
+2. [A review that only says yes teaches nothing](/en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html). Offer feedback that explains what you examined and why. If the subject goes beyond your craft, offer an introduction with the person's agreement.
+3. [⇄ You pay for hours, you get hours](/en/chapters/08-05-you-pay-for-hours-you-get-hours.html). Make a useful contribution visible, including when it avoids work. Decisions about reward belong to whoever can make them; you can bring the facts that inform them.
 
 **Your first piece of backing.** Agree with someone on precise help and a date: a thirty-minute review, an access to request, or a protected slot if that is yours to decide. Check that commitment fits both diaries. Choose an attempt small enough for the means available.
 

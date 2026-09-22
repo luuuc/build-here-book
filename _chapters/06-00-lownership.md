@@ -27,7 +27,7 @@ L'ownership consiste à rendre un engagement et sa suite explicites : ce que tu 
 
 Un travail terminé, un relais accepté et un résultat observé sont trois choses différentes. Elles peuvent être suivies par des personnes différentes. Les relier évite qu'une question reste sans suite, tout en permettant à chacun de clôturer un engagement réellement transmis.
 
-Exemple construit : tu prépares l'invitation d'un atelier associatif. L'organisateur accepte le texte et prend en charge l'envoi. Vous convenez qu'il recueillera les questions d'accès au prochain atelier. Tu peux terminer ta contribution sans surveiller chaque réponse. Si tu participes à la revue, vous pourrez examiner ensemble ce que le texte a facilité et ce qui reste à préciser.
+Tu prépares l'invitation d'un atelier associatif. L'organisateur accepte le texte et prend en charge l'envoi. Vous convenez qu'il recueillera les questions d'accès au prochain atelier. Tu peux terminer ta contribution sans surveiller chaque réponse. Si tu participes à la revue, vous pourrez examiner ensemble ce que le texte a facilité et ce qui reste à préciser.
 
 Une responsabilité a besoin d'un mandat et de moyens. L'information, le temps et l'autorité peuvent manquer même à une personne expérimentée. Demander de l'aide, négocier le périmètre, passer le relais ou arrêter avec les personnes concernées sont des façons de traiter cette limite. Nommer quelqu'un sans son accord ne résout pas le problème.
 
@@ -39,16 +39,16 @@ Si tu développes une équipe, clarifie qui contribue, qui coordonne et qui peut
 
 **Un signe de progression :** les personnes concernées savent ce qui a été accepté, qui répond de la prochaine étape et quand un effet mérite d'être examiné. Elles savent aussi quoi faire si le relais ou le résultat ne se présente pas comme prévu.
 
-Choisis une carte selon la difficulté actuelle : passation, vérification, coordination, revue d'un résultat ou signalement d'un changement. Les cartes sur les systèmes peuvent aider lorsqu'une même difficulté revient ; tu peux aussi revenir au cadrage ou à un nouvel essai.
+Les cartes sur les systèmes peuvent aider lorsqu'une même difficulté revient ; tu peux aussi revenir au cadrage ou à un nouvel essai.
 
 ---
 
 ## Les cartes de cette étape
 
 - 6.01 [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
-- 6.02 [Prévois quand vérifier le résultat](/chapters/06-02-reviens-voir-un-mois-plus-tard.html)
-- 6.03 [Clarifie qui coordonne et qui décide](/chapters/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html)
-- 6.04 [Tire une leçon d'un résultat décevant](/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html)
-- 6.05 [Une bonne décision peut quand même mal tourner](/chapters/06-05-une-bonne-decision-peut-quand-meme-perdre.html)
-- 6.06 [Signale à temps ce qui change l'engagement](/chapters/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
-- 6.07 [⇄ Relie la revue d'activité aux résultats](/chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html)
+- 6.02 [Reviens voir un mois plus tard](/chapters/06-02-reviens-voir-un-mois-plus-tard.html)
+- 6.03 [Une responsabilité partagée par six personnes n'existe pas](/chapters/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html)
+- 6.04 [Le mauvais résultat t'appartient aussi](/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html)
+- 6.05 [Une bonne décision peut quand même perdre](/chapters/06-05-une-bonne-decision-peut-quand-meme-perdre.html)
+- 6.06 [Une bonne nouvelle peut attendre. Une mauvaise, non](/chapters/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
+- 6.07 [⇄ Tu demandes des résultats et tu passes en revue de l'activité](/chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html)

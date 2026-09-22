@@ -30,7 +30,7 @@ Separate work finished, handover accepted, and result verified. Those three mome
 
 A handover lets work be shared out and a commitment be closed. It can be complete even when the final result is not yet known, provided what follows is genuinely organised. Saying "my part is done" is not an alibi when you know what was handed over and who is picking it up.
 
-A constructed example: you prepare the invitations for a community workshop. Someone else is to send them. The text is ready, but they do not have access to the approved list of recipients. Checking that before the handover lets you deal with the blockage without automatically inheriting the sending and the whole follow-up for the event.
+You prepare the invitations for a community workshop. Someone else is to send them. The text is ready, but they do not have access to the approved list of recipients. Checking that before the handover lets you deal with the blockage without automatically inheriting the sending and the whole follow-up for the event.
 
 An acknowledgement is not always an acceptance of the work. Make clear what is expected, what is missing, and the next check-in. A shared tool can be enough if its rules are understood. For a more sensitive file, an explicit confirmation may be necessary. Handover time depends on the context, not on a standard few minutes.
 

@@ -48,7 +48,7 @@ The header band gives the card's type and its scope. Cards marked ⇄ are about 
 
 The ten capabilities suggest a path through. In practice you can work on several at once and come back to any of them as you need. The next subject to read can be the one you lack, the one you want to deepen, or the one you have a chance to pass on.
 
-Here is a constructed example. Mariam helps volunteers at a community group welcome newcomers. Several people turn up in the wrong place. She looks at an invitation with one of them, then proposes a clearer message to the organiser. They agree to try it at the next meeting. Mariam then asks what still caused trouble, and keeps an annotated version for whoever organises the next one.
+Mariam helps volunteers at a community group welcome newcomers. Several people turn up in the wrong place. She looks at an invitation with one of them, then proposes a clearer message to the organiser. They agree to try it at the next meeting. Mariam then asks what still caused trouble, and keeps an annotated version for whoever organises the next one.
 
 She has exercised her curiosity, her understanding, her ability to ship, to check and to pass on, in a single attempt. If the new message does not help, she can pick the inquiry back up. She does not need to wait ten capabilities to leave a useful note.
 
@@ -68,7 +68,7 @@ One person can hold several of these seats. On a personal project, ask yourself 
 
 ### An example of reading across seats
 
-On the card [Get the why clear before you commit](/en/chapters/03-03-get-the-why-clear-before-you-commit.html), imagine a change to refunds:
+On the card [If you don't understand why, you are not ready to build it](/en/chapters/03-03-if-you-dont-understand-why-you-are-not-ready-to-build-it.html), imagine a change to refunds:
 
 - Support describes the question customers keep asking.
 - Finance checks what lets someone follow the money and spot an error.
@@ -91,7 +91,7 @@ If a card calls for power or time you do not have, cut the attempt down, look fo
 
 ## Full cases and material to take up
 
-Three constructed examples show the move from cards to practice: [a first attempt with no job and no team](/en/first-try/), [an improvement with a decision and a handover](/en/improving-without-starting-over/), and [six weeks of collective learning](/en/learning-as-a-team/). Their observations are fictional and their limits are explicit.
+Three examples show the move from cards to practice: [a first attempt with no job and no team](/en/first-try/), [an improvement with a decision and a handover](/en/improving-without-starting-over/), and [six weeks of collective learning](/en/learning-as-a-team/). Their observations are fictional and their limits are explicit.
 
 The [templates to adapt](/en/templates/) let you prepare an attempt, a decision, a comparison, a handover, a piece of backing, or a review. Choose a single one that serves your situation, rather than filling in a file in order to apply a card.
 
@@ -160,11 +160,11 @@ That band is not an authorisation. Even a simple question can be hard to ask in 
 
 ### Where the examples come from
 
-The constructed scenes illustrate a line of reasoning. Their people, events and numbers are not field results. They are flagged as examples; a scene with no source must not be cited as a real case study.
+The scenes in this book illustrate a line of reasoning. Unless a source is named, their people, events and numbers are invented. Do not cite them as case studies.
 
-A first-person account belongs to the experience the author reports, with its limits. An attributed text or study can be found by its reference. Illustrative numbers have to be told apart from measures whose method is given. A qualitative finding can be useful with no number at all.
+A first-person account belongs to the author's experience, with its limits. An attributed text or study can be found by its reference. Tell illustrative numbers apart from measures whose method is given. A qualitative finding stays useful with no number at all.
 
-The cards propose assumptions and practices to examine. The sources illuminate some of the reasoning; they do not automatically validate the advice in your context. The [bibliographic bearings](/en/references/) make those connections inspectable.
+The cards propose assumptions to examine. The sources illuminate some of the reasoning; they do not validate the advice in your context. The [bibliographic bearings](/en/references/) make those connections inspectable.
 
 ### The imported words
 

@@ -31,7 +31,7 @@ Note une répétition qui compte, puis examine sa fréquence, ses conséquences 
 
 Une répétition rend visible une question à examiner. Elle peut signaler un défaut en amont, un besoin de formation ou une activité normale du service. Expliquer plusieurs fois à des personnes différentes peut être nécessaire ; un document ne remplace pas toujours l'accompagnement.
 
-Exemple construit : au guichet d'une association, plusieurs personnes demandent quelle pièce joindre à un dossier. L'information manque peut-être sur la fiche. Elle peut aussi être difficile à comprendre, inaccessible dans le format proposé ou différente selon le cas. Compter les questions aide à choisir où regarder, sans établir à lui seul la cause.
+Au guichet d'une association, plusieurs personnes demandent quelle pièce joindre à un dossier. L'information manque peut-être sur la fiche. Elle peut aussi être difficile à comprendre, inaccessible dans le format proposé ou différente selon le cas. Compter les questions aide à choisir où regarder, sans établir à lui seul la cause.
 
 La fréquence n'est pas le seul critère. Une erreur rare mais lourde de conséquences peut demander une action immédiate. Une tâche fréquente et courte peut rester moins coûteuse à faire qu'à automatiser. N'attends pas une troisième occurrence si une protection ou une aide est déjà nécessaire ; inversement, trois occurrences ne prouvent pas qu'un nouveau système est utile.
 

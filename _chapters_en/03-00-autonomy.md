@@ -22,7 +22,7 @@ seo:
 
 Autonomy lets you move without needing every move spelled out. It is built from a goal, some bearings, and people you can ask for help. It can cover a small task before it extends to a wider problem.
 
-A constructed example: you help a community group prepare a workshop. You are asked to update the invitation. Reading it, you notice the venue is given but not how to get there. You can propose an addition to the organiser without taking over the whole event. You then check whether the information lets participants actually turn up.
+You help a community group prepare a workshop. You are asked to update the invitation. Reading it, you notice the venue is given but not how to get there. You can propose an addition to the organiser without taking over the whole event. You then check whether the information lets participants actually turn up.
 
 In an experienced team, the same move might be about an incident, a sales request, or a product decision. Understanding the expected result helps you choose what deserves an investigation, what can be done inside the remit, and what has to be ruled on.
 
@@ -34,7 +34,7 @@ If you are growing a team, say which decisions are theirs and which need a rulin
 
 **A sign of progress:** you can explain the intended result, propose a next action, and name what you are missing to carry it out. You can also recognise a situation where asking for help, or waiting, is still the right choice.
 
-Choose a card according to your need: clarifying a request, unblocking a situation, getting an option examined, or organising a decision. The understanding cards can round this out when a constraint from another craft, or a use, is still poorly known. You do not need to have mastered everything here to read them.
+The understanding cards can round this out when a constraint from another craft, or a use, is still poorly known. You do not need to have mastered everything here to read them.
 
 ---
 
@@ -42,9 +42,9 @@ Choose a card according to your need: clarifying a request, unblocking a situati
 
 - 3.01 [Do not bring the task. Bring the problem](/en/chapters/03-01-do-not-bring-the-task-bring-the-problem.html)
 - 3.02 [The ticket is not the work](/en/chapters/03-02-the-ticket-is-not-the-work.html)
-- 3.03 [Get the why clear before you commit](/en/chapters/03-03-get-the-why-clear-before-you-commit.html)
-- 3.04 [When you are stuck, make the next step explicit](/en/chapters/03-04-when-you-are-stuck-make-the-next-step-explicit.html)
+- 3.03 [If you don't understand why, you are not ready to build it](/en/chapters/03-03-if-you-dont-understand-why-you-are-not-ready-to-build-it.html)
+- 3.04 [Being stuck is a decision](/en/chapters/03-04-being-stuck-is-a-decision.html)
 - 3.05 [Deciding and being right are two different jobs](/en/chapters/03-05-deciding-and-being-right-are-two-different-jobs.html)
-- 3.06 [The product role connects requests to outcomes](/en/chapters/03-06-the-product-role-connects-requests-to-outcomes.html)
+- 3.06 [Product is not the person who writes the tickets](/en/chapters/03-06-product-is-not-the-person-who-writes-the-tickets.html)
 - 3.07 [⇄ A roadmap nobody may refuse is a queue](/en/chapters/03-07-a-roadmap-nobody-may-refuse-is-a-queue.html)
-- 3.08 [⇄ Give objections a real follow-up](/en/chapters/03-08-give-objections-a-real-follow-up.html)
+- 3.08 [⇄ You cannot ask for candor and keep the last word](/en/chapters/03-08-you-cannot-ask-for-candor-and-keep-the-last-word.html)

@@ -35,7 +35,7 @@ Une spécification aide à coordonner un travail et à conserver les décisions.
 
 Tout n'est pas une hypothèse de préférence. Certaines exigences correspondent à un engagement, une protection ou une contrainte de fonctionnement. Elles ne disparaissent pas parce qu'un essai produit un retour différent. Il faut comprendre leur raison et identifier qui peut autoriser une modification.
 
-Exemple construit : un document prévoit un choix de créneau. L'équipe suppose que cela facilitera l'inscription. Un premier essai montre que certaines personnes ne comprennent pas les horaires proposés. Ce retour peut appeler une meilleure explication, un autre choix ou davantage d'observation ; il ne suffit pas à conclure que personne ne veut choisir.
+Un document prévoit un choix de créneau. L'équipe suppose que cela facilitera l'inscription. Un premier essai montre que certaines personnes ne comprennent pas les horaires proposés. Ce retour peut appeler une meilleure explication, un autre choix ou davantage d'observation ; il ne suffit pas à conclure que personne ne veut choisir.
 
 Une découverte ne donne pas un droit de diverger en silence. Présente les faits, leur portée et les options à la personne responsable du périmètre. Pour un document partagé ou un engagement externe, fais confirmer le changement et ses conséquences sur le délai et le coût. Une personne qui débute peut apporter un cas précis sans devoir résoudre seule toute la contradiction.
 

@@ -37,7 +37,7 @@ Les raisons de partir ou de rester peuvent être professionnelles, personnelles 
 
 Ce qui reste peut prendre plusieurs formes : personnes accompagnées, habitudes de travail, service rendu, décisions expliquées, documents ou outils entretenus. Une publication publique n'est pas supérieure par principe à ces contributions. Comparer les partants et ceux qui restent au nombre de textes efface une grande partie du travail réel.
 
-Exemple construit : une bénévole cesse d'organiser des ateliers. Elle convient avec le groupe de transmettre le calendrier, les contacts partageables et les points encore ouverts à une personne qui accepte le relais. Le groupe doit aussi décider des activités qu'il peut continuer avec ses moyens. La passation ne consiste pas à demander à la partante de rester joignable sans limite.
+Une bénévole cesse d'organiser des ateliers. Elle convient avec le groupe de transmettre le calendrier, les contacts partageables et les points encore ouverts à une personne qui accepte le relais. Le groupe doit aussi décider des activités qu'il peut continuer avec ses moyens. La passation ne consiste pas à demander à la partante de rester joignable sans limite.
 
 Le temps, les engagements applicables et les accès déterminent ce qui peut être transmis. La personne responsable de la continuité doit aider à choisir les priorités, affecter les moyens et accepter les limites. Il n'est pas toujours possible de transférer tout le savoir avant le départ. Ce manque appelle une décision sur le service, pas une dette morale ou une exigence de publication.
 

@@ -86,4 +86,4 @@ Before a planned absence, Awa passes the tracking to Sana, inside the frame thei
 
 Sana confirms: "I have the access, I've tried one case, and I accept this remit." The handover can be closed for Awa. The sheet has not made the work disappear or made everyone interchangeable; it has made one precise step easier.
 
-To adapt this case, use the [decision, comparison and handover templates](/en/templates/). The cards [Say what your review actually checked](/en/chapters/09-04-say-what-your-review-actually-checked.html) and [Done on your side does not mean solved](/en/chapters/06-01-done-on-your-side-does-not-mean-solved.html) complete the example.
+To adapt this case, use the [decision, comparison and handover templates](/en/templates/). The cards [A review that only says yes teaches nothing](/en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html) and [Done on your side does not mean solved](/en/chapters/06-01-done-on-your-side-does-not-mean-solved.html) complete the example.

@@ -31,7 +31,7 @@ Fais entrer les questions de destinataire, d'usage et de choix dans la conceptio
 
 ## Pourquoi
 
-Le marketing contribue à comprendre pour qui une offre est pertinente et pourquoi une personne pourrait la choisir. Les textes, le design et les canaux rendent ensuite cette proposition perceptible. Ces travaux se nourrissent mutuellement ; leur valeur ne dépend pas d'une hiérarchie entre réflexion et exécution. Exemple construit : "les commerçants" désigne un groupe très large. "La personne qui rapproche le stock et les ventes à la fermeture" décrit une situation à examiner. Il reste à vérifier ses outils, ses contraintes et les raisons qui lui feraient changer une habitude.
+Le marketing contribue à comprendre pour qui une offre est pertinente et pourquoi une personne pourrait la choisir. Les textes, le design et les canaux rendent ensuite cette proposition perceptible. Ces travaux se nourrissent mutuellement ; leur valeur ne dépend pas d'une hiérarchie entre réflexion et exécution. "les commerçants" désigne un groupe très large. "La personne qui rapproche le stock et les ventes à la fermeture" décrit une situation à examiner. Il reste à vérifier ses outils, ses contraintes et les raisons qui lui feraient changer une habitude.
 
 Une description précise aide à poser des choix : quels besoins traiter, quels usages ne pas couvrir pour l'instant, quelles preuves montrer. Elle ne garantit pas une adoption. Le prix, l'accès, la confiance et le coût du changement peuvent compter autant que la présentation.
 

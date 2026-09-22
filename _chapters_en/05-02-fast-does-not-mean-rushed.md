@@ -20,7 +20,7 @@ seo:
 
 ## The starting point
 
-A constructed example: a team has to launch a campaign on an agreed date. A previous campaign sent requests to the wrong person. This time they want to hold the date without repeating that.
+A team has to launch a campaign on an agreed date. A previous campaign sent requests to the wrong person. This time they want to hold the date without repeating that.
 
 ## The move
 

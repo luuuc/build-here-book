@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Quand tu bloques, rends la suite explicite"
+title: "Être bloqué est une décision"
 part: "L'autonomie"
 order: 304
 card_type: diagnostic
@@ -13,7 +13,7 @@ categories:
   - execution
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/03-04-when-you-are-stuck-make-the-next-step-explicit.html
+  en: /en/chapters/03-04-being-stuck-is-a-decision.html
 seo:
   description: "Distingue recherche, aide, accès et arbitrage pour organiser la suite d'un blocage réel."
   keywords: "build here, builder, autonomie, blocage, aide, acces, arbitrage"

@@ -35,7 +35,7 @@ Demande assez d'explication pour exercer ta responsabilité, sans devoir devenir
 
 Faire confiance et comprendre se renforcent. Une explication adaptée permet de poser des questions utiles, de reconnaître une incertitude et de décider quand une expertise supplémentaire est nécessaire. Tu n'as pas besoin de vérifier toi-même chaque estimation. Demande ce qu'elle couvre, sur quelles hypothèses elle repose et ce qui pourrait la faire changer. L'objectif est de comprendre l'engagement, pas de chercher une marge cachée ou de contester un métier à l'intuition.
 
-Exemple construit : une équipe envisage de changer de prestataire de paiement. Le tarif annoncé est inférieur, mais le remplacement touche aussi les moyens de paiement disponibles, la réconciliation et les remboursements. Une visite du parcours rend ces dépendances visibles avant de choisir.
+Une équipe envisage de changer de prestataire de paiement. Le tarif annoncé est inférieur, mais le remplacement touche aussi les moyens de paiement disponibles, la réconciliation et les remboursements. Une visite du parcours rend ces dépendances visibles avant de choisir.
 
 Ce besoin n'appartient pas seulement à la direction. Une personne qui organise un événement doit comprendre comment une inscription devient un accueil effectif. Une personne qui soutient un projet peut demander ce que son aide rend possible et quelles limites demeurent.
 

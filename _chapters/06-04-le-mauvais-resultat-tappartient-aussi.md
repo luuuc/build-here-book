@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Tire une leçon d'un résultat décevant"
+title: "Le mauvais résultat t'appartient aussi"
 part: "L'ownership"
 order: 604
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - honnetete
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/06-04-take-the-lesson-from-a-disappointing-result.html
+  en: /en/chapters/06-04-the-bad-outcome-is-yours-too.html
 seo:
   description: "Examine les résultats, les hypothèses et les contraintes sans confondre apprentissage, culpabilité et contrôle de toutes les conséquences."
   keywords: "build here, builder, ownership, resultat, apprentissage, contraintes"
@@ -33,7 +33,7 @@ Rapporte le résultat tel qu'il est connu, examine les hypothèses et distingue 
 
 Une explication par le contexte peut être juste. Elle mérite d'être examinée comme une explication par la décision, sans supposer que l'une sert à se disculper et l'autre à être honnête. Il arrive aussi qu'on ne puisse pas isoler une cause avec les informations disponibles.
 
-Exemple construit : une association prépare un atelier, mais peu de personnes viennent. L'horaire, l'accès au lieu, la formulation de l'invitation et un événement imprévu peuvent tous avoir joué. Comparer les retours disponibles aide à décider quoi vérifier ensuite ; cela n'oblige pas l'organisateur à reconnaître une faute ni les absents à justifier leur choix.
+Une association prépare un atelier, mais peu de personnes viennent. L'horaire, l'accès au lieu, la formulation de l'invitation et un événement imprévu peuvent tous avoir joué. Comparer les retours disponibles aide à décider quoi vérifier ensuite ; cela n'oblige pas l'organisateur à reconnaître une faute ni les absents à justifier leur choix.
 
 Le raisonnement de départ et le résultat s'examinent séparément. Une hypothèse raisonnable peut être contredite. Une information utile pouvait aussi manquer faute d'accès, de temps ou de moyens. Regarde ce qui était possible au moment de décider, sans transformer ce qu'on sait maintenant en évidence que chacun aurait dû voir.
 

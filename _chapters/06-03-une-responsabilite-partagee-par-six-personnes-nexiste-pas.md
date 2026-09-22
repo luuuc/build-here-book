@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Clarifie qui coordonne et qui décide"
+title: "Une responsabilité partagée par six personnes n'existe pas"
 part: "L'ownership"
 order: 603
 card_type: diagnostic
@@ -14,7 +14,7 @@ categories:
   - equipe
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/06-03-be-clear-who-coordinates-and-who-decides.html
+  en: /en/chapters/06-03-a-responsibility-shared-by-six-people-does-not-exist.html
 seo:
   description: "Organise une responsabilité partagée avec des contributions, une coordination, des moyens et des décisions explicites."
   keywords: "build here, builder, ownership, coordination, decision, responsabilite"
@@ -36,7 +36,7 @@ Une liste de noms ne décrit pas comment le travail avance. Chacun peut avoir un
 
 Un point de contact aide à retrouver l'état du sujet. Il peut s'agir d'une personne, d'un binôme ou d'un rôle tournant avec une passation organisée. Cela ne lui donne pas automatiquement autorité sur toutes les décisions ni responsabilité personnelle pour chaque conséquence. Le collectif conserve ses contributions et ses obligations.
 
-Exemple construit : une petite équipe prépare un atelier. Une personne suit les inscriptions, une autre le lieu, une troisième coordonne le point de préparation. La coordination rassemble les informations et signale les dépendances ; elle ne remplace pas le travail des deux autres. Si le budget doit changer, la décision revient à la personne mandatée pour cela.
+Une petite équipe prépare un atelier. Une personne suit les inscriptions, une autre le lieu, une troisième coordonne le point de préparation. La coordination rassemble les informations et signale les dépendances ; elle ne remplace pas le travail des deux autres. Si le budget doit changer, la décision revient à la personne mandatée pour cela.
 
 Avant de nommer quelqu'un, vérifie son accord, sa capacité et les accès nécessaires. Un nom sans moyens peut créer une charge invisible ou un point de fragilité. Précise comment demander de l'aide, signaler un retard et passer le relais. Une personne qui débute peut coordonner un petit périmètre avec un appui identifié, sans devoir tout savoir sans consulter les autres.
 

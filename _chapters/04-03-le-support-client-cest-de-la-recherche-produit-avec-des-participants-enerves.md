@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Apprends des demandes de support"
+title: "Le support client, c'est de la recherche produit avec des participants énervés"
 part: "La compréhension"
 order: 403
 card_type: diagnostic
@@ -13,7 +13,7 @@ categories:
   - produit
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/04-03-learn-from-support-requests.html
+  en: /en/chapters/04-03-support-is-product-research-with-angry-participants.html
 seo:
   description: "Examine les demandes de support avec leur contexte, sans confondre fréquence, cause et représentativité."
   keywords: "build here, builder, support, usages, observation, hypotheses"
@@ -33,7 +33,7 @@ Les demandes de support peuvent révéler des problèmes à examiner. Elles comp
 
 Une demande de support contient un effort déjà fait par quelqu'un pour obtenir de l'aide. La première responsabilité est de répondre à ce besoin. Transformer ce contact en source d'apprentissage ne doit pas retarder la prise en charge ni traiter la personne comme un participant recruté à son insu. Les échanges peuvent arriver dans un outil de tickets, au téléphone, au guichet ou sur un canal de messagerie prévu pour cela. Le support possède une connaissance du contexte qui mérite d'accompagner les extraits transmis. Lire les messages sans cette explication peut conduire à une mauvaise interprétation.
 
-Exemple construit : plusieurs personnes demandent où télécharger une facture. Le bouton peut être difficile à trouver, mais d'autres causes sont possibles : un accès manquant, une facture non produite ou un terme mal compris. Regrouper les demandes ne suffit pas à établir la cause.
+Plusieurs personnes demandent où télécharger une facture. Le bouton peut être difficile à trouver, mais d'autres causes sont possibles : un accès manquant, une facture non produite ou un terme mal compris. Regrouper les demandes ne suffit pas à établir la cause.
 
 Le motif le plus fréquent n'est pas toujours le plus important. Examine aussi la gravité, les personnes touchées et les difficultés de ceux qui ne contactent jamais le support. Une correction du produit, une procédure ou une aide plus claire peuvent chacune être utiles selon le cas.
 

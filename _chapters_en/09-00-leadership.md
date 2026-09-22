@@ -24,7 +24,7 @@ Leadership can mean helping someone understand, decide, or act under better cond
 
 Precise feedback, a question that opens up a choice, a demonstration, or an introduction both sides accept can already serve. Someone starting out can explain a difficulty they have just met. An experienced person can share their criteria or help prepare a handover. The value lies in the effect of that help, not in the title of whoever offers it.
 
-A constructed example: two volunteers prepare the welcome for a workshop. One has run a session before, the other is new to it. Together they choose a part the second will prepare, state the constraints, and agree a check-in. The first shows an example if that helps, then leaves real room for their peer's choices. After the workshop, they look at what worked and what still needs backing.
+Two volunteers prepare the welcome for a workshop. One has run a session before, the other is new to it. Together they choose a part the second will prepare, state the constraints, and agree a check-in. The first shows an example if that helps, then leaves real room for their peer's choices. After the workshop, they look at what worked and what still needs backing.
 
 Growing capabilities takes time from both people. A precise instruction, an observation, or supported practice can be the right entry point. Handing over a wider problem becomes useful when the context, the access and the support make it workable. Autonomy is not measured by the absence of help.
 
@@ -36,17 +36,17 @@ Mentoring, conversations and written material can complete each other. What one 
 
 **A sign of progress:** the person helped can explain what the backing let them understand or do, and what they still need. A successful handover, or a better-informed decision, counts, even when support is still useful.
 
-Choose a card according to your role and the situation: conditions for initiative, recruiting, supporting, reviewing, deciding, succession, recognition, or passing on. The cards marked ⇄ elsewhere in the book also shed light on the conditions for acting. The next capability offers ways to make an experience reachable and reusable, without imposing a march towards public visibility.
+The cards marked ⇄ elsewhere in the book also shed light on the conditions for acting. The next capability offers ways to make an experience reachable and reusable, without imposing a march towards public visibility.
 
 ---
 
 ## The cards in this capability
 
-- 9.01 [Look at the conditions for initiative](/en/chapters/09-01-look-at-the-conditions-for-initiative.html)
+- 9.01 [Leaders manufacture the environment they complain about](/en/chapters/09-01-leaders-manufacture-the-environment-they-complain-about.html)
 - 9.02 [The filter you are running](/en/chapters/09-02-the-filter-you-are-running.html)
-- 9.03 [Hand over a problem with the backing it needs](/en/chapters/09-03-hand-over-a-problem-with-the-backing-it-needs.html)
-- 9.04 [Say what your review actually checked](/en/chapters/09-04-say-what-your-review-actually-checked.html)
-- 9.05 [Hand over a decision inside a clear frame](/en/chapters/09-05-hand-over-a-decision-inside-a-clear-frame.html)
-- 9.06 [Grow a successor on one subject](/en/chapters/09-06-grow-a-successor-on-one-subject.html)
-- 9.07 [⇄ Tie recognition to real contributions](/en/chapters/09-07-tie-recognition-to-real-contributions.html)
-- 9.08 [⇄ Give teaching the means to happen](/en/chapters/09-08-give-teaching-the-means-to-happen.html)
+- 9.03 [Hand over a problem, not a task](/en/chapters/09-03-hand-over-a-problem-not-a-task.html)
+- 9.04 [A review that only says yes teaches nothing](/en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html)
+- 9.05 [Let them carry what is reversible](/en/chapters/09-05-let-them-carry-what-is-reversible.html)
+- 9.06 [Make yourself replaceable on one subject](/en/chapters/09-06-make-yourself-replaceable-on-one-subject.html)
+- 9.07 [⇄ You are the only buyer who sees all the work](/en/chapters/09-07-you-are-the-only-buyer-who-sees-all-the-work.html)
+- 9.08 [⇄ You are the missing reference, and you left nothing behind](/en/chapters/09-08-you-are-the-missing-reference-and-you-left-nothing-behind.html)

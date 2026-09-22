@@ -30,7 +30,7 @@ Look for which part deserves feedback now, and what level of finish is needed to
 
 The work already invested can make changing direction harder. That does not mean polishing is useless, or that the team is refusing reality. Finish can be necessary to make a proposal understandable, reachable, or reliable enough to try.
 
-Separate what helps examine the assumption from what can wait. A constructed example: you are preparing a sheet to help new volunteers welcome the public. Before laying out the whole guide, have a willing person read and try one route through it. Legible instructions are necessary; a complete visual identity may not be, yet.
+Separate what helps examine the assumption from what can wait. You are preparing a sheet to help new volunteers welcome the public. Before laying out the whole guide, have a willing person read and try one route through it. Legible instructions are necessary; a complete visual identity may not be, yet.
 
 Choosing a small group can limit exposure, but it guarantees neither patience nor availability. Ask for agreement, explain what works and what is still provisional, then plan how to help if the attempt gets stuck. If you have no access to the recipients, an accompanied review or a simulation can already shed light on part of the problem. Do not read that as validation of every use.
 

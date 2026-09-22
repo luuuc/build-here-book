@@ -28,7 +28,7 @@ Propose a short conversation about a situation they lived through. If direct con
 
 ## Why it works
 
-A summary selects information to make it usable. It can be faithful and useful while leaving out a detail your question needs. Going back to a concrete case completes the team's knowledge without devaluing the people who gathered it. A constructed example: a person explains that she finishes an operation in a spreadsheet after using the product. Watching that step, with her agreement, lets you understand the result she is after and the part the product does not cover. The workaround may be a sensible adaptation, not necessarily an error to remove.
+A summary selects information to make it usable. It can be faithful and useful while leaving out a detail your question needs. Going back to a concrete case completes the team's knowledge without devaluing the people who gathered it. A person explains that she finishes an operation in a spreadsheet after using the product. Watching that step, with her agreement, lets you understand the result she is after and the part the product does not cover. The workaround may be a sensible adaptation, not necessarily an error to remove.
 
 Being close by sometimes helps arrange a meeting, but it guarantees neither availability nor the right to reach the data. Prepare a precise question, respect a refusal, and avoid turning a request for help into an interview someone did not choose.
 

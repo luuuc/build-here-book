@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Prépare une relève sur un sujet"
+title: "Rends-toi remplaçable sur un sujet"
 part: "Le leadership"
 order: 906
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - equipe
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/09-06-grow-a-successor-on-one-subject.html
+  en: /en/chapters/09-06-make-yourself-replaceable-on-one-subject.html
 seo:
   description: "Prépare une relève avec accord, moyens et pratique, sans présumer de rétention du savoir ni promettre que la transmission protège à elle seule."
   keywords: "build here, builder, leadership, releve, transmission, moyens"
@@ -31,7 +31,7 @@ Choisis une part utile à transmettre et négocie les conditions pour qu'une aut
 
 Une relève peut faciliter les absences, répartir la charge et ouvrir d'autres possibilités. Elle ne garantit ni promotion ni réduction immédiate des sollicitations. Le service que tu rends directement reste une contribution, et personne n'a besoin de présumer que tu retiens ton savoir pour conserver un avantage.
 
-Exemple construit : tu prépares un suivi mensuel que personne d'autre n'a encore réalisé. Une collègue accepte d'en apprendre une partie. Vous obtenez du temps, préparez un cas et faites une première lecture ensemble. La suite peut comprendre une pratique accompagnée puis un essai avec une aide disponible. Le nombre de séances dépend de ce qui reste difficile.
+Tu prépares un suivi mensuel que personne d'autre n'a encore réalisé. Une collègue accepte d'en apprendre une partie. Vous obtenez du temps, préparez un cas et faites une première lecture ensemble. La suite peut comprendre une pratique accompagnée puis un essai avec une aide disponible. Le nombre de séances dépend de ce qui reste difficile.
 
 La transmission demande une personne volontaire, un périmètre et des moyens. Elle peut inclure une explication, des repères écrits et une vérification en situation. Le document seul ne prouve pas la capacité à agir, mais une dépendance résiduelle ne signifie pas que tout l'effort a échoué. Certaines décisions peuvent rester réservées à un rôle particulier.
 

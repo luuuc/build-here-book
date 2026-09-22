@@ -32,7 +32,7 @@ A specification helps coordinate work and keep decisions. Reviewing it can bring
 
 Not everything is a matter of preference. Some requirements correspond to a commitment, a protection, or an operating constraint. They do not disappear because one attempt produced different feedback. You have to understand their reason and identify who can authorise a change.
 
-A constructed example: a document specifies a choice of time slot. The team assumes it will make signing up easier. A first attempt shows that some people do not understand the times offered. That feedback may call for a better explanation, another choice, or more observation; it is not enough to conclude that nobody wants a choice.
+A document specifies a choice of time slot. The team assumes it will make signing up easier. A first attempt shows that some people do not understand the times offered. That feedback may call for a better explanation, another choice, or more observation; it is not enough to conclude that nobody wants a choice.
 
 A discovery does not grant a right to diverge quietly. Present the facts, their reach, and the options to whoever owns the remit. For a shared document or an external commitment, have the change and its consequences for the deadline and the cost confirmed. Someone starting out can bring a precise case without having to resolve the whole contradiction alone.
 

@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Relie la revue d'activité aux résultats"
+title: "⇄ Tu demandes des résultats et tu passes en revue de l'activité"
 part: "L'ownership"
 order: 607
 card_type: systeme
@@ -14,7 +14,7 @@ categories:
   - conditions
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/06-07-tie-the-review-to-outcomes.html
+  en: /en/chapters/06-07-you-ask-for-outcomes-and-you-review-activity.html
 seo:
   description: "Relie activité et effets observés avec une cadence adaptée, des moyens de vérification et un suivi proportionné."
   keywords: "build here, builder, ownership, revue, activite, resultats"

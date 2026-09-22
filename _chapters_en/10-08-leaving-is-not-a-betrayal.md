@@ -32,7 +32,7 @@ Reasons to leave or to stay can be professional, personal, or material. They do 
 
 What remains can take several forms: people supported, working habits, service delivered, decisions explained, documents or tools maintained. A public piece is not superior on principle to those contributions. Comparing leavers and stayers by the number of texts written erases a great deal of the real work.
 
-A constructed example: a volunteer stops organising workshops. With the group she agrees to hand over the calendar, the contacts she may share, and the points still open, to someone who accepts the relay. The group also has to decide which activities it can continue with the means it has. The handover is not about asking the person leaving to stay reachable indefinitely.
+A volunteer stops organising workshops. With the group she agrees to hand over the calendar, the contacts she may share, and the points still open, to someone who accepts the relay. The group also has to decide which activities it can continue with the means it has. The handover is not about asking the person leaving to stay reachable indefinitely.
 
 Time, the commitments that apply, and access all determine what can be handed over. Whoever is responsible for continuity has to help choose the priorities, allocate the means, and accept the limits. It is not always possible to transfer all the knowledge before a departure. That gap calls for a decision about the service, not for a moral debt or a demand to publish.
 

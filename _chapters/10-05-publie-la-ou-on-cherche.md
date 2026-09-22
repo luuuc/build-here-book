@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Place la ressource là où ses lecteurs cherchent"
+title: "Publie là où on cherche"
 part: "La référence"
 order: 1005
 card_type: pratique
@@ -13,7 +13,7 @@ categories:
   - trace
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-05-put-the-resource-where-its-readers-look.html
+  en: /en/chapters/10-05-publish-where-people-search.html
 seo:
   description: "Vérifie le chemin d'accès d'un lecteur réel et entretiens la ressource, sans promettre indexation, permanence ou classement public."
   keywords: "build here, builder, reference, ressource, recherche, entretien"
@@ -33,7 +33,7 @@ Observe le chemin d'un lecteur réel : les mots qu'il utilise, l'endroit où il 
 
 Les personnes peuvent arriver par une recherche, une recommandation, un index, une formation ou un lien dans leur outil de travail. Un nom connu peut aussi les guider. Choisir un titre précis aide, mais ne garantit pas la découverte ni un classement dans un moteur de recherche.
 
-Exemple construit : une fiche explique comment corriger un dossier incomplet. Son titre reprend le mot utilisé par l'équipe qui l'a écrite, tandis que les nouveaux membres cherchent "pièce manquante". Ajouter ce terme et un lien depuis la consigne d'accueil peut rendre la fiche plus accessible. Le problème n'exige pas forcément une publication publique.
+Une fiche explique comment corriger un dossier incomplet. Son titre reprend le mot utilisé par l'équipe qui l'a écrite, tandis que les nouveaux membres cherchent "pièce manquante". Ajouter ce terme et un lien depuis la consigne d'accueil peut rendre la fiche plus accessible. Le problème n'exige pas forcément une publication publique.
 
 L'emplacement doit correspondre aux droits de partage et aux habitudes des destinataires. Une page interne, un dépôt ou un espace de communauté peut convenir. Aucune adresse n'est permanente par nature : les accès, les services et les contenus changent. Prévois une version de référence, un moyen de signaler une erreur et, si nécessaire, une copie ou une solution de transfert.
 

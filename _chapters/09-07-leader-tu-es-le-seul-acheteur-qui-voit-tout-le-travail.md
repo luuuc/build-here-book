@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Relie la reconnaissance aux contributions réelles"
+title: "⇄ Tu es le seul acheteur qui voit tout le travail"
 part: "Le leadership"
 order: 907
 card_type: systeme
@@ -14,7 +14,7 @@ categories:
   - carriere
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/09-07-tie-recognition-to-real-contributions.html
+  en: /en/chapters/09-07-you-are-the-only-buyer-who-sees-all-the-work.html
 seo:
   description: "Examine les contributions avec des critères explicites, des faits complétables et un mandat clair, en respectant les informations individuelles."
   keywords: "build here, builder, leadership, reconnaissance, contributions, evaluation"
@@ -35,7 +35,7 @@ Les personnes ne savent pas toujours comment leur travail est examiné ni commen
 
 Aucun responsable ne voit tout le travail. Une présentation peut être bien préparée et utile ; une maintenance discrète peut l'être aussi. Opposer ceux qui présentent et ceux qui construisent empêche d'examiner ce que chacun apporte. Cherche des faits auprès des personnes concernées plutôt que de présumer que la contribution la moins visible est toujours oubliée.
 
-Exemple construit : une équipe remarque qu'une procédure de rapprochement produit moins de reprises. Plusieurs personnes ont contribué à la correction, à sa vérification et à son entretien. Examiner ces rôles permet de reconnaître le travail sans attribuer le résultat à la seule personne qui l'a présenté ni à un héros unique.
+Une équipe remarque qu'une procédure de rapprochement produit moins de reprises. Plusieurs personnes ont contribué à la correction, à sa vérification et à son entretien. Examiner ces rôles permet de reconnaître le travail sans attribuer le résultat à la seule personne qui l'a présenté ni à un héros unique.
 
 Les décisions de rémunération et d'évolution dépendent de critères, de responsabilités, de cohérence entre situations et de moyens disponibles. Une référence externe peut informer la discussion sans décrire toute la contribution. Une seule décision ou félicitation ne remplace pas un cadre explicite et appliqué dans la durée. Les personnes habilitées doivent porter les changements qui relèvent de leur mandat.
 

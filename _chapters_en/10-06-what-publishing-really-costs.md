@@ -33,7 +33,7 @@ Writing means reconstructing the context, checking the facts, and preparing some
 
 The content can involve other people, an organisation, or commitments about sharing. Removing a name, changing a number, or replacing a vendor with a category is not enough to establish that the rest can be published. A combination of details can still expose a situation. A technical sequence is not automatically free of restrictions.
 
-A constructed example: a team wants to explain a payment incident. Before drafting a public version, they prepare an outline with no file data, and identify what needs checking with the people responsible. They may end up choosing a fictional example announced as such, an internal note, or a publication limited to the mechanism they have confirmed they can share.
+A team wants to explain a payment incident. Before drafting a public version, they prepare an outline with no file data, and identify what needs checking with the people responsible. They may end up choosing a fictional example announced as such, an internal note, or a publication limited to the mechanism they have confirmed they can share.
 
 Separate the rules you know, the open questions, and your own preferences. An internal document or a contract can give you indications without settling every case. Take the uncertain points to someone authorised to clarify them, rather than reading permission into silence. Your own wish not to be exposed counts in the choice of format too.
 

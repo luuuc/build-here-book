@@ -24,7 +24,7 @@ An experience becomes a reference when somebody can use it to understand, decide
 
 The goal is not to reach a final builder rank. Someone starting out can share a reviewed example of what they have just learned. An experienced person can make a line of reasoning, or its limits, more reachable. No volume of publications measures that contribution on its own.
 
-A constructed example: a team prepares a sheet for handling an incomplete file. It describes a case, the checks, the limits, and who to contact. A new colleague tries it and flags an ambiguity. The team fixes the sheet and agrees who maintains it. That internal resource is already a reference, even if nobody wants to publish it.
+A team prepares a sheet for handling an incomplete file. It describes a case, the checks, the limits, and who to contact. A new colleague tries it and flags an ambiguity. The team fixes the sheet and agrees who maintains it. That internal resource is already a reference, even if nobody wants to publish it.
 
 Public content can let other people find and examine an experience. Its reach is not guaranteed. A conversation, mentoring, or private work can also leave lasting capabilities, even when the effect is harder to count. Visibility does not replace usefulness, and its absence does not prove nothing was passed on.
 
@@ -36,19 +36,19 @@ If you are growing a team, prepare a frame that leaves room for internal materia
 
 **A sign of progress:** a recipient can explain what they understood or reused, and the limits they still have to examine. Direct feedback can show that. When no feedback comes, you can note the uncertainty without inventing an impact or concluding that the work serves nothing.
 
-Choose a card according to the need: credit, reasoning, form, access, cost, context, or continuity. A resource can age, be corrected, replaced or withdrawn. Preparing for that is part of passing something on, without obliging its author to stay available for ever.
+A resource can age, be corrected, replaced or withdrawn. Preparing for that is part of passing something on, without obliging its author to stay available for ever.
 
 ---
 
 ## The cards in this capability
 
-- 10.01 [Make contributions identifiable](/en/chapters/10-01-make-contributions-identifiable.html)
-- 10.02 [Give the reader enough to examine your reasoning](/en/chapters/10-02-give-the-reader-enough-to-examine-your-reasoning.html)
+- 10.01 [Put your name on it](/en/chapters/10-01-put-your-name-on-it.html)
+- 10.02 [An opinion is not an artifact](/en/chapters/10-02-an-opinion-is-not-an-artifact.html)
 - 10.03 [A trace is not necessarily code](/en/chapters/10-03-a-trace-is-not-necessarily-code.html)
-- 10.04 [Make a useful answer findable](/en/chapters/10-04-make-a-useful-answer-findable.html)
-- 10.05 [Put the resource where its readers look](/en/chapters/10-05-put-the-resource-where-its-readers-look.html)
+- 10.04 [Answer the question in public](/en/chapters/10-04-answer-the-question-in-public.html)
+- 10.05 [Publish where people search](/en/chapters/10-05-publish-where-people-search.html)
 - 10.06 [What publishing really costs](/en/chapters/10-06-what-publishing-really-costs.html)
-- 10.07 [Share what your context taught you](/en/chapters/10-07-share-what-your-context-taught-you.html)
+- 10.07 [Nobody has written down what you know how to do](/en/chapters/10-07-nobody-has-written-down-what-you-know-how-to-do.html)
 - 10.08 [Leaving is not a betrayal](/en/chapters/10-08-leaving-is-not-a-betrayal.html)
-- 10.09 [⇄ Make the terms of sharing clear](/en/chapters/10-09-make-the-terms-of-sharing-clear.html)
-- 10.10 [⇄ Back visibility that people choose](/en/chapters/10-10-back-visibility-that-people-choose.html)
+- 10.09 [⇄ The absence of a rule is a ban](/en/chapters/10-09-the-absence-of-a-rule-is-a-ban.html)
+- 10.10 [⇄ You keep your team invisible because visible, they leave](/en/chapters/10-10-you-keep-your-team-invisible-because-visible-they-leave.html)

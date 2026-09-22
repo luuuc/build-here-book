@@ -54,7 +54,7 @@ Le bandeau indique le type de carte et sa portée. Les cartes marquées ⇄ port
 
 Les dix étapes proposent un trajet de lecture. Dans la pratique, tu peux travailler plusieurs capacités ensemble et revenir à chacune selon le besoin. Le prochain sujet à lire peut être celui qui te manque, celui que tu veux approfondir ou celui que tu as l'occasion de transmettre.
 
-Voici un exemple construit. Mariam aide les bénévoles d'une association à accueillir les nouveaux. Plusieurs personnes arrivent au mauvais endroit. Elle regarde une invitation avec l'une d'elles, puis propose à l'organisateur un message plus clair. Ils conviennent de l'essayer au prochain rendez-vous. Mariam demande ensuite ce qui a encore posé problème et conserve une version commentée pour la personne qui organisera le suivant.
+Mariam aide les bénévoles d'une association à accueillir les nouveaux. Plusieurs personnes arrivent au mauvais endroit. Elle regarde une invitation avec l'une d'elles, puis propose à l'organisateur un message plus clair. Ils conviennent de l'essayer au prochain rendez-vous. Mariam demande ensuite ce qui a encore posé problème et conserve une version commentée pour la personne qui organisera le suivant.
 
 Elle a exercé sa curiosité, sa compréhension, sa capacité à livrer, à vérifier et à transmettre dans un même essai. Si le nouveau message n'aide pas, elle peut reprendre l'enquête. Elle n'a pas besoin d'attendre dix étapes pour laisser une note utile.
 
@@ -74,7 +74,7 @@ Une personne peut occuper plusieurs de ces places. Dans un projet personnel, dem
 
 ### Un exemple de lecture croisée
 
-Sur la carte [Clarifie le pourquoi avant de t'engager](/chapters/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html), imaginez un changement dans les remboursements :
+Sur la carte [Si tu ne comprends pas pourquoi, tu n'es pas prêt à le construire](/chapters/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html), imaginez un changement dans les remboursements :
 
 - Le support décrit la question qui revient chez les clients.
 - La finance vérifie ce qui permet de suivre l'argent et de repérer une erreur.
@@ -166,11 +166,11 @@ Ce bandeau ne vaut pas autorisation. Même une question simple peut être diffic
 
 ### D'où viennent les exemples
 
-Les scènes construites illustrent un raisonnement. Leurs personnes, événements et chiffres ne constituent pas des résultats de terrain. Elles sont signalées comme exemples ; une scène sans source ne doit pas être citée comme une étude de cas réelle.
+Les scènes du livre illustrent un raisonnement. Sauf mention d'une source, leurs personnes, événements et chiffres sont inventés. Ne les cite pas comme des études de cas.
 
-Un récit à la première personne appartient à l'expérience rapportée par l'auteur, avec ses limites. Un texte ou une étude attribués peuvent être retrouvés par leur référence. Les nombres illustratifs doivent être distingués des mesures dont la méthode est donnée. Un constat qualitatif peut être utile sans chiffre.
+Un récit à la première personne appartient à l'expérience de l'auteur, avec ses limites. Un texte ou une étude attribués se retrouvent par leur référence. Distingue les nombres illustratifs des mesures dont la méthode est donnée. Un constat qualitatif reste utile sans chiffre.
 
-Les cartes proposent des hypothèses et des pratiques à examiner. Les sources éclairent certains raisonnements ; elles ne valident pas automatiquement le conseil dans ton contexte. Les [repères bibliographiques](/references/) rendent ces rapprochements inspectables.
+Les cartes proposent des hypothèses à examiner. Les sources éclairent certains raisonnements ; elles ne valident pas le conseil dans ton contexte. Les [repères bibliographiques](/references/) rendent ces rapprochements inspectables.
 
 ### Les mots importés
 

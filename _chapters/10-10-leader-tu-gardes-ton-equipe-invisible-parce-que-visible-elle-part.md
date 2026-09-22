@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "⇄ Soutiens une visibilité choisie"
+title: "⇄ Tu gardes ton équipe invisible parce que visible, elle part"
 part: "La référence"
 order: 1010
 card_type: systeme
@@ -14,7 +14,7 @@ categories:
   - retention
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-10-back-visibility-that-people-choose.html
+  en: /en/chapters/10-10-you-keep-your-team-invisible-because-visible-they-leave.html
 seo:
   description: "Propose visibilité et crédit selon les souhaits des contributeurs, sans supposer leurs intentions ni confondre publication, carrière et rétention."
   keywords: "build here, builder, reference, visibilite, choix, contributions"
@@ -37,7 +37,7 @@ Une organisation peut choisir une voix collective pour des raisons pratiques ou 
 
 La visibilité peut créer des rencontres, des retours ou des occasions professionnelles. Elle ne garantit ni un recrutement, ni un départ, ni la fidélité à une équipe. Les personnes choisissent selon plusieurs conditions, dont certaines échappent au responsable. Soutenir leur développement ne demande pas de promettre qu'elles resteront ou d'utiliser leur exposition comme un outil de rétention.
 
-Exemple construit : une équipe prépare une présentation d'un projet commun. Deux personnes souhaitent intervenir, une autre préfère une mention collective. Elles conviennent du contenu autorisé, des contributions à citer et du temps de préparation. La personne qui ne prend pas la parole reste reconnue pour son travail ; elle n'a pas à accepter l'exposition pour bénéficier du même soutien professionnel.
+Une équipe prépare une présentation d'un projet commun. Deux personnes souhaitent intervenir, une autre préfère une mention collective. Elles conviennent du contenu autorisé, des contributions à citer et du temps de préparation. La personne qui ne prend pas la parole reste reconnue pour son travail ; elle n'a pas à accepter l'exposition pour bénéficier du même soutien professionnel.
 
 Si tu décides des moyens, distingue reconnaissance du travail, participation à la communication et discussion de carrière. Une signature publique ne remplace pas des conditions de travail examinées directement avec la personne. Si tu soutiens sans ce pouvoir, tu peux proposer une relecture ou une introduction acceptée, sans promettre une audience ni une évolution en échange.
 

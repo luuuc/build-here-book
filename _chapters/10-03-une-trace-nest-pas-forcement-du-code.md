@@ -33,7 +33,7 @@ Pars de la personne à aider et de ce qu'elle doit comprendre ou faire. Choisis 
 
 Une trace peut être une fiche, une explication, une décision commentée, un schéma, une démonstration enregistrée avec accord ou un exemple de travail. Elle peut servir dans une équipe, une association ou au-delà. Un dépôt privé peut être utile à ses destinataires, tout comme une page publique peut ne répondre à aucun besoin réel.
 
-Exemple construit : une personne aux opérations prépare une fiche pour accueillir un intervenant. Elle explique les informations à vérifier, un cas qui demande de l'aide et le contact à prévenir. Un pair l'essaie puis signale une ambiguïté. La fiche devient plus utile sans contenir de code, de chiffre original ou de découverte inédite.
+Une personne aux opérations prépare une fiche pour accueillir un intervenant. Elle explique les informations à vérifier, un cas qui demande de l'aide et le contact à prévenir. Un pair l'essaie puis signale une ambiguïté. La fiche devient plus utile sans contenir de code, de chiffre original ou de découverte inédite.
 
 Les métiers ont leurs façons de transmettre. En finance, un exemple de calcul avec ses hypothèses ; au support, un cas commenté ; en design, un parcours avec ses raisons ; dans une activité bénévole, une liste de préparation. Les observations qualitatives comptent aussi. La valeur dépend de l'aide apportée et de la justesse du contexte, pas d'une obligation de quantifier.
 

@@ -33,7 +33,7 @@ A draft, a rewrite, or a proposed classification can help when you have a way of
 
 If you are starting out, you can learn with a competent person, or on an exercise whose answer can be verified. Not having the skill to check an output is a limit to handle, not a reason to believe the result. If nobody can check an important part, shrink the attempt, find backing, or keep another method. Choosing not to use AI can be reasonable.
 
-A constructed example: a team tries drafting a reply from an approved help sheet. They check that the draft keeps the conditions, promises nothing extra, and answers the case. They count the preparation, the review and the corrections, then compare to their usual method. That local result does not let them conclude anything about all their replies.
+A team tries drafting a reply from an approved help sheet. They check that the draft keeps the conditions, promises nothing extra, and answers the case. They count the preparation, the review and the corrections, then compare to their usual method. That local result does not let them conclude anything about all their replies.
 
 Check too whether the tool and the information it uses fit the working rules. To start, fictional cases or authorised content may be enough. The cost includes access, preparation, checking, rework, and follow-up if the practice lasts. A gain in output is only useful if the quality and the service still fit.
 

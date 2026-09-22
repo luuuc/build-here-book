@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Prévois quand vérifier le résultat"
+title: "Reviens voir un mois plus tard"
 part: "L'ownership"
 order: 602
 card_type: pratique
@@ -13,7 +13,7 @@ categories:
   - livraison
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/06-02-plan-when-you-will-check-the-result.html
+  en: /en/chapters/06-02-come-back-a-month-later.html
 seo:
   description: "Choisis une vérification adaptée au cycle d'usage, au risque et à la décision suivante, avec un effort et un relais explicites."
   keywords: "build here, builder, ownership, verification, usage, resultat"
@@ -31,7 +31,7 @@ Prévois une vérification au moment où un effet pertinent peut être observé,
 
 ## Pourquoi ça marche
 
-Un résultat peut rester peu visible sans provoquer d'incident. Exemple construit : une équipe crée un tableau de bord puis continue à l'enrichir, sans savoir s'il aide à préparer la réunion pour laquelle il a été demandé. Une vérification permettrait de confirmer son utilité ou de comprendre ce qui manque avant d'ajouter du travail.
+Un résultat peut rester peu visible sans provoquer d'incident. Une équipe crée un tableau de bord puis continue à l'enrichir, sans savoir s'il aide à préparer la réunion pour laquelle il a été demandé. Une vérification permettrait de confirmer son utilité ou de comprendre ce qui manque avant d'ajouter du travail.
 
 Le bon moment dépend de l'usage. Une information d'accueil peut être examinée au prochain événement ; un bilan mensuel attend son cycle ; une protection rarement sollicitée peut demander un exercice adapté. Un mois est un repère possible, pas une règle. Attendre trop longtemps peut coûter, mais regarder trop tôt peut aussi produire une conclusion trompeuse.
 

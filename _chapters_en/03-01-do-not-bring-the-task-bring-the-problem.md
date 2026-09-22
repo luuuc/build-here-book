@@ -32,7 +32,7 @@ Ship what is still useful and report what doing the work taught you. If the disc
 
 The person doing the work meets details the original framing could not know. In support, a request comes back after every refund. In a community group, several participants read the same invitation differently. In engineering, the fix touches a part nobody planned for. Those observations can confirm the original choice, improve the next task, or justify a change. Writing them down while they are still precise saves you reconstructing them later. They complete the framing work; they do not prove the person who did it got it wrong.
 
-A constructed example: you are asked to fix how a form displays on mobile. Checking, you find that some sign-ups also fail after submission. Those are two different facts. Fixing the display is still useful, but it does not let you conclude that signing up works.
+You are asked to fix how a form displays on mobile. Checking, you find that some sign-ups also fail after submission. Those are two different facts. Fixing the display is still useful, but it does not let you conclude that signing up works.
 
 You do not have to solve the wider problem alone. Separate the fact you observed, your reading of it, and the follow-up you propose. Someone starting out can report a precise case and ask for help interpreting it. An experienced person can offer several options.
 

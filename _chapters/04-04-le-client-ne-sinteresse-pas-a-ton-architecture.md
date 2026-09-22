@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Relie l'architecture à ce qu'elle rend possible"
+title: "Le client ne s'intéresse pas à ton architecture"
 part: "La compréhension"
 order: 404
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - arbitrage
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/04-04-tie-the-architecture-to-what-it-makes-possible.html
+  en: /en/chapters/04-04-the-customer-does-not-care-about-your-architecture.html
 seo:
   description: "Explique l'utilité du travail technique et les preuves disponibles, avec les détails adaptés à la décision du lecteur."
   keywords: "build here, builder, architecture, utilite, maintenance, effets"
@@ -41,8 +41,7 @@ Certains projets demandent de décrire une fiabilité préservée ou un risque r
 
 ## À essayer
 
-Choisis un chantier et écris l'avant et l'après pour son destinataire. Si tu débutes, fais-le avec une personne qui connaît le contexte. Hors logiciel, applique le geste à une procédure ou à un outil. Distingue un effet déjà observé d'un bénéfice attendu. Exemple construit :
-
+Choisis un chantier et écris l'avant et l'après pour son destinataire. Si tu débutes, fais-le avec une personne qui connaît le contexte. Hors logiciel, applique le geste à une procédure ou à un outil. Distingue un effet déjà observé d'un bénéfice attendu.
 > Avant : le vendeur attendait la fermeture pour savoir s'il avait été payé.
 > Après : il le voit arriver.
 

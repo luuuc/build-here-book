@@ -28,7 +28,7 @@ Bring the questions of recipient, use and choice into the design, with the peopl
 
 ## Why
 
-Marketing helps work out who an offer fits and why someone might choose it. The words, the design and the channels then make that proposal perceptible. These pieces of work feed each other; their worth does not depend on a hierarchy between thinking and executing. A constructed example: "retailers" names a very wide group. "The person reconciling stock and sales at closing time" describes a situation you can examine. It still has to be checked: their tools, their constraints, and the reasons they would change a habit.
+Marketing helps work out who an offer fits and why someone might choose it. The words, the design and the channels then make that proposal perceptible. These pieces of work feed each other; their worth does not depend on a hierarchy between thinking and executing. "retailers" names a very wide group. "The person reconciling stock and sales at closing time" describes a situation you can examine. It still has to be checked: their tools, their constraints, and the reasons they would change a habit.
 
 A precise description helps you make choices: which needs to handle, which uses not to cover for now, which evidence to show. It does not guarantee adoption. Price, access, trust and the cost of changing can count as much as the presentation.
 

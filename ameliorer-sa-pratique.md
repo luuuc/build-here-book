@@ -89,4 +89,4 @@ Avant une absence prévue, Awa transmet le suivi à Sana dans le cadre validé p
 
 Sana confirme : "J'ai les accès, j'ai essayé un cas et j'accepte ce périmètre." Le relais peut être clôturé pour Awa. La fiche n'a pas fait disparaître le travail ni rendu chaque personne interchangeable ; elle a facilité un passage précis.
 
-Pour adapter ce cas, utilise les [modèles de décision, de comparaison et de relais](/modeles/). Les cartes [Explique ce que ta relecture a vérifié](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html) et [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html) complètent l'exemple.
+Pour adapter ce cas, utilise les [modèles de décision, de comparaison et de relais](/modeles/). Les cartes [Une relecture qui dit seulement oui n'apprend rien](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html) et [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html) complètent l'exemple.

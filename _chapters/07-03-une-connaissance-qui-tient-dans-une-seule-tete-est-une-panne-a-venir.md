@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Prépare un relais pour les savoirs essentiels"
+title: "Une connaissance qui tient dans une seule tête est une panne à venir"
 part: "Les systèmes"
 order: 703
 card_type: diagnostic
@@ -13,7 +13,7 @@ categories:
   - equipe
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/07-03-set-up-a-relay-for-essential-knowledge.html
+  en: /en/chapters/07-03-knowledge-that-fits-in-one-head-is-an-outage-waiting.html
 seo:
   description: "Prépare la continuité par une transmission adaptée, avec du temps, de la pratique et une trace entretenue lorsque cela aide."
   keywords: "build here, builder, systemes, transmission, relais, continuite"
@@ -31,7 +31,7 @@ Choisis un savoir essentiel et prépare un relais adapté : explication, démons
 
 La dépendance peut être acceptable pendant un apprentissage ou sur une activité peu fréquente. Elle mérite un examen quand une absence bloquerait un service important ou quand les sollicitations deviennent difficiles à absorber. Il n'est pas nécessaire de supposer que la personne entretient cette dépendance ou apprécie d'être indispensable.
 
-Exemple construit : une seule bénévole sait préparer le matériel d'un atelier. Elle montre une préparation à un autre membre, qui essaie ensuite avec elle. Ils notent les vérifications faciles à oublier. Le document complète l'expérience ; il ne prétend pas remplacer la connaissance de toutes les situations possibles.
+Une seule bénévole sait préparer le matériel d'un atelier. Elle montre une préparation à un autre membre, qui essaie ensuite avec elle. Ils notent les vérifications faciles à oublier. Le document complète l'expérience ; il ne prétend pas remplacer la connaissance de toutes les situations possibles.
 
 Écrire n'est pas toujours la première action utile. Une démonstration, un binôme, une liste de contacts ou une formation peut mieux convenir. Pour une question urgente, donne d'abord l'aide nécessaire puis prévois la transmission. La personne qui sait et celle qui apprend ont toutes deux besoin de temps, d'accès et d'un périmètre convenu.
 

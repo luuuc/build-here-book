@@ -34,11 +34,11 @@ Prépare un retour d'expérience court et accessible aux personnes qui en ont be
 
 Une trace peut conserver la chronologie, les hypothèses examinées, les actions et leurs effets. Une rétrospective, un compte rendu ou un postmortem peut remplir cette fonction. Le nom du document importe moins que sa capacité à aider une prochaine décision, sans prétendre qu'une seule méthode conserve l'apprentissage.
 
-Exemple construit : un dossier s'est arrêté entre deux équipes parce que chacune attendait une confirmation différente. Le retour décrit ce qui était visible de chaque côté, comment le blocage a été compris et quel accord de passation a été modifié. Il distingue les faits établis des causes encore possibles. Il n'est pas nécessaire de trouver une erreur personnelle pour apprendre.
+Un dossier s'est arrêté entre deux équipes parce que chacune attendait une confirmation différente. Le retour décrit ce qui était visible de chaque côté, comment le blocage a été compris et quel accord de passation a été modifié. Il distingue les faits établis des causes encore possibles. Il n'est pas nécessaire de trouver une erreur personnelle pour apprendre.
 
 Les lecteurs peuvent être un relais, l'équipe, ou toi plus tard. Un document interne entretenu est une transmission valable. Une publication publique peut élargir la portée si elle est utile et autorisée, mais retirer un nom ou modifier un chiffre ne suffit pas à rendre une séquence partageable. Vérifie le contenu avec les responsables concernés ; garde une version restreinte si nécessaire.
 
-L'écriture demande du temps, parfois après un épisode éprouvant. Convenez d'un effort raisonnable et évitez l'injonction à publier le soir même. Une personne qui débute peut aider à reconstruire un cas avec un pair. Si tu développes une équipe, protège la possibilité de signaler et d'examiner une difficulté : voir [⇄ Protège le signalement des erreurs](/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html).
+L'écriture demande du temps, parfois après un épisode éprouvant. Convenez d'un effort raisonnable et évitez l'injonction à publier le soir même. Une personne qui débute peut aider à reconstruire un cas avec un pair. Si tu développes une équipe, protège la possibilité de signaler et d'examiner une difficulté : voir [⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute](/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html).
 
 ## À essayer
 

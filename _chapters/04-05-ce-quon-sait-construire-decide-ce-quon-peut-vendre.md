@@ -33,7 +33,7 @@ Les vraies décisions se prennent ailleurs et arrivent sous forme de tickets.
 
 ## Pourquoi
 
-Les choix de réalisation influencent les offres possibles, leur délai et leur coût. Dans un produit logiciel, la manière de gérer les prix peut faciliter ou compliquer une nouvelle tarification. Dans un service, la capacité d'accueil ou la disponibilité du matériel joue un rôle comparable. Exemple construit : une équipe souhaite proposer des tarifs régionaux. Le système gère aujourd'hui un seul prix. Avant de promettre une date, il faut examiner les modifications nécessaires et les solutions plus limitées qui pourraient convenir.
+Les choix de réalisation influencent les offres possibles, leur délai et leur coût. Dans un produit logiciel, la manière de gérer les prix peut faciliter ou compliquer une nouvelle tarification. Dans un service, la capacité d'accueil ou la disponibilité du matériel joue un rôle comparable. Une équipe souhaite proposer des tarifs régionaux. Le système gère aujourd'hui un seul prix. Avant de promettre une date, il faut examiner les modifications nécessaires et les solutions plus limitées qui pourraient convenir.
 
 Cette information sert autant à découvrir une possibilité qu'à identifier une contrainte. Une capacité existante peut rendre une option abordable, alors que le groupe la croyait hors de portée. Inversement, un changement apparemment petit peut déplacer du travail vers le support ou la comptabilité.
 

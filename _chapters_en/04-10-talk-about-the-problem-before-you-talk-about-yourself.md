@@ -28,7 +28,7 @@ Open with a situation your recipient recognises, then explain your proposal, its
 
 ## Why it works
 
-A precise situation helps people work out who a proposal is for. It gives the conversation a starting point: is that really the problem you meet, under those conditions, with that consequence? A constructed example: "Every evening you retype the orders that came in by message into a spreadsheet" describes a use more concretely than "optimise your operations". But that sentence only works if you have observed or checked the situation with the people you are aiming at. Do not invent their day to manufacture a flash of recognition.
+A precise situation helps people work out who a proposal is for. It gives the conversation a starting point: is that really the problem you meet, under those conditions, with that consequence? "Every evening you retype the orders that came in by message into a spreadsheet" describes a use more concretely than "optimise your operations". But that sentence only works if you have observed or checked the situation with the people you are aiming at. Do not invent their day to manufacture a flash of recognition.
 
 Precision does not replace evidence. Knowing a problem does not show you can solve it. Then show a verified result, a demonstration, or a trial they could run. Present what has not yet been observed as expected, not as done.
 

@@ -78,4 +78,4 @@ Idriss agrees to keep the template and to check the directions before each send.
 
 For your first attempt, keep the same logic with a need you can reach: one person, one question, one agreement, one bounded move, and one piece of feedback. If the first contact says no or has no time, look for another occasion that is accepted; a refusal is not a personal failure.
 
-The [templates to adapt](/en/templates/) help you prepare your own attempt. The cards [Talk to the person who has the problem](/en/chapters/04-01-talk-to-the-person-who-has-the-problem.html) and [Plan when you will check the result](/en/chapters/06-02-plan-when-you-will-check-the-result.html) explain the choices behind it.
+The [templates to adapt](/en/templates/) help you prepare your own attempt. The cards [Talk to the person who has the problem](/en/chapters/04-01-talk-to-the-person-who-has-the-problem.html) and [Come back a month later](/en/chapters/06-02-come-back-a-month-later.html) explain the choices behind it.

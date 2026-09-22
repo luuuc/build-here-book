@@ -27,7 +27,7 @@ Livrer, c'est rendre un travail disponible pour l'usage auquel il est destiné. 
 
 La livraison donne une occasion de confronter une idée au réel. Pour apprendre, il faut encore savoir quelle question on examine, observer un effet et utiliser ce retour. La fréquence des sorties ne mesure pas à elle seule la qualité de cet apprentissage.
 
-Exemple construit : tu aides à organiser un atelier dans une association. Tu proposes une nouvelle invitation parce que les indications d'accès semblent incomplètes. Avec l'accord de l'organisateur, tu la fais lire à une personne volontaire qui ne connaît pas le lieu. Tu lui demandes comment elle préparerait son trajet. Si une information manque, tu ajustes le texte avant son envoi. Au prochain atelier, un retour peut aider à vérifier si cette précision a été utile.
+Tu aides à organiser un atelier dans une association. Tu proposes une nouvelle invitation parce que les indications d'accès semblent incomplètes. Avec l'accord de l'organisateur, tu la fais lire à une personne volontaire qui ne connaît pas le lieu. Tu lui demandes comment elle préparerait son trajet. Si une information manque, tu ajustes le texte avant son envoi. Au prochain atelier, un retour peut aider à vérifier si cette précision a été utile.
 
 Ce premier essai est petit, mais il a un destinataire, une question et une suite. Il ne prouve pas que tous les participants auront la même expérience. Une personne expérimentée peut appliquer le même raisonnement à une dépendance complexe ou à une hypothèse devenue habituelle.
 
@@ -39,14 +39,14 @@ Si tu développes une équipe, aide-la à organiser le parcours entre travail pr
 
 **Un signe de progression :** tu peux dire ce qu'un essai a appris, ce qu'il n'a pas permis de conclure et ce que tu choisis pour la suite. Confirmer un choix ou arrêter une piste peut être aussi utile que modifier la solution.
 
-Choisis une carte selon ton besoin : préparer un essai, réduire un périmètre, examiner une spécification ou améliorer le parcours de livraison. Les cartes d'ownership complètent cette lecture pour organiser le relais et la vérification du résultat.
+Les cartes d'ownership complètent cette lecture pour organiser le relais et la vérification du résultat.
 
 ---
 
 ## Les cartes de cette étape
 
-- 5.01 [Livrer permet d'apprendre](/chapters/05-01-shipper-cree-de-linformation.html)
+- 5.01 [Shipper crée de l'information](/chapters/05-01-shipper-cree-de-linformation.html)
 - 5.02 [Rapide ne veut pas dire précipité](/chapters/05-02-rapide-ne-veut-pas-dire-precipite.html)
 - 5.03 [Plus tu peaufines, plus il devient difficile de changer d'avis](/chapters/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html)
 - 5.04 [Valider une spec ne la rend pas juste](/chapters/05-04-valider-une-spec-ne-la-rend-pas-juste.html)
-- 5.05 [⇄ Organise un rythme de livraison utile](/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html)
+- 5.05 [⇄ Le rythme de livraison, c'est une décision que tu as prise](/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html)

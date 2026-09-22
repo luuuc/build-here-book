@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Le rôle produit relie les demandes aux résultats"
+title: "Le product, ce n'est pas la personne qui écrit les tickets"
 part: "L'autonomie"
 order: 306
 card_type: principe
@@ -13,7 +13,7 @@ categories:
   - arbitrage
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/03-06-the-product-role-connects-requests-to-outcomes.html
+  en: /en/chapters/03-06-product-is-not-the-person-who-writes-the-tickets.html
 seo:
   description: "Relie cadrage, arbitrage et observation des résultats, avec un mandat explicite pour décider."
   keywords: "build here, builder, produit, demandes, arbitrage, resultats"

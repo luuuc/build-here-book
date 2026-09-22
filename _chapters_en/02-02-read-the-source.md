@@ -34,7 +34,7 @@ The file has to match what is actually running. Another version, a different con
 
 You do not need to read the whole project. Start from one entry point and follow it to the behaviour you care about. If you are starting out, ask someone to walk that function with you. A short session can teach you where to look and which words to search for next.
 
-This card is about a technical practice. In another craft, the neighbouring move is going back to the document that sets the rule: a procedure, a formula, or the terms of a service. If the source is closed or outside your access, ask the vendor for a reproducible example or an explanation. Reading code is not a condition for being a builder.
+Outside software, the neighbouring move is going back to the document that sets the rule: a procedure, a formula, or the terms of a service. If the source is closed or outside your access, ask the vendor for a reproducible example or an explanation. Reading code is not a condition for being a builder.
 
 ## Try this
 

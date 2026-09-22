@@ -23,7 +23,7 @@ redirect_from:
 
 ## Le symptôme
 
-Exemple construit : un client demande un export. L'équipe le livre, mais la difficulté signalée revient. Elle sait que le fichier existe, moins bien ce qu'il devait permettre de faire.
+Un client demande un export. L'équipe le livre, mais la difficulté signalée revient. Elle sait que le fichier existe, moins bien ce qu'il devait permettre de faire.
 
 ## Le signal
 

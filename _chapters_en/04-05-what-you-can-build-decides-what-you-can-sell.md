@@ -30,7 +30,7 @@ The real decisions are made elsewhere and arrive as tickets.
 
 ## Why
 
-Build choices shape which offers are possible, how long they take, and what they cost. In a software product, the way prices are handled can make new pricing easy or awkward. In a service, capacity or equipment availability plays a comparable role. A constructed example: a team wants to offer regional pricing. The system handles a single price today. Before promising a date, someone has to examine the changes needed and the narrower solutions that might do.
+Build choices shape which offers are possible, how long they take, and what they cost. In a software product, the way prices are handled can make new pricing easy or awkward. In a service, capacity or equipment availability plays a comparable role. A team wants to offer regional pricing. The system handles a single price today. Before promising a date, someone has to examine the changes needed and the narrower solutions that might do.
 
 That information serves as much to discover a possibility as to identify a constraint. An existing capability can make an option affordable when the group thought it was out of reach. Conversely, an apparently small change can push work onto support or accounting.
 
