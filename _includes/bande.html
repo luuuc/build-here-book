@@ -23,8 +23,8 @@
 
 {%- assign famille = "" -%}
 {%- for c in page.categories -%}
-  {%- if famille == "" and site.data.familles[c] -%}
-    {%- assign famille = site.data.familles[c] -%}
+  {%- if famille == "" and familles[c] -%}
+    {%- assign famille = familles[c] -%}
   {%- endif -%}
 {%- endfor -%}
 
@@ -44,7 +44,7 @@
 <header class="bande{% if include.etroite %} bande--etroite{% endif %}">
   <div class="bande-corps">
     <div class="bande-texte">
-      <p class="bande-surtitre"><a href="/livre/">Build Here</a>{% unless famille == "" %} · {{ famille }}{% endunless %}</p>
+      <p class="bande-surtitre"><a href="{{ t.menu.livre_url }}">Build Here</a>{% unless famille == "" %} · {{ famille }}{% endunless %}</p>
       <h1 class="bande-titre">{{ page.title }}</h1>
       {%- if page.description %}
       <p class="bande-accroche">{{ page.description }}</p>
@@ -56,8 +56,8 @@
       <div class="bande-actions">
         {%- for a in page.bande_actions %}
         {%- assign adresse = a.url -%}
-        {%- if a.telechargement == "pdf" -%}{%- assign adresse = site.downloads.pdf -%}{%- endif -%}
-        {%- if a.telechargement == "epub" -%}{%- assign adresse = site.downloads.epub -%}{%- endif -%}
+        {%- if a.telechargement == "pdf" -%}{%- assign adresse = site.downloads[lang].pdf -%}{%- endif -%}
+        {%- if a.telechargement == "epub" -%}{%- assign adresse = site.downloads[lang].epub -%}{%- endif -%}
         <a href="{{ adresse }}" class="bande-bouton{% unless a.primaire %} bande-bouton--calme{% endunless %}">{{ a.titre }}</a>
         {%- endfor %}
       </div>
@@ -72,8 +72,8 @@
       <p class="bande-legende">
         {%- for m in page.bande_meta -%}
           {%- unless forloop.first %} · {% endunless -%}
-          {%- if m.compte == "cartes" -%}{{ site.chapters | where_exp: "c", "c.metadata.principle" | size }}
-          {%- elsif m.compte == "capacites" -%}{{ site.chapters | where_exp: "c", "c.step_number" | size }}
+          {%- if m.compte == "cartes" -%}{{ livre | where_exp: "c", "c.metadata.principle" | size }}
+          {%- elsif m.compte == "capacites" -%}{{ livre | where_exp: "c", "c.step_number" | size }}
           {%- else -%}{{ m.valeur }}{%- endif -%}
           &#160;{{ m.titre | downcase }}
         {%- endfor -%}
@@ -81,20 +81,20 @@
       {%- elsif duree or compte_sections > 0 or page.bande_meta %}
       <dl class="bande-meta">
         {%- if duree %}
-        <dt>Lecture</dt>
-        <dd>{{ duree }} minutes</dd>
+        <dt>{{ t.bande.lecture }}</dt>
+        <dd>{{ duree }} {{ t.bande.minutes }}</dd>
         {%- endif %}
         {%- if compte_sections > 0 %}
-        <dt>Sections</dt>
+        <dt>{{ t.bande.sections }}</dt>
         <dd>{{ compte_sections }}</dd>
         {%- endif %}
         {%- for m in page.bande_meta %}
         <dt>{{ m.titre }}</dt>
         <dd>
           {%- if m.compte == "cartes" -%}
-            {{ site.chapters | where_exp: "c", "c.metadata.principle" | size }}
+            {{ livre | where_exp: "c", "c.metadata.principle" | size }}
           {%- elsif m.compte == "capacites" -%}
-            {{ site.chapters | where_exp: "c", "c.step_number" | size }}
+            {{ livre | where_exp: "c", "c.step_number" | size }}
           {%- else -%}
             {{ m.valeur }}
           {%- endif -%}
@@ -108,7 +108,7 @@
 </header>
 
 {%- if page.bande_rail %}
-<nav class="rail" aria-label="Les entrées du site">
+<nav class="rail" aria-label="{{ t.bande.rail_site }}">
   <div class="rail-corps">
     {%- for r in page.bande_rail %}
     <a href="{{ r.url }}" class="rail-item"><span class="rail-fleche" aria-hidden="true">→</span><span>{{ r.titre }}</span></a>
@@ -116,7 +116,7 @@
   </div>
 </nav>
 {%- elsif sections > 1 %}
-<nav class="rail" aria-label="Sections de la page">
+<nav class="rail" aria-label="{{ t.bande.rail_page }}">
   <div class="rail-corps">
     {%- for t in morceaux offset:1 %}
     {%- assign bout = t | split: '">' -%}

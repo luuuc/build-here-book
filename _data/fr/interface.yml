@@ -91,3 +91,86 @@ commentaire:
   envoyer: "Envoyer"
   envoye: "En attente de relecture."
   repondre: "Répondre"
+  # Ces trois chaines vivaient en dur dans le formulaire.
+  indicatif: "Indicatif"
+  ville_exemple: "Conakry"
+  piege: "Ne remplis pas ce champ"
+
+# Le chrome du site : en-tete, menu, pied de page, bande, carte, tirage.
+#
+# Ces chaines etaient ecrites en dur dans les gabarits. Elles sont descendues
+# ici le jour ou le site s'est decline en deux langues : un gabarit ne porte
+# plus aucun mot, il lit site.data[lang]. Les adresses accompagnent les
+# libelles, parce qu'une version anglaise ne pointe pas vers /a-propos/.
+
+entete:
+  menu_ouvrir: "Ouvrir le menu"
+  menu_fermer: "Fermer le menu"
+  accueil_url: "/"
+  a_propos: "À propos"
+  a_propos_url: "/a-propos/"
+  telecharger: "Télécharger le livre"
+  pdf: "Télécharger au format PDF"
+  pdf_detail: "Format A4, prêt à imprimer"
+  epub: "Télécharger au format EPUB"
+  epub_detail: "Liseuses, téléphones, tablettes"
+  kindle: "Envoyer sur mon Kindle"
+  brouillon: "Version de travail"
+
+menu:
+  site: "Explorer Build Here"
+  livre: "Sommaire"
+  livre_titre: "Le livre"
+  livre_url: "/livre/"
+  retour: "← Retour au site"
+  sommaire_aria: "Sommaire du livre"
+
+pied:
+  aria: "Ressources complémentaires"
+  liens:
+    - titre: "Guide de lecture"
+      url: "/guide-de-lecture/"
+    - titre: "Bibliographie commentée"
+      url: "/references/"
+    - titre: "Méthode du test"
+      url: "/methode-du-test/"
+  par: "par"
+  licence: "est sous licence"
+
+carte:
+  capacite: "Capacité"
+  suivante: "Entrée suivante"
+  auteur: "Écrite par"
+
+bande:
+  lecture: "Lecture"
+  minutes: "minutes"
+  sections: "Sections"
+  rail_site: "Les entrées du site"
+  rail_page: "Sections de la page"
+
+# Le tirage PDF et EPUB. Le site n'en lit rien.
+tirage:
+  kicker: "Le playbook des builders"
+  sommaire: "Sommaire"
+  capacites: "capacités"
+  cartes: "cartes"
+  compose: "Composé en Merriweather et Archivo"
+  version: "version"
+  licence: >-
+    © 2026 [auteur]. Sous licence <a href="[licence]">Creative Commons CC BY-SA 4.0</a> :
+    tu peux copier, redistribuer et transformer ce texte, y compris commercialement,
+    à condition de citer l'auteur et de partager aux mêmes conditions.
+  en_ligne: >-
+    Le livre se lit aussi en ligne sur <a href="[url]">[domaine]</a>, et son code source
+    est ouvert sur <a href="https://github.com/[depot]">github.com/[depot]</a>.
+  test: >-
+    Les questions facultatives du test aident à choisir une pratique, sans score,
+    sur <a href="[url]">[domaine]</a>.
+  # Les mots-cles de l'EPUB, lus par Pandoc.
+  sujets:
+    - builders
+    - apprentissage
+    - pratiques
+    - équipes
+    - ownership

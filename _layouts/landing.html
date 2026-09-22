@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="fr">
+{% include langue.html %}<!doctype html>
+<html lang="{{ lang }}">
   <head>
     {% include head.html %}
 
@@ -25,7 +25,7 @@
     <main class="landing-page">
       {% if page.landing_resource %}
       {% include bande.html %}
-      <article class="landing-resource content{% if page.avertissement %} avertissement{% endif %}"{% if page.filtre_symptomes %} data-filtre-symptomes="{{ site.data.interface.lecture.filtre }}" data-filtre-vide="{{ site.data.interface.lecture.filtre_vide }}"{% endif %}>
+      <article class="landing-resource content{% if page.avertissement %} avertissement{% endif %}"{% if page.filtre_symptomes %} data-filtre-symptomes="{{ t.lecture.filtre }}" data-filtre-vide="{{ t.lecture.filtre_vide }}"{% endif %}>
         <div class="container landing-wrap">{{ content }}</div>
       </article>
       {% else %}

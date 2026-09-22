@@ -63,7 +63,7 @@ body {
   text-decoration: none;
 }
 
-/* Le bloc de droite : le telechargement, puis À propos. */
+/* Le bloc de droite : la langue, le telechargement, puis À propos. */
 .header-actions {
   float: right;
   display: flex;
@@ -80,6 +80,20 @@ body {
 }
 
 .about:hover {
+  opacity: 1;
+}
+
+/* Le passage a l'autre langue. Meme discretion que À propos : c'est une
+   sortie de secours pour qui n'a pas la bonne version, pas une invitation. */
+.langue {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #1C1A17;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.langue:hover {
   opacity: 1;
 }
 

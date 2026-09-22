@@ -1,0 +1,152 @@
+# The interface strings, all in one place. English mirror of _data/fr/interface.yml.
+#
+# Same rule as the French file: every key that exists there exists here. A
+# missing key renders as nothing, silently, so this file is kept in step with
+# its French twin whenever a string is added on either side.
+#
+# The book says you, it stays flat, it does not exclaim and it does not thank.
+# No em dashes, no en dashes, straight apostrophes.
+
+# Sharing a passage. Book.
+partage:
+  selection: "Share"
+  commenter: "Comment"
+  titre: "Share this passage"
+  whatsapp: "WhatsApp"
+  linkedin: "LinkedIn"
+  x: "X"
+  copier: "Copy the link"
+  copie: "Link copied"
+  signature: "Build Here, the builder's playbook"
+
+# What the book remembers about the reader. All local, nothing leaves.
+lecture:
+  reprendre: "Resume"
+  gardees: "Kept"
+  garder: "Keep this card"
+  retirer: "Remove from kept"
+  filtre: "Filter by situation"
+  filtre_vide: "Nothing matches."
+  types:
+    principe: "Principle"
+    diagnostic: "Diagnostic"
+    pratique: "Practice"
+    systeme: "System"
+  portees:
+    principe: "Scope: adapt to your own remit"
+    diagnostic: "Scope: an inquiry, alone or shared"
+    pratique: "Scope: adapt to your own remit"
+    systeme: "Scope: authority over the conditions involved"
+
+# Rating a card. No stars, no score.
+note:
+  question: "Did this help?"
+  oui: "Yes"
+  moitie: "Halfway"
+  non: "No"
+  raison: "What was missing?"
+  # The key is stable and goes to the database, the label can be rewritten
+  # without breaking the data already collected. Keys match the French file.
+  raisons:
+    - cle: abstrait
+      texte: "Too abstract"
+    - cle: deja-su
+      texte: "I already knew this"
+    - cle: desaccord
+      texte: "I disagree"
+    - cle: exemple
+      texte: "An example is missing"
+    - cle: autre
+      texte: "Something else"
+  libre: "Say it in one sentence, if you want. Nobody but me reads it."
+  envoyer: "Send"
+  merci: "Noted."
+
+# Comments. Discussions around the ideas, not copy-editing.
+commentaire:
+  titre: "Discuss this"
+  filtre: "I read everything before it goes up."
+  vide: "Nobody has written here yet. The first line is available."
+  ouvrir: "Write"
+  texte: "What you want to say"
+  nom: "Your name"
+  ville: "Your city, if you want"
+  lien: "A link, if you want"
+  contact: "So I can answer you. This contact is not published."
+  mail: "Email"
+  whatsapp: "WhatsApp"
+  envoyer: "Send"
+  envoye: "Waiting for review."
+  repondre: "Reply"
+  indicatif: "Country code"
+  ville_exemple: "Conakry"
+  piege: "Do not fill this field"
+
+# The site chrome: header, menu, footer, band, card, print.
+
+entete:
+  menu_ouvrir: "Open the menu"
+  menu_fermer: "Close the menu"
+  accueil_url: "/en/"
+  a_propos: "About"
+  a_propos_url: "/en/about/"
+  telecharger: "Download the book"
+  pdf: "Download the PDF"
+  pdf_detail: "A4, ready to print"
+  epub: "Download the EPUB"
+  epub_detail: "E-readers, phones, tablets"
+  kindle: "Send to my Kindle"
+  brouillon: "Working version"
+
+menu:
+  site: "Explore Build Here"
+  livre: "Contents"
+  livre_titre: "The book"
+  livre_url: "/en/book/"
+  retour: "← Back to the site"
+  sommaire_aria: "Book contents"
+
+pied:
+  aria: "Further resources"
+  liens:
+    - titre: "How to read this"
+      url: "/en/book/"
+  par: "by"
+  licence: "is licensed under"
+
+carte:
+  capacite: "Capability"
+  suivante: "Next card"
+  auteur: "Written by"
+
+bande:
+  lecture: "Reading"
+  minutes: "minutes"
+  sections: "Sections"
+  rail_site: "The pages of this site"
+  rail_page: "Sections of this page"
+
+# The PDF and EPUB print. The site reads none of this.
+tirage:
+  kicker: "The builder's playbook"
+  sommaire: "Contents"
+  capacites: "capabilities"
+  cartes: "cards"
+  compose: "Set in Merriweather and Archivo"
+  version: "version"
+  licence: >-
+    © 2026 [auteur]. Licensed under <a href="[licence]">Creative Commons CC BY-SA 4.0</a>:
+    you may copy, redistribute and transform this text, including commercially,
+    as long as you credit the author and share on the same terms.
+  en_ligne: >-
+    The book also reads online at <a href="[url]">[domaine]</a>, and its source
+    is open at <a href="https://github.com/[depot]">github.com/[depot]</a>.
+  test: >-
+    The optional test questions help you pick a practice, with no score,
+    at <a href="[url]">[domaine]</a>.
+  sujets:
+    - builders
+    - learning
+    - practices
+    - teams
+    - ownership

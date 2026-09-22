@@ -1,0 +1,6 @@
+# The site menu, English. Only pages that exist in English are listed: a menu
+# entry pointing at an untranslated page is worse than a shorter menu.
+- title: Read the book
+  url: /en/book/
+- title: The French edition
+  url: /

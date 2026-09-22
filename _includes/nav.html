@@ -2,8 +2,8 @@
 {% if page.layout == 'landing' %}{% assign site_menu = true %}{% endif %}
 <div class="offcanvas{% if site_menu %} offcanvas--site{% endif %}" id="offcanvas">
   <div class="offcanvas-header">
-    <h3 id="nav-title">{% if site_menu %}Explorer Build Here{% else %}Sommaire{% endif %}</h3>
-    <button class="close-btn" data-bascule-menu aria-label="Fermer le menu">×</button>
+    <h3 id="nav-title">{% if site_menu %}{{ t.menu.site }}{% else %}{{ t.menu.livre }}{% endif %}</h3>
+    <button class="close-btn" data-bascule-menu aria-label="{{ t.entete.menu_fermer }}">×</button>
   </div>
   <nav aria-labelledby="nav-title">
     <ul class="nav-menu{% if site_menu %} nav-menu--site{% endif %}">

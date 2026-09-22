@@ -4,7 +4,7 @@ permalink: /pdf.html
 sitemap: false
 excerpt_separator: ""
 ---
-{% comment %}
+{% include langue.html %}{% comment %}
 Le livre entier en un seul document, pour WeasyPrint. Rendu par bin/build-book,
 jamais par le build du site : la collection « pdf » n'est declaree que dans
 _config-pdf.yml.
@@ -14,7 +14,7 @@ numeros de page vivent dans assets/stylesheets/print.css. Le corps du livre est
 partage avec l'EPUB, dans _includes/book-body.html.
 {% endcomment %}
 <!doctype html>
-<html lang="fr">
+<html lang="{{ lang }}">
   <head>
     <meta charset="utf-8" />
     <title>{{ site.title }} — {{ site.author.name }}</title>
@@ -30,59 +30,54 @@ partage avec l'EPUB, dans _includes/book-body.html.
     <!-- Page de titre -->
     <section class="front">
       <div>
-        <p class="front-kicker">Le playbook des builders</p>
+        <p class="front-kicker">{{ t.tirage.kicker }}</p>
         <div class="front-rule"></div>
         <h1 class="front-title">Build<br />Here</h1>
-        <p class="front-sub">{{ site.description | strip_newlines | split: "." | first }}.</p>
+        <p class="front-sub">{{ description_site | strip_newlines | split: "." | first }}.</p>
       </div>
       <div>
         <p class="front-author">{{ site.author.name }}</p>
-        <p class="front-spine">{% assign cartes = site.chapters | where_exp: "c", "c.metadata.principle" %}{% assign capacites = site.chapters | where_exp: "c", "c.step_number" %}{{ capacites | size }} capacités · {{ cartes | size }} cartes</p>
+        <p class="front-spine">{% assign cartes = livre | where_exp: "c", "c.metadata.principle" %}{% assign capacites = livre | where_exp: "c", "c.step_number" %}{{ capacites | size }} {{ t.tirage.capacites }} · {{ cartes | size }} {{ t.tirage.cartes }}</p>
       </div>
     </section>
 
     <!-- Colophon -->
     <section class="front colophon">
       <div>
-        <p><strong>{{ site.title }}</strong> — version {{ site.book.version }}, {{ site.book.published }}.</p>
-        <p>
-          © 2026 {{ site.author.name }}. Sous licence
-          <a href="{{ site.book.license }}">Creative Commons CC BY-SA 4.0</a> : tu peux
-          copier, redistribuer et transformer ce texte, y compris commercialement, à
-          condition de citer l'auteur et de partager aux mêmes conditions.
-        </p>
-        <p>
-          Le livre se lit aussi en ligne sur <a href="{{ site.url }}">{{ site.url | remove: "https://" }}</a>,
-          et son code source est ouvert sur
-          <a href="https://github.com/{{ site.repository }}">github.com/{{ site.repository }}</a>.
-        </p>
-        <p>
-          Les questions facultatives du test aident à choisir une pratique, sans score, sur <a href="{{ site.url }}">{{ site.url | remove: "https://" }}</a>.
-        </p>
+{%- comment -%}
+          Le colophon est ecrit dans _data/<lang>/interface.yml. Les reperes entre crochets
+          sont remplaces ici : une chaine de donnees ne peut pas contenir de
+          Liquid, et ces trois phrases changent de langue mais pas de forme.
+        {%- endcomment -%}
+        {%- assign domaine = site.url | remove: "https://" -%}
+        <p><strong>{{ site.title }}</strong> — {{ t.tirage.version }} {{ site.book.version }}, {{ site.book.published }}.</p>
+        <p>{{ t.tirage.licence | replace: "[auteur]", site.author.name | replace: "[licence]", site.book.license }}</p>
+        <p>{{ t.tirage.en_ligne | replace: "[url]", site.url | replace: "[domaine]", domaine | replace: "[depot]", site.repository }}</p>
+        <p>{{ t.tirage.test | replace: "[url]", site.url | replace: "[domaine]", domaine }}</p>
       </div>
       <div>
-        <p class="front-spine">Composé en Merriweather et Archivo</p>
+        <p class="front-spine">{{ t.tirage.compose }}</p>
       </div>
     </section>
 
     <!-- Sommaire. L'EPUB n'en a pas : sa navigation est produite par Pandoc. -->
     <section class="toc">
-      <h1 class="toc-title">Sommaire</h1>
+      <h1 class="toc-title">{{ t.tirage.sommaire }}</h1>
 
-      {% assign chapters = site.chapters | sort: "order" %}
-      {% for groupe in site.data.sommaire %}
+      {% assign chapters = livre %}
+      {% for groupe in sommaire %}
         {% assign multi = false %}
         {% if groupe.sections.size > 1 %}{% assign multi = true %}{% endif %}
         <div class="toc-group">
           {% for nom in groupe.sections %}
-            {% assign items = chapters | where: "part", nom %}
+            {% assign items = chapters | where: "part", nom %}{% if items.size > 0 %}
             <ul>
               {% for c in items %}
                 <li class="{% if c.card_type %}toc-entry{% else %}toc-section{% endif %}">
                   <a href="#{{ c.url | split: '/' | last }}">{{ c.title }}</a>
                 </li>
               {% endfor %}
-            </ul>
+            </ul>{% endif %}
           {% endfor %}
         </div>
       {% endfor %}

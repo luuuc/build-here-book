@@ -1,6 +1,6 @@
 {% comment %}Introduction, sections et cartes, conclusion, références. Les ressources restent sur le site.{% endcomment %}
-{% assign chapters = site.chapters | sort: "order" %}
-{% for groupe in site.data.sommaire %}
+{% assign chapters = livre %}
+{% for groupe in sommaire %}
   {% for nom in groupe.sections %}
     {% assign items = chapters | where: "part", nom %}
     {% for c in items %}
@@ -22,13 +22,13 @@
           {% endif %}
           <p class="chapter-kicker">
             {% if c.step_number %}
-              <span>Capacité {{ c.step_number }}</span>
+              <span>{{ t.carte.capacite }} {{ c.step_number }}</span>
             {% else %}
               {% unless c.part == c.title %}<span>{{ c.part }}</span>{% endunless %}
             {% endif %}
             {% if c.metadata.reading_time_in_minutes %}<span>{{ c.metadata.reading_time_in_minutes }} min</span>{% endif %}
-            {% if c.card_type %}<span>{{ site.data.interface.lecture.types[c.card_type] }}</span>{% endif %}
-            {% if c.card_type %}<span>{{ c.action_scope | default: site.data.interface.lecture.portees[c.card_type] }}</span>{% endif %}
+            {% if c.card_type %}<span>{{ t.lecture.types[c.card_type] }}</span>{% endif %}
+            {% if c.card_type %}<span>{{ c.action_scope | default: t.lecture.portees[c.card_type] }}</span>{% endif %}
           </p>
           {% unless c.card_type %}
             <h1 class="chapter-title">{{ c.title }}</h1>

@@ -42,7 +42,7 @@
 <title>{{ page.title }} | {{ site.title }}</title>
 
 <!-- Description and Keywords -->
-{% assign meta_desc = page.seo.description | default: page.description | default: site.description %}
+{% assign meta_desc = page.seo.description | default: page.description | default: description_site %}
 {% if meta_desc %}
 <meta name="description" content="{{ meta_desc | escape }}" />
 {% endif %}
@@ -64,10 +64,10 @@
 <!-- Open Graph (Facebook, LinkedIn) -->
 <meta property="og:site_name" content="{{ site.title | escape }}" />
 <meta property="og:title" content="{{ page.title | escape }}" />
-<meta property="og:description" content="{{ page.seo.description | default: page.description | default: site.description | escape }}" />
+<meta property="og:description" content="{{ page.seo.description | default: page.description | default: description_site | escape }}" />
 <meta property="og:url" content="{{ page.url | absolute_url | escape }}" />
 <meta property="og:type" content="{% if page.layout == 'chapter' %}article{% else %}website{% endif %}" />
-<meta property="og:locale" content="{{ site.locale | default: 'en_US' | escape }}" />
+<meta property="og:locale" content="{{ langue_courante.locale | default: site.locale | escape }}" />
 <meta property="og:image" content="{{ page.og_image | default: site.og_image | absolute_url | escape }}" />
 
 <!-- Article-specific Open Graph (for chapters) -->
@@ -83,7 +83,7 @@
 <meta name="twitter:site" content="@{{ site.twitter_username }}" />
 <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
 <meta name="twitter:title" content="{{ page.title | escape }}" />
-<meta name="twitter:description" content="{{ page.seo.description | default: page.description | default: site.description | escape }}" />
+<meta name="twitter:description" content="{{ page.seo.description | default: page.description | default: description_site | escape }}" />
 <meta name="twitter:image" content="{{ page.og_image | default: site.og_image | absolute_url | escape }}" />
 
 <!-- Structured Data (JSON-LD) - Main Content -->
@@ -93,9 +93,9 @@
   "@type": "{% if page.layout == 'chapter' %}Article{% else %}WebSite{% endif %}",
   "name": {{ page.title | jsonify }},
   "headline": {{ page.title | jsonify }},
-  "description": {{ page.seo.description | default: page.description | default: site.description | jsonify }},
+  "description": {{ page.seo.description | default: page.description | default: description_site | jsonify }},
   "url": {{ page.url | absolute_url | jsonify }},
-  "inLanguage": {{ site.book.language | default: 'en-US' | jsonify }},
+  "inLanguage": {{ langue_courante.locale | replace: '_', '-' | default: site.book.language | jsonify }},
   "datePublished": {{ site.book.published | jsonify }},
   "dateModified": {{ site.book.modified | jsonify }},
   {% if page.layout == 'chapter' and page.metadata.reading_time_in_minutes %}
@@ -120,7 +120,7 @@
       "name": {{ site.author.name | jsonify }}
     },
     "bookFormat": "https://schema.org/EBook",
-    "inLanguage": {{ site.book.language | default: 'en-US' | jsonify }},
+    "inLanguage": {{ langue_courante.locale | replace: '_', '-' | default: site.book.language | jsonify }},
     "license": {{ site.book.license | jsonify }}
   }
   {% if page.layout == 'chapter' %}{% if page.part %},
@@ -147,7 +147,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": {{ page.part | jsonify }},
-      "item": "{{ site.url }}/livre/#{{ page.part | slugify }}"
+      "item": "{{ site.url }}{{ t.menu.livre_url }}#{{ page.part | slugify }}"
     },
     {
       "@type": "ListItem",
@@ -178,15 +178,15 @@
 </script>
 
 <!-- Structured Data (JSON-LD) - Book (sur la page du livre) -->
-{% if page.url == '/livre/' %}
+{% if page.url == t.menu.livre_url %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Book",
   "name": {{ site.title | jsonify }},
-  "description": {{ site.description | jsonify }},
-  "url": "{{ site.url }}/livre/",
-  "inLanguage": {{ site.book.language | default: 'en-US' | jsonify }},
+  "description": {{ description_site | jsonify }},
+  "url": "{{ site.url }}{{ t.menu.livre_url }}",
+  "inLanguage": {{ langue_courante.locale | replace: '_', '-' | default: site.book.language | jsonify }},
   "datePublished": {{ site.book.published | jsonify }},
   "dateModified": {{ site.book.modified | jsonify }},
   "bookFormat": "https://schema.org/EBook",
@@ -206,7 +206,7 @@
     "name": {{ site.author.name | jsonify }}
   },
   "hasPart": [
-    {% for chapter in site.chapters %}
+    {% for chapter in livre %}
     {
       "@type": "Chapter",
       "name": {{ chapter.title | jsonify }},
@@ -254,6 +254,18 @@
 
 <!-- Canonical URL -->
 <link rel="canonical" href="{{ page.url | absolute_url }}" />
+
+{%- comment -%}
+  Les autres langues de cette page. `traductions` est une carte code -> adresse
+  posee dans le front matter ; sans elle, la page n'a pas de jumelle et rien
+  n'est annonce. Mieux vaut aucun hreflang qu'un hreflang qui ment.
+{%- endcomment -%}
+{%- if page.traductions %}
+<link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | absolute_url }}" />
+{%- for paire in page.traductions %}
+<link rel="alternate" hreflang="{{ paire[0] }}" href="{{ paire[1] | absolute_url }}" />
+{%- endfor %}
+{%- endif %}
 
 <!-- RSS Feed -->
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}" />

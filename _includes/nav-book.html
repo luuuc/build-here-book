@@ -1,15 +1,15 @@
-      <li><a href="/livre/">Le livre</a></li>
+      <li><a href="{{ t.menu.livre_url }}">{{ t.menu.livre_titre }}</a></li>
 
-      {% assign chapters = site.chapters | sort: "order" %}
+      {% assign chapters = livre %}
 
-      {% for groupe in site.data.sommaire %}
+      {% for groupe in sommaire %}
         {% assign multi = false %}
         {% if groupe.sections.size > 1 %}{% assign multi = true %}{% endif %}
 
         <li class="nav-group{% if groupe.sections contains page.part %} is-current-group{% endif %}">
 
           {% for nom in groupe.sections %}
-            {% assign items = chapters | where: "part", nom %}
+            {% assign items = chapters | where: "part", nom %}{% if items.size > 0 %}
             {% assign ouverture = items | where_exp: "c", "c.title == nom" | first %}
 
             {% if multi and items.size > 1 %}
@@ -46,11 +46,11 @@
                   </li>
                 {% endfor %}
               </ul>
-            {% endif %}
+            {% endif %}{% endif %}
           {% endfor %}
         </li>
       {% endfor %}
 
       <li class="nav-bottom-links">
-        <a href="/" class="nav-version-link">← Retour au site</a>
+        <a href="{{ t.entete.accueil_url }}" class="nav-version-link">{{ t.menu.retour }}</a>
       </li>

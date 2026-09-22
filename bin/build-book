@@ -1,9 +1,14 @@
 #!/bin/sh
-# Tire le livre en PDF et en EPUB. Sortie : build/build-here.pdf, build/build-here.epub
+# Tire le livre en PDF et en EPUB.
 #
-#   bin/build-book        les deux
-#   bin/build-book pdf    le PDF seul
-#   bin/build-book epub   l'EPUB seul
+#   bin/build-book              les deux, en francais
+#   bin/build-book pdf          le PDF seul
+#   bin/build-book epub         l'EPUB seul
+#   bin/build-book all en       les deux, en anglais
+#
+# Sortie : build/build-here.pdf et .epub pour le francais, build/build-here-en.*
+# pour l'anglais. Le francais garde son nom sans suffixe : les adresses deja
+# imprimees dans les tirages precedents continuent de marcher.
 #
 # Jekyll assemble le livre en deux pages HTML (_pdf/book.html et _pdf/epub.html,
 # corps commun dans _includes/book-body.html). WeasyPrint pagine la premiere,
@@ -14,8 +19,8 @@ set -e
 cd "$(dirname "$0")/.."
 
 what="${1:-all}"
+lang="${2:-fr}"
 out="build"
-name="build-here"
 
 need() {
   command -v "$1" >/dev/null 2>&1 || { echo "$1 introuvable. brew install $1" >&2; exit 1; }
@@ -25,18 +30,25 @@ case "$what" in
   pdf)  need weasyprint ;;
   epub) need pandoc ;;
   all)  need weasyprint; need pandoc ;;
-  *)    echo "usage: bin/build-book [pdf|epub]" >&2; exit 2 ;;
+  *)    echo "usage: bin/build-book [pdf|epub|all] [fr|en]" >&2; exit 2 ;;
 esac
 
-# Le livre se construit dans son propre dossier. _site reste celui du site :
-# le tirage desactive auto_ids (voir _config-pdf.yml) et un _site produit ici
-# n'aurait pas les ancres de titre que le site publie doit avoir.
-site="$out/site"
+case "$lang" in
+  fr) name="build-here";    config="_config.yml,_config-pdf.yml" ;;
+  en) name="build-here-en"; config="_config.yml,_config-pdf.yml,_config-pdf-en.yml" ;;
+  *)  echo "usage: bin/build-book [pdf|epub|all] [fr|en]" >&2; exit 2 ;;
+esac
+
+# Chaque langue a son dossier de travail : deux tirages lances a la suite ne se
+# marchent pas dessus. _site reste celui du site : le tirage desactive auto_ids
+# (voir _config-pdf.yml) et un _site produit ici n'aurait pas les ancres de
+# titre que le site publie doit avoir.
+site="$out/site-$lang"
 mkdir -p "$out"
 # BOOK_CONFIG_EXTRA laisse la CI injecter le numero de version reel, celui du
 # tag, pour que le colophon ne montre pas le champ de secours de _config.yml.
 bundle exec jekyll build \
-  --config "_config.yml,_config-pdf.yml${BOOK_CONFIG_EXTRA:+,$BOOK_CONFIG_EXTRA}" \
+  --config "${config}${BOOK_CONFIG_EXTRA:+,$BOOK_CONFIG_EXTRA}" \
   --destination "$site" --quiet
 
 if [ "$what" = all ] || [ "$what" = pdf ]; then

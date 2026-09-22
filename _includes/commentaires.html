@@ -1,4 +1,4 @@
-{% assign c = site.data.interface.commentaire %}
+{% assign c = t.commentaire %}
 <!-- Les discussions. Sans JavaScript, rien ne s'affiche : le formulaire a
      besoin d'un jeton que seule une page dynamique peut poser, et lire le
      livre n'en depend pas. Le lien vers GitHub, lui, marche toujours. -->
@@ -26,7 +26,7 @@
 
         <div class="discussion-qui">
           <label>{{ c.nom }}<input type="text" name="auteur" maxlength="120" required></label>
-          <label>{{ c.ville }}<input type="text" name="ville" maxlength="80" placeholder="Conakry"></label>
+          <label>{{ c.ville }}<input type="text" name="ville" maxlength="80" placeholder="{{ c.ville_exemple }}"></label>
           <label>{{ c.lien }}<input type="url" name="lien" maxlength="300" placeholder="https://"></label>
         </div>
 
@@ -36,7 +36,7 @@
           <label class="discussion-radio"><input type="radio" name="canal" value="whatsapp"> {{ c.whatsapp }}</label>
           <div class="contact-champs">
           <label class="contact-indicatif">
-            Indicatif
+            {{ c.indicatif }}
             <select name="indicatif"></select>
           </label>
             <input type="text" name="contact" maxlength="200">
@@ -45,7 +45,7 @@
 
         <!-- Le champ piege. Un humain ne le voit pas et ne le remplit jamais. -->
         <div class="contrib-piege" aria-hidden="true">
-          <label>Ne remplis pas ce champ<input type="text" name="site" tabindex="-1" autocomplete="off"></label>
+          <label>{{ c.piege }}<input type="text" name="site" tabindex="-1" autocomplete="off"></label>
         </div>
 
         <input type="hidden" name="parent_id" value="">

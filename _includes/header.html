@@ -2,12 +2,29 @@
 
 <header class="header">
   <div class="container">
-    <button class="hamburger" data-bascule-menu aria-label="Ouvrir le menu" aria-controls="offcanvas">☰</button>
-    <a href="/" class="logo">Build Here</a>
+    <button class="hamburger" data-bascule-menu aria-label="{{ t.entete.menu_ouvrir }}" aria-controls="offcanvas">☰</button>
+    <a href="{{ t.entete.accueil_url }}" class="logo">Build Here</a>
 
     <div class="header-actions">
-      <a href="/a-propos/" class="about">À propos</a>
+      {%- comment -%}
+        Le passage d'une langue a l'autre. Si la page declare sa jumelle dans
+        `traductions`, le lien y mene ; sinon il mene a la racine de l'autre
+        langue. Un lien qui atterrit sur l'accueil vaut mieux qu'un lien mort,
+        et le lecteur voit tout de suite ou il arrive.
+      {%- endcomment -%}
+      {%- for l in site.langues %}{% unless l.code == lang %}
+      <a href="{{ page.traductions[l.code] | default: l.racine }}" class="langue" hreflang="{{ l.code }}" lang="{{ l.code }}">{{ l.nom }}</a>
+      {%- endunless %}{% endfor %}
 
+      <a href="{{ t.entete.a_propos_url }}" class="about">{{ t.entete.a_propos }}</a>
+
+      {%- comment -%}
+        Le menu de telechargement disparait tant que la langue n'a pas de
+        tirage. Le test porte sur la longueur : dans ce Liquid, une chaine
+        vide n'est pas egale a `blank`.
+      {%- endcomment -%}
+      {%- assign tirages = site.downloads[lang] -%}
+      {%- if tirages.pdf.size > 0 or tirages.epub.size > 0 %}
       <div class="download">
         <button
           type="button"
@@ -16,8 +33,8 @@
           aria-haspopup="menu"
           aria-expanded="false"
           aria-controls="download-menu"
-          aria-label="Télécharger le livre"
-          title="Télécharger le livre"
+          aria-label="{{ t.entete.telecharger }}"
+          title="{{ t.entete.telecharger }}"
         >
           <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor"
                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -28,21 +45,22 @@
         </button>
 
         <div class="download-menu" id="download-menu" role="menu" hidden>
-          <a href="{{ site.downloads.pdf }}" role="menuitem">
-            Télécharger au format PDF
-            <small>Format A4, prêt à imprimer</small>
+          <a href="{{ tirages.pdf }}" role="menuitem">
+            {{ t.entete.pdf }}
+            <small>{{ t.entete.pdf_detail }}</small>
           </a>
-          <a href="{{ site.downloads.epub }}" role="menuitem">
-            Télécharger au format EPUB
-            <small>Liseuses, téléphones, tablettes</small>
+          <a href="{{ tirages.epub }}" role="menuitem">
+            {{ t.entete.epub }}
+            <small>{{ t.entete.epub_detail }}</small>
           </a>
           <hr />
           <!-- Sans JavaScript, il ne reste que le telechargement de l'EPUB. -->
-          <a href="{{ site.downloads.epub }}" role="menuitem" data-kindle="{{ site.downloads.kindle }}">
-            Envoyer sur mon Kindle
+          <a href="{{ tirages.epub }}" role="menuitem" data-kindle="{{ site.downloads.kindle }}">
+            {{ t.entete.kindle }}
           </a>
         </div>
       </div>
+      {%- endif %}
     </div>
   </div>
 </header>
