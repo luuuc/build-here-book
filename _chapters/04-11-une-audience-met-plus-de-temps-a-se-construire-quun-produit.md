@@ -11,6 +11,9 @@ categories:
   - visibilite
   - distribution
   - marketing
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/04-11-set-up-the-line-to-your-first-users.html
 seo:
   description: "Prépare des échanges adaptés avant le lancement, sans imposer une audience publique ni un calendrier universel."
   keywords: "build here, builder, distribution, premiers utilisateurs, retours"

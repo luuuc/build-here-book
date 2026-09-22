@@ -11,6 +11,9 @@ categories:
   - trace
   - visibilite
   - ecriture
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/10-02-give-the-reader-enough-to-examine-your-reasoning.html
 seo:
   description: "Rends contexte, faits et limites accessibles pour que le lecteur puisse examiner une idée, sans imposer un chiffre ni dévaloriser les avis."
   keywords: "build here, builder, reference, raisonnement, evidence, limites"

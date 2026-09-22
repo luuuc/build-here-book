@@ -12,6 +12,9 @@ categories:
   - ownership
   - leadership
   - conditions
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/06-07-tie-the-review-to-outcomes.html
 seo:
   description: "Relie activité et effets observés avec une cadence adaptée, des moyens de vérification et un suivi proportionné."
   keywords: "build here, builder, ownership, revue, activite, resultats"

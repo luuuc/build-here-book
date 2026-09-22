@@ -11,6 +11,9 @@ categories:
   - ownership
   - responsabilite
   - execution
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/03-01-do-not-bring-the-task-bring-the-problem.html
 seo:
   description: "Rapporte ce que l'exécution t'apprend et fais arbitrer une découverte qui change le périmètre, avant de poursuivre si nécessaire."
   keywords: "build here, ownership, builder, apporte, tache, probleme"

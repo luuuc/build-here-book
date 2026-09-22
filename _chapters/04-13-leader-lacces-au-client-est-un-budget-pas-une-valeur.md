@@ -12,6 +12,9 @@ categories:
   - client
   - support
   - produit
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/04-13-organise-useful-access-to-field-feedback.html
 seo:
   description: "Prévois temps, consentement et accès adaptés pour apprendre des usages, avec des alternatives au contact direct."
   keywords: "build here, builder, acces, terrain, consentement, retours"

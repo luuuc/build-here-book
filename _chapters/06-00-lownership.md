@@ -13,6 +13,9 @@ categories:
   - ownership
   - resultat
   - builders
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/06-00-ownership.html
 seo:
   description: "Rends les engagements, les relais et les résultats explicites sans confondre responsabilité, culpabilité et maîtrise de toutes les conséquences."
   keywords: "build here, ownership, resultat, builder"

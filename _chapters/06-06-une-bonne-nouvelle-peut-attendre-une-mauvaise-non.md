@@ -11,6 +11,9 @@ categories:
   - ownership
   - responsabilite
   - execution
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/06-06-flag-in-time-what-changes-the-commitment.html
 seo:
   description: "Adapte le moment et le canal d'une information à ses conséquences, sans attendre une solution ni imposer un délai universel."
   keywords: "build here, builder, ownership, engagement, alerte, information"

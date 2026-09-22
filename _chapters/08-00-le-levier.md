@@ -13,6 +13,9 @@ categories:
   - levier
   - impact
   - ia
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/08-00-leverage.html
 seo:
   description: "Compare réutilisation, amélioration et automatisation selon leur utilité, leurs coûts et leurs limites, sans imposer un outil ni une croissance du volume."
   keywords: "build here, levier, impact, ia, automatisation, builder"

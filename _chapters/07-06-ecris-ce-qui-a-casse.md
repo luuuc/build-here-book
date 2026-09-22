@@ -12,6 +12,9 @@ categories:
   - postmortem
   - incident
   - apprentissage
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/07-06-write-down-what-broke.html
 seo:
   description: "Conserve les faits, les hypothèses et la suite d'un incident dans une trace adaptée, sans imposer une publication publique ou hors temps de travail."
   keywords: "build here, trace, postmortem, builder, incident"

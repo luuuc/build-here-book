@@ -11,6 +11,9 @@ categories:
   - produit
   - client
   - arbitrage
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/05-04-signing-off-a-spec-does-not-make-it-right.html
 seo:
   description: "Distingue exigences et hypothèses dans une spécification, puis fais examiner les faits nouveaux avant de modifier le travail convenu."
   keywords: "build here, produit, builder, valider, spec, rend, juste"

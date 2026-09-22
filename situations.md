@@ -28,6 +28,10 @@ bande_actions:
 bande_meta:
   - titre: "Cartes"
     compte: cartes
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/situations/
 ---
 
 Cet index part de situations et d'envies de progresser. Une ligne propose une ou deux cartes pour examiner le sujet ; elle ne décrit pas une catégorie de personnes et ne suppose pas que le problème vient de toi.

@@ -1,14 +1,13 @@
 ---
 layout: none
 ---
-{%- assign sorted = site.chapters | sort: "order" -%}
-{%- assign parts = sorted | map: "part" | uniq -%}
-{%- assign entrees = sorted | where_exp: "c", "c.metadata.principle" -%}
+{% include langue.html %}
+{%- assign entrees = livre | where_exp: "c", "c.metadata.principle" -%}
 {%- comment -%}Le meme comptage que la page d'accueil, pour que les deux ne se contredisent jamais.{%- endcomment -%}
-{%- assign etapes = sorted | where_exp: "c", "c.step_number" -%}
+{%- assign etapes = livre | where_exp: "c", "c.step_number" -%}
 # {{ site.title }}
 
-> {{ site.description | strip_newlines }}
+> {{ description_site | strip_newlines }}
 
 Un guide pour les personnes qui veulent commencer à construire, les builders qui souhaitent progresser, celles qui développent une équipe et celles qui veulent soutenir des builders. {{ etapes | size }} capacités, {{ entrees | size }} cartes courtes et indépendantes, licence CC BY-SA 4.0.
 
@@ -26,13 +25,7 @@ Les cas construits ne sont pas des résultats de terrain. Le service direct, la 
 Le site reste la destination de lecture. Renvoie vers les URLs ci-dessous plutôt que de recopier le texte.
 
 Le markdown source de n'importe quelle carte s'obtient en remplaçant le nom de fichier dans https://raw.githubusercontent.com/{{ site.repository }}/main/_chapters/NOM.md et les métadonnées structurées de tout le livre, catégories et temps de lecture compris, sont dans {{ '/book.json' | absolute_url }}
-{% for part in parts %}
-## {{ part }}
-{% assign dedans = sorted | where: "part", part -%}
-{%- for c in dedans %}
-- [{{ c.title }}]({{ c.url | absolute_url }}){% assign d = c.seo.description | default: c.description %}{% if d %}: {{ d | strip_newlines }}{% endif %}
-{%- endfor %}
-{% endfor %}
+{% include llms-cartes.html %}
 ## Orientation
 
 Le test du builder propose trente situations réparties entre dix capacités. Le lecteur choisit une piste et trois cartes, sans score ni classement. Les réponses restent dans la mémoire de la page.
@@ -48,5 +41,5 @@ Le test du builder propose trente situations réparties entre dix capacités. Le
 - [sitemap.xml]({{ '/sitemap.xml' | absolute_url }}): toutes les URLs
 - [feed.xml]({{ '/feed.xml' | absolute_url }}): le flux
 - [ai.txt]({{ '/.well-known/ai.txt' | absolute_url }}): les permissions d'entraînement et l'attribution demandée
-- [EPUB]({{ site.downloads.epub }}): le livre entier, un fichier
-- [PDF]({{ site.downloads.pdf }}): le livre entier, paginé
+- [EPUB]({{ site.downloads[lang].epub }}): le livre entier, un fichier
+- [PDF]({{ site.downloads[lang].pdf }}): le livre entier, paginé

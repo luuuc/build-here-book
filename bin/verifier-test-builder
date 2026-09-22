@@ -1,14 +1,44 @@
 #!/usr/bin/env node
 // Vérifie les règles réelles du questionnaire et les références du build choisi.
+//
+//   bin/verifier-test-builder [destination] [fr|en]
+//
+// Les règles sont les mêmes dans les deux langues : seul le contenu change.
+// La CI lance les deux passes, sinon une traduction pourrait pointer vers une
+// carte qui n'existe pas.
 import assert from "node:assert/strict";
 import { createRequire } from "node:module";
 import { readFileSync, existsSync } from "node:fs";
 import { resolve, join } from "node:path";
 import { fileURLToPath } from "node:url";
 const require = createRequire(import.meta.url);
-const model = require("../assets/javascripts/test-builder-model.js");
 const root = fileURLToPath(new URL("..", import.meta.url));
 const destination = resolve(process.argv[2] || join(root, "_site"));
+const lang = process.argv[3] || "fr";
+if (!["fr", "en"].includes(lang)) throw new Error("usage: bin/verifier-test-builder [destination] [fr|en]");
+// Le francais garde son fichier sans suffixe, comme sa collection et ses adresses.
+const contenu = lang === "fr" ? "test-builder-contenu.js" : `test-builder-contenu-${lang}.js`;
+const model = require("../assets/javascripts/test-builder-model.js")
+  .creer(require(`../assets/javascripts/${contenu}`));
+// Les entrees, la page du test et celle des parcours, cote par langue.
+const cartes = lang === "fr" ? "_chapters" : `_chapters_${lang}`;
+const accueil = lang === "fr" ? "index.html" : join(lang, "index.html");
+const parcours = lang === "fr" ? "parcours" : join(lang, "paths");
+const ancre = lang === "fr" ? "parcours-" : "path-";
+// Les controles editoriaux portent sur des mots, donc sur une langue. Les
+// memes regles, les mots de chaque contenu.
+const mots = {
+  fr: { exempleConstruit: /exemple construit/, premierEssai: /premier essai/,
+        ressourceExplication: /ressource ou une explication/, aClarifier: /clarifier/,
+        conditionTemps: "Temps ou priorité", conditionAccord: "Accord ou droit de décision",
+        dansTesMoyens: /dans tes moyens/, sansDeduction: /sans déduction/,
+        volontaires: /participants volontaires/, questionMethode: /Repense à une méthode que tu as apprise/ },
+  en: { exempleConstruit: /constructed example/, premierEssai: /first attempt/,
+        ressourceExplication: /resource or an explanation/, aClarifier: /clarified/,
+        conditionTemps: "Time or priority", conditionAccord: "Agreement or the right to decide",
+        dansTesMoyens: /inside your means/, sansDeduction: /nothing inferred/,
+        volontaires: /willing participants/, questionMethode: /Think of a method you learned/ }
+}[lang];
 let checks = 0;
 function check(name, run) { run(); checks++; }
 check("60 affirmations et échelle à six positions", () => {
@@ -46,9 +76,10 @@ check("Aucune sélection automatique ni classement", () => {
     assert.equal(model.candidates(state).length, 30);
     assert.equal(model.plan(state), null);
     const result = model.plan(model.select(state, model.candidates(state)[29]));
-    assert.match(result.title, /La référence/);
+    // La derniere candidate est la derniere question, donc la derniere capacite.
+    assert(result.title.includes(model.capabilities.at(-1).name));
     assert.equal(Boolean(result.appui), mode === "deepen");
-    assert.doesNotMatch(result.title + result.reason, /niveau|%|maîtris|première marche/);
+    assert.doesNotMatch(result.title + result.reason, /niveau|%|maîtris|première marche|level|score|mastery/);
   }
 });
 check("Trois premiers essais sans faux appui", () => {
@@ -56,8 +87,8 @@ check("Trois premiers essais sans faux appui", () => {
   for (const q of model.questions.slice(0, 3)) s = model.answer(s, q.id, "discover");
   const p = model.plan(model.select(s, model.candidates(s)[0]));
   assert.equal(p.appui, null);
-  assert.match(p.fields[1][1], /exemple construit/);
-  assert.match(p.resources[0].title, /premier essai/);
+  assert.match(p.fields[1][1], mots.exempleConstruit);
+  assert.match(p.resources[0].title, mots.premierEssai);
 });
 check("Besoins mixtes conservés, aucun prérequis", () => {
   let s = model.answer(start(), "mindset-1", "revisit");
@@ -66,18 +97,18 @@ check("Besoins mixtes conservés, aucun prérequis", () => {
   s = model.answer(s, "reference-3", "deepen");
   assert.equal(model.candidates(s).length, 4);
   const p = model.plan(model.select(s, model.candidates(s)[3]));
-  assert.match(p.appui, /ressource ou une explication/);
+  assert.match(p.appui, mots.ressourceExplication);
 });
 check("Conditions facultatives, multiples et nettoyées", () => {
   let s = model.answer(start("support"), "leadership-1", "blocked");
   const choose = (s) => model.plan(model.select(s, model.candidates(s)[0]));
-  assert.match(choose(s).fields[3][1], /clarifier/);
+  assert.match(choose(s).fields[3][1], mots.aClarifier);
   s = model.answer(s, "leadership-1", "blocked", ["time", "authority", "time", "invalid"]);
   assert.deepEqual(s.answers["leadership-1"].conditions, ["time", "authority"]);
   const p = choose(s);
-  assert.match(p.fields[3][1], /Temps ou priorité/);
-  assert.match(p.fields[3][1], /Accord ou droit de décision/);
-  assert.match(p.fields[2][1], /dans tes moyens/);
+  assert(p.fields[3][1].includes(mots.conditionTemps));
+  assert(p.fields[3][1].includes(mots.conditionAccord));
+  assert.match(p.fields[2][1], mots.dansTesMoyens);
   assert.equal(p.cards[0].url, model.capabilities.find((c) => c.id === "leadership").cards[2].url);
   s = model.select(s, model.candidates(s)[0]);
   s = model.answer(s, "leadership-1", "deepen");
@@ -87,13 +118,15 @@ check("Conditions facultatives, multiples et nettoyées", () => {
 check("160 combinaisons directes capacité, mode, intention", () => {
   for (const intent of model.intentions) for (const c of model.capabilities) for (const mode of model.modes) {
     const p = model.plan(model.select(start(intent.id), { capabilityId: c.id, mode }));
-    assert.match(p.reason, /sans déduction/);
+    assert.match(p.reason, mots.sansDeduction);
     assert.equal(p.cards.length, 3);
     assert.equal(p.fields.length, 7);
     assert.equal(p.intent, intent.label);
     assert.equal(p.appui, null);
     assert(p.resources.some((r) => r.url === intent.resource.url));
-    if (mode === "discover") assert(p.resources.some((r) => r.url === "/premier-essai/"));
+    // Le premier essai est ressource de l'intention « commencer » : son adresse
+    // change de langue, sa place dans la piste non.
+    if (mode === "discover") assert(p.resources.some((r) => r.url === model.intentions[0].resource.url));
   }
 });
 check("Changement d'intention et recommencement", () => {
@@ -103,14 +136,14 @@ check("Changement d'intention et recommencement", () => {
   assert.equal(model.plan(s), null);
   assert.equal(model.candidates(s).length, 1);
   const p = model.plan(model.select(s, model.candidates(s)[0]));
-  assert.match(p.fields[2][1], /participants volontaires/);
+  assert.match(p.fields[2][1], mots.volontaires);
   assert.equal(model.initialState().intent, null);
   assert.deepEqual(model.initialState().answers, {});
 });
 check("Le choix manuel ne reprend pas des conditions d'un autre exemple", () => {
   const s = model.answer(start(), "craft-1", "blocked", ["time"]);
   const p = model.plan(model.select(s, { capabilityId: "reference", mode: "blocked" }));
-  assert.doesNotMatch(p.fields[3][1], /Temps ou priorité/);
+  assert(!p.fields[3][1].includes(mots.conditionTemps));
 });
 check("Copie complète et limitée à la piste retenue", () => {
   let s = model.answer(start("support"), "leadership-1", "blocked", ["access"]);
@@ -120,7 +153,7 @@ check("Copie complète et limitée à la piste retenue", () => {
   for (const [title, value] of p.fields) { assert(copy.includes(title)); assert(copy.includes(value)); }
   for (const card of [...p.cards, ...p.resources]) assert(copy.includes(`https://example.test${card.url}`));
   assert(copy.includes(p.reason));
-  assert.doesNotMatch(copy, /Repense à une méthode que tu as apprise/);
+  assert.doesNotMatch(copy, mots.questionMethode);
 });
 check("Ancienne sélection invalidée quand une réponse change", () => {
   let s = model.answer(start(), "mindset-1", "revisit");
@@ -133,7 +166,7 @@ check("Ancienne sélection invalidée quand une réponse change", () => {
 const source = (file) => readFileSync(join(root, file), "utf8");
 check("Titres, types et URL des recommandations", () => {
   for (const c of model.capabilities) for (const card of c.cards) {
-    const md = source(`_chapters/${card.url.split("/").pop().replace(/\.html$/, ".md")}`);
+    const md = source(`${cartes}/${card.url.split("/").pop().replace(/\.html$/, ".md")}`);
     assert.equal(md.match(/^title: "(.*)"$/m)?.[1], card.title);
     assert.equal(md.match(/^card_type: (.*)$/m)?.[1], card.type);
     assert(existsSync(join(destination, card.url)), card.url);
@@ -141,17 +174,18 @@ check("Titres, types et URL des recommandations", () => {
   for (const intent of model.intentions) {
     const p = model.plan(model.select(start(intent.id), { capabilityId: "reference", mode: "discover" }));
     for (const r of p.resources) assert(existsSync(join(destination, r.url)), r.url);
-    const route = readFileSync(join(destination, "parcours/index.html"), "utf8");
-    assert(route.includes(`id="parcours-${intent.anchor}"`));
+    const route = readFileSync(join(destination, parcours, "index.html"), "utf8");
+    assert(route.includes(`id="${ancre}${intent.anchor}"`));
   }
 });
 check("Aucun calcul historique, envoi ou stockage persistant dans le questionnaire", () => {
-  const js = source("assets/javascripts/test-builder.js") + source("assets/javascripts/test-builder-model.js");
+  const js = source("assets/javascripts/test-builder.js") + source("assets/javascripts/test-builder-model.js") + source(`assets/javascripts/${contenu}`);
   assert.doesNotMatch(js, /\bfetch\s*\(|XMLHttpRequest|sendBeacon|\.setItem\s*\(|sessionStorage|\breached\b|\bscores\b/);
   assert.match(js, /removeItem\("build-here:test-builder"\)/);
-  const page = readFileSync(join(destination, "index.html"), "utf8");
+  const page = readFileSync(join(destination, accueil), "utf8");
+  assert(page.indexOf(`src="/assets/javascripts/${contenu}"`) < page.indexOf('src="/assets/javascripts/test-builder-model.js"'));
   assert(page.indexOf('src="/assets/javascripts/test-builder-model.js"') < page.indexOf('src="/assets/javascripts/test-builder.js"'));
   assert.doesNotMatch(page, /data-api="[^"]*evaluation|data-result-scale|57\s*%/);
   assert.match(page, /data-test-start(?:="")? hidden/);
 });
-console.log(`Questionnaire valide : ${checks} groupes de vérifications, dont 160 combinaisons ; liens vérifiés dans ${destination}.`);
+console.log(`Questionnaire valide : ${checks} groupes de vérifications, dont 160 combinaisons ; liens vérifiés dans ${destination} (${lang}).`);

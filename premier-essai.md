@@ -19,6 +19,10 @@ redirect_from:
 # La premiere phrase de la page dit que le cas est construit. Cette cle lui
 # donne la forme d'un avertissement, sans la deplacer ni la reecrire.
 avertissement: true
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/first-try/
 ---
 
 Ce cas est **entièrement construit**. Les personnes, les observations et les nombres sont fictifs. Ils montrent comment préparer et relire un essai, sans promettre le même résultat ailleurs.

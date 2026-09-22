@@ -10,6 +10,9 @@ metadata:
 categories:
   - introduction
   - builders
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/00-introduction.html
 seo:
   description: "Comprendre un problème, construire quelque chose d'utile et apprendre de ses effets. Dix capacités à explorer à partir de là où tu es."
   keywords: "build here, introduction, builder, apprentissage, transmission"

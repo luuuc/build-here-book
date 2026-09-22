@@ -11,6 +11,9 @@ categories:
   - leadership
   - decision
   - management
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/09-01-look-at-the-conditions-for-initiative.html
 seo:
   description: "Examine les conditions d'une initiative avec les personnes concernées, sans attribuer automatiquement la difficulté aux individus ou à leur responsable."
   keywords: "build here, builder, leadership, initiative, conditions, soutien"

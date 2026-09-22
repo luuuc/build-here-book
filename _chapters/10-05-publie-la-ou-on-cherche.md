@@ -11,6 +11,9 @@ categories:
   - visibilite
   - distribution
   - trace
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/10-05-put-the-resource-where-its-readers-look.html
 seo:
   description: "Vérifie le chemin d'accès d'un lecteur réel et entretiens la ressource, sans promettre indexation, permanence ou classement public."
   keywords: "build here, builder, reference, ressource, recherche, entretien"

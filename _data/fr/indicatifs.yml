@@ -8,564 +8,564 @@
 # Elle ne privilegie aucun pays. Le livre se lit partout, et le formulaire
 # doit marcher depuis n'importe quel numero.
 
-- code: AF
+- code: "AF"
   nom: "Afghanistan"
   indicatif: "93"
-- code: ZA
+- code: "ZA"
   nom: "Afrique du Sud"
   indicatif: "27"
-- code: AL
+- code: "AL"
   nom: "Albanie"
   indicatif: "355"
-- code: DZ
+- code: "DZ"
   nom: "Algérie"
   indicatif: "213"
-- code: DE
+- code: "DE"
   nom: "Allemagne"
   indicatif: "49"
-- code: AD
+- code: "AD"
   nom: "Andorre"
   indicatif: "376"
-- code: AO
+- code: "AO"
   nom: "Angola"
   indicatif: "244"
-- code: AG
+- code: "AG"
   nom: "Antigua-et-Barbuda"
   indicatif: "1268"
-- code: SA
+- code: "SA"
   nom: "Arabie saoudite"
   indicatif: "966"
-- code: AR
+- code: "AR"
   nom: "Argentine"
   indicatif: "54"
-- code: AM
+- code: "AM"
   nom: "Arménie"
   indicatif: "374"
-- code: AU
+- code: "AU"
   nom: "Australie"
   indicatif: "61"
-- code: AT
+- code: "AT"
   nom: "Autriche"
   indicatif: "43"
-- code: AZ
+- code: "AZ"
   nom: "Azerbaïdjan"
   indicatif: "994"
-- code: BS
+- code: "BS"
   nom: "Bahamas"
   indicatif: "1242"
-- code: BH
+- code: "BH"
   nom: "Bahreïn"
   indicatif: "973"
-- code: BD
+- code: "BD"
   nom: "Bangladesh"
   indicatif: "880"
-- code: BB
+- code: "BB"
   nom: "Barbade"
   indicatif: "1246"
-- code: BE
+- code: "BE"
   nom: "Belgique"
   indicatif: "32"
-- code: BZ
+- code: "BZ"
   nom: "Belize"
   indicatif: "501"
-- code: BJ
+- code: "BJ"
   nom: "Bénin"
   indicatif: "229"
-- code: BT
+- code: "BT"
   nom: "Bhoutan"
   indicatif: "975"
-- code: BY
+- code: "BY"
   nom: "Biélorussie"
   indicatif: "375"
-- code: BO
+- code: "BO"
   nom: "Bolivie"
   indicatif: "591"
-- code: BA
+- code: "BA"
   nom: "Bosnie-Herzégovine"
   indicatif: "387"
-- code: BW
+- code: "BW"
   nom: "Botswana"
   indicatif: "267"
-- code: BR
+- code: "BR"
   nom: "Brésil"
   indicatif: "55"
-- code: BN
+- code: "BN"
   nom: "Brunei"
   indicatif: "673"
-- code: BG
+- code: "BG"
   nom: "Bulgarie"
   indicatif: "359"
-- code: BF
+- code: "BF"
   nom: "Burkina Faso"
   indicatif: "226"
-- code: BI
+- code: "BI"
   nom: "Burundi"
   indicatif: "257"
-- code: KH
+- code: "KH"
   nom: "Cambodge"
   indicatif: "855"
-- code: CM
+- code: "CM"
   nom: "Cameroun"
   indicatif: "237"
-- code: CA
+- code: "CA"
   nom: "Canada"
   indicatif: "1"
-- code: CV
+- code: "CV"
   nom: "Cap-Vert"
   indicatif: "238"
-- code: CL
+- code: "CL"
   nom: "Chili"
   indicatif: "56"
-- code: CN
+- code: "CN"
   nom: "Chine"
   indicatif: "86"
-- code: CY
+- code: "CY"
   nom: "Chypre"
   indicatif: "357"
-- code: CO
+- code: "CO"
   nom: "Colombie"
   indicatif: "57"
-- code: KM
+- code: "KM"
   nom: "Comores"
   indicatif: "269"
-- code: CG
+- code: "CG"
   nom: "Congo-Brazzaville"
   indicatif: "242"
-- code: CD
+- code: "CD"
   nom: "Congo-Kinshasa"
   indicatif: "243"
-- code: KR
+- code: "KR"
   nom: "Corée du Sud"
   indicatif: "82"
-- code: CR
+- code: "CR"
   nom: "Costa Rica"
   indicatif: "506"
-- code: CI
+- code: "CI"
   nom: "Côte d'Ivoire"
   indicatif: "225"
-- code: HR
+- code: "HR"
   nom: "Croatie"
   indicatif: "385"
-- code: CU
+- code: "CU"
   nom: "Cuba"
   indicatif: "53"
-- code: DK
+- code: "DK"
   nom: "Danemark"
   indicatif: "45"
-- code: DJ
+- code: "DJ"
   nom: "Djibouti"
   indicatif: "253"
-- code: DM
+- code: "DM"
   nom: "Dominique"
   indicatif: "1767"
-- code: EG
+- code: "EG"
   nom: "Égypte"
   indicatif: "20"
-- code: AE
+- code: "AE"
   nom: "Émirats arabes unis"
   indicatif: "971"
-- code: EC
+- code: "EC"
   nom: "Équateur"
   indicatif: "593"
-- code: ER
+- code: "ER"
   nom: "Érythrée"
   indicatif: "291"
-- code: ES
+- code: "ES"
   nom: "Espagne"
   indicatif: "34"
-- code: EE
+- code: "EE"
   nom: "Estonie"
   indicatif: "372"
-- code: SZ
+- code: "SZ"
   nom: "Eswatini"
   indicatif: "268"
-- code: US
+- code: "US"
   nom: "États-Unis"
   indicatif: "1"
-- code: ET
+- code: "ET"
   nom: "Éthiopie"
   indicatif: "251"
-- code: FJ
+- code: "FJ"
   nom: "Fidji"
   indicatif: "679"
-- code: FI
+- code: "FI"
   nom: "Finlande"
   indicatif: "358"
-- code: FR
+- code: "FR"
   nom: "France"
   indicatif: "33"
-- code: GA
+- code: "GA"
   nom: "Gabon"
   indicatif: "241"
-- code: GM
+- code: "GM"
   nom: "Gambie"
   indicatif: "220"
-- code: GE
+- code: "GE"
   nom: "Géorgie"
   indicatif: "995"
-- code: GH
+- code: "GH"
   nom: "Ghana"
   indicatif: "233"
-- code: GR
+- code: "GR"
   nom: "Grèce"
   indicatif: "30"
-- code: GD
+- code: "GD"
   nom: "Grenade"
   indicatif: "1473"
-- code: GT
+- code: "GT"
   nom: "Guatemala"
   indicatif: "502"
-- code: GN
+- code: "GN"
   nom: "Guinée"
   indicatif: "224"
-- code: GQ
+- code: "GQ"
   nom: "Guinée équatoriale"
   indicatif: "240"
-- code: GW
+- code: "GW"
   nom: "Guinée-Bissau"
   indicatif: "245"
-- code: GY
+- code: "GY"
   nom: "Guyana"
   indicatif: "592"
-- code: HT
+- code: "HT"
   nom: "Haïti"
   indicatif: "509"
-- code: HN
+- code: "HN"
   nom: "Honduras"
   indicatif: "504"
-- code: HU
+- code: "HU"
   nom: "Hongrie"
   indicatif: "36"
-- code: IN
+- code: "IN"
   nom: "Inde"
   indicatif: "91"
-- code: ID
+- code: "ID"
   nom: "Indonésie"
   indicatif: "62"
-- code: IQ
+- code: "IQ"
   nom: "Irak"
   indicatif: "964"
-- code: IR
+- code: "IR"
   nom: "Iran"
   indicatif: "98"
-- code: IE
+- code: "IE"
   nom: "Irlande"
   indicatif: "353"
-- code: IS
+- code: "IS"
   nom: "Islande"
   indicatif: "354"
-- code: IL
+- code: "IL"
   nom: "Israël"
   indicatif: "972"
-- code: IT
+- code: "IT"
   nom: "Italie"
   indicatif: "39"
-- code: JM
+- code: "JM"
   nom: "Jamaïque"
   indicatif: "1876"
-- code: JP
+- code: "JP"
   nom: "Japon"
   indicatif: "81"
-- code: JO
+- code: "JO"
   nom: "Jordanie"
   indicatif: "962"
-- code: KZ
+- code: "KZ"
   nom: "Kazakhstan"
   indicatif: "7"
-- code: KE
+- code: "KE"
   nom: "Kenya"
   indicatif: "254"
-- code: KG
+- code: "KG"
   nom: "Kirghizistan"
   indicatif: "996"
-- code: KI
+- code: "KI"
   nom: "Kiribati"
   indicatif: "686"
-- code: KW
+- code: "KW"
   nom: "Koweït"
   indicatif: "965"
-- code: LA
+- code: "LA"
   nom: "Laos"
   indicatif: "856"
-- code: LS
+- code: "LS"
   nom: "Lesotho"
   indicatif: "266"
-- code: LV
+- code: "LV"
   nom: "Lettonie"
   indicatif: "371"
-- code: LB
+- code: "LB"
   nom: "Liban"
   indicatif: "961"
-- code: LR
+- code: "LR"
   nom: "Liberia"
   indicatif: "231"
-- code: LY
+- code: "LY"
   nom: "Libye"
   indicatif: "218"
-- code: LI
+- code: "LI"
   nom: "Liechtenstein"
   indicatif: "423"
-- code: LT
+- code: "LT"
   nom: "Lituanie"
   indicatif: "370"
-- code: LU
+- code: "LU"
   nom: "Luxembourg"
   indicatif: "352"
-- code: MK
+- code: "MK"
   nom: "Macédoine du Nord"
   indicatif: "389"
-- code: MG
+- code: "MG"
   nom: "Madagascar"
   indicatif: "261"
-- code: MY
+- code: "MY"
   nom: "Malaisie"
   indicatif: "60"
-- code: MW
+- code: "MW"
   nom: "Malawi"
   indicatif: "265"
-- code: MV
+- code: "MV"
   nom: "Maldives"
   indicatif: "960"
-- code: ML
+- code: "ML"
   nom: "Mali"
   indicatif: "223"
-- code: MT
+- code: "MT"
   nom: "Malte"
   indicatif: "356"
-- code: MA
+- code: "MA"
   nom: "Maroc"
   indicatif: "212"
-- code: MU
+- code: "MU"
   nom: "Maurice"
   indicatif: "230"
-- code: MR
+- code: "MR"
   nom: "Mauritanie"
   indicatif: "222"
-- code: MX
+- code: "MX"
   nom: "Mexique"
   indicatif: "52"
-- code: MD
+- code: "MD"
   nom: "Moldavie"
   indicatif: "373"
-- code: MC
+- code: "MC"
   nom: "Monaco"
   indicatif: "377"
-- code: MN
+- code: "MN"
   nom: "Mongolie"
   indicatif: "976"
-- code: ME
+- code: "ME"
   nom: "Monténégro"
   indicatif: "382"
-- code: MZ
+- code: "MZ"
   nom: "Mozambique"
   indicatif: "258"
-- code: MM
+- code: "MM"
   nom: "Myanmar"
   indicatif: "95"
-- code: NA
+- code: "NA"
   nom: "Namibie"
   indicatif: "264"
-- code: NP
+- code: "NP"
   nom: "Népal"
   indicatif: "977"
-- code: NI
+- code: "NI"
   nom: "Nicaragua"
   indicatif: "505"
-- code: NE
+- code: "NE"
   nom: "Niger"
   indicatif: "227"
-- code: NG
+- code: "NG"
   nom: "Nigeria"
   indicatif: "234"
-- code: NO
+- code: "NO"
   nom: "Norvège"
   indicatif: "47"
-- code: NZ
+- code: "NZ"
   nom: "Nouvelle-Zélande"
   indicatif: "64"
-- code: OM
+- code: "OM"
   nom: "Oman"
   indicatif: "968"
-- code: UG
+- code: "UG"
   nom: "Ouganda"
   indicatif: "256"
-- code: UZ
+- code: "UZ"
   nom: "Ouzbékistan"
   indicatif: "998"
-- code: PK
+- code: "PK"
   nom: "Pakistan"
   indicatif: "92"
-- code: PA
+- code: "PA"
   nom: "Panama"
   indicatif: "507"
-- code: PG
+- code: "PG"
   nom: "Papouasie-Nouvelle-Guinée"
   indicatif: "675"
-- code: PY
+- code: "PY"
   nom: "Paraguay"
   indicatif: "595"
-- code: NL
+- code: "NL"
   nom: "Pays-Bas"
   indicatif: "31"
-- code: PE
+- code: "PE"
   nom: "Pérou"
   indicatif: "51"
-- code: PH
+- code: "PH"
   nom: "Philippines"
   indicatif: "63"
-- code: PL
+- code: "PL"
   nom: "Pologne"
   indicatif: "48"
-- code: PT
+- code: "PT"
   nom: "Portugal"
   indicatif: "351"
-- code: QA
+- code: "QA"
   nom: "Qatar"
   indicatif: "974"
-- code: CF
+- code: "CF"
   nom: "République centrafricaine"
   indicatif: "236"
-- code: DO
+- code: "DO"
   nom: "République dominicaine"
   indicatif: "1809"
-- code: CZ
+- code: "CZ"
   nom: "République tchèque"
   indicatif: "420"
-- code: RO
+- code: "RO"
   nom: "Roumanie"
   indicatif: "40"
-- code: GB
+- code: "GB"
   nom: "Royaume-Uni"
   indicatif: "44"
-- code: RU
+- code: "RU"
   nom: "Russie"
   indicatif: "7"
-- code: RW
+- code: "RW"
   nom: "Rwanda"
   indicatif: "250"
-- code: KN
+- code: "KN"
   nom: "Saint-Christophe-et-Niévès"
   indicatif: "1869"
-- code: SM
+- code: "SM"
   nom: "Saint-Marin"
   indicatif: "378"
-- code: VC
+- code: "VC"
   nom: "Saint-Vincent-et-les-Grenadines"
   indicatif: "1784"
-- code: LC
+- code: "LC"
   nom: "Sainte-Lucie"
   indicatif: "1758"
-- code: SV
+- code: "SV"
   nom: "Salvador"
   indicatif: "503"
-- code: WS
+- code: "WS"
   nom: "Samoa"
   indicatif: "685"
-- code: ST
+- code: "ST"
   nom: "Sao Tomé-et-Principe"
   indicatif: "239"
-- code: SN
+- code: "SN"
   nom: "Sénégal"
   indicatif: "221"
-- code: RS
+- code: "RS"
   nom: "Serbie"
   indicatif: "381"
-- code: SC
+- code: "SC"
   nom: "Seychelles"
   indicatif: "248"
-- code: SL
+- code: "SL"
   nom: "Sierra Leone"
   indicatif: "232"
-- code: SG
+- code: "SG"
   nom: "Singapour"
   indicatif: "65"
-- code: SK
+- code: "SK"
   nom: "Slovaquie"
   indicatif: "421"
-- code: SI
+- code: "SI"
   nom: "Slovénie"
   indicatif: "386"
-- code: SO
+- code: "SO"
   nom: "Somalie"
   indicatif: "252"
-- code: SD
+- code: "SD"
   nom: "Soudan"
   indicatif: "249"
-- code: SS
+- code: "SS"
   nom: "Soudan du Sud"
   indicatif: "211"
-- code: LK
+- code: "LK"
   nom: "Sri Lanka"
   indicatif: "94"
-- code: SE
+- code: "SE"
   nom: "Suède"
   indicatif: "46"
-- code: CH
+- code: "CH"
   nom: "Suisse"
   indicatif: "41"
-- code: SR
+- code: "SR"
   nom: "Suriname"
   indicatif: "597"
-- code: SY
+- code: "SY"
   nom: "Syrie"
   indicatif: "963"
-- code: TJ
+- code: "TJ"
   nom: "Tadjikistan"
   indicatif: "992"
-- code: TZ
+- code: "TZ"
   nom: "Tanzanie"
   indicatif: "255"
-- code: TD
+- code: "TD"
   nom: "Tchad"
   indicatif: "235"
-- code: TH
+- code: "TH"
   nom: "Thaïlande"
   indicatif: "66"
-- code: TL
+- code: "TL"
   nom: "Timor oriental"
   indicatif: "670"
-- code: TG
+- code: "TG"
   nom: "Togo"
   indicatif: "228"
-- code: TO
+- code: "TO"
   nom: "Tonga"
   indicatif: "676"
-- code: TT
+- code: "TT"
   nom: "Trinité-et-Tobago"
   indicatif: "1868"
-- code: TN
+- code: "TN"
   nom: "Tunisie"
   indicatif: "216"
-- code: TM
+- code: "TM"
   nom: "Turkménistan"
   indicatif: "993"
-- code: TR
+- code: "TR"
   nom: "Turquie"
   indicatif: "90"
-- code: TV
+- code: "TV"
   nom: "Tuvalu"
   indicatif: "688"
-- code: UA
+- code: "UA"
   nom: "Ukraine"
   indicatif: "380"
-- code: UY
+- code: "UY"
   nom: "Uruguay"
   indicatif: "598"
-- code: VU
+- code: "VU"
   nom: "Vanuatu"
   indicatif: "678"
-- code: VE
+- code: "VE"
   nom: "Venezuela"
   indicatif: "58"
-- code: VN
+- code: "VN"
   nom: "Viêt Nam"
   indicatif: "84"
-- code: YE
+- code: "YE"
   nom: "Yémen"
   indicatif: "967"
-- code: ZM
+- code: "ZM"
   nom: "Zambie"
   indicatif: "260"
-- code: ZW
+- code: "ZW"
   nom: "Zimbabwe"
   indicatif: "263"

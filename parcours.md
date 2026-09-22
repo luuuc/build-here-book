@@ -19,6 +19,10 @@ redirect_from:
 bande_actions:
   - titre: "Index par situation"
     url: /situations/
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/paths/
 ---
 
 Choisis ce que tu veux faire maintenant. Chaque parcours propose trois cartes : commence par celle qui te sera utile cette semaine. Tu peux changer de parcours selon le projet, les personnes et le temps dont tu disposes.

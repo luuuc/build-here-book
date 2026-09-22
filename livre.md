@@ -32,6 +32,10 @@ bande_meta:
     compte: capacites
   - titre: "Cartes courtes"
     compte: cartes
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/book/
 ---
 
 ## Le playbook des builders

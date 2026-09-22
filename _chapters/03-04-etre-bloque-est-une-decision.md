@@ -11,6 +11,9 @@ categories:
   - ownership
   - responsabilite
   - execution
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/03-04-when-you-are-stuck-make-the-next-step-explicit.html
 seo:
   description: "Distingue recherche, aide, accès et arbitrage pour organiser la suite d'un blocage réel."
   keywords: "build here, builder, autonomie, blocage, aide, acces, arbitrage"

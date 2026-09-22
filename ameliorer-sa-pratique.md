@@ -19,6 +19,10 @@ redirect_from:
 # La premiere phrase de la page dit que le cas est construit. Cette cle lui
 # donne la forme d'un avertissement, sans la deplacer ni la reecrire.
 avertissement: true
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/improving-without-starting-over/
 ---
 
 Ce cas est **entièrement construit**. Tous les faits et nombres ci-dessous sont fictifs. Le parcours illustre un jugement et ses limites, pas une preuve d'efficacité de la méthode.

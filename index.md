@@ -21,6 +21,10 @@ seo:
 # bandeau de titre. Il sert a l'onglet, aux moteurs et au partage.
 title: Es-tu un builder ?
 description: Dix étapes pour explorer ta manière de construire et trouver une piste à essayer, sans classement.
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/
 ---
 
 <section class="builder-test" data-builder-test>

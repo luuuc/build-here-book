@@ -11,6 +11,9 @@ categories:
   - engineering
   - simplicite
   - technique
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/02-02-read-the-source.html
 seo:
   description: "Quand une dépendance te surprend, sa source peut éclairer le comportement. Vérifie la version, le contexte et un cas précis."
   keywords: "build here, engineering, builder, code, source"

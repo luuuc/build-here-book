@@ -1,7 +1,8 @@
 (function () {
   "use strict";
   const root = document.querySelector("[data-builder-test]");
-  const model = window.BuilderTest;
+  // Les regles viennent du modele, les phrases du contenu de la langue chargee.
+  const model = window.BuilderTestModele.creer(window.BuilderTestContenu);
   if (!root || !model) return;
   const el = (name) => root.querySelector(`[data-test-${name}]`);
   const landing = document.querySelector("[data-test-landing]");

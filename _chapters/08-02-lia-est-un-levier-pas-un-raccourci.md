@@ -12,6 +12,9 @@ categories:
   - levier
   - ia
   - impact
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/08-02-ai-is-leverage-not-a-shortcut.html
 seo:
   description: "Évalue un essai d'IA sur sa qualité, ses limites et son coût complet, avec une aide adaptée et la possibilité de choisir une autre méthode."
   keywords: "build here, levier, ia, automatisation, builder"

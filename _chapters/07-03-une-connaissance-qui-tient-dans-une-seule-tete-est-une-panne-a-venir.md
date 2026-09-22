@@ -11,6 +11,9 @@ categories:
   - systemes
   - transmission
   - equipe
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/07-03-set-up-a-relay-for-essential-knowledge.html
 seo:
   description: "Prépare la continuité par une transmission adaptée, avec du temps, de la pratique et une trace entretenue lorsque cela aide."
   keywords: "build here, builder, systemes, transmission, relais, continuite"

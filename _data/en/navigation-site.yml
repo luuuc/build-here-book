@@ -1,6 +1,18 @@
-# The site menu, English. Only pages that exist in English are listed: a menu
-# entry pointing at an untranslated page is worse than a shorter menu.
+# Le menu du site, en anglais. Les memes entrees que le francais, aux adresses
+# anglaises ; la derniere renvoie a l'autre version.
 - title: Read the book
   url: /en/book/
-- title: The French edition
-  url: /
+- title: Choose your path
+  url: /en/paths/
+- title: Find a card
+  url: /en/situations/
+- title: Take the test
+  url: /en/
+- title: Put it into practice
+  children:
+    - title: Run a workshop
+      url: /en/workshop/
+    - title: Examples and templates
+      url: /en/templates/
+- title: About
+  url: /en/about/

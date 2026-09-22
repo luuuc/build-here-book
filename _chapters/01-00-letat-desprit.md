@@ -13,6 +13,9 @@ categories:
   - etat-desprit
   - agency
   - builders
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/01-00-the-mindset.html
 seo:
   description: "Je cherche ce que je peux améliorer"
   keywords: "build here, etat d'esprit, builder, agency"

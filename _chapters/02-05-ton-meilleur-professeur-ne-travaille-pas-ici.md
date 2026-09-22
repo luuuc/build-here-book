@@ -11,6 +11,9 @@ categories:
   - apprentissage
   - open-source
   - niveau
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/02-05-look-for-references-elsewhere-too.html
 seo:
   description: "Un exemple extérieur peut élargir tes choix. Compare le problème, les contraintes et les effets avant de reprendre une solution."
   keywords: "build here, apprentissage, builder, meilleur, professeur, travaille"

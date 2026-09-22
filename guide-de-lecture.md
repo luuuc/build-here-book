@@ -24,6 +24,10 @@ bande_actions:
     primaire: true
   - titre: "Index par situation"
     url: /situations/
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/how-to-read/
 ---
 
 ## Pour qui

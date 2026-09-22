@@ -11,6 +11,9 @@ categories:
   - produit
   - client
   - arbitrage
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/04-04-tie-the-architecture-to-what-it-makes-possible.html
 seo:
   description: "Explique l'utilité du travail technique et les preuves disponibles, avec les détails adaptés à la décision du lecteur."
   keywords: "build here, builder, architecture, utilite, maintenance, effets"

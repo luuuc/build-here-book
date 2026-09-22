@@ -13,6 +13,9 @@ categories:
   - metier
   - apprentissage
   - builders
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/02-00-the-craft.html
 seo:
   description: "Choisir une compétence, observer une pratique, essayer et demander un retour pour développer son jugement."
   keywords: "build here, metier, craft, builder, apprentissage"

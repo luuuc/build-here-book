@@ -174,3 +174,26 @@ tirage:
     - pratiques
     - équipes
     - ownership
+
+# Les quatre parcours, repris dans le corps de plusieurs pages.
+parcours:
+  url: "/parcours/"
+  items:
+    - ancre: parcours-commencer
+      titre: "Je veux commencer"
+    - ancre: parcours-progresser
+      titre: "Je veux progresser"
+    - ancre: parcours-equipe
+      titre: "Je veux faire grandir mon équipe"
+    - ancre: parcours-soutenir
+      titre: "Je veux soutenir des builders"
+
+# Les fichiers lus par les machines : book.json et llms.txt.
+machine:
+  mots: ["builders", "apprentissage", "pratiques", "équipes", "ownership", "curiosité", "leadership", "exécution"]
+  sujets:
+    - "Apprentissage par la pratique"
+    - "Amélioration des services et des réalisations"
+    - "Conditions du travail collectif"
+  public: "Personnes qui veulent commencer à construire, builders expérimentés, personnes développant des équipes et personnes soutenant des builders"
+  attribution: "Build Here, par [auteur] ([url])"

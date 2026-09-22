@@ -11,6 +11,9 @@ categories:
   - curiosite
   - apprentissage
   - engineering
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/02-08-read-outside-your-lane.html
 seo:
   description: "Comprendre ce qui précède et suit ton travail aide à améliorer les passations, avec les accès et les accords adaptés."
   keywords: "build here, curiosite, builder, dehors, couloir"

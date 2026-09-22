@@ -13,6 +13,9 @@ categories:
   - livraison
   - execution
   - builders
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/05-00-delivery.html
 seo:
   description: "Prépare un essai utile, observe ce qu'il produit et adapte la suite, avec un périmètre et des protections appropriés."
   keywords: "build here, livraison, shipping, execution, builder"

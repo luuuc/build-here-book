@@ -45,7 +45,9 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Vérifier l'Ultimate Builder Test
-        run: bin/verifier-test-builder
+        run: |
+          bin/verifier-test-builder _site fr
+          bin/verifier-test-builder _site en
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:

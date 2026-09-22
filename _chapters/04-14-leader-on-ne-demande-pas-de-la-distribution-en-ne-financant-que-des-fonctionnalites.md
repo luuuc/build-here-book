@@ -12,6 +12,9 @@ categories:
   - visibilite
   - distribution
   - marketing
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/04-14-you-cannot-ask-for-distribution-while-funding-only-features.html
 seo:
   description: "Donne des moyens à un essai de distribution adapté, puis examine usages, retours et coûts pour décider de la suite."
   keywords: "build here, visibilite, builder, conditions, demande, distribution, financant, fonctionnalites"

@@ -12,6 +12,9 @@ categories:
   - hierarchie
   - decision
   - culture
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/03-05-deciding-and-being-right-are-two-different-jobs.html
 seo:
   description: "Sépare l'examen des faits de l'arbitrage, précise qui décide et quand le choix mérite d'être revu."
   keywords: "build here, hierarchie, builder, trancher, avoir, raison, sont, deux"

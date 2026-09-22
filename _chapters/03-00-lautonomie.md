@@ -13,6 +13,9 @@ categories:
   - autonomie
   - ownership
   - builders
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/03-00-autonomy.html
 seo:
   description: "Développe une autonomie adaptée au périmètre, avec un objectif clair, la possibilité de demander de l'aide et des décisions explicites."
   keywords: "build here, autonomie, builder, probleme, procedure"

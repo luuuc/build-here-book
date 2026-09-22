@@ -11,6 +11,9 @@ categories:
   - client
   - support
   - produit
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/04-03-learn-from-support-requests.html
 seo:
   description: "Examine les demandes de support avec leur contexte, sans confondre fréquence, cause et représentativité."
   keywords: "build here, builder, support, usages, observation, hypotheses"

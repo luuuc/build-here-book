@@ -12,6 +12,9 @@ categories:
   - produit
   - client
   - arbitrage
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/03-07-a-roadmap-nobody-may-refuse-is-a-queue.html
 seo:
   description: "Donne un mandat d'arbitrage explicite et rends visibles les moyens ou le travail déplacé par une nouvelle priorité."
   keywords: "build here, produit, builder, conditions, feuille, route, personne, droit"

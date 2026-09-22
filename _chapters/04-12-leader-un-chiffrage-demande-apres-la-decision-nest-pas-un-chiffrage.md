@@ -12,6 +12,9 @@ categories:
   - technologie
   - business
   - strategie
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/04-12-bring-the-cost-in-before-the-commitment.html
 seo:
   description: "Fais examiner options, coûts et inconnues avant une promesse, et prévois comment ajuster un engagement déjà pris."
   keywords: "build here, builder, engagement, cout, estimation, options"

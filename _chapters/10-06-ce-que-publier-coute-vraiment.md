@@ -12,6 +12,9 @@ categories:
   - reference
   - trace
   - contexte
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/10-06-what-publishing-really-costs.html
 seo:
   description: "Examine le coût complet et les conditions d'un partage concret ; anonymiser ne suffit pas à autoriser et une option interne reste valable."
   keywords: "build here, reference, trace, publier, cout, builder"

@@ -12,6 +12,9 @@ categories:
   - visibilite
   - distribution
   - marketing
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/04-08-distribution-is-part-of-the-product.html
 seo:
   description: "Prépare et vérifie un chemin vers l'usage, adapté aux destinataires, aux conditions d'accès et aux moyens du projet."
   keywords: "build here, visibilite, builder, distribution, fait, partie, produit"

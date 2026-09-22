@@ -11,6 +11,9 @@ categories:
   - ownership
   - resultat
   - honnetete
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/06-04-take-the-lesson-from-a-disappointing-result.html
 seo:
   description: "Examine les résultats, les hypothèses et les contraintes sans confondre apprentissage, culpabilité et contrôle de toutes les conséquences."
   keywords: "build here, builder, ownership, resultat, apprentissage, contraintes"

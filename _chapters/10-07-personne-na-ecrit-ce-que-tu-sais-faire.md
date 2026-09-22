@@ -11,6 +11,9 @@ categories:
   - reference
   - trace
   - contexte
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/10-07-share-what-your-context-taught-you.html
 seo:
   description: "Rends une expérience située utile en la reliant aux ressources existantes, sans présumer son unicité ni imposer une publication."
   keywords: "build here, builder, reference, contexte, experience, partage"

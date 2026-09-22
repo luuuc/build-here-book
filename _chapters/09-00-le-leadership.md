@@ -13,6 +13,9 @@ categories:
   - leadership
   - equipe
   - builders
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/09-00-leadership.html
 seo:
   description: "Développe les capacités autour de toi par des appuis adaptés, entre pairs ou dans un rôle de responsabilité, sans imposer une voie unique."
   keywords: "build here, leadership, equipe, builder, transmission"

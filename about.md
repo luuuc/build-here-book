@@ -22,6 +22,10 @@ bande_actions:
 bande_meta:
   - titre: "Licence"
     valeur: "CC BY-SA 4.0"
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/about/
 ---
 
 Build Here aide à comprendre un problème, essayer une amélioration et apprendre de ce qu'elle change. Il s'adresse à ceux qui veulent commencer, aux builders qui souhaitent progresser, aux personnes qui développent une équipe et à celles qui veulent leur apporter un soutien concret.

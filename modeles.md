@@ -19,6 +19,10 @@ redirect_from:
 bande_actions:
   - titre: "Un premier essai utile"
     url: /premier-essai/
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/templates/
 ---
 
 Choisis le modèle qui aide ta prochaine décision. Tu n'as pas à tous les remplir. Supprime un champ sans utilité pour ton cas ; conserve les limites, les accords et la suite qui comptent. Utilise un espace adapté aux informations que tu peux partager.

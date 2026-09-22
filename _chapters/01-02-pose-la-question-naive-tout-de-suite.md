@@ -11,6 +11,9 @@ categories:
   - curiosite
   - apprentissage
   - engineering
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/01-02-ask-the-naive-question-straight-away.html
 seo:
   description: "Clarifier un mot avec un exemple aide à décider sur une compréhension partagée, quel que soit ton niveau d'expérience."
   keywords: "build here, curiosite, builder, pose, question, naive, tout, suite"

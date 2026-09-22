@@ -1,6 +1,11 @@
+{%- comment -%}
+  Les quatre parcours, appeles depuis le corps d'une page. Comme
+  sommaire-livre.html, il redemande la langue : le corps est rendu avant son
+  gabarit. Les libelles et les ancres vivent dans _data/<lang>/interface.yml.
+{%- endcomment -%}
+{% include langue.html %}
 <ul>
-  <li><a href="/parcours/#parcours-commencer">Je veux commencer</a></li>
-  <li><a href="/parcours/#parcours-progresser">Je veux progresser</a></li>
-  <li><a href="/parcours/#parcours-equipe">Je veux faire grandir mon équipe</a></li>
-  <li><a href="/parcours/#parcours-soutenir">Je veux soutenir des builders</a></li>
+  {%- for p in t.parcours.items %}
+  <li><a href="{{ t.parcours.url }}#{{ p.ancre }}">{{ p.titre }}</a></li>
+  {%- endfor %}
 </ul>

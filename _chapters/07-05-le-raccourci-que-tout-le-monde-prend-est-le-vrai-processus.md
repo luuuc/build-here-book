@@ -11,6 +11,9 @@ categories:
   - systemes
   - process
   - equipe
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/07-05-a-workaround-points-at-a-gap-worth-understanding.html
 seo:
   description: "Observe les écarts entre procédure et pratique sans présumer que le raccourci est juste ; vérifie les fonctions et protections à préserver."
   keywords: "build here, builder, systemes, ecart, processus, observation"

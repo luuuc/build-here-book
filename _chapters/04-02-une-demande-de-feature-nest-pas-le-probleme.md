@@ -11,6 +11,9 @@ categories:
   - client
   - support
   - produit
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/04-02-a-feature-request-is-not-the-problem.html
 seo:
   description: "Examine le besoin derrière une solution demandée, sans disqualifier l'expertise du client ni promettre avant l'arbitrage."
   keywords: "build here, client, builder, demande, feature, probleme"

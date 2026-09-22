@@ -11,6 +11,9 @@ categories:
   - trace
   - visibilite
   - reference
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/10-01-make-contributions-identifiable.html
 seo:
   description: "Reconnais les contributions et leur contexte selon un accord adapté, sans faire de la signature publique une condition de valeur."
   keywords: "build here, builder, reference, contributions, credit, partage"

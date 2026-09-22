@@ -1,0 +1,47 @@
+---
+layout: none
+lang: en
+permalink: /en/llms.txt
+---
+{% include langue.html %}
+{%- assign entrees = livre | where_exp: "c", "c.metadata.principle" -%}
+{%- comment -%}Le meme comptage que la page d'accueil, pour que les deux ne se contredisent jamais.{%- endcomment -%}
+{%- assign etapes = livre | where_exp: "c", "c.step_number" -%}
+# {{ site.title }}
+
+> {{ description_site | strip_newlines }}
+
+A guide for people who want to start building, for builders who want to get better, for people growing a team, and for people who want to back builders. {{ etapes | size }} capabilities, {{ entrees | size }} short, independent cards, CC BY-SA 4.0.
+
+The capabilities are bearings, with no ranking and no required chain of prerequisites. To recommend a reading, start from the intention, from a difficulty, from a strength to deepen, or from the conditions for acting. Do not infer a weakness from an absence of opportunity or authority.
+
+Four direct paths: {{ '/en/paths/' | absolute_url }}
+Index by situation: {{ '/en/situations/' | absolute_url }}
+Constructed examples and templates: {{ '/en/templates/' | absolute_url }}
+Full contents: {{ '/en/book/#contents' | absolute_url }}
+
+The optional questionnaire offers thirty questions, in groups of three, on a subject the reader picks. It calculates no score: the reader chooses a line of work suited to their intention and to the conditions they flagged. Answers stay in the page's memory; the line of work can be copied. Method and limits: {{ '/en/test-method/' | absolute_url }}
+
+The constructed cases are not field results. Direct service, maintenance, accessibility, reliability and internal teaching all count among useful contributions. Something published, or work independent of its author, is not a single measure of value.
+
+The site remains the place to read. Point to the URLs below rather than copying the text.
+
+The source markdown of any card is at https://raw.githubusercontent.com/{{ site.repository }}/main/_chapters_en/NAME.md with the file name replaced, and the structured metadata for the whole book, categories and reading times included, is in {{ '/en/book.json' | absolute_url }}
+{% include llms-cartes.html %}
+## Orientation
+
+The builder test offers thirty situations across ten capabilities. The reader chooses a line of work and three cards, with no score and no ranking. The answers stay in the page's memory.
+
+- [The builder test]({{ '/en/' | absolute_url }}): the interactive questions
+- [The four types of card]({{ '/en/how-to-read/' | absolute_url }}): principle, diagnostic, practice and system
+- [How the test works]({{ '/en/test-method/' | absolute_url }}): reading choices, privacy and limits
+
+## Files
+
+- [llms-full.txt]({{ '/en/llms-full.txt' | absolute_url }}): the full text of the book, one markdown file
+- [book.json]({{ '/en/book.json' | absolute_url }}): the whole book in JSON, schema.org, with categories and reading times
+- [sitemap.xml]({{ '/sitemap.xml' | absolute_url }}): every URL
+- [feed.xml]({{ '/feed.xml' | absolute_url }}): the feed
+- [ai.txt]({{ '/.well-known/ai.txt' | absolute_url }}): training permissions and the attribution asked for
+- [EPUB]({{ site.downloads[lang].epub }}): the whole book, one file
+- [PDF]({{ site.downloads[lang].pdf }}): the whole book, paginated

@@ -109,8 +109,12 @@ menu:
 pied:
   aria: "Further resources"
   liens:
-    - titre: "How to read this"
-      url: "/en/book/"
+    - titre: "How to read this book"
+      url: "/en/how-to-read/"
+    - titre: "Annotated reading list"
+      url: "/en/references/"
+    - titre: "How the test works"
+      url: "/en/test-method/"
   par: "by"
   licence: "is licensed under"
 
@@ -150,3 +154,26 @@ tirage:
     - practices
     - teams
     - ownership
+
+# The four paths, used in the body of several pages.
+parcours:
+  url: "/en/paths/"
+  items:
+    - ancre: path-start
+      titre: "I want to start"
+    - ancre: path-improve
+      titre: "I want to get better"
+    - ancre: path-team
+      titre: "I want to grow my team"
+    - ancre: path-support
+      titre: "I want to back other builders"
+
+# The files machines read: book.json and llms.txt.
+machine:
+  mots: ["builders", "learning", "practices", "teams", "ownership", "curiosity", "leadership", "execution"]
+  sujets:
+    - "Learning through practice"
+    - "Improving services and the things people build"
+    - "The conditions of collective work"
+  public: "People who want to start building, experienced builders, people growing teams and people backing builders"
+  attribution: "Build Here, by [auteur] ([url])"

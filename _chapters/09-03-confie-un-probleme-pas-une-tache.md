@@ -12,6 +12,9 @@ categories:
   - leadership
   - equipe
   - transmission
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/09-03-hand-over-a-problem-with-the-backing-it-needs.html
 seo:
   description: "Adapte le cadrage, l'autonomie et l'accompagnement à la personne et à l'enjeu, sans confondre apprentissage et absence d'aide."
   keywords: "build here, builder, leadership, accompagnement, probleme, mandat"

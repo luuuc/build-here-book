@@ -11,6 +11,9 @@ categories:
   - reference
   - carriere
   - trace
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/10-08-leaving-is-not-a-betrayal.html
 seo:
   description: "Prépare un relais réaliste lors d'un départ sans conditionner le choix de carrière à une publication ni demander une disponibilité indéfinie."
   keywords: "build here, reference, carriere, trace, depart, builder"

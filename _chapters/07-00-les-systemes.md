@@ -13,6 +13,9 @@ categories:
   - systemes
   - process
   - builders
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/07-00-systems.html
 seo:
   description: "Examine les répétitions, préserve les protections et prépare des relais adaptés, avec un effort de transmission et d'entretien proportionné."
   keywords: "build here, systemes, process, automatisation, builder"

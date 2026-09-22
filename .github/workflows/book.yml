@@ -36,11 +36,11 @@ env:
   # Tout ce dont les deux fichiers sont faits. Une modification ailleurs, un
   # README ou une feuille de style du site, ne publie rien.
   BOOK_PATHS: >-
-    _chapters _data _pdf
-    _includes/book-body.html _includes/epub-body.html
+    _chapters _chapters_en _data _pdf
+    _includes/book-body.html _includes/epub-body.html _includes/langue.html
     assets/stylesheets/print.css assets/stylesheets/epub.css
     assets/fonts assets/images/couverture.png assets/images/sections
-    _config.yml _config-pdf.yml bin/build-book
+    _config.yml _config-pdf.yml _config-pdf-en.yml bin/build-book
 
 jobs:
   # Le livre a-t-il change depuis la derniere version publiee, et sous quel
@@ -126,12 +126,15 @@ jobs:
           BOOK_VERSION: ${{ needs.check.outputs.version }}
         run: |
           printf 'book:\n  version: "%s"\n' "${BOOK_VERSION#v}" > _config-release.yml
-          BOOK_CONFIG_EXTRA=_config-release.yml bin/build-book
+          BOOK_CONFIG_EXTRA=_config-release.yml bin/build-book all fr
+          BOOK_CONFIG_EXTRA=_config-release.yml bin/build-book all en
 
       - name: Verifier le tirage
         run: |
           test -s build/build-here.pdf
           test -s build/build-here.epub
+          test -s build/build-here-en.pdf
+          test -s build/build-here-en.epub
           ls -lh build
 
       - name: Deposer les fichiers
@@ -141,6 +144,8 @@ jobs:
           path: |
             build/build-here.pdf
             build/build-here.epub
+            build/build-here-en.pdf
+            build/build-here-en.epub
           if-no-files-found: error
 
       # Le tag est pose sur le commit qui a produit ces fichiers, et la release
@@ -154,5 +159,6 @@ jobs:
           git push origin "$VERSION"
           gh release create "$VERSION" \
             --title "Build Here ${VERSION#v}" \
-            --notes "PDF et EPUB de la version ${VERSION#v}." \
-            build/build-here.pdf build/build-here.epub
+            --notes "PDF et EPUB de la version ${VERSION#v}, en français et en anglais." \
+            build/build-here.pdf build/build-here.epub \
+            build/build-here-en.pdf build/build-here-en.epub

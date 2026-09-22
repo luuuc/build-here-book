@@ -127,12 +127,9 @@ downloads:
   fr:
     pdf: "https://github.com/luuuc/build-here-book/releases/latest/download/build-here.pdf"
     epub: "https://github.com/luuuc/build-here-book/releases/latest/download/build-here.epub"
-  # Vides tant qu'aucune release ne porte le tirage anglais. L'en-tete cache
-  # son menu de telechargement quand les deux adresses sont vides : un bouton
-  # qui mene a une 404 est pire que pas de bouton.
   en:
-    pdf: ""
-    epub: ""
+    pdf: "https://github.com/luuuc/build-here-book/releases/latest/download/build-here-en.pdf"
+    epub: "https://github.com/luuuc/build-here-book/releases/latest/download/build-here-en.epub"
   # Amazon n'ouvre pas d'API pour deposer un fichier dans une liseuse.
   # C'est son propre outil d'envoi, ou le lecteur depose l'EPUB telecharge.
   kindle: "https://www.amazon.com/sendtokindle"

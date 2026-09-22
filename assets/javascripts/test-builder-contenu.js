@@ -1,0 +1,557 @@
+/* Le contenu francais du parcours de lecture : questions, capacites, options
+   et textes de la piste. Les regles vivent dans test-builder-model.js et ne
+   sont ecrites qu'une fois ; ce fichier a un jumeau anglais,
+   test-builder-contenu-en.js, qui porte les memes cles.
+
+   Rien ici n'est envoye nulle part : le test ne quitte pas la page. */
+(function (scope) {
+  "use strict";
+  const questions = [
+  {
+    "id": "mindset-1",
+    "capabilityId": "mindset",
+    "text": "Repense à une petite difficulté que tu as remarquée. As-tu pu clarifier ce que tu pouvais essayer et ce qui demandait un accord ?"
+  },
+  {
+    "id": "mindset-2",
+    "capabilityId": "mindset",
+    "text": "Repense à une explication ou une consigne que tu ne comprenais pas. Comment as-tu pu obtenir la précision utile, sur le moment ou plus tard ?"
+  },
+  {
+    "id": "mindset-3",
+    "capabilityId": "mindset",
+    "text": "Repense à un fait qui a changé ton avis. Quelle décision ou manière de faire as-tu pu réexaminer ?"
+  },
+  {
+    "id": "craft-1",
+    "capabilityId": "craft",
+    "text": "Repense à quelque chose que tu voulais mieux savoir faire. Quelle pratique précise as-tu choisie de travailler ?"
+  },
+  {
+    "id": "craft-2",
+    "capabilityId": "craft",
+    "text": "Repense à une méthode que tu as apprise. As-tu pu examiner une source, un exemple ou l'explication d'une personne qui la connaît ?"
+  },
+  {
+    "id": "craft-3",
+    "capabilityId": "craft",
+    "text": "Repense à un travail dont tu voulais améliorer la qualité. Quel retour t'a aidé à voir ce qui tenait et ce qui restait à travailler ?"
+  },
+  {
+    "id": "autonomy-1",
+    "capabilityId": "autonomy",
+    "text": "Repense à une demande, même dans un projet personnel. As-tu pu préciser le problème auquel elle devait répondre ?"
+  },
+  {
+    "id": "autonomy-2",
+    "capabilityId": "autonomy",
+    "text": "Repense à un moment où tu attendais une information, une aide ou une décision. Comment as-tu rendu visible ce qui manquait pour continuer ?"
+  },
+  {
+    "id": "autonomy-3",
+    "capabilityId": "autonomy",
+    "text": "Repense à une découverte qui changeait le travail prévu. As-tu pu en discuter ou revoir ton engagement avant de poursuivre ?"
+  },
+  {
+    "id": "understanding-1",
+    "capabilityId": "understanding",
+    "text": "Repense à une personne que tu voulais aider. Qu'as-tu pu apprendre de sa situation réelle, directement ou par un retour accessible ?"
+  },
+  {
+    "id": "understanding-2",
+    "capabilityId": "understanding",
+    "text": "Repense à une amélioration qui pouvait déplacer du travail vers quelqu'un d'autre. Comment as-tu examiné cet effet avec les personnes concernées ?"
+  },
+  {
+    "id": "understanding-3",
+    "capabilityId": "understanding",
+    "text": "Repense à quelque chose d'utile que tu préparais. As-tu pu vérifier comment les personnes concernées y accéderaient et s'en serviraient ?"
+  },
+  {
+    "id": "delivery-1",
+    "capabilityId": "delivery",
+    "text": "Repense à une idée encore incertaine. As-tu pu choisir un essai assez petit pour apprendre quelque chose sans exposer inutilement les autres ?"
+  },
+  {
+    "id": "delivery-2",
+    "capabilityId": "delivery",
+    "text": "Repense à un travail que tu voulais mettre à disposition. Comment as-tu distingué ce qui pouvait attendre des protections à garder ?"
+  },
+  {
+    "id": "delivery-3",
+    "capabilityId": "delivery",
+    "text": "Repense à un retour reçu pendant la préparation. Qu'as-tu pu en faire : continuer, modifier, réduire ou arrêter le travail ?"
+  },
+  {
+    "id": "ownership-1",
+    "capabilityId": "ownership",
+    "text": "Repense à une aide ou un travail terminé de ton côté. As-tu pu revenir voir ce qu'il avait permis, ou convenir de qui le ferait ?"
+  },
+  {
+    "id": "ownership-2",
+    "capabilityId": "ownership",
+    "text": "Repense à un résultat différent de ce que tu espérais. Qu'as-tu pu apprendre des faits, y compris ce qui restait inconnu ?"
+  },
+  {
+    "id": "ownership-3",
+    "capabilityId": "ownership",
+    "text": "Repense à un passage de relais, même modeste. Comment les personnes concernées ont-elles confirmé qui reprenait quoi et avec quels moyens ?"
+  },
+  {
+    "id": "systems-1",
+    "capabilityId": "systems",
+    "text": "Repense à une difficulté revenue plusieurs fois. As-tu pu comparer les cas avant de décider s'il fallait changer quelque chose ?"
+  },
+  {
+    "id": "systems-2",
+    "capabilityId": "systems",
+    "text": "Repense à une façon de faire qui semblait compliquée. As-tu pu comprendre le rôle d'une étape avant de proposer de la modifier ?"
+  },
+  {
+    "id": "systems-3",
+    "capabilityId": "systems",
+    "text": "Repense à une activité qui dépendait d'un savoir peu partagé. As-tu pu préparer ou essayer un relais avec une personne d'accord pour le prendre ?"
+  },
+  {
+    "id": "leverage-1",
+    "capabilityId": "leverage",
+    "text": "Repense à plusieurs demandes qui se ressemblaient. As-tu pu vérifier si elles avaient une cause commune ou seulement la même apparence ?"
+  },
+  {
+    "id": "leverage-2",
+    "capabilityId": "leverage",
+    "text": "Repense à un outil, un modèle ou une ressource que tu pouvais réutiliser. Comment as-tu vérifié son utilité dans ton cas, avec ses coûts et ses limites ?"
+  },
+  {
+    "id": "leverage-3",
+    "capabilityId": "leverage",
+    "text": "Repense à une tâche que tu voulais accélérer ou répéter plus largement. As-tu pu examiner les erreurs possibles et les vérifications à garder ?"
+  },
+  {
+    "id": "leadership-1",
+    "capabilityId": "leadership",
+    "text": "Repense à quelqu'un que tu voulais aider à agir. As-tu pu lui demander quel appui ou quelle condition lui manquait ?"
+  },
+  {
+    "id": "leadership-2",
+    "capabilityId": "leadership",
+    "text": "Repense à une relecture ou une aide donnée à quelqu'un. As-tu pu expliquer ton raisonnement tout en lui laissant une place pour décider ?"
+  },
+  {
+    "id": "leadership-3",
+    "capabilityId": "leadership",
+    "text": "Repense à un apprentissage ou une responsabilité partagée. Comment avez-vous convenu du temps, des limites et de l'aide disponible ?"
+  },
+  {
+    "id": "reference-1",
+    "capabilityId": "reference",
+    "text": "Repense à une réponse qui pourrait resservir. As-tu pu choisir avec ses destinataires une forme et un endroit où la retrouver ?"
+  },
+  {
+    "id": "reference-2",
+    "capabilityId": "reference",
+    "text": "Repense à une expérience que tu voulais transmettre. Comment as-tu rendu compréhensibles le contexte, le raisonnement et les limites ?"
+  },
+  {
+    "id": "reference-3",
+    "capabilityId": "reference",
+    "text": "Repense à une ressource ou une explication partagée, même en privé. Quel retour t'a permis de voir comment une autre personne pouvait s'en servir ?"
+  }
+];
+  const capabilities = [
+  {
+    "id": "mindset",
+    "name": "L'état d'esprit",
+    "seed": "Préciser une question utile et qui peut répondre ou autoriser la suite.",
+    "cards": [
+      {
+        "title": "Pose la question naïve tout de suite",
+        "url": "/chapters/01-02-pose-la-question-naive-tout-de-suite.html",
+        "type": "pratique"
+      },
+      {
+        "title": "Prends l'initiative, clarifie les limites",
+        "url": "/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html",
+        "type": "principe"
+      },
+      {
+        "title": "⇄ Donne une suite aux questions",
+        "url": "/chapters/01-09-leader-personne-ne-demande-deux-fois.html",
+        "type": "systeme"
+      }
+    ]
+  },
+  {
+    "id": "craft",
+    "name": "Le métier",
+    "seed": "Choisir un détail du métier à travailler et une source ou une relecture accessible.",
+    "cards": [
+      {
+        "title": "Choisis ce que tu veux mieux maîtriser",
+        "url": "/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html",
+        "type": "diagnostic"
+      },
+      {
+        "title": "Ton métier a une littérature",
+        "url": "/chapters/02-04-ton-metier-a-une-litterature.html",
+        "type": "principe"
+      },
+      {
+        "title": "⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser",
+        "url": "/chapters/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html",
+        "type": "systeme"
+      }
+    ]
+  },
+  {
+    "id": "autonomy",
+    "name": "L'autonomie",
+    "seed": "Écrire le problème visé et la décision ou l'information qui manque.",
+    "cards": [
+      {
+        "title": "N'apporte pas la tâche. Apporte le problème",
+        "url": "/chapters/03-01-napporte-pas-la-tache-apporte-le-probleme.html",
+        "type": "pratique"
+      },
+      {
+        "title": "Quand tu bloques, rends la suite explicite",
+        "url": "/chapters/03-04-etre-bloque-est-une-decision.html",
+        "type": "diagnostic"
+      },
+      {
+        "title": "⇄ Donne une suite réelle aux objections",
+        "url": "/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html",
+        "type": "systeme"
+      }
+    ]
+  },
+  {
+    "id": "understanding",
+    "name": "La compréhension",
+    "seed": "Reconstituer une situation d'usage avec un retour accessible, puis noter une inconnue.",
+    "cards": [
+      {
+        "title": "Parle à la personne qui a le problème",
+        "url": "/chapters/04-01-parle-a-la-personne-qui-a-le-probleme.html",
+        "type": "pratique"
+      },
+      {
+        "title": "Une demande de fonctionnalité n'est pas le problème",
+        "url": "/chapters/04-02-une-demande-de-feature-nest-pas-le-probleme.html",
+        "type": "diagnostic"
+      },
+      {
+        "title": "⇄ Organise un accès utile aux retours du terrain",
+        "url": "/chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html",
+        "type": "systeme"
+      }
+    ]
+  },
+  {
+    "id": "delivery",
+    "name": "La livraison",
+    "seed": "Définir un essai limité, ce qu'il pourrait apprendre et les protections à garder.",
+    "cards": [
+      {
+        "title": "Livrer permet d'apprendre",
+        "url": "/chapters/05-01-shipper-cree-de-linformation.html",
+        "type": "principe"
+      },
+      {
+        "title": "Rapide ne veut pas dire précipité",
+        "url": "/chapters/05-02-rapide-ne-veut-pas-dire-precipite.html",
+        "type": "pratique"
+      },
+      {
+        "title": "⇄ Organise un rythme de livraison utile",
+        "url": "/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html",
+        "type": "systeme"
+      }
+    ]
+  },
+  {
+    "id": "ownership",
+    "name": "L'ownership",
+    "seed": "Convenir d'un retour sur un résultat, de la personne qui le fait et de la fin de son engagement.",
+    "cards": [
+      {
+        "title": "Fini de ton côté ne veut pas dire réglé",
+        "url": "/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html",
+        "type": "diagnostic"
+      },
+      {
+        "title": "Prévois quand vérifier le résultat",
+        "url": "/chapters/06-02-reviens-voir-un-mois-plus-tard.html",
+        "type": "pratique"
+      },
+      {
+        "title": "⇄ Relie la revue d'activité aux résultats",
+        "url": "/chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html",
+        "type": "systeme"
+      }
+    ]
+  },
+  {
+    "id": "systems",
+    "name": "Les systèmes",
+    "seed": "Comparer deux occurrences et le rôle d'une étape, sans présumer qu'il faut ajouter un contrôle.",
+    "cards": [
+      {
+        "title": "La deuxième fois est une information",
+        "url": "/chapters/07-01-la-deuxieme-fois-est-une-information.html",
+        "type": "diagnostic"
+      },
+      {
+        "title": "Comprends l'étape avant de la simplifier",
+        "url": "/chapters/07-02-supprime-letape-avant-de-la-documenter.html",
+        "type": "pratique"
+      },
+      {
+        "title": "Confie un problème avec les appuis nécessaires",
+        "url": "/chapters/09-03-confie-un-probleme-pas-une-tache.html",
+        "type": "pratique"
+      }
+    ]
+  },
+  {
+    "id": "leverage",
+    "name": "Le levier",
+    "seed": "Comparer une réutilisation possible avec la pratique actuelle, coûts et vérifications compris.",
+    "cards": [
+      {
+        "title": "Regroupe les cas, puis vérifie les causes",
+        "url": "/chapters/08-01-range-les-par-cause-pas-par-sujet.html",
+        "type": "diagnostic"
+      },
+      {
+        "title": "Examine ce que tu as avant d'ajouter un outil",
+        "url": "/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html",
+        "type": "principe"
+      },
+      {
+        "title": "⇄ Reconnais aussi le travail évité et le service préservé",
+        "url": "/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html",
+        "type": "systeme"
+      }
+    ]
+  },
+  {
+    "id": "leadership",
+    "name": "Le leadership",
+    "seed": "Demander à une personne l'appui qu'elle souhaite et convenir d'une contribution limitée.",
+    "cards": [
+      {
+        "title": "Explique ce que ta relecture a vérifié",
+        "url": "/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html",
+        "type": "principe"
+      },
+      {
+        "title": "Confie un problème avec les appuis nécessaires",
+        "url": "/chapters/09-03-confie-un-probleme-pas-une-tache.html",
+        "type": "pratique"
+      },
+      {
+        "title": "⇄ Donne des moyens à la transmission",
+        "url": "/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html",
+        "type": "systeme"
+      }
+    ]
+  },
+  {
+    "id": "reference",
+    "name": "La référence",
+    "seed": "Adapter une réponse pour un destinataire volontaire, dans un espace de partage autorisé.",
+    "cards": [
+      {
+        "title": "Donne au lecteur de quoi examiner ton raisonnement",
+        "url": "/chapters/10-02-un-avis-nest-pas-un-artefact.html",
+        "type": "diagnostic"
+      },
+      {
+        "title": "Rends une réponse utile retrouvable",
+        "url": "/chapters/10-04-reponds-a-la-question-en-public.html",
+        "type": "pratique"
+      },
+      {
+        "title": "⇄ Clarifie les conditions du partage",
+        "url": "/chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html",
+        "type": "systeme"
+      }
+    ]
+  }
+];
+  const answerOptions = [
+  {
+    "id": "revisit",
+    "label": "J'ai un exemple et je voudrais revoir cette pratique."
+  },
+  {
+    "id": "deepen",
+    "label": "J'ai un exemple qui m'aide et je veux approfondir cette pratique."
+  },
+  {
+    "id": "discover",
+    "label": "Je n'ai pas encore rencontré cette situation."
+  },
+  {
+    "id": "blocked",
+    "label": "Des conditions manquent pour que je puisse essayer ou observer."
+  },
+  {
+    "id": "outside",
+    "label": "Ce sujet ne correspond pas à ce que je cherche maintenant."
+  },
+  {
+    "id": "skip",
+    "label": "Je préfère passer, ou je ne sais pas encore."
+  }
+];
+  const beginner = { title: "Un premier essai utile", url: "/premier-essai/" };
+  const templates = { title: "Modèles pour agir et revoir", url: "/modeles/" };
+  const method = { title: "Comment fonctionne le test", url: "/methode-du-test/" };
+  const intentions = [
+    { id: "start", label: "Commencer par un essai utile", anchor: "commencer", resource: beginner,
+      guidance: "Un exemple personnel, associatif ou d'apprentissage suffit. Tu peux commencer par préparer une proposition, sans avoir déjà livré un projet." },
+    { id: "deepen", label: "Approfondir ma pratique", anchor: "progresser",
+      resource: { title: "Améliorer sans tout reprendre", url: "/ameliorer-sa-pratique/" },
+      guidance: "Garde ce qui fonctionne déjà. Choisis une limite, un cas plus exigeant ou un retour qui pourrait enrichir ta pratique." },
+    { id: "team", label: "Développer les pratiques d'un groupe", anchor: "equipe",
+      resource: { title: "Faire tourner ça dans ton équipe", url: "/atelier/" },
+      guidance: "Propose à des participants volontaires d'examiner une situation commune. Confirme le temps, les décisions ouvertes et la personne qui peut autoriser l'essai. Chacun peut passer ; les réponses individuelles restent les siennes." },
+    { id: "support", label: "Soutenir des builders", anchor: "soutenir",
+      resource: { title: "Six semaines pour apprendre ensemble", url: "/apprendre-en-equipe/" },
+      guidance: "Demande quel appui serait utile, propose une contribution précise dans tes moyens, et attends l'accord des personnes concernées. Soutenir ne signifie pas prendre la direction de leur travail." }
+  ];
+  const conditions = [
+    { id: "time", label: "Temps ou priorité", guidance: "Quel temps faudrait-il réserver, et quel travail déplacer ? Qui peut l'accorder ?" },
+    { id: "access", label: "Accès aux personnes ou aux informations", guidance: "Quel retour ou accès limité suffirait ? Qui peut l'autoriser ou proposer une autre source ?" },
+    { id: "authority", label: "Accord ou droit de décision", guidance: "Quelle décision attend un accord, et de qui ? Une proposition n'est pas encore une autorisation." },
+    { id: "help", label: "Appui ou compétence disponible", guidance: "Quel appui précis demander, à une personne disponible et d'accord ?" },
+    { id: "other", label: "Autre condition, ou je préfère ne pas préciser", guidance: "Quelle condition faudrait-il clarifier avant de poursuivre ?" }
+  ];
+  const modeLabels = { revisit: "Revoir une pratique", deepen: "Approfondir un appui", discover: "Préparer un premier essai", blocked: "Clarifier les conditions" };
+  const memoryNotice = "Tes réponses restent dans la mémoire de cette page et ne sont pas envoyées au service d'évaluation. Elles disparaissent quand tu quittes ou recharges la page. Copie ta piste pour la garder.";
+  // Six observations par capacité. Elles parlent d'actes possibles, pas d'une identité.
+  const statements = {
+    mindset: [
+      "Quand je remarque un problème, je cherche un premier geste à ma portée.",
+      "Je pose une question même si elle me paraît évidente.",
+      "Je distingue ce que je peux essayer de ce qui demande un accord.",
+      "Un fait contraire à mon idée me conduit à la revoir.",
+      "Je peux dire ce que je ne sais pas encore.",
+      "Je reviens sur une difficulté au lieu d'attendre qu'elle disparaisse seule."
+    ],
+    craft: [
+      "Je choisis un aspect précis de ma pratique à améliorer.",
+      "Je cherche des exemples ou des sources au-delà de mes habitudes.",
+      "Je demande un retour sur un travail encore perfectible.",
+      "J'essaie d'expliquer pourquoi une méthode marche dans mon contexte.",
+      "Je prends le temps de reprendre un détail qui compte pour la qualité.",
+      "Je peux nommer une chose que j'ai apprise récemment dans ma pratique."
+    ],
+    autonomy: [
+      "Avant d'agir, je cherche le problème derrière la demande.",
+      "Quand une décision me manque, je rends ce blocage visible.",
+      "Je propose une suite possible avec ses limites.",
+      "Je vérifie qui peut décider avant de prendre un engagement pour d'autres.",
+      "Je signale assez tôt ce qui change le travail prévu.",
+      "Je peux avancer sur une petite partie sans prétendre tout résoudre."
+    ],
+    understanding: [
+      "Je cherche à comprendre la situation de la personne que je veux aider.",
+      "Je vérifie mes suppositions auprès d'une source accessible.",
+      "Je regarde qui supportera le travail créé par mon idée.",
+      "Je demande comment une solution sera réellement utilisée.",
+      "Je distingue la demande formulée du besoin qu'elle pourrait exprimer.",
+      "Je change mon idée quand l'usage réel raconte autre chose."
+    ],
+    delivery: [
+      "Je cherche un essai assez petit pour apprendre sans exposer inutilement les autres.",
+      "Je définis ce qu'il faut protéger avant de mettre un travail à disposition.",
+      "Je montre une version utilisable pour obtenir un retour concret.",
+      "Je distingue ce qui peut attendre de ce qui bloque vraiment l'essai.",
+      "Je sais réduire ou arrêter un essai quand les faits le demandent.",
+      "Je reviens sur les retours reçus après une première livraison."
+    ],
+    ownership: [
+      "Après avoir aidé, je cherche à savoir ce que cela a permis.",
+      "Je reconnais les résultats différents de ce que j'espérais.",
+      "Je conviens d'une date ou d'un signal pour revoir un essai.",
+      "Je clarifie avec les autres qui reprend la suite d'un travail.",
+      "Je transmets les moyens nécessaires à la personne qui accepte un relais.",
+      "Je sais conclure ma part sans promettre un suivi sans fin."
+    ],
+    systems: [
+      "Quand une difficulté revient, je compare les cas avant de généraliser.",
+      "Je cherche pourquoi une étape existe avant de la retirer.",
+      "Je repère les savoirs qui reposent sur une seule personne.",
+      "Je vérifie qu'une nouvelle règle résout un problème réel.",
+      "Je regarde les effets d'une amélioration sur les personnes autour.",
+      "Je prépare un relais lorsque quelqu'un accepte de le prendre."
+    ],
+    leverage: [
+      "Je vérifie si des demandes semblables ont vraiment la même cause.",
+      "Je cherche ce qui peut être réutilisé avant d'ajouter un outil.",
+      "Je compare le temps gagné au coût de mise en place et d'entretien.",
+      "Je garde des vérifications quand j'accélère ou automatise une tâche.",
+      "Je partage une solution réutilisable avec les personnes concernées.",
+      "Je peux décider qu'une automatisation n'en vaut pas la peine."
+    ],
+    leadership: [
+      "Je demande quel appui aiderait une autre personne à agir.",
+      "Je laisse de la place à la décision de la personne que j'aide.",
+      "J'explique ce que ma relecture a vérifié et ce qui reste incertain.",
+      "Je rends explicites le temps et les moyens d'un apprentissage partagé.",
+      "Je demande l'accord des personnes avant de leur confier une suite.",
+      "Je peux aider sans prendre la direction du travail d'autrui."
+    ],
+    reference: [
+      "Je garde une réponse utile à un endroit où ses destinataires la retrouveront.",
+      "J'explique le contexte et les limites d'une expérience partagée.",
+      "Je vérifie qu'une autre personne peut utiliser ce que je transmets.",
+      "Je choisis une forme de partage compatible avec les accords en place.",
+      "Je transmets aussi les essais qui n'ont pas donné le résultat attendu.",
+      "Je sais qu'un partage interne peut être suffisant."
+    ]
+  };
+  const scale = ["Pas du tout d'accord", "Plutôt pas d'accord", "Un peu en désaccord", "Un peu d'accord", "Plutôt d'accord", "Tout à fait d'accord"];
+  // Les phrases de la piste. Elles etaient ecrites dans plan() ; elles en sont
+  // sorties le jour ou le test s'est decline en deux langues.
+  const textes = {
+    titre: (nom) => `Une piste que tu as choisie : ${nom}`,
+    raison: (question, choix) => `Tu as retenu « ${question} » et « ${choix} ». Voici une proposition à adapter à ta situation.`,
+    raisonDirecte: (mode) => `Tu as choisi ce sujet directement, sans déduction à partir des réponses : ${mode}.`,
+    appui: (question) => `Appui que tu souhaites approfondir : ${question}`,
+    actions: {
+      revisit: "Reprends ton exemple. Choisis un seul ajustement à proposer ou à essayer dans ton périmètre.",
+      deepen: "Pars de ce qui t'aide déjà. Avec une personne volontaire, examine une limite ou un autre cas où cette pratique pourrait demander une adaptation.",
+      discover: "Lis d'abord un exemple construit. Prépare ensuite cette pratique sur une situation personnelle ou fictive. Si un essai réel est possible, limite-le avec les personnes concernées.",
+      blocked: "Commence par la condition manquante avant d'essayer de changer la pratique. Lis la carte sur les conditions, puis prépare une demande précise si tu peux la porter."
+    },
+    observations: {
+      revisit: "Quel fait permettrait de voir si cet ajustement aide ? Conviens d'un retour et arrête ou réduis l'essai si ses conditions ne tiennent plus.",
+      deepen: "Note ce qui reste utile et ce qui change dans cet autre cas. Une observation contraire est un apprentissage, pas une perte de niveau.",
+      discover: "Distingue ce que l'exercice t'a aidé à formuler de ce qui a été observé en situation réelle. Tu peux terminer après la lecture ou la préparation.",
+      blocked: "Observe si un accord ou un appui concret arrive. Sans lui, garde la proposition en attente, réduis-la avec accord ou suspends-la. Un refus ne mesure pas ta capacité."
+    },
+    champs: {
+      sujet: "Sujet à adapter à ton exemple",
+      geste: "Prochain geste",
+      parcours: "Dans ton parcours",
+      conditions: "Conditions et accord",
+      temps: "Temps et travail déplacé",
+      observation: "Observation et retour",
+      fin: "Fin ou relais"
+    },
+    conditionsBloque: "Quelle condition faudrait-il clarifier avant de poursuivre ? Tu peux la nommer pour toi, sans la saisir ici.",
+    conditionsGenerales: "Clarifie ce qui dépend de toi et ce qui demande un accord avant d'essayer. Une proposition n'est pas encore une autorisation.",
+    tempsTexte: "Choisis une durée réaliste, ce qu'elle déplace et une date de retour adaptée. Si cela ne tient pas dans le temps disponible, réduis ou reporte l'essai.",
+    finTexte: "Clarifie qui décide de poursuivre et qui accepte la suite. Tu n'as pas à assurer un suivi indéfini.",
+    lectures: "Lectures : une seule carte peut suffire",
+    disclaimer: "Cette piste est une suggestion de lecture et de pratique, pas un niveau ni une évaluation de tes capacités."
+  };
+  const contenu = { questions, capabilities, answerOptions, intentions, conditions, modeLabels,
+    memoryNotice, statements, scale, beginner, templates, method, textes };
+  if (typeof module !== "undefined" && module.exports) module.exports = contenu;
+  else scope.BuilderTestContenu = contenu;
+})(globalThis);

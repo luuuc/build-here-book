@@ -20,6 +20,10 @@ bande_meta:
     valeur: 18
   - titre: "Période"
     valeur: "1911 → 2018"
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/references/
 ---
 
 Ces dix-huit références permettent de retrouver des idées mobilisées dans le livre et d'en examiner le contexte. Leur ancienneté ne prouve pas que tout a déjà été résolu. Elles ne démontrent ni un classement des builders ni la validité du questionnaire.

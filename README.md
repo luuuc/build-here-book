@@ -22,23 +22,26 @@ Sortie dans `build/`. Jekyll assemble le livre en une page HTML par format (`_pd
 
 Le PDF est au format A4 : couverture pleine page, sommaire paginé, une page noire par partie, et chaque ouverture de section comme chaque carte sur une page paire. L'EPUB se reflowe, donc il garde la couverture, la navigation et la mise en page d'une carte, mais pas les règles de pagination.
 
-Les deux formats sont générés et publiés automatiquement après chaque déploiement du site, par [`.github/workflows/book.yml`](.github/workflows/book.yml). Ce workflow ne tire que le français : la version anglaise se construit en local tant qu'elle n'est pas complète.
+Les quatre fichiers sont générés et publiés automatiquement après chaque déploiement du site, par [`.github/workflows/book.yml`](.github/workflows/book.yml).
 
 ## Les langues
 
-Le livre s'écrit en français. La version anglaise vit sous `/en/` et se traduit carte par carte.
+Le livre s'écrit en français et paraît en anglais sous `/en/`. Les deux versions sont complètes : mêmes 98 entrées, mêmes pages, même questionnaire, même tirage.
 
-Aucun gabarit ne porte de mot. Les chaînes de l'interface, le sommaire, les libellés de surtitre et le menu du site vivent dans `_data/fr/` et `_data/en/`, un fichier par langue et les mêmes clés des deux côtés. `_includes/langue.html`, inclus en tête de chaque gabarit, pose quatre variables pour le reste de la page : `lang`, `t` pour les chaînes, `sommaire` et `livre` pour les entrées de cette langue.
+Aucun gabarit ne porte de mot. Les chaînes de l'interface, le sommaire, les libellés de surtitre, le menu du site et les indicatifs téléphoniques vivent dans `_data/fr/` et `_data/en/`, un fichier par langue et les mêmes clés des deux côtés. `_includes/langue.html`, inclus en tête de chaque gabarit, pose les variables pour le reste de la page : `lang`, `t` pour les chaînes, `sommaire`, `livre` pour les entrées de cette langue.
 
 | | français | anglais |
 | --- | --- | --- |
 | entrées | `_chapters/` | `_chapters_en/` |
 | pages | racine | `en/` |
 | chaînes | `_data/fr/` | `_data/en/` |
+| questionnaire | `test-builder-contenu.js` | `test-builder-contenu-en.js` |
 | adresses | `/`, `/chapters/…` | `/en/`, `/en/chapters/…` |
 | tirage | `build/build-here.pdf` | `build/build-here-en.pdf` |
 
-Le français garde ses adresses sans préfixe : la traduction ne déplace rien de ce qui est déjà publié.
+Le français garde ses adresses sans préfixe : la traduction n'a déplacé aucun lien déjà publié.
+
+Les règles du questionnaire ne sont écrites qu'une fois, dans `assets/javascripts/test-builder-model.js`. Il ne contient aucune phrase : `creer(contenu)` reçoit le contenu de la langue chargée. `bin/verifier-test-builder _site fr` et `… en` font tourner les mêmes 160 combinaisons sur chacun.
 
 Une page qui a une jumelle dans l'autre langue la déclare dans son front matter. Le sélecteur de langue de l'en-tête et les balises `hreflang` lisent la même clé :
 
@@ -49,11 +52,11 @@ traductions:
 
 Sans cette clé, le sélecteur renvoie à l'accueil de l'autre langue, et aucun `hreflang` n'est écrit : mieux vaut pas d'annonce qu'une annonce fausse.
 
-`_data/en/sommaire.yml` porte déjà la structure entière du livre. Une section dont aucune carte n'est traduite ne rend rien, sur le site comme au tirage : le sommaire anglais grandit tout seul à mesure que `_chapters_en/` se remplit.
+Les fichiers lus par les machines suivent : `/en/llms.txt`, `/en/llms-full.txt`, `/en/book.json` et `/en/indicatifs.json`. Le texte légal de la licence n'existe qu'en anglais chez Creative Commons ; les deux pages partagent donc `_includes/cc-by-sa-4.html`.
 
-Ce qui reste en français, et qui attend sa traduction : le questionnaire de l'accueil (`assets/javascripts/test-builder*.js`, `indicatifs.json`), les pages de ressources de la racine, `llms.txt`, `llms-full.txt` et `book.json`. Les vérificateurs de `bin/` lisent `_chapters/` : les règles de l'annexe 1 sont écrites pour le texte français.
+Les vérificateurs de `bin/` lisent `_chapters/` pour les règles de l'annexe 1 : elles sont écrites pour le texte français.
 
-Ajouter une langue : un dossier dans `_data/`, une collection `chapters_<code>` dans `_config.yml`, une entrée dans `site.langues`, un dossier de pages. `_includes/langue.html` n'a pas à changer.
+Ajouter une langue : un dossier dans `_data/`, une collection `chapters_<code>` dans `_config.yml`, une entrée dans `site.langues`, un dossier de pages, un fichier de contenu pour le questionnaire, une ligne dans `LANGUES` du plugin `llms_full.rb`. `_includes/langue.html` n'a pas à changer.
 
 ## Ce qu'il y a dedans
 

@@ -11,6 +11,9 @@ categories:
   - curiosite
   - apprentissage
   - engineering
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/03-03-get-the-why-clear-before-you-commit.html
 seo:
   description: "Clarifie l'objectif et les inconnues décisives ; un essai limité peut aussi aider à comprendre."
   keywords: "build here, builder, autonomie, objectif, hypothese, perimetre"

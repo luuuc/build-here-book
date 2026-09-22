@@ -12,6 +12,9 @@ categories:
   - leadership
   - equipe
   - ownership
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/09-05-hand-over-a-decision-inside-a-clear-frame.html
 seo:
   description: "Accorde des décisions réelles avec limites, soutien et mandat, en examinant les conséquences au-delà de la seule réversibilité."
   keywords: "build here, builder, leadership, delegation, decision, limites"

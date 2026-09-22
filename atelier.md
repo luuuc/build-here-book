@@ -15,6 +15,10 @@ seo:
   keywords: "build here, ouverture, builder, equipe, seance, atelier"
 redirect_from:
   - /chapters/00-faire-tourner-ca-dans-ton-equipe.html
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/workshop/
 ---
 
 Une carte peut aider à examiner une situation et à préparer un essai ensemble. La discussion ne garantit pas un changement ; lire seul peut aussi être utile. Choisissez le format selon le besoin, les personnes et les moyens disponibles.

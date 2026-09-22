@@ -11,6 +11,9 @@ categories:
   - leadership
   - decision
   - management
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/06-05-a-good-decision-can-still-turn-out-badly.html
 seo:
   description: "Examine raisonnement et résultat séparément, en tenant compte des informations, des moyens et des risques disponibles au moment du choix."
   keywords: "build here, leadership, builder, bonne, decision, peut, quand, meme"

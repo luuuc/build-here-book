@@ -12,6 +12,9 @@ categories:
   - visibilite
   - leadership
   - retention
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/10-10-back-visibility-that-people-choose.html
 seo:
   description: "Propose visibilité et crédit selon les souhaits des contributeurs, sans supposer leurs intentions ni confondre publication, carrière et rétention."
   keywords: "build here, builder, reference, visibilite, choix, contributions"

@@ -17,6 +17,9 @@
 #
 # Le Liquid des chapitres est laisse actif : il ne reference que `site`, donc
 # les listes construites depuis `site.chapters` se developpent comme sur le site.
+#
+# Une langue par collection : `chapters` sort a la racine, `chapters_en` sous
+# /en/. Ajouter une langue, c'est ajouter une ligne dans LANGUES.
 
 module BuildHere
   class LlmsFull < Jekyll::Generator
@@ -24,40 +27,58 @@ module BuildHere
     priority :low
 
     NOM = "llms-full.txt".freeze
+    # code de langue => [collection, dossier de sortie]. Le francais garde la
+    # racine et sa collection sans suffixe, comme ses adresses.
+    LANGUES = { "fr" => ["chapters", ""], "en" => ["chapters_en", "en"] }.freeze
 
     def generate(site)
-      docs = site.collections["chapters"].docs.sort_by { |d| d.data["order"].to_i }
-      return if docs.empty?
+      LANGUES.each do |lang, (collection, dossier)|
+        docs = site.collections[collection]&.docs.to_a.sort_by { |d| d.data["order"].to_i }
+        next if docs.empty?
 
-      page = Jekyll::PageWithoutAFile.new(site, site.source, "", NOM)
-      page.data = { "layout" => nil }
-      page.content = entete(site, docs) + docs.map { |d| carte(site, d) }.join("\n")
-      site.pages << page
+        page = Jekyll::PageWithoutAFile.new(site, site.source, dossier, NOM)
+        page.data = { "layout" => nil }
+        page.content = entete(site, docs, lang) + docs.map { |d| carte(site, d) }.join("\n")
+        site.pages << page
+      end
     end
 
     private
 
-    def entete(site, docs)
+    def entete(site, docs, lang)
       cartes = docs.count { |d| d.data.dig("metadata", "principle") }
       etapes = docs.count { |d| d.data["step_number"] }
       url = site.config["url"]
       titre = site.config["title"]
       auteur = site.config.dig("author", "name")
+      langue = site.config["langues"].to_a.find { |l| l["code"] == lang } || {}
+      description = (langue["description"] || site.config["description"]).to_s.strip.gsub(/\s+/, " ")
+      prefixe = lang == "fr" ? "" : "/#{lang}"
 
-      <<~TXT
-        # #{titre}
+      texte =
+        if lang == "fr"
+          <<~TXT
+            Le texte intégral, #{etapes} étapes et #{cartes} cartes. L'index avec les descriptions et les liens est sur #{url}#{prefixe}/llms.txt
 
-        > #{site.config["description"].to_s.strip.gsub(/\s+/, " ")}
+            Chaque carte porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. Le site reste la destination de lecture, et l'URL de chaque carte est sous son titre.
 
-        Le texte intégral, #{etapes} étapes et #{cartes} cartes. L'index avec les descriptions et les liens est sur #{url}/llms.txt
+            Pour recommander une lecture, pars de ce que la personne est en train de vivre plutôt que de l'ordre du livre. L'index par situation est disponible sur #{url}/situations/.
 
-        Chaque carte porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. Le site reste la destination de lecture, et l'URL de chaque carte est sous son titre.
+            Licence CC BY-SA 4.0. Attribution demandée : Extrait de « #{titre} » de #{auteur} (#{url})
+          TXT
+        else
+          <<~TXT
+            The full text, #{etapes} capabilities and #{cartes} cards. The index, with descriptions and links, is at #{url}#{prefixe}/llms.txt
 
-        Pour recommander une lecture, pars de ce que la personne est en train de vivre plutôt que de l'ordre du livre. L'index par situation est disponible sur https://build-here.africa/situations/.
+            Each card carries one idea, reads in under two minutes, and makes sense without the rest. The site remains the place to read, and each card's URL sits under its title.
 
-        Licence CC BY-SA 4.0. Attribution demandée : Extrait de « #{titre} » de #{auteur} (#{url})
+            To recommend a reading, start from what the person is living through rather than from the order of the book. The index by situation is at #{url}/en/situations/.
 
-      TXT
+            CC BY-SA 4.0. Attribution asked for: From "#{titre}" by #{auteur} (#{url})
+          TXT
+        end
+
+      "# #{titre}\n\n> #{description}\n\n#{texte}\n"
     end
 
     def carte(site, doc)

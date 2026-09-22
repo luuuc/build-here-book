@@ -12,6 +12,9 @@ categories:
   - levier
   - leadership
   - conditions
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/08-05-credit-the-work-avoided-and-the-service-kept-running.html
 seo:
   description: "Reconnais prévention, transmission et service direct à partir d'effets contextualisés, sans quota de suppression ni promesse de gain gratuit."
   keywords: "build here, builder, levier, prevention, service, reconnaissance"

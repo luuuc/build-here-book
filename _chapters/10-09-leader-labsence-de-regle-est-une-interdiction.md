@@ -12,6 +12,9 @@ categories:
   - trace
   - leadership
   - visibilite
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/10-09-make-the-terms-of-sharing-clear.html
 seo:
   description: "Rends le cadre et le parcours de partage compréhensibles, avec des interlocuteurs, des moyens et des options internes ou sans publication."
   keywords: "build here, builder, reference, cadre, partage, moyens"

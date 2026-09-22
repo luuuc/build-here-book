@@ -11,6 +11,9 @@ categories:
   - ownership
   - resultat
   - equipe
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/06-01-done-on-your-side-does-not-mean-solved.html
 seo:
   description: "Organise un relais accepté, avec les informations et moyens nécessaires, sans conserver une responsabilité indéfinie."
   keywords: "build here, ownership, passation, equipe, builder"

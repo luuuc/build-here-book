@@ -11,6 +11,9 @@ categories:
   - execution
   - livraison
   - produit
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/05-02-fast-does-not-mean-rushed.html
 seo:
   description: "Arbitre périmètre, délai et moyens en préservant les protections nécessaires et en prévoyant le coût des solutions temporaires."
   keywords: "build here, execution, builder, rapide, veut, dire, precipite"

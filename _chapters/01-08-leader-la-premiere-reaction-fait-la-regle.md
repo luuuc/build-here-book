@@ -11,6 +11,9 @@ categories:
   - ownership
   - responsabilite
   - execution
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/01-08-the-first-reaction-sets-the-rule.html
 seo:
   description: "Une frontière claire et une réaction qui examine les faits aident les personnes à prendre des initiatives dans un périmètre convenu."
   keywords: "build here, ownership, builder, conditions, premiere, reaction, fait, regle"

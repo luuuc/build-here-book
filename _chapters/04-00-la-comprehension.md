@@ -13,6 +13,9 @@ categories:
   - comprehension
   - business
   - client
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/04-00-understanding.html
 seo:
   description: "Relie ton travail aux usages, aux moyens et aux autres métiers, dans une entreprise, une association ou un projet personnel."
   keywords: "build here, comprehension, business, client, distribution"

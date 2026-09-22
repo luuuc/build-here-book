@@ -11,6 +11,9 @@ categories:
   - apprentissage
   - open-source
   - niveau
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/02-10-find-a-way-in-to-what-you-are-missing.html
 seo:
   description: "Précise ce qui manque pour apprendre : ressource, temps, accès, explication ou retour. Choisis une voie compatible avec tes moyens."
   keywords: "build here, apprentissage, builder, savoir, manque"

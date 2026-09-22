@@ -12,6 +12,9 @@ categories:
   - leadership
   - recrutement
   - decision
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/09-02-the-filter-you-are-running.html
 seo:
   description: "Évalue des capacités liées au travail par plusieurs voies, sans confondre visibilité, portfolio public et compétence."
   keywords: "build here, leadership, recrutement, builder, filtre"

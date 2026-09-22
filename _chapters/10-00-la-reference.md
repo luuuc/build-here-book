@@ -13,6 +13,9 @@ categories:
   - reference
   - trace
   - builders
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/10-00-being-the-reference.html
 seo:
   description: "Rends une expérience accessible, contextualisée et réutilisable, en interne ou en public selon le besoin, les moyens et les accords."
   keywords: "build here, reference, trace, artefact, builder"

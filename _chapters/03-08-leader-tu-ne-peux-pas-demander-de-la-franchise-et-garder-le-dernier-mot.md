@@ -12,6 +12,9 @@ categories:
   - hierarchie
   - decision
   - culture
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/03-08-give-objections-a-real-follow-up.html
 seo:
   description: "Accueille et examine les objections tout en gardant une responsabilité de décision claire, sans quota de concessions."
   keywords: "build here, builder, leadership, objections, decision, suivi"

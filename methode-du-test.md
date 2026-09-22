@@ -23,6 +23,10 @@ bande_actions:
     primaire: true
   - titre: "Choisir directement un parcours"
     url: /parcours/
+
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/test-method/
 ---
 
 Le test t'invite à regarder comment tu construis aujourd'hui et à choisir une pratique à explorer. Son accroche pose une question, mais son résultat ne décide pas si tu es ou non un builder. Tu peux aussi [choisir directement un parcours](/parcours/) sans répondre.

@@ -12,6 +12,9 @@ categories:
   - visibilite
   - leadership
   - carriere
+# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
+traductions:
+  en: /en/chapters/09-07-tie-recognition-to-real-contributions.html
 seo:
   description: "Examine les contributions avec des critères explicites, des faits complétables et un mandat clair, en respectant les informations individuelles."
   keywords: "build here, builder, leadership, reconnaissance, contributions, evaluation"
