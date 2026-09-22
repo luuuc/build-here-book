@@ -15,6 +15,10 @@ seo:
   keywords: "build here, builder, exemples, pratique, modèles, apprentissage"
 redirect_from:
   - /chapters/a9-modeles-pour-agir-et-revoir.html
+
+bande_actions:
+  - titre: "Un premier essai utile"
+    url: /premier-essai/
 ---
 
 Choisis le modèle qui aide ta prochaine décision. Tu n'as pas à tous les remplir. Supprime un champ sans utilité pour ton cas ; conserve les limites, les accords et la suite qui comptent. Utilise un espace adapté aux informations que tu peux partager.

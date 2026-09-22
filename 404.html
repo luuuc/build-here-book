@@ -3,9 +3,24 @@ permalink: /404.html
 layout: page
 title: Page introuvable
 description: Cette page n'existe pas
+
+bande_actions:
+  - titre: "Retour au sommaire"
+    url: /livre/#sommaire
+    primaire: true
+# Une page introuvable n'a pas de sections a lister : le rail montre les
+# entrees du site plutot qu'un cul-de-sac.
+bande_rail:
+  - titre: "Lire le livre"
+    url: /livre/
+  - titre: "Choisir ton parcours"
+    url: /parcours/
+  - titre: "Trouver une carte"
+    url: /situations/
+  - titre: "Faire le test"
+    url: /
 ---
 
 <div class="container">
   <p><strong>La page demandée n'existe pas.</strong></p>
-  <p><a href="/livre/#sommaire">Retour au sommaire</a></p>
 </div>

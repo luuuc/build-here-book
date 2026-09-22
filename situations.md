@@ -21,6 +21,13 @@ categories:
 seo:
   description: "Des situations et des envies de progresser pour rejoindre les quatre-vingt-cinq cartes, sans jugement sur les personnes."
   keywords: "build here, annexes, builder, index, symptome, sommaire"
+
+bande_actions:
+  - titre: "Les quatre parcours"
+    url: /parcours/
+bande_meta:
+  - titre: "Cartes"
+    compte: cartes
 ---
 
 Cet index part de situations et d'envies de progresser. Une ligne propose une ou deux cartes pour examiner le sujet ; elle ne décrit pas une catégorie de personnes et ne suppose pas que le problème vient de toi.

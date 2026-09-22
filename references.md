@@ -15,6 +15,11 @@ seo:
   keywords: "build here, annexes, builder, deja, ecrit"
 redirect_from:
   - /chapters/a3-deja-ecrit.html
+bande_meta:
+  - titre: "Repères"
+    valeur: 18
+  - titre: "Période"
+    valeur: "1911 → 2018"
 ---
 
 Ces dix-huit références permettent de retrouver des idées mobilisées dans le livre et d'en examiner le contexte. Leur ancienneté ne prouve pas que tout a déjà été résolu. Elles ne démontrent ni un classement des builders ni la validité du questionnaire.

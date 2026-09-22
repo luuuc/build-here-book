@@ -31,9 +31,15 @@ description: Dix étapes pour explorer ta manière de construire et trouver une 
         <h1 class="landing-quote">Es-tu un builder ?</h1>
         <p class="landing-lede">Tu n'as pas besoin de coder, de diriger une équipe ou d'avoir déjà lancé un projet. Découvre comment tu passes d'un problème à quelque chose d'utile, et ce que tu pourrais essayer ensuite.</p>
         <button type="button" class="landing-cta" data-test-start hidden>Faire le test →</button>
-        <p class="landing-fineprint">Environ 10 minutes. Tes réponses restent dans cette page et disparaissent quand tu la quittes ou la recharges. <a href="/methode-du-test/">Comment fonctionne le test</a> · <a href="/parcours/">Choisir directement un parcours</a>.</p>
+        <p class="landing-fineprint">Environ 10 minutes. Tes réponses restent dans cette page et disparaissent quand tu la quittes ou la recharges.</p>
       </div>
     </div>
+    <nav class="rail rail--accueil" aria-label="Sans passer par le test">
+      <div class="rail-corps">
+        <a href="/methode-du-test/" class="rail-item"><span class="rail-fleche" aria-hidden="true">→</span><span>Comment fonctionne le test</span></a>
+        <a href="/parcours/" class="rail-item"><span class="rail-fleche" aria-hidden="true">→</span><span>Choisir directement un parcours</span></a>
+      </div>
+    </nav>
   </div>
   <div class="landing-wrap">
     <div class="builder-test-workspace" data-test-workspace hidden>

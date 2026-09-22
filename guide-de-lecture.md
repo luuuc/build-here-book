@@ -17,6 +17,13 @@ redirect_from:
   - /chapters/a1-comment-ecrire-une-entree.html
   - /chapters/00-comment-lire-ce-livre.html
   - /chapters/00-les-six-sieges.html
+
+bande_actions:
+  - titre: "Les quatre parcours"
+    url: /parcours/
+    primaire: true
+  - titre: "Index par situation"
+    url: /situations/
 ---
 
 ## Pour qui

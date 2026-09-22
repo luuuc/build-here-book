@@ -15,6 +15,10 @@ seo:
   keywords: "build here, builder, débuter, progresser, équipe, soutien, parcours"
 redirect_from:
   - /chapters/00-choisir-ton-parcours.html
+
+bande_actions:
+  - titre: "Index par situation"
+    url: /situations/
 ---
 
 Choisis ce que tu veux faire maintenant. Chaque parcours propose trois cartes : commence par celle qui te sera utile cette semaine. Tu peux changer de parcours selon le projet, les personnes et le temps dont tu disposes.

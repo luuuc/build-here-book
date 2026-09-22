@@ -1684,3 +1684,302 @@ sup a {
   text-decoration-color: #F5B301;
   text-underline-offset: 0.3em;
 }
+
+/* ------------------------------------------------------------------
+   La bande d'entree des pages racine
+
+   La meme forme partout : surtitre, titre, accroche, une colonne de meta
+   a droite, puis un rail qui reprend les titres de la page. Le livre garde
+   son bandeau `.hero` : rien ici ne le touche.
+   ------------------------------------------------------------------ */
+
+.bande {
+  background: #FBEEC1;
+  border-bottom: 3px solid #F5B301;
+  padding: 6.5rem 0 2.25rem;
+}
+
+/* La bande se pose exactement sur la colonne de lecture : meme largeur,
+   meme marge. Les pages en layout `page` lisent plus etroit, d'ou le
+   modificateur plus bas. */
+.bande-corps {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: flex;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+
+.bande-texte {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.bande-surtitre {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8A6100;
+  margin-bottom: 1rem;
+}
+
+.bande-surtitre a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.bande-surtitre a:hover {
+  text-decoration: underline;
+}
+
+.bande-titre {
+  color: #1C1A17;
+  font-size: 2.15rem;
+  font-weight: bold;
+  line-height: 1.22;
+  letter-spacing: -0.01em;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.bande-accroche {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  color: #8A6100;
+  margin: 0.9rem 0 0;
+  max-width: 34em;
+}
+
+/* Le meme bouton que sur la page d'accueil : le noir plein pour l'action
+   de la page, le contour pour ce qui propose sans insister. */
+.bande-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.6rem;
+}
+
+.bande-bouton {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 1.25rem;
+  background: #1C1A17;
+  border: 1px solid #1C1A17;
+  color: #fff;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.bande-bouton--calme {
+  background: transparent;
+  color: #1C1A17;
+}
+
+.bande-bouton:hover,
+.bande-bouton:focus-visible {
+  outline: 2px solid #F5B301;
+  outline-offset: 2px;
+}
+
+.bande-bouton--calme:hover {
+  background: #F5B301;
+}
+
+/* L'index par situation cherche dans la bande, pas sous le premier groupe. */
+.bande-filtre {
+  margin-top: 1.6rem;
+}
+
+.bande-filtre .filtre-symptomes {
+  margin-bottom: 0;
+  min-height: 44px;
+  /* Le filet clair du corps de page disparait sur la bande : sur le jaune,
+     le champ se tient au trait d'encre, comme les boutons a cote. */
+  border-color: #1C1A17;
+}
+
+.bande-cote {
+  flex: 0 0 10rem;
+  border-left: 1px solid #E2D4A7;
+  padding-left: 1.5rem;
+  margin-top: 0.35rem;
+}
+
+/* La couverture se tient sous la hauteur du titre et de ses boutons :
+   plus large, elle ouvre un trou de jaune a gauche. */
+.bande-couverture {
+  display: block;
+  width: 8rem;
+  height: auto;
+  margin-bottom: 1.1rem;
+  border: 1px solid #E2D4A7;
+}
+
+.bande-meta {
+  margin: 0;
+  font-family: "Archivo", system-ui, sans-serif;
+}
+
+/* Sous une couverture, les chiffres tiennent sur une ligne : la liste de
+   definitions allongerait la colonne bien au-dela du titre. */
+.bande-legende {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: #8A6100;
+}
+
+.bande-meta dt {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8A6100;
+}
+
+.bande-meta dd {
+  margin: 0.2rem 0 1.15rem;
+  font-size: 0.95rem;
+  color: #1C1A17;
+}
+
+.bande-meta dd:last-child {
+  margin-bottom: 0;
+}
+
+/* Le rail : les titres de la page en tete, comme l'index d'un livre. */
+.rail {
+  background: #F2EFE9;
+  border-bottom: 1px solid #E8E3D9;
+}
+
+.rail-corps {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+}
+
+/* Le livre et la page introuvable lisent dans une colonne plus etroite. */
+.bande--etroite .bande-corps,
+.bande--etroite + .rail .rail-corps {
+  max-width: 42.5rem;
+}
+
+/* La page d'accueil garde sa propre ouverture, plus large et sans meta :
+   son rail suit la colonne de cette bande-la. */
+.rail--accueil .rail-corps {
+  max-width: 44rem;
+}
+
+/* Pas de filet entre les items : le rail passe a la ligne des qu'il y a
+   plus de quatre titres, et un filet vertical en bout de ligne pend dans
+   le vide. Le numero ambre marque le debut de chaque entree. */
+.rail-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  padding: 0.85rem 0;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  color: #1C1A17;
+  text-decoration: none;
+}
+
+.rail-item:hover span:last-child {
+  text-decoration: underline;
+  text-decoration-color: #F5B301;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.rail-num,
+.rail-fleche {
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #8A6100;
+}
+
+/* Certaines pages ouvrent sur un avertissement : un cas construit annonce
+   qu'il l'est, la licence rappelle que Creative Commons n'est pas un cabinet
+   d'avocats. La phrase reste ou l'auteur l'a ecrite ; seule sa forme dit ce
+   qu'elle est. */
+.avertissement .landing-wrap > p:first-child,
+.avertissement .container > p:first-child {
+  background: #FAF7F0;
+  border-left: 3px solid #F5B301;
+  padding: 0.9rem 1.1rem;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+  .bande {
+    padding: 5.5rem 0 1.75rem;
+  }
+
+  .bande-corps {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.25rem;
+  }
+
+  .bande-titre {
+    font-size: 1.65rem;
+  }
+
+  /* Deux boutons cote a cote ne tiennent pas dans 390 pixels : ils
+     s'empilent, chacun sur toute la largeur. */
+  .bande-actions {
+    flex-direction: column;
+  }
+
+  .bande-actions .bande-bouton {
+    justify-content: center;
+  }
+
+  /* Sur un telephone, la meta tient sur une ligne sous l'accroche. */
+  .bande-cote {
+    flex: 0 0 auto;
+    border-left: 0;
+    border-top: 1px solid #E2D4A7;
+    padding: 1rem 0 0;
+    margin-top: 0;
+  }
+
+  .bande-couverture {
+    width: 7rem;
+  }
+
+  .bande-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem 0.4rem;
+  }
+
+  .bande-meta dd {
+    margin: 0;
+  }
+
+  /* Un libelle colle a son chiffre ; l'ecart se met entre les paires. */
+  .bande-meta dt ~ dt {
+    margin-left: 0.85rem;
+  }
+
+  .rail-corps {
+    column-gap: 1.5rem;
+  }
+}

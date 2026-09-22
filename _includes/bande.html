@@ -1,0 +1,127 @@
+{%- comment -%}
+  La bande d'entree des pages racine.
+
+  Rien n'est ecrit ici. Le surtitre vient de `categories` et de
+  _data/familles.yml, le titre de `title`, l'accroche de `description`, la
+  duree de `metadata.reading_time_in_minutes`. Le rail sous la bande reprend
+  les titres de la page, dans leur ordre.
+
+  Les cles facultatives du front matter, pour ce qu'aucune donnee ne devine :
+
+    bande_actions      des liens deja ecrits dans la page. `primaire` donne
+                       le bouton plein ; `telechargement: pdf` ou `epub`
+                       prend l'adresse de _config.yml.
+    bande_meta         un chiffre de plus : `valeur` litterale, ou `compte`
+                       (`cartes`, `capacites`) compte a partir du livre.
+    bande_sections     `false` retire le compte automatique des sections.
+    bande_image        une couverture a cote du titre.
+    bande_rail         un rail explicite, pour une page sans titres.
+    bande_rail_titres  `h3` quand la page numerote ses sections en h3.
+
+  Le livre n'est pas concerne : ses entrees gardent `.hero`.
+{%- endcomment -%}
+
+{%- assign famille = "" -%}
+{%- for c in page.categories -%}
+  {%- if famille == "" and site.data.familles[c] -%}
+    {%- assign famille = site.data.familles[c] -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign ouvre = '<h2 id="' -%}
+{%- assign ferme = '</h2>' -%}
+{%- if page.bande_rail_titres == "h3" -%}
+  {%- assign ouvre = '<h3 id="' -%}
+  {%- assign ferme = '</h3>' -%}
+{%- endif -%}
+
+{%- assign morceaux = content | split: ouvre -%}
+{%- assign sections = morceaux | size | minus: 1 -%}
+{%- assign duree = page.metadata.reading_time_in_minutes -%}
+{%- assign compte_sections = sections -%}
+{%- if page.bande_sections == false -%}{%- assign compte_sections = 0 -%}{%- endif -%}
+
+<header class="bande{% if include.etroite %} bande--etroite{% endif %}">
+  <div class="bande-corps">
+    <div class="bande-texte">
+      <p class="bande-surtitre"><a href="/livre/">Build Here</a>{% unless famille == "" %} · {{ famille }}{% endunless %}</p>
+      <h1 class="bande-titre">{{ page.title }}</h1>
+      {%- if page.description %}
+      <p class="bande-accroche">{{ page.description }}</p>
+      {%- endif %}
+      {%- if page.filtre_symptomes %}
+      <div class="bande-filtre" data-filtre-cible></div>
+      {%- endif %}
+      {%- if page.bande_actions %}
+      <div class="bande-actions">
+        {%- for a in page.bande_actions %}
+        {%- assign adresse = a.url -%}
+        {%- if a.telechargement == "pdf" -%}{%- assign adresse = site.downloads.pdf -%}{%- endif -%}
+        {%- if a.telechargement == "epub" -%}{%- assign adresse = site.downloads.epub -%}{%- endif -%}
+        <a href="{{ adresse }}" class="bande-bouton{% unless a.primaire %} bande-bouton--calme{% endunless %}">{{ a.titre }}</a>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+    </div>
+    {%- if page.bande_image or duree or compte_sections > 0 or page.bande_meta %}
+    <div class="bande-cote">
+      {%- if page.bande_image %}
+      <img class="bande-couverture" src="{{ page.bande_image }}" alt="{{ page.bande_image_alt }}" width="1200" height="1800" />
+      {%- endif %}
+      {%- if page.bande_image and page.bande_meta %}
+      <p class="bande-legende">
+        {%- for m in page.bande_meta -%}
+          {%- unless forloop.first %} · {% endunless -%}
+          {%- if m.compte == "cartes" -%}{{ site.chapters | where_exp: "c", "c.metadata.principle" | size }}
+          {%- elsif m.compte == "capacites" -%}{{ site.chapters | where_exp: "c", "c.step_number" | size }}
+          {%- else -%}{{ m.valeur }}{%- endif -%}
+          &#160;{{ m.titre | downcase }}
+        {%- endfor -%}
+      </p>
+      {%- elsif duree or compte_sections > 0 or page.bande_meta %}
+      <dl class="bande-meta">
+        {%- if duree %}
+        <dt>Lecture</dt>
+        <dd>{{ duree }} minutes</dd>
+        {%- endif %}
+        {%- if compte_sections > 0 %}
+        <dt>Sections</dt>
+        <dd>{{ compte_sections }}</dd>
+        {%- endif %}
+        {%- for m in page.bande_meta %}
+        <dt>{{ m.titre }}</dt>
+        <dd>
+          {%- if m.compte == "cartes" -%}
+            {{ site.chapters | where_exp: "c", "c.metadata.principle" | size }}
+          {%- elsif m.compte == "capacites" -%}
+            {{ site.chapters | where_exp: "c", "c.step_number" | size }}
+          {%- else -%}
+            {{ m.valeur }}
+          {%- endif -%}
+        </dd>
+        {%- endfor %}
+      </dl>
+      {%- endif %}
+    </div>
+    {%- endif %}
+  </div>
+</header>
+
+{%- if page.bande_rail %}
+<nav class="rail" aria-label="Les entrées du site">
+  <div class="rail-corps">
+    {%- for r in page.bande_rail %}
+    <a href="{{ r.url }}" class="rail-item"><span class="rail-fleche" aria-hidden="true">→</span><span>{{ r.titre }}</span></a>
+    {%- endfor %}
+  </div>
+</nav>
+{%- elsif sections > 1 %}
+<nav class="rail" aria-label="Sections de la page">
+  <div class="rail-corps">
+    {%- for t in morceaux offset:1 %}
+    {%- assign bout = t | split: '">' -%}
+    <a href="#{{ bout[0] }}" class="rail-item"><span class="rail-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span>{{ bout[1] | split: ferme | first | strip_html }}</span></a>
+    {%- endfor %}
+  </div>
+</nav>
+{%- endif %}

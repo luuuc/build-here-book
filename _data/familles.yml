@@ -1,0 +1,10 @@
+# La famille affichee dans le surtitre de la bande d'entree.
+#
+# La cle est une valeur de `categories` deja presente dans le front matter
+# d'une page racine. La premiere qui correspond gagne, les autres sont
+# ignorees. Une page dont aucune categorie n'est listee affiche « Build
+# Here » seul : ajouter une ligne ici suffit a la situer.
+ouverture: Ouverture
+ressources: Ressources
+projet: Le projet
+builders: Le livre

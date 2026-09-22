@@ -15,6 +15,13 @@ seo:
   keywords: build here, à propos, licence creative commons, open source, pratiques, apprentissage
 title: À propos
 description: Un livre ouvert pour apprendre à construire
+
+bande_actions:
+  - titre: "Les quatre parcours"
+    url: /parcours/
+bande_meta:
+  - titre: "Licence"
+    valeur: "CC BY-SA 4.0"
 ---
 
 Build Here aide à comprendre un problème, essayer une amélioration et apprendre de ce qu'elle change. Il s'adresse à ceux qui veulent commencer, aux builders qui souhaitent progresser, aux personnes qui développent une équipe et à celles qui veulent leur apporter un soutien concret.
@@ -49,6 +56,6 @@ Tu peux aussi me contacter sur [LinkedIn](https://www.linkedin.com/in/{{ site.au
 
 ## Réutiliser et adapter
 
-Le livre est sous [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Tu peux le partager et l'adapter, y compris pour un atelier, selon les conditions de cette licence : indique la source et les modifications, et partage les adaptations sous la même licence. Le [texte de référence](/cc-by-sa-licence.md) reste accessible.
+Le livre est sous [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Tu peux le partager et l'adapter, y compris pour un atelier, selon les conditions de cette licence : indique la source et les modifications, et partage les adaptations sous la même licence. Le [texte de référence](/licence/) reste accessible.
 
 Le [dépôt source](https://github.com/{{ site.repository }}) contient le texte, le site et les outils de vérification. Il sert aussi à proposer une correction ou une adaptation. Les informations techniques pour construire le site et les éditions sont dans son README.

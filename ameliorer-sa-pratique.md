@@ -15,6 +15,10 @@ seo:
   keywords: "build here, builder, exemples, pratique, modèles, apprentissage"
 redirect_from:
   - /chapters/a7-ameliorer-sans-tout-reprendre.html
+
+# La premiere phrase de la page dit que le cas est construit. Cette cle lui
+# donne la forme d'un avertissement, sans la deplacer ni la reecrire.
+avertissement: true
 ---
 
 Ce cas est **entièrement construit**. Tous les faits et nombres ci-dessous sont fictifs. Le parcours illustre un jugement et ses limites, pas une preuve d'efficacité de la méthode.

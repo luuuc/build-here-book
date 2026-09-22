@@ -16,6 +16,13 @@ seo:
 redirect_from:
   - /chapters/a2-comment-fonctionne-le-test.html
   - /chapters/a2-les-douze-tests.html
+
+bande_actions:
+  - titre: "Faire le test"
+    url: /
+    primaire: true
+  - titre: "Choisir directement un parcours"
+    url: /parcours/
 ---
 
 Le test t'invite à regarder comment tu construis aujourd'hui et à choisir une pratique à explorer. Son accroche pose une question, mais son résultat ne décide pas si tu es ou non un builder. Tu peux aussi [choisir directement un parcours](/parcours/) sans répondre.

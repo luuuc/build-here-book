@@ -13,9 +13,26 @@ seo:
 
 title: Le livre
 description: Comprendre, essayer, observer et apprendre
----
 
-<img src="/assets/images/couverture.png" alt="Couverture de Build Here" class="book-cover" width="1200" height="1800" />
+# La bande d'entree : deux liens deja ecrits plus bas, et les deux chiffres
+# que le sommaire compte de toute facon.
+bande_actions:
+  - titre: "Commencer par l'introduction"
+    url: /chapters/00-introduction.html
+    primaire: true
+  - titre: "Télécharger le PDF"
+    telechargement: pdf
+# La couverture tient la colonne de droite : a cote d'elle, compter les
+# sections de la page n'apprend rien.
+bande_image: /assets/images/couverture.png
+bande_image_alt: Couverture de Build Here
+bande_sections: false
+bande_meta:
+  - titre: "Capacités"
+    compte: capacites
+  - titre: "Cartes courtes"
+    compte: cartes
+---
 
 ## Le playbook des builders
 

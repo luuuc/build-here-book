@@ -15,6 +15,10 @@ seo:
   keywords: "build here, builder, exemples, pratique, modèles, apprentissage"
 redirect_from:
   - /chapters/a8-six-semaines-pour-apprendre-ensemble.html
+
+# La premiere phrase de la page dit que le cas est construit. Cette cle lui
+# donne la forme d'un avertissement, sans la deplacer ni la reecrire.
+avertissement: true
 ---
 
 Ce cas est **entièrement construit**. Les semaines, les échanges et les nombres illustrent un parcours possible. Six semaines n'est ni une durée obligatoire ni une promesse de transformation d'équipe.

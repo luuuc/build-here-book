@@ -120,7 +120,14 @@
 
     const zone = index.querySelector(".container") || index;
     const premier = zone.querySelector("h2");
-    if (premier) {
+
+    // La bande d'entree reserve une place au champ. Sans elle, il reprend
+    // son ancienne place, juste avant le premier groupe.
+    const cible = document.querySelector("[data-filtre-cible]");
+    if (cible) {
+      cible.appendChild(champ);
+      if (premier) zone.insertBefore(vide, premier);
+    } else if (premier) {
       zone.insertBefore(champ, premier);
       zone.insertBefore(vide, premier);
     }

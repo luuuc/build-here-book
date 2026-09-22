@@ -24,14 +24,8 @@
          ses propres bandes. -->
     <main class="landing-page">
       {% if page.landing_resource %}
-      <header class="landing-hero">
-        <div class="landing-wrap">
-          <p class="landing-eyebrow"><a href="/livre/">Build Here</a> · Ressources</p>
-          <h1 class="landing-quote">{{ page.title }}</h1>
-          {% if page.description %}<p class="landing-lede">{{ page.description }}</p>{% endif %}
-        </div>
-      </header>
-      <article class="landing-resource content"{% if page.filtre_symptomes %} data-filtre-symptomes="{{ site.data.interface.lecture.filtre }}" data-filtre-vide="{{ site.data.interface.lecture.filtre_vide }}"{% endif %}>
+      {% include bande.html %}
+      <article class="landing-resource content{% if page.avertissement %} avertissement{% endif %}"{% if page.filtre_symptomes %} data-filtre-symptomes="{{ site.data.interface.lecture.filtre }}" data-filtre-vide="{{ site.data.interface.lecture.filtre_vide }}"{% endif %}>
         <div class="container landing-wrap">{{ content }}</div>
       </article>
       {% else %}
