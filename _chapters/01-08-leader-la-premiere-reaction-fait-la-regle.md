@@ -50,4 +50,4 @@ Sur les prochaines initiatives, commence par comprendre le but et les effets. Re
 
 Quelle initiative récente a montré que notre frontière était claire ou, au contraire, qu'il fallait la préciser ?
 
-*À vérifier ailleurs :* les travaux d'Amy Edmondson sur la sécurité psychologique et l'apprentissage en équipe figurent dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
+*À vérifier ailleurs :* les travaux d'Amy Edmondson sur la sécurité psychologique et l'apprentissage en équipe figurent dans *[Déjà écrit](/references/)*.

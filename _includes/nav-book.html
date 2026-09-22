@@ -1,0 +1,56 @@
+      <li><a href="/livre/">Le livre</a></li>
+
+      {% assign chapters = site.chapters | sort: "order" %}
+
+      {% for groupe in site.data.sommaire %}
+        {% assign multi = false %}
+        {% if groupe.sections.size > 1 %}{% assign multi = true %}{% endif %}
+
+        <li class="nav-group{% if groupe.sections contains page.part %} is-current-group{% endif %}">
+
+          {% for nom in groupe.sections %}
+            {% assign items = chapters | where: "part", nom %}
+            {% assign ouverture = items | where_exp: "c", "c.title == nom" | first %}
+
+            {% if multi and items.size > 1 %}
+              <div class="nav-part{% if nom == page.part %} is-current-part{% endif %}">
+                {% if ouverture %}
+                  <a
+                    class="nav-part-title"
+                    href="{{ ouverture.url }}"
+                    {% if ouverture.url == page.url %}aria-current="page"{% endif %}
+                    >{% if ouverture.step_number < 10 %}0{% endif %}{{ ouverture.step_number }}. {{ nom }}</a
+                  >
+                {% else %}
+                  <span class="nav-part-title">{{ nom }}</span>
+                {% endif %}
+                <ul class="nav-submenu">
+                  {% for c in items %}
+                    {% unless ouverture and c.url == ouverture.url %}
+                      <li{% if c.url == page.url %} class="is-current"{% endif %}>
+                        <a href="{{ c.url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
+                          {{ c.title }}
+                        </a>
+                      </li>
+                    {% endunless %}
+                  {% endfor %}
+                </ul>
+              </div>
+            {% else %}
+              <ul class="nav-submenu">
+                {% for c in items %}
+                  <li{% if c.url == page.url %} class="is-current"{% endif %}>
+                    <a href="{{ c.url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
+                      {{ c.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endfor %}
+        </li>
+      {% endfor %}
+
+      <li class="nav-bottom-links">
+        <a href="/" class="nav-version-link">← Retour au site</a>
+      </li>

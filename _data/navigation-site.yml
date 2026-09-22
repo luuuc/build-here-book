@@ -1,0 +1,16 @@
+- title: Lire le livre
+  url: /livre/
+- title: Choisir ton parcours
+  url: /parcours/
+- title: Trouver une carte
+  url: /situations/
+- title: Faire le test
+  url: /
+- title: Mettre en pratique
+  children:
+    - title: Animer un atelier
+      url: /atelier/
+    - title: Exemples et modèles
+      url: /modeles/
+- title: À propos
+  url: /a-propos/

@@ -1,24 +1,25 @@
 ---
-layout: "chapter"
+layout: landing
+landing_resource: true
+permalink: /modeles/
 title: "Modèles pour agir et revoir"
 description: "Des supports à copier, à raccourcir et à adapter"
-show_chapter_number: false
-part: "Annexes"
-order: 1209
 metadata:
   reading_time_in_minutes: 4
 categories:
-  - annexes
+  - ressources
   - pratique
   - apprentissage
 seo:
   description: "Des supports à copier, à raccourcir et à adapter"
   keywords: "build here, builder, exemples, pratique, modèles, apprentissage"
+redirect_from:
+  - /chapters/a9-modeles-pour-agir-et-revoir.html
 ---
 
 Choisis le modèle qui aide ta prochaine décision. Tu n'as pas à tous les remplir. Supprime un champ sans utilité pour ton cas ; conserve les limites, les accords et la suite qui comptent. Utilise un espace adapté aux informations que tu peux partager.
 
-Les exemples remplis se trouvent dans [Un premier essai utile](/chapters/a6-un-premier-essai-utile.html), [Améliorer sans tout reprendre](/chapters/a7-ameliorer-sans-tout-reprendre.html) et [Six semaines pour apprendre ensemble](/chapters/a8-six-semaines-pour-apprendre-ensemble.html). Tous leurs résultats sont fictifs.
+Les exemples remplis se trouvent dans [Un premier essai utile](/premier-essai/), [Améliorer sans tout reprendre](/ameliorer-sa-pratique/) et [Six semaines pour apprendre ensemble](/apprendre-en-equipe/). Tous leurs résultats sont fictifs.
 
 ## Un essai limité
 {: #modele-essai-limite }

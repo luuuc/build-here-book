@@ -1,78 +1,17 @@
-<div class="offcanvas" id="offcanvas">
+{% assign site_menu = false %}
+{% if page.layout == 'landing' %}{% assign site_menu = true %}{% endif %}
+<div class="offcanvas{% if site_menu %} offcanvas--site{% endif %}" id="offcanvas">
   <div class="offcanvas-header">
-    <h3>Sommaire</h3>
-    <button class="close-btn" data-bascule-menu>×</button>
+    <h3 id="nav-title">{% if site_menu %}Explorer Build Here{% else %}Sommaire{% endif %}</h3>
+    <button class="close-btn" data-bascule-menu aria-label="Fermer le menu">×</button>
   </div>
-  <nav>
-    <ul class="nav-menu">
-      <li><a href="/livre/">Le livre</a></li>
-
-      {% assign chapters = site.chapters | sort: "order" %}
-
-      {% for groupe in site.data.sommaire %}
-        {% assign multi = false %}
-        {% if groupe.sections.size > 1 %}{% assign multi = true %}{% endif %}
-
-        <li class="nav-group{% if groupe.sections contains page.part %} is-current-group{% endif %}">
-          <span class="nav-group-title">
-            <em>{{ groupe.roman }}.</em>
-            {{ groupe.titre }}
-          </span>
-
-          {% for nom in groupe.sections %}
-            {% assign items = chapters | where: "part", nom %}
-            {% assign ouverture = items | where_exp: "c", "c.title == nom" | first %}
-
-            {% if multi and items.size > 1 %}
-              <div class="nav-part{% if nom == page.part %} is-current-part{% endif %}">
-                {% if ouverture %}
-                  <a
-                    class="nav-part-title"
-                    href="{{ ouverture.url }}"
-                    {% if ouverture.url == page.url %}aria-current="page"{% endif %}
-                    >{{ nom }}</a
-                  >
-                {% else %}
-                  <span class="nav-part-title">{{ nom }}</span>
-                {% endif %}
-                <ul class="nav-submenu">
-                  {% for c in items %}
-                    {% unless ouverture and c.url == ouverture.url %}
-                      <li{% if c.url == page.url %} class="is-current"{% endif %}>
-                        <a href="{{ c.url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
-                          {{ c.title }}
-                        </a>
-                      </li>
-                    {% endunless %}
-                  {% endfor %}
-                </ul>
-              </div>
-            {% else %}
-              <ul class="nav-submenu">
-                {% for c in items %}
-                  <li{% if c.url == page.url %} class="is-current"{% endif %}>
-                    <a href="{{ c.url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
-                      {{ c.title }}
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            {% endif %}
-          {% endfor %}
-        </li>
-      {% endfor %}
-
-      <li class="nav-bottom-links">
-        <a href="/" class="nav-version-link">
-          <small>Des questions facultatives, une piste à choisir</small>
-          Le test du builder
-        </a>
-        <a href="/a-propos/" class="nav-version-link">
-          <small>Le projet, la licence, le contact</small>
-          À propos
-        </a>
-      </li>
+  <nav aria-labelledby="nav-title">
+    <ul class="nav-menu{% if site_menu %} nav-menu--site{% endif %}">
+      {% if site_menu %}
+        {% include nav-site.html %}
+      {% else %}
+        {% include nav-book.html %}
+      {% endif %}
     </ul>
-    <br /><br />
   </nav>
 </div>

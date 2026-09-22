@@ -1,19 +1,20 @@
 ---
-layout: chapter
+layout: landing
+landing_resource: true
+permalink: /references/
 title: "Déjà écrit"
 description: "Dix-huit repères à lire dans leur contexte"
-show_chapter_number: false
-part: "Annexes"
-order: 1203
 metadata:
   reading_time_in_minutes: 5
 categories:
-  - annexes
+  - ressources
   - methode
   - references
 seo:
   description: "Dix-huit références pour examiner les idées du livre, avec des liens, des usages possibles et les limites des rapprochements."
   keywords: "build here, annexes, builder, deja, ecrit"
+redirect_from:
+  - /chapters/a3-deja-ecrit.html
 ---
 
 Ces dix-huit références permettent de retrouver des idées mobilisées dans le livre et d'en examiner le contexte. Leur ancienneté ne prouve pas que tout a déjà été résolu. Elles ne démontrent ni un classement des builders ni la validité du questionnaire.

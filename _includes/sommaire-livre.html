@@ -2,13 +2,16 @@
   {% assign chapters = site.chapters | sort: "order" %}
   {% for groupe in site.data.sommaire %}
     {% for nom in groupe.sections %}
-      <h3 id="{{ nom | slugify }}">{{ nom }}</h3>
+      {% assign items = chapters | where: "part", nom %}
+      {% assign ouverture = items | first %}
+      <h3 id="{{ nom | slugify }}"><a href="{{ ouverture.url }}">{{ ouverture.title }}</a></h3>
+      {% if items.size > 1 %}
       <ul>
-        {% assign items = chapters | where: "part", nom %}
-        {% for c in items %}
+        {% for c in items offset:1 %}
           <li><a href="{{ c.url }}">{{ c.title }}</a></li>
         {% endfor %}
       </ul>
+      {% endif %}
     {% endfor %}
   {% endfor %}
 </nav>

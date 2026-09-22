@@ -27,19 +27,19 @@ Les deux formats sont générés et publiés automatiquement après chaque dépl
 
 Le livre s'adresse aux personnes qui veulent commencer à construire, approfondir leur pratique, développer une équipe ou soutenir des builders. Un emploi, un rôle de direction et une publication publique ne sont pas des conditions d'entrée.
 
-Il comprend cinq chapitres d'introduction et d'orientation, dix ouvertures de capacité, **85 cartes**, une conclusion et **huit annexes**. Les annexes couvrent les formats, la méthode du questionnaire, dix-huit références bibliographiques, l'index par situation, trois cas construits et sept modèles réutilisables regroupés dans un chapitre.
+Il comprend une introduction de 800 à 1 200 mots, dix ouvertures de capacité, **85 cartes**, une conclusion et une bibliographie compacte. Les parcours, le guide de lecture, les ateliers, la méthode du questionnaire, la bibliographie commentée, l'index par situation, les trois cas construits et les modèles sont des pages Jekyll à la racine, avec le layout `landing`. Ces ressources accompagnent le livre sans entrer dans ses éditions PDF et EPUB.
 
 Les dix capacités suivent l'ordre du sommaire, sans classement ni prérequis obligatoires : état d'esprit, métier, autonomie, compréhension, livraison, ownership, systèmes, levier, leadership et référence. Chacune peut être travaillée à partir d'une difficulté, d'une force ou d'une occasion de pratiquer.
 
-Les [quatre parcours](https://build-here.africa/chapters/00-choisir-ton-parcours.html) et l'[index par situation](https://build-here.africa/chapters/a5-ce-qui-tagace-cette-semaine.html) donnent un accès direct. Les exemples précisent leur caractère construit et montrent temps, accords, observations, limites et fin de l'engagement.
+Les [quatre parcours](https://build-here.africa/parcours/) et l'[index par situation](https://build-here.africa/situations/) donnent un accès direct. Les exemples précisent leur caractère construit et montrent temps, accords, observations, limites et fin de l'engagement.
 
 ## Choisir une pratique
 
-Le [questionnaire facultatif](https://build-here.africa/) propose trente questions, à explorer par groupes de trois sur un sujet choisi. Six réponses sans score distinguent une pratique à revoir, un appui à approfondir, une situation jamais rencontrée, des conditions manquantes, un sujet hors propos et une question passée.
+Le [questionnaire facultatif](https://build-here.africa/) propose dix étapes de six affirmations, une par capacité du livre. Chaque affirmation utilise six positions d'accord, avec des options séparées pour une situation jamais rencontrée ou des conditions manquantes.
 
-Le lecteur choisit sa piste ; aucun niveau n'est calculé. Les réponses restent dans la mémoire de la page, sans envoi au service d'évaluation ni stockage persistant. Copier la piste permet de conserver le geste, ses limites, son suivi et les liens de lecture. La [méthode publique](https://build-here.africa/chapters/a2-comment-fonctionne-le-test.html) expose les limites de cette proposition éditoriale.
+Le résultat présente les gestes que le lecteur reconnaît dans sa pratique, reconnaît moins ou souhaite explorer, sans score global ni classement des personnes. Le lecteur choisit sa piste. Les réponses restent dans la mémoire de la page, sans envoi au service d'évaluation ni stockage persistant. Copier la piste permet de conserver le geste, ses limites, son suivi et les liens de lecture. La [méthode publique](https://build-here.africa/methode-du-test/) expose les limites de cette proposition éditoriale.
 
-Le [guide d'atelier](https://build-here.africa/chapters/00-faire-tourner-ca-dans-ton-equipe.html) prévoit une participation volontaire, une séance adaptable et un retour sur ce qui a changé. Le test individuel n'est pas un préalable et ne doit pas servir à classer l'équipe.
+Le [guide d'atelier](https://build-here.africa/atelier/) prévoit une participation volontaire, une séance adaptable et un retour sur ce qui a changé. Le test individuel n'est pas un préalable et ne doit pas servir à classer l'équipe.
 
 ## Licence
 

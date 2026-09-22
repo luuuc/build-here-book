@@ -401,21 +401,20 @@
     "label": "Je préfère passer, ou je ne sais pas encore."
   }
 ];
-  const chapter = (slug) => `/chapters/${slug}.html`;
-  const beginner = { title: "Un premier essai utile", url: chapter("a6-un-premier-essai-utile") };
-  const templates = { title: "Modèles pour agir et revoir", url: chapter("a9-modeles-pour-agir-et-revoir") };
-  const method = { title: "Comment fonctionne le test", url: chapter("a2-comment-fonctionne-le-test") };
+  const beginner = { title: "Un premier essai utile", url: "/premier-essai/" };
+  const templates = { title: "Modèles pour agir et revoir", url: "/modeles/" };
+  const method = { title: "Comment fonctionne le test", url: "/methode-du-test/" };
   const intentions = [
     { id: "start", label: "Commencer par un essai utile", anchor: "commencer", resource: beginner,
       guidance: "Un exemple personnel, associatif ou d'apprentissage suffit. Tu peux commencer par préparer une proposition, sans avoir déjà livré un projet." },
     { id: "deepen", label: "Approfondir ma pratique", anchor: "progresser",
-      resource: { title: "Améliorer sans tout reprendre", url: chapter("a7-ameliorer-sans-tout-reprendre") },
+      resource: { title: "Améliorer sans tout reprendre", url: "/ameliorer-sa-pratique/" },
       guidance: "Garde ce qui fonctionne déjà. Choisis une limite, un cas plus exigeant ou un retour qui pourrait enrichir ta pratique." },
     { id: "team", label: "Développer les pratiques d'un groupe", anchor: "equipe",
-      resource: { title: "Faire tourner ça dans ton équipe", url: chapter("00-faire-tourner-ca-dans-ton-equipe") },
+      resource: { title: "Faire tourner ça dans ton équipe", url: "/atelier/" },
       guidance: "Propose à des participants volontaires d'examiner une situation commune. Confirme le temps, les décisions ouvertes et la personne qui peut autoriser l'essai. Chacun peut passer ; les réponses individuelles restent les siennes." },
     { id: "support", label: "Soutenir des builders", anchor: "soutenir",
-      resource: { title: "Six semaines pour apprendre ensemble", url: chapter("a8-six-semaines-pour-apprendre-ensemble") },
+      resource: { title: "Six semaines pour apprendre ensemble", url: "/apprendre-en-equipe/" },
       guidance: "Demande quel appui serait utile, propose une contribution précise dans tes moyens, et attends l'accord des personnes concernées. Soutenir ne signifie pas prendre la direction de leur travail." }
   ];
   const conditions = [
@@ -428,6 +427,101 @@
   const modes = ["revisit", "deepen", "discover", "blocked"];
   const modeLabels = { revisit: "Revoir une pratique", deepen: "Approfondir un appui", discover: "Préparer un premier essai", blocked: "Clarifier les conditions" };
   const memoryNotice = "Tes réponses restent dans la mémoire de cette page et ne sont pas envoyées au service d'évaluation. Elles disparaissent quand tu quittes ou recharges la page. Copie ta piste pour la garder.";
+  // Six observations par capacité. Elles parlent d'actes possibles, pas d'une identité.
+  const statements = {
+    mindset: [
+      "Quand je remarque un problème, je cherche un premier geste à ma portée.",
+      "Je pose une question même si elle me paraît évidente.",
+      "Je distingue ce que je peux essayer de ce qui demande un accord.",
+      "Un fait contraire à mon idée me conduit à la revoir.",
+      "Je peux dire ce que je ne sais pas encore.",
+      "Je reviens sur une difficulté au lieu d'attendre qu'elle disparaisse seule."
+    ],
+    craft: [
+      "Je choisis un aspect précis de ma pratique à améliorer.",
+      "Je cherche des exemples ou des sources au-delà de mes habitudes.",
+      "Je demande un retour sur un travail encore perfectible.",
+      "J'essaie d'expliquer pourquoi une méthode marche dans mon contexte.",
+      "Je prends le temps de reprendre un détail qui compte pour la qualité.",
+      "Je peux nommer une chose que j'ai apprise récemment dans ma pratique."
+    ],
+    autonomy: [
+      "Avant d'agir, je cherche le problème derrière la demande.",
+      "Quand une décision me manque, je rends ce blocage visible.",
+      "Je propose une suite possible avec ses limites.",
+      "Je vérifie qui peut décider avant de prendre un engagement pour d'autres.",
+      "Je signale assez tôt ce qui change le travail prévu.",
+      "Je peux avancer sur une petite partie sans prétendre tout résoudre."
+    ],
+    understanding: [
+      "Je cherche à comprendre la situation de la personne que je veux aider.",
+      "Je vérifie mes suppositions auprès d'une source accessible.",
+      "Je regarde qui supportera le travail créé par mon idée.",
+      "Je demande comment une solution sera réellement utilisée.",
+      "Je distingue la demande formulée du besoin qu'elle pourrait exprimer.",
+      "Je change mon idée quand l'usage réel raconte autre chose."
+    ],
+    delivery: [
+      "Je cherche un essai assez petit pour apprendre sans exposer inutilement les autres.",
+      "Je définis ce qu'il faut protéger avant de mettre un travail à disposition.",
+      "Je montre une version utilisable pour obtenir un retour concret.",
+      "Je distingue ce qui peut attendre de ce qui bloque vraiment l'essai.",
+      "Je sais réduire ou arrêter un essai quand les faits le demandent.",
+      "Je reviens sur les retours reçus après une première livraison."
+    ],
+    ownership: [
+      "Après avoir aidé, je cherche à savoir ce que cela a permis.",
+      "Je reconnais les résultats différents de ce que j'espérais.",
+      "Je conviens d'une date ou d'un signal pour revoir un essai.",
+      "Je clarifie avec les autres qui reprend la suite d'un travail.",
+      "Je transmets les moyens nécessaires à la personne qui accepte un relais.",
+      "Je sais conclure ma part sans promettre un suivi sans fin."
+    ],
+    systems: [
+      "Quand une difficulté revient, je compare les cas avant de généraliser.",
+      "Je cherche pourquoi une étape existe avant de la retirer.",
+      "Je repère les savoirs qui reposent sur une seule personne.",
+      "Je vérifie qu'une nouvelle règle résout un problème réel.",
+      "Je regarde les effets d'une amélioration sur les personnes autour.",
+      "Je prépare un relais lorsque quelqu'un accepte de le prendre."
+    ],
+    leverage: [
+      "Je vérifie si des demandes semblables ont vraiment la même cause.",
+      "Je cherche ce qui peut être réutilisé avant d'ajouter un outil.",
+      "Je compare le temps gagné au coût de mise en place et d'entretien.",
+      "Je garde des vérifications quand j'accélère ou automatise une tâche.",
+      "Je partage une solution réutilisable avec les personnes concernées.",
+      "Je peux décider qu'une automatisation n'en vaut pas la peine."
+    ],
+    leadership: [
+      "Je demande quel appui aiderait une autre personne à agir.",
+      "Je laisse de la place à la décision de la personne que j'aide.",
+      "J'explique ce que ma relecture a vérifié et ce qui reste incertain.",
+      "Je rends explicites le temps et les moyens d'un apprentissage partagé.",
+      "Je demande l'accord des personnes avant de leur confier une suite.",
+      "Je peux aider sans prendre la direction du travail d'autrui."
+    ],
+    reference: [
+      "Je garde une réponse utile à un endroit où ses destinataires la retrouveront.",
+      "J'explique le contexte et les limites d'une expérience partagée.",
+      "Je vérifie qu'une autre personne peut utiliser ce que je transmets.",
+      "Je choisis une forme de partage compatible avec les accords en place.",
+      "Je transmets aussi les essais qui n'ont pas donné le résultat attendu.",
+      "Je sais qu'un partage interne peut être suffisant."
+    ]
+  };
+  const scale = ["Pas du tout d'accord", "Plutôt pas d'accord", "Un peu en désaccord", "Un peu d'accord", "Plutôt d'accord", "Tout à fait d'accord"];
+  function profile(responses) {
+    return capabilities.map((capability) => {
+      const values = (statements[capability.id] || []).map((_, index) => responses[`${capability.id}-${index + 1}`]);
+      const answered = values.filter((value) => Number.isInteger(value) && value >= 1 && value <= 6);
+      const unexplored = values.filter((value) => value === "unseen").length;
+      const blocked = values.filter((value) => value === "blocked").length;
+      const average = answered.length ? answered.reduce((sum, value) => sum + value, 0) / answered.length : null;
+      return { capability, answered: answered.length, unexplored, blocked, average,
+        direction: answered.length < 3 ? "discover" : average >= 4.5 ? "deepen" : average <= 2.5 ? "revisit" : "explore" };
+    });
+  }
   function initialState() { return { intent: null, answers: {}, selection: null }; }
   function setIntent(state, intent) {
     if (!intentions.some((i) => i.id === intent)) throw new Error("Intention inconnue");
@@ -502,7 +596,7 @@
     ].filter(Boolean).join("\n\n");
   }
   const api = { questions, capabilities, answerOptions, intentions, conditions, modes, modeLabels, memoryNotice,
-    initialState, setIntent, answer, candidates, select, plan, copyText };
+    statements, scale, profile, initialState, setIntent, answer, candidates, select, plan, copyText };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   else scope.BuilderTest = api;
 })(globalThis);

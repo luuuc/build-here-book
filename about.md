@@ -1,7 +1,11 @@
 ---
-layout: page
+layout: landing
+landing_resource: true
 permalink: /a-propos/
 redirect_from:
+  - /chapters/00-arrete-de-le-faire-en-silence.html
+  - /pourquoi-build-here/
+  - /chapters/13-arreter-de-le-faire-en-silence.html
   - /about/
 categories:
   - projet
@@ -17,17 +21,23 @@ Build Here aide à comprendre un problème, essayer une amélioration et apprend
 
 Tu peux pratiquer dans un métier, des études, une association ou un projet personnel. Aider directement, entretenir un service, faciliter un accès et transmettre un savoir sont aussi des façons de construire.
 
+## Pourquoi ce livre existe
+
+J'ai cherché des builders en regardant surtout ceux que mon réseau rendait visibles. J'ai pris le résultat de ce filtre pour une mesure du niveau autour de moi. C'était mon erreur. Il m'appartenait de regarder le travail de plus près.
+
+Ce livre part de cette correction. Il rassemble des pratiques pour construire, progresser et permettre à d'autres de le faire. Leur intérêt est de les relier à une situation reconnaissable et à un geste qu'on peut essayer. Faire circuler ce qu'on apprend peut passer par une conversation, une note interne, une personne formée ou un exemple public.
+
 ## Trouver une lecture utile
 
-Les [quatre parcours](/chapters/00-choisir-ton-parcours.html) donnent une entrée directe. Les cartes courtes se lisent indépendamment : principe, diagnostic, pratique ou système. Les dix capacités organisent le livre sans classer les personnes ni imposer une progression unique.
+Les [quatre parcours](/parcours/) donnent une entrée directe. Les cartes courtes se lisent indépendamment : principe, diagnostic, pratique ou système. Les dix capacités organisent le livre sans classer les personnes ni imposer une progression unique.
 
-Si tu ne sais pas encore quel sujet choisir, les [questions du test](/) sont facultatives. Tu peux explorer trois questions, choisir une force à approfondir ou une condition à clarifier, puis retenir une piste. Aucun score n'est calculé. Les réponses restent dans la mémoire de la page et ne sont pas envoyées au service d'évaluation ; copie la piste pour la conserver. La [méthode](/chapters/a2-comment-fonctionne-le-test.html) décrit les choix et les limites.
+Si tu ne sais pas encore quel sujet choisir, les [questions du test](/) sont facultatives. Tu peux explorer trois questions, choisir une force à approfondir ou une condition à clarifier, puis retenir une piste. Aucun score n'est calculé. Les réponses restent dans la mémoire de la page et ne sont pas envoyées au service d'évaluation ; copie la piste pour la conserver. La [méthode](/methode-du-test/) décrit les choix et les limites.
 
 ## Examiner les idées et les exemples
 
-Le livre rassemble des pratiques, des distinctions et des propositions à adapter. Il ne prétend pas avoir inventé chaque idée ni démontré une méthode universelle. La [bibliographie commentée](/chapters/a3-deja-ecrit.html) permet de retrouver les textes cités et d'examiner leurs apports et leurs limites.
+Le livre rassemble des pratiques, des distinctions et des propositions à adapter. Il ne prétend pas avoir inventé chaque idée ni démontré une méthode universelle. La [bibliographie commentée](/references/) permet de retrouver les textes cités et d'examiner leurs apports et leurs limites.
 
-Les [formats de cartes](/chapters/a1-les-quatre-types-de-cartes.html) expliquent comment lire les conseils, leur portée et leurs exemples. Les cas construits ne sont pas des résultats observés sur le terrain. Une pratique utile dans un contexte peut demander un autre accord, plus de temps ou une autre démarche ailleurs.
+Les [formats de cartes](/guide-de-lecture/) expliquent comment lire les conseils, leur portée et leurs exemples. Les cas construits ne sont pas des résultats observés sur le terrain. Une pratique utile dans un contexte peut demander un autre accord, plus de temps ou une autre démarche ailleurs.
 
 ## Faire un retour
 

@@ -1,21 +1,9 @@
-# La structure du sommaire, en quatre groupes.
-#
-# Chaque groupe liste ses étapes dans l'ordre du livre, par leur `part` exact
-# tel qu'il est écrit dans le front matter des chapitres. Une étape qui
-# n'apparaît nulle part ici ne sera pas affichée dans le menu : quand tu
-# ajoutes une étape, ajoute sa ligne ici.
-#
-# Un groupe qui ne contient qu'une étape affiche ses cartes à plat, sans
-# en-tête intermédiaire. Sinon chaque étape devient un en-tête, et cet
-# en-tête pointe vers sa page d'ouverture.
-
-- roman: I
-  titre: Introduction
+# Ordre du livre : introduction, sections et cartes, conclusion, références.
+- titre: Introduction
   sections:
     - Introduction
 
-- roman: II
-  titre: Les dix étapes
+- titre: Les dix capacités
   sections:
     - L'état d'esprit
     - Le métier
@@ -28,12 +16,10 @@
     - Le leadership
     - La référence
 
-- roman: III
-  titre: Clôture
+- titre: Conclusion
   sections:
     - Clôture
 
-- roman: IV
-  titre: Annexes
+- titre: Références
   sections:
-    - Annexes
+    - Références

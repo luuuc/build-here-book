@@ -66,10 +66,10 @@ Aucun résultat ne dépend entièrement de toi, même à petite échelle. Conven
 
 ## Choisir la suite
 
-Si tu débutes, pars d'une personne à aider et d'un [premier essai utile](/chapters/a6-un-premier-essai-utile.html). Si tu pratiques déjà, choisis un appui à approfondir ou une difficulté précise, comme dans [Améliorer sans tout reprendre](/chapters/a7-ameliorer-sans-tout-reprendre.html).
+Si tu débutes, pars d'une personne à aider et d'un [premier essai utile](/premier-essai/). Si tu pratiques déjà, choisis un appui à approfondir ou une difficulté précise, comme dans [Améliorer sans tout reprendre](/ameliorer-sa-pratique/).
 
-Pour un groupe, propose une [séance volontaire](/chapters/00-faire-tourner-ca-dans-ton-equipe.html). Pour soutenir quelqu'un, demande quel appui serait utile et conviens d'une contribution limitée. Les [modèles](/chapters/a9-modeles-pour-agir-et-revoir.html) peuvent servir à préparer l'une ou l'autre démarche.
+Pour un groupe, propose une [séance volontaire](/atelier/). Pour soutenir quelqu'un, demande quel appui serait utile et conviens d'une contribution limitée. Les [modèles](/modeles/) peuvent servir à préparer l'une ou l'autre démarche.
 
-Les [quatre parcours](/chapters/00-choisir-ton-parcours.html) et l'[index par situation](/chapters/a5-ce-qui-tagace-cette-semaine.html) donnent un accès direct. Les [questions facultatives du test](https://build-here.africa/) peuvent aussi t'aider à choisir, sans score ni classement. Tu n'as pas besoin de finir le livre ni de passer le test pour commencer.
+Les [quatre parcours](/parcours/) et l'[index par situation](/situations/) donnent un accès direct. Les [questions facultatives du test](https://build-here.africa/) peuvent aussi t'aider à choisir, sans score ni classement. Tu n'as pas besoin de finir le livre ni de passer le test pour commencer.
 
 **Choisis une chose utile à essayer, approfondir ou soutenir. Conviens de ses limites, puis reviens voir ce qu'elle a changé.**

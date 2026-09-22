@@ -1,11 +1,9 @@
 ---
-layout: chapter
+layout: landing
+landing_resource: true
+permalink: /atelier/
 title: "Faire tourner ça dans ton équipe"
 description: "Une carte, un essai convenu, un retour utile"
-show_chapter_number: false
-illustration: "faire-tourner"
-part: "Introduction"
-order: 3
 metadata:
   reading_time_in_minutes: 7
 categories:
@@ -15,6 +13,8 @@ categories:
 seo:
   description: "Une séance adaptable avec un cadre volontaire, des décisions selon le mandat, une fiche de facilitation et un suivi des effets observés."
   keywords: "build here, ouverture, builder, equipe, seance, atelier"
+redirect_from:
+  - /chapters/00-faire-tourner-ca-dans-ton-equipe.html
 ---
 
 Une carte peut aider à examiner une situation et à préparer un essai ensemble. La discussion ne garantit pas un changement ; lire seul peut aussi être utile. Choisissez le format selon le besoin, les personnes et les moyens disponibles.
@@ -85,7 +85,7 @@ Exemple entièrement construit d'une sortie de séance :
 >
 > **Observation prévue si l'essai est autorisé :** vérifier avec le destinataire s'il identifie la prochaine action, puis noter les questions et le temps ajouté.
 
-Le [journal de décisions et de résultats](/chapters/a9-modeles-pour-agir-et-revoir.html) permet de conserver cette suite. Écrire "essai lancé" alors qu'un accord manque ferait disparaître une contrainte importante.
+Le [journal de décisions et de résultats](/modeles/) permet de conserver cette suite. Écrire "essai lancé" alors qu'un accord manque ferait disparaître une contrainte importante.
 
 ## Le retour qui justifie la suite
 
@@ -95,7 +95,7 @@ Demandez ce qui a réellement été essayé, quel effet a été observé et ce q
 
 Choisissez de garder, modifier, arrêter ou vérifier autrement. Faites accepter la suite et clôturez les responsabilités terminées. Le nombre de séances et de décisions écrites décrit une activité ; il ne démontre pas que le service ou l'apprentissage s'est amélioré.
 
-Le cas [Six semaines pour apprendre ensemble](/chapters/a8-six-semaines-pour-apprendre-ensemble.html) montre des décisions successives et un bilan avec ses limites. Utilisez une durée plus courte ou plus longue selon le cycle réel, sans instaurer un rendez-vous permanent par défaut.
+Le cas [Six semaines pour apprendre ensemble](/apprendre-en-equipe/) montre des décisions successives et un bilan avec ses limites. Utilisez une durée plus courte ou plus longue selon le cycle réel, sans instaurer un rendez-vous permanent par défaut.
 
 ## Adapter aux personnes et aux conditions
 
@@ -107,6 +107,6 @@ Le cas [Six semaines pour apprendre ensemble](/chapters/a8-six-semaines-pour-app
 
 **Sans soutien de la hiérarchie.** Un échange volontaire sur un cas autorisé peut rester utile. Ne lancez pas un changement collectif sans mandat et ne supposez pas que le suivi se fera le soir. Si une demande est refusée, cherchez la contrainte et, si possible, une option plus petite. Après un refus maintenu, suspendez cette piste et faites préciser ce que cela change aux engagements existants.
 
-**Avec une personne qui veut soutenir.** Proposez une aide délimitée : relecture, accès à demander ou mise en relation acceptée. Cette personne n'a pas à diriger la séance ni à prendre possession du projet. Les [modèles de soutien et de bilan](/chapters/a9-modeles-pour-agir-et-revoir.html) aident à préciser l'engagement et sa fin.
+**Avec une personne qui veut soutenir.** Proposez une aide délimitée : relecture, accès à demander ou mise en relation acceptée. Cette personne n'a pas à diriger la séance ni à prendre possession du projet. Les [modèles de soutien et de bilan](/modeles/) aident à préciser l'engagement et sa fin.
 
 Après le premier retour, demandez si ce format a aidé et si les personnes souhaitent le reprendre. Garder une lecture individuelle, un binôme ou une discussion ponctuelle peut être la bonne suite.

@@ -354,7 +354,7 @@ em { font-style: italic; }
   color: #1C1A17;
   margin: 0;
   string-set: chaptertitle content(text), booktitle "Build Here";
-  bookmark-level: 3;
+  bookmark-level: 2;
   bookmark-label: content(text);
 }
 
@@ -396,8 +396,10 @@ em { font-style: italic; }
 .chapter--section .chapter-title {
   font-size: 34pt;
   line-height: 1.06;
-  bookmark-level: 2;
+  bookmark-level: 1;
 }
+
+h1.chapter-title { bookmark-level: 1; }
 
 .chapter--section .chapter-mark {
   display: block;

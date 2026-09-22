@@ -359,3 +359,31 @@
   .builder-test-workspace { padding-top: 5.5rem; }
   .builder-test-topics { grid-template-columns: 1fr; }
 }
+
+/* Les ressources partagent l'ouverture du site et une colonne de lecture. */
+.landing-resource { padding: 3rem 0 4rem; }
+.landing-resource .landing-wrap { max-width: 48rem; }
+.landing-resource table { display: block; overflow-x: auto; max-width: 100%; }
+.landing-resource h2, .landing-resource h3 { scroll-margin-top: 6rem; }
+.landing-eyebrow a { color: inherit; }
+
+/* Échelle du questionnaire : six positions lisibles au toucher et au clavier. */
+.builder-test-statement { border-top: 1px solid #D8D2C7 !important; padding-top: 1.2rem !important; }
+.builder-test-statement legend { font-weight: 600; max-width: 38rem; }
+.builder-test-scale { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0.45rem; margin-top: 0.75rem; }
+.builder-test-scale label { cursor: pointer; display: grid; justify-items: center; padding: 0.5rem 0.15rem; }
+.builder-test-scale input { width: 1.4rem; height: 1.4rem; accent-color: #8A6100; cursor: pointer; }
+.builder-test-scale label span { font-size: 0.8rem; }
+.builder-test-scale-labels { display: flex; justify-content: space-between; gap: 1rem; color: #6F6A61; font-size: 0.8rem; }
+.builder-test-unseen { display: inline-flex; align-items: center; gap: 0.5rem; margin: 0.8rem 1rem 0 0; font-size: 0.9rem; cursor: pointer; }
+.builder-test-unseen input, .builder-test-intentions input { accent-color: #8A6100; }
+.builder-test-intentions label { display: block; margin: 0.55rem 0; }
+.builder-test-intentions label span { margin-left: 0.5rem; }
+.builder-test-result-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.builder-test-result-item { border: 1px solid #D8D2C7; padding: 1rem; }
+.builder-test-result-item h3 { margin-top: 0; }
+.builder-test-result-item p { margin-bottom: 0.7rem; }
+@media (max-width: 640px) {
+  .builder-test-result-list { grid-template-columns: 1fr; }
+  .builder-test-scale { gap: 0.1rem; }
+}

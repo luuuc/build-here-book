@@ -1,19 +1,20 @@
 ---
-layout: "chapter"
+layout: landing
+landing_resource: true
+permalink: /apprendre-en-equipe/
 title: "Six semaines pour apprendre ensemble"
 description: "Un essai d'équipe avec du soutien, un refus et une décision de suite"
-show_chapter_number: false
-part: "Annexes"
-order: 1208
 metadata:
   reading_time_in_minutes: 5
 categories:
-  - annexes
+  - ressources
   - pratique
   - apprentissage
 seo:
   description: "Un essai d'équipe avec du soutien, un refus et une décision de suite"
   keywords: "build here, builder, exemples, pratique, modèles, apprentissage"
+redirect_from:
+  - /chapters/a8-six-semaines-pour-apprendre-ensemble.html
 ---
 
 Ce cas est **entièrement construit**. Les semaines, les échanges et les nombres illustrent un parcours possible. Six semaines n'est ni une durée obligatoire ni une promesse de transformation d'équipe.
@@ -66,4 +67,4 @@ Un allié peut aider à formuler cette proposition ou à trouver le bon interloc
 
 Pour une équipe récente, commencer par un cas fictif aide à rendre les mots et les rôles compréhensibles. Entre pairs ou à distance, une note partagée et un retour convenu peuvent remplacer une réunion, si les personnes ont accès au support. Sans sponsor, les pairs peuvent examiner un cas autorisé ; toute modification du travail collectif attend l'accord nécessaire.
 
-Les [modèles de soutien, de journal et de bilan](/chapters/a9-modeles-pour-agir-et-revoir.html) permettent de reprendre cette démarche. Le [format de séance](/chapters/00-faire-tourner-ca-dans-ton-equipe.html) propose une discussion autour des cartes.
+Les [modèles de soutien, de journal et de bilan](/modeles/) permettent de reprendre cette démarche. Le [format de séance](/atelier/) propose une discussion autour des cartes.

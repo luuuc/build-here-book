@@ -55,4 +55,4 @@ Après un cycle d'usage convenu, regarde si la tâche est plus facile et si un b
 
 Quelle simplification récente a réduit l'effort tout en préservant le service rendu ?
 
-*À vérifier ailleurs :* Rich Hickey examine la distinction entre simplicité et facilité dans *Simple Made Easy*, cité dans *[Déjà écrit](/chapters/a3-deja-ecrit.html)*.
+*À vérifier ailleurs :* Rich Hickey examine la distinction entre simplicité et facilité dans *Simple Made Easy*, cité dans *[Déjà écrit](/references/)*.

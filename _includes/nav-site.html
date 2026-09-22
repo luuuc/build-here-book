@@ -1,0 +1,14 @@
+{% for item in site.data.navigation-site %}
+  {% if item.children %}
+  <li class="nav-site-group">
+    <span class="nav-group-title">{{ item.title }}</span>
+    <ul class="nav-submenu">
+      {% for child in item.children %}
+      <li><a href="{{ child.url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% else %}
+  <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+  {% endif %}
+{% endfor %}

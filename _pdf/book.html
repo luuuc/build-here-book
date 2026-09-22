@@ -2,6 +2,7 @@
 layout: none
 permalink: /pdf.html
 sitemap: false
+excerpt_separator: ""
 ---
 {% comment %}
 Le livre entier en un seul document, pour WeasyPrint. Rendu par bin/build-book,
@@ -36,7 +37,7 @@ partage avec l'EPUB, dans _includes/book-body.html.
       </div>
       <div>
         <p class="front-author">{{ site.author.name }}</p>
-        <p class="front-spine">{% assign cartes = site.chapters | where_exp: "c", "c.metadata.principle" %}{% assign capacites = site.chapters | where_exp: "c", "c.step_number" %}{{ capacites | size }} capacités · {{ cartes | size }} cartes · Quatre parcours</p>
+        <p class="front-spine">{% assign cartes = site.chapters | where_exp: "c", "c.metadata.principle" %}{% assign capacites = site.chapters | where_exp: "c", "c.step_number" %}{{ capacites | size }} capacités · {{ cartes | size }} cartes</p>
       </div>
     </section>
 
@@ -73,38 +74,15 @@ partage avec l'EPUB, dans _includes/book-body.html.
         {% assign multi = false %}
         {% if groupe.sections.size > 1 %}{% assign multi = true %}{% endif %}
         <div class="toc-group">
-          <p class="toc-group-title">
-            <a href="#partie-{{ forloop.index }}"><em>{{ groupe.roman }}.</em>{{ groupe.titre }}</a>
-          </p>
-
           {% for nom in groupe.sections %}
             {% assign items = chapters | where: "part", nom %}
-            {% assign ouverture = items | where_exp: "c", "c.title == nom" | first %}
-
-            {% if multi and items.size > 1 %}
-              <ul>
-                <li class="toc-section">
-                  <a href="#{{ ouverture.url | split: '/' | last }}">{{ nom }}</a>
+            <ul>
+              {% for c in items %}
+                <li class="{% if c.card_type %}toc-entry{% else %}toc-section{% endif %}">
+                  <a href="#{{ c.url | split: '/' | last }}">{{ c.title }}</a>
                 </li>
-                {% for c in items %}
-                  {% unless ouverture and c.url == ouverture.url %}
-                    <li class="toc-entry">
-                      <a href="#{{ c.url | split: '/' | last }}"
-                        >{% unless c.show_chapter_number == false %}<span class="num">{{ c.metadata.principle }}.</span>{% endunless %}{{ c.title }}</a
-                      >
-                    </li>
-                  {% endunless %}
-                {% endfor %}
-              </ul>
-            {% else %}
-              <ul>
-                {% for c in items %}
-                  <li class="toc-flat">
-                    <a href="#{{ c.url | split: '/' | last }}">{{ c.title }}</a>
-                  </li>
-                {% endfor %}
-              </ul>
-            {% endif %}
+              {% endfor %}
+            </ul>
           {% endfor %}
         </div>
       {% endfor %}

@@ -14,12 +14,12 @@ Un guide pour les personnes qui veulent commencer à construire, les builders qu
 
 Les capacités sont des repères, sans classement ni chaîne obligatoire de prérequis. Pour recommander une lecture, pars de l'intention, d'une difficulté, d'une force à approfondir ou des conditions d'action. N'infère pas une faiblesse d'une absence d'occasion ou d'autorité.
 
-Quatre parcours directs : {{ '/chapters/00-choisir-ton-parcours.html' | absolute_url }}
-Index par situation : {{ '/chapters/a5-ce-qui-tagace-cette-semaine.html' | absolute_url }}
-Exemples construits et modèles : {{ '/chapters/a9-modeles-pour-agir-et-revoir.html' | absolute_url }}
+Quatre parcours directs : {{ '/parcours/' | absolute_url }}
+Index par situation : {{ '/situations/' | absolute_url }}
+Exemples construits et modèles : {{ '/modeles/' | absolute_url }}
 Sommaire complet : {{ '/livre/#sommaire' | absolute_url }}
 
-Le questionnaire facultatif propose trente questions par groupes de trois sur un sujet choisi. Il ne calcule aucun score : le lecteur choisit une piste adaptée à son intention et aux conditions signalées. Les réponses restent dans la mémoire de la page ; la piste peut être copiée. Méthode et limites : {{ '/chapters/a2-comment-fonctionne-le-test.html' | absolute_url }}
+Le questionnaire facultatif propose trente questions par groupes de trois sur un sujet choisi. Il ne calcule aucun score : le lecteur choisit une piste adaptée à son intention et aux conditions signalées. Les réponses restent dans la mémoire de la page ; la piste peut être copiée. Méthode et limites : {{ '/methode-du-test/' | absolute_url }}
 
 Les cas construits ne sont pas des résultats de terrain. Le service direct, la maintenance, l'accessibilité, la fiabilité et la transmission interne comptent parmi les contributions utiles. Une publication publique ou un travail indépendant de son auteur ne constituent pas une mesure unique de valeur.
 
@@ -35,11 +35,11 @@ Le markdown source de n'importe quelle carte s'obtient en remplaçant le nom de 
 {% endfor %}
 ## Orientation
 
-Le test du builder utilise trente situations pour produire dix scores. Il cherche le dernier niveau dont les prérequis tiennent, puis recommande trois cartes de la marche suivante. Ce n'est pas un test de personnalité ni une certification.
+Le test du builder propose trente situations réparties entre dix capacités. Le lecteur choisit une piste et trois cartes, sans score ni classement. Les réponses restent dans la mémoire de la page.
 
 - [Le test du builder]({{ '/' | absolute_url }}): l'évaluation interactive
-- [Les quatre types de cartes]({{ '/chapters/a1-les-quatre-types-de-cartes.html' | absolute_url }}): principe, diagnostic, pratique et système
-- [Comment fonctionne le test]({{ '/chapters/a2-comment-fonctionne-le-test.html' | absolute_url }}): calcul, données envoyées et limites
+- [Les quatre types de cartes]({{ '/guide-de-lecture/' | absolute_url }}): principe, diagnostic, pratique et système
+- [Comment fonctionne le test]({{ '/methode-du-test/' | absolute_url }}): choix de lecture, confidentialité et limites
 
 ## Fichiers
 

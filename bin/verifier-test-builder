@@ -11,6 +11,21 @@ const root = fileURLToPath(new URL("..", import.meta.url));
 const destination = resolve(process.argv[2] || join(root, "_site"));
 let checks = 0;
 function check(name, run) { run(); checks++; }
+check("60 affirmations et échelle à six positions", () => {
+  assert.equal(model.capabilities.length, 10);
+  assert.equal(model.scale.length, 6);
+  for (const capability of model.capabilities) {
+    assert.equal(model.statements[capability.id].length, 6);
+    assert.equal(new Set(model.statements[capability.id]).size, 6);
+  }
+  const sample = { "mindset-1": "unseen", "mindset-2": "blocked", "mindset-3": 5, "mindset-4": 5, "mindset-5": 5, "mindset-6": 5 };
+  const first = model.profile(sample)[0];
+  assert.equal(first.answered, 4);
+  assert.equal(first.unexplored, 1);
+  assert.equal(first.blocked, 1);
+  assert.equal(first.direction, "deepen");
+  assert.equal(model.profile({})[0].direction, "discover");
+});
 const start = (intent = "start") => model.setIntent(model.initialState(), intent);
 const fill = (mode) => model.questions.reduce((s, q) => model.answer(s, q.id, mode), start());
 check("30 questions uniques et 10 capacités indépendantes", () => {
@@ -78,7 +93,7 @@ check("160 combinaisons directes capacité, mode, intention", () => {
     assert.equal(p.intent, intent.label);
     assert.equal(p.appui, null);
     assert(p.resources.some((r) => r.url === intent.resource.url));
-    if (mode === "discover") assert(p.resources.some((r) => /a6-/.test(r.url)));
+    if (mode === "discover") assert(p.resources.some((r) => r.url === "/premier-essai/"));
   }
 });
 check("Changement d'intention et recommencement", () => {
@@ -126,7 +141,7 @@ check("Titres, types et URL des recommandations", () => {
   for (const intent of model.intentions) {
     const p = model.plan(model.select(start(intent.id), { capabilityId: "reference", mode: "discover" }));
     for (const r of p.resources) assert(existsSync(join(destination, r.url)), r.url);
-    const route = readFileSync(join(destination, "chapters/00-choisir-ton-parcours.html"), "utf8");
+    const route = readFileSync(join(destination, "parcours/index.html"), "utf8");
     assert(route.includes(`id="parcours-${intent.anchor}"`));
   }
 });

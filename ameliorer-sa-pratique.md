@@ -1,19 +1,20 @@
 ---
-layout: "chapter"
+layout: landing
+landing_resource: true
+permalink: /ameliorer-sa-pratique/
 title: "Améliorer sans tout reprendre"
 description: "Une force à approfondir, une décision et une passation complètes"
-show_chapter_number: false
-part: "Annexes"
-order: 1207
 metadata:
   reading_time_in_minutes: 4
 categories:
-  - annexes
+  - ressources
   - pratique
   - apprentissage
 seo:
   description: "Une force à approfondir, une décision et une passation complètes"
   keywords: "build here, builder, exemples, pratique, modèles, apprentissage"
+redirect_from:
+  - /chapters/a7-ameliorer-sans-tout-reprendre.html
 ---
 
 Ce cas est **entièrement construit**. Tous les faits et nombres ci-dessous sont fictifs. Le parcours illustre un jugement et ses limites, pas une preuve d'efficacité de la méthode.
@@ -80,4 +81,4 @@ Avant une absence prévue, Awa transmet le suivi à Sana dans le cadre validé p
 
 Sana confirme : "J'ai les accès, j'ai essayé un cas et j'accepte ce périmètre." Le relais peut être clôturé pour Awa. La fiche n'a pas fait disparaître le travail ni rendu chaque personne interchangeable ; elle a facilité un passage précis.
 
-Pour adapter ce cas, utilise les [modèles de décision, de comparaison et de relais](/chapters/a9-modeles-pour-agir-et-revoir.html). Les cartes [Explique ce que ta relecture a vérifié](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html) et [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html) complètent l'exemple.
+Pour adapter ce cas, utilise les [modèles de décision, de comparaison et de relais](/modeles/). Les cartes [Explique ce que ta relecture a vérifié](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html) et [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html) complètent l'exemple.

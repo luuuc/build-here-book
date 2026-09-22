@@ -3,7 +3,7 @@
 //
 //   bin/verifier-index
 //
-// L'index, _chapters/a5-ce-qui-tagace-cette-semaine.md, est a moitie ecrit a la
+// L'index, situations.md, est a moitie ecrit a la
 // main : la phrase de gauche est editoriale et ne se genere pas. Seuls les liens
 // de droite sont mecaniques. Ce script ne reecrit donc rien, il verifie.
 //
@@ -15,7 +15,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
 const racine = new URL("..", import.meta.url).pathname;
-const INDEX = "_chapters/a5-ce-qui-tagace-cette-semaine.md";
+const INDEX = "situations.md";
 
 // Le titre d'une entree leader porte deja la marque ⇄ dans son front matter.
 // On la met de cote pour comparer les libelles, et on la verifie a part.

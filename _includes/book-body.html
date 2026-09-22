@@ -1,32 +1,15 @@
-{% comment %}
-Le corps du livre, partage par les deux tirages : _pdf/book.html (PDF) et
-_pdf/epub.html (EPUB). Un seul endroit ou l'ordre des parties, des sections et
-des entrees est decide.
-
-La hierarchie des titres est celle du livre : la partie est un h1, l'ouverture
-de section un h2, l'entree un h3. Les intertitres ecrits dans le markdown
-descendent donc d'un cran (h2 -> h4, h3 -> h5), sinon ils remonteraient dans le
-sommaire de l'EPUB et dans les signets du PDF.
-{% endcomment %}
+{% comment %}Introduction, sections et cartes, conclusion, références. Les ressources restent sur le site.{% endcomment %}
 {% assign chapters = site.chapters | sort: "order" %}
 {% for groupe in site.data.sommaire %}
-  <section class="part" id="partie-{{ forloop.index }}">
-    <div class="part-face">
-      <p class="part-roman">{{ groupe.roman }}.</p>
-      <div class="part-rule"></div>
-      <h1 class="part-title">{{ groupe.titre }}</h1>
-    </div>
-    <!-- Verso de la page de partie : noir lui aussi, voir print.css -->
-    <div class="part-back"></div>
-  </section>
-
   {% for nom in groupe.sections %}
     {% assign items = chapters | where: "part", nom %}
     {% for c in items %}
       {% assign is_section = false %}
       {% if c.illustration %}{% assign is_section = true %}{% endif %}
+      {% assign website_href = 'href="' | append: site.url | append: '/' %}
       {% assign body = c.content
         | replace: 'href="/chapters/', 'href="#'
+        | replace: 'href="/', website_href
         | replace: '<h3', '<h5' | replace: '</h3>', '</h5>'
         | replace: '<h2', '<h4' | replace: '</h2>', '</h4>' %}
       <section
@@ -47,11 +30,11 @@ sommaire de l'EPUB et dans les signets du PDF.
             {% if c.card_type %}<span>{{ site.data.interface.lecture.types[c.card_type] }}</span>{% endif %}
             {% if c.card_type %}<span>{{ c.action_scope | default: site.data.interface.lecture.portees[c.card_type] }}</span>{% endif %}
           </p>
-          {% if is_section %}
-            <h2 class="chapter-title">{{ c.title }}</h2>
+          {% unless c.card_type %}
+            <h1 class="chapter-title">{{ c.title }}</h1>
           {% else %}
-            <h3 class="chapter-title">{{ c.title }}</h3>
-          {% endif %}
+            <h2 class="chapter-title">{{ c.title }}</h2>
+          {% endunless %}
           {% if c.description %}<p class="chapter-lede">{{ c.description }}</p>{% endif %}
         </header>
 

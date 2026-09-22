@@ -1,51 +1,58 @@
 ---
 layout: chapter
 title: "Introduction"
-description: "Dix capacités pour construire et progresser"
+description: "Construire ici, et faire circuler ce qu'on apprend"
 show_chapter_number: false
 part: "Introduction"
-order: 1
+order: 0
 metadata:
-  reading_time_in_minutes: 2
+  reading_time_in_minutes: 5
 categories:
   - introduction
   - builders
 seo:
-  description: "Comprendre un problème, améliorer une situation, observer le résultat et apprendre. Dix capacités à travailler selon ton projet et ton expérience."
-  keywords: "build here, introduction, builder, progression"
+  description: "Comprendre un problème, construire quelque chose d'utile et apprendre de ses effets. Dix capacités à explorer à partir de là où tu es."
+  keywords: "build here, introduction, builder, apprentissage, transmission"
 ---
 
-Un builder développe une manière de travailler : comprendre un problème, améliorer concrètement une situation, observer ce que son action produit et apprendre pour la suite.
+Quelqu'un trouve enfin le bon renseignement. Un remboursement arrive sans trois relances. Une personne qui débute comprend assez le problème pour proposer sa propre solution. Une opération fragile tient le jour où l'équipe en a besoin. Derrière chacune de ces situations, quelqu'un a prêté attention à une difficulté, fait un choix et pris le temps de regarder ce qu'il produisait.
 
-Cela peut commencer par un message qui permet à quelqu'un de trouver son chemin. Cela peut prendre la forme d'un service fiable, d'un meilleur passage de relais ou d'une méthode qu'une autre personne sait utiliser. Ton métier, ton expérience et les moyens disponibles déterminent la taille du premier essai.
+C'est cette manière de travailler que j'appelle construire. Un builder cherche à comprendre un problème, améliore concrètement une situation et apprend de ce qui se passe ensuite. Tu peux le faire en écrivant du code, en organisant un rendez-vous, en tenant des comptes ou en aidant une personne à apprendre. La taille du projet dépend de ton expérience et des moyens disponibles. Le soin apporté au problème peut commencer tout de suite.
 
-Le support connaît les difficultés que les clients rencontrent. Le commerce apprend ce qui les aide à choisir. Le design rend un usage compréhensible. La finance éclaire les engagements. Les opérations font tenir le service. L'ingénierie construit et entretient les systèmes. Ces compétences se complètent. Un projet personnel ou associatif donne lui aussi des occasions d'observer, de fabriquer et d'apprendre.
+## Pourquoi ce livre existe
 
-## Les dix étapes
+J'ai cherché des builders en regardant surtout ceux que mon réseau rendait visibles. J'ai pris le résultat de ce filtre pour une mesure du niveau autour de moi. C'était mon erreur. Il m'appartenait de regarder le travail de plus près : les services qui tenaient, les problèmes résolus, les personnes qui apprenaient et celles qui les aidaient à avancer.
 
-Le livre rassemble dix capacités. Tu peux les lire dans cet ordre pour explorer progressivement les liens entre ton travail, ses effets et ce qu'il permet aux autres.
+Ce livre part de cette correction. Il rassemble des pratiques pour construire, progresser et permettre à d'autres de le faire. Plusieurs ont une longue histoire ; les références en fin de livre permettent d'en retrouver les sources. Mon travail ici consiste à les relier à des situations reconnaissables et à des gestes que tu peux examiner dans ton propre contexte.
 
-**1. L'état d'esprit.** Je cherche ce que je peux améliorer.
-**2. Le métier.** Je développe une compétence et mon jugement.
-**3. L'autonomie.** Je comprends le problème et j'agis dans un périmètre clair.
-**4. La compréhension.** Je vois à qui mon travail sert et ce qu'il change ailleurs.
-**5. La livraison.** Je mets une solution à l'épreuve de l'usage.
-**6. L'ownership.** Je suis le résultat et je rends les passations explicites.
-**7. Les systèmes.** Je rends la prochaine fois plus facile quand cela vaut l'effort.
-**8. Le levier.** Je cherche comment un travail utile peut produire davantage.
-**9. Le leadership.** J'aide d'autres personnes à comprendre, décider et agir.
-**10. La référence.** Je rends un apprentissage utilisable par d'autres.
+« Ici » est ton point de départ. Le lieu où tu vis, les personnes avec lesquelles tu travailles, les besoins auxquels tu as accès. Pour ce livre, c'est aussi une attention au travail qui se fait en Afrique et mérite d'être regardé pour ce qu'il accomplit. Les références peuvent venir de partout. Leur intérêt se vérifie dans ce qu'elles t'aident à comprendre et à faire là où tu es.
 
-Cet ordre est une proposition de lecture. Tu peux enseigner quelque chose que tu viens d'apprendre, améliorer un système en débutant dans ton métier ou revenir à une question élémentaire après des années de pratique. Tu n'as pas à terminer une étape pour ouvrir une autre.
+## Partir de ce que tu peux faire
 
-Certaines actions ont des préalables concrets : avant d'automatiser une opération, il faut savoir vérifier son résultat. Les cartes expliquent ces liens dans leur contexte. Ils ne donnent pas un niveau général à une personne.
+Tu peux ouvrir ce livre avec un métier déjà solide, une envie de commencer ou une équipe à accompagner. Une pratique familière peut t'aider à transmettre un raisonnement que tu utilisais sans l'expliquer. Une difficulté qui revient peut donner une question à explorer. Une personne disponible pour une relecture peut rendre un premier essai possible.
 
-## Choisir un geste à ta portée
+Le support entend ce qui coince après l'utilisation. Le commerce connaît les questions qui précèdent un choix. Le design rend un usage compréhensible. La finance éclaire les engagements. Les opérations voient les passages de relais. L'ingénierie construit et entretient les systèmes. Chacune de ces places donne accès à une partie du problème. Dans un projet personnel ou associatif, une même personne peut en occuper plusieurs.
 
-Chaque carte propose une idée, une situation et une action. Commence par une force que tu veux développer ou une difficulté que tu peux examiner. Vérifie le temps nécessaire, les personnes concernées et l'accord éventuel à obtenir.
+Voici un exemple construit. Mariam aide une association à accueillir de nouveaux participants. Plusieurs arrivent au mauvais endroit. Elle regarde l'invitation avec une personne qui la découvre, repère une indication ambiguë et propose une autre formulation à l'organisateur. Ils conviennent de l'essayer au prochain rendez-vous. Après celui-ci, elle demande ce qui a encore posé problème et laisse le texte corrigé à la personne qui préparera l'invitation suivante.
 
-Suivre un résultat peut demander de l'aide ou une passation. Tu peux en répondre en rendant la suite claire, sans exécuter seul tout le travail. Un manque d'accès ou d'autorité est une condition à traiter avec qui peut la changer.
+Cet essai suffit pour exercer plusieurs capacités : écouter, comprendre, livrer, vérifier et transmettre. Si le message n'aide pas, Mariam dispose d'une nouvelle question. S'il aide, le service rendu a déjà de la valeur. Elle peut terminer sa contribution en convenant du relais, sans devenir responsable de toutes les invitations à venir.
 
-Choisis un fait à observer et un moment pour revenir le regarder. Ce qui s'est passé t'aidera à garder la pratique, à l'adapter ou à l'arrêter.
+## Dix capacités à travailler ensemble
 
-Pour commencer, les [quatre parcours](/chapters/00-choisir-ton-parcours.html) partent de ton intention. Le [mode d'emploi](/chapters/00-comment-lire-ce-livre.html) explique comment utiliser une carte seul, avec des pairs ou dans une équipe.
+Le livre commence par l'état d'esprit : ce qui permet de poser une question, recevoir un retour ou changer d'avis. Le métier donne des outils et du jugement pour transformer cette attention en travail solide. L'autonomie relie l'initiative à un problème compris et à un périmètre dans lequel tu peux décider.
+
+La compréhension élargit le regard aux personnes servies et aux effets de ton travail ailleurs. La livraison met une solution à l'épreuve de l'usage. L'ownership invite à suivre ce résultat, y compris lorsqu'il déçoit, et à rendre explicite la suite : corriger, demander de l'aide, arrêter ou passer la main.
+
+Les systèmes rendent la prochaine fois plus facile lorsque la répétition justifie cet effort. Le levier examine comment un travail utile peut produire davantage. Le leadership porte sur ce que tu rends possible pour les autres. La référence concerne ce qu'ils peuvent apprendre de ton travail : une méthode, une explication, un exemple ou une pratique transmise.
+
+Cet ordre propose un trajet de lecture. Ces capacités se développent ensemble et tu peux revenir à chacune selon ton besoin. Tu peux enseigner ce que tu viens d'apprendre ou découvrir une question élémentaire après des années de métier. Les sections donnent un cadre ; les cartes permettent de s'arrêter sur un sujet précis.
+
+## Lire une carte, essayer un geste
+
+Chaque carte porte une idée. Commence par sa situation, puis examine ce qui ressemble à la tienne et ce qui en diffère. Un principe aide à juger, un diagnostic à comprendre, une pratique à essayer un geste. Les cartes système, marquées ⇄, interrogent les conditions du travail : temps, accès, décisions, appuis ou reconnaissance. Elles peuvent servir à préparer une discussion avec la personne qui peut changer ces conditions.
+
+Tu peux lire dans l'ordre ou choisir une carte directement. Le bloc « Depuis ton siège », lorsqu'il apparaît, montre comment plusieurs rôles abordent le même sujet. Les scènes construites illustrent un raisonnement ; elles ne constituent pas des résultats de terrain. Tu peux garder, adapter ou écarter une proposition en expliquant ce que ton contexte change.
+
+Pour passer à la pratique, choisis un geste assez petit pour le temps disponible. Si d'autres personnes sont concernées, conviens avec elles du périmètre et des moyens. Prévois un fait à observer et un moment pour revenir le regarder. Le résultat t'aidera à décider de la suite. Une conversation, une note interne ou une passation peuvent conserver ce que tu as appris.
+
+Les parcours, ateliers, exemples et modèles sont disponibles sur le [site du livre](/livre/). Tu peux les consulter quand ils deviennent utiles. Pour l'instant, commence par cette attention simple : regarder ce qui se passe autour de toi et chercher ce que tu pourrais mieux comprendre.

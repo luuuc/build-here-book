@@ -1,10 +1,9 @@
 ---
-layout: chapter
+layout: landing
+landing_resource: true
+permalink: /parcours/
 title: "Choisir ton parcours"
 description: "Quatre façons de commencer, selon ce que tu veux faire"
-show_chapter_number: false
-part: "Introduction"
-order: 4
 metadata:
   reading_time_in_minutes: 5
 categories:
@@ -14,6 +13,8 @@ categories:
 seo:
   description: "Commencer à construire, progresser dans ta pratique, faire grandir ton équipe ou soutenir des builders : trois cartes et un premier essai pour chaque intention."
   keywords: "build here, builder, débuter, progresser, équipe, soutien, parcours"
+redirect_from:
+  - /chapters/00-choisir-ton-parcours.html
 ---
 
 Choisis ce que tu veux faire maintenant. Chaque parcours propose trois cartes : commence par celle qui te sera utile cette semaine. Tu peux changer de parcours selon le projet, les personnes et le temps dont tu disposes.
@@ -23,7 +24,7 @@ Choisis ce que tu veux faire maintenant. Chaque parcours propose trois cartes : 
 - [Je veux faire grandir mon équipe](#parcours-equipe)
 - [Je veux soutenir des builders](#parcours-soutenir)
 
-Si tu as déjà une difficulté précise en tête, l'[index par situation](/chapters/a5-ce-qui-tagace-cette-semaine.html) te mène directement aux cartes concernées. Tous ces chemins sont accessibles sans passer le test.
+Si tu as déjà une difficulté précise en tête, l'[index par situation](/situations/) te mène directement aux cartes concernées. Tous ces chemins sont accessibles sans passer le test.
 
 ## Je veux commencer
 {: #parcours-commencer }
@@ -40,7 +41,7 @@ Tu veux rendre quelque chose utile et tu cherches par où prendre le problème. 
 
 **Ce que tu regardes ensuite.** La personne a-t-elle trouvé le lieu ? Qu'a-t-elle encore dû demander ? Reprends le message à partir de sa réponse. Pour ton propre projet, choisis de la même façon un geste limité, un accord si tu touches au travail d'autrui et une occasion d'observer l'usage.
 
-**Un cas complet.** [Un premier essai utile](/chapters/a6-un-premier-essai-utile.html) montre la question, les deux versions du message, le critère d'arrêt et le retour, avec une fin explicite à l'aide apportée.
+**Un cas complet.** [Un premier essai utile](/premier-essai/) montre la question, les deux versions du message, le critère d'arrêt et le retour, avec une fin explicite à l'aide apportée.
 
 ## Je veux progresser
 {: #parcours-progresser }
@@ -57,7 +58,7 @@ Tu construis déjà. Pars d'une réalisation dont tu es satisfait, d'une difficu
 
 **Ce que tu regardes ensuite.** Après cette occasion, note ce que tu as gardé, changé ou écarté, et l'effet que tu as pu observer. Si le retour est encore inconnu, fixe le moment où tu pourras le chercher. Tu peux approfondir ton métier avec ce parcours, quel que soit ton rôle dans l'équipe.
 
-**Un cas complet.** [Améliorer sans tout reprendre](/chapters/a7-ameliorer-sans-tout-reprendre.html) part d'une pratique déjà solide et déroule une décision, un avant/après, un bilan limité et un relais accepté.
+**Un cas complet.** [Améliorer sans tout reprendre](/ameliorer-sa-pratique/) part d'une pratique déjà solide et déroule une décision, un avant/après, un bilan limité et un relais accepté.
 
 ## Je veux faire grandir mon équipe
 {: #parcours-equipe }
@@ -74,9 +75,9 @@ Tu veux que les personnes autour de toi puissent mieux comprendre, décider et a
 
 **Ce que vous regardez ensuite.** À la date convenue, reprenez la décision et son effet. La personne a-t-elle pu agir dans les limites annoncées ? Qu'est-ce qui a aidé ou bloqué ? Choisissez ensemble ce que vous gardez ou ajustez.
 
-**Un cas complet.** [Six semaines pour apprendre ensemble](/chapters/a8-six-semaines-pour-apprendre-ensemble.html) montre un journal de décisions et de résultats, un refus d'accès, une adaptation et un bilan.
+**Un cas complet.** [Six semaines pour apprendre ensemble](/apprendre-en-equipe/) montre un journal de décisions et de résultats, un refus d'accès, une adaptation et un bilan.
 
-Pour organiser plusieurs discussions, le livre propose aussi un [format de séance](/chapters/00-faire-tourner-ca-dans-ton-equipe.html).
+Pour organiser plusieurs discussions, le livre propose aussi un [format de séance](/atelier/).
 
 ## Je veux soutenir des builders
 {: #parcours-soutenir }
@@ -93,8 +94,8 @@ Tu vois la valeur de cette manière de travailler et tu veux lui donner plus de 
 
 **Ce que vous regardez ensuite.** L'aide a-t-elle été apportée ? Qu'a-t-elle permis d'essayer, de décider ou d'apprendre ? Demande à la personne si elle souhaite la poursuivre ou la modifier. Une transmission au sein de l'équipe peut suffire ; une publication reste un choix à discuter selon le projet.
 
-**Un soutien délimité.** Dans [Six semaines pour apprendre ensemble](/chapters/a8-six-semaines-pour-apprendre-ensemble.html), Nora apporte une relecture sans pouvoir hiérarchique. Son engagement a une limite et une fin. Les [modèles à adapter](/chapters/a9-modeles-pour-agir-et-revoir.html) comprennent une fiche de soutien et les supports des autres parcours.
+**Un soutien délimité.** Dans [Six semaines pour apprendre ensemble](/apprendre-en-equipe/), Nora apporte une relecture sans pouvoir hiérarchique. Son engagement a une limite et une fin. Les [modèles à adapter](/modeles/) comprennent une fiche de soutien et les supports des autres parcours.
 
 ---
 
-Tu peux garder une carte pour plus tard et revenir à ces parcours quand ton besoin change. Pour une difficulté précise, consulte l'[index par situation](/chapters/a5-ce-qui-tagace-cette-semaine.html). Pour explorer une pratique à partir de situations que tu as rencontrées ou aimerais découvrir, les [questions facultatives](https://build-here.africa/) restent une autre entrée.
+Tu peux garder une carte pour plus tard et revenir à ces parcours quand ton besoin change. Pour une difficulté précise, consulte l'[index par situation](/situations/). Pour explorer une pratique à partir de situations que tu as rencontrées ou aimerais découvrir, les [questions facultatives](https://build-here.africa/) restent une autre entrée.

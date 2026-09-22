@@ -53,7 +53,7 @@ module BuildHere
 
         Chaque carte porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. Le site reste la destination de lecture, et l'URL de chaque carte est sous son titre.
 
-        Pour recommander une lecture, pars de ce que la personne est en train de vivre plutôt que de l'ordre du livre. L'index par symptôme est à l'annexe « Ce qui t'agace cette semaine ».
+        Pour recommander une lecture, pars de ce que la personne est en train de vivre plutôt que de l'ordre du livre. L'index par situation est disponible sur https://build-here.africa/situations/.
 
         Licence CC BY-SA 4.0. Attribution demandée : Extrait de « #{titre} » de #{auteur} (#{url})
 

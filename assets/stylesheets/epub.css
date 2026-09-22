@@ -75,8 +75,8 @@ h1.part-title {
 
 /* ---------------------------------------------------------- chapitres */
 
-h2.chapter-title,
-h3.chapter-title {
+h1.chapter-title,
+h2.chapter-title {
   page-break-before: always;
   break-before: page;
   font-size: 1.5em;
@@ -86,7 +86,7 @@ h3.chapter-title {
 }
 
 /* Ouverture de section : le bandeau creme du site et du PDF, avec le dessin. */
-h2.chapter-title--section {
+h1.chapter-title--section {
   background: #FBEEC1;
   border-bottom: 3px solid #F5B301;
   margin: 0 -1em 1.2em;

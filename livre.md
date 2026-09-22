@@ -34,15 +34,15 @@ Trois cartes et un premier essai selon ce que tu veux faire maintenant :
 
 {% include parcours.html %}
 
-Une situation précise en tête ? L'[index par situation](/chapters/a5-ce-qui-tagace-cette-semaine.html) mène directement aux cartes concernées. Pour explorer sans besoin déjà défini, les [questions facultatives du test](/) aident à choisir une piste, sans score. Tu peux aussi [commencer par l'introduction](/chapters/00-introduction.html).
+Une situation précise en tête ? L'[index par situation](/situations/) mène directement aux cartes concernées. Pour explorer sans besoin déjà défini, les [questions facultatives du test](/) aident à choisir une piste, sans score. Tu peux aussi [commencer par l'introduction](/chapters/00-introduction.html).
 
 ## Passer de la lecture à un essai
 
 Choisis une seule pratique. Précise ce que tu peux essayer, les accords ou appuis nécessaires, le temps disponible et le travail que cet effort déplace. Le livre n'exige pas de compenser seul une condition manquante.
 
-Les [exemples et modèles](/chapters/a9-modeles-pour-agir-et-revoir.html) montrent comment préparer un essai, observer un résultat et convenir d'une fin ou d'un relais. Les cas sont construits ; ils illustrent une démarche, sans promettre le même résultat chez toi.
+Les [exemples et modèles](/modeles/) montrent comment préparer un essai, observer un résultat et convenir d'une fin ou d'un relais. Les cas sont construits ; ils illustrent une démarche, sans promettre le même résultat chez toi.
 
-Pour un groupe, le [guide d'atelier](/chapters/00-faire-tourner-ca-dans-ton-equipe.html) propose une séance volontaire et un retour adapté. Un supporter peut apporter une relecture, du temps ou un accès convenu, sans diriger le travail.
+Pour un groupe, le [guide d'atelier](/atelier/) propose une séance volontaire et un retour adapté. Un supporter peut apporter une relecture, du temps ou un accès convenu, sans diriger le travail.
 
 ## Lire, emporter, adapter
 

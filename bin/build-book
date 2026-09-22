@@ -45,8 +45,8 @@ if [ "$what" = all ] || [ "$what" = pdf ]; then
 fi
 
 if [ "$what" = all ] || [ "$what" = epub ]; then
-  # --split-level=2 : un fichier par partie et par section, les entrees dedans.
-  # --toc-depth=3   : la navigation reprend parties > sections > entrees.
+  # --split-level=1 : un fichier par section, les cartes dedans.
+  # --toc-depth=2   : la navigation reprend sections > cartes.
   pandoc "$site/epub.html" \
     --from=html \
     --to=epub3 \
@@ -61,8 +61,8 @@ if [ "$what" = all ] || [ "$what" = epub ]; then
     --epub-embed-font=assets/fonts/Merriweather-BoldItalic.ttf \
     --epub-embed-font=assets/fonts/Archivo-Regular.ttf \
     --epub-embed-font=assets/fonts/Archivo-Bold.ttf \
-    --split-level=2 \
-    --toc-depth=3 \
+    --split-level=1 \
+    --toc-depth=2 \
     --output="$out/$name.epub"
   echo "$out/$name.epub"
 fi

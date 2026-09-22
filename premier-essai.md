@@ -1,19 +1,20 @@
 ---
-layout: "chapter"
+layout: landing
+landing_resource: true
+permalink: /premier-essai/
 title: "Un premier essai utile"
 description: "De la question à un résultat observé, sans emploi ni équipe"
-show_chapter_number: false
-part: "Annexes"
-order: 1206
 metadata:
   reading_time_in_minutes: 4
 categories:
-  - annexes
+  - ressources
   - pratique
   - apprentissage
 seo:
   description: "De la question à un résultat observé, sans emploi ni équipe"
   keywords: "build here, builder, exemples, pratique, modèles, apprentissage"
+redirect_from:
+  - /chapters/a6-un-premier-essai-utile.html
 ---
 
 Ce cas est **entièrement construit**. Les personnes, les observations et les nombres sont fictifs. Ils montrent comment préparer et relire un essai, sans promettre le même résultat ailleurs.
@@ -72,4 +73,4 @@ Idriss accepte de conserver le modèle et de vérifier les indications avant cha
 
 Pour ton premier essai, garde la même logique avec un besoin accessible : une personne, une question, un accord, un geste limité et un retour. Si le premier contact refuse ou n'a pas le temps, cherche une autre occasion acceptée ; le refus n'est pas un échec personnel.
 
-Les [modèles à adapter](/chapters/a9-modeles-pour-agir-et-revoir.html) permettent de préparer ton propre essai. Les cartes [Parle à la personne qui a le problème](/chapters/04-01-parle-a-la-personne-qui-a-le-probleme.html) et [Prévois quand vérifier le résultat](/chapters/06-02-reviens-voir-un-mois-plus-tard.html) en expliquent les choix.
+Les [modèles à adapter](/modeles/) permettent de préparer ton propre essai. Les cartes [Parle à la personne qui a le problème](/chapters/04-01-parle-a-la-personne-qui-a-le-probleme.html) et [Prévois quand vérifier le résultat](/chapters/06-02-reviens-voir-un-mois-plus-tard.html) en expliquent les choix.

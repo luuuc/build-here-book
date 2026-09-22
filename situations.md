@@ -1,21 +1,21 @@
 ---
-layout: chapter
+layout: landing
+landing_resource: true
+permalink: /situations/
 title: "Ce qui t'agace cette semaine"
 description: "L'index, par situation"
-show_chapter_number: false
-part: "Annexes"
 # L'index est la ou on explore le livre. /explore y mene, et le filtre
 # s'ajoute au chargement : le markdown reste propre, le PDF et l'EPUB
 # ne voient rien.
 filtre_symptomes: true
 redirect_from:
+  - /chapters/a5-ce-qui-tagace-cette-semaine.html
   - /explore
   - /explore.html
-order: 1205
 metadata:
   reading_time_in_minutes: 4
 categories:
-  - annexes
+  - ressources
   - methode
   - references
 seo:
@@ -27,7 +27,7 @@ Cet index part de situations et d'envies de progresser. Une ligne propose une ou
 
 Tu peux chercher une difficulté, une force à approfondir ou un appui à proposer. Les quatre-vingt-cinq cartes sont accessibles ici, chacune au moins une fois, sans classement par importance ni ordre obligatoire.
 
-Pour un premier essai sans emploi ni équipe, pour approfondir une pratique, développer un groupe ou soutenir quelqu'un, les [quatre parcours](/chapters/00-choisir-ton-parcours.html) offrent aussi des entrées directes.
+Pour un premier essai sans emploi ni équipe, pour approfondir une pratique, développer un groupe ou soutenir quelqu'un, les [quatre parcours](/parcours/) offrent aussi des entrées directes.
 
 ---
 

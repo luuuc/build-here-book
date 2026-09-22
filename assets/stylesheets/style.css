@@ -1672,3 +1672,15 @@ sup a {
   white-space: nowrap;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
+
+/* Le menu du site reste court ; le sommaire du livre garde sa hiérarchie. */
+.nav-menu--site > li { margin-bottom: 0.6rem; }
+.nav-menu--site .nav-site-group { margin-top: 1.25rem; }
+.nav-menu--site .nav-submenu { padding-left: 1rem; }
+.nav-menu--site a[aria-current="page"] {
+  color: #8A6100;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #F5B301;
+  text-underline-offset: 0.3em;
+}
