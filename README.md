@@ -41,7 +41,7 @@ Aucun gabarit ne porte de mot. Les chaînes de l'interface, le sommaire, les lib
 
 Le français garde ses adresses sans préfixe : la traduction n'a déplacé aucun lien déjà publié.
 
-Les règles du questionnaire ne sont écrites qu'une fois, dans `assets/javascripts/test-builder-model.js`. Il ne contient aucune phrase : `creer(contenu)` reçoit le contenu de la langue chargée. `bin/verifier-test-builder _site fr` et `… en` font tourner les mêmes 160 combinaisons sur chacun.
+Les règles du questionnaire ne sont écrites qu'une fois, dans `assets/javascripts/test-builder-model.js`. Il ne contient aucune phrase : `creer(contenu)` reçoit le contenu de la langue chargée. `bin/verifier-test-builder _site fr` et `… en` font tourner les mêmes règles de niveau et les mêmes 160 combinaisons de pistes sur chacun.
 
 Une page qui a une jumelle dans l'autre langue la déclare dans son front matter. Le sélecteur de langue de l'en-tête et les balises `hreflang` lisent la même clé :
 
@@ -70,9 +70,9 @@ Les [quatre parcours](https://build-here.africa/parcours/) et l'[index par situa
 
 ## Choisir une pratique
 
-Le [questionnaire facultatif](https://build-here.africa/) propose dix étapes de six affirmations, une par capacité du livre. Chaque affirmation utilise six positions d'accord, avec des options séparées pour une situation jamais rencontrée ou des conditions manquantes.
+Le [questionnaire facultatif](https://build-here.africa/) pose cinquante questions, cinq par capacité du livre : des habitudes liées à un moment, des questions vérifiables, cinq « à quand remonte la dernière fois » dans tout le test, puis une « la dernière fois » et une situation par capacité. Deux réponses restent hors calcul : la situation ne s'est pas présentée, ou le cadre ne le permettait pas.
 
-Le résultat présente les gestes que le lecteur reconnaît dans sa pratique, reconnaît moins ou souhaite explorer, sans score global ni classement des personnes. Le lecteur choisit sa piste. Les réponses restent dans la mémoire de la page, sans envoi au service d'évaluation ni stockage persistant. Copier la piste permet de conserver le geste, ses limites, son suivi et les liens de lecture. La [méthode publique](https://build-here.africa/methode-du-test/) expose les limites de cette proposition éditoriale.
+Le résultat donne un niveau de builder de 1 à 5, l'étape où la pratique est solide et la réponse qui retient à l'étape suivante. Les seuils sont provisoires, fixés à la main à partir du livre. Une étape limitée par le cadre ne baisse pas le niveau. Le lecteur choisit ensuite sa piste. Rien n'est envoyé au service d'évaluation. Les réponses ne sont gardées que si le lecteur coche la case prévue, dans son navigateur, sous une seule clé ; le passage suivant montre alors ce qui a bougé. Copier la piste permet de conserver le geste, ses limites, son suivi et les liens de lecture. La [méthode publique](https://build-here.africa/methode-du-test/) expose les limites de cette proposition éditoriale.
 
 Le [guide d'atelier](https://build-here.africa/atelier/) prévoit une participation volontaire, une séance adaptable et un retour sur ce qui a changé. Le test individuel n'est pas un préalable et ne doit pas servir à classer l'équipe.
 
@@ -110,7 +110,7 @@ node bin/verifier-test-builder _site
 
 Le linter donne un avis de format ; il ne valide pas le jugement éditorial. « Depuis ton siège » est facultatif, sans liste fermée de rôles ni nombre de lignes imposé. La pertinence des conseils, des limites et des exemples reste une relecture humaine.
 
-Pour vérifier l'interface, ouvre le site local avec `agent-browser`, puis exécute `agent-browser eval --stdin < bin/verifier-test-builder-browser.js`. Ce script parcourt le vrai questionnaire et simule seulement les issues du presse-papiers. Les résultats historiques du test à scores restent documentés dans `worker/README.md` ; le client actuel ne les alimente plus.
+Pour vérifier l'interface, ouvre le site local avec `agent-browser`, puis exécute `agent-browser eval --stdin < bin/verifier-test-builder-browser.js`. Ce script parcourt le vrai questionnaire et simule seulement les issues du presse-papiers. Les résultats historiques de l'ancien test à scores restent documentés dans `worker/README.md` ; le client actuel ne les alimente plus.
 
 Les fichiers de `docs/` relatifs à l'ancien test sont conservés comme archives de conception et signalés comme tels. Ils ne définissent pas le questionnaire actuel.
 

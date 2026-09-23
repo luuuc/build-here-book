@@ -58,7 +58,7 @@ traductions:
     <h2 class="bloc-titre">Choose your path</h2>
     <p class="bloc-texte">Three cards and a first attempt, according to what you want to do now.</p>
     {% include parcours.html %}
-    <p class="bloc-apres">Have a precise situation in mind? The <a href="/en/situations/">index by situation</a> takes you straight to the cards involved. To explore with no need yet defined, the <a href="/en/">optional test questions</a> help you pick a line of work, with no score.</p>
+    <p class="bloc-apres">Have a precise situation in mind? The <a href="/en/situations/">index by situation</a> takes you straight to the cards involved. To explore with no need yet defined, the <a href="/en/">builder test</a> gives your level and helps you pick a line of work.</p>
   </div>
 </section>
 

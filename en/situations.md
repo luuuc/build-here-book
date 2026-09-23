@@ -146,4 +146,4 @@ For a first attempt with no job and no team, to deepen a practice, to grow a gro
 
 ---
 
-If no line matches, open the [full contents](https://build-here.africa/en/book/#contents). The [optional test questions](https://build-here.africa/en/) can also help you choose a line of work, with no score and without answering all thirty questions.
+If no line matches, open the [full contents](https://build-here.africa/en/book/#contents). The [builder test](https://build-here.africa/en/) can also help: it gives your level and suggests a line of work.

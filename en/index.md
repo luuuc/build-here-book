@@ -13,13 +13,13 @@ categories:
   - pratiques
 
 seo:
-  description: Are you a builder? A ten-step test to explore how you build and choose a practice to try. No account, no ranking.
+  description: Are you a builder? A ten-step test to find your builder level and choose a practice to try. No account.
   keywords: builder test, build here, book, team, builders, ownership, autonomy, leadership
 
 # Le titre ne s'affiche pas sur la page : le layout `landing` n'a pas de
 # bandeau de titre. Il sert a l'onglet, aux moteurs et au partage.
 title: Are you a builder?
-description: Ten steps to explore how you build and find something to try, with no ranking.
+description: Ten steps to find your builder level and something to try.
 ---
 
 {%- assign entrees = site.chapters_en | where_exp: "c", "c.metadata.principle" -%}
@@ -33,12 +33,12 @@ description: Ten steps to explore how you build and find something to try, with 
           <div>
             <p class="bloc-surtitre">The builder test · 10 steps · no account</p>
             <h1 class="hero-titre">Are you a builder?</h1>
-            <p class="hero-accroche">You do not need to code, to run a team, or to have launched anything. Find out how you get from a problem to something useful, and what you could try next.</p>
+            <p class="hero-accroche">You do not need to code, to run a team, or to have launched anything. Find out your builder level, what it rests on, and what you could try next.</p>
             <p class="hero-actions"><button type="button" class="bouton" data-test-start hidden>Take the test →</button></p>
             <ul class="preuve">
-              <li><strong>10</strong> minutes</li>
+              <li><strong>12</strong> minutes</li>
               <li><strong>0</strong> account</li>
-              <li><strong>0</strong> score</li>
+              <li><strong>5</strong> levels</li>
               <li>your answers stay here</li>
             </ul>
           </div>
@@ -74,13 +74,13 @@ description: Ten steps to explore how you build and find something to try, with 
       <div class="grille grille--trois">
         <div class="pas">
           <img src="/assets/images/sections/curiosite.svg" alt="" width="120" height="120" />
-          <h3>You answer statements</h3>
-          <p>Ten capabilities, six statements each. You can say a situation never came up, or that the conditions were missing.</p>
+          <h3>You answer simple questions</h3>
+          <p>Ten steps, five questions each, about what you did in recent months. You can say a situation didn't come up, or that your setting didn't allow it.</p>
         </div>
         <div class="pas">
           <img src="/assets/images/sections/escalier.svg" alt="" width="120" height="120" />
-          <h3>You see where you stand</h3>
-          <p>A reading of your answers, capability by capability, with what you could deepen or revisit.</p>
+          <h3>You see your level</h3>
+          <p>A level from 1 to 5, the step where your practice is solid, and the answer that holds you back at the next step.</p>
         </div>
         <div class="pas">
           <img src="/assets/images/sections/execution.svg" alt="" width="120" height="120" />
@@ -94,9 +94,9 @@ description: Ten steps to explore how you build and find something to try, with 
   <section class="bloc bloc--surface">
     <div class="colonne colonne--prose">
       <p class="bloc-surtitre">What you get</p>
-      <h2 class="bloc-titre">A reading of your practice, not a label.</h2>
-      <p class="bloc-texte">Capability by capability, the test shows the moves you recognise in your work, the ones you recognise less, and the ones where the conditions were missing. It compares you with nobody and gives you no overall mark and no type. Sixty answers about your own week cannot measure a level, and the book does not believe being a builder is like being tall.</p>
-      <p class="bloc-texte">Your answers stay in this page. They disappear when you leave it or reload, and nothing is sent anywhere. No account, no address to hand over.</p>
+      <h2 class="bloc-titre">A level you can check.</h2>
+      <p class="bloc-texte">The test asks what you did, not what you think of yourself: what you usually do, what you did the last time, what is better to do. Your level comes from those answers, and the result quotes the one that holds you back. What your setting didn't allow doesn't lower your level. The cut-offs are still provisional, and the level is meant to move: take the test again in three months.</p>
+      <p class="bloc-texte">Nothing is sent anywhere. Your answers disappear when you leave the page, unless you choose to keep them on your device to see what moved next time. No account, no address to hand over.</p>
       <a class="bouton bouton--contour" href="/en/test-method/">How the test works →</a>
     </div>
   </section>

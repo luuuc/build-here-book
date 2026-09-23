@@ -58,7 +58,7 @@ traductions:
     <h2 class="bloc-titre">Choisir ton parcours</h2>
     <p class="bloc-texte">Trois cartes et un premier essai selon ce que tu veux faire maintenant.</p>
     {% include parcours.html %}
-    <p class="bloc-apres">Une situation précise en tête ? L'<a href="/situations/">index par situation</a> mène directement aux cartes concernées. Pour explorer sans besoin déjà défini, les <a href="/">questions facultatives du test</a> aident à choisir une piste, sans score.</p>
+    <p class="bloc-apres">Une situation précise en tête ? L'<a href="/situations/">index par situation</a> mène directement aux cartes concernées. Pour explorer sans besoin déjà défini, le <a href="/">test du builder</a> donne ton niveau et t'aide à choisir une piste.</p>
   </div>
 </section>
 

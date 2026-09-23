@@ -25,143 +25,171 @@ const cartes = lang === "fr" ? "_chapters" : `_chapters_${lang}`;
 const accueil = lang === "fr" ? "index.html" : join(lang, "index.html");
 const parcours = lang === "fr" ? "parcours" : join(lang, "paths");
 const ancre = lang === "fr" ? "parcours-" : "path-";
-// Les controles editoriaux portent sur des mots, donc sur une langue. Les
-// memes regles, les mots de chaque contenu.
+// Les controles editoriaux portent sur des mots, donc sur une langue.
 const mots = {
-  fr: { exempleConstruit: /exemple construit/, premierEssai: /premier essai/,
-        ressourceExplication: /ressource ou une explication/, aClarifier: /clarifier/,
-        conditionTemps: "Temps ou priorité", conditionAccord: "Accord ou droit de décision",
-        dansTesMoyens: /dans tes moyens/, sansDeduction: /sans déduction/,
-        volontaires: /participants volontaires/, questionMethode: /Repense à une méthode que tu as apprise/ },
-  en: { exempleConstruit: /constructed example/, premierEssai: /first attempt/,
-        ressourceExplication: /resource or an explanation/, aClarifier: /clarified/,
-        conditionTemps: "Time or priority", conditionAccord: "Agreement or the right to decide",
-        dansTesMoyens: /inside your means/, sansDeduction: /nothing inferred/,
-        volontaires: /willing participants/, questionMethode: /Think of a method you learned/ }
+  fr: { premierEssai: /premier essai/, volontaires: /participants volontaires/, dansTesMoyens: /dans tes moyens/ },
+  en: { premierEssai: /first attempt/, volontaires: /willing participants/, dansTesMoyens: /inside your means/ }
 }[lang];
 let checks = 0;
 function check(name, run) { run(); checks++; }
-check("60 affirmations et échelle à six positions", () => {
+const mots_ = (text) => text.split(/\s+/).filter(Boolean).length;
+const tout = (valeur) => Object.fromEntries(model.questions.map((q) => [q.id, valeur]));
+const etape = (reponses, id, valeur) => {
+  for (const q of model.questions.filter((q) => q.capabilityId === id)) reponses[q.id] = valeur;
+  return reponses;
+};
+check("50 questions, cinq par étape, options de 0 à 3, formats variés", () => {
   assert.equal(model.capabilities.length, 10);
-  assert.equal(model.scale.length, 6);
-  for (const capability of model.capabilities) {
-    assert.equal(model.statements[capability.id].length, 6);
-    assert.equal(new Set(model.statements[capability.id]).size, 6);
+  assert.equal(model.questions.length, 50);
+  assert.equal(new Set(model.questions.map((q) => q.id)).size, 50);
+  for (const c of model.capabilities) {
+    const qs = model.questions.filter((q) => q.capabilityId === c.id);
+    assert.equal(qs.length, 5, c.id);
+    assert(qs.filter((q) => q.kind === "recence").length <= 1, c.id);
+    assert.equal(qs.filter((q) => q.kind === "derniere-fois").length, 1, c.id);
+    assert.equal(qs.filter((q) => q.kind === "situation").length, 1, c.id);
   }
-  const sample = { "mindset-1": "unseen", "mindset-2": "blocked", "mindset-3": 5, "mindset-4": 5, "mindset-5": 5, "mindset-6": 5 };
-  const first = model.profile(sample)[0];
-  assert.equal(first.answered, 4);
-  assert.equal(first.unexplored, 1);
-  assert.equal(first.blocked, 1);
-  assert.equal(first.direction, "deepen");
-  assert.equal(model.profile({})[0].direction, "discover");
+  for (const q of model.questions) {
+    assert.deepEqual(model.options(q).map((o) => o.value).sort(), [0, 1, 2, 3], q.id);
+    assert.equal(new Set(model.options(q).map((o) => o.label)).size, 4, q.id);
+  }
+  assert.deepEqual(model.horsEchelle.map((o) => o.id), ["unseen", "blocked"]);
+  // Aucune fenetre de temps fixe, et les « a quand remonte » restent rares.
+  assert.equal(model.questions.filter((q) => q.kind === "recence").length, 5);
+  for (const q of model.questions) assert.doesNotMatch(q.text, /trois derniers mois|last three months/, q.id);
+  // Deux questions voisines ne commencent pas par les memes mots.
+  const debut = (q) => q.text.split(/\s+/).slice(0, 3).join(" ");
+  model.questions.forEach((q, i) => { if (i) assert.notEqual(debut(q), debut(model.questions[i - 1]), q.id); });
+});
+check("Des questions faciles à lire", () => {
+  for (const q of model.questions) {
+    assert(mots_(q.text) <= 25, `question trop longue : ${q.id}`);
+    for (const o of model.options(q)) assert(mots_(o.label) <= 12, `option trop longue : ${q.id} ${o.label}`);
+  }
+});
+check("Un geste par question, une phrase et un plan par étape", () => {
+  for (const q of model.questions) assert(q.geste && mots_(q.geste) <= 12, `geste : ${q.id}`);
+  for (const c of model.capabilities) {
+    assert(c.phrase && mots_(c.phrase) <= 10, `phrase : ${c.id}`);
+    assert(c.plan && mots_(c.plan) <= 35, `plan : ${c.id}`);
+  }
+});
+check("Une étape en cours coche les gestes déjà là", () => {
+  const r = tout("3");
+  ["delivery-1", "delivery-2", "delivery-3"].forEach((id) => { r[id] = "1"; });
+  const l = model.level(r);
+  assert.equal(l.niveau, 10);
+  assert.equal(l.suivante.capability.id, "delivery");
+  assert.deepEqual(l.prochaine.map((g) => g.fait), [false, false, false, true, true]);
+  assert.deepEqual(l.freins.map((f) => f.id), ["delivery-1", "delivery-2", "delivery-3"]);
+});
+check("Ce qui a bougé depuis le dernier passage", () => {
+  const avant = etape(etape(tout("3"), "ownership", "0"), "systems", "0");
+  const apres = tout("3");
+  const c = model.compare(avant, apres);
+  assert.equal(c.avant, 5);
+  assert.equal(c.apres, 10);
+  assert.equal(c.gagnes.length, 10);
+  assert.deepEqual(model.compare(apres, apres).gagnes, []);
+  const bloque = etape(etape(etape(tout("3"), "craft", "blocked"), "autonomy", "blocked"), "leverage", "blocked");
+  assert.equal(model.compare(bloque, apres), null);
+});
+check("Cinq paliers qui couvrent les étapes 0 à 10", () => {
+  assert.equal(model.paliers.length, 5);
+  for (let n = 0; n <= 10; n++) assert.equal(model.paliers.filter((p) => n >= p.min && n <= p.max).length, 1, `étape ${n}`);
+});
+check("Niveau aux extrêmes", () => {
+  const haut = model.level(tout("3"));
+  assert.equal(haut.niveau, 10);
+  assert.equal(haut.palier.numero, 5);
+  assert.equal(haut.suivante, null);
+  assert.deepEqual(haut.freins, []);
+  assert.equal(haut.forces.length, 2);
+  assert.equal(haut.forces[0].id.startsWith("reference"), true);
+  const bas = model.level(tout("0"));
+  assert.equal(bas.niveau, 0);
+  assert.equal(bas.palier.numero, 1);
+  assert.equal(bas.suivante.step, 1);
+  assert.equal(bas.freins.length, 3);
+  assert.equal(bas.freins[0].reponse, model.options(model.questions[0])[0].label);
+  assert.equal(bas.prochaine.filter((g) => g.fait).length, 0);
+  assert.deepEqual(bas.forces, []);
+  const vide = model.level(tout("unseen"));
+  assert.equal(vide.niveau, 0);
+  assert(vide.steps.every((s) => s.status === "unseen"));
+  // Des 2 partout ne suffisent pas : une etape solide demande au moins une reponse du haut.
+  assert.equal(model.level(tout("2")).niveau, 0);
+});
+check("Un trou toléré, deux non, et le trou est nommé", () => {
+  const un = model.level(etape(tout("3"), "understanding", "0"));
+  assert.equal(un.niveau, 10);
+  assert.equal(un.trou.capability.id, "understanding");
+  assert.equal(un.suivante.capability.id, "understanding");
+  assert(un.forces.every((f) => !f.id.startsWith("understanding")));
+  const deux = model.level(etape(etape(tout("3"), "understanding", "0"), "systems", "0"));
+  assert.equal(deux.niveau, 6);
+  assert.equal(deux.trou.capability.id, "understanding");
+  assert.deepEqual(deux.frontiere.map((s) => s.step), [8, 9, 10]);
+  assert.equal(deux.suivante.capability.id, "systems");
+  assert.equal(deux.freins.length, 3);
+  assert.equal(deux.prochaine.length, 5);
+});
+check("Le cadre ne baisse pas le niveau", () => {
+  const r = etape(etape(tout("3"), "autonomy", "blocked"), "leverage", "blocked");
+  const l = model.level(r);
+  assert.equal(l.niveau, 10);
+  assert.equal(l.trou, null);
+  assert.deepEqual(l.bloquees.map((s) => s.capability.id), ["autonomy", "leverage"]);
+  const trop = model.level(etape(r, "craft", "blocked"));
+  assert.equal(trop.niveau, null);
+  assert.equal(trop.palier, null);
+  assert.equal(model.level(r).steps.find((s) => s.capability.id === "autonomy").mode, "blocked");
+});
+check("La dernière fois compte plus qu'une moyenne", () => {
+  const r = tout("3");
+  r["delivery-4"] = "1";
+  const s = model.profile(r).find((s) => s.capability.id === "delivery");
+  assert.equal(s.status, "partial");
+  assert.equal(model.level(r).trou.capability.id, "delivery");
+});
+check("Trois réponses notées minimum par étape", () => {
+  const r = tout("3");
+  ["mindset-1", "mindset-2", "mindset-3"].forEach((id) => { r[id] = "unseen"; });
+  assert.equal(model.profile(r)[0].status, "unseen");
+  r["mindset-3"] = "3";
+  assert.equal(model.profile(r)[0].status, "solid");
 });
 const start = (intent = "start") => model.setIntent(model.initialState(), intent);
-const fill = (mode) => model.questions.reduce((s, q) => model.answer(s, q.id, mode), start());
-check("30 questions uniques et 10 capacités indépendantes", () => {
-  assert.equal(model.questions.length, 30);
-  assert.equal(new Set(model.questions.map((q) => q.id)).size, 30);
-  assert.equal(model.capabilities.length, 10);
-  for (const c of model.capabilities) assert.equal(model.questions.filter((q) => q.capabilityId === c.id).length, 3);
-});
-check("Aucune déduction en absence de réponse ou de sujet pertinent", () => {
-  for (const state of [start(), fill("skip"), fill("outside")]) {
-    assert.deepEqual(model.candidates(state), []);
-    assert.equal(model.plan(state), null);
-  }
-});
-check("Aucune sélection automatique ni classement", () => {
-  for (const mode of model.modes) {
-    const state = fill(mode);
-    assert.equal(model.candidates(state).length, 30);
-    assert.equal(model.plan(state), null);
-    const result = model.plan(model.select(state, model.candidates(state)[29]));
-    // La derniere candidate est la derniere question, donc la derniere capacite.
-    assert(result.title.includes(model.capabilities.at(-1).name));
-    assert.equal(Boolean(result.appui), mode === "deepen");
-    assert.doesNotMatch(result.title + result.reason, /niveau|%|maîtris|première marche|level|score|mastery/);
-  }
-});
-check("Trois premiers essais sans faux appui", () => {
-  let s = start();
-  for (const q of model.questions.slice(0, 3)) s = model.answer(s, q.id, "discover");
-  const p = model.plan(model.select(s, model.candidates(s)[0]));
-  assert.equal(p.appui, null);
-  assert.match(p.fields[1][1], mots.exempleConstruit);
-  assert.match(p.resources[0].title, mots.premierEssai);
-});
-check("Besoins mixtes conservés, aucun prérequis", () => {
-  let s = model.answer(start(), "mindset-1", "revisit");
-  s = model.answer(s, "mindset-2", "deepen");
-  s = model.answer(s, "mindset-3", "blocked");
-  s = model.answer(s, "reference-3", "deepen");
-  assert.equal(model.candidates(s).length, 4);
-  const p = model.plan(model.select(s, model.candidates(s)[3]));
-  assert.match(p.appui, mots.ressourceExplication);
-});
-check("Conditions facultatives, multiples et nettoyées", () => {
-  let s = model.answer(start("support"), "leadership-1", "blocked");
-  const choose = (s) => model.plan(model.select(s, model.candidates(s)[0]));
-  assert.match(choose(s).fields[3][1], mots.aClarifier);
-  s = model.answer(s, "leadership-1", "blocked", ["time", "authority", "time", "invalid"]);
-  assert.deepEqual(s.answers["leadership-1"].conditions, ["time", "authority"]);
-  const p = choose(s);
-  assert(p.fields[3][1].includes(mots.conditionTemps));
-  assert(p.fields[3][1].includes(mots.conditionAccord));
-  assert.match(p.fields[2][1], mots.dansTesMoyens);
-  assert.equal(p.cards[0].url, model.capabilities.find((c) => c.id === "leadership").cards[2].url);
-  s = model.select(s, model.candidates(s)[0]);
-  s = model.answer(s, "leadership-1", "deepen");
-  assert.deepEqual(s.answers["leadership-1"].conditions, []);
-  assert.equal(model.plan(s), null);
-});
-check("160 combinaisons directes capacité, mode, intention", () => {
+check("160 combinaisons étape, mode, intention", () => {
   for (const intent of model.intentions) for (const c of model.capabilities) for (const mode of model.modes) {
     const p = model.plan(model.select(start(intent.id), { capabilityId: c.id, mode }));
-    assert.match(p.reason, mots.sansDeduction);
     assert.equal(p.cards.length, 3);
     assert.equal(p.fields.length, 7);
     assert.equal(p.intent, intent.label);
-    assert.equal(p.appui, null);
     assert(p.resources.some((r) => r.url === intent.resource.url));
-    // Le premier essai est ressource de l'intention « commencer » : son adresse
-    // change de langue, sa place dans la piste non.
     if (mode === "discover") assert(p.resources.some((r) => r.url === model.intentions[0].resource.url));
+    if (mode === "blocked") assert.equal(p.cards[0].url, c.cards[2].url);
   }
 });
-check("Changement d'intention et recommencement", () => {
-  let s = model.answer(start(), "craft-1", "deepen");
-  s = model.select(s, model.candidates(s)[0]);
-  s = model.setIntent(s, "team");
+check("Intention requise et recommencement", () => {
+  assert.equal(model.plan(start()), null);
+  assert.throws(() => model.select(model.initialState(), { capabilityId: "craft", mode: "deepen" }));
+  assert.throws(() => model.select(start(), { capabilityId: "inconnue", mode: "deepen" }));
+  const s = model.setIntent(model.select(start(), { capabilityId: "craft", mode: "deepen" }), "team");
   assert.equal(model.plan(s), null);
-  assert.equal(model.candidates(s).length, 1);
-  const p = model.plan(model.select(s, model.candidates(s)[0]));
+  const p = model.plan(model.select(s, { capabilityId: "craft", mode: "deepen" }));
   assert.match(p.fields[2][1], mots.volontaires);
-  assert.equal(model.initialState().intent, null);
-  assert.deepEqual(model.initialState().answers, {});
+  const soutien = model.plan(model.select(start("support"), { capabilityId: "leadership", mode: "blocked" }));
+  assert.match(soutien.fields[2][1], mots.dansTesMoyens);
+  const debut = model.plan(model.select(start("team"), { capabilityId: "reference", mode: "discover" }));
+  assert(debut.resources.some((r) => mots.premierEssai.test(r.title)));
 });
-check("Le choix manuel ne reprend pas des conditions d'un autre exemple", () => {
-  const s = model.answer(start(), "craft-1", "blocked", ["time"]);
-  const p = model.plan(model.select(s, { capabilityId: "reference", mode: "blocked" }));
-  assert(!p.fields[3][1].includes(mots.conditionTemps));
-});
-check("Copie complète et limitée à la piste retenue", () => {
-  let s = model.answer(start("support"), "leadership-1", "blocked", ["access"]);
-  s = model.answer(s, "craft-2", "revisit");
-  const p = model.plan(model.select(s, model.candidates(s).find((c) => c.questionId === "leadership-1")));
+check("Copie complète de la piste", () => {
+  const p = model.plan(model.select(start("support"), { capabilityId: "leadership", mode: "blocked" }));
   const copy = model.copyText(p, "https://example.test");
   for (const [title, value] of p.fields) { assert(copy.includes(title)); assert(copy.includes(value)); }
   for (const card of [...p.cards, ...p.resources]) assert(copy.includes(`https://example.test${card.url}`));
   assert(copy.includes(p.reason));
-  assert.doesNotMatch(copy, mots.questionMethode);
-});
-check("Ancienne sélection invalidée quand une réponse change", () => {
-  let s = model.answer(start(), "mindset-1", "revisit");
-  const candidate = model.candidates(s)[0];
-  s = model.select(s, candidate);
-  s = model.answer(s, "mindset-1", "outside");
-  assert.equal(model.plan(s), null);
-  assert.throws(() => model.select(s, candidate));
 });
 const source = (file) => readFileSync(join(root, file), "utf8");
 check("Titres, types et URL des recommandations", () => {
@@ -178,9 +206,12 @@ check("Titres, types et URL des recommandations", () => {
     assert(route.includes(`id="${ancre}${intent.anchor}"`));
   }
 });
-check("Aucun calcul historique, envoi ou stockage persistant dans le questionnaire", () => {
+check("Aucun envoi, et un seul stockage : celui que le lecteur choisit", () => {
   const js = source("assets/javascripts/test-builder.js") + source("assets/javascripts/test-builder-model.js") + source(`assets/javascripts/${contenu}`);
-  assert.doesNotMatch(js, /\bfetch\s*\(|XMLHttpRequest|sendBeacon|\.setItem\s*\(|sessionStorage|\breached\b|\bscores\b/);
+  assert.doesNotMatch(js, /\bfetch\s*\(|XMLHttpRequest|sendBeacon|sessionStorage|document\.cookie/);
+  assert.equal(js.match(/\.setItem\s*\(/g).length, 1);
+  assert.match(js, /localStorage\.setItem\(CLE,/);
+  assert.match(source("assets/javascripts/test-builder.js"), /coche\.addEventListener\("change"/);
   assert.match(js, /removeItem\("build-here:test-builder"\)/);
   const page = readFileSync(join(destination, accueil), "utf8");
   assert(page.indexOf(`src="/assets/javascripts/${contenu}"`) < page.indexOf('src="/assets/javascripts/test-builder-model.js"'));
@@ -188,4 +219,4 @@ check("Aucun calcul historique, envoi ou stockage persistant dans le questionnai
   assert.doesNotMatch(page, /data-api="[^"]*evaluation|data-result-scale|57\s*%/);
   assert.match(page, /data-test-start(?:="")? hidden/);
 });
-console.log(`Questionnaire valide : ${checks} groupes de vérifications, dont 160 combinaisons ; liens vérifiés dans ${destination} (${lang}).`);
+console.log(`Questionnaire valide : ${checks} groupes de vérifications, dont 160 combinaisons de pistes ; liens vérifiés dans ${destination} (${lang}).`);

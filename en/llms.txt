@@ -20,7 +20,7 @@ Index by situation: {{ '/en/situations/' | absolute_url }}
 Constructed examples and templates: {{ '/en/templates/' | absolute_url }}
 Full contents: {{ '/en/book/#contents' | absolute_url }}
 
-The optional questionnaire offers thirty questions, in groups of three, on a subject the reader picks. It calculates no score: the reader chooses a line of work suited to their intention and to the conditions they flagged. Answers stay in the page's memory; the line of work can be copied. Method and limits: {{ '/en/test-method/' | absolute_url }}
+The optional questionnaire asks fifty questions, five per step, about recent facts. It gives a builder level from 1 to 5, with provisional cut-offs, then the reader chooses a line of work. A step limited by the reader's setting does not lower their level. Nothing is sent; the reader can choose to keep their answers on their device to see what moved next time. The line of work can be copied. Method and limits: {{ '/en/test-method/' | absolute_url }}
 
 The constructed cases are not field results. Direct service, maintenance, accessibility, reliability and internal teaching all count among useful contributions. Something published, or work independent of its author, is not a single measure of value.
 
@@ -30,7 +30,7 @@ The source markdown of any card is at https://raw.githubusercontent.com/{{ site.
 {% include llms-cartes.html %}
 ## Orientation
 
-The builder test offers thirty situations across ten capabilities. The reader chooses a line of work and three cards, with no score and no ranking. The answers stay in the page's memory.
+The builder test asks fifty questions across ten capabilities. It gives a level from 1 to 5, then the reader chooses a line of work and three cards. Nothing is sent.
 
 - [The builder test]({{ '/en/' | absolute_url }}): the interactive questions
 - [The four types of card]({{ '/en/how-to-read/' | absolute_url }}): principle, diagnostic, practice and system

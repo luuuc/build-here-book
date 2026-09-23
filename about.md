@@ -41,7 +41,7 @@ Ce livre part de cette correction. Il rassemble des pratiques pour construire, p
 
 Les [quatre parcours](/parcours/) donnent une entrée directe. Les cartes courtes se lisent indépendamment : principe, diagnostic, pratique ou système. Les dix capacités organisent le livre sans classer les personnes ni imposer une progression unique.
 
-Si tu ne sais pas encore quel sujet choisir, les [questions du test](/) sont facultatives. Tu peux explorer trois questions, choisir une force à approfondir ou une condition à clarifier, puis retenir une piste. Aucun score n'est calculé. Les réponses restent dans la mémoire de la page et ne sont pas envoyées au service d'évaluation ; copie la piste pour la conserver. La [méthode](/methode-du-test/) décrit les choix et les limites.
+Si tu ne sais pas encore quel sujet choisir, le [test du builder](/) est facultatif. Il donne ton niveau, de 1 à 5, à partir de ce que tu as fait ces derniers mois, puis te laisse choisir une piste. Les réponses ne sont envoyées nulle part ; tu peux les garder sur ton appareil pour voir ce qui a bougé la fois suivante. La [méthode](/methode-du-test/) décrit les choix et les limites.
 
 ## Examiner les idées et les exemples
 

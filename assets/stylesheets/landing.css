@@ -1,7 +1,7 @@
 /* Ce qui est propre au test du builder, et rien d'autre.
    ----------------------------------------------------------------------
    Les couleurs viennent de tokens.css, les composants de bundle.css : le
-   bouton, l'echelle d'accord, la progression en segments, la carte, la
+   bouton, les questions, la progression en segments, la carte, la
    carte de parcours et la grille sont la-bas. Ce fichier ne garde que
    l'enchainement des ecrans.
 
@@ -46,7 +46,7 @@
 
 .builder-test-practice h3 { margin-top: 0; }
 
-/* La consigne, au-dessus des six affirmations. */
+/* La consigne, au-dessus des questions. */
 .builder-test-consigne {
   color: var(--discret);
   margin: var(--espace-6) 0 var(--espace-4);
@@ -54,6 +54,57 @@
 }
 
 .builder-test-statements { margin-bottom: var(--espace-12); }
+
+/* Le resultat. L'echelle d'abord : dix barreaux du haut vers le bas, les
+   etapes solides pleines, la position et l'etape suivante marquees. */
+.niveau { border-bottom: 1px solid var(--filet); padding-bottom: var(--espace-8); }
+.niveau p { margin: 0 0 var(--espace-3); max-width: 38em; }
+.niveau-numero { color: var(--discret); font-size: 13px; font-variant-numeric: tabular-nums; letter-spacing: 0.04em; margin: 0; text-transform: uppercase; }
+.niveau-nom { color: var(--encre); font-size: clamp(1.3rem, 3vw, 1.7rem); font-weight: 600; line-height: 1.3; margin: var(--espace-1) 0 var(--espace-3); }
+.niveau-texte { color: var(--encre); font-weight: 500; }
+.niveau-ecart { border-left: 2px solid var(--signal); color: var(--encre); padding-left: var(--espace-4); }
+
+.niveau-echelle { display: grid; gap: var(--espace-1); list-style: none; margin: var(--espace-6) 0; max-width: 30rem; padding: 0; }
+.niveau-echelle li { align-items: center; border: 1px solid var(--filet); display: flex; gap: var(--espace-3); min-height: 40px; padding: var(--espace-1) var(--espace-3); }
+.niveau-echelle-numero { font-variant-numeric: tabular-nums; font-weight: 600; min-width: 1.5em; text-align: right; }
+.niveau-echelle-texte { display: flex; flex: 1 1 auto; flex-wrap: wrap; gap: 0 var(--espace-3); }
+.niveau-echelle-nom { color: var(--encre); }
+.niveau-echelle-etat { color: var(--discret); font-size: 13px; }
+.niveau-echelle-marque { background: var(--encre); color: var(--papier); font-size: 12px; font-weight: 600; padding: 2px var(--espace-2); white-space: nowrap; }
+.niveau-echelle-marque--suivante { background: var(--signal); }
+.niveau-echelle li[data-etat="solid"] { background: var(--surface); border-color: var(--encre); }
+.niveau-echelle li[data-etat="partial"] { border-color: var(--bleu); }
+.niveau-echelle li[data-etat="blocked"] { border-style: dashed; }
+
+/* Les preuves : un geste en gras, la reponse du lecteur dessous. */
+.niveau-preuves { display: grid; gap: var(--espace-3); list-style: none; margin: 0; padding: 0; }
+.niveau-preuves li { border-left: 2px solid var(--filet); display: grid; padding-left: var(--espace-4); }
+.niveau-preuves strong { color: var(--encre); font-weight: 500; }
+.niveau-preuves span { color: var(--discret); font-size: 15px; }
+
+/* Ce qui retient : l'etape suivante en cinq gestes, coches quand ils sont
+   deja la, avec la reponse du lecteur sous ceux qui manquent. */
+.niveau-gestes { display: grid; gap: var(--espace-2); list-style: none; margin: var(--espace-3) 0 0; padding: 0; }
+.niveau-gestes li { align-items: flex-start; display: flex; gap: var(--espace-3); }
+.niveau-gestes-texte { display: grid; }
+.niveau-gestes-reponse { color: var(--discret); font-size: 15px; font-weight: 400; }
+.niveau-gestes-case { border: 2px solid var(--filet); display: grid; flex: none; font-size: 13px; height: 22px; place-items: center; width: 22px; }
+.niveau-gestes li[data-fait="oui"] .niveau-gestes-case { background: var(--encre); border-color: var(--encre); color: var(--papier); }
+.niveau-gestes li[data-fait="non"] { color: var(--encre); font-weight: 500; }
+.niveau-gestes li[data-fait="oui"] { color: var(--discret); }
+
+/* Le geste propose : un seul, bien visible, avec sa carte. */
+.niveau-geste { background: var(--surface); border-left: 3px solid var(--signal); display: grid; gap: var(--espace-4); padding: var(--espace-6); }
+.niveau-geste-plan { color: var(--encre); font-size: 1.1rem; font-weight: 500; margin: 0; max-width: 38em; }
+.niveau-geste .carte-livre { background: var(--papier); max-width: 24rem; }
+
+.niveau-depuis { background: var(--bleu-voile); margin: var(--espace-4) 0; padding: var(--espace-4) var(--espace-6); }
+.niveau-depuis p { margin-bottom: var(--espace-2); }
+.niveau-garder { align-items: flex-start; color: var(--texte); cursor: pointer; display: flex; font-size: 15px; gap: var(--espace-3); margin: var(--espace-4) 0; max-width: 38em; min-height: 44px; }
+.niveau-garder input { accent-color: var(--bleu); flex: none; height: 18px; margin-top: 3px; width: 18px; }
+
+.niveau-carte { margin-top: var(--espace-12); }
+.niveau-carte summary { color: var(--encre); cursor: pointer; font-weight: 500; min-height: 44px; padding: var(--espace-2) 0; }
 
 /* La navigation d'un ecran : Precedent a gauche, le compteur puis Continuer
    a droite. Le compteur est la parce qu'il explique le bouton desactive. */

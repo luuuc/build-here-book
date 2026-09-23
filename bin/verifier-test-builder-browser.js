@@ -7,41 +7,70 @@
   const originalFetch = window.fetch;
   const sent = [];
   window.fetch = (...args) => { sent.push(String(args[0])); return originalFetch(...args); };
+  const next = () => [...screen.querySelectorAll('.builder-test-nav button')].at(-1);
   try {
+    localStorage.removeItem('build-here:test-builder:reponses');
     root.querySelector('[data-test-restart]').click();
     root.querySelector('[data-test-start]').click();
+    assert(screen.querySelector('h2').textContent === 'Avant de commencer', 'estimate first');
+    assert(screen.querySelectorAll('input[name=estimation]').length === 12, 'ten steps, none, and unknown');
+    screen.querySelectorAll('input[name=estimation]')[8].click();
+    next().click();
     assert(screen.querySelector('h2').textContent === "L'état d'esprit", 'first step');
     assert(document.activeElement === screen.querySelector('h2'), 'heading focus');
     for (let step = 0; step < 10; step++) {
       const groups = [...screen.querySelectorAll('.echelle')];
-      assert(groups.length === 6, `six statements at step ${step + 1}`);
-      assert(groups.every((group) => group.querySelectorAll('input[type=radio]').length === 8), 'six positions plus unseen and blocked');
-      const next = [...screen.querySelectorAll('.builder-test-nav button')].at(-1);
-      assert(next.disabled, 'completion required');
+      assert(groups.length === 5, `five questions at step ${step + 1}`);
+      assert(groups.every((group) => group.querySelectorAll('.echelle-choix input').length === 4), 'four options');
+      assert(groups.filter((group) => group.querySelector('.echelle-apart')).length === 4, 'off-scale answers except on the situation');
+      assert(next().disabled, 'completion required');
       groups.forEach((group, index) => {
-        const value = step === 0 && index === 0 ? 'unseen' : '5';
+        // Tout au plus haut, sauf l'etape 4 laissee a zero, et une reponse hors calcul.
+        const value = step === 0 && index === 0 ? 'unseen' : step === 3 ? '0' : '3';
         [...group.querySelectorAll('input')].find((input) => input.value === value).click();
       });
-      assert(!next.disabled, 'six responses permit continuing');
+      assert(!next().disabled, 'five responses permit continuing');
       if (step === 1) {
         screen.querySelector('.builder-test-nav button').click();
         assert(screen.querySelector('input[value=unseen]').checked, 'back retains response');
-        [...screen.querySelectorAll('.builder-test-nav button')].at(-1).click();
-        assert(screen.querySelectorAll('input:checked').length === 6, 'forward retains responses');
+        next().click();
+        assert(screen.querySelectorAll('input:checked').length === 5, 'forward retains responses');
       }
-      [...screen.querySelectorAll('.builder-test-nav button')].at(-1).click();
+      next().click();
     }
-    report.push('ten steps, six entries, completion, back/forward');
-    assert(screen.querySelectorAll('.carte').length === 10, 'ten result topics');
-    assert(screen.textContent.includes('1 situation non rencontrée'), 'unseen is separate');
-    assert(!screen.textContent.includes('%'), 'no fake precision');
-    report.push('result and unseen handling');
-    const intent = screen.querySelector('input[value=support]');
-    intent.click();
-    screen.querySelector('.builder-test-result-item button').click();
+    report.push('ten steps, five questions, completion, back/forward');
+    assert(screen.querySelector('h2').textContent === 'Ton niveau de builder', 'level screen');
+    assert(screen.querySelector('.niveau-numero').textContent === 'Niveau 5 sur 5', 'top band with one gap');
+    assert(screen.querySelectorAll('.niveau-echelle li').length === 10, 'ten rungs');
+    assert(screen.querySelector('.niveau-echelle-marque').textContent === 'Tu es ici', 'position marked');
+    assert(screen.querySelector('.niveau-ecart').textContent.includes("l'étape 8"), 'estimate compared');
+    assert(screen.textContent.includes('Ce qui te retient à l\'étape 4, La compréhension'), 'blocker is the gap');
+    assert(screen.querySelectorAll('.niveau-preuves').length === 1, 'strengths');
+    assert(screen.querySelectorAll('.niveau-gestes-reponse').length === 5, 'blockers with answers');
+    assert(screen.querySelectorAll('.niveau-gestes li').length === 5, 'five moves');
+    assert(screen.querySelector('.niveau-geste-plan').textContent.length > 20, 'one next move');
+    assert(screen.querySelectorAll('.niveau-carte .carte').length === 10, 'ten step cards folded');
+    report.push('position, estimate, strengths, blockers, next move');
+    const garder = screen.querySelector('.niveau-garder input');
+    assert(!garder.checked, 'keeping is opt-in');
+    assert(localStorage.getItem('build-here:test-builder:reponses') === null, 'nothing kept by default');
+    garder.click();
+    assert(JSON.parse(localStorage.getItem('build-here:test-builder:reponses')).responses['mindset-2'] === '3', 'answers kept on request');
+    garder.click();
+    assert(localStorage.getItem('build-here:test-builder:reponses') === null, 'unticking erases');
+    report.push('opt-in keeping and erasing');
+    const clipboard0 = Object.getOwnPropertyDescriptor(navigator, 'clipboard');
+    let moved = '';
+    Object.defineProperty(navigator, 'clipboard', { configurable: true, value: { writeText: async (text) => { moved = text; } } });
+    [...screen.querySelectorAll('button')].find((b) => b.textContent === 'Copier mon geste').click();
+    await Promise.resolve(); await Promise.resolve();
+    assert(moved.includes('Ton prochain geste') && moved.includes('Repasse le test'), 'move copied');
+    if (clipboard0) Object.defineProperty(navigator, 'clipboard', clipboard0); else delete navigator.clipboard;
+    screen.querySelector('.niveau-carte').open = true;
+    screen.querySelector('input[value=support]').click();
+    screen.querySelector('.niveau-carte .carte-actions button').click();
     assert(screen.querySelectorAll('.carte-livre').length === 3, 'three cards');
     assert(screen.textContent.includes('dans tes moyens'), 'support intent guidance');
-    assert(!screen.textContent.includes('sans déduction à partir des réponses'), 'honest result provenance');
     report.push('chosen plan and audience guidance');
     const clipboard = Object.getOwnPropertyDescriptor(navigator, 'clipboard');
     let copied = '';
@@ -56,10 +85,12 @@
     assert(!screen.querySelector('textarea').closest('[hidden]'), 'copy fallback');
     if (clipboard) Object.defineProperty(navigator, 'clipboard', clipboard); else delete navigator.clipboard;
     report.push('copy and fallback');
-    assert(sent.filter((url) => /evaluation/.test(url)).length === 0, 'no evaluation request');
+    [...screen.querySelectorAll('button')].find((b) => b.textContent === 'Revenir à mon niveau').click();
+    assert(screen.querySelector('.niveau'), 'back to level');
+    assert(sent.length === 0, 'no request sent');
     root.querySelector('[data-test-restart]').click();
     assert(!root.querySelector('[data-test-intro]').hidden, 'restart');
-    report.push('no evaluation transmission and restart');
+    report.push('no transmission and restart');
     return { passed: report };
   } finally { window.fetch = originalFetch; }
 })()

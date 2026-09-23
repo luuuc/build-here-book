@@ -152,4 +152,4 @@ Pour un premier essai sans emploi ni équipe, pour approfondir une pratique, dé
 
 ---
 
-Si aucune ligne ne correspond, ouvre le [sommaire complet](https://build-here.africa/livre/#sommaire). Les [questions facultatives du test](https://build-here.africa/) peuvent aussi t'aider à choisir une piste, sans score et sans devoir répondre aux trente questions.
+Si aucune ligne ne correspond, ouvre le [sommaire complet](https://build-here.africa/livre/#sommaire). Le [test du builder](https://build-here.africa/) peut aussi t'aider : il donne ton niveau et propose une piste.

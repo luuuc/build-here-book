@@ -18,7 +18,7 @@ Index par situation : {{ '/situations/' | absolute_url }}
 Exemples construits et modèles : {{ '/modeles/' | absolute_url }}
 Sommaire complet : {{ '/livre/#sommaire' | absolute_url }}
 
-Le questionnaire facultatif propose trente questions par groupes de trois sur un sujet choisi. Il ne calcule aucun score : le lecteur choisit une piste adaptée à son intention et aux conditions signalées. Les réponses restent dans la mémoire de la page ; la piste peut être copiée. Méthode et limites : {{ '/methode-du-test/' | absolute_url }}
+Le questionnaire facultatif pose cinquante questions, cinq par étape, sur des faits récents. Il donne un niveau de builder de 1 à 5, dont les seuils sont provisoires, puis le lecteur choisit une piste. Une étape limitée par le cadre du lecteur ne baisse pas son niveau. Rien n'est envoyé ; le lecteur peut choisir de garder ses réponses sur son appareil pour voir ce qui a bougé au passage suivant. La piste peut être copiée. Méthode et limites : {{ '/methode-du-test/' | absolute_url }}
 
 Les cas construits ne sont pas des résultats de terrain. Le service direct, la maintenance, l'accessibilité, la fiabilité et la transmission interne comptent parmi les contributions utiles. Une publication publique ou un travail indépendant de son auteur ne constituent pas une mesure unique de valeur.
 
@@ -28,7 +28,7 @@ Le markdown source de n'importe quelle carte s'obtient en remplaçant le nom de 
 {% include llms-cartes.html %}
 ## Orientation
 
-Le test du builder propose trente situations réparties entre dix capacités. Le lecteur choisit une piste et trois cartes, sans score ni classement. Les réponses restent dans la mémoire de la page.
+Le test du builder pose cinquante questions réparties entre dix capacités. Il donne un niveau de 1 à 5, puis le lecteur choisit une piste et trois cartes. Rien n'est envoyé.
 
 - [Le test du builder]({{ '/' | absolute_url }}): l'évaluation interactive
 - [Les quatre types de cartes]({{ '/guide-de-lecture/' | absolute_url }}): principe, diagnostic, pratique et système

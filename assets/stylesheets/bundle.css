@@ -375,7 +375,7 @@
 
 @media (min-width: 768px) { .rail-corps { padding-inline: var(--espace-8); } }
 
-/* ---- L'echelle d'accord du test. Six positions, jamais sept. */
+/* ---- Une question du test : ses options en liste, une par ligne. */
 .echelle { border: 0; margin: 0; min-width: 0; padding: var(--espace-8) 0; }
 .echelle + .echelle { border-top: 1px solid var(--filet); }
 
@@ -384,25 +384,12 @@
    du flux de legende le rend bloc, et la bordure redevient continue. */
 .echelle-question { color: var(--encre); float: left; font-family: var(--font-sans); font-size: 17px; font-weight: 500; line-height: 27px; max-width: 38em; padding: 0; width: 100%; }
 
-/* L'echelle et ses deux bornes partagent la meme largeur, sinon les
-   libelles s'eloignent des pastilles sur un large ecran. */
-.echelle-rangee { align-items: center; clear: both; display: flex; gap: var(--espace-3); justify-content: space-between; margin-top: var(--espace-6); max-width: 22rem; }
+.echelle-choix { clear: both; display: grid; gap: var(--espace-2); margin-top: var(--espace-4); max-width: 38em; }
+.echelle-choix label { align-items: center; border: 1px solid var(--filet); border-radius: var(--rayon-2); color: var(--texte); cursor: pointer; display: flex; font-family: var(--font-sans); font-size: 16px; gap: var(--espace-3); line-height: 22px; min-height: 44px; padding: var(--espace-2) var(--espace-4); }
+.echelle-choix label:has(input:checked) { border-color: var(--bleu); color: var(--encre); }
+.echelle-choix input { accent-color: var(--bleu); flex: none; height: 18px; margin: 0; width: 18px; }
 
-.echelle-position { cursor: pointer; display: grid; min-height: 44px; min-width: 44px; place-items: center; }
-.echelle-position input { appearance: none; border: 2px solid var(--filet); border-radius: var(--rayon-rond); cursor: pointer; height: 30px; margin: 0; width: 30px; }
-.echelle-position--large input { height: 44px; width: 44px; }
-.echelle-position--moyen input { height: 36px; width: 36px; }
-
-.echelle-position--desaccord input { border-color: var(--signal); }
-.echelle-position--accord input { border-color: var(--bleu); }
-.echelle-position--desaccord input:checked { background: var(--signal); border-color: var(--signal); }
-.echelle-position--accord input:checked { background: var(--bleu); border-color: var(--bleu); }
-.echelle-position input:checked { background: var(--encre); border-color: var(--encre); }
-.echelle-position input:focus-visible { outline: 2px solid var(--bleu); outline-offset: 3px; }
-
-.echelle-bornes { color: var(--discret); display: flex; font-family: var(--font-sans); font-size: 13px; justify-content: space-between; line-height: 20px; margin-top: var(--espace-2); max-width: 22rem; }
-
-/* Les deux reponses a part ne sont pas une septieme position. */
+/* Les deux reponses hors calcul, en retrait sous les options. */
 .echelle-apart { display: flex; flex-wrap: wrap; gap: var(--espace-3) var(--espace-8); margin-top: var(--espace-4); }
 .echelle-apart label { align-items: center; color: var(--discret); cursor: pointer; display: flex; font-family: var(--font-sans); font-size: 15px; gap: var(--espace-2); line-height: 20px; min-height: 44px; }
 .echelle-apart input { accent-color: var(--bleu); height: 18px; width: 18px; }

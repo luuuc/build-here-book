@@ -1,67 +1,129 @@
-/* Les regles du parcours de lecture, sans score ni transmission.
+/* Les regles du test : un niveau de builder, puis une piste de lecture.
    Aucune phrase ici : le contenu vient de test-builder-contenu.js, ou de son
-   jumeau anglais. Une seule implementation des regles, deux langues. */
+   jumeau anglais. Une seule implementation des regles, deux langues.
+
+   Le calcul, dans l'ordre :
+   1. Chaque reponse vaut de 0 a 3. « Pas rencontre » et « mon cadre ne le
+      permettait pas » restent hors calcul.
+   2. Une etape a besoin de trois reponses notees. Sinon elle est « pas
+      rencontree » ou « bloquee », selon la reponse hors calcul la plus citee.
+   3. Une etape est solide si sa moyenne atteint SOLIDE et si sa question
+      « la derniere fois » n'est pas sous 2. Elle est en cours a partir de
+      EN_COURS.
+   4. Le niveau est l'etape solide la plus haute, avec au plus un trou en
+      dessous. Une etape bloquee n'est pas un trou : le cadre n'est pas la
+      personne.
+   5. Le niveau se lit en cinq paliers de deux etapes. Dix niveaux distincts
+      demanderaient une precision qu'un test en ligne n'a pas.
+   Les seuils sont provisoires : ils seront recales sur des reponses reelles. */
 (function (scope) {
   "use strict";
+  const SOLIDE = 2.2;
+  const EN_COURS = 1.2;
+  const MINIMUM = 3;
+  const BLOCAGES_MAX = 2;
   const modes = ["revisit", "deepen", "discover", "blocked"];
+  const MODE = { solid: "deepen", partial: "revisit", open: "revisit", unseen: "discover", blocked: "blocked" };
   function creer(contenu) {
-    const { questions, capabilities, answerOptions, intentions, conditions, modeLabels,
-      memoryNotice, statements, scale, beginner, templates, method, textes, ui } = contenu;
+    const { questions, capabilities, recence, horsEchelle, paliers, intentions, modeLabels,
+      memoryNotice, beginner, templates, method, textes, ui } = contenu;
+
+    function options(question) { return question.kind === "recence" ? recence : question.options; }
+    function valeur(question, reponse) {
+      const option = options(question).find((o) => o.id === reponse);
+      return option ? option.value : null;
+    }
+
     function profile(responses) {
-      return capabilities.map((capability) => {
-        const values = (statements[capability.id] || []).map((_, index) => responses[`${capability.id}-${index + 1}`]);
-        const answered = values.filter((value) => Number.isInteger(value) && value >= 1 && value <= 6);
-        const unexplored = values.filter((value) => value === "unseen").length;
-        const blocked = values.filter((value) => value === "blocked").length;
-        const average = answered.length ? answered.reduce((sum, value) => sum + value, 0) / answered.length : null;
-        return { capability, answered: answered.length, unexplored, blocked, average,
-          direction: answered.length < 3 ? "discover" : average >= 4.5 ? "deepen" : average <= 2.5 ? "revisit" : "explore" };
+      return capabilities.map((capability, index) => {
+        const items = questions.filter((q) => q.capabilityId === capability.id);
+        const values = items.map((q) => valeur(q, responses[q.id])).filter((v) => v !== null);
+        const unseen = items.filter((q) => responses[q.id] === "unseen").length;
+        const blocked = items.filter((q) => responses[q.id] === "blocked").length;
+        const average = values.length ? values.reduce((s, v) => s + v, 0) / values.length : null;
+        const derniere = items.find((q) => q.kind === "derniere-fois");
+        const preuve = derniere ? valeur(derniere, responses[derniere.id]) : null;
+        let status;
+        if (values.length < MINIMUM) status = blocked && blocked >= unseen ? "blocked" : "unseen";
+        else if (average >= SOLIDE && (preuve === null || preuve >= 2)) status = "solid";
+        else if (average >= EN_COURS) status = "partial";
+        else status = "open";
+        return { capability, step: index + 1, answered: values.length, unseen, blocked, average, status, mode: MODE[status] };
       });
     }
-    function initialState() { return { intent: null, answers: {}, selection: null }; }
+
+    function palier(niveau) { return paliers.find((p) => niveau >= p.min && niveau <= p.max); }
+
+    function level(responses) {
+      const steps = profile(responses);
+      const bloquees = steps.filter((s) => s.status === "blocked");
+      if (bloquees.length > BLOCAGES_MAX) return { steps, niveau: null, palier: null, bloquees, trou: null, frontiere: [], suivante: null, freins: [], prochaine: [], forces: [] };
+      const manque = (s) => s.status !== "solid" && s.status !== "blocked";
+      let niveau = 0;
+      let trou = null;
+      for (let k = steps.length; k >= 1; k--) {
+        if (steps[k - 1].status !== "solid") continue;
+        const trous = steps.slice(0, k - 1).filter(manque);
+        if (trous.length <= 1) { niveau = k; trou = trous[0] || null; break; }
+      }
+      const frontiere = steps.slice(niveau).filter((s) => s.status === "solid" || s.status === "partial");
+      // L'etape suivante : la premiere au-dessus du niveau qui manque, ou le
+      // trou s'il ne reste que lui. Au sommet, il n'y en a pas.
+      const suivante = steps.slice(niveau).find(manque) || trou;
+      const lu = (q) => ({ id: q.id, geste: q.geste, valeur: valeur(q, responses[q.id]),
+        reponse: [...options(q), ...horsEchelle].find((o) => o.id === responses[q.id])?.label || null });
+      const de = (step) => questions.filter((q) => q.capabilityId === step.capability.id).map(lu);
+      // Ce qui retient : les reponses les plus basses de l'etape suivante, trois au plus.
+      const freins = suivante ? de(suivante).filter((r) => r.valeur !== null && r.valeur < 3)
+        .sort((a, b) => a.valeur - b.valeur).slice(0, 3) : [];
+      // L'etape suivante en gestes, coches quand ils sont deja la.
+      const prochaine = suivante ? de(suivante).map((r) => ({ ...r, fait: r.valeur !== null && r.valeur >= 2 })) : [];
+      // Ce que tu fais deja : les meilleures reponses, prises ailleurs que dans
+      // l'etape suivante, les plus hautes d'abord.
+      const ailleurs = steps.filter((s) => s !== suivante && s.status !== "blocked").reverse().flatMap(de);
+      const top = ailleurs.filter((r) => r.valeur === 3);
+      const forces = (top.length ? top : ailleurs.filter((r) => r.valeur === 2)).slice(0, 2);
+      return { steps, niveau, palier: palier(niveau), bloquees, trou, frontiere, suivante, freins, prochaine, forces };
+    }
+
+    // Ce qui a bouge depuis un passage garde sur l'appareil : l'etape solide
+    // avant et apres, et les gestes passes de « pas encore » a « fait ».
+    function compare(avant, apres) {
+      const a = level(avant);
+      const b = level(apres);
+      if (a.niveau === null || b.niveau === null) return null;
+      const fait = (r, q) => { const v = valeur(q, r[q.id]); return v !== null && v >= 2; };
+      const gagnes = questions.filter((q) => !fait(avant, q) && fait(apres, q)).map((q) => q.geste);
+      return { avant: a.niveau, apres: b.niveau, gagnes };
+    }
+
+    function initialState() { return { intent: null, selection: null }; }
     function setIntent(state, intent) {
       if (!intentions.some((i) => i.id === intent)) throw new Error("Intention inconnue");
       return { ...state, intent, selection: null };
     }
-    function answer(state, questionId, mode, details = []) {
-      if (!questions.some((q) => q.id === questionId) || !answerOptions.some((a) => a.id === mode)) throw new Error("Réponse inconnue");
-      const selectedConditions = mode === "blocked" ? conditions.filter((c) => details.includes(c.id)).map((c) => c.id) : [];
-      return { ...state, answers: { ...state.answers, [questionId]: { mode, conditions: selectedConditions } }, selection: null };
-    }
-    function candidates(state) {
-      return questions.filter((q) => modes.includes(state.answers[q.id]?.mode))
-        .map((q) => ({ questionId: q.id, capabilityId: q.capabilityId, mode: state.answers[q.id].mode }));
-    }
     function select(state, candidate) {
-      const valid = candidate.questionId
-        ? candidates(state).some((c) => c.questionId === candidate.questionId && c.mode === candidate.mode && c.capabilityId === candidate.capabilityId)
-        : capabilities.some((c) => c.id === candidate.capabilityId) && modes.includes(candidate.mode);
+      const valid = capabilities.some((c) => c.id === candidate.capabilityId) && modes.includes(candidate.mode);
       if (!state.intent || !valid) throw new Error("Choisis une intention et une piste disponible");
-      return { ...state, selection: { ...candidate } };
+      return { ...state, selection: { capabilityId: candidate.capabilityId, mode: candidate.mode } };
     }
     function plan(state) {
       if (!state.selection) return null;
-      const selected = state.selection;
-      const capability = capabilities.find((c) => c.id === selected.capabilityId);
+      const { capabilityId, mode } = state.selection;
+      const capability = capabilities.find((c) => c.id === capabilityId);
       const intent = intentions.find((i) => i.id === state.intent);
-      const q = questions.find((q) => q.id === selected.questionId);
-      const details = conditions.filter((c) => (state.answers[q?.id]?.conditions || []).includes(c.id));
-      const mode = selected.mode;
       const resources = [intent.resource];
       if (mode === "discover" && intent.id !== "start") resources.push(beginner);
       resources.push(templates, method);
       return {
         title: textes.titre(capability.name),
         intent: intent.label,
-        reason: q ? textes.raison(q.text, answerOptions.find((a) => a.id === mode).label)
-          : textes.raisonDirecte(modeLabels[mode].toLowerCase()),
-        appui: mode === "deepen" && q ? textes.appui(q.text) : null,
+        reason: textes.raison(capability.name.toLowerCase(), modeLabels[mode].toLowerCase()),
         fields: [
           [textes.champs.sujet, capability.seed],
           [textes.champs.geste, textes.actions[mode]],
           [textes.champs.parcours, intent.guidance],
-          [textes.champs.conditions, details.length ? details.map((c) => `${c.label} : ${c.guidance}`).join("\n")
-            : mode === "blocked" ? textes.conditionsBloque : textes.conditionsGenerales],
+          [textes.champs.conditions, mode === "blocked" ? textes.conditionsBloque : textes.conditionsGenerales],
           [textes.champs.temps, textes.tempsTexte],
           [textes.champs.observation, textes.observations[mode]],
           [textes.champs.fin, textes.finTexte]
@@ -72,14 +134,14 @@
       };
     }
     function copyText(result, origin) {
-      return [result.title, result.intent, result.reason, result.appui,
+      return [result.title, result.intent, result.reason,
         ...result.fields.map(([title, body]) => `${title}\n${body}`),
         textes.lectures,
         ...[...result.cards, ...result.resources].map((c) => `${c.title}\n${new URL(c.url, origin).href}`), result.disclaimer
       ].filter(Boolean).join("\n\n");
     }
-    return { questions, capabilities, answerOptions, intentions, conditions, modes, modeLabels,
-      memoryNotice, statements, scale, ui, profile, initialState, setIntent, answer, candidates, select, plan, copyText };
+    return { questions, capabilities, recence, horsEchelle, paliers, intentions, modes, modeLabels,
+      memoryNotice, ui, options, profile, level, compare, initialState, setIntent, select, plan, copyText };
   }
   const api = { creer, modes };
   if (typeof module !== "undefined" && module.exports) module.exports = api;

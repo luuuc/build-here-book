@@ -14,13 +14,13 @@ categories:
   - pratiques
 
 seo:
-  description: Es-tu un builder ? Un test en dix étapes pour explorer ta manière de construire et choisir une pratique à essayer. Sans compte ni classement.
+  description: Es-tu un builder ? Un test en dix étapes pour connaître ton niveau de builder et choisir une pratique à essayer. Sans compte.
   keywords: test du builder, build here, livre, équipe, builders, ownership, autonomie, leadership
 
 # Le titre ne s'affiche pas sur la page : le layout `landing` n'a pas de
 # bandeau de titre. Il sert a l'onglet, aux moteurs et au partage.
 title: Es-tu un builder ?
-description: Dix étapes pour explorer ta manière de construire et trouver une piste à essayer, sans classement.
+description: Dix étapes pour connaître ton niveau de builder et trouver une piste à essayer.
 
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
@@ -38,12 +38,12 @@ traductions:
           <div>
             <p class="bloc-surtitre">Le test du builder · 10 étapes · sans compte</p>
             <h1 class="hero-titre">Es-tu un builder ?</h1>
-            <p class="hero-accroche">Tu n'as pas besoin de coder, de diriger une équipe ou d'avoir déjà lancé un projet. Découvre comment tu passes d'un problème à quelque chose d'utile, et ce que tu pourrais essayer ensuite.</p>
+            <p class="hero-accroche">Tu n'as pas besoin de coder, de diriger une équipe ou d'avoir déjà lancé un projet. Découvre ton niveau de builder, ce qui le fonde, et ce que tu pourrais essayer ensuite.</p>
             <p class="hero-actions"><button type="button" class="bouton" data-test-start hidden>Faire le test →</button></p>
             <ul class="preuve">
-              <li><strong>10</strong> minutes</li>
+              <li><strong>12</strong> minutes</li>
               <li><strong>0</strong> compte</li>
-              <li><strong>0</strong> score</li>
+              <li><strong>5</strong> niveaux</li>
               <li>tes réponses restent ici</li>
             </ul>
           </div>
@@ -79,13 +79,13 @@ traductions:
       <div class="grille grille--trois">
         <div class="pas">
           <img src="/assets/images/sections/curiosite.svg" alt="" width="120" height="120" />
-          <h3>Tu réponds à des affirmations</h3>
-          <p>Dix capacités, six affirmations chacune. Tu peux dire qu'une situation ne s'est jamais présentée, ou que les conditions t'ont manqué.</p>
+          <h3>Tu réponds à des questions simples</h3>
+          <p>Dix étapes, cinq questions chacune, sur ce que tu as fait ces derniers mois. Tu peux dire qu'une situation ne s'est pas présentée, ou que ton cadre ne le permettait pas.</p>
         </div>
         <div class="pas">
           <img src="/assets/images/sections/escalier.svg" alt="" width="120" height="120" />
-          <h3>Tu vois où tu en es</h3>
-          <p>Une lecture de tes réponses, capacité par capacité, avec ce que tu pourrais approfondir ou revoir.</p>
+          <h3>Tu vois ton niveau</h3>
+          <p>Un niveau de 1 à 5, l'étape où ta pratique est solide, et la réponse qui te retient à l'étape suivante.</p>
         </div>
         <div class="pas">
           <img src="/assets/images/sections/execution.svg" alt="" width="120" height="120" />
@@ -99,9 +99,9 @@ traductions:
   <section class="bloc bloc--surface">
     <div class="colonne colonne--prose">
       <p class="bloc-surtitre">Ce que tu obtiens</p>
-      <h2 class="bloc-titre">Une lecture de ta pratique, pas une étiquette.</h2>
-      <p class="bloc-texte">Capacité par capacité, le test montre les gestes que tu reconnais, ceux que tu reconnais moins, et ceux où les conditions t'ont manqué. Il ne te compare à personne et ne te donne ni note globale ni type. Soixante réponses sur ta propre semaine ne mesurent pas un niveau, et le livre ne croit pas qu'on soit builder comme on est grand.</p>
-      <p class="bloc-texte">Tes réponses restent dans cette page. Elles disparaissent quand tu la quittes ou la recharges, et rien n'est envoyé nulle part. Pas de compte, pas d'adresse à laisser.</p>
+      <h2 class="bloc-titre">Un niveau que tu peux vérifier.</h2>
+      <p class="bloc-texte">Le test demande ce que tu as fait, pas ce que tu penses de toi : ce que tu fais d'habitude, ce que tu as fait la dernière fois, ce qu'il vaut mieux faire. Ton niveau vient de ces réponses, et le résultat cite celle qui te retient. Ce que ton cadre ne permettait pas ne baisse pas ton niveau. Les seuils sont encore provisoires, et le niveau est fait pour bouger : repasse le test dans trois mois.</p>
+      <p class="bloc-texte">Rien n'est envoyé nulle part. Tes réponses disparaissent quand tu quittes la page, sauf si tu choisis de les garder sur ton appareil pour voir ce qui a bougé la fois suivante. Pas de compte, pas d'adresse à laisser.</p>
       <a class="bouton bouton--contour" href="/methode-du-test/">Comment fonctionne le test →</a>
     </div>
   </section>

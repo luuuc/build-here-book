@@ -1,43 +1,257 @@
-/* The English content of the reading path: questions, capabilities, options and
-   the words of the line of work. The rules live in test-builder-model.js and
-   are written once; this file is the twin of test-builder-contenu.js and
-   carries exactly the same keys.
+/* The English content of the test: questions, steps, bands and the words of
+   the line of work. The rules live in test-builder-model.js and are written
+   once; this file is the twin of test-builder-contenu.js and carries exactly
+   the same keys.
+
+   Five questions per step, with no fixed time window:
+   - habits tied to a moment ("when you're given a task, you usually…"), with
+     four moves that all sound reasonable;
+   - checkable scales ("do you know what it costs…", "if you left for two
+     weeks…");
+   - five "when did you last" in the whole test, for rare acts;
+   - one "the last time": what you did, not what you think;
+   - one situation: what is better to do.
+   Options are worth 0 to 3, in the order written here. The interface shuffles
+   the display order of habits, "last time" and situation options.
+
+   Writing: short sentences, everyday words, one idea per question. Someone
+   who has never read the book must understand.
 
    Nothing here goes anywhere: the test never leaves the page. */
 (function (scope) {
   "use strict";
-  const questions = [
-    { id: "mindset-1", capabilityId: "mindset", text: "Think of a small difficulty you noticed. Were you able to get clear on what you could try and what needed an agreement?" },
-    { id: "mindset-2", capabilityId: "mindset", text: "Think of an explanation or an instruction you did not understand. How were you able to get the clarification you needed, then or later?" },
-    { id: "mindset-3", capabilityId: "mindset", text: "Think of a fact that changed your mind. Which decision or way of working were you able to re-examine?" },
-    { id: "craft-1", capabilityId: "craft", text: "Think of something you wanted to get better at. Which precise practice did you choose to work on?" },
-    { id: "craft-2", capabilityId: "craft", text: "Think of a method you learned. Were you able to examine a source, an example, or the explanation of someone who knows it?" },
-    { id: "craft-3", capabilityId: "craft", text: "Think of a piece of work whose quality you wanted to improve. Which feedback helped you see what held and what was still to work on?" },
-    { id: "autonomy-1", capabilityId: "autonomy", text: "Think of a request, even on a personal project. Were you able to pin down the problem it was supposed to answer?" },
-    { id: "autonomy-2", capabilityId: "autonomy", text: "Think of a time you were waiting on information, help, or a decision. How did you make visible what was missing to carry on?" },
-    { id: "autonomy-3", capabilityId: "autonomy", text: "Think of something you found that changed the planned work. Were you able to discuss it, or revisit your commitment, before carrying on?" },
-    { id: "understanding-1", capabilityId: "understanding", text: "Think of a person you wanted to help. What were you able to learn about their real situation, directly or through feedback you could reach?" },
-    { id: "understanding-2", capabilityId: "understanding", text: "Think of an improvement that could move work onto somebody else. How did you examine that effect with the people concerned?" },
-    { id: "understanding-3", capabilityId: "understanding", text: "Think of something useful you were preparing. Were you able to check how the people concerned would reach it and use it?" },
-    { id: "delivery-1", capabilityId: "delivery", text: "Think of an idea that was still uncertain. Were you able to choose an attempt small enough to learn something without needlessly exposing other people?" },
-    { id: "delivery-2", capabilityId: "delivery", text: "Think of a piece of work you wanted to make available. How did you separate what could wait from the protections you had to keep?" },
-    { id: "delivery-3", capabilityId: "delivery", text: "Think of feedback you received during preparation. What were you able to do with it: carry on, change, cut back, or stop?" },
-    { id: "ownership-1", capabilityId: "ownership", text: "Think of help you gave, or work finished on your side. Were you able to go back and see what it made possible, or agree who would?" },
-    { id: "ownership-2", capabilityId: "ownership", text: "Think of a result that differed from what you hoped for. What were you able to learn from the facts, including what stayed unknown?" },
-    { id: "ownership-3", capabilityId: "ownership", text: "Think of a handover, however modest. How did the people concerned confirm who was picking up what, and with what means?" },
-    { id: "systems-1", capabilityId: "systems", text: "Think of a difficulty that came back several times. Were you able to compare the cases before deciding whether anything had to change?" },
-    { id: "systems-2", capabilityId: "systems", text: "Think of a way of working that looked complicated. Were you able to understand what a step was for before proposing to change it?" },
-    { id: "systems-3", capabilityId: "systems", text: "Think of an activity that depended on knowledge few people had. Were you able to prepare or try a handover with someone willing to take it?" },
-    { id: "leverage-1", capabilityId: "leverage", text: "Think of several requests that looked alike. Were you able to check whether they had a common cause, or only the same appearance?" },
-    { id: "leverage-2", capabilityId: "leverage", text: "Think of a tool, a template or a resource you could reuse. How did you check it was worth it in your case, with its costs and its limits?" },
-    { id: "leverage-3", capabilityId: "leverage", text: "Think of a task you wanted to speed up or repeat more widely. Were you able to examine the possible errors and the checks to keep?" },
-    { id: "leadership-1", capabilityId: "leadership", text: "Think of someone you wanted to help act. Were you able to ask them what backing or condition they were missing?" },
-    { id: "leadership-2", capabilityId: "leadership", text: "Think of a review, or help you gave someone. Were you able to explain your reasoning while leaving them room to decide?" },
-    { id: "leadership-3", capabilityId: "leadership", text: "Think of a shared piece of learning or responsibility. How did you agree the time, the limits, and the help available?" },
-    { id: "reference-1", capabilityId: "reference", text: "Think of an answer that could serve again. Were you able to choose, with its recipients, a form and a place to find it?" },
-    { id: "reference-2", capabilityId: "reference", text: "Think of an experience you wanted to pass on. How did you make the context, the reasoning and the limits understandable?" },
-    { id: "reference-3", capabilityId: "reference", text: "Think of a resource or an explanation you shared, even privately. Which feedback let you see how somebody else could use it?" }
+  const q = (capabilityId, n, kind, text, options) => ({
+    id: `${capabilityId}-${n}`, capabilityId, kind, text,
+    options: options && options.map((label, value) => ({ id: String(value), label, value }))
+  });
+  // "When did you last": from most recent to oldest.
+  const recence = [["This week", 3], ["This month", 2], ["This year", 1], ["Longer ago, or never", 0]]
+    .map(([label, value]) => ({ id: String(value), label, value }));
+  const horsEchelle = [
+    { id: "unseen", label: "The situation didn't come up" },
+    { id: "blocked", label: "My setting didn't allow it" }
   ];
+  const questions = [
+    q("mindset", 1, "habitude", "You have to follow a rule without knowing why it exists. Usually, you:", ["Apply it: it isn't your business.", "Complain about it when it gets in the way.", "Look into why, when you have time.", "Ask why it exists."]),
+    q("mindset", 2, "habitude", "The last time a fact contradicted your idea, what did you do?", ["I defended my idea: one fact isn't enough.", "I waited to know more.", "I revised my idea, without saying so.", "I said I was wrong, and changed my mind."]),
+    q("mindset", 3, "habitude", "Someone asks you a question and you don't know the answer. Usually, you:", ["Answer anyway, so as not to lose face.", "Give a careful, vague answer.", "Say you don't know.", "Say you don't know, and come back with the answer."]),
+    q("mindset", 4, "derniere-fois", "The last time you saw something around you that wasn't working, what did you do?", [
+      "Nothing, it wasn't my job to deal with it.",
+      "I talked about it around me, nothing more.",
+      "I told the person who could act on it.",
+      "I took a first step to make it better."
+    ]),
+    q("mindset", 5, "situation", "In a meeting or a class, everyone uses a word you don't understand. What is better to do?", [
+      "Say nothing, so you don't slow the group down.",
+      "Look the word up later, on your own.",
+      "Quietly ask the person next to you.",
+      "Ask right away what the word means."
+    ]),
+
+    q("craft", 1, "echelle", "When you prepare an important piece of work, you usually show it:", ["Once it's finished, if someone asks.", "Once it's finished, before handing it in.", "Halfway, to someone you trust.", "Early, as soon as there is something to criticise."]),
+    q("craft", 2, "habitude", "The last thing you learned in your craft, you learned it:", ["Because it was imposed on you.", "By chance, while working.", "In a training someone offered you.", "Because you went looking for it."]),
+    q("craft", 3, "habitude", "Your work is acceptable, and nobody asks for more. Usually, you:", ["Hand it in as is: acceptable is enough.", "Hand it in, noting what could be better.", "Rework the details that show.", "Rework what matters, even if it doesn't show."]),
+    q("craft", 4, "derniere-fois", "The last time someone criticised your work, what did you do?", [
+      "I defended my work, the criticism was unfair.",
+      "I listened and changed nothing.",
+      "I fixed that piece of work as asked.",
+      "I understood the mistake and changed how I work."
+    ]),
+    q("craft", 5, "situation", "You have done the same task for two years, and you do it well. What is better to do?", [
+      "Carry on as you are, since it works.",
+      "Wait for someone to offer you training.",
+      "Switch tasks so you don't get bored.",
+      "Look at how the best people do it, and compare."
+    ]),
+
+    q("autonomy", 1, "habitude", "When you're given a task, before starting, you usually:", ["Start: the request is clear.", "Reread the request so you miss nothing.", "Ask for the deadline and the expected format.", "Ask what it is meant to achieve."]),
+    q("autonomy", 2, "habitude", "When you ask for help, you usually bring:", ["Your question, nothing more.", "What you've already tried.", "What you tried, and where you're stuck.", "The problem, your attempts, and what you suggest."]),
+    q("autonomy", 3, "habitude", "A small decision falls to you, and the person who usually decides isn't there. You:", ["Wait for them to come back.", "Write to them, and wait for the answer.", "Decide, without necessarily saying so.", "Decide, then tell them what you chose."]),
+    q("autonomy", 4, "derniere-fois", "The last time you were given an instruction that made no sense, what did you do?", [
+      "I followed it and said nothing.",
+      "I followed it, then grumbled about it.",
+      "I pointed out the problem and waited for an answer.",
+      "I explained the problem and suggested something else."
+    ]),
+    q("autonomy", 5, "situation", "You have been waiting a week for an answer you need to move on. What is better to do?", [
+      "Wait: it isn't your job to chase it.",
+      "Send the same message again.",
+      "Work on something else in the meantime.",
+      "Suggest a solution and a date to decide by."
+    ]),
+
+    q("understanding", 1, "recence", "When did you last talk directly with someone who uses what you make?"),
+    q("understanding", 2, "echelle", "Do you know what the thing you work on costs or earns?", ["No, and it isn't my business.", "No, but I could ask.", "Roughly.", "Yes, and I know where the figure comes from."]),
+    q("understanding", 3, "habitude", "Another team or trade seems slow or complicated to you. Usually, you:", ["Live with it: everyone has their job.", "Complain about it to your team.", "Ask what slows them down.", "Spend time with them, to see their work."]),
+    q("understanding", 4, "derniere-fois", "The last time someone asked you for something precise, what did you do?", [
+      "I did it exactly as asked.",
+      "I did it and added my own ideas.",
+      "I asked what it was meant to be for.",
+      "I looked for the real problem, then chose what to do."
+    ]),
+    q("understanding", 5, "situation", "Someone who uses your work keeps complaining about the same problem. What is better to do?", [
+      "Answer politely, it isn't your role.",
+      "Pass the complaint on to whoever handles it.",
+      "Note the complaints to bring up later.",
+      "Talk to them to understand what they are trying to do."
+    ]),
+
+    q("delivery", 1, "echelle", "When you make something for others, they first see it:", ["When everything is finished.", "Almost finished, for a last review.", "Halfway through.", "At the first version that roughly works."]),
+    q("delivery", 2, "recence", "When did you last finish something that someone really used?"),
+    q("delivery", 3, "habitude", "Your project won't fit in the planned time. Usually, you:", ["Ship everything, even if the end is rushed.", "Work late to finish everything.", "Ask for more time, explaining why.", "Cut what can wait, to ship the essentials."]),
+    q("delivery", 4, "derniere-fois", "The last time you started something new, how long before someone could try it?", [
+      "Nobody has tried it yet.",
+      "Several months.",
+      "A few weeks.",
+      "A few days."
+    ]),
+    q("delivery", 5, "situation", "Your project is almost ready, and the planned date is here. What is better to do?", [
+      "Push the date back until everything is perfect.",
+      "Ship everything on the date, even what isn't ready.",
+      "Ship and let others find what is missing.",
+      "Ship what is ready and useful, then the rest."
+    ]),
+
+    q("ownership", 1, "recence", "When did you last check, afterwards, whether finished work had really helped?"),
+    q("ownership", 2, "habitude", "You see that work you promised will be late. Usually, you:", ["Speed up, hoping to make it.", "Say so if someone asks where you are.", "Warn people on the due date.", "Warn as soon as you know, with a new date."]),
+    q("ownership", 3, "echelle", "What is the longest piece of work you carry through to the end without anyone checking where you are?", [
+      "A few hours or a day.",
+      "One or two weeks.",
+      "One to three months.",
+      "More than three months."
+    ]),
+    q("ownership", 4, "derniere-fois", "The last time work you were responsible for went wrong, what did you do?", [
+      "I waited to see if anyone noticed.",
+      "I explained that the cause lay elsewhere.",
+      "I said so and fixed what I could.",
+      "I said so, fixed it, then checked the fix held."
+    ]),
+    q("ownership", 5, "situation", "You finished a piece of work. You get a thank-you, then no news. What is better to do?", [
+      "Nothing: it's done on your side.",
+      "Wait for them to come back if there is a problem.",
+      "Write straight away to ask if it's fine.",
+      "Come back a month later to see what it changed."
+    ]),
+
+    q("systems", 1, "echelle", "If you left for two weeks without warning, what would happen?", ["Almost everything would wait for my return.", "Several things would wait.", "One or two decisions would wait.", "Nothing: everyone would know what to do."]),
+    q("systems", 2, "habitude", "A regular meeting no longer serves much purpose. Usually, you:", ["Go: it's scheduled.", "Go, and do something else during it.", "Suggest making it shorter.", "Suggest cancelling it, or replacing it with something written."]),
+    q("systems", 3, "habitude", "You are the only person who knows how to do a task. Usually, you:", ["Keep it: it's safer.", "Do it when asked.", "Write down how to do it.", "Teach it to someone, who does it in front of you."]),
+    q("systems", 4, "derniere-fois", "The last time the same problem came back a second time, what did you do?", [
+      "I fixed it the same way as the first time.",
+      "I fixed it and warned the others.",
+      "I wrote down how to fix it next time.",
+      "I found its cause and removed it."
+    ]),
+    q("systems", 5, "situation", "Every Monday, you spend an hour rebuilding the same spreadsheet by hand. What is better to do?", [
+      "Carry on: everyone is used to it.",
+      "Note that it should be automated one day.",
+      "Automate it on your own computer, for you.",
+      "Check it is still used, before automating it."
+    ]),
+
+    q("leverage", 1, "recence", "When did someone last use something you made, without needing you?"),
+    q("leverage", 2, "habitude", "Your week is full, and a new request arrives. Usually, you:", ["Say yes, and work more.", "Say yes, and warn it will take time.", "Ask what matters most.", "Suggest what you'll stop to make room for it."]),
+    q("leverage", 3, "habitude", "Before creating a tool, a document or a method, you usually:", ["Dive in: you know what you need.", "Look for a template online.", "Ask around whether it exists.", "Look for what already exists here and could be reused."]),
+    q("leverage", 4, "derniere-fois", "The last time you got a lot of requests that looked alike, what did you do?", [
+      "I handled them one by one.",
+      "I asked for help to keep up.",
+      "I prepared a standard answer to go faster.",
+      "I looked for their shared cause and dealt with it."
+    ]),
+    q("leverage", 5, "situation", "A new paid tool would save you two hours a week. What is better to do?", [
+      "Buy it now: two hours is a lot.",
+      "Change nothing: one more tool complicates everything.",
+      "Let your manager decide for you.",
+      "Compare the time saved with what it costs to keep up."
+    ]),
+
+    q("leadership", 1, "habitude", "Someone less experienced wants to try something you know is risky, but not serious. Usually, you:", ["Stop them, to spare them the mistake.", "Do it for them.", "Let them try, watching closely.", "Let them try, then talk it over together."]),
+    q("leadership", 2, "habitude", "When you hand work to someone, you usually give:", ["The steps to follow, in order.", "The steps, and the expected result.", "The expected result, and your advice.", "The problem to solve, and why it matters."]),
+    q("leadership", 3, "habitude", "When you review someone's work, you usually:", ["Fix it yourself: it's quicker.", "Point out the mistakes.", "Point out the mistakes, and suggest a fix.", "Explain what you checked, and why."]),
+    q("leadership", 4, "derniere-fois", "The last time someone asked for help with a problem you knew how to fix, what did you do?", [
+      "I fixed it myself, it was quicker.",
+      "I gave them the answer to apply.",
+      "I showed them how, step by step.",
+      "I asked questions to help them find it."
+    ]),
+    q("leadership", 5, "situation", "Someone you work with suggests a solution that is worse than yours, but works. What is better to do?", [
+      "Push your solution, since it is better.",
+      "Let them go ahead and say nothing.",
+      "Let them go ahead, then show them yours.",
+      "Ask for their reasons, then let them decide."
+    ]),
+
+    q("reference", 1, "recence", "When did someone last tell you they had taken up one of your ways of working?"),
+    q("reference", 2, "echelle", "When someone joins your team or group, they learn how you work:", ["By asking you questions as they go.", "By watching you work.", "By reading what you wrote, then asking you.", "From what you wrote, without needing you."]),
+    q("reference", 3, "habitude", "An attempt you led didn't work. Usually, you:", ["Move on, without talking about it.", "Talk about it if someone asks.", "Tell your team about it.", "Write down what you learned, so others avoid it."]),
+    q("reference", 4, "derniere-fois", "The last time someone asked you a question you knew the answer to well, what did you do?", [
+      "I sent them to someone else.",
+      "I answered quickly, out loud or in private.",
+      "I answered in detail, with examples.",
+      "I answered where others can read it again."
+    ]),
+    q("reference", 5, "situation", "You found a way of working that saves time. What is better to do?", [
+      "Keep it to yourself: it's your edge.",
+      "Talk about it if someone asks.",
+      "Present it once in a meeting.",
+      "Write it down with its limits, and share it."
+    ])
+  ];
+  // Each question carries a move: a short phrase that serves as a strength,
+  // a blocker and a box to tick in the result.
+  const gestes = {
+    "mindset-1": "Ask why a rule exists",
+    "mindset-2": "Change your mind in the face of a fact, and say so",
+    "mindset-3": "Say \"I don't know\", then come back with the answer",
+    "mindset-4": "Take a first step when something isn't working",
+    "mindset-5": "Ask right away about what you don't understand",
+    "craft-1": "Show your work early, so it gets criticised",
+    "craft-2": "Go looking yourself for what you want to learn",
+    "craft-3": "Rework what matters, even when acceptable is enough",
+    "craft-4": "Change how you work after criticism",
+    "craft-5": "Look at how the best do it, and compare",
+    "autonomy-1": "Ask what a task is for before starting it",
+    "autonomy-2": "Ask for help with the problem and a proposal",
+    "autonomy-3": "Decide at your level, then tell others",
+    "autonomy-4": "Suggest something else when an instruction makes no sense",
+    "autonomy-5": "Suggest a solution and a date to decide by",
+    "understanding-1": "Talk with someone who uses what you make",
+    "understanding-2": "Know what your work costs or earns",
+    "understanding-3": "Spend time with another trade or team",
+    "understanding-4": "Look for the real problem behind a request",
+    "understanding-5": "Talk to the person complaining, to understand them",
+    "delivery-1": "Show an unfinished version to someone who will use it",
+    "delivery-2": "Finish something someone really uses",
+    "delivery-3": "Cut what can wait to ship on time",
+    "delivery-4": "Get something new tried within a few days",
+    "delivery-5": "Ship what is ready and useful, then the rest",
+    "ownership-1": "Check afterwards whether your work helped",
+    "ownership-2": "Warn of a delay as soon as you know",
+    "ownership-3": "Carry months of work without anyone checking on you",
+    "ownership-4": "Fix a mistake, then check the fix holds",
+    "ownership-5": "Come back a month later to see what your work changed",
+    "systems-1": "Leave work that carries on without you",
+    "systems-2": "Remove a meeting or step that no longer helps",
+    "systems-3": "Pass on what nobody else knows how to do",
+    "systems-4": "Remove the cause of a problem that keeps coming back",
+    "systems-5": "Check a task is still used before automating it",
+    "leverage-1": "Make things that serve without you",
+    "leverage-2": "Choose what you stop when your week is full",
+    "leverage-3": "Reuse what exists instead of starting from scratch",
+    "leverage-4": "Look for the shared cause of similar requests",
+    "leverage-5": "Compare the time saved with what a tool costs",
+    "leadership-1": "Let someone try, then talk it over together",
+    "leadership-2": "Hand over a problem rather than a list of tasks",
+    "leadership-3": "Explain your reasoning when you review work",
+    "leadership-4": "Ask questions to help someone find the answer",
+    "leadership-5": "Hear the other person's reasons, then leave them the decision",
+    "reference-1": "See others take up how you work",
+    "reference-2": "Write down how you work so others learn without you",
+    "reference-3": "Write down what a failure taught you, for others",
+    "reference-4": "Answer where others can read it again",
+    "reference-5": "Write down a good way of working, with its limits"
+  };
+  questions.forEach((question) => { question.geste = gestes[question.id]; });
   const capabilities = [
   {
     "id": "mindset",
@@ -244,29 +458,60 @@
     "cards": [
       {
         "title": "An opinion is not an artifact",
-        "url": "/en/chapters/10-02-an-opinion-is-not-an-artifact.html",
+        "url": "/en/chapters/10-03-an-opinion-is-not-an-artifact.html",
         "type": "diagnostic"
       },
       {
         "title": "Answer the question in public",
-        "url": "/en/chapters/10-04-answer-the-question-in-public.html",
+        "url": "/en/chapters/10-05-answer-the-question-in-public.html",
         "type": "pratique"
       },
       {
         "title": "⇄ The absence of a rule is a ban",
-        "url": "/en/chapters/10-09-the-absence-of-a-rule-is-a-ban.html",
+        "url": "/en/chapters/10-10-the-absence-of-a-rule-is-a-ban.html",
         "type": "systeme"
       }
     ]
   }
 ];
-  const answerOptions = [
-    { id: "revisit", label: "I have an example and I'd like to revisit this practice." },
-    { id: "deepen", label: "I have an example that helps me and I want to go deeper into this practice." },
-    { id: "discover", label: "I haven't met this situation yet." },
-    { id: "blocked", label: "Conditions are missing for me to try or to observe." },
-    { id: "outside", label: "This subject isn't what I'm looking for right now." },
-    { id: "skip", label: "I'd rather pass, or I don't know yet." }
+  // Each step carries its phrase and a "next time…" plan: the move the result
+  // offers when it is the next step.
+  const etapes = {
+    mindset: { phrase: "I make things better",
+      plan: "Next time something bothers you, take a first small step to improve it within the day, then tell whoever can act on it." },
+    craft: { phrase: "I'm excellent at something",
+      plan: "Next time you finish a piece of work, show it to someone more experienced before handing it in, and ask them for one thing to improve." },
+    autonomy: { phrase: "Give me the problem, not the procedure",
+      plan: "Next time you are given a task, ask what it is for before you start. If you get stuck, come back with a proposal, not a question." },
+    understanding: { phrase: "I understand the whole business",
+      plan: "Next time someone asks you for something, find the person who needs it and ask them what they are trying to do." },
+    delivery: { phrase: "I put things into the real world",
+      plan: "Next time you start something, show a first version to someone who will use it before the end of the week." },
+    ownership: { phrase: "I answer for the result",
+      plan: "Next time you finish a piece of work, note a date a month away to come back and see what it changed." },
+    systems: { phrase: "I make next time easier",
+      plan: "Next time a problem comes back a second time, look for what causes it before fixing it again." },
+    leverage: { phrase: "I multiply my impact",
+      plan: "Next time you get three requests that look alike, look for their shared cause before answering the third." },
+    leadership: { phrase: "I make builders around me",
+      plan: "Next time someone asks for help with a problem you know how to fix, ask two questions before giving your answer." },
+    reference: { phrase: "People learn from how I work",
+      plan: "Next time someone asks you a question you know the answer to well, write it where others can find it." }
+  };
+  capabilities.forEach((capability) => Object.assign(capability, etapes[capability.id]));
+  // Five bands of two steps. Each text says what you do and what you don't do
+  // yet: it must be false for someone two bands away.
+  const paliers = [
+    { numero: 1, min: 0, max: 2, nom: "You are laying the foundations",
+      texte: "You notice what's wrong and you work on your craft. You still often wait to be told what to do, and why." },
+    { numero: 2, min: 3, max: 4, nom: "You move on your own",
+      texte: "You start from the problem, not the instruction, and you understand who you work for. What you make still rarely reaches real people, quickly and whole." },
+    { numero: 3, min: 5, max: 6, nom: "You ship and answer for the result",
+      texte: "You put things into the real world and check what they changed. You still fix problems one at a time, without making next time easier." },
+    { numero: 4, min: 7, max: 8, nom: "You make next time easier",
+      texte: "You remove causes, and what you make serves others without you. You still do little to help the people around you grow." },
+    { numero: 5, min: 9, max: 10, nom: "You grow other builders",
+      texte: "You let others decide, you explain your reasoning, and others take up how you work. Check that it all holds when you are not there." }
   ];
   const beginner = { title: "A useful first attempt", url: "/en/first-try/" };
   const templates = { title: "Templates for acting and reviewing", url: "/en/templates/" };
@@ -284,132 +529,86 @@
       resource: { title: "Six weeks to learn together", url: "/en/learning-as-a-team/" },
       guidance: "Ask what backing would help, offer a precise contribution inside your means, and wait for the agreement of the people concerned. Backing does not mean taking over their work." }
   ];
-  const conditions = [
-    { id: "time", label: "Time or priority", guidance: "What time would have to be set aside, and what work displaced? Who can grant it?" },
-    { id: "access", label: "Access to people or information", guidance: "What feedback or limited access would be enough? Who can authorise it, or offer another source?" },
-    { id: "authority", label: "Agreement or the right to decide", guidance: "Which decision is waiting on an agreement, and from whom? A proposal is not yet an authorisation." },
-    { id: "help", label: "Backing or a skill available", guidance: "What precise backing to ask for, from someone who is available and willing?" },
-    { id: "other", label: "Another condition, or I'd rather not say", guidance: "Which condition would have to be clarified before carrying on?" }
-  ];
   const modeLabels = { revisit: "Revisit a practice", deepen: "Go deeper into a strength", discover: "Prepare a first attempt", blocked: "Clarify the conditions" };
-  const memoryNotice = "Your answers stay in this page's memory and are not sent to the evaluation service. They disappear when you leave or reload the page. Copy your line of work to keep it.";
-  // Six observations per capability. They are about possible acts, not an identity.
-  const statements = {
-    mindset: [
-      "When I notice a problem, I look for a first move within my reach.",
-      "I ask a question even when it looks obvious to me.",
-      "I separate what I can try from what needs an agreement.",
-      "A fact that goes against my idea leads me to revisit it.",
-      "I can say what I do not know yet.",
-      "I go back to a difficulty instead of waiting for it to disappear."
-    ],
-    craft: [
-      "I choose one precise aspect of my practice to improve.",
-      "I look for examples or sources beyond my habits.",
-      "I ask for feedback on work that is not yet finished.",
-      "I try to explain why a method works in my context.",
-      "I take the time to redo a detail that matters for the quality.",
-      "I can name something I learned recently in my practice."
-    ],
-    autonomy: [
-      "Before acting, I look for the problem behind the request.",
-      "When a decision is missing, I make that blockage visible.",
-      "I propose a possible next step, with its limits.",
-      "I check who can decide before committing on behalf of other people.",
-      "I flag early what changes the planned work.",
-      "I can move on a small part without claiming to solve everything."
-    ],
-    understanding: [
-      "I try to understand the situation of the person I want to help.",
-      "I check my assumptions against a source I can reach.",
-      "I look at who will carry the work my idea creates.",
-      "I ask how a solution will actually be used.",
-      "I separate the request as stated from the need it might express.",
-      "I change my idea when real use tells another story."
-    ],
-    delivery: [
-      "I look for an attempt small enough to learn without needlessly exposing other people.",
-      "I define what has to be protected before making work available.",
-      "I show a usable version in order to get concrete feedback.",
-      "I separate what can wait from what really blocks the attempt.",
-      "I know how to cut back or stop an attempt when the facts call for it.",
-      "I come back to the feedback received after a first delivery."
-    ],
-    ownership: [
-      "After helping, I try to find out what it made possible.",
-      "I acknowledge results that differ from what I hoped for.",
-      "I agree a date or a signal for revisiting an attempt.",
-      "I get clear with other people about who picks up what follows.",
-      "I pass on the means needed to whoever accepts a handover.",
-      "I know how to close my part without promising endless follow-up."
-    ],
-    systems: [
-      "When a difficulty comes back, I compare the cases before generalising.",
-      "I look for why a step exists before removing it.",
-      "I spot the knowledge that rests on one person.",
-      "I check that a new rule solves a real problem.",
-      "I look at the effects of an improvement on the people around.",
-      "I prepare a handover when somebody agrees to take it."
-    ],
-    leverage: [
-      "I check whether similar requests really have the same cause.",
-      "I look for what can be reused before adding a tool.",
-      "I weigh the time saved against the cost of setting it up and maintaining it.",
-      "I keep checks in place when I speed up or automate a task.",
-      "I share a reusable solution with the people concerned.",
-      "I can decide that an automation is not worth it."
-    ],
-    leadership: [
-      "I ask what backing would help somebody else act.",
-      "I leave room for the decision of the person I am helping.",
-      "I explain what my review checked and what is still uncertain.",
-      "I make the time and the means of shared learning explicit.",
-      "I ask people's agreement before handing them what comes next.",
-      "I can help without taking over someone else's work."
-    ],
-    reference: [
-      "I keep a useful answer where its recipients will find it.",
-      "I explain the context and the limits of an experience I share.",
-      "I check that somebody else can use what I pass on.",
-      "I choose a form of sharing compatible with the agreements in place.",
-      "I also pass on the attempts that did not produce the result expected.",
-      "I know that sharing internally can be enough."
-    ]
-  };
-  const scale = ["Strongly disagree", "Mostly disagree", "Slightly disagree", "Slightly agree", "Mostly agree", "Strongly agree"];
-  // The words of the line of work. They live here, not in the rules.
+  const memoryNotice = "Your answers are sent nowhere. They disappear when you leave the page, unless you choose to keep them on this device. Copy your line of work to keep it.";
 
-  // The test's interface labels. They used to be hard-coded French inside
-  // test-builder.js, which made this English build speak French.
+  // The test's interface labels.
   const ui = {
-    etape: (n, total, nb) => `Step ${n} of ${total} · ${nb} statements`,
+    etape: (n, total, nb) => `Step ${n} of ${total} · ${nb} questions`,
     progression: "Test progress",
-    consigne: "Think about what you do today, in your studies, your activity, a community group or a personal project. Pick a position on the scale; if you have not met the situation, say so separately.",
-    nonRencontree: "I have not met this situation yet",
-    conditionsManquantes: "The conditions were missing for me to try",
+    consigne: "Answer for what you really do: at work, in class, in a community group or a project of your own. \"Your craft\" is what you do most. If a situation didn't come up, say so with the answers at the bottom.",
     precedent: "Back",
     continuer: "Continue",
-    voirPistes: "See my lines of work",
+    voirNiveau: "See my level",
     reponses: (n, total) => `${n} answer${n > 1 ? "s" : ""} of ${total}`,
-    resultatTitre: "How do you build today?",
-    resultatLede: "Your answers open lines of reading. They do not decide whether you are a builder and they do not measure your capabilities. Pick the subject that would help you now.",
-    intentionLegende: "To fit what comes next, what do you want to do?",
-    directions: {
-      deepen: "You recognise these moves in your practice: explore their limits or another context.",
-      revisit: "You recognise these moves less: pick a first adjustment if the subject interests you.",
-      explore: "Your answers vary with the situation: pick one concrete case to examine.",
-      discover: "You have few lived situations here: start with an example or a first attempt."
+    resultatTitre: "Your builder level",
+    estimation: {
+      titre: "Before you start",
+      question: "In your view, up to which step is your practice solid today?",
+      aide: "Answer on instinct. At the end, the test will compare it with what you did.",
+      aucune: "None yet",
+      nsp: "I don't know",
+      commencer: "Start the test"
     },
-    nonRencontrees: (n) => `${n} situation${n > 1 ? "s" : ""} not met, with no judgement.`,
-    conditionsOntManque: (n) => `${n} situation${n > 1 ? "s" : ""} where the conditions were missing.`,
+    ici: "You are here",
+    prochaineMarque: "Next step",
+    position: (n, nom) => n ? `Your practice is solid up to step ${n}, ${nom}.` : "No step is solid in your answers yet.",
+    prochaine: (n, nom) => `Next step: ${n}, ${nom}.`,
+    sommet: "You are at the top of the ladder.",
+    niveau: (numero, total) => `Level ${numero} of ${total}`,
+    ecart: (estime, mesure) => {
+      const ou = (n) => n ? `at step ${n}` : "before step 1";
+      if (estime > mesure + 1) return `You placed yourself ${ou(estime)}. Your answers place you ${ou(mesure)}. The gap shows just below, in what holds you back.`;
+      if (estime < mesure - 1) return `You placed yourself ${ou(estime)}. Your answers place you ${ou(mesure)}: you do more than you think.`;
+      return `You placed yourself ${ou(estime)}, and your answers place you ${ou(mesure)}. You see yourself clearly.`;
+    },
+    trou: (nom) => `Lower down, one step still needs work: ${nom}.`,
+    bloquees: (noms) => `Your setting limited these steps: ${noms}. They don't lower your level.`,
+    sansNiveau: "Your setting limited too many steps to place a level. That is not a judgement about you, it is information about your context.",
+    forcesTitre: "What you already do",
+    reponse: (label) => `Your answer: "${label}"`,
+    freinsTitre: (n, nom) => `What holds you back at step ${n}, ${nom}`,
+    freinsVides: "The situation hasn't come up yet.",
+    sommetTexte: "All your steps are solid. The risk at this level: becoming the person nothing moves without. Check that what you pass on holds without you.",
+    dejaLa: (n, total) => `${n} of ${total} already there.`,
+    fait: "done",
+    pasEncore: "not yet",
+    gesteTitre: "Your next move",
+    carteLiee: "The card from the book that goes with it",
+    copierGeste: "Copy my move",
+    pisteComplete: "See the full line of work →",
+    retourTitre: "Come back in three months",
+    retourTexte: (date) => `Take the test again around ${date}. Until then, watch these moves:`,
+    retourEcran: (date) => `Take the test again around ${date}. Until then, work on the moves not yet ticked.`,
+    retourSansGestes: (date) => `Take the test again around ${date} to see what moved.`,
+    depuisTitre: "Since your last time",
+    depuis: (date, avant, apres) => {
+      const etape = (n) => n ? `up to step ${n}` : "on no step";
+      if (apres > avant) return `On ${date}, your practice was solid ${etape(avant)}. It is now solid ${etape(apres)}.`;
+      if (apres < avant) return `On ${date}, your practice was solid ${etape(avant)}. Today's answers place it ${etape(apres)}.`;
+      return `On ${date}, your practice was already solid ${etape(avant)}. No change of step for now.`;
+    },
+    gagnes: "Moves that have become habits since:",
+    garder: "Keep my answers on this device, to see what moved next time. Nothing is sent.",
+    prudence: "This level describes what you did in recent months, not your talent. Its cut-offs are provisional.",
+    carteTitre: "See your ten steps and choose another line of work",
+    statuts: { solid: "Solid", partial: "Under way", open: "To work on", unseen: "Not met", blocked: "Limited by your setting" },
+    directions: {
+      solid: "You do this often. You can go deeper or pass it on.",
+      partial: "You do this sometimes. One more concrete case can make it solid.",
+      open: "You don't do this much yet. One first adjustment is enough to start.",
+      unseen: "These situations haven't come up yet. Start with an example or a first attempt.",
+      blocked: "Your setting limited these situations. You can start by clarifying the conditions."
+    },
+    pistesTitre: "Choose a line of work",
+    intentionLegende: "To fit what comes next, what do you want to do?",
     explorer: "Explore this line →",
     clarifier: "Clarify the conditions →",
     revoir: "Review the answers",
-    planRaison: (nom) => `You chose ${nom} after going through the statements. Here is a proposal to adapt to your situation.`,
-    planLede: "You chose this line from your answers. The test makes no diagnosis.",
+    planLede: "A proposal to adapt to your situation. It doesn't change your level.",
     troisCartes: "Three cards to go further",
     lire: "Read →",
-    autrePiste: "Choose another line",
+    autrePiste: "Back to my level",
     copier: "Copy my line",
     copierLabel: "Text of your line, to copy",
     copiee: "Line copied.",
@@ -418,11 +617,9 @@
 
   const textes = {
     titre: (nom) => `A line of work you chose: ${nom}`,
-    raison: (question, choix) => `You kept "${question}" and "${choix}". Here is a proposal to adapt to your situation.`,
-    raisonDirecte: (mode) => `You chose this subject directly, with nothing inferred from your answers: ${mode}.`,
-    appui: (question) => `The strength you want to go deeper into: ${question}`,
+    raison: (nom, mode) => `You chose the step "${nom}": ${mode}. Here is a proposal to adapt to your situation.`,
     actions: {
-      revisit: "Take your example again. Choose a single adjustment to propose or to try inside your remit.",
+      revisit: "Start from a recent example. Choose a single adjustment to propose or to try inside your remit.",
       deepen: "Start from what already helps you. With a willing person, examine a limit, or another case where this practice might need adapting.",
       discover: "Read a constructed example first. Then prepare this practice on a personal or fictional situation. If a real attempt is possible, bound it with the people concerned.",
       blocked: "Start with the missing condition before trying to change the practice. Read the card about conditions, then prepare a precise request if you can carry it."
@@ -442,15 +639,15 @@
       observation: "Observation and feedback",
       fin: "Ending or handover"
     },
-    conditionsBloque: "Which condition would have to be clarified before carrying on? You can name it for yourself, without typing it here.",
+    conditionsBloque: "Which condition would have to be clarified before carrying on: time, access, an agreement, backing? You can name it for yourself, without typing it here.",
     conditionsGenerales: "Get clear on what is yours and what needs an agreement before you try. A proposal is not yet an authorisation.",
     tempsTexte: "Choose a realistic duration, what it displaces, and a suitable date to come back. If it will not fit the time available, cut the attempt back or defer it.",
     finTexte: "Get clear on who decides to carry on and who accepts what follows. You do not have to provide indefinite follow-up.",
     lectures: "Reading: one card can be enough",
-    disclaimer: "This line of work is a suggestion for reading and practice, not a level or an assessment of what you can do."
+    disclaimer: "This line of work is a suggestion for reading and practice. Your level comes from your answers and stays provisional."
   };
-  const contenu = { questions, capabilities, answerOptions, intentions, conditions, modeLabels,
-    memoryNotice, statements, scale, beginner, templates, method, textes, ui };
+  const contenu = { questions, capabilities, recence, horsEchelle, paliers, intentions, modeLabels,
+    memoryNotice, beginner, templates, method, textes, ui };
   if (typeof module !== "undefined" && module.exports) module.exports = contenu;
   else scope.BuilderTestContenu = contenu;
 })(globalThis);

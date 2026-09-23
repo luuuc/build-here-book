@@ -35,7 +35,7 @@ This book starts from that correction. It gathers practices for building, for ge
 
 The [four paths](/en/paths/) give you a direct way in. The short cards read on their own: principle, diagnostic, practice, or system. The ten capabilities organise the book without ranking people or imposing a single route through.
 
-If you do not yet know which subject to choose, the [test questions](/en/) are optional. You can explore three questions, choose a strength to deepen or a condition to clarify, then keep one line of work. No score is calculated. The answers stay in the page's memory and are not sent to the evaluation service; copy the line of work if you want to keep it. The [method](/en/test-method/) sets out the choices and the limits.
+If you do not yet know which subject to choose, the [builder test](/en/) is optional. It gives your level, from 1 to 5, from what you did in recent months, then lets you choose a line of work. The answers are sent nowhere; you can keep them on your device to see what moved next time. The [method](/en/test-method/) sets out the choices and the limits.
 
 ## Examining the ideas and the examples
 
