@@ -67,7 +67,7 @@ Le résultat cite la réponse qui te retient à l'étape suivante. Tu peux véri
 
 ## Ce que montre le résultat
 
-Avant la première étape, le test te demande où tu penses en être. Tu peux répondre « je ne sais pas ». À la fin, il compare cette estimation avec ce que montrent tes réponses : c'est souvent là que se trouve la surprise.
+Avant la première étape, le test te demande quelles étapes tu penses solides. Tu en coches autant que tu veux, ou tu réponds « aucune encore » ou « je ne sais pas ». À la fin, il compare étape par étape avec ce que montrent tes réponses : c'est souvent là que se trouve la surprise. Une étape limitée par ton cadre, ou qui ne s'est pas présentée, ne compte ni pour ni contre.
 
 Le résultat répond ensuite à trois questions, dans l'ordre :
 

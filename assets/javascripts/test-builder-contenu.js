@@ -546,8 +546,8 @@
     resultatTitre: "Ton niveau de builder",
     estimation: {
       titre: "Avant de commencer",
-      question: "À ton avis, jusqu'à quelle étape ta pratique est-elle solide aujourd'hui ?",
-      aide: "Réponds à l'instinct. À la fin, le test comparera avec ce que tu as fait.",
+      question: "À ton avis, quelles étapes sont solides dans ta pratique aujourd'hui ?",
+      aide: "Coche toutes les étapes solides, à l'instinct. À la fin, le test comparera avec ce que tu as fait.",
       aucune: "Aucune encore",
       nsp: "Je ne sais pas",
       commencer: "Commencer le test"
@@ -558,11 +558,10 @@
     prochaine: (n, nom) => `Prochaine étape : ${n}, ${nom}.`,
     sommet: "Tu es en haut de l'échelle.",
     niveau: (numero, total) => `Niveau ${numero} sur ${total}`,
-    ecart: (estime, mesure) => {
-      const ou = (n) => n ? `à l'étape ${n}` : "avant l'étape 1";
-      if (estime > mesure + 1) return `Tu te plaçais ${ou(estime)}. Tes réponses te placent ${ou(mesure)}. L'écart se lit juste en dessous, dans ce qui te retient.`;
-      if (estime < mesure - 1) return `Tu te plaçais ${ou(estime)}. Tes réponses te placent ${ou(mesure)} : tu fais plus que tu ne le crois.`;
-      return `Tu te plaçais ${ou(estime)}, et tes réponses te placent ${ou(mesure)}. Tu te vois juste.`;
+    ecart: {
+      trop: (noms) => `Tu pensais solides : ${noms}. Tes réponses ne le montrent pas encore.`,
+      pasAssez: (noms) => `Solides dans tes réponses, sans que tu les coches : ${noms}. Tu fais plus que tu ne le crois.`,
+      juste: "Tes réponses montrent les étapes que tu avais cochées. Tu te vois juste."
     },
     trou: (nom) => `Plus bas, une étape reste à consolider : ${nom}.`,
     bloquees: (noms) => `Ton cadre a limité ces étapes : ${noms}. Elles ne baissent pas ton niveau.`,

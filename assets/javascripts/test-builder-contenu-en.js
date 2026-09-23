@@ -544,8 +544,8 @@
     resultatTitre: "Your builder level",
     estimation: {
       titre: "Before you start",
-      question: "In your view, up to which step is your practice solid today?",
-      aide: "Answer on instinct. At the end, the test will compare it with what you did.",
+      question: "In your view, which steps are solid in your practice today?",
+      aide: "Tick every solid step, on instinct. At the end, the test will compare it with what you did.",
       aucune: "None yet",
       nsp: "I don't know",
       commencer: "Start the test"
@@ -556,11 +556,10 @@
     prochaine: (n, nom) => `Next step: ${n}, ${nom}.`,
     sommet: "You are at the top of the ladder.",
     niveau: (numero, total) => `Level ${numero} of ${total}`,
-    ecart: (estime, mesure) => {
-      const ou = (n) => n ? `at step ${n}` : "before step 1";
-      if (estime > mesure + 1) return `You placed yourself ${ou(estime)}. Your answers place you ${ou(mesure)}. The gap shows just below, in what holds you back.`;
-      if (estime < mesure - 1) return `You placed yourself ${ou(estime)}. Your answers place you ${ou(mesure)}: you do more than you think.`;
-      return `You placed yourself ${ou(estime)}, and your answers place you ${ou(mesure)}. You see yourself clearly.`;
+    ecart: {
+      trop: (noms) => `You thought these were solid: ${noms}. Your answers don't show it yet.`,
+      pasAssez: (noms) => `Solid in your answers, though you didn't tick them: ${noms}. You do more than you think.`,
+      juste: "Your answers show the steps you ticked. You see yourself clearly."
     },
     trou: (nom) => `Lower down, one step still needs work: ${nom}.`,
     bloquees: (noms) => `Your setting limited these steps: ${noms}. They don't lower your level.`,

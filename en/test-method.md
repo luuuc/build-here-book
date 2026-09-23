@@ -63,7 +63,7 @@ The result quotes the answer that holds you back at the next step. You can check
 
 ## What the result shows
 
-Before the first step, the test asks where you think you stand. You can answer "I don't know". At the end, it compares that estimate with what your answers show: that is often where the surprise is.
+Before the first step, the test asks which steps you think are solid. You tick as many as you like, or answer "none yet" or "I don't know". At the end, it compares step by step with what your answers show: that is often where the surprise is. A step your setting limited, or that didn't come up, counts neither for nor against.
 
 The result then answers three questions, in order:
 

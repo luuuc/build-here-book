@@ -15,6 +15,7 @@
   let responses = {};
   let intent = "start";
   let step = 0;
+  // Les etapes cochees au debut, [] pour « aucune », "nsp" ou null sinon.
   let estimate = null;
   let mapOpen = false;
   let copyGeneration = 0;
@@ -151,25 +152,40 @@
     node("p", e.aide, screen, "builder-test-consigne");
     const group = node("fieldset", "", screen, "echelle");
     node("legend", e.question, group, "echelle-question");
+    // Les etapes se cochent ensemble. « Aucune » et « je ne sais pas »
+    // s'excluent entre elles et avec les etapes : en cocher une vide l'autre
+    // cote. Rien de coche vaut « je ne sais pas ».
     const liste = node("div", "", group, "echelle-choix");
-    const choix = [{ id: "0", label: e.aucune }, ...model.capabilities.map((c, i) => ({ id: String(i + 1), label: `${i + 1}. ${c.name} · ${c.phrase}` }))];
-    choix.forEach((option) => {
+    const etapes = model.capabilities.map((c, i) => {
       const item = node("label", "", liste);
       const input = node("input", "", item);
-      input.type = "radio";
-      input.name = "estimation";
-      input.checked = estimate === Number(option.id);
-      input.addEventListener("change", () => { estimate = Number(option.id); });
-      node("span", option.label, item);
+      input.type = "checkbox";
+      input.name = "estimation-etape";
+      input.value = String(i + 1);
+      input.checked = Array.isArray(estimate) && estimate.includes(i + 1);
+      node("span", `${i + 1}. ${c.name} · ${c.phrase}`, item);
+      return input;
     });
     const apart = node("div", "", group, "echelle-apart");
-    const item = node("label", "", apart);
-    const input = node("input", "", item);
-    input.type = "radio";
-    input.name = "estimation";
-    input.checked = estimate === null;
-    input.addEventListener("change", () => { estimate = null; });
-    node("span", e.nsp, item);
+    const autres = [["aucune", e.aucune], ["nsp", e.nsp]].map(([valeur, label]) => {
+      const item = node("label", "", apart);
+      const input = node("input", "", item);
+      input.type = "radio";
+      input.name = "estimation-apart";
+      input.value = valeur;
+      input.checked = valeur === "aucune" ? Array.isArray(estimate) && !estimate.length : estimate === "nsp";
+      node("span", label, item);
+      return input;
+    });
+    etapes.forEach((input) => input.addEventListener("change", () => {
+      autres.forEach((autre) => { autre.checked = false; });
+      const cochees = etapes.filter((i) => i.checked).map((i) => Number(i.value));
+      estimate = cochees.length ? cochees : null;
+    }));
+    autres.forEach((input) => input.addEventListener("change", () => {
+      etapes.forEach((etape) => { etape.checked = false; });
+      estimate = input.value === "aucune" ? [] : "nsp";
+    }));
     const nav = node("div", "", screen, "builder-test-nav");
     node("span", "", nav);
     button(e.commencer, node("div", "", nav, "builder-test-nav-suite"), () => { step = 0; renderStep(); }, "bouton");
@@ -233,7 +249,12 @@
       node("p", ui.position(r.niveau, r.niveau ? nom(r.steps[r.niveau - 1]) : null), bloc, "niveau-texte");
       node("p", r.suivante ? ui.prochaine(r.suivante.step, nom(r.suivante)) : ui.sommet, bloc, "niveau-texte");
       node("p", r.palier.texte, bloc);
-      if (estimate !== null) node("p", ui.ecart(estimate, r.niveau), bloc, "niveau-ecart");
+      const ecart = model.ecart(Array.isArray(estimate) ? estimate : null, r.steps);
+      if (ecart) {
+        if (ecart.surestimees.length) node("p", ui.ecart.trop(noms(ecart.surestimees)), bloc, "niveau-ecart");
+        if (ecart.sousestimees.length) node("p", ui.ecart.pasAssez(noms(ecart.sousestimees)), bloc, "niveau-ecart");
+        if (!ecart.surestimees.length && !ecart.sousestimees.length) node("p", ui.ecart.juste, bloc, "niveau-ecart");
+      }
     } else {
       node("p", ui.sansNiveau, bloc, "niveau-texte");
     }

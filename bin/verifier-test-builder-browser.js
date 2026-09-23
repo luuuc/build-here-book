@@ -13,8 +13,17 @@
     root.querySelector('[data-test-restart]').click();
     root.querySelector('[data-test-start]').click();
     assert(screen.querySelector('h2').textContent === 'Avant de commencer', 'estimate first');
-    assert(screen.querySelectorAll('input[name=estimation]').length === 12, 'ten steps, none, and unknown');
-    screen.querySelectorAll('input[name=estimation]')[8].click();
+    const etapes = [...screen.querySelectorAll('input[name=estimation-etape]')];
+    const autres = [...screen.querySelectorAll('input[name=estimation-apart]')];
+    assert(etapes.length === 10 && etapes.every((i) => i.type === 'checkbox'), 'ten steps to tick');
+    assert(autres.length === 2, 'none and unknown apart');
+    autres[0].click();
+    etapes[0].click();
+    assert(!autres[0].checked, 'ticking a step clears none');
+    autres[1].click();
+    assert(!etapes[0].checked, 'unknown clears the steps');
+    etapes[2].click(); etapes[3].click(); etapes[8].click();
+    assert(etapes.filter((i) => i.checked).length === 3, 'several steps at once');
     next().click();
     assert(screen.querySelector('h2').textContent === "L'état d'esprit", 'first step');
     assert(document.activeElement === screen.querySelector('h2'), 'heading focus');
@@ -43,7 +52,11 @@
     assert(screen.querySelector('.niveau-numero').textContent === 'Niveau 5 sur 5', 'top band with one gap');
     assert(screen.querySelectorAll('.niveau-echelle li').length === 10, 'ten rungs');
     assert(screen.querySelector('.niveau-echelle-marque').textContent === 'Tu es ici', 'position marked');
-    assert(screen.querySelector('.niveau-ecart').textContent.includes("l'étape 8"), 'estimate compared');
+    // Cochees : 3, 4 et 9. L'etape 4 n'est pas solide, les autres le sont.
+    const ecarts = [...screen.querySelectorAll('.niveau-ecart')].map((p) => p.textContent);
+    assert(ecarts.length === 2, 'estimate compared both ways');
+    assert(ecarts[0].startsWith('Tu pensais solides : La compréhension.'), 'overestimate named');
+    assert(!ecarts[1].includes("L'autonomie") && !ecarts[1].includes('Le leadership'), 'ticked steps not listed as surprises');
     assert(screen.textContent.includes('Ce qui te retient à l\'étape 4, La compréhension'), 'blocker is the gap');
     assert(screen.querySelectorAll('.niveau-preuves').length === 1, 'strengths');
     assert(screen.querySelectorAll('.niveau-gestes-reponse').length === 5, 'blockers with answers');

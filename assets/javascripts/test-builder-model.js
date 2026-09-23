@@ -97,6 +97,20 @@
       return { avant: a.niveau, apres: b.niveau, gagnes };
     }
 
+    // L'estimation du debut, etape par etape : ce que le lecteur croyait
+    // solide sans que ses reponses le montrent, et l'inverse. `pensees` liste
+    // les etapes cochees, vide pour « aucune », null pour « je ne sais pas ».
+    // Une etape bloquee ou pas rencontree ne compte ni pour ni contre.
+    function ecart(pensees, steps) {
+      if (pensees === null) return null;
+      const jugees = steps.filter((s) => s.status !== "blocked" && s.status !== "unseen");
+      const cochee = (s) => pensees.includes(s.step);
+      return {
+        surestimees: jugees.filter((s) => cochee(s) && s.status !== "solid"),
+        sousestimees: jugees.filter((s) => !cochee(s) && s.status === "solid")
+      };
+    }
+
     function initialState() { return { intent: null, selection: null }; }
     function setIntent(state, intent) {
       if (!intentions.some((i) => i.id === intent)) throw new Error("Intention inconnue");
@@ -141,7 +155,7 @@
       ].filter(Boolean).join("\n\n");
     }
     return { questions, capabilities, recence, horsEchelle, paliers, intentions, modes, modeLabels,
-      memoryNotice, ui, options, profile, level, compare, initialState, setIntent, select, plan, copyText };
+      memoryNotice, ui, options, profile, level, compare, ecart, initialState, setIntent, select, plan, copyText };
   }
   const api = { creer, modes };
   if (typeof module !== "undefined" && module.exports) module.exports = api;

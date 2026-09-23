@@ -94,6 +94,20 @@ check("Ce qui a bougé depuis le dernier passage", () => {
   const bloque = etape(etape(etape(tout("3"), "craft", "blocked"), "autonomy", "blocked"), "leverage", "blocked");
   assert.equal(model.compare(bloque, apres), null);
 });
+check("L'estimation se compare étape par étape", () => {
+  const steps = model.level(etape(etape(etape(tout("3"), "craft", "0"), "autonomy", "blocked"), "systems", "unseen")).steps;
+  const ids = (liste) => liste.map((s) => s.capability.id);
+  assert.equal(model.ecart(null, steps), null);
+  // Coche 2 et 3 et 7 : 2 n'est pas solide, 3 est bloquee, 7 pas rencontree.
+  const e = model.ecart([2, 3, 7], steps);
+  assert.deepEqual(ids(e.surestimees), ["craft"]);
+  assert.deepEqual(ids(e.sousestimees), ["mindset", "understanding", "delivery", "ownership", "leverage", "leadership", "reference"]);
+  // « Aucune encore » : chaque etape solide est une surprise, jamais une bloquee.
+  assert.equal(model.ecart([], steps).sousestimees.length, 7);
+  assert.deepEqual(model.ecart([], steps).surestimees, []);
+  const juste = model.ecart([1, 4, 5, 6, 8, 9, 10], steps);
+  assert.deepEqual([juste.surestimees, juste.sousestimees], [[], []]);
+});
 check("Cinq paliers qui couvrent les étapes 0 à 10", () => {
   assert.equal(model.paliers.length, 5);
   for (let n = 0; n <= 10; n++) assert.equal(model.paliers.filter((p) => n >= p.min && n <= p.max).length, 1, `étape ${n}`);
