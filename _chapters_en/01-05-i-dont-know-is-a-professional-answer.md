@@ -12,7 +12,7 @@ categories:
   - honnetete-intellectuelle
   - culture
 traductions:
-  fr: /chapters/01-05-je-ne-sais-pas-est-une-reponse-professionnelle.html
+  fr: /book/chapters/01-05-je-ne-sais-pas-est-une-reponse-professionnelle.html
 seo:
   description: "A wrong but plausible answer is more dangerous than no answer, because it travels. Someone repeats it in a meeting. It lands in a document."
   keywords: "build here, ego and intellectual honesty, builder, i don't know, professional answer"

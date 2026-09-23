@@ -14,7 +14,7 @@ categories:
   - technique
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/02-01-making-it-simple-is-a-technical-achievement.html
+  en: /book/en/chapters/02-01-making-it-simple-is-a-technical-achievement.html
 seo:
   description: "Simplifier demande de comprendre ce qu'on retire, de vérifier les usages concernés et de préserver un retour en arrière."
   keywords: "build here, engineering, builder, faire, simple, performance, technique"

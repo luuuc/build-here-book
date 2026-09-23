@@ -48,15 +48,15 @@ note:
   # The key is stable and goes to the database, the label can be rewritten
   # without breaking the data already collected. Keys match the French file.
   raisons:
-    - cle: abstrait
+    - cle: abstract
       texte: "Too abstract"
-    - cle: deja-su
+    - cle: already-known
       texte: "I already knew this"
-    - cle: desaccord
+    - cle: disagree
       texte: "I disagree"
-    - cle: exemple
+    - cle: needs-example
       texte: "An example is missing"
-    - cle: autre
+    - cle: other
       texte: "Something else"
   libre: "Say it in one sentence, if you want. Nobody but me reads it."
   envoyer: "Send"
@@ -102,7 +102,7 @@ menu:
   site: "Explore Build Here"
   livre: "Contents"
   livre_titre: "The book"
-  livre_url: "/en/book/"
+  livre_url: "/book/en/"
   retour: "← Back to the site"
   sommaire_aria: "Book contents"
 

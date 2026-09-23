@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
-import { verifier } from "../worker/lint.mjs";
+import { verifier } from "./lint.mjs";
 const root = fileURLToPath(new URL("..", import.meta.url));
 const chapters = readdirSync(join(root, "_chapters")).filter((f) => f.endsWith(".md"));
 const sources = chapters.map((filename) => ({ filename, source: readFileSync(join(root, "_chapters", filename), "utf8") }));

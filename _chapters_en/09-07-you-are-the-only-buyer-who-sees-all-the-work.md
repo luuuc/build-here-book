@@ -13,7 +13,7 @@ categories:
   - leadership
   - carriere
 traductions:
-  fr: /chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html
+  fr: /book/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html
 seo:
   description: "Examine contributions with explicit criteria, facts people can complete, and a clear mandate, while respecting individual information."
   keywords: "build here, builder, leadership, recognition, contributions, appraisal"

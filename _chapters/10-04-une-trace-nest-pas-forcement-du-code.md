@@ -13,7 +13,7 @@ categories:
   - produit
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-04-a-trace-is-not-necessarily-code.html
+  en: /book/en/chapters/10-04-a-trace-is-not-necessarily-code.html
 seo:
   description: "Choisis une trace adaptée au métier et au destinataire : exemples, schémas et observations qualitatives comptent aussi, en interne comme en public."
   keywords: "build here, trace, support, produit, builder, code"

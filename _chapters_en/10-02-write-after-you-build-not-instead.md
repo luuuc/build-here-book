@@ -12,7 +12,7 @@ categories:
   - trace
   - honnetete
 traductions:
-  fr: /chapters/10-02-ecris-apres-avoir-construit-pas-a-la-place.html
+  fr: /book/chapters/10-02-ecris-apres-avoir-construit-pas-a-la-place.html
 seo:
   description: "Only write about what you built or tried, with what failed and what you still don't know."
   keywords: "build here, builder, reference, honesty, humility, learning"

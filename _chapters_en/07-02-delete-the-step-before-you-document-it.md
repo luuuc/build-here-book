@@ -13,7 +13,7 @@ categories:
   - process
   - simplicite
 traductions:
-  fr: /chapters/07-02-supprime-letape-avant-de-la-documenter.html
+  fr: /book/chapters/07-02-supprime-letape-avant-de-la-documenter.html
 seo:
   description: "Identify what a step is for before documenting, changing or removing it; an unknown reason calls for an inquiry."
   keywords: "build here, builder, systems, procedure, function, simplification"

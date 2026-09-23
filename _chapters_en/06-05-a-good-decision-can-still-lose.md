@@ -12,7 +12,7 @@ categories:
   - decision
   - management
 traductions:
-  fr: /chapters/06-05-une-bonne-decision-peut-quand-meme-perdre.html
+  fr: /book/chapters/06-05-une-bonne-decision-peut-quand-meme-perdre.html
 seo:
   description: "Examine the reasoning and the result separately, accounting for the information, means and risks available at the moment of the choice."
   keywords: "build here, leadership, builder, good decision, bad outcome"

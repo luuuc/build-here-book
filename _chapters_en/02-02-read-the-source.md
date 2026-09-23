@@ -12,7 +12,7 @@ categories:
   - simplicite
   - technique
 traductions:
-  fr: /chapters/02-02-lis-le-code-source.html
+  fr: /book/chapters/02-02-lis-le-code-source.html
 seo:
   description: "When a dependency surprises you, its source can explain the behaviour. Check the version, the context, and one precise case."
   keywords: "build here, engineering, builder, source code"

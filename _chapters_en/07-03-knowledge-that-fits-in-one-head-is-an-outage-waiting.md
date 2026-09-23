@@ -12,7 +12,7 @@ categories:
   - transmission
   - equipe
 traductions:
-  fr: /chapters/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html
+  fr: /book/chapters/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html
 seo:
   description: "Prepare continuity by passing knowledge on in a suitable way, with time, practice, and a maintained record where that helps."
   keywords: "build here, builder, systems, passing on, relay, continuity"

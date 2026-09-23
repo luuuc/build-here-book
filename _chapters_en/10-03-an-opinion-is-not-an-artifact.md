@@ -12,7 +12,7 @@ categories:
   - visibilite
   - ecriture
 traductions:
-  fr: /chapters/10-03-un-avis-nest-pas-un-artefact.html
+  fr: /book/chapters/10-03-un-avis-nest-pas-un-artefact.html
 seo:
   description: "Make the context, the facts and the limits reachable so a reader can examine an idea, without mandating a number or devaluing opinion."
   keywords: "build here, builder, reference, reasoning, evidence, limits"

@@ -42,7 +42,7 @@
             type="button"
             class="partage-page garder"
             data-garder
-            data-url="{{ page.url }}"
+            data-url="{{ page.url | relative_url }}"
             data-titre="{{ page.title | escape }}"
             data-garder-libelle="{{ t.lecture.garder }}"
             data-retirer="{{ t.lecture.retirer }}"
@@ -90,7 +90,7 @@
           {% if page.illustration %}
           <div class="hero-art">
             <img
-              src="/assets/images/sections/{{page.illustration}}.svg"
+              src="/book/assets/images/sections/{{page.illustration}}.svg"
               alt=""
               width="176"
               height="176"
@@ -123,7 +123,7 @@
     {% if page.next %}
     <section class="content-footer">
       <div class="container">
-        <a href="{{page.next.url}}" class="next-chapter"
+        <a href="{{ page.next.url | relative_url }}" class="next-chapter"
           ><small>{{ t.carte.suivante }}</small>{{page.next.title}} →</a
         >
       </div>

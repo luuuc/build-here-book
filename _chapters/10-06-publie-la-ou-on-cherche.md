@@ -13,7 +13,7 @@ categories:
   - trace
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-06-publish-where-people-search.html
+  en: /book/en/chapters/10-06-publish-where-people-search.html
 seo:
   description: "Vérifie le chemin d'accès d'un lecteur réel et entretiens la ressource, sans promettre indexation, permanence ou classement public."
   keywords: "build here, builder, reference, ressource, recherche, entretien"

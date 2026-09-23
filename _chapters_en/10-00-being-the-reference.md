@@ -14,7 +14,7 @@ categories:
   - trace
   - builders
 traductions:
-  fr: /chapters/10-00-la-reference.html
+  fr: /book/chapters/10-00-la-reference.html
 seo:
   description: "Make an experience reachable, grounded in its context, and reusable, internally or publicly according to the need, the means and the agreements."
   keywords: "build here, reference, record, artefact, builder"
@@ -42,14 +42,14 @@ A resource can age, be corrected, replaced or withdrawn. Preparing for that is p
 
 ## The cards in this capability
 
-- 10.01 [Put your name on it](/en/chapters/10-01-put-your-name-on-it.html)
-- 10.02 [Write after you build, not instead](/en/chapters/10-02-write-after-you-build-not-instead.html)
-- 10.03 [An opinion is not an artifact](/en/chapters/10-03-an-opinion-is-not-an-artifact.html)
-- 10.04 [A trace is not necessarily code](/en/chapters/10-04-a-trace-is-not-necessarily-code.html)
-- 10.05 [Answer the question in public](/en/chapters/10-05-answer-the-question-in-public.html)
-- 10.06 [Publish where people search](/en/chapters/10-06-publish-where-people-search.html)
-- 10.07 [What publishing really costs](/en/chapters/10-07-what-publishing-really-costs.html)
-- 10.08 [Nobody has written down what you know how to do](/en/chapters/10-08-nobody-has-written-down-what-you-know-how-to-do.html)
-- 10.09 [Leaving is not a betrayal](/en/chapters/10-09-leaving-is-not-a-betrayal.html)
-- 10.10 [⇄ The absence of a rule is a ban](/en/chapters/10-10-the-absence-of-a-rule-is-a-ban.html)
-- 10.11 [⇄ Your team works under your name](/en/chapters/10-11-your-team-works-under-your-name.html)
+- 10.01 [Put your name on it](/book/en/chapters/10-01-put-your-name-on-it.html)
+- 10.02 [Write after you build, not instead](/book/en/chapters/10-02-write-after-you-build-not-instead.html)
+- 10.03 [An opinion is not an artifact](/book/en/chapters/10-03-an-opinion-is-not-an-artifact.html)
+- 10.04 [A trace is not necessarily code](/book/en/chapters/10-04-a-trace-is-not-necessarily-code.html)
+- 10.05 [Answer the question in public](/book/en/chapters/10-05-answer-the-question-in-public.html)
+- 10.06 [Publish where people search](/book/en/chapters/10-06-publish-where-people-search.html)
+- 10.07 [What publishing really costs](/book/en/chapters/10-07-what-publishing-really-costs.html)
+- 10.08 [Nobody has written down what you know how to do](/book/en/chapters/10-08-nobody-has-written-down-what-you-know-how-to-do.html)
+- 10.09 [Leaving is not a betrayal](/book/en/chapters/10-09-leaving-is-not-a-betrayal.html)
+- 10.10 [⇄ The absence of a rule is a ban](/book/en/chapters/10-10-the-absence-of-a-rule-is-a-ban.html)
+- 10.11 [⇄ Your team works under your name](/book/en/chapters/10-11-your-team-works-under-your-name.html)

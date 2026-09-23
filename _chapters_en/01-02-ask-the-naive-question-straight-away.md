@@ -12,7 +12,7 @@ categories:
   - apprentissage
   - engineering
 traductions:
-  fr: /chapters/01-02-pose-la-question-naive-tout-de-suite.html
+  fr: /book/chapters/01-02-pose-la-question-naive-tout-de-suite.html
 seo:
   description: "Pinning a word down with an example lets you decide on a shared understanding, whatever your level of experience."
   keywords: "build here, curiosity, builder, naive question, shared understanding"

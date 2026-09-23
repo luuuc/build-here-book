@@ -41,13 +41,11 @@ jobs:
         id: pages
         uses: actions/configure-pages@v6
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        # No --baseurl from Pages: the book is read at build-here.africa/book,
+        # through a Worker, and _config.yml says so.
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
-      - name: Vérifier l'Ultimate Builder Test
-        run: |
-          bin/verifier-test-builder _site fr
-          bin/verifier-test-builder _site en
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:

@@ -14,7 +14,7 @@ categories:
   - apprentissage
   - builders
 traductions:
-  fr: /chapters/02-00-le-metier.html
+  fr: /book/chapters/02-00-le-metier.html
 seo:
   description: "Choose a skill, watch a practice, try it, and ask for feedback to build your judgement."
   keywords: "build here, craft, builder, learning"
@@ -40,15 +40,15 @@ A sign of progress can be a decision you explain better, a mistake you now know 
 
 ## The cards in this capability
 
-- 2.01 [Making it simple is a technical achievement](/en/chapters/02-01-making-it-simple-is-a-technical-achievement.html)
-- 2.02 [Read the source](/en/chapters/02-02-read-the-source.html)
-- 2.03 [Twelve years of experience, or the same year twelve times](/en/chapters/02-03-twelve-years-of-experience-or-the-same-year-twelve-times.html)
-- 2.04 [Your craft has a literature](/en/chapters/02-04-your-craft-has-a-literature.html)
-- 2.05 [Your best teacher does not work here](/en/chapters/02-05-your-best-teacher-does-not-work-here.html)
-- 2.06 [Don't stop at the first answer](/en/chapters/02-06-dont-stop-at-the-first-answer.html)
-- 2.07 [Open source is a classroom](/en/chapters/02-07-open-source-is-a-classroom.html)
-- 2.08 [Read outside your lane](/en/chapters/02-08-read-outside-your-lane.html)
-- 2.09 [Your market can be local. Your standard can't](/en/chapters/02-09-your-market-can-be-local-your-standard-cant.html)
-- 2.10 [Knowledge is not what you are missing](/en/chapters/02-10-knowledge-is-not-what-you-are-missing.html)
-- 2.11 [⇄ You get the complexity you reward](/en/chapters/02-11-you-get-the-complexity-you-reward.html)
-- 2.12 [⇄ Learning on your own time is a filter you did not mean to set](/en/chapters/02-12-learning-on-your-own-time-is-a-filter-you-did-not-mean-to-set.html)
+- 2.01 [Making it simple is a technical achievement](/book/en/chapters/02-01-making-it-simple-is-a-technical-achievement.html)
+- 2.02 [Read the source](/book/en/chapters/02-02-read-the-source.html)
+- 2.03 [Twelve years of experience, or the same year twelve times](/book/en/chapters/02-03-twelve-years-of-experience-or-the-same-year-twelve-times.html)
+- 2.04 [Your craft has a literature](/book/en/chapters/02-04-your-craft-has-a-literature.html)
+- 2.05 [Your best teacher does not work here](/book/en/chapters/02-05-your-best-teacher-does-not-work-here.html)
+- 2.06 [Don't stop at the first answer](/book/en/chapters/02-06-dont-stop-at-the-first-answer.html)
+- 2.07 [Open source is a classroom](/book/en/chapters/02-07-open-source-is-a-classroom.html)
+- 2.08 [Read outside your lane](/book/en/chapters/02-08-read-outside-your-lane.html)
+- 2.09 [Your market can be local. Your standard can't](/book/en/chapters/02-09-your-market-can-be-local-your-standard-cant.html)
+- 2.10 [Knowledge is not what you are missing](/book/en/chapters/02-10-knowledge-is-not-what-you-are-missing.html)
+- 2.11 [⇄ You get the complexity you reward](/book/en/chapters/02-11-you-get-the-complexity-you-reward.html)
+- 2.12 [⇄ Learning on your own time is a filter you did not mean to set](/book/en/chapters/02-12-learning-on-your-own-time-is-a-filter-you-did-not-mean-to-set.html)

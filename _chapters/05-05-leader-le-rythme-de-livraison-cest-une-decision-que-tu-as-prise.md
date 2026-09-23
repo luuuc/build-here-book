@@ -14,7 +14,7 @@ categories:
   - produit
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/05-05-your-delivery-rhythm-is-a-decision-you-made.html
+  en: /book/en/chapters/05-05-your-delivery-rhythm-is-a-decision-you-made.html
 seo:
   description: "Examine contraintes et contrôles avant d'améliorer le parcours de livraison ; mesure aussi la qualité et l'apprentissage."
   keywords: "build here, builder, livraison, rythme, controles, apprentissage"

@@ -13,7 +13,7 @@ categories:
   - decision
   - culture
 traductions:
-  fr: /chapters/03-05-trancher-et-avoir-raison-sont-deux-metiers-differents.html
+  fr: /book/chapters/03-05-trancher-et-avoir-raison-sont-deux-metiers-differents.html
 seo:
   description: "Separate examining the facts from making the call, say who decides, and say when the choice deserves revisiting."
   keywords: "build here, hierarchy, builder, deciding, being right"

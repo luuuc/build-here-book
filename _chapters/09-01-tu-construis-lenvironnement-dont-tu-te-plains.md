@@ -13,7 +13,7 @@ categories:
   - management
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/09-01-you-build-the-environment-you-complain-about.html
+  en: /book/en/chapters/09-01-you-build-the-environment-you-complain-about.html
 seo:
   description: "Une equipe tourne sur les consequences observees, pas sur les valeurs affichees. Regarde ce qui est arrive aux trois dernieres propositions."
   keywords: "build here, builder, leadership, initiative, conditions, soutien"

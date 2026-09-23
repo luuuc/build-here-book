@@ -14,7 +14,7 @@ categories:
   - retention
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-11-your-team-works-under-your-name.html
+  en: /book/en/chapters/10-11-your-team-works-under-your-name.html
 seo:
   description: "Quand le travail de l'equipe sort, demande a chaque contributeur comment il veut etre credite, avant la presentation et pas apres."
   keywords: "build here, builder, reference, visibilite, credit, contributions"

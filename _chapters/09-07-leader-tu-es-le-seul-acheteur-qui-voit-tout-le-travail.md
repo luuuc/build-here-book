@@ -14,7 +14,7 @@ categories:
   - carriere
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/09-07-you-are-the-only-buyer-who-sees-all-the-work.html
+  en: /book/en/chapters/09-07-you-are-the-only-buyer-who-sees-all-the-work.html
 seo:
   description: "Examine les contributions avec des critères explicites, des faits complétables et un mandat clair, en respectant les informations individuelles."
   keywords: "build here, builder, leadership, reconnaissance, contributions, evaluation"

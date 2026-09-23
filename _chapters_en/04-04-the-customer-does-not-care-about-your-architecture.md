@@ -12,7 +12,7 @@ categories:
   - client
   - arbitrage
 traductions:
-  fr: /chapters/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html
+  fr: /book/chapters/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html
 seo:
   description: "Explain what the technical work is for and what evidence you have, with the detail the reader's decision needs."
   keywords: "build here, builder, architecture, usefulness, maintenance, effects"

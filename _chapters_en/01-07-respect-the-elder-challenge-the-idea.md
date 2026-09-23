@@ -12,7 +12,7 @@ categories:
   - decision
   - culture
 traductions:
-  fr: /chapters/01-07-respecte-lancien-conteste-lidee.html
+  fr: /book/chapters/01-07-respecte-lancien-conteste-lidee.html
 seo:
   description: "Respect is owed to the person. It is not owed to the sentence."
   keywords: "build here, hierarchy, builder, respect, disagreement"

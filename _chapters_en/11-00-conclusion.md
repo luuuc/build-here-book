@@ -11,7 +11,7 @@ categories:
   - cloture
   - builders
 traductions:
-  fr: /chapters/11-00-conclusion.html
+  fr: /book/chapters/11-00-conclusion.html
 seo:
   description: "Starting, deepening a practice, growing a team or backing builders: choosing a next step that fits, watching, and learning."
   keywords: "build here, conclusion, builder, scale"

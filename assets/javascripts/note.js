@@ -12,7 +12,7 @@
   const bloc = document.getElementById("note");
   if (!bloc) return;
 
-  const API = "https://api.build-here.africa";
+  const API = bloc.dataset.api;
   const page = bloc.dataset.page;
   const CLE = "build-here:note:" + page;
 
@@ -45,15 +45,15 @@
     if (!c) return; // stockage bloque : on ne peut pas dedupliquer, on s'abstient
 
     try {
-      await fetch(`${API}/note`, {
+      await fetch(`${API}/notes`, {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
           page,
-          titre: bloc.dataset.titre,
-          valeur: etat.valeur,
-          raison: etat.raison,
-          commentaire: libre.value.trim() || null,
+          title: bloc.dataset.titre,
+          value: etat.valeur,
+          reason: etat.raison,
+          comment: libre.value.trim() || null,
           client: c,
         }),
       });
@@ -92,7 +92,7 @@
 
       // Un oui n'a pas de suite : on ne demande pas a quelqu'un de justifier
       // qu'il est content.
-      const detail = etat.valeur !== "oui";
+      const detail = etat.valeur !== "yes";
       suite.hidden = !detail;
       merci.hidden = detail;
     })

@@ -13,7 +13,7 @@ categories:
   - impact
   - outils
 traductions:
-  fr: /chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html
+  fr: /book/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html
 seo:
   description: "Compare reuse and alternatives on their future cost and their conditions of use, without treating existing resources as free."
   keywords: "build here, builder, leverage, tools, reuse, cost"

@@ -15,7 +15,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/03-00-autonomy.html
+  en: /book/en/chapters/03-00-autonomy.html
 seo:
   description: "Développe une autonomie adaptée au périmètre, avec un objectif clair, la possibilité de demander de l'aide et des décisions explicites."
   keywords: "build here, autonomie, builder, probleme, procedure"
@@ -43,11 +43,11 @@ Les cartes de compréhension peuvent compléter ce travail quand une contrainte 
 
 ## Les cartes de cette étape
 
-- 3.01 [N'apporte pas la tâche. Apporte le problème](/chapters/03-01-napporte-pas-la-tache-apporte-le-probleme.html)
-- 3.02 [Le ticket n'est pas le travail](/chapters/03-02-le-ticket-nest-pas-le-travail.html)
-- 3.03 [Si tu ne comprends pas pourquoi, tu n'es pas prêt à le construire](/chapters/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html)
-- 3.04 [Être bloqué est une décision](/chapters/03-04-etre-bloque-est-une-decision.html)
-- 3.05 [Trancher et avoir raison sont deux métiers différents](/chapters/03-05-trancher-et-avoir-raison-sont-deux-metiers-differents.html)
-- 3.06 [Le product, ce n'est pas la personne qui écrit les tickets](/chapters/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html)
-- 3.07 [⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente](/chapters/03-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)
-- 3.08 [⇄ Tu ne peux pas demander de la franchise et garder le dernier mot](/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html)
+- 3.01 [N'apporte pas la tâche. Apporte le problème](/book/chapters/03-01-napporte-pas-la-tache-apporte-le-probleme.html)
+- 3.02 [Le ticket n'est pas le travail](/book/chapters/03-02-le-ticket-nest-pas-le-travail.html)
+- 3.03 [Si tu ne comprends pas pourquoi, tu n'es pas prêt à le construire](/book/chapters/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html)
+- 3.04 [Être bloqué est une décision](/book/chapters/03-04-etre-bloque-est-une-decision.html)
+- 3.05 [Trancher et avoir raison sont deux métiers différents](/book/chapters/03-05-trancher-et-avoir-raison-sont-deux-metiers-differents.html)
+- 3.06 [Le product, ce n'est pas la personne qui écrit les tickets](/book/chapters/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html)
+- 3.07 [⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente](/book/chapters/03-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html)
+- 3.08 [⇄ Tu ne peux pas demander de la franchise et garder le dernier mot](/book/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html)

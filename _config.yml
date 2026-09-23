@@ -3,7 +3,9 @@ description: >-
   Bâtir là où tu es, apprendre de ce que tu changes. Des pratiques pour commencer,
   progresser, développer une équipe et soutenir des builders, avec des exemples
   et des modèles à adapter à ta situation.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/book" # the subpath of your site, e.g. /blog
+# Where notes and comments go. A local build can point it at staging.
+api_url: "https://api.build-here.africa"
 url: "https://build-here.africa" # the base hostname & protocol for your site
 
 # Author information
@@ -31,7 +33,7 @@ lang_defaut: fr
 langues:
   - code: fr
     nom: "Français"
-    racine: "/"
+    racine: "/book/"
     locale: fr_FR
     description: >-
       Bâtir là où tu es, apprendre de ce que tu changes. Des pratiques pour commencer,
@@ -39,7 +41,7 @@ langues:
       et des modèles à adapter à ta situation.
   - code: en
     nom: "English"
-    racine: "/en/"
+    racine: "/book/en/"
     locale: en_US
     description: >-
       Build where you are, learn from what you change. Practices to get started,

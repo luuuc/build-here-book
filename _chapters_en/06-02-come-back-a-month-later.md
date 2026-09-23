@@ -12,7 +12,7 @@ categories:
   - resultat
   - livraison
 traductions:
-  fr: /chapters/06-02-reviens-voir-un-mois-plus-tard.html
+  fr: /book/chapters/06-02-reviens-voir-un-mois-plus-tard.html
 seo:
   description: "Choose a check that fits the cycle of use, the risk, and the next decision, with an explicit effort and handover."
   keywords: "build here, builder, ownership, check, use, result"

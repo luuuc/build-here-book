@@ -14,7 +14,7 @@ categories:
   - strategie
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/04-06-choosing-a-vendor-is-signing-up-for-three-years.html
+  en: /book/en/chapters/04-06-choosing-a-vendor-is-signing-up-for-three-years.html
 seo:
   description: "Examine le coût, les dépendances et les conditions de sortie d'un fournisseur avec les personnes concernées."
   keywords: "build here, builder, fournisseur, cout, dependance, sortie"

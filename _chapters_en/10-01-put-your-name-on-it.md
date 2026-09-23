@@ -12,7 +12,7 @@ categories:
   - visibilite
   - reference
 traductions:
-  fr: /chapters/10-01-mets-ton-nom-dessus.html
+  fr: /book/chapters/10-01-mets-ton-nom-dessus.html
 seo:
   description: "Credit contributions and their context under an agreement that fits, without making a public byline a condition of worth."
   keywords: "build here, builder, reference, contributions, credit, sharing"

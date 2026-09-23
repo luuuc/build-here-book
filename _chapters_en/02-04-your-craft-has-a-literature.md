@@ -12,7 +12,7 @@ categories:
   - apprentissage
   - references
 traductions:
-  fr: /chapters/02-04-ton-metier-a-une-litterature.html
+  fr: /book/chapters/02-04-ton-metier-a-une-litterature.html
 seo:
   description: "A resource from your craft can light up a problem. Compare its context to yours, and put one idea to the test."
   keywords: "build here, craft, reading, references, builder"

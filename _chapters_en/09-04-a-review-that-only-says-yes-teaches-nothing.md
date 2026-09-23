@@ -12,7 +12,7 @@ categories:
   - transmission
   - equipe
 traductions:
-  fr: /chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html
+  fr: /book/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html
 seo:
   description: "Share useful review criteria and limits, with proportionate effort, without devaluing an approval that is already understood."
   keywords: "build here, builder, leadership, review, criteria, learning"

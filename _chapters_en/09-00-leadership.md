@@ -14,7 +14,7 @@ categories:
   - equipe
   - builders
 traductions:
-  fr: /chapters/09-00-le-leadership.html
+  fr: /book/chapters/09-00-le-leadership.html
 seo:
   description: "Grow the capabilities around you with suitable backing, between peers or in a role of responsibility, without imposing one route."
   keywords: "build here, leadership, team, builder, passing on"
@@ -42,11 +42,11 @@ The cards marked ⇄ elsewhere in the book also shed light on the conditions for
 
 ## The cards in this capability
 
-- 9.01 [You build the environment you complain about](/en/chapters/09-01-you-build-the-environment-you-complain-about.html)
-- 9.02 [The filter you are running](/en/chapters/09-02-the-filter-you-are-running.html)
-- 9.03 [Hand over a problem, not a task](/en/chapters/09-03-hand-over-a-problem-not-a-task.html)
-- 9.04 [A review that only says yes teaches nothing](/en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html)
-- 9.05 [Let them carry what is reversible](/en/chapters/09-05-let-them-carry-what-is-reversible.html)
-- 9.06 [Make yourself replaceable on one subject](/en/chapters/09-06-make-yourself-replaceable-on-one-subject.html)
-- 9.07 [⇄ You are the only buyer who sees all the work](/en/chapters/09-07-you-are-the-only-buyer-who-sees-all-the-work.html)
-- 9.08 [⇄ You are the missing reference, and you left nothing behind](/en/chapters/09-08-you-are-the-missing-reference-and-you-left-nothing-behind.html)
+- 9.01 [You build the environment you complain about](/book/en/chapters/09-01-you-build-the-environment-you-complain-about.html)
+- 9.02 [The filter you are running](/book/en/chapters/09-02-the-filter-you-are-running.html)
+- 9.03 [Hand over a problem, not a task](/book/en/chapters/09-03-hand-over-a-problem-not-a-task.html)
+- 9.04 [A review that only says yes teaches nothing](/book/en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html)
+- 9.05 [Let them carry what is reversible](/book/en/chapters/09-05-let-them-carry-what-is-reversible.html)
+- 9.06 [Make yourself replaceable on one subject](/book/en/chapters/09-06-make-yourself-replaceable-on-one-subject.html)
+- 9.07 [⇄ You are the only buyer who sees all the work](/book/en/chapters/09-07-you-are-the-only-buyer-who-sees-all-the-work.html)
+- 9.08 [⇄ You are the missing reference, and you left nothing behind](/book/en/chapters/09-08-you-are-the-missing-reference-and-you-left-nothing-behind.html)

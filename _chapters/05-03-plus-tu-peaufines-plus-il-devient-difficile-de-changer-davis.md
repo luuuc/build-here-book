@@ -13,7 +13,7 @@ categories:
   - arbitrage
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/05-03-the-more-you-polish-the-harder-it-gets-to-change-your-mind.html
+  en: /book/en/chapters/05-03-the-more-you-polish-the-harder-it-gets-to-change-your-mind.html
 seo:
   description: "Choisis le niveau de finition utile à un essai et un signe adapté au besoin, sans présumer l'accès à dix utilisateurs."
   keywords: "build here, produit, builder, peaufines, devient, difficile, changer, avis"

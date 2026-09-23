@@ -12,7 +12,7 @@ categories:
   - resultat
   - honnetete
 traductions:
-  fr: /chapters/06-04-le-mauvais-resultat-tappartient-aussi.html
+  fr: /book/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html
 seo:
   description: "Examine results, assumptions and constraints without confusing learning with blame or with control over every consequence."
   keywords: "build here, builder, ownership, result, learning, constraints"

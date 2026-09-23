@@ -13,7 +13,7 @@ categories:
   - engineering
   - support
 traductions:
-  fr: /chapters/02-06-ne-tarrete-pas-a-la-premiere-reponse.html
+  fr: /book/chapters/02-06-ne-tarrete-pas-a-la-premiere-reponse.html
 seo:
   description: "An answer can settle the request without explaining its cause. Choose the repetitions that justify a proportionate inquiry."
   keywords: "build here, curiosity, builder, first answer, root cause"

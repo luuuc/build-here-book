@@ -15,7 +15,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/07-00-systems.html
+  en: /book/en/chapters/07-00-systems.html
 seo:
   description: "Examine les répétitions, préserve les protections et prépare des relais adaptés, avec un effort de transmission et d'entretien proportionné."
   keywords: "build here, systemes, process, automatisation, builder"
@@ -43,9 +43,9 @@ Les cartes de levier complètent cette lecture si une solution mérite d'être r
 
 ## Les cartes de cette étape
 
-- 7.01 [La deuxième fois est une information](/chapters/07-01-la-deuxieme-fois-est-une-information.html)
-- 7.02 [Supprime l'étape avant de la documenter](/chapters/07-02-supprime-letape-avant-de-la-documenter.html)
-- 7.03 [Une connaissance qui tient dans une seule tête est une panne à venir](/chapters/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html)
-- 7.04 [Tout ne mérite pas de devenir un processus](/chapters/07-04-tout-ne-merite-pas-de-devenir-un-processus.html)
-- 7.05 [Le raccourci que tout le monde prend est le vrai processus](/chapters/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html)
-- 7.06 [Écris ce qui a cassé](/chapters/07-06-ecris-ce-qui-a-casse.html)
+- 7.01 [La deuxième fois est une information](/book/chapters/07-01-la-deuxieme-fois-est-une-information.html)
+- 7.02 [Supprime l'étape avant de la documenter](/book/chapters/07-02-supprime-letape-avant-de-la-documenter.html)
+- 7.03 [Une connaissance qui tient dans une seule tête est une panne à venir](/book/chapters/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html)
+- 7.04 [Tout ne mérite pas de devenir un processus](/book/chapters/07-04-tout-ne-merite-pas-de-devenir-un-processus.html)
+- 7.05 [Le raccourci que tout le monde prend est le vrai processus](/book/chapters/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html)
+- 7.06 [Écris ce qui a cassé](/book/chapters/07-06-ecris-ce-qui-a-casse.html)

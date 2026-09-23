@@ -14,7 +14,7 @@ categories:
   - support
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/02-06-dont-stop-at-the-first-answer.html
+  en: /book/en/chapters/02-06-dont-stop-at-the-first-answer.html
 seo:
   description: "Une réponse peut résoudre la demande sans expliquer sa cause. Choisis les répétitions qui justifient une enquête proportionnée."
   keywords: "build here, curiosite, builder, arrete, premiere, reponse"

@@ -12,7 +12,7 @@
   `script-src` n'a pas 'unsafe-inline', et c'est tout son interet. Avec lui,
   une URL `javascript:` et un attribut `onclick` injectes passeraient, et la
   politique ne protegerait de rien. C'est la raison pour laquelle le script de
-  Google Analytics vit dans /assets/javascripts/ga.js au lieu de la page. Les
+  Google Analytics vit dans /book/assets/javascripts/ga.js au lieu de la page. Les
   blocs `application/ld+json` plus bas ne sont pas du script execute, ils ne
   sont pas concernes.
 
@@ -23,11 +23,12 @@
   et `frame-src`, que `default-src 'none'` ferme aujourd'hui.
   Enfin, `upgrade-insecure-requests` n'est ajoute qu'en production. Safari
   applique la directive meme a localhost, la ou les autres navigateurs font
-  une exception : en developpement, /assets/style.css devient
+  une exception : en developpement, /book/assets/style.css devient
   https://localhost:4000/assets/style.css et rien ne se charge. Le site
   publie, lui, garde la directive entiere.
 {%- endcomment -%}
 {%- assign csp = "default-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://api.build-here.africa https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com; form-action 'self' https://api.build-here.africa; base-uri 'none'; manifest-src 'self'" -%}
+{%- assign csp = csp | replace: "https://api.build-here.africa", site.api_url -%}
 {%- if jekyll.environment == "production" -%}
   {%- assign csp = csp | append: "; upgrade-insecure-requests" -%}
 {%- endif -%}
@@ -248,9 +249,9 @@
      garde le dernier mot sur les deux classes que les deux fichiers
      connaissent, `.rail` et `.hero`. Rien ne bouge a l'ecran aujourd'hui.
      Les deux premiers viennent du systeme de design, voir leur en-tete. -->
-<link rel="stylesheet" href="/assets/stylesheets/tokens.css" />
-<link rel="stylesheet" href="/assets/stylesheets/bundle.css" />
-<link rel="stylesheet" href="/assets/stylesheets/style.css" />
+<link rel="stylesheet" href="/book/assets/stylesheets/tokens.css" />
+<link rel="stylesheet" href="/book/assets/stylesheets/bundle.css" />
+<link rel="stylesheet" href="/book/assets/stylesheets/style.css" />
 
 <!-- Favicons -->
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />

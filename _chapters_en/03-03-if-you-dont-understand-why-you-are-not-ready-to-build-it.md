@@ -12,7 +12,7 @@ categories:
   - apprentissage
   - engineering
 traductions:
-  fr: /chapters/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html
+  fr: /book/chapters/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html
 seo:
   description: "Get the goal and the decisive unknowns clear; a bounded attempt can also be a way of understanding."
   keywords: "build here, builder, autonomy, goal, assumption, remit"

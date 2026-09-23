@@ -13,7 +13,7 @@ categories:
   - livraison
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/06-02-come-back-a-month-later.html
+  en: /book/en/chapters/06-02-come-back-a-month-later.html
 seo:
   description: "Choisis une vérification adaptée au cycle d'usage, au risque et à la décision suivante, avec un effort et un relais explicites."
   keywords: "build here, builder, ownership, verification, usage, resultat"

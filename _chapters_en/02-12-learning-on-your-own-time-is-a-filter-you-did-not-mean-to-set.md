@@ -12,7 +12,7 @@ categories:
   - open-source
   - niveau
 traductions:
-  fr: /chapters/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html
+  fr: /book/chapters/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html
 seo:
   description: "Plan the time, the resources and the feedback that learning needs, taking each person's commitments and constraints into account."
   keywords: "build here, learning, builder, conditions, own time, filter"

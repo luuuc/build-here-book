@@ -13,7 +13,7 @@ categories:
   - distribution
   - marketing
 traductions:
-  fr: /chapters/04-08-la-distribution-fait-partie-du-produit.html
+  fr: /book/chapters/04-08-la-distribution-fait-partie-du-produit.html
 seo:
   description: "Prepare and check a route to use, suited to the recipients, to the conditions of access, and to the project's means."
   keywords: "build here, visibility, builder, distribution, product"

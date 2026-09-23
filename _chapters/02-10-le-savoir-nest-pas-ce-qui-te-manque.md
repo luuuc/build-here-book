@@ -13,7 +13,7 @@ categories:
   - niveau
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/02-10-knowledge-is-not-what-you-are-missing.html
+  en: /book/en/chapters/02-10-knowledge-is-not-what-you-are-missing.html
 seo:
   description: "Précise ce qui manque pour apprendre : ressource, temps, accès, explication ou retour. Choisis une voie compatible avec tes moyens."
   keywords: "build here, apprentissage, builder, savoir, manque"

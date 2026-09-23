@@ -13,7 +13,7 @@ categories:
   - marketing
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/04-10-talk-about-the-problem-before-you-talk-about-yourself.html
+  en: /book/en/chapters/04-10-talk-about-the-problem-before-you-talk-about-yourself.html
 seo:
   description: "Présente une situation vérifiée, puis la proposition et ses preuves, avec un niveau de détail adapté et partageable."
   keywords: "build here, visibilite, builder, parle, probleme, avant, parler"

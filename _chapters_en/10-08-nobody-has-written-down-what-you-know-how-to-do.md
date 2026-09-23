@@ -12,7 +12,7 @@ categories:
   - trace
   - contexte
 traductions:
-  fr: /chapters/10-08-personne-na-ecrit-ce-que-tu-sais-faire.html
+  fr: /book/chapters/10-08-personne-na-ecrit-ce-que-tu-sais-faire.html
 seo:
   description: "Make a situated experience useful by connecting it to what already exists, without assuming it is unique or requiring publication."
   keywords: "build here, builder, reference, context, experience, sharing"

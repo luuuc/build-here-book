@@ -13,7 +13,7 @@ categories:
   - distribution
   - marketing
 traductions:
-  fr: /chapters/04-14-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html
+  fr: /book/chapters/04-14-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html
 seo:
   description: "Give a suitable distribution attempt the means it needs, then examine use, feedback and cost to decide what follows."
   keywords: "build here, visibility, builder, conditions, distribution, funding"

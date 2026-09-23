@@ -13,7 +13,7 @@ categories:
   - leadership
   - visibilite
 traductions:
-  fr: /chapters/10-10-leader-labsence-de-regle-est-une-interdiction.html
+  fr: /book/chapters/10-10-leader-labsence-de-regle-est-une-interdiction.html
 seo:
   description: "Make the framework and the route for sharing understandable, with people to ask, means, and internal or no-publication options."
   keywords: "build here, builder, reference, framework, sharing, means"

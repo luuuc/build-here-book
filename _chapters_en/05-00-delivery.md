@@ -14,7 +14,7 @@ categories:
   - execution
   - builders
 traductions:
-  fr: /chapters/05-00-la-livraison.html
+  fr: /book/chapters/05-00-la-livraison.html
 seo:
   description: "Prepare a useful attempt, watch what it produces, and adapt what follows, with a suitable scope and the right protections."
   keywords: "build here, delivery, shipping, execution, builder"
@@ -42,8 +42,8 @@ The ownership cards complete this reading, for organising the handover and check
 
 ## The cards in this capability
 
-- 5.01 [Shipping creates information](/en/chapters/05-01-shipping-creates-information.html)
-- 5.02 [Fast does not mean rushed](/en/chapters/05-02-fast-does-not-mean-rushed.html)
-- 5.03 [The more you polish, the harder it gets to change your mind](/en/chapters/05-03-the-more-you-polish-the-harder-it-gets-to-change-your-mind.html)
-- 5.04 [Signing off a spec does not make it right](/en/chapters/05-04-signing-off-a-spec-does-not-make-it-right.html)
-- 5.05 [⇄ Your delivery rhythm is a decision you made](/en/chapters/05-05-your-delivery-rhythm-is-a-decision-you-made.html)
+- 5.01 [Shipping creates information](/book/en/chapters/05-01-shipping-creates-information.html)
+- 5.02 [Fast does not mean rushed](/book/en/chapters/05-02-fast-does-not-mean-rushed.html)
+- 5.03 [The more you polish, the harder it gets to change your mind](/book/en/chapters/05-03-the-more-you-polish-the-harder-it-gets-to-change-your-mind.html)
+- 5.04 [Signing off a spec does not make it right](/book/en/chapters/05-04-signing-off-a-spec-does-not-make-it-right.html)
+- 5.05 [⇄ Your delivery rhythm is a decision you made](/book/en/chapters/05-05-your-delivery-rhythm-is-a-decision-you-made.html)

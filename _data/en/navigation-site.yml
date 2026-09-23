@@ -1,7 +1,7 @@
 # Le menu du site, en anglais. Les memes entrees que le francais, aux adresses
 # anglaises ; la derniere renvoie a l'autre version.
 - title: Read the book
-  url: /en/book/
+  url: /book/en/
 - title: Choose your path
   url: /en/paths/
 - title: Find a card

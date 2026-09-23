@@ -13,7 +13,7 @@ categories:
   - support
   - produit
 traductions:
-  fr: /chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html
+  fr: /book/chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html
 seo:
   description: "Plan the time, the consent and the access that learning from real use needs, with alternatives to direct contact."
   keywords: "build here, builder, access, field, consent, feedback"

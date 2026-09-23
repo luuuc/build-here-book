@@ -12,7 +12,7 @@ categories:
   - carriere
   - trace
 traductions:
-  fr: /chapters/10-09-partir-nest-pas-une-trahison.html
+  fr: /book/chapters/10-09-partir-nest-pas-une-trahison.html
 seo:
   description: "Prepare a realistic handover when leaving, without making a career choice conditional on publishing or asking for open-ended availability."
   keywords: "build here, reference, career, record, leaving, builder"

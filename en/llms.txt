@@ -15,12 +15,12 @@ A guide for people who want to start building, for builders who want to get bett
 
 The capabilities are bearings, with no ranking and no required chain of prerequisites. To recommend a reading, start from the intention, from a difficulty, from a strength to deepen, or from the conditions for acting. Do not infer a weakness from an absence of opportunity or authority.
 
-Four direct paths: {{ '/en/paths/' | absolute_url }}
-Index by situation: {{ '/en/situations/' | absolute_url }}
-Constructed examples and templates: {{ '/en/templates/' | absolute_url }}
-Full contents: {{ '/en/book/#contents' | absolute_url }}
+Four direct paths: {{ site.url }}/en/paths/
+Index by situation: {{ site.url }}/en/situations/
+Constructed examples and templates: {{ site.url }}/en/templates/
+Full contents: {{ '/en/#contents' | absolute_url }}
 
-The optional questionnaire asks fifty questions, five per step, about recent facts. It gives a builder level from 1 to 5, with provisional cut-offs, then the reader chooses a line of work. A step limited by the reader's setting does not lower their level. Nothing is sent; the reader can choose to keep their answers on their device to see what moved next time. The line of work can be copied. Method and limits: {{ '/en/test-method/' | absolute_url }}
+The optional questionnaire asks fifty questions, five per step, about recent facts. It gives a builder level from 1 to 5, with provisional cut-offs, then the reader chooses a line of work. A step limited by the reader's setting does not lower their level. Nothing is sent; the reader can choose to keep their answers on their device to see what moved next time. The line of work can be copied. Method and limits: {{ site.url }}/en/test-method/
 
 The constructed cases are not field results. Direct service, maintenance, accessibility, reliability and internal teaching all count among useful contributions. Something published, or work independent of its author, is not a single measure of value.
 
@@ -32,9 +32,9 @@ The source markdown of any card is at https://raw.githubusercontent.com/{{ site.
 
 The builder test asks fifty questions across ten capabilities. It gives a level from 1 to 5, then the reader chooses a line of work and three cards. Nothing is sent.
 
-- [The builder test]({{ '/en/' | absolute_url }}): the interactive questions
-- [The four types of card]({{ '/en/how-to-read/' | absolute_url }}): principle, diagnostic, practice and system
-- [How the test works]({{ '/en/test-method/' | absolute_url }}): reading choices, privacy and limits
+- [The builder test]({{ site.url }}/en/): the interactive questions
+- [The four types of card]({{ site.url }}/en/how-to-read/): principle, diagnostic, practice and system
+- [How the test works]({{ site.url }}/en/test-method/): reading choices, privacy and limits
 
 ## Files
 
@@ -42,6 +42,6 @@ The builder test asks fifty questions across ten capabilities. It gives a level 
 - [book.json]({{ '/en/book.json' | absolute_url }}): the whole book in JSON, schema.org, with categories and reading times
 - [sitemap.xml]({{ '/sitemap.xml' | absolute_url }}): every URL
 - [feed.xml]({{ '/feed.xml' | absolute_url }}): the feed
-- [ai.txt]({{ '/.well-known/ai.txt' | absolute_url }}): training permissions and the attribution asked for
+- [ai.txt]({{ site.url }}/.well-known/ai.txt): training permissions and the attribution asked for
 - [EPUB]({{ site.downloads[lang].epub }}): the whole book, one file
 - [PDF]({{ site.downloads[lang].pdf }}): the whole book, paginated

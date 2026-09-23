@@ -12,7 +12,7 @@ categories:
   - visibilite
   - transmission
 traductions:
-  fr: /chapters/10-05-reponds-a-la-question-en-public.html
+  fr: /book/chapters/10-05-reponds-a-la-question-en-public.html
 seo:
   description: "Prepare a reusable answer in a suitable place, recognising the cost of adapting it and the value of private exchanges."
   keywords: "build here, builder, reference, answer, access, passing on"

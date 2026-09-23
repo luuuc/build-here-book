@@ -13,7 +13,7 @@ categories:
   - references
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/02-04-your-craft-has-a-literature.html
+  en: /book/en/chapters/02-04-your-craft-has-a-literature.html
 seo:
   description: "Une ressource de ton métier peut éclairer un problème. Compare son contexte au tien et mets une idée à l'épreuve."
   keywords: "build here, metier, lecture, references, builder"

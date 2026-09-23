@@ -12,7 +12,7 @@ categories:
   - open-source
   - niveau
 traductions:
-  fr: /chapters/02-07-lopen-source-est-une-salle-de-classe.html
+  fr: /book/chapters/02-07-lopen-source-est-une-salle-de-classe.html
 seo:
   description: "The exchanges in an open project can show how a decision gets built. Pick a case you can reach, and respect contributors' time."
   keywords: "build here, learning, builder, open source, classroom"

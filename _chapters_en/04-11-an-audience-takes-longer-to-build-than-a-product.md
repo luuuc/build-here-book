@@ -12,7 +12,7 @@ categories:
   - distribution
   - marketing
 traductions:
-  fr: /chapters/04-11-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html
+  fr: /book/chapters/04-11-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html
 seo:
   description: "Prepare suitable conversations before launch, without requiring a public audience or a universal timetable."
   keywords: "build here, builder, distribution, first users, feedback"

@@ -14,7 +14,7 @@ categories:
   - outils
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/08-03-the-cheapest-leverage-is-already-paid-for.html
+  en: /book/en/chapters/08-03-the-cheapest-leverage-is-already-paid-for.html
 seo:
   description: "Compare réutilisation et alternatives sur leur coût futur et leurs conditions d'usage, sans considérer les ressources existantes comme gratuites."
   keywords: "build here, builder, levier, outils, reutilisation, cout"

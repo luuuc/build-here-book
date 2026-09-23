@@ -7,7 +7,7 @@
 // n'appelle rien. Le meme module tourne dans bin/lint-entree en local et dans
 // la CI, sans deuxieme copie des regles qui pourrait deriver.
 
-import { verifier, rapport } from "./lint.mjs";
+import { verifier, rapport } from "../bin/lint.mjs";
 import { emettreJeton } from "./garde.mjs";
 import { pageAdmin } from "./admin.mjs";
 import * as note from "./note.mjs";

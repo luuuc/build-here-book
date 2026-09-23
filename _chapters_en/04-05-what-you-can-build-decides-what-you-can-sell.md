@@ -12,7 +12,7 @@ categories:
   - business
   - strategie
 traductions:
-  fr: /chapters/04-05-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html
+  fr: /book/chapters/04-05-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html
 seo:
   description: "Bring build capability, constraints and options into the decision before the commitment."
   keywords: "build here, technology and business, builder, build, sell, capability"

@@ -15,7 +15,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/02-00-the-craft.html
+  en: /book/en/chapters/02-00-the-craft.html
 seo:
   description: "Choisir une compétence, observer une pratique, essayer et demander un retour pour développer son jugement."
   keywords: "build here, metier, craft, builder, apprentissage"
@@ -44,15 +44,15 @@ Un signe de progression peut être une décision mieux expliquée, une erreur qu
 
 ## Les cartes de cette étape
 
-- 2.01 [Faire simple est une performance technique](/chapters/02-01-faire-simple-est-une-performance-technique.html)
-- 2.02 [Lis le code source](/chapters/02-02-lis-le-code-source.html)
-- 2.03 [Douze ans d'expérience, ou douze fois la même année](/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html)
-- 2.04 [Ton métier a une littérature](/chapters/02-04-ton-metier-a-une-litterature.html)
-- 2.05 [Ton meilleur professeur ne travaille pas ici](/chapters/02-05-ton-meilleur-professeur-ne-travaille-pas-ici.html)
-- 2.06 [Ne t'arrête pas à la première réponse](/chapters/02-06-ne-tarrete-pas-a-la-premiere-reponse.html)
-- 2.07 [L'open source est une salle de classe](/chapters/02-07-lopen-source-est-une-salle-de-classe.html)
-- 2.08 [Lis en dehors de ton couloir](/chapters/02-08-lis-en-dehors-de-ton-couloir.html)
-- 2.09 [Ton marché peut être local. Ton niveau, non](/chapters/02-09-ton-marche-peut-etre-local-ton-niveau-non.html)
-- 2.10 [Le savoir n'est pas ce qui te manque](/chapters/02-10-le-savoir-nest-pas-ce-qui-te-manque.html)
-- 2.11 [⇄ Tu récoltes la complexité que tu récompenses](/chapters/02-11-leader-tu-recoltes-la-complexite-que-tu-recompenses.html)
-- 2.12 [⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser](/chapters/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html)
+- 2.01 [Faire simple est une performance technique](/book/chapters/02-01-faire-simple-est-une-performance-technique.html)
+- 2.02 [Lis le code source](/book/chapters/02-02-lis-le-code-source.html)
+- 2.03 [Douze ans d'expérience, ou douze fois la même année](/book/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html)
+- 2.04 [Ton métier a une littérature](/book/chapters/02-04-ton-metier-a-une-litterature.html)
+- 2.05 [Ton meilleur professeur ne travaille pas ici](/book/chapters/02-05-ton-meilleur-professeur-ne-travaille-pas-ici.html)
+- 2.06 [Ne t'arrête pas à la première réponse](/book/chapters/02-06-ne-tarrete-pas-a-la-premiere-reponse.html)
+- 2.07 [L'open source est une salle de classe](/book/chapters/02-07-lopen-source-est-une-salle-de-classe.html)
+- 2.08 [Lis en dehors de ton couloir](/book/chapters/02-08-lis-en-dehors-de-ton-couloir.html)
+- 2.09 [Ton marché peut être local. Ton niveau, non](/book/chapters/02-09-ton-marche-peut-etre-local-ton-niveau-non.html)
+- 2.10 [Le savoir n'est pas ce qui te manque](/book/chapters/02-10-le-savoir-nest-pas-ce-qui-te-manque.html)
+- 2.11 [⇄ Tu récoltes la complexité que tu récompenses](/book/chapters/02-11-leader-tu-recoltes-la-complexite-que-tu-recompenses.html)
+- 2.12 [⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser](/book/chapters/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html)

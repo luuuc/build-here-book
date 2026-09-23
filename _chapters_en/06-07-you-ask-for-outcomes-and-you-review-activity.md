@@ -13,7 +13,7 @@ categories:
   - leadership
   - conditions
 traductions:
-  fr: /chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html
+  fr: /book/chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html
 seo:
   description: "Connect activity to observed effects with a cadence that fits, means to check, and proportionate tracking."
   keywords: "build here, builder, ownership, review, activity, outcomes"

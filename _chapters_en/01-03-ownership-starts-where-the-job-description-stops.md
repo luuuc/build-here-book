@@ -13,7 +13,7 @@ categories:
   - responsabilite
   - execution
 traductions:
-  fr: /chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html
+  fr: /book/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html
 seo:
   description: "A useful initiative makes the problem, the remit, the time available and the person taking over all explicit."
   keywords: "build here, ownership, builder, initiative, remit"

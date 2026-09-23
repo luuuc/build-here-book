@@ -15,7 +15,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/01-00-the-mindset.html
+  en: /book/en/chapters/01-00-the-mindset.html
 seo:
   description: "Je cherche ce que je peux améliorer"
   keywords: "build here, etat d'esprit, builder, agency"
@@ -42,13 +42,13 @@ Tu peux voir une progression quand une question apporte une information qui manq
 
 ## Les cartes de cette étape
 
-- 1.01 [La curiosité est facturable](/chapters/01-01-la-curiosite-est-facturable.html)
-- 1.02 [Pose la question naïve tout de suite](/chapters/01-02-pose-la-question-naive-tout-de-suite.html)
-- 1.03 [L'ownership commence là où la fiche de poste s'arrête](/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html)
-- 1.04 [Avoir tort ne coûte rien. Le rester coûte cher](/chapters/01-04-avoir-tort-ne-coute-rien-le-rester-coute-cher.html)
-- 1.05 [\"Je ne sais pas\" est une réponse professionnelle](/chapters/01-05-je-ne-sais-pas-est-une-reponse-professionnelle.html)
-- 1.06 [Ton code n'est pas ton bébé](/chapters/01-06-ton-code-nest-pas-ton-bebe.html)
-- 1.07 [Respecte l'ancien. Conteste l'idée](/chapters/01-07-respecte-lancien-conteste-lidee.html)
-- 1.08 [⇄ La première réaction fait la règle](/chapters/01-08-leader-la-premiere-reaction-fait-la-regle.html)
-- 1.09 [⇄ Personne ne demande deux fois](/chapters/01-09-leader-personne-ne-demande-deux-fois.html)
-- 1.10 [⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute](/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html)
+- 1.01 [La curiosité est facturable](/book/chapters/01-01-la-curiosite-est-facturable.html)
+- 1.02 [Pose la question naïve tout de suite](/book/chapters/01-02-pose-la-question-naive-tout-de-suite.html)
+- 1.03 [L'ownership commence là où la fiche de poste s'arrête](/book/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html)
+- 1.04 [Avoir tort ne coûte rien. Le rester coûte cher](/book/chapters/01-04-avoir-tort-ne-coute-rien-le-rester-coute-cher.html)
+- 1.05 [\"Je ne sais pas\" est une réponse professionnelle](/book/chapters/01-05-je-ne-sais-pas-est-une-reponse-professionnelle.html)
+- 1.06 [Ton code n'est pas ton bébé](/book/chapters/01-06-ton-code-nest-pas-ton-bebe.html)
+- 1.07 [Respecte l'ancien. Conteste l'idée](/book/chapters/01-07-respecte-lancien-conteste-lidee.html)
+- 1.08 [⇄ La première réaction fait la règle](/book/chapters/01-08-leader-la-premiere-reaction-fait-la-regle.html)
+- 1.09 [⇄ Personne ne demande deux fois](/book/chapters/01-09-leader-personne-ne-demande-deux-fois.html)
+- 1.10 [⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute](/book/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html)

@@ -14,7 +14,7 @@ categories:
   - impact
   - ia
 traductions:
-  fr: /chapters/08-00-le-levier.html
+  fr: /book/chapters/08-00-le-levier.html
 seo:
   description: "Compare reuse, improvement and automation by what they are worth, what they cost, and their limits, without mandating a tool or growth in volume."
   keywords: "build here, leverage, impact, ai, automation, builder"
@@ -42,8 +42,8 @@ The leadership cards can help share these capabilities; the understanding and de
 
 ## The cards in this capability
 
-- 8.01 [Sort them by cause, not by subject](/en/chapters/08-01-sort-them-by-cause-not-by-subject.html)
-- 8.02 [AI is leverage, not a shortcut](/en/chapters/08-02-ai-is-leverage-not-a-shortcut.html)
-- 8.03 [The cheapest leverage is already paid for](/en/chapters/08-03-the-cheapest-leverage-is-already-paid-for.html)
-- 8.04 [Leverage in the wrong place multiplies the mistake](/en/chapters/08-04-leverage-in-the-wrong-place-multiplies-the-mistake.html)
-- 8.05 [⇄ You pay for hours, you get hours](/en/chapters/08-05-you-pay-for-hours-you-get-hours.html)
+- 8.01 [Sort them by cause, not by subject](/book/en/chapters/08-01-sort-them-by-cause-not-by-subject.html)
+- 8.02 [AI is leverage, not a shortcut](/book/en/chapters/08-02-ai-is-leverage-not-a-shortcut.html)
+- 8.03 [The cheapest leverage is already paid for](/book/en/chapters/08-03-the-cheapest-leverage-is-already-paid-for.html)
+- 8.04 [Leverage in the wrong place multiplies the mistake](/book/en/chapters/08-04-leverage-in-the-wrong-place-multiplies-the-mistake.html)
+- 8.05 [⇄ You pay for hours, you get hours](/book/en/chapters/08-05-you-pay-for-hours-you-get-hours.html)

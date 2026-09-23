@@ -15,7 +15,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/09-00-leadership.html
+  en: /book/en/chapters/09-00-leadership.html
 seo:
   description: "Développe les capacités autour de toi par des appuis adaptés, entre pairs ou dans un rôle de responsabilité, sans imposer une voie unique."
   keywords: "build here, leadership, equipe, builder, transmission"
@@ -45,11 +45,11 @@ Les cartes marquées ⇄ ailleurs dans le livre éclairent aussi les conditions 
 
 ## Les cartes de cette étape
 
-- 9.01 [Tu construis l'environnement dont tu te plains](/chapters/09-01-tu-construis-lenvironnement-dont-tu-te-plains.html)
-- 9.02 [Le filtre que tu fais tourner](/chapters/09-02-le-filtre-que-tu-fais-tourner.html)
-- 9.03 [Confie un problème, pas une tâche](/chapters/09-03-confie-un-probleme-pas-une-tache.html)
-- 9.04 [Une relecture qui dit seulement oui n'apprend rien](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html)
-- 9.05 [Laisse-le porter ce qui est réversible](/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html)
-- 9.06 [Rends-toi remplaçable sur un sujet](/chapters/09-06-rends-toi-remplacable-sur-un-sujet.html)
-- 9.07 [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
-- 9.08 [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
+- 9.01 [Tu construis l'environnement dont tu te plains](/book/chapters/09-01-tu-construis-lenvironnement-dont-tu-te-plains.html)
+- 9.02 [Le filtre que tu fais tourner](/book/chapters/09-02-le-filtre-que-tu-fais-tourner.html)
+- 9.03 [Confie un problème, pas une tâche](/book/chapters/09-03-confie-un-probleme-pas-une-tache.html)
+- 9.04 [Une relecture qui dit seulement oui n'apprend rien](/book/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html)
+- 9.05 [Laisse-le porter ce qui est réversible](/book/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html)
+- 9.06 [Rends-toi remplaçable sur un sujet](/book/chapters/09-06-rends-toi-remplacable-sur-un-sujet.html)
+- 9.07 [⇄ Tu es le seul acheteur qui voit tout le travail](/book/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
+- 9.08 [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/book/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)

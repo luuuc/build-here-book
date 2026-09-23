@@ -15,7 +15,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/06-00-ownership.html
+  en: /book/en/chapters/06-00-ownership.html
 seo:
   description: "Rends les engagements, les relais et les résultats explicites sans confondre responsabilité, culpabilité et maîtrise de toutes les conséquences."
   keywords: "build here, ownership, resultat, builder"
@@ -45,10 +45,10 @@ Les cartes sur les systèmes peuvent aider lorsqu'une même difficulté revient 
 
 ## Les cartes de cette étape
 
-- 6.01 [Fini de ton côté ne veut pas dire réglé](/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
-- 6.02 [Reviens voir un mois plus tard](/chapters/06-02-reviens-voir-un-mois-plus-tard.html)
-- 6.03 [Une responsabilité partagée par six personnes n'existe pas](/chapters/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html)
-- 6.04 [Le mauvais résultat t'appartient aussi](/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html)
-- 6.05 [Une bonne décision peut quand même perdre](/chapters/06-05-une-bonne-decision-peut-quand-meme-perdre.html)
-- 6.06 [Une bonne nouvelle peut attendre. Une mauvaise, non](/chapters/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
-- 6.07 [⇄ Tu demandes des résultats et tu passes en revue de l'activité](/chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html)
+- 6.01 [Fini de ton côté ne veut pas dire réglé](/book/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html)
+- 6.02 [Reviens voir un mois plus tard](/book/chapters/06-02-reviens-voir-un-mois-plus-tard.html)
+- 6.03 [Une responsabilité partagée par six personnes n'existe pas](/book/chapters/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html)
+- 6.04 [Le mauvais résultat t'appartient aussi](/book/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html)
+- 6.05 [Une bonne décision peut quand même perdre](/book/chapters/06-05-une-bonne-decision-peut-quand-meme-perdre.html)
+- 6.06 [Une bonne nouvelle peut attendre. Une mauvaise, non](/book/chapters/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html)
+- 6.07 [⇄ Tu demandes des résultats et tu passes en revue de l'activité](/book/chapters/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html)

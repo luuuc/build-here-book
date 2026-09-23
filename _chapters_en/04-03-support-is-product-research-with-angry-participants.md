@@ -12,7 +12,7 @@ categories:
   - support
   - produit
 traductions:
-  fr: /chapters/04-03-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html
+  fr: /book/chapters/04-03-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html
 seo:
   description: "Examine support requests with their context, without confusing frequency, cause and how representative they are."
   keywords: "build here, builder, support, uses, observation, assumptions"

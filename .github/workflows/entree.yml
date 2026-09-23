@@ -1,12 +1,10 @@
-# Lit les entrees d'une pull request contre les regles de l'annexe 1.
+# Lit les cartes d'une pull request contre les regles de l'annexe 1.
 #
-# Elle ne bloque jamais. Le linter ne refuse rien par principe, donc son
-# absence ne peut pas refuser non plus : si l'API est hors ligne, le job le
-# dit et passe au vert.
+# Elle ne bloque jamais. Le linter ne refuse rien par principe : il tourne
+# ici, sur les fichiers de la pull request, sans appeler personne.
 #
-# Le rapport va dans le resume du job et pas en commentaire. Une contribution
-# venue d'un fork n'a qu'un jeton en lecture, donc un commentaire echouerait
-# precisement pour les contributeurs que ce livre cherche a accueillir.
+# Le rapport va dans le resume du job et pas en commentaire. Une pull request
+# venue d'un fork n'a qu'un jeton en lecture, donc un commentaire echouerait.
 
 name: Relire une carte
 
@@ -17,9 +15,6 @@ on:
 
 permissions:
   contents: read
-
-env:
-  API: https://api.build-here.africa/lint
 
 jobs:
   relire:
@@ -40,7 +35,7 @@ jobs:
             exit 0
           fi
 
-          # Une entree ajoutee attend ses champs de sequence a 999. Une entree
+          # Une carte ajoutee attend ses champs de sequence a 999. Une carte
           # modifiee porte deja son vrai numero.
           ajoutes=$(git diff --name-only --diff-filter=A "$base"...HEAD -- '_chapters/*.md')
 
@@ -48,26 +43,9 @@ jobs:
           echo "" >> "$GITHUB_STEP_SUMMARY"
 
           for f in $fichiers; do
-            nouvelle=false
-            echo "$ajoutes" | grep -qx "$f" && nouvelle=true
-
-            corps=$(jq -n \
-              --arg nom "$(basename "$f")" \
-              --arg src "$(cat "$f")" \
-              --argjson neuve "$nouvelle" \
-              '{filename: $nom, source: $src, nouvelle: $neuve}')
-
-            reponse=$(curl -sS --max-time 20 -X POST "$API" \
-              -H 'content-type: application/json' \
-              -d "$corps" 2>&1) || {
-                echo "L'API n'a pas répondu. Rien n'est bloqué, la relecture humaine reste la seule qui décide." >> "$GITHUB_STEP_SUMMARY"
-                echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
-                echo "$reponse" >> "$GITHUB_STEP_SUMMARY"
-                echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
-                exit 0
-              }
-
-            rapport=$(echo "$reponse" | jq -r '.rapport // .erreur // "Réponse inattendue."')
+            nouvelle=""
+            echo "$ajoutes" | grep -qx "$f" && nouvelle="--nouvelle"
+            rapport=$(node bin/lint-entree $nouvelle "$f" 2>&1 || true)
 
             echo "### \`$f\`" >> "$GITHUB_STEP_SUMMARY"
             echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
@@ -80,15 +58,3 @@ jobs:
           done
 
           echo "Les douze tests sont une lecture humaine. Rien ici ne refuse une carte." >> "$GITHUB_STEP_SUMMARY"
-
-      - name: L'index par symptôme couvre le livre
-        # Une entree qui arrive n'entre pas toute seule dans l'index par
-        # symptome. Sans ce pas, elle est publiee et introuvable depuis la
-        # seule page qui sert a chercher. Comme le reste du fichier, il dit
-        # et ne refuse pas : la ligne d'index se pose a l'integration.
-        run: |
-          echo "## L'index par symptôme" >> "$GITHUB_STEP_SUMMARY"
-          echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
-          bin/verifier-index >> "$GITHUB_STEP_SUMMARY" 2>&1 || true
-          echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
-          bin/verifier-index || true

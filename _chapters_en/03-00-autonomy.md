@@ -14,7 +14,7 @@ categories:
   - ownership
   - builders
 traductions:
-  fr: /chapters/03-00-lautonomie.html
+  fr: /book/chapters/03-00-lautonomie.html
 seo:
   description: "Build autonomy suited to the remit, with a clear goal, the ability to ask for help, and explicit decisions."
   keywords: "build here, autonomy, builder, problem, procedure"
@@ -40,11 +40,11 @@ The understanding cards can round this out when a constraint from another craft,
 
 ## The cards in this capability
 
-- 3.01 [Do not bring the task. Bring the problem](/en/chapters/03-01-do-not-bring-the-task-bring-the-problem.html)
-- 3.02 [The ticket is not the work](/en/chapters/03-02-the-ticket-is-not-the-work.html)
-- 3.03 [If you don't understand why, you are not ready to build it](/en/chapters/03-03-if-you-dont-understand-why-you-are-not-ready-to-build-it.html)
-- 3.04 [Being stuck is a decision](/en/chapters/03-04-being-stuck-is-a-decision.html)
-- 3.05 [Deciding and being right are two different jobs](/en/chapters/03-05-deciding-and-being-right-are-two-different-jobs.html)
-- 3.06 [Product is not the person who writes the tickets](/en/chapters/03-06-product-is-not-the-person-who-writes-the-tickets.html)
-- 3.07 [⇄ A roadmap nobody may refuse is a queue](/en/chapters/03-07-a-roadmap-nobody-may-refuse-is-a-queue.html)
-- 3.08 [⇄ You cannot ask for candor and keep the last word](/en/chapters/03-08-you-cannot-ask-for-candor-and-keep-the-last-word.html)
+- 3.01 [Do not bring the task. Bring the problem](/book/en/chapters/03-01-do-not-bring-the-task-bring-the-problem.html)
+- 3.02 [The ticket is not the work](/book/en/chapters/03-02-the-ticket-is-not-the-work.html)
+- 3.03 [If you don't understand why, you are not ready to build it](/book/en/chapters/03-03-if-you-dont-understand-why-you-are-not-ready-to-build-it.html)
+- 3.04 [Being stuck is a decision](/book/en/chapters/03-04-being-stuck-is-a-decision.html)
+- 3.05 [Deciding and being right are two different jobs](/book/en/chapters/03-05-deciding-and-being-right-are-two-different-jobs.html)
+- 3.06 [Product is not the person who writes the tickets](/book/en/chapters/03-06-product-is-not-the-person-who-writes-the-tickets.html)
+- 3.07 [⇄ A roadmap nobody may refuse is a queue](/book/en/chapters/03-07-a-roadmap-nobody-may-refuse-is-a-queue.html)
+- 3.08 [⇄ You cannot ask for candor and keep the last word](/book/en/chapters/03-08-you-cannot-ask-for-candor-and-keep-the-last-word.html)

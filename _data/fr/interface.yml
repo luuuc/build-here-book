@@ -54,15 +54,15 @@ note:
   # La cle est stable et part en base, le libelle peut etre reecrit sans
   # casser les donnees deja collectees.
   raisons:
-    - cle: abstrait
+    - cle: abstract
       texte: "Trop abstrait"
-    - cle: deja-su
+    - cle: already-known
       texte: "Je le savais déjà"
-    - cle: desaccord
+    - cle: disagree
       texte: "Pas d'accord"
-    - cle: exemple
+    - cle: needs-example
       texte: "Il manque un exemple"
-    - cle: autre
+    - cle: other
       texte: "Autre"
   # Le commentaire ne s'affiche jamais nulle part. C'est ce qui lui evite
   # toute moderation, et ce qui permet d'y etre franc.
@@ -121,7 +121,7 @@ menu:
   site: "Explorer Build Here"
   livre: "Sommaire"
   livre_titre: "Le livre"
-  livre_url: "/livre/"
+  livre_url: "/book/"
   retour: "← Retour au site"
   sommaire_aria: "Sommaire du livre"
 

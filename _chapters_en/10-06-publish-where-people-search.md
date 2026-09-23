@@ -12,7 +12,7 @@ categories:
   - distribution
   - trace
 traductions:
-  fr: /chapters/10-06-publie-la-ou-on-cherche.html
+  fr: /book/chapters/10-06-publie-la-ou-on-cherche.html
 seo:
   description: "Check a real reader's route to it and maintain the resource, without promising indexing, permanence, or a search ranking."
   keywords: "build here, builder, reference, resource, search, upkeep"

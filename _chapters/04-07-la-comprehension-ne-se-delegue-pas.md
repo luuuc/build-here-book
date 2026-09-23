@@ -14,7 +14,7 @@ categories:
   - strategie
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/04-07-understanding-cannot-be-delegated.html
+  en: /book/en/chapters/04-07-understanding-cannot-be-delegated.html
 seo:
   description: "Comprends les dépendances utiles à ta décision avec l'aide des spécialistes, sans confondre compréhension et contrôle."
   keywords: "build here, technologie et business, builder, comprehension, delegue"

@@ -13,7 +13,7 @@ categories:
   - incident
   - apprentissage
 traductions:
-  fr: /chapters/07-06-ecris-ce-qui-a-casse.html
+  fr: /book/chapters/07-06-ecris-ce-qui-a-casse.html
 seo:
   description: "Keep the facts, the assumptions and the next step of an incident in a suitable record, without requiring a public write-up or unpaid evening work."
   keywords: "build here, record, postmortem, builder, incident"
@@ -35,7 +35,7 @@ A file stalled between two teams because each was waiting for a different confir
 
 The readers may be whoever takes over, the team, or you later. A maintained internal document is a valid way of passing something on. A public write-up can widen the reach when it is useful and authorised, but removing a name or changing a number is not enough to make a sequence shareable. Check the content with the people responsible; keep a restricted version if you need to.
 
-Writing takes time, sometimes after a draining episode. Agree a reasonable effort, and avoid the injunction to publish the same evening. Someone starting out can help reconstruct a case with a peer. If you are growing a team, protect the ability to report and examine a difficulty: see [⇄ If being wrong costs status, nobody will be wrong out loud](/en/chapters/01-10-if-being-wrong-costs-status-nobody-will-be-wrong-out-loud.html).
+Writing takes time, sometimes after a draining episode. Agree a reasonable effort, and avoid the injunction to publish the same evening. Someone starting out can help reconstruct a case with a peer. If you are growing a team, protect the ability to report and examine a difficulty: see [⇄ If being wrong costs status, nobody will be wrong out loud](/book/en/chapters/01-10-if-being-wrong-costs-status-nobody-will-be-wrong-out-loud.html).
 
 ## Try this
 

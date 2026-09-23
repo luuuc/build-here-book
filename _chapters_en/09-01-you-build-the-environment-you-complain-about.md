@@ -12,7 +12,7 @@ categories:
   - decision
   - management
 traductions:
-  fr: /chapters/09-01-tu-construis-lenvironnement-dont-tu-te-plains.html
+  fr: /book/chapters/09-01-tu-construis-lenvironnement-dont-tu-te-plains.html
 seo:
   description: "A team runs on observed consequences, not stated values. Look at what happened to the last three proposals."
   keywords: "build here, builder, leadership, initiative, conditions, support"

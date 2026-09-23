@@ -14,7 +14,7 @@ categories:
   - transmission
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/09-08-you-are-the-missing-reference-and-you-left-nothing-behind.html
+  en: /book/en/chapters/09-08-you-are-the-missing-reference-and-you-left-nothing-behind.html
 seo:
   description: "Soutiens mentorat, pratique et supports adaptés avec du temps, des accords et une vérification de leur utilité, sans publication obligatoire."
   keywords: "build here, builder, leadership, transmission, mentorat, soutien"

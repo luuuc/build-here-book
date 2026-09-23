@@ -6,7 +6,7 @@ show_chapter_number: false
 part: "References"
 order: 1200
 traductions:
-  fr: /chapters/12-00-references.html
+  fr: /book/chapters/12-00-references.html
 ---
 
 These references illuminate the ideas in the book. They come mostly from management and software; applying them to another situation means examining their context.

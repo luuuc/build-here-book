@@ -13,7 +13,7 @@ categories:
   - engineering
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/01-09-nobody-asks-twice.html
+  en: /book/en/chapters/01-09-nobody-asks-twice.html
 seo:
   description: "Une question a besoin d'un interlocuteur, d'un délai adapté et d'une réponse accessible aux personnes concernées."
   keywords: "build here, curiosite, builder, conditions, personne, demande, deux, fois"

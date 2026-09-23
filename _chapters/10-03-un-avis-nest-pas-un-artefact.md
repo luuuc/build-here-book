@@ -13,7 +13,7 @@ categories:
   - ecriture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-03-an-opinion-is-not-an-artifact.html
+  en: /book/en/chapters/10-03-an-opinion-is-not-an-artifact.html
 seo:
   description: "Rends contexte, faits et limites accessibles pour que le lecteur puisse examiner une idée, sans imposer un chiffre ni dévaloriser les avis."
   keywords: "build here, builder, reference, raisonnement, evidence, limites"

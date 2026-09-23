@@ -15,7 +15,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/05-00-delivery.html
+  en: /book/en/chapters/05-00-delivery.html
 seo:
   description: "Prépare un essai utile, observe ce qu'il produit et adapte la suite, avec un périmètre et des protections appropriés."
   keywords: "build here, livraison, shipping, execution, builder"
@@ -45,8 +45,8 @@ Les cartes d'ownership complètent cette lecture pour organiser le relais et la 
 
 ## Les cartes de cette étape
 
-- 5.01 [Shipper crée de l'information](/chapters/05-01-shipper-cree-de-linformation.html)
-- 5.02 [Rapide ne veut pas dire précipité](/chapters/05-02-rapide-ne-veut-pas-dire-precipite.html)
-- 5.03 [Plus tu peaufines, plus il devient difficile de changer d'avis](/chapters/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html)
-- 5.04 [Valider une spec ne la rend pas juste](/chapters/05-04-valider-une-spec-ne-la-rend-pas-juste.html)
-- 5.05 [⇄ Le rythme de livraison, c'est une décision que tu as prise](/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html)
+- 5.01 [Shipper crée de l'information](/book/chapters/05-01-shipper-cree-de-linformation.html)
+- 5.02 [Rapide ne veut pas dire précipité](/book/chapters/05-02-rapide-ne-veut-pas-dire-precipite.html)
+- 5.03 [Plus tu peaufines, plus il devient difficile de changer d'avis](/book/chapters/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html)
+- 5.04 [Valider une spec ne la rend pas juste](/book/chapters/05-04-valider-une-spec-ne-la-rend-pas-juste.html)
+- 5.05 [⇄ Le rythme de livraison, c'est une décision que tu as prise](/book/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html)

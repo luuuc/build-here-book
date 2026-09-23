@@ -14,7 +14,7 @@ categories:
   - business
   - client
 traductions:
-  fr: /chapters/04-00-la-comprehension.html
+  fr: /book/chapters/04-00-la-comprehension.html
 seo:
   description: "Connect your work to the uses, the means and the other crafts, in a company, a community group or a personal project."
   keywords: "build here, understanding, business, customer, distribution"
@@ -42,17 +42,17 @@ You can then come back to framing, prepare an attempt, or read the delivery card
 
 ## The cards in this capability
 
-- 4.01 [Talk to the person who has the problem](/en/chapters/04-01-talk-to-the-person-who-has-the-problem.html)
-- 4.02 [A feature request is not the problem](/en/chapters/04-02-a-feature-request-is-not-the-problem.html)
-- 4.03 [Support is product research with angry participants](/en/chapters/04-03-support-is-product-research-with-angry-participants.html)
-- 4.04 [The customer does not care about your architecture](/en/chapters/04-04-the-customer-does-not-care-about-your-architecture.html)
-- 4.05 [What you can build decides what you can sell](/en/chapters/04-05-what-you-can-build-decides-what-you-can-sell.html)
-- 4.06 [Choosing a vendor is signing up for three years](/en/chapters/04-06-choosing-a-vendor-is-signing-up-for-three-years.html)
-- 4.07 [Understanding cannot be delegated](/en/chapters/04-07-understanding-cannot-be-delegated.html)
-- 4.08 [Distribution is part of the product](/en/chapters/04-08-distribution-is-part-of-the-product.html)
-- 4.09 [Marketing is not decoration](/en/chapters/04-09-marketing-is-not-decoration.html)
-- 4.10 [Talk about the problem before you talk about yourself](/en/chapters/04-10-talk-about-the-problem-before-you-talk-about-yourself.html)
-- 4.11 [An audience takes longer to build than a product](/en/chapters/04-11-an-audience-takes-longer-to-build-than-a-product.html)
-- 4.12 [⇄ An estimate asked for after the decision is not an estimate](/en/chapters/04-12-an-estimate-asked-for-after-the-decision-is-not-an-estimate.html)
-- 4.13 [⇄ Customer access is a budget, not a value](/en/chapters/04-13-customer-access-is-a-budget-not-a-value.html)
-- 4.14 [⇄ You cannot ask for distribution while funding only features](/en/chapters/04-14-you-cannot-ask-for-distribution-while-funding-only-features.html)
+- 4.01 [Talk to the person who has the problem](/book/en/chapters/04-01-talk-to-the-person-who-has-the-problem.html)
+- 4.02 [A feature request is not the problem](/book/en/chapters/04-02-a-feature-request-is-not-the-problem.html)
+- 4.03 [Support is product research with angry participants](/book/en/chapters/04-03-support-is-product-research-with-angry-participants.html)
+- 4.04 [The customer does not care about your architecture](/book/en/chapters/04-04-the-customer-does-not-care-about-your-architecture.html)
+- 4.05 [What you can build decides what you can sell](/book/en/chapters/04-05-what-you-can-build-decides-what-you-can-sell.html)
+- 4.06 [Choosing a vendor is signing up for three years](/book/en/chapters/04-06-choosing-a-vendor-is-signing-up-for-three-years.html)
+- 4.07 [Understanding cannot be delegated](/book/en/chapters/04-07-understanding-cannot-be-delegated.html)
+- 4.08 [Distribution is part of the product](/book/en/chapters/04-08-distribution-is-part-of-the-product.html)
+- 4.09 [Marketing is not decoration](/book/en/chapters/04-09-marketing-is-not-decoration.html)
+- 4.10 [Talk about the problem before you talk about yourself](/book/en/chapters/04-10-talk-about-the-problem-before-you-talk-about-yourself.html)
+- 4.11 [An audience takes longer to build than a product](/book/en/chapters/04-11-an-audience-takes-longer-to-build-than-a-product.html)
+- 4.12 [⇄ An estimate asked for after the decision is not an estimate](/book/en/chapters/04-12-an-estimate-asked-for-after-the-decision-is-not-an-estimate.html)
+- 4.13 [⇄ Customer access is a budget, not a value](/book/en/chapters/04-13-customer-access-is-a-budget-not-a-value.html)
+- 4.14 [⇄ You cannot ask for distribution while funding only features](/book/en/chapters/04-14-you-cannot-ask-for-distribution-while-funding-only-features.html)

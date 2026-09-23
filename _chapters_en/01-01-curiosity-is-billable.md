@@ -19,7 +19,7 @@ categories:
 # La jumelle francaise. Elle alimente le selecteur de langue de l'en-tete et
 # les balises hreflang.
 traductions:
-  fr: /chapters/01-01-la-curiosite-est-facturable.html
+  fr: /book/chapters/01-01-la-curiosite-est-facturable.html
 seo:
   description: "Booking a short, bounded slot to understand a dependency can improve decisions and save repeated work."
   keywords: "build here, curiosity, builder, billable"

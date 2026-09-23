@@ -12,7 +12,7 @@ categories:
   - impact
   - client
 traductions:
-  fr: /chapters/08-01-range-les-par-cause-pas-par-sujet.html
+  fr: /book/chapters/08-01-range-les-par-cause-pas-par-sujet.html
 seo:
   description: "Group cases with their context and check their possible causes before prioritising an improvement, with no threshold and no guaranteed gain."
   keywords: "build here, builder, leverage, grouping, assumption, cause"

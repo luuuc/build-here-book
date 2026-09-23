@@ -11,7 +11,7 @@ categories:
   - introduction
   - builders
 traductions:
-  fr: /chapters/00-introduction.html
+  fr: /book/chapters/00-introduction.html
 seo:
   description: "Understand a problem, build something useful and learn from its effects. Ten capabilities to explore from wherever you are."
   keywords: "build here, introduction, builder, learning, passing it on"
@@ -55,4 +55,4 @@ Each card carries one idea. Cards marked ⇄ are about the conditions of the wor
 
 Pick a move small enough for the time you have. Agree the remit with the people involved. Plan one fact to observe and a moment to come back and look at it.
 
-The rest, paths, workshops and templates, is on the [book's site](/en/book/). Start by looking at what is happening around you.
+The rest, paths, workshops and templates, is on the [book's site](/book/en/). Start by looking at what is happening around you.

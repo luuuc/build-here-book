@@ -13,7 +13,7 @@ categories:
   - strategie
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/04-05-what-you-can-build-decides-what-you-can-sell.html
+  en: /book/en/chapters/04-05-what-you-can-build-decides-what-you-can-sell.html
 seo:
   description: "Fais entrer les capacités de réalisation, les contraintes et les options dans la décision avant l'engagement."
   keywords: "build here, technologie et business, builder, sait, construire, decide, peut, vendre"

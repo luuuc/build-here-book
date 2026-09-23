@@ -13,7 +13,7 @@ categories:
   - simplicite
   - technique
 traductions:
-  fr: /chapters/02-01-faire-simple-est-une-performance-technique.html
+  fr: /book/chapters/02-01-faire-simple-est-une-performance-technique.html
 seo:
   description: "Simplifying means understanding what you take away, checking the uses affected, and keeping a way back."
   keywords: "build here, engineering, builder, simple, simplicity"

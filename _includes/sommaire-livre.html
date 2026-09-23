@@ -12,11 +12,11 @@
       {% assign items = chapters | where: "part", nom %}
       {% if items.size > 0 %}
       {% assign ouverture = items | first %}
-      <h3 id="{{ nom | slugify }}"><a href="{{ ouverture.url }}">{{ ouverture.title }}</a></h3>
+      <h3 id="{{ nom | slugify }}"><a href="{{ ouverture.url | relative_url }}">{{ ouverture.title }}</a></h3>
       {% if items.size > 1 %}
       <ul>
         {% for c in items offset:1 %}
-          <li><a href="{{ c.url }}">{{ c.title }}</a></li>
+          <li><a href="{{ c.url | relative_url }}">{{ c.title }}</a></li>
         {% endfor %}
       </ul>
       {% endif %}

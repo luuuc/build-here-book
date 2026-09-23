@@ -3,16 +3,17 @@
      est un ajout, lire n'en depend pas. Le bloc est donc vide et cache, et le
      script le remplit. -->
 <section class="note" id="note" hidden
-         data-page="{{ page.url }}"
+         data-page="{{ page.url | relative_url }}"
+         data-api="{{ site.api_url }}"
          data-titre="{{ page.title | escape }}"
          data-merci="{{ n.merci }}">
   <div class="container">
     <p class="note-question">{{ n.question }}</p>
 
     <div class="note-valeurs">
-      <button type="button" data-valeur="oui">{{ n.oui }}</button>
-      <button type="button" data-valeur="moitie">{{ n.moitie }}</button>
-      <button type="button" data-valeur="non">{{ n.non }}</button>
+      <button type="button" data-valeur="yes">{{ n.oui }}</button>
+      <button type="button" data-valeur="partly">{{ n.moitie }}</button>
+      <button type="button" data-valeur="no">{{ n.non }}</button>
     </div>
 
     <div class="note-suite" hidden>

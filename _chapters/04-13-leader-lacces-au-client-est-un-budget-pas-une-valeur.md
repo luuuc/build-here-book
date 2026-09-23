@@ -14,7 +14,7 @@ categories:
   - produit
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/04-13-customer-access-is-a-budget-not-a-value.html
+  en: /book/en/chapters/04-13-customer-access-is-a-budget-not-a-value.html
 seo:
   description: "Prévois temps, consentement et accès adaptés pour apprendre des usages, avec des alternatives au contact direct."
   keywords: "build here, builder, acces, terrain, consentement, retours"

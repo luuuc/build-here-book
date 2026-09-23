@@ -13,7 +13,7 @@ categories:
   - niveau
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/02-12-learning-on-your-own-time-is-a-filter-you-did-not-mean-to-set.html
+  en: /book/en/chapters/02-12-learning-on-your-own-time-is-a-filter-you-did-not-mean-to-set.html
 seo:
   description: "Prévois le temps, les ressources et le retour nécessaires pour apprendre, en tenant compte des engagements et des contraintes de chacun."
   keywords: "build here, apprentissage, builder, conditions, apprendre, temps, filtre, voulu"

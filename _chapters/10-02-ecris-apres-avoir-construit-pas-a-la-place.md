@@ -13,7 +13,7 @@ categories:
   - honnetete
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-02-write-after-you-build-not-instead.html
+  en: /book/en/chapters/10-02-write-after-you-build-not-instead.html
 seo:
   description: "N'ecris que sur ce que tu as construit ou essaye, avec ce qui a rate et ce que tu ne sais pas encore."
   keywords: "build here, builder, reference, honnetete, humilite, apprendre"

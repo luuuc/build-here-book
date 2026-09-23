@@ -16,7 +16,7 @@ categories:
   - operations
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/01-01-curiosity-is-billable.html
+  en: /book/en/chapters/01-01-curiosity-is-billable.html
 seo:
   description: "Prévoir un temps limité pour comprendre une dépendance peut améliorer les décisions et éviter du travail répété."
   keywords: "build here, curiosite, builder, facturable"

@@ -9,7 +9,7 @@
       {% if c.illustration %}{% assign is_section = true %}{% endif %}
       {% assign website_href = 'href="' | append: site.url | append: '/' %}
       {% assign body = c.content
-        | replace: 'href="/chapters/', 'href="#'
+        | replace: 'href="/book/chapters/', 'href="#'
         | replace: 'href="/', website_href
         | replace: '<h3', '<h5' | replace: '</h3>', '</h5>'
         | replace: '<h2', '<h4' | replace: '</h2>', '</h4>' %}

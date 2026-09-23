@@ -14,7 +14,7 @@ categories:
   - simplicite
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/07-04-not-everything-deserves-to-become-a-process.html
+  en: /book/en/chapters/07-04-not-everything-deserves-to-become-a-process.html
 seo:
   description: "Choisis une protection proportionnée au risque et à sa charge, sans attendre trois incidents ni transformer chaque difficulté en procédure."
   keywords: "build here, systemes, process, bureaucratie, builder"

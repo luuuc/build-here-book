@@ -14,7 +14,7 @@ categories:
   - resultat
   - builders
 traductions:
-  fr: /chapters/06-00-lownership.html
+  fr: /book/chapters/06-00-lownership.html
 seo:
   description: "Make commitments, handovers and results explicit, without confusing responsibility with blame or with control over every consequence."
   keywords: "build here, ownership, result, builder"
@@ -42,10 +42,10 @@ The systems cards can help when the same difficulty keeps coming back; you can a
 
 ## The cards in this capability
 
-- 6.01 [Done on your side does not mean solved](/en/chapters/06-01-done-on-your-side-does-not-mean-solved.html)
-- 6.02 [Come back a month later](/en/chapters/06-02-come-back-a-month-later.html)
-- 6.03 [A responsibility shared by six people does not exist](/en/chapters/06-03-a-responsibility-shared-by-six-people-does-not-exist.html)
-- 6.04 [The bad outcome is yours too](/en/chapters/06-04-the-bad-outcome-is-yours-too.html)
-- 6.05 [A good decision can still lose](/en/chapters/06-05-a-good-decision-can-still-lose.html)
-- 6.06 [Good news can wait. Bad news cannot](/en/chapters/06-06-good-news-can-wait-bad-news-cannot.html)
-- 6.07 [⇄ You ask for outcomes and you review activity](/en/chapters/06-07-you-ask-for-outcomes-and-you-review-activity.html)
+- 6.01 [Done on your side does not mean solved](/book/en/chapters/06-01-done-on-your-side-does-not-mean-solved.html)
+- 6.02 [Come back a month later](/book/en/chapters/06-02-come-back-a-month-later.html)
+- 6.03 [A responsibility shared by six people does not exist](/book/en/chapters/06-03-a-responsibility-shared-by-six-people-does-not-exist.html)
+- 6.04 [The bad outcome is yours too](/book/en/chapters/06-04-the-bad-outcome-is-yours-too.html)
+- 6.05 [A good decision can still lose](/book/en/chapters/06-05-a-good-decision-can-still-lose.html)
+- 6.06 [Good news can wait. Bad news cannot](/book/en/chapters/06-06-good-news-can-wait-bad-news-cannot.html)
+- 6.07 [⇄ You ask for outcomes and you review activity](/book/en/chapters/06-07-you-ask-for-outcomes-and-you-review-activity.html)

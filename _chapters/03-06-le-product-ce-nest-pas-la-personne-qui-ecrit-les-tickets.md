@@ -13,7 +13,7 @@ categories:
   - arbitrage
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/03-06-product-is-not-the-person-who-writes-the-tickets.html
+  en: /book/en/chapters/03-06-product-is-not-the-person-who-writes-the-tickets.html
 seo:
   description: "Relie cadrage, arbitrage et observation des résultats, avec un mandat explicite pour décider."
   keywords: "build here, builder, produit, demandes, arbitrage, resultats"

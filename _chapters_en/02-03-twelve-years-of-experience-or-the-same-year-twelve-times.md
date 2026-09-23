@@ -12,7 +12,7 @@ categories:
   - apprentissage
   - niveau
 traductions:
-  fr: /chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html
+  fr: /book/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html
 seo:
   description: "Experience gives you bearings. To go deeper into a skill, pick one precise move, get feedback, and compare your attempts."
   keywords: "build here, craft, experience, practice, builder"

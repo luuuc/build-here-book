@@ -14,7 +14,7 @@ categories:
   - execution
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/01-03-ownership-starts-where-the-job-description-stops.html
+  en: /book/en/chapters/01-03-ownership-starts-where-the-job-description-stops.html
 seo:
   description: "Une initiative utile clarifie le problème, le périmètre, le temps disponible et la personne qui prendra la suite."
   keywords: "build here, ownership, builder, commence, fiche, poste, arrete"

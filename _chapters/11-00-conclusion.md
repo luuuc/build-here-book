@@ -12,7 +12,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/11-00-conclusion.html
+  en: /book/en/chapters/11-00-conclusion.html
 seo:
   description: "Commencer, approfondir une pratique, développer une équipe ou soutenir des builders : choisir une suite adaptée, observer et apprendre."
   keywords: "build here, conclusion, builder, echelle"

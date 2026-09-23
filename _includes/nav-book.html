@@ -17,7 +17,7 @@
                 {% if ouverture %}
                   <a
                     class="nav-part-title"
-                    href="{{ ouverture.url }}"
+                    href="{{ ouverture.url | relative_url }}"
                     {% if ouverture.url == page.url %}aria-current="page"{% endif %}
                     >{% if ouverture.step_number < 10 %}0{% endif %}{{ ouverture.step_number }}. {{ nom }}</a
                   >
@@ -28,7 +28,7 @@
                   {% for c in items %}
                     {% unless ouverture and c.url == ouverture.url %}
                       <li{% if c.url == page.url %} class="is-current"{% endif %}>
-                        <a href="{{ c.url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
+                        <a href="{{ c.url | relative_url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
                           {{ c.title }}
                         </a>
                       </li>
@@ -40,7 +40,7 @@
               <ul class="nav-submenu">
                 {% for c in items %}
                   <li{% if c.url == page.url %} class="is-current"{% endif %}>
-                    <a href="{{ c.url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
+                    <a href="{{ c.url | relative_url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
                       {{ c.title }}
                     </a>
                   </li>

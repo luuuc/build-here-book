@@ -13,7 +13,7 @@ categories:
   - marketing
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/04-09-marketing-is-not-decoration.html
+  en: /book/en/chapters/04-09-marketing-is-not-decoration.html
 seo:
   description: "Relie connaissance des destinataires, conception et présentation, sans dévaloriser les métiers qui rendent l'offre lisible."
   keywords: "build here, visibilite, builder, marketing, decoration"

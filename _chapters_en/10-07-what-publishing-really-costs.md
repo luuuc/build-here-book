@@ -13,7 +13,7 @@ categories:
   - trace
   - contexte
 traductions:
-  fr: /chapters/10-07-ce-que-publier-coute-vraiment.html
+  fr: /book/chapters/10-07-ce-que-publier-coute-vraiment.html
 seo:
   description: "Examine the full cost and the conditions of a concrete piece of sharing; anonymising is not authorisation, and an internal version is still valid."
   keywords: "build here, reference, record, publishing, cost, builder"

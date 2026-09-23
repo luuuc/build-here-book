@@ -12,7 +12,7 @@ categories:
   - open-source
   - niveau
 traductions:
-  fr: /chapters/02-10-le-savoir-nest-pas-ce-qui-te-manque.html
+  fr: /book/chapters/02-10-le-savoir-nest-pas-ce-qui-te-manque.html
 seo:
   description: "Name what is missing in order to learn: a resource, time, access, an explanation or feedback. Pick a route your means allow."
   keywords: "build here, learning, builder, access, what is missing"

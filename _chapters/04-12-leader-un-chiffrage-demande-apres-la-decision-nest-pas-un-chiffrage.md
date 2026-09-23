@@ -14,7 +14,7 @@ categories:
   - strategie
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/04-12-an-estimate-asked-for-after-the-decision-is-not-an-estimate.html
+  en: /book/en/chapters/04-12-an-estimate-asked-for-after-the-decision-is-not-an-estimate.html
 seo:
   description: "Fais examiner options, coûts et inconnues avant une promesse, et prévois comment ajuster un engagement déjà pris."
   keywords: "build here, builder, engagement, cout, estimation, options"

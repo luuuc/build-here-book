@@ -15,7 +15,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-00-being-the-reference.html
+  en: /book/en/chapters/10-00-being-the-reference.html
 seo:
   description: "Rends une expérience accessible, contextualisée et réutilisable, en interne ou en public selon le besoin, les moyens et les accords."
   keywords: "build here, reference, trace, artefact, builder"
@@ -47,14 +47,14 @@ Une ressource peut vieillir, être corrigée, remplacée ou retirée. Préparer 
 
 ## Les cartes de cette étape
 
-- 10.01 [Mets ton nom dessus](/chapters/10-01-mets-ton-nom-dessus.html)
-- 10.02 [Écris après avoir construit, pas à la place](/chapters/10-02-ecris-apres-avoir-construit-pas-a-la-place.html)
-- 10.03 [Un avis n'est pas un artefact](/chapters/10-03-un-avis-nest-pas-un-artefact.html)
-- 10.04 [Une trace n'est pas forcément du code](/chapters/10-04-une-trace-nest-pas-forcement-du-code.html)
-- 10.05 [Réponds à la question en public](/chapters/10-05-reponds-a-la-question-en-public.html)
-- 10.06 [Publie là où on cherche](/chapters/10-06-publie-la-ou-on-cherche.html)
-- 10.07 [Ce que publier coûte vraiment](/chapters/10-07-ce-que-publier-coute-vraiment.html)
-- 10.08 [Personne n'a écrit ce que tu sais faire](/chapters/10-08-personne-na-ecrit-ce-que-tu-sais-faire.html)
-- 10.09 [Partir n'est pas une trahison](/chapters/10-09-partir-nest-pas-une-trahison.html)
-- 10.10 [⇄ L'absence de règle est une interdiction](/chapters/10-10-leader-labsence-de-regle-est-une-interdiction.html)
-- 10.11 [⇄ Ton équipe travaille sous ton nom](/chapters/10-11-leader-ton-equipe-travaille-sous-ton-nom.html)
+- 10.01 [Mets ton nom dessus](/book/chapters/10-01-mets-ton-nom-dessus.html)
+- 10.02 [Écris après avoir construit, pas à la place](/book/chapters/10-02-ecris-apres-avoir-construit-pas-a-la-place.html)
+- 10.03 [Un avis n'est pas un artefact](/book/chapters/10-03-un-avis-nest-pas-un-artefact.html)
+- 10.04 [Une trace n'est pas forcément du code](/book/chapters/10-04-une-trace-nest-pas-forcement-du-code.html)
+- 10.05 [Réponds à la question en public](/book/chapters/10-05-reponds-a-la-question-en-public.html)
+- 10.06 [Publie là où on cherche](/book/chapters/10-06-publie-la-ou-on-cherche.html)
+- 10.07 [Ce que publier coûte vraiment](/book/chapters/10-07-ce-que-publier-coute-vraiment.html)
+- 10.08 [Personne n'a écrit ce que tu sais faire](/book/chapters/10-08-personne-na-ecrit-ce-que-tu-sais-faire.html)
+- 10.09 [Partir n'est pas une trahison](/book/chapters/10-09-partir-nest-pas-une-trahison.html)
+- 10.10 [⇄ L'absence de règle est une interdiction](/book/chapters/10-10-leader-labsence-de-regle-est-une-interdiction.html)
+- 10.11 [⇄ Ton équipe travaille sous ton nom](/book/chapters/10-11-leader-ton-equipe-travaille-sous-ton-nom.html)

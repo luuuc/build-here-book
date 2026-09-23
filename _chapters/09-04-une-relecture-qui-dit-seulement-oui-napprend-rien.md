@@ -13,7 +13,7 @@ categories:
   - equipe
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html
+  en: /book/en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html
 seo:
   description: "Partage des critères et des limites de relecture utiles, avec un effort proportionné et sans dévaloriser une validation déjà comprise."
   keywords: "build here, builder, leadership, relecture, criteres, apprentissage"

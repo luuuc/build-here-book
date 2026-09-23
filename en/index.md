@@ -3,129 +3,90 @@ layout: landing
 lang: en
 
 permalink: /en/
-test_builder: true
-
-traductions:
-  fr: /
 
 categories:
   - builders
   - pratiques
 
 seo:
-  description: Are you a builder? A ten-step test to find your builder level and choose a practice to try. No account.
-  keywords: builder test, build here, book, team, builders, ownership, autonomy, leadership
+  description: "Build Here: practices to get started, get better, grow a team and back other builders. Cards, examples and templates, free to read."
+  keywords: build here, book, builders, software engineering, product, ownership, leadership, practical guide
 
-# Le titre ne s'affiche pas sur la page : le layout `landing` n'a pas de
-# bandeau de titre. Il sert a l'onglet, aux moteurs et au partage.
-title: Are you a builder?
-description: Ten steps to find your builder level and something to try.
+title: The book
+description: Understand, try, observe and learn
+
+traductions:
+  fr: /book/
 ---
 
 {%- assign entrees = site.chapters_en | where_exp: "c", "c.metadata.principle" -%}
 {%- assign etapes = site.chapters_en | where_exp: "c", "c.step_number" -%}
 
-<section class="builder-test" data-builder-test>
-  <div data-test-intro>
-    <section class="bloc bloc--surface hero">
-      <div class="colonne">
-        <div class="hero-corps">
-          <div>
-            <p class="bloc-surtitre">The builder test · 10 steps · no account</p>
-            <h1 class="hero-titre">Are you a builder?</h1>
-            <p class="hero-accroche">You do not need to code, to run a team, or to have launched anything. Find out your builder level, what it rests on, and what you could try next.</p>
-            <p class="hero-actions"><button type="button" class="bouton" data-test-start hidden>Take the test →</button></p>
-            <ul class="preuve">
-              <li><strong>12</strong> minutes</li>
-              <li><strong>0</strong> account</li>
-              <li><strong>5</strong> levels</li>
-              <li>your answers stay here</li>
-            </ul>
-          </div>
-          <img class="hero-image" src="/assets/images/scenes/accueil.svg" alt="" width="480" height="320" />
-        </div>
+<section class="bloc hero">
+  <div class="colonne">
+    <div class="hero-corps">
+      <div>
+        <p class="bloc-surtitre">The builder's playbook</p>
+        <h1 class="hero-titre">Building is something you learn.</h1>
+        <p class="hero-accroche">A builder sets out to improve a concrete situation, watches what their action produces, and learns from it for next time. You can start with no title, no team and nothing published.</p>
+        <p class="hero-actions">
+          <a class="bouton" href="/book/en/chapters/00-introduction.html">Start with the introduction →</a>
+          <a class="bouton bouton--contour" href="{{ site.downloads[lang].pdf }}">Download the PDF</a>
+        </p>
+        <ul class="preuve">
+          <li><strong>{{ entrees | size }}</strong> cards</li>
+          <li><strong>{{ etapes | size }}</strong> capabilities</li>
+          <li>no account</li>
+          <li>CC BY-SA</li>
+        </ul>
       </div>
-    </section>
-    <nav class="rail rail--accueil" aria-label="Without taking the test">
-      <div class="rail-corps">
-        <a href="/en/test-method/" class="rail-item"><span class="rail-fleche" aria-hidden="true">→</span><span>How the test works</span></a>
-        <a href="/en/paths/" class="rail-item"><span class="rail-fleche" aria-hidden="true">→</span><span>Go straight to a path</span></a>
-      </div>
-    </nav>
-  </div>
-  <div class="colonne colonne--prose">
-    <div class="builder-test-workspace" data-test-workspace hidden>
-      <nav class="builder-test-actions" aria-label="Questionnaire navigation">
-        <button type="button" class="bouton bouton--contour" data-test-restart>Start again</button>
-      </nav>
-      <p><a href="/en/paths/">Go straight to my path →</a></p>
-      <div data-test-screen></div>
+      <img class="hero-image hero-couverture" src="/book/assets/images/couverture.png" alt="Build Here cover" width="1200" height="1800" />
     </div>
-    <noscript><p>The interactive questions need JavaScript. The four reading paths and the book stay fully reachable through the links above.</p></noscript>
   </div>
 </section>
 
-<!-- La présentation du livre revient avec la piste choisie. -->
-<div data-test-landing>
+<section class="bloc bloc--surface">
+  <div class="colonne colonne--prose">
+    <h2 class="bloc-titre">What is inside</h2>
+    <p class="bloc-texte">{{ etapes | size }} capabilities, {{ entrees | size }} short cards. Each one reads on its own and offers a situation, a line of reasoning, and an action to adapt. The capabilities in the contents are reading markers, with no ranking and no required order.</p>
+    <p class="bloc-texte">Usefulness can be a service delivered, a risk reduced, an exploration, reliability preserved, or knowledge passed on. Making work continue without its author is one contribution among those other forms.</p>
+  </div>
+</section>
 
-  <section class="bloc">
-    <div class="colonne">
-      <h2 class="bloc-titre">How it goes</h2>
-      <div class="grille grille--trois">
-        <div class="pas">
-          <img src="/assets/images/sections/curiosite.svg" alt="" width="120" height="120" />
-          <h3>You answer simple questions</h3>
-          <p>Ten steps, five questions each, about what you did in recent months. You can say a situation didn't come up, or that your setting didn't allow it.</p>
-        </div>
-        <div class="pas">
-          <img src="/assets/images/sections/escalier.svg" alt="" width="120" height="120" />
-          <h3>You see your level</h3>
-          <p>A level from 1 to 5, the step where your practice is solid, and the answer that holds you back at the next step.</p>
-        </div>
-        <div class="pas">
-          <img src="/assets/images/sections/execution.svg" alt="" width="120" height="120" />
-          <h3>You leave with one practice</h3>
-          <p>A single one, to try this week, with the cards from the book that go with it.</p>
-        </div>
-      </div>
+<section class="bloc">
+  <div class="colonne">
+    <h2 class="bloc-titre">Choose your path</h2>
+    <p class="bloc-texte">Three cards and a first attempt, according to what you want to do now.</p>
+    {% include parcours.html %}
+    <p class="bloc-apres">Have a precise situation in mind? The <a href="/en/situations/">index by situation</a> takes you straight to the cards involved. To explore with no need yet defined, the <a href="/en/">builder test</a> gives your level and helps you pick a line of work.</p>
+  </div>
+</section>
+
+<section class="bloc bloc--surface">
+  <div class="colonne colonne--prose">
+    <h2 class="bloc-titre">From reading to an attempt</h2>
+    <p class="bloc-texte">Choose a single practice. Say what you can try, the agreements or backing it needs, the time available, and the work this effort displaces. The book does not ask you to make up for a missing condition alone.</p>
+    <p class="bloc-texte">The <a href="/en/templates/">examples and templates</a> show how to prepare an attempt, observe a result, and agree an ending or a handover. The cases are constructed; they illustrate an approach, with no promise of the same result where you are.</p>
+    <p class="bloc-texte">For a group, the <a href="/en/workshop/">workshop guide</a> offers a voluntary session and feedback that fits. A supporter can bring a review, time, or an agreed access, without directing the work.</p>
+  </div>
+</section>
+
+<section class="bloc bloc--nuit">
+  <div class="colonne">
+    <h2 class="bloc-titre">Read it, take it, adapt it</h2>
+    <p class="bloc-texte">The book is free to read. The downloads match the latest published edition.</p>
+    <div class="grille grille--trois">
+      <a class="carte-livre" href="/book/en/chapters/00-introduction.html"><span class="carte-livre-type">Online</span><span class="carte-livre-titre">Read in the browser</span><span class="carte-livre-meta">{{ entrees | size }} cards, one per page</span></a>
+      <a class="carte-livre" href="{{ site.downloads[lang].pdf }}"><span class="carte-livre-type">PDF</span><span class="carte-livre-titre">The full printing</span><span class="carte-livre-meta">Print layout</span></a>
+      <a class="carte-livre" href="{{ site.downloads[lang].epub }}"><span class="carte-livre-type">EPUB</span><span class="carte-livre-titre">For an e-reader</span><span class="carte-livre-meta">Kindle: send the file</span></a>
     </div>
-  </section>
+    <p class="bloc-apres">The <a href="/en/about/">About page</a> explains how to send feedback, find the sources, and reuse the content.</p>
+  </div>
+</section>
 
-  <section class="bloc bloc--surface">
-    <div class="colonne colonne--prose">
-      <p class="bloc-surtitre">What you get</p>
-      <h2 class="bloc-titre">A level you can check.</h2>
-      <p class="bloc-texte">The test asks what you did, not what you think of yourself: what you usually do, what you did the last time, what is better to do. Your level comes from those answers, and the result quotes the one that holds you back. What your setting didn't allow doesn't lower your level. The cut-offs are still provisional, and the level is meant to move: take the test again in three months.</p>
-      <p class="bloc-texte">Nothing is sent anywhere. Your answers disappear when you leave the page, unless you choose to keep them on your device to see what moved next time. No account, no address to hand over.</p>
-      <a class="bouton bouton--contour" href="/en/test-method/">How the test works →</a>
-    </div>
-  </section>
-
-  <section class="bloc">
-    <div class="colonne">
-      <div class="hero-corps">
-        <div>
-          <h2 class="bloc-titre">Building is something you learn.</h2>
-          <p class="bloc-texte">{{ entrees | size }} short cards to understand a problem better, try something, learn from the result, and pass on what works. Start where you are.</p>
-          <a class="bouton bouton--contour" href="/en/book/">Explore the book →</a>
-          <ul class="preuve">
-            <li><strong>{{ entrees | size }}</strong> cards</li>
-            <li><strong>{{ etapes | size }}</strong> capabilities</li>
-            <li>free to read</li>
-            <li>CC BY-SA</li>
-          </ul>
-        </div>
-        <img class="hero-image hero-couverture" src="/assets/images/couverture.png" alt="Build Here cover" width="1200" height="1800" />
-      </div>
-    </div>
-  </section>
-
-  <section class="bloc bloc--nuit">
-    <div class="colonne">
-      <h2 class="bloc-titre">Give builders something to act on.</h2>
-      <p class="bloc-texte">One card, a real situation, thirty minutes together: the book offers a workshop for deciding on a concrete attempt and the conditions it needs.</p>
-      <a class="bouton" href="/en/workshop/">Try the workshop →</a>
-    </div>
-  </section>
-
-</div>
+<section class="bloc" id="contents">
+  <div class="colonne colonne--prose">
+    <h2 class="bloc-titre">Contents</h2>
+    {% include sommaire-livre.html %}
+  </div>
+</section>

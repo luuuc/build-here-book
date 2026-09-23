@@ -58,7 +58,7 @@ module BuildHere
       texte =
         if lang == "fr"
           <<~TXT
-            Le texte intégral, #{etapes} étapes et #{cartes} cartes. L'index avec les descriptions et les liens est sur #{url}#{prefixe}/llms.txt
+            Le texte intégral, #{etapes} étapes et #{cartes} cartes. L'index avec les descriptions et les liens est sur #{url}#{site.config["baseurl"]}#{prefixe}/llms.txt
 
             Chaque carte porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. Le site reste la destination de lecture, et l'URL de chaque carte est sous son titre.
 
@@ -68,7 +68,7 @@ module BuildHere
           TXT
         else
           <<~TXT
-            The full text, #{etapes} capabilities and #{cartes} cards. The index, with descriptions and links, is at #{url}#{prefixe}/llms.txt
+            The full text, #{etapes} capabilities and #{cartes} cards. The index, with descriptions and links, is at #{url}#{site.config["baseurl"]}#{prefixe}/llms.txt
 
             Each card carries one idea, reads in under two minutes, and makes sense without the rest. The site remains the place to read, and each card's URL sits under its title.
 
@@ -84,7 +84,7 @@ module BuildHere
     def carte(site, doc)
       meta = [doc.data["part"]]
       meta << doc.data["card_type"] if doc.data["card_type"]
-      meta << "#{site.config["url"]}#{doc.url}"
+      meta << "#{site.config["url"]}#{site.config["baseurl"]}#{doc.url}"
 
       "# #{doc.data["title"]}\n#{meta.join(" · ")}\n\n#{corps(doc)}\n"
     end

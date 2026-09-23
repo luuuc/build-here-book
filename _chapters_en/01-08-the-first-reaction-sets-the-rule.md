@@ -12,7 +12,7 @@ categories:
   - responsabilite
   - execution
 traductions:
-  fr: /chapters/01-08-leader-la-premiere-reaction-fait-la-regle.html
+  fr: /book/chapters/01-08-leader-la-premiere-reaction-fait-la-regle.html
 seo:
   description: "A clear boundary, and a reaction that examines the facts, help people take initiative inside an agreed remit."
   keywords: "build here, ownership, builder, conditions, first reaction, boundary"

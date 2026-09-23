@@ -15,7 +15,7 @@ categories:
   - ia
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/08-00-leverage.html
+  en: /book/en/chapters/08-00-leverage.html
 seo:
   description: "Compare réutilisation, amélioration et automatisation selon leur utilité, leurs coûts et leurs limites, sans imposer un outil ni une croissance du volume."
   keywords: "build here, levier, impact, ia, automatisation, builder"
@@ -43,8 +43,8 @@ Les cartes sur le leadership peuvent aider à partager ces capacités ; les cart
 
 ## Les cartes de cette étape
 
-- 8.01 [Range-les par cause, pas par sujet](/chapters/08-01-range-les-par-cause-pas-par-sujet.html)
-- 8.02 [L'IA est un levier, pas un raccourci](/chapters/08-02-lia-est-un-levier-pas-un-raccourci.html)
-- 8.03 [Le levier le moins cher est déjà payé](/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html)
-- 8.04 [Un levier mal placé multiplie l'erreur](/chapters/08-04-un-levier-mal-place-multiplie-lerreur.html)
-- 8.05 [⇄ Tu paies des heures, tu obtiens des heures](/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)
+- 8.01 [Range-les par cause, pas par sujet](/book/chapters/08-01-range-les-par-cause-pas-par-sujet.html)
+- 8.02 [L'IA est un levier, pas un raccourci](/book/chapters/08-02-lia-est-un-levier-pas-un-raccourci.html)
+- 8.03 [Le levier le moins cher est déjà payé](/book/chapters/08-03-le-levier-le-moins-cher-est-deja-paye.html)
+- 8.04 [Un levier mal placé multiplie l'erreur](/book/chapters/08-04-un-levier-mal-place-multiplie-lerreur.html)
+- 8.05 [⇄ Tu paies des heures, tu obtiens des heures](/book/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html)

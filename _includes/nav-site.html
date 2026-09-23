@@ -4,11 +4,11 @@
     <span class="nav-group-title">{{ item.title }}</span>
     <ul class="nav-submenu">
       {% for child in item.children %}
-      <li><a href="{{ child.url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a></li>
+      <li><a href="{{ child.url }}"{% assign ici = page.url | relative_url %}{% if ici == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a></li>
       {% endfor %}
     </ul>
   </li>
   {% else %}
-  <li><a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+  <li><a href="{{ item.url }}"{% assign ici = page.url | relative_url %}{% if ici == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
   {% endif %}
 {% endfor %}

@@ -14,7 +14,7 @@ categories:
   - culture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/03-08-you-cannot-ask-for-candor-and-keep-the-last-word.html
+  en: /book/en/chapters/03-08-you-cannot-ask-for-candor-and-keep-the-last-word.html
 seo:
   description: "Accueille et examine les objections tout en gardant une responsabilité de décision claire, sans quota de concessions."
   keywords: "build here, builder, leadership, objections, decision, suivi"

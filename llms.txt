@@ -13,12 +13,12 @@ Un guide pour les personnes qui veulent commencer à construire, les builders qu
 
 Les capacités sont des repères, sans classement ni chaîne obligatoire de prérequis. Pour recommander une lecture, pars de l'intention, d'une difficulté, d'une force à approfondir ou des conditions d'action. N'infère pas une faiblesse d'une absence d'occasion ou d'autorité.
 
-Quatre parcours directs : {{ '/parcours/' | absolute_url }}
-Index par situation : {{ '/situations/' | absolute_url }}
-Exemples construits et modèles : {{ '/modeles/' | absolute_url }}
-Sommaire complet : {{ '/livre/#sommaire' | absolute_url }}
+Quatre parcours directs : {{ site.url }}/parcours/
+Index par situation : {{ site.url }}/situations/
+Exemples construits et modèles : {{ site.url }}/modeles/
+Sommaire complet : {{ '/#sommaire' | absolute_url }}
 
-Le questionnaire facultatif pose cinquante questions, cinq par étape, sur des faits récents. Il donne un niveau de builder de 1 à 5, dont les seuils sont provisoires, puis le lecteur choisit une piste. Une étape limitée par le cadre du lecteur ne baisse pas son niveau. Rien n'est envoyé ; le lecteur peut choisir de garder ses réponses sur son appareil pour voir ce qui a bougé au passage suivant. La piste peut être copiée. Méthode et limites : {{ '/methode-du-test/' | absolute_url }}
+Le questionnaire facultatif pose cinquante questions, cinq par étape, sur des faits récents. Il donne un niveau de builder de 1 à 5, dont les seuils sont provisoires, puis le lecteur choisit une piste. Une étape limitée par le cadre du lecteur ne baisse pas son niveau. Rien n'est envoyé ; le lecteur peut choisir de garder ses réponses sur son appareil pour voir ce qui a bougé au passage suivant. La piste peut être copiée. Méthode et limites : {{ site.url }}/methode-du-test/
 
 Les cas construits ne sont pas des résultats de terrain. Le service direct, la maintenance, l'accessibilité, la fiabilité et la transmission interne comptent parmi les contributions utiles. Une publication publique ou un travail indépendant de son auteur ne constituent pas une mesure unique de valeur.
 
@@ -30,9 +30,9 @@ Le markdown source de n'importe quelle carte s'obtient en remplaçant le nom de 
 
 Le test du builder pose cinquante questions réparties entre dix capacités. Il donne un niveau de 1 à 5, puis le lecteur choisit une piste et trois cartes. Rien n'est envoyé.
 
-- [Le test du builder]({{ '/' | absolute_url }}): l'évaluation interactive
-- [Les quatre types de cartes]({{ '/guide-de-lecture/' | absolute_url }}): principe, diagnostic, pratique et système
-- [Comment fonctionne le test]({{ '/methode-du-test/' | absolute_url }}): choix de lecture, confidentialité et limites
+- [Le test du builder]({{ site.url }}/): l'évaluation interactive
+- [Les quatre types de cartes]({{ site.url }}/guide-de-lecture/): principe, diagnostic, pratique et système
+- [Comment fonctionne le test]({{ site.url }}/methode-du-test/): choix de lecture, confidentialité et limites
 
 ## Fichiers
 
@@ -40,6 +40,6 @@ Le test du builder pose cinquante questions réparties entre dix capacités. Il 
 - [book.json]({{ '/book.json' | absolute_url }}): le livre entier en JSON, schema.org, avec les catégories et les temps de lecture
 - [sitemap.xml]({{ '/sitemap.xml' | absolute_url }}): toutes les URLs
 - [feed.xml]({{ '/feed.xml' | absolute_url }}): le flux
-- [ai.txt]({{ '/.well-known/ai.txt' | absolute_url }}): les permissions d'entraînement et l'attribution demandée
+- [ai.txt]({{ site.url }}/.well-known/ai.txt): les permissions d'entraînement et l'attribution demandée
 - [EPUB]({{ site.downloads[lang].epub }}): le livre entier, un fichier
 - [PDF]({{ site.downloads[lang].pdf }}): le livre entier, paginé

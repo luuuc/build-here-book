@@ -14,7 +14,7 @@ categories:
   - equipe
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/06-03-a-responsibility-shared-by-six-people-does-not-exist.html
+  en: /book/en/chapters/06-03-a-responsibility-shared-by-six-people-does-not-exist.html
 seo:
   description: "Organise une responsabilité partagée avec des contributions, une coordination, des moyens et des décisions explicites."
   keywords: "build here, builder, ownership, coordination, decision, responsabilite"

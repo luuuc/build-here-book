@@ -13,7 +13,7 @@ categories:
   - leadership
   - conditions
 traductions:
-  fr: /chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html
+  fr: /book/chapters/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html
 seo:
   description: "Credit prevention, passing on and direct service from effects with their context, with no removal quota and no promise of a free gain."
   keywords: "build here, builder, leverage, prevention, service, recognition"

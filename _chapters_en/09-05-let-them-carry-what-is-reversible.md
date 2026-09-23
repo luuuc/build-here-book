@@ -13,7 +13,7 @@ categories:
   - equipe
   - ownership
 traductions:
-  fr: /chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html
+  fr: /book/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html
 seo:
   description: "Grant real decisions with limits, support and a mandate, examining the consequences beyond reversibility alone."
   keywords: "build here, builder, leadership, delegation, decision, limits"

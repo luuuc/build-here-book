@@ -12,7 +12,7 @@
   const bloc = document.getElementById("discussion");
   if (!bloc) return;
 
-  const API = "https://api.build-here.africa";
+  const API = bloc.dataset.api;
   const page = bloc.dataset.page;
 
   const fil = bloc.querySelector(".discussion-fil");
@@ -21,7 +21,7 @@
   const etat = bloc.querySelector(".discussion-etat");
   const champPassage = bloc.querySelector(".discussion-passage");
   const champParent = form.querySelector('[name="parent_id"]');
-  const champTexte = form.querySelector('[name="texte"]');
+  const champTexte = form.querySelector('[name="text"]');
 
   const echappe = (s) => String(s ?? "").replace(/[<&]/g, (c) => (c === "<" ? "&lt;" : "&amp;"));
 
@@ -32,7 +32,7 @@
   // ecrites avant.
   const lien = (u) => (/^https?:\/\//i.test(u || "") ? encodeURI(u) : null);
   const quand = (t) =>
-    new Date(t * 1000).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
+    new Date(t).toLocaleDateString("fr-FR", { day: "numeric", month: "long", year: "numeric" });
 
   function client() {
     try {
@@ -59,22 +59,22 @@
       .map((c) => {
         const siennes = reponses.filter((r) => r.parent_id === c.id);
         return (
-          '<article class="avis' + (c.auteur_du_livre ? " avis--auteur" : "") + '">' +
+          '<article class="avis' + (c.by_book_author ? " avis--auteur" : "") + '">' +
           (c.passage ? '<blockquote class="avis-passage">' + echappe(c.passage) + "</blockquote>" : "") +
           '<p class="avis-qui">' +
-          (lien(c.lien)
-            ? '<a href="' + lien(c.lien) + '" rel="noopener nofollow" target="_blank">' + echappe(c.auteur) + "</a>"
-            : echappe(c.auteur)) +
-          '<small>' + quand(c.cree_le) + "</small></p>" +
-          '<div class="avis-texte">' + paragraphes(c.texte) + "</div>" +
+          (lien(c.link)
+            ? '<a href="' + lien(c.link) + '" rel="noopener nofollow" target="_blank">' + echappe(c.author) + "</a>"
+            : echappe(c.author)) +
+          '<small>' + quand(c.created_at) + "</small></p>" +
+          '<div class="avis-texte">' + paragraphes(c.text) + "</div>" +
           '<button type="button" class="avis-repondre" data-parent="' + c.id + '">' +
           (bloc.dataset.repondre || "Répondre") + "</button>" +
           siennes
             .map(
               (r) =>
-                '<article class="avis avis--reponse' + (r.auteur_du_livre ? " avis--auteur" : "") + '">' +
-                '<p class="avis-qui">' + echappe(r.auteur) + "<small>" + quand(r.cree_le) + "</small></p>" +
-                '<div class="avis-texte">' + paragraphes(r.texte) + "</div></article>"
+                '<article class="avis avis--reponse' + (r.by_book_author ? " avis--auteur" : "") + '">' +
+                '<p class="avis-qui">' + echappe(r.author) + "<small>" + quand(r.created_at) + "</small></p>" +
+                '<div class="avis-texte">' + paragraphes(r.text) + "</div></article>"
             )
             .join("") +
           "</article>"
@@ -91,9 +91,9 @@
 
   async function charger() {
     try {
-      const r = await fetch(`${API}/commentaires?page=${encodeURIComponent(page)}`);
+      const r = await fetch(`${API}/comments?page=${encodeURIComponent(page)}`);
       const d = await r.json();
-      const html = rendre(d.commentaires || []);
+      const html = rendre(d.comments || []);
       if (html) {
         fil.innerHTML = html;
         fil.hidden = false;
@@ -116,7 +116,7 @@
     const champs = racine.querySelector(".contact-champs");
     if (!champs) return null;
 
-    const select = champs.querySelector('[name="indicatif"]');
+    const select = champs.querySelector('[name="dial_code"]');
 
     // La liste est servie une fois pour tout le site plutot que rendue dans
     // chaque page : 181 options sur 81 cartes pesaient onze kilo-octets par
@@ -129,7 +129,7 @@
         remplie ||
         // Les noms de pays suivent la langue de la page. Le francais garde
         // l'adresse racine, deja partagee.
-        fetch(document.documentElement.lang === "fr" ? "/indicatifs.json" : "/" + document.documentElement.lang + "/indicatifs.json")
+        fetch(document.documentElement.lang === "fr" ? "/book/indicatifs.json" : "/book/" + document.documentElement.lang + "/indicatifs.json")
           .then((r) => r.json())
           .then((liste) => {
             select.innerHTML = liste
@@ -137,10 +137,10 @@
               .join("");
           })
           .catch(() => {}));
-    const radios = racine.querySelectorAll('[name="canal"]');
+    const radios = racine.querySelectorAll('[name="channel"]');
 
     const afficher = () => {
-      const w = racine.querySelector('[name="canal"]:checked')?.value === "whatsapp";
+      const w = racine.querySelector('[name="channel"]:checked')?.value === "whatsapp";
       champs.dataset.canal = w ? "whatsapp" : "mail";
     };
 
@@ -174,11 +174,11 @@
     }
 
     if (!jeton) {
-      fetch(`${API}/jeton`)
+      fetch(`${API}/token`)
         .then((r) => r.json())
         .then((d) => {
-          jeton = d.jeton;
-          if (poserPays) poserPays(d.pays);
+          jeton = d.token;
+          if (poserPays) poserPays(d.country);
         })
         .catch(() => {});
     }
@@ -211,13 +211,13 @@
 
     const corps = Object.fromEntries(new FormData(form).entries());
     corps.page = page;
-    corps.titre = bloc.dataset.titre;
+    corps.title = bloc.dataset.titre;
     corps.client = client();
-    corps.jeton = jeton;
+    corps.token = jeton;
     if (!champPassage.hidden) corps.passage = champPassage.textContent.replace(/^«\s*|\s*»$/g, "");
 
     try {
-      const r = await fetch(`${API}/commentaire`, {
+      const r = await fetch(`${API}/comments`, {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(corps),
@@ -225,7 +225,7 @@
       const d = await r.json();
 
       if (!r.ok) {
-        etat.textContent = d.erreur || "Quelque chose n'a pas marché.";
+        etat.textContent = d.error || "Quelque chose n'a pas marché.";
         bouton.disabled = false;
         return;
       }

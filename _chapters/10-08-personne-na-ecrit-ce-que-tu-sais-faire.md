@@ -13,7 +13,7 @@ categories:
   - contexte
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-08-nobody-has-written-down-what-you-know-how-to-do.html
+  en: /book/en/chapters/10-08-nobody-has-written-down-what-you-know-how-to-do.html
 seo:
   description: "Rends une expérience située utile en la reliant aux ressources existantes, sans présumer son unicité ni imposer une publication."
   keywords: "build here, builder, reference, contexte, experience, partage"

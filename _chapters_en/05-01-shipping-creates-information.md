@@ -13,7 +13,7 @@ categories:
   - livraison
   - produit
 traductions:
-  fr: /chapters/05-01-shipper-cree-de-linformation.html
+  fr: /book/chapters/05-01-shipper-cree-de-linformation.html
 seo:
   description: "Prepare a bounded attempt, watch its effect, and use the feedback to decide; shipping often does not guarantee learning."
   keywords: "build here, execution, builder, shipping, information"

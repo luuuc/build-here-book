@@ -12,7 +12,7 @@ categories:
   - responsabilite
   - execution
 traductions:
-  fr: /chapters/03-01-napporte-pas-la-tache-apporte-le-probleme.html
+  fr: /book/chapters/03-01-napporte-pas-la-tache-apporte-le-probleme.html
 seo:
   description: "Report what doing the work taught you, and get a ruling on a discovery that changes the remit before you carry on."
   keywords: "build here, ownership, builder, task, problem"

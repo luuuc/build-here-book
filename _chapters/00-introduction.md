@@ -12,7 +12,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/00-introduction.html
+  en: /book/en/chapters/00-introduction.html
 seo:
   description: "Comprendre un problème, construire quelque chose d'utile et apprendre de ses effets. Dix capacités à explorer à partir de là où tu es."
   keywords: "build here, introduction, builder, apprentissage, transmission"
@@ -56,4 +56,4 @@ Chaque carte porte une idée. Les cartes marquées ⇄ portent sur les condition
 
 Choisis un geste assez petit pour le temps que tu as. Conviens du périmètre avec les personnes concernées. Prévois un fait à observer et un moment pour revenir le regarder.
 
-Le reste, parcours, ateliers et modèles, est sur le [site du livre](/livre/). Commence par regarder ce qui se passe autour de toi.
+Le reste, parcours, ateliers et modèles, est sur le [site du livre](/book/). Commence par regarder ce qui se passe autour de toi.

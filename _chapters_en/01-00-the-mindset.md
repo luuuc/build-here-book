@@ -14,7 +14,7 @@ categories:
   - agency
   - builders
 traductions:
-  fr: /chapters/01-00-letat-desprit.html
+  fr: /book/chapters/01-00-letat-desprit.html
 seo:
   description: "I look for what I can improve"
   keywords: "build here, mindset, builder, agency"
@@ -38,13 +38,13 @@ You can see progress when a question brings information that was missing, when f
 
 ## The cards in this capability
 
-- 1.01 [Curiosity is billable](/en/chapters/01-01-curiosity-is-billable.html)
-- 1.02 [Ask the naive question straight away](/en/chapters/01-02-ask-the-naive-question-straight-away.html)
-- 1.03 [Ownership starts where the job description stops](/en/chapters/01-03-ownership-starts-where-the-job-description-stops.html)
-- 1.04 [Being wrong is free. Staying wrong is expensive](/en/chapters/01-04-being-wrong-is-free-staying-wrong-is-expensive.html)
-- 1.05 [\"I don't know\" is a professional answer](/en/chapters/01-05-i-dont-know-is-a-professional-answer.html)
-- 1.06 [Your code is not your baby](/en/chapters/01-06-your-code-is-not-your-baby.html)
-- 1.07 [Respect the elder. Challenge the idea](/en/chapters/01-07-respect-the-elder-challenge-the-idea.html)
-- 1.08 [⇄ The first reaction sets the rule](/en/chapters/01-08-the-first-reaction-sets-the-rule.html)
-- 1.09 [⇄ Nobody asks twice](/en/chapters/01-09-nobody-asks-twice.html)
-- 1.10 [⇄ If being wrong costs status, nobody will be wrong out loud](/en/chapters/01-10-if-being-wrong-costs-status-nobody-will-be-wrong-out-loud.html)
+- 1.01 [Curiosity is billable](/book/en/chapters/01-01-curiosity-is-billable.html)
+- 1.02 [Ask the naive question straight away](/book/en/chapters/01-02-ask-the-naive-question-straight-away.html)
+- 1.03 [Ownership starts where the job description stops](/book/en/chapters/01-03-ownership-starts-where-the-job-description-stops.html)
+- 1.04 [Being wrong is free. Staying wrong is expensive](/book/en/chapters/01-04-being-wrong-is-free-staying-wrong-is-expensive.html)
+- 1.05 [\"I don't know\" is a professional answer](/book/en/chapters/01-05-i-dont-know-is-a-professional-answer.html)
+- 1.06 [Your code is not your baby](/book/en/chapters/01-06-your-code-is-not-your-baby.html)
+- 1.07 [Respect the elder. Challenge the idea](/book/en/chapters/01-07-respect-the-elder-challenge-the-idea.html)
+- 1.08 [⇄ The first reaction sets the rule](/book/en/chapters/01-08-the-first-reaction-sets-the-rule.html)
+- 1.09 [⇄ Nobody asks twice](/book/en/chapters/01-09-nobody-asks-twice.html)
+- 1.10 [⇄ If being wrong costs status, nobody will be wrong out loud](/book/en/chapters/01-10-if-being-wrong-costs-status-nobody-will-be-wrong-out-loud.html)

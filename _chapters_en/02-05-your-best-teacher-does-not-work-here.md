@@ -12,7 +12,7 @@ categories:
   - open-source
   - niveau
 traductions:
-  fr: /chapters/02-05-ton-meilleur-professeur-ne-travaille-pas-ici.html
+  fr: /book/chapters/02-05-ton-meilleur-professeur-ne-travaille-pas-ici.html
 seo:
   description: "An outside example can widen your choices. Compare the problem, the constraints and the effects before taking a solution over."
   keywords: "build here, learning, builder, references, outside examples"

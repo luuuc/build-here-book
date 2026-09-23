@@ -14,7 +14,7 @@ categories:
   - process
   - builders
 traductions:
-  fr: /chapters/07-00-les-systemes.html
+  fr: /book/chapters/07-00-les-systemes.html
 seo:
   description: "Examine the repetitions, keep the protections, and prepare handovers that fit, with proportionate effort on passing on and upkeep."
   keywords: "build here, systems, process, automation, builder"
@@ -42,9 +42,9 @@ The leverage cards complete this reading if a solution deserves reusing or exten
 
 ## The cards in this capability
 
-- 7.01 [The second time is information](/en/chapters/07-01-the-second-time-is-information.html)
-- 7.02 [Delete the step before you document it](/en/chapters/07-02-delete-the-step-before-you-document-it.html)
-- 7.03 [Knowledge that fits in one head is an outage waiting](/en/chapters/07-03-knowledge-that-fits-in-one-head-is-an-outage-waiting.html)
-- 7.04 [Not everything deserves to become a process](/en/chapters/07-04-not-everything-deserves-to-become-a-process.html)
-- 7.05 [The shortcut everyone takes is the real process](/en/chapters/07-05-the-shortcut-everyone-takes-is-the-real-process.html)
-- 7.06 [Write down what broke](/en/chapters/07-06-write-down-what-broke.html)
+- 7.01 [The second time is information](/book/en/chapters/07-01-the-second-time-is-information.html)
+- 7.02 [Delete the step before you document it](/book/en/chapters/07-02-delete-the-step-before-you-document-it.html)
+- 7.03 [Knowledge that fits in one head is an outage waiting](/book/en/chapters/07-03-knowledge-that-fits-in-one-head-is-an-outage-waiting.html)
+- 7.04 [Not everything deserves to become a process](/book/en/chapters/07-04-not-everything-deserves-to-become-a-process.html)
+- 7.05 [The shortcut everyone takes is the real process](/book/en/chapters/07-05-the-shortcut-everyone-takes-is-the-real-process.html)
+- 7.06 [Write down what broke](/book/en/chapters/07-06-write-down-what-broke.html)

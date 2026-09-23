@@ -14,7 +14,7 @@ categories:
   - apprentissage
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/07-06-write-down-what-broke.html
+  en: /book/en/chapters/07-06-write-down-what-broke.html
 seo:
   description: "Conserve les faits, les hypothèses et la suite d'un incident dans une trace adaptée, sans imposer une publication publique ou hors temps de travail."
   keywords: "build here, trace, postmortem, builder, incident"
@@ -38,7 +38,7 @@ Un dossier s'est arrêté entre deux équipes parce que chacune attendait une co
 
 Les lecteurs peuvent être un relais, l'équipe, ou toi plus tard. Un document interne entretenu est une transmission valable. Une publication publique peut élargir la portée si elle est utile et autorisée, mais retirer un nom ou modifier un chiffre ne suffit pas à rendre une séquence partageable. Vérifie le contenu avec les responsables concernés ; garde une version restreinte si nécessaire.
 
-L'écriture demande du temps, parfois après un épisode éprouvant. Convenez d'un effort raisonnable et évitez l'injonction à publier le soir même. Une personne qui débute peut aider à reconstruire un cas avec un pair. Si tu développes une équipe, protège la possibilité de signaler et d'examiner une difficulté : voir [⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute](/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html).
+L'écriture demande du temps, parfois après un épisode éprouvant. Convenez d'un effort raisonnable et évitez l'injonction à publier le soir même. Une personne qui débute peut aider à reconstruire un cas avec un pair. Si tu développes une équipe, protège la possibilité de signaler et d'examiner une difficulté : voir [⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute](/book/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html).
 
 ## À essayer
 
