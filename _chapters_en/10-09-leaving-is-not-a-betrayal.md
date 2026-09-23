@@ -2,20 +2,22 @@
 layout: chapter
 title: "Leaving is not a betrayal"
 part: "Being the reference"
-order: 1008
+order: 1009
 card_type: principe
 metadata:
-  principle: "10.08"
+  principle: "10.09"
   reading_time_in_minutes: 2
 categories:
   - reference
   - carriere
   - trace
 traductions:
-  fr: /chapters/10-08-partir-nest-pas-une-trahison.html
+  fr: /chapters/10-09-partir-nest-pas-une-trahison.html
 seo:
   description: "Prepare a realistic handover when leaving, without making a career choice conditional on publishing or asking for open-ended availability."
   keywords: "build here, reference, career, record, leaving, builder"
+redirect_from:
+  - /en/chapters/10-08-leaving-is-not-a-betrayal.html
 ---
 
 ## The reflex

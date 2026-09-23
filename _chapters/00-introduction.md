@@ -52,7 +52,7 @@ Cet ordre propose un trajet de lecture. Ces capacités se développent ensemble 
 
 ## Lire une carte, essayer un geste
 
-Chaque carte porte une idée. Les cartes marquées ⇄ portent sur les conditions du travail : temps, accès, décisions, appuis, reconnaissance. Elles s'adressent à ceux qui peuvent les changer.
+Chaque carte porte une idée. Les cartes marquées ⇄ portent sur les conditions du travail : temps, accès, décisions, appuis, reconnaissance. Si tu peux les changer, elles s'adressent à toi.
 
 Choisis un geste assez petit pour le temps que tu as. Conviens du périmètre avec les personnes concernées. Prévois un fait à observer et un moment pour revenir le regarder.
 

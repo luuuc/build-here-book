@@ -2,20 +2,22 @@
 layout: chapter
 title: "A trace is not necessarily code"
 part: "Being the reference"
-order: 1003
+order: 1004
 card_type: principe
 metadata:
-  principle: "10.03"
+  principle: "10.04"
   reading_time_in_minutes: 2
 categories:
   - trace
   - support
   - produit
 traductions:
-  fr: /chapters/10-03-une-trace-nest-pas-forcement-du-code.html
+  fr: /chapters/10-04-une-trace-nest-pas-forcement-du-code.html
 seo:
   description: "Choose a form that suits the craft and the recipient: examples, diagrams and qualitative observations count too, internally as well as publicly."
   keywords: "build here, record, support, product, builder, code"
+redirect_from:
+  - /en/chapters/10-03-a-trace-is-not-necessarily-code.html
 ---
 
 ## The reflex

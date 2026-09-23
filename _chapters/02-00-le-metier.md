@@ -34,7 +34,7 @@ Avec de l'expérience, tu disposes de repères qui valent la peine d'être conse
 
 Les cartes proposent plusieurs moyens de progresser : lire une source, regarder un raisonnement, comparer deux approches, chercher une cause ou écouter un autre métier. Certaines concernent directement le logiciel. D'autres se transposent à une procédure, un document ou un service. Choisis celle dont tu peux réellement faire l'essai.
 
-Le temps, l'accès aux ressources et la possibilité de recevoir un retour comptent. Les cartes ⇄ aident les personnes qui organisent le travail à prévoir ces conditions, plutôt que de faire dépendre la progression des soirées disponibles.
+Le temps, l'accès aux ressources et la possibilité de recevoir un retour comptent. Si tu organises le travail, les cartes ⇄ t'aident à prévoir ces conditions, plutôt que de faire dépendre la progression des soirées disponibles.
 
 Un signe de progression peut être une décision mieux expliquée, une erreur que tu sais maintenant repérer ou un geste que tu réalises avec moins d'aide. Compare des situations assez proches pour comprendre ce qui a changé.
 

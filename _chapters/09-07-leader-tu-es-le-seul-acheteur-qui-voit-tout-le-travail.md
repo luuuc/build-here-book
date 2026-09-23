@@ -37,7 +37,7 @@ Aucun responsable ne voit tout le travail. Une présentation peut être bien pr�
 
 Une équipe remarque qu'une procédure de rapprochement produit moins de reprises. Plusieurs personnes ont contribué à la correction, à sa vérification et à son entretien. Examiner ces rôles permet de reconnaître le travail sans attribuer le résultat à la seule personne qui l'a présenté ni à un héros unique.
 
-Les décisions de rémunération et d'évolution dépendent de critères, de responsabilités, de cohérence entre situations et de moyens disponibles. Une référence externe peut informer la discussion sans décrire toute la contribution. Une seule décision ou félicitation ne remplace pas un cadre explicite et appliqué dans la durée. Les personnes habilitées doivent porter les changements qui relèvent de leur mandat.
+Les décisions de rémunération et d'évolution dépendent de critères, de responsabilités, de cohérence entre situations et de moyens disponibles. Une référence externe peut informer la discussion sans décrire toute la contribution. Une seule décision ou félicitation ne remplace pas un cadre explicite et appliqué dans la durée. Ce qui relève de ton mandat, porte-le.
 
 Une reconnaissance ne remplace pas un arbitrage sur le salaire ou la charge. Si tu ne peux pas décider, tu peux aider à documenter une contribution et à la transmettre au bon responsable, avec accord. Respecte les informations privées : ni les montants ni les motifs individuels ne doivent devenir automatiquement un sujet de discussion publique. Les critères généraux peuvent être expliqués sans exposer les dossiers des personnes.
 

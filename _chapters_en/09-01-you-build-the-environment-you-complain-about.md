@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Leaders manufacture the environment they complain about"
+title: "You build the environment you complain about"
 part: "Leadership"
 order: 901
 card_type: diagnostic
@@ -12,11 +12,12 @@ categories:
   - decision
   - management
 traductions:
-  fr: /chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html
+  fr: /chapters/09-01-tu-construis-lenvironnement-dont-tu-te-plains.html
 seo:
   description: "A team runs on observed consequences, not stated values. Look at what happened to the last three proposals."
   keywords: "build here, builder, leadership, initiative, conditions, support"
 redirect_from:
+  - /en/chapters/09-01-leaders-manufacture-the-environment-they-complain-about.html
   - /en/chapters/09-01-look-at-the-conditions-for-initiative.html
 ---
 
@@ -30,7 +31,7 @@ You want more initiative around you. Proposals don't arrive, or they arrive and 
 
 ## What is going on
 
-A team doesn't run on stated values. It runs on observed consequences. People are excellent statisticians of their leadership's behaviour. Nobody remembers the slide. Everybody remembers what happened to the person who tried.
+A team doesn't run on stated values. It runs on observed consequences. People are excellent statisticians of how you react. Nobody remembers the slide. Everybody remembers what happened to the person who tried.
 
 Which is why passivity reads wrong from the outside. You see a team with no initiative. The team remembers an edit that got reverted without explanation three months ago.
 

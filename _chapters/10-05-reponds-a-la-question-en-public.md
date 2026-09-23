@@ -2,10 +2,10 @@
 layout: chapter
 title: "Réponds à la question en public"
 part: "La référence"
-order: 1004
+order: 1005
 card_type: pratique
 metadata:
-  principle: "10.04"
+  principle: "10.05"
   reading_time_in_minutes: 2
 categories:
   - trace
@@ -13,11 +13,12 @@ categories:
   - transmission
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-04-answer-the-question-in-public.html
+  en: /en/chapters/10-05-answer-the-question-in-public.html
 seo:
   description: "Prépare une réponse réutilisable dans un espace adapté, en reconnaissant le coût d'adaptation et la valeur des échanges privés."
   keywords: "build here, builder, reference, reponse, acces, transmission"
 redirect_from:
+  - /chapters/10-04-reponds-a-la-question-en-public.html
   - /chapters/14-04-reponds-a-la-question-en-public.html
 ---
 

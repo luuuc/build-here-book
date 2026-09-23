@@ -105,7 +105,7 @@ Pour un premier essai sans emploi ni équipe, pour approfondir une pratique, dé
 - Je veux apprendre d'un projet ouvert, avec un premier pas à ma portée  →  [L'open source est une salle de classe](/chapters/02-07-lopen-source-est-une-salle-de-classe.html)
 - Nous voulons prévoir l'apprentissage dans le temps disponible  →  [⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser](/chapters/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html)
 - Une décision prudente a mal tourné ; nous voulons comprendre pourquoi  →  [Une bonne décision peut quand même perdre](/chapters/06-05-une-bonne-decision-peut-quand-meme-perdre.html)
-- Je veux examiner les conditions qui permettraient davantage d'initiative  →  [Les dirigeants fabriquent l'environnement dont ils se plaignent](/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
+- Je veux examiner les conditions qui permettraient davantage d'initiative  →  [Tu construis l'environnement dont tu te plains](/chapters/09-01-tu-construis-lenvironnement-dont-tu-te-plains.html)
 - Nous voulons ouvrir le recrutement à d'autres preuves de capacité  →  [Le filtre que tu fais tourner](/chapters/09-02-le-filtre-que-tu-fais-tourner.html)
 - Je veux approfondir une compétence que j'utilise déjà  →  [Douze ans d'expérience, ou douze fois la même année](/chapters/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html)
 - Je cherche des sources pour mieux comprendre mon métier  →  [Ton métier a une littérature](/chapters/02-04-ton-metier-a-une-litterature.html)
@@ -136,18 +136,19 @@ Pour un premier essai sans emploi ni équipe, pour approfondir une pratique, dé
 ## Transmettre, reconnaître et préparer la suite
 
 - Nous voulons rendre les contributions identifiables et soutenir leur transmission  →  [Mets ton nom dessus](/chapters/10-01-mets-ton-nom-dessus.html) · [⇄ Tu es la référence qui manque, et tu n'as rien laissé](/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html)
+- On me demande d'écrire sur mon travail plus souvent que je ne construis  →  [Écris après avoir construit, pas à la place](/chapters/10-02-ecris-apres-avoir-construit-pas-a-la-place.html)
 - Un incident peut nous apprendre quelque chose à conserver  →  [Écris ce qui a cassé](/chapters/07-06-ecris-ce-qui-a-casse.html)
-- Je veux rendre une réponse utile retrouvable sans supprimer l'aide directe  →  [Réponds à la question en public](/chapters/10-04-reponds-a-la-question-en-public.html)
-- Je cherche une forme de transmission adaptée à mon métier  →  [Une trace n'est pas forcément du code](/chapters/10-03-une-trace-nest-pas-forcement-du-code.html)
-- Une ressource utile reste difficile à trouver  →  [Publie là où on cherche](/chapters/10-05-publie-la-ou-on-cherche.html)
-- Nous voulons vérifier si une ressource aide ses destinataires  →  [Publie là où on cherche](/chapters/10-05-publie-la-ou-on-cherche.html)
-- Je veux examiner ce qui peut être partagé, avec quel coût et quels accords  →  [Ce que publier coûte vraiment](/chapters/10-06-ce-que-publier-coute-vraiment.html)
-- Nous voulons convenir d'une visibilité et d'une attribution choisies  →  [⇄ Tu gardes ton équipe invisible parce que visible, elle part](/chapters/10-10-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html)
-- Je veux partager un apprentissage situé, avec ses limites  →  [Personne n'a écrit ce que tu sais faire](/chapters/10-07-personne-na-ecrit-ce-que-tu-sais-faire.html)
-- Je veux donner au lecteur de quoi examiner mon raisonnement  →  [Un avis n'est pas un artefact](/chapters/10-02-un-avis-nest-pas-un-artefact.html)
-- Nous voulons clarifier les conditions d'un partage interne ou public  →  [⇄ L'absence de règle est une interdiction](/chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html)
+- Je veux rendre une réponse utile retrouvable sans supprimer l'aide directe  →  [Réponds à la question en public](/chapters/10-05-reponds-a-la-question-en-public.html)
+- Je cherche une forme de transmission adaptée à mon métier  →  [Une trace n'est pas forcément du code](/chapters/10-04-une-trace-nest-pas-forcement-du-code.html)
+- Une ressource utile reste difficile à trouver  →  [Publie là où on cherche](/chapters/10-06-publie-la-ou-on-cherche.html)
+- Nous voulons vérifier si une ressource aide ses destinataires  →  [Publie là où on cherche](/chapters/10-06-publie-la-ou-on-cherche.html)
+- Je veux examiner ce qui peut être partagé, avec quel coût et quels accords  →  [Ce que publier coûte vraiment](/chapters/10-07-ce-que-publier-coute-vraiment.html)
+- Nous voulons convenir d'une visibilité et d'une attribution choisies  →  [⇄ Ton équipe travaille sous ton nom](/chapters/10-11-leader-ton-equipe-travaille-sous-ton-nom.html)
+- Je veux partager un apprentissage situé, avec ses limites  →  [Personne n'a écrit ce que tu sais faire](/chapters/10-08-personne-na-ecrit-ce-que-tu-sais-faire.html)
+- Je veux donner au lecteur de quoi examiner mon raisonnement  →  [Un avis n'est pas un artefact](/chapters/10-03-un-avis-nest-pas-un-artefact.html)
+- Nous voulons clarifier les conditions d'un partage interne ou public  →  [⇄ L'absence de règle est une interdiction](/chapters/10-10-leader-labsence-de-regle-est-une-interdiction.html)
 - Nous voulons relier la reconnaissance aux contributions réelles  →  [⇄ Tu es le seul acheteur qui voit tout le travail](/chapters/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html)
-- Un départ demande une passation limitée et acceptée  →  [Partir n'est pas une trahison](/chapters/10-08-partir-nest-pas-une-trahison.html)
+- Un départ demande une passation limitée et acceptée  →  [Partir n'est pas une trahison](/chapters/10-09-partir-nest-pas-une-trahison.html)
 
 ---
 

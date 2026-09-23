@@ -2,21 +2,22 @@
 layout: chapter
 title: "Answer the question in public"
 part: "Being the reference"
-order: 1004
+order: 1005
 card_type: pratique
 metadata:
-  principle: "10.04"
+  principle: "10.05"
   reading_time_in_minutes: 2
 categories:
   - trace
   - visibilite
   - transmission
 traductions:
-  fr: /chapters/10-04-reponds-a-la-question-en-public.html
+  fr: /chapters/10-05-reponds-a-la-question-en-public.html
 seo:
   description: "Prepare a reusable answer in a suitable place, recognising the cost of adapting it and the value of private exchanges."
   keywords: "build here, builder, reference, answer, access, passing on"
 redirect_from:
+  - /en/chapters/10-04-answer-the-question-in-public.html
   - /en/chapters/10-04-make-a-useful-answer-findable.html
 ---
 

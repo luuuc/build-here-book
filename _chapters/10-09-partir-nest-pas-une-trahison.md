@@ -2,10 +2,10 @@
 layout: chapter
 title: "Partir n'est pas une trahison"
 part: "La référence"
-order: 1008
+order: 1009
 card_type: principe
 metadata:
-  principle: "10.08"
+  principle: "10.09"
   reading_time_in_minutes: 2
 categories:
   - reference
@@ -13,11 +13,12 @@ categories:
   - trace
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-08-leaving-is-not-a-betrayal.html
+  en: /en/chapters/10-09-leaving-is-not-a-betrayal.html
 seo:
   description: "Prépare un relais réaliste lors d'un départ sans conditionner le choix de carrière à une publication ni demander une disponibilité indéfinie."
   keywords: "build here, reference, carriere, trace, depart, builder"
 redirect_from:
+  - /chapters/10-08-partir-nest-pas-une-trahison.html
   - /chapters/10-11-partir-nest-pas-une-trahison.html
   - /chapters/10-12-partir-nest-pas-une-trahison.html
   - /chapters/15-04-partir-nest-pas-une-trahison.html

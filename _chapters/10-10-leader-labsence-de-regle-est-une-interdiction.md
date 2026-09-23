@@ -2,11 +2,11 @@
 layout: chapter
 title: "⇄ L'absence de règle est une interdiction"
 part: "La référence"
-order: 1009
+order: 1010
 card_type: systeme
 action_scope: "Portée : responsables du cadre de partage et des moyens"
 metadata:
-  principle: "10.09"
+  principle: "10.10"
   reading_time_in_minutes: 2
 categories:
   - trace
@@ -14,11 +14,12 @@ categories:
   - visibilite
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-09-the-absence-of-a-rule-is-a-ban.html
+  en: /en/chapters/10-10-the-absence-of-a-rule-is-a-ban.html
 seo:
   description: "Rends le cadre et le parcours de partage compréhensibles, avec des interlocuteurs, des moyens et des options internes ou sans publication."
   keywords: "build here, builder, reference, cadre, partage, moyens"
 redirect_from:
+  - /chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html
   - /chapters/09-03-leader-labsence-de-regle-est-une-interdiction.html
   - /chapters/14-06-leader-labsence-de-regle-est-une-interdiction.html
 ---
@@ -39,15 +40,15 @@ Les conditions peuvent dépendre du sujet, des personnes concernées et du desti
 
 Une équipe veut expliquer une amélioration du service. Elle distingue un exemple fictif, des observations internes et des éléments liés à un client. Elle prépare une version dont le périmètre peut être examiné, puis adapte le partage aux accords obtenus. Un refus ou une question doit recevoir une explication et, si possible, une option utile dans un cadre différent.
 
-La possibilité de partager comprend aussi des moyens : rédaction, relecture, accessibilité et entretien. Une personne peut préférer contribuer oralement ou rester dans un espace interne. Les responsables peuvent montrer comment le cadre fonctionne sans être obligés de publier leur propre incident en premier. Le succès se mesure à une décision de partage compréhensible et applicable, pas au nombre de signatures publiques.
+La possibilité de partager comprend aussi des moyens : rédaction, relecture, accessibilité et entretien. Une personne peut préférer contribuer oralement ou rester dans un espace interne. Tu peux montrer comment le cadre fonctionne sans publier ton propre incident en premier. Le succès se mesure à une décision de partage compréhensible et applicable, pas au nombre de signatures publiques.
 
 ## La décision
 
-Avec les responsables concernés, décrivez les contenus déjà partageables, ceux qui demandent une vérification et ceux qui doivent rester dans un périmètre défini. Indiquez à qui adresser une question et comment obtenir une suite.
+Avec les responsables concernés, décris les contenus déjà partageables, ceux qui demandent une vérification et ceux qui doivent rester dans un périmètre défini. Indique à qui adresser une question et comment obtenir une suite.
 
-Essayez ce cadre sur un cas concret avec une personne volontaire. Préparez une version à examiner, précisez le temps disponible et convenez des mentions de contribution. Tant qu'un accord nécessaire manque, ne supposez pas qu'un délai écoulé vaut autorisation.
+Essaie ce cadre sur un cas concret avec une personne volontaire. Prépare une version à examiner, précise le temps disponible et fixe avec elle les mentions de contribution. Tant qu'un accord nécessaire manque, ne suppose pas qu'un délai écoulé vaut autorisation.
 
-Après ce cas, examinez les ambiguïtés et la charge du parcours. Ajustez les consignes sans supprimer les protections nécessaires. Une version interne ou la décision de ne pas publier doit rester recevable.
+Après ce cas, examine les ambiguïtés et la charge du parcours. Ajuste les consignes sans supprimer les protections nécessaires. Une version interne ou la décision de ne pas publier doit rester recevable.
 
 ## Depuis ton siège
 

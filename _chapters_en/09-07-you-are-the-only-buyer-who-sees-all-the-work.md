@@ -35,7 +35,7 @@ No manager sees all the work. A presentation can be well prepared and useful; qu
 
 A team notices that a reconciliation procedure produces less rework. Several people contributed to the fix, to checking it, and to maintaining it. Examining those roles lets you recognise the work without attributing the result to whoever presented it, or to a single hero.
 
-Decisions about pay and progression depend on criteria, on responsibilities, on consistency across situations, and on the means available. An external benchmark can inform the discussion without describing the whole contribution. One decision or one compliment does not replace an explicit frame applied over time. The people with the authority have to carry the changes inside their mandate.
+Decisions about pay and progression depend on criteria, on responsibilities, on consistency across situations, and on the means available. An external benchmark can inform the discussion without describing the whole contribution. One decision or one compliment does not replace an explicit frame applied over time. What sits inside your mandate, carry it.
 
 Recognition does not replace a decision about salary or load. If you cannot decide, you can help document a contribution and pass it to the right person, with agreement. Respect private information: neither amounts nor individual reasons should automatically become a matter for public discussion. General criteria can be explained without exposing anyone's file.
 

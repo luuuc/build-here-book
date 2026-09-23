@@ -51,7 +51,7 @@ This order suggests a path through the book. These capabilities grow together, a
 
 ## Reading a card, trying a move
 
-Each card carries one idea. Cards marked ⇄ are about the conditions of the work: time, access, decisions, backing, recognition. They are addressed to whoever can change them.
+Each card carries one idea. Cards marked ⇄ are about the conditions of the work: time, access, decisions, backing, recognition. If you can change them, they are addressed to you.
 
 Pick a move small enough for the time you have. Agree the remit with the people involved. Plan one fact to observe and a moment to come back and look at it.
 

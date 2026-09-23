@@ -2,11 +2,11 @@
 layout: chapter
 title: "Ce que publier coûte vraiment"
 part: "La référence"
-order: 1006
+order: 1007
 card_type: diagnostic
 action_scope: "Portée : individu et politique interne"
 metadata:
-  principle: "10.06"
+  principle: "10.07"
   reading_time_in_minutes: 2
 categories:
   - reference
@@ -14,11 +14,12 @@ categories:
   - contexte
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-06-what-publishing-really-costs.html
+  en: /en/chapters/10-07-what-publishing-really-costs.html
 seo:
   description: "Examine le coût complet et les conditions d'un partage concret ; anonymiser ne suffit pas à autoriser et une option interne reste valable."
   keywords: "build here, reference, trace, publier, cout, builder"
 redirect_from:
+  - /chapters/10-06-ce-que-publier-coute-vraiment.html
   - /chapters/10-08-ce-que-publier-coute-vraiment.html
   - /chapters/15-03-ce-que-publier-coute-vraiment-ici.html
 ---

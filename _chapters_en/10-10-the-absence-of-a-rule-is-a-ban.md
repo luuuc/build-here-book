@@ -2,22 +2,23 @@
 layout: chapter
 title: "⇄ The absence of a rule is a ban"
 part: "Being the reference"
-order: 1009
+order: 1010
 card_type: systeme
 action_scope: "Scope: whoever owns the sharing framework and the means"
 metadata:
-  principle: "10.09"
+  principle: "10.10"
   reading_time_in_minutes: 2
 categories:
   - trace
   - leadership
   - visibilite
 traductions:
-  fr: /chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html
+  fr: /chapters/10-10-leader-labsence-de-regle-est-une-interdiction.html
 seo:
   description: "Make the framework and the route for sharing understandable, with people to ask, means, and internal or no-publication options."
   keywords: "build here, builder, reference, framework, sharing, means"
 redirect_from:
+  - /en/chapters/10-09-the-absence-of-a-rule-is-a-ban.html
   - /en/chapters/10-09-make-the-terms-of-sharing-clear.html
 ---
 
@@ -37,7 +38,7 @@ The conditions can depend on the subject, the people involved, and the recipient
 
 A team wants to explain an improvement to the service. They separate a fictional example, internal observations, and elements tied to a customer. They prepare a version whose scope can be examined, then fit the sharing to the agreements they get. A refusal or a question has to get an explanation and, where possible, a useful option in a different frame.
 
-Being able to share also means means: writing, review, accessibility, upkeep. A person may prefer to contribute out loud, or to stay in an internal space. Managers can show how the framework works without having to publish their own incident first. Success is measured by a sharing decision that is understandable and workable, not by the number of public bylines.
+Being able to share also means means: writing, review, accessibility, upkeep. A person may prefer to contribute out loud, or to stay in an internal space. You can show how the framework works without publishing your own incident first. Success is measured by a sharing decision that is understandable and workable, not by the number of public bylines.
 
 ## The decision
 

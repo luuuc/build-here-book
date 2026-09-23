@@ -2,21 +2,22 @@
 layout: chapter
 title: "Nobody has written down what you know how to do"
 part: "Being the reference"
-order: 1007
+order: 1008
 card_type: principe
 metadata:
-  principle: "10.07"
+  principle: "10.08"
   reading_time_in_minutes: 2
 categories:
   - reference
   - trace
   - contexte
 traductions:
-  fr: /chapters/10-07-personne-na-ecrit-ce-que-tu-sais-faire.html
+  fr: /chapters/10-08-personne-na-ecrit-ce-que-tu-sais-faire.html
 seo:
   description: "Make a situated experience useful by connecting it to what already exists, without assuming it is unique or requiring publication."
   keywords: "build here, builder, reference, context, experience, sharing"
 redirect_from:
+  - /en/chapters/10-07-nobody-has-written-down-what-you-know-how-to-do.html
   - /en/chapters/10-07-share-what-your-context-taught-you.html
 ---
 

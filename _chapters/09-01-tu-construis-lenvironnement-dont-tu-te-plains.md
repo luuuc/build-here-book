@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Les dirigeants fabriquent l'environnement dont ils se plaignent"
+title: "Tu construis l'environnement dont tu te plains"
 part: "Le leadership"
 order: 901
 card_type: diagnostic
@@ -13,11 +13,12 @@ categories:
   - management
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/09-01-leaders-manufacture-the-environment-they-complain-about.html
+  en: /en/chapters/09-01-you-build-the-environment-you-complain-about.html
 seo:
   description: "Une equipe tourne sur les consequences observees, pas sur les valeurs affichees. Regarde ce qui est arrive aux trois dernieres propositions."
   keywords: "build here, builder, leadership, initiative, conditions, soutien"
 redirect_from:
+  - /chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html
   - /chapters/09-06-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html
 ---
 
@@ -31,7 +32,7 @@ Tu veux plus d'initiative autour de toi. Les propositions n'arrivent pas, ou ell
 
 ## Ce qui se passe
 
-Une équipe ne tourne pas sur les valeurs affichées. Elle tourne sur les conséquences observées. Les gens sont d'excellents statisticiens du comportement de leur direction. Personne ne retient la diapositive. Tout le monde retient ce qui est arrivé à celui qui a essayé.
+Une équipe ne tourne pas sur les valeurs affichées. Elle tourne sur les conséquences observées. Les gens sont d'excellents statisticiens de tes réactions. Personne ne retient la diapositive. Tout le monde retient ce qui est arrivé à celui qui a essayé.
 
 C'est pour ça que la passivité se lit mal de l'extérieur. Toi, tu vois une équipe sans initiative. L'équipe, elle, se souvient d'une modification annulée sans explication il y a trois mois.
 

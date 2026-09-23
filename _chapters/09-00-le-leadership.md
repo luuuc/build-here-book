@@ -31,7 +31,7 @@ Deux bénévoles préparent l'accueil d'un atelier. L'un a déjà organisé une 
 
 Développer des capacités demande du temps aux deux personnes. Une consigne précise, une observation ou une pratique accompagnée peut être la bonne entrée. Confier un problème plus large devient utile lorsque le contexte, les accès et le soutien permettent de le traiter. L'autonomie ne se mesure pas à l'absence d'aide.
 
-Le management apporte des responsabilités particulières : attribuer des moyens, clarifier des mandats, organiser une évaluation ou décider d'une rémunération. Certaines cartes s'adressent donc aux personnes qui ont cette autorité. Les lecteurs sans ce mandat peuvent proposer, documenter ou chercher un appui, sans être tenus responsables d'un changement qu'ils ne peuvent décider.
+Le management apporte des responsabilités particulières : attribuer des moyens, clarifier des mandats, organiser une évaluation ou décider d'une rémunération. Si tu as cette autorité, certaines cartes te parlent directement. Sinon, tu peux proposer, documenter ou chercher un appui, sans être tenu responsable d'un changement que tu ne peux pas décider.
 
 Si tu recrutes, cherche des capacités liées au travail par plusieurs voies. Une réalisation publique est un élément possible, pas un passage obligé. Des contributions internes, une explication contextualisée ou un cas guidé peuvent aussi éclairer le jugement et les besoins d'apprentissage.
 
@@ -45,7 +45,7 @@ Les cartes marquées ⇄ ailleurs dans le livre éclairent aussi les conditions 
 
 ## Les cartes de cette étape
 
-- 9.01 [Les dirigeants fabriquent l'environnement dont ils se plaignent](/chapters/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html)
+- 9.01 [Tu construis l'environnement dont tu te plains](/chapters/09-01-tu-construis-lenvironnement-dont-tu-te-plains.html)
 - 9.02 [Le filtre que tu fais tourner](/chapters/09-02-le-filtre-que-tu-fais-tourner.html)
 - 9.03 [Confie un problème, pas une tâche](/chapters/09-03-confie-un-probleme-pas-une-tache.html)
 - 9.04 [Une relecture qui dit seulement oui n'apprend rien](/chapters/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html)

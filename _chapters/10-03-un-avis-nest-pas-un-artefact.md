@@ -2,10 +2,10 @@
 layout: chapter
 title: "Un avis n'est pas un artefact"
 part: "La référence"
-order: 1002
+order: 1003
 card_type: diagnostic
 metadata:
-  principle: "10.02"
+  principle: "10.03"
   reading_time_in_minutes: 2
 categories:
   - trace
@@ -13,11 +13,12 @@ categories:
   - ecriture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /en/chapters/10-02-an-opinion-is-not-an-artifact.html
+  en: /en/chapters/10-03-an-opinion-is-not-an-artifact.html
 seo:
   description: "Rends contexte, faits et limites accessibles pour que le lecteur puisse examiner une idée, sans imposer un chiffre ni dévaloriser les avis."
   keywords: "build here, builder, reference, raisonnement, evidence, limites"
 redirect_from:
+  - /chapters/10-02-un-avis-nest-pas-un-artefact.html
   - /chapters/14-02-un-avis-nest-pas-un-artefact.html
 ---
 

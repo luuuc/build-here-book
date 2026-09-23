@@ -99,7 +99,7 @@ For a first attempt with no job and no team, to deepen a practice, to grow a gro
 - I want to learn from an open project, with a first step within reach  →  [Open source is a classroom](/en/chapters/02-07-open-source-is-a-classroom.html)
 - We want to plan learning inside the time we have  →  [⇄ Learning on your own time is a filter you did not mean to set](/en/chapters/02-12-learning-on-your-own-time-is-a-filter-you-did-not-mean-to-set.html)
 - A careful decision turned out badly; we want to understand why  →  [A good decision can still lose](/en/chapters/06-05-a-good-decision-can-still-lose.html)
-- I want to examine the conditions that would allow more initiative  →  [Leaders manufacture the environment they complain about](/en/chapters/09-01-leaders-manufacture-the-environment-they-complain-about.html)
+- I want to examine the conditions that would allow more initiative  →  [You build the environment you complain about](/en/chapters/09-01-you-build-the-environment-you-complain-about.html)
 - We want to open hiring to other kinds of evidence  →  [The filter you are running](/en/chapters/09-02-the-filter-you-are-running.html)
 - I want to go deeper into a skill I already use  →  [Twelve years of experience, or the same year twelve times](/en/chapters/02-03-twelve-years-of-experience-or-the-same-year-twelve-times.html)
 - I am looking for sources to understand my craft better  →  [Your craft has a literature](/en/chapters/02-04-your-craft-has-a-literature.html)
@@ -130,18 +130,19 @@ For a first attempt with no job and no team, to deepen a practice, to grow a gro
 ## Passing on, crediting, and preparing what follows
 
 - We want to make contributions identifiable and back passing them on  →  [Put your name on it](/en/chapters/10-01-put-your-name-on-it.html) · [⇄ You are the missing reference, and you left nothing behind](/en/chapters/09-08-you-are-the-missing-reference-and-you-left-nothing-behind.html)
+- I get asked to write about my work more often than I build  →  [Write after you build, not instead](/en/chapters/10-02-write-after-you-build-not-instead.html)
 - An incident may have something worth keeping to teach us  →  [Write down what broke](/en/chapters/07-06-write-down-what-broke.html)
-- I want to make a useful answer findable without removing direct help  →  [Answer the question in public](/en/chapters/10-04-answer-the-question-in-public.html)
-- I am looking for a way of passing things on that suits my craft  →  [A trace is not necessarily code](/en/chapters/10-03-a-trace-is-not-necessarily-code.html)
-- A useful resource is still hard to find  →  [Publish where people search](/en/chapters/10-05-publish-where-people-search.html)
-- We want to check whether a resource helps the people it is for  →  [Publish where people search](/en/chapters/10-05-publish-where-people-search.html)
-- I want to examine what can be shared, at what cost and with what agreements  →  [What publishing really costs](/en/chapters/10-06-what-publishing-really-costs.html)
-- We want to agree on visibility and attribution that people choose  →  [⇄ You keep your team invisible because visible, they leave](/en/chapters/10-10-you-keep-your-team-invisible-because-visible-they-leave.html)
-- I want to share situated learning, with its limits  →  [Nobody has written down what you know how to do](/en/chapters/10-07-nobody-has-written-down-what-you-know-how-to-do.html)
-- I want to give the reader enough to examine my reasoning  →  [An opinion is not an artifact](/en/chapters/10-02-an-opinion-is-not-an-artifact.html)
-- We want to clarify the terms of internal or public sharing  →  [⇄ The absence of a rule is a ban](/en/chapters/10-09-the-absence-of-a-rule-is-a-ban.html)
+- I want to make a useful answer findable without removing direct help  →  [Answer the question in public](/en/chapters/10-05-answer-the-question-in-public.html)
+- I am looking for a way of passing things on that suits my craft  →  [A trace is not necessarily code](/en/chapters/10-04-a-trace-is-not-necessarily-code.html)
+- A useful resource is still hard to find  →  [Publish where people search](/en/chapters/10-06-publish-where-people-search.html)
+- We want to check whether a resource helps the people it is for  →  [Publish where people search](/en/chapters/10-06-publish-where-people-search.html)
+- I want to examine what can be shared, at what cost and with what agreements  →  [What publishing really costs](/en/chapters/10-07-what-publishing-really-costs.html)
+- We want to agree on visibility and attribution that people choose  →  [⇄ Your team works under your name](/en/chapters/10-11-your-team-works-under-your-name.html)
+- I want to share situated learning, with its limits  →  [Nobody has written down what you know how to do](/en/chapters/10-08-nobody-has-written-down-what-you-know-how-to-do.html)
+- I want to give the reader enough to examine my reasoning  →  [An opinion is not an artifact](/en/chapters/10-03-an-opinion-is-not-an-artifact.html)
+- We want to clarify the terms of internal or public sharing  →  [⇄ The absence of a rule is a ban](/en/chapters/10-10-the-absence-of-a-rule-is-a-ban.html)
 - We want to tie recognition to real contributions  →  [⇄ You are the only buyer who sees all the work](/en/chapters/09-07-you-are-the-only-buyer-who-sees-all-the-work.html)
-- A departure calls for a bounded, accepted handover  →  [Leaving is not a betrayal](/en/chapters/10-08-leaving-is-not-a-betrayal.html)
+- A departure calls for a bounded, accepted handover  →  [Leaving is not a betrayal](/en/chapters/10-09-leaving-is-not-a-betrayal.html)
 
 ---
 

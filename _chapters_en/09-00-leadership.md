@@ -28,7 +28,7 @@ Two volunteers prepare the welcome for a workshop. One has run a session before,
 
 Growing capabilities takes time from both people. A precise instruction, an observation, or supported practice can be the right entry point. Handing over a wider problem becomes useful when the context, the access and the support make it workable. Autonomy is not measured by the absence of help.
 
-Management brings particular responsibilities: allocating means, clarifying mandates, running an appraisal, deciding on pay. Some cards therefore address the people who have that authority. Readers without that mandate can propose, document, or look for backing, without being held responsible for a change they cannot decide.
+Management brings particular responsibilities: allocating means, clarifying mandates, running an appraisal, deciding on pay. If you have that authority, some cards speak to you directly. If you don't, you can propose, document, or look for backing, without being held responsible for a change you cannot decide.
 
 If you recruit, look for capabilities tied to the work through several routes. Something published is one possible element, not a required step. Internal contributions, an explanation with its context, or a guided case can also inform your judgement and show what someone needs to learn.
 
@@ -42,7 +42,7 @@ The cards marked ⇄ elsewhere in the book also shed light on the conditions for
 
 ## The cards in this capability
 
-- 9.01 [Leaders manufacture the environment they complain about](/en/chapters/09-01-leaders-manufacture-the-environment-they-complain-about.html)
+- 9.01 [You build the environment you complain about](/en/chapters/09-01-you-build-the-environment-you-complain-about.html)
 - 9.02 [The filter you are running](/en/chapters/09-02-the-filter-you-are-running.html)
 - 9.03 [Hand over a problem, not a task](/en/chapters/09-03-hand-over-a-problem-not-a-task.html)
 - 9.04 [A review that only says yes teaches nothing](/en/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html)

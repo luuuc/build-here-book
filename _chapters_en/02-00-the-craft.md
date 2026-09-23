@@ -30,7 +30,7 @@ With experience, you hold bearings worth keeping. A new constraint, an unusual c
 
 The cards offer several ways to get better: read a source, watch a line of reasoning, compare two approaches, look for a cause, or listen to another craft. Some are specifically about software. Others carry over to a procedure, a document or a service. Choose the one you can actually try.
 
-Time, access to resources, and the chance to get feedback all count. The ⇄ cards help the people who organise the work plan for those conditions, rather than leaving progress to depend on whoever has free evenings.
+Time, access to resources, and the chance to get feedback all count. If you organise the work, the ⇄ cards help you plan for those conditions, rather than leaving progress to depend on whoever has free evenings.
 
 A sign of progress can be a decision you explain better, a mistake you now know how to spot, or a move you make with less help. Compare situations close enough that you can see what changed.
 
