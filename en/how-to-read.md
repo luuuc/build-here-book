@@ -1,8 +1,8 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 lang: en
 permalink: /en/how-to-read/
+bande_scene: /assets/images/scenes/livre.svg
 traductions:
   fr: /guide-de-lecture/
 title: "How to read this book"

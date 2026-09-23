@@ -1,9 +1,13 @@
+/* Le tirage. Meme palette que le site depuis le 22/09/2026 : les valeurs
+   sont ecrites en clair, pas en jetons, parce que ce fichier voyage seul
+   dans un rendu PDF ou une liseuse. La table des correspondances est en
+   tete de style.css. */
 /* Feuille de style de l'EPUB. Meme palette et memes fontes que le site et que
    le PDF, mais un EPUB se reflowe : rien ici ne parle de page paire ni de
    numero de page. Ce qui est repris, c'est la mise en page d'une entree.
 
-   Palette : encre #1C1A17, bandeau #FBEEC1, signal #F5B301, ambre #8A6100,
-   papier #FAF7F0, filet #E8E3D9, texte #2B2925. */
+   Palette : encre #0f1319, bandeau #f3f5f8, signal #e24e12, ambre #5a6472,
+   papier #f3f5f8, filet #dfe4ea, texte #272e38. */
 
 @font-face { font-family: "Merriweather"; font-weight: normal; font-style: normal; src: url("../fonts/Merriweather-Regular.ttf"); }
 @font-face { font-family: "Merriweather"; font-weight: bold; font-style: normal; src: url("../fonts/Merriweather-Bold.ttf"); }
@@ -15,15 +19,15 @@
 body {
   font-family: "Merriweather", Georgia, serif;
   line-height: 1.6;
-  color: #2B2925;
+  color: #272e38;
   margin: 0 1em;
   widows: 2;
   orphans: 2;
 }
 
 p { margin: 0 0 0.85em; text-align: justify; }
-a { color: #1C1A17; }
-strong { color: #1C1A17; }
+a { color: #0f1319; }
+strong { color: #0f1319; }
 
 /* ------------------------------------------------------- pages de partie */
 
@@ -41,7 +45,7 @@ h1.part-title {
   height: 100vh;
   box-sizing: border-box;
   overflow: hidden;
-  background: #1C1A17;
+  background: #0f1319;
   color: #FFFFFF;
   margin: 0 -1em;
   padding: 4em 2.4em;
@@ -58,7 +62,7 @@ h1.part-title {
   font-size: 0.62em;
   font-weight: bold;
   letter-spacing: 0.2em;
-  color: #F5B301;
+  color: #e24e12;
   margin: 0;
 }
 
@@ -69,7 +73,7 @@ h1.part-title {
   display: block;
   width: 3.4em;
   height: 3px;
-  background: #F5B301;
+  background: #e24e12;
   margin: 1.5em 0 1.7em;
 }
 
@@ -81,14 +85,14 @@ h2.chapter-title {
   break-before: page;
   font-size: 1.5em;
   line-height: 1.25;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 0 0 0.5em;
 }
 
 /* Ouverture de section : le bandeau creme du site et du PDF, avec le dessin. */
 h1.chapter-title--section {
-  background: #FBEEC1;
-  border-bottom: 3px solid #F5B301;
+  background: #f3f5f8;
+  border-bottom: 3px solid #e24e12;
   margin: 0 -1em 1.2em;
   padding: 2em 1.2em 1.2em;
   font-size: 2em;
@@ -109,7 +113,7 @@ h1.chapter-title--section {
   font-weight: bold;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #8A6100;
+  color: #5a6472;
   margin: 0 0 1.4em;
   text-align: left;
 }
@@ -117,17 +121,17 @@ h1.chapter-title--section {
 .chapter-kicker span + span:before {
   content: "/";
   margin: 0 0.5em;
-  color: #C9C2B4;
+  color: #dfe4ea;
 }
 
-.chapter--diagnostic .chapter-head { border-top: 0.18em solid #F5B301; padding-top: 1em; }
-.chapter--pratique .chapter-head { border-top: 0.18em dotted #8A6100; padding-top: 1em; }
-.chapter--systeme .chapter-head { border-top: 0.22em double #1C1A17; padding-top: 1em; }
+.chapter--diagnostic .chapter-head { border-top: 0.18em solid #e24e12; padding-top: 1em; }
+.chapter--pratique .chapter-head { border-top: 0.18em dotted #5a6472; padding-top: 1em; }
+.chapter--systeme .chapter-head { border-top: 0.22em double #0f1319; padding-top: 1em; }
 
 .chapter-lede {
   font-family: "Archivo", sans-serif;
   font-size: 0.95em;
-  color: #8A6100;
+  color: #5a6472;
   margin: -0.8em 0 1.6em;
   text-align: left;
 }
@@ -136,7 +140,7 @@ h1.chapter-title--section {
   font-family: "Archivo", sans-serif;
   font-size: 0.85em;
   font-weight: 600;
-  color: #8A6100;
+  color: #5a6472;
   margin: -1.2em 0 1.6em;
   text-align: left;
 }
@@ -146,14 +150,14 @@ h1.chapter-title--section {
 .prose h4 {
   font-family: "Archivo", sans-serif;
   font-size: 1.02em;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 1.8em 0 0.5em;
   page-break-after: avoid;
 }
 
 .prose h5 {
   font-size: 1em;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 1.5em 0 0.4em;
   page-break-after: avoid;
 }
@@ -163,13 +167,13 @@ h1.chapter-title--section {
 
 .prose hr {
   border: 0;
-  border-top: 1px solid #E8E3D9;
+  border-top: 1px solid #dfe4ea;
   margin: 2em 0;
 }
 
 .prose blockquote {
-  background: #FAF7F0;
-  border-left: 3px solid #1C1A17;
+  background: #f3f5f8;
+  border-left: 3px solid #0f1319;
   margin: 1.2em 0;
   padding: 0.6em 0.9em;
   font-style: italic;
@@ -181,39 +185,39 @@ h1.chapter-title--section {
 .prose code {
   font-family: monospace;
   font-size: 0.88em;
-  background: #FAF7F0;
+  background: #f3f5f8;
 }
 
 .prose pre {
-  background: #FAF7F0;
+  background: #f3f5f8;
   padding: 0.8em;
   font-size: 0.85em;
   white-space: pre-wrap;
 }
 
 .prose .callout {
-  border: 1px solid #E8E3D9;
-  border-left: 4px solid #E8E3D9;
+  border: 1px solid #dfe4ea;
+  border-left: 4px solid #dfe4ea;
   padding: 0.8em 0.9em;
   margin: 1.2em 0;
   font-size: 0.94em;
 }
 
-.prose .callout-hint { border-left-color: #5cb85c; }
-.prose .callout-example { border-left-color: #5bc0de; }
-.prose .callout-warning { border-left-color: #f0ad4e; }
+.prose .callout-hint { border-left-color: #0e7c5a; }
+.prose .callout-example { border-left-color: #1b4db3; }
+.prose .callout-warning { border-left-color: #e24e12; }
 
 /* ------------------------------------------------------------- notes */
 
-sup a { font-size: 0.7em; color: #8A6100; text-decoration: none; }
+sup a { font-size: 0.7em; color: #5a6472; text-decoration: none; }
 
 .footnotes {
   margin-top: 2.5em;
   padding-top: 1em;
-  border-top: 1px solid #E8E3D9;
+  border-top: 1px solid #dfe4ea;
   font-size: 0.85em;
-  color: #6B6355;
+  color: #5a6472;
 }
 
 .footnotes p { text-align: left; }
-.footnotes a { color: #8A6100; text-decoration: none; }
+.footnotes a { color: #5a6472; text-decoration: none; }

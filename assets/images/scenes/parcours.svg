@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-label="Un point de départ et quatre chemins vers quatre destinations">
+  <g fill="none" stroke="#0f1319" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="64" cy="160" r="22" fill="#e9f0fc" />
+    <path d="M90 152C170 96 240 64 330 58" />
+    <path d="M90 156C176 134 248 124 330 122" />
+    <path d="M90 164C176 186 248 196 330 198" />
+    <path d="M90 168C170 224 240 256 330 262" />
+    <rect x="334" y="34" width="48" height="48" />
+    <rect x="334" y="98" width="48" height="48" />
+    <rect x="334" y="174" width="48" height="48" />
+    <rect x="334" y="238" width="48" height="48" />
+    <path d="M406 58h40M406 122h40M406 198h40M406 262h40" />
+  </g>
+</svg>

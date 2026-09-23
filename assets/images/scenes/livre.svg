@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-label="Un livre ouvert dont les cartes se détachent">
+  <g fill="none" stroke="#0f1319" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M60 96v160l180 28V124z" fill="#e9f0fc" />
+    <path d="M420 96v160l-180 28V124z" />
+    <path d="M240 124v188" />
+    <path d="M92 144h108M92 180h108M92 216h72" />
+    <path d="M288 152h96M288 188h96M288 224h64" />
+    <rect x="316" y="30" width="104" height="52" />
+    <path d="M340 56h56" />
+  </g>
+</svg>

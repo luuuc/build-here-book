@@ -13,7 +13,7 @@
     assert(screen.querySelector('h2').textContent === "L'état d'esprit", 'first step');
     assert(document.activeElement === screen.querySelector('h2'), 'heading focus');
     for (let step = 0; step < 10; step++) {
-      const groups = [...screen.querySelectorAll('.builder-test-statement')];
+      const groups = [...screen.querySelectorAll('.echelle')];
       assert(groups.length === 6, `six statements at step ${step + 1}`);
       assert(groups.every((group) => group.querySelectorAll('input[type=radio]').length === 8), 'six positions plus unseen and blocked');
       const next = [...screen.querySelectorAll('.builder-test-nav button')].at(-1);
@@ -32,14 +32,14 @@
       [...screen.querySelectorAll('.builder-test-nav button')].at(-1).click();
     }
     report.push('ten steps, six entries, completion, back/forward');
-    assert(screen.querySelectorAll('.builder-test-result-item').length === 10, 'ten result topics');
+    assert(screen.querySelectorAll('.carte').length === 10, 'ten result topics');
     assert(screen.textContent.includes('1 situation non rencontrée'), 'unseen is separate');
     assert(!screen.textContent.includes('%'), 'no fake precision');
     report.push('result and unseen handling');
     const intent = screen.querySelector('input[value=support]');
     intent.click();
     screen.querySelector('.builder-test-result-item button').click();
-    assert(screen.querySelectorAll('.builder-test-card').length === 3, 'three cards');
+    assert(screen.querySelectorAll('.carte-livre').length === 3, 'three cards');
     assert(screen.textContent.includes('dans tes moyens'), 'support intent guidance');
     assert(!screen.textContent.includes('sans déduction à partir des réponses'), 'honest result provenance');
     report.push('chosen plan and audience guidance');

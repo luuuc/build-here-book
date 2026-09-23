@@ -6,7 +6,7 @@
   const modes = ["revisit", "deepen", "discover", "blocked"];
   function creer(contenu) {
     const { questions, capabilities, answerOptions, intentions, conditions, modeLabels,
-      memoryNotice, statements, scale, beginner, templates, method, textes } = contenu;
+      memoryNotice, statements, scale, beginner, templates, method, textes, ui } = contenu;
     function profile(responses) {
       return capabilities.map((capability) => {
         const values = (statements[capability.id] || []).map((_, index) => responses[`${capability.id}-${index + 1}`]);
@@ -79,7 +79,7 @@
       ].filter(Boolean).join("\n\n");
     }
     return { questions, capabilities, answerOptions, intentions, conditions, modes, modeLabels,
-      memoryNotice, statements, scale, profile, initialState, setIntent, answer, candidates, select, plan, copyText };
+      memoryNotice, statements, scale, ui, profile, initialState, setIntent, answer, candidates, select, plan, copyText };
   }
   const api = { creer, modes };
   if (typeof module !== "undefined" && module.exports) module.exports = api;

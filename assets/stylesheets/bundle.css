@@ -1,0 +1,427 @@
+/* Les composants de Build Here, repris du systeme de design.
+   Source de verite : https://claude.ai/artifact/33Ckh9SE8s9oaHhLjFHnqE
+   (project/components/bundle.css). Ne depend que des variables de tokens.css.
+
+   Charge avant style.css : les classes nouvelles (bloc, bouton, colonne,
+   carte-parcours, carte-livre, echelle, progression, lecture) sont
+   disponibles tout de suite, et les deux classes que style.css connait deja
+   gardent leur apparence actuelle jusqu'a leur migration :
+     .rail   redefini ici, mais style.css passe apres et gagne ;
+     .hero   appartient a l'en-tete d'une carte du livre, donc le hero des
+             landings s'ecrit `.bloc.hero` et ne touche pas au livre.
+*/
+
+/* Build Here — la feuille des composants.
+   Elle ne depend que des variables de tokens.css. Les classes portent les noms
+   que le depot Jekyll doit prendre : elle est ecrite pour etre reprise telle
+   quelle dans assets/stylesheets/. */
+
+/* ---- La colonne. Trois largeurs, et la largeur dit de quel objet on parle. */
+.colonne { margin-inline: auto; max-width: var(--colonne-large); padding-inline: var(--gouttiere-mobile); width: 100%; }
+.colonne--prose { max-width: var(--colonne-prose); }
+.colonne--livre { max-width: var(--colonne-livre); }
+
+@media (min-width: 768px) {
+  .colonne { padding-inline: var(--espace-8); }
+}
+
+/* ---- Le bouton. Trois variantes, une seule forme. */
+.bouton {
+  align-items: center;
+  background: var(--bleu);
+  border: 1px solid var(--bleu);
+  border-radius: var(--rayon-0);
+  color: var(--papier);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 500;
+  gap: var(--espace-2);
+  line-height: 20px;
+  min-height: 44px;
+  padding: 14px 22px;
+  text-decoration: none;
+}
+
+.bouton--contour { background: transparent; border-color: var(--encre); color: var(--encre); }
+.bouton--contour:hover { background: var(--surface); }
+
+.bouton--nu {
+  background: transparent;
+  border-color: transparent;
+  color: var(--bleu);
+  padding-inline: 0;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.bouton:hover { background: var(--encre); border-color: var(--encre); }
+.bouton--contour:hover { background: var(--surface); color: var(--encre); }
+.bouton--nu:hover { background: transparent; color: var(--encre); }
+
+.bouton:focus-visible,
+.bouton:focus { outline: 2px solid var(--bleu); outline-offset: 2px; }
+.bouton[disabled] { cursor: default; opacity: 0.4; }
+
+/* Sur une bande nuit, le bleu tombe a 2,3:1 : le bouton s'inverse. */
+.bloc--nuit .bouton { background: var(--papier); border-color: var(--papier); color: var(--encre); }
+.bloc--nuit .bouton--contour { background: transparent; border-color: var(--papier); color: var(--papier); }
+.bloc--nuit .bouton--nu { color: var(--papier); text-decoration-color: var(--signal); }
+.bloc--nuit .bouton:focus-visible { outline-color: var(--papier); }
+
+/* ---- Le bloc de section. La brique de toutes les landings. */
+.bloc {
+  background: var(--papier);
+  color: var(--texte);
+  font-family: var(--font-sans);
+  padding-block: var(--bande-mobile);
+}
+
+.bloc--surface { background: var(--surface); }
+.bloc--nuit { background: var(--nuit); color: var(--discret-nuit); }
+.bloc + .bloc:not(.bloc--surface):not(.bloc--nuit) { border-top: 1px solid var(--filet); }
+
+.bloc-surtitre {
+  color: var(--discret);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 17px;
+  margin: 0 0 var(--espace-4);
+  text-transform: uppercase;
+}
+
+.bloc-titre {
+  color: var(--encre);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 31px;
+  margin: 0 0 var(--espace-4);
+  text-wrap: balance;
+}
+
+.bloc-texte { margin: 0 0 var(--espace-8); max-width: 38em; text-wrap: pretty; }
+.bloc--nuit .bloc-surtitre { color: var(--discret-nuit); }
+.bloc--nuit .bloc-titre { color: var(--papier); }
+
+@media (min-width: 600px) {
+  .bloc { padding-block: var(--espace-24); }
+  .bloc-titre { font-size: 32px; line-height: 40px; }
+}
+
+/* La phrase qui suit une grille : elle referme la bande sans la relancer. */
+.bloc-apres {
+  margin: var(--espace-8) 0 0;
+  max-width: 38em;
+}
+
+/* Un lien de bande prend la marque signal, comme dans le livre. */
+.bloc-texte a,
+.bloc-apres a {
+  color: var(--encre);
+  text-decoration: underline;
+  text-decoration-color: var(--signal);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.bloc-texte a:hover,
+.bloc-apres a:hover { background: var(--bleu-voile); }
+
+.bloc--nuit .bloc-texte a,
+.bloc--nuit .bloc-apres a { color: var(--papier); }
+.bloc--nuit .bloc-texte a:hover,
+.bloc--nuit .bloc-apres a:hover { background: transparent; color: var(--signal); }
+
+/* ---- Le hero. Un bloc, mais avec la preuve et l'illustration. */
+.bloc.hero { padding-block: var(--hero-mobile-haut) var(--bande-mobile); }
+/* Un element de grille vaut `min-width: auto` par defaut : une image de
+   480px de large y impose sa taille et fait defiler la page sur telephone.
+   Les deux colonnes du hero retombent donc a zero. */
+.hero-corps { display: grid; gap: var(--espace-8); min-width: 0; }
+.hero-corps > * { min-width: 0; }
+
+.hero-corps img { height: auto; max-width: 100%; }
+
+.hero-titre {
+  color: var(--encre);
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 38px;
+  margin: 0 0 var(--espace-4);
+  text-wrap: balance;
+}
+
+.hero-accroche {
+  font-size: 20px;
+  line-height: 31px;
+  margin: 0 0 var(--espace-8);
+  max-width: 34em;
+  text-wrap: pretty;
+}
+
+.hero-image { display: block; height: auto; max-width: 100%; }
+
+@media (min-width: 900px) {
+  .bloc.hero { padding-block: var(--espace-32) var(--espace-24); }
+  .hero-corps { align-items: center; grid-template-columns: 1.1fr 0.9fr; gap: var(--espace-16); }
+  .hero-titre { font-size: 56px; line-height: 59px; }
+}
+
+/* Deux actions dans un hero : la principale puis la calme. Sur telephone
+   elles s'empilent, chacune sur toute la largeur. */
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--espace-3);
+  margin: 0;
+}
+
+@media (max-width: 599px) {
+  .hero-actions { flex-direction: column; align-items: stretch; }
+  .hero-actions .bouton { justify-content: center; }
+}
+
+/* ---- La ligne de preuve. Des chiffres comptes, jamais estimes. */
+.preuve {
+  color: var(--discret);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  gap: var(--espace-2) var(--espace-3);
+  line-height: 20px;
+  list-style: none;
+  margin: var(--espace-4) 0 0;
+  padding: 0;
+}
+
+.preuve li { align-items: center; display: flex; gap: var(--espace-3); }
+.preuve li + li::before { color: var(--filet); content: "\00B7"; }
+.preuve strong { color: var(--encre); font-variant-numeric: tabular-nums; font-weight: 600; }
+.bloc--nuit .preuve { color: var(--discret-nuit); }
+.bloc--nuit .preuve strong { color: var(--papier); }
+
+/* ---- La grille de cartes. */
+.grille { display: grid; gap: var(--espace-6); grid-template-columns: 1fr; }
+.grille > * { min-width: 0; }
+@media (min-width: 600px) { .grille { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 900px) { .grille--trois { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+/* ---- Le pas. Un dessin, un titre, deux lignes : ce que la page fait en
+   trois temps. Il ne se clique pas ; si le contenu est cliquable, c'est une
+   carte, pas un pas. */
+.pas {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espace-3);
+  font-family: var(--font-sans);
+}
+
+.pas img {
+  display: block;
+  height: 72px;
+  width: 72px;
+}
+
+.pas h3 {
+  color: var(--encre);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0;
+}
+
+.pas p { margin: 0; max-width: 32em; }
+
+.bloc--nuit .pas h3 { color: var(--papier); }
+
+/* ---- La carte de parcours. La seule taxonomie coloree du site. */
+.carte-parcours {
+  background: var(--papier);
+  border: 1px solid var(--filet);
+  border-radius: var(--rayon-0);
+  color: var(--texte);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-sans);
+  gap: var(--espace-3);
+  padding: var(--espace-6);
+  text-decoration: none;
+}
+
+.carte-parcours:hover { border-color: var(--couleur-parcours, var(--encre)); }
+.carte-parcours:focus-visible { outline: 2px solid var(--bleu); outline-offset: 2px; }
+
+.carte-parcours-pastille {
+  background: var(--couleur-parcours, var(--encre));
+  border-radius: var(--rayon-2);
+  display: block;
+  height: 6px;
+  width: 48px;
+}
+
+.carte-parcours-titre {
+  color: var(--couleur-parcours, var(--encre));
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0;
+}
+
+.carte-parcours-texte { margin: 0; }
+.carte-parcours-suite { color: var(--discret); font-size: 13px; line-height: 20px; margin-top: auto; padding-top: var(--espace-4); }
+
+/* Une carte de parcours peut etre un choix : le meme objet, avec une radio
+   dedans. La couleur ne dit rien toute seule, le nom reste ecrit. */
+.carte-parcours input {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  opacity: 0;
+}
+
+.carte-parcours:focus-within { outline: 2px solid var(--bleu); outline-offset: 2px; }
+
+.carte-parcours:has(input:checked) {
+  border-color: var(--couleur-parcours, var(--encre));
+  box-shadow: inset 0 0 0 1px var(--couleur-parcours, var(--encre));
+}
+
+.parcours--commencer { --couleur-parcours: var(--parcours-commencer); }
+.parcours--progresser { --couleur-parcours: var(--parcours-progresser); }
+.parcours--equipe { --couleur-parcours: var(--parcours-equipe); }
+.parcours--soutenir { --couleur-parcours: var(--parcours-soutenir); }
+
+/* ---- La carte simple. Une carte qui n'est pas un lien : elle porte son
+   titre, son texte et ses propres actions. Le resultat du test s'en sert. */
+.carte {
+  background: var(--papier);
+  border: 1px solid var(--filet);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-sans);
+  gap: var(--espace-2);
+  padding: var(--espace-6);
+}
+
+.carte h3 {
+  color: var(--encre);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0;
+}
+
+.carte p { margin: 0; }
+.carte .carte-actions { display: flex; flex-wrap: wrap; gap: var(--espace-3); margin-top: auto; padding-top: var(--espace-4); }
+.carte-note { color: var(--discret); font-size: 13px; line-height: 20px; }
+
+/* ---- La carte de livre. Un type, un titre, une duree. Pas de couleur. */
+.carte-livre {
+  background: var(--papier);
+  border: 1px solid var(--filet);
+  color: var(--texte);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-sans);
+  gap: var(--espace-2);
+  padding: var(--espace-6);
+  text-decoration: none;
+}
+
+.carte-livre:hover { border-color: var(--encre); }
+.carte-livre:focus-visible { outline: 2px solid var(--bleu); outline-offset: 2px; }
+
+.carte-livre-type {
+  align-self: flex-start;
+  border: 1px solid var(--filet);
+  border-radius: var(--rayon-2);
+  color: var(--discret);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 17px;
+  padding: 2px 8px;
+  text-transform: uppercase;
+}
+
+.carte-livre-titre { color: var(--encre); font-size: 20px; font-weight: 500; line-height: 28px; margin: var(--espace-2) 0 0; text-wrap: balance; }
+.carte-livre-meta { color: var(--discret); font-size: 13px; line-height: 20px; margin-top: auto; padding-top: var(--espace-4); }
+
+/* Une carte posee sur une bande nuit : le filet et le titre s'inversent. */
+.bloc--nuit .carte-livre {
+  background: transparent;
+  border-color: var(--discret-nuit);
+  color: var(--discret-nuit);
+}
+
+.bloc--nuit .carte-livre:hover { border-color: var(--papier); }
+.bloc--nuit .carte-livre-titre { color: var(--papier); }
+.bloc--nuit .carte-livre-type,
+.bloc--nuit .carte-livre-meta { color: var(--discret-nuit); }
+
+/* ---- Le rail. Les sections d'une page, dans leur ordre. */
+.rail { background: var(--surface); border-block: 1px solid var(--filet); font-family: var(--font-sans); }
+.rail-corps { display: flex; flex-wrap: wrap; gap: var(--espace-3) var(--espace-8); margin-inline: auto; max-width: var(--colonne-large); padding: var(--espace-4) var(--gouttiere-mobile); }
+
+.rail-item { align-items: baseline; color: var(--texte); display: flex; font-size: 15px; gap: var(--espace-2); line-height: 20px; text-decoration: none; }
+.rail-item:hover { color: var(--encre); text-decoration: underline; text-decoration-color: var(--signal); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.rail-item:focus-visible { outline: 2px solid var(--bleu); outline-offset: 2px; }
+.rail-num { color: var(--discret); font-size: 13px; font-variant-numeric: tabular-nums; }
+
+@media (min-width: 768px) { .rail-corps { padding-inline: var(--espace-8); } }
+
+/* ---- L'echelle d'accord du test. Six positions, jamais sept. */
+.echelle { border: 0; margin: 0; min-width: 0; padding: var(--espace-8) 0; }
+.echelle + .echelle { border-top: 1px solid var(--filet); }
+
+/* Un `legend` laisse un trou dans la bordure du fieldset : le filet de
+   separation s'arreterait au bord du texte et repartirait apres. Le sortir
+   du flux de legende le rend bloc, et la bordure redevient continue. */
+.echelle-question { color: var(--encre); float: left; font-family: var(--font-sans); font-size: 17px; font-weight: 500; line-height: 27px; max-width: 38em; padding: 0; width: 100%; }
+
+/* L'echelle et ses deux bornes partagent la meme largeur, sinon les
+   libelles s'eloignent des pastilles sur un large ecran. */
+.echelle-rangee { align-items: center; clear: both; display: flex; gap: var(--espace-3); justify-content: space-between; margin-top: var(--espace-6); max-width: 22rem; }
+
+.echelle-position { cursor: pointer; display: grid; min-height: 44px; min-width: 44px; place-items: center; }
+.echelle-position input { appearance: none; border: 2px solid var(--filet); border-radius: var(--rayon-rond); cursor: pointer; height: 30px; margin: 0; width: 30px; }
+.echelle-position--large input { height: 44px; width: 44px; }
+.echelle-position--moyen input { height: 36px; width: 36px; }
+
+.echelle-position--desaccord input { border-color: var(--signal); }
+.echelle-position--accord input { border-color: var(--bleu); }
+.echelle-position--desaccord input:checked { background: var(--signal); border-color: var(--signal); }
+.echelle-position--accord input:checked { background: var(--bleu); border-color: var(--bleu); }
+.echelle-position input:checked { background: var(--encre); border-color: var(--encre); }
+.echelle-position input:focus-visible { outline: 2px solid var(--bleu); outline-offset: 3px; }
+
+.echelle-bornes { color: var(--discret); display: flex; font-family: var(--font-sans); font-size: 13px; justify-content: space-between; line-height: 20px; margin-top: var(--espace-2); max-width: 22rem; }
+
+/* Les deux reponses a part ne sont pas une septieme position. */
+.echelle-apart { display: flex; flex-wrap: wrap; gap: var(--espace-3) var(--espace-8); margin-top: var(--espace-4); }
+.echelle-apart label { align-items: center; color: var(--discret); cursor: pointer; display: flex; font-family: var(--font-sans); font-size: 15px; gap: var(--espace-2); line-height: 20px; min-height: 44px; }
+.echelle-apart input { accent-color: var(--bleu); height: 18px; width: 18px; }
+
+/* ---- La progression du test. Dix segments, pas une fraction. */
+.progression { align-items: center; display: flex; font-family: var(--font-sans); gap: var(--espace-4); justify-content: space-between; }
+.progression-piste { display: flex; flex: 1 1 auto; gap: var(--espace-1); list-style: none; margin: 0; max-width: 20rem; padding: 0; }
+.progression-piste li { background: var(--filet); flex: 1 1 0; height: 4px; }
+.progression-piste li[data-etat="fait"] { background: var(--encre); }
+.progression-piste li[data-etat="courant"] { background: var(--signal); }
+.progression-etape { color: var(--discret); font-size: 13px; font-variant-numeric: tabular-nums; line-height: 20px; white-space: nowrap; }
+
+/* ---- La colonne de lecture du livre. Serif, 34rem, a toutes les largeurs. */
+.lecture { color: var(--texte); font-family: var(--font-serif); font-size: 17px; line-height: 30px; }
+.lecture > * { margin-inline: auto; max-width: var(--colonne-livre); }
+.lecture h1 { color: var(--encre); font-size: 34px; font-weight: 700; letter-spacing: -0.01em; line-height: 41px; margin-bottom: var(--espace-6); text-wrap: balance; }
+.lecture h2 { color: var(--encre); font-family: var(--font-sans); font-size: 20px; font-weight: 600; line-height: 28px; margin: var(--espace-12) auto var(--espace-4); }
+.lecture p { margin-bottom: var(--espace-6); }
+.lecture a { color: var(--texte); text-decoration: underline; text-decoration-color: var(--signal); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.lecture a:hover { color: var(--encre); }
+.lecture blockquote { border-left: 2px solid var(--signal); font-size: 21px; font-style: italic; line-height: 32px; margin-block: var(--espace-8); padding-left: var(--espace-6); }
+.lecture-meta { color: var(--discret); font-family: var(--font-sans); font-size: 13px; line-height: 20px; margin-bottom: var(--espace-4); }

@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap");
 
-/* Palette — ink and signal yellow
-   #1C1A17  ink        headings, logo, nav, rules
-   #FBEEC1  band       hero + content-footer
-   #F5B301  signal     area marks only, never text
-   #8A6100  amber      accent text, hover, entry number
-   #FAF7F0  paper      code + blockquote background
-   #F2EFE9  shell      footer + nav card background
-   #2B2925  body text
+/* La feuille historique du site, passee aux jetons.
+   Les valeurs vivent dans tokens.css, les composants dans bundle.css, tous
+   deux charges avant ce fichier. Plus aucune couleur n'est codee en dur ici :
+   si une nuance manque, elle s'ajoute au systeme, pas a cette feuille.
 
-   Deux fontes. Merriweather pour tout ce qui se lit en continu,
-   Archivo pour tout ce qui se saute a l'oeil : reperes, meta, sommaires.
-*/
+   Deux fontes, roles inverses. Archivo tient tout le site. Merriweather ne
+   sert plus que dans la colonne de lecture du livre (`content--livre`, en bas
+   de ce fichier) et dans l'exergue d'une carte.
+
+   L'ancienne palette ocre est partie le 22/09/2026 : l'ambre des metadonnees
+   est devenu --discret, celui des survols --bleu, le jaune signal --signal,
+   la bande creme --surface, et --bleu-voile marque ce qui est selectionne. */
 
 * {
   margin: 0;
@@ -21,23 +21,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Le defaut du site est la sans. Le livre reprend la serif dans sa colonne de
+   lecture, tout en bas de ce fichier : c'est le seul endroit ou elle vit
+   encore, avec l'exergue d'une carte. */
 body {
-  font-family: "Merriweather", Georgia, serif;
-  //-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-  line-height: 1.72;
-  color: #2B2925;
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  color: var(--texte);
 }
 
+/* La selection prend le voile bleu : l'orange signal est une marque, pas
+   un fond de texte, et l'encre dessus ne passe pas 4,5:1. */
 ::selection {
-  background: #F5B301;
-  color: #1C1A17;
+  background: var(--bleu-voile);
+  color: var(--encre);
 }
 
 /* Header */
 .header {
-  background: #fff;
+  background: var(--papier);
   padding: 1rem 2rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--ombre-entete);
   position: fixed;
   top: 0;
   left: 0;
@@ -53,13 +57,13 @@ body {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: #1C1A17;
+  color: var(--encre);
 }
 
 .logo {
   font-size: 1.25rem;
   font-weight: bold;
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
 }
 
@@ -74,7 +78,7 @@ body {
 .about {
   font-size: 1rem;
   font-weight: normal;
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
   opacity: 0.5;
 }
@@ -88,7 +92,7 @@ body {
 .langue {
   font-size: 1rem;
   font-weight: normal;
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
   opacity: 0.5;
 }
@@ -108,7 +112,7 @@ body {
   padding: 0.15rem;
   background: none;
   border: 0;
-  color: #1C1A17;
+  color: var(--encre);
   opacity: 0.5;
   cursor: pointer;
 }
@@ -126,10 +130,10 @@ body {
   min-width: 17rem;
   max-width: calc(100vw - 2rem);
   padding: 0.35rem 0;
-  background: #fff;
-  border: 1px solid #E8E3D9;
-  border-top: 3px solid #F5B301;
-  box-shadow: 0 12px 30px rgba(28, 26, 23, 0.16);
+  background: var(--papier);
+  border: 1px solid var(--filet);
+  border-top: 1px solid var(--filet);
+  box-shadow: var(--ombre-menu);
 }
 
 .download-menu[hidden] {
@@ -139,15 +143,15 @@ body {
 .download-menu a {
   display: block;
   padding: 0.6rem 1rem;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.92rem;
   line-height: 1.35;
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
 }
 
 .download-menu a:hover {
-  background: #FBEEC1;
+  background: var(--surface);
 }
 
 .download-menu a small {
@@ -155,12 +159,12 @@ body {
   margin-top: 0.15rem;
   font-size: 0.73rem;
   line-height: 1.4;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 .download-menu hr {
   border: 0;
-  border-top: 1px solid #E8E3D9;
+  border-top: 1px solid var(--filet);
   margin: 0.35rem 0;
 }
 
@@ -171,7 +175,7 @@ body {
   left: -100%;
   width: 100%;
   height: 100vh;
-  background: #fff;
+  background: var(--papier);
   z-index: 1001;
   transition: left 0.3s ease;
   padding: 2rem;
@@ -188,7 +192,7 @@ body {
   align-items: center;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #E8E3D9;
+  border-bottom: 1px solid var(--filet);
 }
 
 .close-btn {
@@ -196,7 +200,7 @@ body {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: #1C1A17;
+  color: var(--encre);
 }
 
 .nav-menu {
@@ -208,7 +212,7 @@ body {
 }
 
 .nav-menu a {
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
   font-size: 1.1rem;
   display: block;
@@ -216,7 +220,7 @@ body {
 }
 
 .nav-menu a:hover {
-  color: #8A6100;
+  color: var(--bleu);
 }
 
 .nav-submenu {
@@ -231,12 +235,12 @@ body {
 .nav-submenu a {
   font-size: 1.15rem;
   font-weight: normal;
-  color: #1C1A17;
+  color: var(--encre);
   border-bottom: none;
   padding: 0.25rem 0;
 }
 .nav-submenu a:hover {
-  color: #8A6100;
+  color: var(--bleu);
 }
 
 .nav-group {
@@ -247,12 +251,12 @@ body {
   display: flex;
   align-items: baseline;
   gap: 0.6rem;
-  font-family: "Merriweather", Georgia, serif;
+  font-family: var(--font-sans);
   font-size: 1.2rem;
   font-weight: bold;
-  color: #1C1A17;
+  color: var(--encre);
   padding: 0.4rem 0;
-  border-bottom: 2px solid #1C1A17;
+  border-bottom: 2px solid var(--encre);
   margin-bottom: 1rem;
 }
 
@@ -260,7 +264,7 @@ body {
   font-style: normal;
   font-size: 1rem;
   font-weight: bold;
-  color: #8A6100;
+  color: var(--discret);
   font-variant-numeric: tabular-nums;
 }
 
@@ -280,17 +284,17 @@ body {
   top: 0.75rem;
   width: 11px;
   height: 11px;
-  background: #F5B301;
+  background: var(--signal);
 }
 
 .nav-submenu li.is-current > a {
-  color: #1C1A17;
+  color: var(--encre);
   font-weight: bold;
 }
 
 /* Le groupe en cours, en bandeau. */
 .nav-group.is-current-group > .nav-group-title {
-  background: #FBEEC1;
+  background: var(--bleu-voile);
   margin-left: -0.6rem;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
@@ -298,30 +302,30 @@ body {
 
 /* La section en cours : l'ambre passe en encre. */
 .nav-part.is-current-part > .nav-part-title {
-  color: #1C1A17;
+  color: var(--encre);
 }
 
 .nav-part-title {
   display: block;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: #8A6100;
+  color: var(--discret);
   text-decoration: none;
   padding: 0.3rem 0;
   margin-bottom: 0.35rem;
 }
 
 .nav-part-title:hover {
-  color: #1C1A17;
+  color: var(--encre);
 }
 
 .nav-bottom-links {
   margin-top: 2rem;
   padding-top: 1.5rem;
-  border-top: 1px solid #E8E3D9;
+  border-top: 1px solid var(--filet);
   display: flex;
   gap: 0.5rem;
 }
@@ -333,11 +337,11 @@ body {
 
 .nav-version-link {
   display: block;
-  background: #F2EFE9;
+  background: var(--surface);
   padding: 1rem;
   border-radius: 5px;
   text-decoration: none;
-  color: #6B665C;
+  color: var(--discret);
   font-size: 0.95rem;
   padding: 1rem !important;
 }
@@ -345,30 +349,30 @@ body {
 .nav-version-link small {
   display: block;
   font-size: 0.75rem;
-  color: #6B665C;
+  color: var(--discret);
   margin-bottom: 0.25rem;
 }
 
 .nav-version-link:hover {
-  background: #FBEEC1;
-  color: #1C1A17;
+  background: var(--surface);
+  color: var(--encre);
 }
 
 /* Hero Section */
-.hero {
-  background: #FBEEC1;
-  color: #1C1A17;
+.hero:not(.bloc) {
+  background: var(--surface);
+  color: var(--encre);
   padding: 6.5rem 2rem 2.25rem;
   text-align: left;
-  border-bottom: 3px solid #F5B301;
+  border-bottom: 1px solid var(--filet);
 }
 
 .chapter-number {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
-  font-family: "Archivo", system-ui, sans-serif;
-  color: #8A6100;
+  font-family: var(--font-sans);
+  color: var(--discret);
   font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -385,10 +389,10 @@ body {
 }
 
 .chapter-number .card-type {
-  color: #1C1A17;
+  color: var(--encre);
 }
 
-.hero h1 {
+.hero:not(.bloc) h1 {
   font-size: 2.15rem;
   line-height: 1.22;
   letter-spacing: -0.01em;
@@ -397,23 +401,23 @@ body {
   text-wrap: balance;
 }
 
-.hero p {
-  font-family: "Archivo", system-ui, sans-serif;
+.hero:not(.bloc) p {
+  font-family: var(--font-sans);
   font-size: 1.0625rem;
   line-height: 1.55;
-  color: #8A6100;
+  color: var(--texte);
   margin: 0.9rem 0 0;
   max-width: 34em;
 }
 
 /* La signature d'une entree ecrite par quelqu'un d'autre. */
-.hero p.chapter-author {
+.hero:not(.bloc) p.chapter-author {
   font-size: 0.9rem;
   font-weight: 600;
   margin-top: 0.9rem;
 }
 
-.hero p.chapter-author a {
+.hero:not(.bloc) p.chapter-author a {
   color: inherit;
 }
 
@@ -443,11 +447,11 @@ body {
 /* Le bouton plein des pages du livre. Meme dessin que celui de l'accueil,
    mais l'accueil a sa propre feuille : les deux ne partagent pas de regle. */
 .content a.cta-button {
-  background: #1C1A17;
+  background: var(--encre);
   box-shadow: none;
-  color: #fff;
+  color: var(--papier);
   display: inline-block;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.95rem;
   margin-top: 0.4rem;
   padding: 0.72rem 1.15rem;
@@ -455,9 +459,9 @@ body {
 }
 
 .content a.cta-button:hover {
-  background: #1C1A17;
+  background: var(--encre);
   box-shadow: none;
-  outline: 2px solid #F5B301;
+  outline: 2px solid var(--signal);
   outline-offset: 2px;
 }
 
@@ -466,7 +470,7 @@ body {
 }
 
 .prev-chapter a {
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -484,25 +488,25 @@ body {
 }
 
 .container {
-  max-width: 640px;
+  max-width: var(--colonne-livre);
   margin: 0 auto;
 }
 
 .content h1 {
-  color: #1C1A17;
+  color: var(--encre);
   margin-bottom: 1rem;
   font-size: 1.8rem;
   scroll-margin-top: 60px;
 }
 
 .content h2 {
-  color: #1C1A17;
+  color: var(--encre);
   margin: 2rem 0 1rem;
   font-size: 1.4rem;
 }
 
 .content h3 {
-  color: #1C1A17;
+  color: var(--encre);
   margin: 1.5rem 0 0.5rem;
   font-size: 1.2rem;
 }
@@ -520,7 +524,7 @@ body {
 
 .content hr {
   border: 0;
-  border-top: 1px solid #E8E3D9;
+  border-top: 1px solid var(--filet);
   margin: 2.5rem 0;
 }
 
@@ -529,8 +533,8 @@ body {
 }
 
 .content blockquote {
-  background: #FAF7F0;
-  border-left: 4px solid #1C1A17;
+  background: var(--surface);
+  border-left: 4px solid var(--encre);
   padding: 1rem;
   margin: 1.5rem 0;
   font-style: italic;
@@ -545,7 +549,7 @@ body {
 }
 
 .content code {
-  background: #FAF7F0;
+  background: var(--surface);
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
   font-family: "Monaco", "Menlo", "Ubuntu Mono", monospace;
@@ -553,7 +557,7 @@ body {
 }
 
 .content pre {
-  background: #FAF7F0;
+  background: var(--surface);
   padding: 1rem;
   border-radius: 5px;
   overflow-x: auto;
@@ -566,9 +570,9 @@ body {
 }
 
 .content a {
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: underline;
-  text-decoration-color: #F5B301;
+  text-decoration-color: var(--signal);
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
   transition: background 0.15s ease;
@@ -576,9 +580,9 @@ body {
 
 /* Hover fills the mark in, like a highlighter passed over the line */
 .content a:hover {
-  color: #1C1A17;
-  background: #F5B301;
-  box-shadow: 0 0 0 2px #F5B301;
+  color: var(--encre);
+  background: var(--signal);
+  box-shadow: 0 0 0 2px var(--signal);
   text-decoration-color: transparent;
 }
 
@@ -590,20 +594,20 @@ sup a {
 /* The back-reference is navigation, not content: no highlighter on it */
 .content .reversefootnote {
   text-decoration: none;
-  color: #8A6100;
+  color: var(--discret);
   padding: 0 0.2rem;
 }
 
 .content .reversefootnote:hover {
   background: none;
   box-shadow: none;
-  color: #1C1A17;
+  color: var(--encre);
 }
 
 .content .callout {
   padding: 20px;
   margin: 20px 0;
-  border: 1px solid #E8E3D9;
+  border: 1px solid var(--filet);
   border-left-width: 5px;
   border-radius: 3px;
   font-size: 95%;
@@ -611,15 +615,15 @@ sup a {
 }
 
 .content .callout-hint {
-  border-left-color: #5cb85c;
+  border-left-color: var(--parcours-commencer);
 }
 
 .content .callout-example {
-  border-left-color: #5bc0de;
+  border-left-color: var(--bleu);
 }
 
 .content .callout-warning {
-  border-left-color: #f0ad4e;
+  border-left-color: var(--signal);
 }
 
 .reading-time {
@@ -638,28 +642,28 @@ sup a {
 .chapters-list li {
   margin-bottom: 1.5rem;
   padding: 1.5rem;
-  border: 1px solid #E8E3D9;
+  border: 1px solid var(--filet);
   border-radius: 8px;
   transition: box-shadow 0.2s ease;
 }
 
 .chapters-list li:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--ombre-menu);
 }
 
 .chapters-list a {
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
 .chapters-list a:hover {
-  color: #8A6100;
+  color: var(--bleu);
 }
 
 .chapter-description {
-  color: #6B665C;
+  color: var(--discret);
   margin-top: 0.5rem;
   font-size: 0.95rem;
   line-height: 1.5;
@@ -672,7 +676,7 @@ sup a {
   width: 200px;
   height: auto;
   margin: 0.4rem 0 1.25rem 1.75rem;
-  box-shadow: 0 10px 28px rgba(28, 26, 23, 0.18);
+  box-shadow: var(--ombre-menu);
 }
 
 @media (max-width: 600px) {
@@ -686,16 +690,16 @@ sup a {
 
 /* Content Footer */
 .content-footer {
-  background: #FBEEC1;
-  border-top: 3px solid #F5B301;
-  color: #2B2925;
+  background: var(--surface);
+  border-top: 1px solid var(--filet);
+  color: var(--texte);
   padding: 2rem;
   text-align: right;
 }
 
 .next-chapter {
-  font-family: "Archivo", system-ui, sans-serif;
-  color: #1C1A17;
+  font-family: var(--font-sans);
+  color: var(--encre);
   font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
@@ -707,7 +711,7 @@ sup a {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: #8A6100;
+  color: var(--discret);
   margin-bottom: 0.2rem;
 }
 
@@ -724,7 +728,7 @@ sup a {
 
 .prev-link,
 .next-link {
-  background: #1C1A17;
+  background: var(--encre);
   color: white;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
@@ -735,27 +739,27 @@ sup a {
 
 .prev-link:hover,
 .next-link:hover {
-  background: #0D0C0A;
+  background: var(--encre);
 }
 
 .prev-link.disabled,
 .next-link.disabled {
-  background: #CFC9BC;
+  background: var(--filet);
   cursor: not-allowed;
   pointer-events: none;
 }
 
 /* Footer */
 .footer {
-  background: #F2EFE9;
-  color: #1C1A17;
+  background: var(--surface);
+  color: var(--encre);
   opacity: 0.6;
   padding: 1rem 2rem 2rem;
   text-align: left;
 }
 
 .footer h3 {
-  color: #1C1A17;
+  color: var(--encre);
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
@@ -778,13 +782,13 @@ sup a {
 }
 
 .footer-nav a {
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
   font-size: 0.9rem;
 }
 
 .footer-nav a:hover {
-  color: #8A6100;
+  color: var(--bleu);
 }
 
 .copyright {
@@ -801,7 +805,7 @@ sup a {
 }
 
 .copyright a {
-  color: #1C1A17;
+  color: var(--encre);
 }
 
 /* Overlay for mobile menu */
@@ -844,12 +848,12 @@ sup a {
   align-items: center;
   gap: 0.9rem;
   margin: 3rem 0 1.1rem;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 .content--entry h2::after,
@@ -857,7 +861,7 @@ sup a {
   content: "";
   flex: 1;
   height: 1px;
-  background: #E8E3D9;
+  background: var(--filet);
 }
 
 .content--entry h2::before,
@@ -866,14 +870,14 @@ sup a {
   flex: none;
   width: 11px;
   height: 11px;
-  background: #F5B301;
+  background: var(--signal);
 }
 
 /* Les quatre formats gardent la meme grille. Le petit signe change assez pour
    annoncer le mouvement sans transformer les cartes en quatre produits. */
 .content--diagnostic h2::before {
   background: transparent;
-  border: 2px solid #F5B301;
+  border: 2px solid var(--signal);
   transform: rotate(45deg);
 }
 
@@ -882,8 +886,8 @@ sup a {
 }
 
 .content--systeme h2::before {
-  background: #1C1A17;
-  box-shadow: 4px 4px 0 #F5B301;
+  background: var(--encre);
+  box-shadow: 4px 4px 0 var(--signal);
 }
 
 .content--entry h2:first-child,
@@ -898,37 +902,37 @@ sup a {
   margin: 1.25rem 0 2.5rem;
   padding: 0 0 1.5rem;
   border: 0;
-  border-bottom: 1px solid #E8E3D9;
+  border-bottom: 1px solid var(--filet);
   border-radius: 0;
   background: none;
-  font-family: "Merriweather", Georgia, serif;
+  font-family: var(--font-serif);
   font-style: normal;
   font-size: 1.45rem;
   line-height: 1.45;
   font-weight: bold;
-  color: #1C1A17;
+  color: var(--encre);
   text-wrap: pretty;
 }
 
 /* La fiche : les gabarits qu'on est invite a remplir. */
 .content--entry blockquote {
-  background: #FAF7F0;
-  border: 1px solid #EDE6D6;
-  border-left: 3px solid #F5B301;
+  background: var(--surface);
+  border: 1px solid var(--filet);
+  border-left: 3px solid var(--signal);
   padding: 1.15rem 1.3rem;
   margin: 1.6rem 0 1.9rem;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-style: normal;
   font-size: 1.02rem;
   line-height: 1.6;
-  color: #4A463E;
+  color: var(--texte);
 }
 
 /* Le sommaire d'une ouverture de section. */
 .content--section .container > p:first-of-type {
   font-size: 1.34rem;
   line-height: 1.55;
-  color: #1C1A17;
+  color: var(--encre);
 }
 
 .content--section h2 + ul {
@@ -938,7 +942,7 @@ sup a {
 
 .content--section h2 + ul li {
   margin-bottom: 0;
-  border-bottom: 1px solid #EFE9DC;
+  border-bottom: 1px solid var(--filet);
 }
 
 .content--section h2 + ul li a {
@@ -950,9 +954,9 @@ sup a {
 }
 
 .content--section h2 + ul li a:hover {
-  background: #FDFBF6;
+  background: var(--surface);
   box-shadow: none;
-  color: #8A6100;
+  color: var(--bleu);
 }
 
 /* Responsive */
@@ -1020,7 +1024,7 @@ sup a {
 .content .footnotes {
   margin-top: 3rem;
   padding-top: 1.5rem;
-  border-top: 1px solid #E8E3D9;
+  border-top: 1px solid var(--filet);
   font-size: 0.9rem;
   opacity: 0.85;
 }
@@ -1066,11 +1070,11 @@ sup a {
 .partage {
   position: absolute;
   z-index: 999;
-  background: #fff;
-  border: 1px solid #E8E3D9;
-  border-top: 3px solid #F5B301;
-  box-shadow: 0 12px 30px rgba(28, 26, 23, 0.16);
-  font-family: "Archivo", system-ui, sans-serif;
+  background: var(--papier);
+  border: 1px solid var(--filet);
+  border-top: 1px solid var(--filet);
+  box-shadow: var(--ombre-menu);
+  font-family: var(--font-sans);
 }
 
 .partage[hidden] {
@@ -1095,7 +1099,7 @@ sup a {
   font-family: inherit;
   font-size: 0.92rem;
   line-height: 1.35;
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
@@ -1103,12 +1107,12 @@ sup a {
 
 .partage-canaux a + a,
 .partage-canaux a + button {
-  border-left: 1px solid #E8E3D9;
+  border-left: 1px solid var(--filet);
 }
 
 .partage button:hover,
 .partage-canaux a:hover {
-  background: #FBEEC1;
+  background: var(--surface);
 }
 
 .partage-bouton {
@@ -1134,7 +1138,7 @@ sup a {
   padding: 0;
   background: none;
   border: 0;
-  color: #8A6100;
+  color: var(--discret);
   opacity: 0.55;
   cursor: pointer;
 }
@@ -1153,7 +1157,7 @@ sup a {
   .partage-canaux a + a,
   .partage-canaux a + button {
     border-left: 0;
-    border-top: 1px solid #E8E3D9;
+    border-top: 1px solid var(--filet);
   }
 }
 
@@ -1164,15 +1168,15 @@ sup a {
 }
 
 .garder[aria-pressed="true"] svg {
-  fill: #F5B301;
+  fill: var(--signal);
 }
 
 /* Ce que le livre a retenu, sur l'accueil. Une bande plus calme que le pied
    de page : elle s'adresse a celui qui revient, pas a celui qui arrive. */
 .reprise {
-  background: #F2EFE9;
+  background: var(--surface);
   padding: 2rem;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
 }
 
 .reprise[hidden],
@@ -1187,7 +1191,7 @@ sup a {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: #8A6100;
+  color: var(--discret);
   margin-bottom: 0.4rem;
 }
 
@@ -1195,7 +1199,7 @@ sup a {
   display: block;
   font-size: 1.15rem;
   font-weight: 600;
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
 }
 
@@ -1213,12 +1217,12 @@ sup a {
 
 .reprise-gardees a {
   font-size: 0.98rem;
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
 }
 
 .reprise a:hover {
-  color: #8A6100;
+  color: var(--bleu);
 }
 
 /* Le filtre de l'index par symptome. Le champ est ajoute au chargement :
@@ -1229,23 +1233,23 @@ sup a {
   max-width: 26rem;
   margin: 0 0 2rem;
   padding: 0.6rem 0.8rem;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.95rem;
-  color: #1C1A17;
-  background: #fff;
-  border: 1px solid #E8E3D9;
+  color: var(--encre);
+  background: var(--papier);
+  border: 1px solid var(--filet);
   border-radius: 0;
   -webkit-appearance: none;
 }
 
 .filtre-symptomes:focus {
   outline: 0;
-  border-color: #8A6100;
+  border-color: var(--bleu);
 }
 
 .filtre-vide {
-  font-family: "Archivo", system-ui, sans-serif;
-  color: #8A6100;
+  font-family: var(--font-sans);
+  color: var(--discret);
 }
 
 /* Rien ici ne fixe display aujourd'hui, donc [hidden] du navigateur suffit.
@@ -1261,9 +1265,9 @@ sup a {
 /* La note d'une entree. Une bande calme entre le texte et l'entree suivante :
    elle se voit quand on a fini de lire, et jamais pendant. */
 .note {
-  background: #F2EFE9;
+  background: var(--surface);
   padding: 2rem;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
 }
 
 .note[hidden] {
@@ -1276,7 +1280,7 @@ sup a {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 .note-valeurs,
@@ -1290,20 +1294,20 @@ sup a {
   font-family: inherit;
   font-size: 0.92rem;
   padding: 0.5rem 1.1rem;
-  color: #1C1A17;
-  background: #fff;
-  border: 1px solid #E8E3D9;
+  color: var(--encre);
+  background: var(--papier);
+  border: 1px solid var(--filet);
   cursor: pointer;
 }
 
 .note button:hover {
-  background: #FBEEC1;
+  background: var(--surface);
 }
 
 .note button[aria-pressed="true"] {
-  background: #1C1A17;
-  border-color: #1C1A17;
-  color: #fff;
+  background: var(--encre);
+  border-color: var(--encre);
+  color: var(--papier);
 }
 
 .note-suite {
@@ -1323,7 +1327,7 @@ sup a {
   display: block;
   margin: 1.3rem 0 0.9rem;
   font-size: 0.88rem;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 .note-libre textarea {
@@ -1334,9 +1338,9 @@ sup a {
   padding: 0.6rem 0.75rem;
   font-family: inherit;
   font-size: 0.92rem;
-  color: #1C1A17;
-  background: #fff;
-  border: 1px solid #E8E3D9;
+  color: var(--encre);
+  background: var(--papier);
+  border: 1px solid var(--filet);
   border-radius: 0;
   -webkit-appearance: none;
   resize: vertical;
@@ -1344,52 +1348,52 @@ sup a {
 
 .note-libre textarea:focus {
   outline: 0;
-  border-color: #8A6100;
+  border-color: var(--bleu);
 }
 
 .note-envoyer {
-  background: #1C1A17;
-  border-color: #1C1A17;
-  color: #fff;
+  background: var(--encre);
+  border-color: var(--encre);
+  color: var(--papier);
 }
 
 .note-merci {
   margin: 1.2rem 0 0;
   font-size: 0.92rem;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 /* Les discussions. Sur fond papier, plus clair que la note juste au-dessus :
    la note est une reaction, ici on parle. */
 .discussion {
-  background: #FAF7F0;
+  background: var(--surface);
   padding: 2.5rem 2rem;
-  font-family: "Archivo", system-ui, sans-serif;
-  border-top: 1px solid #E8E3D9;
+  font-family: var(--font-sans);
+  border-top: 1px solid var(--filet);
 }
 
 .discussion-titre {
   margin: 0 0 1.2rem;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 .discussion-ouvrir {
   font-family: inherit;
   font-size: 0.92rem;
   padding: 0.5rem 1.1rem;
-  color: #1C1A17;
-  background: #fff;
-  border: 1px solid #E8E3D9;
+  color: var(--encre);
+  background: var(--papier);
+  border: 1px solid var(--filet);
   cursor: pointer;
 }
 
 .discussion-ouvrir:hover {
-  background: #FBEEC1;
+  background: var(--surface);
 }
 
 .discussion-ouvrir[hidden],
@@ -1401,9 +1405,9 @@ sup a {
 
 /* Un avis. La bordure a gauche tient le fil vertical de la conversation. */
 .avis {
-  background: #fff;
-  border: 1px solid #E8E3D9;
-  border-left: 3px solid #E8E3D9;
+  background: var(--papier);
+  border: 1px solid var(--filet);
+  border-left: 3px solid var(--filet);
   padding: 1rem 1.2rem;
   margin-bottom: 1rem;
 }
@@ -1411,12 +1415,12 @@ sup a {
 /* Une reponse de l'auteur porte la marque jaune du livre. Elle se distingue
    sans se hausser : c'est la meme conversation. */
 .avis--auteur {
-  border-left-color: #F5B301;
+  border-left-color: var(--signal);
 }
 
 .avis--reponse {
   margin: 1rem 0 0 1.2rem;
-  background: #FAF7F0;
+  background: var(--surface);
 }
 
 .avis-qui {
@@ -1427,17 +1431,17 @@ sup a {
   margin: 0 0 0.5rem;
   font-size: 0.92rem;
   font-weight: 600;
-  color: #1C1A17;
+  color: var(--encre);
 }
 
 .avis-qui a {
-  color: #1C1A17;
+  color: var(--encre);
 }
 
 .avis-qui small {
   font-size: 0.76rem;
   font-weight: normal;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 .avis-texte p {
@@ -1455,8 +1459,8 @@ sup a {
 .discussion-passage {
   margin: 0 0 0.8rem;
   padding: 0.6rem 0.9rem;
-  background: #FBEEC1;
-  border-left: 3px solid #F5B301;
+  background: var(--surface);
+  border-left: 3px solid var(--signal);
   font-size: 0.9rem;
   font-style: italic;
   line-height: 1.55;
@@ -1467,7 +1471,7 @@ sup a {
   padding: 0;
   font-family: inherit;
   font-size: 0.82rem;
-  color: #8A6100;
+  color: var(--discret);
   background: none;
   border: 0;
   text-decoration: underline;
@@ -1476,16 +1480,16 @@ sup a {
 
 .discussion-boite {
   margin-top: 1.4rem;
-  background: #fff;
-  border: 1px solid #E8E3D9;
-  border-top: 3px solid #F5B301;
+  background: var(--papier);
+  border: 1px solid var(--filet);
+  border-top: 1px solid var(--filet);
   padding: 1.4rem;
 }
 
 .discussion-filtre {
   margin: 0 0 1.2rem;
   font-size: 0.88rem;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 .discussion-form label,
@@ -1494,7 +1498,7 @@ sup a {
   margin-bottom: 0.35rem;
   font-size: 0.88rem;
   font-weight: 500;
-  color: #1C1A17;
+  color: var(--encre);
 }
 
 .discussion-form fieldset {
@@ -1505,7 +1509,7 @@ sup a {
 
 .discussion-form legend {
   font-weight: normal;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 .discussion-form label.discussion-radio {
@@ -1524,9 +1528,9 @@ sup a {
   padding: 0.55rem 0.7rem;
   font-family: inherit;
   font-size: 0.93rem;
-  color: #1C1A17;
-  background: #fff;
-  border: 1px solid #E8E3D9;
+  color: var(--encre);
+  background: var(--papier);
+  border: 1px solid var(--filet);
   border-radius: 0;
   -webkit-appearance: none;
 }
@@ -1540,7 +1544,7 @@ sup a {
 .discussion-form select:focus,
 .discussion-form textarea:focus {
   outline: 0;
-  border-color: #8A6100;
+  border-color: var(--bleu);
 }
 
 /* Les trois champs d'identite tiennent sur une ligne des qu'il y a la place :
@@ -1570,15 +1574,15 @@ sup a {
   font-size: 0.93rem;
   font-weight: 500;
   padding: 0.6rem 1.3rem;
-  color: #fff;
-  background: #1C1A17;
-  border: 1px solid #1C1A17;
+  color: var(--papier);
+  background: var(--encre);
+  border: 1px solid var(--encre);
   cursor: pointer;
 }
 
 .discussion-actions button:hover {
-  background: #8A6100;
-  border-color: #8A6100;
+  background: var(--bleu);
+  border-color: var(--bleu);
 }
 
 .discussion-actions button:disabled {
@@ -1589,7 +1593,7 @@ sup a {
 .discussion-etat,
 .discussion-merci {
   font-size: 0.9rem;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 /* La porte de sortie. Ce qui doit changer dans le texte n'a rien a faire
@@ -1597,11 +1601,11 @@ sup a {
 .discussion-ailleurs {
   margin: 1.8rem 0 0;
   font-size: 0.88rem;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 .discussion-ailleurs a {
-  color: #8A6100;
+  color: var(--discret);
 }
 
 /* Le contact, mail ou WhatsApp. L'indicatif ne se montre qu'avec WhatsApp.
@@ -1631,7 +1635,7 @@ sup a {
 
 .contact-indicatif {
   font-size: 0.82rem;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 /* L'habillage natif d'un select impose sa propre hauteur et ses coins
@@ -1643,7 +1647,7 @@ sup a {
   appearance: none;
   line-height: 1.5;
   padding-right: 2.1rem;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' stroke='%238A6100' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1l4 4 4-4'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' stroke='%235a6472' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1l4 4 4-4'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 0.75rem center;
 }
@@ -1676,9 +1680,9 @@ sup a {
   display: block;
   padding: 0.3rem 0.7rem;
   border-radius: 2px;
-  background: #C0392B;
-  color: #fff;
-  font-family: "Archivo", system-ui, sans-serif;
+  background: var(--signal);
+  color: var(--papier);
+  font-family: var(--font-sans);
   font-size: 0.65rem;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -1692,10 +1696,10 @@ sup a {
 .nav-menu--site .nav-site-group { margin-top: 1.25rem; }
 .nav-menu--site .nav-submenu { padding-left: 1rem; }
 .nav-menu--site a[aria-current="page"] {
-  color: #8A6100;
+  color: var(--encre);
   font-weight: bold;
   text-decoration: underline;
-  text-decoration-color: #F5B301;
+  text-decoration-color: var(--signal);
   text-underline-offset: 0.3em;
 }
 
@@ -1708,8 +1712,8 @@ sup a {
    ------------------------------------------------------------------ */
 
 .bande {
-  background: #FBEEC1;
-  border-bottom: 3px solid #F5B301;
+  background: var(--surface);
+  border-bottom: 1px solid var(--filet);
   padding: 6.5rem 0 2.25rem;
 }
 
@@ -1717,7 +1721,7 @@ sup a {
    meme marge. Les pages en layout `page` lisent plus etroit, d'ou le
    modificateur plus bas. */
 .bande-corps {
-  max-width: 48rem;
+  max-width: var(--colonne-prose);
   margin: 0 auto;
   padding: 0 1.25rem;
   display: flex;
@@ -1731,12 +1735,12 @@ sup a {
 }
 
 .bande-surtitre {
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #8A6100;
+  color: var(--discret);
   margin-bottom: 1rem;
 }
 
@@ -1750,7 +1754,7 @@ sup a {
 }
 
 .bande-titre {
-  color: #1C1A17;
+  color: var(--encre);
   font-size: 2.15rem;
   font-weight: bold;
   line-height: 1.22;
@@ -1760,10 +1764,10 @@ sup a {
 }
 
 .bande-accroche {
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 1.0625rem;
   line-height: 1.55;
-  color: #8A6100;
+  color: var(--texte);
   margin: 0.9rem 0 0;
   max-width: 34em;
 }
@@ -1777,35 +1781,6 @@ sup a {
   margin-top: 1.6rem;
 }
 
-.bande-bouton {
-  display: inline-flex;
-  align-items: center;
-  min-height: 44px;
-  padding: 0 1.25rem;
-  background: #1C1A17;
-  border: 1px solid #1C1A17;
-  color: #fff;
-  font-family: "Archivo", system-ui, sans-serif;
-  font-size: 0.9375rem;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.bande-bouton--calme {
-  background: transparent;
-  color: #1C1A17;
-}
-
-.bande-bouton:hover,
-.bande-bouton:focus-visible {
-  outline: 2px solid #F5B301;
-  outline-offset: 2px;
-}
-
-.bande-bouton--calme:hover {
-  background: #F5B301;
-}
-
 /* L'index par situation cherche dans la bande, pas sous le premier groupe. */
 .bande-filtre {
   margin-top: 1.6rem;
@@ -1816,12 +1791,12 @@ sup a {
   min-height: 44px;
   /* Le filet clair du corps de page disparait sur la bande : sur le jaune,
      le champ se tient au trait d'encre, comme les boutons a cote. */
-  border-color: #1C1A17;
+  border-color: var(--encre);
 }
 
 .bande-cote {
   flex: 0 0 10rem;
-  border-left: 1px solid #E2D4A7;
+  border-left: 1px solid var(--filet);
   padding-left: 1.5rem;
   margin-top: 0.35rem;
 }
@@ -1833,21 +1808,21 @@ sup a {
   width: 8rem;
   height: auto;
   margin-bottom: 1.1rem;
-  border: 1px solid #E2D4A7;
+  border: 1px solid var(--filet);
 }
 
 .bande-meta {
   margin: 0;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
 }
 
 /* Sous une couverture, les chiffres tiennent sur une ligne : la liste de
    definitions allongerait la colonne bien au-dela du titre. */
 .bande-legende {
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.82rem;
   line-height: 1.45;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 .bande-meta dt {
@@ -1855,13 +1830,13 @@ sup a {
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 .bande-meta dd {
   margin: 0.2rem 0 1.15rem;
   font-size: 0.95rem;
-  color: #1C1A17;
+  color: var(--encre);
 }
 
 .bande-meta dd:last-child {
@@ -1870,12 +1845,12 @@ sup a {
 
 /* Le rail : les titres de la page en tete, comme l'index d'un livre. */
 .rail {
-  background: #F2EFE9;
-  border-bottom: 1px solid #E8E3D9;
+  background: var(--surface);
+  border-bottom: 1px solid var(--filet);
 }
 
 .rail-corps {
-  max-width: 48rem;
+  max-width: var(--colonne-prose);
   margin: 0 auto;
   padding: 0 1.25rem;
   display: flex;
@@ -1903,16 +1878,16 @@ sup a {
   align-items: baseline;
   gap: 0.55rem;
   padding: 0.85rem 0;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.875rem;
   line-height: 1.3;
-  color: #1C1A17;
+  color: var(--encre);
   text-decoration: none;
 }
 
 .rail-item:hover span:last-child {
   text-decoration: underline;
-  text-decoration-color: #F5B301;
+  text-decoration-color: var(--signal);
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
@@ -1922,7 +1897,7 @@ sup a {
   font-size: 0.62rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: #8A6100;
+  color: var(--discret);
 }
 
 /* Certaines pages ouvrent sur un avertissement : un cas construit annonce
@@ -1931,10 +1906,10 @@ sup a {
    qu'elle est. */
 .avertissement .landing-wrap > p:first-child,
 .avertissement .container > p:first-child {
-  background: #FAF7F0;
-  border-left: 3px solid #F5B301;
+  background: var(--surface);
+  border-left: 3px solid var(--signal);
   padding: 0.9rem 1.1rem;
-  font-family: "Archivo", system-ui, sans-serif;
+  font-family: var(--font-sans);
   font-size: 0.95rem;
   line-height: 1.6;
 }
@@ -1960,7 +1935,7 @@ sup a {
     flex-direction: column;
   }
 
-  .bande-actions .bande-bouton {
+  .bande-actions .bouton {
     justify-content: center;
   }
 
@@ -1968,7 +1943,7 @@ sup a {
   .bande-cote {
     flex: 0 0 auto;
     border-left: 0;
-    border-top: 1px solid #E2D4A7;
+    border-top: 1px solid var(--filet);
     padding: 1rem 0 0;
     margin-top: 0;
   }
@@ -1996,4 +1971,116 @@ sup a {
   .rail-corps {
     column-gap: 1.5rem;
   }
+}
+
+/* La colonne de prose du site.
+   ----------------------------------------------------------------------
+   Les pages de ressource : le gabarit `page`, la bande d'entree, le rail,
+   puis cette colonne. Elle est alignee sur la bande et le rail, a 48rem,
+   pour que le bord gauche du texte tombe sous le bord gauche du titre. */
+
+.content--prose .container {
+  max-width: var(--colonne-prose);
+}
+
+/* `.content` donne 2rem 1rem : en ne redefinissant que le vertical on
+   supprimait la gouttiere laterale, et le texte touchait le bord sur
+   telephone. Les quatre valeurs sont donc ecrites. */
+.content--prose {
+  padding: 3rem var(--gouttiere-mobile) 4rem;
+}
+
+@media (min-width: 768px) {
+  .content--prose { padding-inline: var(--espace-8); }
+}
+
+/* Un tableau large defile dans son coin plutot que de pousser la page. */
+.content--prose table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+/* L'en-tete est fixe : une ancre doit s'arreter en dessous. */
+.content--prose h2,
+.content--prose h3 {
+  scroll-margin-top: 6rem;
+}
+
+/* La colonne de lecture du livre.
+   ----------------------------------------------------------------------
+   Le site lit en Archivo, le livre en Merriweather. C'est la seule chose
+   qui separe les deux objets sans qu'on ait besoin de l'expliquer.
+
+   Le gabarit `chapter` pose `content--livre` sur ses deux blocs de prose,
+   le corps de la carte et ses notes. Une page de ressource n'a que
+   `content` : elle reste en sans, et descend a 17px, la taille du site.
+   Le livre garde ses 19px.
+
+   Jetons : var(--font-serif), var(--font-sans). Voir tokens.css. */
+
+.content--livre {
+  font-family: var(--font-serif);
+  line-height: 1.75;
+}
+
+/* Le titre d'une carte tenait sa serif de `body`. Depuis l'inversion il faut
+   la lui redonner : la bande de titre du gabarit `chapter` est en dehors de
+   la colonne de lecture. Le reste de cette bande — le fil d'ariane, la
+   duree, l'auteur — est deja en sans et le reste. */
+.hero:not(.bloc) h1 {
+  font-family: var(--font-serif);
+}
+
+.content:not(.content--livre) {
+  font-size: 1.0625rem;
+}
+
+/* La couverture dans le hero de la page du livre. Elle a sa propre taille :
+   c'est un objet, pas une illustration de bande. */
+.hero-couverture {
+  border: 1px solid var(--filet);
+  justify-self: center;
+  max-width: 17rem;
+}
+
+/* Une scene dans la bande d'entree. Elle n'a pas la taille d'une couverture :
+   c'est un dessin large, au meme trait que les reperes du livre. */
+.bande-cote--scene {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.bande-scene {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 20rem;
+}
+
+@media (max-width: 720px) {
+  .bande-scene { margin-inline: auto; width: 15rem; }
+}
+
+
+/* Les composants dans une colonne de prose.
+   ----------------------------------------------------------------------
+   `.content a` souligne tous les liens au marqueur, ce qui est juste dans
+   un paragraphe et faux sur une carte : la carte entiere est un lien, et
+   tout son texte se retrouverait souligne. */
+
+.content .carte-parcours,
+.content .carte-livre,
+.content .carte-parcours:hover,
+.content .carte-livre:hover {
+  background: var(--papier);
+  text-decoration: none;
+}
+
+.content .grille { margin: var(--espace-8) 0; }
+
+/* Aucune image ne fait defiler la page horizontalement, a aucune largeur. */
+img {
+  height: auto;
+  max-width: 100%;
 }

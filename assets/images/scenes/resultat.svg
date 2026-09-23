@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-label="Une carte retenue devant une pile de pistes">
+  <g fill="none" stroke="#0f1319" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="52" y="60" width="152" height="200" />
+    <path d="M78 104h100M78 136h100M78 168h64" />
+    <rect x="236" y="44" width="192" height="52" fill="#e9f0fc" />
+    <path d="M262 70h96" />
+    <rect x="236" y="116" width="192" height="52" />
+    <path d="M262 142h140" />
+    <rect x="236" y="188" width="192" height="52" />
+    <path d="M262 214h116" />
+    <path d="M204 160h32" />
+    <path d="M236 276h80" />
+  </g>
+</svg>

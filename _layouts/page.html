@@ -16,12 +16,23 @@
     <!-- Overlay -->
     <div class="overlay" id="overlay" data-bascule-menu></div>
 
-    <!-- La bande d'entree -->
-    {% include bande.html etroite=true %}
+    <!-- La bande d'entree, puis le rail des sections -->
+    {% include bande.html %}
 
-    <!-- Content -->
-    <main class="content{% if page.avertissement %} avertissement{% endif %}">
-      <div class="container">{{content}}</div>
+    <!--
+      La colonne de prose du site. Elle porte `content--prose` : la largeur
+      de lecture des pages de ressource, alignee sur la bande et le rail.
+      Le livre, lui, prend `content--livre` dans le gabarit `chapter`, plus
+      etroit et en serif.
+
+      `data-filtre-symptomes` n'est pose que par l'index par situation :
+      lecture.js y accroche le champ de filtre au chargement.
+    -->
+    <main
+      class="content content--prose{% if page.avertissement %} avertissement{% endif %}"
+      {%- if page.filtre_symptomes %} data-filtre-symptomes="{{ t.lecture.filtre }}" data-filtre-vide="{{ t.lecture.filtre_vide }}"{% endif %}
+    >
+      <div class="container">{{ content }}</div>
     </main>
 
     {% include reprise.html %}

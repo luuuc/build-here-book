@@ -517,6 +517,44 @@
   const scale = ["Pas du tout d'accord", "Plutôt pas d'accord", "Un peu en désaccord", "Un peu d'accord", "Plutôt d'accord", "Tout à fait d'accord"];
   // Les phrases de la piste. Elles etaient ecrites dans plan() ; elles en sont
   // sorties le jour ou le test s'est decline en deux langues.
+
+  // Les libelles de l'interface du test. Ils vivaient en dur dans
+  // test-builder.js, ce qui faisait parler francais a la version anglaise.
+  const ui = {
+    etape: (n, total, nb) => `Étape ${n} sur ${total} · ${nb} affirmations`,
+    progression: "Progression du test",
+    consigne: "Pense à ce que tu fais aujourd'hui, dans tes études, ton activité, une association ou un projet personnel. Choisis une position sur l'échelle ; si tu n'as pas rencontré la situation, indique-le à part.",
+    nonRencontree: "Je n'ai pas encore rencontré cette situation",
+    conditionsManquantes: "Les conditions m'ont manqué pour essayer",
+    precedent: "Précédent",
+    continuer: "Continuer",
+    voirPistes: "Voir mes pistes",
+    reponses: (n, total) => `${n} réponse${n > 1 ? "s" : ""} sur ${total}`,
+    resultatTitre: "Comment construis-tu aujourd'hui ?",
+    resultatLede: "Tes réponses ouvrent des pistes de lecture. Elles ne décident pas si tu es un builder et ne mesurent pas tes capacités. Choisis le sujet qui t'aiderait maintenant.",
+    intentionLegende: "Pour adapter la suite, que veux-tu faire ?",
+    directions: {
+      deepen: "Tu reconnais ces gestes dans ta pratique : explore leurs limites ou un autre contexte.",
+      revisit: "Tu reconnais moins ces gestes : choisis un premier ajustement si ce sujet t'intéresse.",
+      explore: "Tes réponses varient selon les situations : choisis un cas concret à examiner.",
+      discover: "Tu as peu de situations vécues sur ce sujet : commence par un exemple ou un premier essai."
+    },
+    nonRencontrees: (n) => `${n} situation${n > 1 ? "s" : ""} non rencontrée${n > 1 ? "s" : ""}, sans jugement.`,
+    conditionsOntManque: (n) => `${n} situation${n > 1 ? "s" : ""} où les conditions ont manqué.`,
+    explorer: "Explorer cette piste →",
+    clarifier: "Clarifier les conditions →",
+    revoir: "Revoir les réponses",
+    planRaison: (nom) => `Tu as choisi ${nom} après avoir parcouru les affirmations. Voici une proposition à adapter à ta situation.`,
+    planLede: "Tu as choisi cette piste à partir de tes réponses. Le test ne pose aucun diagnostic.",
+    troisCartes: "Trois cartes pour aller plus loin",
+    lire: "Lire →",
+    autrePiste: "Choisir une autre piste",
+    copier: "Copier ma piste",
+    copierLabel: "Texte de ta piste à copier",
+    copiee: "Piste copiée.",
+    copieEchouee: "La copie automatique n'a pas abouti. Sélectionne et copie le texte ci-dessous."
+  };
+
   const textes = {
     titre: (nom) => `Une piste que tu as choisie : ${nom}`,
     raison: (question, choix) => `Tu as retenu « ${question} » et « ${choix} ». Voici une proposition à adapter à ta situation.`,
@@ -551,7 +589,7 @@
     disclaimer: "Cette piste est une suggestion de lecture et de pratique, pas un niveau ni une évaluation de tes capacités."
   };
   const contenu = { questions, capabilities, answerOptions, intentions, conditions, modeLabels,
-    memoryNotice, statements, scale, beginner, templates, method, textes };
+    memoryNotice, statements, scale, beginner, templates, method, textes, ui };
   if (typeof module !== "undefined" && module.exports) module.exports = contenu;
   else scope.BuilderTestContenu = contenu;
 })(globalThis);

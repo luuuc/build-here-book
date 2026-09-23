@@ -1,7 +1,7 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 permalink: /parcours/
+bande_scene: /assets/images/scenes/parcours.svg
 title: "Choisir ton parcours"
 description: "Quatre façons de commencer, selon ce que tu veux faire"
 metadata:
@@ -27,10 +27,7 @@ traductions:
 
 Choisis ce que tu veux faire maintenant. Chaque parcours propose trois cartes : commence par celle qui te sera utile cette semaine. Tu peux changer de parcours selon le projet, les personnes et le temps dont tu disposes.
 
-- [Je veux commencer](#parcours-commencer)
-- [Je veux progresser](#parcours-progresser)
-- [Je veux faire grandir mon équipe](#parcours-equipe)
-- [Je veux soutenir des builders](#parcours-soutenir)
+{% include parcours.html %}
 
 Si tu as déjà une difficulté précise en tête, l'[index par situation](/situations/) te mène directement aux cartes concernées. Tous ces chemins sont accessibles sans passer le test.
 

@@ -178,15 +178,26 @@ tirage:
 # Les quatre parcours, repris dans le corps de plusieurs pages.
 parcours:
   url: "/parcours/"
+  suite: "Trois cartes et un premier essai"
+  # `cle` est stable d'une langue a l'autre : elle porte la couleur du
+  # parcours dans la carte. L'ancre, elle, suit la langue de la page.
   items:
-    - ancre: parcours-commencer
+    - cle: commencer
+      ancre: parcours-commencer
       titre: "Je veux commencer"
-    - ancre: parcours-progresser
+      texte: "Tu cherches par où prendre le problème. Une personne à aider, un projet personnel, une association : un besoin que tu peux observer suffit."
+    - cle: progresser
+      ancre: parcours-progresser
       titre: "Je veux progresser"
-    - ancre: parcours-equipe
+      texte: "Tu construis déjà. Reconnaître tes acquis, choisir une difficulté ou approfondir une force, et transmettre si ça sert."
+    - cle: equipe
+      ancre: parcours-equipe
       titre: "Je veux faire grandir mon équipe"
-    - ancre: parcours-soutenir
+      texte: "Créer les conditions de l'initiative, accompagner l'apprentissage et vérifier l'effet de vos décisions."
+    - cle: soutenir
+      ancre: parcours-soutenir
       titre: "Je veux soutenir des builders"
+      texte: "Donner du temps, des moyens, des occasions de pratiquer et des retours, sans diriger le travail."
 
 # Les fichiers lus par les machines : book.json et llms.txt.
 machine:

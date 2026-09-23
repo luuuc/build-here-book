@@ -1,8 +1,8 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 lang: en
 permalink: /en/paths/
+bande_scene: /assets/images/scenes/parcours.svg
 traductions:
   fr: /parcours/
 title: "Choose your path"
@@ -24,10 +24,7 @@ bande_actions:
 
 Choose what you want to do now. Each path offers three cards: start with the one that will serve you this week. You can change path as the project, the people, and the time you have change.
 
-- [I want to start](#path-start)
-- [I want to get better](#path-improve)
-- [I want to grow my team](#path-team)
-- [I want to back other builders](#path-support)
+{% include parcours.html %}
 
 If you already have a precise difficulty in mind, the [index by situation](/en/situations/) takes you straight to the cards involved. All these routes are open without taking the test.
 

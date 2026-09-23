@@ -1,7 +1,7 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 permalink: /methode-du-test/
+bande_scene: /assets/images/scenes/resultat.svg
 title: "Comment fonctionne le test"
 description: "Dix étapes pour explorer tes pratiques et choisir une suite"
 metadata:

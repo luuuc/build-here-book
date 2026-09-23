@@ -378,6 +378,44 @@
   };
   const scale = ["Strongly disagree", "Mostly disagree", "Slightly disagree", "Slightly agree", "Mostly agree", "Strongly agree"];
   // The words of the line of work. They live here, not in the rules.
+
+  // The test's interface labels. They used to be hard-coded French inside
+  // test-builder.js, which made this English build speak French.
+  const ui = {
+    etape: (n, total, nb) => `Step ${n} of ${total} · ${nb} statements`,
+    progression: "Test progress",
+    consigne: "Think about what you do today, in your studies, your activity, a community group or a personal project. Pick a position on the scale; if you have not met the situation, say so separately.",
+    nonRencontree: "I have not met this situation yet",
+    conditionsManquantes: "The conditions were missing for me to try",
+    precedent: "Back",
+    continuer: "Continue",
+    voirPistes: "See my lines of work",
+    reponses: (n, total) => `${n} answer${n > 1 ? "s" : ""} of ${total}`,
+    resultatTitre: "How do you build today?",
+    resultatLede: "Your answers open lines of reading. They do not decide whether you are a builder and they do not measure your capabilities. Pick the subject that would help you now.",
+    intentionLegende: "To fit what comes next, what do you want to do?",
+    directions: {
+      deepen: "You recognise these moves in your practice: explore their limits or another context.",
+      revisit: "You recognise these moves less: pick a first adjustment if the subject interests you.",
+      explore: "Your answers vary with the situation: pick one concrete case to examine.",
+      discover: "You have few lived situations here: start with an example or a first attempt."
+    },
+    nonRencontrees: (n) => `${n} situation${n > 1 ? "s" : ""} not met, with no judgement.`,
+    conditionsOntManque: (n) => `${n} situation${n > 1 ? "s" : ""} where the conditions were missing.`,
+    explorer: "Explore this line →",
+    clarifier: "Clarify the conditions →",
+    revoir: "Review the answers",
+    planRaison: (nom) => `You chose ${nom} after going through the statements. Here is a proposal to adapt to your situation.`,
+    planLede: "You chose this line from your answers. The test makes no diagnosis.",
+    troisCartes: "Three cards to go further",
+    lire: "Read →",
+    autrePiste: "Choose another line",
+    copier: "Copy my line",
+    copierLabel: "Text of your line, to copy",
+    copiee: "Line copied.",
+    copieEchouee: "Automatic copy did not work. Select and copy the text below."
+  };
+
   const textes = {
     titre: (nom) => `A line of work you chose: ${nom}`,
     raison: (question, choix) => `You kept "${question}" and "${choix}". Here is a proposal to adapt to your situation.`,
@@ -412,7 +450,7 @@
     disclaimer: "This line of work is a suggestion for reading and practice, not a level or an assessment of what you can do."
   };
   const contenu = { questions, capabilities, answerOptions, intentions, conditions, modeLabels,
-    memoryNotice, statements, scale, beginner, templates, method, textes };
+    memoryNotice, statements, scale, beginner, templates, method, textes, ui };
   if (typeof module !== "undefined" && module.exports) module.exports = contenu;
   else scope.BuilderTestContenu = contenu;
 })(globalThis);

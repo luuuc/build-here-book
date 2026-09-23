@@ -1,11 +1,15 @@
+/* Le tirage. Meme palette que le site depuis le 22/09/2026 : les valeurs
+   sont ecrites en clair, pas en jetons, parce que ce fichier voyage seul
+   dans un rendu PDF ou une liseuse. La table des correspondances est en
+   tete de style.css. */
 /* Feuille de style du tirage PDF (WeasyPrint). Le site ne la charge pas.
 
    Format A4 exact, pour que l'impression ne recadre ni ne reduise rien. Ce qui
    est colore va jusqu'au bord de la feuille : la couverture, les pages de
    partie, les bandeaux d'ouverture de section.
 
-   Palette identique au site : encre #1C1A17, bandeau #FBEEC1, signal #F5B301,
-   ambre #8A6100, papier #FAF7F0, filet #E8E3D9, texte #2B2925. */
+   Palette identique au site : encre #0f1319, bandeau #f3f5f8, signal #e24e12,
+   ambre #5a6472, papier #f3f5f8, filet #dfe4ea, texte #272e38. */
 
 @font-face { font-family: "Merriweather"; font-weight: 400; font-style: normal; src: url("../fonts/Merriweather-Regular.ttf"); }
 @font-face { font-family: "Merriweather"; font-weight: 700; font-style: normal; src: url("../fonts/Merriweather-Bold.ttf"); }
@@ -24,15 +28,15 @@
   /* Le titre courant s'efface sur la page ou le titre est imprime :
      c'est le role de first-except. */
   @top-left { font-family: "Archivo", sans-serif; font-size: 8pt; font-weight: 600;
-              letter-spacing: 0.14em; text-transform: uppercase; color: #8C8375;
+              letter-spacing: 0.14em; text-transform: uppercase; color: #5a6472;
               vertical-align: bottom; padding-bottom: 6mm; }
   @top-right { font-family: "Archivo", sans-serif; font-size: 8pt; font-weight: 600;
-               letter-spacing: 0.14em; text-transform: uppercase; color: #8C8375;
+               letter-spacing: 0.14em; text-transform: uppercase; color: #5a6472;
                vertical-align: bottom; padding-bottom: 6mm; text-align: right; }
   @bottom-left { font-family: "Archivo", sans-serif; font-size: 9.5pt; font-weight: 600;
-                 color: #8A6100; vertical-align: top; padding-top: 7mm; }
+                 color: #5a6472; vertical-align: top; padding-top: 7mm; }
   @bottom-right { font-family: "Archivo", sans-serif; font-size: 9.5pt; font-weight: 600;
-                  color: #8A6100; vertical-align: top; padding-top: 7mm; text-align: right; }
+                  color: #5a6472; vertical-align: top; padding-top: 7mm; text-align: right; }
 }
 
 /* Marge interieure plus large que la marge exterieure : la reliure mange du papier. */
@@ -61,12 +65,12 @@
 /* Couverture et pages de partie : encre bord a bord, aucun repere. */
 @page cover {
   margin: 0;
-  background: #1C1A17;
+  background: #0f1319;
 }
 
 @page part {
   margin: 0;
-  background: #1C1A17;
+  background: #0f1319;
   @top-left { content: none; }
   @top-right { content: none; }
   @bottom-left { content: none; }
@@ -86,7 +90,7 @@ html {
   font-family: "Merriweather", Georgia, serif;
   font-size: 12pt;
   line-height: 1.62;
-  color: #2B2925;
+  color: #272e38;
   hyphens: none;
   orphans: 2;
   widows: 2;
@@ -94,8 +98,8 @@ html {
 
 body { margin: 0; }
 p { margin: 0 0 0.85em; }
-a { color: #1C1A17; text-decoration: none; }
-strong { font-weight: 700; color: #1C1A17; }
+a { color: #0f1319; text-decoration: none; }
+strong { font-weight: 700; color: #0f1319; }
 em { font-style: italic; }
 
 /* -------------------------------------------------------------- couverture */
@@ -129,14 +133,14 @@ em { font-style: italic; }
   font-weight: 600;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #8A6100;
+  color: #5a6472;
   margin: 0;
 }
 
 .front-rule {
   width: 20mm;
   height: 3px;
-  background: #F5B301;
+  background: #e24e12;
   margin: 16mm 0 8mm;
 }
 
@@ -145,7 +149,7 @@ em { font-style: italic; }
   font-weight: 700;
   line-height: 0.96;
   letter-spacing: -0.03em;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 0;
   bookmark-level: none;
 }
@@ -154,7 +158,7 @@ em { font-style: italic; }
   font-family: "Archivo", sans-serif;
   font-size: 12.5pt;
   line-height: 1.5;
-  color: #6B6355;
+  color: #5a6472;
   margin: 7mm 0 0;
   max-width: 17em;
 }
@@ -163,7 +167,7 @@ em { font-style: italic; }
   font-family: "Archivo", sans-serif;
   font-size: 12.5pt;
   font-weight: 600;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 0;
 }
 
@@ -173,7 +177,7 @@ em { font-style: italic; }
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #8C8375;
+  color: #5a6472;
   margin: 3mm 0 0;
 }
 
@@ -181,12 +185,12 @@ em { font-style: italic; }
   font-family: "Archivo", sans-serif;
   font-size: 9.6pt;
   line-height: 1.72;
-  color: #6B6355;
+  color: #5a6472;
 }
 
 .colophon p { margin: 0 0 0.7em; }
-.colophon a { color: #8A6100; }
-.colophon strong { color: #1C1A17; font-weight: 600; }
+.colophon a { color: #5a6472; }
+.colophon strong { color: #0f1319; font-weight: 600; }
 
 /* ------------------------------------------------------------- sommaire */
 
@@ -196,10 +200,10 @@ em { font-style: italic; }
   font-size: 30pt;
   font-weight: 700;
   letter-spacing: -0.02em;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 0 0 12mm;
   padding-bottom: 4mm;
-  border-bottom: 3px solid #F5B301;
+  border-bottom: 3px solid #e24e12;
   bookmark-level: 1;
   bookmark-label: "Sommaire";
 }
@@ -212,16 +216,16 @@ em { font-style: italic; }
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 0 0 5mm;
   padding-top: 3mm;
-  border-top: 1px solid #E8E3D9;
+  border-top: 1px solid #dfe4ea;
   break-after: avoid;
 }
 
 .toc-group-title em {
   font-style: normal;
-  color: #8A6100;
+  color: #5a6472;
   margin-right: 0.5em;
 }
 
@@ -239,23 +243,23 @@ em { font-style: italic; }
   font-family: "Archivo", sans-serif;
   font-size: 9.4pt;
   font-weight: 600;
-  color: #8A6100;
+  color: #5a6472;
 }
 
 .toc-group-title a { color: inherit; }
-.toc-group-title a::after { color: #8A6100; }
+.toc-group-title a::after { color: #5a6472; }
 
 .toc-section > a {
   font-weight: 700;
   font-size: 12pt;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 5mm 0 1.5mm;
 }
 
 .toc-entry a {
   font-size: 10.4pt;
   line-height: 1.5;
-  color: #2B2925;
+  color: #272e38;
   padding-left: 7mm;
 }
 
@@ -263,14 +267,14 @@ em { font-style: italic; }
   font-family: "Archivo", sans-serif;
   font-size: 8.6pt;
   font-weight: 600;
-  color: #8C8375;
+  color: #5a6472;
   margin-right: 0.45em;
 }
 
 .toc-flat a {
   font-weight: 700;
   font-size: 12pt;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 2mm 0;
 }
 
@@ -292,14 +296,14 @@ em { font-style: italic; }
   font-size: 30pt;
   font-weight: 700;
   letter-spacing: 0.2em;
-  color: #F5B301;
+  color: #e24e12;
   margin: 0;
 }
 
 .part-rule {
   width: 20mm;
   height: 3px;
-  background: #F5B301;
+  background: #e24e12;
   margin: 10mm 0;
 }
 
@@ -332,26 +336,26 @@ em { font-style: italic; }
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #8A6100;
+  color: #5a6472;
   margin: 0 0 3mm;
 }
 
 .chapter-kicker span + span::before {
   content: "/";
   margin: 0 0.5em;
-  color: #C9C2B4;
+  color: #dfe4ea;
 }
 
-.chapter--diagnostic .chapter-head { border-top: 1.2mm solid #F5B301; padding-top: 4mm; }
-.chapter--pratique .chapter-head { border-top: 1.2mm dotted #8A6100; padding-top: 4mm; }
-.chapter--systeme .chapter-head { border-top: 1.2mm double #1C1A17; padding-top: 4mm; }
+.chapter--diagnostic .chapter-head { border-top: 1.2mm solid #e24e12; padding-top: 4mm; }
+.chapter--pratique .chapter-head { border-top: 1.2mm dotted #5a6472; padding-top: 4mm; }
+.chapter--systeme .chapter-head { border-top: 1.2mm double #0f1319; padding-top: 4mm; }
 
 .chapter-title {
   font-size: 21pt;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: -0.015em;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 0;
   string-set: chaptertitle content(text), booktitle "Build Here";
   bookmark-level: 2;
@@ -362,7 +366,7 @@ em { font-style: italic; }
   font-family: "Archivo", sans-serif;
   font-size: 11pt;
   line-height: 1.5;
-  color: #8A6100;
+  color: #5a6472;
   margin: 4mm 0 0;
 }
 
@@ -370,7 +374,7 @@ em { font-style: italic; }
   font-family: "Archivo", sans-serif;
   font-size: 9.5pt;
   font-weight: 600;
-  color: #8A6100;
+  color: #5a6472;
   margin: 2mm 0 0;
 }
 
@@ -379,16 +383,16 @@ em { font-style: italic; }
   display: block;
   width: 20mm;
   height: 3px;
-  background: #F5B301;
+  background: #e24e12;
   margin-top: 6mm;
 }
 
 /* Ouverture de section : le bandeau va d'un bord a l'autre de la feuille. */
 .chapter--section .chapter-head {
-  background: #FBEEC1;
+  background: #f3f5f8;
   margin: -25mm -34mm 10mm;
   padding: 25mm 34mm 12mm;
-  border-bottom: 3px solid #F5B301;
+  border-bottom: 3px solid #e24e12;
 }
 
 .chapter--section .chapter-head::after { content: none; }
@@ -423,7 +427,7 @@ h1.chapter-title { bookmark-level: 1; }
   font-size: 13pt;
   font-weight: 700;
   letter-spacing: 0.02em;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 1.5em 0 0.55em;
   break-after: avoid;
 }
@@ -431,7 +435,7 @@ h1.chapter-title { bookmark-level: 1; }
 .prose h5 {
   font-size: 12.5pt;
   font-weight: 700;
-  color: #1C1A17;
+  color: #0f1319;
   margin: 1.3em 0 0.4em;
   break-after: avoid;
 }
@@ -439,17 +443,17 @@ h1.chapter-title { bookmark-level: 1; }
 .prose ul,
 .prose ol { margin: 0 0 0.9em; padding-left: 1.15em; }
 .prose li { margin-bottom: 0.3em; }
-.prose li::marker { color: #8A6100; }
+.prose li::marker { color: #5a6472; }
 
 .prose hr {
   border: 0;
-  border-top: 1px solid #E8E3D9;
+  border-top: 1px solid #dfe4ea;
   margin: 1.6em 0;
 }
 
 .prose blockquote {
-  background: #FAF7F0;
-  border-left: 3px solid #1C1A17;
+  background: #f3f5f8;
+  border-left: 3px solid #0f1319;
   padding: 0.55em 0.8em;
   margin: 1.1em 0;
   font-style: italic;
@@ -462,12 +466,12 @@ h1.chapter-title { bookmark-level: 1; }
 .prose code {
   font-family: "Menlo", monospace;
   font-size: 9.6pt;
-  background: #FAF7F0;
+  background: #f3f5f8;
   padding: 0 0.25em;
 }
 
 .prose pre {
-  background: #FAF7F0;
+  background: #f3f5f8;
   padding: 0.7em;
   font-size: 9.4pt;
   white-space: pre-wrap;
@@ -476,22 +480,22 @@ h1.chapter-title { bookmark-level: 1; }
 
 .prose a {
   text-decoration: underline;
-  text-decoration-color: #F5B301;
+  text-decoration-color: #e24e12;
   text-underline-offset: 2px;
 }
 
 .prose .callout {
-  border: 1px solid #E8E3D9;
-  border-left: 4px solid #E8E3D9;
+  border: 1px solid #dfe4ea;
+  border-left: 4px solid #dfe4ea;
   padding: 0.7em 0.85em;
   margin: 1.1em 0;
   font-size: 10.6pt;
   break-inside: avoid;
 }
 
-.prose .callout-hint { border-left-color: #5cb85c; }
-.prose .callout-example { border-left-color: #5bc0de; }
-.prose .callout-warning { border-left-color: #f0ad4e; }
+.prose .callout-hint { border-left-color: #0e7c5a; }
+.prose .callout-example { border-left-color: #1b4db3; }
+.prose .callout-warning { border-left-color: #e24e12; }
 
 /* --------------------------------------------------------------- notes */
 
@@ -499,23 +503,23 @@ h1.chapter-title { bookmark-level: 1; }
   font-family: "Archivo", sans-serif;
   font-size: 7.6pt;
   font-weight: 600;
-  color: #8A6100;
+  color: #5a6472;
   text-decoration: none;
 }
 
 .prose .footnotes {
   margin-top: 1.8em;
   padding-top: 0.9em;
-  border-top: 1px solid #E8E3D9;
+  border-top: 1px solid #dfe4ea;
   font-size: 9.4pt;
   line-height: 1.5;
-  color: #6B6355;
+  color: #5a6472;
 }
 
 .prose .footnotes ol { padding-left: 1.1em; }
 .prose .footnotes li { margin-bottom: 0.45em; }
 .prose .footnotes p { margin-bottom: 0; }
-.prose .footnotes a { text-decoration: none; color: #8A6100; }
+.prose .footnotes a { text-decoration: none; color: #5a6472; }
 
 /* La pastille de brouillon est un repere d'ecran. */
 .pastille-brouillon { display: none; }

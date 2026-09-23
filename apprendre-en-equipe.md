@@ -1,6 +1,5 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 permalink: /apprendre-en-equipe/
 title: "Six semaines pour apprendre ensemble"
 description: "Un essai d'équipe avec du soutien, un refus et une décision de suite"

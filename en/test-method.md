@@ -1,8 +1,8 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 lang: en
 permalink: /en/test-method/
+bande_scene: /assets/images/scenes/resultat.svg
 traductions:
   fr: /methode-du-test/
 title: "How the test works"

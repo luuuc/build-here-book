@@ -1,7 +1,7 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 permalink: /atelier/
+bande_scene: /assets/images/scenes/atelier.svg
 title: "Faire tourner ça dans ton équipe"
 description: "Une carte, un essai convenu, un retour utile"
 metadata:

@@ -1,6 +1,5 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 permalink: /references/
 title: "Déjà écrit"
 description: "Dix-huit repères à lire dans leur contexte"

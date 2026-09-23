@@ -15,6 +15,8 @@
                        (`cartes`, `capacites`) compte a partir du livre.
     bande_sections     `false` retire le compte automatique des sections.
     bande_image        une couverture a cote du titre.
+    bande_scene        un dessin large a cote du titre, dans le trait
+                       de la maison (assets/images/scenes/).
     bande_rail         un rail explicite, pour une page sans titres.
     bande_rail_titres  `h3` quand la page numerote ses sections en h3.
 
@@ -58,13 +60,16 @@
         {%- assign adresse = a.url -%}
         {%- if a.telechargement == "pdf" -%}{%- assign adresse = site.downloads[lang].pdf -%}{%- endif -%}
         {%- if a.telechargement == "epub" -%}{%- assign adresse = site.downloads[lang].epub -%}{%- endif -%}
-        <a href="{{ adresse }}" class="bande-bouton{% unless a.primaire %} bande-bouton--calme{% endunless %}">{{ a.titre }}</a>
+        <a href="{{ adresse }}" class="bouton{% unless a.primaire %} bouton--contour{% endunless %}">{{ a.titre }}</a>
         {%- endfor %}
       </div>
       {%- endif %}
     </div>
-    {%- if page.bande_image or duree or compte_sections > 0 or page.bande_meta %}
-    <div class="bande-cote">
+    {%- if page.bande_image or page.bande_scene or duree or compte_sections > 0 or page.bande_meta %}
+    <div class="bande-cote{% if page.bande_scene %} bande-cote--scene{% endif %}">
+      {%- if page.bande_scene %}
+      <img class="bande-scene" src="{{ page.bande_scene }}" alt="" width="480" height="320" />
+      {%- endif %}
       {%- if page.bande_image %}
       <img class="bande-couverture" src="{{ page.bande_image }}" alt="{{ page.bande_image_alt }}" width="1200" height="1800" />
       {%- endif %}
@@ -78,7 +83,7 @@
           &#160;{{ m.titre | downcase }}
         {%- endfor -%}
       </p>
-      {%- elsif duree or compte_sections > 0 or page.bande_meta %}
+      {%- elsif page.bande_scene == nil and duree or compte_sections > 0 or page.bande_meta %}
       <dl class="bande-meta">
         {%- if duree %}
         <dt>{{ t.bande.lecture }}</dt>

@@ -1,6 +1,5 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 permalink: /a-propos/
 redirect_from:
   - /chapters/00-arrete-de-le-faire-en-silence.html

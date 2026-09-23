@@ -1,6 +1,5 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 permalink: /ameliorer-sa-pratique/
 title: "Améliorer sans tout reprendre"
 description: "Une force à approfondir, une décision et une passation complètes"

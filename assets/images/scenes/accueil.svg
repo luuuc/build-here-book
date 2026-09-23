@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-label="Une personne devant un tableau de cartes, une carte retenue">
+  <g fill="none" stroke="#0f1319" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="196" y="36" width="256" height="188" />
+    <path d="M281 36V224M366 36V224M196 76H452" />
+    <rect x="212" y="96" width="53" height="36" fill="#e9f0fc" />
+    <rect x="212" y="148" width="53" height="36" />
+    <rect x="297" y="96" width="53" height="36" />
+    <rect x="382" y="148" width="53" height="36" />
+    <circle cx="92" cy="106" r="30" />
+    <path d="M40 284v-46a52 52 0 0 1 104 0v46" />
+    <path d="M144 200h40" />
+    <path d="M28 284h424" />
+  </g>
+</svg>

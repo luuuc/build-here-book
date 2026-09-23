@@ -23,14 +23,7 @@
     <!-- Pas de bandeau de titre ni de colonne de lecture ici : la page pose
          ses propres bandes. -->
     <main class="landing-page">
-      {% if page.landing_resource %}
-      {% include bande.html %}
-      <article class="landing-resource content{% if page.avertissement %} avertissement{% endif %}"{% if page.filtre_symptomes %} data-filtre-symptomes="{{ t.lecture.filtre }}" data-filtre-vide="{{ t.lecture.filtre_vide }}"{% endif %}>
-        <div class="container landing-wrap">{{ content }}</div>
-      </article>
-      {% else %}
       {{ content }}
-      {% endif %}
     </main>
 
     <!-- Ce que le livre a retenu, pour qui revient -->

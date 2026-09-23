@@ -1,6 +1,5 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 permalink: /premier-essai/
 title: "Un premier essai utile"
 description: "De la question à un résultat observé, sans emploi ni équipe"

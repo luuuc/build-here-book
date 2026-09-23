@@ -1,6 +1,5 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 lang: en
 permalink: /en/improving-without-starting-over/
 traductions:

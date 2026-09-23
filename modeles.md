@@ -1,6 +1,5 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 permalink: /modeles/
 title: "Modèles pour agir et revoir"
 description: "Des supports à copier, à raccourcir et à adapter"

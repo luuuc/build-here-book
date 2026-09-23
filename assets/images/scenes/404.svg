@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-label="Un panneau indicateur dont une flèche manque">
+  <g fill="none" stroke="#0f1319" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M240 72v212" />
+    <path d="M186 284h108" />
+    <path d="M240 104h124l26 26-26 26H240" fill="#e9f0fc" />
+    <path d="M240 188H116l-26 26 26 26h124" />
+    <path d="M300 128h34" />
+    <path d="M150 214h34" />
+    <path d="M240 254h26" stroke-dasharray="8 12" />
+  </g>
+</svg>

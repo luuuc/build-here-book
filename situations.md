@@ -1,6 +1,5 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 permalink: /situations/
 title: "Ce qui t'agace cette semaine"
 description: "L'index, par situation"

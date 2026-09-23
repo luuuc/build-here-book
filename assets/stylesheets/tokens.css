@@ -1,0 +1,171 @@
+/* Les jetons de Build Here, compiles depuis le systeme de design.
+   Source de verite : https://claude.ai/artifact/33Ckh9SE8s9oaHhLjFHnqE
+   (project/tokens.json). Ne pas editer a la main : changer le jeton la-bas,
+   puis recompiler ce fichier. Le brief est dans .doc/systeme-de-design.md.
+
+   Les rapports de contraste sont notes sur chaque jeton dans le systeme.
+   Deux pieges : `bleu` ne passe pas sur `nuit` (2,3:1), et `discret` est fait
+   pour le fond clair — sur une bande sombre c'est `discret-nuit`. */
+
+:root,
+[data-theme="clair"] {
+  --papier: #ffffff;
+  --surface: #f3f5f8;
+  --filet: #dfe4ea;
+  --nuit: #141a22;
+  --encre: #0f1319;
+  --texte: #272e38;
+  --discret: #5a6472;
+  --discret-nuit: #98a1ae;
+  --bleu: #1b4db3;
+  --bleu-voile: #e9f0fc;
+  --signal: #e24e12;
+  --signal-texte: #c2410c;
+  --signal-voile: #fdece5;
+  --parcours-commencer: #0e7c5a;
+  --parcours-progresser: var(--bleu);
+  --parcours-equipe: #8b2e6e;
+  --parcours-soutenir: #b8460f;
+  --ombre-entete: 0 2px 12px rgba(15, 19, 25, 0.08);
+  --ombre-menu: 0 12px 30px rgba(15, 19, 25, 0.16);
+}
+
+:root {
+  --espace-1: 4px;
+  --espace-2: 8px;
+  --espace-3: 12px;
+  --espace-4: 16px;
+  --espace-6: 24px;
+  --espace-8: 32px;
+  --espace-12: 48px;
+  --espace-16: 64px;
+  --espace-24: 96px;
+  --espace-32: 128px;
+  --gouttiere-mobile: 20px;
+  --bande-mobile: 56px;
+  --hero-mobile-haut: 72px;
+  --rayon-0: 0;
+  --rayon-2: 2px;
+  --rayon-rond: 9999px;
+  --colonne-livre: 40rem;
+  --colonne-prose: 48rem;
+  --colonne-large: 68rem;
+  --font-sans: Archivo, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: Merriweather, Georgia, "Times New Roman", serif;
+}
+
+/* Site */
+.hero-1 {
+  font-family: var(--font-sans);
+  font-size: 56px;
+  line-height: 59px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.hero-mobile {
+  font-family: var(--font-sans);
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.titre-page {
+  font-family: var(--font-sans);
+  font-size: 44px;
+  line-height: 51px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.titre-page-mobile {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.titre-section {
+  font-family: var(--font-sans);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.titre-section-mobile {
+  font-family: var(--font-sans);
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.sous-titre {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.accroche {
+  font-family: var(--font-sans);
+  font-size: 20px;
+  line-height: 31px;
+  font-weight: 400;
+}
+
+.corps {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.libelle {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.surtitre {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.legende {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/* Livre */
+.livre-titre {
+  font-family: var(--font-serif);
+  font-size: 34px;
+  line-height: 41px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.livre-corps {
+  font-family: var(--font-serif);
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.livre-exergue {
+  font-family: var(--font-serif);
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: 400;
+  font-style: italic;
+}

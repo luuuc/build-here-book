@@ -241,7 +241,15 @@
 </script>
 {% endif %}
 
-<!-- Stylesheets -->
+<!-- Stylesheets
+
+     Les jetons d'abord, les composants ensuite, la feuille actuelle en
+     dernier : tant que la refonte n'est pas passee page par page, style.css
+     garde le dernier mot sur les deux classes que les deux fichiers
+     connaissent, `.rail` et `.hero`. Rien ne bouge a l'ecran aujourd'hui.
+     Les deux premiers viennent du systeme de design, voir leur en-tete. -->
+<link rel="stylesheet" href="/assets/stylesheets/tokens.css" />
+<link rel="stylesheet" href="/assets/stylesheets/bundle.css" />
 <link rel="stylesheet" href="/assets/stylesheets/style.css" />
 
 <!-- Favicons -->

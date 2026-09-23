@@ -1,7 +1,7 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 permalink: /guide-de-lecture/
+bande_scene: /assets/images/scenes/livre.svg
 title: "Comment lire ce livre"
 description: "Pour qui il est écrit, et depuis quelle place le lire"
 metadata:

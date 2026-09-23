@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-label="Trois personnes autour d'une table, une carte posée au milieu">
+  <g fill="none" stroke="#0f1319" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="120" y="120" width="240" height="108" />
+    <rect x="198" y="146" width="84" height="56" fill="#fdece5" />
+    <path d="M214 166h52M214 182h32" />
+    <circle cx="240" cy="62" r="26" />
+    <path d="M200 120v-12a40 40 0 0 1 80 0v12" />
+    <circle cx="72" cy="176" r="24" />
+    <path d="M34 246v-24a38 38 0 0 1 76 0v2" />
+    <circle cx="408" cy="176" r="24" />
+    <path d="M370 224v-2a38 38 0 0 1 76 0v24" />
+    <path d="M150 228v40M330 228v40" />
+  </g>
+</svg>

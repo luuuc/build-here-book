@@ -1,8 +1,8 @@
 ---
-layout: landing
-landing_resource: true
+layout: page
 lang: en
 permalink: /en/workshop/
+bande_scene: /assets/images/scenes/atelier.svg
 traductions:
   fr: /atelier/
 title: "Running this in your team"
