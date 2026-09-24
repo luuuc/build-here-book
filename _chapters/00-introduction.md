@@ -5,6 +5,10 @@ description: "Construire ici, et faire circuler ce qu'on apprend"
 show_chapter_number: false
 part: "Introduction"
 order: 0
+# L'introduction est l'accueil du livre. Son ancienne adresse y renvoie.
+permalink: /
+redirect_from:
+  - /chapters/00-introduction.html
 metadata:
   reading_time_in_minutes: 5
 categories:
@@ -12,7 +16,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/00-introduction.html
+  en: /book/en/
 seo:
   description: "Comprendre un problème, construire quelque chose d'utile et apprendre de ses effets. Dix capacités à explorer à partir de là où tu es."
   keywords: "build here, introduction, builder, apprentissage, transmission"

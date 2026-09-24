@@ -92,7 +92,7 @@ entete:
   sections:
     - cle: book
       titre: "The Book"
-      url: "/book/en/"
+      url: "/en/book/"
     - cle: test
       titre: "Builder Test"
       url: "/en/test/"
@@ -164,30 +164,6 @@ tirage:
     - practices
     - teams
     - ownership
-
-# The four paths, used in the body of several pages.
-parcours:
-  url: "/en/paths/"
-  suite: "Three cards and a first try"
-  # `cle` is stable across languages: it carries the path colour in the card.
-  # The anchor follows the language of the page.
-  items:
-    - cle: commencer
-      ancre: path-start
-      titre: "I want to start"
-      texte: "You are looking for where to take hold of the problem. Someone you know, a personal project, a community group: a need you can observe is enough."
-    - cle: progresser
-      ancre: path-improve
-      titre: "I want to get better"
-      texte: "You already build. Recognise what you have, pick a difficulty or deepen a strength, and pass it on if it helps."
-    - cle: equipe
-      ancre: path-team
-      titre: "I want to grow my team"
-      texte: "Create the conditions for initiative, support learning and check what your decisions actually change."
-    - cle: soutenir
-      ancre: path-support
-      titre: "I want to back other builders"
-      texte: "Give time, means, chances to practise and real feedback, without running the work."
 
 # The files machines read: book.json and llms.txt.
 machine:

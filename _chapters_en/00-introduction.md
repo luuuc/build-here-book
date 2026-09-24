@@ -5,13 +5,17 @@ description: "Build here, and pass on what you learn"
 show_chapter_number: false
 part: "Introduction"
 order: 0
+# L'introduction est l'accueil du livre. Son ancienne adresse y renvoie.
+permalink: /en/
+redirect_from:
+  - /en/chapters/00-introduction.html
 metadata:
   reading_time_in_minutes: 5
 categories:
   - introduction
   - builders
 traductions:
-  fr: /book/chapters/00-introduction.html
+  fr: /book/
 seo:
   description: "Understand a problem, build something useful and learn from its effects. Ten capabilities to explore from wherever you are."
   keywords: "build here, introduction, builder, learning, passing it on"

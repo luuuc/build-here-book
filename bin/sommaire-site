@@ -1,0 +1,25 @@
+#!/usr/bin/env ruby
+# Copie le sommaire du livre dans le site, pour la page du livre.
+#
+#   bin/sommaire-site     reecrit ../site/config/contents.yml
+#
+# A relancer quand une carte est ajoutee, deplacee ou renommee.
+require "yaml"
+Dir.chdir(File.expand_path("..", __dir__))
+out = { "shared" => {} }
+{ "fr" => ["_chapters", "/book/chapters/"], "en" => ["_chapters_en", "/book/en/chapters/"] }.each do |lang, (dir, base)|
+  chapters = Dir["#{dir}/*.md"].map do |f|
+    d = YAML.safe_load(File.read(f)[/\A---\n(.*?)\n---/m, 1], permitted_classes: [Date])
+    url = d["permalink"] ? "/book#{d["permalink"]}" : "#{base}#{File.basename(f, ".md")}.html"
+    d.merge("url" => url)
+  end.sort_by { _1["order"] }
+  parts = YAML.load_file("_data/#{lang}/sommaire.yml").flat_map { _1["sections"] }
+  out["shared"][lang] = parts.filter_map do |part|
+    items = chapters.select { _1["part"] == part }
+    next if items.empty?
+    first, *rest = items
+    { "title" => first["title"], "url" => first["url"], "cards" => rest.map { { "title" => _1["title"], "url" => _1["url"] } } }
+  end
+end
+header = "# The book's contents, for the book page. Written by book/bin/sommaire-site:\n# run it again when a card is added, moved or renamed.\n"
+File.write("../site/config/contents.yml", header + out.to_yaml(line_width: -1).sub(/\A---\n/, ""))
