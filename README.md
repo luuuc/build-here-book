@@ -93,8 +93,12 @@ git clone https://github.com/luuuc/build-here-book.git
 cd build-here-book
 bundle install
 bundle exec jekyll serve
-# http://localhost:4000
+# http://localhost:4000/book/
 ```
+
+Avec le site à côté (`../site`), `bin/dev` dans le site sert les deux sur
+http://localhost:3000 : le livre sous `/book/`, reconstruit à chaque
+modification, et les liens entre le site et le livre marchent.
 
 Le contenu vit dans `_chapters/`. Un fichier par carte, trié par le champ `order` du front matter.
 
