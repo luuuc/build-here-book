@@ -1,9 +1,21 @@
 {% include pastille-brouillon.html %}
 
 <header class="header">
-  <div class="container">
-    <button class="hamburger" data-bascule-menu aria-label="{{ t.entete.menu_ouvrir }}" aria-controls="offcanvas">☰</button>
-    <a href="{{ t.entete.accueil_url }}" class="logo">Build Here</a>
+  <div class="colonne entete">
+    <div class="entete-marque">
+      <button class="hamburger" data-bascule-menu aria-label="{{ t.entete.menu_ouvrir }}" aria-controls="offcanvas">☰</button>
+      <a href="{{ t.entete.accueil_url }}" class="logo">Build Here</a>
+    </div>
+
+    {%- comment -%}
+      Les trois parties du site, comme dans l'en-tete du site. Tout ce que
+      sert ce depot est le livre : son lien est toujours le courant.
+    {%- endcomment %}
+    <nav class="entete-sections" aria-label="{{ t.entete.sections_titre }}">
+      {%- for s in t.entete.sections %}
+      <a href="{{ s.url }}"{% if s.cle == 'book' %} aria-current="true"{% endif %}>{{ s.titre }}</a>
+      {%- endfor %}
+    </nav>
 
     <div class="header-actions">
       {%- comment -%}
@@ -13,10 +25,8 @@
         et le lecteur voit tout de suite ou il arrive.
       {%- endcomment -%}
       {%- for l in site.langues %}{% unless l.code == lang %}
-      <a href="{{ page.traductions[l.code] | default: l.racine }}" class="langue" hreflang="{{ l.code }}" lang="{{ l.code }}">{{ l.nom }}</a>
+      <a href="{{ page.traductions[l.code] | default: l.racine }}" class="langue" hreflang="{{ l.code }}" lang="{{ l.code }}" aria-label="{{ l.nom }}">{{ l.code | upcase }}</a>
       {%- endunless %}{% endfor %}
-
-      <a href="{{ t.entete.a_propos_url }}" class="about">{{ t.entete.a_propos }}</a>
 
       {%- comment -%}
         Le menu de telechargement disparait tant que la langue n'a pas de

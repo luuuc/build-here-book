@@ -107,8 +107,17 @@ entete:
   menu_ouvrir: "Ouvrir le menu"
   menu_fermer: "Fermer le menu"
   accueil_url: "/"
-  a_propos: "À propos"
-  a_propos_url: "/a-propos/"
+  sections_titre: "Les trois parties du site"
+  sections:
+    - cle: book
+      titre: "Le livre"
+      url: "/book/"
+    - cle: test
+      titre: "Le test du builder"
+      url: "/test/"
+    - cle: teams
+      titre: "Pour les équipes"
+      url: "/equipes/"
   telecharger: "Télécharger le livre"
   pdf: "Télécharger au format PDF"
   pdf_detail: "Format A4, prêt à imprimer"
@@ -118,7 +127,6 @@ entete:
   brouillon: "Version de travail"
 
 menu:
-  site: "Explorer Build Here"
   livre: "Sommaire"
   livre_titre: "Le livre"
   livre_url: "/book/"
@@ -128,6 +136,8 @@ menu:
 pied:
   aria: "Ressources complémentaires"
   liens:
+    - titre: "À propos"
+      url: "/a-propos/"
     - titre: "Guide de lecture"
       url: "/guide-de-lecture/"
     - titre: "Bibliographie commentée"

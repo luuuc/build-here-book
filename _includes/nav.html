@@ -1,17 +1,11 @@
-{% assign site_menu = false %}
-{% if page.layout == 'landing' %}{% assign site_menu = true %}{% endif %}
-<div class="offcanvas{% if site_menu %} offcanvas--site{% endif %}" id="offcanvas">
+<div class="offcanvas" id="offcanvas">
   <div class="offcanvas-header">
-    <h3 id="nav-title">{% if site_menu %}{{ t.menu.site }}{% else %}{{ t.menu.livre }}{% endif %}</h3>
+    <h3 id="nav-title">{{ t.menu.livre }}</h3>
     <button class="close-btn" data-bascule-menu aria-label="{{ t.entete.menu_fermer }}">×</button>
   </div>
   <nav aria-labelledby="nav-title">
-    <ul class="nav-menu{% if site_menu %} nav-menu--site{% endif %}">
-      {% if site_menu %}
-        {% include nav-site.html %}
-      {% else %}
-        {% include nav-book.html %}
-      {% endif %}
+    <ul class="nav-menu">
+      {% include nav-book.html %}
     </ul>
   </nav>
 </div>

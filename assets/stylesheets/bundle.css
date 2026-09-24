@@ -164,12 +164,15 @@
   text-wrap: pretty;
 }
 
-.hero-image { display: block; height: auto; max-width: 100%; }
+/* Sur telephone l'illustration passerait sous le bouton et prendrait un
+   ecran entier : elle ne s'affiche qu'avec les deux colonnes. */
+.hero-image { display: none; height: auto; max-width: 100%; }
 
 @media (min-width: 900px) {
   .bloc.hero { padding-block: var(--espace-32) var(--espace-24); }
   .hero-corps { align-items: center; grid-template-columns: 1.1fr 0.9fr; gap: var(--espace-16); }
   .hero-titre { font-size: 56px; line-height: 59px; }
+  .hero-image { display: block; }
 }
 
 /* Deux actions dans un hero : la principale puis la calme. Sur telephone
@@ -186,22 +189,22 @@
   .hero-actions .bouton { justify-content: center; }
 }
 
-/* ---- La ligne de preuve. Des chiffres comptes, jamais estimes. */
+/* ---- La ligne de preuve. Des chiffres comptes, jamais estimes. Trois au
+   plus, chacun le chiffre au-dessus de son libelle, sans separateur. */
 .preuve {
   color: var(--discret);
   display: flex;
   flex-wrap: wrap;
   font-size: 13px;
-  gap: var(--espace-2) var(--espace-3);
-  line-height: 20px;
+  gap: var(--espace-4) var(--espace-6);
+  line-height: 18px;
   list-style: none;
-  margin: var(--espace-4) 0 0;
+  margin: var(--espace-8) 0 0;
   padding: 0;
 }
-
-.preuve li { align-items: center; display: flex; gap: var(--espace-3); }
-.preuve li + li::before { color: var(--filet); content: "\00B7"; }
-.preuve strong { color: var(--encre); font-variant-numeric: tabular-nums; font-weight: 600; }
+.preuve li { display: grid; gap: var(--espace-1); }
+.preuve strong { color: var(--encre); font-size: 20px; font-variant-numeric: tabular-nums; font-weight: 600; line-height: 28px; white-space: nowrap; }
+@media (min-width: 768px) { .preuve { column-gap: var(--espace-12); } }
 .bloc--nuit .preuve { color: var(--discret-nuit); }
 .bloc--nuit .preuve strong { color: var(--papier); }
 

@@ -10,7 +10,7 @@ function toggleMenu() {
     offcanvas.classList.add("open");
     overlay.classList.add("show");
     document.body.style.overflow = "hidden";
-    if (!offcanvas.classList.contains("offcanvas--site")) centerCurrentEntry(offcanvas);
+    centerCurrentEntry(offcanvas);
   }
 }
 

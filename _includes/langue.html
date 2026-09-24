@@ -9,8 +9,7 @@
               tirage PDF, qui n'a pas de page a qui demander, retombe sur
               site.lang_defaut que _config-pdf-en.yml bascule.
     t         les chaines de l'interface, soit _data/<lang>/interface.yml.
-    sommaire  l'ordre du livre, familles les libelles de surtitre,
-              nav_site le menu du site.
+    sommaire  l'ordre du livre, familles les libelles de surtitre.
     livre     les entrees de cette langue, triees.
 
   Le francais garde la collection « chapters » sans suffixe : renommer le
@@ -24,7 +23,6 @@
 {%- assign t = site.data[lang].interface -%}
 {%- assign sommaire = site.data[lang].sommaire -%}
 {%- assign familles = site.data[lang].familles -%}
-{%- assign nav_site = site.data[lang]["navigation-site"] -%}
 {%- assign cle_livre = 'chapters' -%}
 {%- if lang != 'fr' -%}{%- assign cle_livre = 'chapters_' | append: lang -%}{%- endif -%}
 {%- assign livre = site[cle_livre] | sort: 'order' -%}
