@@ -13,6 +13,7 @@
   "datePublished": {{ site.book.published | jsonify }},
   "dateModified": {{ site.book.modified | jsonify }},
   "version": {{ site.book.version | jsonify }},
+  "sameAs": "https://github.com/{{ site.repository }}",
   "bookFormat": "https://schema.org/EBook",
   "isAccessibleForFree": true,
   "license": {{ site.book.license | jsonify }},
@@ -20,16 +21,7 @@
     "@type": "Person",
     "name": {{ site.author.name | jsonify }}
   },
-  "author": {
-    "@type": "Person",
-    "name": {{ site.author.name | jsonify }},
-    "url": "https://www.linkedin.com/in/{{ site.author.linkedin }}",
-    "sameAs": [
-      "https://twitter.com/{{ site.twitter_username }}",
-      "https://github.com/{{ site.github_username }}",
-      "https://www.linkedin.com/in/{{ site.author.linkedin }}"
-    ]
-  },
+  "author": {% include auteur-json.html %},
   "publisher": {
     "@type": "Person",
     "name": {{ site.author.name | jsonify }}

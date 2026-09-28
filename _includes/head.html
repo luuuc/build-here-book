@@ -102,11 +102,7 @@
   {% if page.layout == 'chapter' and page.metadata.reading_time_in_minutes %}
   "timeRequired": "PT{{ page.metadata.reading_time_in_minutes }}M",
   {% endif %}
-  "author": {
-    "@type": "Person",
-    "name": {{ site.author.name | jsonify }},
-    "url": "https://www.linkedin.com/in/{{ site.author.linkedin }}"
-  },
+  "author": {% include auteur-json.html %},
   "publisher": {
     "@type": "Person",
     "name": {{ site.author.name | jsonify }}
@@ -120,6 +116,8 @@
       "@type": "Person",
       "name": {{ site.author.name | jsonify }}
     },
+    "url": "{{ site.url }}{{ t.menu.livre_url }}",
+    "sameAs": "https://github.com/{{ site.repository }}",
     "bookFormat": "https://schema.org/EBook",
     "inLanguage": {{ langue_courante.locale | replace: '_', '-' | default: site.book.language | jsonify }},
     "license": {{ site.book.license | jsonify }}
@@ -190,18 +188,11 @@
   "inLanguage": {{ langue_courante.locale | replace: '_', '-' | default: site.book.language | jsonify }},
   "datePublished": {{ site.book.published | jsonify }},
   "dateModified": {{ site.book.modified | jsonify }},
+  "sameAs": "https://github.com/{{ site.repository }}",
   "bookFormat": "https://schema.org/EBook",
   "isAccessibleForFree": true,
   "license": {{ site.book.license | jsonify }},
-  "author": {
-    "@type": "Person",
-    "name": {{ site.author.name | jsonify }},
-    "url": "https://www.linkedin.com/in/{{ site.author.linkedin }}",
-    "sameAs": [
-      "https://twitter.com/{{ site.twitter_username }}",
-      "https://github.com/{{ site.github_username }}"
-    ]
-  },
+  "author": {% include auteur-json.html %},
   "publisher": {
     "@type": "Person",
     "name": {{ site.author.name | jsonify }}

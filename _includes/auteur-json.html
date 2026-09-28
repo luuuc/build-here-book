@@ -1,0 +1,14 @@
+{%- comment -%}
+  L'auteur en JSON-LD, le meme partout : les liens `sameAs` disent aux moteurs
+  et aux IA que ces profils sont une seule personne, et a qui attribuer le livre.
+{%- endcomment -%}
+{
+    "@type": "Person",
+    "name": {{ site.author.name | jsonify }},
+    "url": "https://www.linkedin.com/in/{{ site.author.linkedin }}",
+    "sameAs": [
+      "https://www.linkedin.com/in/{{ site.author.linkedin }}",
+      "https://github.com/{{ site.github_username }}",
+      "https://x.com/{{ site.twitter_username }}"
+    ]
+  }
