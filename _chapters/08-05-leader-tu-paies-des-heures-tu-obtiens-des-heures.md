@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/08-05-you-pay-for-hours-you-get-hours.html
 seo:
-  description: "Reconnais prévention, transmission et service direct à partir d'effets contextualisés, sans quota de suppression ni promesse de gain gratuit."
+  description: "Si la revue récompense le volume traité, l'équipe traite. Mesure les problèmes évités, et reconnais-les comme la production."
   keywords: "build here, builder, levier, prevention, service, reconnaissance"
 redirect_from:
   - /livre/chapitres/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html
@@ -24,29 +24,29 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Tu souhaites que l'équipe réduise les difficultés récurrentes. Les échanges de suivi rendent surtout visible le nombre de tâches ou de demandes traitées.
+Tu veux que l'équipe réduise les problèmes qui reviennent. La revue compte les demandes traitées et les tâches faites.
 
 ## Ce que le système entend
 
-Le travail de prévention, de simplification ou de transmission peut être moins facile à montrer, surtout pendant sa préparation ou lorsque son effet est une difficulté évitée.
+> "Plus je traite, mieux je suis vu. Si je règle la cause, il n'y a plus rien à compter."
 
 ## Ce que ça produit
 
-Le volume traité renseigne sur la charge et le service rendu. Le temps consacré peut aider à organiser les moyens. Ces informations restent utiles, mais ne décrivent pas toutes les contributions. Une amélioration peut réduire les reprises, faciliter un relais ou préserver la fiabilité sans produire davantage de tâches visibles.
+Tu paies des heures, tu obtiens des heures. Si la revue récompense le volume traité, l'équipe traite. Celle qui corrige la cause voit son compteur baisser, et son travail disparaître.
 
-L'équipe d'accueil clarifie une invitation et reçoit moins de questions d'accès. Elle compare des événements similaires et demande si les participants trouvent mieux le lieu. La baisse des messages seule ne prouve pas un progrès : un canal devenu difficile à joindre pourrait produire le même chiffre. Le travail direct d'accueil reste nécessaire et mérite aussi d'être reconnu.
+L'équipe support réécrit la page d'aide sur les remboursements. Les questions sur ce sujet passent de quarante à dix par semaine. C'est le meilleur travail du mois. Dans une revue qui compte les tickets traités, c'est une baisse d'activité.
 
-Rendre ces effets visibles demande parfois une observation, une estimation ou un retour qualitatif. Ne force pas chaque contribution à devenir un nombre d'heures annuelles économisées. Distingue le gain observé du gain attendu, et ajoute les coûts de préparation et d'entretien. Une amélioration qui déplace la charge vers une autre personne n'a pas forcément réduit l'effort total.
+Mesure l'effet : les demandes évitées, le temps gagné, les erreurs en moins. Rapporte-le au nombre d'utilisateurs, pour être sûr que la baisse vient de la correction et pas d'un support devenu difficile à joindre.
 
-Si tu développes une équipe, examine aussi les critères utilisés pour attribuer du temps, du soutien et de la reconnaissance. Une félicitation isolée ne remplace pas un accord durable sur ce qui compte. Le responsable des évaluations ou des moyens doit participer aux changements qui relèvent de son mandat. Entre pairs, on peut déjà documenter une contribution utile avec l'accord des personnes concernées.
+Reconnais la prévention dans les mêmes termes que la production : dans les revues, dans les évaluations, dans les moyens donnés. Une félicitation isolée ne suffit pas.
 
 ## La décision
 
-À une revue adaptée, choisis une amélioration et décris le service préservé ou la difficulté réduite, les observations disponibles et le travail nécessaire pour y parvenir.
+→ À la prochaine revue, présente une amélioration par son effet : ce qui a baissé, de combien, et le travail qu'il a fallu.
 
-Demande aux personnes affectées si le changement les aide et si une charge a été déplacée. Reconnais les contributions de réalisation, d'entretien et de service direct, sans chercher un héros unique ni publier un nom sans accord.
+→ Crédite toutes les contributions : ceux qui ont construit, ceux qui entretiennent, ceux qui servent au quotidien.
 
-Convenez de ce que cette observation change dans les priorités ou le soutien proposé. Au point suivant, vérifiez que cette décision a eu une suite ; allégez le suivi s'il devient plus coûteux qu'utile.
+→ Fais entrer ces effets dans les critères d'évaluation et de moyens, pas seulement dans les remerciements.
 
 ## Depuis ton siège
 
@@ -57,4 +57,4 @@ Convenez de ce que cette observation change dans les priorités ou le soutien pr
 
 ## À discuter
 
-Quelle contribution utile reste peu visible dans nos revues, et comment la reconnaître sans créer une nouvelle course au chiffre ?
+Quelle contribution utile reste peu visible dans nos revues, et comment la mesurer ?

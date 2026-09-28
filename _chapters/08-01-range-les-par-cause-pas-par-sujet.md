@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/08-01-sort-them-by-cause-not-by-subject.html
 seo:
-  description: "Regroupe des cas contextualisés et vérifie leurs causes possibles avant de prioriser une amélioration, sans seuil ni gain garanti."
+  description: "Ranger par sujet dit où les demandes arrivent, ranger par cause dit quoi corriger. Une cause commune, un seul geste."
   keywords: "build here, builder, levier, regroupement, hypothese, cause"
 redirect_from:
   - /livre/chapitres/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html
@@ -23,29 +23,29 @@ redirect_from:
 
 ## Le symptôme
 
-Tu traites des demandes une par une. Certains motifs semblent revenir, mais il reste difficile de savoir lesquels méritent une amélioration commune.
+Tu traites les demandes une par une. Certains motifs reviennent, mais tu les ranges par sujet : paiement, compte, livraison.
 
 ## Le signal
 
-Regroupe des cas comparables, distingue les symptômes des causes possibles et vérifie une hypothèse avant de choisir une correction.
+Range-les par cause. Une cause commune, c'est un seul geste qui règle plusieurs problèmes.
 
 ## Ce qui se passe
 
-Un regroupement aide à voir une répartition que le traitement quotidien ne montre pas toujours. Il complète la connaissance des personnes qui assurent le service. Il ne garantit pas que quelques causes expliquent la majorité des demandes, ni que le cas le plus fréquent soit le plus important.
+Ranger par sujet dit où les demandes arrivent. Ranger par cause dit quoi corriger. "Paiement", "facture" et "remboursement" peuvent venir de la même cause : un message de confirmation qui n'arrive pas. Une correction, trois catégories vidées.
 
-Plusieurs messages concernent un paiement qui semble apparaître deux fois. Tu peux regrouper ce symptôme. Il reste à vérifier s'il s'agit de deux opérations, de deux affichages ou d'une autre situation. Écrire "le client a mal compris" dans une colonne ne démontre pas cette cause et peut orienter trop tôt la solution.
+Plusieurs messages parlent d'un paiement qui apparaît deux fois. Le symptôme est le même. La cause peut être deux opérations, deux affichages, ou autre chose. Vérifie sur quelques cas avant de choisir. "Le client a mal compris" dans une colonne n'est pas une cause, c'est une supposition.
 
-Choisis des cas accessibles et adaptés à la question. Les derniers reçus peuvent dépendre d'une campagne, d'un incident ou d'une période particulière. Note ces limites avant de généraliser. Compare aussi la gravité, l'effort de traitement et les personnes qui n'apparaissent pas dans les données, plutôt que de prioriser uniquement le volume.
+Une IA peut regrouper un mois de demandes par cause probable en quelques minutes. Utilise-la pour démarrer, puis vérifie chaque regroupement sur des cas réels. Garde à part les cas qui ne rentrent nulle part : ce sont souvent les plus instructifs.
 
-L'analyse demande du temps et parfois l'aide d'un autre métier. Une personne qui débute peut examiner quelques cas préparés avec un pair. Une personne expérimentée peut comparer plusieurs périodes ou rechercher un contre-exemple. Un classement assisté par un outil reste à vérifier ; il ne remplace pas les éléments qui étayent une cause.
+Ne regarde pas que le volume. Une cause rare mais grave passe avant une cause fréquente et bénigne.
 
 ## À vérifier
 
-Choisis une question et limite le temps d'analyse. Avec l'accord nécessaire, prépare un ensemble de cas sans informations inutiles. Pour chacun, note le symptôme, le contexte et la cause supposée ou confirmée.
+Prends un mois de demandes. Pour chacune, note le symptôme et la cause supposée.
 
-Regroupe les cas et garde ceux qui ne rentrent pas dans les catégories. Choisis une hypothèse dont la vérification pourrait changer une décision. Si elle est confirmée, propose une amélioration proportionnée avec les personnes concernées.
+Regroupe par cause, et vérifie la plus grosse sur cinq cas réels. Si elle tient, corrige-la.
 
-Au prochain point pertinent, regarde si le problème a diminué dans des conditions comparables et si d'autres difficultés sont apparues. Une baisse des demandes peut aussi venir d'un accès au support devenu plus difficile.
+Au point suivant, regarde si les demandes liées ont baissé, rapporté au nombre d'utilisateurs.
 
 ## Depuis ton siège
 

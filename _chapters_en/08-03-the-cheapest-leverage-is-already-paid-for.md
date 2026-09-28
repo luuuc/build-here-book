@@ -15,7 +15,7 @@ categories:
 traductions:
   fr: /livre/chapitres/08-03-le-levier-le-moins-cher-est-deja-paye.html
 seo:
-  description: "Compare reuse and alternatives on their future cost and their conditions of use, without treating existing resources as free."
+  description: "The cheapest leverage is the one you already pay for. Look at what your tools do before buying a new one."
   keywords: "build here, builder, leverage, tools, reuse, cost"
 redirect_from:
   - /book/chapters/08-03-look-at-what-you-have-before-adding-a-tool.html
@@ -23,36 +23,34 @@ redirect_from:
 
 ## The reflex
 
-A new need seems to call for another tool or another resource. You do not yet know whether what exists could answer it under decent conditions.
+A new need comes up. The first reflex is to look for a new tool.
 
 ## The builder's reflex
 
-Examine the resources you have and compare how well they fit against another solution, with the costs of use, of changing, and of upkeep.
+First look at what your current tools already do that nobody uses.
 
 ## Why
 
-An existing tool, procedure or document may already cover part of the need. Examining them can avoid a purchase or duplicated work. That does not prove they are the cheaper option: an awkward adaptation, or a poor fit, can cost more than something different.
+The cheapest leverage is the one you already pay for. Most teams use a small part of their tools: the spreadsheet has forms, the messaging tool has automatic replies, the invoicing software has reminders. A new tool adds a subscription, training, access and one more dependency.
 
-A community group wants to track equipment loans. A shared spreadsheet already exists for the inventory. Adding a loan log can work if people understand how to keep it and the access is right. If it mixes incompatible uses, another arrangement may be better, even with no software purchase.
+A team wants to track laptop loans. The inventory spreadsheet already exists. One tab and two columns do the job in an hour. Dedicated software would have taken a month just to choose.
 
-Compare the future cost of the options rather than defending past spending. Training, maintenance, quality of service, access rights, dependencies and exit all count alongside the subscription. Search time counts too: cap the examination according to what is at stake, without assuming half an hour will settle every case.
+Reuse is not always cheaper. If the existing tool has to be bent into something it cannot do, another solution can cost less over time. Compare the future cost of the options, not what you have already spent.
 
-An available resource is not automatically reusable. A contact file, a dataset, or a relationship with a partner may need an agreement and a use compatible with how it was collected or committed. Ask whoever is responsible what is possible. Backing a builder can mean easing that access, or helping compare the options, rather than imposing the tool you know.
+With an AI, adapting what you already have has become easier: a formula, a script, an automation between two tools you already use.
 
 ## Try this
 
-On a precise need, write down the expected result and the constraints. Examine an existing resource with someone who knows it, then compare one realistic alternative, including a manual method.
+On a precise need, write down the expected result. Before looking for a tool, ask the person who knows your current tools best whether they can do it.
 
-Plan a small authorised trial and a limit on the effort. Judge whether the users can deliver the service expected, what would need rework, and who will maintain the solution.
-
-Present the comparison to whoever can commit the means. If reuse is chosen, check after a suitable period of use that the hoped-for gain holds and that the extra dependency stays acceptable.
+Try the simplest version with what you have, in an hour. If it is not enough, you now know exactly what the new tool has to do.
 
 ## From where you sit
 
 - **Engineering**: compare adaptation, upkeep and exit against adding a tool.
 - **Finance**: separate money already spent from the future cost of each option.
-- **Operations**: check the access, the uses, and the capacity to maintain it.
-- **Management**: give time to the comparison before committing the means.
+- **Operations**: check that existing data can be used for this new purpose.
+- **Management**: ask what the current tools can do before buying a new one.
 
 ## To discuss
 

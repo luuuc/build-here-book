@@ -15,7 +15,7 @@ categories:
 traductions:
   fr: /livre/chapitres/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html
 seo:
-  description: "Credit prevention, passing on and direct service from effects with their context, with no removal quota and no promise of a free gain."
+  description: "If the review rewards volume handled, the team handles. Measure the problems avoided, and recognise them like production."
   keywords: "build here, builder, leverage, prevention, service, recognition"
 redirect_from:
   - /book/chapters/08-05-credit-the-work-avoided-and-the-service-kept-running.html
@@ -23,29 +23,29 @@ redirect_from:
 
 ## What you are asking for
 
-You want the team to reduce recurring difficulties. The tracking mostly makes visible the number of tasks or requests handled.
+You want the team to reduce the problems that keep coming back. The review counts requests handled and tasks done.
 
 ## What the system hears
 
-Work on prevention, simplification or passing on can be harder to show, especially while it is being prepared or when its effect is a difficulty avoided.
+> "The more I handle, the better I look. If I fix the cause, there is nothing left to count."
 
 ## What that produces
 
-Volume handled tells you about the load and the service delivered. Time spent can help organise the means. That information stays useful, but it does not describe every contribution. An improvement can cut rework, ease a handover, or preserve reliability without producing more visible tasks.
+You pay for hours, you get hours. If the review rewards volume handled, the team handles. Whoever fixes the cause sees their count drop, and their work disappear.
 
-The welcome team clarifies an invitation and gets fewer access questions. They compare similar events and ask whether participants find the venue more easily. The drop in messages alone does not prove progress: a channel that has become hard to reach could produce the same number. The direct work of welcoming people is still necessary and deserves credit too.
+The support team rewrites the help page on refunds. Questions on the subject drop from forty to ten a week. It is the best work of the month. In a review that counts tickets handled, it is a drop in activity.
 
-Making those effects visible sometimes calls for an observation, an estimate, or qualitative feedback. Do not force every contribution into a number of hours saved per year. Separate the gain observed from the gain expected, and add the costs of preparation and upkeep. An improvement that moves the load onto someone else has not necessarily cut the total effort.
+Measure the effect: requests avoided, time saved, fewer errors. Compare it to the number of users, to be sure the drop comes from the fix and not from support becoming hard to reach.
 
-If you are growing a team, examine the criteria used to allocate time, support and recognition too. One isolated compliment does not replace a lasting agreement about what counts. Whoever owns appraisals or means has to take part in the changes inside their mandate. Between peers, you can already document a useful contribution with the agreement of the people concerned.
+Recognise prevention in the same terms as production: in reviews, in appraisals, in the means you give. One isolated compliment is not enough.
 
 ## The decision
 
-At a suitable review, choose one improvement and describe the service preserved or the difficulty reduced, the observations available, and the work it took.
+→ At the next review, present one improvement by its effect: what went down, by how much, and the work it took.
 
-Ask the people affected whether the change helps them and whether a load was moved. Credit the contributions of building, of upkeep, and of direct service, without looking for a single hero or publishing a name without agreement.
+→ Credit every contribution: the people who built, the people who maintain, the people who serve day to day.
 
-Agree what that observation changes in the priorities or in the support offered. At the next check-in, confirm that decision had a follow-up; lighten the tracking if it becomes more costly than useful.
+→ Bring these effects into the criteria for appraisals and means, not only into the thank-yous.
 
 ## From where you sit
 
@@ -56,4 +56,4 @@ Agree what that observation changes in the priorities or in the support offered.
 
 ## To discuss
 
-Which useful contribution stays barely visible in our reviews, and how do we credit it without starting a new race for a number?
+Which useful contribution stays barely visible in our reviews, and how do we measure it?

@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/08-01-range-les-par-cause-pas-par-sujet.html
 seo:
-  description: "Group cases with their context and check their possible causes before prioritising an improvement, with no threshold and no guaranteed gain."
+  description: "Sorting by subject tells you where requests arrive, sorting by cause tells you what to fix. One shared cause, one move."
   keywords: "build here, builder, leverage, grouping, assumption, cause"
 redirect_from:
   - /book/chapters/08-01-group-the-cases-then-check-the-causes.html
@@ -22,29 +22,29 @@ redirect_from:
 
 ## The symptom
 
-You handle requests one at a time. Some reasons seem to recur, but it stays hard to know which deserve a shared improvement.
+You handle requests one at a time. Some reasons keep coming back, but you file them by subject: payment, account, delivery.
 
 ## The signal
 
-Group comparable cases, separate symptoms from possible causes, and check an assumption before choosing a fix.
+File them by cause. A shared cause means one move fixes several problems.
 
 ## What's going on
 
-Grouping helps you see a distribution that day-to-day handling does not always show. It completes what the people delivering the service know. It does not guarantee that a few causes explain most of the requests, or that the most frequent case is the most important.
+Sorting by subject tells you where requests arrive. Sorting by cause tells you what to fix. "Payment", "invoice" and "refund" can all come from the same cause: a confirmation message that never arrives. One fix, three categories emptied.
 
-Several messages are about a payment that seems to appear twice. You can group that symptom. What remains is checking whether it is two transactions, two displays, or something else. Writing "the customer misunderstood" in a column does not demonstrate that cause, and can point the solution the wrong way too early.
+Several messages are about a payment that shows up twice. The symptom is the same. The cause could be two transactions, two displays, or something else. Check a few cases before you choose. "Customer misunderstood" in a column is not a cause, it is a guess.
 
-Choose cases you can reach and that suit the question. The most recent ones can depend on a campaign, an incident, or a particular period. Note those limits before generalising. Compare severity, handling effort, and the people who never show up in the data, rather than prioritising by volume alone.
+An AI can group a month of requests by likely cause in minutes. Use it to get started, then check each group against real cases. Keep the cases that fit nowhere to one side: they are often the most instructive.
 
-The analysis takes time, and sometimes help from another craft. Someone starting out can examine a few cases prepared with a peer. An experienced person can compare several periods or look for a counter-example. A classification produced by a tool still has to be checked; it does not replace the evidence behind a cause.
+Do not look at volume alone. A rare but serious cause comes before a frequent, harmless one.
 
 ## Check this
 
-Choose a question and cap the analysis time. With the agreement you need, prepare a set of cases with no unnecessary information. For each one, note the symptom, the context, and the cause assumed or confirmed.
+Take one month of requests. For each, note the symptom and the assumed cause.
 
-Group the cases and keep the ones that do not fit the categories. Choose an assumption whose verification could change a decision. If it is confirmed, propose a proportionate improvement with the people concerned.
+Group them by cause, and check the biggest group on five real cases. If it holds, fix it.
 
-At the next relevant check-in, look at whether the problem went down under comparable conditions and whether other difficulties appeared. A drop in requests can also come from support getting harder to reach.
+At the next check-in, see whether the related requests went down, relative to the number of users.
 
 ## From where you sit
 

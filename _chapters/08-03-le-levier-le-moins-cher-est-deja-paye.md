@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/08-03-the-cheapest-leverage-is-already-paid-for.html
 seo:
-  description: "Compare réutilisation et alternatives sur leur coût futur et leurs conditions d'usage, sans considérer les ressources existantes comme gratuites."
+  description: "Le levier le moins cher est celui que tu paies déjà. Regarde ce que tes outils font avant d'en acheter un nouveau."
   keywords: "build here, builder, levier, outils, reutilisation, cout"
 redirect_from:
   - /livre/chapitres/08-04-le-levier-le-moins-cher-est-deja-paye.html
@@ -24,36 +24,34 @@ redirect_from:
 
 ## Le réflexe
 
-Un nouveau besoin semble appeler un outil ou une ressource supplémentaire. Tu ne sais pas encore si ce qui existe pourrait y répondre dans de bonnes conditions.
+Un nouveau besoin arrive. Le premier réflexe est de chercher un nouvel outil.
 
 ## Le réflexe builder
 
-Examine les ressources disponibles et compare leur adaptation à une autre solution, avec les coûts d'usage, de changement et d'entretien.
+Regarde d'abord ce que tes outils actuels font déjà et que personne n'utilise.
 
 ## Pourquoi
 
-Un outil existant, une procédure ou un document peut déjà couvrir une partie du besoin. Les examiner peut éviter un achat ou un travail en double. Cela ne prouve pas qu'ils constituent l'option la moins chère : une adaptation difficile ou un usage mal adapté peut coûter davantage qu'une solution différente.
+Le levier le moins cher est celui que tu paies déjà. La plupart des équipes utilisent une petite partie de leurs outils : le tableur a des formulaires, la messagerie a des réponses automatiques, le logiciel de facturation a des relances. Un nouvel outil ajoute un abonnement, une formation, des accès et une dépendance de plus.
 
-Une association souhaite suivre les prêts de matériel. Un tableau partagé existe déjà pour l'inventaire. Ajouter un suivi peut convenir si les personnes comprennent comment le tenir et si les accès sont adaptés. Si cela mélange des usages incompatibles, une autre organisation peut être préférable, même sans acheter de logiciel.
+Une équipe veut suivre les prêts d'ordinateurs portables. Le tableur de l'inventaire existe déjà. Un onglet et deux colonnes font l'affaire en une heure. Un logiciel dédié aurait pris un mois à choisir.
 
-Compare le coût futur des options plutôt que de défendre une dépense passée. Formation, maintenance, qualité du service, droits d'accès, dépendances et sortie comptent avec l'abonnement. Le temps de recherche compte aussi : limite l'examen selon l'enjeu, sans supposer qu'une demi-heure résoudra tous les cas.
+Réutiliser n'est pas toujours moins cher. Si l'outil existant doit être tordu pour un usage qu'il ne sait pas faire, une autre solution peut coûter moins sur la durée. Compare le coût futur des options, pas ce que tu as déjà dépensé.
 
-Une ressource disponible n'est pas automatiquement réutilisable. Un fichier de contacts, une donnée ou une relation avec un partenaire peut demander un accord et un usage compatible avec sa collecte ou ses engagements. Demande à la personne responsable ce qui est possible. Soutenir un builder peut consister à faciliter cet accès ou à aider à comparer les options, sans imposer l'outil que tu connais.
+Avec une IA, adapter ce que tu as déjà est devenu plus facile : une formule, un script, une automatisation entre deux outils que tu utilises déjà.
 
 ## À essayer
 
-Sur un besoin précis, note le résultat attendu et les contraintes. Examine une ressource existante avec une personne qui la connaît, puis compare une autre option réaliste, y compris une méthode manuelle.
+Sur un besoin précis, note le résultat attendu. Avant de chercher un outil, demande à la personne qui connaît le mieux tes outils actuels s'ils savent le faire.
 
-Prévois un petit essai autorisé et une limite d'effort. Évalue si les utilisateurs peuvent rendre le service attendu, ce qui demande une reprise et qui entretiendra la solution.
-
-Présente la comparaison à la personne qui peut engager les moyens. Si la réutilisation est retenue, vérifie après un usage adapté que le gain espéré tient et que la dépendance supplémentaire reste acceptable.
+Essaie la version la plus simple avec ce que tu as, en une heure. Si elle ne suffit pas, tu sais maintenant exactement ce que le nouvel outil doit faire.
 
 ## Depuis ton siège
 
 - **Ingénierie** : compare adaptation, entretien et sortie avec l'ajout d'un outil.
 - **Finance** : distingue dépense passée et coût futur de chaque option.
-- **Opérations** : vérifie les accès, les usages et la capacité d'entretien.
-- **Management** : donne du temps à la comparaison avant d'engager les moyens.
+- **Opérations** : vérifie qu'une donnée existante peut servir à ce nouvel usage.
+- **Management** : demande ce que les outils actuels permettent avant d'en acheter un nouveau.
 
 ## À discuter
 
