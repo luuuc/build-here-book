@@ -15,45 +15,45 @@ categories:
 traductions:
   fr: /livre/chapitres/07-06-ecris-ce-qui-a-casse.html
 seo:
-  description: "Keep the facts, the assumptions and the next step of an incident in a suitable record, without requiring a public write-up or unpaid evening work."
+  description: "With no record, the same incident comes back. Write one page within the week, and publish it when it can help others."
   keywords: "build here, record, postmortem, builder, incident"
 ---
 
 ## The starting point
 
-An incident is under control, or an attempt has failed. The messages exist, but the reasoning, the useful facts and the open questions are hard to find again.
+An incident is sorted or an attempt has failed. The messages exist, but the reasoning and the lessons are scattered across them.
 
 ## The move
 
-Prepare a short account, reachable by the people who need it, once the emergency is handled and the time is planned.
+Write a short account within the week: what happened, what we understood, what we are changing.
 
 ## Why it works
 
-A record can hold the timeline, the assumptions examined, the actions and their effects. A retrospective, a report, or a postmortem can all do that job. The name of the document matters less than whether it helps a future decision, and no single method has a monopoly on keeping what was learned.
+With no record, the same incident comes back and the team rediscovers it. With one page, the next person knows what was tried, what worked and what was changed.
 
-A file stalled between two teams because each was waiting for a different confirmation. The account describes what was visible from each side, how the blockage was understood, and which handover agreement was changed. It separates established facts from causes still possible. You do not have to find a personal error in order to learn.
+A file stalled between two teams because each was waiting for a different confirmation. The account describes what each side saw, how the blockage was understood, and which handover agreement changed. Nobody is named as the culprit. The mechanism is fixed.
 
-The readers may be whoever takes over, the team, or you later. A maintained internal document is a valid way of passing something on. A public write-up can widen the reach when it is useful and authorised, but removing a name or changing a number is not enough to make a sequence shareable. Check the content with the people responsible; keep a restricted version if you need to.
+An AI can rebuild the timeline from the messages and tickets in minutes. Keep your time for what it does not know: why people believed what they believed, and what is changing.
 
-Writing takes time, sometimes after a draining episode. Agree a reasonable effort, and avoid the injunction to publish the same evening. Someone starting out can help reconstruct a case with a peer. If you are growing a team, protect the ability to report and examine a difficulty: see [⇄ If being wrong costs status, nobody will be wrong out loud](/book/chapters/01-10-if-being-wrong-costs-status-nobody-will-be-wrong-out-loud.html).
+Share it with the people who need it: the team, whoever takes over, the teams next door. When the story can help others, publish it, leaving out what is not yours to share. Much of what people know about outages comes from accounts other teams published.
 
 ## Try this
 
-Choose an event whose record would help something real that follows. Write:
+Choose a recent incident or failure. Write one page:
 
 > What happened and what is still uncertain: ...
 > What we thought at the time and the checks we made: ...
 > The actions, their effects, and the limits we met: ...
-> The next step decided, its owner, and how it gets checked: ...
+> What we are changing, who handles it, and how we check it: ...
 
-Have the facts read by the people concerned, and choose a place that matches the sharing rights. At the agreed moment, check whether the action decided was carried out and useful. A note published or filed does not on its own close the loop.
+Have the facts read by the people concerned. At the agreed moment, check that the action decided was carried out.
 
 ## From where you sit
 
 - **Product**: keep the assumptions and the observations, not only the conclusion.
 - **Operations**: say what made it possible to restore or preserve the service.
-- **Management**: plan the review time and a level of sharing that suits the content.
-- **Customer relations**: bring the shareable facts about the consequences for people.
+- **Management**: plan the time to write it, in the week that follows.
+- **Customer relations**: bring the facts about the consequences for customers.
 
 ## To discuss
 

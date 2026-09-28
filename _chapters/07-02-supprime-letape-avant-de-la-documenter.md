@@ -16,41 +16,41 @@ categories:
 traductions:
   en: /book/chapters/07-02-delete-the-step-before-you-document-it.html
 seo:
-  description: "Identifie la fonction d'une étape avant de la documenter, la modifier ou la retirer ; une raison inconnue demande une enquête."
+  description: "Documenter une étape inutile, c'est la rendre permanente. Demande ce qu'elle produit avant de l'écrire."
   keywords: "build here, builder, systemes, procedure, fonction, simplification"
 ---
 
 ## Le point de départ
 
-Tu veux expliquer une étape pour qu'une autre personne puisse la faire. Son utilité ou sa forme actuelle mérite peut-être aussi d'être examinée.
+Tu veux documenter une étape pour qu'une autre personne puisse la faire.
 
 ## Le geste
 
-Cherche ce que l'étape produit ou protège, pour qui, puis compare les façons de préserver cette fonction : la documenter, la simplifier, l'automatiser ou la retirer.
+Avant de l'écrire, demande ce qu'elle produit, et pour qui. Puis choisis : la retirer, la simplifier, l'automatiser ou la documenter.
 
 ## Pourquoi ça marche
 
-Documenter peut rendre le travail accessible, sécuriser un relais et permettre de discuter une pratique. Cela ne rend pas l'étape permanente. Écrire sa raison et ses limites aide justement à la revoir plus tard. Il peut être utile de documenter une procédure provisoire pendant qu'une amélioration est étudiée.
+Documenter une étape inutile, c'est la rendre permanente. Une procédure bien écrite donne l'impression que chaque étape a une raison. Parfois, elle n'en a plus.
 
-Une équipe recopie une référence d'un formulaire vers un tableau. Avant de supprimer cette copie, elle découvre que le tableau sert à vérifier les dossiers incomplets. Une intégration pourrait préserver cette vérification ; retirer seulement la copie laisserait un manque. Le besoin porte sur le contrôle, pas nécessairement sur le geste actuel.
+Une équipe recopie une référence d'un formulaire vers un tableau. Avant de supprimer la copie, elle découvre que le tableau sert à repérer les dossiers incomplets. Le besoin, c'est ce contrôle, pas la copie. Une petite intégration garde le contrôle et supprime le geste.
 
-Si personne ne connaît la raison d'une étape, c'est une inconnue à traiter, pas une autorisation de suppression. Consulte les personnes affectées, les traces disponibles et le responsable du parcours. Une protection peut rester nécessaire même si aucun incident récent n'est connu. Si l'incertitude demeure, préserve la fonction en attendant un examen compétent.
+Si personne ne sait pourquoi une étape existe, cherche avant de supprimer : la personne qui a mis en place le parcours, les traces, ceux qui en dépendent. Une protection peut servir même sans incident récent.
 
-L'automatisation est une option avec ses propres coûts : configuration, contrôles, maintenance et reprise en cas de panne. Une explication ou une simplification manuelle peut suffire. Choisis selon l'enjeu et les moyens disponibles, sans dévaloriser le travail de documentation ni promettre un gain que tu n'as pas observé.
+L'automatisation coûte moins qu'avant, mais pas rien : il faut la vérifier, l'entretenir, et savoir quoi faire quand elle tombe en panne. Pour une étape rare, une explication claire suffit souvent.
 
 ## À essayer
 
-Sur une étape à ta portée, écris sa fonction, son destinataire et ce qui resterait inconnu si elle disparaissait. Demande une explication à la personne qui connaît le parcours ; si tu débutes, fais cette lecture avec elle.
+Sur une étape que tu dois documenter, écris d'abord ce qu'elle produit, pour qui, et ce qui manquerait si elle disparaissait. Demande à la personne qui connaît le parcours.
 
-Propose ensuite une modification limitée, avec l'accord nécessaire et une façon de revenir en arrière. Ne retire pas seul un contrôle partagé.
+Puis choisis : retirer, simplifier, automatiser, documenter. Essaie sur quelques cas, avec un moyen de revenir en arrière.
 
-Au prochain cas adapté, vérifie que le résultat et la protection attendus sont conservés, puis compare l'effort. Mets à jour la procédure et note quand la revoir. Une décision de garder l'étape peut être un résultat utile de cet examen.
+Garder l'étape est aussi un bon résultat, si tu sais maintenant pourquoi.
 
 ## Depuis ton siège
 
 - **Opérations** : identifie ce qu'une étape rend possible pour la personne suivante.
 - **Ingénierie** : compte les contrôles et l'entretien d'une éventuelle automatisation.
-- **Management** : précise qui peut autoriser une modification du parcours.
+- **Management** : dis qui peut décider d'un changement du parcours, et réponds vite.
 - **Relation client** : explique la difficulté observée sans présumer que l'étape est inutile.
 
 ## À discuter

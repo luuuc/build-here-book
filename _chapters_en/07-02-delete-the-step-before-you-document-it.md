@@ -15,7 +15,7 @@ categories:
 traductions:
   fr: /livre/chapitres/07-02-supprime-letape-avant-de-la-documenter.html
 seo:
-  description: "Identify what a step is for before documenting, changing or removing it; an unknown reason calls for an inquiry."
+  description: "Documenting a useless step makes it permanent. Ask what it produces before you write it down."
   keywords: "build here, builder, systems, procedure, function, simplification"
 redirect_from:
   - /book/chapters/07-02-understand-the-step-before-you-simplify-it.html
@@ -23,35 +23,35 @@ redirect_from:
 
 ## The starting point
 
-You want to explain a step so someone else can do it. What it is for, or the shape it has now, may also deserve examining.
+You want to document a step so someone else can do it.
 
 ## The move
 
-Look for what the step produces or protects, and for whom, then compare the ways of keeping that function: document it, simplify it, automate it, or remove it.
+Before you write it down, ask what it produces, and for whom. Then choose: remove it, simplify it, automate it, or document it.
 
 ## Why it works
 
-Documenting can make work reachable, secure a handover, and make a practice discussable. It does not make the step permanent. Writing down its reason and its limits is precisely what helps you revisit it later. It can be useful to document a provisional procedure while an improvement is being studied.
+Documenting a useless step makes it permanent. A well-written procedure gives the impression that every step has a reason. Sometimes it no longer does.
 
-A team copies a reference from a form into a spreadsheet. Before removing that copy, they find the spreadsheet is used to check incomplete files. An integration could keep that check; removing only the copy would leave a gap. The need is about the control, not necessarily about the current move.
+A team copies a reference from a form into a spreadsheet. Before deleting the copy, they find the spreadsheet is used to spot incomplete files. The need is that check, not the copy. A small integration keeps the check and removes the chore.
 
-If nobody knows why a step exists, that is an unknown to handle, not permission to delete. Ask the people affected, look at whatever records exist, and ask whoever owns the flow. A protection can still be necessary even with no recent incident. If the uncertainty holds, keep the function until a competent examination.
+If nobody knows why a step exists, look before you delete: whoever set up the flow, the records, the people who depend on it. A protection can matter even with no recent incident.
 
-Automation is an option with costs of its own: configuration, controls, maintenance, and recovery when it fails. An explanation or a manual simplification may be enough. Choose according to what is at stake and the means available, without devaluing documentation work or promising a gain you have not observed.
+Automation costs less than it used to, but not nothing: it has to be checked, maintained, and you need to know what to do when it breaks. For a rare step, a clear explanation is often enough.
 
 ## Try this
 
-On a step within reach, write down what it is for, who it is for, and what would become unknown if it disappeared. Ask whoever knows the flow to explain it; if you are starting out, read it through with them.
+On a step you have to document, first write down what it produces, for whom, and what would be missing if it disappeared. Ask the person who knows the flow.
 
-Then propose a bounded change, with the agreement it needs and a way back. Do not remove a shared control on your own.
+Then choose: remove, simplify, automate, document. Try it on a few cases, with a way back.
 
-At the next suitable case, check that the result and the protection expected are still there, then compare the effort. Update the procedure and note when to revisit it. Deciding to keep the step can be a useful outcome of this examination.
+Keeping the step is a good outcome too, if you now know why.
 
 ## From where you sit
 
 - **Operations**: identify what a step makes possible for the next person.
 - **Engineering**: count the controls and the upkeep any automation would bring.
-- **Management**: say who can authorise a change to the flow.
+- **Management**: say who can decide a change to the flow, and answer fast.
 - **Customer relations**: explain the difficulty observed without assuming the step is useless.
 
 ## To discuss

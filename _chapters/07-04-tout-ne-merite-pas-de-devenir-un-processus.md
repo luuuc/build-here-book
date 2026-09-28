@@ -16,35 +16,33 @@ categories:
 traductions:
   en: /book/chapters/07-04-not-everything-deserves-to-become-a-process.html
 seo:
-  description: "Choisis une protection proportionnée au risque et à sa charge, sans attendre trois incidents ni transformer chaque difficulté en procédure."
+  description: "Chaque règle coûte à chaque usage. Avant d'en ajouter une, cherche la réponse la plus légère qui protège vraiment."
   keywords: "build here, systemes, process, bureaucratie, builder"
 ---
 
 ## Le réflexe
 
-Une difficulté vient de se produire. L'équipe envisage d'ajouter une règle pour éviter qu'elle revienne, sans avoir encore comparé les réponses possibles.
+Un problème vient d'arriver. L'équipe ajoute une règle pour qu'il ne revienne pas.
 
 ## Le réflexe builder
 
-Examine le risque à traiter, les informations disponibles et le coût des options. La répétition éclaire ce choix, mais ne décide pas seule.
+Avant d'ajouter une règle, demande quel risque elle traite, ce qu'elle coûtera à chaque fois, et s'il existe une réponse plus légère.
 
 ## Pourquoi
 
-Une règle peut protéger un service, aider un débutant ou rendre un accord explicite. Elle demande aussi un effort à chaque utilisation et doit rester adaptée au contexte. L'enjeu est de choisir une protection proportionnée, pas de défendre ou de refuser les processus par principe.
+Chaque règle coûte un peu à chaque fois qu'on l'applique. Ajoutées une par une après chaque incident, elles finissent par ralentir tout le monde pour des risques dont personne ne se souvient.
 
-Une première occurrence peut suffire à justifier une action si les conséquences sont importantes. Il peut même être pertinent de prévenir un risque avant tout incident. Pour une gêne limitée et encore mal comprise, observer quelques cas peut être préférable à imposer immédiatement la même procédure à tous. Aucun seuil de trois occurrences ne remplace ce jugement.
+Un devis part avec un mauvais prix. On peut ajouter une validation du responsable sur chaque devis. On peut aussi corriger la grille de prix, calculer le prix automatiquement, ou relire seulement les devis au-dessus d'un certain montant. La signature systématique est rarement la meilleure réponse.
 
-Lors d'un atelier, un matériel manque à l'ouverture. Selon le contexte, une liste de préparation, une réserve, une clarification du relais ou une vérification ponctuelle peut aider. Ajouter une signature à chaque déplacement du matériel n'est pas automatiquement la meilleure réponse. Il faut comprendre ce qui a manqué et qui supporterait la nouvelle charge.
+Parfois, une seule occurrence suffit : si la conséquence est grave, protège tout de suite. Pour une gêne limitée, observe quelques cas avant d'imposer une procédure à tout le monde.
 
-Compare aussi les effets sur les autres personnes : temps supplémentaire, accès plus difficile, ambiguïté ou travail déplacé. Une protection utile peut coûter du temps sans être inutile. Fais préciser sa raison et les conditions qui permettraient de la modifier. Si une mesure provisoire est nécessaire avant la fin de l'analyse, indique son caractère provisoire et qui la réexaminera.
+Une règle doit dire sa raison. Sans elle, personne ne saura quand la retirer.
 
 ## À essayer
 
-Sur une règle proposée, pose trois questions : quel risque traite-t-elle, quelles autres réponses sont possibles, et que demandera-t-elle à ceux qui l'appliquent ?
+Sur une règle proposée ou existante, pose trois questions : quel risque traite-t-elle, quelles autres réponses existent, et que coûte-t-elle à ceux qui l'appliquent ?
 
-Avec les personnes concernées, choisis un périmètre et un moment de revue adaptés. Si tu n'as pas autorité pour changer la règle, prépare ces éléments pour l'arbitrage plutôt que de la contourner.
-
-À la revue, examine si la protection fonctionne et si son coût reste justifié. Une absence d'incident ne prouve pas à elle seule que la règle est inutile. Décidez de la maintenir, de l'ajuster ou de la retirer sur des éléments suffisamment solides.
+Choisis la réponse la plus légère qui protège vraiment. Fixe une date pour revoir si elle sert encore.
 
 ## Depuis ton siège
 

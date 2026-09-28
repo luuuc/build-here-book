@@ -15,42 +15,42 @@ categories:
 traductions:
   en: /book/chapters/07-01-the-second-time-is-information.html
 seo:
-  description: "Examine une répétition selon sa fréquence, sa gravité et le coût d'une amélioration, sans attendre un nombre fixe d'occurrences."
+  description: "La deuxième fois qu'un problème revient, c'est une information. Et automatiser une petite tâche ne coûte plus qu'une heure."
   keywords: "build here, systemes, repetition, process, builder"
 ---
 
 ## Le symptôme
 
-Une petite tâche revient : corriger une saisie, chercher une information, expliquer un passage. Chaque occurrence paraît raisonnable, mais tu te demandes si une amélioration serait utile.
+Une petite tâche revient : corriger une saisie, chercher une information, réexpliquer une étape. Chaque fois, tu la refais à la main.
 
 ## Le signal
 
-Note une répétition qui compte, puis examine sa fréquence, ses conséquences et les raisons possibles avant de choisir une réponse.
+La deuxième fois qu'un problème revient, note-le. C'est une information, pas une coïncidence.
 
 ## Ce qui se passe
 
-Une répétition rend visible une question à examiner. Elle peut signaler un défaut en amont, un besoin de formation ou une activité normale du service. Expliquer plusieurs fois à des personnes différentes peut être nécessaire ; un document ne remplace pas toujours l'accompagnement.
+Une répétition montre quelque chose : un défaut en amont, une consigne peu claire, un outil qui manque. La première fois, tu règles le cas. La deuxième, tu as de quoi chercher la cause.
 
-Au guichet d'une association, plusieurs personnes demandent quelle pièce joindre à un dossier. L'information manque peut-être sur la fiche. Elle peut aussi être difficile à comprendre, inaccessible dans le format proposé ou différente selon le cas. Compter les questions aide à choisir où regarder, sans établir à lui seul la cause.
+Au support, plusieurs clients demandent quelle pièce joindre à leur dossier. L'information manque peut-être sur le formulaire. Elle y est peut-être, mais illisible sur téléphone. Compter les questions te dit où chercher. Aller voir te dit quoi corriger.
 
-La fréquence n'est pas le seul critère. Une erreur rare mais lourde de conséquences peut demander une action immédiate. Une tâche fréquente et courte peut rester moins coûteuse à faire qu'à automatiser. N'attends pas une troisième occurrence si une protection ou une aide est déjà nécessaire ; inversement, trois occurrences ne prouvent pas qu'un nouveau système est utile.
+Le calcul a changé. Automatiser une petite tâche répétée, un tableau qui se remplit seul, une réponse type, un contrôle, prend souvent une heure avec une IA. Ce qui ne valait pas la peine il y a deux ans la vaut peut-être aujourd'hui.
 
-Garde une trace proportionnée : quelques cas, leur contexte, le temps approximatif et les effets observés. Précise quand une estimation est grossière. Une personne qui débute peut noter un cas avec un pair pour apprendre quoi regarder. Une personne expérimentée peut examiner une habitude installée, sans présumer que ceux qui la suivent ont oublié de réfléchir.
+La fréquence n'est pas le seul critère. Une erreur rare mais grave justifie d'agir dès la première fois. Une tâche courte et toujours différente peut rester moins chère à faire à la main.
 
 ## À vérifier
 
-Choisis une seule répétition pendant une période adaptée à ton activité. Note ce qui revient et ce qui varie. Si tu observes le travail d'autres personnes, explique le but et convenez du temps à y consacrer.
+Pendant deux semaines, note une tâche qui revient : combien de fois, combien de temps, ce qui varie.
 
-À la fin, compare deux options : continuer ainsi, ou essayer une amélioration limitée. Ajoute le coût de préparation, de transmission et d'entretien de cette amélioration.
+Compare deux options : continuer à la main, ou essayer une amélioration. Compte le temps de la construire et de l'entretenir.
 
-Fais décider le changement par les personnes concernées. Au prochain usage comparable, vérifie si l'effort ou la difficulté a diminué sans déplacer le problème vers quelqu'un d'autre. Continuer à la main peut rester le bon choix.
+Essaie-la, et regarde si l'effort a baissé sans déplacer le problème vers quelqu'un d'autre.
 
 ## Depuis ton siège
 
 - **Support** : distingue une question récurrente d'une cause déjà vérifiée.
 - **Design** : observe ce qui varie avant de proposer un composant commun.
 - **Opérations** : compare fréquence, gravité et coût d'une amélioration.
-- **Management** : réserve un peu de temps à l'observation sans imposer un inventaire permanent.
+- **Management** : réserve du temps pour régler les répétitions, pas seulement pour les traiter.
 
 ## À discuter
 

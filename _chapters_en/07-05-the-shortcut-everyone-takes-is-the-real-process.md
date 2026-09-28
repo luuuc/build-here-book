@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html
 seo:
-  description: "Watch the gaps between procedure and practice without assuming the workaround is right; check the functions and protections to keep."
+  description: "When everyone works around a step, the shortcut is the real process. Ask what it solves before restating the rule."
   keywords: "build here, builder, systems, gap, process, observation"
 redirect_from:
   - /book/chapters/07-05-a-workaround-points-at-a-gap-worth-understanding.html
@@ -22,29 +22,27 @@ redirect_from:
 
 ## The symptom
 
-The work you watch differs from the written flow. Some people use a message, a file, or a different check to get to the result.
+The real work does not follow the procedure. People go through a message, a file, or a check of their own to get to the result.
 
 ## The signal
 
-Examine the real flow, and what the bypassed step is for, before you restate the rule or adopt the workaround.
+The shortcut everyone takes is the real process. Look at it before you restate the rule.
 
 ## What's going on
 
-A gap is information about the practice. It can come from a missing access, an instruction poorly understood, an emergency, a preference, or a step that has become useless. Several people using it proves neither that it works nor that it is acceptable. It helps you choose where to look.
+When everyone works around a step, the written procedure no longer describes the work. Restating the rule will change nothing: the shortcut exists because it solves something.
 
-Requests arrive by direct message rather than through the intended form. The form may be hard to open on the phone people use. The message lets them move, but may leave out information the person taking over needs. Both effects belong in the analysis.
+Requests arrive by direct message rather than through the intended form. The form is hard to open on a phone. The message works, but leaves out information the next person needs. Both facts count.
 
-With the people concerned, watch what the workaround makes easier, what it loses, and who that matters to. Some controls protect against a risk even when it has never materialised. If what they are for is still unknown, ask whoever owns the flow for an examination; no immediate explanation does not validate the bypass.
+Two possible answers: bring the procedure in line with the shortcut, or fix the shortcut. Often it is a bit of both: a form that works on a phone, or a standard message that carries the missing information.
 
-The response can be fixing the access, a better explanation, a framed exception, or a change to the process. It can also be keeping the flow while making it more workable. Do not ask anyone to repeat a risky action just to demonstrate it. An account or a prepared case can be enough to start.
+Ask people why they work around it, without looking for someone to blame. They will tell you what the procedure misses.
 
 ## Check this
 
-Choose a case you can reach, and explain you are trying to understand the work, not assess a person. Compare the intended steps to the real ones. Note what each produces, and for whom.
+Take a recent case and compare the intended steps to the real ones. Note what each produces, and for whom.
 
-Prepare an improvement with the people who use the flow and the people who depend on it. Get the necessary agreements and the protections to keep confirmed before a bounded trial.
-
-After the trial, examine the effort, the quality of the handover, and the unintended consequences. Update the document if the change is kept. A shorter procedure is only useful if it keeps what counts.
+Propose a change with the people who do the work and the people who depend on it. Try it, then update the procedure so it describes what really happens.
 
 ## From where you sit
 

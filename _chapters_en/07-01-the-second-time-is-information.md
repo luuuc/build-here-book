@@ -14,42 +14,42 @@ categories:
 traductions:
   fr: /livre/chapitres/07-01-la-deuxieme-fois-est-une-information.html
 seo:
-  description: "Examine a repetition by its frequency, its severity and the cost of an improvement, without waiting for a fixed number of occurrences."
+  description: "The second time a problem comes back, it is information. And automating a small task now costs about an hour."
   keywords: "build here, systems, repetition, process, builder"
 ---
 
 ## The symptom
 
-A small task keeps coming back: fixing an entry, hunting for information, explaining a step. Each occurrence looks reasonable, but you wonder whether an improvement would help.
+A small task keeps coming back: fixing an entry, hunting for information, explaining a step again. Each time, you redo it by hand.
 
 ## The signal
 
-Note a repetition that matters, then examine its frequency, its consequences, and the possible reasons before you choose a response.
+The second time a problem comes back, write it down. It is information, not coincidence.
 
 ## What's going on
 
-A repetition makes a question visible. It can signal a defect upstream, a need for training, or ordinary activity for the service. Explaining several times to different people can be necessary; a document does not always replace being there.
+A repetition shows something: a defect upstream, an unclear instruction, a missing tool. The first time, you sort the case. The second time, you have something to look for the cause with.
 
-At a community group's desk, several people ask which document to attach to a file. The information may be missing from the form. It may also be hard to understand, out of reach in the format offered, or different depending on the case. Counting the questions helps you choose where to look, without establishing the cause on its own.
+At support, several customers ask which document to attach to their file. The information may be missing from the form. It may be there, but unreadable on a phone. Counting the questions tells you where to look. Going to look tells you what to fix.
 
-Frequency is not the only criterion. A rare mistake with heavy consequences can call for immediate action. A frequent, short task can stay cheaper to do than to automate. Do not wait for a third occurrence if a protection or some help is already needed; conversely, three occurrences do not prove a new system is useful.
+The calculation has changed. Automating a small repeated task, a spreadsheet that fills itself, a standard reply, a check, often takes an hour with an AI. What was not worth it two years ago may well be worth it today.
 
-Keep a proportionate record: a few cases, their context, the rough time, and the effects observed. Say when an estimate is crude. Someone starting out can note a case with a peer to learn what to look at. An experienced person can examine a settled habit, without assuming the people following it have stopped thinking.
+Frequency is not the only criterion. A rare but serious mistake justifies acting the first time. A short task that is different every time can stay cheaper to do by hand.
 
 ## Check this
 
-Choose a single repetition over a period that suits your work. Note what recurs and what varies. If you are watching other people's work, explain the purpose and agree how much time to spend.
+For two weeks, note one task that keeps coming back: how often, how long, what varies.
 
-At the end, compare two options: carry on as is, or try a bounded improvement. Add the cost of preparing, passing on, and maintaining that improvement.
+Compare two options: carry on by hand, or try an improvement. Count the time to build it and to maintain it.
 
-Have the people concerned decide on the change. At the next comparable use, check whether the effort or the difficulty went down without moving the problem onto someone else. Carrying on by hand can still be the right choice.
+Try it, and see whether the effort went down without moving the problem onto someone else.
 
 ## From where you sit
 
 - **Support**: tell a recurring question apart from a cause already verified.
 - **Design**: watch what varies before proposing a shared component.
 - **Operations**: compare frequency, severity, and the cost of an improvement.
-- **Management**: set aside a little time for observation without imposing a permanent inventory.
+- **Management**: set aside time to fix repetitions, not only to handle them.
 
 ## To discuss
 

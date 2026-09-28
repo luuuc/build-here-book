@@ -15,35 +15,33 @@ categories:
 traductions:
   fr: /livre/chapitres/07-04-tout-ne-merite-pas-de-devenir-un-processus.html
 seo:
-  description: "Choose a protection proportionate to the risk and to its load, without waiting for three incidents or turning every difficulty into a procedure."
+  description: "Every rule costs something each time it is used. Before adding one, find the lightest answer that genuinely protects."
   keywords: "build here, systems, process, bureaucracy, builder"
 ---
 
 ## The reflex
 
-A difficulty has just happened. The team is considering adding a rule to stop it coming back, without having compared the possible responses yet.
+A problem has just happened. The team adds a rule so it does not come back.
 
 ## The builder's reflex
 
-Examine the risk to handle, the information available, and the cost of the options. Repetition informs that choice, but does not decide it alone.
+Before adding a rule, ask which risk it handles, what it will cost every time, and whether a lighter answer exists.
 
 ## Why
 
-A rule can protect a service, help a beginner, or make an agreement explicit. It also takes effort every time it is used, and has to stay suited to the context. What matters is choosing a proportionate protection, not defending or refusing process on principle.
+Every rule costs a little each time it is applied. Added one by one after each incident, rules end up slowing everyone down for risks nobody remembers.
 
-One occurrence can be enough to justify acting if the consequences are serious. It can even make sense to guard against a risk before any incident. For a limited nuisance that is still poorly understood, watching a few cases may be better than immediately imposing the same procedure on everyone. No threshold of three occurrences replaces that judgement.
+A quote goes out with the wrong price. You could add a manager's sign-off on every quote. You could also fix the price list, calculate the price automatically, or review only the quotes above a certain amount. Systematic sign-off is rarely the best answer.
 
-At a workshop, a piece of equipment is missing at opening time. Depending on the context, a preparation list, a spare, a clarified handover, or a one-off check may help. Adding a signature every time equipment moves is not automatically the best answer. You have to understand what was missing and who would carry the new load.
+Sometimes one occurrence is enough: if the consequence is serious, protect right away. For a limited nuisance, watch a few cases before imposing a procedure on everyone.
 
-Compare the effects on other people too: extra time, harder access, ambiguity, or work moved elsewhere. A useful protection can cost time without being useless. Have its reason stated, and the conditions under which it could change. If a provisional measure is needed before the analysis ends, say it is provisional and who will revisit it.
+A rule has to state its reason. Without it, nobody will know when to remove it.
 
 ## Try this
 
-On a proposed rule, ask three questions: which risk does it handle, what other responses are possible, and what will it ask of the people applying it?
+On a proposed or existing rule, ask three questions: which risk does it handle, what other answers exist, and what does it cost the people applying it?
 
-With the people concerned, choose a suitable scope and a review point. If you have no authority to change the rule, prepare those elements for a ruling rather than working around it.
-
-At the review, examine whether the protection works and whether its cost is still justified. No incidents does not on its own prove the rule useless. Decide to keep it, adjust it, or drop it on evidence solid enough to stand on.
+Pick the lightest answer that genuinely protects. Set a date to check whether it is still useful.
 
 ## From where you sit
 

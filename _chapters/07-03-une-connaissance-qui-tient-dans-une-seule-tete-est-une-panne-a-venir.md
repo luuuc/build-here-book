@@ -15,35 +15,35 @@ categories:
 traductions:
   en: /book/chapters/07-03-knowledge-that-fits-in-one-head-is-an-outage-waiting.html
 seo:
-  description: "Prépare la continuité par une transmission adaptée, avec du temps, de la pratique et une trace entretenue lorsque cela aide."
+  description: "Une personne indispensable est une panne programmée. Transmets le savoir en pratique, puis écris-le."
   keywords: "build here, builder, systemes, transmission, relais, continuite"
 ---
 
 ## Le symptôme
 
-Une activité dépend d'une personne qui sait comment faire. Son aide est précieuse, mais l'équipe ne sait pas encore comment assurer le service pendant son absence.
+Une activité dépend d'une seule personne. Le jour où elle est absente, le service s'arrête.
 
 ## Le signal
 
-Choisis un savoir essentiel et prépare un relais adapté : explication, démonstration, pratique accompagnée et trace utile selon le besoin.
+Choisis un savoir essentiel et fais-le passer à une deuxième personne, en pratique, pas seulement par écrit.
 
 ## Ce qui se passe
 
-La dépendance peut être acceptable pendant un apprentissage ou sur une activité peu fréquente. Elle mérite un examen quand une absence bloquerait un service important ou quand les sollicitations deviennent difficiles à absorber. Il n'est pas nécessaire de supposer que la personne entretient cette dépendance ou apprécie d'être indispensable.
+Une personne indispensable est une panne programmée. Elle tombera malade, partira en congé, changera de poste. Ce jour-là, le service s'arrête, et on la dérange pendant ses vacances.
 
-Une seule bénévole sait préparer le matériel d'un atelier. Elle montre une préparation à un autre membre, qui essaie ensuite avec elle. Ils notent les vérifications faciles à oublier. Le document complète l'expérience ; il ne prétend pas remplacer la connaissance de toutes les situations possibles.
+Une seule personne sait faire la clôture comptable du mois. Elle la fait une fois avec un collègue qui regarde, puis une fois en le laissant faire. Ils notent ensemble les vérifications faciles à oublier. Au troisième mois, le collègue la fait seul.
 
-Écrire n'est pas toujours la première action utile. Une démonstration, un binôme, une liste de contacts ou une formation peut mieux convenir. Pour une question urgente, donne d'abord l'aide nécessaire puis prévois la transmission. La personne qui sait et celle qui apprend ont toutes deux besoin de temps, d'accès et d'un périmètre convenu.
+La pratique d'abord, l'écrit ensuite. Un document seul suffit rarement. Une démonstration, un binôme, puis un essai accompagné font le travail. Une IA peut transformer l'enregistrement de la démonstration en guide écrit ; relisez-le ensemble.
 
-Une trace doit être trouvable, compréhensible et entretenue. Vérifie les informations qui peuvent être partagées et les personnes qui ont besoin d'y accéder. Préparer une relève n'enlève rien à la valeur du service rendu jusque-là. Reconnais la pratique directe autant que l'effort de transmission, et évite de transformer chaque échange en obligation documentaire.
+Ce n'est pas un reproche à la personne qui sait. Elle est rarement indispensable par choix. Donne-lui le temps de transmettre, et reconnais ce travail.
 
 ## À vérifier
 
-Choisissez une activité dont la continuité compte. Convenez d'un relais volontaire, d'un temps de préparation et d'une situation dans laquelle il pourra essayer sans conséquence excessive.
+Choisis une activité qui s'arrêterait si une seule personne manquait. Trouve un relais volontaire et bloque deux créneaux.
 
-Préparez seulement les repères nécessaires : étapes, limites, signes à vérifier et personne à contacter en cas de doute. La première version peut être courte, sans nombre de lignes imposé.
+Premier créneau : le relais regarde. Deuxième : il fait, la personne qui sait regarde. Notez ce qui manquait.
 
-Lors de l'essai, observez où l'aide reste nécessaire. Complétez les repères et clarifiez ce que le relais peut désormais faire. Prévoyez qui maintient cette information lorsque le travail change, plutôt que de considérer le lien envoyé comme une transmission achevée.
+Puis écrivez ensemble le guide court, et décidez qui le tient à jour.
 
 ## Depuis ton siège
 

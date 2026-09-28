@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html
 seo:
-  description: "Prepare continuity by passing knowledge on in a suitable way, with time, practice, and a maintained record where that helps."
+  description: "An indispensable person is a scheduled outage. Pass the knowledge on in practice, then write it down."
   keywords: "build here, builder, systems, passing on, relay, continuity"
 redirect_from:
   - /book/chapters/07-03-set-up-a-relay-for-essential-knowledge.html
@@ -22,29 +22,29 @@ redirect_from:
 
 ## The symptom
 
-An activity depends on one person who knows how. Their help is valuable, but the team does not yet know how to keep the service going while they are away.
+An activity depends on one person. The day they are away, the service stops.
 
 ## The signal
 
-Choose one essential piece of knowledge and prepare a suitable relay: explanation, demonstration, supported practice, and a record where the need calls for one.
+Choose one essential piece of knowledge and pass it to a second person, in practice, not only in writing.
 
 ## What's going on
 
-The dependency can be acceptable during a period of learning, or on an infrequent activity. It deserves examining when an absence would block an important service, or when the requests become hard to absorb. There is no need to assume the person is cultivating that dependency or enjoys being indispensable.
+An indispensable person is a scheduled outage. They will get sick, go on leave, change roles. That day the service stops, and someone calls them on holiday.
 
-Only one volunteer knows how to prepare the equipment for a workshop. She shows one preparation to another member, who then tries it with her. They note the checks that are easy to forget. The document completes the experience; it does not claim to replace knowing every possible situation.
+Only one person knows how to do the month-end accounting close. She does it once with a colleague watching, then once letting him do it. Together they note the checks that are easy to forget. By the third month, he does it alone.
 
-Writing is not always the first useful action. A demonstration, pairing, a list of contacts, or training may suit better. For an urgent question, give the help needed first, then plan the handover. The person who knows and the person learning both need time, access, and an agreed remit.
+Practice first, writing second. A document alone is rarely enough. A demonstration, pairing, then a supported attempt do the job. An AI can turn the recording of the demonstration into a written guide; read it through together.
 
-A record has to be findable, understandable, and maintained. Check which information can be shared and who needs to reach it. Preparing a successor takes nothing away from the value of the service delivered so far. Recognise direct practice as much as the effort of passing on, and avoid turning every exchange into a documentation obligation.
+This is not a criticism of the person who knows. They are rarely indispensable by choice. Give them time to pass it on, and recognise that work.
 
 ## Check this
 
-Choose an activity whose continuity matters. Agree a willing relay, preparation time, and a situation where they can try without excessive consequences.
+Choose an activity that would stop if one person were missing. Find a willing relay and book two slots.
 
-Prepare only the bearings that are needed: steps, limits, signs to check, and who to contact if in doubt. The first version can be short, with no imposed length.
+First slot: the relay watches. Second: they do it, and the person who knows watches. Note what was missing.
 
-During the attempt, watch where help is still needed. Fill in the bearings and clarify what the relay can now do. Plan who maintains that information as the work changes, rather than treating a link sent as a handover completed.
+Then write the short guide together, and decide who keeps it up to date.
 
 ## From where you sit
 

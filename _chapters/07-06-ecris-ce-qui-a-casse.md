@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/07-06-write-down-what-broke.html
 seo:
-  description: "Conserve les faits, les hypothèses et la suite d'un incident dans une trace adaptée, sans imposer une publication publique ou hors temps de travail."
+  description: "Sans trace, le même incident revient. Écris une page dans la semaine, et publie-la quand elle peut servir à d'autres."
   keywords: "build here, trace, postmortem, builder, incident"
 redirect_from:
   - /livre/chapitres/14-03-ecris-ce-qui-a-casse.html
@@ -24,39 +24,39 @@ redirect_from:
 
 ## Le point de départ
 
-Un incident est maîtrisé ou une tentative a échoué. Les échanges existent, mais le raisonnement, les faits utiles et les questions ouvertes restent difficiles à retrouver.
+Un incident est réglé ou un essai a échoué. Les échanges existent, mais le raisonnement et les leçons sont éparpillés dans les messages.
 
 ## Le geste
 
-Prépare un retour d'expérience court et accessible aux personnes qui en ont besoin, après avoir traité l'urgence et prévu le temps nécessaire.
+Écris un compte rendu court dans la semaine : ce qui s'est passé, ce qu'on a compris, ce qu'on change.
 
 ## Pourquoi ça marche
 
-Une trace peut conserver la chronologie, les hypothèses examinées, les actions et leurs effets. Une rétrospective, un compte rendu ou un postmortem peut remplir cette fonction. Le nom du document importe moins que sa capacité à aider une prochaine décision, sans prétendre qu'une seule méthode conserve l'apprentissage.
+Sans trace, le même incident revient et l'équipe le redécouvre. Avec une page, la personne suivante sait ce qui a été essayé, ce qui a marché et ce qui a été changé.
 
-Un dossier s'est arrêté entre deux équipes parce que chacune attendait une confirmation différente. Le retour décrit ce qui était visible de chaque côté, comment le blocage a été compris et quel accord de passation a été modifié. Il distingue les faits établis des causes encore possibles. Il n'est pas nécessaire de trouver une erreur personnelle pour apprendre.
+Un dossier s'est arrêté entre deux équipes parce que chacune attendait une confirmation différente. Le compte rendu décrit ce que chaque côté voyait, comment le blocage a été compris, et quel accord de passation a changé. Personne n'est désigné coupable. Le mécanisme, lui, est corrigé.
 
-Les lecteurs peuvent être un relais, l'équipe, ou toi plus tard. Un document interne entretenu est une transmission valable. Une publication publique peut élargir la portée si elle est utile et autorisée, mais retirer un nom ou modifier un chiffre ne suffit pas à rendre une séquence partageable. Vérifie le contenu avec les responsables concernés ; garde une version restreinte si nécessaire.
+Une IA peut reconstruire la chronologie à partir des messages et des tickets en quelques minutes. Garde ton temps pour ce qu'elle ne sait pas : pourquoi on a cru ce qu'on a cru, et ce qu'on change.
 
-L'écriture demande du temps, parfois après un épisode éprouvant. Convenez d'un effort raisonnable et évitez l'injonction à publier le soir même. Une personne qui débute peut aider à reconstruire un cas avec un pair. Si tu développes une équipe, protège la possibilité de signaler et d'examiner une difficulté : voir [⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute](/livre/chapitres/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html).
+Partage-le avec ceux qui en ont besoin : l'équipe, le relais, les équipes voisines. Quand l'histoire peut servir à d'autres, publie-la, en retirant ce qui ne t'appartient pas. Une bonne partie de ce qu'on sait sur les pannes vient de comptes rendus publiés par d'autres.
 
 ## À essayer
 
-Choisis un événement dont la trace aiderait une suite réelle. Note :
+Choisis un incident ou un échec récent. Écris une page :
 
 > Ce qui s'est passé et ce qui reste incertain : ...
-> Ce que nous pensions alors et les vérifications effectuées : ...
+> Ce que nous pensions alors et les vérifications faites : ...
 > Les actions, leurs effets et les limites rencontrées : ...
-> La suite décidée, son responsable et sa vérification : ...
+> Ce que nous changeons, qui s'en occupe, et comment on le vérifie : ...
 
-Fais relire les faits par les personnes concernées et choisis un emplacement adapté aux droits de partage. Au moment convenu, vérifie si l'action décidée a été réalisée et utile. Une note publiée ou rangée ne ferme pas à elle seule la boucle.
+Fais relire les faits par les personnes concernées. Au moment prévu, vérifie que l'action décidée a été faite.
 
 ## Depuis ton siège
 
 - **Produit** : conserve les hypothèses et les observations, pas seulement la conclusion.
 - **Opérations** : précise ce qui a permis de rétablir ou de préserver le service.
-- **Management** : prévois le temps de revue et un partage adapté au contenu.
-- **Relation client** : apporte les faits partageables sur les conséquences pour les personnes.
+- **Management** : prévois le temps d'écrire, dans la semaine qui suit.
+- **Relation client** : apporte les faits sur les conséquences pour les clients.
 
 ## À discuter
 
