@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/09-07-you-are-the-only-buyer-who-sees-all-the-work.html
 seo:
-  description: "Examine les contributions avec des critères explicites, des faits complétables et un mandat clair, en respectant les informations individuelles."
+  description: "Si seul ce qui se présente bien est reconnu, l'équipe apprend à présenter. Rends les critères explicites et mesure les effets."
   keywords: "build here, builder, leadership, reconnaissance, contributions, evaluation"
 redirect_from:
   - /livre/chapitres/09-05-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html
@@ -25,33 +25,33 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Tu souhaites reconnaître les contributions utiles, y compris celles qui se voient peu. Les décisions de soutien, d'évolution ou de rémunération s'appuient cependant sur des informations incomplètes ou des critères peu explicités.
+Tu veux reconnaître les contributions utiles, y compris celles qui se voient peu. Les décisions d'évolution et de salaire reposent sur ce qui se voit.
 
 ## Ce que le système entend
 
-Les personnes ne savent pas toujours comment leur travail est examiné ni comment faire connaître une contribution sans devoir se mettre constamment en avant.
+> "Pour être reconnu, il faut se montrer. Réparer en silence ne compte pas."
 
 ## Ce que ça produit
 
-Aucun responsable ne voit tout le travail. Une présentation peut être bien préparée et utile ; une maintenance discrète peut l'être aussi. Opposer ceux qui présentent et ceux qui construisent empêche d'examiner ce que chacun apporte. Cherche des faits auprès des personnes concernées plutôt que de présumer que la contribution la moins visible est toujours oubliée.
+Tu es le seul acheteur qui voit tout le travail, et même toi, tu n'en vois qu'une partie. Ce qui se présente bien se voit. L'entretien discret, la correction qui a évité l'incident, le collègue formé ne se voient pas.
 
-Une équipe remarque qu'une procédure de rapprochement produit moins de reprises. Plusieurs personnes ont contribué à la correction, à sa vérification et à son entretien. Examiner ces rôles permet de reconnaître le travail sans attribuer le résultat à la seule personne qui l'a présenté ni à un héros unique.
+Une équipe remarque qu'une procédure de rapprochement produit beaucoup moins de reprises. Trois personnes ont contribué : la correction, la vérification, l'entretien. Une seule l'a présentée. Si elle seule est reconnue, les deux autres ont compris la règle.
 
-Les décisions de rémunération et d'évolution dépendent de critères, de responsabilités, de cohérence entre situations et de moyens disponibles. Une référence externe peut informer la discussion sans décrire toute la contribution. Une seule décision ou félicitation ne remplace pas un cadre explicite et appliqué dans la durée. Ce qui relève de ton mandat, porte-le.
+Rends les critères explicites : réalisation, service, fiabilité, transmission. Demande les faits aux personnes concernées. Mesure les effets quand tu peux : des reprises en moins, des incidents évités, un délai réduit.
 
-Une reconnaissance ne remplace pas un arbitrage sur le salaire ou la charge. Si tu ne peux pas décider, tu peux aider à documenter une contribution et à la transmettre au bon responsable, avec accord. Respecte les informations privées : ni les montants ni les motifs individuels ne doivent devenir automatiquement un sujet de discussion publique. Les critères généraux peuvent être expliqués sans exposer les dossiers des personnes.
+La reconnaissance ne remplace pas une décision sur le salaire ou l'évolution. Si ce n'est pas toi qui décides, documente la contribution et porte-la à qui décide.
 
 ## La décision
 
-Avec les responsables concernés, choisis un périmètre de revue et précise les contributions examinées : réalisation, service, fiabilité, coopération, transmission ou apprentissage utile au rôle.
+→ Écris les contributions qui comptent pour ton équipe, et partage cette liste.
 
-Recueille des exemples contextualisés et laisse les personnes compléter ou corriger les faits qui les concernent. Compare les critères aux décisions proposées et examine ce qui reste peu visible. Ne déduis pas une contribution d'un chiffre isolé ou de la seule aisance à la raconter.
+→ Recueille des exemples avec leurs effets, et laisse chacun compléter les faits qui le concernent.
 
-Explique individuellement la décision, ses limites et la prochaine possibilité de revue. Au point convenu, vérifie que les engagements de soutien ou d'évolution ont eu une suite.
+→ Explique chaque décision individuellement, avec la prochaine date de revue.
 
 ## Depuis ton siège
 
-- **Management** : recueille des faits et explique les critères dans les limites de ton mandat.
+- **Management** : recueille des faits et explique les critères.
 - **Opérations** : rends visibles la continuité du service et le travail d'entretien.
 - **Recrutement** : compare les capacités annoncées aux contributions réellement reconnues.
 - **Finance** : éclaire les moyens disponibles sans les confondre avec toute la valeur du travail.

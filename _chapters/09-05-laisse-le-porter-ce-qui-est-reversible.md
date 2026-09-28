@@ -16,41 +16,39 @@ categories:
 traductions:
   en: /book/chapters/09-05-let-them-carry-what-is-reversible.html
 seo:
-  description: "Accorde des décisions réelles avec limites, soutien et mandat, en examinant les conséquences au-delà de la seule réversibilité."
+  description: "On apprend à décider en décidant. Confie les décisions qui se défont, et ne les reprends pas pour une question de goût."
   keywords: "build here, builder, leadership, delegation, decision, limites"
 ---
 
 ## Le point de départ
 
-Une personne pourrait prendre une décision sur un sujet que tu portes. Il faut encore préciser son envie, son expérience, les conséquences possibles et le mandat que tu peux réellement lui transmettre.
+Une personne pourrait prendre une décision sur un sujet que tu portes. Tu continues à décider, parce que c'est plus rapide.
 
 ## Le geste
 
-Convenez d'une décision à sa portée, de limites explicites et d'un soutien disponible. Examine la réversibilité avec les autres conséquences, sans en faire le seul critère.
+Confie-lui les décisions qui se défont, avec des limites claires et ton aide disponible.
 
 ## Pourquoi ça marche
 
-Prendre une décision réelle peut développer le jugement. Observer, pratiquer ensemble et recevoir un retour peuvent aussi préparer cet apprentissage. La bonne entrée dépend du sujet et de la personne ; donner un travail inédit sans appui n'est pas une preuve de confiance.
+On apprend à décider en décidant. Tant que tu gardes toutes les décisions, l'autre apprend à attendre. Commence par ce qui se défait : l'erreur coûtera peu, et l'apprentissage beaucoup.
 
-Une décision facile à défaire techniquement peut laisser un coût, du travail ou une perte de confiance. Un message envoyé ne disparaît pas parce qu'on le corrige. Un retour à une version précédente peut demander de traiter les effets déjà produits. Examine donc la portée, les compétences, les moyens de reprise et les personnes affectées, plutôt qu'un délai universel d'une journée.
+Réversible ne veut pas dire sans effet. Un message envoyé ne disparaît pas parce qu'on le corrige. Regarde ce qui resterait si la décision était mauvaise, pas seulement si on peut revenir en arrière.
 
-Une collègue choisit l'ordre d'une séance d'accueil dans un cadre convenu. Elle peut adapter les exercices, mais le lieu et le budget restent fixés. Vous prévoyez un point de préparation et une manière de demander de l'aide. Une validation sur un élément particulier peut rester nécessaire sans annuler toutes les décisions qu'elle prend réellement.
+Une collègue choisit le déroulé de la réunion de lancement avec un client. Elle décide de l'ordre et du contenu ; le prix et la date restent fixés. Vous prévoyez un point de préparation. Elle décide vraiment, dans un cadre clair.
 
-Le cadre doit dire qui décide et quand un avis est requis. Évite une autorisation annoncée puis retirée parce que tu aurais préféré une autre option. Rester disponible comprend aussi la possibilité de signaler spontanément un risque important. Attendre qu'une action devienne irréversible avant d'intervenir ne protège ni l'apprentissage ni le service.
+Ne reprends pas une décision confiée parce que tu aurais préféré une autre option. Interviens pour un risque réel, pas pour un goût. Sinon, la prochaine fois, elle te demandera avant.
 
 ## À essayer
 
-Choisissez ensemble une décision limitée. Confirmez l'objectif, les options ouvertes, les contraintes, les moyens et les situations qui demandent un retour avant d'agir.
+Choisis une décision qui se défait et que tu prends encore toi-même. Confie-la, avec l'objectif, les limites et le moment où vous regardez ensemble.
 
-Vérifie que tu as le mandat pour confier cette décision. Entre pairs, un accord de coopération peut suffire pour certaines tâches ; il ne remplace pas une autorisation nécessaire ailleurs. La personne peut demander un périmètre plus petit ou davantage d'appui.
-
-Au point convenu, examinez le résultat et le raisonnement, sans reprendre automatiquement la main. Ajustez le cadre pour le prochain essai. Une progression peut être une décision mieux expliquée ou une demande d'aide mieux placée, pas seulement moins de validations.
+Au point prévu, regarde le raisonnement et le résultat, sans reprendre la main. Élargis le cadre la fois suivante.
 
 ## Depuis ton siège
 
 - **Ingénierie** : examine les effets déjà produits même si un changement peut être retiré.
 - **Produit** : précise les arbitrages ouverts et les engagements à préserver.
-- **Management** : confirme mandat, soutien et motifs d'intervention avant l'essai.
+- **Management** : dis à l'avance ce qui justifierait que tu interviennes.
 - **Relation client** : accompagne une situation difficile selon l'expérience du collègue.
 
 ## À discuter

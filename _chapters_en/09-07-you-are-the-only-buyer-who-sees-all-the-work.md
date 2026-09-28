@@ -15,7 +15,7 @@ categories:
 traductions:
   fr: /livre/chapitres/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html
 seo:
-  description: "Examine contributions with explicit criteria, facts people can complete, and a clear mandate, while respecting individual information."
+  description: "If only what presents well gets recognised, the team learns to present. Make the criteria explicit and measure the effects."
   keywords: "build here, builder, leadership, recognition, contributions, appraisal"
 redirect_from:
   - /book/chapters/09-07-tie-recognition-to-real-contributions.html
@@ -23,33 +23,33 @@ redirect_from:
 
 ## What you are asking for
 
-You want to recognise useful contributions, including the ones that are hard to see. Decisions about support, progression or pay, though, rest on incomplete information or on criteria nobody has spelled out.
+You want to recognise useful contributions, including the ones that are hard to see. Decisions about progression and pay rest on what is visible.
 
 ## What the system hears
 
-People do not always know how their work is examined, or how to make a contribution known without constantly putting themselves forward.
+> "To be recognised, you have to show yourself. Fixing things quietly does not count."
 
 ## What that produces
 
-No manager sees all the work. A presentation can be well prepared and useful; quiet maintenance can be too. Setting the people who present against the people who build stops you examining what each actually brings. Look for facts from the people concerned rather than assuming the least visible contribution is always the forgotten one.
+You are the only buyer who sees all the work, and even you only see part of it. What presents well gets seen. Quiet maintenance, the fix that prevented the incident, the colleague you trained, do not.
 
-A team notices that a reconciliation procedure produces less rework. Several people contributed to the fix, to checking it, and to maintaining it. Examining those roles lets you recognise the work without attributing the result to whoever presented it, or to a single hero.
+A team notices that a reconciliation procedure produces far less rework. Three people contributed: the fix, the check, the upkeep. Only one presented it. If only she is recognised, the other two have learned the rule.
 
-Decisions about pay and progression depend on criteria, on responsibilities, on consistency across situations, and on the means available. An external benchmark can inform the discussion without describing the whole contribution. One decision or one compliment does not replace an explicit frame applied over time. What sits inside your mandate, carry it.
+Make the criteria explicit: building, service, reliability, passing on. Ask the people concerned for the facts. Measure the effects when you can: less rework, incidents avoided, a shorter lead time.
 
-Recognition does not replace a decision about salary or load. If you cannot decide, you can help document a contribution and pass it to the right person, with agreement. Respect private information: neither amounts nor individual reasons should automatically become a matter for public discussion. General criteria can be explained without exposing anyone's file.
+Recognition does not replace a decision about pay or progression. If you are not the one who decides, document the contribution and take it to whoever does.
 
 ## The decision
 
-With the managers concerned, choose a review scope and say which contributions are examined: building, service, reliability, cooperation, passing on, or learning useful to the role.
+→ Write down the contributions that count for your team, and share that list.
 
-Gather examples with their context, and let people complete or correct the facts about them. Compare the criteria to the decisions proposed, and examine what stays hard to see. Do not read a contribution off an isolated number, or off how easily someone tells it.
+→ Gather examples with their effects, and let each person complete the facts about them.
 
-Explain the decision individually, with its limits and the next opportunity for review. At the agreed check-in, confirm that the commitments about support or progression had a follow-up.
+→ Explain each decision individually, with the next review date.
 
 ## From where you sit
 
-- **Management**: gather facts and explain the criteria inside the limits of your mandate.
+- **Management**: gather facts and explain the criteria.
 - **Operations**: make continuity of service and maintenance work visible.
 - **Recruiting**: compare the capabilities advertised to the contributions actually recognised.
 - **Finance**: shed light on the means available without confusing them with the whole worth of the work.

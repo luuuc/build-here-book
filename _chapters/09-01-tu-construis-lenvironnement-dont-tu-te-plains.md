@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/09-01-you-build-the-environment-you-complain-about.html
 seo:
-  description: "Une equipe tourne sur les consequences observees, pas sur les valeurs affichees. Regarde ce qui est arrive aux trois dernieres propositions."
+  description: "Une équipe tourne sur les conséquences observées, pas sur les valeurs affichées. Regarde ce qui est arrivé aux trois dernières propositions."
   keywords: "build here, builder, leadership, initiative, conditions, soutien"
 redirect_from:
   - /livre/chapitres/09-01-les-dirigeants-fabriquent-lenvironnement-dont-ils-se-plaignent.html
@@ -36,13 +36,9 @@ Une équipe ne tourne pas sur les valeurs affichées. Elle tourne sur les consé
 
 C'est pour ça que la passivité se lit mal de l'extérieur. Toi, tu vois une équipe sans initiative. L'équipe, elle, se souvient d'une modification annulée sans explication il y a trois mois.
 
-L'objection est juste, alors prends-la. Tout ne vient pas de l'organisation. Un accès manquant, une semaine déjà pleine, une compétence pas encore là, une relation abîmée entre deux personnes : ça se combine. Attribuer la cause avant d'avoir regardé un cas précis ne donne rien. Regarde le cas. Pas l'étiquette sur la personne.
+Tout ne vient pas de l'organisation. Un accès manquant, une semaine déjà pleine, une compétence pas encore là : ça se combine. Regarde un cas précis avant d'attribuer une cause. Mais si les quatre dernières propositions ont fini au même endroit, ce n'est pas une mauvaise semaine. C'est ce que tu as construit.
 
-Ce qui ne s'excuse pas, c'est le motif. Si les quatre dernières propositions ont fini au même endroit, ce n'est pas une mauvaise semaine. C'est ce que tu as construit.
-
-Si tu ne diriges pas l'équipe, tu n'as pas à refaire l'organisation tout seul. Poser une question, rendre une contrainte visible, proposer un essai : c'est déjà agir. Un échange privé porte souvent plus loin qu'une confrontation en réunion. Tu n'as pas à payer un risque de statut pour prouver ton engagement.
-
-Changer la règle ne suffit pas non plus. Les gens attendent de voir comment la première initiative est accueillie. Celle-là compte plus que l'annonce.
+Changer la règle ne suffit pas. Les gens attendent de voir comment la première initiative est accueillie. Celle-là compte plus que l'annonce. Et si tu ne diriges pas l'équipe, pose la question, rends la contrainte visible, propose un essai : c'est déjà construire l'environnement.
 
 ## À vérifier
 
@@ -50,15 +46,15 @@ Regarde les trois dernières propositions faites dans ton équipe. Pas les trois
 
 Qu'est-ce qui leur est arrivé, et en combien de temps ? Qui a eu une réponse, qui n'en a pas eu ?
 
-Choisis ensuite un changement d'une taille que tu tiendras vraiment : clarifier un mandat, ouvrir un accès, réserver du temps, répondre sous deux jours. Fais arbitrer ce qui dépasse ton rôle.
+Choisis ensuite un changement d'une taille que tu tiendras vraiment : clarifier un mandat, ouvrir un accès, réserver du temps, répondre sous deux jours. Porte à qui décide ce qui dépasse ton rôle.
 
-Après une occasion réelle de pratiquer, regarde si quelque chose a bougé. Si l'essai n'a pas pu avoir lieu, la contrainte est ta réponse.
+Après une occasion réelle de pratiquer, regarde si quelque chose a bougé.
 
 ## Depuis ton siège
 
 - **Ingénierie** : nomme la dépendance qui bloque avant de parler de manque d'autonomie.
 - **Support** : apporte un cas où une proposition a reçu une suite, et un cas où elle n'en a pas reçu.
-- **Management** : dis ce que tu peux décider seul et va chercher l'arbitrage pour le reste.
+- **Management** : dis ce que tu peux décider seul et va chercher la décision pour le reste.
 - **Recrutement** : sépare ce qui relève de l'apprentissage, des conditions de travail et du poste.
 
 ## À discuter

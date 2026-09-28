@@ -15,37 +15,35 @@ categories:
 traductions:
   en: /book/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html
 seo:
-  description: "Partage des critères et des limites de relecture utiles, avec un effort proportionné et sans dévaloriser une validation déjà comprise."
+  description: "Un « ok » sans explication ne transmet rien. Dis ce que tu as vérifié, pourquoi, et ce qui fonctionne."
   keywords: "build here, builder, leadership, relecture, criteres, apprentissage"
 ---
 
 ## Le réflexe
 
-Tu relis un travail et donnes ton accord ou demandes une correction. La personne sait ce qui est accepté, mais pas toujours ce que tu as examiné pour le décider.
+Tu relis un travail et dis "ok" ou "à corriger". La personne sait ce qui est accepté. Elle ne sait pas pourquoi.
 
 ## Le réflexe builder
 
-Explique un critère utile, ce que tu as observé et les limites de ta relecture. Une validation peut aussi rendre visible ce qui fonctionne.
+Dis ce que tu as vérifié, pourquoi, et ce qui fonctionne. Une relecture est une occasion d'apprendre, pas seulement un tampon.
 
 ## Pourquoi
 
-Une relecture peut aider à apprendre à partir d'un exemple réel. Elle n'est pas la seule occasion d'apprentissage, et son coût dépend de la complexité et du contexte partagé. Un accord bref peut suffire lorsque les critères sont déjà compris ; il n'est pas nécessaire de transformer chaque vérification en cours.
+Un "ok" sans explication ne transmet rien. La prochaine fois, la personne devinera encore ce que tu regardes. Une phrase sur ton critère lui fait gagner des mois.
 
-Quand un raisonnement mérite d'être transmis, nomme-le précisément. Un collègue prépare une réponse à un usager. Tu vérifies d'abord que le prochain geste est compréhensible et que la date annoncée est confirmée. Dire pourquoi ces points comptent aide davantage que présenter la formulation comme simplement bonne ou mauvaise.
+Un collègue prépare une réponse à un client. Tu vérifies que le prochain geste est clair et que la date annoncée est confirmée. Dire "je regarde toujours ces deux points, parce que c'est là que les clients rappellent" apprend plus qu'une correction.
 
-La relecture peut aussi confirmer une force, révéler une hypothèse ou montrer ce que tu n'as pas pu examiner. Distingue une exigence, un risque et une préférence de style. Un avis situé n'est pas une garantie sur tout le travail. Si le sujet dépasse tes compétences, indique cette limite et propose une personne capable d'aider, avec l'accord du destinataire.
+Dis aussi ce qui marche. Une relecture qui ne pointe que les défauts n'apprend pas quoi refaire. Et sépare les exigences des préférences de style : les unes se corrigent, les autres se discutent.
 
-Entre pairs, demande le type de retour recherché et le temps disponible. Une personne qui débute peut vérifier la compréhension d'une consigne ou poser une question utile. Une personne expérimentée peut expliquer ses critères sans réécrire tout le document. Réécrire ensemble peut néanmoins être formateur si c'est souhaité et si les choix sont discutés.
+Tout ne mérite pas un cours. Quand les critères sont compris, un "ok" suffit. Garde les explications pour ce qui se transmet.
 
 ## À essayer
 
-Sur une prochaine relecture, convenez du périmètre. Ajoute un retour précis :
+Sur ta prochaine relecture, ajoute une phrase :
 
-> "J'ai vérifié ... parce que ... Ici, cela fonctionne grâce à ... Ce point reste à examiner par ..."
+> "J'ai vérifié ... parce que ... Ici, cela fonctionne grâce à ... Ce point reste à revoir."
 
-Ne remplis pas toutes les lignes si elles ne sont pas utiles. Demande si la personne comprend le critère et comment elle pourrait l'utiliser. Elle peut aussi contester ton interprétation ou apporter du contexte.
-
-Sur un cas suivant, regarde si le retour a aidé à décider ou à vérifier. Si les mêmes ambiguïtés persistent, clarifiez le critère ou choisissez une démonstration plutôt que d'allonger systématiquement les commentaires.
+Demande si le critère est clair. Sur le cas suivant, regarde si la personne l'a appliqué seule.
 
 ## Depuis ton siège
 

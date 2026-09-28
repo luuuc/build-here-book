@@ -15,7 +15,7 @@ categories:
 traductions:
   fr: /livre/chapitres/09-05-laisse-le-porter-ce-qui-est-reversible.html
 seo:
-  description: "Grant real decisions with limits, support and a mandate, examining the consequences beyond reversibility alone."
+  description: "People learn to decide by deciding. Hand over the decisions that can be undone, and do not take them back over matters of taste."
   keywords: "build here, builder, leadership, delegation, decision, limits"
 redirect_from:
   - /book/chapters/09-05-hand-over-a-decision-inside-a-clear-frame.html
@@ -23,35 +23,33 @@ redirect_from:
 
 ## The starting point
 
-Someone could take a decision on a subject you carry. What still has to be settled is whether they want it, what experience they have, what the consequences could be, and what mandate you can actually pass on.
+Someone could take a decision on a subject you carry. You keep deciding, because it is faster.
 
 ## The move
 
-Agree a decision within their reach, explicit limits, and available support. Look at reversibility alongside the other consequences, not as the only criterion.
+Hand them the decisions that can be undone, with clear limits and your help available.
 
 ## Why it works
 
-Taking a real decision can build judgement. Watching, practising together, and getting feedback can prepare that learning too. The right way in depends on the subject and on the person; handing over unfamiliar work with no backing is not proof of trust.
+People learn to decide by deciding. As long as you keep every decision, the other person learns to wait. Start with what can be undone: a mistake will cost little, and the learning a lot.
 
-A decision that is technically easy to undo can still leave a cost, work, or lost trust. A message that has been sent does not disappear because you correct it. Going back to a previous version can mean handling the effects already produced. So examine the reach, the skills, the means of recovery, and the people affected, rather than a universal one-day rule.
+Reversible does not mean without effect. A message that has been sent does not disappear because you correct it. Look at what would remain if the decision were wrong, not only at whether you can go back.
 
-A colleague chooses the running order of a welcome session inside an agreed frame. She can adapt the exercises, but the venue and the budget stay fixed. You plan a preparation check-in and a way to ask for help. Approval on one particular element can still be necessary without cancelling all the decisions she genuinely makes.
+A colleague sets the running order of a kick-off meeting with a customer. She decides the order and the content; the price and the date stay fixed. You plan one preparation check-in. She really decides, inside a clear frame.
 
-The frame has to say who decides and when a view is required. Avoid an authorisation announced then withdrawn because you would have preferred another option. Staying available also includes being able to raise an important risk unprompted. Waiting until an action becomes irreversible before stepping in protects neither the learning nor the service.
+Do not take back a decision you handed over because you would have preferred another option. Step in for a real risk, not a matter of taste. Otherwise, next time, she will ask you first.
 
 ## Try this
 
-Choose a bounded decision together. Confirm the goal, the options open, the constraints, the means, and the situations that call for a check before acting.
+Choose a decision that can be undone and that you still take yourself. Hand it over, with the goal, the limits, and the moment you will look at it together.
 
-Check you have the mandate to hand that decision over. Between peers, an agreement to cooperate can be enough for some tasks; it does not replace an authorisation needed elsewhere. The person can ask for a smaller remit or more backing.
-
-At the agreed check-in, look at the result and the reasoning without automatically taking over. Adjust the frame for the next attempt. Progress can be a decision explained better, or a request for help placed better, not only fewer approvals.
+At that point, look at the reasoning and the result, without taking back control. Widen the frame next time.
 
 ## From where you sit
 
 - **Engineering**: examine the effects already produced even when a change can be rolled back.
 - **Product**: state which trade-offs are open and which commitments have to hold.
-- **Management**: confirm the mandate, the support, and the grounds for stepping in, before the attempt.
+- **Management**: say in advance what would justify you stepping in.
 - **Customer relations**: support a difficult situation according to your colleague's experience.
 
 ## To discuss

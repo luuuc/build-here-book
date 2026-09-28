@@ -16,35 +16,35 @@ categories:
 traductions:
   en: /book/chapters/09-03-hand-over-a-problem-not-a-task.html
 seo:
-  description: "Adapte le cadrage, l'autonomie et l'accompagnement à la personne et à l'enjeu, sans confondre apprentissage et absence d'aide."
+  description: "Une liste de tâches apprend à exécuter, un problème apprend à juger. Donne l'objectif et les limites, laisse proposer la démarche."
   keywords: "build here, builder, leadership, accompagnement, probleme, mandat"
 ---
 
 ## Le point de départ
 
-Tu aides quelqu'un à prendre en charge un travail. Tu sais le découper, mais tu souhaites aussi lui permettre d'apprendre à comprendre le besoin et à proposer une démarche.
+Tu aides quelqu'un à prendre en charge un travail. Tu sais le découper en tâches. Tu pourrais lui donner la liste.
 
 ## Le geste
 
-Partage l'objectif, le contexte, les limites et les moyens. Convenez ensemble de la part de cadrage que la personne prendra et de l'aide disponible.
+Donne-lui le problème : l'objectif, le contexte, les limites et les moyens. Laisse-le proposer la démarche.
 
 ## Pourquoi ça marche
 
-Une tâche précise peut être une bonne entrée pour apprendre : elle donne un repère et limite la difficulté. Expliquer pourquoi elle existe permet déjà de développer le jugement. Confier un problème plus large devient utile lorsque la personne peut explorer des options avec suffisamment de contexte et d'appui.
+Une liste de tâches apprend à exécuter. Un problème apprend à juger. Tant que tu donnes les tâches, tu restes le seul à savoir pourquoi, et tout repasse par toi.
 
-Dans une association, tu accompagnes une personne qui prépare l'accueil des nouveaux membres. Au lieu de lui donner seulement la liste des messages à envoyer, vous examinez ce que les nouveaux doivent comprendre. Elle propose une démarche sur un petit périmètre. Tu peux montrer un exemple ou réfléchir avec elle si cela l'aide, sans transformer ton propre plan en réponse obligatoire.
+Tu accompagnes une nouvelle collègue qui doit préparer l'arrivée des nouveaux clients. Au lieu de lui donner la liste des messages à envoyer, vous regardez ensemble ce que les nouveaux clients doivent comprendre la première semaine. Elle propose sa démarche. Tu peux montrer un exemple, sans imposer ton plan comme réponse.
 
-L'apprentissage demande du temps et peut nécessiter plusieurs retours. La personne peut découvrir une meilleure option ou avoir besoin d'un découpage plus guidé. Aucun de ces résultats ne permet à lui seul de juger sa motivation. Si elle s'aide d'une IA pour avancer, demande-lui d'expliquer son raisonnement, pas seulement de montrer le résultat : c'est là que tu vois si elle a compris. Convenez de ce qu'elle peut décider, de ce qui demande un accord et de la manière de signaler une difficulté.
+Dis clairement ce qu'elle décide seule, et quand revenir vers toi. Si elle s'aide d'une IA pour avancer, demande-lui d'expliquer son raisonnement, pas seulement de montrer le résultat : c'est là que tu vois si elle a compris.
 
-Ne retiens pas une information importante pour rendre l'exercice formateur. Une démonstration ou une question préparée peut aider sans prendre la place de l'autre. Avec une échéance serrée ou des conséquences importantes, réduis l'exploration et explique ce choix. Entre pairs, on peut proposer cette démarche avec l'accord de chacun, sans prétendre attribuer une autorité qu'on ne possède pas.
+Ne retiens pas une information pour rendre l'exercice formateur. Avec une échéance serrée ou un gros enjeu, réduis l'exploration et dis pourquoi.
 
 ## À essayer
 
-Choisissez un problème limité. Écrivez le résultat attendu, le contexte connu, les contraintes, le temps disponible et les décisions autorisées.
+Choisis un problème limité. Écris le résultat attendu, le contexte, les contraintes, le temps et ce que la personne décide seule.
 
-Demande quel appui serait utile : exemple, premier découpage ensemble, point de retour ou accès à une autre personne. Fixez ce point selon le besoin, sans imposer deux jours de silence. Reste disponible pour une question importante.
+Demande quel appui l'aiderait. Fixe un point de retour selon le besoin, et reste joignable.
 
-Au retour, examinez le raisonnement et ce que l'essai a produit. Distingue les exigences des préférences personnelles. Convenez de ce que la personne souhaite prendre en charge ensuite et du soutien qui reste nécessaire.
+Au retour, examinez le raisonnement autant que le résultat. Distingue tes exigences de tes préférences.
 
 ## Depuis ton siège
 

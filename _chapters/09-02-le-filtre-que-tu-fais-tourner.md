@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/09-02-the-filter-you-are-running.html
 seo:
-  description: "Évalue des capacités liées au travail par plusieurs voies, sans confondre visibilité, portfolio public et compétence."
+  description: "Chaque canal montre certaines personnes et en cache d'autres. Avant de conclure qu'il n'y a pas de talent, regarde ton filtre."
   keywords: "build here, leadership, recrutement, builder, filtre"
 redirect_from:
   - /livre/chapitres/09-07-le-filtre-que-tu-fais-tourner.html
@@ -24,29 +24,27 @@ redirect_from:
 
 ## Le symptôme
 
-Une recherche de candidats ne donne pas les résultats attendus. Il devient tentant d'en tirer une conclusion sur toutes les personnes du métier ou du lieu où l'on cherche.
+Une recherche de candidats ne donne rien. La conclusion arrive vite : "il n'y a pas de talent ici."
 
 ## Le signal
 
-Examine ce que tes canaux permettent de voir, ce que tes critères évaluent et quelles personnes capables peuvent rester hors du parcours.
+Regarde ce que tes canaux te montrent, ce que tes critères mesurent vraiment, et qui reste hors de ton champ.
 
 ## Ce qui se passe
 
-Une recommandation, un événement, une candidature directe ou un travail public donne accès à certaines personnes. Aucun de ces canaux ne décrit à lui seul les capacités disponibles. La visibilité ne prouve ni ne contredit la compétence. Un canal peut apporter une piste utile sans fournir toute l'évaluation.
+Chaque canal montre certaines personnes et en cache d'autres. Ton réseau montre ceux que tu connais déjà. Les réseaux sociaux montrent ceux qui publient. Aucun ne décrit les capacités disponibles.
 
-J'ai appliqué pendant deux ans un filtre fondé sur la visibilité et pris son résultat pour un fait sur les personnes disponibles. Ce livre existe parce que je me suis trompé. Remplacer la réputation par l'obligation de publier reproduirait une partie du problème : beaucoup de travaux utiles restent internes, confidentiels ou peu visibles.
+J'ai appliqué pendant deux ans un filtre fondé sur la visibilité, et j'ai pris son résultat pour un fait sur les personnes disponibles. Ce livre existe parce que je me suis trompé. Un portfolio public est une bonne preuve. Son absence ne prouve rien : beaucoup de travail utile reste interne.
 
-Cherche des éléments liés au travail attendu, sous plusieurs formes possibles. Une réalisation partageable, l'explication précise d'une contribution, un exemple anonymisé dont le partage est autorisé, ou un court exercice préparé ensemble peuvent éclairer le raisonnement. N'exige pas de documents confidentiels. Pour une personne qui débute, un projet personnel, associatif ou un cas guidé peut montrer une capacité et un besoin d'apprentissage.
+Cherche des preuves liées au travail : une réalisation, l'explication précise d'une contribution, un court exercice préparé ensemble. Pour quelqu'un qui débute, un projet personnel montre déjà une capacité. Un exercice court, clair et comparable vaut mieux qu'un travail réel gratuit.
 
-Des occasions différentes produisent des parcours différents. Quelqu'un peut ne jamais avoir rencontré exactement ton problème sans être incapable d'apprendre à le traiter. Distingue les compétences nécessaires dès l'arrivée de celles que l'équipe peut accompagner. Les attentes, le temps demandé et les critères de l'exercice doivent être clairs et comparables ; le recrutement ne doit pas devenir du travail réel gratuit.
+Sépare ce qu'il faut savoir en arrivant de ce que l'équipe peut enseigner. La deuxième liste est souvent plus longue que tu ne le crois, et elle ouvre ta recherche.
 
 ## À vérifier
 
-Sur une recherche, écris les activités à réaliser et les capacités à examiner. Propose plusieurs façons d'en parler ou de les montrer, dont une qui ne demande aucun portfolio public.
+Sur une recherche, écris les activités du poste et les capacités à voir. Propose au moins une façon de les montrer qui ne demande aucun portfolio public.
 
-Compare les canaux utilisés et les étapes où des personnes quittent le parcours. Demande un retour lorsque c'est possible, sans supposer connaître la raison d'un retrait. Limite la collecte aux informations utiles à la recherche.
-
-Après un cycle, regarde quelles capacités ont réellement été évaluées et quel obstacle pourrait être retiré. Une recherche infructueuse décrit un périmètre, des conditions et une durée ; elle ne suffit pas à conclure qu'il n'existe personne de capable.
+Compare les canaux utilisés et les étapes où les personnes quittent le parcours. Après un cycle, retire un obstacle.
 
 ## Depuis ton siège
 

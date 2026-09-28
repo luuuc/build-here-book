@@ -15,35 +15,33 @@ categories:
 traductions:
   fr: /livre/chapitres/09-02-le-filtre-que-tu-fais-tourner.html
 seo:
-  description: "Assess work-related capabilities through several routes, without confusing visibility, a public portfolio, and competence."
+  description: "Every channel shows some people and hides others. Before concluding there is no talent, look at your filter."
   keywords: "build here, leadership, hiring, builder, filter"
 ---
 
 ## The symptom
 
-A search for candidates does not produce what you expected. It gets tempting to draw a conclusion about everyone in that craft, or in the place you are looking.
+A search for candidates turns up nothing. The conclusion comes fast: "there's no talent here."
 
 ## The signal
 
-Examine what your channels let you see, what your criteria actually assess, and which capable people can stay outside the process.
+Look at what your channels show you, what your criteria actually measure, and who stays outside your field of view.
 
 ## What's going on
 
-A referral, an event, a direct application or public work each gives you access to certain people. None of those channels on its own describes the capability available. Visibility neither proves nor contradicts competence. A channel can give you a useful lead without providing the whole assessment.
+Every channel shows some people and hides others. Your network shows the people you already know. Social media shows the people who post. None of them describes the capability available.
 
-For two years I ran a filter based on visibility and took its output for a fact about the people available. This book exists because I was wrong. Replacing reputation with an obligation to publish would reproduce part of the problem: a great deal of useful work stays internal, confidential, or simply unseen.
+For two years I ran a filter based on visibility and took its output for a fact about the people available. This book exists because I was wrong. A public portfolio is good evidence. Its absence proves nothing: a great deal of useful work stays internal.
 
-Look for evidence tied to the work at hand, in whatever form it can take. Something shareable that was built, a precise explanation of a contribution, an anonymised example someone is allowed to share, or a short exercise prepared together can all illuminate the reasoning. Do not ask for confidential documents. For someone starting out, a personal or community project, or a guided case, can show a capability and a learning need.
+Look for evidence tied to the work: something built, a precise explanation of a contribution, a short exercise prepared together. For someone starting out, a personal project already shows a capability. A short, clear, comparable exercise beats unpaid real work.
 
-Different opportunities produce different paths. Someone may never have met exactly your problem without being unable to learn how to handle it. Separate the skills needed on arrival from the ones the team can teach. The expectations, the time asked, and the criteria for any exercise have to be clear and comparable; hiring must not become free real work.
+Separate what someone must know on arrival from what the team can teach. The second list is often longer than you think, and it opens up your search.
 
 ## Check this
 
-For one search, write the activities to be done and the capabilities to examine. Offer several ways to talk about them or show them, including one that requires no public portfolio.
+For one search, write down the activities of the role and the capabilities to look for. Offer at least one way to show them that requires no public portfolio.
 
-Compare the channels used and the stages where people leave the process. Ask for feedback where you can, without assuming you know why someone withdrew. Limit what you collect to what the search needs.
-
-After one cycle, look at which capabilities were actually assessed and which obstacle could be removed. An unsuccessful search describes a remit, some conditions, and a duration; it is not enough to conclude that nobody capable exists.
+Compare the channels used and the stages where people leave the process. After one cycle, remove one obstacle.
 
 ## From where you sit
 

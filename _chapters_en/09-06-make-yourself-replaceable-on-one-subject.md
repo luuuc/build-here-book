@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/09-06-rends-toi-remplacable-sur-un-sujet.html
 seo:
-  description: "Prepare a successor with agreement, means and practice, without assuming knowledge is being hoarded or promising that passing it on protects you on its own."
+  description: "Being the only one who knows means being the only one who can. Making yourself replaceable on one subject frees you for the next."
   keywords: "build here, builder, leadership, succession, passing on, means"
 redirect_from:
   - /book/chapters/09-06-grow-a-successor-on-one-subject.html
@@ -22,29 +22,27 @@ redirect_from:
 
 ## The reflex
 
-You carry a subject few people know. You want to prepare a successor, but the time, the access, or the terms of recognition are not there yet.
+You carry a subject nobody else knows. You are asked about it all the time, and you never have time to pass it on.
 
 ## The builder's reflex
 
-Choose a useful part to pass on and negotiate the conditions for someone else to practise it. Your worth does not depend on making yourself absent from the work.
+Choose one part of that subject and pass it to someone else. Your worth is not in being indispensable.
 
 ## Why
 
-A successor can make absences easier, spread the load, and open other possibilities. It guarantees neither promotion nor an immediate drop in requests. The service you deliver directly is still a contribution, and nobody needs to assume you are hoarding knowledge to keep an advantage.
+Being the only one who knows means being the only one who can. You cannot take leave, move to a more interesting subject, or step up. Making yourself replaceable on one subject frees you for the next.
 
-You prepare a monthly report nobody else has done. A colleague agrees to learn part of it. You get the time, prepare a case, and go through a first reading together. What follows can include supported practice and then an attempt with help available. How many sessions it takes depends on what is still hard.
+You prepare a monthly report nobody else knows how to do. A colleague learns part of it. You do one case together, then she does one with your help, then alone. After three months, you are no longer the only way through.
 
-Passing on needs a willing person, a remit, and means. It can include an explanation, written bearings, and a check in a real situation. The document alone does not prove the ability to act, but a residual dependency does not mean the whole effort failed. Some decisions can stay reserved to a particular role.
+Start small: one part, one person, one case. Handing over everything is not the goal. One dependency fewer is already progress.
 
-If the environment makes passing on risky, or gives it no time at all, a name on a page will not protect anyone. Look for an agreement on load, role and recognition with a manager or suitable backing. Cutting back or postponing the handover can be reasonable while those conditions are missing. It must not become one more obligation carried alone.
+If your environment gives you no time to pass things on, ask for it explicitly: passing on is work, not an evening bonus.
 
 ## Try this
 
-Choose an activity where a successor would be precisely useful. Agree what the person will learn, the time on both sides, the access, and how the practice gets checked.
+Choose an activity where you are the only one. Find a willing person and book three slots: they watch, they do it with you, they do it alone.
 
-Start with a suitable case. Ask what is still unclear and adjust the backing. Someone starting out can pass on a small thing they have just understood, as long as they explain its limits.
-
-When the successor can act inside the agreed frame, confirm who now carries what and how to ask for help. After a relevant occurrence, look at the load on both people and the quality of the service. The handover can then be adjusted or closed.
+When they can act alone, tell the team clearly.
 
 ## From where you sit
 

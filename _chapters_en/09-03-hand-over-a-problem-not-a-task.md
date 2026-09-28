@@ -15,7 +15,7 @@ categories:
 traductions:
   fr: /livre/chapitres/09-03-confie-un-probleme-pas-une-tache.html
 seo:
-  description: "Fit the framing, the autonomy and the support to the person and to what is at stake, without confusing learning with an absence of help."
+  description: "A task list teaches people to execute, a problem teaches them to judge. Give the goal and the limits, let them propose the approach."
   keywords: "build here, builder, leadership, support, problem, mandate"
 redirect_from:
   - /book/chapters/09-03-hand-over-a-problem-with-the-backing-it-needs.html
@@ -23,29 +23,29 @@ redirect_from:
 
 ## The starting point
 
-You are helping someone take on a piece of work. You know how to break it down, but you also want to let them learn to understand the need and propose an approach.
+You are helping someone take on a piece of work. You know how to break it into tasks. You could hand them the list.
 
 ## The move
 
-Share the goal, the context, the limits and the means. Agree together how much of the framing they will take on and what help is available.
+Give them the problem: the goal, the context, the limits and the means. Let them propose the approach.
 
 ## Why it works
 
-A precise task can be a good way in to learning: it gives a bearing and caps the difficulty. Explaining why it exists already builds judgement. Handing over a wider problem becomes useful when the person can explore options with enough context and backing.
+A task list teaches people to execute. A problem teaches them to judge. As long as you hand out tasks, you stay the only one who knows why, and everything comes back through you.
 
-In a community group, you are supporting someone preparing the welcome for new members. Instead of just giving them the list of messages to send, you look together at what new members have to understand. They propose an approach on a small remit. You can show an example, or think it through with them, if that helps, without turning your own plan into the required answer.
+You are supporting a new colleague who has to prepare new customers' arrival. Instead of giving her the list of messages to send, you look together at what new customers need to understand in their first week. She proposes her approach. You can show an example, without imposing your plan as the answer.
 
-Learning takes time and may need several rounds of feedback. The person may find a better option, or may need a more guided breakdown. Neither of those on its own tells you anything about their motivation. If they use AI to move faster, ask them to explain their reasoning, not just show the result: that is where you see whether they understood. Agree what they can decide, what needs an approval, and how to flag a difficulty.
+Say clearly what she decides alone, and when to come back to you. If she uses AI to move faster, ask her to explain her reasoning, not just show the result: that is where you see whether she understood.
 
-Do not hold back important information to make the exercise instructive. A demonstration or a prepared question can help without taking the other person's place. With a tight deadline or serious consequences, cut the exploration and explain that choice. Between peers, you can propose this approach with everyone's agreement, without claiming authority you do not have.
+Do not hold back information to make the exercise instructive. With a tight deadline or high stakes, cut the exploration and say why.
 
 ## Try this
 
-Choose a bounded problem. Write down the expected result, the context you know, the constraints, the time available, and the decisions they may make.
+Choose a bounded problem. Write down the expected result, the context, the constraints, the time, and what the person decides alone.
 
-Ask what backing would help: an example, a first breakdown together, a check-in, or access to another person. Set that check-in by the need, not by imposing two days of silence. Stay available for an important question.
+Ask what backing would help. Set a check-in by the need, and stay reachable.
 
-At the check-in, look at the reasoning and at what the attempt produced. Tell requirements apart from your personal preferences. Agree what they want to take on next and what support is still needed.
+At the check-in, look at the reasoning as much as the result. Tell your requirements apart from your preferences.
 
 ## From where you sit
 

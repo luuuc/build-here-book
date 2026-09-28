@@ -15,35 +15,33 @@ categories:
 traductions:
   en: /book/chapters/09-06-make-yourself-replaceable-on-one-subject.html
 seo:
-  description: "Prépare une relève avec accord, moyens et pratique, sans présumer de rétention du savoir ni promettre que la transmission protège à elle seule."
+  description: "Être le seul à savoir, c'est être le seul à pouvoir. Te rendre remplaçable sur un sujet te libère pour le suivant."
   keywords: "build here, builder, leadership, releve, transmission, moyens"
 ---
 
 ## Le réflexe
 
-Tu portes un sujet que peu de personnes connaissent. Tu souhaites préparer un relais, mais le temps, les accès ou les conditions de reconnaissance ne sont pas encore réunis.
+Tu portes un sujet que personne d'autre ne connaît. Tu es sollicité en permanence, et tu n'as jamais le temps de transmettre.
 
 ## Le réflexe builder
 
-Choisis une part utile à transmettre et négocie les conditions pour qu'une autre personne puisse la pratiquer. Ta valeur ne dépend pas de devenir absent du travail.
+Choisis une partie de ce sujet et fais-la passer à quelqu'un d'autre. Ta valeur n'est pas d'être indispensable.
 
 ## Pourquoi
 
-Une relève peut faciliter les absences, répartir la charge et ouvrir d'autres possibilités. Elle ne garantit ni promotion ni réduction immédiate des sollicitations. Le service que tu rends directement reste une contribution, et personne n'a besoin de présumer que tu retiens ton savoir pour conserver un avantage.
+Être le seul à savoir, c'est être le seul à pouvoir. Tu ne peux ni partir en congé, ni passer à un sujet plus intéressant, ni monter en responsabilité. Te rendre remplaçable sur un sujet, c'est te libérer pour le suivant.
 
-Tu prépares un suivi mensuel que personne d'autre n'a encore réalisé. Une collègue accepte d'en apprendre une partie. Vous obtenez du temps, préparez un cas et faites une première lecture ensemble. La suite peut comprendre une pratique accompagnée puis un essai avec une aide disponible. Le nombre de séances dépend de ce qui reste difficile.
+Tu prépares un suivi mensuel que personne d'autre ne sait faire. Une collègue en apprend une partie. Vous faites un cas ensemble, puis elle en fait un avec ton aide, puis seule. Au bout de trois mois, tu n'es plus le seul point de passage.
 
-La transmission demande une personne volontaire, un périmètre et des moyens. Elle peut inclure une explication, des repères écrits et une vérification en situation. Le document seul ne prouve pas la capacité à agir, mais une dépendance résiduelle ne signifie pas que tout l'effort a échoué. Certaines décisions peuvent rester réservées à un rôle particulier.
+Commence petit : une partie, une personne, un cas. La transmission complète n'est pas le but. Une dépendance de moins, c'est déjà un progrès.
 
-Si l'environnement rend la transmission risquée ou ne lui donne aucun temps, le nom sur une page ne suffit pas à protéger la personne. Cherche un accord sur la charge, le rôle et la reconnaissance avec un responsable ou un appui approprié. Réduire ou reporter la transmission peut être raisonnable tant que ces conditions manquent. Elle ne doit pas devenir une obligation supplémentaire assumée seul.
+Si ton environnement ne te donne pas le temps de transmettre, demande-le explicitement : la transmission est un travail, pas un bonus du soir.
 
 ## À essayer
 
-Choisissez une activité dont le relais aurait une utilité précise. Convenez de ce que la personne apprendra, du temps des deux côtés, des accès et de la manière de vérifier la pratique.
+Choisis une activité où tu es le seul. Trouve une personne volontaire et bloque trois créneaux : elle regarde, elle fait avec toi, elle fait seule.
 
-Commencez par un cas adapté. Demande ce qui reste incertain et ajuste l'appui. Une personne débutante peut transmettre une petite chose qu'elle vient de comprendre, à condition d'en expliquer les limites.
-
-Quand le relais peut agir dans le cadre prévu, confirmez qui porte désormais quoi et comment demander de l'aide. Après une occurrence pertinente, examinez la charge des deux personnes et la qualité du service. La passation peut alors être ajustée ou clôturée.
+Quand elle peut agir seule, dites-le clairement à l'équipe.
 
 ## Depuis ton siège
 
