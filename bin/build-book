@@ -34,8 +34,8 @@ case "$what" in
 esac
 
 case "$lang" in
-  fr) name="build-here";    config="_config.yml,_config-pdf.yml" ;;
-  en) name="build-here-en"; config="_config.yml,_config-pdf.yml,_config-pdf-en.yml" ;;
+  fr) name="build-here";    cover="couverture.png"; config="_config.yml,_config-pdf.yml" ;;
+  en) name="build-here-en"; cover="cover.png";      config="_config.yml,_config-pdf.yml,_config-pdf-en.yml" ;;
   *)  echo "usage: bin/build-book [pdf|epub|all] [fr|en]" >&2; exit 2 ;;
 esac
 
@@ -65,7 +65,7 @@ if [ "$what" = all ] || [ "$what" = epub ]; then
     --standalone \
     --metadata-file="$site/epub-metadata.yml" \
     --resource-path="$site" \
-    --epub-cover-image="$site/book/assets/images/couverture.png" \
+    --epub-cover-image="$site/book/assets/images/$cover" \
     --css=book/assets/stylesheets/epub.css \
     --epub-embed-font=book/assets/fonts/Merriweather-Regular.ttf \
     --epub-embed-font=book/assets/fonts/Merriweather-Bold.ttf \

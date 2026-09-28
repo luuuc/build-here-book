@@ -39,7 +39,7 @@ env:
     _chapters _chapters_en _data _pdf
     _includes/book-body.html _includes/epub-body.html _includes/langue.html
     book/assets/stylesheets/print.css book/assets/stylesheets/epub.css
-    book/assets/fonts book/assets/images/couverture.png book/assets/images/sections
+    book/assets/fonts book/assets/images/couverture.png book/assets/images/cover.png book/assets/images/sections
     _config.yml _config-pdf.yml _config-pdf-en.yml bin/build-book
 
 jobs:

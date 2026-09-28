@@ -31,12 +31,15 @@ theme_color: "#0f1319"
 #
 # `langues` alimente le selecteur de l'en-tete. `racine` est l'adresse ou
 # commence chaque version ; `locale` part dans les balises Open Graph.
+# `couverture` et `og_image` sont les images de la langue, tirees de _cover.
 lang_defaut: fr
 langues:
   - code: fr
     nom: "Français"
     racine: "/livre/"
     locale: fr_FR
+    couverture: /book/assets/images/couverture.png
+    og_image: /book/assets/images/build-here-og.png
     description: >-
       Bâtir là où tu es, apprendre de ce que tu changes. Des pratiques pour commencer,
       progresser, développer une équipe et soutenir des builders, avec des exemples
@@ -45,6 +48,8 @@ langues:
     nom: "English"
     racine: "/book/"
     locale: en_US
+    couverture: /book/assets/images/cover.png
+    og_image: /book/assets/images/build-here-og-en.png
     description: >-
       Build where you are, learn from what you change. Practices to get started,
       get better, grow a team and back other builders, with examples and templates

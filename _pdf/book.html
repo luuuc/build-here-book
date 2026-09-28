@@ -24,7 +24,7 @@ partage avec l'EPUB, dans _includes/book-body.html.
   <body>
     <!-- Couverture, pleine page -->
     <section class="cover">
-      <img src="book/assets/images/couverture.png" alt="{{ site.title }}" />
+      <img src="{{ langue_courante.couverture | remove_first: '/' }}" alt="{{ site.title }}" />
     </section>
 
     <!-- Page de titre -->
