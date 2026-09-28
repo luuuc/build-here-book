@@ -12,7 +12,7 @@ categories:
   - support
   - produit
 traductions:
-  fr: /book/chapters/04-02-une-demande-de-feature-nest-pas-le-probleme.html
+  fr: /livre/chapitres/04-02-une-demande-de-feature-nest-pas-le-probleme.html
 seo:
   description: "Examine the need behind a requested solution, without dismissing the customer's expertise or promising before the call is made."
   keywords: "build here, customer, builder, feature request, problem"

@@ -12,7 +12,7 @@ categories:
   - apprentissage
   - engineering
 traductions:
-  fr: /book/chapters/02-08-lis-en-dehors-de-ton-couloir.html
+  fr: /livre/chapitres/02-08-lis-en-dehors-de-ton-couloir.html
 seo:
   description: "Understanding what comes before and after your work helps improve the handovers, with the right access and agreements."
   keywords: "build here, curiosity, builder, handover, outside your lane"

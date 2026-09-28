@@ -13,12 +13,12 @@ categories:
   - client
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/08-01-sort-them-by-cause-not-by-subject.html
+  en: /book/chapters/08-01-sort-them-by-cause-not-by-subject.html
 seo:
   description: "Regroupe des cas contextualisés et vérifie leurs causes possibles avant de prioriser une amélioration, sans seuil ni gain garanti."
   keywords: "build here, builder, levier, regroupement, hypothese, cause"
 redirect_from:
-  - /chapters/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html
+  - /livre/chapitres/08-02-trente-pour-cent-de-ce-qui-arrive-est-la-meme-chose.html
 ---
 
 ## Le symptôme

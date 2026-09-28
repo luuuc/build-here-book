@@ -13,12 +13,12 @@ categories:
   - produit
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/04-03-support-is-product-research-with-angry-participants.html
+  en: /book/chapters/04-03-support-is-product-research-with-angry-participants.html
 seo:
   description: "Examine les demandes de support avec leur contexte, sans confondre fréquence, cause et représentativité."
   keywords: "build here, builder, support, usages, observation, hypotheses"
 redirect_from:
-  - /chapters/11-01-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html
+  - /livre/chapitres/11-01-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html
 ---
 
 ## Le symptôme

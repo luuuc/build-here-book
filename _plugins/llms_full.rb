@@ -1,4 +1,5 @@
-# Le livre entier en un fichier markdown, a la racine du domaine.
+# Le livre entier en un fichier markdown, a cote de llms.txt, et chaque carte
+# en markdown a cote de sa page : /livre/chapitres/x.html a son x.md.
 #
 # Pourquoi un plugin et pas du Liquid. Dans un gabarit, `content` a deja ete
 # converti en HTML par kramdown. Au stade generateur, `doc.content` est encore
@@ -18,8 +19,8 @@
 # Le Liquid des chapitres est laisse actif : il ne reference que `site`, donc
 # les listes construites depuis `site.chapters` se developpent comme sur le site.
 #
-# Une langue par collection : `chapters` sort a la racine, `chapters_en` sous
-# /en/. Ajouter une langue, c'est ajouter une ligne dans LANGUES.
+# Une langue par collection : `chapters` sort sous /livre/, `chapters_en` sous
+# /book/. Ajouter une langue, c'est ajouter une ligne dans LANGUES.
 
 module BuildHere
   class LlmsFull < Jekyll::Generator
@@ -27,9 +28,8 @@ module BuildHere
     priority :low
 
     NOM = "llms-full.txt".freeze
-    # code de langue => [collection, dossier de sortie]. Le francais garde la
-    # racine et sa collection sans suffixe, comme ses adresses.
-    LANGUES = { "fr" => ["chapters", ""], "en" => ["chapters_en", "en"] }.freeze
+    # code de langue => [collection, dossier de sortie].
+    LANGUES = { "fr" => ["chapters", "livre"], "en" => ["chapters_en", "book"] }.freeze
 
     def generate(site)
       LANGUES.each do |lang, (collection, dossier)|
@@ -38,14 +38,23 @@ module BuildHere
 
         page = Jekyll::PageWithoutAFile.new(site, site.source, dossier, NOM)
         page.data = { "layout" => nil }
-        page.content = entete(site, docs, lang) + docs.map { |d| carte(site, d) }.join("\n")
+        page.content = entete(site, docs, lang, dossier) + docs.map { |d| carte(site, d) }.join("\n")
         site.pages << page
+
+        # Une copie markdown par carte, pour un agent qui n'en veut qu'une. Le
+        # nom en .txt garde kramdown a l'ecart ; le permalink la sert en .md.
+        docs.each do |doc|
+          copie = Jekyll::PageWithoutAFile.new(site, site.source, dossier, "#{doc.basename_without_ext}.txt")
+          copie.data = { "layout" => nil, "sitemap" => false, "permalink" => markdown_url(doc) }
+          copie.content = carte(site, doc)
+          site.pages << copie
+        end
       end
     end
 
     private
 
-    def entete(site, docs, lang)
+    def entete(site, docs, lang, dossier)
       cartes = docs.count { |d| d.data.dig("metadata", "principle") }
       etapes = docs.count { |d| d.data["step_number"] }
       url = site.config["url"]
@@ -53,12 +62,11 @@ module BuildHere
       auteur = site.config.dig("author", "name")
       langue = site.config["langues"].to_a.find { |l| l["code"] == lang } || {}
       description = (langue["description"] || site.config["description"]).to_s.strip.gsub(/\s+/, " ")
-      prefixe = lang == "fr" ? "" : "/#{lang}"
 
       texte =
         if lang == "fr"
           <<~TXT
-            Le texte intégral, #{etapes} étapes et #{cartes} cartes. L'index avec les descriptions et les liens est sur #{url}#{site.config["baseurl"]}#{prefixe}/llms.txt
+            Le texte intégral, #{etapes} étapes et #{cartes} cartes. L'index avec les descriptions et les liens est sur #{url}/#{dossier}/llms.txt
 
             Chaque carte porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. Le site reste la destination de lecture, et l'URL de chaque carte est sous son titre.
 
@@ -68,11 +76,11 @@ module BuildHere
           TXT
         else
           <<~TXT
-            The full text, #{etapes} capabilities and #{cartes} cards. The index, with descriptions and links, is at #{url}#{site.config["baseurl"]}#{prefixe}/llms.txt
+            The full text, #{etapes} capabilities and #{cartes} cards. The index, with descriptions and links, is at #{url}/#{dossier}/llms.txt
 
             Each card carries one idea, reads in under two minutes, and makes sense without the rest. The site remains the place to read, and each card's URL sits under its title.
 
-            To recommend a reading, start from what the person is living through rather than from the order of the book. The index by situation is at #{url}/en/situations/.
+            To recommend a reading, start from what the person is living through rather than from the order of the book. The index by situation is at #{url}/by-situation/.
 
             CC BY-SA 4.0. Attribution asked for: From "#{titre}" by #{auteur} (#{url})
           TXT
@@ -81,10 +89,15 @@ module BuildHere
       "# #{titre}\n\n> #{description}\n\n#{texte}\n"
     end
 
+    # /livre/chapitres/x.html donne x.md, /livre/ donne /livre/index.md.
+    def markdown_url(doc)
+      doc.url.end_with?("/") ? "#{doc.url}index.md" : doc.url.sub(/\.html\z/, ".md")
+    end
+
     def carte(site, doc)
       meta = [doc.data["part"]]
       meta << doc.data["card_type"] if doc.data["card_type"]
-      meta << "#{site.config["url"]}#{site.config["baseurl"]}#{doc.url}"
+      meta << "#{site.config["url"]}#{doc.url}"
 
       "# #{doc.data["title"]}\n#{meta.join(" · ")}\n\n#{corps(doc)}\n"
     end

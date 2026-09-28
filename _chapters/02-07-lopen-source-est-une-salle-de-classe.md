@@ -13,12 +13,12 @@ categories:
   - niveau
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/02-07-open-source-is-a-classroom.html
+  en: /book/chapters/02-07-open-source-is-a-classroom.html
 seo:
   description: "Les échanges d'un projet ouvert peuvent montrer comment une décision se construit. Choisis un cas accessible et respecte le temps des contributeurs."
   keywords: "build here, apprentissage, builder, open, source, salle, classe"
 redirect_from:
-  - /chapters/08-02-lopen-source-est-une-salle-de-classe.html
+  - /livre/chapitres/08-02-lopen-source-est-une-salle-de-classe.html
 ---
 
 ## Le réflexe

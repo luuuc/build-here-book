@@ -13,7 +13,7 @@ categories:
   - equipe
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/07-05-the-shortcut-everyone-takes-is-the-real-process.html
+  en: /book/chapters/07-05-the-shortcut-everyone-takes-is-the-real-process.html
 seo:
   description: "Observe les écarts entre procédure et pratique sans présumer que le raccourci est juste ; vérifie les fonctions et protections à préserver."
   keywords: "build here, builder, systemes, ecart, processus, observation"

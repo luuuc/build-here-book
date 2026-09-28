@@ -12,12 +12,12 @@ categories:
   - process
   - equipe
 traductions:
-  fr: /book/chapters/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html
+  fr: /livre/chapitres/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html
 seo:
   description: "Watch the gaps between procedure and practice without assuming the workaround is right; check the functions and protections to keep."
   keywords: "build here, builder, systems, gap, process, observation"
 redirect_from:
-  - /en/chapters/07-05-a-workaround-points-at-a-gap-worth-understanding.html
+  - /book/chapters/07-05-a-workaround-points-at-a-gap-worth-understanding.html
 ---
 
 ## The symptom

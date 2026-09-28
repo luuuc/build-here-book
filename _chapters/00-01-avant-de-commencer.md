@@ -6,9 +6,9 @@ show_chapter_number: false
 part: "Introduction"
 order: 1
 # L'ouverture du livre est son accueil. L'ancienne adresse de l'introduction y renvoie.
-permalink: /
+permalink: /livre/
 redirect_from:
-  - /chapters/00-introduction.html
+  - /livre/chapitres/00-introduction.html
 metadata:
   reading_time_in_minutes: 2
 categories:
@@ -16,7 +16,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/
+  en: /book/
 seo:
   description: "Build Here s'adresse à ceux qui veulent devenir builders, aux builders confirmés, à ceux qui font grandir une équipe et à ceux qui savent déjà ce qu'un builder change."
   keywords: "build here, avant de commencer, builder, équipe, progression"

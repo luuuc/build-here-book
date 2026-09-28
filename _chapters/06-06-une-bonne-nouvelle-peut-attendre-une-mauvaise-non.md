@@ -13,13 +13,13 @@ categories:
   - execution
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/06-06-good-news-can-wait-bad-news-cannot.html
+  en: /book/chapters/06-06-good-news-can-wait-bad-news-cannot.html
 seo:
   description: "Adapte le moment et le canal d'une information à ses conséquences, sans attendre une solution ni imposer un délai universel."
   keywords: "build here, builder, ownership, engagement, alerte, information"
 redirect_from:
-  - /chapters/06-07-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
-  - /chapters/04-04-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
+  - /livre/chapitres/06-07-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
+  - /livre/chapitres/04-04-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
 ---
 
 ## Le réflexe

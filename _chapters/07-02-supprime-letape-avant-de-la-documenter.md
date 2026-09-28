@@ -14,7 +14,7 @@ categories:
   - simplicite
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/07-02-delete-the-step-before-you-document-it.html
+  en: /book/chapters/07-02-delete-the-step-before-you-document-it.html
 seo:
   description: "Identifie la fonction d'une étape avant de la documenter, la modifier ou la retirer ; une raison inconnue demande une enquête."
   keywords: "build here, builder, systemes, procedure, fonction, simplification"

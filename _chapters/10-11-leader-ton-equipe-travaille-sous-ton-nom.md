@@ -14,15 +14,15 @@ categories:
   - retention
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/10-11-your-team-works-under-your-name.html
+  en: /book/chapters/10-11-your-team-works-under-your-name.html
 seo:
   description: "Quand le travail de l'equipe sort, demande a chaque contributeur comment il veut etre credite, avant la presentation et pas apres."
   keywords: "build here, builder, reference, visibilite, credit, contributions"
 redirect_from:
-  - /chapters/10-10-leader-ton-equipe-travaille-sous-ton-nom.html
-  - /chapters/10-10-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
-  - /chapters/09-04-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
-  - /chapters/15-05-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
+  - /livre/chapitres/10-10-leader-ton-equipe-travaille-sous-ton-nom.html
+  - /livre/chapitres/10-10-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
+  - /livre/chapitres/09-04-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
+  - /livre/chapitres/15-05-leader-tu-gardes-ton-equipe-invisible-parce-que-visible-elle-part.html
 ---
 
 ## Ce que tu demandes

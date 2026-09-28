@@ -14,7 +14,7 @@ categories:
   - agency
   - builders
 traductions:
-  fr: /book/chapters/01-00-letat-desprit.html
+  fr: /livre/chapitres/01-00-letat-desprit.html
 seo:
   description: "Notice the problem others work around: ask the naive question, say \"I don't know\", change your mind fast."
   keywords: "build here, mindset, builder, agency"

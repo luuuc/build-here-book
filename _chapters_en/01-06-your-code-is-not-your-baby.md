@@ -12,12 +12,12 @@ categories:
   - honnetete-intellectuelle
   - culture
 traductions:
-  fr: /book/chapters/01-06-ton-code-nest-pas-ton-bebe.html
+  fr: /livre/chapitres/01-06-ton-code-nest-pas-ton-bebe.html
 seo:
   description: "Criticism becomes useful when it names a case, a criterion and an improvement you can check."
   keywords: "build here, ego and intellectual honesty, builder, feedback, review"
 redirect_from:
-  - /en/chapters/01-06-your-work-can-change-without-it-being-about-you.html
+  - /book/chapters/01-06-your-work-can-change-without-it-being-about-you.html
 ---
 
 ## The reflex

@@ -7,7 +7,7 @@ part: "Références"
 order: 1200
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/12-00-references.html
+  en: /book/chapters/12-00-references.html
 ---
 
 Ces références éclairent les idées du livre. Elles viennent surtout du management et du logiciel ; leur application à une autre situation demande d'en examiner le contexte.

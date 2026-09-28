@@ -13,13 +13,13 @@ categories:
   - transmission
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/10-05-answer-the-question-in-public.html
+  en: /book/chapters/10-05-answer-the-question-in-public.html
 seo:
   description: "Prépare une réponse réutilisable dans un espace adapté, en reconnaissant le coût d'adaptation et la valeur des échanges privés."
   keywords: "build here, builder, reference, reponse, acces, transmission"
 redirect_from:
-  - /chapters/10-04-reponds-a-la-question-en-public.html
-  - /chapters/14-04-reponds-a-la-question-en-public.html
+  - /livre/chapitres/10-04-reponds-a-la-question-en-public.html
+  - /livre/chapitres/14-04-reponds-a-la-question-en-public.html
 ---
 
 ## Le point de départ

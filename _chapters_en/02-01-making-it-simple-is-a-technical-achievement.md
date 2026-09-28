@@ -13,7 +13,7 @@ categories:
   - simplicite
   - technique
 traductions:
-  fr: /book/chapters/02-01-faire-simple-est-une-performance-technique.html
+  fr: /livre/chapitres/02-01-faire-simple-est-une-performance-technique.html
 seo:
   description: "Simplifying means understanding what you take away, checking the uses affected, and keeping a way back."
   keywords: "build here, engineering, builder, simple, simplicity"
@@ -55,4 +55,4 @@ After an agreed cycle of use, look at whether the task got easier and whether a 
 
 Which recent simplification reduced the effort while keeping the service intact?
 
-*Check it elsewhere:* Rich Hickey examines the distinction between simple and easy in *Simple Made Easy*, cited in *[Already written](/en/references/)*.
+*Check it elsewhere:* Rich Hickey examines the distinction between simple and easy in *Simple Made Easy*, cited in *[Already written](/already-written/)*.

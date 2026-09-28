@@ -13,12 +13,12 @@ categories:
   - equipe
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/06-01-done-on-your-side-does-not-mean-solved.html
+  en: /book/chapters/06-01-done-on-your-side-does-not-mean-solved.html
 seo:
   description: "Organise un relais accepté, avec les informations et moyens nécessaires, sans conserver une responsabilité indéfinie."
   keywords: "build here, ownership, passation, equipe, builder"
 redirect_from:
-  - /chapters/06-02-fini-de-ton-cote-ne-veut-pas-dire-regle.html
+  - /livre/chapitres/06-02-fini-de-ton-cote-ne-veut-pas-dire-regle.html
 ---
 
 ## Le symptôme

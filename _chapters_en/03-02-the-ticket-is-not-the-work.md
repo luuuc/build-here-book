@@ -12,7 +12,7 @@ categories:
   - client
   - arbitrage
 traductions:
-  fr: /book/chapters/03-02-le-ticket-nest-pas-le-travail.html
+  fr: /livre/chapitres/03-02-le-ticket-nest-pas-le-travail.html
 seo:
   description: "Tie the tracking of tasks to what they improve, preserve or teach, without mistaking activity for result."
   keywords: "build here, product, builder, ticket, work"

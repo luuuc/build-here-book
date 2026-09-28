@@ -12,7 +12,7 @@ categories:
   - process
   - execution
 traductions:
-  fr: /book/chapters/07-01-la-deuxieme-fois-est-une-information.html
+  fr: /livre/chapitres/07-01-la-deuxieme-fois-est-une-information.html
 seo:
   description: "Examine a repetition by its frequency, its severity and the cost of an improvement, without waiting for a fixed number of occurrences."
   keywords: "build here, systems, repetition, process, builder"

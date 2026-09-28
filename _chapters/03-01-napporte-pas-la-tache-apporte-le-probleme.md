@@ -13,12 +13,12 @@ categories:
   - execution
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/03-01-do-not-bring-the-task-bring-the-problem.html
+  en: /book/chapters/03-01-do-not-bring-the-task-bring-the-problem.html
 seo:
   description: "Rapporte ce que l'exécution t'apprend et fais arbitrer une découverte qui change le périmètre, avant de poursuivre si nécessaire."
   keywords: "build here, ownership, builder, apporte, tache, probleme"
 redirect_from:
-  - /chapters/04-01-napporte-pas-la-tache-apporte-le-probleme.html
+  - /livre/chapitres/04-01-napporte-pas-la-tache-apporte-le-probleme.html
 ---
 
 ## Le point de départ

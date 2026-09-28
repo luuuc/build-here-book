@@ -14,7 +14,7 @@ categories:
   - business
   - client
 traductions:
-  fr: /book/chapters/04-00-la-comprehension.html
+  fr: /livre/chapitres/04-00-la-comprehension.html
 seo:
   description: "Connect your work to what surrounds it: who has the problem, what they really ask for, what it costs, who keeps it running."
   keywords: "build here, understanding, business, customer, distribution"

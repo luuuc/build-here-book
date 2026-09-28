@@ -12,7 +12,7 @@ categories:
   - responsabilite
   - execution
 traductions:
-  fr: /book/chapters/01-08-leader-la-premiere-reaction-fait-la-regle.html
+  fr: /livre/chapitres/01-08-leader-la-premiere-reaction-fait-la-regle.html
 seo:
   description: "A clear boundary, and a reaction that examines the facts, help people take initiative inside an agreed remit."
   keywords: "build here, ownership, builder, conditions, first reaction, boundary"
@@ -50,4 +50,4 @@ On the next initiatives, start by understanding the intent and the effects. Put 
 
 Which recent initiative showed that our boundary was clear, or that it needed pinning down?
 
-*Check it elsewhere:* Amy Edmondson's work on psychological safety and team learning is in *[Already written](/en/references/)*.
+*Check it elsewhere:* Amy Edmondson's work on psychological safety and team learning is in *[Already written](/already-written/)*.

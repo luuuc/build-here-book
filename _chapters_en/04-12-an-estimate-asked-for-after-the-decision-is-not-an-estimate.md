@@ -13,12 +13,12 @@ categories:
   - business
   - strategie
 traductions:
-  fr: /book/chapters/04-12-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html
+  fr: /livre/chapitres/04-12-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html
 seo:
   description: "Have options, costs and unknowns examined before a promise, and plan how to adjust a commitment already made."
   keywords: "build here, builder, commitment, cost, estimate, options"
 redirect_from:
-  - /en/chapters/04-12-bring-the-cost-in-before-the-commitment.html
+  - /book/chapters/04-12-bring-the-cost-in-before-the-commitment.html
 ---
 
 ## What you are asking for

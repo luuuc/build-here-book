@@ -12,7 +12,7 @@ categories:
   - niveau
   - client
 traductions:
-  fr: /book/chapters/02-09-ton-marche-peut-etre-local-ton-niveau-non.html
+  fr: /livre/chapitres/02-09-ton-marche-peut-etre-local-ton-niveau-non.html
 seo:
   description: "Compare the uses and the constraints to choose a useful improvement, without mistaking quality for imitating another market."
   keywords: "build here, craft, standard, comparison, builder"

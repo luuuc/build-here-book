@@ -26,20 +26,20 @@ Les quatre fichiers sont générés et publiés automatiquement après chaque d�
 
 ## Les langues
 
-Le livre s'écrit en français et paraît en anglais sous `/en/`. Les deux versions sont complètes : mêmes 98 entrées, mêmes pages, même questionnaire, même tirage.
+Le livre s'écrit en français et paraît en anglais. Chaque langue a ses propres mots dans l'adresse : le français sous `/livre/`, l'anglais sous `/book/`. Les deux versions sont complètes : mêmes 98 entrées, mêmes pages, même questionnaire, même tirage.
 
 Aucun gabarit ne porte de mot. Les chaînes de l'interface, le sommaire, les libellés de surtitre, le menu du site et les indicatifs téléphoniques vivent dans `_data/fr/` et `_data/en/`, un fichier par langue et les mêmes clés des deux côtés. `_includes/langue.html`, inclus en tête de chaque gabarit, pose les variables pour le reste de la page : `lang`, `t` pour les chaînes, `sommaire`, `livre` pour les entrées de cette langue.
 
 | | français | anglais |
 | --- | --- | --- |
 | entrées | `_chapters/` | `_chapters_en/` |
-| pages | racine | `en/` |
+| fichiers machine | `livre/` | `book/` |
 | chaînes | `_data/fr/` | `_data/en/` |
 | questionnaire | `test-builder-contenu.js` | `test-builder-contenu-en.js` |
-| adresses | `/`, `/chapters/…` | `/en/`, `/en/chapters/…` |
+| adresses | `/livre/`, `/livre/chapitres/…` | `/book/`, `/book/chapters/…` |
 | tirage | `build/build-here.pdf` | `build/build-here-en.pdf` |
 
-Le français garde ses adresses sans préfixe : la traduction n'a déplacé aucun lien déjà publié.
+Les anciennes adresses (`/book/chapters/…` en français, `/book/en/…`) sont redirigées par le Worker `site/workers/book-proxy`. Les styles et images communs restent sous `/book/assets/`. Chaque carte a une copie markdown : `.html` devient `.md`.
 
 Les règles du questionnaire ne sont écrites qu'une fois, dans `assets/javascripts/test-builder-model.js`. Il ne contient aucune phrase : `creer(contenu)` reçoit le contenu de la langue chargée. `bin/verifier-test-builder _site fr` et `… en` font tourner les mêmes règles de niveau et les mêmes 160 combinaisons de pistes sur chacun.
 
@@ -47,12 +47,12 @@ Une page qui a une jumelle dans l'autre langue la déclare dans son front matter
 
 ```yaml
 traductions:
-  en: /en/chapters/01-01-curiosity-is-billable.html
+  en: /book/chapters/01-01-curiosity-is-billable.html
 ```
 
 Sans cette clé, le sélecteur renvoie à l'accueil de l'autre langue, et aucun `hreflang` n'est écrit : mieux vaut pas d'annonce qu'une annonce fausse.
 
-Les fichiers lus par les machines suivent : `/en/llms.txt`, `/en/llms-full.txt`, `/en/book.json` et `/en/indicatifs.json`. Le texte légal de la licence n'existe qu'en anglais chez Creative Commons ; les deux pages partagent donc `_includes/cc-by-sa-4.html`.
+Les fichiers lus par les machines suivent : `llms.txt`, `llms-full.txt`, `book.json` et `indicatifs.json` sous `/livre/` et sous `/book/`. Le texte légal de la licence n'existe qu'en anglais chez Creative Commons ; les deux pages partagent donc `_includes/cc-by-sa-4.html`.
 
 Les vérificateurs de `bin/` lisent `_chapters/` pour les règles de l'annexe 1 : elles sont écrites pour le texte français.
 
@@ -70,7 +70,7 @@ Les [quatre parcours](https://build-here.africa/parcours/) et l'[index par situa
 
 ## Choisir une pratique
 
-Le [questionnaire facultatif](https://build-here.africa/) pose cinquante questions, cinq par capacité du livre : des habitudes liées à un moment, des questions vérifiables, cinq « à quand remonte la dernière fois » dans tout le test, puis une « la dernière fois » et une situation par capacité. Deux réponses restent hors calcul : la situation ne s'est pas présentée, ou le cadre ne le permettait pas.
+Le [questionnaire facultatif](https://build-here.africa/test-du-builder/) pose cinquante questions, cinq par capacité du livre : des habitudes liées à un moment, des questions vérifiables, cinq « à quand remonte la dernière fois » dans tout le test, puis une « la dernière fois » et une situation par capacité. Deux réponses restent hors calcul : la situation ne s'est pas présentée, ou le cadre ne le permettait pas.
 
 Le résultat donne un niveau de builder de 1 à 5, l'étape où la pratique est solide et la réponse qui retient à l'étape suivante. Les seuils sont provisoires, fixés à la main à partir du livre. Une étape limitée par le cadre ne baisse pas le niveau. Le lecteur choisit ensuite sa piste. Rien n'est envoyé au service d'évaluation. Les réponses ne sont gardées que si le lecteur coche la case prévue, dans son navigateur, sous une seule clé ; le passage suivant montre alors ce qui a bougé. Copier la piste permet de conserver le geste, ses limites, son suivi et les liens de lecture. La [méthode publique](https://build-here.africa/methode-du-test/) expose les limites de cette proposition éditoriale.
 
@@ -93,11 +93,11 @@ git clone https://github.com/luuuc/build-here-book.git
 cd build-here-book
 bundle install
 bundle exec jekyll serve
-# http://localhost:4000/book/
+# http://localhost:4000/livre/ et http://localhost:4000/book/
 ```
 
 Avec le site à côté (`../site`), `bin/dev` dans le site sert les deux sur
-http://localhost:3000 : le livre sous `/book/`, reconstruit à chaque
+http://localhost:3000 : le livre sous `/livre/` et `/book/`, reconstruit à chaque
 modification, et les liens entre le site et le livre marchent.
 
 Le contenu vit dans `_chapters/`. Un fichier par carte, trié par le champ `order` du front matter.

@@ -12,13 +12,13 @@ categories:
   - visibilite
   - transmission
 traductions:
-  fr: /book/chapters/10-05-reponds-a-la-question-en-public.html
+  fr: /livre/chapitres/10-05-reponds-a-la-question-en-public.html
 seo:
   description: "Prepare a reusable answer in a suitable place, recognising the cost of adapting it and the value of private exchanges."
   keywords: "build here, builder, reference, answer, access, passing on"
 redirect_from:
-  - /en/chapters/10-04-answer-the-question-in-public.html
-  - /en/chapters/10-04-make-a-useful-answer-findable.html
+  - /book/chapters/10-04-answer-the-question-in-public.html
+  - /book/chapters/10-04-make-a-useful-answer-findable.html
 ---
 
 ## The starting point

@@ -14,12 +14,12 @@ categories:
   - outils
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/08-03-the-cheapest-leverage-is-already-paid-for.html
+  en: /book/chapters/08-03-the-cheapest-leverage-is-already-paid-for.html
 seo:
   description: "Compare réutilisation et alternatives sur leur coût futur et leurs conditions d'usage, sans considérer les ressources existantes comme gratuites."
   keywords: "build here, builder, levier, outils, reutilisation, cout"
 redirect_from:
-  - /chapters/08-04-le-levier-le-moins-cher-est-deja-paye.html
+  - /livre/chapitres/08-04-le-levier-le-moins-cher-est-deja-paye.html
 ---
 
 ## Le réflexe

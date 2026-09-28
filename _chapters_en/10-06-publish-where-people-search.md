@@ -12,13 +12,13 @@ categories:
   - distribution
   - trace
 traductions:
-  fr: /book/chapters/10-06-publie-la-ou-on-cherche.html
+  fr: /livre/chapitres/10-06-publie-la-ou-on-cherche.html
 seo:
   description: "Check a real reader's route to it and maintain the resource, without promising indexing, permanence, or a search ranking."
   keywords: "build here, builder, reference, resource, search, upkeep"
 redirect_from:
-  - /en/chapters/10-05-publish-where-people-search.html
-  - /en/chapters/10-05-put-the-resource-where-its-readers-look.html
+  - /book/chapters/10-05-publish-where-people-search.html
+  - /book/chapters/10-05-put-the-resource-where-its-readers-look.html
 ---
 
 ## The starting point

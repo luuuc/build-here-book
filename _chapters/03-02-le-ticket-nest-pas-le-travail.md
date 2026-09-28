@@ -13,12 +13,12 @@ categories:
   - arbitrage
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/03-02-the-ticket-is-not-the-work.html
+  en: /book/chapters/03-02-the-ticket-is-not-the-work.html
 seo:
   description: "Relie le suivi des tâches à ce qu'elles améliorent, préservent ou apprennent, sans confondre activité et résultat."
   keywords: "build here, produit, builder, ticket, travail"
 redirect_from:
-  - /chapters/05-01-le-ticket-nest-pas-le-travail.html
+  - /livre/chapitres/05-01-le-ticket-nest-pas-le-travail.html
 ---
 
 ## Le symptôme

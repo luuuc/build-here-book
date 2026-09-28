@@ -14,7 +14,7 @@ categories:
   - trace
   - builders
 traductions:
-  fr: /book/chapters/10-00-la-reference.html
+  fr: /livre/chapitres/10-00-la-reference.html
 seo:
   description: "Make your experience useful to others: put your name on it, answer in public, publish where people look."
   keywords: "build here, reference, record, artefact, builder"

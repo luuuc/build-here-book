@@ -13,12 +13,12 @@ categories:
   - reference
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/10-01-put-your-name-on-it.html
+  en: /book/chapters/10-01-put-your-name-on-it.html
 seo:
   description: "Reconnais les contributions et leur contexte selon un accord adapté, sans faire de la signature publique une condition de valeur."
   keywords: "build here, builder, reference, contributions, credit, partage"
 redirect_from:
-  - /chapters/14-01-mets-ton-nom-dessus.html
+  - /livre/chapitres/14-01-mets-ton-nom-dessus.html
 ---
 
 ## Le point de départ

@@ -15,12 +15,12 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/03-00-autonomy.html
+  en: /book/chapters/03-00-autonomy.html
 seo:
   description: "Traiter le problème derrière la tâche : comprendre le pourquoi, proposer la suite, trancher dans ton périmètre, signaler vite le reste."
   keywords: "build here, autonomie, builder, probleme, procedure"
 redirect_from:
-  - /chapters/03-00-hierarchie.html
+  - /livre/chapitres/03-00-hierarchie.html
 ---
 
 On te donne une tâche. Le travail, c'est le problème derrière.

@@ -12,12 +12,12 @@ categories:
   - responsabilite
   - execution
 traductions:
-  fr: /book/chapters/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
+  fr: /livre/chapitres/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
 seo:
   description: "Fit the timing and the channel of a piece of information to its consequences, without waiting for a solution or imposing a universal deadline."
   keywords: "build here, builder, ownership, commitment, alert, information"
 redirect_from:
-  - /en/chapters/06-06-flag-in-time-what-changes-the-commitment.html
+  - /book/chapters/06-06-flag-in-time-what-changes-the-commitment.html
 ---
 
 ## The reflex

@@ -13,12 +13,12 @@ categories:
   - engineering
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/03-03-if-you-dont-understand-why-you-are-not-ready-to-build-it.html
+  en: /book/chapters/03-03-if-you-dont-understand-why-you-are-not-ready-to-build-it.html
 seo:
   description: "Clarifie l'objectif et les inconnues décisives ; un essai limité peut aussi aider à comprendre."
   keywords: "build here, builder, autonomie, objectif, hypothese, perimetre"
 redirect_from:
-  - /chapters/01-02-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html
+  - /livre/chapitres/01-02-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html
 ---
 
 ## Le réflexe

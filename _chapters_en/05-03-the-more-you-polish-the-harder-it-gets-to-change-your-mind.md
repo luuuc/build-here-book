@@ -12,7 +12,7 @@ categories:
   - client
   - arbitrage
 traductions:
-  fr: /book/chapters/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html
+  fr: /livre/chapitres/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html
 seo:
   description: "Choose the level of finish an attempt needs, and a sign that fits the need, without assuming access to ten users."
   keywords: "build here, product, builder, polish, change your mind"

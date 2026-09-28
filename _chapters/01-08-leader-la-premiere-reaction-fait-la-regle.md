@@ -13,12 +13,12 @@ categories:
   - execution
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/01-08-the-first-reaction-sets-the-rule.html
+  en: /book/chapters/01-08-the-first-reaction-sets-the-rule.html
 seo:
   description: "Une frontière claire et une réaction qui examine les faits aident les personnes à prendre des initiatives dans un périmètre convenu."
   keywords: "build here, ownership, builder, conditions, premiere, reaction, fait, regle"
 redirect_from:
-  - /chapters/04-06-leader-la-premiere-reaction-fait-la-regle.html
+  - /livre/chapitres/04-06-leader-la-premiere-reaction-fait-la-regle.html
 ---
 
 ## Ce que tu demandes

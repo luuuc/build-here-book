@@ -14,7 +14,7 @@ categories:
   - resultat
   - builders
 traductions:
-  fr: /book/chapters/06-00-lownership.html
+  fr: /livre/chapitres/06-00-lownership.html
 seo:
   description: "Done on your side doesn't mean solved: say what you take on, come back to look, break bad news early."
   keywords: "build here, ownership, result, builder"

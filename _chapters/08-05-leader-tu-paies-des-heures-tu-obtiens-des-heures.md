@@ -14,12 +14,12 @@ categories:
   - conditions
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/08-05-you-pay-for-hours-you-get-hours.html
+  en: /book/chapters/08-05-you-pay-for-hours-you-get-hours.html
 seo:
   description: "Reconnais prévention, transmission et service direct à partir d'effets contextualisés, sans quota de suppression ni promesse de gain gratuit."
   keywords: "build here, builder, levier, prevention, service, reconnaissance"
 redirect_from:
-  - /chapters/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html
+  - /livre/chapitres/08-06-leader-tu-paies-des-heures-tu-obtiens-des-heures.html
 ---
 
 ## Ce que tu demandes

@@ -14,7 +14,7 @@ categories:
   - impact
   - ia
 traductions:
-  fr: /book/chapters/08-00-le-levier.html
+  fr: /livre/chapitres/08-00-le-levier.html
 seo:
   description: "Get more out of useful work with what you already have, without multiplying the mistakes."
   keywords: "build here, leverage, impact, ai, automation, builder"

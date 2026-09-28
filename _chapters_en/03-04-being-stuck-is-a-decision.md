@@ -12,12 +12,12 @@ categories:
   - responsabilite
   - execution
 traductions:
-  fr: /book/chapters/03-04-etre-bloque-est-une-decision.html
+  fr: /livre/chapitres/03-04-etre-bloque-est-une-decision.html
 seo:
   description: "Tell research, help, access and a ruling apart, so a real blockage gets an organised next step."
   keywords: "build here, builder, autonomy, blocked, help, access, ruling"
 redirect_from:
-  - /en/chapters/03-04-when-you-are-stuck-make-the-next-step-explicit.html
+  - /book/chapters/03-04-when-you-are-stuck-make-the-next-step-explicit.html
 ---
 
 ## The symptom

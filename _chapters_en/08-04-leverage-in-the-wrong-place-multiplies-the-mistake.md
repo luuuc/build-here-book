@@ -12,7 +12,7 @@ categories:
   - impact
   - risque
 traductions:
-  fr: /book/chapters/08-04-un-levier-mal-place-multiplie-lerreur.html
+  fr: /livre/chapitres/08-04-un-levier-mal-place-multiplie-lerreur.html
 seo:
   description: "Check the exceptions, the protections, the stop and the upkeep before amplifying work; no small sample guarantees quality on its own."
   keywords: "build here, leverage, automation, mistake, builder"

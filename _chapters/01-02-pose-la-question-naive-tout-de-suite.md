@@ -13,12 +13,12 @@ categories:
   - engineering
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/01-02-ask-the-naive-question-straight-away.html
+  en: /book/chapters/01-02-ask-the-naive-question-straight-away.html
 seo:
   description: "Clarifier un mot avec un exemple aide à décider sur une compréhension partagée, quel que soit ton niveau d'expérience."
   keywords: "build here, curiosite, builder, pose, question, naive, tout, suite"
 redirect_from:
-  - /chapters/01-03-pose-la-question-naive-tout-de-suite.html
+  - /livre/chapitres/01-03-pose-la-question-naive-tout-de-suite.html
 ---
 
 ## Le point de départ

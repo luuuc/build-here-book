@@ -14,13 +14,13 @@ categories:
   - strategie
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/04-07-understanding-cannot-be-delegated.html
+  en: /book/chapters/04-07-understanding-cannot-be-delegated.html
 seo:
   description: "Comprends les dépendances utiles à ta décision avec l'aide des spécialistes, sans confondre compréhension et contrôle."
   keywords: "build here, technologie et business, builder, comprehension, delegue"
 redirect_from:
-  - /chapters/10-04-un-fondateur-ne-delegue-pas-la-comprehension.html
-  - /chapters/04-07-un-fondateur-ne-delegue-pas-la-comprehension.html
+  - /livre/chapitres/10-04-un-fondateur-ne-delegue-pas-la-comprehension.html
+  - /livre/chapitres/04-07-un-fondateur-ne-delegue-pas-la-comprehension.html
 ---
 
 ## Le réflexe

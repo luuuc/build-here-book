@@ -12,13 +12,13 @@ categories:
   - visibilite
   - ecriture
 traductions:
-  fr: /book/chapters/10-03-un-avis-nest-pas-un-artefact.html
+  fr: /livre/chapitres/10-03-un-avis-nest-pas-un-artefact.html
 seo:
   description: "Make the context, the facts and the limits reachable so a reader can examine an idea, without mandating a number or devaluing opinion."
   keywords: "build here, builder, reference, reasoning, evidence, limits"
 redirect_from:
-  - /en/chapters/10-02-an-opinion-is-not-an-artifact.html
-  - /en/chapters/10-02-give-the-reader-enough-to-examine-your-reasoning.html
+  - /book/chapters/10-02-an-opinion-is-not-an-artifact.html
+  - /book/chapters/10-02-give-the-reader-enough-to-examine-your-reasoning.html
 ---
 
 ## The symptom

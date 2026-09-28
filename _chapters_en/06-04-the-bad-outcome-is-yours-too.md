@@ -12,12 +12,12 @@ categories:
   - resultat
   - honnetete
 traductions:
-  fr: /book/chapters/06-04-le-mauvais-resultat-tappartient-aussi.html
+  fr: /livre/chapitres/06-04-le-mauvais-resultat-tappartient-aussi.html
 seo:
   description: "Examine results, assumptions and constraints without confusing learning with blame or with control over every consequence."
   keywords: "build here, builder, ownership, result, learning, constraints"
 redirect_from:
-  - /en/chapters/06-04-take-the-lesson-from-a-disappointing-result.html
+  - /book/chapters/06-04-take-the-lesson-from-a-disappointing-result.html
 ---
 
 ## The reflex

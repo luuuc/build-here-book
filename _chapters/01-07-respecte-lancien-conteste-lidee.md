@@ -13,12 +13,12 @@ categories:
   - culture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/01-07-respect-the-elder-challenge-the-idea.html
+  en: /book/chapters/01-07-respect-the-elder-challenge-the-idea.html
 seo:
   description: "Le respect est dû à la personne. Il n'est pas dû à la phrase."
   keywords: "build here, hierarchie, builder, respecte, ancien, conteste, idee"
 redirect_from:
-  - /chapters/03-01-respecte-lancien-conteste-lidee.html
+  - /livre/chapitres/03-01-respecte-lancien-conteste-lidee.html
 ---
 
 ## Le réflexe

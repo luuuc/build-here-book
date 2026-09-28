@@ -13,12 +13,12 @@ categories:
   - arbitrage
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/04-04-the-customer-does-not-care-about-your-architecture.html
+  en: /book/chapters/04-04-the-customer-does-not-care-about-your-architecture.html
 seo:
   description: "Explique l'utilité du travail technique et les preuves disponibles, avec les détails adaptés à la décision du lecteur."
   keywords: "build here, builder, architecture, utilite, maintenance, effets"
 redirect_from:
-  - /chapters/05-04-le-client-ne-sinteresse-pas-a-ton-architecture.html
+  - /livre/chapitres/05-04-le-client-ne-sinteresse-pas-a-ton-architecture.html
 ---
 
 ## Le réflexe

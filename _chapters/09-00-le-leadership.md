@@ -15,12 +15,12 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/09-00-leadership.html
+  en: /book/chapters/09-00-leadership.html
 seo:
   description: "Ce que tu rends possible pour les autres : confier un problème, relire pour faire apprendre, te rendre remplaçable."
   keywords: "build here, leadership, equipe, builder, transmission"
 redirect_from:
-  - /chapters/09-00-leadership.html
+  - /livre/chapitres/09-00-leadership.html
 ---
 
 Un builder seul plafonne. Le leadership, c'est ce que tu rends possible pour les autres.

@@ -14,7 +14,7 @@ categories:
   - execution
   - builders
 traductions:
-  fr: /book/chapters/05-00-la-livraison.html
+  fr: /livre/chapitres/05-00-la-livraison.html
 seo:
   description: "Put your work in the hands of the people it's for, early and without cutting corners, and learn what your plan didn't tell you."
   keywords: "build here, delivery, shipping, execution, builder"

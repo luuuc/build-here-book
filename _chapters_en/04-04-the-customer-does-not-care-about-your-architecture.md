@@ -12,12 +12,12 @@ categories:
   - client
   - arbitrage
 traductions:
-  fr: /book/chapters/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html
+  fr: /livre/chapitres/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html
 seo:
   description: "Explain what the technical work is for and what evidence you have, with the detail the reader's decision needs."
   keywords: "build here, builder, architecture, usefulness, maintenance, effects"
 redirect_from:
-  - /en/chapters/04-04-tie-the-architecture-to-what-it-makes-possible.html
+  - /book/chapters/04-04-tie-the-architecture-to-what-it-makes-possible.html
 ---
 
 ## The reflex

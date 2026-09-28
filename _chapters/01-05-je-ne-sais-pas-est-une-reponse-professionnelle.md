@@ -13,12 +13,12 @@ categories:
   - culture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/01-05-i-dont-know-is-a-professional-answer.html
+  en: /book/chapters/01-05-i-dont-know-is-a-professional-answer.html
 seo:
   description: "Une réponse fausse mais plausible est plus dangereuse qu'une absence de réponse, parce qu'elle voyage. Quelqu'un la répète en réunion. Elle atterrit dans un document."
   keywords: "build here, ego et honnetete intellectuelle, builder, sais, reponse, professionnelle"
 redirect_from:
-  - /chapters/02-04-je-ne-sais-pas-est-une-reponse-professionnelle.html
+  - /livre/chapitres/02-04-je-ne-sais-pas-est-une-reponse-professionnelle.html
 ---
 
 ## Le réflexe

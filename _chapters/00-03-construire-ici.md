@@ -12,7 +12,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/00-03-build-here.html
+  en: /book/chapters/00-03-build-here.html
 seo:
   description: "Construire là où tu es est un avantage : problèmes proches, retours rapides, contraintes qui imposent la simplicité, et une place de référence encore libre."
   keywords: "build here, construire ici, afrique, builder, marché local, niveau"

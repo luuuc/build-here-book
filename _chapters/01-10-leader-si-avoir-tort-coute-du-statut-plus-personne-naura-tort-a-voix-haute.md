@@ -13,12 +13,12 @@ categories:
   - culture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/01-10-if-being-wrong-costs-status-nobody-will-be-wrong-out-loud.html
+  en: /book/chapters/01-10-if-being-wrong-costs-status-nobody-will-be-wrong-out-loud.html
 seo:
   description: "Accueillir un signalement, protéger ce qui doit l'être et examiner les faits séparément de l'évaluation des personnes."
   keywords: "build here, ego et honnetete intellectuelle, builder, conditions, avoir, tort, coute, statut"
 redirect_from:
-  - /chapters/02-05-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html
+  - /livre/chapitres/02-05-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html
 ---
 
 ## Ce que tu demandes

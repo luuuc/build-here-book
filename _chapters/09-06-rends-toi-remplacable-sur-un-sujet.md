@@ -13,7 +13,7 @@ categories:
   - equipe
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/09-06-make-yourself-replaceable-on-one-subject.html
+  en: /book/chapters/09-06-make-yourself-replaceable-on-one-subject.html
 seo:
   description: "Prépare une relève avec accord, moyens et pratique, sans présumer de rétention du savoir ni promettre que la transmission protège à elle seule."
   keywords: "build here, builder, leadership, releve, transmission, moyens"

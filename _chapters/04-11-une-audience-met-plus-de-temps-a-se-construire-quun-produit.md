@@ -13,12 +13,12 @@ categories:
   - marketing
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/04-11-an-audience-takes-longer-to-build-than-a-product.html
+  en: /book/chapters/04-11-an-audience-takes-longer-to-build-than-a-product.html
 seo:
   description: "Prépare des échanges adaptés avant le lancement, sans imposer une audience publique ni un calendrier universel."
   keywords: "build here, builder, distribution, premiers utilisateurs, retours"
 redirect_from:
-  - /chapters/12-01-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html
+  - /livre/chapitres/12-01-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html
 ---
 
 ## Le réflexe

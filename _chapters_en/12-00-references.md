@@ -6,7 +6,7 @@ show_chapter_number: false
 part: "References"
 order: 1200
 traductions:
-  fr: /book/chapters/12-00-references.html
+  fr: /livre/chapitres/12-00-references.html
 ---
 
 These references illuminate the ideas in the book. They come mostly from management and software; applying them to another situation means examining their context.
@@ -47,4 +47,4 @@ These references illuminate the ideas in the book. They come mostly from managem
 
 - 2018. Nicole Forsgren, Jez Humble and Gene Kim, *Accelerate*. [Introduction and extracts at the publisher](https://itrevolution.com/product/accelerate/)
 
-The [annotated reading list](/en/references/) sets out what each connection brings and where it stops.
+The [annotated reading list](/already-written/) sets out what each connection brings and where it stops.

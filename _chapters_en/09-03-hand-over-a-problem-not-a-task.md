@@ -13,12 +13,12 @@ categories:
   - equipe
   - transmission
 traductions:
-  fr: /book/chapters/09-03-confie-un-probleme-pas-une-tache.html
+  fr: /livre/chapitres/09-03-confie-un-probleme-pas-une-tache.html
 seo:
   description: "Fit the framing, the autonomy and the support to the person and to what is at stake, without confusing learning with an absence of help."
   keywords: "build here, builder, leadership, support, problem, mandate"
 redirect_from:
-  - /en/chapters/09-03-hand-over-a-problem-with-the-backing-it-needs.html
+  - /book/chapters/09-03-hand-over-a-problem-with-the-backing-it-needs.html
 ---
 
 ## The starting point

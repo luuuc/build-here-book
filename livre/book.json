@@ -1,4 +1,5 @@
 ---
 layout: none
+permalink: /livre/book.json
 ---
 {% include book-json.html %}

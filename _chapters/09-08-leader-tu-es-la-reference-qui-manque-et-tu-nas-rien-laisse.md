@@ -14,13 +14,13 @@ categories:
   - transmission
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/09-08-you-are-the-missing-reference-and-you-left-nothing-behind.html
+  en: /book/chapters/09-08-you-are-the-missing-reference-and-you-left-nothing-behind.html
 seo:
   description: "Soutiens mentorat, pratique et supports adaptés avec du temps, des accords et une vérification de leur utilité, sans publication obligatoire."
   keywords: "build here, builder, leadership, transmission, mentorat, soutien"
 redirect_from:
-  - /chapters/09-06-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
-  - /chapters/16-04-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
+  - /livre/chapitres/09-06-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
+  - /livre/chapitres/16-04-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
 ---
 
 ## Ce que tu demandes

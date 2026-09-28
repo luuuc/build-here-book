@@ -12,12 +12,12 @@ categories:
   - distribution
   - marketing
 traductions:
-  fr: /book/chapters/04-11-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html
+  fr: /livre/chapitres/04-11-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html
 seo:
   description: "Prepare suitable conversations before launch, without requiring a public audience or a universal timetable."
   keywords: "build here, builder, distribution, first users, feedback"
 redirect_from:
-  - /en/chapters/04-11-set-up-the-line-to-your-first-users.html
+  - /book/chapters/04-11-set-up-the-line-to-your-first-users.html
 ---
 
 ## The reflex

@@ -12,7 +12,7 @@ categories:
   - distribution
   - marketing
 traductions:
-  fr: /book/chapters/04-10-parle-du-probleme-avant-de-parler-de-toi.html
+  fr: /livre/chapitres/04-10-parle-du-probleme-avant-de-parler-de-toi.html
 seo:
   description: "Present a situation you have checked, then the proposal and its evidence, at a level of detail that fits and can be shared."
   keywords: "build here, visibility, builder, problem, presentation"

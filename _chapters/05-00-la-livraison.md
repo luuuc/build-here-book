@@ -15,12 +15,12 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/05-00-delivery.html
+  en: /book/chapters/05-00-delivery.html
 seo:
   description: "Mettre ton travail entre les mains de ceux à qui il sert, tôt, sans bâcler, et apprendre ce que ton plan ne disait pas."
   keywords: "build here, livraison, shipping, execution, builder"
 redirect_from:
-  - /chapters/07-00-execution.html
+  - /livre/chapitres/07-00-execution.html
 ---
 
 Tant que personne ne s'en sert, tu ne sais rien.

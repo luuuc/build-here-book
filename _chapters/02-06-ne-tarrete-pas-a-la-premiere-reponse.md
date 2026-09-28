@@ -14,12 +14,12 @@ categories:
   - support
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/02-06-dont-stop-at-the-first-answer.html
+  en: /book/chapters/02-06-dont-stop-at-the-first-answer.html
 seo:
   description: "Une réponse peut résoudre la demande sans expliquer sa cause. Choisis les répétitions qui justifient une enquête proportionnée."
   keywords: "build here, curiosite, builder, arrete, premiere, reponse"
 redirect_from:
-  - /chapters/01-05-ne-tarrete-pas-a-la-premiere-reponse.html
+  - /livre/chapitres/01-05-ne-tarrete-pas-a-la-premiere-reponse.html
 ---
 
 ## Le point de départ

@@ -15,13 +15,13 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/02-00-the-craft.html
+  en: /book/chapters/02-00-the-craft.html
 seo:
   description: "Monter en niveau dans ton métier : aller à la source, ne pas s'arrêter à la première réponse, lire hors de ton couloir, faire simple."
   keywords: "build here, metier, craft, builder, apprentissage"
 redirect_from:
-  - /chapters/06-00-engineering.html
-  - /chapters/08-00-apprentissage.html
+  - /livre/chapitres/06-00-engineering.html
+  - /livre/chapitres/08-00-apprentissage.html
 ---
 
 L'envie ne suffit pas. Il faut savoir faire.

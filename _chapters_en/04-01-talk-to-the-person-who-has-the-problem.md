@@ -12,7 +12,7 @@ categories:
   - support
   - produit
 traductions:
-  fr: /book/chapters/04-01-parle-a-la-personne-qui-a-le-probleme.html
+  fr: /livre/chapitres/04-01-parle-a-la-personne-qui-a-le-probleme.html
 seo:
   description: "Inform a decision with a lived case, respecting consent, access, and the limits of a single account."
   keywords: "build here, customer, builder, talk, person, problem"

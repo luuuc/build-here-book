@@ -276,8 +276,11 @@
 {%- endfor %}
 {%- endif %}
 
-<!-- RSS Feed -->
-<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}" />
-
 <!-- Machine-readable book structure -->
-<link rel="alternate" type="application/json" title="Book Structure" href="{{ '/book.json' | absolute_url }}" />
+<link rel="alternate" type="application/json" title="Book Structure" href="{{ langue_courante.racine | append: 'book.json' | absolute_url }}" />
+<link rel="alternate" type="text/plain" title="llms.txt" href="{{ langue_courante.racine | append: 'llms.txt' | absolute_url }}" />
+{%- if page.collection %}
+{%- comment -%}La meme carte en markdown, ecrite par _plugins/llms_full.rb.{%- endcomment -%}
+{%- if page.url contains '.html' %}{% assign md = page.url | replace: '.html', '.md' %}{% else %}{% assign md = page.url | append: 'index.md' %}{% endif %}
+<link rel="alternate" type="text/markdown" href="{{ md | absolute_url }}" />
+{%- endif %}

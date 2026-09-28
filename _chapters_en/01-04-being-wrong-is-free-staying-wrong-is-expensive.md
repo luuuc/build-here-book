@@ -12,12 +12,12 @@ categories:
   - honnetete-intellectuelle
   - culture
 traductions:
-  fr: /book/chapters/01-04-avoir-tort-ne-coute-rien-le-rester-coute-cher.html
+  fr: /livre/chapitres/01-04-avoir-tort-ne-coute-rien-le-rester-coute-cher.html
 seo:
   description: "New facts can justify reopening a decision. Write down what would change the plan, and weigh the cost of the correction."
   keywords: "build here, ego and intellectual honesty, builder, decision, facts"
 redirect_from:
-  - /en/chapters/01-04-revisit-a-decision-when-the-facts-change.html
+  - /book/chapters/01-04-revisit-a-decision-when-the-facts-change.html
 ---
 
 ## The reflex

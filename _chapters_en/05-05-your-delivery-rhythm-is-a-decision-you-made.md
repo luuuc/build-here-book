@@ -13,12 +13,12 @@ categories:
   - livraison
   - produit
 traductions:
-  fr: /book/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html
+  fr: /livre/chapitres/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html
 seo:
   description: "Examine the constraints and the controls before improving the delivery route; measure quality and learning too."
   keywords: "build here, builder, delivery, rhythm, controls, learning"
 redirect_from:
-  - /en/chapters/05-05-set-a-delivery-rhythm-that-serves.html
+  - /book/chapters/05-05-set-a-delivery-rhythm-that-serves.html
 ---
 
 ## What you are asking for

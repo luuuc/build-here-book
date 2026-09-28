@@ -13,13 +13,13 @@ categories:
   - management
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/06-05-a-good-decision-can-still-lose.html
+  en: /book/chapters/06-05-a-good-decision-can-still-lose.html
 seo:
   description: "Examine raisonnement et résultat séparément, en tenant compte des informations, des moyens et des risques disponibles au moment du choix."
   keywords: "build here, leadership, builder, bonne, decision, peut, quand, meme"
 redirect_from:
-  - /chapters/06-06-une-bonne-decision-peut-quand-meme-perdre.html
-  - /chapters/09-02-une-bonne-decision-peut-quand-meme-perdre.html
+  - /livre/chapitres/06-06-une-bonne-decision-peut-quand-meme-perdre.html
+  - /livre/chapitres/09-02-une-bonne-decision-peut-quand-meme-perdre.html
 ---
 
 ## Le réflexe

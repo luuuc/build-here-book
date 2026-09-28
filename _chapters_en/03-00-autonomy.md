@@ -14,7 +14,7 @@ categories:
   - ownership
   - builders
 traductions:
-  fr: /book/chapters/03-00-lautonomie.html
+  fr: /livre/chapitres/03-00-lautonomie.html
 seo:
   description: "Work the problem behind the task: understand the why, propose the next step, decide within your remit, flag the rest fast."
   keywords: "build here, autonomy, builder, problem, procedure"

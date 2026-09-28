@@ -14,12 +14,12 @@ categories:
   - produit
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/05-01-shipping-creates-information.html
+  en: /book/chapters/05-01-shipping-creates-information.html
 seo:
   description: "Prépare un essai limité, observe son effet et utilise le retour pour décider ; livrer souvent ne garantit pas d'apprendre."
   keywords: "build here, execution, builder, shipper, cree, information"
 redirect_from:
-  - /chapters/07-02-shipper-cree-de-linformation.html
+  - /livre/chapitres/07-02-shipper-cree-de-linformation.html
 ---
 
 ## Le réflexe

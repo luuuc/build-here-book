@@ -13,13 +13,13 @@ categories:
   - trace
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/10-06-publish-where-people-search.html
+  en: /book/chapters/10-06-publish-where-people-search.html
 seo:
   description: "Vérifie le chemin d'accès d'un lecteur réel et entretiens la ressource, sans promettre indexation, permanence ou classement public."
   keywords: "build here, builder, reference, ressource, recherche, entretien"
 redirect_from:
-  - /chapters/10-05-publie-la-ou-on-cherche.html
-  - /chapters/15-01-publie-la-ou-on-cherche.html
+  - /livre/chapitres/10-05-publie-la-ou-on-cherche.html
+  - /livre/chapitres/15-01-publie-la-ou-on-cherche.html
 ---
 
 ## Le point de départ

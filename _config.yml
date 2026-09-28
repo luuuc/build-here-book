@@ -3,7 +3,9 @@ description: >-
   Bâtir là où tu es, apprendre de ce que tu changes. Des pratiques pour commencer,
   progresser, développer une équipe et soutenir des builders, avec des exemples
   et des modèles à adapter à ta situation.
-baseurl: "/book" # the subpath of your site, e.g. /blog
+# Pas de sous-chemin commun : le francais vit sous /livre/, l'anglais sous
+# /book/, et les fichiers partages (styles, images) sous /book/assets/.
+baseurl: ""
 # Where notes and comments go. A local build can point it at staging.
 api_url: "https://api.build-here.africa"
 url: "https://build-here.africa" # the base hostname & protocol for your site
@@ -33,7 +35,7 @@ lang_defaut: fr
 langues:
   - code: fr
     nom: "Français"
-    racine: "/book/"
+    racine: "/livre/"
     locale: fr_FR
     description: >-
       Bâtir là où tu es, apprendre de ce que tu changes. Des pratiques pour commencer,
@@ -41,7 +43,7 @@ langues:
       et des modèles à adapter à ta situation.
   - code: en
     nom: "English"
-    racine: "/book/en/"
+    racine: "/book/"
     locale: en_US
     description: >-
       Build where you are, learn from what you change. Practices to get started,
@@ -65,20 +67,20 @@ giscus:
   category_id:
 
 # Open Graph defaults
-og_image: /assets/images/build-here-og.png
+og_image: /book/assets/images/build-here-og.png
 
 collections:
+  # Chaque langue a ses propres mots dans l'adresse : /livre/chapitres/ pour
+  # le francais, /book/chapters/ pour l'anglais. Le Worker book-proxy renvoie
+  # les anciennes adresses (/book/chapters/ en francais, /book/en/) ici.
   chapters:
     output: true
     sort_by: order
-  # Le livre en anglais. Le francais garde « chapters » sans suffixe pour ne
-  # pas deplacer les 98 adresses deja publiees ; toute autre langue prend son
-  # code. Le permalink range la traduction sous /en/, avec le reste de la
-  # version anglaise.
+    permalink: /livre/chapitres/:path:output_ext
   chapters_en:
     output: true
     sort_by: order
-    permalink: /en/chapters/:path:output_ext
+    permalink: /book/chapters/:path:output_ext
 
 # Les entrees anglaises heritent leur langue. Les pages anglaises, elles,
 # posent `lang: en` dans leur front matter : un `scope.path` de « en » est un
@@ -100,7 +102,6 @@ kramdown:
 
 plugins:
   - jekyll-sitemap
-  - jekyll-feed
   - jekyll-redirect-from
 
 # Include dot-directories (for .well-known)

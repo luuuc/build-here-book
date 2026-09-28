@@ -14,12 +14,12 @@ categories:
   - strategie
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/04-12-an-estimate-asked-for-after-the-decision-is-not-an-estimate.html
+  en: /book/chapters/04-12-an-estimate-asked-for-after-the-decision-is-not-an-estimate.html
 seo:
   description: "Fais examiner options, coûts et inconnues avant une promesse, et prévois comment ajuster un engagement déjà pris."
   keywords: "build here, builder, engagement, cout, estimation, options"
 redirect_from:
-  - /chapters/10-05-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html
+  - /livre/chapitres/10-05-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html
 ---
 
 ## Ce que tu demandes

@@ -12,7 +12,7 @@ categories:
   - client
   - arbitrage
 traductions:
-  fr: /book/chapters/05-04-valider-une-spec-ne-la-rend-pas-juste.html
+  fr: /livre/chapitres/05-04-valider-une-spec-ne-la-rend-pas-juste.html
 seo:
   description: "Tell requirements apart from assumptions in a specification, then have new facts examined before changing the agreed work."
   keywords: "build here, product, builder, spec, sign-off"

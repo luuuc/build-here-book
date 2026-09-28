@@ -114,10 +114,10 @@ entete:
       url: "/livre/"
     - cle: test
       titre: "Le test du builder"
-      url: "/test/"
+      url: "/test-du-builder/"
     - cle: teams
       titre: "Pour les équipes"
-      url: "/equipes/"
+      url: "/pour-les-equipes/"
   telecharger: "Télécharger le livre"
   pdf: "Télécharger au format PDF"
   pdf_detail: "Format A4, prêt à imprimer"
@@ -129,7 +129,7 @@ entete:
 menu:
   livre: "Sommaire"
   livre_titre: "Le livre"
-  livre_url: "/book/"
+  livre_url: "/livre/"
   retour: "← Retour au site"
   sommaire_aria: "Sommaire du livre"
 

@@ -14,7 +14,7 @@ categories:
   - apprentissage
   - builders
 traductions:
-  fr: /book/chapters/02-00-le-metier.html
+  fr: /livre/chapitres/02-00-le-metier.html
 seo:
   description: "Raise your level in your trade: go to the source, don't stop at the first answer, read outside your lane, keep it simple."
   keywords: "build here, craft, builder, learning"

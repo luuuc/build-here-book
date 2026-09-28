@@ -13,12 +13,12 @@ categories:
   - arbitrage
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/05-04-signing-off-a-spec-does-not-make-it-right.html
+  en: /book/chapters/05-04-signing-off-a-spec-does-not-make-it-right.html
 seo:
   description: "Distingue exigences et hypothèses dans une spécification, puis fais examiner les faits nouveaux avant de modifier le travail convenu."
   keywords: "build here, produit, builder, valider, spec, rend, juste"
 redirect_from:
-  - /chapters/05-02-valider-une-spec-ne-la-rend-pas-juste.html
+  - /livre/chapitres/05-02-valider-une-spec-ne-la-rend-pas-juste.html
 ---
 
 ## Le symptôme

@@ -13,12 +13,12 @@ categories:
   - culture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/01-06-your-code-is-not-your-baby.html
+  en: /book/chapters/01-06-your-code-is-not-your-baby.html
 seo:
   description: "Une critique devient utile quand elle précise un cas, un critère et une amélioration à vérifier."
   keywords: "build here, ego et honnetete intellectuelle, builder, code, bebe"
 redirect_from:
-  - /chapters/02-03-ton-code-nest-pas-ton-bebe.html
+  - /livre/chapitres/02-03-ton-code-nest-pas-ton-bebe.html
 ---
 
 ## Le réflexe

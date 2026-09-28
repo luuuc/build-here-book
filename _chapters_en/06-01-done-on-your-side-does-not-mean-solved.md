@@ -12,7 +12,7 @@ categories:
   - resultat
   - equipe
 traductions:
-  fr: /book/chapters/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html
+  fr: /livre/chapitres/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html
 seo:
   description: "Arrange a handover that was accepted, with the information and means it needs, without keeping an open-ended responsibility."
   keywords: "build here, ownership, handover, team, builder"

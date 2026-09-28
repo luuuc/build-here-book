@@ -14,7 +14,7 @@ categories:
   - ownership
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/09-05-let-them-carry-what-is-reversible.html
+  en: /book/chapters/09-05-let-them-carry-what-is-reversible.html
 seo:
   description: "Accorde des décisions réelles avec limites, soutien et mandat, en examinant les conséquences au-delà de la seule réversibilité."
   keywords: "build here, builder, leadership, delegation, decision, limites"

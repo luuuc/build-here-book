@@ -13,12 +13,12 @@ categories:
   - honnetete
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/06-04-the-bad-outcome-is-yours-too.html
+  en: /book/chapters/06-04-the-bad-outcome-is-yours-too.html
 seo:
   description: "Examine les résultats, les hypothèses et les contraintes sans confondre apprentissage, culpabilité et contrôle de toutes les conséquences."
   keywords: "build here, builder, ownership, resultat, apprentissage, contraintes"
 redirect_from:
-  - /chapters/06-05-le-mauvais-resultat-tappartient-aussi.html
+  - /livre/chapitres/06-05-le-mauvais-resultat-tappartient-aussi.html
 ---
 
 ## Le réflexe

@@ -13,14 +13,14 @@ categories:
   - leadership
   - retention
 traductions:
-  fr: /book/chapters/10-11-leader-ton-equipe-travaille-sous-ton-nom.html
+  fr: /livre/chapitres/10-11-leader-ton-equipe-travaille-sous-ton-nom.html
 seo:
   description: "When your team's work goes out, ask each contributor how they want to be credited, before the presentation and not after."
   keywords: "build here, builder, reference, visibility, credit, contributions"
 redirect_from:
-  - /en/chapters/10-10-your-team-works-under-your-name.html
-  - /en/chapters/10-10-you-keep-your-team-invisible-because-visible-they-leave.html
-  - /en/chapters/10-10-back-visibility-that-people-choose.html
+  - /book/chapters/10-10-your-team-works-under-your-name.html
+  - /book/chapters/10-10-you-keep-your-team-invisible-because-visible-they-leave.html
+  - /book/chapters/10-10-back-visibility-that-people-choose.html
 ---
 
 ## What you are asking for

@@ -13,7 +13,7 @@ categories:
   - client
   - arbitrage
 traductions:
-  fr: /book/chapters/03-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html
+  fr: /livre/chapitres/03-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html
 seo:
   description: "Give an explicit mandate to make the call, and make visible the means, or the work displaced, by a new priority."
   keywords: "build here, product, builder, conditions, roadmap, queue"

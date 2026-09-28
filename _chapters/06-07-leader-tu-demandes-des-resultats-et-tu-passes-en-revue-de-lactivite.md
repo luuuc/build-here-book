@@ -14,12 +14,12 @@ categories:
   - conditions
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/06-07-you-ask-for-outcomes-and-you-review-activity.html
+  en: /book/chapters/06-07-you-ask-for-outcomes-and-you-review-activity.html
 seo:
   description: "Relie activité et effets observés avec une cadence adaptée, des moyens de vérification et un suivi proportionné."
   keywords: "build here, builder, ownership, revue, activite, resultats"
 redirect_from:
-  - /chapters/06-08-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html
+  - /livre/chapitres/06-08-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html
 ---
 
 ## Ce que tu demandes

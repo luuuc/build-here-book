@@ -14,12 +14,12 @@ categories:
   - culture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/03-05-deciding-and-being-right-are-two-different-jobs.html
+  en: /book/chapters/03-05-deciding-and-being-right-are-two-different-jobs.html
 seo:
   description: "Sépare l'examen des faits de l'arbitrage, précise qui décide et quand le choix mérite d'être revu."
   keywords: "build here, hierarchie, builder, trancher, avoir, raison, sont, deux"
 redirect_from:
-  - /chapters/03-03-trancher-et-avoir-raison-sont-deux-metiers-differents.html
+  - /livre/chapitres/03-03-trancher-et-avoir-raison-sont-deux-metiers-differents.html
 ---
 
 ## Le réflexe

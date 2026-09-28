@@ -15,13 +15,13 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/01-00-the-mindset.html
+  en: /book/chapters/01-00-the-mindset.html
 seo:
   description: "Remarquer le problème que les autres contournent : poser la question naïve, dire « je ne sais pas », changer d'avis vite."
   keywords: "build here, etat d'esprit, builder, agency"
 redirect_from:
-  - /chapters/01-00-curiosite.html
-  - /chapters/02-00-ego-et-honnetete.html
+  - /livre/chapitres/01-00-curiosite.html
+  - /livre/chapitres/02-00-ego-et-honnetete.html
 ---
 
 Un builder commence par remarquer.

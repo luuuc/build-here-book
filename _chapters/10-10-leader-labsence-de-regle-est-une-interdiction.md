@@ -14,14 +14,14 @@ categories:
   - visibilite
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/10-10-the-absence-of-a-rule-is-a-ban.html
+  en: /book/chapters/10-10-the-absence-of-a-rule-is-a-ban.html
 seo:
   description: "Rends le cadre et le parcours de partage compréhensibles, avec des interlocuteurs, des moyens et des options internes ou sans publication."
   keywords: "build here, builder, reference, cadre, partage, moyens"
 redirect_from:
-  - /chapters/10-09-leader-labsence-de-regle-est-une-interdiction.html
-  - /chapters/09-03-leader-labsence-de-regle-est-une-interdiction.html
-  - /chapters/14-06-leader-labsence-de-regle-est-une-interdiction.html
+  - /livre/chapitres/10-09-leader-labsence-de-regle-est-une-interdiction.html
+  - /livre/chapitres/09-03-leader-labsence-de-regle-est-une-interdiction.html
+  - /livre/chapitres/14-06-leader-labsence-de-regle-est-une-interdiction.html
 ---
 
 ## Ce que tu demandes

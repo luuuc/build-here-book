@@ -13,12 +13,12 @@ categories:
   - produit
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/05-02-fast-does-not-mean-rushed.html
+  en: /book/chapters/05-02-fast-does-not-mean-rushed.html
 seo:
   description: "Arbitre périmètre, délai et moyens en préservant les protections nécessaires et en prévoyant le coût des solutions temporaires."
   keywords: "build here, execution, builder, rapide, veut, dire, precipite"
 redirect_from:
-  - /chapters/07-03-rapide-ne-veut-pas-dire-precipite.html
+  - /livre/chapitres/07-03-rapide-ne-veut-pas-dire-precipite.html
 ---
 
 ## Le point de départ

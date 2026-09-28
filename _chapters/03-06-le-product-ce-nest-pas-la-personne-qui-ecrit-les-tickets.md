@@ -13,12 +13,12 @@ categories:
   - arbitrage
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/03-06-product-is-not-the-person-who-writes-the-tickets.html
+  en: /book/chapters/03-06-product-is-not-the-person-who-writes-the-tickets.html
 seo:
   description: "Relie cadrage, arbitrage et observation des résultats, avec un mandat explicite pour décider."
   keywords: "build here, builder, produit, demandes, arbitrage, resultats"
 redirect_from:
-  - /chapters/05-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html
+  - /livre/chapitres/05-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html
 ---
 
 ## Le réflexe

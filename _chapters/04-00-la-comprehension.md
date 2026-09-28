@@ -15,15 +15,15 @@ categories:
   - client
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/04-00-understanding.html
+  en: /book/chapters/04-00-understanding.html
 seo:
   description: "Relier ton travail à ce qui l'entoure : la personne qui a le problème, ce qu'elle demande vraiment, ce que ça coûte, qui le fait tenir."
   keywords: "build here, comprehension, business, client, distribution"
 redirect_from:
-  - /chapters/05-00-product.html
-  - /chapters/10-00-tech-et-business.html
-  - /chapters/11-00-client.html
-  - /chapters/12-00-distribution.html
+  - /livre/chapitres/05-00-product.html
+  - /livre/chapitres/10-00-tech-et-business.html
+  - /livre/chapitres/11-00-client.html
+  - /livre/chapitres/12-00-distribution.html
 ---
 
 Ton travail commence avant toi et continue après.

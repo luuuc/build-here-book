@@ -12,13 +12,13 @@ categories:
   - decision
   - management
 traductions:
-  fr: /book/chapters/09-01-tu-construis-lenvironnement-dont-tu-te-plains.html
+  fr: /livre/chapitres/09-01-tu-construis-lenvironnement-dont-tu-te-plains.html
 seo:
   description: "A team runs on observed consequences, not stated values. Look at what happened to the last three proposals."
   keywords: "build here, builder, leadership, initiative, conditions, support"
 redirect_from:
-  - /en/chapters/09-01-leaders-manufacture-the-environment-they-complain-about.html
-  - /en/chapters/09-01-look-at-the-conditions-for-initiative.html
+  - /book/chapters/09-01-leaders-manufacture-the-environment-they-complain-about.html
+  - /book/chapters/09-01-look-at-the-conditions-for-initiative.html
 ---
 
 ## The symptom

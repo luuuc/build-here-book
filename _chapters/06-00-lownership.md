@@ -15,12 +15,12 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/06-00-ownership.html
+  en: /book/chapters/06-00-ownership.html
 seo:
   description: "Fini de ton côté ne veut pas dire réglé : dire ce que tu prends en charge, revenir voir, annoncer tôt la mauvaise nouvelle."
   keywords: "build here, ownership, resultat, builder"
 redirect_from:
-  - /chapters/04-00-ownership.html
+  - /livre/chapitres/04-00-ownership.html
 ---
 
 Fini de ton côté ne veut pas dire réglé.

@@ -12,7 +12,7 @@ categories:
   - livraison
   - produit
 traductions:
-  fr: /book/chapters/05-02-rapide-ne-veut-pas-dire-precipite.html
+  fr: /livre/chapitres/05-02-rapide-ne-veut-pas-dire-precipite.html
 seo:
   description: "Trade scope, deadline and means while keeping the necessary protections, and plan the cost of temporary fixes."
   keywords: "build here, execution, builder, fast, rushed"

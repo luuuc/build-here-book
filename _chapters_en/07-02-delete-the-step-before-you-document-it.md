@@ -13,12 +13,12 @@ categories:
   - process
   - simplicite
 traductions:
-  fr: /book/chapters/07-02-supprime-letape-avant-de-la-documenter.html
+  fr: /livre/chapitres/07-02-supprime-letape-avant-de-la-documenter.html
 seo:
   description: "Identify what a step is for before documenting, changing or removing it; an unknown reason calls for an inquiry."
   keywords: "build here, builder, systems, procedure, function, simplification"
 redirect_from:
-  - /en/chapters/07-02-understand-the-step-before-you-simplify-it.html
+  - /book/chapters/07-02-understand-the-step-before-you-simplify-it.html
 ---
 
 ## The starting point

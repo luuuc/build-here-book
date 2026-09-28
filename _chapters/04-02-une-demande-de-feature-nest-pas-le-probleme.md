@@ -13,12 +13,12 @@ categories:
   - produit
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/04-02-a-feature-request-is-not-the-problem.html
+  en: /book/chapters/04-02-a-feature-request-is-not-the-problem.html
 seo:
   description: "Examine le besoin derrière une solution demandée, sans disqualifier l'expertise du client ni promettre avant l'arbitrage."
   keywords: "build here, client, builder, demande, feature, probleme"
 redirect_from:
-  - /chapters/11-03-une-demande-de-feature-nest-pas-le-probleme.html
+  - /livre/chapitres/11-03-une-demande-de-feature-nest-pas-le-probleme.html
 ---
 
 ## Le symptôme

@@ -12,7 +12,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/00-02-the-filters.html
+  en: /book/chapters/00-02-the-filters.html
 seo:
   description: "Six filtres qui font passer à côté des builders, au recrutement comme dans une équipe : le réseau, le titre, les années, le temps libre, l'ailleurs et le visible. Et ce qu'il faut regarder à la place."
   keywords: "build here, filtres, builder, recrutement, équipe, évaluation"

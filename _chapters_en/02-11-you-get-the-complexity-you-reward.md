@@ -12,7 +12,7 @@ categories:
   - simplicite
   - technique
 traductions:
-  fr: /book/chapters/02-11-leader-tu-recoltes-la-complexite-que-tu-recompenses.html
+  fr: /livre/chapitres/02-11-leader-tu-recoltes-la-complexite-que-tu-recompenses.html
 seo:
   description: "Give simplifications and investigations a place in the review, with the effect observed and its limits."
   keywords: "build here, engineering, builder, conditions, complexity, reward"

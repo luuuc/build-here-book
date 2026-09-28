@@ -13,7 +13,7 @@ categories:
   - recrutement
   - decision
 traductions:
-  fr: /book/chapters/09-02-le-filtre-que-tu-fais-tourner.html
+  fr: /livre/chapitres/09-02-le-filtre-que-tu-fais-tourner.html
 seo:
   description: "Assess work-related capabilities through several routes, without confusing visibility, a public portfolio, and competence."
   keywords: "build here, leadership, hiring, builder, filter"

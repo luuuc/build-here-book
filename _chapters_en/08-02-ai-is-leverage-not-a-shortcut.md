@@ -13,7 +13,7 @@ categories:
   - ia
   - impact
 traductions:
-  fr: /book/chapters/08-02-lia-est-un-levier-pas-un-raccourci.html
+  fr: /livre/chapitres/08-02-lia-est-un-levier-pas-un-raccourci.html
 seo:
   description: "Judge an AI attempt on its quality, its limits and its full cost, with suitable help and the freedom to choose another method."
   keywords: "build here, leverage, ai, automation, builder"

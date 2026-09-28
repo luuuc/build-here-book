@@ -13,12 +13,12 @@ categories:
   - decision
   - culture
 traductions:
-  fr: /book/chapters/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html
+  fr: /livre/chapitres/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html
 seo:
   description: "Take objections in and examine them while keeping a clear responsibility for deciding, with no quota of concessions."
   keywords: "build here, builder, leadership, objections, decision, follow-up"
 redirect_from:
-  - /en/chapters/03-08-give-objections-a-real-follow-up.html
+  - /book/chapters/03-08-give-objections-a-real-follow-up.html
 ---
 
 ## What you are asking for

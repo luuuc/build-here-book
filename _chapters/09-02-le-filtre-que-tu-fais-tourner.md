@@ -14,12 +14,12 @@ categories:
   - decision
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/09-02-the-filter-you-are-running.html
+  en: /book/chapters/09-02-the-filter-you-are-running.html
 seo:
   description: "Évalue des capacités liées au travail par plusieurs voies, sans confondre visibilité, portfolio public et compétence."
   keywords: "build here, leadership, recrutement, builder, filtre"
 redirect_from:
-  - /chapters/09-07-le-filtre-que-tu-fais-tourner.html
+  - /livre/chapitres/09-07-le-filtre-que-tu-fais-tourner.html
 ---
 
 ## Le symptôme

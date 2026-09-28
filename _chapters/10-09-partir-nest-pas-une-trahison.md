@@ -13,15 +13,15 @@ categories:
   - trace
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/10-09-leaving-is-not-a-betrayal.html
+  en: /book/chapters/10-09-leaving-is-not-a-betrayal.html
 seo:
   description: "Prépare un relais réaliste lors d'un départ sans conditionner le choix de carrière à une publication ni demander une disponibilité indéfinie."
   keywords: "build here, reference, carriere, trace, depart, builder"
 redirect_from:
-  - /chapters/10-08-partir-nest-pas-une-trahison.html
-  - /chapters/10-11-partir-nest-pas-une-trahison.html
-  - /chapters/10-12-partir-nest-pas-une-trahison.html
-  - /chapters/15-04-partir-nest-pas-une-trahison.html
+  - /livre/chapitres/10-08-partir-nest-pas-une-trahison.html
+  - /livre/chapitres/10-11-partir-nest-pas-une-trahison.html
+  - /livre/chapitres/10-12-partir-nest-pas-une-trahison.html
+  - /livre/chapitres/15-04-partir-nest-pas-une-trahison.html
 ---
 
 ## Le réflexe

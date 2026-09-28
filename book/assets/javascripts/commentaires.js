@@ -127,9 +127,8 @@
     const remplir = () =>
       (remplie =
         remplie ||
-        // Les noms de pays suivent la langue de la page. Le francais garde
-        // l'adresse racine, deja partagee.
-        fetch(document.documentElement.lang === "fr" ? "/book/indicatifs.json" : "/book/" + document.documentElement.lang + "/indicatifs.json")
+        // Les noms de pays suivent la langue de la page.
+        fetch(document.documentElement.lang === "fr" ? "/livre/indicatifs.json" : "/book/indicatifs.json")
           .then((r) => r.json())
           .then((liste) => {
             select.innerHTML = liste

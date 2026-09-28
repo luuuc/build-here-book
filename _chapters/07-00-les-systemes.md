@@ -15,7 +15,7 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/07-00-systems.html
+  en: /book/chapters/07-00-systems.html
 seo:
   description: "Rendre la prochaine fois plus facile : supprimer avant de documenter, sortir un savoir d'une seule tête, ne pas tout transformer en processus."
   keywords: "build here, systemes, process, automatisation, builder"

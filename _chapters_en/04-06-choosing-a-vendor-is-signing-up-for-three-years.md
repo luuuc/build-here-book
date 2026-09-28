@@ -13,12 +13,12 @@ categories:
   - business
   - strategie
 traductions:
-  fr: /book/chapters/04-06-choisir-un-fournisseur-cest-signer-pour-trois-ans.html
+  fr: /livre/chapitres/04-06-choisir-un-fournisseur-cest-signer-pour-trois-ans.html
 seo:
   description: "Examine a vendor's cost, dependencies and exit terms with the people affected."
   keywords: "build here, builder, vendor, cost, dependency, exit"
 redirect_from:
-  - /en/chapters/04-06-choosing-a-vendor-means-preparing-the-exit-too.html
+  - /book/chapters/04-06-choosing-a-vendor-means-preparing-the-exit-too.html
 ---
 
 ## The reflex

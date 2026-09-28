@@ -12,12 +12,12 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/11-00-conclusion.html
+  en: /book/chapters/11-00-conclusion.html
 seo:
   description: "Commencer, approfondir une pratique, développer une équipe ou soutenir des builders : choisir une suite adaptée, observer et apprendre."
   keywords: "build here, conclusion, builder, echelle"
 redirect_from:
-  - /chapters/17-conclusion.html
+  - /livre/chapitres/17-conclusion.html
 ---
 
 Un builder cherche à améliorer concrètement une situation, observe ce que son action produit et apprend pour la suite. Tu peux déjà le faire sur un petit périmètre, tout en ayant beaucoup à apprendre ailleurs.
@@ -73,6 +73,6 @@ Si tu débutes, pars d'une personne à aider et d'un [premier essai utile](/prem
 
 Pour un groupe, propose une [séance volontaire](/atelier/). Pour soutenir quelqu'un, demande quel appui serait utile et conviens d'une contribution limitée. Les [modèles](/modeles/) peuvent servir à préparer l'une ou l'autre démarche.
 
-Les [quatre parcours](/parcours/) et l'[index par situation](/situations/) donnent un accès direct. Les [questions facultatives du test](https://build-here.africa/) peuvent aussi t'aider à choisir, sans score ni classement. Tu n'as pas besoin de finir le livre ni de passer le test pour commencer.
+Les [quatre parcours](/parcours/) et l'[index par situation](/situations/) donnent un accès direct. Les [questions facultatives du test](https://build-here.africa/test-du-builder/) peuvent aussi t'aider à choisir, sans score ni classement. Tu n'as pas besoin de finir le livre ni de passer le test pour commencer.
 
 **Choisis une chose utile à essayer, approfondir ou soutenir. Conviens de ses limites, puis reviens voir ce qu'elle a changé.**

@@ -12,12 +12,12 @@ categories:
   - client
   - arbitrage
 traductions:
-  fr: /book/chapters/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html
+  fr: /livre/chapitres/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html
 seo:
   description: "Connect framing, trade-offs and watching results, with an explicit mandate to decide."
   keywords: "build here, builder, product, requests, trade-offs, outcomes"
 redirect_from:
-  - /en/chapters/03-06-the-product-role-connects-requests-to-outcomes.html
+  - /book/chapters/03-06-the-product-role-connects-requests-to-outcomes.html
 ---
 
 ## The reflex

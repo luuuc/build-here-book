@@ -11,7 +11,7 @@ categories:
   - introduction
   - builders
 traductions:
-  fr: /book/chapters/00-03-construire-ici.html
+  fr: /livre/chapitres/00-03-construire-ici.html
 seo:
   description: "Building where you are is an advantage: problems up close, fast feedback, constraints that force simplicity, and a reference spot still up for grabs."
   keywords: "build here, africa, builder, local market, level"

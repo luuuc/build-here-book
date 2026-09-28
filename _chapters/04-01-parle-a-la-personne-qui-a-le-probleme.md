@@ -13,12 +13,12 @@ categories:
   - produit
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/04-01-talk-to-the-person-who-has-the-problem.html
+  en: /book/chapters/04-01-talk-to-the-person-who-has-the-problem.html
 seo:
   description: "Éclaire une décision avec un cas vécu, en respectant le consentement, les accès et les limites d'un témoignage."
   keywords: "build here, client, builder, parle, personne, probleme"
 redirect_from:
-  - /chapters/11-02-parle-a-la-personne-qui-a-le-probleme.html
+  - /livre/chapitres/11-02-parle-a-la-personne-qui-a-le-probleme.html
 ---
 
 ## Le point de départ

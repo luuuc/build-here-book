@@ -14,12 +14,12 @@ categories:
   - marketing
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/04-14-you-cannot-ask-for-distribution-while-funding-only-features.html
+  en: /book/chapters/04-14-you-cannot-ask-for-distribution-while-funding-only-features.html
 seo:
   description: "Donne des moyens à un essai de distribution adapté, puis examine usages, retours et coûts pour décider de la suite."
   keywords: "build here, visibilite, builder, conditions, demande, distribution, financant, fonctionnalites"
 redirect_from:
-  - /chapters/12-06-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html
+  - /livre/chapitres/12-06-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html
 ---
 
 ## Ce que tu demandes

@@ -6,16 +6,16 @@ show_chapter_number: false
 part: "Introduction"
 order: 1
 # The opening of the book is its home page. The old introduction address points here.
-permalink: /en/
+permalink: /book/
 redirect_from:
-  - /en/chapters/00-introduction.html
+  - /book/chapters/00-introduction.html
 metadata:
   reading_time_in_minutes: 2
 categories:
   - introduction
   - builders
 traductions:
-  fr: /book/
+  fr: /livre/
 seo:
   description: "Build Here is for aspiring builders, experienced builders, people growing a team, and anyone who already knows what a builder changes."
   keywords: "build here, before you start, builder, team, growth"

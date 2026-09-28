@@ -12,12 +12,12 @@ categories:
   - honnetete-intellectuelle
   - culture
 traductions:
-  fr: /book/chapters/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html
+  fr: /livre/chapitres/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html
 seo:
   description: "Take a report well, protect what has to be protected, and examine the facts separately from how people are assessed."
   keywords: "build here, ego and intellectual honesty, builder, conditions, reporting mistakes"
 redirect_from:
-  - /en/chapters/01-10-protect-the-reporting-of-mistakes.html
+  - /book/chapters/01-10-protect-the-reporting-of-mistakes.html
 ---
 
 ## What you are asking for

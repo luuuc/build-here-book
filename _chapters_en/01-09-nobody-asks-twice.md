@@ -12,12 +12,12 @@ categories:
   - apprentissage
   - engineering
 traductions:
-  fr: /book/chapters/01-09-leader-personne-ne-demande-deux-fois.html
+  fr: /livre/chapitres/01-09-leader-personne-ne-demande-deux-fois.html
 seo:
   description: "A question needs someone to answer it, a deadline that fits, and an answer the people affected can reach."
   keywords: "build here, curiosity, builder, conditions, questions, follow-up"
 redirect_from:
-  - /en/chapters/01-09-give-questions-a-follow-up.html
+  - /book/chapters/01-09-give-questions-a-follow-up.html
 ---
 
 ## What you are asking for

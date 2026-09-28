@@ -13,7 +13,7 @@ categories:
   - business
   - strategie
 traductions:
-  fr: /book/chapters/04-07-la-comprehension-ne-se-delegue-pas.html
+  fr: /livre/chapitres/04-07-la-comprehension-ne-se-delegue-pas.html
 seo:
   description: "Understand the dependencies your decision needs, with the specialists' help, without mistaking understanding for control."
   keywords: "build here, technology and business, builder, understanding, delegation"

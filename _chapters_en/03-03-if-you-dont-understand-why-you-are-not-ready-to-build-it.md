@@ -12,12 +12,12 @@ categories:
   - apprentissage
   - engineering
 traductions:
-  fr: /book/chapters/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html
+  fr: /livre/chapitres/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html
 seo:
   description: "Get the goal and the decisive unknowns clear; a bounded attempt can also be a way of understanding."
   keywords: "build here, builder, autonomy, goal, assumption, remit"
 redirect_from:
-  - /en/chapters/03-03-get-the-why-clear-before-you-commit.html
+  - /book/chapters/03-03-get-the-why-clear-before-you-commit.html
 ---
 
 ## The reflex

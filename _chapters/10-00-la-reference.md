@@ -15,14 +15,14 @@ categories:
   - builders
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/10-00-being-the-reference.html
+  en: /book/chapters/10-00-being-the-reference.html
 seo:
   description: "Rendre ton expérience utile à d'autres : mettre ton nom dessus, répondre en public, publier là où on cherche."
   keywords: "build here, reference, trace, artefact, builder"
 redirect_from:
-  - /chapters/14-00-laisser-une-trace.html
-  - /chapters/15-00-se-faire-trouver.html
-  - /chapters/16-00-devenir-une-reference.html
+  - /livre/chapitres/14-00-laisser-une-trace.html
+  - /livre/chapitres/15-00-se-faire-trouver.html
+  - /livre/chapitres/16-00-devenir-une-reference.html
 ---
 
 Ce que tu sais faire, personne ne l'a peut-être écrit.

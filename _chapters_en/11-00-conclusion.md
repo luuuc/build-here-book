@@ -11,7 +11,7 @@ categories:
   - cloture
   - builders
 traductions:
-  fr: /book/chapters/11-00-conclusion.html
+  fr: /livre/chapitres/11-00-conclusion.html
 seo:
   description: "Starting, deepening a practice, growing a team or backing builders: choosing a next step that fits, watching, and learning."
   keywords: "build here, conclusion, builder, scale"
@@ -66,10 +66,10 @@ No result depends entirely on you, even at a small scale. Agree who picks up wha
 
 ## Choosing what comes next
 
-If you are starting out, begin with a person to help and a [useful first attempt](/en/first-try/). If you already practise, choose a strength to deepen or a precise difficulty, as in [Improving without starting over](/en/improving-without-starting-over/).
+If you are starting out, begin with a person to help and a [useful first attempt](/first-try/). If you already practise, choose a strength to deepen or a precise difficulty, as in [Improving without starting over](/improving-without-starting-over/).
 
-For a group, propose a [voluntary session](/en/workshop/). To back someone, ask what help would be useful and agree a bounded contribution. The [templates](/en/templates/) can serve either approach.
+For a group, propose a [voluntary session](/workshop/). To back someone, ask what help would be useful and agree a bounded contribution. The [templates](/templates/) can serve either approach.
 
-The [four paths](/en/paths/) and the [index by situation](/en/situations/) give you a direct way in. The [optional test questions](https://build-here.africa/en/) can also help you choose, with no score and no ranking. You do not have to finish the book, or take the test, to start.
+The [four paths](/paths/) and the [index by situation](/by-situation/) give you a direct way in. The [optional test questions](https://build-here.africa/builder-test/) can also help you choose, with no score and no ranking. You do not have to finish the book, or take the test, to start.
 
 **Choose one useful thing to try, to deepen, or to back. Agree its limits, then come back and see what it changed.**

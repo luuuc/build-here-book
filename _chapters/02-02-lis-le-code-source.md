@@ -13,12 +13,12 @@ categories:
   - technique
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/02-02-read-the-source.html
+  en: /book/chapters/02-02-read-the-source.html
 seo:
   description: "Quand une dépendance te surprend, sa source peut éclairer le comportement. Vérifie la version, le contexte et un cas précis."
   keywords: "build here, engineering, builder, code, source"
 redirect_from:
-  - /chapters/06-03-lis-le-code-source.html
+  - /livre/chapitres/06-03-lis-le-code-source.html
 ---
 
 ## Le point de départ

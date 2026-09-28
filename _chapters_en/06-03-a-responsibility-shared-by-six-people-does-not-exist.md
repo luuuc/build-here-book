@@ -13,12 +13,12 @@ categories:
   - resultat
   - equipe
 traductions:
-  fr: /book/chapters/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html
+  fr: /livre/chapitres/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html
 seo:
   description: "Organise a shared responsibility with explicit contributions, coordination, means and decisions."
   keywords: "build here, builder, ownership, coordination, decision, responsibility"
 redirect_from:
-  - /en/chapters/06-03-be-clear-who-coordinates-and-who-decides.html
+  - /book/chapters/06-03-be-clear-who-coordinates-and-who-decides.html
 ---
 
 ## The symptom

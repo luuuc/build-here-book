@@ -12,12 +12,12 @@ categories:
   - open-source
   - niveau
 traductions:
-  fr: /book/chapters/02-10-le-savoir-nest-pas-ce-qui-te-manque.html
+  fr: /livre/chapitres/02-10-le-savoir-nest-pas-ce-qui-te-manque.html
 seo:
   description: "Name what is missing in order to learn: a resource, time, access, an explanation or feedback. Pick a route your means allow."
   keywords: "build here, learning, builder, access, what is missing"
 redirect_from:
-  - /en/chapters/02-10-find-a-way-in-to-what-you-are-missing.html
+  - /book/chapters/02-10-find-a-way-in-to-what-you-are-missing.html
 ---
 
 ## The reflex

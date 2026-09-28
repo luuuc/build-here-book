@@ -13,12 +13,12 @@ categories:
   - strategie
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/04-05-what-you-can-build-decides-what-you-can-sell.html
+  en: /book/chapters/04-05-what-you-can-build-decides-what-you-can-sell.html
 seo:
   description: "Fais entrer les capacités de réalisation, les contraintes et les options dans la décision avant l'engagement."
   keywords: "build here, technologie et business, builder, sait, construire, decide, peut, vendre"
 redirect_from:
-  - /chapters/10-01-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html
+  - /livre/chapitres/10-01-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html
 ---
 
 ## Le réflexe

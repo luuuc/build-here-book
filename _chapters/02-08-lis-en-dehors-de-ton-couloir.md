@@ -13,12 +13,12 @@ categories:
   - engineering
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/02-08-read-outside-your-lane.html
+  en: /book/chapters/02-08-read-outside-your-lane.html
 seo:
   description: "Comprendre ce qui précède et suit ton travail aide à améliorer les passations, avec les accès et les accords adaptés."
   keywords: "build here, curiosite, builder, dehors, couloir"
 redirect_from:
-  - /chapters/01-04-lis-en-dehors-de-ton-couloir.html
+  - /livre/chapitres/01-04-lis-en-dehors-de-ton-couloir.html
 ---
 
 ## Le point de départ

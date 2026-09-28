@@ -14,14 +14,14 @@ categories:
   - contexte
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/10-07-what-publishing-really-costs.html
+  en: /book/chapters/10-07-what-publishing-really-costs.html
 seo:
   description: "Examine le coût complet et les conditions d'un partage concret ; anonymiser ne suffit pas à autoriser et une option interne reste valable."
   keywords: "build here, reference, trace, publier, cout, builder"
 redirect_from:
-  - /chapters/10-06-ce-que-publier-coute-vraiment.html
-  - /chapters/10-08-ce-que-publier-coute-vraiment.html
-  - /chapters/15-03-ce-que-publier-coute-vraiment-ici.html
+  - /livre/chapitres/10-06-ce-que-publier-coute-vraiment.html
+  - /livre/chapitres/10-08-ce-que-publier-coute-vraiment.html
+  - /livre/chapitres/15-03-ce-que-publier-coute-vraiment-ici.html
 ---
 
 ## Le symptôme

@@ -13,15 +13,15 @@ categories:
   - contexte
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/10-08-nobody-has-written-down-what-you-know-how-to-do.html
+  en: /book/chapters/10-08-nobody-has-written-down-what-you-know-how-to-do.html
 seo:
   description: "Rends une expérience située utile en la reliant aux ressources existantes, sans présumer son unicité ni imposer une publication."
   keywords: "build here, builder, reference, contexte, experience, partage"
 redirect_from:
-  - /chapters/10-07-personne-na-ecrit-ce-que-tu-sais-faire.html
-  - /chapters/10-10-personne-na-ecrit-ce-que-tu-sais-faire.html
-  - /chapters/10-11-personne-na-ecrit-ce-que-tu-sais-faire.html
-  - /chapters/16-03-personne-na-ecrit-ce-que-tu-sais-faire.html
+  - /livre/chapitres/10-07-personne-na-ecrit-ce-que-tu-sais-faire.html
+  - /livre/chapitres/10-10-personne-na-ecrit-ce-que-tu-sais-faire.html
+  - /livre/chapitres/10-11-personne-na-ecrit-ce-que-tu-sais-faire.html
+  - /livre/chapitres/16-03-personne-na-ecrit-ce-que-tu-sais-faire.html
 ---
 
 ## Le réflexe

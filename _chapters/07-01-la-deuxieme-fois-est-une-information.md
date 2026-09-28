@@ -13,7 +13,7 @@ categories:
   - execution
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/07-01-the-second-time-is-information.html
+  en: /book/chapters/07-01-the-second-time-is-information.html
 seo:
   description: "Examine une répétition selon sa fréquence, sa gravité et le coût d'une amélioration, sans attendre un nombre fixe d'occurrences."
   keywords: "build here, systemes, repetition, process, builder"

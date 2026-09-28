@@ -13,12 +13,12 @@ categories:
   - risque
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/08-04-leverage-in-the-wrong-place-multiplies-the-mistake.html
+  en: /book/chapters/08-04-leverage-in-the-wrong-place-multiplies-the-mistake.html
 seo:
   description: "Vérifie exceptions, protections, arrêt et entretien avant d'amplifier un travail ; aucun petit échantillon ne garantit à lui seul la qualité."
   keywords: "build here, levier, automatisation, erreur, builder"
 redirect_from:
-  - /chapters/08-05-un-levier-mal-place-multiplie-lerreur.html
+  - /livre/chapitres/08-05-un-levier-mal-place-multiplie-lerreur.html
 ---
 
 ## Le symptôme

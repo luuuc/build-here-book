@@ -13,12 +13,12 @@ categories:
   - equipe
   - ownership
 traductions:
-  fr: /book/chapters/09-05-laisse-le-porter-ce-qui-est-reversible.html
+  fr: /livre/chapitres/09-05-laisse-le-porter-ce-qui-est-reversible.html
 seo:
   description: "Grant real decisions with limits, support and a mandate, examining the consequences beyond reversibility alone."
   keywords: "build here, builder, leadership, delegation, decision, limits"
 redirect_from:
-  - /en/chapters/09-05-hand-over-a-decision-inside-a-clear-frame.html
+  - /book/chapters/09-05-hand-over-a-decision-inside-a-clear-frame.html
 ---
 
 ## The starting point

@@ -12,12 +12,12 @@ categories:
   - support
   - produit
 traductions:
-  fr: /book/chapters/10-04-une-trace-nest-pas-forcement-du-code.html
+  fr: /livre/chapitres/10-04-une-trace-nest-pas-forcement-du-code.html
 seo:
   description: "Choose a form that suits the craft and the recipient: examples, diagrams and qualitative observations count too, internally as well as publicly."
   keywords: "build here, record, support, product, builder, code"
 redirect_from:
-  - /en/chapters/10-03-a-trace-is-not-necessarily-code.html
+  - /book/chapters/10-03-a-trace-is-not-necessarily-code.html
 ---
 
 ## The reflex

@@ -13,12 +13,12 @@ categories:
   - execution
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/03-04-being-stuck-is-a-decision.html
+  en: /book/chapters/03-04-being-stuck-is-a-decision.html
 seo:
   description: "Distingue recherche, aide, accès et arbitrage pour organiser la suite d'un blocage réel."
   keywords: "build here, builder, autonomie, blocage, aide, acces, arbitrage"
 redirect_from:
-  - /chapters/04-05-etre-bloque-est-une-decision.html
+  - /livre/chapitres/04-05-etre-bloque-est-une-decision.html
 ---
 
 ## Le symptôme

@@ -13,12 +13,12 @@ categories:
   - client
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/02-09-your-market-can-be-local-your-standard-cant.html
+  en: /book/chapters/02-09-your-market-can-be-local-your-standard-cant.html
 seo:
   description: "Compare les usages et les contraintes pour choisir une amélioration utile, sans confondre qualité et imitation d'un autre marché."
   keywords: "build here, metier, niveau, comparaison, builder"
 redirect_from:
-  - /chapters/08-04-ton-marche-peut-etre-local-ton-niveau-non.html
+  - /livre/chapitres/08-04-ton-marche-peut-etre-local-ton-niveau-non.html
 ---
 
 ## Le réflexe

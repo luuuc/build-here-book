@@ -14,7 +14,7 @@ categories:
   - equipe
   - builders
 traductions:
-  fr: /book/chapters/09-00-le-leadership.html
+  fr: /livre/chapitres/09-00-le-leadership.html
 seo:
   description: "What you make possible for others: hand over a problem, review to teach, make yourself replaceable."
   keywords: "build here, leadership, team, builder, passing on"

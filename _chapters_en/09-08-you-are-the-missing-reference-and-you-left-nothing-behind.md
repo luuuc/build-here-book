@@ -13,12 +13,12 @@ categories:
   - leadership
   - transmission
 traductions:
-  fr: /book/chapters/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
+  fr: /livre/chapitres/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
 seo:
   description: "Back mentoring, practice and suitable material with time, agreements, and a check on whether they help, with nothing published under duress."
   keywords: "build here, builder, leadership, passing on, mentoring, support"
 redirect_from:
-  - /en/chapters/09-08-give-teaching-the-means-to-happen.html
+  - /book/chapters/09-08-give-teaching-the-means-to-happen.html
 ---
 
 ## What you are asking for

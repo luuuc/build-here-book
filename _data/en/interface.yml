@@ -92,13 +92,13 @@ entete:
   sections:
     - cle: book
       titre: "The Book"
-      url: "/en/book/"
+      url: "/book/"
     - cle: test
       titre: "Builder Test"
-      url: "/en/test/"
+      url: "/builder-test/"
     - cle: teams
       titre: "For Teams"
-      url: "/en/teams/"
+      url: "/for-teams/"
   telecharger: "Download the book"
   pdf: "Download the PDF"
   pdf_detail: "A4, ready to print"
@@ -110,7 +110,7 @@ entete:
 menu:
   livre: "Contents"
   livre_titre: "The book"
-  livre_url: "/book/en/"
+  livre_url: "/book/"
   retour: "← Back to the site"
   sommaire_aria: "Book contents"
 
@@ -118,13 +118,13 @@ pied:
   aria: "Further resources"
   liens:
     - titre: "About"
-      url: "/en/about/"
+      url: "/about/"
     - titre: "How to read this book"
-      url: "/en/how-to-read/"
+      url: "/how-to-read/"
     - titre: "Annotated reading list"
-      url: "/en/references/"
+      url: "/already-written/"
     - titre: "How the test works"
-      url: "/en/test-method/"
+      url: "/test-method/"
   par: "by"
   licence: "is licensed under"
 

@@ -13,12 +13,12 @@ categories:
   - technique
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/02-11-you-get-the-complexity-you-reward.html
+  en: /book/chapters/02-11-you-get-the-complexity-you-reward.html
 seo:
   description: "Donne aux simplifications et aux investigations une place dans la revue, avec leur effet observé et leurs limites."
   keywords: "build here, engineering, builder, conditions, recoltes, complexite, recompenses"
 redirect_from:
-  - /chapters/06-06-leader-tu-recoltes-la-complexite-que-tu-recompenses.html
+  - /livre/chapitres/06-06-leader-tu-recoltes-la-complexite-que-tu-recompenses.html
 ---
 
 ## Ce que tu demandes

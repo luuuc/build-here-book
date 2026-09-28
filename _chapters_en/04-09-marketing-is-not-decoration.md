@@ -12,7 +12,7 @@ categories:
   - distribution
   - marketing
 traductions:
-  fr: /book/chapters/04-09-le-marketing-nest-pas-de-la-decoration.html
+  fr: /livre/chapitres/04-09-le-marketing-nest-pas-de-la-decoration.html
 seo:
   description: "Connect knowing the recipients, designing, and presenting, without devaluing the crafts that make an offer legible."
   keywords: "build here, visibility, builder, marketing, decoration"

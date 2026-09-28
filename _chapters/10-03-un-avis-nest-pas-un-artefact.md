@@ -13,13 +13,13 @@ categories:
   - ecriture
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/en/chapters/10-03-an-opinion-is-not-an-artifact.html
+  en: /book/chapters/10-03-an-opinion-is-not-an-artifact.html
 seo:
   description: "Rends contexte, faits et limites accessibles pour que le lecteur puisse examiner une idée, sans imposer un chiffre ni dévaloriser les avis."
   keywords: "build here, builder, reference, raisonnement, evidence, limites"
 redirect_from:
-  - /chapters/10-02-un-avis-nest-pas-un-artefact.html
-  - /chapters/14-02-un-avis-nest-pas-un-artefact.html
+  - /livre/chapitres/10-02-un-avis-nest-pas-un-artefact.html
+  - /livre/chapitres/14-02-un-avis-nest-pas-un-artefact.html
 ---
 
 ## Le symptôme

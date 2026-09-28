@@ -12,12 +12,12 @@ categories:
   - transmission
   - equipe
 traductions:
-  fr: /book/chapters/09-06-rends-toi-remplacable-sur-un-sujet.html
+  fr: /livre/chapitres/09-06-rends-toi-remplacable-sur-un-sujet.html
 seo:
   description: "Prepare a successor with agreement, means and practice, without assuming knowledge is being hoarded or promising that passing it on protects you on its own."
   keywords: "build here, builder, leadership, succession, passing on, means"
 redirect_from:
-  - /en/chapters/09-06-grow-a-successor-on-one-subject.html
+  - /book/chapters/09-06-grow-a-successor-on-one-subject.html
 ---
 
 ## The reflex

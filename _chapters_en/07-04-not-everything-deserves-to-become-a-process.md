@@ -13,7 +13,7 @@ categories:
   - process
   - simplicite
 traductions:
-  fr: /book/chapters/07-04-tout-ne-merite-pas-de-devenir-un-processus.html
+  fr: /livre/chapitres/07-04-tout-ne-merite-pas-de-devenir-un-processus.html
 seo:
   description: "Choose a protection proportionate to the risk and to its load, without waiting for three incidents or turning every difficulty into a procedure."
   keywords: "build here, systems, process, bureaucracy, builder"

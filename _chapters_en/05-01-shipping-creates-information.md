@@ -13,12 +13,12 @@ categories:
   - livraison
   - produit
 traductions:
-  fr: /book/chapters/05-01-shipper-cree-de-linformation.html
+  fr: /livre/chapitres/05-01-shipper-cree-de-linformation.html
 seo:
   description: "Prepare a bounded attempt, watch its effect, and use the feedback to decide; shipping often does not guarantee learning."
   keywords: "build here, execution, builder, shipping, information"
 redirect_from:
-  - /en/chapters/05-01-shipping-is-how-you-learn.html
+  - /book/chapters/05-01-shipping-is-how-you-learn.html
 ---
 
 ## The reflex

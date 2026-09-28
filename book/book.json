@@ -1,6 +1,6 @@
 ---
 layout: none
 lang: en
-permalink: /en/book.json
+permalink: /book/book.json
 ---
 {% include book-json.html %}
