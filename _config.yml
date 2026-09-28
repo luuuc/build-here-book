@@ -113,6 +113,7 @@ include:
 # cette ligne, Jekyll la recopie dans `_site/build/site` puis l'indexe.
 exclude:
   - build
+  - CITATION.cff
   - docs
   - _brouillon
   - worker

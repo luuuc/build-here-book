@@ -138,6 +138,10 @@ pied:
   liens:
     - titre: "À propos"
       url: "/a-propos/"
+    - titre: "Questions fréquentes"
+      url: "/questions-frequentes/"
+    - titre: "Glossaire"
+      url: "/glossaire/"
     - titre: "Guide de lecture"
       url: "/guide-de-lecture/"
     - titre: "Bibliographie commentée"

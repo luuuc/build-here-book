@@ -119,6 +119,10 @@ pied:
   liens:
     - titre: "About"
       url: "/about/"
+    - titre: "Questions and answers"
+      url: "/faq/"
+    - titre: "Glossary"
+      url: "/glossary/"
     - titre: "How to read this book"
       url: "/how-to-read/"
     - titre: "Annotated reading list"

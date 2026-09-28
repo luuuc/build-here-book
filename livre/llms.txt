@@ -31,6 +31,8 @@ Chaque carte existe aussi en markdown : remplace `.html` par `.md` dans son adre
 
 Le test du builder pose cinquante questions réparties entre dix capacités. Il donne un niveau de 1 à 5, puis le lecteur choisit une piste et trois cartes. Rien n'est envoyé.
 
+- [Questions fréquentes]({{ site.url }}/questions-frequentes/): ce qu'est le livre, qui l'a écrit, réutilisation et citation, le test, Équipes
+- [Glossaire]({{ site.url }}/glossaire/): les mots du livre et du test, une phrase chacun
 - [Le test du builder]({{ site.url }}/test-du-builder/): l'évaluation interactive
 - [Les quatre types de cartes]({{ site.url }}/guide-de-lecture/): principe, diagnostic, pratique et système
 - [Comment fonctionne le test]({{ site.url }}/methode-du-test/): choix de lecture, confidentialité et limites

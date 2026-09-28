@@ -32,6 +32,8 @@ Each card is also available as markdown: replace `.html` with `.md` in its URL. 
 
 The builder test asks fifty questions across ten capabilities. It gives a level from 1 to 5, then the reader chooses a line of work and three cards. Nothing is sent.
 
+- [Questions and answers]({{ site.url }}/faq/): what the book is, who wrote it, reuse and citation, the test, Teams
+- [Glossary]({{ site.url }}/glossary/): the words of the book and the test, one sentence each
 - [The builder test]({{ site.url }}/builder-test/): the interactive questions
 - [The four types of card]({{ site.url }}/how-to-read/): principle, diagnostic, practice and system
 - [How the test works]({{ site.url }}/test-method/): reading choices, privacy and limits

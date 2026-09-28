@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use or adapt this book, please cite it as below."
+type: generic
+title: "Build Here"
+abstract: "A free book of practices for people who build, and for the people who help them grow. In French and English."
+authors:
+  - family-names: "Perussault-Diallo"
+    given-names: "Luc B."
+    website: "https://www.linkedin.com/in/luc-b-perussault-diallo-99525519"
+url: "https://build-here.africa/book/"
+repository-code: "https://github.com/luuuc/build-here-book"
+license: CC-BY-SA-4.0
+date-released: "2026-09-08"
+keywords:
+  - builder
+  - software engineering
+  - product
+  - ownership
+  - leadership
