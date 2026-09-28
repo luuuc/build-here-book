@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/06-05-a-good-decision-can-still-lose.html
 seo:
-  description: "Examine raisonnement et résultat séparément, en tenant compte des informations, des moyens et des risques disponibles au moment du choix."
+  description: "Juger au seul résultat apprend à avoir de la chance, pas à bien décider. Examine le raisonnement, puis le résultat."
   keywords: "build here, leadership, builder, bonne, decision, peut, quand, meme"
 redirect_from:
   - /livre/chapitres/06-06-une-bonne-decision-peut-quand-meme-perdre.html
@@ -24,7 +24,7 @@ redirect_from:
 
 ## Le réflexe
 
-Une initiative tourne mal. Le résultat devient le principal argument pour juger la décision, alors que les informations disponibles au départ ont peu été examinées.
+Une initiative tourne mal. Le résultat devient le seul argument pour juger la décision, sans que personne regarde ce qu'on savait au départ.
 
 ## Le réflexe builder
 
@@ -32,24 +32,24 @@ Examine le raisonnement de départ, puis le résultat. Un mauvais résultat ne p
 
 ## Pourquoi
 
-Une décision raisonnable peut rencontrer un événement défavorable. Une décision fragile peut produire un bon résultat. Pour apprendre, il faut regarder les options, les informations, les contraintes et les risques connus au moment du choix, puis ce que l'action a effectivement produit.
+Une bonne décision peut perdre. Une mauvaise peut gagner. Si tu juges uniquement au résultat, tu apprends à ton équipe à avoir de la chance, pas à bien décider.
 
-La qualité du raisonnement dépend aussi des conditions : temps disponible, accès, expérience et appui. Tu peux agir sur une partie de ces conditions sans les maîtriser toutes. Demander ce qui aurait été facilement accessible est utile si cette facilité est vérifiée avec la personne concernée, pas déduite après coup.
+Une équipe choisit un transporteur pour ses délais annoncés et son prix. Une grève bloque ses camions pendant une semaine. La revue peut confirmer le choix, et montrer qu'il fallait un plan de secours. Elle peut aussi montrer qu'une information avait été négligée. La conclusion dépend des faits.
 
-La réversibilité aide à choisir les protections d'un essai, mais elle est rarement totale. Rétablir un tarif ou revenir à une ancienne version peut encore laisser un coût, une confusion ou une perte de confiance. Une action difficile à reprendre demande davantage de vérifications et un mandat adapté ; son résultat défavorable mérite lui aussi une analyse équitable.
+Pour juger une décision, regarde ce qu'on savait au moment de la prendre : les options, les informations, les risques connus. Puis regarde le résultat. Ce sont deux examens différents.
 
-Un groupe choisit un lieu pour un atelier à partir des accès annoncés et du budget disponible. Une interruption de transport perturbe ensuite la venue. La revue peut confirmer le choix initial tout en révélant l'intérêt d'une solution de secours. Elle peut aussi montrer une information négligée. La conclusion dépend des faits, pas du besoin de défendre ou de condamner la décision.
+Pour ça, il faut une trace. Trois lignes écrites avant de décider suffisent : l'objectif, les options, ce qu'on ne sait pas. Sans elles, la mémoire réécrit tout après coup.
 
 ## À essayer
 
-Avant une décision importante, garde quelques lignes sur l'objectif, les options, les informations et les inconnues. Proportionne cette trace à l'enjeu ; ce n'est pas un dossier à produire pour chaque geste.
+Avant une décision importante, écris ces trois lignes.
 
 À la revue, demande :
 
 > "Que savions-nous et que pouvions-nous raisonnablement vérifier ?"
 > "Qu'avons-nous appris, et que cela change-t-il pour la prochaine décision ?"
 
-Choisis une amélioration ou explique pourquoi le raisonnement reste valable. Au prochain cas comparable, regarde si cette leçon a été utilisable. Pour un débutant, un pair peut aider à reconstruire les options sans imposer la réponse après coup.
+Choisis une amélioration, ou explique pourquoi le raisonnement tient.
 
 ## Depuis ton siège
 

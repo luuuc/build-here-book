@@ -15,7 +15,7 @@ categories:
 traductions:
   fr: /livre/chapitres/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html
 seo:
-  description: "Organise a shared responsibility with explicit contributions, coordination, means and decisions."
+  description: "Six names on a list do not move a subject. Give it an address: the person who knows where it stands."
   keywords: "build here, builder, ownership, coordination, decision, responsibility"
 redirect_from:
   - /book/chapters/06-03-be-clear-who-coordinates-and-who-decides.html
@@ -23,21 +23,21 @@ redirect_from:
 
 ## The symptom
 
-Several people contribute to a subject, but it stays hard to know who coordinates the next action, or who to ask for a ruling.
+Six people contribute to a subject. Nobody knows who coordinates the next action, or who to ask for a decision.
 
 ## The signal
 
-Make the contributions, the coordination and the decisions explicit. A collective responsibility can work if how it is organised is clear.
+A shared subject needs a name: the person who knows where it stands and moves the next step forward.
 
 ## What's going on
 
-A list of names does not describe how the work moves. Each person may have a precise task, or may assume somebody else is organising what follows. The problem is not the number of people: it is the ambiguity about the commitments and about what happens when a step gets stuck.
+A list of six names does not say how the work moves. Each person does their part and assumes someone else is organising what follows. When a step gets stuck, nobody sees it, because it was nobody's part.
 
-A point of contact helps people find where the subject stands. It can be a person, a pair, or a rotating role with an organised handover. That does not automatically give them authority over every decision, or personal responsibility for every consequence. The group keeps its contributions and its obligations.
+A point of contact changes that. A person, a pair, or a rotating role: someone who knows where the subject stands, flags the dependencies and chases. It does not give them every decision. It gives the subject an address.
 
-A small team prepares a workshop. One person follows sign-ups, another the venue, a third coordinates the preparation check-in. Coordination gathers the information and flags the dependencies; it does not replace the other two people's work. If the budget has to change, the decision belongs to whoever is mandated for it.
+A small team launches an offer. One person follows sign-ups, another the price, a third coordinates the weekly check-in. Coordination does not do the others' work. It makes sure the three pieces end up as an offer.
 
-Before naming someone, check their agreement, their capacity, and the access they need. A name with no means can create an invisible load or a point of fragility. Say how to ask for help, flag a delay, and hand over. Someone starting out can coordinate a small remit with identified backing, without having to know everything without asking.
+The name has to come with time and access. A coordinator with no means is just one more name on a list.
 
 ## Check this
 
@@ -45,17 +45,15 @@ On a shared subject, write together:
 
 > Who contributes to what?
 > Who coordinates the next check-in, and with what means?
-> Who rules, and how do we handle absences?
+> Who rules, and what happens when someone is away?
 
-Have the commitments confirmed by the people concerned. If nobody can take the coordination, adjust the scope or ask for a ruling rather than imposing a name.
-
-At the next check-in, look at whether a question found an answer, whether the dependencies were handled, and whether the load is still bearable.
+If nobody can coordinate, cut the scope rather than imposing a name. At the next check-in, see whether the questions found answers.
 
 ## From where you sit
 
 - **Product**: separate coordinating the subject from the power to prioritise.
 - **Operations**: organise cover when the point of contact is away.
-- **Management**: confirm the mandate and the means with the person concerned.
+- **Management**: give the time and the access along with the name.
 - **Customer relations**: identify the useful contact without assigning them every task.
 
 ## To discuss

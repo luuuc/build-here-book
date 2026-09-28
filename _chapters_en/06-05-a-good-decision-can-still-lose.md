@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/06-05-une-bonne-decision-peut-quand-meme-perdre.html
 seo:
-  description: "Examine the reasoning and the result separately, accounting for the information, means and risks available at the moment of the choice."
+  description: "Judging on results alone teaches luck, not good decisions. Examine the reasoning, then the result."
   keywords: "build here, leadership, builder, good decision, bad outcome"
 redirect_from:
   - /book/chapters/06-05-a-good-decision-can-still-turn-out-badly.html
@@ -22,7 +22,7 @@ redirect_from:
 
 ## The reflex
 
-An initiative goes wrong. The result becomes the main argument for judging the decision, while the information available at the start has barely been examined.
+An initiative goes wrong. The result becomes the only argument for judging the decision, and nobody looks at what was known at the start.
 
 ## The builder's reflex
 
@@ -30,24 +30,24 @@ Examine the original reasoning, then the result. A bad result does not prove a b
 
 ## Why
 
-A reasonable decision can meet an unfavourable event. A fragile decision can produce a good result. To learn, you have to look at the options, the information, the constraints and the risks known at the moment of the choice, and then at what the action actually produced.
+A good decision can lose. A bad one can win. If you judge on results alone, you teach your team to be lucky, not to decide well.
 
-The quality of the reasoning also depends on the conditions: time available, access, experience, backing. You can act on some of those conditions without controlling them all. Asking what would have been easy to find is useful if that ease is checked with the person concerned, not deduced after the fact.
+A team picks a carrier for its advertised delivery times and its price. A strike stops its trucks for a week. The review can confirm the choice, and show that a fallback was needed. It can also show that a piece of information was overlooked. The conclusion depends on the facts.
 
-Reversibility helps you choose the protections around an attempt, but it is rarely total. Restoring a price or going back to an earlier version can still leave a cost, confusion, or lost trust. An action that is hard to undo calls for more checks and a suitable mandate; its unfavourable result deserves a fair analysis too.
+To judge a decision, look at what was known when it was made: the options, the information, the known risks. Then look at the result. Those are two different examinations.
 
-A group chooses a venue for a workshop based on the published access and the budget available. A transport disruption then gets in the way of people arriving. The review can confirm the original choice while revealing the value of a fallback. It can also show that a piece of information was overlooked. The conclusion depends on the facts, not on a need to defend or condemn the decision.
+That takes a record. Three lines written before deciding are enough: the goal, the options, what you do not know. Without them, memory rewrites everything afterwards.
 
 ## Try this
 
-Before an important decision, keep a few lines on the goal, the options, the information and the unknowns. Keep that record proportionate to what is at stake; it is not a file to produce for every move.
+Before an important decision, write those three lines.
 
 At the review, ask:
 
 > "What did we know, and what could we reasonably have checked?"
 > "What did we learn, and what does that change for the next decision?"
 
-Choose one improvement, or explain why the reasoning still holds. At the next comparable case, look at whether that lesson was usable. For someone starting out, a peer can help reconstruct the options without imposing the answer after the fact.
+Choose one improvement, or explain why the reasoning still holds.
 
 ## From where you sit
 

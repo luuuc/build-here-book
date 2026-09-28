@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/06-01-done-on-your-side-does-not-mean-solved.html
 seo:
-  description: "Organise un relais accepté, avec les informations et moyens nécessaires, sans conserver une responsabilité indéfinie."
+  description: "Le client ne voit pas les parties, il voit le résultat. Vérifie que le relais est accepté, pas seulement reçu."
   keywords: "build here, ownership, passation, equipe, builder"
 redirect_from:
   - /livre/chapitres/06-02-fini-de-ton-cote-ne-veut-pas-dire-regle.html
@@ -23,39 +23,37 @@ redirect_from:
 
 ## Le symptôme
 
-Ta partie est terminée et transmise. Il reste incertain que la personne suivante dispose des informations, du temps ou de l'accord nécessaires pour prendre le relais.
+Ta partie est terminée et transmise. Tu ne sais pas si la personne suivante a ce qu'il faut pour continuer.
 
 ## Le signal
 
-Distingue travail terminé, relais accepté et résultat vérifié. Ces trois moments peuvent appartenir à des personnes différentes.
+Travail terminé, relais accepté, résultat vérifié : trois moments différents. Vérifie les trois.
 
 ## Ce qui se passe
 
-Une passation permet de répartir le travail et de terminer un engagement. Elle peut être complète même si le résultat final n'est pas encore connu, à condition que la suite soit réellement organisée. Dire "ma partie est faite" n'est pas un alibi lorsqu'on sait ce qui a été remis et qui prend le relais.
+"Ma partie est faite" est vrai, et inutile si la suite ne peut pas avancer. Le client ne voit pas les parties. Il voit le résultat, ou son absence.
 
-Tu prépares les invitations d'un atelier associatif. Une autre personne doit les envoyer. Le texte est prêt, mais il lui manque l'accès à la liste autorisée des destinataires. Vérifier ce point avant la passation permet de traiter le blocage sans te confier automatiquement l'envoi et tout le suivi de l'événement.
+Tu prépares la relance des factures impayées. Une collègue doit l'envoyer. Le texte est prêt, mais elle n'a pas accès à la liste des clients concernés. Vérifier ce point avant de passer la main prend deux minutes. Le découvrir une semaine plus tard coûte une semaine d'encaissements.
 
-Un accusé de réception n'est pas toujours une acceptation du travail. Clarifie ce qui est attendu, ce qui manque et le prochain point de retour. Un outil partagé peut suffire si ses règles sont comprises. Pour un dossier plus sensible, une confirmation explicite peut être nécessaire. Le temps de passation dépend du contexte, pas d'un forfait de quelques minutes.
+Un "reçu" n'est pas un "je prends". Dis ce qui est attendu, ce qui manque, et quand on refait le point. Obtiens un oui clair de la personne qui reprend.
 
-La personne qui reçoit peut manquer de capacité ou ne pas avoir le bon mandat. Dans ce cas, fais arbitrer le relais plutôt que de relancer indéfiniment ou de reprendre la tâche en silence. Une responsabilité ne se transfère pas en inscrivant le nom de quelqu'un sans son accord. Prévois aussi comment la suite sera organisée en cas d'absence.
+Si personne ne peut reprendre, dis-le à qui décide. Ne relance pas indéfiniment, et ne reprends pas la tâche en silence.
 
 ## À vérifier
 
-Pour une prochaine passation, précise :
+Pour ta prochaine passation, écris :
 
-> Ce qui est terminé et les limites connues : ...
-> Ce que la suite demande et qui l'accepte : ...
-> Quand signaler un problème de relais, et à qui : ...
+> Ce qui est terminé, et ses limites : ...
+> Ce que la suite demande, et qui l'accepte : ...
+> Qui prévenir si ça bloque : ...
 
-Convenez séparément de qui vérifiera le résultat final si c'est nécessaire. Une fois le relais accepté, tu peux clôturer ton engagement selon cet accord.
-
-Au prochain point convenu, examine si les informations transmises ont suffi. Améliore la passation plutôt que d'ajouter un suivi permanent à chacun.
+Une fois le relais accepté, ton engagement est clos. Au point suivant, regarde si l'information transmise a suffi, et améliore la prochaine passation.
 
 ## Depuis ton siège
 
 - **Ingénierie** : distingue réalisation, mise à disposition et vérification de l'usage.
 - **Opérations** : confirme les accès et la capacité nécessaires au relais.
-- **Management** : arbitre un relais refusé ou impossible au lieu de laisser la tâche sans suite.
+- **Management** : tranche un relais refusé ou impossible au lieu de laisser la tâche sans suite.
 - **Relation client** : sache qui pourra répondre au prochain point convenu.
 
 ## À discuter

@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/06-02-come-back-a-month-later.html
 seo:
-  description: "Choisis une vérification adaptée au cycle d'usage, au risque et à la décision suivante, avec un effort et un relais explicites."
+  description: "Livrer n'est pas finir. Fixe dès la livraison la date où tu regardes l'effet, avec une question précise."
   keywords: "build here, builder, ownership, verification, usage, resultat"
 redirect_from:
   - /livre/chapitres/06-03-reviens-voir-un-mois-plus-tard.html
@@ -23,38 +23,36 @@ redirect_from:
 
 ## Le point de départ
 
-Un changement est livré. La suite du travail est planifiée, mais personne n'a encore choisi quand ni comment vérifier son effet.
+Un changement est livré. La suite du travail est planifiée, mais personne n'a choisi quand ni comment regarder son effet.
 
 ## Le geste
 
-Prévois une vérification au moment où un effet pertinent peut être observé, avec une question, un responsable et un effort limité.
+Fixe dès la livraison une date pour regarder l'effet, avec une question précise et un responsable.
 
 ## Pourquoi ça marche
 
-Un résultat peut rester peu visible sans provoquer d'incident. Une équipe crée un tableau de bord puis continue à l'enrichir, sans savoir s'il aide à préparer la réunion pour laquelle il a été demandé. Une vérification permettrait de confirmer son utilité ou de comprendre ce qui manque avant d'ajouter du travail.
+Livrer n'est pas finir. Une équipe crée un tableau de bord puis continue à l'enrichir pendant des mois, sans jamais demander s'il aide la réunion pour laquelle il a été fait. Une seule question au bon moment aurait économisé ce travail.
 
-Le bon moment dépend de l'usage. Une information d'accueil peut être examinée au prochain événement ; un bilan mensuel attend son cycle ; une protection rarement sollicitée peut demander un exercice adapté. Un mois est un repère possible, pas une règle. Attendre trop longtemps peut coûter, mais regarder trop tôt peut aussi produire une conclusion trompeuse.
+Le bon moment dépend de l'usage. Une offre commerciale se regarde après les premiers devis envoyés ; un bilan mensuel, après son cycle ; une protection rarement sollicitée, lors d'un exercice. Un mois est un repère, pas une règle.
 
-Choisis ce qui mérite une revue selon le risque, le coût, l'incertitude et les décisions qui vont s'appuyer dessus. Tu ne peux pas tout revérifier en permanence. La maintenance et la fiabilité comptent aussi : préserver un service peut être le résultat attendu, même sans nouvelle utilisation visible.
+Regarde les chiffres qui répondent à ta question : l'usage, le délai, les erreurs, les demandes. Ajoute un échange avec une personne qui s'en sert, pour savoir pourquoi le chiffre est ce qu'il est.
 
-Les données ne sont pas toujours disponibles ou accessibles. Un retour qualitatif, un cas observé ou une vérification avec la personne concernée peut suffire. Évite de collecter des informations inutiles seulement pour remplir un tableau. Le nombre d'ouvertures d'un outil ne dit pas à lui seul s'il aide, et un petit nombre d'utilisateurs n'enlève pas la valeur d'un besoin important.
+Tu ne peux pas tout revérifier. Choisis ce qui porte une décision à venir ou un risque réel.
 
 ## À essayer
 
-Choisis un changement dont le résultat compte pour la suite. Note une question précise, par exemple :
+Choisis un changement récent qui compte. Écris une question précise, par exemple :
 
 > "Lors de la prochaine réunion, ce tableau aide-t-il à prendre la décision prévue ? Qu'est-ce qui manque ?"
 
-Convenez de qui peut obtenir ce retour et du temps nécessaire. Si tu transmets le projet, fais accepter cette vérification par le relais ; elle ne doit pas rester automatiquement à ta charge.
-
-À la date choisie, note le résultat ou l'absence d'information suffisante. Décide de maintenir, modifier, retirer ou vérifier autrement, avec les personnes qui peuvent prendre cette décision.
+Mets la date dans ton agenda maintenant. Ce jour-là, regarde, note la réponse, et décide : garder, modifier ou retirer.
 
 ## Depuis ton siège
 
 - **Produit** : choisis une question liée à la décision suivante.
 - **Finance** : adapte la vérification au cycle réel de l'activité.
-- **Management** : réserve du temps et limite le nombre de suivis ouverts.
-- **Relation client** : propose un retour adapté aux informations que tu peux partager.
+- **Management** : réserve du temps pour ces retours, et limite le nombre de suivis ouverts.
+- **Relation client** : apporte le retour des clients qui s'en servent.
 
 ## À discuter
 

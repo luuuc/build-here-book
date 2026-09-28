@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/06-07-you-ask-for-outcomes-and-you-review-activity.html
 seo:
-  description: "Relie activité et effets observés avec une cadence adaptée, des moyens de vérification et un suivi proportionné."
+  description: "Si ta revue porte sur l'activité, tu obtiens de l'activité. Ajoute l'effet attendu, ce qu'on observe, et quand on regarde."
   keywords: "build here, builder, ownership, revue, activite, resultats"
 redirect_from:
   - /livre/chapitres/06-08-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html
@@ -24,36 +24,36 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Tu souhaites suivre les effets du travail. Le point d'équipe décrit surtout les tâches réalisées et celles qui viennent, sans place claire pour les observations ultérieures.
+Tu veux suivre les effets du travail. Le point d'équipe liste les tâches faites et celles qui viennent.
 
 ## Ce que le système entend
 
-Le format invite à préparer l'activité. Ajouter des résultats demande de préciser quelles observations sont utiles, quand elles peuvent arriver et qui peut les obtenir.
+> "On me demande ce que j'ai fait, pas ce que ça a changé."
 
 ## Ce que ça produit
 
-Suivre l'activité aide à coordonner les personnes et à repérer une charge ou une dépendance. Ce suivi reste utile. Il ne suffit pas à savoir si le travail a amélioré une situation, préservé un service ou réduit une incertitude. Relier les deux permet de choisir la suite avec davantage de contexte.
+Si ta revue porte sur l'activité, l'équipe prépare de l'activité. Elle devient excellente pour raconter ce qu'elle a fait, et personne ne sait ce que ça a changé.
 
-Le résultat ne suit pas toujours la cadence de la réunion. Une tâche peut être terminée cette semaine et son effet ne devenir observable qu'au prochain cycle d'usage. Forcer un résultat immédiat peut conduire à choisir un indicateur commode plutôt qu'une information pertinente. Note ce qui est attendu, ce qui reste inconnu et le moment prévu pour regarder.
+Suivre l'activité reste utile pour coordonner. Mais ajoute à chaque sujet important trois éléments : l'effet attendu, ce qu'on observe, et quand on regarde de nouveau.
 
-Les observations peuvent être quantitatives ou qualitatives : un cas auparavant impossible, une difficulté expliquée, un incident évité lors d'un exercice, une procédure utilisable par un relais. Une mesure demande aussi du contexte. Peu d'utilisations ne prouvent pas l'inutilité d'un service rare, et une hausse de volume ne démontre pas à elle seule une amélioration.
+Les résultats ne suivent pas la cadence de la réunion. Une tâche finie cette semaine peut ne montrer son effet qu'au prochain cycle. Note-le, et reviens-y ce jour-là. Choisis les chiffres qui répondent à la question, pas ceux qui sont faciles à sortir.
 
-Préparer ces retours prend du temps et peut demander des accès. Convenez d'un nombre limité de sujets à suivre, avec une personne qui accepte la vérification et les moyens nécessaires. Si un résultat est décevant ou inconnu, cherchez la prochaine décision plutôt qu'une responsabilité personnelle à attribuer. Le point d'équipe doit aider à agir, pas devenir un second travail de reporting.
+Un résultat décevant ou inconnu appelle la prochaine décision, pas un coupable. Sinon, l'équipe apprendra à ne plus rien mesurer.
 
 ## La décision
 
-Sur un sujet important, ajoute à l'activité : l'effet attendu, l'observation disponible et la prochaine vérification. Distingue "pas encore observable", "information inaccessible" et "résultat observé".
+Sur un sujet important, ajoute à l'activité : l'effet attendu, ce qu'on observe, la prochaine vérification.
 
-Choisis avec l'équipe qui recueillera le retour, à quel moment et avec quel effort. Accepte une vérification par échantillon ou un retour préparé si l'accès direct n'est pas approprié.
+Choisis avec l'équipe qui regarde, quand, et avec quel effort.
 
-Après un cycle pertinent, demande quelle décision ce suivi a aidée et combien de temps il a coûté. Simplifie ou arrête un suivi qui n'éclaire plus de décision, en conservant les contrôles nécessaires.
+Après un cycle, demande quelle décision ce suivi a aidée. Arrête le suivi qui n'en aide aucune.
 
 ## Depuis ton siège
 
 - **Produit** : relie le résultat observé à une décision de suite.
 - **Opérations** : rends visible le service préservé, même sans nouveauté.
 - **Management** : adapte la cadence et les moyens aux observations attendues.
-- **Relation client** : apporte un retour contextualisé dans les limites du partage autorisé.
+- **Relation client** : apporte les retours des clients sur ce qui a changé pour eux.
 
 ## À discuter
 

@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
 seo:
-  description: "Fit the timing and the channel of a piece of information to its consequences, without waiting for a solution or imposing a universal deadline."
+  description: "Bad news is worth a lot early and almost nothing late. Warn people without waiting for the solution."
   keywords: "build here, builder, ownership, commitment, alert, information"
 redirect_from:
   - /book/chapters/06-06-flag-in-time-what-changes-the-commitment.html
@@ -22,31 +22,29 @@ redirect_from:
 
 ## The reflex
 
-A result is ready, or a commitment becomes uncertain. The people who depend on it do not yet know what changes for them.
+A commitment becomes uncertain. You wait to know more before you warn anyone.
 
 ## The builder's reflex
 
-Pass the information on at the moment it can help someone act, separating what is confirmed from what is still uncertain.
+Warn as soon as the information can help someone act. Say what is certain and what is not.
 
 ## Why
 
-Good news can unblock someone else's work. A risk or a delay can call for a ruling. The urgency comes from those consequences, not only from whether the news is pleasant. An important alert may have to go immediately; a limited difficulty can wait for the agreed check-in.
+Bad news is worth a lot early and almost nothing late. Delivery of the equipment for a launch becomes uncertain. Warned a week before, the organiser finds a solution. Warned the day before, all they have left is apologies.
 
-Flagging an uncertainty does not require having a solution already. State the fact observed, the possible effect on the commitment, and what is still to be checked. Avoid turning every doubt into a definitive announcement, too. The recipients have to be able to see the level of certainty and when you will come back.
+Good news can wait for the meeting. Bad news cannot. The urgency comes from what others can still do.
 
-The delivery of equipment for a workshop becomes uncertain. The organiser can still borrow a replacement if the information arrives before the preparation. The person following the supplier can flag the risk without deciding on new spending alone, or guaranteeing a date they do not control.
+You do not need a solution to warn people. Say the fact, the possible effect, what is still uncertain, and when you will come back. Waiting until you have the solution often means warning too late.
 
-The channel counts. Some subjects call for a direct alert to whoever is responsible, others for a shared tracker or a private exchange. If you are growing a team, say which situations call for a flag and who can act afterwards. A respectful reaction and a useful answer encourage the next reports, without on their own guaranteeing that every difficulty becomes visible.
+If you run a team, your reaction to the first piece of bad news decides whether you get the next one in time.
 
 ## Try this
 
-On a current commitment, agree which changes to flag and to whom. When one happens, pass on:
+On a current commitment, write down today what could make it slip, and who needs to know. When it happens, pass on:
 
-> "Here is the fact or the risk. Here is what it can change. This part is still uncertain. I need this ruling, and I'll come back at this point."
+> "Here is the fact or the risk. Here is what it can change. This part is still uncertain. I need this decision, and I'll come back at this point."
 
-Use the channel that fits the urgency. If the intended person is unavailable and the decision cannot wait, follow the agreed fallback.
-
-At the next check-in, confirm the information was received and a next step was decided. Adjust the arrangement if the alert went unanswered, or pulled in too many people for nothing.
+Send it the same day.
 
 ## From where you sit
 

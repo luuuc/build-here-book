@@ -14,39 +14,37 @@ categories:
 traductions:
   fr: /livre/chapitres/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html
 seo:
-  description: "Arrange a handover that was accepted, with the information and means it needs, without keeping an open-ended responsibility."
+  description: "The customer does not see the parts, they see the result. Check the handover was accepted, not just received."
   keywords: "build here, ownership, handover, team, builder"
 ---
 
 ## The symptom
 
-Your part is finished and passed on. It is still unclear whether the next person has the information, the time, or the agreement needed to pick it up.
+Your part is finished and passed on. You do not know whether the next person has what they need to carry on.
 
 ## The signal
 
-Separate work finished, handover accepted, and result verified. Those three moments can belong to different people.
+Work finished, handover accepted, result verified: three different moments. Check all three.
 
 ## What's going on
 
-A handover lets work be shared out and a commitment be closed. It can be complete even when the final result is not yet known, provided what follows is genuinely organised. Saying "my part is done" is not an alibi when you know what was handed over and who is picking it up.
+"My part is done" is true, and useless if the next step cannot move. The customer does not see the parts. They see the result, or its absence.
 
-You prepare the invitations for a community workshop. Someone else is to send them. The text is ready, but they do not have access to the approved list of recipients. Checking that before the handover lets you deal with the blockage without automatically inheriting the sending and the whole follow-up for the event.
+You prepare the reminders for unpaid invoices. A colleague is to send them. The text is ready, but she has no access to the list of customers concerned. Checking that before you hand over takes two minutes. Finding out a week later costs a week of payments.
 
-An acknowledgement is not always an acceptance of the work. Make clear what is expected, what is missing, and the next check-in. A shared tool can be enough if its rules are understood. For a more sensitive file, an explicit confirmation may be necessary. Handover time depends on the context, not on a standard few minutes.
+"Got it" is not "I'm taking it". Say what is expected, what is missing, and when you will check in. Get a clear yes from the person picking it up.
 
-The person receiving it may lack capacity, or may not have the right mandate. In that case, get the handover ruled on rather than chasing indefinitely or quietly picking the task back up. A responsibility does not transfer by writing someone's name down without their agreement. Plan how what follows will be organised if someone is away.
+If nobody can pick it up, tell whoever decides. Do not chase forever, and do not quietly take the task back.
 
 ## Check this
 
-For your next handover, say:
+For your next handover, write:
 
-> What is finished and the known limits: ...
+> What is finished, and its limits: ...
 > What the next step needs, and who accepts it: ...
-> When to flag a handover problem, and to whom: ...
+> Who to warn if it gets stuck: ...
 
-Agree separately who will check the final result if that is needed. Once the handover is accepted, you can close your commitment according to that agreement.
-
-At the next agreed check-in, look at whether the information passed on was enough. Improve the handover rather than adding permanent follow-up to everyone's load.
+Once the handover is accepted, your commitment is closed. At the next check-in, see whether the information you passed on was enough, and improve the next handover.
 
 ## From where you sit
 

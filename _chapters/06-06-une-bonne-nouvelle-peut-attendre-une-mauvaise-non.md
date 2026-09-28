@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/06-06-good-news-can-wait-bad-news-cannot.html
 seo:
-  description: "Adapte le moment et le canal d'une information à ses conséquences, sans attendre une solution ni imposer un délai universel."
+  description: "Une mauvaise nouvelle vaut beaucoup tôt et presque rien tard. Préviens sans attendre d'avoir la solution."
   keywords: "build here, builder, ownership, engagement, alerte, information"
 redirect_from:
   - /livre/chapitres/06-07-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
@@ -24,31 +24,29 @@ redirect_from:
 
 ## Le réflexe
 
-Un résultat est prêt ou un engagement devient incertain. Les personnes qui en dépendent ne savent pas encore ce qui change pour elles.
+Un engagement devient incertain. Tu attends d'en savoir plus avant de prévenir.
 
 ## Le réflexe builder
 
-Transmets l'information au moment où elle peut aider à agir, en distinguant ce qui est confirmé de ce qui reste incertain.
+Préviens dès que l'information peut aider quelqu'un à agir. Dis ce qui est sûr et ce qui ne l'est pas.
 
 ## Pourquoi
 
-Une bonne nouvelle peut débloquer le travail d'une autre personne. Un risque ou un retard peut demander un arbitrage. L'urgence vient de ces conséquences, pas seulement du caractère agréable ou désagréable de l'information. Une alerte importante peut devoir partir immédiatement ; une difficulté limitée peut attendre le point convenu.
+Une mauvaise nouvelle vaut beaucoup tôt et presque rien tard. La livraison du matériel pour un lancement devient incertaine. Prévenu une semaine avant, l'organisateur trouve une solution. Prévenu la veille, il n'a plus que des excuses à présenter.
 
-Signaler une incertitude ne demande pas d'avoir déjà une solution. Précise le fait observé, l'effet possible sur l'engagement et ce qui reste à vérifier. Évite aussi de transformer chaque doute en annonce définitive. Les destinataires doivent pouvoir comprendre le niveau de certitude et le prochain retour prévu.
+Une bonne nouvelle peut attendre la réunion. Une mauvaise, non. L'urgence vient de ce que les autres peuvent encore faire.
 
-La livraison de matériel pour un atelier devient incertaine. L'organisateur peut encore emprunter une solution de remplacement si l'information arrive avant la préparation. La personne qui suit le fournisseur peut signaler le risque sans décider seule d'une nouvelle dépense ni garantir une date qu'elle ne contrôle pas.
+Tu n'as pas besoin d'une solution pour prévenir. Dis le fait, l'effet possible, ce qui reste incertain et quand tu reviens. Attendre d'avoir la solution, c'est souvent prévenir trop tard.
 
-Le canal compte. Certains sujets demandent une alerte directe au responsable, d'autres un suivi partagé ou un échange privé. Si tu développes une équipe, précise les situations qui demandent un signalement et qui peut agir ensuite. Une réaction respectueuse et une réponse utile encouragent les prochains retours, sans garantir à elles seules que toute difficulté sera visible.
+Si tu diriges une équipe, ta réaction à la première mauvaise nouvelle décide si tu recevras la suivante à temps.
 
 ## À essayer
 
-Sur un engagement actuel, convenez des changements à signaler et du destinataire. Quand l'un survient, transmets :
+Sur un engagement en cours, écris aujourd'hui ce qui pourrait le faire glisser, et qui doit le savoir. Quand ça arrive, transmets :
 
-> "Voici le fait ou le risque. Voilà ce qu'il peut changer. Cette partie est encore incertaine. J'ai besoin de cet arbitrage et je reviens à ce moment."
+> "Voici le fait ou le risque. Voilà ce qu'il peut changer. Cette partie est encore incertaine. J'ai besoin de cette décision et je reviens à ce moment."
 
-Utilise le canal adapté à l'urgence. Si la personne prévue n'est pas disponible et que la décision ne peut pas attendre, suis le relais convenu.
-
-Au prochain point, vérifie que l'information a été reçue et qu'une suite a été décidée. Ajustez le dispositif si l'alerte est restée sans réponse ou a mobilisé inutilement trop de personnes.
+Envoie-le le jour même.
 
 ## Depuis ton siège
 
