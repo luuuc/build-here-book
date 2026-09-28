@@ -21,7 +21,7 @@ categories:
 traductions:
   fr: /livre/chapitres/01-01-la-curiosite-est-facturable.html
 seo:
-  description: "Booking a short, bounded slot to understand a dependency can improve decisions and save repeated work."
+  description: "Thirty minutes following one case end to end save hours of repeated answers."
   keywords: "build here, curiosity, builder, billable"
 ---
 
@@ -29,36 +29,36 @@ seo:
 
 > "I'll look at how it works once I'm done with the rest."
 
-The question comes back every week. No slot is ever set aside to look into it.
+The question comes back every week. Nobody takes the time to look at why.
 
 ## The builder's reflex
 
-> "I'd like thirty minutes to follow one refund from start to finish. We can decide afterwards whether it's worth digging further."
+> "I'm taking thirty minutes to follow one refund from start to finish. Then we'll see whether it's worth digging further."
 
 ## Why
 
-Understanding what your work depends on can save repeated answers, or estimates made with too little information.
+Whatever you don't understand in your work, you pay for every time: the same answer given ten times, an estimate made blind, a problem worked around without being seen.
 
-In this example, support answers the same customer again because nobody has followed what happens between the refund request and the money arriving. Product assumes a bank delay. Finance assumes support checks. By following one case with the people involved, the team finds an approval sitting in a shared inbox.
+Support answers the same customer for the third time. Nobody has followed what happens between the refund request and the money arriving. Product assumes a bank delay. Finance assumes support checks. Following one case end to end is enough: an approval has been sitting in a shared inbox for two weeks.
 
-The inquiry does not have to turn into a rebuild. It can stop once it has named a wait, identified who can answer and proposed a check. The same move works for a job application, a deployment or signing up for a community activity.
+Thirty minutes of curiosity saved hours of repeated answers. That is why it is billable. The inquiry does not have to become a rebuild: it stops once it has named the wait and the person who can clear it.
 
-This time has a cost. Pick a question narrow enough, and agree the slot against your other commitments. If you lack the access or the skill, ask for a guided tour. Someone who knows the subject can help you draw the line around what is worth looking at.
+The same move works everywhere: a job application that drags, an invoice that keeps bouncing back, a delivery that always fails on Fridays. No access? Ask someone to show you. Twenty minutes of guided tour beat a week of guessing.
 
 ## Try this
 
-Take something you use without really understanding one of its steps. Write the question down before you start looking: "Who confirms the money has arrived?" is a better start than "understand the whole billing system".
+Take a step in your work that you use without understanding it. Write the question down before you start looking: "Who confirms the money has arrived?" beats "understand the whole billing system".
 
-Book a short slot, with whatever agreement it needs if it displaces other work. At the end, write down what you understood, what is still unclear and who could check. A personal note is enough to begin with; share what will be useful to the people involved.
+Give yourself thirty minutes. At the end, write down what you understood, what is still unclear, and who can answer. Share it with the people who ask the same question you did.
 
-Next time it comes up, see whether that information helps you answer better, or ask a sharper question. If it does not help, reframe the subject before spending more time on it.
+Next time it comes up, see whether you answer faster or better. If not, your question was too wide: narrow it.
 
 ## From where you sit
 
 - **Finance**: walk through one case, including the step where you wait for a confirmation.
-- **Management**: put the inquiry inside the planned workload and say what can wait.
-- **Support**: bring one precise case, with the information you are allowed to share.
+- **Management**: count the inquiry in the planned workload and say what can wait.
+- **Support**: bring one precise case, followed from start to finish.
 
 ## To discuss
 
-Which recurring question would be worth a short inquiry, and what decision could that inquiry inform?
+Which question comes back every week here, and who takes thirty minutes to follow it?

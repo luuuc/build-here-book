@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/01-06-your-code-is-not-your-baby.html
 seo:
-  description: "Une critique devient utile quand elle précise un cas, un critère et une amélioration à vérifier."
+  description: "Une critique porte sur ce que produit ton travail, pas sur ta valeur. Ramène-la à un cas vérifiable."
   keywords: "build here, ego et honnetete intellectuelle, builder, code, bebe"
 redirect_from:
   - /livre/chapitres/02-03-ton-code-nest-pas-ton-bebe.html
@@ -23,7 +23,7 @@ redirect_from:
 
 ## Le réflexe
 
-Quelqu'un critique une fonction, une maquette ou un message que tu as préparé. Tu commences à expliquer tes contraintes avant d'avoir compris son objection.
+Quelqu'un critique une fonction, une maquette ou un message que tu as préparé. Tu expliques tes contraintes avant d'avoir compris son objection.
 
 ## Le réflexe builder
 
@@ -31,27 +31,27 @@ Quelqu'un critique une fonction, une maquette ou un message que tu as préparé.
 
 ## Pourquoi
 
-Tu peux tenir à ton travail et examiner ce qui mérite d'y changer. Une réaction défensive n'annule pas ton savoir du contexte ; une critique ne prouve pas non plus que son auteur a raison.
+Ton travail n'est pas toi. Une critique sur un message, un tableau ou un écran porte sur ce qu'il produit, pas sur ta valeur. Tant que tu défends, tu n'écoutes pas, et tu rates la seule information qui compte : ce que l'autre a vu et toi non.
 
-Dans une revue, un commentaire sur une erreur possible mérite d'être relié à un cas. Un relecteur dit que le message envoyé aux nouveaux inscrits est trop court. Son inquiétude porte en fait sur l'absence d'adresse. Ajouter cette information peut suffire, sans réécrire tout le message.
+Un relecteur dit que le message aux nouveaux inscrits est trop court. Tu t'apprêtes à défendre la concision. En creusant, son inquiétude porte sur l'adresse qui manque. Une ligne ajoutée règle le problème. La défense aurait coûté cette ligne.
 
-Le mécanisme inverse existe aussi. Celui qui entretient un système peut défendre un choix parce qu'il se souvient d'une panne. Dire qu'il est "attaché à son code" écarte cette information sans l'examiner. Cherche ce que le désaccord révèle avant d'en interpréter la cause.
+L'inverse existe. Celui qui défend un choix se souvient parfois d'une panne que tu ne connais pas. Dire qu'il est "attaché à son code" jette cette information. Demande-lui ce qu'il a vu.
 
-Un échange utile permet aux deux personnes d'expliciter leurs critères : à qui le travail sert, ce qu'il doit permettre et les contraintes à respecter. Pour un premier projet, tu peux demander un retour sur un seul point. Pour un travail expérimenté, tu peux inviter quelqu'un à examiner une hypothèse dont tu es moins sûr.
+Une critique n'a pas raison parce qu'elle est dite. Ramène-la à un cas : qui est gêné, dans quelle situation, avec quelle conséquence. Un cas se vérifie. Une impression se discute sans fin.
 
 ## À essayer
 
-En demandant une relecture, nomme la question sur laquelle tu veux de l'aide et le temps disponible.
+En demandant une relecture, nomme la question précise sur laquelle tu veux un avis.
 
-> "Peux-tu regarder si quelqu'un qui découvre le sujet saura quoi faire ensuite ?"
+> "Est-ce que quelqu'un qui découvre le sujet saura quoi faire ensuite ?"
 
-Sur un désaccord important, reformule l'objection puis apporte ton contexte. Décidez ce que vous changez, ce que vous gardez et ce qui demande un essai. Après la prochaine utilisation, regardez si le problème soulevé apparaît encore. Un désaccord argumenté peut rester ouvert sans empêcher toute avancée.
+Sur un désaccord, reformule l'objection avant de répondre. Puis décide : ce que tu changes, ce que tu gardes, ce que tu testes. Après la prochaine utilisation, regarde si le problème revient.
 
 ## Depuis ton siège
 
 - **Design** : demande ce que la personne essaie de faire devant l'écran.
 - **Management** : aide à distinguer une préférence d'un risque ou d'une contrainte vérifiable.
-- **Relation client** : apporte un exemple d'incompréhension en protégeant les informations du client.
+- **Relation client** : apporte un exemple réel de client qui n'a pas compris.
 
 ## À discuter
 

@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/01-09-nobody-asks-twice.html
 seo:
-  description: "Une question a besoin d'un interlocuteur, d'un délai adapté et d'une réponse accessible aux personnes concernées."
+  description: "Une question sans réponse tue la suivante. Dis qui répond, et quand."
   keywords: "build here, curiosite, builder, conditions, personne, demande, deux, fois"
 redirect_from:
   - /livre/chapitres/01-06-leader-personne-ne-demande-deux-fois.html
@@ -25,34 +25,34 @@ redirect_from:
 
 > "J'aimerais que les questions arrivent avant qu'on ait construit la solution."
 
-Tu veux connaître les doutes assez tôt pour qu'ils puissent éclairer la décision.
+Tu veux entendre les doutes assez tôt pour qu'ils changent quelque chose.
 
 ## Ce que le système entend
 
-> "Si je pose cette question, qui répondra et dans quel délai ?"
+> "Si je pose cette question, qui répondra, et quand ?"
 
 ## Ce que ça produit
 
-Une question restée sans suite peut décourager la suivante. La personne ne sait pas si elle a été oubliée, si elle dépasse son rôle ou si la réponse demande simplement du temps.
+Une question sans réponse tue la suivante. La personne ne sait pas si elle a été oubliée ou si elle a dépassé son rôle. La fois d'après, elle ne demande pas. Elle suppose.
 
-L'exemple est courant : une question sur l'objectif d'un projet reçoit une réponse dans une réunion à trois. Les collègues absents continuent avec une autre interprétation. Le problème peut venir du chemin de la réponse, pas d'un manque de curiosité ou d'une mauvaise intention.
+Une question sur l'objectif d'un projet reçoit une réponse dans une réunion à trois. Les absents continuent avec leur propre lecture. Deux semaines plus tard, deux versions du projet avancent en parallèle. Personne n'a manqué de curiosité : la réponse n'a simplement pas voyagé.
 
-Répondre utilement demande parfois une recherche. Un délai annoncé permet de s'organiser. Une réponse rapide mais incertaine doit garder cette incertitude visible. Selon l'urgence, la personne peut avancer sur une partie réversible, attendre ou demander un arbitrage.
+Tu n'as pas besoin de répondre tout de suite. Tu as besoin de dire quand. "Je regarde, tu as la réponse jeudi" suffit à garder la question vivante.
 
-Rendre le suivi visible ne demande pas forcément un nouvel outil. Le document ou le fil où le travail se discute peut contenir la question, la personne qui la prend et la date de retour. Les échanges personnels ou sensibles gardent un cercle de lecteurs adapté.
+Pas besoin d'un nouvel outil. Le document ou le fil où le travail se discute peut porter la question, qui la prend et la date de réponse.
 
 ## La décision
 
-Choisis avec l'équipe un endroit pour les questions qui influencent une décision. Sur la prochaine, indique qui cherche la réponse et à quel moment elle est nécessaire. Si tu ne peux pas la traiter, dis-le et convenez d'une autre voie.
+Choisis avec l'équipe un seul endroit pour les questions qui pèsent sur une décision. Sur la prochaine, dis qui cherche la réponse et pour quand.
 
-À la fin de la semaine, reprenez quelques questions ouvertes. Vérifiez si leur réponse est arrivée aux personnes concernées et ce qu'elle a permis de décider. Ajustez les délais selon les sujets. Un accusé de réception sert à organiser la suite ; il ne remplace pas une réponse de fond.
+En fin de semaine, reprends les questions ouvertes. Vérifie que chaque réponse a atteint ceux qui en avaient besoin. Un accusé de réception organise la suite ; il ne remplace pas la réponse.
 
 ## Depuis ton siège
 
-- **Produit** : garde l'objectif du travail et les incertitudes accessibles dans le même document.
+- **Produit** : garde l'objectif du travail et les questions ouvertes dans le même document.
 - **Management** : rends visible la charge nécessaire pour répondre, surtout si elle dépasse ton équipe.
-- **Relation client** : conserve la formulation du besoin avec le contexte partageable.
+- **Relation client** : garde les mots exacts du client avec la question.
 
 ## À discuter
 
-Quelle question attend encore une suite, et qu'est-ce qui permettrait à son auteur de savoir comment avancer ?
+Quelle question attend encore une réponse, et qui la donne cette semaine ?

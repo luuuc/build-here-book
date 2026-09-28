@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/01-02-ask-the-naive-question-straight-away.html
 seo:
-  description: "Clarifier un mot avec un exemple aide à décider sur une compréhension partagée, quel que soit ton niveau d'expérience."
+  description: "La question naïve coûte dix secondes. Ne pas la poser coûte une décision prise sur un malentendu."
   keywords: "build here, curiosite, builder, pose, question, naive, tout, suite"
 redirect_from:
   - /livre/chapitres/01-03-pose-la-question-naive-tout-de-suite.html
@@ -25,7 +25,7 @@ redirect_from:
 
 > "J'attends de mieux comprendre avant de demander."
 
-La discussion avance et un mot important reste flou. Tu peux suivre les phrases sans savoir si tu leur donnes le même sens que les autres.
+La discussion avance et un mot important reste flou. Tu suis les phrases sans savoir si tu leur donnes le même sens que les autres.
 
 ## Le geste
 
@@ -33,13 +33,11 @@ La discussion avance et un mot important reste flou. Tu peux suivre les phrases 
 
 ## Pourquoi ça marche
 
-Un mot commun peut couvrir plusieurs réalités. Dans une équipe, "activation" peut désigner une inscription pour l'un et un premier usage pour l'autre. Une définition accompagnée d'un exemple permet de voir l'écart avant de comparer les chiffres.
+Un même mot couvre souvent plusieurs réalités. Dans une équipe, "activation" veut dire inscription pour l'un et premier usage pour l'autre. Les deux comparent des chiffres qui ne mesurent pas la même chose, et personne ne s'en rend compte.
 
-La question sert à tous les niveaux d'expérience. En débutant, tu apprends le vocabulaire et ses usages. Avec de l'expérience, tu peux repérer qu'une définition a changé ou qu'elle cache plusieurs cas. Demander ne prouve pas que tu faisais semblant de comprendre jusque-là.
+La question naïve coûte dix secondes. Ne pas la poser coûte une décision prise sur un malentendu. Débutant, tu apprends le vocabulaire. Expérimenté, tu repères qu'une définition a glissé ou qu'elle cache deux cas. Dans les deux situations, tu débloques souvent la salle : les autres n'osaient pas non plus.
 
-Choisis le moment selon l'enjeu. Si la décision dépend du mot, demande pendant la discussion. Si le détail peut attendre, note-le et reviens dessus ensuite. Dans un groupe où poser une question t'expose, cherche un interlocuteur de confiance ou un échange écrit. La personne qui anime peut aussi demander elle-même un exemple pour rendre la clarification plus facile.
-
-Cette pratique ne remplace pas toute recherche personnelle. Une définition disponible peut suffire ; un terme utilisé différemment selon les personnes demande souvent un échange.
+Pose-la au moment où le mot compte. Si la décision en dépend, demande tout de suite. Si le détail peut attendre, note-le et reviens-y juste après. Attendre la fin de la réunion, c'est laisser la décision se prendre sur un malentendu.
 
 ## À essayer
 
@@ -47,12 +45,12 @@ Sur la prochaine notion floue, demande une définition et un cas concret.
 
 > "Tu peux me montrer un cas qui entre dans cette définition, et un qui n'y entre pas ?"
 
-Reformule ce que tu as compris. Avant la décision ou lors du prochain échange, vérifie que cette définition permet de traiter le cas discuté. Si l'écart persiste, faites-le apparaître dans la note de décision plutôt que de garder un accord apparent.
+Reformule ce que tu as compris. Si l'écart persiste, écris-le dans la note de décision. Un accord apparent sur un mot flou est un désaccord qui attend son moment.
 
 ## Depuis ton siège
 
 - **Produit** : donne un exemple avec le nom de l'indicateur que tu utilises.
-- **Management** : laisse un temps aux questions et réponds sans évaluer la personne qui demande.
+- **Management** : laisse un temps aux questions et réponds sans juger la personne qui demande.
 - **Relation client** : compare les mots du client à ceux de l'équipe avant de traduire sa demande.
 
 ## À discuter

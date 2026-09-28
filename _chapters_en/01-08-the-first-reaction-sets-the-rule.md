@@ -14,13 +14,13 @@ categories:
 traductions:
   fr: /livre/chapitres/01-08-leader-la-premiere-reaction-fait-la-regle.html
 seo:
-  description: "A clear boundary, and a reaction that examines the facts, help people take initiative inside an agreed remit."
+  description: "Your reaction to the first initiative sets the rule for the whole team. Start with the intent, not the permission."
   keywords: "build here, ownership, builder, conditions, first reaction, boundary"
 ---
 
 ## What you are asking for
 
-You want the team to take useful initiative. Someone changes a way of working without consulting you, and you are trying to work out whether the change was inside their remit.
+You want the team to take initiative. Someone changes a way of working without consulting you. Your first question: "Who told you to do that?"
 
 ## What the system hears
 
@@ -28,22 +28,22 @@ You want the team to take useful initiative. Someone changes a way of working wi
 
 ## What that produces
 
-The reaction to an initiative is information about what is possible. If the first response is only about permission, the person may conclude it is safer to ask about everything. If only the happy outcome gets applause, other people will avoid attempts whose outcome is uncertain.
+The whole team reads your reaction to the first initiative. If it is about permission, everyone concludes it is safer to ask about everything. If only the happy outcome gets applause, nobody tries anything that might fail. Either way, you get the opposite of what you asked for.
 
-You can welcome what the person set out to improve while examining what they committed. An agent drafts a clearer reply: they can have it reviewed and try it inside an agreed remit. Changing a refund, a contract or an access right calls for other limits. Writing those down before the action also protects the people who take initiative.
+Start with what the person set out to improve. An agent rewrites a standard reply to make it clearer: that is exactly the initiative you wanted. If they touched a refund or a contract, the question of limits comes up. It comes after, and it is about the rule, not the person.
 
-When a boundary was not clear, say so and set it with the team. If it was crossed, deal with the consequences and look for what happened. A shared review has to protect people and sensitive information; it does not require a public confession.
+If the boundary was not clear, that is your job, not theirs. Set it with the team. A rule written before the action protects the people who dare.
 
 ## The decision
 
-Choose one kind of initiative you want to make possible. With the team, write down what can be decided alone, what needs an agreement, and what means stopping. Give a concrete example, a contact who is available, and a trial period.
+Choose one kind of initiative you want to see. With the team, write down what gets decided alone, what needs a second opinion, and what is off limits. Give a concrete example of each.
 
-On the next initiatives, start by understanding the intent and the effects. Put right what has to be put right first if damage is under way. At the agreed check-in, ask whether the boundary let people act and whether the support announced was actually there. Adjust it from the cases you meet.
+On the next initiative, start with the intent and the effect. Repair first if something is breaking. A month later, ask whether the boundary helped people act, and adjust it.
 
 ## From where you sit
 
-- **Engineering**: check the authorised remit before changing a system other people use.
-- **Management**: give a contact and an expected response for when an attempt meets its limit.
+- **Engineering**: announce what you change in a shared system, and how to roll it back.
+- **Management**: give a contact who can be reached the day an attempt hits its limit.
 - **Customer relations**: a case outside the procedure can flag an exception worth examining.
 
 ## To discuss

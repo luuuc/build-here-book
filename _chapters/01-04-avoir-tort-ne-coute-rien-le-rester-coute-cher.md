@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/01-04-being-wrong-is-free-staying-wrong-is-expensive.html
 seo:
-  description: "Des faits nouveaux peuvent justifier de revoir une décision. Écris ce qui ferait changer le plan et examine le coût de la correction."
+  description: "Avoir eu tort ne coûte rien. Continuer après avoir vu le signal coûte chaque jour plus cher."
   keywords: "build here, ego et honnetete intellectuelle, builder, avoir, tort, coute, rien, rester"
 redirect_from:
   - /livre/chapitres/02-01-avoir-tort-ne-coute-rien-le-rester-coute-cher.html
@@ -25,7 +25,7 @@ redirect_from:
 
 > "On a déjà tranché. On y va."
 
-Des faits nouveaux fragilisent le choix, mais changer de direction engage le travail déjà lancé.
+Des faits nouveaux fragilisent le choix. Mais changer de direction remet en cause le travail déjà lancé.
 
 ## Le réflexe builder
 
@@ -33,28 +33,28 @@ Des faits nouveaux fragilisent le choix, mais changer de direction engage le tra
 
 ## Pourquoi
 
-Une décision engage d'autres choix : une équipe prépare une campagne, une autre construit un écran, une troisième annonce une date. Quand une hypothèse devient douteuse, continuer sans en parler peut augmenter le coût de la correction.
+Une décision en entraîne d'autres : une équipe prépare une campagne, une autre construit un écran, une troisième annonce une date. Chaque semaine passée sur une hypothèse fausse ajoute du travail à défaire.
 
-Revenir sur un choix a aussi un coût. Il faut comprendre les conséquences, prévenir les personnes engagées et parfois maintenir une partie du travail pour tenir une obligation. Reconnaître l'erreur et arrêter immédiatement ne sont pas toujours la même décision.
+Avoir eu tort au moment de décider ne coûte rien : tu as décidé avec ce que tu savais. Ce qui coûte, c'est de continuer après avoir vu le signal. Le prix de la correction monte chaque jour où tu la repousses.
 
-Un signal isolé ne suffit pas forcément. Si une première personne n'utilise pas le nouveau parcours, tu peux chercher pourquoi et examiner d'autres cas avant de conclure. Ce qui compte est de rendre l'incertitude visible assez tôt pour pouvoir encore choisir.
+Revenir sur un choix demande du travail : prévenir les personnes engagées, tenir ce qui a été promis, décider ce qu'on garde. Ce n'est pas une raison pour attendre. C'est une raison pour changer tôt.
 
-Écrire à l'avance ce qui ferait réexaminer le plan aide à séparer les faits de l'attachement au travail accompli. Ce critère peut évoluer, mais sa modification mérite elle aussi une raison écrite. Un pair peut relire cette raison avec toi.
+Écris à l'avance ce qui te ferait changer d'avis. Quand le fait arrive, tu n'as plus à lutter contre ton attachement au travail fait : la décision est déjà écrite.
 
 ## À essayer
 
-Pour un prochain choix, note trois lignes : l'hypothèse, le fait qui la mettrait en doute et le moment où tu le vérifieras. Sur un petit projet, la prochaine utilisation peut suffire.
+Pour ton prochain choix, note trois lignes : l'hypothèse, le fait qui la mettrait en doute, et quand tu regardes.
 
-À cette date, compare l'observation à l'attente. Propose de continuer, de modifier, d'enquêter davantage ou d'arrêter, avec les conséquences de chaque option. Si d'autres portent l'engagement, prends la décision avec eux avant de changer ce qui leur a été promis.
+À cette date, compare ce que tu vois à ce que tu attendais. Continue, modifie ou arrête, et dis-le le jour même aux personnes engagées.
 
-Relis ensuite ce que la correction a produit. Tu sauras si elle a traité le problème ou seulement déplacé l'incertitude.
+Relis ensuite ce que la correction a produit. Tu sauras si elle a réglé le problème ou seulement déplacé la question.
 
 ## Depuis ton siège
 
 - **Ingénierie** : identifie les autres travaux qui dépendent du choix technique.
 - **Produit** : garde la date et la raison d'un changement d'hypothèse.
-- **Management** : accueille les faits nouveaux avant d'évaluer qui avait proposé le plan.
+- **Management** : accueille les faits nouveaux avant de regarder qui avait proposé le plan.
 
 ## À discuter
 
-Quel fait récent mérite de rouvrir une décision, et qui doit participer à son réexamen ?
+Quel fait récent mérite de rouvrir une décision, et qui le dit cette semaine ?

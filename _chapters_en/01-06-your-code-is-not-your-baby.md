@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/01-06-ton-code-nest-pas-ton-bebe.html
 seo:
-  description: "Criticism becomes useful when it names a case, a criterion and an improvement you can check."
+  description: "Criticism is about what your work produces, not about your worth. Bring it back to a case you can check."
   keywords: "build here, ego and intellectual honesty, builder, feedback, review"
 redirect_from:
   - /book/chapters/01-06-your-work-can-change-without-it-being-about-you.html
@@ -22,7 +22,7 @@ redirect_from:
 
 ## The reflex
 
-Someone criticises a function, a mockup or a message you prepared. You start explaining your constraints before you have understood their objection.
+Someone criticises a function, a mockup or a message you prepared. You explain your constraints before you have understood their objection.
 
 ## The builder's reflex
 
@@ -30,27 +30,27 @@ Someone criticises a function, a mockup or a message you prepared. You start exp
 
 ## Why
 
-You can care about your work and still examine what deserves to change in it. A defensive reaction does not cancel what you know about the context; criticism does not prove the critic is right either.
+Your work is not you. Criticism of a message, a spreadsheet or a screen is about what it produces, not about your worth. While you defend, you are not listening, and you miss the only information that matters: what the other person saw and you did not.
 
-In a review, a comment about a possible error deserves to be tied to a case. A reviewer says the message sent to new sign-ups is too short. Their worry is actually about the missing address. Adding that information may be enough, without rewriting the whole message.
+A reviewer says the message to new sign-ups is too short. You are about to defend brevity. Digging in, their worry is the missing address. One added line fixes it. Defending would have cost that line.
 
-The reverse mechanism exists too. Whoever maintains a system may defend a choice because they remember an outage. Saying they are "attached to their code" throws that information away without examining it. Look for what the disagreement reveals before you interpret its cause.
+The reverse happens too. Someone defending a choice sometimes remembers an outage you know nothing about. Saying they are "attached to their code" throws that information away. Ask them what they saw.
 
-A useful exchange lets both people state their criteria: who the work serves, what it has to make possible, and the constraints to respect. On a first project, you can ask for feedback on a single point. On experienced work, you can invite someone to examine an assumption you are less sure of.
+Criticism is not right because it was said. Bring it back to a case: who is affected, in what situation, with what consequence. A case can be checked. An impression can be argued forever.
 
 ## Try this
 
-When you ask for a review, name the question you want help on and the time available.
+When you ask for a review, name the precise question you want an opinion on.
 
-> "Can you look at whether someone new to the subject would know what to do next?"
+> "Would someone new to the subject know what to do next?"
 
-On a serious disagreement, say the objection back before you bring your context. Decide what you change, what you keep, and what needs an attempt. After the next use, look at whether the problem raised still shows up. A reasoned disagreement can stay open without blocking all progress.
+On a disagreement, say the objection back before you answer. Then decide: what you change, what you keep, what you test. After the next use, see whether the problem comes back.
 
 ## From where you sit
 
 - **Design**: ask what the person is trying to do in front of the screen.
 - **Management**: help tell a preference apart from a risk or a constraint you can verify.
-- **Customer relations**: bring an example of a misunderstanding while protecting the customer's information.
+- **Customer relations**: bring a real example of a customer who did not understand.
 
 ## To discuss
 

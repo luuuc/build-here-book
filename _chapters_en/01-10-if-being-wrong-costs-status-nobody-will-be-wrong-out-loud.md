@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html
 seo:
-  description: "Take a report well, protect what has to be protected, and examine the facts separately from how people are assessed."
+  description: "If reporting a mistake costs status, you will hear about it from customers. Make the alert safe and fast."
   keywords: "build here, ego and intellectual honesty, builder, conditions, reporting mistakes"
 redirect_from:
   - /book/chapters/01-10-protect-the-reporting-of-mistakes.html
@@ -24,29 +24,27 @@ redirect_from:
 
 > "Flag mistakes early enough for us to react."
 
-The team has to be able to raise a problem, including when the person who sees it took part in the decision.
+You want problems to surface, including when the person who sees them took part in the decision.
 
 ## What the system hears
 
-> "What will happen when I say what happened?"
+> "What will happen to me when I say what happened?"
 
 ## What that produces
 
-How one report is received shapes the next ones. Thanking the person helps, but they will also watch whether they can explain the facts without being exposed or sidelined before the situation is understood.
+Every report is a test. The team watches what happens to the person who spoke up. If they lose status, get taken off the subject, or become "the one who broke it", the next ones stay quiet. You will learn about your mistakes from your customers.
 
-A team can learn more about its mistakes when reporting them gets easier. So the number of reports is not on its own a measure of the quality of the work. Look also at their severity, at how long it took before the alert, and at what the fixes changed.
+More mistakes reported is not a bad sign. It is often proof that reporting has become safe. Watch the delay between the mistake and the alert above all: that is what tells you whether the system works.
 
-Learning and accountability each have their place. A mistake can reveal an ambiguous instruction, a check nobody could reach, an excessive workload, or a rule that was ignored. Examining those causes is what lets you decide on a proportionate response. Having raised the alert has to stay separate from the action that caused the problem.
+A mistake almost always reveals something other than a person: an ambiguous instruction, a check nobody could run, too heavy a load. Look for that first. And always keep the person who raised the alert separate from what caused the problem.
 
-The frame has to work for a person who has just arrived as well as for a long-standing colleague. Offer a private channel when the subject touches people or sensitive information. The group can learn from a mechanism without knowing every name.
+Lead by example. Tell the story of one of your own mistakes, with the reasoning and the fix. It is the fastest proof that saying "I got it wrong" costs nothing here.
 
 ## The decision
 
-On the next report, look first for what has to be protected and who can step in. Then confirm how the facts will be examined and with whom.
+On the next report, look first for what has to be protected and who can act. Thank the person, in front of the people whose opinion matters to them.
 
-Keep that review separate from individual assessment. If you share one of your own mistakes, show the reasoning and the fix, without asking everyone to expose theirs in return.
-
-After the review, check that the action decided was carried out, and ask privately whether the report could be made under decent conditions. Those answers will help you correct the frame.
+Keep the analysis of the facts out of individual assessment. After the review, check that the action decided was carried out, and ask the person whether they would report again.
 
 ## From where you sit
 
@@ -56,4 +54,4 @@ After the review, check that the action decided was carried out, and ask private
 
 ## To discuss
 
-On a recent incident, what made the alert easier or slower, and which condition can we improve?
+On a recent incident, how long between the mistake and the alert, and what slowed it down?

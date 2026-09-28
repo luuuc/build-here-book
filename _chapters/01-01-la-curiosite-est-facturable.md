@@ -18,7 +18,7 @@ categories:
 traductions:
   en: /book/chapters/01-01-curiosity-is-billable.html
 seo:
-  description: "Prévoir un temps limité pour comprendre une dépendance peut améliorer les décisions et éviter du travail répété."
+  description: "Trente minutes pour suivre un dossier de bout en bout évitent des heures de réponses répétées."
   keywords: "build here, curiosite, builder, facturable"
 ---
 
@@ -26,36 +26,36 @@ seo:
 
 > "Je regarderai comment ça marche quand j'aurai fini le reste."
 
-La question revient chaque semaine. Aucun créneau n'est prévu pour l'examiner.
+La question revient chaque semaine. Personne ne prend le temps de regarder pourquoi.
 
 ## Le réflexe builder
 
-> "Je propose trente minutes pour suivre un remboursement du début à la fin. On décidera ensuite s'il faut creuser."
+> "Je prends trente minutes pour suivre un remboursement du début à la fin. On verra ensuite s'il faut creuser."
 
 ## Pourquoi
 
-Comprendre ce dont ton travail dépend peut éviter des réponses répétées ou des estimations faites avec trop peu d'information.
+Ce que tu ne comprends pas dans ton travail, tu le paies à chaque fois : la même réponse donnée dix fois, une estimation faite à l'aveugle, un problème contourné sans être vu.
 
-Dans cet exemple, le support répond au même client parce que personne n'a suivi ce qui arrive entre sa demande de remboursement et l'argent reçu. Le produit suppose un délai bancaire. La finance suppose que le support vérifie. En suivant un dossier avec les personnes concernées, l'équipe découvre une validation qui attend dans une boîte partagée.
+Le support répond au même client pour la troisième fois. Personne n'a suivi ce qui se passe entre la demande de remboursement et l'argent reçu. Le produit suppose un délai bancaire. La finance suppose que le support vérifie. Un dossier suivi de bout en bout suffit : une validation attend dans une boîte partagée depuis deux semaines.
 
-L'enquête n'a pas besoin de devenir une refonte. Elle peut s'arrêter après avoir nommé une attente, identifié qui peut répondre et proposé une vérification. Le même geste vaut pour une candidature, un déploiement ou l'inscription à une activité associative.
+Trente minutes de curiosité ont évité des heures de réponses répétées. C'est pour ça qu'elle est facturable. L'enquête n'a pas à devenir une refonte : elle s'arrête quand elle a nommé l'attente et la personne qui peut la lever.
 
-Ce temps a un coût. Choisis une question assez étroite et prévois le créneau avec les autres engagements. Si tu n'as pas les accès ou la compétence nécessaires, demande une visite guidée. Une personne qui connaît le sujet peut t'aider à délimiter ce qu'il est utile de regarder.
+Le même geste marche partout : une candidature qui traîne, une facture qui revient, une livraison qui échoue toujours le vendredi. Tu n'as pas les accès ? Demande à quelqu'un de te montrer. Vingt minutes de visite guidée valent une semaine de suppositions.
 
 ## À essayer
 
-Prends une chose que tu utilises sans bien comprendre une de ses étapes. Écris la question avant de chercher : "Qui confirme que l'argent est arrivé ?" est un meilleur départ que "comprendre toute la facturation".
+Prends une étape de ton travail que tu utilises sans la comprendre. Écris la question avant de chercher : "Qui confirme que l'argent est arrivé ?" vaut mieux que "comprendre toute la facturation".
 
-Réserve un créneau court, avec l'accord nécessaire s'il déplace un autre travail. À la fin, note ce que tu as compris, ce qui reste incertain et qui pourrait vérifier. Une note personnelle suffit pour commencer ; partage ce qui sera utile aux personnes concernées.
+Donne-toi trente minutes. À la fin, note ce que tu as compris, ce qui reste flou et qui peut répondre. Partage-le avec ceux qui posent la même question que toi.
 
-À la prochaine occurrence, regarde si cette information t'aide à mieux répondre ou à poser une question plus précise. Si elle n'aide pas, reformule le sujet avant d'y consacrer davantage de temps.
+À la prochaine occurrence, regarde si tu réponds plus vite ou mieux. Sinon, ta question était trop large : resserre-la.
 
 ## Depuis ton siège
 
 - **Finance** : montre le parcours d'un dossier, y compris l'étape où tu attends une confirmation.
-- **Management** : inscris l'enquête dans la charge prévue et dis ce qui peut attendre.
-- **Support** : apporte un cas précis, avec les informations que tu es autorisé à partager.
+- **Management** : compte l'enquête dans la charge prévue et dis ce qui peut attendre.
+- **Support** : apporte un cas précis, suivi du début à la fin.
 
 ## À discuter
 
-Quelle question récurrente mériterait un court temps d'enquête, et quelle décision cette enquête pourrait-elle éclairer ?
+Quelle question revient chaque semaine chez nous, et qui prend trente minutes pour la suivre ?

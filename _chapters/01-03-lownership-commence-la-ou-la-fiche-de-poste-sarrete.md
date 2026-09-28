@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/01-03-ownership-starts-where-the-job-description-stops.html
 seo:
-  description: "Une initiative utile clarifie le problème, le périmètre, le temps disponible et la personne qui prendra la suite."
+  description: "Les problèmes les plus coûteux vivent entre deux fiches de poste. Règle le cas présent et nomme qui prend la suite."
   keywords: "build here, ownership, builder, commence, fiche, poste, arrete"
 redirect_from:
   - /livre/chapitres/04-02-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html
@@ -26,36 +26,36 @@ redirect_from:
 
 > "Ce problème touche deux équipes. Je ne sais pas à qui le transmettre."
 
-La difficulté est connue, mais son suivi n'est attribué à personne.
+La difficulté est connue de tous. Son suivi n'appartient à personne.
 
 ## Le réflexe builder
 
-> "J'ai repéré ce qui manque. Qui peut décider de la suite, et quelle part puis-je proposer de prendre ?"
+> "Il y a un trou ici. Je règle ce cas d'ici jeudi, et je trouve qui s'en charge ensuite."
 
 ## Pourquoi
 
-Les passages entre métiers peuvent laisser un besoin sans responsable clair. Un candidat attend la suite de son entretien. Le recrutement pense que le manager écrit ; le manager pense que le recrutement s'en charge. Signaler ce trou avec un exemple aide déjà à le rendre traitable.
+Les problèmes les plus coûteux vivent entre deux fiches de poste. Un candidat attend la suite de son entretien depuis dix jours. Le recrutement pense que le manager écrit ; le manager pense que le recrutement s'en charge. Chacun a raison selon sa fiche de poste. Le candidat, lui, accepte une autre offre.
 
-Tu peux ensuite proposer un geste limité : préparer un message, regarder quelques dossiers ou décrire une correction. Vérifie d'abord si quelqu'un intervient déjà et ce que ta proposition déplace. Un problème sans propriétaire visible peut cacher une décision, un risque ou une charge que tu ne connais pas encore.
+Une fiche de poste décrit ce qu'on attend de toi. Elle ne décrit pas tout ce que tu peux faire. Le builder voit le trou et agit : il écrit le message, appelle la bonne personne, propose la correction. Il n'attend pas qu'on lui attribue le problème.
 
-Ta fiche de poste fixe des engagements. Une initiative au-delà de ceux-ci se discute avec les personnes concernées, surtout si elle prend du temps ou change un service. Aider une fois ne signifie pas accepter d'en devenir responsable pour toujours.
+Prendre un problème ne veut pas dire le garder à vie. Tu règles le cas présent, puis tu nommes qui s'en charge la prochaine fois. C'est souvent la partie la plus utile : fermer le trou, pas seulement le boucher une fois.
 
-Dans un premier projet, le même principe tient : tu remarques une difficulté chez quelqu'un, tu lui proposes une aide et vous convenez de ce que tu feras. Si l'accord, le temps ou l'accès manquent, une description claire du problème reste une contribution utile.
+Sans poste ni équipe, le principe tient. Sur un premier projet, tu vois quelqu'un bloqué, tu proposes ton aide, tu fais ce que tu as dit.
 
 ## À essayer
 
-Choisis un petit problème et propose une intervention avec une limite.
+Choisis un problème qui traîne entre deux équipes. Fais le plus petit geste qui le règle pour le cas présent.
 
-> "Je peux préparer le message pour les candidats avant jeudi. Qui valide son contenu, et qui assurera l'envoi ensuite ? Il faut que je décale la mise à jour du guide."
+> "J'envoie le message aux candidats avant jeudi. Ensuite, qui s'en charge après chaque entretien ?"
 
-Avant de commencer, confirme ces points avec les personnes qui peuvent décider. Après l'essai, vérifie si le besoin est couvert et si la suite a un responsable. Sans accord sur la suite, reviens en discuter plutôt que de reprendre la tâche en silence.
+Après, vérifie que le besoin est couvert et que la suite a un nom. Si personne ne la prend, dis-le clairement plutôt que de reprendre la tâche en silence.
 
 ## Depuis ton siège
 
-- **Design** : montre la friction avant de modifier un écran dont une autre équipe dépend.
-- **Management** : arbitre la charge et rends explicite ce que l'initiative n'engage pas.
+- **Design** : montre la friction à l'équipe qui possède l'écran, avec une correction proposée.
+- **Management** : reconnais le trou fermé, pas seulement le travail prévu.
 - **Recrutement** : vérifie qui prend le relais auprès du candidat après chaque entretien.
 
 ## À discuter
 
-Quel besoin entre deux périmètres pouvons-nous clarifier cette semaine, et qui peut décider de sa prise en charge ?
+Quel problème traîne entre deux équipes chez nous, et qui le règle cette semaine ?

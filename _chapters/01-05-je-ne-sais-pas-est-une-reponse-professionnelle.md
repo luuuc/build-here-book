@@ -23,7 +23,7 @@ redirect_from:
 
 ## Le réflexe
 
-Un client, un investisseur, un directeur pose une question. Tu n'as pas la réponse. La pression pour répondre vite peut te pousser à avancer une explication que tu n'as pas vérifiée.
+Un client, un investisseur, un directeur pose une question. Tu n'as pas la réponse. La pression pour répondre vite te pousse à avancer une explication que tu n'as pas vérifiée.
 
 Si cette explication est reprise comme un fait, l'incertitude disparaît du récit.
 
@@ -39,7 +39,7 @@ Dit à quelqu'un deux niveaux au-dessus, "je ne sais pas" a l'air d'un aveu alor
 
 Choisis donc une échéance qui tient compte du temps nécessaire pour vérifier. Quand la réponse est chez un fournisseur dont le support ouvre au moment où ta journée se termine, à huit heures d'écart, "à 17h" est une promesse intenable, et tu as échangé une improvisation contre un engagement rompu. Dis demain midi, et tiens demain midi.
 
-Si une décision doit être prise avant la vérification, donne une fourchette quand tu peux l'étayer, avec sa source et ses limites. Sinon, dis quelle information manque et quel risque prendrait une décision immédiate. Tu peux demander l'aide d'une personne mieux placée pour vérifier.
+Si une décision doit être prise avant la vérification, donne une fourchette quand tu peux l'étayer, avec sa source et ses limites. Sinon, dis quelle information manque et quel risque prendrait une décision immédiate.
 
 ## À essayer
 

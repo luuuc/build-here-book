@@ -20,7 +20,7 @@ seo:
 
 ## The reflex
 
-A customer, an investor, a director asks a question. You do not have the answer. The pressure to answer fast can push you into offering an explanation you have not checked.
+A customer, an investor, a director asks a question. You do not have the answer. The pressure to answer fast pushes you into offering an explanation you have not checked.
 
 If that explanation gets picked up as a fact, the uncertainty disappears from the story.
 
@@ -36,7 +36,7 @@ Said to someone two levels up, "I don't know" sounds like a confession when it i
 
 So pick a deadline that accounts for the time checking actually takes. When the answer sits with a vendor whose support opens as your day ends, eight hours away, "at five" is a promise you cannot keep, and you have traded an improvisation for a broken commitment. Say tomorrow midday, and hold tomorrow midday.
 
-If a decision has to be made before you can check, give a range when you can back it up, with its source and its limits. Otherwise say which information is missing and what risk an immediate decision would take. You can ask for help from someone better placed to check.
+If a decision has to be made before you can check, give a range when you can back it up, with its source and its limits. Otherwise say which information is missing and what risk an immediate decision would take.
 
 ## Try this
 

@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/01-08-the-first-reaction-sets-the-rule.html
 seo:
-  description: "Une frontière claire et une réaction qui examine les faits aident les personnes à prendre des initiatives dans un périmètre convenu."
+  description: "Ta réaction à la première initiative fixe la règle pour toute l'équipe. Commence par le but, pas par l'autorisation."
   keywords: "build here, ownership, builder, conditions, premiere, reaction, fait, regle"
 redirect_from:
   - /livre/chapitres/04-06-leader-la-premiere-reaction-fait-la-regle.html
@@ -23,7 +23,7 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Tu veux que l'équipe prenne des initiatives utiles. Une personne modifie une façon de faire sans te consulter, et tu cherches à savoir si le changement était dans son périmètre.
+Tu veux que l'équipe prenne des initiatives. Une personne change une façon de faire sans te consulter. Ta première question : "Qui t'a dit de le faire ?"
 
 ## Ce que le système entend
 
@@ -31,22 +31,22 @@ Tu veux que l'équipe prenne des initiatives utiles. Une personne modifie une fa
 
 ## Ce que ça produit
 
-La réaction à une initiative donne une information sur ce qui est possible. Si la première réponse porte seulement sur l'autorisation, la personne peut conclure qu'il vaut mieux demander pour tout. Si seul le résultat heureux est applaudi, les autres peuvent éviter les essais dont l'issue est incertaine.
+Ta réaction à la première initiative est lue par toute l'équipe. Si elle porte sur l'autorisation, chacun conclut qu'il vaut mieux demander pour tout. Si seul le résultat heureux est applaudi, plus personne n'essaie ce qui peut rater. Dans les deux cas, tu obtiens l'inverse de ce que tu demandais.
 
-Tu peux accueillir ce que la personne a cherché à améliorer tout en examinant ce qu'elle a engagé. Un agent prépare une réponse plus claire : il peut la faire relire et l'essayer sur un périmètre convenu. Modifier un remboursement, un contrat ou un accès demande d'autres limites. Les écrire avant l'action protège aussi ceux qui prennent l'initiative.
+Commence par ce que la personne a voulu améliorer. Un agent réécrit une réponse type plus claire : c'est exactement l'initiative que tu voulais. S'il a touché un remboursement ou un contrat, la question des limites se pose. Elle vient après, et elle porte sur la règle, pas sur la personne.
 
-Quand une frontière n'était pas claire, reconnais-le et précise-la avec l'équipe. Si elle a été franchie, traite les conséquences et cherche ce qui s'est passé. Une revue partagée doit préserver les personnes et les informations sensibles ; elle n'exige pas un aveu public.
+Si la frontière n'était pas claire, c'est ton travail, pas le sien. Précise-la avec l'équipe. Une règle écrite avant l'action protège ceux qui osent.
 
 ## La décision
 
-Choisis un type d'initiative que tu veux rendre possible. Avec l'équipe, écris ce qui peut être décidé seul, ce qui demande un accord et ce qui impose de s'arrêter. Donne un exemple concret, un contact disponible et un temps d'essai.
+Choisis un type d'initiative que tu veux voir. Avec l'équipe, écris ce qui se décide seul, ce qui demande un avis, et ce qui ne se touche pas. Donne un exemple concret de chaque.
 
-Sur les prochaines initiatives, commence par comprendre le but et les effets. Restaure d'abord ce qui doit l'être si un dommage est en cours. Au point de retour convenu, demande si la frontière a permis d'agir et si le soutien annoncé était disponible. Ajuste-la à partir des cas rencontrés.
+Sur la prochaine initiative, commence par le but et l'effet. Répare d'abord si quelque chose casse. Un mois plus tard, demande si la frontière a aidé à agir, et ajuste-la.
 
 ## Depuis ton siège
 
-- **Ingénierie** : vérifie le périmètre autorisé avant de modifier un système utilisé par d'autres.
-- **Management** : donne un contact et une réponse attendue lorsque l'essai rencontre sa limite.
+- **Ingénierie** : annonce ce que tu changes dans un système partagé, et comment revenir en arrière.
+- **Management** : donne un contact joignable pour le jour où l'essai atteint sa limite.
 - **Relation client** : un cas hors procédure peut signaler une exception à examiner.
 
 ## À discuter

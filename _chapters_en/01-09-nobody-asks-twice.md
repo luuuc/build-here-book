@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/01-09-leader-personne-ne-demande-deux-fois.html
 seo:
-  description: "A question needs someone to answer it, a deadline that fits, and an answer the people affected can reach."
+  description: "A question left unanswered kills the next one. Say who answers, and when."
   keywords: "build here, curiosity, builder, conditions, questions, follow-up"
 redirect_from:
   - /book/chapters/01-09-give-questions-a-follow-up.html
@@ -24,34 +24,34 @@ redirect_from:
 
 > "I'd like the questions to arrive before we've built the solution."
 
-You want to know the doubts early enough for them to inform the decision.
+You want to hear the doubts early enough for them to change something.
 
 ## What the system hears
 
-> "If I ask this question, who will answer, and how long will it take?"
+> "If I ask this question, who will answer, and when?"
 
 ## What that produces
 
-A question left without a follow-up can discourage the next one. The person does not know whether they were forgotten, whether they overstepped their role, or whether the answer simply takes time.
+A question left unanswered kills the next one. The person does not know whether they were forgotten or overstepped their role. Next time, they do not ask. They assume.
 
-The example is common: a question about a project's goal gets answered in a meeting of three. The colleagues who were not there carry on with a different reading. The problem can lie in the path the answer took, not in a lack of curiosity or in bad intent.
+A question about a project's goal gets answered in a meeting of three. The people who were not there carry on with their own reading. Two weeks later, two versions of the project are moving in parallel. Nobody lacked curiosity: the answer simply did not travel.
 
-Answering usefully sometimes takes research. An announced deadline lets people organise. A fast but uncertain answer has to keep that uncertainty visible. Depending on the urgency, the person can move on a reversible part, wait, or ask for a ruling.
+You do not have to answer straight away. You have to say when. "I'm looking into it, you'll have the answer Thursday" is enough to keep the question alive.
 
-Making the follow-up visible does not necessarily need a new tool. The document or the thread where the work is discussed can hold the question, who is taking it, and the date it comes back. Personal or sensitive exchanges keep a readership that fits.
+No new tool needed. The document or the thread where the work is discussed can hold the question, who is taking it, and the date of the answer.
 
 ## The decision
 
-With the team, choose one place for the questions that bear on a decision. On the next one, say who is looking for the answer and when it is needed. If you cannot handle it, say so and agree another route.
+With the team, choose one place for the questions that bear on a decision. On the next one, say who is looking for the answer and by when.
 
-At the end of the week, go back over a few open questions. Check whether the answer reached the people affected and what it made it possible to decide. Adjust the deadlines by subject. An acknowledgement helps people organise what comes next; it does not stand in for a real answer.
+At the end of the week, go back over the open questions. Check that each answer reached the people who needed it. An acknowledgement organises what comes next; it does not replace the answer.
 
 ## From where you sit
 
-- **Product**: keep the goal of the work and the uncertainties reachable in the same document.
+- **Product**: keep the goal of the work and the open questions in the same document.
 - **Management**: make the effort an answer takes visible, especially when it goes beyond your team.
-- **Customer relations**: keep the customer's own wording of the need along with the context you can share.
+- **Customer relations**: keep the customer's exact words with the question.
 
 ## To discuss
 
-Which question is still waiting for a follow-up, and what would let whoever asked it know how to move?
+Which question is still waiting for an answer, and who gives it this week?

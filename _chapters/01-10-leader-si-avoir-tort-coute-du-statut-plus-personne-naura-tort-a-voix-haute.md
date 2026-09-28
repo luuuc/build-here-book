@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/01-10-if-being-wrong-costs-status-nobody-will-be-wrong-out-loud.html
 seo:
-  description: "Accueillir un signalement, protéger ce qui doit l'être et examiner les faits séparément de l'évaluation des personnes."
+  description: "Si signaler une erreur coûte du statut, tu l'apprendras par les clients. Rends l'alerte sûre et rapide."
   keywords: "build here, ego et honnetete intellectuelle, builder, conditions, avoir, tort, coute, statut"
 redirect_from:
   - /livre/chapitres/02-05-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html
@@ -25,36 +25,34 @@ redirect_from:
 
 > "Signalez les erreurs assez tôt pour qu'on puisse réagir."
 
-L'équipe doit pouvoir faire remonter un problème, y compris quand la personne qui le voit a participé à la décision.
+Tu veux que les problèmes remontent, y compris quand celui qui les voit a participé à la décision.
 
 ## Ce que le système entend
 
-> "Qu'arrivera-t-il quand je dirai ce qui s'est passé ?"
+> "Qu'est-ce qui m'arrivera quand je dirai ce qui s'est passé ?"
 
 ## Ce que ça produit
 
-La façon dont un signalement est reçu influence les suivants. Remercier la personne aide, mais elle regardera aussi si elle peut expliquer les faits sans être exposée ou écartée avant que la situation soit comprise.
+Chaque signalement est un test. L'équipe regarde ce qui arrive à celui qui a parlé. S'il perd du statut, s'il est écarté du sujet ou s'il devient "celui qui a cassé", les suivants se taisent. Tu apprendras les erreurs par les clients.
 
-Une équipe peut en apprendre davantage sur ses erreurs quand les signaler devient plus facile. Le nombre de signalements ne suffit donc pas à juger la qualité du travail. Regarde aussi leur gravité, le délai avant l'alerte et ce que les corrections ont changé.
+Plus d'erreurs signalées n'est pas un mauvais signe. C'est souvent la preuve que signaler est devenu sûr. Regarde surtout le délai entre l'erreur et l'alerte : c'est lui qui dit si le système marche.
 
-L'apprentissage et la responsabilité ont chacun leur place. Une erreur peut révéler une consigne ambiguë, une vérification inaccessible, une charge excessive ou une règle ignorée. Examiner ces causes permet de décider d'une réponse proportionnée. Le fait d'avoir donné l'alerte doit rester distinct de l'action qui a causé le problème.
+Une erreur révèle presque toujours autre chose qu'une personne : une consigne ambiguë, une vérification impossible, une charge trop lourde. Cherche ça d'abord. Et sépare toujours celui qui a donné l'alerte de ce qui a causé le problème.
 
-Le cadre doit fonctionner pour une personne qui arrive autant que pour un collègue installé. Offre un canal privé si le sujet touche à des personnes ou à des informations sensibles. Le groupe peut apprendre d'un mécanisme sans connaître tous les noms.
+Montre l'exemple. Raconte une de tes erreurs, avec le raisonnement et la correction. C'est la preuve la plus rapide que dire "je me suis trompé" ne coûte rien ici.
 
 ## La décision
 
-Sur le prochain signalement, cherche d'abord ce qui doit être protégé et qui peut intervenir. Confirme ensuite comment les faits seront examinés et avec qui.
+Sur le prochain signalement, cherche d'abord ce qu'il faut protéger et qui peut agir. Remercie la personne, devant ceux dont l'avis compte pour elle.
 
-Sépare ce retour de l'évaluation individuelle. Si tu partages une de tes propres erreurs, montre le raisonnement et la correction, sans demander à chacun d'exposer la sienne en retour.
-
-Après la revue, vérifie que l'action décidée a été suivie et demande en privé si le signalement a pu se faire dans de bonnes conditions. Ces retours aideront à corriger le cadre.
+Garde l'analyse des faits hors de l'évaluation individuelle. Après la revue, vérifie que l'action décidée a été faite, et demande à la personne si elle signalerait de nouveau.
 
 ## Depuis ton siège
 
-- **Design** : rapporte un essai qui contredit une hypothèse avec ce que tu as observé.
+- **Design** : rapporte un essai qui contredit une hypothèse, avec ce que tu as observé.
 - **Management** : sépare l'analyse des faits et des conditions de travail de l'évaluation individuelle.
 - **Support** : précise l'effet côté client et le moment où il a été remarqué.
 
 ## À discuter
 
-Sur un incident récent, qu'est-ce qui a facilité ou retardé l'alerte, et quelle condition pouvons-nous améliorer ?
+Sur un incident récent, combien de temps entre l'erreur et l'alerte, et qu'est-ce qui l'a ralentie ?
