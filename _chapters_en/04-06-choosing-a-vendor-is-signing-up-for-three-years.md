@@ -15,7 +15,7 @@ categories:
 traductions:
   fr: /livre/chapitres/04-06-choisir-un-fournisseur-cest-signer-pour-trois-ans.html
 seo:
-  description: "Examine a vendor's cost, dependencies and exit terms with the people affected."
+  description: "A vendor's real price is what it costs the day you want to leave. Work it out before you sign."
   keywords: "build here, builder, vendor, cost, dependency, exit"
 redirect_from:
   - /book/chapters/04-06-choosing-a-vendor-means-preparing-the-exit-too.html
@@ -23,7 +23,7 @@ redirect_from:
 
 ## The reflex
 
-A tool or a supplier answers the immediate need. Its cost over time, and what it would take to replace it, are still to be examined with the people affected.
+A tool or a supplier answers the immediate need. You sign. Its cost in three years and the price of getting out, nobody has looked at.
 
 ## The builder's reflex
 
@@ -31,23 +31,23 @@ A tool or a supplier answers the immediate need. Its cost over time, and what it
 
 ## Why
 
-Some technical choices weigh directly on the financial results and on the ability to change direction later. A service billed per message can get more expensive with volume, when it is already wired into sign-up, reminders and receipts. The same reasoning holds for a delivery supplier or a tool a community group uses.
+A service billed per message costs little at launch. Two years later it is wired into sign-up, reminders and receipts, volume has tripled, and switching would take six months. A vendor's real price is what it costs the day you want to leave.
 
-The currency can count too. If a vendor bills in dollars while your income is in another currency, the cost can move with the exchange rate. In that case, the choice of vendor creates an extra dependency to examine. That exposure is one of the assumptions to look at with the people who follow the budget, without presuming which way the rate will go.
+Currency counts too. A vendor billing in dollars when your income is in another currency makes you carry the exchange risk. Put it in the calculation.
 
-Not every choice deserves this treatment. Fit the effort to the dependency, to the cost of leaving, and to the consequences of an interruption. Even a small tool can take time to export data from, train users on, or check a replacement for.
+Not every choice deserves this analysis. A small tool you can replace in a day, no. Whatever carries your customers, your data or your payments, yes.
 
-The people who use, integrate, pay for and maintain the service each bring different information. Involve them according to the choice you face.
+The people who use, integrate, pay for and maintain the service each see a different risk. Ask them before you sign.
 
 ## Try this
 
-For an upcoming choice, prepare three lines with the information you have. If you are starting out, ask for help reading the pricing and the export terms. Do not commit spending without the mandate for it.
+For an upcoming choice, write three lines:
 
-> Cost at current volume and in a growth scenario, with currency and assumptions: ...
-> Consequences of a price rise or an outage, and the fallback: ...
-> The work of leaving: data, integrations, training, time and people needed: ...
+> Cost at current volume and at three times the volume, with the currency: ...
+> What happens with a price rise or an outage, and the fallback: ...
+> The work of getting out: data, integrations, training, time: ...
 
-Share them before you sign. Plan a review at renewal, or if an important assumption changes. Where you can, test an export or a limited replacement before concluding that leaving will be easy.
+Share them before you sign. Test an export of your data in the first week. If it is hard now, it will be worse in three years.
 
 ## From where you sit
 

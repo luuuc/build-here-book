@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/04-09-marketing-is-not-decoration.html
 seo:
-  description: "Relie connaissance des destinataires, conception et présentation, sans dévaloriser les métiers qui rendent l'offre lisible."
+  description: "Le marketing répond aux questions qui décident du produit : pour qui, à la place de quoi, pourquoi le choisir. Pose-les au début."
   keywords: "build here, visibilite, builder, marketing, decoration"
 redirect_from:
   - /livre/chapitres/12-04-le-marketing-nest-pas-de-la-decoration.html
@@ -27,17 +27,17 @@ L'équipe a conçu un service. Au moment de le présenter, elle cherche encore �
 
 ## Le réflexe builder
 
-Fais entrer les questions de destinataire, d'usage et de choix dans la conception, avec les personnes qui connaissent ces sujets.
+Fais entrer les questions de destinataire, d'alternative et de promesse dans la conception, dès le début.
 
 ## Pourquoi
 
-Le marketing contribue à comprendre pour qui une offre est pertinente et pourquoi une personne pourrait la choisir. Les textes, le design et les canaux rendent ensuite cette proposition perceptible. Ces travaux se nourrissent mutuellement ; leur valeur ne dépend pas d'une hiérarchie entre réflexion et exécution. "les commerçants" désigne un groupe très large. "La personne qui rapproche le stock et les ventes à la fermeture" décrit une situation à examiner. Il reste à vérifier ses outils, ses contraintes et les raisons qui lui feraient changer une habitude.
+Le marketing ne commence pas quand le produit est fini. Il répond aux questions qui décident du produit : pour qui, à la place de quoi, et pourquoi le choisir. Les textes, le design et les canaux viennent ensuite rendre cette réponse visible.
 
-Une description précise aide à poser des choix : quels besoins traiter, quels usages ne pas couvrir pour l'instant, quelles preuves montrer. Elle ne garantit pas une adoption. Le prix, l'accès, la confiance et le coût du changement peuvent compter autant que la présentation.
+"Les commerçants" est un groupe trop large pour décider quoi que ce soit. "La personne qui rapproche le stock et les ventes à la fermeture" est une situation que tu peux aller voir. Plus la description est précise, plus les choix deviennent faciles : quels besoins traiter, lesquels laisser, quelles preuves montrer.
 
-Si les personnes chargées du marketing découvrent le produit seulement à la fin, certaines de leurs informations arrivent trop tard pour éclairer ces choix. Les associer plus tôt n'impose pas une grande réunion permanente : un échange sur une question décisive peut suffire.
+Si l'équipe marketing découvre le produit à la fin, ce qu'elle sait arrive trop tard. Une conversation sur une question décisive, au début, suffit souvent.
 
-Sans activité commerciale, les mêmes questions aident à présenter un atelier, une ressource ou un service interne. Pour un débutant, préciser une personne et une situation constitue déjà un progrès. Un praticien expérimenté peut vérifier si son offre reste adaptée lorsque les usages changent.
+Sans activité commerciale, les mêmes questions servent à présenter un atelier, une ressource ou un service interne.
 
 ## À essayer
 
@@ -48,7 +48,7 @@ Réponds brièvement à quatre questions :
 > Quel changement utile, avec quelles limites ?
 > Pourquoi essayer maintenant, ou pourquoi attendre ?
 
-Compare tes réponses avec celles d'un pair ou d'une personne concernée. Distingue les différences de vocabulaire des désaccords sur le besoin. Choisis une hypothèse à vérifier sur le prochain échange ou essai, puis ajuste la promesse selon le retour.
+Compare tes réponses avec celles d'un collègue ou d'une personne concernée. Choisis une hypothèse à vérifier au prochain échange, et ajuste la promesse selon ce que tu entends.
 
 ## Depuis ton siège
 

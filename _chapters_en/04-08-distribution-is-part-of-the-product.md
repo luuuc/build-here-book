@@ -15,44 +15,42 @@ categories:
 traductions:
   fr: /livre/chapitres/04-08-la-distribution-fait-partie-du-produit.html
 seo:
-  description: "Prepare and check a route to use, suited to the recipients, to the conditions of access, and to the project's means."
+  description: "A service nobody finds does not exist. Draw the route to the first use while you build."
   keywords: "build here, visibility, builder, distribution, product"
 ---
 
 ## The reflex
 
-The service takes shape. How the people it is for will find out about it and start using it stays a question for later.
+The service is taking shape. How people will discover it and start using it, we will see after launch.
 
 ## The builder's reflex
 
-Draw a plausible route from the need to the first useful use, then check the steps you assumed.
+Draw the route from the need to the first useful use now, and check it while you build.
 
 ## Why
 
-A service can be useful to a small group without going after a wide audience. Its intended users still have to know it exists, understand what it is for, and be able to reach it. For an internal tool, that may run through a handover. For a community group, through the people who welcome new members. Examining that route early helps you design the first use. A link received by message and opened on a limited connection needs a suitable entry point. Someone arriving after a demonstration may have different questions. Those situations can be checked; they cannot be deduced from a user's country or job title alone.
+A service nobody finds does not exist. The best internal tool goes unused if nobody presented it. The best offer fails if customers never hear about it. Distribution is not what comes after the product. It is part of the product.
 
-Routes can include a recommendation, a partner, a search, an accompanied sale, or a publication. No channel is compulsory for every project. Choose according to the people you are aiming at, the time available, and the relationship you can sustain.
+The route decides the shape. A link received by message and opened on a phone with a weak connection needs a different entry point than an in-room demo. If you do not know where people arrive from, you are building for an imaginary arrival.
 
-Inside an organisation, the person you present to is not always the one who authorises the use. Understanding that step helps you prepare a suitable explanation or trial. It does not justify collecting more personal information than necessary, or multiplying the approaches.
+The possible routes: a recommendation, a partner, a search, an accompanied sale, a publication, a presentation to the team next door. Choose according to the people you are aiming at, and start early: every channel takes time to produce.
 
-Distribution takes work: arranging a demonstration, answering questions, training whoever takes over. Make that effort visible inside the project's remit. A small experiment can be enough to find a difficulty before you invest further.
+Distribution is work: demonstrating, answering, training someone to carry it on. If that work is not planned, it does not get done.
 
 ## Try this
 
-On one page, describe a route:
+On one page, describe the route:
 
 > Where does the person hear about the service? What do they understand? How do they try it? Who helps if they get stuck?
 
-Mark the steps you assumed. With the agreement of the people concerned, check the most uncertain one in a bounded trial. With no product, do it for an activity or a resource you want to make reachable.
-
-After the trial, watch where the person moved, hesitated, or gave up, and why if they are willing to say. Adjust the route before you go looking for more visitors.
+Mark the steps you are assuming. Test the most uncertain one this week, with three people. See where they move, hesitate or give up. Fix the route before you look for more people.
 
 ## From where you sit
 
 - **Engineering**: check the first use under the intended conditions of access.
-- **Marketing**: choose a channel according to the recipients and the means available.
+- **Marketing**: choose the channel according to the recipients, and open it before launch.
 - **Operations**: prepare the handover between discovery and service actually delivered.
-- **Management**: count the time spent supporting people inside the project's effort.
+- **Management**: count the time spent supporting people in the project, from day one.
 
 ## To discuss
 

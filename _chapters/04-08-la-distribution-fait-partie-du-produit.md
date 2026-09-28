@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/04-08-distribution-is-part-of-the-product.html
 seo:
-  description: "Prépare et vérifie un chemin vers l'usage, adapté aux destinataires, aux conditions d'accès et aux moyens du projet."
+  description: "Un service que personne ne trouve n'existe pas. Trace le chemin vers le premier usage pendant que tu construis."
   keywords: "build here, visibilite, builder, distribution, fait, partie, produit"
 redirect_from:
   - /livre/chapitres/12-02-la-distribution-fait-partie-du-produit.html
@@ -24,38 +24,36 @@ redirect_from:
 
 ## Le réflexe
 
-Le service prend forme. La manière dont les personnes concernées vont le découvrir et commencer à l'utiliser reste une question pour plus tard.
+Le service prend forme. Comment les gens vont le découvrir et commencer à s'en servir, on verra après le lancement.
 
 ## Le réflexe builder
 
-Trace un chemin plausible entre le besoin et le premier usage utile, puis vérifie les passages que tu as supposés.
+Trace dès maintenant le chemin entre le besoin et le premier usage utile, et vérifie-le pendant que tu construis.
 
 ## Pourquoi
 
-Un service peut être utile à un petit groupe sans chercher une large audience. Il faut néanmoins que ses destinataires sachent qu'il existe, comprennent à quoi il sert et puissent y accéder. Pour un outil interne, cela peut passer par une passation. Pour une association, par les personnes qui accueillent les nouveaux membres. Examiner ce chemin tôt aide à concevoir le premier usage. Un lien reçu par messagerie et ouvert avec une connexion limitée demande une entrée adaptée. Une personne qui arrive après une démonstration peut avoir d'autres questions. Ces situations se vérifient ; elles ne se déduisent pas du seul pays ou du métier de l'utilisateur.
+Un service que personne ne trouve n'existe pas. Le meilleur outil interne reste inutilisé si personne ne l'a présenté. La meilleure offre échoue si les clients n'en entendent jamais parler. La distribution n'est pas ce qu'on fait après le produit. C'est une partie du produit.
 
-Les chemins peuvent inclure une recommandation, un partenaire, une recherche, une vente accompagnée ou une publication. Aucun canal n'est obligatoire pour tous les projets. Choisis selon les personnes visées, le temps disponible et la relation que tu peux entretenir.
+Le chemin décide de la forme. Un lien reçu par messagerie et ouvert sur un téléphone avec une petite connexion demande une autre entrée qu'une démonstration en salle. Si tu ne sais pas par où les gens arrivent, tu construis pour un arrivant imaginaire.
 
-Dans une organisation, le destinataire de la présentation n'est pas toujours celui qui autorise l'usage. Comprendre ce passage aide à préparer une explication ou un essai adapté. Cela ne justifie pas de collecter plus d'informations personnelles que nécessaire ni de multiplier les sollicitations.
+Les chemins possibles : une recommandation, un partenaire, une recherche, une vente accompagnée, une publication, une présentation à l'équipe voisine. Choisis selon les personnes visées, et commence tôt : chaque canal met du temps à produire.
 
-La distribution demande du travail : organiser une démonstration, répondre aux questions, former un relais. Rends cet effort visible dans le périmètre du projet. Une petite expérience peut suffire à découvrir une difficulté avant d'investir davantage.
+La distribution est du travail : démontrer, répondre, former un relais. Si ce travail n'est pas prévu, il n'est pas fait.
 
 ## À essayer
 
-Sur une page, décris un chemin :
+Sur une page, décris le chemin :
 
 > Où la personne entend-elle parler du service ? Que comprend-elle ? Comment essaie-t-elle ? Qui l'aide si elle bloque ?
 
-Marque les passages supposés. Avec l'accord des personnes concernées, vérifie le plus incertain sur un essai limité. Sans produit, fais-le pour une activité ou une ressource que tu souhaites rendre accessible.
-
-Après l'essai, observe où la personne a avancé, hésité ou renoncé, et pourquoi si elle accepte de l'expliquer. Ajuste le chemin avant de chercher davantage de visiteurs.
+Marque les passages que tu supposes. Teste le plus incertain cette semaine, avec trois personnes. Regarde où elles avancent, hésitent ou abandonnent. Corrige le chemin avant de chercher plus de monde.
 
 ## Depuis ton siège
 
 - **Ingénierie** : vérifie le premier usage dans les conditions d'accès visées.
-- **Marketing** : choisis un canal selon les destinataires et les moyens disponibles.
+- **Marketing** : choisis le canal selon les destinataires, et ouvre-le avant le lancement.
 - **Opérations** : prépare le relais entre découverte et service réellement rendu.
-- **Management** : compte le temps d'accompagnement dans l'effort du projet.
+- **Management** : compte le temps d'accompagnement dans le projet, dès le début.
 
 ## À discuter
 

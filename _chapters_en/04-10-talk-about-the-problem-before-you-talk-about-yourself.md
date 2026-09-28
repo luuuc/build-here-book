@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/04-10-parle-du-probleme-avant-de-parler-de-toi.html
 seo:
-  description: "Present a situation you have checked, then the proposal and its evidence, at a level of detail that fits and can be shared."
+  description: "Nobody reads your story before knowing you are talking about their problem. Open with a true situation they recognise."
   keywords: "build here, visibility, builder, problem, presentation"
 ---
 
@@ -24,25 +24,23 @@ A presentation opens with the organisation's history, its team and its tools. Th
 
 ## The move
 
-Open with a situation your recipient recognises, then explain your proposal, its limits, and the reasons to trust it.
+Open with a situation your recipient recognises, then explain your proposal, its limits, and the reasons to trust you.
 
 ## Why it works
 
-A precise situation helps people work out who a proposal is for. It gives the conversation a starting point: is that really the problem you meet, under those conditions, with that consequence? "Every evening you retype the orders that came in by message into a spreadsheet" describes a use more concretely than "optimise your operations". But that sentence only works if you have observed or checked the situation with the people you are aiming at. Do not invent their day to manufacture a flash of recognition.
+Nobody reads your story before knowing whether you are talking about their problem. "Every evening you retype the orders that came in by message into a spreadsheet" stops the reader. "Optimise your operations" lets them scroll past. The person concerned recognises themselves in three seconds.
 
-Precision does not replace evidence. Knowing a problem does not show you can solve it. Then show a verified result, a demonstration, or a trial they could run. Present what has not yet been observed as expected, not as done.
+That sentence only works if it is true. Write it from what you saw or heard from the people you are aiming at. An invented situation is spotted as fast as a real one.
 
-Depending on the recipient, the team, the references or the technical detail may be necessary to establish trust. Give them the room their decision calls for, without cutting them on principle. An invitation to a workshop may also have to say who is running it and under what conditions.
+Then show you can solve the problem: a result, a demonstration, a trial they could run. Say clearly what is proven and what is expected.
 
-The level of detail has to stay shareable. A sentence that makes someone uncomfortable may reveal private information rather than good understanding. Use an authorised example, or a clearly constructed one, without assuming that removing a name is enough to make it publishable.
+The team, the references and the technical detail have their place, after. For some recipients they decide the trust. They do not replace the opening.
 
 ## Try this
 
-Choose a page, an invitation or a presentation. Rewrite its opening with a situation, a proposal and a limit. You do not have to publish: a draft shown in private is enough to start.
+Choose a page, an invitation or a presentation. Rewrite its opening: a situation, a proposal, a limit. An AI can give you ten versions in a minute; keep the one closest to what you actually heard.
 
-Ask someone affected what they understand, who they think it is for, and what they are missing in order to decide. Do not go looking only for their approval.
-
-After the feedback, correct one misunderstanding. If the presentation gets used, watch whether the questions that follow are about the right need; a wording test does not on its own prove the service is worth anything.
+Show it to someone affected. Ask what they understand and who they think it is for. Fix the misunderstanding.
 
 ## From where you sit
 

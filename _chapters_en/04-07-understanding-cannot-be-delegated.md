@@ -15,44 +15,42 @@ categories:
 traductions:
   fr: /livre/chapitres/04-07-la-comprehension-ne-se-delegue-pas.html
 seo:
-  description: "Understand the dependencies your decision needs, with the specialists' help, without mistaking understanding for control."
+  description: "Delegate the work, yes. Delegate the understanding, no: without it, you sign what you are shown."
   keywords: "build here, technology and business, builder, understanding, delegation"
 ---
 
 ## The reflex
 
-You hand the building over to competent people. To make a decision, you are still missing a view of the dependencies, the risks and the options.
+You hand the building over to competent people. When it is time to decide, you see neither the dependencies, nor the risks, nor the options.
 
 ## The builder's reflex
 
-Ask for enough explanation to exercise your responsibility, without having to become a specialist in every craft.
+Ask for enough explanation to decide with your eyes open. Not to become a specialist.
 
 ## Why
 
-Trusting and understanding reinforce each other. An explanation pitched right lets you ask useful questions, recognise an uncertainty, and decide when further expertise is needed. You do not need to check every estimate yourself. Ask what it covers, what assumptions it rests on, and what could change it. The aim is to understand the commitment, not to hunt for hidden padding or contest a craft on instinct.
+Delegate the work, yes. Delegate the understanding, no. If you decide without understanding, you are not deciding: you are signing what you are shown.
 
-A team is thinking of changing payment provider. The headline price is lower, but the replacement also touches which payment methods are available, reconciliation, and refunds. Walking the flow makes those dependencies visible before you choose.
+A team is thinking of changing payment provider. The price is lower. But the switch also touches which payment methods are accepted, reconciliation, and refunds. An hour walking the flow with the person who knows it brings those dependencies out before you sign.
 
-This need does not belong only to leadership. Someone organising an event has to understand how a sign-up becomes an actual welcome. Someone supporting a project can ask what their help makes possible and what limits remain.
+You do not need to check every estimate. Ask what it covers, what it rests on, and what could move it. An AI can explain the vocabulary before the walk-through, so the hour goes to the real questions.
 
-The time it takes depends on the subject and on what you know. Start from a real decision rather than a course on the whole system. Respect the preparation time and the information you are allowed to reach. Understanding more does not grant you a right to step into every detail.
+This is not only for leadership. Someone organising an event has to understand how a sign-up becomes an actual welcome.
 
 ## Try this
 
-Arrange a guided walk through one flow with someone who knows it. Agree the duration, the purpose, and a case you can share.
+Ask someone who knows a flow to walk you through it. Start from a real decision:
 
 > "From the need to the service delivered, which steps matter for this decision? Where are the dependencies and the unknowns?"
 
-Say the flow back in your own words and have the errors corrected. Then choose one implication for the decision. Afterwards, check whether the walk helped you avoid a false assumption or organise what followed.
-
-A beginner can start with a single step and ask for the words needed to describe it.
+Say the flow back in your own words and have the errors corrected. Then pick one consequence for your decision.
 
 ## From where you sit
 
 - **Engineering**: explain the dependencies the decision needs, without imposing all the vocabulary.
 - **Finance**: ask what the cost covers and which assumptions are still open.
 - **Customer relations**: check the real flow behind the promise of service.
-- **Management**: set time aside for the explanation, and respect other people's area of decision.
+- **Management**: set time aside for the explanation, then let the people who know decide.
 
 ## To discuss
 

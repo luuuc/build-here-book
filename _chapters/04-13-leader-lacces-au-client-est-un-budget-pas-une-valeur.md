@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/04-13-customer-access-is-a-budget-not-a-value.html
 seo:
-  description: "Prévois temps, consentement et accès adaptés pour apprendre des usages, avec des alternatives au contact direct."
+  description: "Sans temps financé pour parler aux clients, l'équipe construit pour un client imaginé. Rends le chemin simple et connu."
   keywords: "build here, builder, acces, terrain, consentement, retours"
 redirect_from:
   - /livre/chapitres/11-05-leader-lacces-au-client-est-un-budget-pas-une-valeur.html
@@ -24,37 +24,37 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Tu souhaites que l'équipe comprenne mieux les usages. Une personne demande un exemple ou un échange client, mais le chemin pour l'obtenir reste incertain.
+Tu veux que l'équipe comprenne mieux les clients. Quelqu'un demande à parler à un client. Personne ne sait comment faire.
 
 ## Ce que le système entend
 
-Si chaque demande nécessite de reconstruire les accords, la préparation et les accès, apprendre du terrain devient difficile à planifier.
+> "Si chaque échange avec un client demande trois autorisations, je vais m'en passer."
 
 ## Ce que ça produit
 
-Un accès utile demande des moyens et un cadre. Les personnes chargées de la relation client peuvent organiser les échanges, expliquer le contexte et éviter des sollicitations répétées. Elles ne sont pas un obstacle à contourner. Certains accès doivent rester limités : les dossiers peuvent contenir des informations personnelles, confidentielles ou sans rapport avec la question étudiée. Ouvrir toute la file de support à toute l'équipe n'est pas la seule façon d'apprendre. Des cas préparés, un accès adapté ou une observation accompagnée peuvent suffire.
+L'accès aux clients coûte du temps : organiser, préparer, suivre. Si personne ne finance ce temps, l'équipe apprend le terrain par les tickets et par ce que le commercial raconte. Elle construit alors pour un client imaginé.
 
-Le contact direct demande le consentement des personnes et du temps de préparation. Clarifie le but, la durée, ce qui sera noté et ce qui peut être promis. L'accompagnement nécessaire dépend de l'expérience et du contexte ; un premier appel ne garantit pas que toute aide devient inutile ensuite.
+Les personnes qui tiennent la relation client sont la porte, pas le mur. Elles savent qui accepterait d'en parler, quand, et comment éviter de solliciter dix fois le même client. Donne-leur le temps de le faire.
 
-Pour développer l'équipe, rends ce chemin compréhensible et prévois le temps des personnes qui l'organisent. Si tu soutiens le projet sans décider des accès, tu peux aider à formuler la demande ou proposer une introduction acceptée des deux côtés.
+Des cas préparés, une heure d'écoute au support, un appel à trois : il y a plusieurs façons d'apprendre. Choisis la plus simple qui répond à la question.
 
-Ne déduis pas le manque de curiosité du nombre d'appels effectués. Une personne peut disposer de bons retours par d'autres voies ou rencontrer des contraintes réelles. Ce qui compte est de savoir quelle question a été éclairée et ce qui reste incertain.
+Rends le chemin simple et connu : qui demander, en combien de temps, pour quoi. Une équipe qui sait comment parler à un client le fait.
 
 ## La décision
 
-→ Choisis avec la relation client une question utile et le moyen le moins contraignant de l'éclairer : cas préparé, observation ou échange volontaire.
-→ Précise qui organise, les accords nécessaires et le temps réservé. Donne aux débutants un accompagnement adapté.
-→ Après un premier essai, vérifie ce que l'équipe a appris, l'effort demandé aux participants et ce qu'il faut ajuster.
+→ Avec la relation client, fixe un chemin simple : qui organise, en combien de temps, et comment.
 
-Si l'accès n'est pas possible, nomme cette limite dans la décision plutôt que de la remplacer par une certitude. Convenez d'une autre source ou d'un choix plus prudent.
+→ Réserve le temps de ceux qui organisent autant que de ceux qui parlent.
+
+→ Un mois après, regarde combien d'échanges ont eu lieu et ce qu'ils ont changé dans les décisions.
 
 ## Depuis ton siège
 
-- **Relation client** : prépare des accès utiles, acceptés et compatibles avec les engagements.
+- **Relation client** : prépare des accès simples, acceptés par les clients.
 - **Design** : précise la question et les informations nécessaires avant de demander un accès.
 - **Management** : réserve du temps à l'organisation autant qu'à l'échange.
 - **Support** : propose des cas avec leur contexte et les limites de ce qu'ils représentent.
 
 ## À discuter
 
-Quel chemin permet aujourd'hui d'éclairer une question d'usage, et où avons-nous besoin de temps ou d'un accord ?
+Combien d'entre nous ont parlé à un client ce mois-ci, et qu'est-ce qui en empêche les autres ?

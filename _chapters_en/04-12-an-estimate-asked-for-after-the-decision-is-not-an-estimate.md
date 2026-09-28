@@ -15,7 +15,7 @@ categories:
 traductions:
   fr: /livre/chapitres/04-12-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html
 seo:
-  description: "Have options, costs and unknowns examined before a promise, and plan how to adjust a commitment already made."
+  description: "An estimate asked for after the promise is a request for confirmation. Ask for the options before you promise."
   keywords: "build here, builder, commitment, cost, estimate, options"
 redirect_from:
   - /book/chapters/04-12-bring-the-cost-in-before-the-commitment.html
@@ -23,29 +23,29 @@ redirect_from:
 
 ## What you are asking for
 
-A commitment is announced, then the team who has to deliver it is invited to estimate the work. Whether the scope or the date can still be adjusted is not stated.
+A commitment is announced to the customer. Then the team that has to deliver it is asked to estimate it.
 
 ## What the system hears
 
-If the promise already looks final, the estimate can be received as an expected confirmation rather than as information for deciding.
+> "The date is already promised. They want a yes from us."
 
 ## What that produces
 
-Building can reveal a dependency, a smaller solution, or a capability already available. Bringing that information in before the commitment widens the options and helps avoid promises that are hard to keep. It does not require a detailed estimate for every idea. The depth should follow the risk, the uncertainty, and the cost of going back. A first comparison can be enough to choose what to explore. A significant commitment may call for a trial or further analysis.
+An estimate asked for after the promise is not an estimate. It is a request for confirmation. The team knows it, and either answers what is expected or keeps quiet.
 
-The contribution expected has to be clear: options, order of magnitude, assumptions, unknowns, and effects on running the service. The people who know the technology, the operations, the customer relationship or the costs can each bring something decisive. No craft should be reduced to confirming a decision that is already closed.
+The people who build see what the promise ignores: a dependency, a smaller version that would do, a capability already available. That information is worth a lot before the commitment, and almost nothing after.
 
-Not all commitments are made in meetings. A call or a message thread can commit as much as a formal document. Whoever answers has to know what they can confirm and what is still subject to checking.
+You do not need a detailed estimate for every idea. An order of magnitude, the assumptions and the unknowns are often enough. The heavier the commitment, the deeper the look it deserves.
 
-If the promise already exists, an estimate is still useful. It lets you organise the delivery or renegotiate. Presenting its late arrival as the team's fault does not help handle the gap; the gap has to be made visible and the next step decided.
+A call or a message commits as much as a contract. If you promise on the phone, you decided without the team. If the promise already exists, the estimate is still useful: it measures the gap. Deal with the gap, without making it the team's fault.
 
 ## The decision
 
-→ For an upcoming commitment, have the options and unknowns examined by the people concerned before you confirm a date, a cost or a scope.
-→ If you have to answer earlier, separate what is confirmed from what still depends on a check, and say when you will come back.
-→ At the next review, compare the assumptions to what was learned, and adjust the commitment if needed.
+→ Before you confirm a date, a cost or a scope, ask the people who will build it for the options and the unknowns.
 
-Start with a recent case, to see at what moment the information would have helped. Plan the time that check needs in the next comparable case.
+→ If you have to answer sooner, say what is confirmed, what is not, and when you will come back.
+
+→ After delivery, compare the assumptions to reality, and adjust how you promise.
 
 ## From where you sit
 

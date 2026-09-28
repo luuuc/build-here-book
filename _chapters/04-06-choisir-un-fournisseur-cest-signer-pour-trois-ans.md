@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/04-06-choosing-a-vendor-is-signing-up-for-three-years.html
 seo:
-  description: "Examine le coût, les dépendances et les conditions de sortie d'un fournisseur avec les personnes concernées."
+  description: "Le vrai prix d'un fournisseur, c'est ce qu'il coûte le jour où tu veux partir. Calcule-le avant de signer."
   keywords: "build here, builder, fournisseur, cout, dependance, sortie"
 redirect_from:
   - /livre/chapitres/10-02-choisir-un-fournisseur-cest-signer-pour-trois-ans.html
@@ -24,7 +24,7 @@ redirect_from:
 
 ## Le réflexe
 
-Un outil ou un prestataire répond au besoin immédiat. Son coût dans la durée et les conditions de remplacement restent encore à examiner avec les personnes concernées.
+Un outil ou un prestataire répond au besoin immédiat. On signe. Son coût dans trois ans et le prix pour en sortir, personne ne les a regardés.
 
 ## Le réflexe builder
 
@@ -32,23 +32,23 @@ Un outil ou un prestataire répond au besoin immédiat. Son coût dans la durée
 
 ## Pourquoi
 
-Certains choix techniques pèsent directement sur les résultats financiers et sur la possibilité de changer de direction plus tard. Un service facturé au message peut devenir plus coûteux avec le volume, alors qu'il est déjà intégré à l'inscription, aux rappels et aux reçus. Le même raisonnement vaut pour un prestataire de livraison ou un outil utilisé par une association.
+Un service facturé au message coûte peu au lancement. Deux ans plus tard, il est câblé dans l'inscription, les rappels et les reçus, le volume a triplé, et changer prendrait six mois. Le vrai prix d'un fournisseur, c'est ce qu'il coûte le jour où tu voudrais partir.
 
-La devise peut aussi compter. Si un fournisseur facture en dollars alors que tes recettes sont dans une autre monnaie, le coût peut varier avec le taux de change. Dans ce cas, le choix du fournisseur crée une dépendance supplémentaire à examiner. Cette exposition fait partie des hypothèses à examiner avec les personnes qui suivent le budget, sans présumer du sens de la variation.
+La devise compte aussi. Un fournisseur qui facture en dollars quand tes recettes sont dans une autre monnaie te fait porter le risque de change. Mets-le dans le calcul.
 
-Tous les choix ne méritent pas ce traitement. Adapte l'effort à la dépendance, au coût de sortie et aux conséquences d'une interruption. Même un petit outil peut demander du temps pour exporter les données, former les utilisateurs ou vérifier le remplacement.
+Tous les choix ne méritent pas cette analyse. Un petit outil qu'on remplace en une journée, non. Ce qui porte tes clients, tes données ou tes paiements, oui.
 
-Les personnes qui utilisent, intègrent, paient et maintiennent le service apportent des informations différentes. Associe-les selon le choix envisagé.
+Ceux qui utilisent, intègrent, paient et maintiennent le service voient chacun un risque différent. Demande-leur avant de signer.
 
 ## À essayer
 
-Pour un choix à venir, prépare trois lignes avec les informations disponibles. Si tu débutes, demande de l'aide pour lire les tarifs et les conditions d'export. N'engage pas de dépense sans le mandat nécessaire.
+Pour un choix à venir, écris trois lignes :
 
-> Coût au volume actuel et dans un scénario de hausse, avec devise et hypothèses : ...
-> Conséquences d'une hausse de prix ou d'une interruption, et solution de secours : ...
-> Travail de sortie : données, intégrations, formation, temps et personnes nécessaires : ...
+> Coût au volume actuel et avec trois fois plus de volume, avec la devise : ...
+> Ce qui se passe en cas de hausse de prix ou de panne, et la solution de secours : ...
+> Le travail pour en sortir : données, intégrations, formation, temps : ...
 
-Partage-les avant de signer. Prévois une revue au renouvellement ou si une hypothèse importante change. Quand c'est possible, vérifie un export ou un remplacement limité avant de conclure que la sortie sera simple.
+Partage-les avant de signer. Teste un export de tes données dès la première semaine. Si c'est difficile maintenant, ce sera pire dans trois ans.
 
 ## Depuis ton siège
 

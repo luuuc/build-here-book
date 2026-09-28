@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/04-11-an-audience-takes-longer-to-build-than-a-product.html
 seo:
-  description: "Prépare des échanges adaptés avant le lancement, sans imposer une audience publique ni un calendrier universel."
+  description: "Un produit se construit en semaines, une audience en mois. Commence à partager le jour où tu commences à construire."
   keywords: "build here, builder, distribution, premiers utilisateurs, retours"
 redirect_from:
   - /livre/chapitres/12-01-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html
@@ -23,37 +23,35 @@ redirect_from:
 
 ## Le réflexe
 
-Le lancement approche. L'équipe découvre qu'elle n'a pas encore de chemin clair pour joindre les premières personnes concernées et recueillir leurs retours.
+Le lancement approche. L'équipe se rend compte qu'elle ne sait pas comment joindre les premières personnes concernées.
 
 ## Le réflexe builder
 
-Prépare ce lien pendant la construction, par un canal adapté. Une audience publique est une possibilité parmi d'autres.
+Commence à parler aux personnes concernées le jour où tu commences à construire. Partage ce que tu fais pendant que tu le fais.
 
 ## Pourquoi
 
-La confiance et l'attention demandent parfois plusieurs échanges. Leur durée dépend du sujet, des personnes, du canal et des relations existantes. Aucun calendrier de publication ne garantit qu'un groupe attendra ton lancement. Un contact précoce peut éclairer la construction. Une personne montre une autre façon de résoudre le problème, pose une question sur l'accès ou accepte un essai. Ces retours peuvent être utiles avant qu'une solution soit complète, à condition de présenter honnêtement ce qui fonctionne déjà.
+Un produit se construit en quelques semaines. La confiance d'un groupe de personnes prend des mois. Si tu commences à les chercher le jour du lancement, tu lances devant une salle vide.
 
-Publier peut permettre de rencontrer des personnes au-delà de son cercle. Mais un partenariat, une démonstration privée, un réseau professionnel ou une passation interne peuvent mieux convenir. Un service destiné à quelques utilisateurs connus n'a pas besoin de devenir un média. Chaque voie a un coût. Écrire demande de préparer, de relire et parfois d'obtenir des accords. Organiser des échanges demande de trouver des créneaux et de donner une suite. Prévois ce temps dans le projet plutôt que de l'ajouter automatiquement aux soirées d'une personne.
+Partager pendant la construction coûte peu et rapporte deux fois. Tu trouves tes premiers utilisateurs, et ils corrigent ce que tu construis. Une personne montre une autre façon de résoudre le problème, pose une question sur l'accès, accepte un essai. Tu apprends tout ça avant d'avoir fini.
 
-Choisis aussi ce qui peut être partagé. Des contraintes de confidentialité, de concurrence ou de maturité du projet peuvent justifier un essai privé ou une attente. On peut décrire un besoin sans exposer des informations qui ne nous appartiennent pas.
+Publier n'a jamais été aussi simple : un message, une note, une courte vidéo, le compte rendu de ce que tu as essayé cette semaine. Dis honnêtement ce qui marche et ce qui ne marche pas encore. C'est justement ce qui intéresse.
 
-Pour débuter, une personne volontaire et une question précise suffisent. Pour progresser, examine si tes contacts actuels couvrent les usages qui t'intéressent ou seulement ceux qui te sont familiers.
+Le canal dépend des personnes : un réseau professionnel, un groupe de messagerie, une association, une équipe voisine, un partenaire. Pour un outil interne, l'audience, c'est l'équipe qui s'en servira. Le principe ne change pas : commence avant d'en avoir besoin.
 
 ## À essayer
 
-Choisis un destinataire, un canal et un effort limité : un échange, une démonstration ou un texte si c'est pertinent. Précise ce que tu veux apprendre et ce que tu peux montrer.
+Cette semaine, partage ce que tu construis avec cinq personnes concernées, par le canal qu'elles utilisent déjà. Dis ce que tu veux apprendre et ce que tu peux déjà montrer.
 
-Après cet essai, regarde qui a réellement été joint, ce qui a été compris et quelle suite a été acceptée. Compare cet effet au temps consacré avant de répéter, modifier ou arrêter.
-
-Le nombre de publications ou d'abonnés ne suffit pas à établir qu'un lancement est prêt.
+Recommence la semaine suivante. Au bout d'un mois, regarde qui répond, qui a essayé, et ce qui a changé dans ce que tu construis.
 
 ## Depuis ton siège
 
-- **Produit** : cherche un retour utile pendant la construction, sans promettre un produit fini.
-- **Marketing** : compare plusieurs chemins, dont les échanges et les relais existants.
-- **Management** : prévois le temps de préparation et de suivi dans la charge de travail.
+- **Produit** : montre le travail en cours aux premiers utilisateurs, avec ses limites.
+- **Marketing** : ouvre le canal avant le lancement, pas le jour du lancement.
+- **Management** : compte ce temps dans le projet.
 - **Relation client** : propose des essais aux personnes volontaires et organise leur suite.
 
 ## À discuter
 
-Quel premier lien avec les destinataires serait utile à notre projet, et quel effort pouvons-nous y consacrer ?
+Qui sait aujourd'hui que nous construisons ceci, et qui devrait le savoir avant le lancement ?

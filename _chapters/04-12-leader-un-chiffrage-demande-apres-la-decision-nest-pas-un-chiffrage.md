@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/04-12-an-estimate-asked-for-after-the-decision-is-not-an-estimate.html
 seo:
-  description: "Fais examiner options, coûts et inconnues avant une promesse, et prévois comment ajuster un engagement déjà pris."
+  description: "Une estimation demandée après la promesse est une demande de confirmation. Demande les options avant de promettre."
   keywords: "build here, builder, engagement, cout, estimation, options"
 redirect_from:
   - /livre/chapitres/10-05-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html
@@ -24,29 +24,29 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Un engagement est annoncé, puis l'équipe chargée de le réaliser est invitée à estimer le travail. La possibilité d'ajuster le périmètre ou la date n'est pas précisée.
+Un engagement est annoncé au client. Ensuite, l'équipe qui doit le réaliser est invitée à l'estimer.
 
 ## Ce que le système entend
 
-Si la promesse semble déjà définitive, l'estimation peut être reçue comme une confirmation attendue plutôt que comme une information pour décider.
+> "La date est déjà promise. On attend de nous un oui."
 
 ## Ce que ça produit
 
-La réalisation peut révéler une dépendance, une solution plus petite ou une capacité déjà disponible. Faire entrer ces informations avant l'engagement élargit les options et aide à éviter des promesses difficiles à tenir. Cela ne demande pas une estimation détaillée pour chaque idée. La profondeur doit suivre le risque, l'incertitude et le coût de retour. Une première comparaison peut suffire pour choisir ce qu'il faut explorer. Un engagement important peut demander un essai ou une analyse supplémentaire.
+Une estimation demandée après la promesse n'est pas une estimation. C'est une demande de confirmation. L'équipe le sait, et elle répond ce qu'on attend d'elle, ou elle se tait.
 
-La contribution attendue doit être claire : options, ordre de grandeur, hypothèses, inconnues et effets sur le fonctionnement. Les personnes qui connaissent la technique, les opérations, la relation client ou les coûts peuvent chacune apporter un élément décisif. Aucun métier ne doit être réduit à confirmer une décision déjà fermée.
+Ceux qui construisent voient ce que la promesse ignore : une dépendance, une version plus petite qui suffirait, une capacité déjà disponible. Cette information vaut beaucoup avant l'engagement, et presque rien après.
 
-Les engagements ne se prennent pas tous en réunion. Un appel ou un échange de messages peut engager autant qu'un document formel. La personne qui répond doit savoir ce qu'elle peut confirmer et ce qui reste soumis à vérification.
+Pas besoin d'un chiffrage détaillé pour chaque idée. Un ordre de grandeur, les hypothèses et les inconnues suffisent souvent. Plus l'engagement est lourd, plus l'examen mérite d'être poussé.
 
-Si la promesse existe déjà, une estimation reste utile. Elle permet d'organiser la réalisation ou de renégocier. Présenter son arrivée tardive comme une faute de l'équipe n'aide pas à traiter l'écart ; il faut rendre celui-ci visible et décider de la suite.
+Un appel ou un message engage autant qu'un contrat. Si tu promets au téléphone, tu as décidé sans l'équipe. Si la promesse existe déjà, l'estimation reste utile : elle mesure l'écart. Traite l'écart, sans en faire la faute de l'équipe.
 
 ## La décision
 
-→ Pour un engagement à venir, fais examiner les options et les inconnues par les personnes concernées avant de confirmer date, coût ou périmètre.
-→ Si tu dois répondre plus tôt, distingue ce qui est confirmé de ce qui dépend encore d'une vérification et annonce le prochain retour.
-→ À la revue suivante, compare les hypothèses à ce qui a été appris et ajuste l'engagement si nécessaire.
+→ Avant de confirmer une date, un coût ou un périmètre, demande les options et les inconnues à ceux qui construiront.
 
-Commence par un cas récent pour repérer à quel moment l'information aurait été utile. Prévois le temps nécessaire à cette vérification dans le prochain cas comparable.
+→ Si tu dois répondre avant, dis ce qui est confirmé, ce qui ne l'est pas, et quand tu reviens.
+
+→ Après la livraison, compare les hypothèses à la réalité, et ajuste ta façon de promettre.
 
 ## Depuis ton siège
 

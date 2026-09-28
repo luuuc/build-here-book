@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/04-09-le-marketing-nest-pas-de-la-decoration.html
 seo:
-  description: "Connect knowing the recipients, designing, and presenting, without devaluing the crafts that make an offer legible."
+  description: "Marketing answers the questions that decide the product: for whom, instead of what, why choose it. Ask them at the start."
   keywords: "build here, visibility, builder, marketing, decoration"
 ---
 
@@ -24,17 +24,17 @@ The team has designed a service. When it comes to presenting it, they are still 
 
 ## The builder's reflex
 
-Bring the questions of recipient, use and choice into the design, with the people who know those subjects.
+Bring the questions of recipient, alternative and promise into the design, from the start.
 
 ## Why
 
-Marketing helps work out who an offer fits and why someone might choose it. The words, the design and the channels then make that proposal perceptible. These pieces of work feed each other; their worth does not depend on a hierarchy between thinking and executing. "retailers" names a very wide group. "The person reconciling stock and sales at closing time" describes a situation you can examine. It still has to be checked: their tools, their constraints, and the reasons they would change a habit.
+Marketing does not start when the product is finished. It answers the questions that decide the product: for whom, instead of what, and why choose it. The words, the design and the channels then make that answer visible.
 
-A precise description helps you make choices: which needs to handle, which uses not to cover for now, which evidence to show. It does not guarantee adoption. Price, access, trust and the cost of changing can count as much as the presentation.
+"Retailers" is too wide a group to decide anything. "The person reconciling stock and sales at closing time" is a situation you can go and see. The more precise the description, the easier the choices: which needs to handle, which to leave, which evidence to show.
 
-If the people doing the marketing meet the product only at the end, some of their information arrives too late to inform those choices. Involving them earlier does not mean a permanent large meeting: one exchange on a decisive question can be enough.
+If the marketing team meets the product at the end, what they know arrives too late. One conversation on a decisive question, at the start, is often enough.
 
-With no commercial activity, the same questions help you present a workshop, a resource or an internal service. For a beginner, naming one person and one situation is already progress. An experienced practitioner can check whether their offer still fits as uses change.
+With no commercial activity, the same questions help you present a workshop, a resource or an internal service.
 
 ## Try this
 
@@ -45,7 +45,7 @@ Answer four questions briefly:
 > What useful change, with what limits?
 > Why try now, or why wait?
 
-Compare your answers with a peer's, or with someone affected. Tell differences of vocabulary apart from disagreements about the need. Pick one assumption to check at the next conversation or trial, then adjust the promise according to the feedback.
+Compare your answers with a colleague's, or with someone affected. Pick one assumption to check at the next conversation, and adjust the promise to what you hear.
 
 ## From where you sit
 

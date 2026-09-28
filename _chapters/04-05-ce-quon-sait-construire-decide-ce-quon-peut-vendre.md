@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/04-05-what-you-can-build-decides-what-you-can-sell.html
 seo:
-  description: "Fais entrer les capacités de réalisation, les contraintes et les options dans la décision avant l'engagement."
+  description: "Ce que ton équipe sait construire décide ce que l'entreprise peut vendre. Fais entrer cette information avant la promesse."
   keywords: "build here, technologie et business, builder, sait, construire, decide, peut, vendre"
 redirect_from:
   - /livre/chapitres/10-01-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html
@@ -33,13 +33,13 @@ Les vraies décisions se prennent ailleurs et arrivent sous forme de tickets.
 
 ## Pourquoi
 
-Les choix de réalisation influencent les offres possibles, leur délai et leur coût. Dans un produit logiciel, la manière de gérer les prix peut faciliter ou compliquer une nouvelle tarification. Dans un service, la capacité d'accueil ou la disponibilité du matériel joue un rôle comparable. Une équipe souhaite proposer des tarifs régionaux. Le système gère aujourd'hui un seul prix. Avant de promettre une date, il faut examiner les modifications nécessaires et les solutions plus limitées qui pourraient convenir.
+Ce que ton équipe sait construire décide ce que l'entreprise peut vendre. Une équipe veut proposer des tarifs régionaux. Le système gère un seul prix. La promesse commerciale est faite ; le chantier, lui, prend trois mois. Si quelqu'un avait regardé avant, une version limitée aurait pu sortir en deux semaines.
 
-Cette information sert autant à découvrir une possibilité qu'à identifier une contrainte. Une capacité existante peut rendre une option abordable, alors que le groupe la croyait hors de portée. Inversement, un changement apparemment petit peut déplacer du travail vers le support ou la comptabilité.
+L'information sert dans les deux sens. Une capacité existante rend parfois une offre possible alors que tout le monde la croyait hors de portée. Un changement qui semble petit peut déplacer du travail vers le support ou la comptabilité. Ceux qui construisent le savent. Ceux qui vendent en ont besoin avant de promettre.
 
-Les compétences se complètent. La réalisation éclaire la faisabilité, le commerce les engagements et la demande, la finance les coûts, les opérations la continuité du service. Aucun métier ne détient seul la stratégie, et le goût de la technique ne dit rien à lui seul du jugement commercial d'une personne.
+La réalisation éclaire la faisabilité, le commerce la demande, la finance les coûts, les opérations la continuité. Aucun métier ne tient la stratégie seul. Un prestataire interne qui attend les tickets laisse la moitié de l'information hors de la décision.
 
-La bonne profondeur dépend de la décision. Il n'est pas nécessaire de transformer chaque échange en revue détaillée. Présente les options, les hypothèses et les inconnues qui changent l'arbitrage. Une estimation reste une estimation ; elle doit pouvoir être révisée quand une information arrive.
+Dans un service, c'est pareil : la capacité d'accueil, le matériel et les compétences de l'équipe décident des offres possibles.
 
 ## À essayer
 
@@ -47,9 +47,7 @@ Sur une décision à venir, prépare une contrainte et une option, avec les pers
 
 > "Cette option demande de modifier ... Une version plus limitée permettrait ... Il faut encore vérifier ..."
 
-Demande par quel canal ces informations peuvent entrer avant l'engagement. Sans accès à la réunion, transmets une note à son responsable. Pour un premier projet, compare deux façons de rendre le même service.
-
-Après l'arbitrage, vérifie quelles hypothèses ont guidé le choix et quand elles seront réexaminées. Ne promets ni délai ni budget au nom d'une autre équipe.
+Apporte-la avant l'engagement, pas après. Sans accès à la réunion, envoie la note à la personne qui décide. Après l'arbitrage, note les hypothèses qui ont guidé le choix.
 
 ## Depuis ton siège
 

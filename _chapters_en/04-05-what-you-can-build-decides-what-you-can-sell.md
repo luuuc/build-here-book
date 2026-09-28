@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/04-05-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html
 seo:
-  description: "Bring build capability, constraints and options into the decision before the commitment."
+  description: "What your team can build decides what the company can sell. Bring that information in before the promise."
   keywords: "build here, technology and business, builder, build, sell, capability"
 ---
 
@@ -30,13 +30,13 @@ The real decisions are made elsewhere and arrive as tickets.
 
 ## Why
 
-Build choices shape which offers are possible, how long they take, and what they cost. In a software product, the way prices are handled can make new pricing easy or awkward. In a service, capacity or equipment availability plays a comparable role. A team wants to offer regional pricing. The system handles a single price today. Before promising a date, someone has to examine the changes needed and the narrower solutions that might do.
+What your team can build decides what the company can sell. A team wants to offer regional pricing. The system handles a single price. The sales promise is made; the work takes three months. Had someone looked first, a narrower version could have shipped in two weeks.
 
-That information serves as much to discover a possibility as to identify a constraint. An existing capability can make an option affordable when the group thought it was out of reach. Conversely, an apparently small change can push work onto support or accounting.
+The information works both ways. An existing capability sometimes makes an offer possible when everyone thought it was out of reach. A change that looks small can push work onto support or accounting. The people who build know this. The people who sell need it before they promise.
 
-The skills complete each other. Delivery informs feasibility, sales informs commitments and demand, finance informs costs, operations informs continuity of service. No one craft holds the strategy alone, and a taste for technology says nothing on its own about a person's commercial judgement.
+Delivery informs feasibility, sales informs demand, finance informs costs, operations informs continuity. No one trade holds the strategy alone. An internal supplier waiting for tickets leaves half the information out of the decision.
 
-The right depth depends on the decision. There is no need to turn every exchange into a detailed review. Present the options, the assumptions and the unknowns that change the call. An estimate stays an estimate; it has to be revisable when information arrives.
+In a service business it is the same: capacity, equipment and the team's skills decide which offers are possible.
 
 ## Try this
 
@@ -44,9 +44,7 @@ For an upcoming decision, prepare one constraint and one option, with the people
 
 > "This option means changing ... A narrower version would allow ... We still need to check ..."
 
-Ask through which channel that information can arrive before the commitment. With no access to the meeting, send a note to whoever runs it. On a first project, compare two ways of delivering the same service.
-
-After the call, check which assumptions guided the choice and when they will be re-examined. Do not promise a deadline or a budget on another team's behalf.
+Bring it before the commitment, not after. With no access to the meeting, send the note to whoever decides. After the call, write down the assumptions that guided the choice.
 
 ## From where you sit
 

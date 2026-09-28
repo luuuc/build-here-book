@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/04-03-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html
 seo:
-  description: "Examine support requests with their context, without confusing frequency, cause and how representative they are."
+  description: "Every support request is a user telling you what does not work. It is the cheapest research you will ever get."
   keywords: "build here, builder, support, uses, observation, assumptions"
 redirect_from:
   - /book/chapters/04-03-learn-from-support-requests.html
@@ -22,34 +22,34 @@ redirect_from:
 
 ## The symptom
 
-Support resolves requests and tracks response times. Recurring difficulties still show up faintly in the decisions made about the service.
+Support resolves requests and tracks response times. The difficulties that come back every week never reach the decisions about the product.
 
 ## The signal
 
-Support requests can reveal problems worth examining. They complete research and other feedback, without representing everyone who uses the service.
+Every support request is a user who took the time to tell you what does not work. It is the cheapest research you will ever get.
 
 ## What's going on
 
-A support request already contains effort somebody made to get help. The first responsibility is to answer that need. Turning the contact into a source of learning must not delay handling it, or treat the person as a research participant recruited without their knowledge. The exchanges may arrive in a ticketing tool, on the phone, at a counter, or on a messaging channel set up for it. Support holds knowledge of the context that deserves to travel with the extracts it passes on. Reading the messages without that explanation can lead you to misread them.
+Someone who writes to support made an effort to get help. Answer them first. After that, their message is data: what they were trying to do, where they got stuck, in their own words.
 
-Several people ask where to download an invoice. The button may be hard to find, but other causes are possible: a missing access right, an invoice that was never produced, a term that was misunderstood. Grouping the requests is not enough to establish the cause.
+Several people ask where to download an invoice. The button may be badly placed. Or access is missing, or the invoice was never produced, or the word is misunderstood. Grouping the requests shows you where to look. The cause, you still have to go and check.
 
-The most frequent reason is not always the most important. Look also at severity, at who is affected, and at the difficulties of the people who never contact support at all. A product fix, a procedure, or clearer help can each be useful depending on the case.
+The most frequent reason is not always the most serious. Look at who is affected too, and at what happens to the people who never write in. Support knows that context: bring it along with the messages.
 
-This work costs reading and analysis time. Book a slot with the support team, and use only the information that is necessary and authorised. To start, a few cases prepared with them may be enough.
+An AI can sort a week of requests in minutes. Use it to find the patterns, then read ten messages from each one yourself. The numbers tell you where to look, the messages tell you what to fix.
 
 ## Check this
 
-With support, choose a small set of requests you can reach. Note the problem described, one possible cause, and what would let you check it. Do not mistake the label for the diagnosis.
+With support, take the week's requests. Note the problem described, one possible cause, and how to check it. Do not mistake the label for the diagnosis.
 
-Propose a proportionate response with the people who can decide. At the next check-in, look at whether the difficulty is better resolved and whether it comes back, accounting for the volume of use. Fewer contacts does not on its own prove things are better.
+Fix one cause. At the next check-in, see whether that reason goes down, relative to the number of users.
 
 ## From where you sit
 
-- **Support**: bring the context of the cases, and protect the time for handling them.
+- **Support**: bring the context of the cases, and protect the time for answering them.
 - **Product**: compare frequency, severity, and the uses absent from the requests received.
 - **Design**: check an assumption about understanding before moving a button.
-- **Management**: set aside time to analyse and to follow up on the observations.
+- **Management**: set aside one hour a week to read support.
 
 ## To discuss
 

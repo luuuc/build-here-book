@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/04-03-support-is-product-research-with-angry-participants.html
 seo:
-  description: "Examine les demandes de support avec leur contexte, sans confondre fréquence, cause et représentativité."
+  description: "Chaque demande de support est un utilisateur qui te dit ce qui ne marche pas. C'est la recherche la moins chère que tu auras."
   keywords: "build here, builder, support, usages, observation, hypotheses"
 redirect_from:
   - /livre/chapitres/11-01-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html
@@ -23,34 +23,34 @@ redirect_from:
 
 ## Le symptôme
 
-Le support résout des demandes et suit les délais de réponse. Des difficultés récurrentes restent pourtant peu visibles dans les décisions sur le service.
+Le support résout les demandes et suit les délais de réponse. Les difficultés qui reviennent chaque semaine n'arrivent jamais dans les décisions sur le produit.
 
 ## Le signal
 
-Les demandes de support peuvent révéler des problèmes à examiner. Elles complètent la recherche et les autres retours, sans représenter toutes les personnes qui utilisent le service.
+Chaque demande de support est un utilisateur qui a pris le temps de te dire ce qui ne marche pas. C'est la recherche la moins chère que tu auras.
 
 ## Ce qui se passe
 
-Une demande de support contient un effort déjà fait par quelqu'un pour obtenir de l'aide. La première responsabilité est de répondre à ce besoin. Transformer ce contact en source d'apprentissage ne doit pas retarder la prise en charge ni traiter la personne comme un participant recruté à son insu. Les échanges peuvent arriver dans un outil de tickets, au téléphone, au guichet ou sur un canal de messagerie prévu pour cela. Le support possède une connaissance du contexte qui mérite d'accompagner les extraits transmis. Lire les messages sans cette explication peut conduire à une mauvaise interprétation.
+Une personne qui écrit au support a fait un effort pour obtenir de l'aide. Réponds-lui d'abord. Ensuite, son message est une donnée : ce qu'elle essayait de faire, où elle a bloqué, avec ses mots.
 
-Plusieurs personnes demandent où télécharger une facture. Le bouton peut être difficile à trouver, mais d'autres causes sont possibles : un accès manquant, une facture non produite ou un terme mal compris. Regrouper les demandes ne suffit pas à établir la cause.
+Plusieurs personnes demandent où télécharger une facture. Le bouton est peut-être mal placé. Ou l'accès manque, ou la facture n'a pas été produite, ou le mot est mal compris. Regrouper les demandes montre où chercher. La cause, il faut aller la vérifier.
 
-Le motif le plus fréquent n'est pas toujours le plus important. Examine aussi la gravité, les personnes touchées et les difficultés de ceux qui ne contactent jamais le support. Une correction du produit, une procédure ou une aide plus claire peuvent chacune être utiles selon le cas.
+Le motif le plus fréquent n'est pas toujours le plus grave. Regarde aussi qui est touché, et ce qui arrive à ceux qui n'écrivent jamais. Le support connaît ce contexte : fais-le venir avec les messages.
 
-Ce travail a un coût de lecture et d'analyse. Réserve un créneau avec l'équipe de support et utilise uniquement les informations nécessaires et autorisées. Pour débuter, quelques cas préparés avec elle peuvent suffire.
+Une IA peut classer une semaine de demandes en quelques minutes. Utilise-la pour trouver les motifs, puis lis toi-même dix messages de chacun. Les chiffres te disent où regarder, les messages te disent quoi corriger.
 
 ## À vérifier
 
-Choisis avec le support un petit ensemble de demandes accessibles. Note le problème décrit, une cause possible et ce qui permettrait de la vérifier. Ne confonds pas l'étiquette et le diagnostic.
+Avec le support, prends les demandes de la semaine. Note le problème décrit, une cause possible et comment la vérifier. Ne confonds pas l'étiquette et le diagnostic.
 
-Propose une réponse proportionnée avec les personnes qui peuvent décider. Au prochain point, regarde si la difficulté est mieux résolue et si elle revient, en tenant compte du volume d'usage. Moins de contacts ne prouve pas à lui seul que tout va mieux.
+Corrige une cause. Au point suivant, regarde si le motif baisse, rapporté au nombre d'utilisateurs.
 
 ## Depuis ton siège
 
-- **Support** : apporte le contexte des cas et protège le temps de prise en charge.
+- **Support** : apporte le contexte des cas, et protège le temps de réponse.
 - **Produit** : compare fréquence, gravité et usages absents des demandes reçues.
 - **Design** : vérifie une hypothèse de compréhension avant de déplacer un bouton.
-- **Management** : réserve du temps pour analyser et donner une suite aux observations.
+- **Management** : réserve une heure par semaine pour lire le support.
 
 ## À discuter
 

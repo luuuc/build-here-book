@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/04-07-understanding-cannot-be-delegated.html
 seo:
-  description: "Comprends les dépendances utiles à ta décision avec l'aide des spécialistes, sans confondre compréhension et contrôle."
+  description: "Déléguer le travail, oui. Déléguer la compréhension, non : sans elle, tu signes ce qu'on te présente."
   keywords: "build here, technologie et business, builder, comprehension, delegue"
 redirect_from:
   - /livre/chapitres/10-04-un-fondateur-ne-delegue-pas-la-comprehension.html
@@ -25,38 +25,36 @@ redirect_from:
 
 ## Le réflexe
 
-Tu confies la réalisation à des personnes compétentes. Pour prendre une décision, il te manque encore une vue des dépendances, des risques et des options.
+Tu confies la réalisation à des personnes compétentes. Au moment de décider, tu ne vois ni les dépendances, ni les risques, ni les options.
 
 ## Le réflexe builder
 
-Demande assez d'explication pour exercer ta responsabilité, sans devoir devenir spécialiste de chaque métier.
+Demande assez d'explication pour décider en connaissance de cause. Pas pour devenir spécialiste.
 
 ## Pourquoi
 
-Faire confiance et comprendre se renforcent. Une explication adaptée permet de poser des questions utiles, de reconnaître une incertitude et de décider quand une expertise supplémentaire est nécessaire. Tu n'as pas besoin de vérifier toi-même chaque estimation. Demande ce qu'elle couvre, sur quelles hypothèses elle repose et ce qui pourrait la faire changer. L'objectif est de comprendre l'engagement, pas de chercher une marge cachée ou de contester un métier à l'intuition.
+Déléguer le travail, oui. Déléguer la compréhension, non. Si tu décides sans comprendre, tu ne décides pas : tu signes ce qu'on te présente.
 
-Une équipe envisage de changer de prestataire de paiement. Le tarif annoncé est inférieur, mais le remplacement touche aussi les moyens de paiement disponibles, la réconciliation et les remboursements. Une visite du parcours rend ces dépendances visibles avant de choisir.
+Une équipe envisage de changer de prestataire de paiement. Le tarif est plus bas. Mais le changement touche aussi les moyens de paiement acceptés, la réconciliation et les remboursements. Une heure à suivre le parcours avec la personne qui le connaît fait apparaître ces dépendances avant de signer.
 
-Ce besoin n'appartient pas seulement à la direction. Une personne qui organise un événement doit comprendre comment une inscription devient un accueil effectif. Une personne qui soutient un projet peut demander ce que son aide rend possible et quelles limites demeurent.
+Tu n'as pas besoin de vérifier chaque estimation. Demande ce qu'elle couvre, sur quoi elle repose, et ce qui pourrait la faire bouger. Une IA peut t'expliquer le vocabulaire avant la visite, pour que l'heure serve aux vraies questions.
 
-Le temps nécessaire dépend du sujet et de tes connaissances. Commence par une décision réelle plutôt que par un cours sur tout le système. Respecte le temps de préparation et les informations auxquelles tu peux accéder. Comprendre davantage ne donne pas un droit d'intervenir dans tous les détails.
+Ce n'est pas réservé à la direction. Une personne qui organise un événement doit comprendre comment une inscription devient un accueil réel.
 
 ## À essayer
 
-Organise une visite guidée d'un parcours avec quelqu'un qui le connaît. Convenez de la durée, du but et d'un cas partageable.
+Demande une visite guidée d'un parcours à quelqu'un qui le connaît. Pars d'une décision réelle :
 
 > "Du besoin au service rendu, quelles étapes comptent pour cette décision ? Où sont les dépendances et les inconnues ?"
 
-Reformule le parcours avec tes mots et fais corriger les erreurs. Choisis ensuite une implication pour la décision. Après celle-ci, vérifie si la visite a permis d'éviter une hypothèse fausse ou de mieux organiser la suite.
-
-Un débutant peut commencer par une seule étape et demander les mots nécessaires pour la décrire.
+Reformule le parcours avec tes mots et fais corriger les erreurs. Puis choisis une conséquence pour ta décision.
 
 ## Depuis ton siège
 
 - **Ingénierie** : explique les dépendances utiles à la décision, sans imposer tout le vocabulaire.
 - **Finance** : demande ce que le coût couvre et quelles hypothèses restent ouvertes.
 - **Relation client** : vérifie le parcours réel derrière la promesse de service.
-- **Management** : réserve du temps à l'explication et respecte le domaine de décision des autres.
+- **Management** : réserve du temps à l'explication, puis laisse décider ceux qui savent.
 
 ## À discuter
 

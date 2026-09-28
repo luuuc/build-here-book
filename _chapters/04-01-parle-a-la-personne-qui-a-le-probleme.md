@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/04-01-talk-to-the-person-who-has-the-problem.html
 seo:
-  description: "Éclaire une décision avec un cas vécu, en respectant le consentement, les accès et les limites d'un témoignage."
+  description: "Un résumé sélectionne. Parle à la personne qui vit le problème : les chiffres disent combien, la conversation dit comment."
   keywords: "build here, client, builder, parle, personne, probleme"
 redirect_from:
   - /livre/chapitres/11-02-parle-a-la-personne-qui-a-le-probleme.html
@@ -23,39 +23,39 @@ redirect_from:
 
 ## Le point de départ
 
-Tu disposes de résumés, de chiffres ou de demandes, mais un détail important de l'usage reste incertain. Un échange avec une personne concernée pourrait éclairer la décision.
+Tu as des résumés, des chiffres, des demandes. Un détail de l'usage reste flou, et c'est celui dont dépend ta décision.
 
 ## Le geste
 
-Propose un échange court sur une situation vécue. Si le contact direct n'est pas possible, cherche avec la personne responsable de la relation un exemple partageable ou une observation accompagnée.
+Parle à une personne qui vit le problème. Pas à celle qui te l'a transmis.
 
 ## Pourquoi ça marche
 
-Un résumé sélectionne l'information pour la rendre utilisable. Il peut être fidèle et utile, tout en laissant de côté un détail nécessaire à ta question. Revenir à un cas concret complète les connaissances de l'équipe sans dévaloriser ceux qui les ont recueillies. Une personne explique qu'elle termine une opération dans un tableur après avoir utilisé le produit. Observer ce passage, avec son accord, permet de comprendre le résultat qu'elle cherche et la partie que le produit ne couvre pas. Le contournement peut être une adaptation pertinente, pas forcément une erreur à supprimer.
+Un résumé sélectionne. Il peut être fidèle et laisser de côté le détail qui compte pour ta question. Une personne explique qu'elle termine chaque opération dans un tableur après avoir utilisé le produit. Aucun rapport ne le mentionnait. Ce tableur, c'est la partie que le produit ne couvre pas, et donc ta prochaine décision.
 
-La proximité aide parfois à organiser une rencontre, mais elle ne garantit ni la disponibilité ni le droit d'accéder aux données. Prépare une question précise, respecte le refus et évite de transformer une demande d'aide en entretien imposé.
+Le contournement n'est pas forcément une erreur. C'est souvent la meilleure information que tu auras : la personne a déjà construit la solution dont elle avait besoin, avec les moyens du bord.
 
-Un échange éclaire un cas ; il ne représente pas tous les usages. Croise-le avec d'autres situations et les données disponibles avant de généraliser. Un tableau de bord et une conversation peuvent se compléter : l'un indique une fréquence, l'autre aide à comprendre un déroulement.
+Une IA peut résumer mille avis clients en une minute. Elle ne te montrera pas le tableur. Les chiffres disent combien, la conversation dit comment. Il te faut les deux, et la conversation est celle qu'on saute le plus souvent.
 
-Pour commencer sans client ni entreprise, parle à une personne que ton projet personnel ou associatif vise à aider. Une situation récente suffit pour apprendre à distinguer ce que tu as observé de ce que tu supposes.
+Pas de client ni d'entreprise ? Parle à une personne que ton projet veut aider. Une situation récente suffit pour apprendre à distinguer ce que tu as vu de ce que tu supposes.
 
 ## À essayer
 
-Demande l'accord pour un échange limité et explique son but. Ouvre par :
+Demande vingt minutes à une personne concernée. Ouvre par :
 
-> "Peux-tu me raconter la dernière fois que tu as essayé de faire cela ?"
+> "Peux-tu me raconter la dernière fois que tu as essayé de faire ça ?"
 
-Une démonstration est possible si la personne le souhaite et peut éviter les informations sensibles. Ne promets pas de fonctionnalité pendant l'échange.
+Fais-toi montrer, si elle le veut bien. Ne promets aucune fonctionnalité pendant l'échange.
 
-Note le fait observé, l'hypothèse qu'il change et ce qui reste à vérifier. À la prochaine décision, regarde si cet échange a modifié une option ou confirmé ce que tu savais déjà.
+Note le fait observé et l'hypothèse qu'il change. À la prochaine décision, regarde s'il a changé une option.
 
 ## Depuis ton siège
 
 - **Design** : demande un cas récent et laisse la personne expliquer son chemin.
-- **Relation client** : aide à organiser un contact accepté et adapté à la relation.
-- **Management** : prévois le temps et les accès nécessaires, ou une alternative utile.
+- **Relation client** : présente l'équipe aux clients qui acceptent d'en parler.
+- **Management** : compte ces échanges dans le travail, pas en plus.
 - **Recrutement** : accepte aussi un exemple d'observation dans un projet personnel.
 
 ## À discuter
 
-Quelle incertitude d'usage justifie un échange, et comment pouvons-nous l'organiser sans l'imposer ?
+Quelle décision prenons-nous en ce moment sans avoir parlé à une personne qui vit le problème ?

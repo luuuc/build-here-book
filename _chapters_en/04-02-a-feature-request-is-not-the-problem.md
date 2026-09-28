@@ -14,13 +14,13 @@ categories:
 traductions:
   fr: /livre/chapitres/04-02-une-demande-de-feature-nest-pas-le-probleme.html
 seo:
-  description: "Examine the need behind a requested solution, without dismissing the customer's expertise or promising before the call is made."
+  description: "A feature request is a proposed solution. Ask about the final use before you build."
   keywords: "build here, customer, builder, feature request, problem"
 ---
 
 ## The symptom
 
-A customer asks for an export. The team ships it, but the difficulty they reported comes back. The team knows the file exists; it knows less well what the file was supposed to make possible.
+A customer asks for an export. The team ships it, but the difficulty they reported comes back. The team knows the file exists, not what it was supposed to make possible.
 
 ## The signal
 
@@ -28,24 +28,22 @@ A customer asks for an export. The team ships it, but the difficulty they report
 
 ## What's going on
 
-A feature request is a proposed solution. It can be a very good one: the person knows their business and may already have compared options. Understanding their need lets you check that proposal, not tell them in advance that they are wrong. Behind an export there may be a monthly check, a transfer into another tool, or a format requirement. Those situations do not all call for the same work. The context, the frequency and the expected result change what has to be built.
+A feature request is a solution proposed by someone who knows their problem better than you do. It is often a good one. But "an export" can hide a monthly check, a transfer into another tool, or a format requirement. Those three needs do not call for the same work.
 
-A smaller solution is sometimes enough. In other cases the format requested is a real constraint and the shortcut the team imagined will not do. Ask for an example of the final use rather than deducing the answer from the name of the feature.
+Ask about the final use: what do you do with the file, right after? The answer sometimes shows a smaller solution. Sometimes it shows the requested format is a real constraint and your shortcut will not do. Either way, you build the right thing.
 
-Acknowledging is not committing to deliver. You can say the request is understood and say when an answer will come. If a commitment already exists, say so before proposing a change, and have that change approved by whoever is responsible.
+Acknowledging is not promising. Say the request is understood and when you will answer. That is all.
 
-This move also works outside software: asking for a new form, a meeting or a document is already proposing a solution. On a first project, examining a single request with the person who made it lets you practise without launching a full study.
+The move holds everywhere: asking for a meeting, a form or a document is already proposing a solution. Ask what it will be used for.
 
 ## Check this
 
-On a request within reach, ask two questions:
+On a request in front of you, ask two questions:
 
 > "When do you need it, and what do you do with the result?"
 > "How do you manage today, and what causes the trouble?"
 
-Note the constraints confirmed and one possible answer, without promising beyond your mandate. Agree what will let you check the usefulness at the next use.
-
-After that use, compare the result to the expectation. A little-used feature is not automatically useless: some operations are rare but important.
+Note the real constraints and one possible answer. After the first use, compare the result to the expectation. A little-used feature is not necessarily useless: some operations are rare but important.
 
 ## From where you sit
 

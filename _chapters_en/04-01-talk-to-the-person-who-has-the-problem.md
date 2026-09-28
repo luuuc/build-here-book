@@ -14,45 +14,45 @@ categories:
 traductions:
   fr: /livre/chapitres/04-01-parle-a-la-personne-qui-a-le-probleme.html
 seo:
-  description: "Inform a decision with a lived case, respecting consent, access, and the limits of a single account."
+  description: "A summary selects. Talk to the person who lives the problem: numbers tell you how many, the conversation tells you how."
   keywords: "build here, customer, builder, talk, person, problem"
 ---
 
 ## The starting point
 
-You have summaries, numbers or requests, but an important detail of the use is still unclear. A conversation with someone affected could inform the decision.
+You have summaries, numbers, requests. One detail of how the thing is used is still unclear, and it is the one your decision depends on.
 
 ## The move
 
-Propose a short conversation about a situation they lived through. If direct contact is not possible, work with whoever owns the relationship to find a shareable example or an accompanied observation.
+Talk to someone who lives the problem. Not the person who passed it on to you.
 
 ## Why it works
 
-A summary selects information to make it usable. It can be faithful and useful while leaving out a detail your question needs. Going back to a concrete case completes the team's knowledge without devaluing the people who gathered it. A person explains that she finishes an operation in a spreadsheet after using the product. Watching that step, with her agreement, lets you understand the result she is after and the part the product does not cover. The workaround may be a sensible adaptation, not necessarily an error to remove.
+A summary selects. It can be faithful and still leave out the detail your question needs. A person explains that she finishes every operation in a spreadsheet after using the product. No report mentioned it. That spreadsheet is the part the product does not cover, which makes it your next decision.
 
-Being close by sometimes helps arrange a meeting, but it guarantees neither availability nor the right to reach the data. Prepare a precise question, respect a refusal, and avoid turning a request for help into an interview someone did not choose.
+The workaround is not necessarily a mistake. It is often the best information you will get: the person has already built the solution they needed, with whatever was at hand.
 
-One conversation informs one case; it does not represent every use. Cross it with other situations and the data you have before generalising. A dashboard and a conversation can complete each other: one gives you a frequency, the other helps you understand a sequence.
+An AI can summarise a thousand customer reviews in a minute. It will not show you the spreadsheet. Numbers tell you how many, the conversation tells you how. You need both, and the conversation is the one that gets skipped.
 
-To start with no customer and no company, talk to a person your personal or community project sets out to help. One recent situation is enough to learn to separate what you observed from what you assume.
+No customers, no company? Talk to someone your project sets out to help. One recent situation is enough to learn to separate what you saw from what you assume.
 
 ## Try this
 
-Ask for agreement for a bounded conversation and explain its purpose. Open with:
+Ask someone affected for twenty minutes. Open with:
 
 > "Can you tell me about the last time you tried to do that?"
 
-A demonstration is possible if the person wants it and can avoid sensitive information. Do not promise a feature during the conversation.
+Have them show you, if they are willing. Do not promise a feature during the conversation.
 
-Note the fact observed, the assumption it changes, and what is still to be checked. At the next decision, look at whether that conversation changed an option or confirmed what you already knew.
+Write down the fact you observed and the assumption it changes. At the next decision, see whether it changed an option.
 
 ## From where you sit
 
 - **Design**: ask for a recent case and let the person explain their route through it.
-- **Customer relations**: help arrange a contact that was accepted and fits the relationship.
-- **Management**: plan the time and the access needed, or a useful alternative.
+- **Customer relations**: introduce the team to the customers who are happy to talk.
+- **Management**: count these conversations as part of the work, not on top of it.
 - **Recruiting**: accept an example of observation in a personal project too.
 
 ## To discuss
 
-Which uncertainty about use justifies a conversation, and how can we arrange it without imposing it?
+Which decision are we making right now without having talked to someone who lives the problem?

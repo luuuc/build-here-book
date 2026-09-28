@@ -15,35 +15,35 @@ categories:
 traductions:
   fr: /livre/chapitres/04-14-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html
 seo:
-  description: "Give a suitable distribution attempt the means it needs, then examine use, feedback and cost to decide what follows."
+  description: "If the schedule only funds features, you get features. Plan distribution like you plan building."
   keywords: "build here, visibility, builder, conditions, distribution, funding"
 ---
 
 ## What you are asking for
 
-You want more people to discover or use the service. The schedule, though, only covers building it, with no time to explain, support, or gather feedback.
+You want more users. The schedule only covers building: nothing for explaining, supporting or listening.
 
 ## What the system hears
 
-With no means and no ruling, that extra work will have to come out of something else, often without anyone discussing it.
+> "We'll do distribution in the evenings, on top."
 
 ## What that produces
 
-Distribution can run through demonstrations, a partnership, internal training, an accompanied sale, or publications. The right channel depends on the recipients and on the service. Funding distribution therefore does not mean imposing a writing slot on everyone. The work also includes the preparation and the follow-up: answering questions, checking access, helping with the first use. A visible activity such as a published piece is only one possible part of the effort. What you have to look at is whether the people you are aiming at manage to use what was built.
+If the schedule only funds features, you get features. Distribution then happens on someone's spare time, or not at all.
 
-When the review shows only build tasks, that effort can stay invisible. Adding the questions learned, the uses observed, and the next attempts helps decide what place it should have. That does not turn every conversation into an obligation to produce an immediate result.
+Distributing is work: demonstrating, answering questions, checking access, helping with the first use, writing, talking to partners. It takes time and skills, like building.
 
-Timescales and costs vary. No standard hour every fortnight fits every project. Discuss the real capacity, the skills needed, and the work the attempt displaces with whoever carries the budget or the priorities.
+Put that work in the review next to the deliveries: the people reached, the first uses, what was learned. Whatever does not show up in the review does not exist for the team.
 
-It can be reasonable to stop a channel or cut the effort when the context changes. Explain the call and its consequences rather than protecting an activity on principle. A team that knows why something changed can adapt its commitments.
+A channel that gives nothing after a serious attempt gets stopped. Say why, and try the next one.
 
 ## The decision
 
-→ Choose a use goal, a channel, and a bounded attempt with a willing or mandated owner. Plan preparation, delivery and follow-up.
-→ Name the time or budget available and what gets displaced. Someone with no budget authority can prepare that proposal for a ruling.
-→ On an agreed date, examine who was actually reached, the first uses, the feedback and the cost. Decide to carry on, change, or stop.
+→ Choose a use goal, a channel and an owner. Give them time planned in the schedule.
 
-For an internal or community project, the attempt can be an accompanied presentation to a handful of recipients. A public audience is not a condition of success.
+→ Say what that time replaces.
+
+→ After a month, look at the people reached, the first uses and the cost. Carry on, change, or stop.
 
 ## From where you sit
 
