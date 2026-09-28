@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/03-01-do-not-bring-the-task-bring-the-problem.html
 seo:
-  description: "Rapporte ce que l'exécution t'apprend et fais arbitrer une découverte qui change le périmètre, avant de poursuivre si nécessaire."
+  description: "Celui qui fait le travail voit ce que le cadrage ne voyait pas. Livre la tâche, et livre ce qu'elle a révélé."
   keywords: "build here, ownership, builder, apporte, tache, probleme"
 redirect_from:
   - /livre/chapitres/04-01-napporte-pas-la-tache-apporte-le-probleme.html
@@ -23,32 +23,32 @@ redirect_from:
 
 ## Le point de départ
 
-Une tâche est terminée. En la réalisant, tu as aussi découvert un contournement, une contrainte ou une question qui mérite une suite.
+Une tâche est terminée. En la réalisant, tu as découvert un contournement, une contrainte ou une question qui mérite une suite.
 
 Le compte rendu dit seulement : "C'est fait."
 
 ## Le geste
 
-Livre ce qui reste utile et rapporte ce que l'exécution t'a appris. Si la découverte remet en cause le travail demandé, signale-la avant de continuer.
+Livre la tâche, et rapporte ce que l'exécution t'a appris. Si la découverte remet en cause le travail demandé, dis-le avant de continuer.
 
 ## Pourquoi ça marche
 
-La personne qui réalise le travail rencontre des détails que le cadrage initial pouvait ignorer. Au support, une demande revient après chaque remboursement. Dans une association, plusieurs participants interprètent différemment la même invitation. En ingénierie, le correctif touche une partie qui n'était pas prévue. Ces observations peuvent confirmer le choix de départ, améliorer la prochaine tâche ou justifier un changement. Les noter pendant qu'elles sont précises évite de devoir les reconstituer. Elles complètent le travail de cadrage ; elles ne prouvent pas que la personne qui l'a fait s'est trompée.
+Celui qui fait le travail voit ce que le cadrage ne pouvait pas voir. Au support, une demande revient après chaque remboursement. Dans une équipe commerciale, trois clients lisent la même offre de trois façons. En ingénierie, le correctif touche une partie qui n'était pas prévue. Cette information n'existe que chez toi, et seulement tant qu'elle est fraîche.
 
-On te demande de corriger l'affichage d'un formulaire sur mobile. En vérifiant, tu constates que certaines inscriptions échouent aussi après l'envoi. Ce sont deux faits différents. Corriger l'affichage reste utile, mais ne suffit pas à conclure que l'inscription fonctionne.
+On te demande de corriger l'affichage d'un formulaire sur mobile. En vérifiant, tu vois que certaines inscriptions échouent après l'envoi. "C'est fait" est vrai. C'est aussi la phrase qui laisse le vrai problème en place.
 
-Tu n'as pas besoin de résoudre seul le problème élargi. Distingue le fait observé, ton interprétation et la suite que tu proposes. Une personne qui débute peut rapporter un cas précis et demander de l'aide pour l'interpréter. Une personne expérimentée peut proposer plusieurs options.
+Tu n'as pas à résoudre seul le problème élargi. Sépare le fait observé, ce que tu en penses, et la suite que tu proposes. C'est ce qui distingue un builder d'un exécutant : il ne livre pas seulement la tâche, il livre ce qu'elle a révélé.
 
-Si continuer risque de gaspiller un effort important ou de provoquer un dommage, demande un arbitrage. Sinon, termine le périmètre convenu et organise la suite. Une découverte ne t'attribue pas automatiquement un nouveau chantier.
+Si continuer gaspille de l'effort ou cause un dommage, arrête et dis-le. Sinon, termine ce qui était prévu et propose la suite.
 
 ## À essayer
 
 Avant de fermer une tâche, ajoute deux lignes au compte rendu :
 
-> Ce que j'ai observé en la réalisant : ...
-> Ce que cela change, ou ce qu'il faudrait vérifier : ...
+> Ce que j'ai vu en la réalisant : ...
+> Ce que ça change, ou ce qu'il faut vérifier : ...
 
-Propose une suite proportionnée et nomme qui peut l'accepter. À la prochaine revue, vérifie si l'observation a changé une décision, confirmé le résultat ou révélé le besoin d'une réponse. Pour un premier projet, ce retour peut se faire avec la personne que tu aides.
+Propose une suite et nomme qui peut la prendre. À la prochaine revue, regarde si l'observation a changé une décision.
 
 ## Depuis ton siège
 

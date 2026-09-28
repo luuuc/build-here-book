@@ -14,13 +14,13 @@ categories:
 traductions:
   fr: /livre/chapitres/03-02-le-ticket-nest-pas-le-travail.html
 seo:
-  description: "Tie the tracking of tasks to what they improve, preserve or teach, without mistaking activity for result."
+  description: "Counting tickets measures activity, not effect. Tie every important piece of work to the number it should move."
   keywords: "build here, product, builder, ticket, work"
 ---
 
 ## The symptom
 
-A team closes eighteen tickets in one cycle. The board describes the work done well enough, but the review does not yet say what that work preserved, improved, or taught.
+A team closes eighteen tickets in one cycle. The review lists the work done. It does not say what that work changed.
 
 ## The signal
 
@@ -28,28 +28,28 @@ A team closes eighteen tickets in one cycle. The board describes the work done w
 
 ## What's going on
 
-A ticket helps coordinate work: description, ownership, dependencies, state. It can also hold the expected result and what will let someone check it. Counting them tells you about activity, not on its own about usefulness. When the number of tickets closed becomes the main goal, how the work is cut up can matter more than the result. Two teams cutting the same work differently produce different numbers. That counter needs context before it can inform a decision.
+A ticket coordinates work: who does what, in what order, where it stands. Counting tickets measures activity, not effect. When the number closed becomes the goal, the team cuts the work finer and the number rises while nothing changes for the user.
 
-Usefulness is not limited to a new feature. Maintenance can preserve a service, an inquiry can rule out a bad lead, an accessibility improvement can open up a use. Preparatory work may be necessary before any effect is visible. You have to be able to explain that link without inventing a result you have not got.
+The right number is the result's: the customer's waiting time, the error count, support requests, the time to get paid. Tie every important piece of work to one of them.
 
-So separate what was done, what was observed, and what is still expected. "The fix is deployed" describes an action. "The case that was failing now passes" brings a verification. "Support requests should go down" stays an assumption until someone examines it.
+Separate what was done, what was checked, and what is expected. "The fix is deployed" is an action. "The case that was failing now passes" is a check. "Support requests should go down" is an assumption, until you look.
 
-This distinction also works with no ticketing tool at all. Someone organising an event can track the tasks done and check separately whether participants have the information they need. They do not need a complicated dashboard.
+Usefulness is not limited to new things. Maintenance that keeps the service up, an inquiry that rules out a false lead, an accessibility fix: those are results, as long as you say which.
 
 ## Check this
 
 Take one finished piece of work and complete:
 
-> What it improved, preserved or taught: ...
-> What lets us say so, or when we will check: ...
+> What it changed: ...
+> The number or the fact that shows it: ...
 
-If you do not have access to the result, ask the person concerned for feedback. An answer still unknown calls for a check, not a verdict on the effort spent. At the next review, look at whether that feedback changes what comes next.
+If you do not know, go and get the answer from the person concerned. At the next review, present that work by its effect, not by its ticket.
 
 ## From where you sit
 
-- **Product**: tie activity to an expected effect, and mark the results still unknown.
+- **Product**: tie every important piece of work to an effect you can measure.
 - **Operations**: make the reliability preserved visible, even with no new service.
-- **Management**: examine the context before comparing counters.
+- **Management**: ask for the effect before the ticket count.
 - **Recruiting**: ask for a result, a piece of learning, or useful maintenance.
 
 ## To discuss

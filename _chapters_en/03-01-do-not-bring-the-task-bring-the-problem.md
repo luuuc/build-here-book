@@ -14,38 +14,38 @@ categories:
 traductions:
   fr: /livre/chapitres/03-01-napporte-pas-la-tache-apporte-le-probleme.html
 seo:
-  description: "Report what doing the work taught you, and get a ruling on a discovery that changes the remit before you carry on."
+  description: "Whoever does the work sees what the framing could not. Ship the task, and ship what it revealed."
   keywords: "build here, ownership, builder, task, problem"
 ---
 
 ## The starting point
 
-A task is finished. Doing it, you also found a workaround, a constraint, or a question that deserves a follow-up.
+A task is finished. Doing it, you found a workaround, a constraint, or a question that deserves a follow-up.
 
 The update says only: "Done."
 
 ## The move
 
-Ship what is still useful and report what doing the work taught you. If the discovery calls the requested work into question, flag it before carrying on.
+Ship the task, and report what doing it taught you. If the discovery calls the requested work into question, say so before carrying on.
 
 ## Why it works
 
-The person doing the work meets details the original framing could not know. In support, a request comes back after every refund. In a community group, several participants read the same invitation differently. In engineering, the fix touches a part nobody planned for. Those observations can confirm the original choice, improve the next task, or justify a change. Writing them down while they are still precise saves you reconstructing them later. They complete the framing work; they do not prove the person who did it got it wrong.
+Whoever does the work sees what the framing could not. In support, a request comes back after every refund. In a sales team, three customers read the same offer three different ways. In engineering, the fix touches a part nobody planned for. That information exists only with you, and only while it is fresh.
 
-You are asked to fix how a form displays on mobile. Checking, you find that some sign-ups also fail after submission. Those are two different facts. Fixing the display is still useful, but it does not let you conclude that signing up works.
+You are asked to fix how a form displays on mobile. Checking, you see that some sign-ups also fail after submission. "Done" is true. It is also the sentence that leaves the real problem in place.
 
-You do not have to solve the wider problem alone. Separate the fact you observed, your reading of it, and the follow-up you propose. Someone starting out can report a precise case and ask for help interpreting it. An experienced person can offer several options.
+You do not have to solve the wider problem alone. Separate the fact you observed, what you make of it, and the follow-up you propose. That is what sets a builder apart from someone who just executes: they ship the task, and they ship what it revealed.
 
-If carrying on risks wasting significant effort or causing damage, ask for a ruling. Otherwise, finish the agreed remit and organise what comes next. A discovery does not automatically assign you a new project.
+If carrying on wastes effort or causes damage, stop and say so. Otherwise, finish what was planned and propose what comes next.
 
 ## Try this
 
 Before you close a task, add two lines to the update:
 
-> What I observed doing it: ...
-> What that changes, or what would need checking: ...
+> What I saw doing it: ...
+> What that changes, or what needs checking: ...
 
-Propose a proportionate follow-up and name who can accept it. At the next review, check whether the observation changed a decision, confirmed the result, or revealed the need for an answer. On a first project, that feedback can go to the person you are helping.
+Propose a follow-up and name who can take it. At the next review, check whether the observation changed a decision.
 
 ## From where you sit
 

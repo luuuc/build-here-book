@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/03-02-the-ticket-is-not-the-work.html
 seo:
-  description: "Relie le suivi des tâches à ce qu'elles améliorent, préservent ou apprennent, sans confondre activité et résultat."
+  description: "Compter les tickets mesure l'activité, pas l'effet. Relie chaque travail important au chiffre qu'il doit faire bouger."
   keywords: "build here, produit, builder, ticket, travail"
 redirect_from:
   - /livre/chapitres/05-01-le-ticket-nest-pas-le-travail.html
@@ -23,7 +23,7 @@ redirect_from:
 
 ## Le symptôme
 
-Une équipe ferme dix-huit tickets pendant un cycle. Le tableau décrit bien le travail accompli, mais la revue ne dit pas encore ce que ce travail a permis de préserver, d'améliorer ou d'apprendre.
+Une équipe ferme dix-huit tickets pendant un cycle. La revue liste le travail fait. Elle ne dit pas ce qu'il a changé.
 
 ## Le signal
 
@@ -31,28 +31,28 @@ Une équipe ferme dix-huit tickets pendant un cycle. Le tableau décrit bien le 
 
 ## Ce qui se passe
 
-Un ticket aide à coordonner le travail : description, responsabilité, dépendances, état d'avancement. Il peut aussi contenir le résultat attendu et les éléments qui permettront de le vérifier. Le compter renseigne sur une activité, pas à lui seul sur son utilité. Quand le nombre de tickets fermés devient l'objectif principal, le découpage peut prendre plus de place que le résultat. Deux équipes qui découpent différemment le même travail produisent des nombres différents. Ce compteur a besoin de contexte pour éclairer une décision.
+Un ticket coordonne le travail : qui fait quoi, dans quel ordre, où ça en est. Le compter mesure l'activité, pas l'effet. Quand le nombre de tickets fermés devient l'objectif, l'équipe découpe plus fin et le chiffre monte sans que rien ne change pour l'utilisateur.
 
-L'utilité ne se limite pas à une nouvelle fonctionnalité. Une maintenance peut préserver un service, une enquête écarter une mauvaise piste, une amélioration d'accessibilité ouvrir un usage. Un travail préparatoire peut être nécessaire avant qu'un effet soit visible. Il faut pouvoir expliquer ce lien sans inventer un résultat déjà acquis.
+Le bon chiffre est celui du résultat : le temps d'attente du client, le nombre d'erreurs, les demandes au support, le délai de paiement. Relie chaque travail important à l'un d'eux.
 
-Distingue donc ce qui a été fait, ce qui a été observé et ce qui reste attendu. "Le correctif est déployé" décrit une action. "Le cas qui échouait passe maintenant" apporte une vérification. "Les demandes de support devraient diminuer" reste une hypothèse tant qu'on ne l'a pas examinée.
+Sépare ce qui a été fait, ce qui a été vérifié et ce qui est attendu. "Le correctif est déployé" est une action. "Le cas qui échouait passe maintenant" est une vérification. "Les demandes au support devraient baisser" est une hypothèse, jusqu'à ce que tu regardes.
 
-Cette distinction sert aussi sans outil de tickets. Une personne qui prépare un événement peut suivre les tâches réalisées et vérifier séparément si les participants disposent des informations nécessaires. Elle n'a pas besoin d'un tableau de bord complexe.
+L'utilité ne se limite pas aux nouveautés. Une maintenance qui garde le service debout, une enquête qui écarte une fausse piste, une correction d'accessibilité : ce sont des résultats, à condition de dire lequel.
 
 ## À vérifier
 
 Choisis un travail terminé et complète :
 
-> Ce que cela a amélioré, préservé ou appris : ...
-> Ce qui nous permet de le dire, ou quand nous le vérifierons : ...
+> Ce que cela a changé : ...
+> Le chiffre ou le fait qui le montre : ...
 
-Si tu n'as pas accès au résultat, demande un retour à la personne concernée. Une réponse encore inconnue appelle une vérification, pas un verdict sur l'effort fourni. À la prochaine revue, regarde si ce retour change la suite du travail.
+Si tu ne sais pas, va chercher la réponse auprès de la personne concernée. À la prochaine revue, présente ce travail par son effet, pas par son ticket.
 
 ## Depuis ton siège
 
-- **Produit** : relie l'activité à un effet attendu et distingue les résultats encore inconnus.
+- **Produit** : relie chaque travail important à un effet que tu peux mesurer.
 - **Opérations** : rends visible la fiabilité préservée, même sans nouveau service.
-- **Management** : examine le contexte avant de comparer des compteurs.
+- **Management** : demande l'effet avant le nombre de tickets.
 - **Recrutement** : demande un résultat, un apprentissage ou une maintenance utile.
 
 ## À discuter

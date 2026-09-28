@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/03-04-being-stuck-is-a-decision.html
 seo:
-  description: "Distingue recherche, aide, accès et arbitrage pour organiser la suite d'un blocage réel."
+  description: "Rester bloqué sans le dire, c'est laisser le délai filer. Cherche vingt minutes, puis envoie une demande précise."
   keywords: "build here, builder, autonomie, blocage, aide, acces, arbitrage"
 redirect_from:
   - /livre/chapitres/04-05-etre-bloque-est-une-decision.html
@@ -23,36 +23,36 @@ redirect_from:
 
 ## Le symptôme
 
-Tu attends un accès, une réponse ou une décision. Le travail ne peut pas avancer comme prévu, et tu ne sais pas encore quelle suite proposer.
+Tu attends un accès, une réponse ou une décision. Le travail est arrêté, et tu attends.
 
 ## Le signal
 
-Distingue ce que tu peux vérifier, l'aide qu'il te faut et la décision qui appartient à quelqu'un d'autre.
+Sépare ce que tu peux chercher toi-même, l'aide qu'il te faut et la décision qui appartient à quelqu'un d'autre. Puis agis sur les trois.
 
 ## Ce qui se passe
 
-Un blocage peut être réel : une autorisation manque, une personne détient une information, un outil est indisponible. Le rendre visible aide à agir dessus. Il ne prouve ni un manque d'initiative ni un défaut d'organisation de ta part.
+Rester bloqué sans le dire est une décision : celle de laisser le délai filer. Personne ne peut lever un blocage qu'il ne voit pas.
 
-Certains blocages se réduisent par une recherche courte dans une documentation, un ancien cas ou un exemple connu. D'autres demandent de l'aide immédiatement. Quand tu débutes, ne pas savoir où chercher constitue déjà une raison de demander une orientation. Fixe une limite à la recherche selon l'urgence, le risque et ce que tu sais déjà. Vingt minutes peuvent être un repère pour une question ordinaire, jamais un droit d'entrée pour obtenir de l'aide. En incident ou devant une action irréversible, sollicite la personne compétente sans attendre ce délai.
+Beaucoup de blocages se lèvent en vingt minutes : une documentation, un ancien cas, un exemple, une IA qui connaît l'outil. D'autres demandent de l'aide tout de suite. En incident, ou devant une action irréversible, va voir la personne compétente sans attendre.
 
-Une demande précise facilite la réponse : voici le résultat visé, le point bloqué, ce qui a été vérifié et l'effet sur la suite. Si tu ne peux pas faire ces vérifications, explique simplement ce qui manque. Tu n'as pas à contourner un accès ou à engager quelqu'un sans accord.
+Une demande précise obtient une réponse rapide : le résultat visé, le point bloqué, ce que tu as vérifié, l'effet sur le délai. Une demande vague obtient une question en retour, et un jour de plus.
 
-Il arrive que la bonne décision reste d'attendre. Dans ce cas, nommez la prochaine date de retour et le travail qui peut avancer à côté. Si personne ne peut répondre, la personne responsable du périmètre doit pouvoir réduire l'engagement ou reporter l'échéance.
+Parfois, il faut attendre. Alors dis jusqu'à quand, et avance sur autre chose en parallèle. Si personne ne répond, fais réduire l'engagement ou décaler l'échéance, plutôt que de laisser la date tomber en silence.
 
 ## À vérifier
 
 Sur un blocage actuel, écris :
 
-> Je cherche à ... Je bloque sur ... J'ai pu vérifier ... Il me manque ... L'effet sur le délai est ...
+> Je cherche à ... Je bloque sur ... J'ai vérifié ... Il me manque ... L'effet sur le délai est ...
 
-Adresse la demande à une personne qui peut aider ou orienter. Propose un moment pour faire le point, sans promettre sa disponibilité à sa place.
+Envoie-le aujourd'hui à une personne qui peut aider ou orienter. Fixe le moment où tu refais le point.
 
-À ce moment, vérifie si le blocage est levé, s'il faut une autre aide ou si l'engagement doit changer. Garde un repère utile pour la prochaine fois.
+À ce moment, regarde si le blocage est levé, s'il faut une autre aide, ou si l'engagement doit changer.
 
 ## Depuis ton siège
 
-- **Ingénierie** : distingue une recherche possible d'un accès qui nécessite un accord.
-- **Management** : rends la demande d'aide possible sans exiger une durée minimale de recherche.
+- **Ingénierie** : distingue ce que tu peux chercher de ce qui demande un accès.
+- **Management** : réponds vite aux demandes d'aide, sans exiger un temps de recherche minimum.
 - **Relation client** : explique l'état du dossier et le prochain point convenu.
 - **Recrutement** : demande comment la personne a cherché de l'aide, pas seulement agi seule.
 

@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/03-05-deciding-and-being-right-are-two-different-jobs.html
 seo:
-  description: "Sépare l'examen des faits de l'arbitrage, précise qui décide et quand le choix mérite d'être revu."
+  description: "Une préférence exprimée tôt par un responsable ferme la discussion. D'abord les faits et les objections, ensuite quelqu'un tranche."
   keywords: "build here, hierarchie, builder, trancher, avoir, raison, sont, deux"
 redirect_from:
   - /livre/chapitres/03-03-trancher-et-avoir-raison-sont-deux-metiers-differents.html
@@ -32,27 +32,25 @@ La discussion et la décision tiennent dans une seule conversation. Le fondateur
 
 ## Pourquoi
 
-La qualité d'un argument et la responsabilité de décider ne se confondent pas. Une personne peut connaître un usage, un coût ou une contrainte que le responsable de la décision ignore. Le rôle de chacun doit permettre à cette information d'entrer dans l'arbitrage. Ces contributions peuvent venir de l'expérience, d'une observation récente ou d'une question de débutant. Elles n'attribuent pas une autorité intellectuelle permanente à celui qui parle. Un argument se vérifie et peut être incomplet, même lorsqu'il est formulé avec assurance.
+Avoir raison et trancher sont deux métiers. Une personne peut connaître un usage, un coût ou une contrainte que le décideur ignore. Si la décision tombe avant que cette information arrive, elle est prise à l'aveugle, quel que soit le talent du décideur.
 
-La personne qui tranche doit être désignée selon le périmètre et les engagements de l'équipe. Elle n'est pas nécessairement la seule à subir les conséquences ; les personnes affectées doivent pouvoir expliquer ce que la décision leur impose.
+Une préférence exprimée tôt par un responsable ferme la discussion. Personne ne contredit le fondateur dans la première minute. Les objections deviennent des détails, puis des problèmes.
 
-Une préférence exprimée très tôt par un responsable peut orienter la discussion. Recueillir d'abord les faits et les options aide à l'éviter. Ce n'est pas une garantie de franchise : le temps disponible, les expériences précédentes et la possibilité de répondre par écrit comptent aussi.
+Sépare les deux temps. D'abord les faits, les options et les objections. Ensuite, la personne désignée tranche, et explique pourquoi. Un argument dit avec assurance se vérifie comme les autres.
 
-Dans une urgence, les deux phases peuvent être brèves. Pour un choix difficile à reprendre, réserve davantage de place aux inconnues. L'objectif est une décision informée dans le temps disponible, pas un rituel identique pour chaque sujet.
+En urgence, les deux temps durent cinq minutes chacun. Pour un choix difficile à défaire, donne plus de temps au premier.
 
 ## À essayer
 
-Pour une décision à venir, annonce qui tranche, à quel moment et sur quels critères. Demande d'abord les faits, les options et les objections. Si tu décides, essaie de donner ta préférence après ce tour.
+Pour une décision à venir, annonce qui tranche, quand et sur quels critères. Demande d'abord les faits, les options et les objections. Si c'est toi qui décides, donne ta préférence en dernier.
 
-Explique ensuite le choix et ce qui reste incertain. Note le fait ou l'échéance qui justifierait de le revoir. Lors de ce retour, regarde quelle information a aidé et ce qui a manqué.
-
-Sans autorité sur la réunion, tu peux proposer cette séparation ou transmettre une note à la personne qui décide.
+Explique ensuite le choix et ce qui reste incertain. Note ce qui justifierait de le revoir.
 
 ## Depuis ton siège
 
 - **Finance** : apporte les hypothèses de coût et leur incertitude avant l'arbitrage.
 - **Design** : distingue les observations d'usage de ta préférence de solution.
-- **Management** : précise qui décide et comment les personnes affectées seront entendues.
+- **Management** : précise qui décide avant la réunion, pas pendant.
 - **Relation client** : rapporte un cas concret sans le présenter comme tous les usages.
 
 ## À discuter

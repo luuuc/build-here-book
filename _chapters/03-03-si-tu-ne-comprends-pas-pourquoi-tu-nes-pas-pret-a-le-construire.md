@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/03-03-if-you-dont-understand-why-you-are-not-ready-to-build-it.html
 seo:
-  description: "Clarifie l'objectif et les inconnues décisives ; un essai limité peut aussi aider à comprendre."
+  description: "Demande pour qui et pourquoi. Si la réponse reste floue, une version d'une heure montrée à la personne répond plus vite qu'une réunion."
   keywords: "build here, builder, autonomie, objectif, hypothese, perimetre"
 redirect_from:
   - /livre/chapitres/01-02-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html
@@ -27,32 +27,30 @@ La demande est écrite et tu pourrais commencer. Le résultat attendu reste pour
 
 ## Le réflexe builder
 
-Demande quel problème le travail doit résoudre, pour qui, et ce qu'il faut savoir avant de s'engager davantage.
+Demande quel problème le travail doit résoudre, et pour qui. Si la réponse reste floue, fais une version rapide et montre-la.
 
 ## Pourquoi
 
-Une demande peut passer par plusieurs personnes. À chaque relais, des détails sont sélectionnés pour rendre le travail compréhensible. Il est utile de retrouver ceux qui changent la solution, sans supposer que tout résumé déforme le besoin.
+Une demande passe par plusieurs personnes. À chaque relais, un détail tombe. Parfois, c'est celui qui change la solution.
 
-Un client ne retrouve pas ses factures. La demande devient "ajouter une recherche". En examinant un cas, l'équipe découvre que les factures attendues sont rattachées à un autre compte. Une recherche peut rester utile, mais elle ne répond pas forcément à cette difficulté.
+Un client ne retrouve pas ses factures. La demande devient "ajouter une recherche". En regardant un cas, l'équipe découvre que les factures sont rattachées à un autre compte. La recherche aurait été livrée, propre et inutile.
 
-Comprendre l'objectif aide à choisir quels cas traiter, quelle qualité préserver et où s'arrêter. Cela ne demande pas de tout connaître avant de commencer. Un premier essai peut justement servir à comprendre, s'il est limité, autorisé et sans conséquence difficile à reprendre. Avec les outils d'aujourd'hui, cet essai prend souvent une heure : un prototype rapide montré à la personne qui a demandé répond plus vite qu'une réunion. À l'inverse, une décision coûteuse ou difficile à annuler mérite de clarifier les inconnues importantes avant l'engagement. En situation urgente, applique le cadre prévu pour préserver le service et note les questions à reprendre ensuite.
+Comprendre ne veut pas dire tout savoir avant de commencer. Un premier essai est souvent la meilleure façon de comprendre. Avec les outils d'aujourd'hui, il prend une heure : un prototype montré à la personne qui a demandé répond plus vite qu'une réunion. Pour ce qui ne se défait pas, un engagement lourd ou un contrat, clarifie d'abord.
 
-Pour débuter, demande un exemple concret du résultat attendu. Si tu aides quelqu'un à apprendre, explique le contexte plutôt que d'en faire une devinette. L'incapacité à retrouver seul une information absente ne mesure pas la capacité à construire.
+Si tu débutes, demande un exemple concret du résultat attendu. Si tu confies un travail, donne le pourquoi avec le quoi. Un travail sans objectif clair oblige l'autre à deviner.
 
 ## À essayer
 
-Avant une tâche, écris une hypothèse honnête :
+Avant une tâche, écris ton hypothèse :
 
-> Je comprends que cela doit permettre à [qui] de [faire quoi], parce qu'aujourd'hui [difficulté]. Est-ce bien cela ?
+> Je comprends que cela doit permettre à [qui] de [faire quoi], parce qu'aujourd'hui [difficulté]. C'est bien ça ?
 
-N'invente pas une réponse fausse pour obtenir une réaction. Nomme ce qui te manque et la décision que cette information changerait.
-
-Convenez de ce qui peut commencer et de ce qui doit attendre. Après le premier essai, compare le résultat à l'objectif et corrige ton interprétation si nécessaire.
+Envoie-la avant de commencer. Si la réponse tarde, fais la version d'une heure et envoie-la à la place. Après le premier essai, compare le résultat à l'objectif et corrige ta lecture.
 
 ## Depuis ton siège
 
 - **Produit** : transmets le besoin connu et les hypothèses qui restent à vérifier.
-- **Fondateur** : précise l'objectif de service ou d'apprentissage avant l'engagement.
+- **Fondateur** : précise l'objectif avant l'engagement.
 - **Management** : explique l'objectif avant de demander de passer à l'action.
 - **Relation client** : distingue le besoin exprimé, son contexte et la solution proposée.
 - **Recrutement** : n'ouvre pas un poste dont tu ne sais pas énoncer le problème à résoudre.

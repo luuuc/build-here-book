@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html
 seo:
-  description: "Connect framing, trade-offs and watching results, with an explicit mandate to decide."
+  description: "Well-written tickets do not say which ones deserve doing. Product work is choosing, and explaining every call."
   keywords: "build here, builder, product, requests, trade-offs, outcomes"
 redirect_from:
   - /book/chapters/03-06-the-product-role-connects-requests-to-outcomes.html
@@ -26,23 +26,23 @@ Requests arrive from sales, from the leadership, from users. Product work is mos
 
 ## The builder's reflex
 
-The product role helps choose which problems to take, explain the trade-offs, and check the results. The writing serves those decisions.
+The product role chooses which problems to take, explains the trade-offs, and checks the results. The writing serves those decisions.
 
 ## Why
 
-Describing and organising the work is useful. Without it, decisions stay hard to put into practice. But how well a request is written does not yet say whether it deserves to go before another. Making the call means connecting the needs observed, the goals, the constraints, and the capacity available. Depending on the context, you can accept, shrink, defer or refuse a request. Refusing is an option, not proof of courage, and not the whole worth of the product role.
+Well-written tickets do not say which ones deserve doing. Product work is choosing: connect the needs observed, the goals, the constraints and the capacity, then accept, shrink, defer or refuse. The writing serves that choice, it does not replace it.
 
-That judgement is built with other crafts. Support spots recurring difficulties, sales knows about a commitment, operations sees the load coming. The delivery team can propose a smaller solution. No one perspective replaces all the others.
+That judgement is built with the other trades. Support sees the difficulties that keep coming back, sales knows the commitments, operations sees the load coming, the delivery team proposes the smaller version. Product connects that information and makes the call.
 
-To make those calls, you need a clear mandate. Someone with no right to change the roadmap can prepare options and ask for a decision; you cannot judge their autonomy by the number of requests they refused.
+A product role that can refuse nothing is a secretariat. A product role that refuses everything is not listening. What counts is being able to explain every call.
 
-This practice also exists with no product role at all. In a community project, deciding which difficulty to take on with the time available is the same work. An experienced person can help make the criteria explicit; someone starting out can bring a case the group had not seen.
+This work exists with no product role at all. In a small company or a community group, choosing which difficulty to take on with the time available is the same job.
 
 ## Try this
 
-Keep a short record of the calls: request, need, decision, reason, owner, and the condition for revisiting. Avoid copying sensitive information into it unnecessarily.
+Keep a short record of the calls: request, need, decision, reason, owner, and what would change your mind.
 
-Start with a recent decision, then share it with the people concerned. On the agreed date, check whether the need, the constraints or the results justify holding to it. There is no need to reopen a refusal just to look open-minded.
+Start with a recent decision and share it with the people concerned. On the agreed date, check whether the need or the results justify holding to it.
 
 ## From where you sit
 

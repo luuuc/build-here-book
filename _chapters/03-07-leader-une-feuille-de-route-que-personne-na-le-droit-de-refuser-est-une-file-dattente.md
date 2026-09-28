@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/03-07-a-roadmap-nobody-may-refuse-is-a-queue.html
 seo:
-  description: "Donne un mandat d'arbitrage explicite et rends visibles les moyens ou le travail déplacé par une nouvelle priorité."
+  description: "Chaque ajout sans retrait se paie en silence. Si l'équipe ne peut que dire oui, ta feuille de route est une file d'attente."
   keywords: "build here, produit, builder, conditions, feuille, route, personne, droit"
 redirect_from:
   - /livre/chapitres/05-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html
@@ -24,29 +24,29 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Une feuille de route est convenue, puis un client important demande une adaptation urgente. Tu proposes de l'ajouter pour préserver la relation.
+Une feuille de route est convenue. Un client important demande une adaptation urgente. Tu l'ajoutes pour préserver la relation.
 
 ## Ce que le système entend
 
-Si rien n'est retiré ni renégocié, l'équipe peut comprendre que les deux engagements restent attendus dans le même délai.
+> "Rien n'est retiré. Les deux engagements tiennent dans le même délai."
 
 ## Ce que ça produit
 
-Une nouvelle demande peut être justifiée. Le problème apparaît lorsque son coût reste implicite : un autre travail glisse, une vérification disparaît ou la charge augmente sans décision partagée. Rendre l'arbitrage visible permet de soutenir les personnes qui doivent l'expliquer. Cela vaut aussi pour tes propres idées. Une suggestion dans un couloir peut être comprise comme une priorité si ton rôle lui donne du poids ; préciser si tu explores ou si tu décides évite cette ambiguïté.
+Une demande de plus peut être justifiée. Le problème est son coût caché : un autre travail glisse, une vérification disparaît, la charge monte, et personne ne l'a décidé. L'équipe paie en silence, puis livre en retard ce que tu avais promis ailleurs.
 
-Le mandat de l'équipe doit être concret. Peut-elle refuser une demande hors périmètre, proposer une autre date ou demander une décision ? Qui peut engager une dépense ou modifier une promesse faite au client ? Une formule générale sur l'autonomie ne répond pas à ces questions.
+Tes idées ont le même effet. Une suggestion dans un couloir devient une priorité si ton rôle lui donne du poids. Dis si tu explores ou si tu décides.
 
-Les conséquences dépassent parfois le planning. Une adaptation spécifique peut demander une maintenance durable, une formation ou une procédure de support. Ces coûts méritent d'être examinés avant de confirmer, sans supposer qu'ils rendent la demande mauvaise.
+Une équipe autonome doit pouvoir dire non, proposer une autre date, ou demander ce qui sort. Si elle ne peut que dire oui, ta feuille de route est une file d'attente, et l'équipe l'a compris.
 
-Si tu accompagnes l'équipe sans détenir l'autorité, aide-la à préparer les options et à identifier la personne qui tranche. Si tu décides, prends en charge l'explication aux parties concernées. L'équipe ne devrait pas devoir cacher le travail déplacé pour paraître coopérative.
+Une adaptation spécifique coûte aussi après la livraison : maintenance, formation, support. Compte-le avant de dire oui.
 
 ## La décision
 
-→ Pour une insertion importante, note ce qu'elle déplace ou les moyens supplémentaires qu'elle exige. Confirme les délais avec les personnes concernées.
-→ Fais examiner tes demandes avec les mêmes critères que celles des autres, en distinguant idée et engagement.
-→ Convenez d'une condition de réexamen. À la prochaine revue, compare la charge et l'effet observés aux hypothèses de départ.
+→ Pour chaque ajout important, dis ce qu'il remplace, ou les moyens en plus qu'il apporte. Confirme les délais avec l'équipe.
 
-Sur un premier essai, applique ce cadre à une seule demande. Vérifie que l'équipe sait qui peut répondre et que les engagements modifiés ont bien été communiqués.
+→ Fais passer tes propres idées par les mêmes critères que les autres.
+
+→ À la prochaine revue, compare la charge réelle à ce qui était prévu.
 
 ## Depuis ton siège
 

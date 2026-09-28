@@ -15,35 +15,35 @@ categories:
 traductions:
   fr: /livre/chapitres/03-07-leader-une-feuille-de-route-que-personne-na-le-droit-de-refuser-est-une-file-dattente.html
 seo:
-  description: "Give an explicit mandate to make the call, and make visible the means, or the work displaced, by a new priority."
+  description: "Every addition with nothing removed gets paid for in silence. If the team can only say yes, your roadmap is a queue."
   keywords: "build here, product, builder, conditions, roadmap, queue"
 ---
 
 ## What you are asking for
 
-A roadmap is agreed, then an important customer asks for an urgent adaptation. You propose adding it to protect the relationship.
+A roadmap is agreed. An important customer asks for an urgent adaptation. You add it to protect the relationship.
 
 ## What the system hears
 
-If nothing is removed or renegotiated, the team can understand that both commitments are still expected in the same timeframe.
+> "Nothing is removed. Both commitments hold in the same timeframe."
 
 ## What that produces
 
-A new request can be justified. The problem appears when its cost stays implicit: other work slips, a check disappears, or the load rises with no shared decision. Making the call visible lets you back the people who have to explain it. That holds for your own ideas too. A suggestion in a corridor can be heard as a priority if your role gives it weight; saying whether you are exploring or deciding removes that ambiguity.
+One more request can be justified. The problem is its hidden cost: other work slips, a check disappears, the load rises, and nobody decided it. The team pays in silence, then ships late what you had promised elsewhere.
 
-The team's mandate has to be concrete. Can they refuse a request outside the remit, propose another date, or ask for a decision? Who can commit spending, or change a promise made to a customer? A general statement about autonomy does not answer those questions.
+Your own ideas do the same. A suggestion in a corridor becomes a priority if your role gives it weight. Say whether you are exploring or deciding.
 
-The consequences sometimes go beyond the schedule. A bespoke adaptation can require lasting maintenance, training, or a support procedure. Those costs deserve examining before you confirm, without assuming they make the request a bad one.
+An autonomous team has to be able to say no, propose another date, or ask what comes out. If it can only say yes, your roadmap is a queue, and the team knows it.
 
-If you support the team without holding the authority, help them prepare the options and identify who calls it. If you decide, take on the explaining to the parties involved. The team should not have to hide displaced work in order to look cooperative.
+A bespoke adaptation keeps costing after delivery: maintenance, training, support. Count it before you say yes.
 
 ## The decision
 
-→ For a significant insertion, note what it displaces or the extra means it requires. Confirm the dates with the people concerned.
-→ Have your own requests examined against the same criteria as everyone else's, separating an idea from a commitment.
-→ Agree a condition for revisiting. At the next review, compare the load and the effect observed to the original assumptions.
+→ For every significant addition, say what it replaces, or the extra means it brings. Confirm the dates with the team.
 
-On a first attempt, apply this frame to a single request. Check that the team knows who can answer, and that the changed commitments were actually communicated.
+→ Put your own ideas through the same criteria as everyone else's.
+
+→ At the next review, compare the real load to what was planned.
 
 ## From where you sit
 

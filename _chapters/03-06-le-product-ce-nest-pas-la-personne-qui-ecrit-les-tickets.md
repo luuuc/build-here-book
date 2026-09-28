@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/03-06-product-is-not-the-person-who-writes-the-tickets.html
 seo:
-  description: "Relie cadrage, arbitrage et observation des résultats, avec un mandat explicite pour décider."
+  description: "Des tickets bien écrits ne disent pas lesquels méritent d'être faits. Le travail produit, c'est de choisir et d'expliquer chaque arbitrage."
   keywords: "build here, builder, produit, demandes, arbitrage, resultats"
 redirect_from:
   - /livre/chapitres/05-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html
@@ -27,23 +27,23 @@ Les demandes arrivent du commercial, de la direction ou des utilisateurs. Le tra
 
 ## Le réflexe builder
 
-Le rôle produit aide à choisir les problèmes à traiter, à expliquer les arbitrages et à vérifier les résultats. La rédaction sert ces décisions.
+Le rôle produit choisit les problèmes à traiter, explique les arbitrages et vérifie les résultats. La rédaction sert ces décisions.
 
 ## Pourquoi
 
-Décrire et organiser le travail est utile. Sans cela, les décisions restent difficiles à mettre en pratique. Mais la qualité d'une demande écrite ne dit pas encore si elle mérite de passer avant une autre. Arbitrer demande de relier les besoins observés, les objectifs, les contraintes et la capacité disponible. Selon le contexte, on peut accepter, réduire, reporter ou refuser une demande. Le refus est une option, pas une preuve de courage ni la seule valeur du rôle produit.
+Des tickets bien écrits ne disent pas lesquels méritent d'être faits. Le travail produit, c'est de choisir : relier les besoins observés, les objectifs, les contraintes et la capacité, puis accepter, réduire, reporter ou refuser. La rédaction sert ce choix, elle ne le remplace pas.
 
-Ce jugement se construit avec d'autres métiers. Le support repère des difficultés récurrentes, le commercial connaît un engagement, les opérations voient la charge à venir. L'équipe de réalisation peut proposer une solution plus petite. Aucune perspective ne remplace toutes les autres.
+Ce jugement se construit avec les autres métiers. Le support voit les difficultés qui reviennent, le commercial connaît les engagements, les opérations voient la charge arriver, l'équipe de réalisation propose la version plus petite. Le produit relie ces informations et tranche.
 
-Pour exercer cet arbitrage, il faut un mandat clair. Une personne sans droit de modifier la feuille de route peut préparer des options et demander une décision ; on ne peut pas juger son autonomie au nombre de demandes qu'elle a refusées.
+Un rôle produit qui ne peut rien refuser n'est qu'un secrétariat. Un rôle produit qui refuse tout n'écoute pas. Ce qui compte, c'est de pouvoir expliquer chaque arbitrage.
 
-Cette pratique existe aussi sans poste produit. Dans un projet associatif, décider quelle difficulté traiter avec le temps disponible relève du même travail. Une personne expérimentée peut aider à expliciter les critères ; une personne qui débute peut apporter un cas que le groupe n'avait pas vu.
+Cette pratique existe sans poste produit. Dans une petite entreprise ou une association, choisir quelle difficulté traiter avec le temps disponible, c'est le même travail.
 
 ## À essayer
 
-Tiens un relevé court des arbitrages : demande, besoin, décision, raison, responsable et condition de réexamen. Évite d'y recopier des informations sensibles inutiles.
+Tiens un relevé court des arbitrages : demande, besoin, décision, raison, responsable, et ce qui ferait changer d'avis.
 
-Commence par une décision récente, puis partage-la avec les personnes concernées. À la date convenue, vérifie si le besoin, les contraintes ou les résultats justifient de la maintenir. Il n'est pas nécessaire de rouvrir un refus seulement pour montrer de l'ouverture.
+Commence par une décision récente et partage-la avec les personnes concernées. À la date prévue, regarde si le besoin ou les résultats justifient de la maintenir.
 
 ## Depuis ton siège
 
