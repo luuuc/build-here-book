@@ -126,7 +126,7 @@
     <section class="content-footer">
       <div class="container">
         <a href="{{ page.next.url | relative_url }}" class="next-chapter"
-          ><small>{{ t.carte.suivante }}</small>{{page.next.title}} →</a
+          ><small>{{ page.next.part | default: t.carte.suivante }}</small>{{page.next.title}} →</a
         >
       </div>
     </section>
