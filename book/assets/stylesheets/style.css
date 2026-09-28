@@ -363,8 +363,9 @@ body {
   letter-spacing: 0.14em;
   color: var(--discret);
   text-decoration: none;
-  padding: 0.3rem 0;
-  margin-bottom: 0.35rem;
+  padding: 0.3rem 0 0.5rem;
+  border-bottom: 1px solid var(--filet);
+  margin-bottom: 0.75rem;
 }
 
 .nav-part-title:hover {
