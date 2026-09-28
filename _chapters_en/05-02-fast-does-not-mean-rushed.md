@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/05-02-rapide-ne-veut-pas-dire-precipite.html
 seo:
-  description: "Trade scope, deadline and means while keeping the necessary protections, and plan the cost of temporary fixes."
+  description: "Fast means cutting the scope. Rushed means removing the protections. Cut the first, never the second."
   keywords: "build here, execution, builder, fast, rushed"
 ---
 
@@ -24,27 +24,27 @@ A team has to launch a campaign on an agreed date. A previous campaign sent requ
 
 ## The move
 
-Put the scope, the date, the means and the necessary protections on the table. Propose an explicit trade rather than a promise to hold everything.
+Put the scope, the date, the means and what must not break on the table. Propose a clear trade instead of a promise to hold everything.
 
 ## Why it works
 
-Cutting the scope can let you ship earlier while keeping the use complete. A campaign aimed at a single group can be useful if the requests land in the right place and get an answer. A smaller version is not simply a version missing essential steps.
+Fast means cutting the scope. Rushed means removing the protections. A campaign limited to one group can ship on the planned date and work, if the requests land in the right place. A full campaign sent to the wrong person works for nobody.
 
-The quality expected depends on the context, but some protections cannot be dropped to hold a date. Check with the competent people what the version has to guarantee and what a failure would cost. A worry the team voices can signal a real constraint, not a fear of showing their work.
+Every version has a few protections that are not negotiable: the right reply address, the right price, the right data. Name them before you cut. If the team worries about a step, listen: that is often where the risk is.
 
-A temporary shortcut can be acceptable if its limits are known, its effects contained, and its upkeep planned. Naming an owner and a date helps, without being enough: you also need time to come back to the work and a decision if coming back is no longer possible. Otherwise the promise to fix it later only moves the cost.
+A temporary shortcut is acceptable if it has a name, a date, and time planned to come back to it. Without those three, "we'll fix it later" means "never", and the cost comes back with interest.
 
-The deadline itself can be discussed with whoever carries the commitment. When neither the scope nor the protections can be cut, proposing a delay or giving up is still an option. Someone starting out can prepare those alternatives with a peer; they do not have to accept a risk alone to demonstrate initiative.
+The date is open for discussion too. When neither the scope nor the protections can move, pushing the date is an honest option. Promising everything for the date is the option that fails.
 
 ## Try this
 
-For a difficult deadline, propose two concrete options:
+For a difficult deadline, propose two options:
 
 > "By that date we can serve this group with these limits. To cover the rest, we need more time, or these means."
 
-Get the trade and the people to inform confirmed. If a temporary fix is chosen, note what it will cost to undo and when it will be revisited.
+Have one chosen. If a shortcut is kept, write down what it will cost to undo and when.
 
-After delivery, look at the intended use, the problems met, and the extra load. Check that cutting the scope really did preserve the quality expected.
+After delivery, check that cutting the scope kept what mattered.
 
 ## From where you sit
 

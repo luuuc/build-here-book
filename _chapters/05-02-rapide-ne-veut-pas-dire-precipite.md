@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/05-02-fast-does-not-mean-rushed.html
 seo:
-  description: "Arbitre périmètre, délai et moyens en préservant les protections nécessaires et en prévoyant le coût des solutions temporaires."
+  description: "Rapide, c'est réduire le périmètre. Précipité, c'est retirer les protections. Coupe l'un, jamais l'autre."
   keywords: "build here, execution, builder, rapide, veut, dire, precipite"
 redirect_from:
   - /livre/chapitres/07-03-rapide-ne-veut-pas-dire-precipite.html
@@ -27,27 +27,27 @@ Une équipe doit lancer une campagne à une date convenue. Une précédente camp
 
 ## Le geste
 
-Mets sur la table le périmètre, la date, les moyens et les protections nécessaires. Propose un arbitrage explicite plutôt qu'une promesse de tout maintenir.
+Mets sur la table le périmètre, la date, les moyens et ce qui ne doit pas casser. Propose un arbitrage clair plutôt qu'une promesse de tout tenir.
 
 ## Pourquoi ça marche
 
-Réduire le périmètre peut permettre de livrer plus tôt tout en préservant un usage complet. Une campagne destinée à un seul groupe peut être utile si les demandes arrivent au bon endroit et reçoivent une réponse. Une version plus petite n'est pas simplement une version à laquelle il manque des étapes essentielles.
+Rapide, c'est réduire le périmètre. Précipité, c'est retirer les protections. Une campagne limitée à un seul groupe peut sortir à la date prévue et marcher, si les demandes arrivent au bon endroit. Une campagne complète envoyée au mauvais interlocuteur ne marche pour personne.
 
-La qualité attendue dépend du contexte, mais certaines protections ne peuvent pas être écartées pour tenir une date. Vérifie avec les personnes compétentes ce que la version doit garantir et les conséquences d'une défaillance. Une inquiétude exprimée par l'équipe peut signaler une contrainte réelle, pas une peur de montrer son travail.
+Chaque version a quelques protections qui ne se négocient pas : la bonne adresse de réponse, le bon prix, les bonnes données. Nomme-les avant de couper. Si l'équipe s'inquiète d'une étape, écoute : c'est souvent là qu'est le risque.
 
-Un raccourci temporaire peut être acceptable si ses limites sont connues, ses effets maîtrisés et sa maintenance prévue. Nommer un responsable et une date aide, sans suffire : il faut aussi du temps pour reprendre le travail et une décision si cette reprise n'est plus possible. Sinon, la promesse de corriger plus tard ne fait que déplacer le coût.
+Un raccourci temporaire est acceptable s'il a un nom, une date et du temps prévu pour le reprendre. Sans ces trois choses, "on corrigera plus tard" veut dire "jamais", et le coût revient avec les intérêts.
 
-L'échéance peut elle aussi être discutée avec la personne qui porte l'engagement. Lorsque ni le périmètre ni les protections ne peuvent être réduits, proposer un report ou renoncer reste une option. Un débutant peut préparer ces alternatives avec un pair ; il n'a pas à accepter seul un risque pour démontrer son initiative.
+La date aussi se discute. Quand ni le périmètre ni les protections ne peuvent bouger, décaler est une option honnête. Promettre tout pour la date est l'option qui échoue.
 
 ## À essayer
 
-Pour une échéance difficile, propose deux options concrètes :
+Pour une échéance difficile, propose deux options :
 
 > "À cette date, nous pouvons servir ce groupe avec ces limites. Pour couvrir le reste, il faut davantage de temps ou ces moyens."
 
-Fais confirmer l'arbitrage et les personnes à informer. Si une solution temporaire est retenue, note son coût de reprise et le moment où elle sera revue.
+Fais choisir. Si un raccourci est retenu, note ce qu'il coûtera à reprendre et quand.
 
-Après la livraison, examine l'usage prévu, les problèmes rencontrés et la charge supplémentaire. Vérifie que la réduction de périmètre a réellement préservé la qualité attendue.
+Après la livraison, vérifie que la réduction a gardé l'essentiel.
 
 ## Depuis ton siège
 

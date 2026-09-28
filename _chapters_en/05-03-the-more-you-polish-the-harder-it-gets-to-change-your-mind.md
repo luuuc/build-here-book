@@ -14,42 +14,40 @@ categories:
 traductions:
   fr: /livre/chapitres/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html
 seo:
-  description: "Choose the level of finish an attempt needs, and a sign that fits the need, without assuming access to ten users."
+  description: "The more you polish, the harder it is to hear it is the wrong version. Show the draft, now."
   keywords: "build here, product, builder, polish, change your mind"
 ---
 
 ## The symptom
 
-You keep improving a solution while an important question about its use stays open. Another round of finish does not seem to bring the answer closer.
+You keep improving a solution. An important question about its use is still open, and each round of polish brings the answer no closer.
 
 ## The signal
 
-Look for which part deserves feedback now, and what level of finish is needed to get useful feedback.
+Show it now, with just enough finish for people to understand it.
 
 ## What's going on
 
-The work already invested can make changing direction harder. That does not mean polishing is useless, or that the team is refusing reality. Finish can be necessary to make a proposal understandable, reachable, or reliable enough to try.
+The more you invest in a version, the harder it gets to hear it is the wrong one. After three weeks of polish, "this isn't what we need" is unbearable to hear. After two hours of draft, it is useful feedback.
 
-Separate what helps examine the assumption from what can wait. You are preparing a sheet to help new volunteers welcome the public. Before laying out the whole guide, have a willing person read and try one route through it. Legible instructions are necessary; a complete visual identity may not be, yet. When a rough version takes an hour to make, polishing it before you show it is rarely worth it.
+Separate what tests the idea from what can wait. You are preparing a welcome guide for people joining the team. Before working on the layout, have the next person who joins read and try one route through it. Legible instructions are necessary; a visual identity is not, yet. When a rough version takes an hour to make, polishing it before you show it is rarely worth it.
 
-Choosing a small group can limit exposure, but it guarantees neither patience nor availability. Ask for agreement, explain what works and what is still provisional, then plan how to help if the attempt gets stuck. If you have no access to the recipients, an accompanied review or a simulation can already shed light on part of the problem. Do not read that as validation of every use.
+Show it to people who will actually use it. Say what is provisional. People forgive an honest draft; they do not forgive a finished version that misses their need.
 
-The sign of success depends on the need. Coming back to use a function can be a good sign for a repeated task, much less so for a one-off sign-up or something rarely needed. A first use can already give you a useful observation. Decide what you will look at before you choose a metric that would only flatter the launch.
+Choose the sign of success before you show it. For a repeated task, it is people coming back. For a one-off sign-up, it is the first successful use. A number chosen after the fact always flatters.
 
 ## Check this
 
-Choose one uncertainty and prepare a version that lets you examine it. Agree the time available and the people willing to take part; no fixed number guarantees an answer.
+Pick the open question. Prepare the roughest version that can answer it, and show it to three people this week.
 
-Watch what they try to do and where they hit a difficulty. At the moment that fits this use, compare the feedback to your original assumption. Decide what deserves an improvement, another check, or a stop.
-
-Keep a short record of why you chose. It helps tell useful finish apart from effort continued only because it had started.
+Watch what they do and where they get stuck. Then decide: improve, check another way, or stop. Write down why.
 
 ## From where you sit
 
 - **Design**: identify the finish needed to make the attempt understandable.
 - **Product**: choose a sign that fits the real frequency of the need.
-- **Customer relations**: offer a trial that was accepted and plan the help it needs.
-- **Management**: make it possible to change direction after the feedback.
+- **Customer relations**: offer the trial to willing customers and stay available during it.
+- **Management**: praise a change of direction after feedback, not only a polished delivery.
 
 ## To discuss
 

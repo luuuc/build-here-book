@@ -15,7 +15,7 @@ categories:
 traductions:
   fr: /livre/chapitres/05-06-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html
 seo:
-  description: "Examine the constraints and the controls before improving the delivery route; measure quality and learning too."
+  description: "Delivery rhythm comes from the route you set up. Shorten the waits: shipping small and often lowers the risk."
   keywords: "build here, builder, delivery, rhythm, controls, learning"
 redirect_from:
   - /book/chapters/05-05-your-delivery-rhythm-is-a-decision-you-made.html
@@ -24,29 +24,29 @@ redirect_from:
 
 ## What you are asking for
 
-You want smaller attempts and faster feedback. The team, though, follows a route of approvals, preparation and release that has not changed.
+You want smaller attempts and faster feedback. The team still follows the same route of approvals, preparation and release.
 
 ## What the system hears
 
-If expectations rise without the constraints being examined, they will have to hold a different rhythm with the same dependencies and the same means.
+> "Faster, with the same steps and the same waits."
 
 ## What that produces
 
-The delay depends on the work itself, on access, on tools, on people's capacity, and on the coordination steps. Some waits avoid a risk or let another team prepare. Others can be cut. Counting them helps you describe the route, not decide which to remove.
+Delivery rhythm is not a character trait of the team. It is the result of the route you set up: the approvals, the waits, the handovers between teams. Asking for faster without touching the route is asking the team to skip steps behind your back.
 
-Examine what each control is for, with the people who know it. Nobody remembering the incident behind it does not prove it is useless: it may answer a risk that is still there. A clarification, earlier preparation, or a bounded delegation can cut the wait while keeping that function.
+Follow one change from preparation to first use, and count the days. Most of the time goes to waiting, not working. Some waits protect against a real risk: ask what they protect before you touch them. The others exist because nobody has questioned them.
 
-The scope needs agreement too. If the team proposes a reduced version, the recipients have to know what it allows and what it does not cover. Shipping two thirds is not a goal in itself: you still need a usable result and the necessary protections. The date may have to change when those conditions do not hold.
+Small, frequent releases lower the risk instead of raising it. Each change is easier to check and to undo. Teams that ship often break less, not more.
 
-Finally, the useful rhythm depends on the feedback you are after. A simulation, an internal demonstration, or an accompanied trial can inform a decision before the full delivery. To grow the team, make that learning visible and set aside time to examine it. More releases does not on its own show the service is getting better.
+The reduced version has to stay usable. Shipping two thirds of a flow that does not let people finish the task is not a small attempt, it is a failed one.
 
 ## The decision
 
-→ Follow one change from preparation to first use. Note the waits and their reasons, with the people concerned.
-→ Choose one bounded improvement to the route. Get the authority, the protections kept, and the conditions for going back confirmed before you try it.
-→ After a comparable case, look at the delay, the load, the problems, and what the feedback let you decide.
+→ Follow one change from preparation to first use. Note every wait and its reason.
 
-With no authority to change the route, you can prepare that account and a proposal. Whoever owns the means, or the control, has to take part in the call.
+→ Remove or shorten one wait whose reason no longer holds. Keep a way to roll back.
+
+→ A month later, compare the lead time, the incidents, and what the feedback let you decide.
 
 ## From where you sit
 

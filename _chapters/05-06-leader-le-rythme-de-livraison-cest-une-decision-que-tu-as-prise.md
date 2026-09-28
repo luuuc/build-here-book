@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/05-06-your-delivery-rhythm-is-a-decision-you-made.html
 seo:
-  description: "Examine contraintes et contrôles avant d'améliorer le parcours de livraison ; mesure aussi la qualité et l'apprentissage."
+  description: "Le rythme de livraison vient du parcours que tu as mis en place. Raccourcis les attentes : livrer petit et souvent réduit le risque."
   keywords: "build here, builder, livraison, rythme, controles, apprentissage"
 redirect_from:
   - /livre/chapitres/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html
@@ -25,29 +25,29 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Tu souhaites des essais plus petits et des retours plus rapides. L'équipe suit pourtant un parcours de validations, de préparation et de mise à disposition qui reste inchangé.
+Tu veux des essais plus petits et des retours plus rapides. L'équipe suit toujours le même parcours de validations, de préparation et de mise en ligne.
 
 ## Ce que le système entend
 
-Si les attentes augmentent sans que les contraintes soient examinées, elle devra tenir un rythme différent avec les mêmes dépendances et les mêmes moyens.
+> "Plus vite, avec les mêmes étapes et les mêmes attentes."
 
 ## Ce que ça produit
 
-Le délai dépend du travail lui-même, des accès, des outils, de la capacité des personnes et des étapes de coordination. Certaines attentes évitent un risque ou permettent à une autre équipe de se préparer. D'autres peuvent être réduites. Les compter aide à décrire le parcours, pas à décider lesquelles supprimer.
+Le rythme de livraison n'est pas un trait de caractère de l'équipe. C'est le résultat du parcours que tu as mis en place : les validations, les attentes, les passages entre équipes. Demander plus vite sans toucher au parcours, c'est demander à l'équipe de sauter des étapes en cachette.
 
-Examine la fonction de chaque contrôle avec les personnes qui le connaissent. L'absence de souvenir de l'incident d'origine ne prouve pas son inutilité : il peut répondre à un risque toujours présent. Une clarification, une préparation plus tôt ou une délégation limitée peut réduire l'attente en préservant cette fonction.
+Suis un changement de la préparation au premier usage, et compte les jours. La plupart du temps passe à attendre, pas à travailler. Certaines attentes protègent d'un risque réel : demande ce qu'elles protègent avant d'y toucher. Les autres existent parce que personne ne les a remises en question.
 
-Le périmètre demande aussi un accord. Si l'équipe propose une version réduite, les destinataires doivent savoir ce qu'elle permet et ce qu'elle ne couvre pas. Livrer les deux tiers n'est pas un objectif en soi : il faut encore un résultat utilisable et les protections nécessaires. La date peut devoir changer quand ces conditions ne tiennent pas.
+Des livraisons petites et fréquentes réduisent le risque au lieu de l'augmenter. Chaque changement est plus facile à vérifier et à défaire. Les équipes qui livrent souvent cassent moins, pas plus.
 
-Le rythme utile dépend enfin du retour recherché. Une simulation, une démonstration interne ou un essai accompagné peut éclairer une décision avant la livraison complète. Pour développer l'équipe, rends visibles ces apprentissages et réserve le temps de les examiner. Une augmentation du nombre de sorties ne suffit pas à montrer que le service s'améliore.
+La version réduite doit rester utilisable. Livrer les deux tiers d'un parcours qui ne permet pas de finir la tâche n'est pas un petit essai, c'est un essai raté.
 
 ## La décision
 
-→ Suis un changement de la préparation au premier usage. Note les attentes et leur raison avec les personnes concernées.
-→ Choisis une amélioration limitée du parcours. Fais confirmer l'autorité, les protections conservées et les conditions de retour en arrière avant de l'essayer.
-→ Après un cas comparable, regarde le délai, la charge, les problèmes et ce que le retour a permis de décider.
+→ Suis un changement de la préparation au premier usage. Note chaque attente et sa raison.
 
-Sans autorité pour changer le parcours, tu peux préparer ce constat et une proposition. Le responsable des moyens ou du contrôle doit participer à l'arbitrage.
+→ Supprime ou raccourcis une attente dont la raison ne tient plus. Garde un moyen de revenir en arrière.
+
+→ Un mois après, compare le délai, les incidents et ce que les retours ont permis de décider.
 
 ## Depuis ton siège
 

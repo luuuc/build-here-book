@@ -14,45 +14,43 @@ categories:
 traductions:
   fr: /livre/chapitres/05-04-valider-une-spec-ne-la-rend-pas-juste.html
 seo:
-  description: "Tell requirements apart from assumptions in a specification, then have new facts examined before changing the agreed work."
+  description: "A signed-off spec is an agreement about what people believed. When reality contradicts it, say so and update it."
   keywords: "build here, product, builder, spec, sign-off"
 ---
 
 ## The symptom
 
-A document describes the expected result and the constraints. It has been signed off, but a new observation seems to contradict one of its assumptions.
+A document describes the expected result and the constraints. It has been signed off. A new observation contradicts one of its assumptions.
 
 ## The signal
 
-Separate what is required, what was verified, and what is still assumed. Have the contradiction examined before you change the agreed work.
+Separate what is required, what was verified, and what is still assumed. Then take the contradiction to whoever signed it off.
 
 ## What's going on
 
-A specification helps coordinate work and keep decisions. Reviewing it can bring new knowledge: a forgotten constraint, a use case, an extra check. Sign-off does not, however, guarantee that every assumption will survive building and use.
+A signed-off specification is an agreement about what people believed when they signed it. It does not make the assumptions true. Building and use test them, and some fall.
 
-Not everything is a matter of preference. Some requirements correspond to a commitment, a protection, or an operating constraint. They do not disappear because one attempt produced different feedback. You have to understand their reason and identify who can authorise a change.
+A document specifies a choice of time slot for sign-up. The team assumes it will make signing up easier. At the first trial, some people do not understand the times offered. The spec is signed off. It is also wrong on that point. The answer can be a better explanation or a different choice, but not silence.
 
-A document specifies a choice of time slot. The team assumes it will make signing up easier. A first attempt shows that some people do not understand the times offered. That feedback may call for a better explanation, another choice, or more observation; it is not enough to conclude that nobody wants a choice.
+Not everything is an assumption. Some requirements come from a commitment, a legal obligation or an operating constraint. Contrary feedback does not cancel them. Tell the two apart before you propose a change.
 
-A discovery does not grant a right to diverge quietly. Present the facts, their reach, and the options to whoever owns the remit. For a shared document or an external commitment, have the change and its consequences for the deadline and the cost confirmed. Someone starting out can bring a precise case without having to resolve the whole contradiction alone.
+Do not diverge quietly. Bring the facts and the options to whoever signed off, and get the document updated. A document that does not follow reality becomes a source of mistakes for the next person.
 
 ## Check this
 
-In a working document, add an assumption that matters to the decision:
+In a working document, add the assumption that matters most:
 
 > We assume that ...
 > We will check it by ...
-> If what we observe contradicts that, we will examine ... with ...
+> If it does not hold, we will ...
 
-Choose a proportionate check and say what its limits are. A qualitative observation can be enough to reveal a difficulty; a numeric threshold needs a reason and a context.
-
-When the feedback comes, note what was learned and have the decision updated if needed. An assumption that was confirmed is worth keeping too.
+When the feedback comes, update the document, whether the assumption held or not.
 
 ## From where you sit
 
 - **Engineering**: report a reproducible case and what it means for the scope.
 - **Product**: tell an assumption about use apart from a requirement to respect.
-- **Management**: say who can accept a change and inform the parties concerned.
+- **Management**: say who can accept a change, and answer fast.
 - **Customer relations**: bring the context of the feedback without generalising it to every customer.
 
 ## To discuss

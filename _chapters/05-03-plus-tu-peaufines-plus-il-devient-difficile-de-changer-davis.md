@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/05-03-the-more-you-polish-the-harder-it-gets-to-change-your-mind.html
 seo:
-  description: "Choisis le niveau de finition utile à un essai et un signe adapté au besoin, sans présumer l'accès à dix utilisateurs."
+  description: "Plus tu peaufines, plus il est dur d'entendre que ce n'est pas la bonne version. Montre le brouillon, maintenant."
   keywords: "build here, produit, builder, peaufines, devient, difficile, changer, avis"
 redirect_from:
   - /livre/chapitres/05-05-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html
@@ -23,36 +23,34 @@ redirect_from:
 
 ## Le symptôme
 
-Tu continues à améliorer une solution alors qu'une question importante sur son usage reste ouverte. Une nouvelle finition ne semble pas rapprocher la réponse.
+Tu continues à améliorer une solution. Une question importante sur son usage reste ouverte, et chaque finition ne la rapproche pas.
 
 ## Le signal
 
-Cherche quelle partie mérite un retour maintenant et quel niveau de finition est nécessaire pour obtenir un retour utile.
+Montre-la maintenant, avec juste assez de finition pour qu'on la comprenne.
 
 ## Ce qui se passe
 
-Le travail déjà investi peut rendre un changement de direction plus difficile. Cela ne signifie pas que peaufiner est inutile ni que l'équipe refuse la réalité. Une finition peut être nécessaire pour rendre une proposition compréhensible, accessible ou assez fiable pour être essayée.
+Plus tu investis dans une version, plus il devient dur d'entendre qu'elle n'est pas la bonne. Après trois semaines de mise en forme, "ce n'est pas ce qu'il faut" devient insupportable à entendre. Après deux heures de brouillon, c'est un retour utile.
 
-Distingue ce qui aide à examiner l'hypothèse de ce qui peut attendre. Tu prépares une fiche pour aider de nouveaux bénévoles à accueillir le public. Avant de mettre en page tout le guide, fais relire et essayer un parcours à une personne volontaire. Des consignes lisibles sont nécessaires ; une identité graphique complète ne l'est peut-être pas encore. Quand une version brute se fait en une heure, la peaufiner avant de la montrer vaut rarement la peine.
+Sépare ce qui sert à tester l'idée de ce qui peut attendre. Tu prépares un guide d'accueil pour les nouveaux arrivants de l'équipe. Avant de soigner la mise en page, fais lire et essayer un seul parcours par la prochaine personne qui arrive. Des consignes lisibles sont nécessaires ; une identité graphique ne l'est pas encore. Quand une version brute se fait en une heure, la peaufiner avant de la montrer vaut rarement la peine.
 
-Choisir un petit groupe peut limiter l'exposition, mais ne garantit ni indulgence ni disponibilité. Demande l'accord, explique ce qui fonctionne et ce qui reste provisoire, puis prévois comment aider si l'essai bloque. Si tu n'as pas accès aux destinataires, un examen accompagné ou une simulation peut déjà éclairer une partie du problème. N'en déduis pas une validation de tous les usages.
+Montre-la à des personnes qui vont vraiment s'en servir. Dis ce qui est provisoire. Les gens pardonnent un brouillon honnête ; ils ne pardonnent pas une version finie qui ne répond pas à leur besoin.
 
-Le signe de réussite dépend du besoin. Revenir utiliser une fonction peut être pertinent pour une tâche répétée, beaucoup moins pour une inscription unique ou un dispositif rarement nécessaire. Un premier usage peut déjà apporter une observation utile. Définis ce que tu regarderas avant de choisir un indicateur qui flatterait seulement le lancement.
+Choisis le signe de réussite avant de montrer. Pour une tâche répétée, c'est le retour à l'usage. Pour une inscription unique, c'est le premier usage réussi. Un chiffre choisi après coup flatte toujours.
 
 ## À vérifier
 
-Choisis une incertitude et prépare une version qui permet de l'examiner. Convenez du temps disponible et des personnes qui acceptent de participer ; aucun nombre fixe ne garantit une réponse.
+Choisis la question ouverte. Prépare la version la plus brute qui permet d'y répondre, et montre-la cette semaine à trois personnes.
 
-Observe ce qu'elles essaient de faire et où elles rencontrent une difficulté. Au moment adapté à cet usage, compare le retour à l'hypothèse de départ. Décide ce qui mérite une amélioration, une autre vérification ou un arrêt.
-
-Garde une courte trace de la raison du choix. Elle aide à distinguer une finition utile d'un effort poursuivi seulement parce qu'il a commencé.
+Regarde ce qu'elles font et où elles bloquent. Puis décide : améliorer, vérifier autrement, ou arrêter. Note pourquoi.
 
 ## Depuis ton siège
 
 - **Design** : identifie la finition nécessaire pour rendre l'essai compréhensible.
 - **Produit** : choisis un signe pertinent pour la fréquence réelle du besoin.
-- **Relation client** : propose un essai accepté et prévois l'aide nécessaire.
-- **Management** : rends possible un changement de direction après le retour.
+- **Relation client** : propose l'essai aux clients volontaires et reste disponible pendant.
+- **Management** : salue un changement de direction après un retour, pas seulement une livraison soignée.
 
 ## À discuter
 
