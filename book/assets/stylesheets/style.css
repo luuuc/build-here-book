@@ -1442,7 +1442,8 @@ sup a {
 }
 
 .essai .essai-principal:hover,
-.carnet .note-envoyer:hover {
+.carnet .note-envoyer:hover,
+.note .note-envoyer:hover {
   background: var(--bleu);
   border-color: var(--bleu);
   color: var(--papier);
