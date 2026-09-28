@@ -8,7 +8,7 @@ step_number: 10
 part: "La référence"
 order: 1000
 metadata:
-  reading_time_in_minutes: 2
+  reading_time_in_minutes: 1
 categories:
   - reference
   - trace
@@ -25,36 +25,20 @@ redirect_from:
   - /chapters/16-00-devenir-une-reference.html
 ---
 
-Une expérience devient une référence lorsque quelqu'un peut s'en servir pour comprendre, décider ou agir. Cela peut se passer entre deux personnes, dans une équipe, dans une association ou au-delà. Ce repère peut être une explication, une pratique transmise, un outil ou un document.
+Ce que tu sais faire, personne ne l'a peut-être écrit.
 
-Le but n'est pas d'atteindre un dernier grade de builder. Une personne qui débute peut partager un exemple relu de ce qu'elle vient d'apprendre. Une personne expérimentée peut rendre un raisonnement ou ses limites plus accessibles. Aucun volume de publications ne mesure à lui seul cette contribution.
+Une équipe traite chaque semaine des dossiers incomplets. Elle écrit une fiche courte : un cas, les vérifications, les limites, qui contacter. Une nouvelle collègue l'utilise et signale un point flou. L'équipe corrige. La fiche est devenue la référence.
 
-Une équipe prépare une fiche pour traiter un dossier incomplet. Elle décrit un cas, les vérifications, les limites et le contact utile. Une nouvelle collègue l'essaie et signale une ambiguïté. L'équipe corrige la fiche et convient de qui la maintient. Cette ressource interne sert déjà de référence, même si personne ne souhaite la publier.
+Une référence, c'est une expérience dont quelqu'un d'autre peut se servir : une explication, une méthode, un exemple, un outil. Elle peut rester interne ou devenir publique. Elle part de ce que tu as construit, pas seulement de ton avis.
 
-Un contenu public peut permettre à d'autres de découvrir et d'examiner l'expérience. Sa portée n'est pas garantie. Une conversation, un mentorat ou un travail privé peut aussi laisser des capacités durables, même si l'effet est moins facile à compter. La visibilité ne remplace pas l'utilité et son absence ne prouve pas une absence de transmission.
+Cette section porte sur ce passage : mettre ton nom dessus, répondre en public, publier là où on cherche, et savoir ce que ça coûte vraiment.
 
-Les cartes de cette étape proposent de préciser le destinataire, le contexte, les observations et les conditions d'usage. Une mesure peut aider lorsqu'elle est expliquée. Un exemple qualitatif ou une décision commentée peut suffire. Il n'est pas nécessaire d'inventer une nouveauté : une adaptation ou une explication accessible peut compléter des ressources existantes, en les reconnaissant.
+**Pour commencer :** la prochaine fois qu'on te pose une question, réponds là où les suivants la trouveront.
 
-Partager demande des choix et des moyens. Qui a contribué et souhaite être nommé ? Quelles informations peuvent circuler ? Quel effort de préparation, de relecture et d'entretien est disponible ? Un doute sur le droit de partager appelle une clarification auprès des personnes concernées ; retirer les noms ne règle pas automatiquement la question.
+**Pour aller plus loin :** écris comment tu as résolu un problème que tu n'as vu expliqué nulle part.
 
-Si tu développes une équipe, prépare un cadre qui laisse une place aux supports internes, aux échanges et au choix de ne pas être exposé. Si tu soutiens des builders, une relecture, un retour d'usage ou une introduction acceptée peut aider. Les cartes sur les conditions de partage et la visibilité choisie précisent ce qui demande un mandat particulier.
+**Si tu fais grandir une équipe :** si rien n'autorise à partager, personne ne partage. Les cartes ⇄ en parlent.
 
-**Un signe de progression :** un destinataire peut expliquer ce qu'il a compris ou réutilisé, et les limites qu'il doit encore examiner. Un retour direct peut le montrer. Quand aucun retour n'arrive, tu peux constater cette incertitude sans inventer un impact ni conclure que le travail ne sert pas.
+**Un signe que ça avance :** quelqu'un réutilise ce que tu as transmis sans avoir besoin de toi.
 
-Une ressource peut vieillir, être corrigée, remplacée ou retirée. Préparer cette suite fait partie de la transmission, sans obliger son auteur à rester disponible indéfiniment.
-
----
-
-## Les cartes de cette étape
-
-- 10.01 [Mets ton nom dessus](/book/chapters/10-01-mets-ton-nom-dessus.html)
-- 10.02 [Écris après avoir construit, pas à la place](/book/chapters/10-02-ecris-apres-avoir-construit-pas-a-la-place.html)
-- 10.03 [Un avis n'est pas un artefact](/book/chapters/10-03-un-avis-nest-pas-un-artefact.html)
-- 10.04 [Une trace n'est pas forcément du code](/book/chapters/10-04-une-trace-nest-pas-forcement-du-code.html)
-- 10.05 [Réponds à la question en public](/book/chapters/10-05-reponds-a-la-question-en-public.html)
-- 10.06 [Publie là où on cherche](/book/chapters/10-06-publie-la-ou-on-cherche.html)
-- 10.07 [Ce que publier coûte vraiment](/book/chapters/10-07-ce-que-publier-coute-vraiment.html)
-- 10.08 [Personne n'a écrit ce que tu sais faire](/book/chapters/10-08-personne-na-ecrit-ce-que-tu-sais-faire.html)
-- 10.09 [Partir n'est pas une trahison](/book/chapters/10-09-partir-nest-pas-une-trahison.html)
-- 10.10 [⇄ L'absence de règle est une interdiction](/book/chapters/10-10-leader-labsence-de-regle-est-une-interdiction.html)
-- 10.11 [⇄ Ton équipe travaille sous ton nom](/book/chapters/10-11-leader-ton-equipe-travaille-sous-ton-nom.html)
+**Ensuite :** la conclusion, et la boucle qui recommence avec quelqu'un d'autre.

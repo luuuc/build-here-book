@@ -8,7 +8,7 @@ step_number: 5
 part: "La livraison"
 order: 500
 metadata:
-  reading_time_in_minutes: 2
+  reading_time_in_minutes: 1
 categories:
   - livraison
   - execution
@@ -23,30 +23,20 @@ redirect_from:
   - /chapters/07-00-execution.html
 ---
 
-Livrer, c'est rendre un travail disponible pour l'usage auquel il est destiné. Cela peut être un outil, une invitation, une procédure, une explication ou un service. Le geste ne demande ni un métier technique ni un lancement public.
+Tant que personne ne s'en sert, tu ne sais rien.
 
-La livraison donne une occasion de confronter une idée au réel. Pour apprendre, il faut encore savoir quelle question on examine, observer un effet et utiliser ce retour. La fréquence des sorties ne mesure pas à elle seule la qualité de cet apprentissage.
+Tu réécris l'invitation d'un atelier. Avant l'envoi, tu la fais lire à quelqu'un qui ne connaît pas le lieu, et tu lui demandes comment il viendrait. Il hésite sur un point. Tu corriges. Au prochain atelier, tu verras si ça a suffi.
 
-Tu aides à organiser un atelier dans une association. Tu proposes une nouvelle invitation parce que les indications d'accès semblent incomplètes. Avec l'accord de l'organisateur, tu la fais lire à une personne volontaire qui ne connaît pas le lieu. Tu lui demandes comment elle préparerait son trajet. Si une information manque, tu ajustes le texte avant son envoi. Au prochain atelier, un retour peut aider à vérifier si cette précision a été utile.
+Livrer, c'est mettre ton travail entre les mains de ceux à qui il sert : un outil, une procédure, une offre, un document, un service. C'est là que tu apprends ce que ton plan ne disait pas.
 
-Ce premier essai est petit, mais il a un destinataire, une question et une suite. Il ne prouve pas que tous les participants auront la même expérience. Une personne expérimentée peut appliquer le même raisonnement à une dépendance complexe ou à une hypothèse devenue habituelle.
+Cette section porte sur le rythme : livrer tôt sans bâcler, ne pas trop peaufiner avant d'avoir un retour, ne pas confondre une spec validée avec une solution juste.
 
-Livrer tôt demande de choisir ce qui peut être réduit sans rendre le service inutilisable. Les protections nécessaires, les accords et le temps de préparation font partie de ce choix. Si le périmètre utile ne tient pas dans le délai, il faut aussi pouvoir discuter la date, les moyens ou l'arrêt du projet.
+**Pour commencer :** trouve la plus petite version utile de ce que tu prépares, et donne-la à une vraie personne cette semaine.
 
-Certaines actions se reprennent difficilement. Une simulation, une répétition ou une vérification sur un cas limité peut alors éclairer une partie du risque avant l'engagement. Ces essais complètent les contrôles nécessaires ; ils ne les remplacent pas automatiquement.
+**Pour aller plus loin :** avant de livrer, écris ce que tu veux apprendre. Après, vérifie si tu l'as appris.
 
-Si tu développes une équipe, aide-la à organiser le parcours entre travail prêt et usage réel. Si tu soutiens un builder, tu peux proposer un retour, du temps ou une mise en relation acceptée. L'effort d'observation doit rester proportionné pour les personnes qui participent comme pour celles qui construisent.
+**Si tu fais grandir une équipe :** le rythme de livraison est une décision que tu as prise. Les cartes ⇄ en parlent.
 
-**Un signe de progression :** tu peux dire ce qu'un essai a appris, ce qu'il n'a pas permis de conclure et ce que tu choisis pour la suite. Confirmer un choix ou arrêter une piste peut être aussi utile que modifier la solution.
+**Un signe que ça avance :** chaque livraison t'apprend quelque chose que tu sais nommer, y compris quand la réponse est d'arrêter.
 
-Les cartes d'ownership complètent cette lecture pour organiser le relais et la vérification du résultat.
-
----
-
-## Les cartes de cette étape
-
-- 5.01 [Shipper crée de l'information](/book/chapters/05-01-shipper-cree-de-linformation.html)
-- 5.02 [Rapide ne veut pas dire précipité](/book/chapters/05-02-rapide-ne-veut-pas-dire-precipite.html)
-- 5.03 [Plus tu peaufines, plus il devient difficile de changer d'avis](/book/chapters/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html)
-- 5.04 [Valider une spec ne la rend pas juste](/book/chapters/05-04-valider-une-spec-ne-la-rend-pas-juste.html)
-- 5.05 [⇄ Le rythme de livraison, c'est une décision que tu as prise](/book/chapters/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html)
+**Ensuite :** l'ownership, pour suivre ce qui se passe une fois le travail livré.

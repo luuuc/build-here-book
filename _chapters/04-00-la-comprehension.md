@@ -8,7 +8,7 @@ step_number: 4
 part: "La compréhension"
 order: 400
 metadata:
-  reading_time_in_minutes: 2
+  reading_time_in_minutes: 1
 categories:
   - comprehension
   - business
@@ -26,39 +26,20 @@ redirect_from:
   - /chapters/12-00-distribution.html
 ---
 
-Comprendre, ici, c'est relier son travail à ce qui se passe avant et après. Qui rencontre le problème ? Comment la personne découvre-t-elle la solution ? Que faut-il pour rendre le service, l'entretenir et savoir s'il aide ?
+Ton travail commence avant toi et continue après.
 
-Dans une entreprise, ces questions touchent les clients, le produit, la distribution, le revenu, les coûts et les opérations. Dans une association ou un projet personnel, elles peuvent porter sur les participants, les accès, le temps disponible, les relais et la continuité. L'argent compte lorsqu'il conditionne l'action ; il n'est pas la seule mesure de son utilité.
+Le formulaire d'inscription fonctionne. Mais l'accueil ne reçoit pas les informations, et les participants répètent sur place ce qu'ils ont déjà écrit. Rien n'est cassé de ton côté. Le problème est dans le passage.
 
-Une association ouvre les inscriptions à un atelier. Le formulaire fonctionne, mais la personne chargée de l'accueil ne reçoit pas les informations nécessaires. Les participants doivent répéter sur place ce qu'ils ont déjà écrit. Comprendre le passage entre inscription et accueil aide à choisir une amélioration utile sans refaire tout le système.
+Comprendre, c'est relier ce que tu fais à ce qui l'entoure : la personne qui a le problème, ce qu'elle demande vraiment, comment elle découvre la solution, ce que ça coûte, et qui la fait tenir ensuite.
 
-Personne n'a besoin de tout connaître au même degré. Commence par une dépendance qui change ta décision. La finance peut expliquer un coût, le support un usage, les opérations une contrainte de continuité. Une personne qui débute peut demander une visite guidée ; une personne expérimentée peut examiner une hypothèse devenue habituelle.
+Cette section couvre le terrain, les clients, la vente, la distribution, les fournisseurs. Pas pour faire le métier des autres. Pour mieux décider dans le tien.
 
-Ce travail demande du temps et des accès. Prépare une question précise avec les personnes qui connaissent le contexte. Certains documents ou contacts ne sont pas directement accessibles : un exemple préparé ou un échange accompagné peut alors suffire. Comprendre le métier des autres ne donne pas un mandat pour décider à leur place.
+**Pour commencer :** parle à une personne qui vit le problème. Pas à celle qui te l'a transmis.
 
-Les cartes réunissent quatre sujets : besoins et retours du terrain, capacités de réalisation, promesses du service et chemins vers l'usage. Les situations commerciales et logicielles y restent présentes, avec leurs limites. Tu peux les traduire vers un projet plus petit sans devoir avoir une entreprise ou une audience publique.
+**Pour aller plus loin :** prends une demande récente et cherche le problème derrière. Ce n'est souvent pas celui qui est écrit.
 
-Si tu développes une équipe, organise les échanges et rends leurs coûts visibles. Si tu soutiens un projet, tu peux proposer une introduction acceptée, du temps d'observation ou une aide pour vérifier une hypothèse. Le soutien n'exige pas de prendre le contrôle du travail.
+**Si tu fais grandir une équipe :** l'accès aux clients et aux autres métiers demande du temps, et ce temps se finance. Les cartes ⇄ en parlent.
 
-**Un signe de progression :** tu sais expliquer une conséquence de ton choix pour une autre personne ou une autre activité, en distinguant ce que tu as observé de ce que tu supposes.
+**Un signe que ça avance :** tu sais expliquer ce que ton choix change pour quelqu'un d'autre, et tu distingues ce que tu as vu de ce que tu supposes.
 
-Tu peux ensuite revenir au cadrage, préparer un essai ou lire les cartes de livraison pour confronter une solution au réel. Ces capacités se développent ensemble.
-
----
-
-## Les cartes de cette étape
-
-- 4.01 [Parle à la personne qui a le problème](/book/chapters/04-01-parle-a-la-personne-qui-a-le-probleme.html)
-- 4.02 [Une demande de fonctionnalité n'est pas le problème](/book/chapters/04-02-une-demande-de-feature-nest-pas-le-probleme.html)
-- 4.03 [Le support client, c'est de la recherche produit avec des participants énervés](/book/chapters/04-03-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html)
-- 4.04 [Le client ne s'intéresse pas à ton architecture](/book/chapters/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html)
-- 4.05 [Ce qu'on sait construire décide ce qu'on peut vendre](/book/chapters/04-05-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html)
-- 4.06 [Choisir un fournisseur, c'est signer pour trois ans](/book/chapters/04-06-choisir-un-fournisseur-cest-signer-pour-trois-ans.html)
-- 4.07 [La compréhension ne se délègue pas](/book/chapters/04-07-la-comprehension-ne-se-delegue-pas.html)
-- 4.08 [La distribution fait partie du produit](/book/chapters/04-08-la-distribution-fait-partie-du-produit.html)
-- 4.09 [Le marketing n'est pas de la décoration](/book/chapters/04-09-le-marketing-nest-pas-de-la-decoration.html)
-- 4.10 [Parle du problème avant de parler de toi](/book/chapters/04-10-parle-du-probleme-avant-de-parler-de-toi.html)
-- 4.11 [Une audience met plus de temps à se construire qu'un produit](/book/chapters/04-11-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html)
-- 4.12 [⇄ Un chiffrage demandé après la décision n'est pas un chiffrage](/book/chapters/04-12-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html)
-- 4.13 [⇄ L'accès au client est un budget, pas une valeur](/book/chapters/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html)
-- 4.14 [⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités](/book/chapters/04-14-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html)
+**Ensuite :** la livraison, pour mettre ta compréhension à l'épreuve du réel.

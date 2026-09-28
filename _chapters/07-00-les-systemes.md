@@ -8,7 +8,7 @@ step_number: 7
 part: "Les systèmes"
 order: 700
 metadata:
-  reading_time_in_minutes: 2
+  reading_time_in_minutes: 1
 categories:
   - systemes
   - process
@@ -21,31 +21,20 @@ seo:
   keywords: "build here, systemes, process, automatisation, builder"
 ---
 
-Un système peut être une façon partagée de préparer un travail, de vérifier un résultat ou de passer le relais. Il peut tenir dans quelques repères et une pratique commune. Il n'exige ni une entreprise ni une automatisation.
+La deuxième fois qu'un problème revient, c'est une information.
 
-La question de départ est concrète : qu'est-ce qui rendrait la prochaine occurrence plus facile, plus fiable ou plus accessible ? Une répétition peut aider à la repérer. Une conséquence importante peut aussi justifier de préparer une protection avant que le problème revienne.
+Des bénévoles préparent le matériel d'un atelier à tour de rôle. À chaque fois, il manque quelque chose, et une seule personne sait quoi. Une liste courte, essayée une fois et corrigée, règle le problème pour tout le monde.
 
-Plusieurs bénévoles préparent le matériel d'un atelier à tour de rôle. Une liste commune précise ce qui doit être prêt, les vérifications et la personne à contacter si quelque chose manque. Le groupe l'essaie lors d'une préparation, corrige une ambiguïté et convient de qui la mettra à jour. La liste sert le travail ; elle ne remplace pas l'aide quand une situation nouvelle apparaît.
+Un système, c'est ce qui rend la prochaine fois plus facile : une liste, un modèle, une règle, un outil, une personne formée. Ça peut être très petit.
 
-Pour débuter, observe une activité limitée avec quelqu'un qui la connaît. Cherche ce qui varie, ce qui se répète et ce qui protège la suite. Avec davantage d'expérience, tu peux comparer plusieurs cas ou examiner une dépendance devenue habituelle. Aucune de ces démarches ne demande de supprimer une étape avant d'en comprendre la fonction.
+Cette section porte sur le bon dosage : supprimer une étape avant de la documenter, sortir un savoir d'une seule tête, écrire ce qui a cassé, et reconnaître que tout ne mérite pas de devenir un processus.
 
-La documentation, la démonstration, le binôme et l'automatisation sont des moyens possibles. Leur intérêt dépend du besoin, de l'accès, du temps et du coût d'entretien. Garder une pratique manuelle peut être raisonnable. Rendre un service directement reste une contribution utile même si elle dépend de ta présence.
+**Pour commencer :** repère une chose que tu as faite deux fois ce mois-ci. Note comment tu la fais.
 
-Si tu développes une équipe, donne du temps à l'examen et à la transmission. Une personne seule à savoir faire n'a pas nécessairement choisi cette situation. Prépare les accès et l'accompagnement du relais, puis vérifie qu'il peut agir dans le périmètre convenu. Si tu soutiens un projet, un retour sur une procédure ou du temps pour apprendre ensemble peut déjà aider.
+**Pour aller plus loin :** regarde le raccourci que tout le monde prend. C'est lui, le vrai processus. Aligne l'officiel dessus, ou corrige le raccourci.
 
-Les processus peuvent aussi devenir trop lourds. Examine la charge de chaque règle et sa raison, sans confondre une raison oubliée avec une fonction disparue. Un changement partagé demande l'accord des personnes qui en répondent et un examen de ses conséquences.
+**Si tu fais grandir une équipe :** donne du temps pour transmettre. Un savoir qui tient dans une seule tête est un problème en attente, et rarement par choix de cette personne.
 
-**Un signe de progression :** la prochaine occurrence ou le prochain relais dispose de repères utiles, et tu peux dire ce qu'ils ont facilité ou ce qu'il faut ajuster. Une protection conservée après examen peut être aussi importante qu'une étape retirée.
+**Un signe que ça avance :** la personne suivante se débrouille sans toi, et tu sais dire ce qui l'a aidée.
 
-Les cartes de levier complètent cette lecture si une solution mérite d'être réutilisée ou étendue, en tenant compte de son entretien.
-
----
-
-## Les cartes de cette étape
-
-- 7.01 [La deuxième fois est une information](/book/chapters/07-01-la-deuxieme-fois-est-une-information.html)
-- 7.02 [Supprime l'étape avant de la documenter](/book/chapters/07-02-supprime-letape-avant-de-la-documenter.html)
-- 7.03 [Une connaissance qui tient dans une seule tête est une panne à venir](/book/chapters/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html)
-- 7.04 [Tout ne mérite pas de devenir un processus](/book/chapters/07-04-tout-ne-merite-pas-de-devenir-un-processus.html)
-- 7.05 [Le raccourci que tout le monde prend est le vrai processus](/book/chapters/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html)
-- 7.06 [Écris ce qui a cassé](/book/chapters/07-06-ecris-ce-qui-a-casse.html)
+**Ensuite :** le levier, quand une solution mérite de servir plus loin.
