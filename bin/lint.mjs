@@ -27,7 +27,7 @@ export const BLOCS_PAR_TYPE = {
 // Il n'existe ni liste fermée de métiers ni quota de lignes.
 // Les repères de longueur restent des mesures éditoriales, jamais des refus.
 export const MOTS_SIGNAL = 550;
-export const MOTS_PLANCHER = 300;
+export const MOTS_PLANCHER = 200;
 
 const EM_DASH = "—";
 const EN_DASH = "–";
@@ -292,14 +292,14 @@ export function verifier({ filename = "", source = "", sections = [], nouvelle =
   const n = mots(corps);
   if (n > MOTS_SIGNAL) {
     mesure(
-      `${n} mots hors bloc « Depuis ton siège ». Le signal éditorial va de 300 à 500, jusqu'à 550 pour une ` +
+      `${n} mots hors bloc « Depuis ton siège ». Le signal éditorial va de ${MOTS_PLANCHER} à 500, jusqu'à 550 pour une ` +
         `carte qui a besoin de ce développement. ` +
         `Au-delà, une carte est souvent deux cartes sous un seul titre.`
     );
   }
   if (n < MOTS_PLANCHER) {
     mesure(
-      `${n} mots hors bloc « Depuis ton siège ». Le repère éditorial bas est de 300. ` +
+      `${n} mots hors bloc « Depuis ton siège ». Le repère éditorial bas est de ${MOTS_PLANCHER}. ` +
         `Une carte trop courte est en général un principe sans situation : cherche le moment ` +
         `exact où le comportement apparaît.`
     );
