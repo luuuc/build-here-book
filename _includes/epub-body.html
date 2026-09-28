@@ -16,7 +16,7 @@
       {% assign anchor = c.url | split: '/' | last %}
 
       {% unless c.card_type %}
-        <h1 class="chapter-title{% if is_section %} chapter-title--section{% endif %}" id="{{ anchor }}">{% if is_section %}<img class="chapter-mark" src="assets/images/sections/{{ c.illustration }}.svg" alt="" />{% endif %}{{ c.title }}</h1>
+        <h1 class="chapter-title{% if is_section %} chapter-title--section{% endif %}" id="{{ anchor }}">{% if is_section %}<img class="chapter-mark" src="book/assets/images/sections/{{ c.illustration }}.svg" alt="" />{% endif %}{{ c.title }}</h1>
       {% else %}
         <h2 class="chapter-title" id="{{ anchor }}">{{ c.title }}</h2>
       {% endunless %}

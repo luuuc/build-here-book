@@ -10,7 +10,7 @@ jamais par le build du site : la collection « pdf » n'est declaree que dans
 _config-pdf.yml.
 
 La pagination, les titres courants, les points de conduite du sommaire et les
-numeros de page vivent dans assets/stylesheets/print.css. Le corps du livre est
+numeros de page vivent dans book/assets/stylesheets/print.css. Le corps du livre est
 partage avec l'EPUB, dans _includes/book-body.html.
 {% endcomment %}
 <!doctype html>
@@ -19,12 +19,12 @@ partage avec l'EPUB, dans _includes/book-body.html.
     <meta charset="utf-8" />
     <title>{{ site.title }} — {{ site.author.name }}</title>
     <meta name="author" content="{{ site.author.name }}" />
-    <link rel="stylesheet" href="assets/stylesheets/print.css" />
+    <link rel="stylesheet" href="book/assets/stylesheets/print.css" />
   </head>
   <body>
     <!-- Couverture, pleine page -->
     <section class="cover">
-      <img src="assets/images/couverture.png" alt="{{ site.title }}" />
+      <img src="book/assets/images/couverture.png" alt="{{ site.title }}" />
     </section>
 
     <!-- Page de titre -->

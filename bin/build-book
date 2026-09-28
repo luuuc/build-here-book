@@ -65,14 +65,14 @@ if [ "$what" = all ] || [ "$what" = epub ]; then
     --standalone \
     --metadata-file="$site/epub-metadata.yml" \
     --resource-path="$site" \
-    --epub-cover-image="$site/assets/images/couverture.png" \
-    --css=assets/stylesheets/epub.css \
-    --epub-embed-font=assets/fonts/Merriweather-Regular.ttf \
-    --epub-embed-font=assets/fonts/Merriweather-Bold.ttf \
-    --epub-embed-font=assets/fonts/Merriweather-Italic.ttf \
-    --epub-embed-font=assets/fonts/Merriweather-BoldItalic.ttf \
-    --epub-embed-font=assets/fonts/Archivo-Regular.ttf \
-    --epub-embed-font=assets/fonts/Archivo-Bold.ttf \
+    --epub-cover-image="$site/book/assets/images/couverture.png" \
+    --css=book/assets/stylesheets/epub.css \
+    --epub-embed-font=book/assets/fonts/Merriweather-Regular.ttf \
+    --epub-embed-font=book/assets/fonts/Merriweather-Bold.ttf \
+    --epub-embed-font=book/assets/fonts/Merriweather-Italic.ttf \
+    --epub-embed-font=book/assets/fonts/Merriweather-BoldItalic.ttf \
+    --epub-embed-font=book/assets/fonts/Archivo-Regular.ttf \
+    --epub-embed-font=book/assets/fonts/Archivo-Bold.ttf \
     --split-level=1 \
     --toc-depth=2 \
     --output="$out/$name.epub"
