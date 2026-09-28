@@ -1,0 +1,46 @@
+{% assign e = t.essai %}
+<!-- L'essai d'une carte. Cache et hors du texte au depart : le script le
+     place juste apres la section « a essayer », et le montre. Sans
+     JavaScript, rien ne s'affiche, et la carte se lit pareil. -->
+<section class="essai" id="essai" hidden
+         data-url="{{ page.url | relative_url }}"
+         data-titre="{{ page.title | escape }}"
+         data-api="{{ site.api_url }}"
+         data-depuis="{{ e.depuis }}"
+         data-merci="{{ e.merci }}"
+         data-merci-local="{{ e.merci_local }}">
+  <div class="essai-boutons">
+    <button type="button" class="essai-principal" data-essai-commencer>{{ e.commencer }}</button>
+    <button type="button" data-essai-fait>{{ e.fait }}</button>
+  </div>
+
+  <div class="essai-en-cours" hidden>
+    <p data-essai-depuis></p>
+    <button type="button" class="essai-principal" data-essai-bilan>{{ e.bilan }}</button>
+  </div>
+
+  <form class="essai-form" hidden>
+    <fieldset>
+      <legend>{{ e.issue }}</legend>
+      {% for i in e.issues %}<label><input type="radio" name="outcome" value="{{ i.cle }}" required> {{ i.texte }}</label>
+      {% endfor %}
+    </fieldset>
+    <label class="essai-lecon">
+      {{ e.lecon }}
+      <textarea name="lesson" rows="2" maxlength="1000"></textarea>
+    </label>
+    <fieldset>
+      <legend>{{ t.note.question }}</legend>
+      <label><input type="radio" name="helped" value="yes"> {{ t.note.oui }}</label>
+      <label><input type="radio" name="helped" value="partly"> {{ t.note.moitie }}</label>
+      <label><input type="radio" name="helped" value="no"> {{ t.note.non }}</label>
+    </fieldset>
+    <button type="submit" class="essai-principal">{{ e.enregistrer }}</button>
+  </form>
+
+  <p class="essai-merci" role="status" hidden>
+    <span data-essai-merci></span>
+    <a href="{{ e.espace_url }}" data-essai-espace hidden>→</a>
+    <a href="{{ e.connexion_url }}" data-essai-connexion hidden>{{ e.connexion }}</a>
+  </p>
+</section>

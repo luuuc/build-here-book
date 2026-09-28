@@ -28,7 +28,7 @@ Les quatre fichiers sont générés et publiés automatiquement après chaque d�
 
 Le livre s'écrit en français et paraît en anglais. Chaque langue a ses propres mots dans l'adresse : le français sous `/livre/`, l'anglais sous `/book/`. Les deux versions sont complètes : mêmes 98 entrées, mêmes pages, même questionnaire, même tirage.
 
-Aucun gabarit ne porte de mot. Les chaînes de l'interface, le sommaire, les libellés de surtitre, le menu du site et les indicatifs téléphoniques vivent dans `_data/fr/` et `_data/en/`, un fichier par langue et les mêmes clés des deux côtés. `_includes/langue.html`, inclus en tête de chaque gabarit, pose les variables pour le reste de la page : `lang`, `t` pour les chaînes, `sommaire`, `livre` pour les entrées de cette langue.
+Aucun gabarit ne porte de mot. Les chaînes de l'interface, le sommaire, les libellés de surtitre, et le menu du site vivent dans `_data/fr/` et `_data/en/`, un fichier par langue et les mêmes clés des deux côtés. `_includes/langue.html`, inclus en tête de chaque gabarit, pose les variables pour le reste de la page : `lang`, `t` pour les chaînes, `sommaire`, `livre` pour les entrées de cette langue.
 
 | | français | anglais |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ traductions:
 
 Sans cette clé, le sélecteur renvoie à l'accueil de l'autre langue, et aucun `hreflang` n'est écrit : mieux vaut pas d'annonce qu'une annonce fausse.
 
-Les fichiers lus par les machines suivent : `llms.txt`, `llms-full.txt`, `book.json` et `indicatifs.json` sous `/livre/` et sous `/book/`. Le texte légal de la licence n'existe qu'en anglais chez Creative Commons ; les deux pages partagent donc `_includes/cc-by-sa-4.html`.
+Les fichiers lus par les machines suivent : `llms.txt`, `llms-full.txt`, et `book.json` sous `/livre/` et sous `/book/`. Le texte légal de la licence n'existe qu'en anglais chez Creative Commons ; les deux pages partagent donc `_includes/cc-by-sa-4.html`.
 
 Les vérificateurs de `bin/` lisent `_chapters/` pour les règles de l'annexe 1 : elles sont écrites pour le texte français.
 

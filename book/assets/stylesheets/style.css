@@ -680,10 +680,6 @@ sup a {
   opacity: 0.6;
 }
 
-.comments {
- padding: 1rem;
-}
-
 .chapters-list {
   list-style: none;
   padding: 0;
@@ -1402,299 +1398,215 @@ sup a {
   color: var(--discret);
 }
 
-/* Les discussions. Sur fond papier, plus clair que la note juste au-dessus :
-   la note est une reaction, ici on parle. */
-.discussion {
+/* L'essai d'une carte. Il vit dans le texte, juste apres « a essayer » :
+   un cadre discret, a la couleur du signal, parce que c'est le moment ou la
+   lecture devient un geste. */
+.essai {
+  margin: 1.5rem 0 2rem;
+  padding: 1.2rem 1.4rem;
+  border-left: 3px solid var(--signal);
   background: var(--surface);
-  padding: 2.5rem 2rem;
   font-family: var(--font-sans);
-  border-top: 1px solid var(--filet);
 }
 
-.discussion-titre {
-  margin: 0 0 1.2rem;
-  font-family: var(--font-sans);
-  font-size: 0.72rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: var(--discret);
-}
-
-.discussion-ouvrir {
-  font-family: inherit;
-  font-size: 0.92rem;
-  padding: 0.5rem 1.1rem;
-  color: var(--encre);
-  background: var(--papier);
-  border: 1px solid var(--filet);
-  cursor: pointer;
-}
-
-.discussion-ouvrir:hover {
-  background: var(--surface);
-}
-
-.discussion-ouvrir[hidden],
-.discussion-fil[hidden],
-.discussion-boite[hidden],
-.discussion-passage[hidden] {
+.essai[hidden],
+.essai [hidden] {
   display: none;
 }
 
-/* Un avis. La bordure a gauche tient le fil vertical de la conversation. */
-.avis {
+.essai-boutons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.essai button {
+  min-height: 44px;
+  padding: 0.5rem 1.1rem;
+  font-family: inherit;
+  font-size: 0.92rem;
+  color: var(--encre);
   background: var(--papier);
   border: 1px solid var(--filet);
-  border-left: 3px solid var(--filet);
-  padding: 1rem 1.2rem;
-  margin-bottom: 1rem;
-}
-
-/* Une reponse de l'auteur porte la marque jaune du livre. Elle se distingue
-   sans se hausser : c'est la meme conversation. */
-.avis--auteur {
-  border-left-color: var(--signal);
-}
-
-.avis--reponse {
-  margin: 1rem 0 0 1.2rem;
-  background: var(--surface);
-}
-
-.avis-qui {
-  display: flex;
-  align-items: baseline;
-  gap: 0.7rem;
-  flex-wrap: wrap;
-  margin: 0 0 0.5rem;
-  font-size: 0.92rem;
-  font-weight: 600;
-  color: var(--encre);
-}
-
-.avis-qui a {
-  color: var(--encre);
-}
-
-.avis-qui small {
-  font-size: 0.76rem;
-  font-weight: normal;
-  color: var(--discret);
-}
-
-.avis-texte p {
-  margin: 0 0 0.7rem;
-  font-size: 0.95rem;
-  line-height: 1.65;
-}
-
-.avis-texte p:last-child {
-  margin-bottom: 0;
-}
-
-/* Le passage cite, quand l'avis porte sur une phrase et pas sur l'entree. */
-.avis-passage,
-.discussion-passage {
-  margin: 0 0 0.8rem;
-  padding: 0.6rem 0.9rem;
-  background: var(--surface);
-  border-left: 3px solid var(--signal);
-  font-size: 0.9rem;
-  font-style: italic;
-  line-height: 1.55;
-}
-
-.avis-repondre {
-  margin-top: 0.6rem;
-  padding: 0;
-  font-family: inherit;
-  font-size: 0.82rem;
-  color: var(--discret);
-  background: none;
-  border: 0;
-  text-decoration: underline;
   cursor: pointer;
 }
 
-.discussion-boite {
-  margin-top: 1.4rem;
-  background: var(--papier);
-  border: 1px solid var(--filet);
-  border-top: 1px solid var(--filet);
-  padding: 1.4rem;
+.essai button:hover {
+  background: var(--surface);
 }
 
-.discussion-filtre {
-  margin: 0 0 1.2rem;
-  font-size: 0.88rem;
+.essai .essai-principal {
+  background: var(--encre);
+  border-color: var(--encre);
+  color: var(--papier);
+}
+
+.essai .essai-principal:hover,
+.carnet .note-envoyer:hover {
+  background: var(--bleu);
+  border-color: var(--bleu);
+  color: var(--papier);
+}
+
+.essai-en-cours p,
+.essai-merci {
+  margin: 0 0 0.8rem;
+  font-size: 0.92rem;
+}
+
+.essai-merci {
+  margin: 0.8rem 0 0;
   color: var(--discret);
 }
 
-.discussion-form label,
-.discussion-form legend {
-  display: block;
-  margin-bottom: 0.35rem;
-  font-size: 0.88rem;
-  font-weight: 500;
-  color: var(--encre);
+.essai-form {
+  display: grid;
+  gap: 1rem;
 }
 
-.discussion-form fieldset {
-  margin-top: 1.1rem;
+.essai-form fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1.2rem;
+  margin: 0;
   padding: 0;
   border: 0;
 }
 
-.discussion-form legend {
-  font-weight: normal;
+.essai-form legend {
+  margin-bottom: 0.4rem;
+  padding: 0;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   color: var(--discret);
 }
 
-.discussion-form label.discussion-radio {
-  display: inline-block;
-  margin: 0 1.2rem 0.5rem 0;
-  font-weight: normal;
+.essai-form fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 44px;
+  font-size: 0.92rem;
 }
 
-.discussion-form input[type="text"],
-.discussion-form input[type="url"],
-.discussion-form select,
-.discussion-form textarea {
+.essai-lecon {
+  font-size: 0.88rem;
+  color: var(--discret);
+}
+
+.essai-lecon textarea,
+.carnet textarea {
   display: block;
   width: 100%;
-  margin-top: 0.3rem;
-  padding: 0.55rem 0.7rem;
+  max-width: 40rem;
+  margin-top: 0.4rem;
+  padding: 0.6rem 0.75rem;
   font-family: inherit;
-  font-size: 0.93rem;
+  font-size: 0.92rem;
   color: var(--encre);
   background: var(--papier);
   border: 1px solid var(--filet);
   border-radius: 0;
   -webkit-appearance: none;
-}
-
-.discussion-form textarea {
-  line-height: 1.6;
   resize: vertical;
 }
 
-.discussion-form input:focus,
-.discussion-form select:focus,
-.discussion-form textarea:focus {
+.essai-lecon textarea:focus,
+.carnet textarea:focus {
   outline: 0;
   border-color: var(--bleu);
 }
 
-/* Les trois champs d'identite tiennent sur une ligne des qu'il y a la place :
-   ce sont des details, ils ne doivent pas peser autant que le texte. */
-.discussion-qui {
-  display: grid;
-  gap: 0.9rem;
-  margin-top: 1.1rem;
+.essai-form .essai-principal {
+  justify-self: start;
 }
 
-@media (min-width: 620px) {
-  .discussion-qui {
-    grid-template-columns: repeat(3, 1fr);
-  }
+/* Les notes du lecteur. Juste au-dessus de « ca t'a servi ? », sur fond
+   papier : c'est son carnet, pas une question qu'on lui pose. */
+.carnet {
+  padding: 2rem;
+  font-family: var(--font-sans);
+  border-top: 1px solid var(--filet);
 }
 
-.discussion-actions {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-top: 1.4rem;
+.carnet[hidden],
+.carnet [hidden] {
+  display: none;
 }
 
-.discussion-actions button {
-  font-family: inherit;
-  font-size: 0.93rem;
-  font-weight: 500;
-  padding: 0.6rem 1.3rem;
-  color: var(--papier);
-  background: var(--encre);
-  border: 1px solid var(--encre);
-  cursor: pointer;
+.carnet-liste {
+  margin: 0 0 1.2rem;
+  padding: 0;
+  list-style: none;
+  max-width: 40rem;
 }
 
-.discussion-actions button:hover {
-  background: var(--bleu);
-  border-color: var(--bleu);
+.carnet-liste li {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--filet);
 }
 
-.discussion-actions button:disabled {
-  opacity: 0.45;
-  cursor: default;
+.carnet-liste p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--encre);
+  white-space: pre-wrap;
 }
 
-.discussion-etat,
-.discussion-merci {
-  font-size: 0.9rem;
-  color: var(--discret);
-}
-
-/* La porte de sortie. Ce qui doit changer dans le texte n'a rien a faire
-   dans une discussion, et le livre separe les deux exprès. */
-.discussion-ailleurs {
-  margin: 1.8rem 0 0;
+.carnet blockquote {
+  margin: 0 0 0.5rem;
+  padding-left: 0.8rem;
+  border-left: 2px solid var(--signal);
   font-size: 0.88rem;
   color: var(--discret);
 }
 
-.discussion-ailleurs a {
+.carnet-form label {
+  font-size: 0.88rem;
   color: var(--discret);
 }
 
-/* Le contact, mail ou WhatsApp. L'indicatif ne se montre qu'avec WhatsApp.
-   Sans JavaScript, l'attribut data-canal n'est jamais pose et les deux
-   champs restent visibles : c'est plus laid et ca marche, ce qui est le bon
-   ordre de priorite. */
-.contact-champs {
-  display: grid;
-  gap: 0.6rem;
-  margin-top: 0.4rem;
+.carnet-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
 }
 
-@media (min-width: 560px) {
-  .contact-champs {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
-    align-items: end;
-  }
+.carnet button {
+  min-height: 44px;
+  padding: 0.5rem 1.1rem;
+  font-family: inherit;
+  font-size: 0.92rem;
+  color: var(--encre);
+  background: var(--papier);
+  border: 1px solid var(--filet);
+  cursor: pointer;
 }
 
-.contact-champs[data-canal="mail"] .contact-indicatif {
-  display: none;
-}
-
-.contact-champs[data-canal="mail"] {
-  grid-template-columns: 1fr;
-}
-
-.contact-indicatif {
+.carnet-liste button {
+  min-height: 0;
+  margin-top: 0.3rem;
+  padding: 0;
+  border: 0;
+  background: none;
   font-size: 0.82rem;
   color: var(--discret);
+  text-decoration: underline;
 }
 
-/* L'habillage natif d'un select impose sa propre hauteur et ses coins
-   arrondis, quel que soit le remplissage demande. On le retire pour que le
-   champ tombe a la meme hauteur que le numero a cote, et on redessine la
-   fleche, qui part avec. */
-.contact-indicatif select {
-  -webkit-appearance: none;
-  appearance: none;
-  line-height: 1.5;
-  padding-right: 2.1rem;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' fill='none' stroke='%235a6472' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 1l4 4 4-4'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 0.75rem center;
+.carnet .note-envoyer {
+  background: var(--encre);
+  border-color: var(--encre);
+  color: var(--papier);
 }
 
-/* Le libelle de l'indicatif est au-dessus, le numero n'en a pas. Sans cette
-   compensation les deux champs ne tombent pas sur la meme ligne. */
-.contact-champs > input {
-  align-self: end;
+.carnet-prive {
+  margin: 1rem 0 0;
+  font-size: 0.82rem;
+  color: var(--discret);
 }
 
 /* ==========================================================================

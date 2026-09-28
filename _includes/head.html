@@ -18,16 +18,14 @@
 
   Deux limites a connaitre. `frame-ancestors` est ignore dans un `meta`, donc
   rien ici n'empeche la mise en cadre : ca demanderait un vrai en-tete, et il
-  faudrait passer le site derriere le proxy Cloudflare pour en poser un. Et si
-  giscus est un jour active dans _config.yml, il faudra lui ouvrir `script-src`
-  et `frame-src`, que `default-src 'none'` ferme aujourd'hui.
+  faudrait passer le site derriere le proxy Cloudflare pour en poser un.
   Enfin, `upgrade-insecure-requests` n'est ajoute qu'en production. Safari
   applique la directive meme a localhost, la ou les autres navigateurs font
   une exception : en developpement, /book/assets/style.css devient
   https://localhost:4000/assets/style.css et rien ne se charge. Le site
   publie, lui, garde la directive entiere.
 {%- endcomment -%}
-{%- assign csp = "default-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://api.build-here.africa https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com; form-action 'self' https://api.build-here.africa; base-uri 'none'; manifest-src 'self'" -%}
+{%- assign csp = "default-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://api.build-here.africa https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com; form-action 'self'; base-uri 'none'; manifest-src 'self'" -%}
 {%- assign csp = csp | replace: "https://api.build-here.africa", site.api_url -%}
 {%- if jekyll.environment == "production" -%}
   {%- assign csp = csp | append: "; upgrade-insecure-requests" -%}

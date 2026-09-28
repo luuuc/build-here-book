@@ -1,5 +1,0 @@
----
-layout: none
-permalink: /livre/indicatifs.json
----
-{% include langue.html %}[{% for p in site.data[lang].indicatifs %}{"code":"{{ p.code }}","nom":{{ p.nom | jsonify }},"indicatif":"{{ p.indicatif }}"}{% unless forloop.last %},{% endunless %}{% endfor %}]

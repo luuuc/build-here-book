@@ -111,13 +111,15 @@
       <div class="container">{{content_parts[0]}}</div>
     </main>
 
-    <!-- La note. Sur les entrees seulement : noter une ouverture de section ou
-         une annexe ne produit pas de signal editorial reparable. -->
-    {% if page.metadata.principle %}{% include note.html %}{% endif %}
-
-    <!-- Les discussions, apres la note. Un clic pour dire si ca a servi, puis
-         la place pour ceux qui ont quelque chose a ajouter. -->
-    {% if page.metadata.principle %}{% include commentaires.html %}{% endif %}
+    <!-- Sur les cartes seulement : l'essai, que le script place dans le
+         texte, les notes du lecteur, puis « ca t'a servi ». Noter une
+         ouverture de section ou une annexe ne produit pas de signal
+         editorial reparable. -->
+    {% if page.metadata.principle %}
+    {% include essai.html %}
+    {% include carnet.html %}
+    {% include note.html %}
+    {% endif %}
 
     <!-- Content Footer -->
     {% if page.next %}
@@ -142,9 +144,6 @@
 
     <!-- Footer -->
     {% include footer.html %}
-
-    <!-- Comments -->
-    <div class="container">{% include comments.html %}</div>
 
     <!-- Partager un passage -->
     {% include partage.html %}

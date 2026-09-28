@@ -4,8 +4,8 @@
 // au-dessus, et elle ne propose qu'une chose. Tout le reste vit au niveau de
 // la page. C'est la seule interaction contextuelle du livre.
 //
-// Aucun appel reseau ici. Rien n'est compte, rien n'est envoye. Le jour ou
-// l'evenement de partage anonyme existera, il aura son propre fichier.
+// Aucun appel reseau ici. Rien n'est compte, rien n'est envoye. Noter un
+// passage passe la main a carnet.js.
 
 (function () {
   const barre = document.getElementById("partage");
@@ -153,17 +153,15 @@
   // Cliquer la barre ne doit pas effacer la selection qu'elle sert.
   barre.addEventListener("mousedown", (e) => e.preventDefault());
 
-  // Le bouton « Commenter » etait la moitie annoncee et non livree de la barre
-  // de selection. Il n'avait pas de destination tant que les discussions
-  // n'existaient pas. Elle existe : commentaires.js pose la fonction, et le
-  // bouton ne se revele que si elle est la.
-  const commenter = barre.querySelector("[data-commenter]");
-  if (commenter && typeof window.buildHereCommenter === "function") {
-    commenter.hidden = false;
-    commenter.addEventListener("click", function () {
-      const passage = citation();
+  // « Noter » garde le passage dans les notes du lecteur. carnet.js pose la
+  // fonction sur les cartes, et le bouton ne se revele que si elle est la.
+  const noter = barre.querySelector("[data-noter]");
+  if (noter && typeof window.buildHereNoter === "function") {
+    noter.hidden = false;
+    noter.addEventListener("click", function () {
+      const texte = passage;
       fermer();
-      window.buildHereCommenter(passage);
+      window.buildHereNoter(texte);
     });
   }
 

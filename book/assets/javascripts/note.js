@@ -24,9 +24,8 @@
 
   let etat = { valeur: null, raison: null };
 
-  // Le meme identifiant que les commentaires : une seule identite
-  // locale, et elle ne quitte jamais le navigateur autrement que comme
-  // clef de deduplication.
+  // Une identite locale, qui ne quitte jamais le navigateur autrement que
+  // comme clef de deduplication.
   function client() {
     try {
       let c = localStorage.getItem("build-here:client");
@@ -45,7 +44,7 @@
     if (!c) return; // stockage bloque : on ne peut pas dedupliquer, on s'abstient
 
     try {
-      await fetch(`${API}/notes`, {
+      await fetch(`${API}/feedbacks`, {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
@@ -114,14 +113,17 @@
     merci.hidden = false;
   });
 
-  // Celui qui revient retrouve sa reponse, et peut la changer.
+  // Celui qui revient retrouve sa reponse, et peut la changer. Celui qui a
+  // repondu en fermant un essai ne voit plus la question : c'est fait.
+  let parEssai = false;
   try {
     const garde = JSON.parse(localStorage.getItem(CLE) || "null");
     if (garde && garde.valeur) {
-      etat = garde;
+      etat = { valeur: garde.valeur, raison: garde.raison };
+      parEssai = Boolean(garde.parEssai);
       marquer();
     }
   } catch (e) {}
 
-  bloc.hidden = false;
+  bloc.hidden = parEssai;
 })();

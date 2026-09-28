@@ -6,7 +6,7 @@ description: >-
 # Pas de sous-chemin commun : le francais vit sous /livre/, l'anglais sous
 # /book/, et les fichiers partages (styles, images) sous /book/assets/.
 baseurl: ""
-# Where notes and comments go. A local build can point it at staging.
+# Where the "did this help" answers go. A local build can point it at staging.
 api_url: "https://api.build-here.africa"
 url: "https://build-here.africa" # the base hostname & protocol for your site
 
@@ -63,13 +63,6 @@ draft_banner: "work in progress"
 
 # Google Analytics (leave blank to disable)
 google_analytics: G-044F0FSRYM
-
-# Giscus comments (leave repo_id blank to disable)
-giscus:
-  repo: luuuc/build-here-book
-  repo_id:
-  category: General
-  category_id:
 
 # Open Graph defaults
 og_image: /book/assets/images/build-here-og.png

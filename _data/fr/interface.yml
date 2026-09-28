@@ -10,7 +10,7 @@
 # Le partage d'un passage. Livre.
 partage:
   selection: "Partager"
-  commenter: "Commenter"
+  noter: "Noter"
   titre: "Partager ce passage"
   whatsapp: "WhatsApp"
   linkedin: "LinkedIn"
@@ -60,31 +60,41 @@ note:
   envoyer: "Envoyer"
   merci: "Noté." 
 
-# Les commentaires.
-#
-# Ce sont des discussions autour des idees, pas de la relecture editoriale.
-# Un desaccord, un contexte de plus, une experience depuis un autre marche.
-# Ce qui devrait changer dans le texte passe par une pull request, et ce qui
-# n'a pas servi passe par la note.
-commentaire:
-  titre: "En discuter"
-  filtre: "Je lis tout avant publication."
-  vide: "Personne n'a encore écrit ici. La première ligne est disponible."
-  ouvrir: "Écrire"
-  texte: "Ce que tu veux dire"
-  nom: "Ton nom"
-  ville: "Ta ville, si tu veux"
-  lien: "Un lien, si tu veux"
-  contact: "Pour que je puisse te répondre. Ce contact n’est pas publié."
-  mail: "Mail"
-  whatsapp: "WhatsApp"
-  envoyer: "Envoyer"
-  envoye: "En attente de relecture."
-  repondre: "Répondre"
-  # Ces trois chaines vivaient en dur dans le formulaire.
-  indicatif: "Indicatif"
-  ville_exemple: "Conakry"
-  piege: "Ne remplis pas ce champ"
+# Les essais. Un geste de la carte, fait pour de vrai. « Ça n'a pas marché »
+# compte : avoir tort ne coute rien, le rester coute cher. [date] est remplace
+# par le script.
+essai:
+  commencer: "J'essaie"
+  fait: "Je l'ai essayé"
+  depuis: "Tu essaies cette carte depuis le [date]."
+  bilan: "Comment ça s'est passé ?"
+  issue: "Le résultat"
+  issues:
+    - cle: done
+      texte: "Fait"
+    - cle: failed
+      texte: "Ça n'a pas marché"
+    - cle: dropped
+      texte: "Abandonné"
+  lecon: "Ce que tu as appris, en une ligne. Toi seul le lis."
+  enregistrer: "Enregistrer"
+  merci: "Noté. Tu le retrouves dans ton espace."
+  merci_local: "Noté sur cet appareil."
+  connexion: "Connecte-toi pour le retrouver partout."
+  connexion_url: "/connexion"
+  espace_url: "/tableau-de-bord"
+
+# Les notes du lecteur. Privees : personne d'autre ne les lit, pas meme un
+# responsable d'equipe.
+carnet:
+  titre: "Tes notes"
+  prive: "Toi seul les lis."
+  label: "Une note sur cette carte"
+  label_passage: "Une note sur ce passage"
+  enregistrer: "Enregistrer"
+  supprimer: "Supprimer"
+  retirer_passage: "Retirer le passage"
+  local: "Gardées sur cet appareil."
 
 # Le chrome du site : en-tete, menu, pied de page, bande, carte, tirage.
 #

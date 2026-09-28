@@ -10,7 +10,7 @@
 # Sharing a passage. Book.
 partage:
   selection: "Share"
-  commenter: "Comment"
+  noter: "Add a note"
   titre: "Share this passage"
   whatsapp: "WhatsApp"
   linkedin: "LinkedIn"
@@ -52,25 +52,39 @@ note:
   envoyer: "Send"
   merci: "Noted."
 
-# Comments. Discussions around the ideas, not copy-editing.
-commentaire:
-  titre: "Discuss this"
-  filtre: "I read everything before it goes up."
-  vide: "Nobody has written here yet. The first line is available."
-  ouvrir: "Write"
-  texte: "What you want to say"
-  nom: "Your name"
-  ville: "Your city, if you want"
-  lien: "A link, if you want"
-  contact: "So I can answer you. This contact is not published."
-  mail: "Email"
-  whatsapp: "WhatsApp"
-  envoyer: "Send"
-  envoye: "Waiting for review."
-  repondre: "Reply"
-  indicatif: "Country code"
-  ville_exemple: "Conakry"
-  piege: "Do not fill this field"
+# Tries. A move from the card, made for real. "Didn't work" counts: being
+# wrong costs nothing, staying wrong does. The script replaces [date].
+essai:
+  commencer: "I'm trying this"
+  fait: "I tried this"
+  depuis: "You've been trying this card since [date]."
+  bilan: "How did it go?"
+  issue: "How it went"
+  issues:
+    - cle: done
+      texte: "Done"
+    - cle: failed
+      texte: "Didn't work"
+    - cle: dropped
+      texte: "Dropped"
+  lecon: "What you learned, in one line. Only you read it."
+  enregistrer: "Save"
+  merci: "Noted. You'll find it in your space."
+  merci_local: "Noted on this device."
+  connexion: "Log in to find it everywhere."
+  connexion_url: "/login"
+  espace_url: "/dashboard"
+
+# The reader's notes. Private: nobody else reads them, not even a team lead.
+carnet:
+  titre: "Your notes"
+  prive: "Only you read them."
+  label: "A note on this card"
+  label_passage: "A note on this passage"
+  enregistrer: "Save"
+  supprimer: "Delete"
+  retirer_passage: "Remove the passage"
+  local: "Kept on this device."
 
 # The site chrome: header, menu, footer, band, card, print.
 
