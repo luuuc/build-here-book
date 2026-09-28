@@ -191,6 +191,7 @@ tirage:
 
 # Les fichiers lus par les machines : book.json et llms.txt.
 machine:
+  auteur_bio: "Builder depuis 2000. A construit SiteDynamic, un CMS vendu dans le monde entier (2002 à 2007), cofondé et reconstruit la relance de la place de marché française 2xMoinsCher (2011 à 2014), puis cofondé Afrikrea, devenue ANKA, et l'a construite comme CTO (2016 à 2025) : la plus grande plateforme d'export e-commerce d'Afrique, avec plus de 80 millions de dollars de ventes dans 175 pays."
   mots: ["builders", "apprentissage", "pratiques", "équipes", "ownership", "curiosité", "leadership", "exécution"]
   sujets:
     - "Apprentissage par la pratique"
