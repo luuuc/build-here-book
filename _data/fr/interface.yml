@@ -29,16 +29,6 @@ lecture:
   # Le filtre de l'index par symptome.
   filtre: "Filtrer par situation"
   filtre_vide: "Rien ne correspond."
-  types:
-    principe: "Principe"
-    diagnostic: "Diagnostic"
-    pratique: "Pratique"
-    systeme: "Système"
-  portees:
-    principe: "Portée : à adapter à ton périmètre"
-    diagnostic: "Portée : enquête individuelle ou partagée"
-    pratique: "Portée : à adapter à ton périmètre"
-    systeme: "Portée : autorité sur les conditions concernées"
 
 # La note d'une entree.
 #
@@ -153,6 +143,10 @@ pied:
 
 carte:
   capacite: "Capacité"
+  # Chaque carte est un principe, numerote dans sa section. Leader marque les
+  # cartes ecrites pour ceux qui posent les conditions de l'equipe.
+  principe: "Principe"
+  leader: "Leader"
   suivante: "Entrée suivante"
   auteur: "Écrite par"
 

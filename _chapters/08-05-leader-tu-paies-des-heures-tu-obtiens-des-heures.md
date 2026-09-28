@@ -4,7 +4,6 @@ title: "⇄ Tu paies des heures, tu obtiens des heures"
 part: "Le levier"
 order: 805
 card_type: systeme
-action_scope: "Portée : accord d'équipe et responsables des moyens ou de l'évaluation"
 metadata:
   principle: "8.05"
   reading_time_in_minutes: 2

@@ -4,7 +4,6 @@ title: "⇄ Le rythme de livraison, c'est une décision que tu as prise"
 part: "La livraison"
 order: 506
 card_type: systeme
-action_scope: "Portée : accord d'équipe et responsables du parcours"
 metadata:
   principle: "5.06"
   reading_time_in_minutes: 2

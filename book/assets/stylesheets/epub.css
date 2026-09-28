@@ -124,8 +124,6 @@ h1.chapter-title--section {
   color: #dfe4ea;
 }
 
-.chapter--diagnostic .chapter-head { border-top: 0.18em solid #e24e12; padding-top: 1em; }
-.chapter--pratique .chapter-head { border-top: 0.18em dotted #5a6472; padding-top: 1em; }
 .chapter--systeme .chapter-head { border-top: 0.22em double #0f1319; padding-top: 1em; }
 
 .chapter-lede {

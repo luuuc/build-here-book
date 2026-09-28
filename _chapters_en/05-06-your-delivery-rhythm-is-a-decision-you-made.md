@@ -4,7 +4,6 @@ title: "⇄ Your delivery rhythm is a decision you made"
 part: "Delivery"
 order: 506
 card_type: systeme
-action_scope: "Scope: a team agreement and whoever owns the route"
 metadata:
   principle: "5.06"
   reading_time_in_minutes: 2

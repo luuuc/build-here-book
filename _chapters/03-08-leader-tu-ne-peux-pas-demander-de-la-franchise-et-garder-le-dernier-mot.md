@@ -4,7 +4,6 @@ title: "⇄ Tu ne peux pas demander de la franchise et garder le dernier mot"
 part: "L'autonomie"
 order: 308
 card_type: systeme
-action_scope: "Portée : responsable de la décision et accord d'équipe"
 metadata:
   principle: "3.08"
   reading_time_in_minutes: 2

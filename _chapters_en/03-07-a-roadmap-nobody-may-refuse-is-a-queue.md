@@ -4,7 +4,6 @@ title: "⇄ A roadmap nobody may refuse is a queue"
 part: "Autonomy"
 order: 307
 card_type: systeme
-action_scope: "Scope: a team agreement and whoever owns priorities"
 metadata:
   principle: "3.07"
   reading_time_in_minutes: 2

@@ -4,7 +4,6 @@ title: "Let them carry what is reversible"
 part: "Leadership"
 order: 905
 card_type: pratique
-action_scope: "Scope: agreement from the people, and authority over the decision handed over"
 metadata:
   principle: "9.05"
   reading_time_in_minutes: 2

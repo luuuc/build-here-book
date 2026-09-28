@@ -4,7 +4,6 @@ title: "Laisse-le porter ce qui est réversible"
 part: "Le leadership"
 order: 905
 card_type: pratique
-action_scope: "Portée : accord des personnes et autorité sur la décision confiée"
 metadata:
   principle: "9.05"
   reading_time_in_minutes: 2

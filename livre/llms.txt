@@ -34,7 +34,7 @@ Le test du builder pose cinquante questions réparties entre dix capacités. Il 
 - [Questions fréquentes]({{ site.url }}/questions-frequentes/): ce qu'est le livre, qui l'a écrit, réutilisation et citation, le test, Équipes
 - [Glossaire]({{ site.url }}/glossaire/): les mots du livre et du test, une phrase chacun
 - [Le test du builder]({{ site.url }}/test-du-builder/): l'évaluation interactive
-- [Les quatre types de cartes]({{ site.url }}/guide-de-lecture/): principe, diagnostic, pratique et système
+- [Lire une carte]({{ site.url }}/guide-de-lecture/) : chaque carte est un principe numéroté, et ⇄ marque les cartes leader
 - [Comment fonctionne le test]({{ site.url }}/methode-du-test/): choix de lecture, confidentialité et limites
 - [test-du-builder.json]({{ site.url }}/test-du-builder.json): les questions, les règles de calcul et les paliers, pour faire passer le test à quelqu'un
 - [Build Here pour les équipes]({{ site.url }}/pour-les-equipes/): l'équipe passe le test, avec carte de l'équipe, progression et pratiques suivies. Payant.

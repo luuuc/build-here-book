@@ -4,7 +4,6 @@ title: "⇄ Un chiffrage demandé après la décision n'est pas un chiffrage"
 part: "La compréhension"
 order: 412
 card_type: systeme
-action_scope: "Portée : responsable de l'engagement et métiers concernés"
 metadata:
   principle: "4.12"
   reading_time_in_minutes: 2

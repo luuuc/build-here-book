@@ -35,7 +35,7 @@ The builder test asks fifty questions across ten capabilities. It gives a level 
 - [Questions and answers]({{ site.url }}/faq/): what the book is, who wrote it, reuse and citation, the test, Teams
 - [Glossary]({{ site.url }}/glossary/): the words of the book and the test, one sentence each
 - [The builder test]({{ site.url }}/builder-test/): the interactive questions
-- [The four types of card]({{ site.url }}/how-to-read/): principle, diagnostic, practice and system
+- [How to read a card]({{ site.url }}/how-to-read/): every card is a numbered principle, and ⇄ marks the leader cards
 - [How the test works]({{ site.url }}/test-method/): reading choices, privacy and limits
 - [builder-test.json]({{ site.url }}/builder-test.json): the questions, scoring rules and bands, to run the test with someone
 - [Build Here for Teams]({{ site.url }}/for-teams/): the team takes the test, with a team map, progress and practices followed up. Paid.

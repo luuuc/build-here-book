@@ -4,7 +4,6 @@ title: "⇄ The absence of a rule is a ban"
 part: "Being the reference"
 order: 1010
 card_type: systeme
-action_scope: "Scope: whoever owns the sharing framework and the means"
 metadata:
   principle: "10.10"
   reading_time_in_minutes: 2

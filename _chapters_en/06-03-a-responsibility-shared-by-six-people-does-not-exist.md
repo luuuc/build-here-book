@@ -4,7 +4,6 @@ title: "A responsibility shared by six people does not exist"
 part: "Ownership"
 order: 603
 card_type: diagnostic
-action_scope: "Scope: a team agreement"
 metadata:
   principle: "6.03"
   reading_time_in_minutes: 2

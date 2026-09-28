@@ -4,7 +4,6 @@ title: "L'IA est un levier, pas un raccourci"
 part: "Le levier"
 order: 802
 card_type: pratique
-action_scope: "Portée : individu"
 metadata:
   principle: "8.02"
   reading_time_in_minutes: 2

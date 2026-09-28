@@ -4,7 +4,6 @@ title: "⇄ L'absence de règle est une interdiction"
 part: "La référence"
 order: 1010
 card_type: systeme
-action_scope: "Portée : responsables du cadre de partage et des moyens"
 metadata:
   principle: "10.10"
   reading_time_in_minutes: 2

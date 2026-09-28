@@ -4,7 +4,6 @@ title: "⇄ You pay for hours, you get hours"
 part: "Leverage"
 order: 805
 card_type: systeme
-action_scope: "Scope: a team agreement and whoever owns means or appraisal"
 metadata:
   principle: "8.05"
   reading_time_in_minutes: 2

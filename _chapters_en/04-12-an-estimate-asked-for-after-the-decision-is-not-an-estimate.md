@@ -4,7 +4,6 @@ title: "⇄ An estimate asked for after the decision is not an estimate"
 part: "Understanding"
 order: 412
 card_type: systeme
-action_scope: "Scope: whoever owns the commitment, and the crafts involved"
 metadata:
   principle: "4.12"
   reading_time_in_minutes: 2

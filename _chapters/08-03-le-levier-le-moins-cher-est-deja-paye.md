@@ -4,7 +4,6 @@ title: "Le levier le moins cher est déjà payé"
 part: "Le levier"
 order: 803
 card_type: principe
-action_scope: "Portée : exploration individuelle, accords d'accès et de budget si nécessaires"
 metadata:
   principle: "8.03"
   reading_time_in_minutes: 2

@@ -4,7 +4,6 @@ title: "⇄ Ton équipe travaille sous ton nom"
 part: "La référence"
 order: 1011
 card_type: systeme
-action_scope: "Portée : accord des contributeurs et responsables de la communication ou des moyens"
 metadata:
   principle: "10.11"
   reading_time_in_minutes: 2

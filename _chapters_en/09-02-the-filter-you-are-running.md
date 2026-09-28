@@ -4,7 +4,6 @@ title: "The filter you are running"
 part: "Leadership"
 order: 902
 card_type: diagnostic
-action_scope: "Scope: the people involved in hiring"
 metadata:
   principle: "9.02"
   reading_time_in_minutes: 2

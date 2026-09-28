@@ -23,12 +23,13 @@
 
       <div class="chapter-kicker">
         {% if c.step_number %}
-          <span>{{ t.carte.capacite }} {{ c.step_number }}</span>
+          <span>{{ t.carte.capacite }}</span>
         {% else %}
           {% unless c.part == c.title %}<span>{{ c.part }}</span>{% endunless %}
+          {% if c.metadata.principle %}<span>{{ t.carte.principe }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}
         {% endif %}
         {% if c.metadata.reading_time_in_minutes %}<span>{{ c.metadata.reading_time_in_minutes }} min</span>{% endif %}
-        {% if c.card_type %}<span>{{ t.lecture.types[c.card_type] }}</span><span>{{ c.action_scope | default: t.lecture.portees[c.card_type] }}</span>{% endif %}
+        {% if c.card_type == "systeme" %}<span>{{ t.carte.leader }}</span>{% endif %}
       </div>
       {% if c.description %}<div class="chapter-lede">{{ c.description }}</div>{% endif %}
       {% if c.author %}<p class="chapter-author">{{ t.carte.auteur }} {{ c.author | escape }}</p>{% endif %}

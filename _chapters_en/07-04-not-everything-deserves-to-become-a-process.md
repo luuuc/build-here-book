@@ -4,7 +4,6 @@ title: "Not everything deserves to become a process"
 part: "Systems"
 order: 704
 card_type: principe
-action_scope: "Scope: a team agreement"
 metadata:
   principle: "7.04"
   reading_time_in_minutes: 2

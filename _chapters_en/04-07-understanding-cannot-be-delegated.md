@@ -4,7 +4,6 @@ title: "Understanding cannot be delegated"
 part: "Understanding"
 order: 407
 card_type: principe
-action_scope: "Scope: yourself, with access and time agreed"
 metadata:
   principle: "4.07"
   reading_time_in_minutes: 2

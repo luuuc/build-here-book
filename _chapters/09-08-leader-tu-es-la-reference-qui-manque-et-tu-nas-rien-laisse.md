@@ -4,7 +4,6 @@ title: "⇄ Tu es la référence qui manque, et tu n'as rien laissé"
 part: "Le leadership"
 order: 908
 card_type: systeme
-action_scope: "Portée : accord des contributeurs et responsables des moyens"
 metadata:
   principle: "9.08"
   reading_time_in_minutes: 2

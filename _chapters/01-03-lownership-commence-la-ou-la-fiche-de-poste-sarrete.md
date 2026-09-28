@@ -4,7 +4,6 @@ title: "L'ownership commence là où la fiche de poste s'arrête"
 part: "L'état d'esprit"
 order: 103
 card_type: principe
-action_scope: "Portée : individu et accord des personnes concernées"
 metadata:
   principle: "1.03"
   reading_time_in_minutes: 2

@@ -4,7 +4,6 @@ title: "Shipper crée de l'information"
 part: "La livraison"
 order: 501
 card_type: principe
-action_scope: "Portée : individu ou accord des personnes concernées"
 metadata:
   principle: "5.01"
   reading_time_in_minutes: 2

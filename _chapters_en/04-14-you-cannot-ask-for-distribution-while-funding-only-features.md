@@ -4,7 +4,6 @@ title: "⇄ You cannot ask for distribution while funding only features"
 part: "Understanding"
 order: 414
 card_type: systeme
-action_scope: "Scope: a team agreement and a call on means"
 metadata:
   principle: "4.14"
   reading_time_in_minutes: 2

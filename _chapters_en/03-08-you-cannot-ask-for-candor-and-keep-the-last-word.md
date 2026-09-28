@@ -4,7 +4,6 @@ title: "⇄ You cannot ask for candor and keep the last word"
 part: "Autonomy"
 order: 308
 card_type: systeme
-action_scope: "Scope: the decision owner and a team agreement"
 metadata:
   principle: "3.08"
   reading_time_in_minutes: 2

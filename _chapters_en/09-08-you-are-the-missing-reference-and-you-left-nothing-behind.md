@@ -4,7 +4,6 @@ title: "⇄ You are the missing reference, and you left nothing behind"
 part: "Leadership"
 order: 908
 card_type: systeme
-action_scope: "Scope: agreement from the contributors and whoever owns the means"
 metadata:
   principle: "9.08"
   reading_time_in_minutes: 2

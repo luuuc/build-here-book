@@ -4,7 +4,6 @@ title: "⇄ Customer access is a budget, not a value"
 part: "Understanding"
 order: 413
 card_type: systeme
-action_scope: "Scope: whoever owns access and the customer relationship"
 metadata:
   principle: "4.13"
   reading_time_in_minutes: 2

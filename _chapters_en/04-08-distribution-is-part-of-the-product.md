@@ -4,7 +4,6 @@ title: "Distribution is part of the product"
 part: "Understanding"
 order: 408
 card_type: principe
-action_scope: "Scope: a team agreement"
 metadata:
   principle: "4.08"
   reading_time_in_minutes: 2

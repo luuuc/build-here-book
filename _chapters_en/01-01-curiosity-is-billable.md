@@ -4,7 +4,6 @@ title: "Curiosity is billable"
 part: "The mindset"
 order: 101
 card_type: principe
-action_scope: "Scope: yourself, or an agreement about your schedule"
 metadata:
   principle: "1.01"
   reading_time_in_minutes: 2

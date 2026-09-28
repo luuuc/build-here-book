@@ -19,7 +19,7 @@
                     class="nav-part-title"
                     href="{{ ouverture.url | relative_url }}"
                     {% if ouverture.url == page.url %}aria-current="page"{% endif %}
-                    >{% if ouverture.step_number < 10 %}0{% endif %}{{ ouverture.step_number }}. {{ nom }}</a
+                    >{{ nom }}</a
                   >
                 {% else %}
                   <span class="nav-part-title">{{ nom }}</span>
@@ -29,6 +29,7 @@
                     {% unless ouverture and c.url == ouverture.url %}
                       <li{% if c.url == page.url %} class="is-current"{% endif %}>
                         <a href="{{ c.url | relative_url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
+                          {% if c.metadata.principle %}<span class="nav-num">{{ t.carte.principe }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}
                           {{ c.title }}
                         </a>
                       </li>
@@ -41,6 +42,7 @@
                 {% for c in items %}
                   <li{% if c.url == page.url %} class="is-current"{% endif %}>
                     <a href="{{ c.url | relative_url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
+                      {% if c.metadata.principle %}<span class="nav-num">{{ t.carte.principe }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}
                       {{ c.title }}
                     </a>
                   </li>

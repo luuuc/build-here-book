@@ -4,7 +4,6 @@ title: "Ownership starts where the job description stops"
 part: "The mindset"
 order: 103
 card_type: principe
-action_scope: "Scope: yourself, plus agreement from the people involved"
 metadata:
   principle: "1.03"
   reading_time_in_minutes: 2

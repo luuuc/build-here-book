@@ -4,7 +4,6 @@ title: "Choosing a vendor is signing up for three years"
 part: "Understanding"
 order: 406
 card_type: principe
-action_scope: "Scope: a budget decision"
 metadata:
   principle: "4.06"
   reading_time_in_minutes: 2

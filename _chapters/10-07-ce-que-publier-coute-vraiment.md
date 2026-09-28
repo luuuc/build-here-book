@@ -4,7 +4,6 @@ title: "Ce que publier coûte vraiment"
 part: "La référence"
 order: 1007
 card_type: diagnostic
-action_scope: "Portée : individu et politique interne"
 metadata:
   principle: "10.07"
   reading_time_in_minutes: 2

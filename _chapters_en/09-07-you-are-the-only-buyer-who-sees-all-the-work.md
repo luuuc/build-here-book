@@ -4,7 +4,6 @@ title: "⇄ You are the only buyer who sees all the work"
 part: "Leadership"
 order: 907
 card_type: systeme
-action_scope: "Scope: whoever owns appraisal, means and pay, depending on the subject"
 metadata:
   principle: "9.07"
   reading_time_in_minutes: 2

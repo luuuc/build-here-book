@@ -27,16 +27,6 @@ lecture:
   retirer: "Remove from kept"
   filtre: "Filter by situation"
   filtre_vide: "Nothing matches."
-  types:
-    principe: "Principle"
-    diagnostic: "Diagnostic"
-    pratique: "Practice"
-    systeme: "System"
-  portees:
-    principe: "Scope: adapt to your own remit"
-    diagnostic: "Scope: an inquiry, alone or shared"
-    pratique: "Scope: adapt to your own remit"
-    systeme: "Scope: authority over the conditions involved"
 
 # Rating a card. No stars, no score.
 note:
@@ -134,6 +124,10 @@ pied:
 
 carte:
   capacite: "Capability"
+  # Every card is a principle, numbered in its section. Leader marks the cards
+  # written for the people who set the team's conditions.
+  principe: "Principle"
+  leader: "Leader"
   suivante: "Next card"
   auteur: "Written by"
 

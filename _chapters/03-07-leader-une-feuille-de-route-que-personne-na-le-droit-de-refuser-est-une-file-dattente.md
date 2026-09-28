@@ -4,7 +4,6 @@ title: "⇄ Une feuille de route que personne n'a le droit de refuser est une fi
 part: "L'autonomie"
 order: 307
 card_type: systeme
-action_scope: "Portée : accord d'équipe et responsable des priorités"
 metadata:
   principle: "3.07"
   reading_time_in_minutes: 2

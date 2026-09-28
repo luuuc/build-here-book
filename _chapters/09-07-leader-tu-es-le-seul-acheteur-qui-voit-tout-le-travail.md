@@ -4,7 +4,6 @@ title: "⇄ Tu es le seul acheteur qui voit tout le travail"
 part: "Le leadership"
 order: 907
 card_type: systeme
-action_scope: "Portée : responsables de l'évaluation, des moyens et de la rémunération selon le sujet"
 metadata:
   principle: "9.07"
   reading_time_in_minutes: 2

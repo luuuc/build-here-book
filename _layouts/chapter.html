@@ -23,13 +23,13 @@
              toute la ligne, a toutes les largeurs. -->
         <div class="chapter-number{% if page.card_type %} chapter-number--{{ page.card_type }}{% endif %}">
           {% if page.step_number %}
-          <span>{{ t.carte.capacite }} {{page.step_number}}</span>
+          <span>{{ t.carte.capacite }}</span>
           {% else %}
           {% unless page.part == page.title %}<span>{{page.part}}</span>{% endunless %}
+          {% if page.metadata.principle %}<span>{{ t.carte.principe }} {{ page.metadata.principle | split: "." | last }}</span>{% endif %}
           {% endif %}
           {% if page.metadata.reading_time_in_minutes %}<span>{{page.metadata.reading_time_in_minutes}} min</span>{% endif %}
-          {% if page.card_type %}<span class="card-type">{{ t.lecture.types[page.card_type] }}</span>{% endif %}
-          {% if page.card_type %}<span>{{ page.action_scope | default: t.lecture.portees[page.card_type] }}</span>{% endif %}
+          {% if page.card_type == "systeme" %}<span class="card-type">{{ t.carte.leader }}</span>{% endif %}
           <!-- Les deux actions de page, groupees. Le conteneur porte la
                marge automatique : sur les boutons eux-memes, deux marges
                automatiques se partagent l'espace libre et laissent un trou

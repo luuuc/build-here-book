@@ -4,7 +4,6 @@ title: "⇄ L'accès au client est un budget, pas une valeur"
 part: "La compréhension"
 order: 413
 card_type: systeme
-action_scope: "Portée : responsables des accès et de la relation client"
 metadata:
   principle: "4.13"
   reading_time_in_minutes: 2

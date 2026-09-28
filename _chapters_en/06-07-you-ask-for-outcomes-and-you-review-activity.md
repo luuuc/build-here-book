@@ -4,7 +4,6 @@ title: "⇄ You ask for outcomes and you review activity"
 part: "Ownership"
 order: 607
 card_type: systeme
-action_scope: "Scope: a team agreement on tracking"
 metadata:
   principle: "6.07"
   reading_time_in_minutes: 2

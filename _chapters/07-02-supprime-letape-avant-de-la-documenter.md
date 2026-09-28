@@ -4,7 +4,6 @@ title: "Supprime l'étape avant de la documenter"
 part: "Les systèmes"
 order: 702
 card_type: pratique
-action_scope: "Portée : équipe ou direction"
 metadata:
   principle: "7.02"
   reading_time_in_minutes: 2

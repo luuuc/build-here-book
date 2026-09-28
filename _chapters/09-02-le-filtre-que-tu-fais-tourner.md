@@ -4,7 +4,6 @@ title: "Le filtre que tu fais tourner"
 part: "Le leadership"
 order: 902
 card_type: diagnostic
-action_scope: "Portée : personnes impliquées dans le recrutement"
 metadata:
   principle: "9.02"
   reading_time_in_minutes: 2

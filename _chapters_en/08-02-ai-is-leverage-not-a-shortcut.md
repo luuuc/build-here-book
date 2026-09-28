@@ -4,7 +4,6 @@ title: "AI is leverage, not a shortcut"
 part: "Leverage"
 order: 802
 card_type: pratique
-action_scope: "Scope: yourself"
 metadata:
   principle: "8.02"
   reading_time_in_minutes: 2

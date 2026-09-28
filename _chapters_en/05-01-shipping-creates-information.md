@@ -4,7 +4,6 @@ title: "Shipping creates information"
 part: "Delivery"
 order: 501
 card_type: principe
-action_scope: "Scope: yourself, or agreement from the people involved"
 metadata:
   principle: "5.01"
   reading_time_in_minutes: 2

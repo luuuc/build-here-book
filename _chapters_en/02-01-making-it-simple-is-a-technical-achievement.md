@@ -4,7 +4,6 @@ title: "Making it simple is a technical achievement"
 part: "The craft"
 order: 201
 card_type: principe
-action_scope: "Scope: yourself, or a team agreement"
 metadata:
   principle: "2.01"
   reading_time_in_minutes: 2

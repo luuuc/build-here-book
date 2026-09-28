@@ -281,6 +281,17 @@ body {
   color: var(--bleu);
 }
 
+/* Le numero du principe, en petit devant son titre. */
+.nav-num {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--discret);
+}
+
 .nav-group {
   margin-top: 2.25rem;
 }
@@ -911,18 +922,7 @@ sup a {
   background: var(--signal);
 }
 
-/* Les quatre formats gardent la meme grille. Le petit signe change assez pour
-   annoncer le mouvement sans transformer les cartes en quatre produits. */
-.content--diagnostic h2::before {
-  background: transparent;
-  border: 2px solid var(--signal);
-  transform: rotate(45deg);
-}
-
-.content--pratique h2::before {
-  border-radius: 50%;
-}
-
+/* Les cartes leader gardent la meme grille, avec un signe a elles. */
 .content--systeme h2::before {
   background: var(--encre);
   box-shadow: 4px 4px 0 var(--signal);

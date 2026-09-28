@@ -4,7 +4,6 @@ title: "Hand over a problem, not a task"
 part: "Leadership"
 order: 903
 card_type: pratique
-action_scope: "Scope: agreement between the people, and a mandate over the work handed over"
 metadata:
   principle: "9.03"
   reading_time_in_minutes: 2

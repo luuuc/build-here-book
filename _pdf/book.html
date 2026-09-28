@@ -74,7 +74,7 @@ partage avec l'EPUB, dans _includes/book-body.html.
             <ul>
               {% for c in items %}
                 <li class="{% if c.card_type %}toc-entry{% else %}toc-section{% endif %}">
-                  <a href="#{{ c.url | split: '/' | last }}">{{ c.title }}</a>
+                  <a href="#{{ c.url | split: '/' | last }}">{% if c.metadata.principle %}<span class="num">{{ t.carte.principe }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}{{ c.title }}</a>
                 </li>
               {% endfor %}
             </ul>{% endif %}

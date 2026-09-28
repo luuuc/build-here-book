@@ -4,7 +4,6 @@ title: "La curiosité est facturable"
 part: "L'état d'esprit"
 order: 101
 card_type: principe
-action_scope: "Portée : individu ou accord de planning"
 metadata:
   principle: "1.01"
   reading_time_in_minutes: 2

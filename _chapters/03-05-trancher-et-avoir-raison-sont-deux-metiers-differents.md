@@ -4,7 +4,6 @@ title: "Trancher et avoir raison sont deux métiers différents"
 part: "L'autonomie"
 order: 305
 card_type: principe
-action_scope: "Portée : accord d'équipe"
 metadata:
   principle: "3.05"
   reading_time_in_minutes: 2

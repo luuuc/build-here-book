@@ -4,7 +4,6 @@ title: "The cheapest leverage is already paid for"
 part: "Leverage"
 order: 803
 card_type: principe
-action_scope: "Scope: your own exploration, plus access and budget agreements if needed"
 metadata:
   principle: "8.03"
   reading_time_in_minutes: 2

@@ -4,7 +4,6 @@ title: "⇄ Tu demandes des résultats et tu passes en revue de l'activité"
 part: "L'ownership"
 order: 607
 card_type: systeme
-action_scope: "Portée : accord d'équipe sur le suivi"
 metadata:
   principle: "6.07"
   reading_time_in_minutes: 2

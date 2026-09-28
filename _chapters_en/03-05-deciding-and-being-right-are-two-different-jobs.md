@@ -4,7 +4,6 @@ title: "Deciding and being right are two different jobs"
 part: "Autonomy"
 order: 305
 card_type: principe
-action_scope: "Scope: a team agreement"
 metadata:
   principle: "3.05"
   reading_time_in_minutes: 2

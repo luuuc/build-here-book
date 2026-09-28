@@ -4,7 +4,6 @@ title: "La compréhension ne se délègue pas"
 part: "La compréhension"
 order: 407
 card_type: principe
-action_scope: "Portée : individu, avec accès et temps convenus"
 metadata:
   principle: "4.07"
   reading_time_in_minutes: 2

@@ -4,7 +4,6 @@ title: "⇄ Your team works under your name"
 part: "Being the reference"
 order: 1011
 card_type: systeme
-action_scope: "Scope: agreement from the contributors and whoever owns communications or means"
 metadata:
   principle: "10.11"
   reading_time_in_minutes: 2

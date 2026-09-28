@@ -4,7 +4,6 @@ title: "Une responsabilité partagée par six personnes n'existe pas"
 part: "L'ownership"
 order: 603
 card_type: diagnostic
-action_scope: "Portée : accord d'équipe"
 metadata:
   principle: "6.03"
   reading_time_in_minutes: 2

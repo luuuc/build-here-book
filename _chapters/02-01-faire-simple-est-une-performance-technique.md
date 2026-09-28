@@ -4,7 +4,6 @@ title: "Faire simple est une performance technique"
 part: "Le métier"
 order: 201
 card_type: principe
-action_scope: "Portée : individu ou accord d'équipe"
 metadata:
   principle: "2.01"
   reading_time_in_minutes: 2

@@ -4,7 +4,6 @@ title: "Confie un problème, pas une tâche"
 part: "Le leadership"
 order: 903
 card_type: pratique
-action_scope: "Portée : accord entre les personnes et mandat sur le travail confié"
 metadata:
   principle: "9.03"
   reading_time_in_minutes: 2

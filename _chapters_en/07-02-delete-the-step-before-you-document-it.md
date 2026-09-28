@@ -4,7 +4,6 @@ title: "Delete the step before you document it"
 part: "Systems"
 order: 702
 card_type: pratique
-action_scope: "Scope: the team, or leadership"
 metadata:
   principle: "7.02"
   reading_time_in_minutes: 2

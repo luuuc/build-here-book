@@ -4,7 +4,6 @@ title: "What publishing really costs"
 part: "Being the reference"
 order: 1007
 card_type: diagnostic
-action_scope: "Scope: yourself, and internal policy"
 metadata:
   principle: "10.07"
   reading_time_in_minutes: 2

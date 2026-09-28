@@ -4,7 +4,6 @@ title: "⇄ On ne demande pas de la distribution en ne finançant que des foncti
 part: "La compréhension"
 order: 414
 card_type: systeme
-action_scope: "Portée : accord d'équipe et arbitrage de moyens"
 metadata:
   principle: "4.14"
   reading_time_in_minutes: 2
