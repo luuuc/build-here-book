@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/10-06-publie-la-ou-on-cherche.html
 seo:
-  description: "Check a real reader's route to it and maintain the resource, without promising indexing, permanence, or a search ranking."
+  description: "A resource nobody finds does not exist. Publish where your readers search, AI assistants included, in their words."
   keywords: "build here, builder, reference, resource, search, upkeep"
 redirect_from:
   - /book/chapters/10-05-publish-where-people-search.html
@@ -23,35 +23,33 @@ redirect_from:
 
 ## The starting point
 
-A resource exists and the people it is for are allowed to reach it. What is left to check is whether they know where to look and recognise what it can do for them.
+A useful resource exists. The people who need it cannot find it.
 
 ## The move
 
-Watch a real reader's route: the words they use, where they look, and the access they have. Fit the resource to that route.
+Publish where your readers already look, in the words they use.
 
 ## Why it works
 
-People can arrive through a search, a recommendation, an index, a training session, or a link inside their working tool. A familiar name can guide them too. Choosing a precise title helps, but guarantees neither discovery nor a search ranking.
+A resource nobody finds does not exist. People search in a search engine, a messaging group, a professional network, the tool they open every morning, and more and more by asking an AI. If your resource is in none of those places, it will not be read.
 
-A sheet explains how to fix an incomplete file. Its title uses the word the team who wrote it uses, while new members search for "missing document". Adding that term, and a link from the welcome instructions, can make the sheet more reachable. The problem does not necessarily require publishing anything.
+A sheet explains how to fix an incomplete file. Its title uses the word the team who wrote it uses; newcomers search for "missing document". Changing the title and adding a link from the welcome instructions is enough to make it findable.
 
-The location has to match the sharing rights and the recipients' habits. An internal page, a repository, or a community space can all work. No address is permanent by nature: access, services and content change. Plan a reference version, a way to report an error, and, if you need it, a copy or a way to move it.
+In public, a well-titled page gets found by search engines and by the AI assistants that answer people's questions. Write a title that is a real question, a first sentence that answers it, and an address that will not change.
 
-For public content, an announcement can help reach readers, but its reach is uncertain. Not appearing in search results does not on its own show the title is bad. Check first that it is reachable, that it fits, and what route people actually take. If you are starting out, one willing reader can already reveal a problem of findability.
+Announce it where your readers already are. A post in the right network or the right group sends more readers than a good title alone.
 
 ## Try this
 
-Choose a resource and ask someone it is for where they would look for the answer, without handing them the link straight away. Do that with their agreement, and without turning it into an assessment of their competence.
+Ask someone it is for where they would look for the answer, without giving them the link. Note their words and their route.
 
-Watch the words they use and the obstacles they hit. Fix a title, an entry link, an access, or an explanation according to what you saw. Do not make content public only to improve its findability.
-
-Walk the route again with another suitable case, and check too whether the resource helps once found. Agree who maintains the location and what happens if the material goes out of date.
+Fix the title, add entry links, publish where they looked. Do it again with someone else.
 
 ## From where you sit
 
 - **Support**: bring the words used by the people looking for help.
 - **Design**: examine the route between the question and the useful resource.
-- **Engineering**: check access, links, and what it takes to keep the material available.
+- **Engineering**: check that the page is readable by search engines and AI assistants, and that its address is stable.
 - **Management**: assign the upkeep of a resource the team uses over time.
 
 ## To discuss

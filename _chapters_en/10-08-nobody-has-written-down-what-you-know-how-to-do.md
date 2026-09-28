@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/10-08-personne-na-ecrit-ce-que-tu-sais-faire.html
 seo:
-  description: "Make a situated experience useful by connecting it to what already exists, without assuming it is unique or requiring publication."
+  description: "What you have learned to make work here is missing almost everywhere. Write it down, with its conditions, and publish it."
   keywords: "build here, builder, reference, context, experience, sharing"
 redirect_from:
   - /book/chapters/10-07-nobody-has-written-down-what-you-know-how-to-do.html
@@ -23,37 +23,35 @@ redirect_from:
 
 ## The reflex
 
-You have learned to work with particular constraints, and you wonder whether that experience could help somebody else, here or elsewhere.
+You have learned to work with particular constraints: an unstable network, a tight budget, mobile payments, customers who come through messaging. You think nobody would be interested.
 
 ## The builder's reflex
 
-Look for what already exists, then say what your context confirms, qualifies, or adds. A contribution does not have to be entirely new to be useful.
+Write it down. What you know how to do here, nobody has probably written, and others need it.
 
 ## Why
 
-Conditions of use shape solutions: network availability, devices, language, access, means, or how a partner operates. Describing those conditions helps a reader judge whether the experience can inform their own work. They do not characterise a country or a market uniformly.
+The books and articles in your trade mostly come from elsewhere, written under other conditions. What you have learned to make work here, with these constraints, is missing almost everywhere. It is the reference the next people are looking for.
 
-A team adapts a support procedure for when the connection is intermittent. They say what has to stay available, how the handover is organised, and which limits remain. Another team can find an idea there, even if the tools or the cause of the outages differ. You have to explain the reasoning, not present the solution as universal.
+A team adapts its support procedure for when the connection is intermittent: what has to stay available, how to hand over, what still does not work. Published, that page helps other teams in the same situation, here and in other countries.
 
-A short search can reveal useful resources, or a gap in what you found. It does not prove nobody has written about the subject. Search with several phrasings, in the languages you can read, and with people who know the field. A local document, a spoken explanation, or a resource nobody links to may already carry that knowledge.
+It does not have to be entirely new. An adaptation, a local example, a limit you observed in a known method: that is already a contribution. Cite what helped you, and say what your context changes.
 
-Your contribution can be an adaptation, a complementary example, an authorised translation, or a limit you observed. Cite the resources that helped you, and separate your experience from what you infer from it. Someone starting out can tell the story of a first attempt with its uncertainties; an experienced person can explain the trade-offs in a proven solution. Context creates no obligation to publish.
+Describe the conditions, not a country. "Connection drops several times a day" helps the reader judge whether your experience applies to them. "It's different here" does not.
 
 ## Try this
 
-Choose a precise difficulty and a possible recipient. Spend a bounded effort looking for what might already help them. Note what you found and what is still missing for this situation.
+Pick a difficulty you learned to solve in your context. Spend twenty minutes looking for what already exists.
 
-Prepare a small addition with the context, the choices, the observations, and the limits. Use a shareable example, or one clearly constructed, then have the explanation read by someone concerned.
-
-Choose a form of sharing that fits the agreements and the time available, internal if that is right. Ask what the recipient was able to reuse and what still needs explaining. No feedback demonstrates neither uselessness nor impact.
+Write what your experience confirms, qualifies or adds: the context, the choices, what worked, the limits. Publish it.
 
 ## From where you sit
 
 - **Engineering**: explain the conditions and trade-offs behind a technical solution.
 - **Design**: describe the conditions of access you observed, without generalising to all users.
-- **Support**: bring a case with its context, and acknowledge the practices already known.
-- **Management**: help choose a recipient and a realistic sharing effort.
+- **Support**: bring a case with its context, and cite the practices already known.
+- **Management**: help choose the subject and give the time to write.
 
 ## To discuss
 
-Which experience would usefully complete an existing resource, and for which recipient?
+Which experience from our context is written down nowhere, and who writes it this month?

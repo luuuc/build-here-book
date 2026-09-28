@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/10-04-a-trace-is-not-necessarily-code.html
 seo:
-  description: "Choisis une trace adaptée au métier et au destinataire : exemples, schémas et observations qualitatives comptent aussi, en interne comme en public."
+  description: "Chaque métier a ses traces : un calcul, un cas, un script, une liste. Publie celle du tien."
   keywords: "build here, trace, support, produit, builder, code"
 redirect_from:
   - /livre/chapitres/10-03-une-trace-nest-pas-forcement-du-code.html
@@ -24,37 +24,35 @@ redirect_from:
 
 ## Le réflexe
 
-Tu voudrais transmettre une pratique, mais les exemples de bibliothèques ou de code public te semblent éloignés de ton métier ou de ton expérience.
+Tu voudrais partager ce que tu sais, mais les exemples de partage que tu vois sont des bibliothèques de code et des articles techniques. Ça ne ressemble pas à ton métier.
 
 ## Le réflexe builder
 
-Pars de la personne à aider et de ce qu'elle doit comprendre ou faire. Choisis une forme adaptée à ce besoin, technique ou non.
+Publie la trace qui correspond à ton métier : une fiche, un calcul, un cas, un parcours.
 
 ## Pourquoi
 
-Une trace peut être une fiche, une explication, une décision commentée, un schéma, une démonstration enregistrée avec accord ou un exemple de travail. Elle peut servir dans une équipe, une association ou au-delà. Un dépôt privé peut être utile à ses destinataires, tout comme une page publique peut ne répondre à aucun besoin réel.
+Chaque métier a ses traces. En finance, un exemple de calcul avec ses hypothèses. Au support, un cas commenté. En vente, un script d'appel qui a marché. En design, un parcours avec ses raisons. En opérations, une liste de vérification. Aucune ne contient de code, toutes servent à quelqu'un d'autre.
 
-Une personne aux opérations prépare une fiche pour accueillir un intervenant. Elle explique les informations à vérifier, un cas qui demande de l'aide et le contact à prévenir. Un pair l'essaie puis signale une ambiguïté. La fiche devient plus utile sans contenir de code, de chiffre original ou de découverte inédite.
+Une personne aux opérations écrit une fiche pour accueillir un nouveau prestataire : les informations à vérifier, le cas qui pose problème, qui prévenir. Un collègue l'essaie et signale un point flou. Corrigée, elle sert à toute l'équipe, puis à d'autres équipes qui ont le même besoin.
 
-Les métiers ont leurs façons de transmettre. En finance, un exemple de calcul avec ses hypothèses ; au support, un cas commenté ; en design, un parcours avec ses raisons ; dans une activité bénévole, une liste de préparation. Les observations qualitatives comptent aussi. La valeur dépend de l'aide apportée et de la justesse du contexte, pas d'une obligation de quantifier.
+Tu n'as pas besoin d'être le premier. Une adaptation à ton contexte, une traduction, un exemple plus simple aident quelqu'un que l'original n'aidait pas. Cite ce qui vient d'ailleurs.
 
-Il n'est pas nécessaire d'être la première personne à expliquer une méthode. Une adaptation, une traduction ou un exemple accessible peut aider un nouveau destinataire, en reconnaissant ce qui vient d'ailleurs. Une personne qui débute peut conserver ce qui l'a aidée et faire vérifier ses explications. Une personne expérimentée peut préciser les exceptions et les limites, plutôt que chercher une originalité forcée.
+Publier ces traces a toujours été possible. C'est aujourd'hui rapide : une page, un document partagé, une publication sur un réseau professionnel. Une IA t'aide à mettre en forme ; le contenu, c'est toi.
 
 ## À essayer
 
-Choisis une question qu'une personne rencontre réellement. Propose une petite ressource qui y répond, avec un exemple et ce qui reste hors de son périmètre.
+Choisis une question qu'on te pose souvent. Écris la trace qui y répond, dans la forme de ton métier, avec un exemple et ses limites.
 
-Utilise des informations autorisées ou un cas construit clairement annoncé. Ne copie pas un dossier réel seulement pour rendre le support concret. Convenez du temps de préparation et du lieu où la personne pourra le retrouver.
-
-Fais essayer ou relire le support. Note ce qui a été compris, ce qui manque et qui pourra le corriger si la pratique change. Tu peux garder une forme interne ou accompagnée si elle répond mieux au besoin.
+Fais-la essayer par quelqu'un, corrige, puis publie-la là où ceux qui ont la même question la trouveront.
 
 ## Depuis ton siège
 
 - **Opérations** : explique un parcours avec ses points de vigilance et ses relais.
 - **Finance** : prépare un exemple dont les hypothèses sont compréhensibles.
-- **Support** : conserve un cas utile avec son contexte et les limites du partage.
-- **Design** : rends un choix lisible sans exiger un indicateur chiffré pour chaque observation.
+- **Support** : publie un cas utile avec son contexte, sans les données du client.
+- **Design** : rends un choix lisible, avec ses raisons.
 
 ## À discuter
 
-Quelle forme aiderait le prochain destinataire de notre savoir, même sans code ni mesure originale ?
+Quelle trace de notre métier aiderait d'autres équipes, et où la publier ?

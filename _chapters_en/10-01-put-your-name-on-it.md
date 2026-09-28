@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/10-01-mets-ton-nom-dessus.html
 seo:
-  description: "Credit contributions and their context under an agreement that fits, without making a public byline a condition of worth."
+  description: "A name makes work findable and accountable. Sign what you make, credit every contribution, publish."
   keywords: "build here, builder, reference, contributions, credit, sharing"
 redirect_from:
   - /book/chapters/10-01-make-contributions-identifiable.html
@@ -22,37 +22,35 @@ redirect_from:
 
 ## The starting point
 
-Useful work circulates, but its recipients do not always know who contributed, in what context it was produced, or who to ask a question.
+A useful piece of work circulates with no name on it. Its readers do not know who made it, in what context, or who to ask.
 
 ## The move
 
-Make the contributions and the context identifiable, under an agreement that fits the sharing. A personal name, a team, or a contact each do a different job.
+Sign your work: your name, the context, and how to reach you. Credit every person who contributed.
 
 ## Why it works
 
-Attributing work helps credit the contributions and find their context again. It can also let someone ask for a clarification or propose a correction. A byline does not on its own prove quality, and the person named does not automatically become available for every question to come.
+A name makes work findable and accountable. The reader knows who to ask for a clarification, who to correct, who to come back to. An anonymous document ends up belonging to nobody, and nobody keeps it up to date.
 
-Internal work can already serve, train people, and leave lasting capabilities. Publishing it can widen its reach, but does not retroactively give it its value. My hiring mistake, built on visibility, was mine; it did not make the less visible people responsible for what my filter could not recognise.
+Signing is also a commitment. You put your name on what you checked. It makes you read it twice, and that is a good thing.
 
-Several colleagues prepare a file reconciliation sheet. One identified the cases, another tried the procedure, a third clarified the explanations. They agree to mention those contributions in the internal sheet and to name the maintenance contact. A single name on the cover would have made part of the work invisible.
+Several colleagues prepare a file reconciliation sheet. One identified the cases, another tried the procedure, a third clarified the explanations. The sheet credits all three and names who maintains it. A single name on the cover would have erased two contributions.
 
-The form of credit depends on the people and on the conditions of sharing. Some want to be named, others prefer a collective mention or no personal exposure at all. Ask for their agreement and respect information that cannot leave. You can credit a contribution privately, or in a restricted space, without imposing publication under someone's name.
+What you sign gets attributed to you, inside and outside. That is how you become a reference on a subject: not by saying so, but by leaving signed work that others reuse.
 
 ## Try this
 
-Choose a resource that is already useful, or a first draft for a precise recipient. Note its purpose, its limits, the contributions, and the right contact if follow-up is expected.
+Take a useful resource you made. Add your name, the contributors, the date, the context, and a way to reach you.
 
-Have the mentions confirmed by the people concerned. If you are starting out, a constructed example or a reviewed explanation can be enough; do not invent an achievement so you have something to sign.
-
-Share inside the remit you are allowed, then ask a recipient whether they understand what they can use and who to approach. Correct an attribution or an ambiguity if you need to. Success requires neither an unknown audience nor a public citation.
+Publish it where its readers will find it. Ask a reader whether they know who to contact, and fix what is unclear.
 
 ## From where you sit
 
 - **Product**: separate contributions to a decision from contributions to putting it into practice.
 - **Design**: state the context and the limits of a shared example.
-- **Management**: credit collective and barely visible contributions too.
-- **Recruiting**: accept evidence that fits, without requiring a public byline.
+- **Management**: credit collective and barely visible contributions by name.
+- **Recruiting**: look at signed work, and accept work that is not signed too.
 
 ## To discuss
 
-On a useful resource, are the contributions credited the way the people concerned want?
+On our most useful resources, who is credited, and who should be?

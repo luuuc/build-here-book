@@ -29,7 +29,7 @@ Ce que tu sais faire, personne ne l'a peut-être écrit.
 
 Une équipe traite chaque semaine des dossiers incomplets. Elle écrit une fiche courte : un cas, les vérifications, les limites, qui contacter. Une nouvelle collègue l'utilise et signale un point flou. L'équipe corrige. La fiche est devenue la référence.
 
-Une référence, c'est une expérience dont quelqu'un d'autre peut se servir : une explication, une méthode, un exemple, un outil. Elle peut rester interne ou devenir publique. Elle part de ce que tu as construit, pas seulement de ton avis.
+Une référence, c'est une expérience dont quelqu'un d'autre peut se servir : une explication, une méthode, un exemple, un outil. Elle commence souvent en interne. Publiée, elle sert à tous ceux qui ont le même problème. Elle part de ce que tu as construit, pas seulement de ton avis.
 
 Cette section porte sur ce passage : mettre ton nom dessus, répondre en public, publier là où on cherche, et savoir ce que ça coûte vraiment.
 

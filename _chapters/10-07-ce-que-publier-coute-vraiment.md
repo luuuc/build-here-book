@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/10-07-what-publishing-really-costs.html
 seo:
-  description: "Examine le coût complet et les conditions d'un partage concret ; anonymiser ne suffit pas à autoriser et une option interne reste valable."
+  description: "Publier coûte peu. Le vrai coût, c'est de retirer ce qui ne t'appartient pas. Fais-le une fois, et publie le reste."
   keywords: "build here, reference, trace, publier, cout, builder"
 redirect_from:
   - /livre/chapitres/10-06-ce-que-publier-coute-vraiment.html
@@ -26,37 +26,35 @@ redirect_from:
 
 ## Le symptôme
 
-Tu envisages de partager un retour d'expérience. Tu vois une utilité possible, mais le temps nécessaire, les informations partageables et les conséquences de l'exposition restent à préciser.
+Tu as un retour d'expérience utile. Tu ne le publies pas : trop long à écrire, pas sûr de ce qui peut sortir.
 
 ## Le signal
 
-Prépare une décision concrète : pour qui partager, sous quelle forme, avec quels accords et quel effort ? Une version interne ou l'absence de publication peut être le bon résultat.
+Publier coûte peu. Ce qui coûte, c'est de vérifier ce qui ne t'appartient pas. Fais cette vérification une fois, et publie.
 
 ## Ce qui se passe
 
-Écrire demande de reconstruire le contexte, vérifier les faits et préparer un contenu compréhensible. Faire relire, répondre aux questions et maintenir une ressource demande aussi du temps. Ce coût varie selon le sujet et les moyens ; ce n'est pas nécessairement une habitude ou un manque de volonté.
+Écrire un retour d'expérience prenait des jours. Avec une IA, le premier jet se fait en une heure à partir de tes notes. La relecture reste ton travail, et elle est courte. Le coût d'écriture n'est plus une bonne raison de se taire.
 
-Le contenu peut concerner d'autres personnes, une organisation ou des engagements de partage. Retirer un nom, modifier un chiffre ou remplacer un fournisseur par une catégorie ne suffit pas à établir que le reste peut être publié. La combinaison de détails peut encore exposer une situation. Une séquence technique n'est pas automatiquement libre de toute restriction.
+Le vrai coût est ailleurs : les informations qui ne sont pas à toi. Les données des clients, les noms, les chiffres confidentiels, ce qu'un contrat interdit. Retirer un nom ne suffit pas toujours : une combinaison de détails peut encore identifier une personne ou une entreprise.
 
-Une équipe souhaite expliquer un incident de paiement. Avant de rédiger une version publique, elle prépare un plan sans données de dossier et identifie ce qui demande une vérification auprès des responsables concernés. Elle peut finalement choisir un exemple fictif annoncé comme tel, une note interne ou une publication limitée au mécanisme dont le partage a été confirmé.
+La règle tient en une phrase : publie ce que tu as construit et appris, retire ce qui appartient à d'autres. Une équipe veut raconter un incident de paiement. Elle publie le mécanisme, ce qu'elle a compris et ce qu'elle a changé. Elle ne publie ni les dossiers ni le nom du client.
 
-Distingue les règles connues, les questions ouvertes et tes préférences personnelles. Un document interne ou un contrat peut fournir des indications sans régler tous les cas. Adresse les points incertains à une personne habilitée à les clarifier, plutôt que de déduire une autorisation du silence. Ton propre souhait de ne pas être exposé compte également dans le choix du format.
+En cas de doute sur un point, pose la question une fois à qui peut répondre. Ne laisse pas un doute sur un détail bloquer tout le texte : retire le détail, publie le reste.
 
 ## À vérifier
 
-Avant d'investir dans la rédaction, note le destinataire, le bénéfice attendu, le contenu prévu et une limite d'effort. Repère les informations et les personnes concernées par le partage.
+Prends un retour d'expérience que tu n'as pas publié. Écris-le en une heure, avec une IA si elle t'aide.
 
-Vérifie le cadre applicable et fais examiner les points incertains. Présente une version concrète aux personnes qui doivent se prononcer ; un accord sur un sujet général ne couvre pas nécessairement tous ses détails. Si un accord manque, conserve un périmètre déjà autorisé ou reporte le partage.
-
-Après l'essai retenu, compare l'aide apportée au temps de préparation et de suivi. Prévois comment corriger ou retirer la ressource, sans promettre de récupérer toutes les copies d'un contenu rendu public.
+Relis-le avec une seule question : qu'est-ce qui, ici, ne m'appartient pas ? Retire-le. Publie le reste cette semaine.
 
 ## Depuis ton siège
 
 - **Ingénierie** : vérifie aussi ce que les détails techniques permettent de déduire.
 - **Produit** : distingue un exemple fictif d'une mesure réellement observée.
-- **Management** : identifie qui peut clarifier les conditions et réserve du temps à la relecture.
-- **Relation client** : aide à examiner les informations liées à la relation et aux engagements.
+- **Management** : écris une fois ce qui ne se publie pas, pour que chacun n'ait pas à le demander.
+- **Relation client** : signale les engagements clients qui limitent ce qu'on peut dire.
 
 ## À discuter
 
-Quel partage serait utile, quelles conditions restent à clarifier et quelle option convient en attendant ?
+Quel retour d'expérience utile dort chez nous, et que faudrait-il en retirer pour le publier ?

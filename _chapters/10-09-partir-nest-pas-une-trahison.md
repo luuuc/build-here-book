@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/10-09-leaving-is-not-a-betrayal.html
 seo:
-  description: "Prépare un relais réaliste lors d'un départ sans conditionner le choix de carrière à une publication ni demander une disponibilité indéfinie."
+  description: "Partir n'est pas trahir. Prépare une passation claire avec une date de fin ; la continuité est l'affaire de l'équipe."
   keywords: "build here, reference, carriere, trace, depart, builder"
 redirect_from:
   - /livre/chapitres/10-08-partir-nest-pas-une-trahison.html
@@ -26,29 +26,27 @@ redirect_from:
 
 ## Le réflexe
 
-Tu envisages de quitter une équipe, une mission ou une activité. La question de la continuité se mélange parfois à un jugement sur ta loyauté.
+Tu envisages de quitter une équipe, une mission ou une activité. La question de la continuité se mélange à un jugement sur ta loyauté.
 
 ## Le réflexe builder
 
-Sépare le choix de ton parcours de l'organisation du relais. Une passation réaliste se prépare dans le cadre convenu ; elle n'est pas une preuve publique à fournir pour légitimer un départ.
+Sépare ton choix de partir de l'organisation du relais. Prépare une passation claire, avec une fin.
 
 ## Pourquoi
 
-Les raisons de partir ou de rester peuvent être professionnelles, personnelles ou matérielles. Elles ne se résument pas à la visibilité, au salaire ou à une obligation envers un milieu. Un départ peut affecter un collectif ; reconnaître cet effet ne signifie pas rendre une personne responsable de toute sa continuité future.
+Partir n'est pas trahir. Les gens partent pour un salaire, une charge, une occasion, une vie. Une équipe qui traite chaque départ comme une trahison apprend à ses membres à cacher leurs projets jusqu'au dernier jour.
 
-Ce qui reste peut prendre plusieurs formes : personnes accompagnées, habitudes de travail, service rendu, décisions expliquées, documents ou outils entretenus. Une publication publique n'est pas supérieure par principe à ces contributions. Comparer les partants et ceux qui restent au nombre de textes efface une grande partie du travail réel.
+Ce que tu laisses compte : les personnes formées, les habitudes de travail, les décisions expliquées, les documents entretenus. Préparer ça est ta part. Garantir la continuité du service est celle de l'équipe et de ses responsables.
 
-Une bénévole cesse d'organiser des ateliers. Elle convient avec le groupe de transmettre le calendrier, les contacts partageables et les points encore ouverts à une personne qui accepte le relais. Le groupe doit aussi décider des activités qu'il peut continuer avec ses moyens. La passation ne consiste pas à demander à la partante de rester joignable sans limite.
+Un commercial quitte l'équipe. Il transmet ses comptes en cours, les contacts, les points ouverts et le contexte de chaque client à la personne qui reprend. L'équipe décide des comptes qu'elle peut garder avec ses moyens. Il fixe une date de fin, après laquelle il n'est plus le recours.
 
-Le temps, les engagements applicables et les accès déterminent ce qui peut être transmis. La personne responsable de la continuité doit aider à choisir les priorités, affecter les moyens et accepter les limites. Il n'est pas toujours possible de transférer tout le savoir avant le départ. Ce manque appelle une décision sur le service, pas une dette morale ou une exigence de publication.
+Tout ne se transmet pas avant un départ. Ce qui manque appelle une décision de l'équipe, pas une dette de la personne qui part.
 
 ## À essayer
 
-Si un relais se prépare, liste les activités en cours, les décisions ouvertes, les ressources utiles et les accès à organiser. Priorise avec la personne responsable ce qui compte pour la suite dans le temps disponible.
+Si tu prépares un départ, liste les activités en cours, les décisions ouvertes, les ressources et les accès. Priorise avec ton responsable.
 
-Faites accepter les responsabilités par les destinataires et prévoyez une vérification adaptée. Identifiez ce qui ne pourra pas être transmis et ce qu'il faudra réduire, reporter ou apprendre autrement.
-
-Convenez de la fin de ton intervention. Une aide ultérieure éventuelle demande un nouvel accord. Tu n'as pas à achever une publication avant de répondre à une opportunité ; le partage public reste une décision distincte, selon son utilité et ses conditions.
+Fais accepter chaque relais par la personne qui le reprend. Fixe la date où ton intervention s'arrête.
 
 ## Depuis ton siège
 

@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/10-09-partir-nest-pas-une-trahison.html
 seo:
-  description: "Prepare a realistic handover when leaving, without making a career choice conditional on publishing or asking for open-ended availability."
+  description: "Leaving is not betraying. Prepare a clear handover with an end date; continuity is the team's job."
   keywords: "build here, reference, career, record, leaving, builder"
 redirect_from:
   - /book/chapters/10-08-leaving-is-not-a-betrayal.html
@@ -22,29 +22,27 @@ redirect_from:
 
 ## The reflex
 
-You are thinking of leaving a team, an engagement, or an activity. The question of continuity sometimes gets mixed up with a judgement about your loyalty.
+You are thinking of leaving a team, an engagement, or an activity. The question of continuity gets mixed up with a judgement about your loyalty.
 
 ## The builder's reflex
 
-Separate the choice about your own path from organising the handover. A realistic handover is prepared inside the agreed frame; it is not public proof you owe anyone to justify leaving.
+Separate your choice to leave from organising the handover. Prepare a clear handover, with an end date.
 
 ## Why
 
-Reasons to leave or to stay can be professional, personal, or material. They do not come down to visibility, to pay, or to a debt owed to a scene. A departure can affect a group; acknowledging that effect does not mean making one person responsible for all its future continuity.
+Leaving is not betraying. People leave for pay, workload, an opportunity, a life. A team that treats every departure as betrayal teaches its members to hide their plans until the last day.
 
-What remains can take several forms: people supported, working habits, service delivered, decisions explained, documents or tools maintained. A public piece is not superior on principle to those contributions. Comparing leavers and stayers by the number of texts written erases a great deal of the real work.
+What you leave behind counts: the people you trained, the working habits, the decisions explained, the documents maintained. Preparing that is your part. Guaranteeing continuity of service is the team's and its managers'.
 
-A volunteer stops organising workshops. With the group she agrees to hand over the calendar, the contacts she may share, and the points still open, to someone who accepts the relay. The group also has to decide which activities it can continue with the means it has. The handover is not about asking the person leaving to stay reachable indefinitely.
+A salesperson leaves the team. He hands his open accounts, the contacts, the open points and the context of each customer to the person taking over. The team decides which accounts it can keep with its means. He sets an end date, after which he is no longer the fallback.
 
-Time, the commitments that apply, and access all determine what can be handed over. Whoever is responsible for continuity has to help choose the priorities, allocate the means, and accept the limits. It is not always possible to transfer all the knowledge before a departure. That gap calls for a decision about the service, not for a moral debt or a demand to publish.
+Not everything can be handed over before a departure. What is missing calls for a team decision, not a debt owed by the person leaving.
 
 ## Try this
 
-If a handover is being prepared, list the activities under way, the open decisions, the useful resources, and the access to arrange. Prioritise with whoever is responsible what matters for what follows, inside the time available.
+If you are preparing to leave, list the activities under way, the open decisions, the resources and the access. Prioritise with your manager.
 
-Have the responsibilities accepted by the people receiving them, and plan a suitable check. Identify what cannot be handed over and what will have to be cut, deferred, or learned another way.
-
-Agree when your involvement ends. Any later help needs a new agreement. You do not have to finish a publication before answering an opportunity; sharing publicly stays a separate decision, on its usefulness and its conditions.
+Have each handover accepted by the person taking it. Set the date your involvement ends.
 
 ## From where you sit
 

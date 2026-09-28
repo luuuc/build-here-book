@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/10-03-an-opinion-is-not-an-artifact.html
 seo:
-  description: "Rends contexte, faits et limites accessibles pour que le lecteur puisse examiner une idée, sans imposer un chiffre ni dévaloriser les avis."
+  description: "Un avis se discute, un artefact se reprend. Partage le cas, le modèle, les chiffres et la méthode."
   keywords: "build here, builder, reference, raisonnement, evidence, limites"
 redirect_from:
   - /livre/chapitres/10-02-un-avis-nest-pas-un-artefact.html
@@ -24,36 +24,34 @@ redirect_from:
 
 ## Le symptôme
 
-Tu partages une conclusion ou une méthode. Le lecteur comprend ta position, mais il lui manque peut-être les éléments pour l'examiner ou l'adapter à sa situation.
+Tu partages une conclusion : "cette méthode marche". Le lecteur voit ta position, mais ne peut rien en faire.
 
 ## Le signal
 
-Ajoute ce qui permet de comprendre le raisonnement : contexte, faits, exemple, hypothèses, limites et manière de vérifier ce qui peut l'être.
+Partage ce qui se réutilise : le cas, le modèle, les chiffres, la méthode. Un avis se discute ; un artefact se reprend.
 
 ## Ce qui se passe
 
-Un avis peut ouvrir une question ou proposer une interprétation utile. Une ressource pratique peut aider à agir. Ces formes ne constituent pas une hiérarchie entre les personnes qui les produisent. Pour le destinataire, la question est de savoir ce que le contenu permet de comprendre, d'examiner ou de faire.
+"Nos entretiens sont meilleurs depuis qu'on utilise une grille" est un avis. La grille, avec un entretien commenté et ce qu'elle a changé dans vos décisions, est un artefact. Le premier se lit et s'oublie. Le second se copie, s'adapte et s'améliore.
 
-Une équipe partage une grille d'entretien. Les critères et les questions ne suffisent pas forcément à expliquer son usage. Un cas commenté, les limites de la grille et la distinction entre observation et interprétation peuvent aider un autre recruteur à l'examiner. Le même principe vaut pour une note de décision ou une procédure interne.
+Un artefact contient ce qu'il faut pour être repris : le contexte, l'exemple, les hypothèses, et les chiffres avec leur méthode. "Délai de recrutement passé de 45 à 30 jours sur 12 postes" vaut plus que "plus rapide".
 
-Une mesure peut éclairer le raisonnement si son périmètre, sa méthode et ses limites sont lisibles. Un chiffre isolé n'est pas une preuve suffisante. Un exemple qualitatif, une chronologie ou une comparaison argumentée peut aussi être utile. N'ajoute pas de quantité artificielle pour donner une apparence de solidité à un retour d'expérience.
+Dis ce que tu ne sais pas. Un exemple construit se présente comme tel, une source empruntée se cite, une donnée privée s'explique sans être publiée.
 
-Tout ne peut pas être vérifié directement par chaque lecteur. Certaines données restent privées ou demandent un accès particulier. Explique alors la nature des éléments disponibles et ce que tu ne peux pas partager, sans présenter une certitude plus grande qu'ils ne permettent. Un exemple construit doit être nommé comme tel, et une source empruntée doit être attribuée.
+Quand tu ne peux pas publier les données, publie la méthode. Elle suffit souvent à quelqu'un d'autre pour obtenir ses propres chiffres.
 
 ## À vérifier
 
-Choisis un contenu que tu souhaites rendre utile, même s'il n'est pas destiné à être public. Demande à une personne concernée ce qu'elle pourrait en faire et quelle information lui manque pour juger sa pertinence.
+Prends la dernière chose que tu as partagée. Demande à quelqu'un ce qu'il pourrait en refaire.
 
-Ajoute un élément partageable qui éclaire ce manque : un exemple, un critère, une limite ou une explication de méthode. Si rien ne permet encore de soutenir une affirmation, présente-la comme une hypothèse ou retire-la.
-
-Après la relecture, vérifie si la personne distingue mieux les faits de ta conclusion. La forme ou le nombre de publications ne mesure pas cet effet.
+Ajoute ce qui manque : un exemple, un modèle, un chiffre avec sa méthode. Retire ce qui n'est qu'avis.
 
 ## Depuis ton siège
 
 - **Ingénierie** : indique le contexte nécessaire pour examiner un exemple technique.
 - **Design** : explique ce qui a été observé et ce qui reste une interprétation.
-- **Finance** : donne le périmètre et les hypothèses d'un chiffre partageable.
-- **Recrutement** : regarde le raisonnement et ses limites, pas seulement la forme du support.
+- **Finance** : donne le périmètre et les hypothèses d'un chiffre partagé.
+- **Recrutement** : demande l'artefact derrière l'avis : le cas, le modèle, le chiffre.
 
 ## À discuter
 

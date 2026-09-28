@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/10-04-une-trace-nest-pas-forcement-du-code.html
 seo:
-  description: "Choose a form that suits the craft and the recipient: examples, diagrams and qualitative observations count too, internally as well as publicly."
+  description: "Every trade has its traces: a calculation, a case, a script, a checklist. Publish the one from yours."
   keywords: "build here, record, support, product, builder, code"
 redirect_from:
   - /book/chapters/10-03-a-trace-is-not-necessarily-code.html
@@ -22,37 +22,35 @@ redirect_from:
 
 ## The reflex
 
-You would like to pass on a practice, but the examples of libraries or public code feel a long way from your craft or your experience.
+You would like to share what you know, but the examples of sharing you see are code libraries and technical articles. They do not look like your trade.
 
 ## The builder's reflex
 
-Start from the person to help and from what they have to understand or do. Choose a form that suits that need, technical or not.
+Publish the trace that fits your trade: a sheet, a calculation, a case, a flow.
 
 ## Why
 
-A trace can be a sheet, an explanation, an annotated decision, a diagram, a recorded demonstration made with agreement, or an example of work. It can serve inside a team, a community group, or beyond. A private repository can be useful to its recipients, just as a public page can answer no real need at all.
+Every trade has its traces. In finance, a worked calculation with its assumptions. In support, an annotated case. In sales, a call script that worked. In design, a flow with its reasons. In operations, a checklist. None contains code, all of them help someone else.
 
-Someone in operations prepares a sheet for welcoming a visiting speaker. It explains the information to check, a case that calls for help, and who to alert. A peer tries it, then flags an ambiguity. The sheet becomes more useful without containing any code, original number, or new discovery.
+Someone in operations writes a sheet for welcoming a new supplier: the information to check, the case that causes trouble, who to alert. A colleague tries it and flags something unclear. Once fixed, it serves the whole team, then other teams with the same need.
 
-Crafts have their own ways of passing things on. In finance, a worked calculation with its assumptions; in support, an annotated case; in design, a flow with its reasons; in volunteer work, a preparation list. Qualitative observations count too. The value depends on the help given and on getting the context right, not on an obligation to quantify.
+You do not have to be first. An adaptation to your context, a translation, a simpler example help someone the original did not. Credit what comes from elsewhere.
 
-You do not have to be the first person to explain a method. An adaptation, a translation, or a reachable example can help a new recipient, while acknowledging what comes from elsewhere. Someone starting out can keep what helped them and have their explanations checked. An experienced person can spell out the exceptions and the limits, rather than hunting for forced originality.
+Publishing these traces has always been possible. Today it is fast: a page, a shared document, a post on a professional network. An AI helps with the shaping; the content is yours.
 
 ## Try this
 
-Choose a question someone actually meets. Offer a small resource that answers it, with an example and what falls outside its scope.
+Pick a question you get asked often. Write the trace that answers it, in your trade's form, with an example and its limits.
 
-Use authorised information, or a constructed case clearly announced as one. Do not copy a real file just to make the material concrete. Agree the preparation time and the place the person will be able to find it.
-
-Have the material tried or reviewed. Note what was understood, what is missing, and who can fix it if the practice changes. You can keep an internal or accompanied form if that answers the need better.
+Have someone try it, fix it, then publish it where people with the same question will find it.
 
 ## From where you sit
 
 - **Operations**: explain a flow with its watch points and its handovers.
 - **Finance**: prepare an example whose assumptions are understandable.
-- **Support**: keep a useful case with its context and the limits on sharing it.
-- **Design**: make a choice legible without requiring a number for every observation.
+- **Support**: publish a useful case with its context, without the customer's data.
+- **Design**: make a choice legible, with its reasons.
 
 ## To discuss
 
-Which form would help the next recipient of what we know, even with no code and no original measure?
+Which trace from our trade would help other teams, and where should we publish it?

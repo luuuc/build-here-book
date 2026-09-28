@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/10-03-un-avis-nest-pas-un-artefact.html
 seo:
-  description: "Make the context, the facts and the limits reachable so a reader can examine an idea, without mandating a number or devaluing opinion."
+  description: "An opinion gets debated, an artifact gets picked up. Share the case, the template, the numbers and the method."
   keywords: "build here, builder, reference, reasoning, evidence, limits"
 redirect_from:
   - /book/chapters/10-02-an-opinion-is-not-an-artifact.html
@@ -23,36 +23,34 @@ redirect_from:
 
 ## The symptom
 
-You share a conclusion or a method. The reader sees your position, but may be missing what they need to examine it or adapt it to their own situation.
+You share a conclusion: "this method works". The reader sees your position, but can do nothing with it.
 
 ## The signal
 
-Add what makes the reasoning followable: context, facts, an example, assumptions, limits, and how to check what can be checked.
+Share what can be reused: the case, the template, the numbers, the method. An opinion gets debated; an artifact gets picked up.
 
 ## What's going on
 
-An opinion can open a question or offer a useful reading. A practical resource can help someone act. Those forms are not a hierarchy between the people who produce them. For the recipient, the question is what the content lets them understand, examine, or do.
+"Our interviews are better since we started using a framework" is an opinion. The framework, with an annotated interview and what it changed in your decisions, is an artifact. The first gets read and forgotten. The second gets copied, adapted and improved.
 
-A team shares an interview framework. The criteria and the questions may not be enough to explain how to use it. An annotated case, the limits of the framework, and the distinction between observation and interpretation can help another recruiter examine it. The same holds for a decision note or an internal procedure.
+An artifact holds what it takes to be reused: the context, the example, the assumptions, and the numbers with their method. "Time to hire down from 45 to 30 days across 12 roles" is worth more than "faster".
 
-A measure can inform the reasoning when its scope, its method and its limits are legible. A number on its own is not sufficient evidence. A qualitative example, a timeline, or a reasoned comparison can serve too. Do not add artificial quantity to make an account look more solid.
+Say what you do not know. A constructed example is presented as one, a borrowed source is cited, private data is explained without being published.
 
-Not everything can be checked directly by every reader. Some data stays private or needs particular access. Explain then what kind of material you have and what you cannot share, without presenting more certainty than it supports. A constructed example has to be named as one, and a borrowed source has to be attributed.
+When you cannot publish the data, publish the method. It is often enough for someone else to get their own numbers.
 
 ## Check this
 
-Choose something you want to make useful, even if it is not meant to be public. Ask someone concerned what they could do with it and what information they are missing to judge whether it fits.
+Take the last thing you shared. Ask someone what they could redo with it.
 
-Add one shareable element that fills that gap: an example, a criterion, a limit, or an explanation of method. If nothing yet supports a claim, present it as an assumption or drop it.
-
-After the review, check whether the person can now tell the facts from your conclusion. The form, or the number of publications, does not measure that effect.
+Add what is missing: an example, a template, a number with its method. Remove what is only opinion.
 
 ## From where you sit
 
 - **Engineering**: give the context needed to examine a technical example.
 - **Design**: explain what was observed and what is still an interpretation.
-- **Finance**: give the scope and the assumptions behind a shareable figure.
-- **Recruiting**: look at the reasoning and its limits, not only at the form of the material.
+- **Finance**: give the scope and the assumptions behind a shared figure.
+- **Recruiting**: ask for the artifact behind the opinion: the case, the template, the number.
 
 ## To discuss
 

@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/10-06-publish-where-people-search.html
 seo:
-  description: "Vérifie le chemin d'accès d'un lecteur réel et entretiens la ressource, sans promettre indexation, permanence ou classement public."
+  description: "Une ressource que personne ne trouve n'existe pas. Publie là où tes lecteurs cherchent, assistants IA compris, avec leurs mots."
   keywords: "build here, builder, reference, ressource, recherche, entretien"
 redirect_from:
   - /livre/chapitres/10-05-publie-la-ou-on-cherche.html
@@ -24,35 +24,33 @@ redirect_from:
 
 ## Le point de départ
 
-Une ressource existe et ses destinataires ont le droit d'y accéder. Il reste à vérifier s'ils savent où la chercher et reconnaissent ce à quoi elle peut servir.
+Une ressource utile existe. Ceux qui en ont besoin ne la trouvent pas.
 
 ## Le geste
 
-Observe le chemin d'un lecteur réel : les mots qu'il utilise, l'endroit où il cherche et les accès dont il dispose. Ajuste la ressource à ce chemin.
+Publie là où tes lecteurs cherchent déjà, avec les mots qu'ils utilisent.
 
 ## Pourquoi ça marche
 
-Les personnes peuvent arriver par une recherche, une recommandation, un index, une formation ou un lien dans leur outil de travail. Un nom connu peut aussi les guider. Choisir un titre précis aide, mais ne garantit pas la découverte ni un classement dans un moteur de recherche.
+Une ressource que personne ne trouve n'existe pas. Les gens cherchent dans un moteur de recherche, un groupe de messagerie, un réseau professionnel, l'outil qu'ils ouvrent chaque matin, et de plus en plus en posant la question à une IA. Si ta ressource n'est à aucun de ces endroits, elle ne sera pas lue.
 
-Une fiche explique comment corriger un dossier incomplet. Son titre reprend le mot utilisé par l'équipe qui l'a écrite, tandis que les nouveaux membres cherchent "pièce manquante". Ajouter ce terme et un lien depuis la consigne d'accueil peut rendre la fiche plus accessible. Le problème n'exige pas forcément une publication publique.
+Une fiche explique comment corriger un dossier incomplet. Son titre utilise le mot de l'équipe qui l'a écrite ; les nouveaux cherchent "pièce manquante". Changer le titre et ajouter un lien depuis la consigne d'accueil suffit à la rendre trouvable.
 
-L'emplacement doit correspondre aux droits de partage et aux habitudes des destinataires. Une page interne, un dépôt ou un espace de communauté peut convenir. Aucune adresse n'est permanente par nature : les accès, les services et les contenus changent. Prévois une version de référence, un moyen de signaler une erreur et, si nécessaire, une copie ou une solution de transfert.
+Publique, une page bien titrée est trouvée par les moteurs de recherche et par les assistants IA qui répondent aux questions. Écris un titre qui est une vraie question, une première phrase qui y répond, et une adresse qui ne changera pas.
 
-Pour un contenu public, une annonce peut aider à rejoindre des lecteurs, mais sa portée reste incertaine. L'absence dans des résultats de recherche ne démontre pas à elle seule que le titre est mauvais. Vérifie d'abord l'accessibilité, la pertinence et le chemin réellement suivi. Si tu débutes, un seul lecteur volontaire peut déjà révéler une difficulté de repérage.
+Annonce-la là où tes lecteurs sont déjà. Une publication dans le bon réseau ou le bon groupe envoie plus de lecteurs qu'un bon titre seul.
 
 ## À essayer
 
-Choisis une ressource et demande à une personne concernée où elle chercherait la réponse, sans lui donner immédiatement le lien. Fais cet essai avec son accord et sans le transformer en évaluation de sa compétence.
+Demande à une personne concernée où elle chercherait la réponse, sans lui donner le lien. Note ses mots et ses chemins.
 
-Observe les termes employés et les obstacles. Corrige un titre, un lien d'entrée, un accès ou une explication selon ce que tu as vu. Ne rends pas public un contenu seulement pour améliorer sa découvrabilité.
-
-Reprends le parcours avec un autre cas adapté et vérifie aussi si la ressource aide une fois trouvée. Convenez de qui maintient l'emplacement et de ce qui se passe si le support devient obsolète.
+Corrige le titre, ajoute les liens d'entrée, publie là où elle a cherché. Recommence avec une autre personne.
 
 ## Depuis ton siège
 
 - **Support** : apporte les mots utilisés par les personnes qui cherchent de l'aide.
 - **Design** : examine le parcours entre la question et la ressource utile.
-- **Ingénierie** : vérifie accès, liens et conditions de maintien du support.
+- **Ingénierie** : vérifie que la page est lisible par les moteurs et les assistants IA, et que son adresse est stable.
 - **Management** : attribue l'entretien d'une ressource que l'équipe utilise durablement.
 
 ## À discuter

@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/10-05-reponds-a-la-question-en-public.html
 seo:
-  description: "Prepare a reusable answer in a suitable place, recognising the cost of adapting it and the value of private exchanges."
+  description: "A private answer serves once, a public one serves everyone after. Answer where people will find it."
   keywords: "build here, builder, reference, answer, access, passing on"
 redirect_from:
   - /book/chapters/10-04-answer-the-question-in-public.html
@@ -23,37 +23,35 @@ redirect_from:
 
 ## The starting point
 
-You answer a question in a direct exchange. That answer might help again, but it carries context specific to the person who asked.
+Someone asks you a question in private. You answer. The same question will arrive next week, from someone else.
 
 ## The move
 
-Answer the immediate need, then consider whether a reusable version would help, and in which space it can be shared.
+Answer where the next person will find it: a shared space, a help page, a public thread.
 
 ## Why it works
 
-A private answer can be exactly the right service. It can also feed learning in the person who receives it. Keeping it somewhere else can make the next use easier, without making the first exchange wasted, or obliging you to turn every conversation into a publication.
+A private answer serves once. A public answer serves everyone with the same question, without you answering again. You move from answering to building a reference.
 
-A new volunteer asks how to prepare the welcome for a session. After helping them, you spot an explanation that would serve the next arrivals. An internal sheet can carry the move and its limits, without copying the conversation or the personal details. The volunteer can say what helped them understand.
+A new colleague asks how to prepare a customer meeting. You help, then write the answer in the team's space, without the personal details. The next newcomer finds it on their own. You answer once instead of ten times.
 
-Preparing an answer for other readers sometimes means removing context, adding some, or checking it is still accurate. You have to choose a title, an access, and someone to keep it updated if that matters. That work is not automatically free because a first answer already exists.
+Adapting the answer takes a few minutes: remove what is specific to the person, add the context, give it a title people will search for. An AI can make the first draft from your answer.
 
-The place can be a shared folder, an internal help centre, a community space, or a public page when the content suits it and sharing is allowed. Useful feedback can arrive in private or between peers. Exposing yourself publicly is not the only way to be corrected, and the original recipient does not have to accept that exposure in order to get help.
+A public answer gets corrected too. Someone flags a mistake or a case you had not seen. The answer improves, and so do you.
 
 ## Try this
 
-Choose an answer that looks worth reusing. Define the next recipient and the context they will need. Check what can be shared and the agreements needed before reusing an exchange.
+The next time someone asks you a question, answer it, then write the reusable version in the shared space. Title it with the words of the person who asked.
 
-Prepare a short version in a suitable place. Say when it applies, what its limits are, and how to flag an error. If it only answers one particular case, keeping the exchange private can be enough.
-
-At the next comparable question, offer the link along with whatever help is needed. Ask whether it let them move, and fix what is missing. Do not measure success by the number of links sent.
+At the next similar question, send the link. Fix what is missing.
 
 ## From where you sit
 
 - **Engineering**: state the versions or conditions the answer depends on.
 - **Support**: tell an individual case apart from a reusable explanation.
-- **Management**: plan the adaptation and upkeep time if the resource is asked for.
+- **Management**: plan the time to write and maintain these answers.
 - **Product**: check that a saved answer still matches the current service.
 
 ## To discuss
 
-Which answer would deserve a reusable version, and in which space would it be useful and appropriate?
+Which question are we still answering in private every week?

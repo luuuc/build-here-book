@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/10-01-put-your-name-on-it.html
 seo:
-  description: "Reconnais les contributions et leur contexte selon un accord adapté, sans faire de la signature publique une condition de valeur."
+  description: "Un nom rend un travail trouvable et responsable. Signe ce que tu fais, crédite chaque contribution, publie."
   keywords: "build here, builder, reference, contributions, credit, partage"
 redirect_from:
   - /livre/chapitres/14-01-mets-ton-nom-dessus.html
@@ -23,37 +23,35 @@ redirect_from:
 
 ## Le point de départ
 
-Un travail utile circule, mais ses destinataires ne savent pas toujours qui y a contribué, dans quel contexte il a été produit ou à qui adresser une question.
+Un travail utile circule sans nom. Ceux qui le lisent ne savent pas qui l'a fait, dans quel contexte, ni à qui poser une question.
 
 ## Le geste
 
-Rends les contributions et le contexte identifiables selon un accord adapté au partage. Un nom personnel, une équipe ou un contact peuvent remplir des fonctions différentes.
+Signe ton travail : ton nom, le contexte, et comment te joindre. Crédite chaque personne qui y a contribué.
 
 ## Pourquoi ça marche
 
-Attribuer un travail aide à reconnaître les contributions et à retrouver leur contexte. Cela peut aussi permettre de demander une précision ou de proposer une correction. La signature ne prouve pas à elle seule la qualité du contenu, et la personne citée ne devient pas automatiquement disponible pour toutes les questions à venir.
+Un nom rend un travail trouvable et responsable. Le lecteur sait à qui demander une précision, qui corriger, vers qui revenir. Un document anonyme finit par n'appartenir à personne, et plus personne ne le tient à jour.
 
-Un travail interne peut déjà servir, former des personnes et laisser des capacités durables. Le publier peut élargir sa portée, mais ne lui donne pas rétroactivement sa valeur. Mon erreur de recrutement fondée sur la visibilité était la mienne ; elle ne rendait pas les personnes peu visibles responsables de ce que mon filtre ne savait pas reconnaître.
+Signer, c'est aussi s'engager. Tu mets ton nom sur ce que tu as vérifié. Ça pousse à relire deux fois, et c'est tant mieux.
 
-Plusieurs collègues préparent une fiche de rapprochement de dossiers. L'une a identifié les cas, un autre a essayé la procédure et une troisième a clarifié les explications. Ils conviennent de mentionner ces contributions dans la fiche interne et de désigner le contact de maintenance. Un seul nom en couverture aurait rendu une partie du travail invisible.
+Plusieurs collègues préparent une fiche de rapprochement de dossiers. L'une a identifié les cas, un autre a essayé la procédure, une troisième a clarifié les explications. La fiche cite les trois et nomme qui la tient à jour. Un seul nom en couverture aurait effacé deux contributions.
 
-La forme de crédit dépend des personnes et des conditions de partage. Certaines souhaitent être nommées, d'autres préfèrent une mention collective ou aucune exposition personnelle. Demande leur accord et respecte les informations qui ne peuvent pas sortir. On peut reconnaître une contribution en privé ou dans un espace restreint sans imposer une publication sous son nom.
+Ce que tu signes, on te l'attribue, en interne comme dehors. C'est comme ça qu'on devient une référence sur un sujet : pas en le disant, mais en laissant des travaux signés que d'autres réutilisent.
 
 ## À essayer
 
-Choisis une ressource déjà utile ou un premier brouillon pour un destinataire précis. Note son objectif, ses limites, les contributions et le contact approprié si un suivi est prévu.
+Prends une ressource utile que tu as faite. Ajoute ton nom, les contributeurs, la date, le contexte et un moyen de te joindre.
 
-Fais confirmer les mentions par les personnes concernées. Si tu débutes, un exemple construit ou une explication relue peut suffire ; n'invente pas une réalisation pour avoir quelque chose à signer.
-
-Partage dans le périmètre autorisé, puis demande à un destinataire s'il comprend ce qu'il peut utiliser et à qui s'adresser. Corrige une attribution ou une ambiguïté si nécessaire. Le succès n'exige ni une audience inconnue ni une citation publique.
+Publie-la là où ses lecteurs la trouveront. Demande à un lecteur s'il sait à qui s'adresser, et corrige.
 
 ## Depuis ton siège
 
 - **Produit** : distingue les contributions à une décision et à sa mise en pratique.
 - **Design** : précise le contexte et les limites d'un exemple partagé.
-- **Management** : reconnais aussi les contributions collectives et peu visibles.
-- **Recrutement** : accepte des preuves adaptées sans exiger de signature publique.
+- **Management** : crédite nommément les contributions collectives et peu visibles.
+- **Recrutement** : regarde les travaux signés, et accepte aussi ceux qui ne le sont pas.
 
 ## À discuter
 
-Sur une ressource utile, les contributions sont-elles reconnues de la façon souhaitée par les personnes concernées ?
+Sur nos ressources les plus utiles, qui est cité, et qui devrait l'être ?
