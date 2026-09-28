@@ -62,7 +62,7 @@ Ajouter une langue : un dossier dans `_data/`, une collection `chapters_<code>` 
 
 Le livre s'adresse aux personnes qui veulent commencer à construire, approfondir leur pratique, développer une équipe ou soutenir des builders. Un emploi, un rôle de direction et une publication publique ne sont pas des conditions d'entrée.
 
-Il comprend une introduction de 800 à 1 200 mots, dix ouvertures de capacité, **85 cartes**, une conclusion et une bibliographie compacte. Les parcours, le guide de lecture, les ateliers, la méthode du questionnaire, la bibliographie commentée, l'index par situation, les trois cas construits et les modèles sont des pages Jekyll à la racine, avec le layout `landing`. Ces ressources accompagnent le livre sans entrer dans ses éditions PDF et EPUB.
+Il comprend une introduction de 800 à 1 200 mots, dix ouvertures de capacité, **86 cartes**, une conclusion et une bibliographie compacte. Les parcours, le guide de lecture, les ateliers, la méthode du questionnaire, la bibliographie commentée, l'index par situation, les trois cas construits et les modèles sont des pages Jekyll à la racine, avec le layout `landing`. Ces ressources accompagnent le livre sans entrer dans ses éditions PDF et EPUB.
 
 Les dix capacités suivent l'ordre du sommaire, sans classement ni prérequis obligatoires : état d'esprit, métier, autonomie, compréhension, livraison, ownership, systèmes, levier, leadership et référence. Chacune peut être travaillée à partir d'une difficulté, d'une force ou d'une occasion de pratiquer.
 

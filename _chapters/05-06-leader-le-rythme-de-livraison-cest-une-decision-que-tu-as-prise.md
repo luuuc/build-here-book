@@ -2,11 +2,11 @@
 layout: chapter
 title: "⇄ Le rythme de livraison, c'est une décision que tu as prise"
 part: "La livraison"
-order: 505
+order: 506
 card_type: systeme
 action_scope: "Portée : accord d'équipe et responsables du parcours"
 metadata:
-  principle: "5.05"
+  principle: "5.06"
   reading_time_in_minutes: 2
 categories:
   - execution
@@ -14,11 +14,12 @@ categories:
   - produit
 # La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
 traductions:
-  en: /book/chapters/05-05-your-delivery-rhythm-is-a-decision-you-made.html
+  en: /book/chapters/05-06-your-delivery-rhythm-is-a-decision-you-made.html
 seo:
   description: "Examine contraintes et contrôles avant d'améliorer le parcours de livraison ; mesure aussi la qualité et l'apprentissage."
   keywords: "build here, builder, livraison, rythme, controles, apprentissage"
 redirect_from:
+  - /livre/chapitres/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html
   - /livre/chapitres/07-06-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html
 ---
 

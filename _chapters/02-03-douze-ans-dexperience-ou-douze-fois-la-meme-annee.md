@@ -33,7 +33,7 @@ L'expérience apporte des repères, de la fiabilité et une connaissance des exc
 
 Pour choisir un axe, regarde une difficulté récurrente ou une force que tu souhaites approfondir. Un commercial peut vouloir mieux expliquer un prix. Une personne au support peut travailler la première question qui l'aide à comprendre la demande. Un designer peut chercher à rendre un écran plus lisible avec moins d'éléments.
 
-L'exercice devient utile quand le morceau est assez petit pour être essayé, observé et repris. Répéter sans retour peut renforcer la même erreur. À l'inverse, un commentaire précis peut suffire pour changer la prochaine tentative.
+L'exercice devient utile quand le morceau est assez petit pour être essayé, observé et repris. Répéter sans retour peut renforcer la même erreur. À l'inverse, un commentaire précis peut suffire pour changer la prochaine tentative. Une IA peut te donner ce retour à chaque essai : demande-lui de critiquer ta version selon un critère, puis confronte sa critique à quelqu'un qui connaît le métier.
 
 Le temps et les occasions d'exercice influencent ce que tu peux apprendre. Si le geste dépend d'un accès ou d'un collègue disponible, prévois-le. Un exercice simulé peut permettre de commencer sans faire porter le coût d'apprentissage à un client.
 

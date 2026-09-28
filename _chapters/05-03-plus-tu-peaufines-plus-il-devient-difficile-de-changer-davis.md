@@ -33,7 +33,7 @@ Cherche quelle partie mérite un retour maintenant et quel niveau de finition es
 
 Le travail déjà investi peut rendre un changement de direction plus difficile. Cela ne signifie pas que peaufiner est inutile ni que l'équipe refuse la réalité. Une finition peut être nécessaire pour rendre une proposition compréhensible, accessible ou assez fiable pour être essayée.
 
-Distingue ce qui aide à examiner l'hypothèse de ce qui peut attendre. Tu prépares une fiche pour aider de nouveaux bénévoles à accueillir le public. Avant de mettre en page tout le guide, fais relire et essayer un parcours à une personne volontaire. Des consignes lisibles sont nécessaires ; une identité graphique complète ne l'est peut-être pas encore.
+Distingue ce qui aide à examiner l'hypothèse de ce qui peut attendre. Tu prépares une fiche pour aider de nouveaux bénévoles à accueillir le public. Avant de mettre en page tout le guide, fais relire et essayer un parcours à une personne volontaire. Des consignes lisibles sont nécessaires ; une identité graphique complète ne l'est peut-être pas encore. Quand une version brute se fait en une heure, la peaufiner avant de la montrer vaut rarement la peine.
 
 Choisir un petit groupe peut limiter l'exposition, mais ne garantit ni indulgence ni disponibilité. Demande l'accord, explique ce qui fonctionne et ce qui reste provisoire, puis prévois comment aider si l'essai bloque. Si tu n'as pas accès aux destinataires, un examen accompagné ou une simulation peut déjà éclairer une partie du problème. N'en déduis pas une validation de tous les usages.
 

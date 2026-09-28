@@ -2,22 +2,23 @@
 layout: chapter
 title: "⇄ Your delivery rhythm is a decision you made"
 part: "Delivery"
-order: 505
+order: 506
 card_type: systeme
 action_scope: "Scope: a team agreement and whoever owns the route"
 metadata:
-  principle: "5.05"
+  principle: "5.06"
   reading_time_in_minutes: 2
 categories:
   - execution
   - livraison
   - produit
 traductions:
-  fr: /livre/chapitres/05-05-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html
+  fr: /livre/chapitres/05-06-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html
 seo:
   description: "Examine the constraints and the controls before improving the delivery route; measure quality and learning too."
   keywords: "build here, builder, delivery, rhythm, controls, learning"
 redirect_from:
+  - /book/chapters/05-05-your-delivery-rhythm-is-a-decision-you-made.html
   - /book/chapters/05-05-set-a-delivery-rhythm-that-serves.html
 ---
 

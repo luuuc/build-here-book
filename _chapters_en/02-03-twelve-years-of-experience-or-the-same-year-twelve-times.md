@@ -34,7 +34,7 @@ Experience brings bearings, reliability, and knowledge of the exceptions. It can
 
 To choose a direction, look at a difficulty that keeps coming back or a strength you want to deepen. A salesperson may want to explain a price better. Someone in support may work on the first question that helps them understand the request. A designer may want to make a screen clearer with fewer elements.
 
-The exercise becomes useful when the piece is small enough to try, observe and redo. Repeating without feedback can reinforce the same mistake. Conversely, one precise comment can be enough to change the next attempt.
+The exercise becomes useful when the piece is small enough to try, observe and redo. Repeating without feedback can reinforce the same mistake. Conversely, one precise comment can be enough to change the next attempt. An AI can give you that feedback on every attempt: ask it to critique your version against a criterion, then check its critique with someone who knows the trade.
 
 Time and the chance to practise shape what you can learn. If the move depends on an access right or an available colleague, plan for it. A simulated exercise can let you start without putting the cost of your learning on a customer.
 

@@ -4,7 +4,7 @@ title: "L'IA est un levier, pas un raccourci"
 part: "Le levier"
 order: 802
 card_type: pratique
-action_scope: "Portée : individu dans le cadre des outils et accès autorisés"
+action_scope: "Portée : individu"
 metadata:
   principle: "8.02"
   reading_time_in_minutes: 2
@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/08-02-ai-is-leverage-not-a-shortcut.html
 seo:
-  description: "Évalue un essai d'IA sur sa qualité, ses limites et son coût complet, avec une aide adaptée et la possibilité de choisir une autre méthode."
+  description: "L'IA permet à chaque métier de construire hors de son couloir. Elle multiplie ton jugement, ou tes erreurs."
   keywords: "build here, levier, ia, automatisation, builder"
 redirect_from:
   - /livre/chapitres/08-03-lia-est-un-levier-pas-un-raccourci.html
@@ -24,37 +24,40 @@ redirect_from:
 
 ## Le point de départ
 
-Tu envisages d'utiliser un outil d'IA pour une partie du travail. Le premier résultat arrive vite, mais son utilité, sa fiabilité et le temps de vérification restent à examiner.
+Une responsable support passe ses vendredis à trier les demandes de la semaine dans un tableur. Elle n'a jamais écrit une ligne de code. Un développeur de son équipe doit rédiger la page qui présente la nouvelle offre. Il n'a jamais écrit pour des clients.
+
+Les deux attendent quelqu'un d'autre.
 
 ## Le geste
 
-Fais un essai limité sur une tâche adaptée, avec une référence de qualité et une personne capable de vérifier le résultat. Compare l'effort complet, pas seulement la génération.
+Construis toi-même la première version avec une IA, puis vérifie-la avec ce que tu sais de ton métier.
 
 ## Pourquoi ça marche
 
-Un brouillon, une reformulation ou une proposition de classement peut aider lorsqu'on dispose d'un moyen d'en examiner la justesse. Le choix dépend de la tâche et de ses conséquences. Un texte fluide ne suffit pas à établir qu'il respecte les faits, le contexte ou les besoins du destinataire.
+L'IA a déplacé la frontière entre les métiers, dans les deux sens. La responsable support décrit son tri à une IA et obtient en une heure un petit outil qui classe les demandes et sort le résumé du vendredi. Le développeur fait relire sa page par une IA qui lui pose les questions d'un client, et la réécrit trois fois avant midi. Chacun a construit hors de son couloir, sans attendre l'autre.
 
-Si tu débutes, tu peux apprendre avec une personne compétente ou sur un exercice dont la réponse est vérifiable. L'absence de compétence pour contrôler une sortie est une limite à traiter, pas une raison de croire le résultat. Si personne ne peut vérifier une partie importante, réduis l'essai, cherche un appui ou garde une autre méthode. Choisir de ne pas utiliser l'IA peut être raisonnable.
+Ce qui fait la différence, ce n'est pas l'outil. C'est ce que tu sais déjà. La responsable support voit tout de suite que l'outil range mal les demandes de remboursement : elle connaît ces cas. Le développeur sait vérifier que la page ne promet rien que le produit ne fait pas. L'IA multiplie ton jugement. Sans jugement, elle multiplie les erreurs, plus vite et avec plus d'assurance.
 
-Une équipe essaie de préparer une réponse à partir d'une fiche d'aide approuvée. Elle vérifie que le brouillon conserve les conditions, ne promet rien de plus et répond au cas. Elle compte la préparation, la relecture et les corrections, puis compare à sa méthode habituelle. Ce résultat local ne permet pas de conclure sur toutes ses réponses.
+Le raccourci, c'est de prendre une réponse fluide pour une réponse juste, ou de sauter la compréhension parce que le résultat a l'air fini. Un texte bien écrit peut inventer une condition de remboursement. Un tableau propre peut mal additionner. Relis ce qui compte comme le travail d'un stagiaire brillant et trop sûr de lui.
 
-Vérifie aussi si l'outil et les informations utilisées conviennent au cadre de travail. Pour commencer, des cas fictifs ou des contenus autorisés peuvent suffire. Le coût comprend l'accès, la préparation, la vérification, les reprises et le suivi si la pratique dure. Un gain de production n'est utile que si la qualité et le service restent adaptés.
+Si tu débutes, l'IA t'apprend vite, à condition de lui demander pourquoi, pas seulement quoi. Fais-lui expliquer chaque étape, puis refais-en une sans elle.
 
 ## À essayer
 
-Choisis une tâche à faible conséquence, un résultat attendu et des cas que tu peux utiliser. Définis ce qui doit être correct et ce qui ferait arrêter l'essai. Sans accès à un outil adapté, compare d'abord le besoin à une méthode déjà disponible.
+Choisis une tâche que tu attends de quelqu'un d'autre depuis plus d'une semaine. Construis une première version avec une IA, en une heure.
 
-Examine les sorties de l'essai avant leur usage et note les erreurs importantes autant que le temps total. Ne confonds pas un petit essai réussi avec une validation générale.
+Vérifie trois choses : les faits, les chiffres et ce qui est promis. Montre le résultat à la personne que tu attendais. Tu n'arrives plus avec une demande, tu arrives avec un brouillon.
 
-Avec les personnes concernées, décide de poursuivre, modifier ou arrêter. Si tu poursuis, attribue la vérification et prévois un réexamen lorsque l'outil, les données ou la tâche changent.
+Note ce que l'IA a mal fait et comment tu l'as repéré. C'est ce qui te dit où ton jugement est solide, et où il te manque encore.
 
 ## Depuis ton siège
 
-- **Produit** : vérifie un classement contre les cas d'origine et leurs limites.
-- **Design** : utilise une proposition comme matière à examiner, pas comme preuve d'usage.
-- **Management** : prévois les accès, l'apprentissage et le temps de contrôle.
-- **Relation client** : vérifie faits, conditions et engagements avant d'utiliser un brouillon.
+- **Support** : construis l'outil de tri dont tu as besoin, puis compare-le à ton tri sur une semaine.
+- **Finance** : fais construire le modèle, puis refais un calcul clé à la main.
+- **Vente** : prépare une proposition avec une IA et vérifie chaque engagement avant l'envoi.
+- **Ingénierie** : écris la page ou l'analyse qu'on attendait d'un autre métier, et fais-la relire par lui.
+- **Management** : donne accès aux outils et regarde ce que les gens construisent avec.
 
 ## À discuter
 
-Quelle tâche permettrait un essai vérifiable, et quel résultat nous ferait préférer la méthode actuelle ?
+Qu'est-ce qu'on attend d'une autre équipe depuis des semaines, et qu'on pourrait construire nous-mêmes cette semaine ?

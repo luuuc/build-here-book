@@ -35,7 +35,7 @@ A precise task can be a good way in to learning: it gives a bearing and caps the
 
 In a community group, you are supporting someone preparing the welcome for new members. Instead of just giving them the list of messages to send, you look together at what new members have to understand. They propose an approach on a small remit. You can show an example, or think it through with them, if that helps, without turning your own plan into the required answer.
 
-Learning takes time and may need several rounds of feedback. The person may find a better option, or may need a more guided breakdown. Neither of those on its own tells you anything about their motivation. Agree what they can decide, what needs an approval, and how to flag a difficulty.
+Learning takes time and may need several rounds of feedback. The person may find a better option, or may need a more guided breakdown. Neither of those on its own tells you anything about their motivation. If they use AI to move faster, ask them to explain their reasoning, not just show the result: that is where you see whether they understood. Agree what they can decide, what needs an approval, and how to flag a difficulty.
 
 Do not hold back important information to make the exercise instructive. A demonstration or a prepared question can help without taking the other person's place. With a tight deadline or serious consequences, cut the exploration and explain that choice. Between peers, you can propose this approach with everyone's agreement, without claiming authority you do not have.
 

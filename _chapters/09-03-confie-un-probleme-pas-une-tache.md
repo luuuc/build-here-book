@@ -34,7 +34,7 @@ Une tâche précise peut être une bonne entrée pour apprendre : elle donne un 
 
 Dans une association, tu accompagnes une personne qui prépare l'accueil des nouveaux membres. Au lieu de lui donner seulement la liste des messages à envoyer, vous examinez ce que les nouveaux doivent comprendre. Elle propose une démarche sur un petit périmètre. Tu peux montrer un exemple ou réfléchir avec elle si cela l'aide, sans transformer ton propre plan en réponse obligatoire.
 
-L'apprentissage demande du temps et peut nécessiter plusieurs retours. La personne peut découvrir une meilleure option ou avoir besoin d'un découpage plus guidé. Aucun de ces résultats ne permet à lui seul de juger sa motivation. Convenez de ce qu'elle peut décider, de ce qui demande un accord et de la manière de signaler une difficulté.
+L'apprentissage demande du temps et peut nécessiter plusieurs retours. La personne peut découvrir une meilleure option ou avoir besoin d'un découpage plus guidé. Aucun de ces résultats ne permet à lui seul de juger sa motivation. Si elle s'aide d'une IA pour avancer, demande-lui d'expliquer son raisonnement, pas seulement de montrer le résultat : c'est là que tu vois si elle a compris. Convenez de ce qu'elle peut décider, de ce qui demande un accord et de la manière de signaler une difficulté.
 
 Ne retiens pas une information importante pour rendre l'exercice formateur. Une démonstration ou une question préparée peut aider sans prendre la place de l'autre. Avec une échéance serrée ou des conséquences importantes, réduis l'exploration et explique ce choix. Entre pairs, on peut proposer cette démarche avec l'accord de chacun, sans prétendre attribuer une autorité qu'on ne possède pas.
 
