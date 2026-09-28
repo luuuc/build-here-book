@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/02-09-your-market-can-be-local-your-standard-cant.html
 seo:
-  description: "Compare les usages et les contraintes pour choisir une amélioration utile, sans confondre qualité et imitation d'un autre marché."
+  description: "Tes utilisateurs te comparent au meilleur service qu'ils connaissent, pas au voisin. Les contraintes changent les choix, pas l'exigence."
   keywords: "build here, metier, niveau, comparaison, builder"
 redirect_from:
   - /livre/chapitres/08-04-ton-marche-peut-etre-local-ton-niveau-non.html
@@ -25,29 +25,27 @@ redirect_from:
 
 > "C'est comparable à ce qui se fait autour de nous."
 
-Cette comparaison donne un repère. Elle ne dit pas encore si le travail répond bien au besoin de la personne qui l'utilise.
+Cette comparaison donne un repère. Elle ne dit pas si le travail répond au besoin de la personne qui l'utilise.
 
 ## Le réflexe builder
 
-> "Qu'est-ce que cette personne doit pouvoir faire, dans quelles conditions, et quels exemples peuvent nous aider ?"
+> "Qu'est-ce que cette personne doit pouvoir faire, dans quelles conditions, et quel est le meilleur exemple que je connaisse ?"
 
 ## Pourquoi
 
-Les attentes se forment à travers plusieurs expériences. Une personne peut comparer ton service à un autre secteur, à un outil connu ou à une façon de faire sans outil. L'écart utile à regarder est celui qui gêne son usage.
+"Comparable à ce qui se fait autour de nous" est un plafond, pas un niveau. Tes utilisateurs ne te comparent pas au voisin. Ils te comparent au meilleur service qu'ils ont utilisé, dans n'importe quel secteur.
 
-Une connexion instable, un appareil ancien, un budget limité ou un moyen de paiement imposé changent les choix possibles. Une solution excellente dans un autre contexte peut échouer dans celui-ci. Construire avec ces contraintes demande du jugement et peut produire un exemple dont d'autres apprendront.
+Une connexion instable, un appareil ancien, un budget serré, un moyen de paiement imposé changent les choix possibles. Ils ne changent pas l'exigence. Un service qui tient dans ces conditions est plus solide que la plupart de ce qui se construit avec tout le confort. C'est ce savoir-faire qui voyage.
 
-La qualité a aussi un coût. Clarifier un message peut demander peu de temps ; réduire un délai de chargement peut exiger une reprise importante. Il faut estimer l'effort au lieu de ranger chaque défaut dans un manque d'attention ou chaque contrainte dans une impossibilité.
+Chaque amélioration a un coût. Clarifier un message prend une heure ; réduire un temps de chargement peut prendre un mois. Estime l'effort, puis choisis l'écart qui gêne le plus l'usage.
 
-Une référence extérieure sert à ouvrir des options. Le choix final se fait avec les usages réels, les moyens disponibles et ce qu'une amélioration déplacerait. Maintenir un service fiable peut être préférable à ajouter une fonction plus impressionnante.
+Garder un service fiable vaut souvent mieux qu'ajouter une fonction impressionnante. Le niveau, c'est ce que la personne arrive à faire, pas ce que tu as ajouté.
 
 ## À essayer
 
-Choisis une tâche importante pour une personne qui utilise ton travail. Observe-la dans ses conditions habituelles, avec son accord, puis examine un autre exemple qui répond au même besoin.
+Choisis une tâche importante pour une personne qui utilise ton travail. Regarde-la la faire dans ses conditions réelles. Puis regarde le meilleur exemple que tu connais du même besoin, ici ou ailleurs.
 
-Note un écart concret, son effet et l'effort estimé pour le réduire. Distingue ce que tu sais de ce qui reste à vérifier. Propose une amélioration limitée ou explique pourquoi elle ne vaut pas encore son coût.
-
-Après l'essai, reprends la même tâche dans des conditions comparables. Regarde ce qui est devenu plus facile et ce qui reste difficile. Le résultat peut aussi confirmer qu'un choix local était bien adapté.
+Note un écart concret, son effet et l'effort pour le réduire. Réduis-le, puis refais faire la même tâche. Regarde ce qui est devenu plus facile.
 
 ## Depuis ton siège
 

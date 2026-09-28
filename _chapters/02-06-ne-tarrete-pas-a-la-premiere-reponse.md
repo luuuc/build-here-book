@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/02-06-dont-stop-at-the-first-answer.html
 seo:
-  description: "Une réponse peut résoudre la demande sans expliquer sa cause. Choisis les répétitions qui justifient une enquête proportionnée."
+  description: "Résoudre une demande aide une personne. Comprendre sa cause en aide cent. Chaque résolution répétée est une enquête qui attend."
   keywords: "build here, curiosite, builder, arrete, premiere, reponse"
 redirect_from:
   - /livre/chapitres/01-05-ne-tarrete-pas-a-la-premiere-reponse.html
@@ -34,21 +34,21 @@ La réponse a rendu service. Une demande semblable revient quelques jours plus t
 
 ## Pourquoi ça marche
 
-Résoudre une demande et comprendre ce qui l'a provoquée sont deux travaux utiles. Le premier aide la personne maintenant. Le second peut éviter que d'autres rencontrent la même difficulté.
+Résoudre une demande et comprendre ce qui l'a provoquée sont deux travaux différents. Le premier aide une personne maintenant. Le second évite que cent autres rencontrent la même difficulté.
 
-Trois demandes de reçu peuvent venir d'un bouton peu visible, d'un message qui n'arrive pas ou de situations différentes. Les regrouper trop vite sous une même cause produit une correction mal ciblée. Regarde ce que les personnes ont fait avant de demander et ce que tu peux effectivement vérifier.
+Trois demandes de reçu peuvent venir d'un bouton peu visible, d'un message qui n'arrive pas ou de trois situations différentes. Regarde ce que les personnes ont fait juste avant de demander. C'est là que la cause se voit.
 
-La même démarche vaut pour un traitement informatique relancé après une erreur, un dossier renvoyé pour une pièce manquante ou une consigne qui doit être réexpliquée. Une résolution réussie donne un point de départ à l'enquête ; elle ne prouve pas que la cause est connue.
+La même démarche vaut pour un traitement relancé après une erreur, un dossier renvoyé pour une pièce manquante, une consigne qu'il faut réexpliquer. Chaque résolution répétée est une enquête qui attend.
 
-L'effort doit rester proportionné. Une urgence peut demander de restaurer le service d'abord. Un cas isolé sans conséquence durable peut ne pas justifier une recherche longue. Pour une répétition coûteuse, conviens d'un temps d'enquête et d'une personne à qui transmettre les faits si la cause dépasse ton accès.
+Garde l'effort proportionné. En urgence, restaure d'abord. Pour un cas isolé sans suite, passe. Pour une répétition qui coûte, donne-toi une heure d'enquête.
 
 ## À essayer
 
-Sur une demande qui revient, note deux phrases : ce qui a aidé cette fois et ce qui pourrait expliquer la difficulté. Marque clairement la deuxième comme hypothèse si elle n'est pas vérifiée.
+Sur une demande qui revient, note deux phrases : ce qui a aidé cette fois, et ce qui pourrait expliquer la difficulté.
 
-Choisis un cas à examiner avec la personne concernée. Si tu débutes, fais cette lecture avec quelqu'un qui connaît le parcours. Cherche aussi un cas qui contredit ton explication.
+Examine un cas avec la personne concernée. Cherche aussi un cas qui contredit ton explication.
 
-Après une correction éventuelle, regarde les prochaines occurrences sur une durée adaptée. Si la demande revient, réexamine la cause au lieu de répéter la correction. Tu peux clore la demande servie tout en gardant une enquête distincte avec un responsable et une date.
+Après une correction, regarde les prochaines occurrences. Si la demande revient, reprends la cause au lieu de répéter la correction.
 
 ## Depuis ton siège
 

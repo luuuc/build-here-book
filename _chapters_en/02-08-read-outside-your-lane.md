@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/02-08-lis-en-dehors-de-ton-couloir.html
 seo:
-  description: "Understanding what comes before and after your work helps improve the handovers, with the right access and agreements."
+  description: "Problems hide in handovers. Follow one case with the person next door: half an hour is enough to see the gap."
   keywords: "build here, curiosity, builder, handover, outside your lane"
 ---
 
@@ -28,25 +28,25 @@ You know your part of the work well. You see less of what happens before and aft
 
 ## Why it works
 
-A handover can leave a necessary piece of information between two responsibilities. In this example, support starts a refund, finance reverses the charge, and nobody knows who is supposed to change the access right. Each team handles its part, but the whole stays incomplete.
+Problems hide in handovers. Support starts a refund, finance reverses the charge, and nobody knows who is supposed to cut off access. Each team does its part. The customer keeps access they no longer pay for.
 
-Following one case with the people involved makes that wait visible. You can then pin down a transfer, or put a question to whoever can decide. Understanding the neighbouring work does not oblige you to take it over, and does not authorise you to change how it runs on your own.
+Following one case with the person next door makes that gap visible in half an hour. You do not have to take over their work. You just need to know what they get from you and what they are missing.
 
-The observation needs suitable access. A support channel, a finance file or a job application can hold information that should not circulate widely. A demonstration, an anonymised example, or a guided conversation may be enough.
+Starting out or working alone, look at the person who will use your output. What they do just before and just after teaches you why an instruction that is clear to you gives them trouble. With experience, the same inquiry shows what has changed since last time.
 
-If you are starting out, or working alone, look at the person who will use your output. What they do just before and just after can teach you why an instruction that is clear to you gives them trouble. With experience, the same inquiry can reveal a constraint that has changed since the last handover.
+Reading outside your lane also means learning the neighbouring trade's vocabulary. The day you build something for them, you already know what they expect.
 
 ## Try this
 
-Ask for a short conversation with someone whose work touches yours. Agree on a case you can share, and follow it to the handover point. Note one thing received, one thing expected, and one uncertainty.
+Ask someone whose work touches yours for thirty minutes. Follow one case together to the handover point. Note one thing received, one thing expected, and one gap.
 
-Have that description confirmed before you propose a change. If an improvement is decided, check the next handover together: did the useful information arrive at the right moment? If the problem goes beyond your responsibilities, pass the case and the missing decision to the person concerned.
+Propose a change to the handover. Check the next one together: did the information arrive at the right moment?
 
 ## From where you sit
 
 - **Operations**: show where the file waits and what lets someone pick it up.
-- **Finance**: name the confirmations needed without opening data the inquiry does not require.
-- **Management**: make a bounded conversation easy rather than adding an informal responsibility.
+- **Finance**: say which confirmations you need, and when.
+- **Management**: make these exchanges easy, they cost half an hour.
 - **Customer relations**: report the journey the person actually had and the expectations still open.
 
 ## To discuss

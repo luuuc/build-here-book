@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/02-05-your-best-teacher-does-not-work-here.html
 seo:
-  description: "Un exemple extérieur peut élargir tes choix. Compare le problème, les contraintes et les effets avant de reprendre une solution."
+  description: "Tes collègues partagent tes angles morts. Un exemple extérieur ouvre une option : garde la façon de raisonner, compare les contraintes."
   keywords: "build here, apprentissage, builder, meilleur, professeur, travaille"
 redirect_from:
   - /livre/chapitres/08-01-ton-meilleur-professeur-ne-travaille-pas-ici.html
@@ -31,26 +31,26 @@ Tu apprends auprès des personnes proches de toi. Leurs exemples sont disponible
 
 ## Pourquoi
 
-Un collègue expérimenté apporte une connaissance précieuse du terrain. Une référence extérieure peut ouvrir une autre possibilité : une façon de présenter un devis, un parcours plus clair, une grille d'entretien ou une architecture adaptée à un problème comparable.
+Tes collègues t'apprennent le terrain. Mais ils partagent tes angles morts. Une référence extérieure ouvre une possibilité que personne autour de toi n'a vue : une façon de présenter un devis, un parcours plus clair, une grille d'entretien, une organisation adaptée à un problème comparable.
 
-Tu peux chercher cette référence dans un autre service, une association, une communauté professionnelle ou un travail publié. La célébrité et la taille de l'organisation ne disent pas à elles seules si l'exemple te sera utile. Ce qui compte est de pouvoir examiner une décision et ce qu'elle permet.
+Cherche-la dans un autre service, un autre secteur, une communauté professionnelle, un travail publié, une autre ville. La célébrité et la taille de l'organisation ne disent rien de l'utilité de l'exemple. Ce qui compte, c'est la décision qu'il montre et ce qu'elle permet.
 
-Compare aussi les contraintes. Une équipe disposant de plus de moyens peut financer une assistance que tu ne peux pas proposer. Un service construit pour une connexion stable peut mal répondre à un usage sur réseau intermittent. Tu peux retenir une manière de raisonner sans reprendre toute la solution.
+Compare les contraintes avant de copier. Une équipe avec dix fois tes moyens peut financer ce que tu ne peux pas. Un service pensé pour une connexion stable peut échouer chez toi. Garde la façon de raisonner, pas forcément la solution.
 
-Cette comparaison peut confirmer une force de ton propre travail. Elle sert à élargir tes choix, y compris quand ta solution actuelle reste la meilleure pour le besoin. Si tu débutes, un seul exemple commenté peut suffire pour apprendre un geste.
+La comparaison peut aussi confirmer que ta solution est la bonne. C'est une information aussi utile qu'une nouvelle idée.
 
 ## À essayer
 
-Choisis un sujet à approfondir et un exemple accessible qui traite un problème proche. Mets-le à côté de ton travail et note une décision différente, une contrainte différente et une chose que tu veux garder.
+Choisis un sujet à approfondir et un exemple extérieur qui traite un problème proche. Mets-le à côté de ton travail. Note une décision différente, une contrainte différente et une chose que tu veux garder.
 
-Essaie une adaptation limitée ou demande une relecture à un pair. À la prochaine utilisation, regarde si elle aide le destinataire. Si elle ajoute du coût sans bénéfice observable, reviens au choix précédent et conserve la raison.
+Essaie une adaptation sur un petit cas. Si elle ajoute du coût sans bénéfice, reviens en arrière et garde la raison.
 
 ## Depuis ton siège
 
 - **Produit** : compare les besoins servis avant de comparer les fonctionnalités.
 - **Design** : essaie le parcours dans les conditions réelles de ses utilisateurs.
 - **Support** : examine une réponse qui t'a aidé et le contexte qui la rendait pertinente.
-- **Recrutement** : compare les critères d'une grille, sans supposer que le prestige de son auteur les valide.
+- **Recrutement** : juge une grille sur ses critères, pas sur le prestige de son auteur.
 
 ## À discuter
 

@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/02-08-read-outside-your-lane.html
 seo:
-  description: "Comprendre ce qui précède et suit ton travail aide à améliorer les passations, avec les accès et les accords adaptés."
+  description: "Les problèmes se cachent dans les passations. Suis un cas avec la personne d'à côté : une demi-heure suffit à voir le trou."
   keywords: "build here, curiosite, builder, dehors, couloir"
 redirect_from:
   - /livre/chapitres/01-04-lis-en-dehors-de-ton-couloir.html
@@ -31,25 +31,25 @@ Tu connais bien ta partie du travail. Tu vois moins ce qui arrive avant et aprè
 
 ## Pourquoi ça marche
 
-Une passation peut laisser une information nécessaire entre deux responsabilités. Dans cet exemple, le support lance un remboursement, la finance annule le débit et personne ne sait qui doit modifier le droit d'accès. Chaque équipe traite sa partie, mais l'ensemble reste incomplet.
+Les problèmes se cachent dans les passations. Le support lance un remboursement, la finance annule le débit, et personne ne sait qui doit couper l'accès. Chaque équipe fait sa partie. Le client, lui, garde un accès qu'il ne paie plus.
 
-Suivre un cas avec les personnes concernées rend cette attente visible. Tu peux alors préciser une transmission ou poser une question à qui peut décider. Comprendre le travail voisin ne t'oblige pas à le reprendre et ne t'autorise pas à modifier seul son fonctionnement.
+Suivre un cas avec la personne d'à côté rend ce trou visible en une demi-heure. Tu n'as pas à reprendre son travail. Tu dois juste savoir ce qu'elle reçoit de toi et ce qui lui manque.
 
-L'observation demande un accès adapté. Un canal de support, un dossier financier ou une candidature peut contenir des informations qui ne doivent pas circuler largement. Une démonstration, un exemple anonymisé ou une conversation guidée peuvent suffire.
+Débutant ou seul, regarde la personne qui utilisera ton résultat. Ce qu'elle fait juste avant et juste après t'apprend pourquoi une consigne claire pour toi lui pose problème. Expérimenté, la même enquête révèle ce qui a changé depuis la dernière fois.
 
-Si tu débutes ou travailles seul, regarde la personne qui utilisera ton résultat. Ce qu'elle fait juste avant et juste après peut t'apprendre pourquoi une consigne claire pour toi lui pose problème. Avec de l'expérience, la même enquête peut révéler une contrainte qui a changé depuis la dernière passation.
+Lire hors de ton couloir, c'est aussi apprendre le vocabulaire du métier voisin. Le jour où tu construis quelque chose pour lui, tu sais déjà ce qu'il attend.
 
 ## À essayer
 
-Demande un court échange à une personne dont le travail touche le tien. Convenez d'un cas partageable et suis-le jusqu'au passage de relais. Note une chose reçue, une chose attendue et une incertitude.
+Demande trente minutes à une personne dont le travail touche le tien. Suivez un cas ensemble jusqu'au passage de relais. Note une chose reçue, une chose attendue et un trou.
 
-Fais confirmer cette description avant de proposer un changement. Si une amélioration est décidée, vérifiez ensemble la prochaine passation : l'information utile est-elle arrivée au bon moment ? Si le problème dépasse vos responsabilités, transmettez le cas et la décision manquante à la personne concernée.
+Propose un changement de passation. Vérifiez ensemble la suivante : l'information est-elle arrivée au bon moment ?
 
 ## Depuis ton siège
 
 - **Opérations** : montre où le dossier attend et ce qui permet de le reprendre.
-- **Finance** : précise les confirmations nécessaires sans ouvrir des données inutiles à l'enquête.
-- **Management** : facilite un échange limité plutôt que d'ajouter une responsabilité informelle.
+- **Finance** : précise les confirmations dont tu as besoin, et à quel moment.
+- **Management** : facilite ces échanges, ils coûtent une demi-heure.
 - **Relation client** : rapporte le parcours vécu par la personne et les attentes encore ouvertes.
 
 ## À discuter

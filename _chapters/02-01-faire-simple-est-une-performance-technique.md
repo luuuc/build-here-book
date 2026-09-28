@@ -16,7 +16,7 @@ categories:
 traductions:
   en: /book/chapters/02-01-making-it-simple-is-a-technical-achievement.html
 seo:
-  description: "Simplifier demande de comprendre ce qu'on retire, de vérifier les usages concernés et de préserver un retour en arrière."
+  description: "Ajouter est facile, retirer demande de comprendre. La version simple garde ce qui rend le travail juste et enlève ce qui le complique."
   keywords: "build here, engineering, builder, faire, simple, performance, technique"
 redirect_from:
   - /livre/chapitres/06-02-faire-simple-est-une-performance-technique.html
@@ -24,7 +24,7 @@ redirect_from:
 
 ## Le réflexe
 
-Une solution accumule les options pour couvrir tous les cas imaginés. Chacune paraît raisonnable quand on la regarde seule.
+Une solution accumule les options pour couvrir tous les cas imaginés. Chacune paraît raisonnable prise seule. Ensemble, elles rendent le travail lourd pour tout le monde.
 
 ## Le réflexe builder
 
@@ -32,27 +32,27 @@ Une solution accumule les options pour couvrir tous les cas imaginés. Chacune p
 
 ## Pourquoi
 
-Simplifier demande de comprendre ce qu'on retire. Un formulaire peut perdre un champ inutile et devenir plus facile à remplir. Il peut aussi perdre l'information dont une autre personne a besoin pour traiter le dossier.
+Ajouter est facile : chaque option répond à une demande, chaque champ à un cas. Retirer demande de comprendre. C'est pour ça que faire simple est une performance : il faut savoir exactement ce que fait chaque partie pour oser l'enlever.
 
-Dans le code, une version plus courte peut être plus lisible, mais le nombre de lignes ne tranche pas la qualité. Un cas rare peut protéger une opération importante. L'absence de ce cas dans les observations disponibles ne démontre pas qu'il ne se produira jamais.
+Un formulaire perd un champ inutile et devient plus rapide à remplir. Un autre perd le champ dont la comptabilité avait besoin, et le problème revient trois semaines plus tard, ailleurs. La différence entre les deux, c'est la question posée avant : qui utilise cette information ?
 
-La version simple peut venir d'une meilleure connaissance du besoin ou d'un périmètre volontairement étroit dès le départ. Un débutant peut proposer une simplification utile ; un collègue plus expérimenté peut l'aider à vérifier les conséquences qu'il ne voit pas encore.
+Un cas rare peut protéger une opération importante. Ne pas l'avoir vu cette semaine ne veut pas dire qu'il n'arrivera jamais. Avant de retirer, demande à celui qui entretient la partie ce qu'elle a déjà évité.
 
-L'enjeu est de préserver ce qui rend le travail juste en réduisant ce qui le complique. Cela vaut pour un écran, une procédure, un rapport ou une architecture. Une suppression mérite donc les mêmes questions qu'un ajout : qui est concerné, qu'est-ce qui change, et comment revenir en arrière si l'hypothèse est fausse ?
+Cela vaut pour un écran, une procédure, un rapport, une offre commerciale ou un tableau de bord. La version simple garde ce qui rend le travail juste et enlève ce qui le complique. Rien de plus, rien de moins.
 
 ## À essayer
 
-Choisis une partie que tu comprends assez pour expliquer son rôle. Note ce que tu voudrais retirer et ce que cette partie permet aujourd'hui.
+Choisis une partie de ton travail que tu sais expliquer. Note ce que tu voudrais retirer et ce que cette partie permet aujourd'hui.
 
-Demande un retour à une personne qui l'utilise ou en dépend. Si le changement est autorisé et réversible, essaie-le sur un périmètre limité, avec une façon de restaurer l'existant. Sinon, commence par une maquette ou une copie de travail.
+Montre-le à une personne qui l'utilise. Puis retire-la sur un petit périmètre, en gardant de quoi la remettre.
 
-Après un cycle d'usage convenu, regarde si la tâche est plus facile et si un besoin a été perdu. Garde, adapte ou annule la simplification selon ce que tu observes.
+Après un cycle d'usage, regarde si la tâche est plus facile et si quelque chose manque. Garde, adapte ou remets.
 
 ## Depuis ton siège
 
-- **Produit** : examine les usages affectés par un retrait avec les personnes concernées.
+- **Produit** : demande qui utilise une fonction avant de la retirer.
 - **Opérations** : vérifie l'information que l'étape transmet à la suivante.
-- **Management** : laisse du temps pour vérifier une suppression, même si elle produit peu de nouveauté visible.
+- **Management** : reconnais une suppression autant qu'un ajout.
 
 ## À discuter
 

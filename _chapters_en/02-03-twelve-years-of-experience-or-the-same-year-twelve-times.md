@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html
 seo:
-  description: "Experience gives you bearings. To go deeper into a skill, pick one precise move, get feedback, and compare your attempts."
+  description: "An automatic move stops improving. Pick one precise move, make three attempts with feedback between each, and compare."
   keywords: "build here, craft, experience, practice, builder"
 redirect_from:
   - /book/chapters/02-03-choose-what-you-want-to-get-better-at.html
@@ -22,7 +22,7 @@ redirect_from:
 
 ## The symptom
 
-You know your job well. You would like to get better at one thing, but piling up the same situations does not seem to help much any more.
+You know your job well. You would like to get better at one thing, but piling up the same situations no longer helps.
 
 ## The signal
 
@@ -30,27 +30,27 @@ You know your job well. You would like to get better at one thing, but piling up
 
 ## What's going on
 
-Experience brings bearings, reliability, and knowledge of the exceptions. It can also make some moves automatic, to the point where you no longer examine them. That is not enough to conclude you have stalled: a stable practice can serve the need very well.
+Experience brings bearings, reliability, and knowledge of the exceptions. It also makes some moves automatic. An automatic move stops improving: you repeat it, you no longer practise it.
 
-To choose a direction, look at a difficulty that keeps coming back or a strength you want to deepen. A salesperson may want to explain a price better. Someone in support may work on the first question that helps them understand the request. A designer may want to make a screen clearer with fewer elements.
+To improve, pick one precise move. A salesperson wants to explain a price better. Someone in support works on the first question that makes a request clear. A designer tries to make a screen easier to read with fewer elements.
 
-The exercise becomes useful when the piece is small enough to try, observe and redo. Repeating without feedback can reinforce the same mistake. Conversely, one precise comment can be enough to change the next attempt. An AI can give you that feedback on every attempt: ask it to critique your version against a criterion, then check its critique with someone who knows the trade.
+Practice works when the piece is small enough to try, observe and redo. Repeating without feedback reinforces the same mistake. One precise comment changes the next attempt. An AI can give you that feedback on every attempt: ask it to critique your version against a criterion, then check its critique with someone who knows the trade.
 
-Time and the chance to practise shape what you can learn. If the move depends on an access right or an available colleague, plan for it. A simulated exercise can let you start without putting the cost of your learning on a customer.
+Twelve years of experience are twelve years of progress if each year had its attempts and its feedback. Otherwise, it is the same year twelve times.
 
 ## Check this
 
-Choose one skill and keep an example of your current work. Set a criterion with a peer, or from a reference that fits: what the recipient understands, the mistake to avoid, or the time a task takes.
+Choose one skill and keep an example of your current work. Set a criterion: what the recipient understands, the mistake to avoid, the time the task takes.
 
-Plan two or three short attempts inside the time available, with feedback between them. If you are starting out, take a basic move and ask for a demonstration.
+Make three short attempts this week, with feedback between each one.
 
-Then compare the first attempt and the last. Note what changed, what is still hard, and whether the exercise is worth continuing. A flat result can lead you to choose another method, or another subject.
+Compare the first and the last. Note what changed and what is still hard. If nothing moves, change the method, not the goal.
 
 ## From where you sit
 
 - **Design**: have the same task attempted before and after the change.
-- **Management**: look at the chances to practise and to get feedback before reading anything into progress.
-- **Recruiting**: ask for concrete learning; a personal project or a short experience will do.
+- **Management**: give chances to practise and get feedback, not only goals.
+- **Recruiting**: ask what the person can do today that they could not do two years ago.
 
 ## To discuss
 

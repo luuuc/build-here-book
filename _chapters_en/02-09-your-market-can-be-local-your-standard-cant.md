@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/02-09-ton-marche-peut-etre-local-ton-niveau-non.html
 seo:
-  description: "Compare the uses and the constraints to choose a useful improvement, without mistaking quality for imitating another market."
+  description: "Your users compare you to the best service they know, not to the neighbour. Constraints change the choices, not the standard."
   keywords: "build here, craft, standard, comparison, builder"
 ---
 
@@ -22,29 +22,27 @@ seo:
 
 > "It's comparable to what's around us."
 
-That comparison gives you a bearing. It does not yet say whether the work serves the need of the person using it.
+That comparison gives you a bearing. It does not say whether the work serves the need of the person using it.
 
 ## The builder's reflex
 
-> "What does this person have to be able to do, under what conditions, and which examples can help us?"
+> "What does this person have to be able to do, under what conditions, and what is the best example I know?"
 
 ## Why
 
-Expectations form across several experiences. A person may compare your service to another sector, to a tool they know, or to a way of doing it with no tool at all. The gap worth looking at is the one that gets in the way of their use.
+"Comparable to what's around us" is a ceiling, not a standard. Your users do not compare you to the neighbour. They compare you to the best service they have ever used, in any sector.
 
-An unstable connection, an old device, a tight budget or a mandated payment method change what is possible. A solution that is excellent in another context can fail in this one. Building with those constraints takes judgement, and can produce an example other people will learn from.
+An unstable connection, an old device, a tight budget, a mandated payment method change the choices you have. They do not change the standard. A service that holds up under those conditions is tougher than most of what gets built with every comfort. That is the know-how that travels.
 
-Quality has a cost too. Making a message clearer may take little time; cutting a load time may take substantial rework. You have to estimate the effort instead of filing every flaw under carelessness and every constraint under impossibility.
+Every improvement has a cost. Clarifying a message takes an hour; cutting a load time can take a month. Estimate the effort, then pick the gap that gets in the way of use the most.
 
-An outside reference is there to open up options. The final choice is made with the real uses, the means available, and what an improvement would displace. Keeping a service reliable can be better than adding a more impressive feature.
+Keeping a service reliable often beats adding an impressive feature. The standard is what the person manages to do, not what you added.
 
 ## Try this
 
-Choose a task that matters to someone who uses your work. With their agreement, watch them do it under their usual conditions, then examine another example that answers the same need.
+Choose a task that matters to someone who uses your work. Watch them do it under their real conditions. Then look at the best example you know of the same need, here or elsewhere.
 
-Note one concrete gap, its effect, and the estimated effort to close it. Separate what you know from what is still to be checked. Propose a bounded improvement, or explain why it is not yet worth its cost.
-
-After the attempt, take the same task again under comparable conditions. Look at what got easier and what is still hard. The result can also confirm that a local choice was well suited.
+Note one concrete gap, its effect, and the effort to close it. Close it, then have the same task done again. See what got easier.
 
 ## From where you sit
 

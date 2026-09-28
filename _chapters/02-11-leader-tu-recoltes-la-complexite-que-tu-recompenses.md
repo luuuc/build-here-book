@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/02-11-you-get-the-complexity-you-reward.html
 seo:
-  description: "Donne aux simplifications et aux investigations une place dans la revue, avec leur effet observé et leurs limites."
+  description: "Si ta revue ne demande que ce qui a été livré, l'équipe ajoute. Demande aussi ce qui a été simplifié, et de combien."
   keywords: "build here, engineering, builder, conditions, recoltes, complexite, recompenses"
 redirect_from:
   - /livre/chapitres/06-06-leader-tu-recoltes-la-complexite-que-tu-recompenses.html
@@ -25,7 +25,7 @@ redirect_from:
 
 > "Qu'avons-nous livré cette semaine ?"
 
-La question rend visibles les ajouts. Une simplification ou une investigation peut avoir moins de place dans la réponse.
+La question rend visibles les ajouts. Une simplification ou une enquête a peu de place dans la réponse.
 
 ## Ce que le système entend
 
@@ -33,21 +33,19 @@ La question rend visibles les ajouts. Une simplification ou une investigation pe
 
 ## Ce que ça produit
 
-Une nouvelle fonctionnalité se montre facilement. Retirer une étape de validation devenue inutile, clarifier un calcul ou abandonner une dépendance demande d'expliquer ce qui devient plus simple et ce qui reste protégé.
+Une nouvelle fonctionnalité se montre en une capture d'écran. Retirer une étape de validation inutile, clarifier un calcul ou abandonner une dépendance demande d'expliquer ce qui devient plus simple. Si ta revue ne demande que ce qui a été livré, ce travail disparaît.
 
-Si les revues ne montrent que les ajouts, les personnes peuvent donner priorité aux travaux dont elles savent raconter le résultat. Le cadre de reconnaissance peut être élargi sans présumer que tout le travail passé était mal choisi.
+L'équipe l'apprend vite. Elle ajoute, parce qu'ajouter se raconte. Six mois plus tard, tout est plus lent, plus fragile et plus cher à changer, sans que personne ait pris une seule mauvaise décision.
 
-La simplification n'est pas un objectif à compter seule. Retirer du code, des contrôles ou des étapes peut déplacer une charge vers le support ou accroître un risque. Une réduction utile doit être reliée à un effet : moins d'attente, une opération plus fiable, une maintenance plus facile ou un raisonnement mieux compris.
+Une simplification se mesure par son effet : moins d'attente, moins d'erreurs, moins de temps d'entretien, une étape de moins pour le client. Demande ce chiffre-là, avec la même attention qu'un chiffre de livraison.
 
-Le travail d'enquête peut aussi se terminer sans suppression. Découvrir qu'une étape protège encore un cas important est une information utile. La revue doit permettre de l'expliquer, avec les limites de ce qui a été vérifié.
+Une enquête qui conclut qu'une étape protège encore un cas important est aussi un résultat. Elle a évité une erreur.
 
 ## La décision
 
-À une prochaine revue, demandez un exemple de simplification ou de risque évité en plus des livraisons. Faites préciser ce qui a changé, pour qui et sur quels faits repose le bénéfice annoncé.
+À la prochaine revue, demande un exemple de simplification ou de risque évité, à côté des livraisons. Fais préciser ce qui a changé, pour qui, et de combien.
 
-Pour une investigation, prévoyez un créneau et nommez le travail déplacé. Associez une personne qui devra utiliser ou entretenir le résultat. Choisissez une date pour regarder si l'amélioration tient et si une charge a été transférée ailleurs.
-
-Après quelques revues, demandez à l'équipe si ces travaux sont plus faciles à proposer et à expliquer. Ajustez le format sans créer un quota de suppressions.
+Donne à une simplification le même temps et la même visibilité qu'une fonctionnalité. Un mois plus tard, regarde si le gain tient et si une charge est passée ailleurs.
 
 ## Depuis ton siège
 

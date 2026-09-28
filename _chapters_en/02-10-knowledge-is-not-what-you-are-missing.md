@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/02-10-le-savoir-nest-pas-ce-qui-te-manque.html
 seo:
-  description: "Name what is missing in order to learn: a resource, time, access, an explanation or feedback. Pick a route your means allow."
+  description: "Knowledge has never been easier to reach, AI included. What is missing is the precise question, the practice, or the feedback."
   keywords: "build here, learning, builder, access, what is missing"
 redirect_from:
   - /book/chapters/02-10-find-a-way-in-to-what-you-are-missing.html
@@ -24,33 +24,31 @@ redirect_from:
 
 > "I don't have what I need to learn this part."
 
-The need is real, but what is missing may be a resource, time, an explanation, or a chance to practise.
+You look for a training course, a class, a book. Meanwhile, you do not move.
 
 ## The builder's reflex
 
-> "What's the next thing to understand, and what help would put it within reach?"
+> "What's the next thing to understand, and where can I find it today?"
 
 ## Why
 
-Courses, guides and field accounts are available online and in places that teach. Finding them is not always enough to be able to use them. Language, cost, connection, prior knowledge and the chance of getting feedback all count too.
+Courses, guides, books and field accounts have never been easier to reach. With an AI, you also have a tutor available at any hour, who explains in your language, at your level, and answers the tenth question as patiently as the first.
 
-Someone discovering a craft may have a manual and not know which chapter matches their problem. A peer can help them choose an example. An experienced person may be after information that is not published at all, and need a conversation with a vendor or another practitioner.
+What is missing is rarely knowledge. It is the precise question, the time, feedback on your attempt, or practice. Someone discovering a trade has the manual but does not know which chapter answers their problem. An experienced person is after information written down nowhere, which has to be fetched from a practitioner.
 
-Naming the gap precisely is what lets you choose a suitable action. A video that costs too much data may have a transcript. A book out of reach may be in a library. Ground knowledge may call for a demonstration. Those routes do not guarantee a solution, but they give you concrete requests to make.
+Name exactly what is missing, and the action follows. Missing an explanation: ask for it, from an AI or a peer. Missing practice: do a small case. Missing feedback: show your attempt. Missing ground knowledge: go and see someone who does it.
 
-Support can come from a teacher, a colleague, a community, or someone who organises the work. If no realistic access exists for now, narrowing the scope of the project can be a reasonable decision.
+Watch for the opposite trap: reading, watching, asking, and never trying. You have only learned what you can redo on your own.
 
 ## Try this
 
-Choose a single question. Write down what you need in order to move: an explanation, an example, a tool, a slot of time, or feedback on your attempt.
+Choose a single question. Write down what you need in order to move: an explanation, an example, a tool, time, or feedback.
 
-Look for a route your means allow, and cap the time you spend searching. If it does not work, prepare a precise request for someone who can help. For a team, name the cost and the priority that would have to move.
-
-After the reading or the conversation, try a small case and check what you can now do or explain. If you are still stuck, note the missing prerequisite. That result helps you choose the next kind of support, rather than concluding you lack motivation.
+Go and get it today, with a time limit. Then try a small case and check what you can now do on your own. If you are still stuck, note what is missing and ask for it precisely.
 
 ## From where you sit
 
-- **Management**: look at time, language, access, and the chances of getting feedback.
+- **Management**: give the time and the access, AI tools included.
 - **Product**: say which information is missing before asking for more data.
 - **Recruiting**: examine what the person can do, beyond the name of their training.
 

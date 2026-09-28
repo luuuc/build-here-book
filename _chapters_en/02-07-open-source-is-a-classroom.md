@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/02-07-lopen-source-est-une-salle-de-classe.html
 seo:
-  description: "The exchanges in an open project can show how a decision gets built. Pick a case you can reach, and respect contributors' time."
+  description: "An open project shows the reasoning, not just the result. Read one decision, then contribute."
   keywords: "build here, learning, builder, open source, classroom"
 ---
 
@@ -28,28 +28,26 @@ You use an open project for what it lets you do. The discussions that led to its
 
 ## Why
 
-An open project can give you access to reasoning: a proposal discussed, a fix reviewed, documentation changed after feedback. Those exchanges show constraints the finished result does not always make visible.
+An open project shows what a company keeps to itself: the reasoning. A proposal discussed, a fix reviewed, documentation changed after feedback. You see the options set aside and why, not just the result.
 
-On a software dependency, a release note and the discussion attached to it can explain a change in behaviour. In an open guide or an open data project, the exchanges can show why one category was kept and one wording dropped.
+On a software dependency, a release note and its discussion explain a change in behaviour. In an open guide, a data project or a wiki, the exchanges show why one category was kept and one wording dropped.
 
-The quality of that learning depends on the project and on the thread you choose. Some discussions are old, incomplete, or hard to follow. A long conversation is not necessarily a good entry point for a beginner. Look for a small documented change and take the time to understand its context.
+Start small. A short, documented change teaches you more than a long conversation. For a hard thread, an AI can summarise it and explain the context.
 
-Contributing can bring you feedback, but the people who maintain the project owe you neither immediate availability nor private tuition. Their time counts as much as yours. Follow the contribution guidelines and pick a scope that matches what you know. Reading and understanding a decision is already learning, even with nothing published.
+Contributing is the natural next step: a documentation fix, an example, a translation. Follow the project's guidelines and respect the time of the people who maintain it. Their review is worth a training course.
 
 ## Try this
 
-Choose a project you use, or one whose subject interests you. Read one short discussion tied to a precise change. Note the need, one option set aside, and the reason for the final choice.
+Choose a project you use. Read one discussion tied to a precise change. Note the need, one option set aside, and the reason for the choice.
 
-Compare that reasoning to a small problem in your own work. If you want to contribute, check the guidelines first and propose a bounded fix, a documentation clarification for instance. Set a time limit, and accept that the feedback may be slow or the proposal refused.
-
-At the end, write down what you understand better and what you could apply. The number of contributions accepted does not on its own measure that learning.
+Compare that reasoning to a problem in your own work. Then propose a small contribution: a clarification, an example, a fix.
 
 ## From where you sit
 
 - **Product**: a proposal refused, with its reasons, can inform a trade-off.
 - **Design**: look at how an exchange led to making a use clearer.
-- **Management**: plan for contribution time when it serves the team's work.
-- **Recruiting**: accept private evidence or a suitable exercise, without requiring a public track record.
+- **Management**: count contribution time as part of the team's work.
+- **Recruiting**: look at open contributions, and accept private evidence too.
 
 ## To discuss
 

@@ -15,13 +15,13 @@ categories:
 traductions:
   en: /book/chapters/02-03-twelve-years-of-experience-or-the-same-year-twelve-times.html
 seo:
-  description: "L'expérience donne des repères. Pour approfondir une compétence, choisis un geste précis, un retour et une comparaison entre les essais."
+  description: "Un geste automatique ne progresse plus. Choisis un geste précis, fais trois essais avec un retour entre chacun, et compare."
   keywords: "build here, metier, experience, pratique, builder"
 ---
 
 ## Le symptôme
 
-Tu connais bien ton travail. Tu aimerais progresser sur un point, mais accumuler les mêmes situations ne semble plus beaucoup t'aider.
+Tu connais bien ton travail. Tu aimerais progresser sur un point, mais accumuler les mêmes situations ne t'aide plus.
 
 ## Le signal
 
@@ -29,27 +29,27 @@ Tu connais bien ton travail. Tu aimerais progresser sur un point, mais accumuler
 
 ## Ce qui se passe
 
-L'expérience apporte des repères, de la fiabilité et une connaissance des exceptions. Elle peut aussi rendre certains gestes automatiques, au point qu'on ne les examine plus. Cela ne suffit pas à conclure à une stagnation : une pratique stable peut répondre très bien au besoin.
+L'expérience apporte des repères, de la fiabilité et la connaissance des exceptions. Elle rend aussi certains gestes automatiques. Un geste automatique ne progresse plus : tu le répètes, tu ne l'exerces pas.
 
-Pour choisir un axe, regarde une difficulté récurrente ou une force que tu souhaites approfondir. Un commercial peut vouloir mieux expliquer un prix. Une personne au support peut travailler la première question qui l'aide à comprendre la demande. Un designer peut chercher à rendre un écran plus lisible avec moins d'éléments.
+Pour progresser, choisis un geste précis. Un commercial veut mieux expliquer un prix. Une personne au support travaille la première question qui fait comprendre la demande. Un designer cherche à rendre un écran plus lisible avec moins d'éléments.
 
-L'exercice devient utile quand le morceau est assez petit pour être essayé, observé et repris. Répéter sans retour peut renforcer la même erreur. À l'inverse, un commentaire précis peut suffire pour changer la prochaine tentative. Une IA peut te donner ce retour à chaque essai : demande-lui de critiquer ta version selon un critère, puis confronte sa critique à quelqu'un qui connaît le métier.
+L'exercice marche quand le morceau est assez petit pour être essayé, observé et repris. Répéter sans retour renforce la même erreur. Un commentaire précis change la tentative suivante. Une IA peut te donner ce retour à chaque essai : demande-lui de critiquer ta version selon un critère, puis confronte sa critique à quelqu'un qui connaît le métier.
 
-Le temps et les occasions d'exercice influencent ce que tu peux apprendre. Si le geste dépend d'un accès ou d'un collègue disponible, prévois-le. Un exercice simulé peut permettre de commencer sans faire porter le coût d'apprentissage à un client.
+Douze ans d'expérience, c'est douze ans de progression si chaque année a eu ses essais et ses retours. Sinon, c'est la même année douze fois.
 
 ## À vérifier
 
-Choisis une compétence et garde un exemple de ton travail actuel. Fixe un critère avec un pair ou à partir d'une référence adaptée : ce que le destinataire comprend, l'erreur à éviter ou le temps nécessaire pour réaliser une tâche.
+Choisis une compétence et garde un exemple de ton travail actuel. Fixe un critère : ce que le destinataire comprend, l'erreur à éviter, le temps que prend la tâche.
 
-Prévois deux ou trois essais courts dans le temps disponible, avec un retour entre eux. Si tu débutes, prends un geste élémentaire et demande une démonstration.
+Fais trois essais courts cette semaine, avec un retour entre chacun.
 
-Compare ensuite le premier et le dernier essai. Note ce qui a changé, ce qui reste difficile et si l'exercice mérite d'être poursuivi. Un résultat stable peut conduire à choisir une autre méthode ou un autre sujet.
+Compare le premier et le dernier. Note ce qui a changé et ce qui reste difficile. Si rien ne bouge, change de méthode, pas d'objectif.
 
 ## Depuis ton siège
 
 - **Design** : fais essayer la même tâche avant et après la modification.
-- **Management** : regarde les possibilités d'exercice et de retour avant d'interpréter une progression.
-- **Recrutement** : demande un apprentissage concret ; un projet personnel ou une expérience courte conviennent.
+- **Management** : donne des occasions d'exercice et de retour, pas seulement des objectifs.
+- **Recrutement** : demande ce que la personne sait faire aujourd'hui qu'elle ne savait pas il y a deux ans.
 
 ## À discuter
 

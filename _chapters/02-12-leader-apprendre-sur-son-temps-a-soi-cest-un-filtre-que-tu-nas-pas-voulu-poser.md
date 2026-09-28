@@ -15,7 +15,7 @@ categories:
 traductions:
   en: /book/chapters/02-12-learning-on-your-own-time-is-a-filter-you-did-not-mean-to-set.html
 seo:
-  description: "Prévois le temps, les ressources et le retour nécessaires pour apprendre, en tenant compte des engagements et des contraintes de chacun."
+  description: "Si on n'apprend que le soir, tu sélectionnes sur le temps libre, pas sur le talent. Prends l'heure sur le travail, et dis ce qu'elle remplace."
   keywords: "build here, apprentissage, builder, conditions, apprendre, temps, filtre, voulu"
 redirect_from:
   - /livre/chapitres/08-06-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html
@@ -25,7 +25,7 @@ redirect_from:
 
 > "Nous voulons que chacun puisse continuer à apprendre."
 
-Il reste à choisir le temps, les ressources et les occasions de pratiquer qui rendent cette intention possible.
+Mais aucun temps n'est prévu pour ça dans la semaine.
 
 ## Ce que le système entend
 
@@ -33,28 +33,26 @@ Il reste à choisir le temps, les ressources et les occasions de pratiquer qui r
 
 ## Ce que ça produit
 
-Une progression qui repose surtout sur les soirées disponibles peut creuser les écarts d'accès. Les trajets, les responsabilités familiales, un autre emploi, la connexion ou l'électricité changent ce qu'une personne peut faire après sa journée.
+Si on n'apprend que le soir, tu sélectionnes sur le temps libre, pas sur le talent. Les trajets, les enfants, un deuxième emploi, la connexion ou l'électricité décident alors qui progresse dans ton équipe.
 
-L'apprentissage existe aussi pendant le travail : une relecture expliquée, une enquête menée à deux ou une nouvelle tâche accompagnée peuvent développer une compétence. Le rendre visible permet de soutenir ces occasions au lieu d'ajouter automatiquement des heures de lecture.
+L'apprentissage existe aussi pendant le travail : une relecture expliquée, une enquête à deux, une tâche nouvelle accompagnée. Reconnais-le et donne-lui de la place, plutôt que d'ajouter des heures de lecture.
 
-Un créneau annoncé reste fragile si la charge n'est pas ajustée. L'équipe peut avoir besoin de réduire un engagement, d'organiser une relève ou de financer une ressource. Ces arbitrages ont un coût réel. Ils se prennent avec ceux qui peuvent engager le temps et les moyens.
+Un créneau annoncé disparaît dès que la charge n'est pas ajustée. Protéger une heure d'apprentissage, c'est retirer une heure d'autre chose. Dis laquelle.
 
-Le même format ne convient pas à tout le monde. Un débutant peut avoir besoin d'une démonstration et d'un retour immédiat ; une personne expérimentée peut vouloir comparer plusieurs approches. Demande ce qui aiderait plutôt que d'imposer une activité uniforme.
+Les outils changent vite, l'IA la première. Une équipe qui n'a pas le temps de les essayer sur son propre travail prend du retard sans le voir.
 
 ## La décision
 
-Avec une personne ou un petit groupe, choisissez un apprentissage lié à un besoin et un créneau réaliste sur le temps de travail. Précisez ce qui est décalé, l'aide disponible et le premier essai prévu.
+Avec une personne ou un petit groupe, choisis un apprentissage lié à un vrai besoin et un créneau sur le temps de travail. Dis ce qui est décalé.
 
-À la fin de la période convenue, regardez si le créneau a pu être utilisé et ce qu'il a permis d'essayer ou de comprendre. S'il a disparu, cherchez l'arbitrage qui l'a déplacé. Si l'activité n'a pas aidé, adaptez le soutien avant de prolonger le même format.
-
-Une personne sans autorité sur le planning peut préparer cette demande avec son responsable ou un allié. Elle n'a pas à promettre des soirées pour prouver son intérêt.
+Un mois plus tard, regarde si le créneau a tenu et ce qu'il a permis de faire. S'il a disparu, trouve ce qui l'a mangé.
 
 ## Depuis ton siège
 
 - **Management** : ajuste les engagements pour que le créneau soit réellement utilisable.
 - **Relation client** : fais reconnaître l'apprentissage qui se produit dans les cas accompagnés.
 - **Finance** : rends visibles les coûts de ressource, de connexion et de remplacement éventuel.
-- **Recrutement** : présente les occasions d'apprendre que l'équipe peut effectivement offrir.
+- **Recrutement** : présente les occasions d'apprendre que l'équipe offre vraiment.
 
 ## À discuter
 

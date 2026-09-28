@@ -14,39 +14,40 @@ categories:
 traductions:
   fr: /livre/chapitres/02-02-lis-le-code-source.html
 seo:
-  description: "When a dependency surprises you, its source can explain the behaviour. Check the version, the context, and one precise case."
+  description: "The documentation summarises, the source decides. Go back to the code, the contract or the formula, with an AI if it helps you read."
   keywords: "build here, engineering, builder, source code"
 ---
 
 ## The starting point
 
-A software library behaves differently from what you expected. The documentation and the examples you found do not explain your case yet.
+A software library behaves differently from what you expected. The documentation and the examples you found do not explain your case.
 
 ## The move
 
-Open the implementation for the version you are running and find the function involved.
+Open the source for the version you are running and find the function involved. An AI can guide you through it.
 
 ## Why it works
 
-When the code is reachable, it can show you a rule the documentation summarises: a default timeout, a condition on a value, or how a cache key gets built. That reading turns a guess into an assumption you can test.
+The documentation summarises. The source decides. A default timeout, a condition on a value, a calculation rule: the source shows what actually happens, where the documentation says what should happen.
 
-The file has to match what is actually running. Another version, a different configuration or a remote service can explain the gap. Code alone does not always tell you the conditions it runs under.
+You do not need to read the whole project. Start from one entry point and follow it to the behaviour you care about. Today, an AI can read the code with you, explain a function line by line, and tell you where to look next. Just check it is the right version: another version's code, or a different configuration, often explains the gap.
 
-You do not need to read the whole project. Start from one entry point and follow it to the behaviour you care about. If you are starting out, ask someone to walk that function with you. A short session can teach you where to look and which words to search for next.
+Outside software, the move is the same: go back to the document that sets the rule. The vendor's terms, the spreadsheet formula, the text of the procedure, the contract. What people tell you about the rule and the rule itself are two different things.
 
-Outside software, the neighbouring move is going back to the document that sets the rule: a procedure, a formula, or the terms of a service. If the source is closed or outside your access, ask the vendor for a reproducible example or an explanation. Reading code is not a condition for being a builder.
+Every time you go back to the source, you win twice: you solve your case, and you know where to look next time.
 
 ## Try this
 
-Take one precise behaviour and write down what you expected. Spend fifteen minutes in whatever source is available, then write an assumption and the place that supports it.
+Take one precise behaviour that surprises you and write down what you expected. Give yourself fifteen minutes in the source, alone or with an AI.
 
-Check it in a suitable environment, with a small example or with someone competent. If you cannot conclude, pass on what you looked at and the question that remains. By the end, you should be able to tell what the source shows from what you are still assuming.
+Write down what you found and the exact place that shows it. Test it on a small example. If you cannot conclude, pass on what you looked at and the question that remains.
 
 ## From where you sit
 
 - **Engineering**: keep the version and the case that let someone reproduce the observation.
 - **Product**: ask what the technical behaviour means for use.
-- **Management**: plan for reading help for the people meeting the system for the first time.
+- **Finance**: go back to the spreadsheet formula before disputing a figure.
+- **Management**: have newcomers walk the source with someone who knows it.
 
 ## To discuss
 

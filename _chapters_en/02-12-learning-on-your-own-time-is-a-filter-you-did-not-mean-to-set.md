@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html
 seo:
-  description: "Plan the time, the resources and the feedback that learning needs, taking each person's commitments and constraints into account."
+  description: "If learning only happens in the evening, you select on spare time, not talent. Take the hour from work, and say what it replaces."
   keywords: "build here, learning, builder, conditions, own time, filter"
 ---
 
@@ -22,7 +22,7 @@ seo:
 
 > "We want everyone to be able to keep learning."
 
-What remains is choosing the time, the resources and the chances to practise that make the intention possible.
+But no time is set aside for it in the week.
 
 ## What the system hears
 
@@ -30,28 +30,26 @@ What remains is choosing the time, the resources and the chances to practise tha
 
 ## What that produces
 
-Progress that rests mostly on free evenings can widen gaps in access. Commutes, family responsibilities, a second job, the connection or the electricity all change what a person can do after their day.
+If learning only happens in the evening, you are selecting on spare time, not talent. Commutes, children, a second job, the connection or the electricity then decide who grows in your team.
 
-Learning also happens during work: a review that is explained, an inquiry run by two people, a new task with support alongside can all build a skill. Making that visible lets you back those occasions instead of automatically adding reading hours.
+Learning also happens during work: a review that is explained, an inquiry run by two people, a new task with support alongside. Recognise it and give it room, rather than adding reading hours.
 
-An announced slot stays fragile if the load is not adjusted. The team may need to cut a commitment, arrange cover, or fund a resource. Those trade-offs have a real cost. They are made with the people who can commit the time and the means.
+An announced slot disappears as soon as the load is not adjusted. Protecting an hour of learning means removing an hour of something else. Say which.
 
-The same format does not suit everyone. A beginner may need a demonstration and immediate feedback; an experienced person may want to compare several approaches. Ask what would help rather than imposing one uniform activity.
+Tools change fast, AI first of all. A team with no time to try them on its own work falls behind without noticing.
 
 ## The decision
 
-With one person or a small group, choose a piece of learning tied to a need, and a realistic slot inside working hours. Say what gets pushed back, what help is available, and what the first attempt will be.
+With one person or a small group, choose a piece of learning tied to a real need, and a slot inside working hours. Say what gets pushed back.
 
-At the end of the agreed period, look at whether the slot could be used and what it let people try or understand. If it disappeared, look for the trade-off that displaced it. If the activity did not help, adapt the support before extending the same format.
-
-Someone with no authority over the schedule can prepare that request with their manager or an ally. They do not have to promise evenings to prove they are interested.
+A month later, look at whether the slot held and what it let people do. If it disappeared, find what ate it.
 
 ## From where you sit
 
 - **Management**: adjust the commitments so the slot is genuinely usable.
 - **Customer relations**: get the learning that happens inside supported cases recognised.
 - **Finance**: make the costs of the resource, the connection and any cover visible.
-- **Recruiting**: present the chances to learn the team can actually offer.
+- **Recruiting**: present the chances to learn the team really offers.
 
 ## To discuss
 

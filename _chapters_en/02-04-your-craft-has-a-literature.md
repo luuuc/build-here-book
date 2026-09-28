@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/02-04-ton-metier-a-une-litterature.html
 seo:
-  description: "A resource from your craft can light up a problem. Compare its context to yours, and put one idea to the test."
+  description: "Almost every problem you meet has been met and written up. Find the text, try one idea on a real case."
   keywords: "build here, craft, reading, references, builder"
 ---
 
@@ -28,25 +28,25 @@ A new problem turns up. You start again from your own experience, without knowin
 
 ## Why
 
-Practice and reading can feed each other. A text can name a mechanism you have already met, explain a failure, or offer a method to compare with yours.
+Almost every problem you meet has been met before. Someone named the mechanism, told the story of the failure, compared the methods. Starting from zero means paying a second time for a lesson already learned.
 
-Sales, support, design, finance, operations, recruiting and engineering all have resources in various shapes: books, surveys, professional guides, annotated decisions, detailed cases. What they are worth depends on the question you are asking and on their quality, not on the prestige of the craft or the author.
+Sales, support, design, finance, operations, recruiting and engineering each have their books, surveys, guides and detailed cases. What they are worth depends on the question you ask, not on the author's prestige.
 
-A close example is not a recipe. Look at who was observed, in what context, and with what limits. A number can help, but it does not replace an explicit method. A precise qualitative account can inform a decision; a universal promise deserves questioning.
+A close example is not a recipe. Look at who was observed and in what context, then keep what applies to you. An idea you read is worth nothing until you have tried it on a real case.
 
-If you are starting out, one passage with an example will sometimes serve you better than a whole book. If you already know the literature on the subject, look for an objection, or a case where your usual approach works less well. Some resources need a purchase, a translation, or prior knowledge: getting to them is part of the choice.
+Starting out, one passage with an example serves you better than a whole book. Experienced, look for the objection: the author who thinks the opposite, the case where your method fails. An AI can help you find the texts that matter on a question; then read the source itself.
 
 ## Try this
 
-Frame a question tied to your work or your project. Ask a peer, a teacher, a library or a professional community for a resource you can reach.
+Frame a question tied to your work. Find a resource that deals with it: a peer, a library, a professional community, an AI to start the search.
 
-Read one passage and note one idea you can test on a small case. Also write down one difference between the author's context and yours. After the attempt, look at what the reading let you understand or decide. Keep the reference together with that limit, so you can come back to it.
+Read one passage and note one idea to try on a small case this week. Also write down one difference between the author's context and yours. After the attempt, keep the reference with what it taught you.
 
 ## From where you sit
 
 - **Engineering**: hold a technical explanation against the version and the context you are running.
 - **Finance**: tell a management method apart from a rule that depends on the country or the period.
-- **Management**: plan the time and the access a useful reading needs.
+- **Management**: pay for the books and for the time to read them.
 
 ## To discuss
 

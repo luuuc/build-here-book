@@ -14,7 +14,7 @@ categories:
 traductions:
   fr: /livre/chapitres/02-11-leader-tu-recoltes-la-complexite-que-tu-recompenses.html
 seo:
-  description: "Give simplifications and investigations a place in the review, with the effect observed and its limits."
+  description: "If your review only asks what shipped, the team adds. Ask what got simpler too, and by how much."
   keywords: "build here, engineering, builder, conditions, complexity, reward"
 ---
 
@@ -22,7 +22,7 @@ seo:
 
 > "What did we ship this week?"
 
-The question makes additions visible. A simplification or an investigation can find less room in the answer.
+The question makes additions visible. A simplification or an inquiry has little room in the answer.
 
 ## What the system hears
 
@@ -30,21 +30,19 @@ The question makes additions visible. A simplification or an investigation can f
 
 ## What that produces
 
-A new feature shows itself easily. Removing an approval step that has become useless, clarifying a calculation, or dropping a dependency means explaining what gets simpler and what stays protected.
+A new feature shows in one screenshot. Removing an approval step that has become useless, clarifying a calculation or dropping a dependency means explaining what got simpler. If your review only asks what shipped, that work disappears.
 
-If reviews only show additions, people may give priority to work whose result they know how to tell. The frame for recognition can be widened without assuming all the past work was badly chosen.
+The team learns fast. It adds, because adding is easy to tell. Six months later, everything is slower, more fragile and more expensive to change, without anyone having made a single bad decision.
 
-Simplification is not a goal to count on its own. Removing code, checks or steps can move a load onto support or raise a risk. A useful reduction has to be tied to an effect: less waiting, a more reliable operation, easier maintenance, or reasoning that is better understood.
+A simplification is measured by its effect: less waiting, fewer errors, less upkeep time, one step fewer for the customer. Ask for that number, with the same attention as a delivery number.
 
-Investigative work can also end without a removal. Discovering that a step still protects an important case is useful information. The review has to let someone explain that, with the limits of what was checked.
+An inquiry that concludes a step still protects an important case is a result too. It prevented a mistake.
 
 ## The decision
 
-At the next review, ask for one example of a simplification or an avoided risk alongside the deliveries. Have people say what changed, for whom, and on what facts the claimed benefit rests.
+At the next review, ask for one example of a simplification or an avoided risk, next to the deliveries. Have people say what changed, for whom, and by how much.
 
-For an investigation, plan a slot and name the work it displaces. Involve someone who will have to use or maintain the result. Pick a date to look at whether the improvement holds and whether a load was transferred elsewhere.
-
-After a few reviews, ask the team whether this work is easier to propose and to explain. Adjust the format without creating a quota of removals.
+Give a simplification the same time and the same visibility as a feature. A month later, check whether the gain holds and whether a load moved elsewhere.
 
 ## From where you sit
 
