@@ -160,7 +160,7 @@ tirage:
     The book also reads online at <a href="[url]">[domaine]</a>, and its source
     is open at <a href="https://github.com/[depot]">github.com/[depot]</a>.
   test: >-
-    The optional test questions help you pick a practice, with no score,
+    The builder test gives you a level from 1 to 5 and one practice to try,
     at <a href="[url]">[domaine]</a>.
   sujets:
     - builders

@@ -179,7 +179,7 @@ tirage:
     Le livre se lit aussi en ligne sur <a href="[url]">[domaine]</a>, et son code source
     est ouvert sur <a href="https://github.com/[depot]">github.com/[depot]</a>.
   test: >-
-    Les questions facultatives du test aident à choisir une pratique, sans score,
+    Le test du builder te donne un niveau de 1 à 5 et une pratique à essayer,
     sur <a href="[url]">[domaine]</a>.
   # Les mots-cles de l'EPUB, lus par Pandoc.
   sujets:

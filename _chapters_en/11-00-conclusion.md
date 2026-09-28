@@ -70,6 +70,6 @@ If you are starting out, begin with a person to help and a [useful first attempt
 
 For a group, propose a [voluntary session](/workshop/). To back someone, ask what help would be useful and agree a bounded contribution. The [templates](/templates/) can serve either approach.
 
-The [four paths](/paths/) and the [index by situation](/by-situation/) give you a direct way in. The [optional test questions](https://build-here.africa/builder-test/) can also help you choose, with no score and no ranking. You do not have to finish the book, or take the test, to start.
+The [four paths](/paths/) and the [index by situation](/by-situation/) give you a direct way in. The [builder test](https://build-here.africa/builder-test/) gives you a level from 1 to 5 and one practice to try. You do not have to finish the book, or take the test, to start.
 
 **Choose one useful thing to try, to deepen, or to back. Agree its limits, then come back and see what it changed.**

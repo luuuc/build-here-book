@@ -73,6 +73,6 @@ Si tu débutes, pars d'une personne à aider et d'un [premier essai utile](/prem
 
 Pour un groupe, propose une [séance volontaire](/atelier/). Pour soutenir quelqu'un, demande quel appui serait utile et conviens d'une contribution limitée. Les [modèles](/modeles/) peuvent servir à préparer l'une ou l'autre démarche.
 
-Les [quatre parcours](/parcours/) et l'[index par situation](/situations/) donnent un accès direct. Les [questions facultatives du test](https://build-here.africa/test-du-builder/) peuvent aussi t'aider à choisir, sans score ni classement. Tu n'as pas besoin de finir le livre ni de passer le test pour commencer.
+Les [quatre parcours](/parcours/) et l'[index par situation](/situations/) donnent un accès direct. Le [test du builder](https://build-here.africa/test-du-builder/) te donne un niveau de 1 à 5 et une pratique à essayer. Tu n'as pas besoin de finir le livre ni de passer le test pour commencer.
 
 **Choisis une chose utile à essayer, approfondir ou soutenir. Conviens de ses limites, puis reviens voir ce qu'elle a changé.**
