@@ -17,7 +17,7 @@ categories:
 traductions:
   en: /book/en/chapters/03-00-autonomy.html
 seo:
-  description: "Développe une autonomie adaptée au périmètre, avec un objectif clair, la possibilité de demander de l'aide et des décisions explicites."
+  description: "Traiter le problème derrière la tâche : comprendre le pourquoi, proposer la suite, trancher dans ton périmètre, signaler vite le reste."
   keywords: "build here, autonomie, builder, probleme, procedure"
 redirect_from:
   - /chapters/03-00-hierarchie.html

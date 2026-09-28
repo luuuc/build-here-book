@@ -17,7 +17,7 @@ categories:
 traductions:
   en: /book/en/chapters/09-00-leadership.html
 seo:
-  description: "Développe les capacités autour de toi par des appuis adaptés, entre pairs ou dans un rôle de responsabilité, sans imposer une voie unique."
+  description: "Ce que tu rends possible pour les autres : confier un problème, relire pour faire apprendre, te rendre remplaçable."
   keywords: "build here, leadership, equipe, builder, transmission"
 redirect_from:
   - /chapters/09-00-leadership.html

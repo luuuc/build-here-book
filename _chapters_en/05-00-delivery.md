@@ -8,7 +8,7 @@ step_number: 5
 part: "Delivery"
 order: 500
 metadata:
-  reading_time_in_minutes: 2
+  reading_time_in_minutes: 1
 categories:
   - livraison
   - execution
@@ -16,34 +16,24 @@ categories:
 traductions:
   fr: /book/chapters/05-00-la-livraison.html
 seo:
-  description: "Prepare a useful attempt, watch what it produces, and adapt what follows, with a suitable scope and the right protections."
+  description: "Put your work in the hands of the people it's for, early and without cutting corners, and learn what your plan didn't tell you."
   keywords: "build here, delivery, shipping, execution, builder"
 ---
 
-Shipping means making a piece of work available for the use it is meant for. It can be a tool, an invitation, a procedure, an explanation, or a service. The move requires neither a technical craft nor a public launch.
+Until someone uses it, you know nothing.
 
-Shipping gives you an occasion to put an idea against reality. To learn from it, you still have to know which question you are examining, observe an effect, and use that feedback. How often you release does not on its own measure the quality of that learning.
+You rewrite the invitation for a workshop. Before sending it, you have someone who doesn't know the venue read it, and ask how they'd get there. They hesitate on one point. You fix it. At the next workshop, you'll see if that was enough.
 
-You are helping organise a workshop for a community group. You propose a new invitation because the directions look incomplete. With the organiser's agreement, you have it read by a willing person who does not know the venue. You ask how they would plan their journey. If something is missing, you adjust the text before it goes out. At the next workshop, feedback can help you check whether that addition helped.
+Delivering means putting your work in the hands of the people it's for: a tool, a procedure, an offer, a document, a service. That's where you learn what your plan didn't tell you.
 
-That first attempt is small, but it has a recipient, a question, and a follow-up. It does not prove every participant will have the same experience. An experienced person can apply the same reasoning to a complex dependency, or to an assumption that has become habitual.
+This section is about pace: ship early without cutting corners, don't over-polish before you get feedback, don't mistake a signed-off spec for a right answer.
 
-Shipping early means choosing what can be cut without making the service unusable. The protections needed, the agreements, and the preparation time are part of that choice. If the useful scope will not fit the deadline, you also have to be able to discuss the date, the means, or stopping the project.
+**To start:** find the smallest useful version of what you're working on, and put it in front of a real person this week.
 
-Some actions are hard to undo. A simulation, a rehearsal, or a check on a bounded case can then shed light on part of the risk before the commitment. Those attempts complete the necessary controls; they do not automatically replace them.
+**To go further:** before you ship, write down what you want to learn. Afterwards, check whether you learned it.
 
-If you are growing a team, help them organise the route between work that is ready and use that is real. If you are backing a builder, you can offer feedback, time, or an introduction both sides accept. The effort of observing has to stay proportionate, for the people taking part as well as for the people building.
+**If you're growing a team:** your delivery rhythm is a decision you made. The ⇄ cards cover this.
 
-**A sign of progress:** you can say what an attempt taught, what it did not let you conclude, and what you choose next. Confirming a choice or stopping a line of work can be as useful as changing the solution.
+**A sign it's working:** each delivery teaches you something you can name, including when the answer is to stop.
 
-The ownership cards complete this reading, for organising the handover and checking the result.
-
----
-
-## The cards in this capability
-
-- 5.01 [Shipping creates information](/book/en/chapters/05-01-shipping-creates-information.html)
-- 5.02 [Fast does not mean rushed](/book/en/chapters/05-02-fast-does-not-mean-rushed.html)
-- 5.03 [The more you polish, the harder it gets to change your mind](/book/en/chapters/05-03-the-more-you-polish-the-harder-it-gets-to-change-your-mind.html)
-- 5.04 [Signing off a spec does not make it right](/book/en/chapters/05-04-signing-off-a-spec-does-not-make-it-right.html)
-- 5.05 [⇄ Your delivery rhythm is a decision you made](/book/en/chapters/05-05-your-delivery-rhythm-is-a-decision-you-made.html)
+**Next:** ownership, to follow what happens once the work is out.

@@ -17,7 +17,7 @@ categories:
 traductions:
   en: /book/en/chapters/06-00-ownership.html
 seo:
-  description: "Rends les engagements, les relais et les résultats explicites sans confondre responsabilité, culpabilité et maîtrise de toutes les conséquences."
+  description: "Fini de ton côté ne veut pas dire réglé : dire ce que tu prends en charge, revenir voir, annoncer tôt la mauvaise nouvelle."
   keywords: "build here, ownership, resultat, builder"
 redirect_from:
   - /chapters/04-00-ownership.html

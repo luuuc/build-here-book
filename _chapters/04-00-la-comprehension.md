@@ -17,7 +17,7 @@ categories:
 traductions:
   en: /book/en/chapters/04-00-understanding.html
 seo:
-  description: "Relie ton travail aux usages, aux moyens et aux autres métiers, dans une entreprise, une association ou un projet personnel."
+  description: "Relier ton travail à ce qui l'entoure : la personne qui a le problème, ce qu'elle demande vraiment, ce que ça coûte, qui le fait tenir."
   keywords: "build here, comprehension, business, client, distribution"
 redirect_from:
   - /chapters/05-00-product.html

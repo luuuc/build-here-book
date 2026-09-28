@@ -17,7 +17,7 @@ categories:
 traductions:
   en: /book/en/chapters/01-00-the-mindset.html
 seo:
-  description: "Je cherche ce que je peux améliorer"
+  description: "Remarquer le problème que les autres contournent : poser la question naïve, dire « je ne sais pas », changer d'avis vite."
   keywords: "build here, etat d'esprit, builder, agency"
 redirect_from:
   - /chapters/01-00-curiosite.html

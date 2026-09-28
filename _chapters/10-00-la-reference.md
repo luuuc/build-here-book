@@ -17,7 +17,7 @@ categories:
 traductions:
   en: /book/en/chapters/10-00-being-the-reference.html
 seo:
-  description: "Rends une expérience accessible, contextualisée et réutilisable, en interne ou en public selon le besoin, les moyens et les accords."
+  description: "Rendre ton expérience utile à d'autres : mettre ton nom dessus, répondre en public, publier là où on cherche."
   keywords: "build here, reference, trace, artefact, builder"
 redirect_from:
   - /chapters/14-00-laisser-une-trace.html

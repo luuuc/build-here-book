@@ -17,7 +17,7 @@ categories:
 traductions:
   en: /book/en/chapters/08-00-leverage.html
 seo:
-  description: "Compare réutilisation, amélioration et automatisation selon leur utilité, leurs coûts et leurs limites, sans imposer un outil ni une croissance du volume."
+  description: "Faire rendre davantage à un travail utile, avec ce que tu as déjà, sans multiplier l'erreur."
   keywords: "build here, levier, impact, ia, automatisation, builder"
 ---
 

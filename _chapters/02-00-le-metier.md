@@ -17,7 +17,7 @@ categories:
 traductions:
   en: /book/en/chapters/02-00-the-craft.html
 seo:
-  description: "Choisir une compétence, observer une pratique, essayer et demander un retour pour développer son jugement."
+  description: "Monter en niveau dans ton métier : aller à la source, ne pas s'arrêter à la première réponse, lire hors de ton couloir, faire simple."
   keywords: "build here, metier, craft, builder, apprentissage"
 redirect_from:
   - /chapters/06-00-engineering.html

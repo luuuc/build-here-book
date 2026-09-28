@@ -17,7 +17,7 @@ categories:
 traductions:
   en: /book/en/chapters/05-00-delivery.html
 seo:
-  description: "Prépare un essai utile, observe ce qu'il produit et adapte la suite, avec un périmètre et des protections appropriés."
+  description: "Mettre ton travail entre les mains de ceux à qui il sert, tôt, sans bâcler, et apprendre ce que ton plan ne disait pas."
   keywords: "build here, livraison, shipping, execution, builder"
 redirect_from:
   - /chapters/07-00-execution.html

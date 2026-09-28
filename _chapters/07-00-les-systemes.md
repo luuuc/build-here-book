@@ -17,7 +17,7 @@ categories:
 traductions:
   en: /book/en/chapters/07-00-systems.html
 seo:
-  description: "Examine les répétitions, préserve les protections et prépare des relais adaptés, avec un effort de transmission et d'entretien proportionné."
+  description: "Rendre la prochaine fois plus facile : supprimer avant de documenter, sortir un savoir d'une seule tête, ne pas tout transformer en processus."
   keywords: "build here, systemes, process, automatisation, builder"
 ---
 
