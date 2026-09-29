@@ -17,7 +17,7 @@ function toggleMenu() {
 // Le sommaire fait près de 4 000 px pour 98 cartes. À l'ouverture, on amène
 // la carte courante au milieu du panneau.
 //
-// Deux précautions. On attend la fin de la transition `left` du panneau :
+// Deux précautions. On attend la fin de la transition `right` du panneau :
 // avant, il est encore hors écran et la position est calculée sur des
 // coordonnées fausses. Et pas de défilement animé — sur cette distance il
 // donne le mal de mer, et le lecteur vient de demander à voir le sommaire,
@@ -95,35 +95,42 @@ document.addEventListener("DOMContentLoaded", function () {
 // choses faisables depuis une page : telecharger l'EPUB, et ouvrir l'outil
 // d'envoi d'Amazon ou le lecteur le depose.
 document.addEventListener("DOMContentLoaded", function () {
-  const toggle = document.getElementById("download-toggle");
-  const menu = document.getElementById("download-menu");
-  if (!toggle || !menu) return;
+  // Deux menus du meme modele dans le header : les langues et le
+  // telechargement. Ouvrir l'un ferme l'autre.
+  const menus = [...document.querySelectorAll(".header .download")].map(function (box) {
+    return { toggle: box.querySelector(".download-toggle"), menu: box.querySelector(".download-menu") };
+  });
 
-  function close() {
-    menu.hidden = true;
-    toggle.setAttribute("aria-expanded", "false");
+  function close(m) {
+    m.menu.hidden = true;
+    m.toggle.setAttribute("aria-expanded", "false");
   }
 
-  toggle.addEventListener("click", function (e) {
-    e.stopPropagation();
-    const opening = menu.hidden;
-    menu.hidden = !opening;
-    toggle.setAttribute("aria-expanded", String(opening));
+  menus.forEach(function (m) {
+    m.toggle.addEventListener("click", function (e) {
+      e.stopPropagation();
+      const opening = m.menu.hidden;
+      menus.forEach(close);
+      m.menu.hidden = !opening;
+      m.toggle.setAttribute("aria-expanded", String(opening));
+    });
   });
 
   document.addEventListener("click", function (e) {
-    if (!menu.hidden && !menu.contains(e.target)) close();
+    menus.forEach(function (m) {
+      if (!m.menu.hidden && !m.menu.contains(e.target)) close(m);
+    });
   });
 
   document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") close();
+    if (e.key === "Escape") menus.forEach(close);
   });
 
-  const kindle = menu.querySelector("[data-kindle]");
+  const kindle = document.querySelector(".download-menu [data-kindle]");
   if (kindle) {
     kindle.addEventListener("click", function () {
       window.open(kindle.dataset.kindle, "_blank", "noopener");
-      close();
+      menus.forEach(close);
     });
   }
 });

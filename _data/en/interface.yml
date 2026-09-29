@@ -92,17 +92,7 @@ entete:
   menu_ouvrir: "Open the menu"
   menu_fermer: "Close the menu"
   accueil_url: "/en/"
-  sections_titre: "The three parts of the site"
-  sections:
-    - cle: book
-      titre: "The Book"
-      url: "/book/"
-    - cle: test
-      titre: "Builder Test"
-      url: "/builder-test/"
-    - cle: teams
-      titre: "For Teams"
-      url: "/for-teams/"
+  langue: "Change language"
   telecharger: "Download the book"
   pdf: "Download the PDF"
   pdf_detail: "A4, ready to print"
@@ -112,8 +102,6 @@ entete:
   brouillon: "Working version"
 
 menu:
-  livre: "Contents"
-  livre_titre: "The book"
   livre_url: "/book/"
   retour: "← Back to the site"
   sommaire_aria: "Book contents"

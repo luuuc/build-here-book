@@ -1,32 +1,58 @@
 {% include pastille-brouillon.html %}
 
 <header class="header">
-  <div class="colonne entete">
+  {%- comment -%}
+    Un en-tete sobre : le logo, puis la langue, le telechargement et le menu.
+    Sa colonne a la largeur du texte de la page, pour que ses bords tombent
+    sur ceux de la prose.
+  {%- endcomment %}
+  <div class="colonne entete{% if page.layout == 'chapter' %} entete--livre{% else %} colonne--prose{% endif %}">
     <div class="entete-marque">
-      <button class="hamburger" data-bascule-menu aria-label="{{ t.entete.menu_ouvrir }}" aria-controls="offcanvas">☰</button>
-      <a href="{{ t.entete.accueil_url }}" class="logo">Build Here</a>
+      {%- comment -%} Le B est celui du favicon, comme sur le site. {%- endcomment %}
+      <a href="{{ t.entete.accueil_url }}" class="logo" aria-label="Build Here">
+      <svg class="logo-b" viewBox="0 0 64 64" width="30" height="30" aria-hidden="true">
+        <rect width="64" height="64" fill="#0f1319"/>
+        <path transform="translate(15.6635 43.0) scale(0.022880 -0.022880)" fill="#ffffff" d="M238 141V1334L83 1360V1486H381Q444 1486 497.5 1489.5Q551 1493 601.5 1497.0Q652 1501 702 1501Q862 1501 967.5 1477.5Q1073 1454 1134.5 1409.5Q1196 1365 1222.0 1302.5Q1248 1240 1248 1162Q1248 1062 1207.0 984.5Q1166 907 1093.5 857.5Q1021 808 927 793Q1057 795 1151.5 754.5Q1246 714 1297.5 636.0Q1349 558 1349 448Q1349 354 1318.5 270.5Q1288 187 1216.0 123.5Q1144 60 1021.5 24.0Q899 -12 715 -12Q647 -12 598.0 -9.0Q549 -6 499.5 -3.0Q450 0 382 0H79V120ZM530 839Q546 838 569.5 837.0Q593 836 619.5 836.0Q646 836 671.0 836.0Q696 836 714 836Q797 836 849.5 871.0Q902 906 928.0 971.5Q954 1037 954 1127Q954 1256 893.5 1317.5Q833 1379 686 1379Q662 1379 631.0 1377.0Q600 1375 572.0 1372.5Q544 1370 530 1369ZM530 131Q547 124 577.5 120.5Q608 117 642.5 116.0Q677 115 706 115Q822 115 892.5 152.5Q963 190 994.0 260.0Q1025 330 1025 426Q1025 574 956.0 636.0Q887 698 739 698Q716 698 686.5 697.5Q657 697 626.5 697.0Q596 697 571.0 696.5Q546 696 530 694Z"/>
+        <rect x="19" y="49" width="26" height="6" fill="#e24e12"/>
+      </svg><span aria-hidden="true">uild Here</span>
+      </a>
     </div>
-
-    {%- comment -%}
-      Les trois parties du site, comme dans l'en-tete du site. Tout ce que
-      sert ce depot est le livre : son lien est toujours le courant.
-    {%- endcomment %}
-    <nav class="entete-sections" aria-label="{{ t.entete.sections_titre }}">
-      {%- for s in t.entete.sections %}
-      <a href="{{ s.url }}"{% if s.cle == 'book' %} aria-current="true"{% endif %}>{{ s.titre }}</a>
-      {%- endfor %}
-    </nav>
 
     <div class="header-actions">
       {%- comment -%}
-        Le passage d'une langue a l'autre. Si la page declare sa jumelle dans
-        `traductions`, le lien y mene ; sinon il mene a la racine de l'autre
-        langue. Un lien qui atterrit sur l'accueil vaut mieux qu'un lien mort,
-        et le lecteur voit tout de suite ou il arrive.
-      {%- endcomment -%}
-      {%- for l in site.langues %}{% unless l.code == lang %}
-      <a href="{{ page.traductions[l.code] | default: l.racine }}" class="langue" hreflang="{{ l.code }}" lang="{{ l.code }}" aria-label="{{ l.nom }}">{{ l.code | upcase }}</a>
-      {%- endunless %}{% endfor %}
+        Le passage d'une langue a l'autre, dans un menu comme le
+        telechargement. Si la page declare sa jumelle dans `traductions`, le
+        lien y mene ; sinon il mene a la racine de l'autre langue. Un lien qui
+        atterrit sur l'accueil vaut mieux qu'un lien mort, et le lecteur voit
+        tout de suite ou il arrive. La langue courante est marquee.
+      {%- endcomment %}
+      <div class="download">
+        <button
+          type="button"
+          class="download-toggle"
+          aria-haspopup="menu"
+          aria-expanded="false"
+          aria-controls="langue-menu"
+          aria-label="{{ t.entete.langue }}"
+          title="{{ t.entete.langue }}"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+               stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" />
+            <path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z" />
+          </svg>
+        </button>
+
+        <div class="download-menu download-menu--langue" id="langue-menu" role="menu" hidden>
+          {%- for l in site.langues %}
+          {%- if l.code == lang %}
+          <a href="{{ page.url }}" role="menuitem" hreflang="{{ l.code }}" lang="{{ l.code }}" aria-current="true">{{ l.nom }}</a>
+          {%- else %}
+          <a href="{{ page.traductions[l.code] | default: l.racine }}" role="menuitem" hreflang="{{ l.code }}" lang="{{ l.code }}">{{ l.nom }}</a>
+          {%- endif %}
+          {%- endfor %}
+        </div>
+      </div>
 
       {%- comment -%}
         Le menu de telechargement disparait tant que la langue n'a pas de
@@ -39,14 +65,13 @@
         <button
           type="button"
           class="download-toggle"
-          id="download-toggle"
           aria-haspopup="menu"
           aria-expanded="false"
           aria-controls="download-menu"
           aria-label="{{ t.entete.telecharger }}"
           title="{{ t.entete.telecharger }}"
         >
-          <svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor"
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M12 3v11" />
             <path d="M7.5 10 12 14.5 16.5 10" />
@@ -71,6 +96,13 @@
         </div>
       </div>
       {%- endif %}
+
+      <button class="hamburger" data-bascule-menu aria-label="{{ t.entete.menu_ouvrir }}" aria-controls="offcanvas">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
     </div>
   </div>
 </header>

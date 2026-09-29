@@ -37,9 +37,8 @@ body {
   color: var(--encre);
 }
 
-/* Header : le sommaire, le logo, les trois parties du site, puis la langue
-   et le telechargement. Meme bord
-   gauche que les sections : la colonne vient de bundle.css. */
+/* Header : le sommaire, le logo, puis la langue et le telechargement.
+   Sobre et bas, pour laisser la place au texte. */
 .header {
   background: var(--papier);
   box-shadow: var(--ombre-entete);
@@ -50,93 +49,58 @@ body {
   z-index: 1000;
 }
 
-/* Trois colonnes : la marque a gauche, les parties au centre exact, les
-   actions a droite. Les deux cotes font la meme largeur, d'ou le 1fr. */
+/* La marque a gauche, les actions a droite. */
 .entete {
   align-items: center;
-  display: grid;
-  gap: var(--espace-8);
-  grid-template-areas: "marque sections actions";
-  grid-template-columns: 1fr auto 1fr;
-  min-height: 64px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 48px;
 }
-.entete-marque { align-items: center; display: flex; gap: var(--espace-8); grid-area: marque; }
+.entete-marque { align-items: center; display: flex; gap: var(--espace-3); }
+
+/* Dans le livre, la colonne de l'en-tete est celle du texte : meme largeur,
+   meme gouttiere que `.content`, pour que le menu tombe sur le bord gauche
+   de la prose et les actions sur son bord droit. */
+.entete--livre {
+  max-width: calc(var(--colonne-livre) + 2rem);
+  padding-inline: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .entete--livre {
+    max-width: calc(var(--colonne-livre) + 4rem);
+    padding-inline: 2rem;
+  }
+}
 
 .hamburger {
   background: none;
   border: none;
   color: var(--encre);
   cursor: pointer;
-  font-size: 1.5rem;
-  margin-right: calc(-1 * var(--espace-4));
-}
-
-@media (max-width: 599px) {
-  .hamburger { margin-right: 0; }
-}
-
-.logo {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: var(--encre);
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.entete-sections {
   display: flex;
-  gap: var(--espace-6);
-  grid-area: sections;
-  justify-content: center;
+  padding: 0.15rem;
 }
 
-.entete-sections a {
-  border-bottom: 2px solid transparent;
+/* Le B du favicon, puis « uild Here » colle contre lui, comme sur le site. */
+.logo {
+  align-items: center;
   color: var(--encre);
-  font-weight: 500;
-  padding-block: var(--espace-1);
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: bold;
+  gap: 1px;
+  letter-spacing: -0.01em;
   text-decoration: none;
   white-space: nowrap;
 }
 
-.entete-sections a:hover { color: var(--bleu); }
-.entete-sections a[aria-current] { border-bottom-color: var(--bleu); }
+.logo-b { display: block; flex: none; height: 24px; width: 24px; }
 
 .header-actions {
   align-items: center;
   display: flex;
   gap: var(--espace-4);
-  grid-area: actions;
-  justify-self: end;
-}
-
-/* Le passage a l'autre langue : le code seul, le nom complet pour les
-   lecteurs d'ecran. Une sortie de secours, pas une invitation. */
-.langue {
-  color: var(--discret);
-  font-size: 0.875rem;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.langue:hover { color: var(--encre); }
-
-/* Sur mobile, les parties passent sur leur propre ligne, centree, sous le
-   logo et les actions. L'en-tete grandit de 32px : le corps et les ancres
-   descendent d'autant, et tout ce qui degageait les 64px degage encore. */
-@media (max-width: 599px) {
-  html { scroll-padding-top: 32px; }
-  body { padding-top: 32px; }
-  .entete {
-    column-gap: var(--espace-4);
-    grid-template-areas: "marque actions" "sections sections";
-    grid-template-columns: 1fr auto;
-    grid-template-rows: 56px 40px;
-    row-gap: 0;
-  }
-  .entete-marque { gap: var(--espace-4); }
-  .logo { font-size: 1.05rem; }
-  .entete-sections { align-self: start; gap: var(--espace-3); font-size: 14px; }
 }
 
 /* Menu de telechargement */
@@ -200,6 +164,17 @@ body {
   color: var(--discret);
 }
 
+/* Le menu des langues est court : deux noms, pas de detail. La langue
+   courante est en gras, comme l'entree courante du sommaire. */
+.download-menu--langue {
+  min-width: 10rem;
+}
+
+.download-menu a[aria-current] {
+  font-weight: 600;
+  background: var(--surface);
+}
+
 .download-menu hr {
   border: 0;
   border-top: 1px solid var(--filet);
@@ -210,27 +185,43 @@ body {
 .offcanvas {
   position: fixed;
   top: 0;
-  left: -100%;
+  right: -100%;
   width: 100%;
   height: 100vh;
   background: var(--papier);
   z-index: 1001;
-  transition: left 0.3s ease;
+  transition: right 0.3s ease;
   padding: 2rem;
   overflow-y: auto;
 }
 
 .offcanvas.open {
-  left: 0;
+  right: 0;
 }
 
 .offcanvas-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
   border-bottom: 1px solid var(--filet);
+}
+
+/* Le titre du menu est celui de l'introduction, a la forme d'une partie
+   liee : meme taille, meme encre. Le filet passe sur toute la ligne, sous
+   la croix aussi, comme sous les autres parties. */
+.offcanvas-header .nav-part-title {
+  color: var(--encre);
+  flex: 1;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+.nav-menu > .nav-group:first-child {
+  margin-top: 0;
 }
 
 .close-btn {
@@ -412,7 +403,7 @@ body {
 .hero:not(.bloc) {
   background: var(--surface);
   color: var(--encre);
-  padding: 6.5rem 2rem 2.25rem;
+  padding: 5.5rem 2rem 2.25rem;
   text-align: left;
   border-bottom: 1px solid var(--filet);
 }
@@ -1018,7 +1009,7 @@ sup a {
   }
 
   .hero {
-    padding: 6.5rem 2rem 2.5rem;
+    padding: 5.5rem 2rem 2.5rem;
   }
 }
 
@@ -1028,7 +1019,7 @@ sup a {
   }
 
   .hero {
-    padding: 6rem 1rem 1.75rem;
+    padding: 5rem 1rem 1.75rem;
   }
 
   .hero h1 {
@@ -1654,7 +1645,7 @@ sup a {
 .bande {
   background: var(--surface);
   border-bottom: 1px solid var(--filet);
-  padding: 6.5rem 0 2.25rem;
+  padding: 5.5rem 0 2.25rem;
 }
 
 /* La bande se pose exactement sur la colonne de lecture : meme largeur,
