@@ -56,6 +56,6 @@ Si tu débutes, pars d'une personne à aider et d'un [premier essai utile](/prem
 
 Pour un groupe, propose une [séance](/atelier/). Pour soutenir quelqu'un, demande quelle aide lui permettrait d'essayer. Les [modèles](/modeles/) servent aux deux.
 
-Les [quatre parcours](/parcours/) et l'[index par situation](/situations/) donnent un accès direct. Le [test du builder](https://build-here.africa/test-du-builder/) te donne un niveau de 1 à 5 et une pratique à essayer. Tu n'as pas besoin de finir le livre pour commencer.
+Les [quatre parcours](/parcours/) donnent un accès direct. Le [test du builder](https://build-here.africa/test-du-builder/) te donne un niveau de 1 à 5 et une pratique à essayer. Tu n'as pas besoin de finir le livre pour commencer.
 
 **Choisis une chose à essayer cette semaine. Fais-la, puis reviens voir ce qu'elle a changé.**

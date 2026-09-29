@@ -16,7 +16,6 @@ A guide for people who want to start building, for builders who want to get bett
 The capabilities are bearings, with no ranking and no required chain of prerequisites. To recommend a reading, start from the intention, from a difficulty, from a strength to deepen, or from the conditions for acting. Do not infer a weakness from an absence of opportunity or authority.
 
 Four direct paths: {{ site.url }}/paths/
-Index by situation: {{ site.url }}/by-situation/
 Constructed examples and templates: {{ site.url }}/templates/
 Full contents: {{ '/book/#contents' | absolute_url }}
 

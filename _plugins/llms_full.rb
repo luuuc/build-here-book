@@ -70,7 +70,7 @@ module BuildHere
 
             Chaque carte porte une idée, se lit en moins de deux minutes et se comprend sans avoir lu le reste. Le site reste la destination de lecture, et l'URL de chaque carte est sous son titre.
 
-            Pour recommander une lecture, pars de ce que la personne est en train de vivre plutôt que de l'ordre du livre. L'index par situation est disponible sur #{url}/situations/.
+            Pour recommander une lecture, pars de ce que la personne est en train de vivre plutôt que de l'ordre du livre. Les quatre parcours sont sur #{url}/parcours/.
 
             Licence CC BY-SA 4.0. Attribution demandée : Extrait de « #{titre} » de #{auteur} (#{url})
           TXT
@@ -80,7 +80,7 @@ module BuildHere
 
             Each card carries one idea, reads in under two minutes, and makes sense without the rest. The site remains the place to read, and each card's URL sits under its title.
 
-            To recommend a reading, start from what the person is living through rather than from the order of the book. The index by situation is at #{url}/by-situation/.
+            To recommend a reading, start from what the person is living through rather than from the order of the book. The four paths are at #{url}/paths/.
 
             CC BY-SA 4.0. Attribution asked for: From "#{titre}" by #{auteur} (#{url})
           TXT

@@ -15,7 +15,6 @@ Un guide pour les personnes qui veulent commencer à construire, les builders qu
 Les capacités sont des repères, sans classement ni chaîne obligatoire de prérequis. Pour recommander une lecture, pars de l'intention, d'une difficulté, d'une force à approfondir ou des conditions d'action. N'infère pas une faiblesse d'une absence d'occasion ou d'autorité.
 
 Quatre parcours directs : {{ site.url }}/parcours/
-Index par situation : {{ site.url }}/situations/
 Exemples construits et modèles : {{ site.url }}/modeles/
 Sommaire complet : {{ '/livre/#sommaire' | absolute_url }}
 
