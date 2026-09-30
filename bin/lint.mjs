@@ -2,10 +2,10 @@
 // `rules` are format rules, `metrics` are stats from existing cards. Nothing here rejects a card.
 
 export const BLOCKS_BY_TYPE = {
-  principle: ["Le réflexe", "Le réflexe builder", "Pourquoi", "À essayer", "Depuis ton siège", "À discuter"],
-  diagnostic: ["Le symptôme", "Le signal", "Ce qui se passe", "À vérifier", "Depuis ton siège", "À discuter"],
-  practice: ["Le point de départ", "Le geste", "Pourquoi ça marche", "À essayer", "Depuis ton siège", "À discuter"],
-  system: ["Ce que tu demandes", "Ce que le système entend", "Ce que ça produit", "La décision", "Depuis ton siège", "À discuter"],
+  principle: ["Le réflexe", "Le réflexe builder", "Pourquoi", "À essayer", "À discuter"],
+  diagnostic: ["Le symptôme", "Le signal", "Ce qui se passe", "À vérifier", "À discuter"],
+  practice: ["Le point de départ", "Le geste", "Pourquoi ça marche", "À essayer", "À discuter"],
+  system: ["Ce que tu demandes", "Ce que le système entend", "Ce que ça produit", "La décision", "À discuter"],
 };
 
 // Word counts only produce metrics, never rules.
@@ -100,9 +100,7 @@ function blockBody(body, title) {
 }
 
 function words(body) {
-  // The optional "Depuis ton siège" block is not counted.
-  const withoutSeats = body.replace(/^##\s+Depuis ton siège[^\n]*\n(?:(?!^##\s+)[\s\S])*/m, "");
-  return withoutSeats
+  return body
     .replace(/```[\s\S]*?```/g, "")
     .split(/\s+/)
     .filter((m) => /[\wÀ-ÿ]/.test(m)).length;
@@ -191,8 +189,7 @@ export function check({ filename = "", source = "", sections = [], fresh = false
 
   const found = blocks(body);
   const titles = found.map((b) => b.title);
-  const expected = (BLOCKS_BY_TYPE[type] || BLOCKS_BY_TYPE.principle)
-    .filter((title) => title !== "Depuis ton siège" || titles.includes(title));
+  const expected = BLOCKS_BY_TYPE[type] || BLOCKS_BY_TYPE.principle;
 
   if (titles.join("|") !== expected.join("|")) {
     const missing = expected.filter((b) => !titles.includes(b));
@@ -216,39 +213,19 @@ export function check({ filename = "", source = "", sections = [], fresh = false
     }
   }
 
-  const seats = blockBody(body, "Depuis ton siège");
-  if (seats !== null) {
-    const lines = seats.split(/\r?\n/).filter((l) => l.trim());
-    if (!lines.length) rule("« Depuis ton siège » est vide. Ajoute un rôle utile ou omets ce bloc facultatif.");
-    const seen = new Set();
-    lines.forEach((l) => {
-      const m = l.match(/^\s*-\s+\*\*(.+?)\*\*\s*:\s*(.*)$/);
-      if (!m || !m[1].trim() || !m[2].trim()) {
-        rule(`Une ligne de « Depuis ton siège » n'a pas la forme \`- **Rôle** : geste précis\` : ${l.trim()}`);
-        return;
-      }
-      const name = m[1].trim().toLocaleLowerCase("fr");
-      if (seen.has(name)) rule(`Le rôle « ${m[1]} » apparaît plusieurs fois dans « Depuis ton siège ».`);
-      seen.add(name);
-      if (m[2].length > 100) {
-        metric(`La ligne « ${m[1]} » fait ${m[2].length} caractères après les deux-points. Cent est un repère de concision, pas une limite d'affichage.`);
-      }
-    });
-  }
-
   // "À discuter" is deliberately unchecked: every heuristic tried flagged good questions.
 
   const n = words(body);
   if (n > SIGNAL_WORDS) {
     metric(
-      `${n} mots hors bloc « Depuis ton siège ». Le signal éditorial va de ${MIN_WORDS} à 500, jusqu'à 550 pour une ` +
+      `${n} mots. Le signal éditorial va de ${MIN_WORDS} à 500, jusqu'à 550 pour une ` +
         `carte qui a besoin de ce développement. ` +
         `Au-delà, une carte est souvent deux cartes sous un seul titre.`
     );
   }
   if (n < MIN_WORDS) {
     metric(
-      `${n} mots hors bloc « Depuis ton siège ». Le repère éditorial bas est de ${MIN_WORDS}. ` +
+      `${n} mots. Le repère éditorial bas est de ${MIN_WORDS}. ` +
         `Une carte trop courte est en général un principe sans situation : cherche le moment ` +
         `exact où le comportement apparaît.`
     );

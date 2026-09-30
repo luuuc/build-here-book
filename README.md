@@ -112,7 +112,7 @@ node bin/check-lint
 node bin/verifier-test-builder _site
 ```
 
-Le linter donne un avis de format ; il ne valide pas le jugement éditorial. « Depuis ton siège » est facultatif, sans liste fermée de rôles ni nombre de lignes imposé. La pertinence des conseils, des limites et des exemples reste une relecture humaine.
+Le linter donne un avis de format ; il ne valide pas le jugement éditorial. La pertinence des conseils, des limites et des exemples reste une relecture humaine.
 
 Pour vérifier l'interface, ouvre le site local avec `agent-browser`, puis exécute `agent-browser eval --stdin < bin/verifier-test-builder-browser.js`. Ce script parcourt le vrai questionnaire et simule seulement les issues du presse-papiers. Les résultats historiques de l'ancien test à scores restent documentés dans `worker/README.md` ; le client actuel ne les alimente plus.
 

@@ -7,28 +7,15 @@ import { check } from "./lint.mjs";
 const root = fileURLToPath(new URL("..", import.meta.url));
 const chapters = readdirSync(join(root, "_chapters")).filter((f) => f.endsWith(".md"));
 const sources = chapters.map((filename) => ({ filename, source: readFileSync(join(root, "_chapters", filename), "utf8") }));
-const withRoles = (source, body) => source.replace(/## Depuis ton siège\n[\s\S]*?(?=## À discuter)/, body === null ? "" : `## Depuis ton siège\n\n${body}\n\n`);
+const withoutRoles = (source) => source.replace(/## Depuis ton siège\n[\s\S]*?(?=## À discuter)/, "");
+const withRoles = (source) => withoutRoles(source).replace("## À discuter", "## Depuis ton siège\n\n- **Finance** : précise le geste.\n\n## À discuter");
 let checks = 0;
 function test(name, run) { run(); checks++; }
 for (const type of ["principle", "diagnostic", "practice", "system"]) {
   const fixture = sources.find(({source}) => source.includes(`card_type: ${type}\n`));
-  test(`${type} : rôles facultatifs et ouverts`, () => {
-    for (const roles of [null, '- **Bénévolat** : propose un appui limité.',
-      ['Finance','Opérations','Vente','Apprentissage','Association','Soutien','Design'].map((r)=>`- **${r}** : précise le geste dans ton périmètre.`).join('\n')]) {
-      const r=check({...fixture,source:withRoles(fixture.source,roles)});
-      assert.deepEqual(r.rules, []);
-    }
-  });
-  test(`${type} : rôle invalide ou dupliqué signalé`, () => {
-    for (const roles of ['', '- **Finance** :', 'Une ligne sans rôle.', '- **Finance** : observe.\n- **finance** : vérifie.']) {
-      assert(check({...fixture,source:withRoles(fixture.source,roles)}).rules.length > 0);
-    }
-  });
-  test(`${type} : rôles exclus du nombre de mots`, () => {
-    const before=check({...fixture,source:withRoles(fixture.source,null)});
-    const after=check({...fixture,source:withRoles(fixture.source,'- **Rôle local** : '+ 'un geste '.repeat(30))});
-    assert.equal(before.words,after.words);
-    assert(after.metrics.some((m)=>m.includes('caractères')));
+  test(`${type} : le bloc « Depuis ton siège » n'existe plus`, () => {
+    assert.deepEqual(check({...fixture,source:withoutRoles(fixture.source)}).rules, []);
+    assert(check({...fixture,source:withRoles(fixture.source)}).rules.some((r)=>r.includes('Depuis ton siège')));
   });
 }
 test('Un bloc essentiel manquant reste signalé',()=> {
