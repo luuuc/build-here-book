@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Read the source"
+title: "Go back to the source"
 part: "The craft"
 order: 202
 card_type: practice

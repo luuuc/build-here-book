@@ -24,7 +24,7 @@ redirect_from:
 
 ## What you are asking for
 
-You ask your team for initiative, for ownership, for work they can be proud of. When that work leaves the team, to the steering committee, to the client, onto a stage, you are the one presenting it. You say "we". The names stay in the commit history.
+You ask your team for initiative, for ownership, for work they can be proud of. When that work leaves the team, to the steering committee, to the client, onto a stage, you are the one presenting it. You say "we". The names stay in internal threads.
 
 ## What the system hears
 

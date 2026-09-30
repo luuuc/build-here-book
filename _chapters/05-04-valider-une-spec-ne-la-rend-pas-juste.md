@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Valider une spec ne la rend pas juste"
+title: "Un document validé n'est pas un document juste"
 part: "La livraison"
 order: 504
 card_type: diagnostic
@@ -14,8 +14,8 @@ categories:
 translations:
   en: /book/chapters/05-04-signing-off-a-spec-does-not-make-it-right.html
 seo:
-  description: "Une spec validée est un accord sur ce qu'on croyait. Quand la réalité la contredit, dis-le et mets-la à jour."
-  keywords: "build here, produit, builder, valider, spec, rend, juste"
+  description: "Un document validé est un accord sur ce qu'on croyait. Quand la réalité la contredit, dis-le et mets-le à jour."
+  keywords: "build here, produit, builder, valider, document, hypothèse"
 redirect_from:
   - /livre/chapitres/05-02-valider-une-spec-ne-la-rend-pas-juste.html
 ---
@@ -32,7 +32,7 @@ Sépare ce qui est exigé, ce qui a été vérifié et ce qui reste supposé. Pu
 
 Une spécification validée est un accord sur ce qu'on croyait au moment de la valider. Elle ne rend pas les hypothèses vraies. La réalisation et l'usage les testent, et certaines tombent.
 
-Un document prévoit un choix de créneau pour l'inscription. L'équipe suppose que cela la facilitera. Au premier essai, des personnes ne comprennent pas les horaires. La spec est validée. Elle est aussi fausse sur ce point. La réponse peut être une meilleure explication ou un autre choix, mais pas le silence.
+Un document prévoit un choix de créneau pour l'inscription. L'équipe suppose que cela la facilitera. Au premier essai, des personnes ne comprennent pas les horaires. Le document est validé. Il est aussi faux sur ce point. La réponse peut être une meilleure explication ou un autre choix, mais pas le silence.
 
 Tout n'est pas une hypothèse. Certaines exigences viennent d'un engagement, d'une obligation légale ou d'une contrainte de fonctionnement. Un retour contraire ne les annule pas. Distingue les deux avant de proposer un changement.
 

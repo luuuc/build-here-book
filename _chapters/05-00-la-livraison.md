@@ -28,7 +28,7 @@ Tu refais la page qui explique comment payer une commande. Avant de la mettre en
 
 Livrer, c'est mettre ton travail entre les mains de ceux à qui il sert : un outil, une procédure, une offre, un document, un service. C'est là que tu apprends ce que ton plan ne disait pas.
 
-Cette section porte sur le rythme : livrer tôt sans bâcler, ne pas trop peaufiner avant d'avoir un retour, ne pas confondre une spec validée avec une solution juste.
+Cette section porte sur le rythme : livrer tôt sans bâcler, ne pas trop peaufiner avant d'avoir un retour, ne pas confondre un document validé avec une solution juste.
 
 **Pour commencer :** trouve la plus petite version utile de ce que tu prépares, et donne-la à une vraie personne cette semaine.
 

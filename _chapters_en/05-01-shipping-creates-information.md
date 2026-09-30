@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Shipping creates information"
+title: "Delivering creates information"
 part: "Delivery"
 order: 501
 card_type: principle

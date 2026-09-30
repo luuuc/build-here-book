@@ -40,7 +40,7 @@ L'équipe, les références et les détails techniques ont leur place, après. P
 
 ## À essayer
 
-Choisis une page, une invitation ou une présentation. Réécris son ouverture : une situation, une proposition, une limite. Une IA peut te proposer dix versions en une minute ; garde celle qui ressemble le plus à ce que tu as entendu.
+Choisis une page, un devis ou une présentation. Réécris son ouverture : une situation, une proposition, une limite. Une IA peut te proposer dix versions en une minute ; garde celle qui ressemble le plus à ce que tu as entendu.
 
 Montre-la à une personne concernée. Demande ce qu'elle comprend et à qui elle pense que ça s'adresse. Corrige le malentendu.
 

@@ -30,7 +30,7 @@ Warn as soon as the information can help someone act. Say what is certain and wh
 
 ## Why
 
-Bad news is worth a lot early and almost nothing late. Delivery of the equipment for a launch becomes uncertain. Warned a week before, the organiser finds a solution. Warned the day before, all they have left is apologies.
+Bad news is worth a lot early and almost nothing late. Delivery of stock promised to a client becomes uncertain. Warned a week before, the salesperson finds a solution. Warned the day before, all they have left is apologies.
 
 Good news can wait for the meeting. Bad news cannot. The urgency comes from what others can still do.
 

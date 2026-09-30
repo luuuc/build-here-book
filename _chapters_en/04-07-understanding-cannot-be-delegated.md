@@ -34,7 +34,7 @@ A team is thinking of changing payment provider. The price is lower. But the swi
 
 You do not need to check every estimate. Ask what it covers, what it rests on, and what could move it. An AI can explain the vocabulary before the walk-through, so the hour goes to the real questions.
 
-This is not only for leadership. Someone organising an event has to understand how a sign-up becomes an actual welcome.
+This is not only for leadership. Someone preparing an offer has to understand how an order becomes a delivery.
 
 ## Try this
 

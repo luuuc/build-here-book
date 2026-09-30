@@ -38,7 +38,7 @@ The team, the references and the technical detail have their place, after. For s
 
 ## Try this
 
-Choose a page, an invitation or a presentation. Rewrite its opening: a situation, a proposal, a limit. An AI can give you ten versions in a minute; keep the one closest to what you actually heard.
+Choose a page, a quote or a presentation. Rewrite its opening: a situation, a proposal, a limit. An AI can give you ten versions in a minute; keep the one closest to what you actually heard.
 
 Show it to someone affected. Ask what they understand and who they think it is for. Fix the misunderstanding.
 

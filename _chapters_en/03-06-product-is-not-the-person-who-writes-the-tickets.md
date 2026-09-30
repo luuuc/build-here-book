@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Product is not the person who writes the tickets"
+title: "Product means choosing, not writing"
 part: "Autonomy"
 order: 306
 card_type: principle
@@ -14,7 +14,7 @@ categories:
 translations:
   fr: /livre/chapitres/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html
 seo:
-  description: "Well-written tickets do not say which ones deserve doing. Product work is choosing, and explaining every call."
+  description: "Well-written requests do not say which ones deserve doing. Product work is choosing, and explaining every call."
   keywords: "build here, builder, product, requests, trade-offs, outcomes"
 redirect_from:
   - /book/chapters/03-06-the-product-role-connects-requests-to-outcomes.html
@@ -22,7 +22,7 @@ redirect_from:
 
 ## The reflex
 
-Requests arrive from sales, from the leadership, from users. Product work is mostly visible when they turn into well-written tickets.
+Requests arrive from sales, from the leadership, from users. Product work is mostly visible when they turn into well-written requests.
 
 ## The builder's reflex
 
@@ -30,7 +30,7 @@ The product role chooses which problems to take, explains the trade-offs, and ch
 
 ## Why
 
-Well-written tickets do not say which ones deserve doing. Product work is choosing: connect the needs observed, the goals, the constraints and the capacity, then accept, shrink, defer or refuse. The writing serves that choice, it does not replace it.
+Well-written requests do not say which ones deserve doing. Product work is choosing: connect the needs observed, the goals, the constraints and the capacity, then accept, shrink, defer or refuse. The writing serves that choice, it does not replace it.
 
 That judgement is built with the other trades. Support sees the difficulties that keep coming back, sales knows the commitments, operations sees the load coming, the delivery team proposes the smaller version. Product connects that information and makes the call.
 

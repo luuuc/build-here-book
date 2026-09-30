@@ -32,7 +32,7 @@ If that explanation gets picked up as a fact, the uncertainty disappears from th
 
 A wrong but plausible answer is more dangerous than no answer, because it travels. Someone repeats it in a meeting. It lands in a document. It gets used to set a price. Three months later nothing is left to say it was improvised in a corridor.
 
-Said to someone two levels up, "I don't know" sounds like a confession when it is in fact the exact answer. On its own, the sentence really does sound like giving up. "I don't know, I'm looking at the logs, you'll have it at five" is a complete answer, and it is the second half that does all the work.
+Said to someone two levels up, "I don't know" sounds like a confession when it is in fact the exact answer. On its own, the sentence really does sound like giving up. "I don't know, I'm checking the records, you'll have it at five" is a complete answer, and it is the second half that does all the work.
 
 So pick a deadline that accounts for the time checking actually takes. When the answer sits with a vendor whose support opens as your day ends, eight hours away, "at five" is a promise you cannot keep, and you have traded an improvisation for a broken commitment. Say tomorrow midday, and hold tomorrow midday.
 

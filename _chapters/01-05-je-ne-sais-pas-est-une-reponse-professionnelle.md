@@ -34,7 +34,7 @@ Si cette explication est reprise comme un fait, l'incertitude disparaît du réc
 
 Une réponse fausse mais plausible est plus dangereuse qu'une absence de réponse, parce qu'elle voyage. Quelqu'un la répète en réunion. Elle atterrit dans un document. Elle sert à fixer un tarif. Trois mois plus tard, plus rien ne rappelle qu'elle est née d'une improvisation dans un couloir.
 
-Dit à quelqu'un deux niveaux au-dessus, "je ne sais pas" a l'air d'un aveu alors que c'est la réponse exacte. Seule, la phrase sonne effectivement comme un abandon. "Je ne sais pas, je regarde les logs, tu l'as à 17h" est une réponse complète, et c'est la deuxième moitié qui fait tout le travail.
+Dit à quelqu'un deux niveaux au-dessus, "je ne sais pas" a l'air d'un aveu alors que c'est la réponse exacte. Seule, la phrase sonne effectivement comme un abandon. "Je ne sais pas, je vérifie les relevés, tu l'as à 17h" est une réponse complète, et c'est la deuxième moitié qui fait tout le travail.
 
 Choisis donc une échéance qui tient compte du temps nécessaire pour vérifier. Quand la réponse est chez un fournisseur dont le support ouvre au moment où ta journée se termine, à huit heures d'écart, "à 17h" est une promesse intenable, et tu as échangé une improvisation contre un engagement rompu. Dis demain midi, et tiens demain midi.
 

@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Signing off a spec does not make it right"
+title: "A signed-off document is not a right one"
 part: "Delivery"
 order: 504
 card_type: diagnostic
@@ -14,8 +14,8 @@ categories:
 translations:
   fr: /livre/chapitres/05-04-valider-une-spec-ne-la-rend-pas-juste.html
 seo:
-  description: "A signed-off spec is an agreement about what people believed. When reality contradicts it, say so and update it."
-  keywords: "build here, product, builder, spec, sign-off"
+  description: "A signed-off document is an agreement about what people believed. When reality contradicts it, say so and update it."
+  keywords: "build here, product, builder, document, sign-off"
 ---
 
 ## The symptom
@@ -30,7 +30,7 @@ Separate what is required, what was verified, and what is still assumed. Then ta
 
 A signed-off specification is an agreement about what people believed when they signed it. It does not make the assumptions true. Building and use test them, and some fall.
 
-A document specifies a choice of time slot for sign-up. The team assumes it will make signing up easier. At the first trial, some people do not understand the times offered. The spec is signed off. It is also wrong on that point. The answer can be a better explanation or a different choice, but not silence.
+A document specifies a choice of time slot for sign-up. The team assumes it will make signing up easier. At the first trial, some people do not understand the times offered. The document is signed off. It is also wrong on that point. The answer can be a better explanation or a different choice, but not silence.
 
 Not everything is an assumption. Some requirements come from a commitment, a legal obligation or an operating constraint. Contrary feedback does not cancel them. Tell the two apart before you propose a change.
 

@@ -34,7 +34,7 @@ Marketing does not start when the product is finished. It answers the questions 
 
 If the marketing team meets the product at the end, what they know arrives too late. One conversation on a decisive question, at the start, is often enough.
 
-With no commercial activity, the same questions help you present a workshop, a resource or an internal service.
+With no commercial activity, the same questions help you present a training, a resource or an internal service.
 
 ## Try this
 

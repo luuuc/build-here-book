@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Shipper crée de l'information"
+title: "Livrer crée de l'information"
 part: "La livraison"
 order: 501
 card_type: principle
@@ -15,7 +15,7 @@ translations:
   en: /book/chapters/05-01-shipping-creates-information.html
 seo:
   description: "Tant que personne ne s'en sert, tu ne sais rien. Livre la plus petite version qui répond à ta question, et regarde."
-  keywords: "build here, execution, builder, shipper, cree, information"
+  keywords: "build here, execution, builder, livrer, information"
 redirect_from:
   - /livre/chapitres/07-02-shipper-cree-de-linformation.html
 ---

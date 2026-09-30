@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Your code is not your baby"
+title: "Your work is not you"
 part: "The mindset"
 order: 106
 card_type: principle

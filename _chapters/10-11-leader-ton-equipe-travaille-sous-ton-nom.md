@@ -25,7 +25,7 @@ redirect_from:
 
 ## Ce que tu demandes
 
-Tu demandes à ton équipe de l'initiative, de l'ownership, un travail dont elle peut être fière. Quand ce travail sort de l'équipe, au comité, chez le client, sur une scène, c'est toi qui le présentes. Tu dis « nous ». Les noms restent dans l'historique du dépôt.
+Tu demandes à ton équipe de l'initiative, de l'ownership, un travail dont elle peut être fière. Quand ce travail sort de l'équipe, au comité, chez le client, sur une scène, c'est toi qui le présentes. Tu dis « nous ». Les noms restent dans les échanges internes.
 
 ## Ce que le système entend
 

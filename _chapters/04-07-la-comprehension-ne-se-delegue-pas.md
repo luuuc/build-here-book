@@ -37,7 +37,7 @@ Une équipe envisage de changer de prestataire de paiement. Le tarif est plus ba
 
 Tu n'as pas besoin de vérifier chaque estimation. Demande ce qu'elle couvre, sur quoi elle repose, et ce qui pourrait la faire bouger. Une IA peut t'expliquer le vocabulaire avant la visite, pour que l'heure serve aux vraies questions.
 
-Ce n'est pas réservé à la direction. Une personne qui organise un événement doit comprendre comment une inscription devient un accueil réel.
+Ce n'est pas réservé à la direction. Une personne qui prépare une offre doit comprendre comment une commande devient une livraison.
 
 ## À essayer
 

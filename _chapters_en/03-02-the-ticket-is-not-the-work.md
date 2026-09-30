@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "The ticket is not the work"
+title: "A closed task is not a result"
 part: "Autonomy"
 order: 302
 card_type: diagnostic
@@ -14,13 +14,13 @@ categories:
 translations:
   fr: /livre/chapitres/03-02-le-ticket-nest-pas-le-travail.html
 seo:
-  description: "Counting tickets measures activity, not effect. Tie every important piece of work to the number it should move."
-  keywords: "build here, product, builder, ticket, work"
+  description: "Counting closed tasks measures activity, not effect. Tie every important piece of work to the number it should move."
+  keywords: "build here, product, builder, task, result"
 ---
 
 ## The symptom
 
-A team closes eighteen tickets in one cycle. The review lists the work done. It does not say what that work changed.
+A team closes eighteen tasks in one cycle. The review lists the work done. It does not say what that work changed.
 
 ## The signal
 
@@ -28,11 +28,11 @@ A team closes eighteen tickets in one cycle. The review lists the work done. It 
 
 ## What's going on
 
-A ticket coordinates work: who does what, in what order, where it stands. Counting tickets measures activity, not effect. When the number closed becomes the goal, the team cuts the work finer and the number rises while nothing changes for the user.
+A task in the tracking tool coordinates work: who does what, in what order, where it stands. Counting closed tasks measures activity, not effect. When the number closed becomes the goal, the team cuts the work finer and the number rises while nothing changes for the user.
 
 The right number is the result's: the customer's waiting time, the error count, support requests, the time to get paid. Tie every important piece of work to one of them.
 
-Separate what was done, what was checked, and what is expected. "The fix is deployed" is an action. "The case that was failing now passes" is a check. "Support requests should go down" is an assumption, until you look.
+Separate what was done, what was checked, and what is expected. "The fix is in place" is an action. "The case that was failing now passes" is a check. "Support requests should go down" is an assumption, until you look.
 
 Usefulness is not limited to new things. Maintenance that keeps the service up, an inquiry that rules out a false lead, an accessibility fix: those are results, as long as you say which.
 
@@ -43,7 +43,7 @@ Take one finished piece of work and complete:
 > What it changed: ...
 > The number or the fact that shows it: ...
 
-If you do not know, go and get the answer from the person concerned. At the next review, present that work by its effect, not by its ticket.
+If you do not know, go and get the answer from the person concerned. At the next review, present that work by its effect, not by its task.
 
 ## From where you sit
 

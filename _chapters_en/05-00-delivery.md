@@ -26,7 +26,7 @@ You rework the page that explains how to pay for an order. Before putting it liv
 
 Delivering means putting your work in the hands of the people it's for: a tool, a procedure, an offer, a document, a service. That's where you learn what your plan didn't tell you.
 
-This section is about pace: ship early without cutting corners, don't over-polish before you get feedback, don't mistake a signed-off spec for a right answer.
+This section is about pace: ship early without cutting corners, don't over-polish before you get feedback, don't mistake a signed-off document for a right answer.
 
 **To start:** find the smallest useful version of what you're working on, and put it in front of a real person this week.
 

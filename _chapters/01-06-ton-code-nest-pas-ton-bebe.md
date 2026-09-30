@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Ton code n'est pas ton bébé"
+title: "Ton travail n'est pas toi"
 part: "L'état d'esprit"
 order: 106
 card_type: principle

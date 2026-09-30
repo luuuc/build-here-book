@@ -31,7 +31,7 @@ Préviens dès que l'information peut aider quelqu'un à agir. Dis ce qui est s�
 
 ## Pourquoi
 
-Une mauvaise nouvelle vaut beaucoup tôt et presque rien tard. La livraison du matériel pour un lancement devient incertaine. Prévenu une semaine avant, l'organisateur trouve une solution. Prévenu la veille, il n'a plus que des excuses à présenter.
+Une mauvaise nouvelle vaut beaucoup tôt et presque rien tard. La livraison d'un stock promis à un client devient incertaine. Prévenu une semaine avant, le commercial trouve une solution. Prévenu la veille, il n'a plus que des excuses à présenter.
 
 Une bonne nouvelle peut attendre la réunion. Une mauvaise, non. L'urgence vient de ce que les autres peuvent encore faire.
 

@@ -36,7 +36,7 @@ Le marketing ne commence pas quand le produit est fini. Il répond aux questions
 
 Si l'équipe marketing découvre le produit à la fin, ce qu'elle sait arrive trop tard. Une conversation sur une question décisive, au début, suffit souvent.
 
-Sans activité commerciale, les mêmes questions servent à présenter un atelier, une ressource ou un service interne.
+Sans activité commerciale, les mêmes questions servent à présenter une formation, une ressource ou un service interne.
 
 ## À essayer
 

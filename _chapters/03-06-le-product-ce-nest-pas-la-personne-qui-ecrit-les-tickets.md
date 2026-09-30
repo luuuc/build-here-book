@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title: "Le product, ce n'est pas la personne qui écrit les tickets"
+title: "Le produit, c'est choisir, pas rédiger"
 part: "L'autonomie"
 order: 306
 card_type: principle
@@ -14,7 +14,7 @@ categories:
 translations:
   en: /book/chapters/03-06-product-is-not-the-person-who-writes-the-tickets.html
 seo:
-  description: "Des tickets bien écrits ne disent pas lesquels méritent d'être faits. Le travail produit, c'est de choisir et d'expliquer chaque arbitrage."
+  description: "Des demandes bien écrites ne disent pas lesquelles méritent d'être faites. Le travail produit, c'est de choisir et d'expliquer chaque arbitrage."
   keywords: "build here, builder, produit, demandes, arbitrage, resultats"
 redirect_from:
   - /livre/chapitres/05-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html
@@ -22,7 +22,7 @@ redirect_from:
 
 ## Le réflexe
 
-Les demandes arrivent du commercial, de la direction ou des utilisateurs. Le travail produit est surtout visible quand elles deviennent des tickets bien rédigés.
+Les demandes arrivent du commercial, de la direction ou des utilisateurs. Le travail produit est surtout visible quand elles deviennent des demandes bien rédigées.
 
 ## Le réflexe builder
 
@@ -30,7 +30,7 @@ Le rôle produit choisit les problèmes à traiter, explique les arbitrages et v
 
 ## Pourquoi
 
-Des tickets bien écrits ne disent pas lesquels méritent d'être faits. Le travail produit, c'est de choisir : relier les besoins observés, les objectifs, les contraintes et la capacité, puis accepter, réduire, reporter ou refuser. La rédaction sert ce choix, elle ne le remplace pas.
+Des demandes bien écrites ne disent pas lesquelles méritent d'être faites. Le travail produit, c'est de choisir : relier les besoins observés, les objectifs, les contraintes et la capacité, puis accepter, réduire, reporter ou refuser. La rédaction sert ce choix, elle ne le remplace pas.
 
 Ce jugement se construit avec les autres métiers. Le support voit les difficultés qui reviennent, le commercial connaît les engagements, les opérations voient la charge arriver, l'équipe de réalisation propose la version plus petite. Le produit relie ces informations et tranche.
 
