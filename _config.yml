@@ -46,7 +46,7 @@ languages:
       to adapt to your own situation.
 
 # Corner banner on every site page (not the PDF/EPUB). Empty it to remove it.
-draft_banner: "work in progress"
+draft_banner: ""
 
 # Google Analytics (leave blank to disable)
 google_analytics: G-044F0FSRYM
