@@ -3,7 +3,7 @@ layout: chapter
 title: "Essayer coûte moins cher que demander"
 part: "La livraison"
 order: 505
-card_type: principe
+card_type: principle
 metadata:
   principle: "5.05"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - execution
   - livraison
   - essai
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/05-05-trying-costs-less-than-asking.html
 seo:
   description: "Une version d'une heure tranche plus vite qu'une réunion. Essaie ce qui se défait, demande pour ce qui ne se défait pas."

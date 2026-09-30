@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ You are the only buyer who sees all the work"
 part: "Leadership"
 order: 907
-card_type: systeme
+card_type: system
 metadata:
   principle: "9.07"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - visibilite
   - leadership
   - carriere
-traductions:
+translations:
   fr: /livre/chapitres/09-07-leader-tu-es-le-seul-acheteur-qui-voit-tout-le-travail.html
 seo:
   description: "If only what presents well gets recognised, the team learns to present. Make the criteria explicit and measure the effects."

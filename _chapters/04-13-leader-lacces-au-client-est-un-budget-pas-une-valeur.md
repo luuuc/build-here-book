@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ L'accès au client est un budget, pas une valeur"
 part: "La compréhension"
 order: 413
-card_type: systeme
+card_type: system
 metadata:
   principle: "4.13"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - client
   - support
   - produit
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-13-customer-access-is-a-budget-not-a-value.html
 seo:
   description: "Sans temps financé pour parler aux clients, l'équipe construit pour un client imaginé. Rends le chemin simple et connu."

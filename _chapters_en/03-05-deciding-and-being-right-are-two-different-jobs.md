@@ -3,7 +3,7 @@ layout: chapter
 title: "Deciding and being right are two different jobs"
 part: "Autonomy"
 order: 305
-card_type: principe
+card_type: principle
 metadata:
   principle: "3.05"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - hierarchie
   - decision
   - culture
-traductions:
+translations:
   fr: /livre/chapitres/03-05-trancher-et-avoir-raison-sont-deux-metiers-differents.html
 seo:
   description: "A preference voiced early by someone senior closes the discussion. Facts and objections first, then someone calls it."

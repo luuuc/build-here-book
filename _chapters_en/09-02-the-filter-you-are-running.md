@@ -11,7 +11,7 @@ categories:
   - leadership
   - recrutement
   - decision
-traductions:
+translations:
   fr: /livre/chapitres/09-02-le-filtre-que-tu-fais-tourner.html
 seo:
   description: "Every channel shows some people and hides others. Before concluding there is no talent, look at your filter."

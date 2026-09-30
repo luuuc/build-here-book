@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ L'absence de règle est une interdiction"
 part: "La référence"
 order: 1010
-card_type: systeme
+card_type: system
 metadata:
   principle: "10.10"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - trace
   - leadership
   - visibilite
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-10-the-absence-of-a-rule-is-a-ban.html
 seo:
   description: "Sans règle écrite, chacun devine prudent et rien ne sort. Écris sur une page ce qui se partage par défaut."

@@ -3,7 +3,7 @@ layout: chapter
 title: "Choosing a vendor is signing up for three years"
 part: "Understanding"
 order: 406
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.06"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - technologie
   - business
   - strategie
-traductions:
+translations:
   fr: /livre/chapitres/04-06-choisir-un-fournisseur-cest-signer-pour-trois-ans.html
 seo:
   description: "A vendor's real price is what it costs the day you want to leave. Work it out before you sign."

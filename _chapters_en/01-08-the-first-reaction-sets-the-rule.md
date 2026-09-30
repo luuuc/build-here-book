@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ The first reaction sets the rule"
 part: "The mindset"
 order: 108
-card_type: systeme
+card_type: system
 metadata:
   principle: "1.08"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - ownership
   - responsabilite
   - execution
-traductions:
+translations:
   fr: /livre/chapitres/01-08-leader-la-premiere-reaction-fait-la-regle.html
 seo:
   description: "Your reaction to the first initiative sets the rule for the whole team. Start with the intent, not the permission."

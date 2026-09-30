@@ -3,7 +3,7 @@ layout: chapter
 title: "Trancher et avoir raison sont deux métiers différents"
 part: "L'autonomie"
 order: 305
-card_type: principe
+card_type: principle
 metadata:
   principle: "3.05"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - hierarchie
   - decision
   - culture
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/03-05-deciding-and-being-right-are-two-different-jobs.html
 seo:
   description: "Une préférence exprimée tôt par un responsable ferme la discussion. D'abord les faits et les objections, ensuite quelqu'un tranche."

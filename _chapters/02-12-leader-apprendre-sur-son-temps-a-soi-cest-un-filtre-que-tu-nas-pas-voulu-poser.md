@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Apprendre sur son temps à soi, c'est un filtre que tu n'as pas voulu poser"
 part: "Le métier"
 order: 212
-card_type: systeme
+card_type: system
 metadata:
   principle: "2.12"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - apprentissage
   - open-source
   - niveau
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-12-learning-on-your-own-time-is-a-filter-you-did-not-mean-to-set.html
 seo:
   description: "Si on n'apprend que le soir, tu sélectionnes sur le temps libre, pas sur le talent. Prends l'heure sur le travail, et dis ce qu'elle remplace."

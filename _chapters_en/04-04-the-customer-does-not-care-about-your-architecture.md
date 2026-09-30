@@ -3,7 +3,7 @@ layout: chapter
 title: "The customer does not care about your architecture"
 part: "Understanding"
 order: 404
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.04"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - produit
   - client
   - arbitrage
-traductions:
+translations:
   fr: /livre/chapitres/04-04-le-client-ne-sinteresse-pas-a-ton-architecture.html
 seo:
   description: "The customer pays for what your work changes for them. Start with the before and the after, the technical detail comes later."

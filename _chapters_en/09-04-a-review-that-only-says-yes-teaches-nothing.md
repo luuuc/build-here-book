@@ -3,7 +3,7 @@ layout: chapter
 title: "A review that only says yes teaches nothing"
 part: "Leadership"
 order: 904
-card_type: principe
+card_type: principle
 metadata:
   principle: "9.04"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - leadership
   - transmission
   - equipe
-traductions:
+translations:
   fr: /livre/chapitres/09-04-une-relecture-qui-dit-seulement-oui-napprend-rien.html
 seo:
   description: "An 'ok' with no explanation passes nothing on. Say what you checked, why, and what works."

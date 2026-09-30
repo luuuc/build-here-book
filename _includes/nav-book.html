@@ -1,33 +1,33 @@
-      {% assign chapters = livre %}
+      {% assign chapters = book %}
 
-      {% for groupe in sommaire %}
+      {% for group in toc %}
         {% assign multi = false %}
-        {% if groupe.sections.size > 1 %}{% assign multi = true %}{% endif %}
+        {% if group.sections.size > 1 %}{% assign multi = true %}{% endif %}
 
-        <li class="nav-group{% if groupe.sections contains page.part %} is-current-group{% endif %}">
+        <li class="nav-group{% if group.sections contains page.part %} is-current-group{% endif %}">
 
-          {% for nom in groupe.sections %}
-            {% assign items = chapters | where: "part", nom %}{% if items.size > 0 %}
-            {% assign ouverture = items | where_exp: "c", "c.title == nom" | first %}
+          {% for name in group.sections %}
+            {% assign items = chapters | where: "part", name %}{% if items.size > 0 %}
+            {% assign opening = items | where_exp: "c", "c.title == name" | first %}
 
             {% if multi and items.size > 1 %}
-              <div class="nav-part{% if nom == page.part %} is-current-part{% endif %}">
-                {% if ouverture %}
+              <div class="nav-part{% if name == page.part %} is-current-part{% endif %}">
+                {% if opening %}
                   <a
                     class="nav-part-title"
-                    href="{{ ouverture.url | relative_url }}"
-                    {% if ouverture.url == page.url %}aria-current="page"{% endif %}
-                    >{{ nom }}</a
+                    href="{{ opening.url | relative_url }}"
+                    {% if opening.url == page.url %}aria-current="page"{% endif %}
+                    >{{ name }}</a
                   >
                 {% else %}
-                  <span class="nav-part-title">{{ nom }}</span>
+                  <span class="nav-part-title">{{ name }}</span>
                 {% endif %}
                 <ul class="nav-submenu">
                   {% for c in items %}
-                    {% unless ouverture and c.url == ouverture.url %}
+                    {% unless opening and c.url == opening.url %}
                       <li{% if c.url == page.url %} class="is-current"{% endif %}>
                         <a href="{{ c.url | relative_url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
-                          {% if c.metadata.principle %}<span class="nav-num">{{ t.carte.principe }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}
+                          {% if c.metadata.principle %}<span class="nav-num">{{ t.card.principle }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}
                           {{ c.title }}
                         </a>
                       </li>
@@ -40,7 +40,7 @@
                 {% for c in items %}
                   <li{% if c.url == page.url %} class="is-current"{% endif %}>
                     <a href="{{ c.url | relative_url }}"{% if c.url == page.url %} aria-current="page"{% endif %}>
-                      {% if c.metadata.principle %}<span class="nav-num">{{ t.carte.principe }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}
+                      {% if c.metadata.principle %}<span class="nav-num">{{ t.card.principle }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}
                       {{ c.title }}
                     </a>
                   </li>
@@ -52,5 +52,5 @@
       {% endfor %}
 
       <li class="nav-bottom-links">
-        <a href="{{ t.entete.accueil_url }}" class="nav-version-link">{{ t.menu.retour }}</a>
+        <a href="{{ t.header.home_url }}" class="nav-version-link">{{ t.menu.back }}</a>
       </li>

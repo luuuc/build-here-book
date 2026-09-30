@@ -13,8 +13,7 @@ categories:
   - ownership
   - resultat
   - builders
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/06-00-ownership.html
 seo:
   description: "Fini de ton côté ne veut pas dire réglé : dire ce que tu prends en charge, revenir voir, annoncer tôt la mauvaise nouvelle."

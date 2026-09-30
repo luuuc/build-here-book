@@ -11,7 +11,7 @@ categories:
   - reference
   - trace
   - contexte
-traductions:
+translations:
   fr: /livre/chapitres/10-07-ce-que-publier-coute-vraiment.html
 seo:
   description: "Publishing costs little. The real cost is removing what is not yours. Do it once, and publish the rest."

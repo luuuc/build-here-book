@@ -3,7 +3,7 @@ layout: chapter
 title: "Ask the naive question straight away"
 part: "The mindset"
 order: 102
-card_type: pratique
+card_type: practice
 metadata:
   principle: "1.02"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - curiosite
   - apprentissage
   - engineering
-traductions:
+translations:
   fr: /livre/chapitres/01-02-pose-la-question-naive-tout-de-suite.html
 seo:
   description: "The naive question costs ten seconds. Not asking it costs a decision made on a misunderstanding."

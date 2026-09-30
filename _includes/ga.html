@@ -1,12 +1,5 @@
 {% if site.google_analytics %}
-<!-- Google tag (gtag.js) -->
-<!--
-  La configuration vit dans /book/assets/javascripts/ga.js et pas ici. C'est ce qui
-  permet a la politique de securite du contenu, dans head.html, de refuser
-  'unsafe-inline' sur les scripts. L'ordre des deux balises n'a pas
-  d'importance : dataLayer est une file, elle se remplit avant ou apres que la
-  bibliotheque soit arrivee.
--->
+{% comment %}Config lives in ga.js, not inline, so the CSP in head.html can refuse 'unsafe-inline'.{% endcomment %}
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script src="/book/assets/javascripts/ga.js"></script>
 {% endif %}

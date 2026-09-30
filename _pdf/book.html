@@ -4,14 +4,9 @@ permalink: /pdf.html
 sitemap: false
 excerpt_separator: ""
 ---
-{% include langue.html %}{% comment %}
-Le livre entier en un seul document, pour WeasyPrint. Rendu par bin/build-book,
-jamais par le build du site : la collection « pdf » n'est declaree que dans
-_config-pdf.yml.
-
-La pagination, les titres courants, les points de conduite du sommaire et les
-numeros de page vivent dans book/assets/stylesheets/print.css. Le corps du livre est
-partage avec l'EPUB, dans _includes/book-body.html.
+{% include language.html %}{% comment %}
+Rendered by bin/build-book only: the `pdf` collection exists only in _config-pdf.yml.
+Page layout lives in print.css; the body is shared with the EPUB (_includes/book-body.html).
 {% endcomment %}
 <!doctype html>
 <html lang="{{ lang }}">
@@ -22,59 +17,53 @@ partage avec l'EPUB, dans _includes/book-body.html.
     <link rel="stylesheet" href="book/assets/stylesheets/print.css" />
   </head>
   <body>
-    <!-- Couverture, pleine page -->
     <section class="cover">
-      <img src="{{ langue_courante.couverture | remove_first: '/' }}" alt="{{ site.title }}" />
+      <img src="{{ current_language.cover | remove_first: '/' }}" alt="{{ site.title }}" />
     </section>
 
-    <!-- Page de titre -->
     <section class="front">
       <div>
-        <p class="front-kicker">{{ t.tirage.kicker }}</p>
+        <p class="front-kicker">{{ t.edition.kicker }}</p>
         <div class="front-rule"></div>
         <h1 class="front-title">Build<br />Here</h1>
         <p class="front-sub">{{ description_site | strip_newlines | split: "." | first }}.</p>
       </div>
       <div>
         <p class="front-author">{{ site.author.name }}</p>
-        <p class="front-spine">{% assign cartes = livre | where_exp: "c", "c.metadata.principle" %}{% assign capacites = livre | where_exp: "c", "c.step_number" %}{{ capacites | size }} {{ t.tirage.capacites }} · {{ cartes | size }} {{ t.tirage.cartes }}</p>
+        <p class="front-spine">{% assign cards = book | where_exp: "c", "c.metadata.principle" %}{% assign capabilities = book | where_exp: "c", "c.step_number" %}{{ capabilities | size }} {{ t.edition.capabilities }} · {{ cards | size }} {{ t.edition.cards }}</p>
       </div>
     </section>
 
-    <!-- Colophon -->
     <section class="front colophon">
       <div>
 {%- comment -%}
-          Le colophon est ecrit dans _data/<lang>/interface.yml. Les reperes entre crochets
-          sont remplaces ici : une chaine de donnees ne peut pas contenir de
-          Liquid, et ces trois phrases changent de langue mais pas de forme.
+          Colophon strings live in _data/<lang>/interface.yml; data can't hold Liquid, so [placeholders] are replaced here.
         {%- endcomment -%}
-        {%- assign domaine = site.url | remove: "https://" -%}
-        <p><strong>{{ site.title }}</strong> — {{ t.tirage.version }} {{ site.book.version }}, {{ site.book.published }}.</p>
-        <p>{{ t.tirage.licence | replace: "[auteur]", site.author.name | replace: "[licence]", site.book.license }}</p>
-        <p>{{ t.tirage.en_ligne | replace: "[url]", site.url | replace: "[domaine]", domaine | replace: "[depot]", site.repository }}</p>
-        <p>{{ t.tirage.test | replace: "[url]", site.url | replace: "[domaine]", domaine }}</p>
+        {%- assign domain = site.url | remove: "https://" -%}
+        <p><strong>{{ site.title }}</strong> — {{ t.edition.version }} {{ site.book.version }}, {{ site.book.published }}.</p>
+        <p>{{ t.edition.license | replace: "[auteur]", site.author.name | replace: "[licence]", site.book.license }}</p>
+        <p>{{ t.edition.online | replace: "[url]", site.url | replace: "[domaine]", domain | replace: "[depot]", site.repository }}</p>
+        <p>{{ t.edition.test | replace: "[url]", site.url | replace: "[domaine]", domain }}</p>
       </div>
       <div>
-        <p class="front-spine">{{ t.tirage.compose }}</p>
+        <p class="front-spine">{{ t.edition.compose }}</p>
       </div>
     </section>
 
-    <!-- Sommaire. L'EPUB n'en a pas : sa navigation est produite par Pandoc. -->
     <section class="toc">
-      <h1 class="toc-title">{{ t.tirage.sommaire }}</h1>
+      <h1 class="toc-title">{{ t.edition.toc }}</h1>
 
-      {% assign chapters = livre %}
-      {% for groupe in sommaire %}
+      {% assign chapters = book %}
+      {% for group in toc %}
         {% assign multi = false %}
-        {% if groupe.sections.size > 1 %}{% assign multi = true %}{% endif %}
+        {% if group.sections.size > 1 %}{% assign multi = true %}{% endif %}
         <div class="toc-group">
-          {% for nom in groupe.sections %}
-            {% assign items = chapters | where: "part", nom %}{% if items.size > 0 %}
+          {% for name in group.sections %}
+            {% assign items = chapters | where: "part", name %}{% if items.size > 0 %}
             <ul>
               {% for c in items %}
                 <li class="{% if c.card_type %}toc-entry{% else %}toc-section{% endif %}">
-                  <a href="#{{ c.url | split: '/' | last }}">{% if c.metadata.principle %}<span class="num">{{ t.carte.principe }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}{{ c.title }}</a>
+                  <a href="#{{ c.url | split: '/' | last }}">{% if c.metadata.principle %}<span class="num">{{ t.card.principle }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}{{ c.title }}</a>
                 </li>
               {% endfor %}
             </ul>{% endif %}

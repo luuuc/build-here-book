@@ -3,7 +3,7 @@ layout: chapter
 title: "A good decision can still lose"
 part: "Ownership"
 order: 605
-card_type: principe
+card_type: principle
 metadata:
   principle: "6.05"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - leadership
   - decision
   - management
-traductions:
+translations:
   fr: /livre/chapitres/06-05-une-bonne-decision-peut-quand-meme-perdre.html
 seo:
   description: "Judging on results alone teaches luck, not good decisions. Examine the reasoning, then the result."

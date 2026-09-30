@@ -11,8 +11,7 @@ categories:
   - leadership
   - recrutement
   - decision
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/09-02-the-filter-you-are-running.html
 seo:
   description: "Chaque canal montre certaines personnes et en cache d'autres. Avant de conclure qu'il n'y a pas de talent, regarde ton filtre."

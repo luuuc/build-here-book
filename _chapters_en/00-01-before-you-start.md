@@ -14,7 +14,7 @@ metadata:
 categories:
   - introduction
   - builders
-traductions:
+translations:
   fr: /livre/
 seo:
   description: "Build Here is for aspiring builders, experienced builders, people growing a team, and anyone who already knows what a builder changes."

@@ -1,39 +1,22 @@
-// Les regles communes aux quatre types de cartes, en un seul endroit.
-//
-// Ce module ne lit aucun fichier et n'appelle rien. Il prend une source et
-// rend un rapport. C'est ce qui lui permet de tourner aussi bien dans un
-// Worker que dans un node local ou dans la CI, sans deuxieme implementation
-// des regles qui pourrait deriver.
-//
-// Deux principes, decides par le conseil de relecture.
-//
-// 1. Il ne refuse jamais rien. Il dit ce qui manque, il ne ferme pas la porte.
-//
-// 2. Le rapport commence par ce qui a ete compris, pas par ce qui manque.
-//    Quelqu'un doit lire d'abord qu'on a lu son idee.
-//
-// Deux niveaux, et ils ne se melangent pas dans le rapport. « regle » vient
-// de l'annexe sur les quatre formats. « mesure » n'est qu'une
-// statistique sur les entrees existantes, et n'engage personne.
+// Card lint rules for all four card types. Pure: takes a source string, returns a report, no I/O.
+// `rules` are format rules, `metrics` are stats from existing cards. Nothing here rejects a card.
 
-export const BLOCS_PAR_TYPE = {
-  principe: ["Le réflexe", "Le réflexe builder", "Pourquoi", "À essayer", "Depuis ton siège", "À discuter"],
+export const BLOCKS_BY_TYPE = {
+  principle: ["Le réflexe", "Le réflexe builder", "Pourquoi", "À essayer", "Depuis ton siège", "À discuter"],
   diagnostic: ["Le symptôme", "Le signal", "Ce qui se passe", "À vérifier", "Depuis ton siège", "À discuter"],
-  pratique: ["Le point de départ", "Le geste", "Pourquoi ça marche", "À essayer", "Depuis ton siège", "À discuter"],
-  systeme: ["Ce que tu demandes", "Ce que le système entend", "Ce que ça produit", "La décision", "Depuis ton siège", "À discuter"],
+  practice: ["Le point de départ", "Le geste", "Pourquoi ça marche", "À essayer", "Depuis ton siège", "À discuter"],
+  system: ["Ce que tu demandes", "Ce que le système entend", "Ce que ça produit", "La décision", "Depuis ton siège", "À discuter"],
 };
 
-// Les rôles sont contextuels et le bloc « Depuis ton siège » est facultatif.
-// Il n'existe ni liste fermée de métiers ni quota de lignes.
-// Les repères de longueur restent des mesures éditoriales, jamais des refus.
-export const MOTS_SIGNAL = 550;
-export const MOTS_PLANCHER = 200;
+// Word counts only produce metrics, never rules.
+export const SIGNAL_WORDS = 550;
+export const MIN_WORDS = 200;
 
 const EM_DASH = "—";
 const EN_DASH = "–";
-const APOSTROPHE_COURBE = "’";
+const CURLY_APOSTROPHE = "’";
 
-const CLES_REQUISES = [
+const REQUIRED_KEYS = [
   "layout",
   "title",
   "part",
@@ -44,299 +27,264 @@ const CLES_REQUISES = [
   "seo.keywords",
 ];
 
-// Un analyseur minimal, suffisant pour ce front matter. On ne tire pas une
-// dependance YAML dans un Worker pour lire des cles plates, une liste de
-// categories et deux niveaux d'imbrication.
+// Minimal parser to avoid a YAML dependency: flat keys, lists, one nesting level.
 function frontMatter(source) {
   const m = source.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
-  if (!m) return { data: null, corps: source };
+  if (!m) return { data: null, body: source };
 
   const data = {};
   let parent = null;
 
-  for (const brute of m[1].split(/\r?\n/)) {
-    if (!brute.trim() || brute.trim().startsWith("#")) continue;
+  for (const raw of m[1].split(/\r?\n/)) {
+    if (!raw.trim() || raw.trim().startsWith("#")) continue;
 
-    const liste = brute.match(/^\s+-\s+(.*)$/);
-    if (liste && parent) {
+    const list = raw.match(/^\s+-\s+(.*)$/);
+    if (list && parent) {
       if (!Array.isArray(data[parent])) data[parent] = [];
-      data[parent].push(devine(liste[1]));
+      data[parent].push(guess(list[1]));
       continue;
     }
 
-    const imbrique = brute.match(/^\s+([\w-]+):\s*(.*)$/);
-    if (imbrique && parent) {
+    const nested = raw.match(/^\s+([\w-]+):\s*(.*)$/);
+    if (nested && parent) {
       if (typeof data[parent] !== "object" || Array.isArray(data[parent])) data[parent] = {};
-      data[parent][imbrique[1]] = devine(imbrique[2]);
+      data[parent][nested[1]] = guess(nested[2]);
       continue;
     }
 
-    const racine = brute.match(/^([\w-]+):\s*(.*)$/);
-    if (racine) {
-      parent = racine[1];
-      data[racine[1]] = racine[2] === "" ? {} : devine(racine[2]);
+    const root = raw.match(/^([\w-]+):\s*(.*)$/);
+    if (root) {
+      parent = root[1];
+      data[root[1]] = root[2] === "" ? {} : guess(root[2]);
     }
   }
 
-  return { data, corps: source.slice(m[0].length) };
+  return { data, body: source.slice(m[0].length) };
 }
 
-function devine(v) {
+function guess(v) {
   const s = v.trim().replace(/\s+#.*$/, "");
-  const nu = s.replace(/^["'](.*)["']$/, "$1");
-  if (/^-?\d+$/.test(nu)) return Number(nu);
-  if (nu === "true") return true;
-  if (nu === "false") return false;
-  return nu;
+  const bare = s.replace(/^["'](.*)["']$/, "$1");
+  if (/^-?\d+$/.test(bare)) return Number(bare);
+  if (bare === "true") return true;
+  if (bare === "false") return false;
+  return bare;
 }
 
-function chemin(data, cle) {
-  return cle.split(".").reduce((o, k) => (o == null ? undefined : o[k]), data);
+function path(data, key) {
+  return key.split(".").reduce((o, k) => (o == null ? undefined : o[k]), data);
 }
 
-// Les blocs de l'entree, dans l'ordre ou ils apparaissent. Les titres a
-// l'interieur d'un bloc de code ne comptent pas : l'annexe 1 en contient.
-function blocs(corps) {
-  const trouves = [];
-  let dansUnBloc = false;
+// Headings inside code fences don't count.
+function blocks(body) {
+  const found = [];
+  let inBlock = false;
 
-  corps.split(/\r?\n/).forEach((ligne, i) => {
-    if (/^```/.test(ligne)) dansUnBloc = !dansUnBloc;
-    if (dansUnBloc) return;
-    const m = ligne.match(/^##\s+(.*?)\s*$/);
-    if (m) trouves.push({ titre: m[1], ligne: i + 1 });
+  body.split(/\r?\n/).forEach((line, i) => {
+    if (/^```/.test(line)) inBlock = !inBlock;
+    if (inBlock) return;
+    const m = line.match(/^##\s+(.*?)\s*$/);
+    if (m) found.push({ title: m[1], line: i + 1 });
   });
 
-  return trouves;
+  return found;
 }
 
-function corpsDuBloc(corps, titre) {
-  const lignes = corps.split(/\r?\n/);
-  const debut = lignes.findIndex((l) => l.match(/^##\s+/) && l.replace(/^##\s+/, "").trim() === titre);
-  if (debut === -1) return null;
-  const reste = lignes.slice(debut + 1);
-  const fin = reste.findIndex((l) => /^##\s+/.test(l));
-  return (fin === -1 ? reste : reste.slice(0, fin)).join("\n").trim();
+function blockBody(body, title) {
+  const lines = body.split(/\r?\n/);
+  const start = lines.findIndex((l) => l.match(/^##\s+/) && l.replace(/^##\s+/, "").trim() === title);
+  if (start === -1) return null;
+  const rest = lines.slice(start + 1);
+  const end = rest.findIndex((l) => /^##\s+/.test(l));
+  return (end === -1 ? rest : rest.slice(0, end)).join("\n").trim();
 }
 
-function mots(corps) {
-  // Le bloc facultatif « Depuis ton siège » est mesuré séparément de la prose.
-  // Le compter avec la prose ferait echouer des entrees correctes.
-  const sansSieges = corps.replace(/^##\s+Depuis ton siège[^\n]*\n(?:(?!^##\s+)[\s\S])*/m, "");
-  return sansSieges
+function words(body) {
+  // The optional "Depuis ton siège" block is not counted.
+  const withoutSeats = body.replace(/^##\s+Depuis ton siège[^\n]*\n(?:(?!^##\s+)[\s\S])*/m, "");
+  return withoutSeats
     .replace(/```[\s\S]*?```/g, "")
     .split(/\s+/)
     .filter((m) => /[\wÀ-ÿ]/.test(m)).length;
 }
 
 /**
- * @param {{filename?: string, source: string, sections?: string[], nouvelle?: boolean}} entree
- *
- * `nouvelle` distingue une carte ajoutee d'une entree deja
- * integree. Les champs de sequence doivent valoir 999 dans le premier cas et
- * portent leur vrai numero dans le second : sans ce drapeau, le linter
- * signalerait les cartes du livre pour un champ qui est correct.
+ * @param {{filename?: string, source: string, sections?: string[], fresh?: boolean}} input
+ * `fresh`: a newly added card, whose order fields must still be 999.
  */
-export function verifier({ filename = "", source = "", sections = [], nouvelle = false }) {
-  const { data, corps } = frontMatter(source);
-  const regles = [];
-  const mesures = [];
-  const regle = (m) => regles.push(m);
-  const mesure = (m) => mesures.push(m);
+export function check({ filename = "", source = "", sections = [], fresh = false }) {
+  const { data, body } = frontMatter(source);
+  const rules = [];
+  const metrics = [];
+  const rule = (m) => rules.push(m);
+  const metric = (m) => metrics.push(m);
 
   if (!data) {
     return {
-      fichier: filename,
-      estUneEntree: false,
+      file: filename,
+      isEntry: false,
       lu: null,
-      regles: ["Aucun front matter. Copie celui de n'importe quelle carte existante."],
-      mesures: [],
+      rules: ["Aucun front matter. Copie celui de n'importe quelle carte existante."],
+      metrics: [],
     };
   }
 
-  const estUneEntree = chemin(data, "metadata.principle") != null;
+  const isEntry = path(data, "metadata.principle") != null;
 
   const lu = {
-    titre: data.title || null,
-    phrase: chemin(data, "seo.description") || data.description || null,
+    title: data.title || null,
+    phrase: path(data, "seo.description") || data.description || null,
     section: data.part || null,
-    auteur: data.author || null,
+    author: data.author || null,
   };
 
-  // ---- Ce qui vaut pour tout fichier du livre ----
-
-  for (const c of CLES_REQUISES) {
-    if (chemin(data, c) == null || chemin(data, c) === "") regle(`Le front matter n'a pas \`${c}\`.`);
+  for (const c of REQUIRED_KEYS) {
+    if (path(data, c) == null || path(data, c) === "") rule(`Le front matter n'a pas \`${c}\`.`);
   }
 
   if (sections.length && data.part && !sections.includes(data.part)) {
-    regle(
-      `\`part: "${data.part}"\` ne correspond à aucune section de \`_data/sommaire.yml\`. ` +
+    rule(
+      `\`part: "${data.part}"\` ne correspond à aucune section de \`_data/toc.yml\`. ` +
         `Une section absente de ce fichier n'apparaît pas dans le sommaire.`
     );
   }
 
-  if (source.includes(EM_DASH)) regle("Il y a un tiret cadratin. Le livre n'en utilise aucun.");
-  if (source.includes(EN_DASH)) regle("Il y a un tiret demi-cadratin. Le livre n'en utilise aucun.");
-  if (source.includes(APOSTROPHE_COURBE)) {
-    const n = source.split(APOSTROPHE_COURBE).length - 1;
-    regle(`${n} apostrophe${n > 1 ? "s" : ""} courbe${n > 1 ? "s" : ""}. Le livre n'utilise que des apostrophes droites.`);
+  if (source.includes(EM_DASH)) rule("Il y a un tiret cadratin. Le livre n'en utilise aucun.");
+  if (source.includes(EN_DASH)) rule("Il y a un tiret demi-cadratin. Le livre n'en utilise aucun.");
+  if (source.includes(CURLY_APOSTROPHE)) {
+    const n = source.split(CURLY_APOSTROPHE).length - 1;
+    rule(`${n} apostrophe${n > 1 ? "s" : ""} courbe${n > 1 ? "s" : ""}. Le livre n'utilise que des apostrophes droites.`);
   }
 
-  if (!estUneEntree) {
-    // `metadata.principle` ne peut pas etre une cle requise partout : c'est son
-    // absence qui distingue une ouverture de section ou une annexe d'une
-    // entree, sans imposer un nombre fixe de chapitres de chaque forme. Mais sur une nouvelle carte, on
-    // sait que la personne propose une entree, et alors le champ manque.
-    if (nouvelle) {
-      regle(
+  if (!isEntry) {
+    // `metadata.principle` is what makes a file a card, so it's only required on new cards.
+    if (fresh) {
+      rule(
         "Le front matter n'a pas `metadata.principle`. C'est ce champ qui fait qu'un fichier " +
           "est une carte : sans lui, la page est rendue comme une ouverture de section et " +
           "l'accueil ne la compte pas. Mets-le à 999, il se recalcule à l'intégration."
       );
     }
-    return { fichier: filename, estUneEntree: false, lu, regles, mesures };
+    return { file: filename, isEntry: false, lu, rules, metrics };
   }
 
-  // ---- Ce qui ne vaut que pour une entree ----
-
   const type = data.card_type;
-  if (!Object.prototype.hasOwnProperty.call(BLOCS_PAR_TYPE, type)) {
-    regle("`card_type` doit être `principe`, `diagnostic`, `pratique` ou `systeme`.");
+  if (!Object.prototype.hasOwnProperty.call(BLOCKS_BY_TYPE, type)) {
+    rule("`card_type` doit être `principle`, `diagnostic`, `practice` ou `system`.");
   }
 
   if (filename && !/^\d{2}-\d{2}-[a-z0-9-]+\.md$/.test(filename.split("/").pop())) {
-    regle(
+    rule(
       `Le nom de fichier attendu est \`SS-NN-titre-en-slug.md\`, où \`SS\` est le numéro de ` +
         `section et \`NN\` la position dedans.`
     );
   }
 
-  if (nouvelle) {
+  if (fresh) {
     if (data.order !== 999) {
-      mesure("`order` n'est pas à 999. C'est un champ de séquence, il se recalcule à l'intégration.");
+      metric("`order` n'est pas à 999. C'est un champ de séquence, il se recalcule à l'intégration.");
     }
-    if (String(chemin(data, "metadata.principle")) !== "999") {
-      mesure("`principle` n'est pas à 999. Comme `order`, il se recalcule à l'intégration.");
-    }
-  }
-
-  const trouves = blocs(corps);
-  const titres = trouves.map((b) => b.titre);
-  const attendus = (BLOCS_PAR_TYPE[type] || BLOCS_PAR_TYPE.principe)
-    .filter((titre) => titre !== "Depuis ton siège" || titres.includes(titre));
-
-  if (titres.join("|") !== attendus.join("|")) {
-    const manquants = attendus.filter((b) => !titres.includes(b));
-    const intrus = titres.filter((t) => !attendus.includes(t));
-
-    if (manquants.length) regle(`Bloc${manquants.length > 1 ? "s" : ""} manquant${manquants.length > 1 ? "s" : ""} : ${manquants.map((m) => `« ${m} »`).join(", ")}.`);
-    if (intrus.length) regle(`Bloc${intrus.length > 1 ? "s" : ""} qui n'existe${intrus.length > 1 ? "nt" : ""} pas dans le format : ${intrus.map((m) => `« ${m} »`).join(", ")}.`);
-    if (!manquants.length && !intrus.length) {
-      regle(`Les blocs sont là mais pas dans l'ordre pour le type ${type}. L'ordre est : ${attendus.join(", ")}.`);
+    if (String(path(data, "metadata.principle")) !== "999") {
+      metric("`principle` n'est pas à 999. Comme `order`, il se recalcule à l'intégration.");
     }
   }
 
-  const pourquoi = corpsDuBloc(corps, attendus[2]);
-  if (pourquoi) {
-    const paragraphes = pourquoi.split(/\n\s*\n/).filter((p) => p.trim()).length;
-    if (paragraphes > 4) {
-      regle(
-        `« ${attendus[2]} » a ${paragraphes} paragraphes. Le plafond est quatre. ` +
+  const found = blocks(body);
+  const titles = found.map((b) => b.title);
+  const expected = (BLOCKS_BY_TYPE[type] || BLOCKS_BY_TYPE.principle)
+    .filter((title) => title !== "Depuis ton siège" || titles.includes(title));
+
+  if (titles.join("|") !== expected.join("|")) {
+    const missing = expected.filter((b) => !titles.includes(b));
+    const stray = titles.filter((t) => !expected.includes(t));
+
+    if (missing.length) rule(`Bloc${missing.length > 1 ? "s" : ""} manquant${missing.length > 1 ? "s" : ""} : ${missing.map((m) => `« ${m} »`).join(", ")}.`);
+    if (stray.length) rule(`Bloc${stray.length > 1 ? "s" : ""} qui n'existe${stray.length > 1 ? "nt" : ""} pas dans le format : ${stray.map((m) => `« ${m} »`).join(", ")}.`);
+    if (!missing.length && !stray.length) {
+      rule(`Les blocs sont là mais pas dans l'ordre pour le type ${type}. L'ordre est : ${expected.join(", ")}.`);
+    }
+  }
+
+  const why = blockBody(body, expected[2]);
+  if (why) {
+    const paragraphs = why.split(/\n\s*\n/).filter((p) => p.trim()).length;
+    if (paragraphs > 4) {
+      rule(
+        `« ${expected[2]} » a ${paragraphs} paragraphes. Le plafond est quatre. ` +
           `Une carte qui en demande plus est en général deux cartes sous un seul titre.`
       );
     }
   }
 
-  const sieges = corpsDuBloc(corps, "Depuis ton siège");
-  if (sieges !== null) {
-    const lignes = sieges.split(/\r?\n/).filter((l) => l.trim());
-    if (!lignes.length) regle("« Depuis ton siège » est vide. Ajoute un rôle utile ou omets ce bloc facultatif.");
-    const vus = new Set();
-    lignes.forEach((l) => {
+  const seats = blockBody(body, "Depuis ton siège");
+  if (seats !== null) {
+    const lines = seats.split(/\r?\n/).filter((l) => l.trim());
+    if (!lines.length) rule("« Depuis ton siège » est vide. Ajoute un rôle utile ou omets ce bloc facultatif.");
+    const seen = new Set();
+    lines.forEach((l) => {
       const m = l.match(/^\s*-\s+\*\*(.+?)\*\*\s*:\s*(.*)$/);
       if (!m || !m[1].trim() || !m[2].trim()) {
-        regle(`Une ligne de « Depuis ton siège » n'a pas la forme \`- **Rôle** : geste précis\` : ${l.trim()}`);
+        rule(`Une ligne de « Depuis ton siège » n'a pas la forme \`- **Rôle** : geste précis\` : ${l.trim()}`);
         return;
       }
-      const nom = m[1].trim().toLocaleLowerCase("fr");
-      if (vus.has(nom)) regle(`Le rôle « ${m[1]} » apparaît plusieurs fois dans « Depuis ton siège ».`);
-      vus.add(nom);
+      const name = m[1].trim().toLocaleLowerCase("fr");
+      if (seen.has(name)) rule(`Le rôle « ${m[1]} » apparaît plusieurs fois dans « Depuis ton siège ».`);
+      seen.add(name);
       if (m[2].length > 100) {
-        mesure(`La ligne « ${m[1]} » fait ${m[2].length} caractères après les deux-points. Cent est un repère de concision, pas une limite d'affichage.`);
+        metric(`La ligne « ${m[1]} » fait ${m[2].length} caractères après les deux-points. Cent est un repère de concision, pas une limite d'affichage.`);
       }
     });
   }
 
-  // Rien n'est controle sur « A discuter », et c'est une decision, pas un oubli.
-  //
-  // L'annexe 1 demande une question ouverte a laquelle on ne peut pas repondre
-  // par oui ou non, et qui pointe le passe recent plutot que les intentions.
-  // Deux heuristiques ont ete essayees et les deux ont signale du bon travail.
-  //
-  // Exiger un point d'interrogation rejetait « Cite la derniere decision qu'on
-  // a changee a cause de quelqu'un d'exterieur », qui est un meilleur
-  // declencheur que beaucoup de questions.
-  //
-  // Detecter l'ouverture « Est-ce que » rejetait « Est-ce que quelqu'un ici a
-  // ouvert une pull request sur une de nos dependances ? », qui porte sur un
-  // fait et sur le passe recent, c'est-a-dire le bon motif. Le mauvais exemple
-  // de l'annexe, « Est-ce qu'on est une equipe qui accepte l'erreur ? », porte
-  // sur l'identite. La difference est identite contre fait, et elle ne se lit
-  // pas dans la forme.
-  //
-  // Un controle qui signale du bon travail est pire qu'un controle absent : il
-  // se fait ignorer, et il pousse a ecrire pour la machine. Ce bloc appartient
-  // entierement a la lecture humaine, contre le test 7.
+  // "À discuter" is deliberately unchecked: every heuristic tried flagged good questions.
 
-  const n = mots(corps);
-  if (n > MOTS_SIGNAL) {
-    mesure(
-      `${n} mots hors bloc « Depuis ton siège ». Le signal éditorial va de ${MOTS_PLANCHER} à 500, jusqu'à 550 pour une ` +
+  const n = words(body);
+  if (n > SIGNAL_WORDS) {
+    metric(
+      `${n} mots hors bloc « Depuis ton siège ». Le signal éditorial va de ${MIN_WORDS} à 500, jusqu'à 550 pour une ` +
         `carte qui a besoin de ce développement. ` +
         `Au-delà, une carte est souvent deux cartes sous un seul titre.`
     );
   }
-  if (n < MOTS_PLANCHER) {
-    mesure(
-      `${n} mots hors bloc « Depuis ton siège ». Le repère éditorial bas est de ${MOTS_PLANCHER}. ` +
+  if (n < MIN_WORDS) {
+    metric(
+      `${n} mots hors bloc « Depuis ton siège ». Le repère éditorial bas est de ${MIN_WORDS}. ` +
         `Une carte trop courte est en général un principe sans situation : cherche le moment ` +
         `exact où le comportement apparaît.`
     );
   }
 
-  return { fichier: filename, estUneEntree: true, mots: n, lu, regles, mesures };
+  return { file: filename, isEntry: true, words: n, lu, rules, metrics };
 }
 
-// Le rapport en texte. Il commence par ce qui a ete lu.
-export function rapport(r) {
+export function report(r) {
   const l = [];
 
-  if (r.lu && r.lu.titre) {
-    l.push(`Ce que j'ai lu : ${r.lu.titre}`);
+  if (r.lu && r.lu.title) {
+    l.push(`Ce que j'ai lu : ${r.lu.title}`);
     if (r.lu.phrase) l.push(`  « ${r.lu.phrase} »`);
-    const meta = [r.lu.section, r.lu.auteur ? `écrite par ${r.lu.auteur}` : null, r.estUneEntree ? `${r.mots} mots` : "pas une carte"].filter(Boolean);
+    const meta = [r.lu.section, r.lu.author ? `écrite par ${r.lu.author}` : null, r.isEntry ? `${r.words} mots` : "pas une carte"].filter(Boolean);
     l.push(`  ${meta.join(" · ")}`);
   } else {
-    l.push(`Ce que j'ai lu : ${r.fichier || "un fichier sans titre"}`);
+    l.push(`Ce que j'ai lu : ${r.file || "un fichier sans titre"}`);
   }
 
   l.push("");
 
-  if (!r.regles.length && !r.mesures.length) {
+  if (!r.rules.length && !r.metrics.length) {
     l.push("Le format est propre. Le jugement éditorial reste une lecture humaine.");
     return l.join("\n");
   }
 
-  if (r.regles.length) {
-    l.push(`Les règles du format, ${r.regles.length} à regarder :`);
-    r.regles.forEach((m) => l.push(`  → ${m}`));
+  if (r.rules.length) {
+    l.push(`Les règles du format, ${r.rules.length} à regarder :`);
+    r.rules.forEach((m) => l.push(`  → ${m}`));
     l.push("");
   }
 
-  if (r.mesures.length) {
+  if (r.metrics.length) {
     l.push(`Ce qui n'est qu'une mesure sur le livre existant, et n'engage rien :`);
-    r.mesures.forEach((m) => l.push(`  · ${m}`));
+    r.metrics.forEach((m) => l.push(`  · ${m}`));
     l.push("");
   }
 

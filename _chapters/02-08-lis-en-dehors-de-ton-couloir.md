@@ -3,7 +3,7 @@ layout: chapter
 title: "Lis en dehors de ton couloir"
 part: "Le métier"
 order: 208
-card_type: pratique
+card_type: practice
 metadata:
   principle: "2.08"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - curiosite
   - apprentissage
   - engineering
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-08-read-outside-your-lane.html
 seo:
   description: "Les problèmes se cachent dans les passations. Suis un cas avec la personne d'à côté : une demi-heure suffit à voir le trou."

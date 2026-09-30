@@ -1,0 +1,44 @@
+{% assign e = t.try %}
+{% comment %}try.js moves this block to the end of the "to try" section.{% endcomment %}
+<section class="try" id="try" hidden
+         data-url="{{ page.url | relative_url }}"
+         data-title="{{ page.title | escape }}"
+         data-api="{{ site.api_url }}"
+         data-since="{{ e.since }}"
+         data-thanks="{{ e.thanks }}"
+         data-thanks-local="{{ e.thanks_local }}">
+  <div class="try-buttons">
+    <button type="button" class="try-main" data-try-start>{{ e.start }}</button>
+    <button type="button" data-try-done>{{ e.done }}</button>
+  </div>
+
+  <div class="try-in-progress" hidden>
+    <p data-try-since></p>
+    <button type="button" class="try-main" data-try-summary>{{ e.summary }}</button>
+  </div>
+
+  <form class="try-form" hidden>
+    <fieldset>
+      <legend>{{ e.issue }}</legend>
+      {% for i in e.issues %}<label><input type="radio" name="outcome" value="{{ i.key }}" required> {{ i.text }}</label>
+      {% endfor %}
+    </fieldset>
+    <label class="try-lesson">
+      {{ e.lesson }}
+      <textarea name="lesson" rows="2" maxlength="1000"></textarea>
+    </label>
+    <fieldset>
+      <legend>{{ t.note.question }}</legend>
+      <label><input type="radio" name="helped" value="yes"> {{ t.note.yes }}</label>
+      <label><input type="radio" name="helped" value="partly"> {{ t.note.half }}</label>
+      <label><input type="radio" name="helped" value="no"> {{ t.note.no }}</label>
+    </fieldset>
+    <button type="submit" class="try-main">{{ e.save }}</button>
+  </form>
+
+  <p class="try-thanks" role="status" hidden>
+    <span data-try-thanks></span>
+    <a href="{{ e.dashboard_url }}" data-try-dashboard hidden>→</a>
+    <a href="{{ e.login_url }}" data-try-login hidden>{{ e.login }}</a>
+  </p>
+</section>

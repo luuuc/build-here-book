@@ -3,74 +3,58 @@ description: >-
   Bâtir là où tu es, apprendre de ce que tu changes. Des pratiques pour commencer,
   progresser, développer une équipe et soutenir des builders, avec des exemples
   et des modèles à adapter à ta situation.
-# Pas de sous-chemin commun : le francais vit sous /livre/, l'anglais sous
-# /book/, et les fichiers partages (styles, images) sous /book/assets/.
+# Empty on purpose: French lives under /livre/, English under /book/, shared assets under /book/assets/.
 baseurl: ""
 # Where the "did this help" answers go. A local build can point it at staging.
 api_url: "https://api.build-here.africa"
-url: "https://build-here.africa" # the base hostname & protocol for your site
+url: "https://build-here.africa"
 
-# Author information
 author:
   name: Luc B. Perussault-Diallo
   twitter: lucdiallo
   linkedin: luc-b-perussault-diallo-99525519
 
-# Social/SEO
 twitter_username: lucdiallo
 github_username: luuuc
 repository: luuuc/build-here-book
 locale: fr_FR
 theme_color: "#0f1319"
 
-# Les langues.
-#
-# `lang_defaut` est la langue d'une page qui n'en declare pas : le francais,
-# qui vit a la racine. Une page anglaise pose `lang: en` dans son front matter,
-# et les entrees de _chapters_en l'heritent par `defaults` plus bas.
-#
-# `langues` alimente le selecteur de l'en-tete. `racine` est l'adresse ou
-# commence chaque version ; `locale` part dans les balises Open Graph.
-# `couverture` et `og_image` sont les images de la langue, tirees de _cover.
-lang_defaut: fr
-langues:
+# Pages without `lang` are French. English pages set `lang: en`; _chapters_en gets it from `defaults`.
+# _config-pdf-en.yml switches default_lang for the English print build.
+default_lang: fr
+languages:
   - code: fr
-    nom: "Français"
-    racine: "/livre/"
+    name: "Français"
+    root: "/livre/"
     locale: fr_FR
-    couverture: /book/assets/images/couverture.png
+    cover: /book/assets/images/couverture.png
     og_image: /book/assets/images/build-here-og.png
     description: >-
       Bâtir là où tu es, apprendre de ce que tu changes. Des pratiques pour commencer,
       progresser, développer une équipe et soutenir des builders, avec des exemples
       et des modèles à adapter à ta situation.
   - code: en
-    nom: "English"
-    racine: "/book/"
+    name: "English"
+    root: "/book/"
     locale: en_US
-    couverture: /book/assets/images/cover.png
+    cover: /book/assets/images/cover.png
     og_image: /book/assets/images/build-here-og-en.png
     description: >-
       Build where you are, learn from what you change. Practices to get started,
       get better, grow a team and back other builders, with examples and templates
       to adapt to your own situation.
 
-# Ruban d'angle affiche sur toutes les pages du site. La valeur est le texte
-# affiche ; vider la ligne, ou la supprimer, retire le ruban partout d'un coup.
-# Le PDF et l'EPUB ne sont pas concernes : les pages de _pdf sont en layout none
-# et n'incluent pas l'en-tete.
+# Corner banner on every site page (not the PDF/EPUB). Empty it to remove it.
 draft_banner: "work in progress"
 
 # Google Analytics (leave blank to disable)
 google_analytics: G-044F0FSRYM
 
-# Open Graph defaults
 og_image: /book/assets/images/build-here-og.png
 
 collections:
-  # Chaque langue a ses propres mots dans l'adresse : /livre/chapitres/ pour
-  # le francais, /book/chapters/ pour l'anglais. Le Worker book-proxy renvoie
-  # les anciennes adresses (/book/chapters/ en francais, /book/en/) ici.
+  # French keeps the unsuffixed "chapters": renaming it would change every published URL.
   chapters:
     output: true
     sort_by: order
@@ -80,10 +64,7 @@ collections:
     sort_by: order
     permalink: /book/chapters/:path:output_ext
 
-# Les entrees anglaises heritent leur langue. Les pages anglaises, elles,
-# posent `lang: en` dans leur front matter : un `scope.path` de « en » est un
-# prefixe de chaine chez Jekyll, il attraperait un fichier racine qui commence
-# par ces deux lettres.
+# Don't scope by `path: en`: Jekyll matches it as a string prefix and would catch any root file starting with "en".
 defaults:
   - scope:
       path: ""
@@ -93,38 +74,30 @@ defaults:
 
 kramdown:
   footnote_backlink: ""
-  # Le livre ecrit une idee par ligne : les blocs de fleches, les deux boucles
-  # de l'ouverture et de la cloture. Sans hard_wrap, kramdown recolle ces lignes
-  # en un seul paragraphe et le rythme disparait.
+  # The book writes one idea per line; without this kramdown joins the lines into one paragraph.
   hard_wrap: true
 
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
-# Include dot-directories (for .well-known)
 include:
   - .well-known
 
-# Sources et sorties de travail qui ne font pas partie du site. `build/` doit
-# rester exclu : il contient une copie du site destinée aux tirages et, sans
-# cette ligne, Jekyll la recopie dans `_site/build/site` puis l'indexe.
+# `build/` holds a copy of the site for the print builds; without this Jekyll copies it into _site.
 exclude:
   - build
   - CITATION.cff
   - docs
-  - _brouillon
+  - _wip
   - worker
   - bin
   - vendor
   - Gemfile
   - Gemfile.lock
 
-# Les deux tirages, publies par .github/workflows/book.yml sur la release qui
-# porte book.version. « latest » suit toujours la derniere publiee : ces deux
-# adresses n'ont jamais besoin d'etre mises a jour.
-# Un tirage par langue. Le fichier anglais porte son code dans son nom, le
-# francais garde le sien : les adresses deja imprimees restent valables.
+# Released by .github/workflows/book.yml; "latest" always points to the newest release.
+# French file names have no suffix so already printed links keep working.
 downloads:
   fr:
     pdf: "https://github.com/luuuc/build-here-book/releases/latest/download/build-here.pdf"
@@ -132,17 +105,13 @@ downloads:
   en:
     pdf: "https://github.com/luuuc/build-here-book/releases/latest/download/build-here-en.pdf"
     epub: "https://github.com/luuuc/build-here-book/releases/latest/download/build-here-en.epub"
-  # Amazon n'ouvre pas d'API pour deposer un fichier dans une liseuse.
-  # C'est son propre outil d'envoi, ou le lecteur depose l'EPUB telecharge.
+  # No Kindle upload API: readers send the downloaded EPUB with Amazon's own tool.
   kindle: "https://www.amazon.com/sendtokindle"
 
-# Book metadata for AI parsing
 book:
   published: "2026-09-08"
   modified: "2026-09-21"
-  # Numero de secours, pour un tirage local. Le numero publie vient du tag :
-  # .github/workflows/book.yml lit le plus haut tag et ajoute un au dernier
-  # nombre, puis l'injecte dans le build.
+  # Fallback for local builds. Releases use the next git tag (see .github/workflows/book.yml).
   version: "0.9.0"
   license: "https://creativecommons.org/licenses/by-sa/4.0/"
   language: "fr-FR"

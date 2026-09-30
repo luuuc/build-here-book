@@ -3,7 +3,7 @@ layout: chapter
 title: "Une audience met plus de temps à se construire qu'un produit"
 part: "La compréhension"
 order: 411
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.11"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - visibilite
   - distribution
   - marketing
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-11-an-audience-takes-longer-to-build-than-a-product.html
 seo:
   description: "Un produit se construit en semaines, une audience en mois. Commence à partager le jour où tu commences à construire."

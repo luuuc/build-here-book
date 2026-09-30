@@ -2,28 +2,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 {%- comment -%}
-  La politique de securite du contenu.
-
-  Elle est posee en `meta` faute d'un autre endroit : le site est servi par
-  GitHub Pages, en DNS seul, donc personne sur le chemin ne peut ajouter un
-  en-tete. Un `meta` s'applique quand meme, a condition d'arriver avant ce
-  qu'il gouverne, d'ou sa place tout en haut.
-
-  `script-src` n'a pas 'unsafe-inline', et c'est tout son interet. Avec lui,
-  une URL `javascript:` et un attribut `onclick` injectes passeraient, et la
-  politique ne protegerait de rien. C'est la raison pour laquelle le script de
-  Google Analytics vit dans /book/assets/javascripts/ga.js au lieu de la page. Les
-  blocs `application/ld+json` plus bas ne sont pas du script execute, ils ne
-  sont pas concernes.
-
-  Deux limites a connaitre. `frame-ancestors` est ignore dans un `meta`, donc
-  rien ici n'empeche la mise en cadre : ca demanderait un vrai en-tete, et il
-  faudrait passer le site derriere le proxy Cloudflare pour en poser un.
-  Enfin, `upgrade-insecure-requests` n'est ajoute qu'en production. Safari
-  applique la directive meme a localhost, la ou les autres navigateurs font
-  une exception : en developpement, /book/assets/style.css devient
-  https://localhost:4000/assets/style.css et rien ne se charge. Le site
-  publie, lui, garde la directive entiere.
+  CSP goes in a meta tag (GitHub Pages can't set headers), so it must stay first.
+  No 'unsafe-inline' in script-src: keep scripts in files (see ga.js).
+  upgrade-insecure-requests is production-only: Safari applies it to localhost too.
 {%- endcomment -%}
 {%- assign csp = "default-src 'none'; script-src 'self' https://www.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.googletagmanager.com https://www.google-analytics.com; connect-src 'self' https://api.build-here.africa https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com; form-action 'self'; base-uri 'none'; manifest-src 'self'" -%}
 {%- assign csp = csp | replace: "https://api.build-here.africa", site.api_url -%}
@@ -32,15 +13,10 @@
 {%- endif -%}
 <meta http-equiv="Content-Security-Policy" content="{{ csp }}" />
 
-{%- comment -%}
-  Ce que les autres sites apprennent quand on clique un lien d'ici : le
-  domaine, jamais l'entree qui etait ouverte.
-{%- endcomment -%}
 <meta name="referrer" content="strict-origin-when-cross-origin" />
 
 <title>{{ page.title }} | {{ site.title }}</title>
 
-<!-- Description and Keywords -->
 {% assign meta_desc = page.seo.description | default: page.description | default: description_site %}
 {% if meta_desc %}
 <meta name="description" content="{{ meta_desc | escape }}" />
@@ -50,26 +26,21 @@
 <meta name="keywords" content="{{ meta_keywords | escape }}" />
 {% endif %}
 
-<!-- Author -->
 <meta name="author" content="{{ site.author.name | escape }}" />
 <link rel="author" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" />
 
-<!-- Robots -->
 <meta name="robots" content="index, follow" />
 
-<!-- Theme Color (browser UI on mobile) -->
 <meta name="theme-color" content="{{ site.theme_color | default: '#1a1a2e' | escape }}" />
 
-<!-- Open Graph (Facebook, LinkedIn) -->
 <meta property="og:site_name" content="{{ site.title | escape }}" />
 <meta property="og:title" content="{{ page.title | escape }}" />
 <meta property="og:description" content="{{ page.seo.description | default: page.description | default: description_site | escape }}" />
 <meta property="og:url" content="{{ page.url | absolute_url | escape }}" />
 <meta property="og:type" content="{% if page.layout == 'chapter' %}article{% else %}website{% endif %}" />
-<meta property="og:locale" content="{{ langue_courante.locale | default: site.locale | escape }}" />
-<meta property="og:image" content="{{ page.og_image | default: langue_courante.og_image | default: site.og_image | absolute_url | escape }}" />
+<meta property="og:locale" content="{{ current_language.locale | default: site.locale | escape }}" />
+<meta property="og:image" content="{{ page.og_image | default: current_language.og_image | default: site.og_image | absolute_url | escape }}" />
 
-<!-- Article-specific Open Graph (for chapters) -->
 {% if page.layout == 'chapter' %}
 <meta property="article:author" content="https://www.linkedin.com/in/{{ site.author.linkedin }}" />
 <meta property="article:section" content="{{ page.part | escape }}" />
@@ -77,15 +48,13 @@
 <meta property="article:modified_time" content="{{ page.last_modified_at | date: "%Y-%m-%d" | default: site.book.modified | escape }}" />
 {% endif %}
 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@{{ site.twitter_username }}" />
 <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
 <meta name="twitter:title" content="{{ page.title | escape }}" />
 <meta name="twitter:description" content="{{ page.seo.description | default: page.description | default: description_site | escape }}" />
-<meta name="twitter:image" content="{{ page.og_image | default: langue_courante.og_image | default: site.og_image | absolute_url | escape }}" />
+<meta name="twitter:image" content="{{ page.og_image | default: current_language.og_image | default: site.og_image | absolute_url | escape }}" />
 
-<!-- Structured Data (JSON-LD) - Main Content -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -94,13 +63,13 @@
   "headline": {{ page.title | jsonify }},
   "description": {{ page.seo.description | default: page.description | default: description_site | jsonify }},
   "url": {{ page.url | absolute_url | jsonify }},
-  "inLanguage": {{ langue_courante.locale | replace: '_', '-' | default: site.book.language | jsonify }},
+  "inLanguage": {{ current_language.locale | replace: '_', '-' | default: site.book.language | jsonify }},
   "datePublished": {{ site.book.published | jsonify }},
   "dateModified": {{ page.last_modified_at | date: "%Y-%m-%d" | default: site.book.modified | jsonify }},
   {% if page.layout == 'chapter' and page.metadata.reading_time_in_minutes %}
   "timeRequired": "PT{{ page.metadata.reading_time_in_minutes }}M",
   {% endif %}
-  "author": {% include auteur-json.html %},
+  "author": {% include author-json.html %},
   "publisher": {
     "@type": "Person",
     "name": {{ site.author.name | jsonify }}
@@ -114,10 +83,10 @@
       "@type": "Person",
       "name": {{ site.author.name | jsonify }}
     },
-    "url": "{{ site.url }}{{ t.menu.livre_url }}",
+    "url": "{{ site.url }}{{ t.menu.book_url }}",
     "sameAs": "https://github.com/{{ site.repository }}",
     "bookFormat": "https://schema.org/EBook",
-    "inLanguage": {{ langue_courante.locale | replace: '_', '-' | default: site.book.language | jsonify }},
+    "inLanguage": {{ current_language.locale | replace: '_', '-' | default: site.book.language | jsonify }},
     "license": {{ site.book.license | jsonify }}
   }
   {% if page.layout == 'chapter' %}{% if page.part %},
@@ -127,7 +96,6 @@
 }
 </script>
 
-<!-- Structured Data (JSON-LD) - Breadcrumb -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -144,7 +112,7 @@
       "@type": "ListItem",
       "position": 2,
       "name": {{ page.part | jsonify }},
-      "item": "{{ site.url }}{{ t.menu.livre_url }}#{{ page.part | slugify }}"
+      "item": "{{ site.url }}{{ t.menu.book_url }}#{{ page.part | slugify }}"
     },
     {
       "@type": "ListItem",
@@ -174,29 +142,28 @@
 }
 </script>
 
-<!-- Structured Data (JSON-LD) - Book (sur la page du livre) -->
-{% if page.url == t.menu.livre_url %}
+{% if page.url == t.menu.book_url %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Book",
   "name": {{ site.title | jsonify }},
   "description": {{ description_site | jsonify }},
-  "url": "{{ site.url }}{{ t.menu.livre_url }}",
-  "inLanguage": {{ langue_courante.locale | replace: '_', '-' | default: site.book.language | jsonify }},
+  "url": "{{ site.url }}{{ t.menu.book_url }}",
+  "inLanguage": {{ current_language.locale | replace: '_', '-' | default: site.book.language | jsonify }},
   "datePublished": {{ site.book.published | jsonify }},
   "dateModified": {{ site.book.modified | jsonify }},
   "sameAs": "https://github.com/{{ site.repository }}",
   "bookFormat": "https://schema.org/EBook",
   "isAccessibleForFree": true,
   "license": {{ site.book.license | jsonify }},
-  "author": {% include auteur-json.html %},
+  "author": {% include author-json.html %},
   "publisher": {
     "@type": "Person",
     "name": {{ site.author.name | jsonify }}
   },
   "hasPart": [
-    {% for chapter in livre %}
+    {% for chapter in book %}
     {
       "@type": "Chapter",
       "name": {{ chapter.title | jsonify }},
@@ -209,7 +176,6 @@
 </script>
 {% endif %}
 
-<!-- Structured Data (JSON-LD) - FAQPage -->
 {% if page.faq_schema and page.faq_items %}
 <script type="application/ld+json">
 {
@@ -231,18 +197,11 @@
 </script>
 {% endif %}
 
-<!-- Stylesheets
-
-     Les jetons d'abord, les composants ensuite, la feuille actuelle en
-     dernier : tant que la refonte n'est pas passee page par page, style.css
-     garde le dernier mot sur les deux classes que les deux fichiers
-     connaissent, `.rail` et `.hero`. Rien ne bouge a l'ecran aujourd'hui.
-     Les deux premiers viennent du systeme de design, voir leur en-tete. -->
+{% comment %}Order matters: style.css loads last so it wins over bundle.css on shared classes (.rail, .hero).{% endcomment %}
 <link rel="stylesheet" href="/book/assets/stylesheets/tokens.css" />
 <link rel="stylesheet" href="/book/assets/stylesheets/bundle.css" />
 <link rel="stylesheet" href="/book/assets/stylesheets/style.css" />
 
-<!-- Favicons -->
 <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="shortcut icon" href="/favicon.ico" />
@@ -250,26 +209,19 @@
 <meta name="apple-mobile-web-app-title" content="{{ site.title | escape }}" />
 <link rel="manifest" href="/site.webmanifest" />
 
-<!-- Canonical URL -->
 <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
-{%- comment -%}
-  Les autres langues de cette page. `traductions` est une carte code -> adresse
-  posee dans le front matter ; sans elle, la page n'a pas de jumelle et rien
-  n'est annonce. Mieux vaut aucun hreflang qu'un hreflang qui ment.
-{%- endcomment -%}
-{%- if page.traductions %}
+{%- if page.translations %}
 <link rel="alternate" hreflang="{{ lang }}" href="{{ page.url | absolute_url }}" />
-{%- for paire in page.traductions %}
-<link rel="alternate" hreflang="{{ paire[0] }}" href="{{ paire[1] | absolute_url }}" />
+{%- for pair in page.translations %}
+<link rel="alternate" hreflang="{{ pair[0] }}" href="{{ pair[1] | absolute_url }}" />
 {%- endfor %}
 {%- endif %}
 
-<!-- Machine-readable book structure -->
-<link rel="alternate" type="application/json" title="Book Structure" href="{{ langue_courante.racine | append: 'book.json' | absolute_url }}" />
-<link rel="alternate" type="text/plain" title="llms.txt" href="{{ langue_courante.racine | append: 'llms.txt' | absolute_url }}" />
+<link rel="alternate" type="application/json" title="Book Structure" href="{{ current_language.root | append: 'book.json' | absolute_url }}" />
+<link rel="alternate" type="text/plain" title="llms.txt" href="{{ current_language.root | append: 'llms.txt' | absolute_url }}" />
 {%- if page.collection %}
-{%- comment -%}La meme carte en markdown, ecrite par _plugins/llms_full.rb.{%- endcomment -%}
+{%- comment -%}Markdown copy written by _plugins/llms_full.rb.{%- endcomment -%}
 {%- if page.url contains '.html' %}{% assign md = page.url | replace: '.html', '.md' %}{% else %}{% assign md = page.url | append: 'index.md' %}{% endif %}
 <link rel="alternate" type="text/markdown" href="{{ md | absolute_url }}" />
 {%- endif %}

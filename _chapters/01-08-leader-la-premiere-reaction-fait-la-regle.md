@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ La première réaction fait la règle"
 part: "L'état d'esprit"
 order: 108
-card_type: systeme
+card_type: system
 metadata:
   principle: "1.08"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - ownership
   - responsabilite
   - execution
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/01-08-the-first-reaction-sets-the-rule.html
 seo:
   description: "Ta réaction à la première initiative fixe la règle pour toute l'équipe. Commence par le but, pas par l'autorisation."

@@ -3,7 +3,7 @@ layout: chapter
 title: "Parle à la personne qui a le problème"
 part: "La compréhension"
 order: 401
-card_type: pratique
+card_type: practice
 metadata:
   principle: "4.01"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - client
   - support
   - produit
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-01-talk-to-the-person-who-has-the-problem.html
 seo:
   description: "Un résumé sélectionne. Parle à la personne qui vit le problème : les chiffres disent combien, la conversation dit comment."

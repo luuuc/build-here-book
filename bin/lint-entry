@@ -1,0 +1,59 @@
+#!/usr/bin/env node
+// Runs the card rules from bin/lint.mjs on files.
+//
+//   bin/lint-entry                   whole book
+//   bin/lint-entry [--new] FILE...   given cards; --new expects order fields at 999
+
+import { readFileSync, readdirSync } from "node:fs";
+import { join, resolve, basename } from "node:path";
+import { check, report } from "./lint.mjs";
+
+const root = new URL("..", import.meta.url).pathname;
+
+// No YAML parser: section names are the 4-space-indented list items.
+const toc = readFileSync(join(root, "_data/fr/toc.yml"), "utf8");
+const sections = toc
+  .split(/\r?\n/)
+  .filter((l) => /^\s{4}-\s+/.test(l))
+  .map((l) => l.replace(/^\s{4}-\s+/, "").trim());
+
+const fresh = process.argv.includes("--new");
+const args = process.argv.slice(2).filter((a) => a !== "--new");
+const files = args.length
+  ? args
+  : readdirSync(join(root, "_chapters"))
+      .filter((f) => f.endsWith(".md"))
+      .sort()
+      .map((f) => join("_chapters", f));
+
+let withRules = 0;
+let withMetrics = 0;
+const dirty = [];
+
+for (const f of files) {
+  // resolve, not join: args may be absolute paths.
+  const source = readFileSync(resolve(root, f), "utf8");
+  const r = check({ filename: basename(f), source, sections, fresh });
+
+  if (r.rules.length) withRules++;
+  if (r.metrics.length) withMetrics++;
+
+  if (args.length) {
+    console.log(report(r));
+    console.log();
+    continue;
+  }
+
+  if (r.rules.length || r.metrics.length) {
+    dirty.push(f);
+    console.log(`\n${"=".repeat(70)}\n${f}\n${"=".repeat(70)}`);
+    console.log(report(r));
+  }
+}
+
+if (!args.length) {
+  console.log(`\n${"-".repeat(70)}`);
+  console.log(`${files.length} fichiers lus. ${sections.length} sections déclarées.`);
+  console.log(`${withRules} avec au moins une règle à regarder, ${withMetrics} avec une mesure.`);
+  console.log(`${files.length - dirty.length} propres.`);
+}

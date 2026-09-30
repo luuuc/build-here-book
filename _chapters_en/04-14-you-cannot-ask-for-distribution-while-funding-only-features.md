@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ You cannot ask for distribution while funding only features"
 part: "Understanding"
 order: 414
-card_type: systeme
+card_type: system
 metadata:
   principle: "4.14"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - visibilite
   - distribution
   - marketing
-traductions:
+translations:
   fr: /livre/chapitres/04-14-leader-on-ne-demande-pas-de-la-distribution-en-ne-financant-que-des-fonctionnalites.html
 seo:
   description: "If the schedule only funds features, you get features. Plan distribution like you plan building."

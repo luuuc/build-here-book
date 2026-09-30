@@ -3,7 +3,7 @@ layout: chapter
 title: "Nobody has written down what you know how to do"
 part: "Being the reference"
 order: 1008
-card_type: principe
+card_type: principle
 metadata:
   principle: "10.08"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - reference
   - trace
   - contexte
-traductions:
+translations:
   fr: /livre/chapitres/10-08-personne-na-ecrit-ce-que-tu-sais-faire.html
 seo:
   description: "What you have learned to make work here is missing almost everywhere. Write it down, with its conditions, and publish it."

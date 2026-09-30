@@ -3,7 +3,7 @@ layout: chapter
 title: "Being wrong is free. Staying wrong is expensive"
 part: "The mindset"
 order: 104
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.04"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - ego
   - honnetete-intellectuelle
   - culture
-traductions:
+translations:
   fr: /livre/chapitres/01-04-avoir-tort-ne-coute-rien-le-rester-coute-cher.html
 seo:
   description: "Being wrong costs nothing. Carrying on after you have seen the signal costs more every day."

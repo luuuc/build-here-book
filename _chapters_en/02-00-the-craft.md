@@ -13,7 +13,7 @@ categories:
   - metier
   - apprentissage
   - builders
-traductions:
+translations:
   fr: /livre/chapitres/02-00-le-metier.html
 seo:
   description: "Raise your level in your trade: go to the source, don't stop at the first answer, read outside your lane, keep it simple."

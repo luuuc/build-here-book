@@ -3,7 +3,7 @@ layout: chapter
 title: "If you don't understand why, you are not ready to build it"
 part: "Autonomy"
 order: 303
-card_type: principe
+card_type: principle
 metadata:
   principle: "3.03"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - curiosite
   - apprentissage
   - engineering
-traductions:
+translations:
   fr: /livre/chapitres/03-03-si-tu-ne-comprends-pas-pourquoi-tu-nes-pas-pret-a-le-construire.html
 seo:
   description: "Ask for whom and why. If the answer stays vague, a one-hour version shown to the person answers faster than a meeting."

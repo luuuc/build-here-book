@@ -3,7 +3,7 @@ layout: chapter
 title: "Ownership starts where the job description stops"
 part: "The mindset"
 order: 103
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.03"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - ownership
   - responsabilite
   - execution
-traductions:
+translations:
   fr: /livre/chapitres/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html
 seo:
   description: "The most expensive problems live between two job descriptions. Sort the case in front of you and name who takes it next."

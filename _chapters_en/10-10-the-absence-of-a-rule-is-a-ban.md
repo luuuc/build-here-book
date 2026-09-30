@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ The absence of a rule is a ban"
 part: "Being the reference"
 order: 1010
-card_type: systeme
+card_type: system
 metadata:
   principle: "10.10"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - trace
   - leadership
   - visibilite
-traductions:
+translations:
   fr: /livre/chapitres/10-10-leader-labsence-de-regle-est-une-interdiction.html
 seo:
   description: "With no written rule, everyone guesses cautious and nothing goes out. Write on one page what is shared by default."

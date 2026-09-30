@@ -3,7 +3,7 @@ layout: chapter
 title: "Publish where people search"
 part: "Being the reference"
 order: 1006
-card_type: pratique
+card_type: practice
 metadata:
   principle: "10.06"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - visibilite
   - distribution
   - trace
-traductions:
+translations:
   fr: /livre/chapitres/10-06-publie-la-ou-on-cherche.html
 seo:
   description: "A resource nobody finds does not exist. Publish where your readers search, AI assistants included, in their words."

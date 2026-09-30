@@ -1,0 +1,163 @@
+#!/usr/bin/env python3
+"""Reads a chapter aloud with the reference voice and writes audio/<chapter>.mp3."""
+
+import argparse
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+OUTPUT = ROOT / "audio"
+
+# Pauses, in seconds.
+PAUSE_TITLE = 0.7
+PAUSE_PARAGRAPH = 0.4
+PAUSE_CHUNK = 0.15
+
+CHUNK_SIZE = 280
+
+# The model reads too fast; atempo slows it without changing pitch.
+RATE = 0.92
+
+
+def strip_front_matter(raw):
+    if not raw.startswith("---"):
+        return raw, ""
+    end = raw.find("\n---", 3)
+    if end == -1:
+        return raw, ""
+    header = raw[3:end]
+    title = re.search(r'^title:\s*"?(.*?)"?\s*$', header, re.M)
+    return raw[end + 4:], title.group(1) if title else ""
+
+
+def clean(line):
+    line = re.sub(r"\{%.*?%\}", "", line)
+    line = re.sub(r"\{\{.*?\}\}", "", line)
+    line = re.sub(r"!\[[^\]]*\]\([^)]*\)", "", line)
+    line = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", line)
+    line = re.sub(r"^\s*[-*+]\s+", "", line)
+    line = re.sub(r"^\s*>\s?", "", line)
+    line = re.sub(r"[*_`]+", "", line)
+    return line.strip()
+
+
+def blocks(path):
+    raw = path.read_text(encoding="utf-8")
+    body, title = strip_front_matter(raw)
+
+    output = []
+    if title:
+        output.append((title, PAUSE_TITLE))
+
+    paragraph = []
+
+    def flush():
+        if paragraph:
+            output.append((" ".join(paragraph), PAUSE_PARAGRAPH))
+            paragraph.clear()
+
+    for line in body.splitlines():
+        bare = line.strip()
+        if not bare or re.fullmatch(r"[-*_]{3,}", bare):
+            flush()
+            continue
+        header = re.match(r"#{1,6}\s+(.*)", bare)
+        if header:
+            flush()
+            text = clean(header.group(1))
+            if text:
+                output.append((text, PAUSE_TITLE))
+            continue
+        text = clean(line)
+        if text:
+            paragraph.append(text)
+        else:
+            flush()
+    flush()
+    return output
+
+
+def chunks(text):
+    if len(text) <= CHUNK_SIZE:
+        return [text]
+    pieces = []
+    current = ""
+    for phrase in re.split(r"(?<=[.!?…])\s+", text):
+        if current and len(current) + len(phrase) + 1 > CHUNK_SIZE:
+            pieces.append(current)
+            current = phrase
+        else:
+            current = f"{current} {phrase}".strip()
+    if current:
+        pieces.append(current)
+    return pieces
+
+
+def split(path):
+    """Returns [(text to speak, pause after)]."""
+    final = []
+    for text, pause in blocks(path):
+        pieces = chunks(text)
+        for i, piece in enumerate(pieces):
+            last = i == len(pieces) - 1
+            final.append((piece, pause if last else PAUSE_CHUNK))
+    return final
+
+
+def read(path, voice, device):
+    import torch
+    import torchaudio
+    from chatterbox.mtl_tts import ChatterboxMultilingualTTS
+
+    parts = split(path)
+    total = len(parts)
+    print(f"{path.name} : {total} morceaux", flush=True)
+
+    model = ChatterboxMultilingualTTS.from_pretrained(device=device)
+
+    tracks = []
+    for i, (text, pause) in enumerate(parts, 1):
+        print(f"  [{i}/{total}] {text[:60]}...", flush=True)
+        wav = model.generate(text, language_id="fr", audio_prompt_path=str(voice))
+        tracks.append(wav.cpu())
+        if pause:
+            tracks.append(torch.zeros(1, int(pause * model.sr)))
+
+    OUTPUT.mkdir(exist_ok=True)
+    raw = OUTPUT / f"{path.stem}.wav"
+    mp3 = OUTPUT / f"{path.stem}.mp3"
+    torchaudio.save(str(raw), torch.cat(tracks, dim=1), model.sr)
+    subprocess.run(
+        ["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw),
+         "-filter:a", f"atempo={RATE}", "-b:a", "96k", str(mp3)],
+        check=True,
+    )
+    raw.unlink()
+    print(f"-> {mp3}")
+
+
+def main():
+    a = argparse.ArgumentParser(description=__doc__)
+    a.add_argument("chapter", type=Path)
+    a.add_argument("--voice", type=Path, default=Path.home() / "Desktop" / "voix-ref-airpods.wav")
+    a.add_argument("--device", default="mps")
+    a.add_argument("--text-only", action="store_true", help="affiche le texte sans generer")
+    args = a.parse_args()
+
+    if not args.chapter.exists():
+        sys.exit(f"introuvable : {args.chapter}")
+
+    if args.text_only:
+        for text, pause in split(args.chapter):
+            print(f"[{pause}s] {text}")
+        return
+
+    if not args.voice.exists():
+        sys.exit(f"voix de reference introuvable : {args.voice}")
+    read(args.chapter, args.voice, args.device)
+
+
+if __name__ == "__main__":
+    main()

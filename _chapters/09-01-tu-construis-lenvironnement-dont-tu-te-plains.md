@@ -11,8 +11,7 @@ categories:
   - leadership
   - decision
   - management
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/09-01-you-build-the-environment-you-complain-about.html
 seo:
   description: "Une équipe tourne sur les conséquences observées, pas sur les valeurs affichées. Regarde ce qui est arrivé aux trois dernières propositions."

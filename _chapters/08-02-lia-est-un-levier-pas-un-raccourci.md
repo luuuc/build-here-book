@@ -3,7 +3,7 @@ layout: chapter
 title: "L'IA est un levier, pas un raccourci"
 part: "Le levier"
 order: 802
-card_type: pratique
+card_type: practice
 metadata:
   principle: "8.02"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - levier
   - ia
   - impact
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/08-02-ai-is-leverage-not-a-shortcut.html
 seo:
   description: "L'IA permet à chaque métier de construire hors de son couloir. Elle multiplie ton jugement, ou tes erreurs."

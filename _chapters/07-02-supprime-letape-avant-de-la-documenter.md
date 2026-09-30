@@ -3,7 +3,7 @@ layout: chapter
 title: "Supprime l'étape avant de la documenter"
 part: "Les systèmes"
 order: 702
-card_type: pratique
+card_type: practice
 metadata:
   principle: "7.02"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - systemes
   - process
   - simplicite
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/07-02-delete-the-step-before-you-document-it.html
 seo:
   description: "Documenter une étape inutile, c'est la rendre permanente. Demande ce qu'elle produit avant de l'écrire."

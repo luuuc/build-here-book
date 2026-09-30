@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Si avoir tort coûte du statut, plus personne n'aura tort à voix haute"
 part: "L'état d'esprit"
 order: 110
-card_type: systeme
+card_type: system
 metadata:
   principle: "1.10"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - ego
   - honnetete-intellectuelle
   - culture
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/01-10-if-being-wrong-costs-status-nobody-will-be-wrong-out-loud.html
 seo:
   description: "Si signaler une erreur coûte du statut, tu l'apprendras par les clients. Rends l'alerte sûre et rapide."

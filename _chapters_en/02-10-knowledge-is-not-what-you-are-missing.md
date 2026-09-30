@@ -3,7 +3,7 @@ layout: chapter
 title: "Knowledge is not what you are missing"
 part: "The craft"
 order: 210
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.10"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - apprentissage
   - open-source
   - niveau
-traductions:
+translations:
   fr: /livre/chapitres/02-10-le-savoir-nest-pas-ce-qui-te-manque.html
 seo:
   description: "Knowledge has never been easier to reach, AI included. What is missing is the precise question, the practice, or the feedback."

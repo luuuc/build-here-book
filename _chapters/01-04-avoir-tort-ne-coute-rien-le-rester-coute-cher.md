@@ -3,7 +3,7 @@ layout: chapter
 title: "Avoir tort ne coûte rien. Le rester coûte cher"
 part: "L'état d'esprit"
 order: 104
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.04"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - ego
   - honnetete-intellectuelle
   - culture
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/01-04-being-wrong-is-free-staying-wrong-is-expensive.html
 seo:
   description: "Avoir eu tort ne coûte rien. Continuer après avoir vu le signal coûte chaque jour plus cher."

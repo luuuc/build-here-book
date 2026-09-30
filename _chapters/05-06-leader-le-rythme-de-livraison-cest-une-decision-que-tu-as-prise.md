@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Le rythme de livraison, c'est une décision que tu as prise"
 part: "La livraison"
 order: 506
-card_type: systeme
+card_type: system
 metadata:
   principle: "5.06"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - execution
   - livraison
   - produit
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/05-06-your-delivery-rhythm-is-a-decision-you-made.html
 seo:
   description: "Le rythme de livraison vient du parcours que tu as mis en place. Raccourcis les attentes : livrer petit et souvent réduit le risque."

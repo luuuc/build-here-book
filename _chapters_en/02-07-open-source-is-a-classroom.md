@@ -3,7 +3,7 @@ layout: chapter
 title: "Open source is a classroom"
 part: "The craft"
 order: 207
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.07"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - apprentissage
   - open-source
   - niveau
-traductions:
+translations:
   fr: /livre/chapitres/02-07-lopen-source-est-une-salle-de-classe.html
 seo:
   description: "An open project shows the reasoning, not just the result. Read one decision, then contribute."

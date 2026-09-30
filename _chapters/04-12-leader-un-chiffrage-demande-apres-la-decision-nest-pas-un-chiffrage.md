@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Un chiffrage demandé après la décision n'est pas un chiffrage"
 part: "La compréhension"
 order: 412
-card_type: systeme
+card_type: system
 metadata:
   principle: "4.12"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - technologie
   - business
   - strategie
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-12-an-estimate-asked-for-after-the-decision-is-not-an-estimate.html
 seo:
   description: "Une estimation demandée après la promesse est une demande de confirmation. Demande les options avant de promettre."

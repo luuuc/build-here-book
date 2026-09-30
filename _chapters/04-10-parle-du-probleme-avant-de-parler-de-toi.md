@@ -3,7 +3,7 @@ layout: chapter
 title: "Parle du problème avant de parler de toi"
 part: "La compréhension"
 order: 410
-card_type: pratique
+card_type: practice
 metadata:
   principle: "4.10"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - visibilite
   - distribution
   - marketing
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-10-talk-about-the-problem-before-you-talk-about-yourself.html
 seo:
   description: "Personne ne lit ton histoire avant de savoir si tu parles de son problème. Ouvre par une situation vraie qu'il reconnaît."

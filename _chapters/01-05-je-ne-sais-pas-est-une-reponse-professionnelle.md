@@ -3,7 +3,7 @@ layout: chapter
 title: "\"Je ne sais pas\" est une réponse professionnelle"
 part: "L'état d'esprit"
 order: 105
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.05"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - ego
   - honnetete-intellectuelle
   - culture
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/01-05-i-dont-know-is-a-professional-answer.html
 seo:
   description: "Une réponse fausse mais plausible est plus dangereuse qu'une absence de réponse, parce qu'elle voyage. Quelqu'un la répète en réunion. Elle atterrit dans un document."

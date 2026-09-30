@@ -3,7 +3,7 @@ layout: chapter
 title: "Écris ce qui a cassé"
 part: "Les systèmes"
 order: 706
-card_type: pratique
+card_type: practice
 metadata:
   principle: "7.06"
   reading_time_in_minutes: 2
@@ -12,8 +12,7 @@ categories:
   - postmortem
   - incident
   - apprentissage
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/07-06-write-down-what-broke.html
 seo:
   description: "Sans trace, le même incident revient. Écris une page dans la semaine, et publie-la quand elle peut servir à d'autres."

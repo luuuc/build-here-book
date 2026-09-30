@@ -11,7 +11,7 @@ categories:
   - produit
   - client
   - arbitrage
-traductions:
+translations:
   fr: /livre/chapitres/05-04-valider-une-spec-ne-la-rend-pas-juste.html
 seo:
   description: "A signed-off spec is an agreement about what people believed. When reality contradicts it, say so and update it."

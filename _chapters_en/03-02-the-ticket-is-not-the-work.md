@@ -11,7 +11,7 @@ categories:
   - produit
   - client
   - arbitrage
-traductions:
+translations:
   fr: /livre/chapitres/03-02-le-ticket-nest-pas-le-travail.html
 seo:
   description: "Counting tickets measures activity, not effect. Tie every important piece of work to the number it should move."

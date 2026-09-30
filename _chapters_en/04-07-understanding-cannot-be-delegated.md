@@ -3,7 +3,7 @@ layout: chapter
 title: "Understanding cannot be delegated"
 part: "Understanding"
 order: 407
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.07"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - technologie
   - business
   - strategie
-traductions:
+translations:
   fr: /livre/chapitres/04-07-la-comprehension-ne-se-delegue-pas.html
 seo:
   description: "Delegate the work, yes. Delegate the understanding, no: without it, you sign what you are shown."

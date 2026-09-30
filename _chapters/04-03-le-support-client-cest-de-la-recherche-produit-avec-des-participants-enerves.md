@@ -11,8 +11,7 @@ categories:
   - client
   - support
   - produit
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-03-support-is-product-research-with-angry-participants.html
 seo:
   description: "Chaque demande de support est un utilisateur qui te dit ce qui ne marche pas. C'est la recherche la moins chère que tu auras."

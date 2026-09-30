@@ -28,20 +28,20 @@ Les quatre fichiers sont générés et publiés automatiquement après chaque d�
 
 Le livre s'écrit en français et paraît en anglais. Chaque langue a ses propres mots dans l'adresse : le français sous `/livre/`, l'anglais sous `/book/`. Les deux versions sont complètes : mêmes 98 entrées, mêmes pages, même questionnaire, même tirage.
 
-Aucun gabarit ne porte de mot. Les chaînes de l'interface, le sommaire, les libellés de surtitre, et le menu du site vivent dans `_data/fr/` et `_data/en/`, un fichier par langue et les mêmes clés des deux côtés. `_includes/langue.html`, inclus en tête de chaque gabarit, pose les variables pour le reste de la page : `lang`, `t` pour les chaînes, `sommaire`, `livre` pour les entrées de cette langue.
+Aucun gabarit ne porte de mot. Les chaînes de l'interface, le sommaire, les libellés de surtitre, et le menu du site vivent dans `_data/fr/` et `_data/en/`, un fichier par langue et les mêmes clés des deux côtés. `_includes/language.html`, inclus en tête de chaque gabarit, pose les variables pour le reste de la page : `lang`, `t` pour les chaînes, `toc`, `livre` pour les entrées de cette langue.
 
 | | français | anglais |
 | --- | --- | --- |
 | entrées | `_chapters/` | `_chapters_en/` |
 | fichiers machine | `livre/` | `book/` |
 | chaînes | `_data/fr/` | `_data/en/` |
-| questionnaire | `test-builder-contenu.js` | `test-builder-contenu-en.js` |
+| questionnaire | `test-builder-content.js` | `test-builder-content-en.js` |
 | adresses | `/livre/`, `/livre/chapitres/…` | `/book/`, `/book/chapters/…` |
 | tirage | `build/build-here.pdf` | `build/build-here-en.pdf` |
 
 Les anciennes adresses (`/book/chapters/…` en français, `/book/en/…`) sont redirigées par le Worker `site/workers/book-proxy`. Les styles et images communs restent sous `/book/assets/`. Chaque carte a une copie markdown : `.html` devient `.md`.
 
-Les règles du questionnaire ne sont écrites qu'une fois, dans `assets/javascripts/test-builder-model.js`. Il ne contient aucune phrase : `creer(contenu)` reçoit le contenu de la langue chargée. `bin/verifier-test-builder _site fr` et `… en` font tourner les mêmes règles de niveau et les mêmes 160 combinaisons de pistes sur chacun.
+Les règles du questionnaire ne sont écrites qu'une fois, dans `assets/javascripts/test-builder-model.js`. Il ne contient aucune phrase : `create(content)` reçoit le contenu de la langue chargée. `bin/verifier-test-builder _site fr` et `… en` font tourner les mêmes règles de niveau et les mêmes 160 combinaisons de pistes sur chacun.
 
 Une page qui a une jumelle dans l'autre langue la déclare dans son front matter. Le sélecteur de langue de l'en-tête et les balises `hreflang` lisent la même clé :
 
@@ -56,7 +56,7 @@ Les fichiers lus par les machines suivent : `llms.txt`, `llms-full.txt`, et `boo
 
 Les vérificateurs de `bin/` lisent `_chapters/` pour les règles de l'annexe 1 : elles sont écrites pour le texte français.
 
-Ajouter une langue : un dossier dans `_data/`, une collection `chapters_<code>` dans `_config.yml`, une entrée dans `site.langues`, un dossier de pages, un fichier de contenu pour le questionnaire, une ligne dans `LANGUES` du plugin `llms_full.rb`. `_includes/langue.html` n'a pas à changer.
+Ajouter une langue : un dossier dans `_data/`, une collection `chapters_<code>` dans `_config.yml`, une entrée dans `site.languages`, un dossier de pages, un fichier de contenu pour le questionnaire, une ligne dans `LANGUAGES` du plugin `llms_full.rb`. `_includes/language.html` n'a pas à changer.
 
 ## Ce qu'il y a dedans
 
@@ -107,8 +107,8 @@ Le contenu vit dans `_chapters/`. Un fichier par carte, trié par le champ `orde
 ```sh
 bundle exec jekyll build
 node bin/verifier-index
-node bin/lint-entree
-node bin/verifier-lint
+node bin/lint-entry
+node bin/check-lint
 node bin/verifier-test-builder _site
 ```
 

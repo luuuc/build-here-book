@@ -3,7 +3,7 @@ layout: chapter
 title: "Écris après avoir construit, pas à la place"
 part: "La référence"
 order: 1002
-card_type: principe
+card_type: principle
 metadata:
   principle: "10.02"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - reference
   - trace
   - honnetete
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-02-write-after-you-build-not-instead.html
 seo:
   description: "N'ecris que sur ce que tu as construit ou essaye, avec ce qui a rate et ce que tu ne sais pas encore."

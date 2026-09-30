@@ -1,15 +1,10 @@
-{%- comment -%}
-  Le corps de book.json, partage par les deux langues. Chaque fichier de
-  langue n'a que son front matter : les donnees, elles, sont ecrites ici
-  une seule fois et suivent `lang`.
-{%- endcomment -%}
-{% include langue.html %}{
+{% include language.html %}{
   "@context": "https://schema.org",
   "@type": "Book",
   "name": {{ site.title | jsonify }},
   "description": {{ description_site | jsonify }},
-  "url": {{ t.menu.livre_url | prepend: site.url | jsonify }},
-  "inLanguage": {{ langue_courante.locale | replace: '_', '-' | default: site.book.language | jsonify }},
+  "url": {{ t.menu.book_url | prepend: site.url | jsonify }},
+  "inLanguage": {{ current_language.locale | replace: '_', '-' | default: site.book.language | jsonify }},
   "datePublished": {{ site.book.published | jsonify }},
   "dateModified": {{ site.book.modified | jsonify }},
   "version": {{ site.book.version | jsonify }},
@@ -21,13 +16,13 @@
     "@type": "Person",
     "name": {{ site.author.name | jsonify }}
   },
-  "author": {% include auteur-json.html %},
+  "author": {% include author-json.html %},
   "publisher": {
     "@type": "Person",
     "name": {{ site.author.name | jsonify }}
   },
   "tableOfContents": [
-    {% assign sorted_chapters = livre %}
+    {% assign sorted_chapters = book %}
     {% for chapter in sorted_chapters %}
     {
       "position": {{ forloop.index }},
@@ -45,7 +40,7 @@
     {% endfor %}
   ],
   "parts": [
-    {% assign sorted_chapters = livre %}
+    {% assign sorted_chapters = book %}
     {% assign parts = sorted_chapters | map: "part" | uniq %}
     {% for part in parts %}
     {
@@ -62,11 +57,11 @@
     }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ],
-  "keywords": {{ t.machine.mots | jsonify }},
-  "about": [{% for sujet in t.machine.sujets %}
+  "keywords": {{ t.machine.words | jsonify }},
+  "about": [{% for topic in t.machine.topics %}
     {
       "@type": "Thing",
-      "name": {{ sujet | jsonify }}
+      "name": {{ topic | jsonify }}
     }{% unless forloop.last %},{% endunless %}{% endfor %}
   ],
   "audience": {

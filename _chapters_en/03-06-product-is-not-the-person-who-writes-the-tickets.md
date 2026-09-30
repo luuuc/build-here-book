@@ -3,7 +3,7 @@ layout: chapter
 title: "Product is not the person who writes the tickets"
 part: "Autonomy"
 order: 306
-card_type: principe
+card_type: principle
 metadata:
   principle: "3.06"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - produit
   - client
   - arbitrage
-traductions:
+translations:
   fr: /livre/chapitres/03-06-le-product-ce-nest-pas-la-personne-qui-ecrit-les-tickets.html
 seo:
   description: "Well-written tickets do not say which ones deserve doing. Product work is choosing, and explaining every call."

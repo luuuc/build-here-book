@@ -1,0 +1,19 @@
+{% assign p = t.share %}
+<div
+  class="share"
+  id="share"
+  hidden
+  data-signature="{{ p.signature }}"
+  data-copied="{{ p.copied }}"
+>
+  <div class="share-bar" data-state="closed">
+    <button type="button" class="share-button" data-rate hidden>{{ p.rate }}</button>
+    <button type="button" class="share-button" data-open>{{ p.selection }}</button>
+  </div>
+  <div class="share-channels" hidden>
+    <a href="#" data-channel="whatsapp" target="_blank" rel="noopener">{{ p.whatsapp }}</a>
+    <a href="#" data-channel="linkedin" target="_blank" rel="noopener">{{ p.linkedin }}</a>
+    <a href="#" data-channel="x" target="_blank" rel="noopener">{{ p.x }}</a>
+    <button type="button" data-channel="copy">{{ p.copy }}</button>
+  </div>
+</div>

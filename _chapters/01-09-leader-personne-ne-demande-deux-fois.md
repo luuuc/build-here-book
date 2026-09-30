@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Personne ne demande deux fois"
 part: "L'état d'esprit"
 order: 109
-card_type: systeme
+card_type: system
 metadata:
   principle: "1.09"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - curiosite
   - apprentissage
   - engineering
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/01-09-nobody-asks-twice.html
 seo:
   description: "Une question sans réponse tue la suivante. Dis qui répond, et quand."

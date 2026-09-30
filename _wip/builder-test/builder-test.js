@@ -1,29 +1,15 @@
-// Le test du builder, version 2. Brouillon, non publie.
-//
-//   donnees   : questions.js, produit depuis docs/questions-test-du-builder.md
-//   apercu    : apercu.html, a ouvrir directement dans un navigateur
-//   conception: docs/conception-test-du-builder.md
-//
-// Ce qui change par rapport a la version en ligne :
-//   - le test mesure le travail, pas la personne ;
-//   - une seule ligne de 0 a 100, affichee en bande, jamais en score ponctuel ;
-//   - trois facettes de douze questions au lieu de dix scores de trois ;
-//   - l'ordre des options est tire au hasard a chaque question ;
-//   - plus aucun seuil : la recommandation vient des reponses, pas d'un score ;
-//   - le resultat cite les reponses qui l'ont produit.
-//
-// Les valeurs des options restent provisoires tant que les praticiens n'ont
-// pas note la cle. Tant que c'est le cas, ce fichier ne doit pas partir en ligne.
+// Builder test v2 draft. Open preview.html to try it; design in docs/conception-test-du-builder.md.
+// Option values are provisional: do not ship until practitioners have scored them.
 
 (function () {
-  const racine = document.querySelector("[data-builder-test]");
-  if (!racine) return;
+  const root = document.querySelector("[data-builder-test]");
+  if (!root) return;
 
   const questions = window.QUESTIONS || [];
-  const marge = window.MARGE || [];
+  const margin = window.MARGIN || [];
   if (!questions.length) return;
 
-  const etapes = [
+  const steps = [
     { n: 1, name: "L'état d'esprit", line: "Tu rends les choses meilleures au lieu d'attendre qu'on t'y autorise.", practice: "Choisis une irritation que tout le monde contourne. Répare aujourd'hui la plus petite partie qui dépend de toi.", cards: [
       ["Pratique", "Pose la question naïve tout de suite", "/chapters/01-02-pose-la-question-naive-tout-de-suite.html"],
       ["Principe", "L'ownership commence là où la fiche de poste s'arrête", "/chapters/01-03-lownership-commence-la-ou-la-fiche-de-poste-sarrete.html"],
@@ -75,65 +61,59 @@
       ["Pratique", "Réponds à la question en public", "/chapters/10-04-reponds-a-la-question-en-public.html"]
     ]}
   ];
-  const facettes = [
-    { cle: "lance", nom: "Ce que tu lances" },
-    { cle: "ferme", nom: "Ce que tu fermes" },
-    { cle: "laisse", nom: "Ce que tu laisses" },
+  const facets = [
+    { key: "lance", name: "Ce que tu lances" },
+    { key: "closed", name: "Ce que tu fermes" },
+    { key: "laisse", name: "Ce que tu laisses" },
   ];
 
-  // Quatre zones de vingt-cinq points. Chaque texte doit etre faux pour
-  // quelqu'un situe trente points plus loin : c'est la regle qui evite
-  // l'effet Barnum, ou n'importe qui se reconnait dans n'importe quoi.
+  // Each zone text must be false for someone 30 points away (avoids the Barnum effect).
   const zones = [
     {
       max: 25,
-      titre: "Presque tout ce que tu fais s'arrête quand tu t'arrêtes.",
+      title: "Presque tout ce que tu fais s'arrête quand tu t'arrêtes.",
       absence:
         "Si tu pars deux semaines, la plupart de tes sujets attendent ton retour. Rien n'est cassé. Personne d'autre n'a de raison de s'en saisir, parce que rien n'a été posé ailleurs que dans ta tête et dans ta file.",
     },
     {
       max: 50,
-      titre: "Ton travail tient quelques jours, pas deux semaines.",
+      title: "Ton travail tient quelques jours, pas deux semaines.",
       absence:
         "Si tu pars deux semaines, l'exécution continue un moment, puis elle bute sur la première décision. On t'appelle, ou on attend. Ce que tu as construit fonctionne ; ce que tu sais n'est écrit nulle part.",
     },
     {
       max: 75,
-      titre: "Ce que tu construis survit à ton absence. Ton jugement, non.",
+      title: "Ce que tu construis survit à ton absence. Ton jugement, non.",
       absence:
         "Si tu pars deux semaines, presque tout continue. Ce qui s'arrête, ce sont les arbitrages : les cas qui ne ressemblent pas aux précédents remontent, et ils attendent que tu tranches.",
     },
     {
       max: 100,
-      titre: "Ton travail continue, décisions comprises.",
+      title: "Ton travail continue, décisions comprises.",
       absence:
         "Si tu pars deux semaines, tu apprends au retour des décisions prises sans toi, et tu es d'accord avec la plupart. Ce qui te reste à faire n'est plus de tenir, c'est de rendre cette façon de travailler transmissible.",
     },
   ];
 
-  const el = (s) => racine.querySelector(s);
+  const el = (s) => root.querySelector(s);
   const intro = el("[data-test-intro]");
-  const cours = el("[data-test-run]");
-  const resultat = el("[data-test-result]");
+  const run = el("[data-test-run]");
+  const result = el("[data-test-result]");
 
-  // Les trente-six questions notees, puis les quatre de marge. Le changement
-  // de registre est annonce : on passe de ce que tu fais a ce que le poste
-  // autorise.
-  const parcours = questions
-    .map((q, i) => ({ q, i, type: "notee" }))
-    .concat(marge.map((q, i) => ({ q, i, type: "marge" })));
+  const path = questions
+    .map((q, i) => ({ q, i, type: "rated" }))
+    .concat(margin.map((q, i) => ({ q, i, type: "margin" })));
 
   let position = 0;
-  const reponses = new Array(questions.length).fill(undefined);
-  const bords = new Array(marge.length).fill(undefined);
+  const answers = new Array(questions.length).fill(undefined);
+  const edges = new Array(margin.length).fill(undefined);
 
-  // L'ordre des options est tire une fois par question et par passage, puis
-  // garde : revenir en arriere ne doit pas redistribuer les reponses.
-  const ordres = parcours.map((p) =>
-    melanger(p.q.options.map((_, i) => i))
+  // Shuffled once per run so going back doesn't reorder the options.
+  const orders = path.map((p) =>
+    shuffle(p.q.options.map((_, i) => i))
   );
 
-  function melanger(t) {
+  function shuffle(t) {
     for (let i = t.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [t[i], t[j]] = [t[j], t[i]];
@@ -141,199 +121,195 @@
     return t;
   }
 
-  function etiquette(option) {
+  function label(option) {
     return typeof option === "string" ? option : option.t;
   }
 
-  function afficherQuestion() {
-    const { q, i, type } = parcours[position];
-    const choisi = type === "notee" ? reponses[i] : bords[i];
+  function showQuestion() {
+    const { q, i, type } = path[position];
+    const chosen = type === "rated" ? answers[i] : edges[i];
 
-    el("[data-test-count]").textContent = `${position + 1} sur ${parcours.length}`;
-    el("[data-test-progress]").style.width = `${((position + 1) / parcours.length) * 100}%`;
+    el("[data-test-count]").textContent = `${position + 1} sur ${path.length}`;
+    el("[data-test-progress]").style.width = `${((position + 1) / path.length) * 100}%`;
     el("[data-test-stage]").textContent =
-      type === "marge"
+      type === "margin"
         ? "Sur ton poste"
-        : q.type === "evenement"
+        : q.type === "event"
         ? "Un fait, pas une impression"
         : "Que ferais-tu";
 
-    const titre = el("[data-test-question]");
-    titre.textContent = q.enonce;
+    const title = el("[data-test-question]");
+    title.textContent = q.prompt;
 
-    const boite = el("[data-test-answers]");
-    boite.innerHTML = "";
-    ordres[position].forEach((index) => {
-      const bouton = document.createElement("button");
-      bouton.type = "button";
-      bouton.className = "builder-test-answer";
-      bouton.textContent = etiquette(q.options[index]);
-      bouton.setAttribute("aria-pressed", String(choisi === index));
-      bouton.addEventListener("click", function () {
-        if (type === "notee") reponses[i] = index;
-        else bords[i] = index;
-        Array.from(boite.children).forEach((b, rang) =>
-          b.setAttribute("aria-pressed", String(ordres[position][rang] === index))
+    const box = el("[data-test-answers]");
+    box.innerHTML = "";
+    orders[position].forEach((index) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "builder-test-answer";
+      button.textContent = label(q.options[index]);
+      button.setAttribute("aria-pressed", String(chosen === index));
+      button.addEventListener("click", function () {
+        if (type === "rated") answers[i] = index;
+        else edges[i] = index;
+        Array.from(box.children).forEach((b, rank) =>
+          b.setAttribute("aria-pressed", String(orders[position][rank] === index))
         );
         el("[data-test-next]").disabled = false;
       });
-      boite.appendChild(bouton);
+      box.appendChild(button);
     });
 
     el("[data-test-back]").disabled = position === 0;
-    el("[data-test-next]").disabled = choisi === undefined;
+    el("[data-test-next]").disabled = chosen === undefined;
     el("[data-test-next]").textContent =
-      position === parcours.length - 1 ? "Voir mon résultat" : "Suivante";
-    titre.focus();
+      position === path.length - 1 ? "Voir mon résultat" : "Suivante";
+    title.focus();
   }
 
-  function valeur(q, index) {
+  function value(q, index) {
     return q.options[index].v;
   }
 
-  function calculer() {
-    const somme = (liste) =>
-      liste.reduce((n, { q, i }) => n + valeur(q, reponses[i]), 0);
-    const notees = questions.map((q, i) => ({ q, i }));
+  function compute() {
+    const sum = (list) =>
+      list.reduce((n, { q, i }) => n + value(q, answers[i]), 0);
+    const rated = questions.map((q, i) => ({ q, i }));
 
-    const total = Math.round((somme(notees) / (3 * notees.length)) * 100);
+    const total = Math.round((sum(rated) / (3 * rated.length)) * 100);
 
-    const parFacette = facettes.map((f) => {
-      const siennes = notees.filter(({ q }) => q.facette === f.cle);
+    const byFacet = facets.map((f) => {
+      const own = rated.filter(({ q }) => q.facet === f.key);
       return {
         ...f,
-        score: Math.round((somme(siennes) / (3 * siennes.length)) * 100),
+        score: Math.round((sum(own) / (3 * own.length)) * 100),
       };
     });
 
-    // La recommandation vient des reponses, pas d'un score. On regarde, pour
-    // chaque etape, la PART de reponses basses, et non leur nombre : les
-    // etapes ne portent pas toutes le meme nombre de questions, et compter
-    // brut ferait toujours gagner la plus fournie. A egalite, l'etape la plus
-    // basse gagne, ce qui applique l'hypothese du livre sans la deguiser en
-    // mesure.
-    const parEtape = {};
-    notees
-      .filter(({ q }) => q.etape > 0)
+    // Rank steps by the share of low answers, not the count: steps have different
+    // question counts. Ties go to the lowest step.
+    const byStep = {};
+    rated
+      .filter(({ q }) => q.step > 0)
       .forEach(({ q, i }) => {
-        const e = (parEtape[q.etape] = parEtape[q.etape] || { basses: [], valeurs: [] });
-        e.valeurs.push(valeur(q, reponses[i]));
-        if (valeur(q, reponses[i]) <= 1) e.basses.push({ q, i });
+        const e = (byStep[q.step] = byStep[q.step] || { lows: [], values: [] });
+        e.values.push(value(q, answers[i]));
+        if (value(q, answers[i]) <= 1) e.lows.push({ q, i });
       });
 
-    const moyenne = (l) => l.reduce((x, y) => x + y, 0) / l.length;
-    const numeros = Object.keys(parEtape).map(Number);
-    const part = (n) => parEtape[n].basses.length / parEtape[n].valeurs.length;
+    const average = (l) => l.reduce((x, y) => x + y, 0) / l.length;
+    const numbers = Object.keys(byStep).map(Number);
+    const part = (n) => byStep[n].lows.length / byStep[n].values.length;
 
-    let etape;
-    if (numeros.some((n) => part(n) > 0)) {
-      etape = numeros.sort((a, b) => part(b) - part(a) || a - b)[0];
-    } else if (numeros.every((n) => moyenne(parEtape[n].valeurs) === 3)) {
-      // Rien a redire nulle part : il reste la transmission.
-      etape = 10;
+    let step;
+    if (numbers.some((n) => part(n) > 0)) {
+      step = numbers.sort((a, b) => part(b) - part(a) || a - b)[0];
+    } else if (numbers.every((n) => average(byStep[n].values) === 3)) {
+      // All answers maxed: suggest the last step.
+      step = 10;
     } else {
-      etape = numeros.sort(
-        (a, b) => moyenne(parEtape[a].valeurs) - moyenne(parEtape[b].valeurs) || a - b
+      step = numbers.sort(
+        (a, b) => average(byStep[a].values) - average(byStep[b].values) || a - b
       )[0];
     }
-    const aDesBasses = parEtape[etape].basses.length > 0;
+    const hasLows = byStep[step].lows.length > 0;
 
-    const citations = (aDesBasses
-      ? parEtape[etape].basses
-      : notees.filter(({ q }) => q.etape === etape))
+    const quotes = (hasLows
+      ? byStep[step].lows
+      : rated.filter(({ q }) => q.step === step))
       .slice()
-      .sort((a, b) => valeur(a.q, reponses[a.i]) - valeur(b.q, reponses[b.i]))
+      .sort((a, b) => value(a.q, answers[a.i]) - value(b.q, answers[b.i]))
       .slice(0, 2)
       .map(({ q, i }) => ({
-        enonce: q.enonce,
-        reponse: etiquette(q.options[reponses[i]]),
+        prompt: q.prompt,
+        answer: label(q.options[answers[i]]),
       }));
 
-    const moyenneMarge =
-      bords.reduce((n, index) => n + (index === undefined ? 0 : index), 0) /
-      (bords.length || 1);
+    const averageMargin =
+      edges.reduce((n, index) => n + (index === undefined ? 0 : index), 0) /
+      (edges.length || 1);
 
     return {
       total,
-      bande: [Math.max(0, total - 5), Math.min(100, total + 5)],
-      facettes: parFacette,
-      etape,
-      citations,
-      aDesBasses,
-      margeBasse: moyenneMarge < 1.5,
+      band: [Math.max(0, total - 5), Math.min(100, total + 5)],
+      facets: byFacet,
+      step,
+      quotes,
+      hasLows,
+      marginLow: averageMargin < 1.5,
     };
   }
 
-  function afficherResultat() {
-    const r = calculer();
+  function showResult() {
+    const r = compute();
     const zone = zones.find((z) => r.total <= z.max);
-    const etape = etapes[r.etape - 1];
+    const step = steps[r.step - 1];
 
-    cours.hidden = true;
-    resultat.hidden = false;
+    run.hidden = true;
+    result.hidden = false;
 
-    el("[data-result-band]").textContent = `entre ${r.bande[0]} et ${r.bande[1]} sur 100`;
-    el("[data-result-title]").textContent = zone.titre;
+    el("[data-result-band]").textContent = `entre ${r.band[0]} et ${r.band[1]} sur 100`;
+    el("[data-result-title]").textContent = zone.title;
     el("[data-result-absence]").textContent = zone.absence;
 
-    const facettes_ = el("[data-result-facettes]");
-    facettes_.innerHTML = "";
-    r.facettes.forEach((f) => {
-      const ligne = document.createElement("div");
-      ligne.className = "builder-test-scale-row";
-      ligne.innerHTML = `<span>${f.nom}</span><span class="builder-test-score"><i style="width:${f.score}%"></i></span><b>${f.score}</b>`;
-      facettes_.appendChild(ligne);
+    const facets_ = el("[data-result-facets]");
+    facets_.innerHTML = "";
+    r.facets.forEach((f) => {
+      const line = document.createElement("div");
+      line.className = "builder-test-scale-row";
+      line.innerHTML = `<span>${f.name}</span><span class="builder-test-score"><i style="width:${f.score}%"></i></span><b>${f.score}</b>`;
+      facets_.appendChild(line);
     });
 
-    el("[data-result-citations-note]").textContent = r.aDesBasses
+    el("[data-result-quotes-note]").textContent = r.hasLows
       ? "Deux situations où tu t'es placé en bas. Ce sont elles qui ont produit la recommandation."
       : "Aucune de tes réponses ne te place en bas. Voici deux situations de la marche qui reste la plus faible.";
 
-    const citations = el("[data-result-citations]");
-    citations.innerHTML = "";
-    r.citations.forEach((c) => {
-      const bloc = document.createElement("blockquote");
-      bloc.innerHTML = `<small>${c.enonce}</small><p>« ${c.reponse} »</p>`;
-      citations.appendChild(bloc);
+    const quotes = el("[data-result-quotes]");
+    quotes.innerHTML = "";
+    r.quotes.forEach((c) => {
+      const block = document.createElement("blockquote");
+      block.innerHTML = `<small>${c.prompt}</small><p>« ${c.answer} »</p>`;
+      quotes.appendChild(block);
     });
 
-    el("[data-result-marge]").textContent = r.margeBasse
+    el("[data-result-margin]").textContent = r.marginLow
       ? "Tes réponses disent que ton poste te laisse peu de latitude : peu de décisions sans permission, peu de travail entier, ou peu de temps qui ne soit pas déjà pris. Une partie de ce résultat est un fait sur ce poste, pas sur toi."
       : "Tes réponses disent que ton poste te laisse de la latitude. Ce que montre ce résultat dépend donc surtout de ce que tu en fais.";
 
-    el("[data-result-next]").textContent = `${etape.name}. ${etape.line}`;
-    el("[data-result-practice]").textContent = etape.practice;
+    el("[data-result-next]").textContent = `${step.name}. ${step.line}`;
+    el("[data-result-practice]").textContent = step.practice;
 
     const route = el("[data-result-route]");
     route.innerHTML = "";
-    etape.cards.forEach((carte) => {
+    step.cards.forEach((card) => {
       const a = document.createElement("a");
-      a.href = carte[2];
+      a.href = card[2];
       a.className = "builder-test-card";
-      a.innerHTML = `<small>${carte[0]}</small><strong>${carte[1]}</strong><span>Lire →</span>`;
+      a.innerHTML = `<small>${card[0]}</small><strong>${card[1]}</strong><span>Lire →</span>`;
       route.appendChild(a);
     });
 
-    resultat.scrollIntoView({ behavior: "smooth", block: "start" });
+    result.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   el("[data-test-start]").addEventListener("click", function () {
     intro.hidden = true;
-    cours.hidden = false;
-    afficherQuestion();
+    run.hidden = false;
+    showQuestion();
   });
   el("[data-test-back]").addEventListener("click", function () {
     if (position > 0) {
       position--;
-      afficherQuestion();
+      showQuestion();
     }
   });
   el("[data-test-next]").addEventListener("click", function () {
-    const { i, type } = parcours[position];
-    if ((type === "notee" ? reponses[i] : bords[i]) === undefined) return;
-    if (position < parcours.length - 1) {
+    const { i, type } = path[position];
+    if ((type === "rated" ? answers[i] : edges[i]) === undefined) return;
+    if (position < path.length - 1) {
       position++;
-      afficherQuestion();
-    } else afficherResultat();
+      showQuestion();
+    } else showResult();
   });
 })();

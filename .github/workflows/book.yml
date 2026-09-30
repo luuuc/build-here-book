@@ -1,14 +1,5 @@
-# Tire le livre en PDF et en EPUB, une fois que le site est deploye, et le
-# publie sous un numero de version que personne n'a besoin d'ecrire a la main.
-#
-# Le declencheur est la fin du workflow Pages, pas le push : si le deploiement
-# echoue, le livre n'est pas tire, et les deux fichiers correspondent toujours a
-# ce qui est en ligne.
-#
-# La version vient des tags, jamais d'un champ de configuration : le job lit le
-# plus haut tag a trois nombres et ajoute un au dernier. Il ne peut donc pas
-# inventer un numero inferieur a ce qui existe deja. Pour passer une mineure ou
-# une majeure, pose le tag toi-meme une fois, la suite repart de la.
+# Builds and releases the PDF and EPUB after a successful Pages deploy, so they match the live site.
+# Version = highest vX.Y.Z tag with the patch bumped. For a minor or major bump, push that tag by hand.
 name: Tirage du livre
 
 on:
@@ -30,21 +21,18 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  # Versions epinglees : le tirage doit sortir identique en local et ici.
+  # Pinned so local and CI builds match.
   PANDOC_VERSION: "3.9.0.2"
   WEASYPRINT_VERSION: "70.0"
-  # Tout ce dont les deux fichiers sont faits. Une modification ailleurs, un
-  # README ou une feuille de style du site, ne publie rien.
+  # Only changes under these paths trigger a new release.
   BOOK_PATHS: >-
     _chapters _chapters_en _data _pdf
-    _includes/book-body.html _includes/epub-body.html _includes/langue.html
+    _includes/book-body.html _includes/epub-body.html _includes/language.html
     book/assets/stylesheets/print.css book/assets/stylesheets/epub.css
     book/assets/fonts book/assets/images/couverture.png book/assets/images/cover.png book/assets/images/sections
     _config.yml _config-pdf.yml _config-pdf-en.yml bin/build-book
 
 jobs:
-  # Le livre a-t-il change depuis la derniere version publiee, et sous quel
-  # numero sortirait la suivante.
   check:
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
@@ -54,9 +42,9 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          # Le commit qui a produit le site deploye, pas la tete de branche.
+          # The deployed commit, not the branch head.
           ref: ${{ github.event.workflow_run.head_sha || github.sha }}
-          # Toute l'histoire et tous les tags : le numero se lit dedans.
+          # Tags are needed to compute the version.
           fetch-depth: 0
 
       - id: decide
@@ -122,7 +110,7 @@ jobs:
 
       - name: Tirer le livre
         env:
-          # Le colophon et book.json impriment le vrai numero, celui du tag.
+          # Overrides book.version from _config.yml.
           BOOK_VERSION: ${{ needs.check.outputs.version }}
         run: |
           printf 'book:\n  version: "%s"\n' "${BOOK_VERSION#v}" > _config-release.yml
@@ -148,8 +136,6 @@ jobs:
             build/build-here-en.epub
           if-no-files-found: error
 
-      # Le tag est pose sur le commit qui a produit ces fichiers, et la release
-      # les porte. Chaque version garde donc les siens : rien n'est remplace.
       - name: Poser le tag et publier
         env:
           GH_TOKEN: ${{ github.token }}

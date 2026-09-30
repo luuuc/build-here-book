@@ -1,0 +1,8 @@
+{%- assign parts = book | map: "part" | uniq -%}
+{% for part in parts %}
+## {{ part }}
+{% assign inside = book | where: "part", part -%}
+{%- for c in inside %}
+- [{{ c.title }}]({{ c.url | absolute_url }}){% assign d = c.seo.description | default: c.description %}{% if d %}: {{ d | strip_newlines }}{% endif %}
+{%- endfor %}
+{% endfor %}

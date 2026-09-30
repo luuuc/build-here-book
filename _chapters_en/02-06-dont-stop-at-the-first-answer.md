@@ -3,7 +3,7 @@ layout: chapter
 title: "Don't stop at the first answer"
 part: "The craft"
 order: 206
-card_type: pratique
+card_type: practice
 metadata:
   principle: "2.06"
   reading_time_in_minutes: 2
@@ -12,7 +12,7 @@ categories:
   - apprentissage
   - engineering
   - support
-traductions:
+translations:
   fr: /livre/chapitres/02-06-ne-tarrete-pas-a-la-premiere-reponse.html
 seo:
   description: "Settling a request helps one person. Understanding its cause helps a hundred. Every repeated fix is an inquiry waiting to happen."

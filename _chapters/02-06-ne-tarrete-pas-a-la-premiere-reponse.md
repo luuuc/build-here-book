@@ -3,7 +3,7 @@ layout: chapter
 title: "Ne t'arrête pas à la première réponse"
 part: "Le métier"
 order: 206
-card_type: pratique
+card_type: practice
 metadata:
   principle: "2.06"
   reading_time_in_minutes: 2
@@ -12,8 +12,7 @@ categories:
   - apprentissage
   - engineering
   - support
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-06-dont-stop-at-the-first-answer.html
 seo:
   description: "Résoudre une demande aide une personne. Comprendre sa cause en aide cent. Chaque résolution répétée est une enquête qui attend."

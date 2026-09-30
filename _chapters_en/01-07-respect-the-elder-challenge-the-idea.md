@@ -3,7 +3,7 @@ layout: chapter
 title: "Respect the elder. Challenge the idea"
 part: "The mindset"
 order: 107
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.07"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - hierarchie
   - decision
   - culture
-traductions:
+translations:
   fr: /livre/chapitres/01-07-respecte-lancien-conteste-lidee.html
 seo:
   description: "Respect is owed to the person. It is not owed to the sentence."

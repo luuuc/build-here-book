@@ -3,7 +3,7 @@ layout: chapter
 title: "Reviens voir un mois plus tard"
 part: "L'ownership"
 order: 602
-card_type: pratique
+card_type: practice
 metadata:
   principle: "6.02"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - ownership
   - resultat
   - livraison
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/06-02-come-back-a-month-later.html
 seo:
   description: "Livrer n'est pas finir. Fixe dès la livraison la date où tu regardes l'effet, avec une question précise."

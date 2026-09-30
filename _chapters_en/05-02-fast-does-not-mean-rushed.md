@@ -3,7 +3,7 @@ layout: chapter
 title: "Fast does not mean rushed"
 part: "Delivery"
 order: 502
-card_type: pratique
+card_type: practice
 metadata:
   principle: "5.02"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - execution
   - livraison
   - produit
-traductions:
+translations:
   fr: /livre/chapitres/05-02-rapide-ne-veut-pas-dire-precipite.html
 seo:
   description: "Fast means cutting the scope. Rushed means removing the protections. Cut the first, never the second."

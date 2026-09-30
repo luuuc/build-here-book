@@ -11,7 +11,7 @@ categories:
   - systemes
   - transmission
   - equipe
-traductions:
+translations:
   fr: /livre/chapitres/07-03-une-connaissance-qui-tient-dans-une-seule-tete-est-une-panne-a-venir.html
 seo:
   description: "An indispensable person is a scheduled outage. Pass the knowledge on in practice, then write it down."

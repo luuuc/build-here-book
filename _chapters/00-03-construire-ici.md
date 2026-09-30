@@ -10,8 +10,7 @@ metadata:
 categories:
   - introduction
   - builders
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/00-03-build-here.html
 seo:
   description: "Construire là où tu es est un avantage : problèmes proches, retours rapides, contraintes qui imposent la simplicité, et une place de référence encore libre."

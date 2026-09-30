@@ -3,7 +3,7 @@ layout: chapter
 title: "Do not bring the task. Bring the problem"
 part: "Autonomy"
 order: 301
-card_type: pratique
+card_type: practice
 metadata:
   principle: "3.01"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - ownership
   - responsabilite
   - execution
-traductions:
+translations:
   fr: /livre/chapitres/03-01-napporte-pas-la-tache-apporte-le-probleme.html
 seo:
   description: "Whoever does the work sees what the framing could not. Ship the task, and ship what it revealed."

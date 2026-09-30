@@ -1,33 +1,30 @@
 {% assign n = t.note %}
-<!-- La note d'une entree. Sans JavaScript, rien ne s'affiche : donner son avis
-     est un ajout, lire n'en depend pas. Le bloc est donc vide et cache, et le
-     script le remplit. -->
 <section class="note" id="note" hidden
          data-page="{{ page.url | relative_url }}"
          data-api="{{ site.api_url }}"
-         data-titre="{{ page.title | escape }}"
-         data-merci="{{ n.merci }}">
+         data-title="{{ page.title | escape }}"
+         data-thanks="{{ n.thanks }}">
   <div class="container">
     <p class="note-question">{{ n.question }}</p>
 
-    <div class="note-valeurs">
-      <button type="button" data-valeur="yes">{{ n.oui }}</button>
-      <button type="button" data-valeur="partly">{{ n.moitie }}</button>
-      <button type="button" data-valeur="no">{{ n.non }}</button>
+    <div class="note-values">
+      <button type="button" data-value="yes">{{ n.yes }}</button>
+      <button type="button" data-value="partly">{{ n.half }}</button>
+      <button type="button" data-value="no">{{ n.no }}</button>
     </div>
 
-    <div class="note-suite" hidden>
-      <p class="note-question">{{ n.raison }}</p>
-      <div class="note-raisons">
-        {% for r in n.raisons %}<button type="button" data-raison="{{ r.cle }}">{{ r.texte }}</button>{% endfor %}
+    <div class="note-next" hidden>
+      <p class="note-question">{{ n.reason }}</p>
+      <div class="note-reasons">
+        {% for r in n.reasons %}<button type="button" data-reason="{{ r.key }}">{{ r.text }}</button>{% endfor %}
       </div>
-      <label class="note-libre">
-        {{ n.libre }}
+      <label class="note-free">
+        {{ n.free }}
         <textarea rows="3" maxlength="4000"></textarea>
       </label>
-      <button type="button" class="note-envoyer">{{ n.envoyer }}</button>
+      <button type="button" class="note-send">{{ n.send }}</button>
     </div>
 
-    <p class="note-merci" role="status" hidden>{{ n.merci }}</p>
+    <p class="note-thanks" role="status" hidden>{{ n.thanks }}</p>
   </div>
 </section>

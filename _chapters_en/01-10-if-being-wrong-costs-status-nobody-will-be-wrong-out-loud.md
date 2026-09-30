@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ If being wrong costs status, nobody will be wrong out loud"
 part: "The mindset"
 order: 110
-card_type: systeme
+card_type: system
 metadata:
   principle: "1.10"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - ego
   - honnetete-intellectuelle
   - culture
-traductions:
+translations:
   fr: /livre/chapitres/01-10-leader-si-avoir-tort-coute-du-statut-plus-personne-naura-tort-a-voix-haute.html
 seo:
   description: "If reporting a mistake costs status, you will hear about it from customers. Make the alert safe and fast."

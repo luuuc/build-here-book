@@ -1,0 +1,13 @@
+{%- comment -%}
+  Include at the top of every template; these variables stay visible to its includes.
+  French keeps the unsuffixed `chapters` collection so published URLs don't change.
+{%- endcomment -%}
+{%- assign lang = page.lang | default: site.default_lang | default: 'fr' -%}
+{%- assign t = site.data[lang].interface -%}
+{%- assign toc = site.data[lang].toc -%}
+{%- assign families = site.data[lang].families -%}
+{%- assign book_key = 'chapters' -%}
+{%- if lang != 'fr' -%}{%- assign book_key = 'chapters_' | append: lang -%}{%- endif -%}
+{%- assign book = site[book_key] | sort: 'order' -%}
+{%- assign current_language = site.languages | where: 'code', lang | first -%}
+{%- assign description_site = current_language.description | default: site.description -%}

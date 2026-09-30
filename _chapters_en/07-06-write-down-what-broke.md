@@ -3,7 +3,7 @@ layout: chapter
 title: "Write down what broke"
 part: "Systems"
 order: 706
-card_type: pratique
+card_type: practice
 metadata:
   principle: "7.06"
   reading_time_in_minutes: 2
@@ -12,7 +12,7 @@ categories:
   - postmortem
   - incident
   - apprentissage
-traductions:
+translations:
   fr: /livre/chapitres/07-06-ecris-ce-qui-a-casse.html
 seo:
   description: "With no record, the same incident comes back. Write one page within the week, and publish it when it can help others."

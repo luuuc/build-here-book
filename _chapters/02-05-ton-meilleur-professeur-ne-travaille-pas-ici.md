@@ -3,7 +3,7 @@ layout: chapter
 title: "Ton meilleur professeur ne travaille pas ici"
 part: "Le métier"
 order: 205
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.05"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - apprentissage
   - open-source
   - niveau
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-05-your-best-teacher-does-not-work-here.html
 seo:
   description: "Tes collègues partagent tes angles morts. Un exemple extérieur ouvre une option : garde la façon de raisonner, compare les contraintes."

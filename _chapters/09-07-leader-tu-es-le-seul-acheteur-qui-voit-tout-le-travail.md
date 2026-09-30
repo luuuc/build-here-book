@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Tu es le seul acheteur qui voit tout le travail"
 part: "Le leadership"
 order: 907
-card_type: systeme
+card_type: system
 metadata:
   principle: "9.07"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - visibilite
   - leadership
   - carriere
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/09-07-you-are-the-only-buyer-who-sees-all-the-work.html
 seo:
   description: "Si seul ce qui se présente bien est reconnu, l'équipe apprend à présenter. Rends les critères explicites et mesure les effets."

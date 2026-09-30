@@ -11,7 +11,7 @@ categories:
   - trace
   - visibilite
   - ecriture
-traductions:
+translations:
   fr: /livre/chapitres/10-03-un-avis-nest-pas-un-artefact.html
 seo:
   description: "An opinion gets debated, an artifact gets picked up. Share the case, the template, the numbers and the method."

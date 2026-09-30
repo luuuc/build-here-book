@@ -3,7 +3,7 @@ layout: chapter
 title: "Talk to the person who has the problem"
 part: "Understanding"
 order: 401
-card_type: pratique
+card_type: practice
 metadata:
   principle: "4.01"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - client
   - support
   - produit
-traductions:
+translations:
   fr: /livre/chapitres/04-01-parle-a-la-personne-qui-a-le-probleme.html
 seo:
   description: "A summary selects. Talk to the person who lives the problem: numbers tell you how many, the conversation tells you how."

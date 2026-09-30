@@ -1,55 +1,50 @@
-/* Les jetons de Build Here, compiles depuis le systeme de design.
-   Source de verite : https://claude.ai/artifact/33Ckh9SE8s9oaHhLjFHnqE
-   (project/tokens.json). Ne pas editer a la main : changer le jeton la-bas,
-   puis recompiler ce fichier. Le brief est dans .doc/systeme-de-design.md.
-
-   Les rapports de contraste sont notes sur chaque jeton dans le systeme.
-   Deux pieges : `bleu` ne passe pas sur `nuit` (2,3:1), et `discret` est fait
-   pour le fond clair — sur une bande sombre c'est `discret-nuit`. */
+/* Generated from the design system (https://claude.ai/artifact/33Ckh9SE8s9oaHhLjFHnqE,
+   project/tokens.json): edit the token there, not here. `blue` fails on
+   `night` (2.3:1); on dark bands use `muted-night`, not `muted`. */
 
 :root,
-[data-theme="clair"] {
-  --papier: #ffffff;
+[data-theme="light"] {
+  --paper: #ffffff;
   --surface: #f3f5f8;
-  --filet: #dfe4ea;
-  --nuit: #141a22;
-  --encre: #0f1319;
-  --texte: #272e38;
-  --discret: #5a6472;
-  --discret-nuit: #98a1ae;
-  --bleu: #1b4db3;
-  --bleu-voile: #e9f0fc;
+  --rule: #dfe4ea;
+  --night: #141a22;
+  --ink: #0f1319;
+  --text: #272e38;
+  --muted: #5a6472;
+  --muted-night: #98a1ae;
+  --blue: #1b4db3;
+  --blue-tint: #e9f0fc;
   --signal: #e24e12;
-  --signal-texte: #c2410c;
-  --signal-voile: #fdece5;
-  --parcours-commencer: #0e7c5a;
-  --parcours-progresser: var(--bleu);
-  --parcours-equipe: #8b2e6e;
-  --parcours-soutenir: #b8460f;
-  --ombre-entete: 0 2px 12px rgba(15, 19, 25, 0.08);
-  --ombre-menu: 0 12px 30px rgba(15, 19, 25, 0.16);
+  --signal-text: #c2410c;
+  --signal-tint: #fdece5;
+  --path-start: #0e7c5a;
+  --path-grow: var(--blue);
+  --path-team: #8b2e6e;
+  --path-support: #b8460f;
+  --shadow-header: 0 2px 12px rgba(15, 19, 25, 0.08);
+  --shadow-menu: 0 12px 30px rgba(15, 19, 25, 0.16);
 }
 
 :root {
-  --espace-1: 4px;
-  --espace-2: 8px;
-  --espace-3: 12px;
-  --espace-4: 16px;
-  --espace-6: 24px;
-  --espace-8: 32px;
-  --espace-12: 48px;
-  --espace-16: 64px;
-  --espace-24: 96px;
-  --espace-32: 128px;
-  --gouttiere-mobile: 20px;
-  --bande-mobile: 56px;
-  --hero-mobile-haut: 72px;
-  --rayon-0: 0;
-  --rayon-2: 2px;
-  --rayon-rond: 9999px;
-  --colonne-livre: 40rem;
-  --colonne-prose: 48rem;
-  --colonne-large: 68rem;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+  --space-32: 128px;
+  --gutter-mobile: 20px;
+  --band-mobile: 56px;
+  --hero-mobile-top: 72px;
+  --radius-0: 0;
+  --radius-2: 2px;
+  --radius-round: 9999px;
+  --column-book: 40rem;
+  --column-prose: 48rem;
+  --column-large: 68rem;
   --font-sans: Archivo, system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-serif: Merriweather, Georgia, "Times New Roman", serif;
 }
@@ -71,7 +66,7 @@
   letter-spacing: -0.02em;
 }
 
-.titre-page {
+.title-page {
   font-family: var(--font-sans);
   font-size: 44px;
   line-height: 51px;
@@ -79,7 +74,7 @@
   letter-spacing: -0.015em;
 }
 
-.titre-page-mobile {
+.title-page-mobile {
   font-family: var(--font-sans);
   font-size: 32px;
   line-height: 38px;
@@ -87,7 +82,7 @@
   letter-spacing: -0.015em;
 }
 
-.titre-section {
+.title-section {
   font-family: var(--font-sans);
   font-size: 32px;
   line-height: 40px;
@@ -95,7 +90,7 @@
   letter-spacing: -0.01em;
 }
 
-.titre-section-mobile {
+.title-section-mobile {
   font-family: var(--font-sans);
   font-size: 24px;
   line-height: 31px;
@@ -103,35 +98,35 @@
   letter-spacing: -0.01em;
 }
 
-.sous-titre {
+.subtitle {
   font-family: var(--font-sans);
   font-size: 20px;
   line-height: 28px;
   font-weight: 500;
 }
 
-.accroche {
+.hook {
   font-family: var(--font-sans);
   font-size: 20px;
   line-height: 31px;
   font-weight: 400;
 }
 
-.corps {
+.body {
   font-family: var(--font-sans);
   font-size: 17px;
   line-height: 27px;
   font-weight: 400;
 }
 
-.libelle {
+.label {
   font-family: var(--font-sans);
   font-size: 15px;
   line-height: 20px;
   font-weight: 500;
 }
 
-.surtitre {
+.kicker {
   font-family: var(--font-sans);
   font-size: 13px;
   line-height: 17px;
@@ -139,15 +134,15 @@
   letter-spacing: 0.08em;
 }
 
-.legende {
+.caption {
   font-family: var(--font-sans);
   font-size: 13px;
   line-height: 20px;
   font-weight: 400;
 }
 
-/* Livre */
-.livre-titre {
+/* Book */
+.book-title {
   font-family: var(--font-serif);
   font-size: 34px;
   line-height: 41px;
@@ -155,14 +150,14 @@
   letter-spacing: -0.01em;
 }
 
-.livre-corps {
+.book-body {
   font-family: var(--font-serif);
   font-size: 17px;
   line-height: 30px;
   font-weight: 400;
 }
 
-.livre-exergue {
+.book-epigraph {
   font-family: var(--font-serif);
   font-size: 21px;
   line-height: 32px;

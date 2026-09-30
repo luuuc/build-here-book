@@ -3,7 +3,7 @@ layout: chapter
 title: "The bad outcome is yours too"
 part: "Ownership"
 order: 604
-card_type: principe
+card_type: principle
 metadata:
   principle: "6.04"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - ownership
   - resultat
   - honnetete
-traductions:
+translations:
   fr: /livre/chapitres/06-04-le-mauvais-resultat-tappartient-aussi.html
 seo:
   description: "If every failure is explained by the context, the team learns nothing. Name at least one choice you would make differently."

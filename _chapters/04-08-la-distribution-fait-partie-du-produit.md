@@ -3,7 +3,7 @@ layout: chapter
 title: "La distribution fait partie du produit"
 part: "La compréhension"
 order: 408
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.08"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - visibilite
   - distribution
   - marketing
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-08-distribution-is-part-of-the-product.html
 seo:
   description: "Un service que personne ne trouve n'existe pas. Trace le chemin vers le premier usage pendant que tu construis."

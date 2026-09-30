@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ You get the complexity you reward"
 part: "The craft"
 order: 211
-card_type: systeme
+card_type: system
 metadata:
   principle: "2.11"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - engineering
   - simplicite
   - technique
-traductions:
+translations:
   fr: /livre/chapitres/02-11-leader-tu-recoltes-la-complexite-que-tu-recompenses.html
 seo:
   description: "If your review only asks what shipped, the team adds. Ask what got simpler too, and by how much."

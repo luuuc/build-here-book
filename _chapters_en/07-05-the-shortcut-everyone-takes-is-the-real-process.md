@@ -11,7 +11,7 @@ categories:
   - systemes
   - process
   - equipe
-traductions:
+translations:
   fr: /livre/chapitres/07-05-le-raccourci-que-tout-le-monde-prend-est-le-vrai-processus.html
 seo:
   description: "When everyone works around a step, the shortcut is the real process. Ask what it solves before restating the rule."

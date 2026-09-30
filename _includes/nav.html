@@ -1,13 +1,9 @@
 <div class="offcanvas" id="offcanvas">
   <div class="offcanvas-header">
-    {%- comment -%}
-      Le menu s'ouvre sur le premier groupe du sommaire, l'introduction, titre
-      comme les parties du livre. Ses chapitres suivent juste en dessous.
-    {%- endcomment %}
-    <span class="nav-part-title">{{ sommaire.first.titre }}</span>
-    <button class="close-btn" data-bascule-menu aria-label="{{ t.entete.menu_fermer }}">×</button>
+    <span class="nav-part-title">{{ toc.first.title }}</span>
+    <button class="close-btn" data-toggle-menu aria-label="{{ t.header.menu_close }}">×</button>
   </div>
-  <nav aria-label="{{ t.menu.sommaire_aria }}">
+  <nav aria-label="{{ t.menu.toc_aria }}">
     <ul class="nav-menu">
       {% include nav-book.html %}
     </ul>

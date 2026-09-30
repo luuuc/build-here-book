@@ -1,15 +1,6 @@
 <!doctype html>
 <!--
-  Archive : ancien projet de test noté, remplacé le 21 septembre 2026.
-  La version active est décrite dans _chapters/a2-comment-fonctionne-le-test.md.
-
-  À ouvrir directement dans un navigateur :
-    open _brouillon/test-du-builder/apercu.html
-
-  Les liens vers les cartes ne résolvent pas depuis un fichier local, c'est
-  normal. Le style en bas de page rejoindra assets/stylesheets/style.css le
-  jour de la bascule, pas avant : il n'y a aucune raison de publier le style
-  d'un test qui n'est pas publié.
+  Archived old scored test. Open the file directly in a browser; card links won't resolve locally.
 -->
 <html lang="fr">
   <head>
@@ -18,7 +9,7 @@
     <title>Aperçu du test du builder</title>
     <link rel="stylesheet" href="../../assets/stylesheets/style.css" />
     <style>
-      .apercu-bandeau {
+      .preview-banner {
         background: #8A1C1C; color: #fff; font-family: "Archivo", sans-serif;
         font-size: 0.8rem; letter-spacing: 0.1em; padding: 0.6rem 1rem;
         text-align: center; text-transform: uppercase;
@@ -32,21 +23,21 @@
         background: #FBEEC1; border-left: 4px solid #F5B301;
         margin: 1.6rem 0; padding: 1.1rem 1.3rem;
       }
-      [data-result-citations] blockquote {
+      [data-result-quotes] blockquote {
         border-left: 2px solid #E8E3D9; margin: 1rem 0; padding-left: 1rem;
       }
-      [data-result-citations] small {
+      [data-result-quotes] small {
         color: #6F6A61; display: block; font-size: 0.82rem; margin-bottom: 0.3rem;
       }
-      [data-result-citations] p { margin: 0; }
-      .builder-test-rdv {
+      [data-result-quotes] p { margin: 0; }
+      .builder-test-meeting {
         border-top: 1px solid #E8E3D9; color: #6F6A61; font-size: 0.9rem;
         margin-top: 2rem; padding-top: 1.2rem;
       }
     </style>
   </head>
   <body>
-    <div class="apercu-bandeau">Archive : ancien projet de test noté, remplacé le 21 septembre 2026. Voir la méthode du test actuel dans le livre.</div>
+    <div class="preview-banner">Archive : ancien projet de test noté, remplacé le 21 septembre 2026. Voir la méthode du test actuel dans le livre.</div>
 
     <section class="hero">
       <div class="container">
@@ -97,14 +88,14 @@
             </div>
 
             <h3>Tes trois facettes</h3>
-            <div class="builder-test-scale" data-result-facettes></div>
+            <div class="builder-test-scale" data-result-facets></div>
 
             <h3>Les réponses qui ont produit ce résultat</h3>
-            <p data-result-citations-note></p>
-            <div data-result-citations></div>
+            <p data-result-quotes-note></p>
+            <div data-result-quotes></div>
 
             <h3>La marge que ton poste te laisse</h3>
-            <p data-result-marge></p>
+            <p data-result-margin></p>
 
             <h3>La marche qui limite les autres</h3>
             <p class="builder-test-lede" data-result-next></p>
@@ -117,7 +108,7 @@
             <h3>Trois cartes</h3>
             <div class="builder-test-route" data-result-route></div>
 
-            <p class="builder-test-rdv">Repasse ce test dans trois mois. Le résultat n'est pas une identité : s'il ne bouge pas alors que ton travail a changé, c'est le test qui a tort.</p>
+            <p class="builder-test-meeting">Repasse ce test dans trois mois. Le résultat n'est pas une identité : s'il ne bouge pas alors que ton travail a changé, c'est le test qui a tort.</p>
             <p class="builder-test-disclaimer">Ce test est un outil éditorial d'orientation. Ce n'est ni un diagnostic psychologique, ni un outil de recrutement, ni une mesure de valeur professionnelle.</p>
           </section>
         </section>
@@ -125,6 +116,6 @@
     </main>
 
     <script src="questions.js"></script>
-    <script src="test-du-builder.js"></script>
+    <script src="builder-test.js"></script>
   </body>
 </html>

@@ -3,7 +3,7 @@ layout: chapter
 title: "Laisse-le porter ce qui est réversible"
 part: "Le leadership"
 order: 905
-card_type: pratique
+card_type: practice
 metadata:
   principle: "9.05"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - leadership
   - equipe
   - ownership
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/09-05-let-them-carry-what-is-reversible.html
 seo:
   description: "On apprend à décider en décidant. Confie les décisions qui se défont, et ne les reprends pas pour une question de goût."

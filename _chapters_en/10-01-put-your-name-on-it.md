@@ -3,7 +3,7 @@ layout: chapter
 title: "Put your name on it"
 part: "Being the reference"
 order: 1001
-card_type: pratique
+card_type: practice
 metadata:
   principle: "10.01"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - trace
   - visibilite
   - reference
-traductions:
+translations:
   fr: /livre/chapitres/10-01-mets-ton-nom-dessus.html
 seo:
   description: "A name makes work findable and accountable. Sign what you make, credit every contribution, publish."

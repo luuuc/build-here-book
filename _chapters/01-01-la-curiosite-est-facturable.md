@@ -3,7 +3,7 @@ layout: chapter
 title: "La curiosité est facturable"
 part: "L'état d'esprit"
 order: 101
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.01"
   reading_time_in_minutes: 2
@@ -13,8 +13,7 @@ categories:
   - engineering
   - support
   - operations
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/01-01-curiosity-is-billable.html
 seo:
   description: "Trente minutes pour suivre un dossier de bout en bout évitent des heures de réponses répétées."

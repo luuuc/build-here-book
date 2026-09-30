@@ -13,8 +13,7 @@ categories:
   - levier
   - impact
   - ia
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/08-00-leverage.html
 seo:
   description: "Faire rendre davantage à un travail utile, avec ce que tu as déjà, sans multiplier l'erreur."

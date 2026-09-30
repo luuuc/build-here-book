@@ -3,7 +3,7 @@ layout: chapter
 title: "Your best teacher does not work here"
 part: "The craft"
 order: 205
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.05"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - apprentissage
   - open-source
   - niveau
-traductions:
+translations:
   fr: /livre/chapitres/02-05-ton-meilleur-professeur-ne-travaille-pas-ici.html
 seo:
   description: "Your colleagues share your blind spots. An outside example opens an option: keep the way of reasoning, compare the constraints."

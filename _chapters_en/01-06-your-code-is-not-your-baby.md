@@ -3,7 +3,7 @@ layout: chapter
 title: "Your code is not your baby"
 part: "The mindset"
 order: 106
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.06"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - ego
   - honnetete-intellectuelle
   - culture
-traductions:
+translations:
   fr: /livre/chapitres/01-06-ton-code-nest-pas-ton-bebe.html
 seo:
   description: "Criticism is about what your work produces, not about your worth. Bring it back to a case you can check."

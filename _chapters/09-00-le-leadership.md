@@ -13,8 +13,7 @@ categories:
   - leadership
   - equipe
   - builders
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/09-00-leadership.html
 seo:
   description: "Ce que tu rends possible pour les autres : confier un problème, relire pour faire apprendre, te rendre remplaçable."

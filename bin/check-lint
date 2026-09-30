@@ -3,36 +3,36 @@ import assert from "node:assert/strict";
 import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { join } from "node:path";
-import { verifier } from "./lint.mjs";
+import { check } from "./lint.mjs";
 const root = fileURLToPath(new URL("..", import.meta.url));
 const chapters = readdirSync(join(root, "_chapters")).filter((f) => f.endsWith(".md"));
 const sources = chapters.map((filename) => ({ filename, source: readFileSync(join(root, "_chapters", filename), "utf8") }));
 const withRoles = (source, body) => source.replace(/## Depuis ton siège\n[\s\S]*?(?=## À discuter)/, body === null ? "" : `## Depuis ton siège\n\n${body}\n\n`);
 let checks = 0;
 function test(name, run) { run(); checks++; }
-for (const type of ["principe", "diagnostic", "pratique", "systeme"]) {
+for (const type of ["principle", "diagnostic", "practice", "system"]) {
   const fixture = sources.find(({source}) => source.includes(`card_type: ${type}\n`));
   test(`${type} : rôles facultatifs et ouverts`, () => {
     for (const roles of [null, '- **Bénévolat** : propose un appui limité.',
       ['Finance','Opérations','Vente','Apprentissage','Association','Soutien','Design'].map((r)=>`- **${r}** : précise le geste dans ton périmètre.`).join('\n')]) {
-      const r=verifier({...fixture,source:withRoles(fixture.source,roles)});
-      assert.deepEqual(r.regles, []);
+      const r=check({...fixture,source:withRoles(fixture.source,roles)});
+      assert.deepEqual(r.rules, []);
     }
   });
   test(`${type} : rôle invalide ou dupliqué signalé`, () => {
     for (const roles of ['', '- **Finance** :', 'Une ligne sans rôle.', '- **Finance** : observe.\n- **finance** : vérifie.']) {
-      assert(verifier({...fixture,source:withRoles(fixture.source,roles)}).regles.length > 0);
+      assert(check({...fixture,source:withRoles(fixture.source,roles)}).rules.length > 0);
     }
   });
   test(`${type} : rôles exclus du nombre de mots`, () => {
-    const before=verifier({...fixture,source:withRoles(fixture.source,null)});
-    const after=verifier({...fixture,source:withRoles(fixture.source,'- **Rôle local** : '+ 'un geste '.repeat(30))});
-    assert.equal(before.mots,after.mots);
-    assert(after.mesures.some((m)=>m.includes('caractères')));
+    const before=check({...fixture,source:withRoles(fixture.source,null)});
+    const after=check({...fixture,source:withRoles(fixture.source,'- **Rôle local** : '+ 'un geste '.repeat(30))});
+    assert.equal(before.words,after.words);
+    assert(after.metrics.some((m)=>m.includes('caractères')));
   });
 }
 test('Un bloc essentiel manquant reste signalé',()=> {
-  const fixture=sources.find(({source})=>source.includes('card_type: principe\n'));
-  assert(verifier({...fixture,source:fixture.source.replace('## Pourquoi','## Explication libre')}).regles.length > 0);
+  const fixture=sources.find(({source})=>source.includes('card_type: principle\n'));
+  assert(check({...fixture,source:fixture.source.replace('## Pourquoi','## Explication libre')}).rules.length > 0);
 });
 console.log(`Linter valide : ${checks} groupes de vérifications sur les quatre types de cartes.`);

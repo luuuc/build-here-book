@@ -1,10 +1,8 @@
 <script src="/book/assets/javascripts/offcanvas.js"></script>
-<!-- compte.js d'abord : les autres lisent le compte par lui. carnet.js avant
-     partage.js : le second revele son bouton « Noter » seulement si le
-     premier a pose sa fonction. -->
-<script src="/book/assets/javascripts/compte.js"></script>
-<script src="/book/assets/javascripts/carnet.js"></script>
-<script src="/book/assets/javascripts/partage.js"></script>
-<script src="/book/assets/javascripts/lecture.js"></script>
-<script src="/book/assets/javascripts/essai.js"></script>
+{% comment %}Order matters: account.js first (others use window.BuildHereAccount); notebook.js before share.js, which shows its "Noter" button only if window.buildHereRate exists.{% endcomment %}
+<script src="/book/assets/javascripts/account.js"></script>
+<script src="/book/assets/javascripts/notebook.js"></script>
+<script src="/book/assets/javascripts/share.js"></script>
+<script src="/book/assets/javascripts/reading.js"></script>
+<script src="/book/assets/javascripts/try.js"></script>
 <script src="/book/assets/javascripts/note.js"></script>

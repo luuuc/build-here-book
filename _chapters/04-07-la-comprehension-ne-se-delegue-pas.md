@@ -3,7 +3,7 @@ layout: chapter
 title: "La compréhension ne se délègue pas"
 part: "La compréhension"
 order: 407
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.07"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - technologie
   - business
   - strategie
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-07-understanding-cannot-be-delegated.html
 seo:
   description: "Déléguer le travail, oui. Déléguer la compréhension, non : sans elle, tu signes ce qu'on te présente."

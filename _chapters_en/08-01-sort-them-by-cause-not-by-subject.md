@@ -11,7 +11,7 @@ categories:
   - levier
   - impact
   - client
-traductions:
+translations:
   fr: /livre/chapitres/08-01-range-les-par-cause-pas-par-sujet.html
 seo:
   description: "Sorting by subject tells you where requests arrive, sorting by cause tells you what to fix. One shared cause, one move."

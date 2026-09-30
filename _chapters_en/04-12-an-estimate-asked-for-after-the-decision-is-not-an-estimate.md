@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ An estimate asked for after the decision is not an estimate"
 part: "Understanding"
 order: 412
-card_type: systeme
+card_type: system
 metadata:
   principle: "4.12"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - technologie
   - business
   - strategie
-traductions:
+translations:
   fr: /livre/chapitres/04-12-leader-un-chiffrage-demande-apres-la-decision-nest-pas-un-chiffrage.html
 seo:
   description: "An estimate asked for after the promise is a request for confirmation. Ask for the options before you promise."

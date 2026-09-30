@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Tu ne peux pas demander de la franchise et garder le dernier mot"
 part: "L'autonomie"
 order: 308
-card_type: systeme
+card_type: system
 metadata:
   principle: "3.08"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - hierarchie
   - decision
   - culture
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/03-08-you-cannot-ask-for-candor-and-keep-the-last-word.html
 seo:
   description: "Le silence après une objection balayée n'est pas un accord, c'est une conclusion. Réponds à chaque objection, même quand la décision tient."

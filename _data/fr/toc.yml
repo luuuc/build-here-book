@@ -1,9 +1,9 @@
-# Ordre du livre : introduction, sections et cartes, conclusion, références.
-- titre: Introduction
+# Section names must match the cards' `part` exactly. bin/lint-entry reads them by their 4-space indent.
+- title: Introduction
   sections:
     - Introduction
 
-- titre: Les dix capacités
+- title: Les dix capacités
   sections:
     - L'état d'esprit
     - Le métier
@@ -16,10 +16,10 @@
     - Le leadership
     - La référence
 
-- titre: Conclusion
+- title: Conclusion
   sections:
     - Clôture
 
-- titre: Références
+- title: Références
   sections:
     - Références

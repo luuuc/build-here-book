@@ -13,8 +13,7 @@ categories:
   - systemes
   - process
   - builders
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/07-00-systems.html
 seo:
   description: "Rendre la prochaine fois plus facile : supprimer avant de documenter, sortir un savoir d'une seule tête, ne pas tout transformer en processus."

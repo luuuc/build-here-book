@@ -11,7 +11,7 @@ categories:
   - client
   - support
   - produit
-traductions:
+translations:
   fr: /livre/chapitres/04-02-une-demande-de-feature-nest-pas-le-probleme.html
 seo:
   description: "A feature request is a proposed solution. Ask about the final use before you build."

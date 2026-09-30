@@ -3,7 +3,7 @@ layout: chapter
 title: "Come back a month later"
 part: "Ownership"
 order: 602
-card_type: pratique
+card_type: practice
 metadata:
   principle: "6.02"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - ownership
   - resultat
   - livraison
-traductions:
+translations:
   fr: /livre/chapitres/06-02-reviens-voir-un-mois-plus-tard.html
 seo:
   description: "Shipping is not finishing. At delivery, set the date you will look at the effect, with a precise question."

@@ -11,8 +11,7 @@ categories:
   - levier
   - impact
   - client
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/08-01-sort-them-by-cause-not-by-subject.html
 seo:
   description: "Ranger par sujet dit où les demandes arrivent, ranger par cause dit quoi corriger. Une cause commune, un seul geste."

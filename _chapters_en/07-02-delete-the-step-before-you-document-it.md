@@ -3,7 +3,7 @@ layout: chapter
 title: "Delete the step before you document it"
 part: "Systems"
 order: 702
-card_type: pratique
+card_type: practice
 metadata:
   principle: "7.02"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - systemes
   - process
   - simplicite
-traductions:
+translations:
   fr: /livre/chapitres/07-02-supprime-letape-avant-de-la-documenter.html
 seo:
   description: "Documenting a useless step makes it permanent. Ask what it produces before you write it down."

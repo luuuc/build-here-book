@@ -1,31 +1,21 @@
-// Dire si une entree a servi.
-//
-// Trois reponses, et une raison quand ce n'est pas oui. Pas d'etoiles, pas de
-// score : ce qui vaut n'est pas le compte des « oui », c'est « il manque un
-// exemple » sur une entree precise, parce que ca se repare.
-//
-// L'envoi part des le premier clic, avant la raison. Quelqu'un qui repond et
-// s'en va a quand meme repondu, et le serveur remplace au lieu d'ajouter, donc
-// preciser ensuite ne compte pas deux fois.
+// "Did this help?" block. Sends on every click; the server dedupes by client id.
 
 (function () {
-  const bloc = document.getElementById("note");
-  if (!bloc) return;
+  const block = document.getElementById("note");
+  if (!block) return;
 
-  const API = bloc.dataset.api;
-  const page = bloc.dataset.page;
-  const CLE = "build-here:note:" + page;
+  const API = block.dataset.api;
+  const page = block.dataset.page;
+  const KEY = "build-here:note:" + page;
 
-  const valeurs = bloc.querySelector(".note-valeurs");
-  const suite = bloc.querySelector(".note-suite");
-  const merci = bloc.querySelector(".note-merci");
-  const libre = bloc.querySelector(".note-libre textarea");
-  const envoyer = bloc.querySelector(".note-envoyer");
+  const values = block.querySelector(".note-values");
+  const next = block.querySelector(".note-next");
+  const thanks = block.querySelector(".note-thanks");
+  const free = block.querySelector(".note-free textarea");
+  const send = block.querySelector(".note-send");
 
-  let etat = { valeur: null, raison: null };
+  let state = { value: null, reason: null };
 
-  // Une identite locale, qui ne quitte jamais le navigateur autrement que
-  // comme clef de deduplication.
   function client() {
     try {
       let c = localStorage.getItem("build-here:client");
@@ -39,9 +29,9 @@
     }
   }
 
-  async function envoyerNote() {
+  async function sendNote() {
     const c = client();
-    if (!c) return; // stockage bloque : on ne peut pas dedupliquer, on s'abstient
+    if (!c) return; // storage blocked: can't dedupe, so don't send
 
     try {
       await fetch(`${API}/feedbacks`, {
@@ -49,81 +39,75 @@
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
           page,
-          title: bloc.dataset.titre,
-          value: etat.valeur,
-          reason: etat.raison,
-          comment: libre.value.trim() || null,
+          title: block.dataset.title,
+          value: state.value,
+          reason: state.reason,
+          comment: free.value.trim() || null,
           client: c,
         }),
       });
     } catch (e) {
-      // Le reseau a lache. On ne dit rien : le lecteur a donne son avis, ce
-      // n'est pas son probleme que le serveur ne reponde pas.
+      // Fail silently.
     }
   }
 
-  function marquer() {
-    valeurs.querySelectorAll("button").forEach((b) =>
-      b.setAttribute("aria-pressed", String(b.dataset.valeur === etat.valeur))
+  function mark() {
+    values.querySelectorAll("button").forEach((b) =>
+      b.setAttribute("aria-pressed", String(b.dataset.value === state.value))
     );
-    suite.querySelectorAll("[data-raison]").forEach((b) =>
-      b.setAttribute("aria-pressed", String(b.dataset.raison === etat.raison))
+    next.querySelectorAll("[data-reason]").forEach((b) =>
+      b.setAttribute("aria-pressed", String(b.dataset.reason === state.reason))
     );
   }
 
-  function retenir() {
+  function remember() {
     try {
-      localStorage.setItem(CLE, JSON.stringify(etat));
+      localStorage.setItem(KEY, JSON.stringify(state));
     } catch (e) {}
   }
 
-  valeurs.querySelectorAll("button").forEach((b) =>
+  values.querySelectorAll("button").forEach((b) =>
     b.addEventListener("click", function () {
-      // Changer d'avis repart de zero sur le detail. Sans ce vidage, un
-      // commentaire ecrit pour l'ancienne reponse restait dans le champ et
-      // partait attache a la nouvelle, invisible pour celui qui l'a ecrit.
-      etat = { valeur: b.dataset.valeur, raison: null };
-      libre.value = "";
-      envoyer.disabled = false;
-      marquer();
-      retenir();
-      envoyerNote();
+      // Clear the comment so it isn't sent with the new answer.
+      state = { value: b.dataset.value, reason: null };
+      free.value = "";
+      send.disabled = false;
+      mark();
+      remember();
+      sendNote();
 
-      // Un oui n'a pas de suite : on ne demande pas a quelqu'un de justifier
-      // qu'il est content.
-      const detail = etat.valeur !== "yes";
-      suite.hidden = !detail;
-      merci.hidden = detail;
+      const detail = state.value !== "yes";
+      next.hidden = !detail;
+      thanks.hidden = detail;
     })
   );
 
-  suite.querySelectorAll("[data-raison]").forEach((b) =>
+  next.querySelectorAll("[data-reason]").forEach((b) =>
     b.addEventListener("click", function () {
-      etat.raison = etat.raison === b.dataset.raison ? null : b.dataset.raison;
-      marquer();
-      retenir();
-      envoyerNote();
+      state.reason = state.reason === b.dataset.reason ? null : b.dataset.reason;
+      mark();
+      remember();
+      sendNote();
     })
   );
 
-  envoyer.addEventListener("click", async function () {
-    envoyer.disabled = true;
-    await envoyerNote();
-    suite.hidden = true;
-    merci.hidden = false;
+  send.addEventListener("click", async function () {
+    send.disabled = true;
+    await sendNote();
+    next.hidden = true;
+    thanks.hidden = false;
   });
 
-  // Celui qui revient retrouve sa reponse, et peut la changer. Celui qui a
-  // repondu en fermant un essai ne voit plus la question : c'est fait.
-  let parEssai = false;
+  // byTry is set by try.js when the reader answered while closing a try: hide the block.
+  let byTry = false;
   try {
-    const garde = JSON.parse(localStorage.getItem(CLE) || "null");
-    if (garde && garde.valeur) {
-      etat = { valeur: garde.valeur, raison: garde.raison };
-      parEssai = Boolean(garde.parEssai);
-      marquer();
+    const saved = JSON.parse(localStorage.getItem(KEY) || "null");
+    if (saved && saved.value) {
+      state = { value: saved.value, reason: saved.reason };
+      byTry = Boolean(saved.byTry);
+      mark();
     }
   } catch (e) {}
 
-  bloc.hidden = parEssai;
+  block.hidden = byTry;
 })();

@@ -3,7 +3,7 @@ layout: chapter
 title: "Hand over a problem, not a task"
 part: "Leadership"
 order: 903
-card_type: pratique
+card_type: practice
 metadata:
   principle: "9.03"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - leadership
   - equipe
   - transmission
-traductions:
+translations:
   fr: /livre/chapitres/09-03-confie-un-probleme-pas-une-tache.html
 seo:
   description: "A task list teaches people to execute, a problem teaches them to judge. Give the goal and the limits, let them propose the approach."

@@ -11,8 +11,7 @@ categories:
   - produit
   - client
   - arbitrage
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/03-02-the-ticket-is-not-the-work.html
 seo:
   description: "Compter les tickets mesure l'activité, pas l'effet. Relie chaque travail important au chiffre qu'il doit faire bouger."

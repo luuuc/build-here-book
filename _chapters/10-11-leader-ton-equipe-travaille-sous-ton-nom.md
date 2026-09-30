@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Ton équipe travaille sous ton nom"
 part: "La référence"
 order: 1011
-card_type: systeme
+card_type: system
 metadata:
   principle: "10.11"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - visibilite
   - leadership
   - retention
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-11-your-team-works-under-your-name.html
 seo:
   description: "Quand le travail de l'equipe sort, demande a chaque contributeur comment il veut etre credite, avant la presentation et pas apres."

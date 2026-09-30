@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Une feuille de route que personne n'a le droit de refuser est une file d'attente"
 part: "L'autonomie"
 order: 307
-card_type: systeme
+card_type: system
 metadata:
   principle: "3.07"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - produit
   - client
   - arbitrage
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/03-07-a-roadmap-nobody-may-refuse-is-a-queue.html
 seo:
   description: "Chaque ajout sans retrait se paie en silence. Si l'équipe ne peut que dire oui, ta feuille de route est une file d'attente."

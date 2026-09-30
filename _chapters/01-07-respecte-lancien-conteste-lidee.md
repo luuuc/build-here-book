@@ -3,7 +3,7 @@ layout: chapter
 title: "Respecte l'ancien. Conteste l'idée"
 part: "L'état d'esprit"
 order: 107
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.07"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - hierarchie
   - decision
   - culture
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/01-07-respect-the-elder-challenge-the-idea.html
 seo:
   description: "Le respect est dû à la personne. Il n'est pas dû à la phrase."

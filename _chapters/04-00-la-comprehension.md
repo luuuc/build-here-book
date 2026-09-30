@@ -13,8 +13,7 @@ categories:
   - comprehension
   - business
   - client
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-00-understanding.html
 seo:
   description: "Relier ton travail à ce qui l'entoure : la personne qui a le problème, ce qu'elle demande vraiment, ce que ça coûte, qui le fait tenir."

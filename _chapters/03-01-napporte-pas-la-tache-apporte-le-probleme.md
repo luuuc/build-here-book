@@ -3,7 +3,7 @@ layout: chapter
 title: "N'apporte pas la tâche. Apporte le problème"
 part: "L'autonomie"
 order: 301
-card_type: pratique
+card_type: practice
 metadata:
   principle: "3.01"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - ownership
   - responsabilite
   - execution
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/03-01-do-not-bring-the-task-bring-the-problem.html
 seo:
   description: "Celui qui fait le travail voit ce que le cadrage ne voyait pas. Livre la tâche, et livre ce qu'elle a révélé."

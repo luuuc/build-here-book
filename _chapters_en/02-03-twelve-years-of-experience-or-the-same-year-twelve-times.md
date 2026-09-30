@@ -11,7 +11,7 @@ categories:
   - metier
   - apprentissage
   - niveau
-traductions:
+translations:
   fr: /livre/chapitres/02-03-douze-ans-dexperience-ou-douze-fois-la-meme-annee.html
 seo:
   description: "An automatic move stops improving. Pick one precise move, make three attempts with feedback between each, and compare."

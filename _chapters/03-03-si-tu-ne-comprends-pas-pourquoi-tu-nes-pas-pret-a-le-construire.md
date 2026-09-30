@@ -3,7 +3,7 @@ layout: chapter
 title: "Si tu ne comprends pas pourquoi, tu n'es pas prêt à le construire"
 part: "L'autonomie"
 order: 303
-card_type: principe
+card_type: principle
 metadata:
   principle: "3.03"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - curiosite
   - apprentissage
   - engineering
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/03-03-if-you-dont-understand-why-you-are-not-ready-to-build-it.html
 seo:
   description: "Demande pour qui et pourquoi. Si la réponse reste floue, une version d'une heure montrée à la personne répond plus vite qu'une réunion."

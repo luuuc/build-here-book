@@ -1,0 +1,25 @@
+# Section names must match the cards' `part` exactly. Sections with no card yet are skipped.
+- title: Introduction
+  sections:
+    - Introduction
+
+- title: The ten capabilities
+  sections:
+    - The mindset
+    - The craft
+    - Autonomy
+    - Understanding
+    - Delivery
+    - Ownership
+    - Systems
+    - Leverage
+    - Leadership
+    - Being the reference
+
+- title: Closing
+  sections:
+    - Closing
+
+- title: References
+  sections:
+    - References

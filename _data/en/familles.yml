@@ -1,9 +1,0 @@
-# The family shown in the eyebrow of a page band.
-#
-# The key is a value of `categories` already present in a page's front matter.
-# First match wins. Keys are shared with the French file: only the label is
-# translated, so a page keeps its categories whatever the language.
-ouverture: Opening
-ressources: Resources
-projet: The project
-builders: The book

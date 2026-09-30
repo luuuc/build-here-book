@@ -3,7 +3,7 @@ layout: chapter
 title: "Choisir un fournisseur, c'est signer pour trois ans"
 part: "La compréhension"
 order: 406
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.06"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - technologie
   - business
   - strategie
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-06-choosing-a-vendor-is-signing-up-for-three-years.html
 seo:
   description: "Le vrai prix d'un fournisseur, c'est ce qu'il coûte le jour où tu veux partir. Calcule-le avant de signer."

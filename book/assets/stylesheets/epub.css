@@ -1,13 +1,6 @@
-/* Le tirage. Meme palette que le site depuis le 22/09/2026 : les valeurs
-   sont ecrites en clair, pas en jetons, parce que ce fichier voyage seul
-   dans un rendu PDF ou une liseuse. La table des correspondances est en
-   tete de style.css. */
-/* Feuille de style de l'EPUB. Meme palette et memes fontes que le site et que
-   le PDF, mais un EPUB se reflowe : rien ici ne parle de page paire ni de
-   numero de page. Ce qui est repris, c'est la mise en page d'une entree.
-
-   Palette : encre #0f1319, bandeau #f3f5f8, signal #e24e12, ambre #5a6472,
-   papier #f3f5f8, filet #dfe4ea, texte #272e38. */
+/* EPUB stylesheet. Hex values, not tokens: this file ships alone. Colors match
+   tokens.css: ink #0f1319, surface #f3f5f8, signal #e24e12, muted #5a6472,
+   rule #dfe4ea, text #272e38. */
 
 @font-face { font-family: "Merriweather"; font-weight: normal; font-style: normal; src: url("../fonts/Merriweather-Regular.ttf"); }
 @font-face { font-family: "Merriweather"; font-weight: bold; font-style: normal; src: url("../fonts/Merriweather-Bold.ttf"); }
@@ -29,14 +22,8 @@ p { margin: 0 0 0.85em; text-align: justify; }
 a { color: #0f1319; }
 strong { color: #0f1319; }
 
-/* ------------------------------------------------------- pages de partie */
-
-/* La page noire du papier. Une liseuse garde ses propres marges autour du
-   texte : le noir ne peut pas aller jusqu'au bord de l'ecran, il va jusqu'au
-   bord de la zone de texte. Il prend en revanche toute la hauteur de page, et
-   rien d'autre ne vient s'asseoir dessus.
-   height en vh : si la liseuse ne connait pas l'unite, le bloc reprend la
-   hauteur de son contenu au lieu de deborder sur une deuxieme page. */
+/* height in vh: a reader without vh support falls back to content height
+   instead of spilling onto a second page. */
 h1.part-title {
   page-break-before: always;
   break-before: page;
@@ -66,8 +53,7 @@ h1.part-title {
   margin: 0;
 }
 
-/* Le filet jaune du PDF, entre le chiffre romain et le titre. Il passe par un
-   ::after parce qu'un titre ne peut pas contenir de bloc. */
+/* ::after because a heading can't contain a block. */
 .part-roman::after {
   content: "";
   display: block;
@@ -76,8 +62,6 @@ h1.part-title {
   background: #e24e12;
   margin: 1.5em 0 1.7em;
 }
-
-/* ---------------------------------------------------------- chapitres */
 
 h1.chapter-title,
 h2.chapter-title {
@@ -89,7 +73,6 @@ h2.chapter-title {
   margin: 0 0 0.5em;
 }
 
-/* Ouverture de section : le bandeau creme du site et du PDF, avec le dessin. */
 h1.chapter-title--section {
   background: #f3f5f8;
   border-bottom: 3px solid #e24e12;
@@ -124,7 +107,7 @@ h1.chapter-title--section {
   color: #dfe4ea;
 }
 
-.chapter--systeme .chapter-head { border-top: 0.22em double #0f1319; padding-top: 1em; }
+.chapter--system .chapter-head { border-top: 0.22em double #0f1319; padding-top: 1em; }
 
 .chapter-lede {
   font-family: "Archivo", sans-serif;
@@ -142,8 +125,6 @@ h1.chapter-title--section {
   margin: -1.2em 0 1.6em;
   text-align: left;
 }
-
-/* -------------------------------------------------------------- texte */
 
 .prose h4 {
   font-family: "Archivo", sans-serif;
@@ -204,8 +185,6 @@ h1.chapter-title--section {
 .prose .callout-hint { border-left-color: #0e7c5a; }
 .prose .callout-example { border-left-color: #1b4db3; }
 .prose .callout-warning { border-left-color: #e24e12; }
-
-/* ------------------------------------------------------------- notes */
 
 sup a { font-size: 0.7em; color: #5a6472; text-decoration: none; }
 

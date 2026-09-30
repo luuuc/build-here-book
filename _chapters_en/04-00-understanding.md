@@ -13,7 +13,7 @@ categories:
   - comprehension
   - business
   - client
-traductions:
+translations:
   fr: /livre/chapitres/04-00-la-comprehension.html
 seo:
   description: "Connect your work to what surrounds it: who has the problem, what they really ask for, what it costs, who keeps it running."

@@ -3,7 +3,7 @@ layout: chapter
 title: "L'ownership commence là où la fiche de poste s'arrête"
 part: "L'état d'esprit"
 order: 103
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.03"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - ownership
   - responsabilite
   - execution
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/01-03-ownership-starts-where-the-job-description-stops.html
 seo:
   description: "Les problèmes les plus coûteux vivent entre deux fiches de poste. Règle le cas présent et nomme qui prend la suite."

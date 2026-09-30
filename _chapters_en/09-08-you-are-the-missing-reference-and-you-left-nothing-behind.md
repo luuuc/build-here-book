@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ You are the missing reference, and you left nothing behind"
 part: "Leadership"
 order: 908
-card_type: systeme
+card_type: system
 metadata:
   principle: "9.08"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - reference
   - leadership
   - transmission
-traductions:
+translations:
   fr: /livre/chapitres/09-08-leader-tu-es-la-reference-qui-manque-et-tu-nas-rien-laisse.html
 seo:
   description: "Everything you know and have not written down, your team has to ask you. Write one bearing a month, and publish the ones that help elsewhere."

@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+"""Writes the practitioner scoring sheet (no answer values) from the test questions.
+
+  bin/scoring-sheet
+
+Reads docs/questions-test-du-builder.md, writes docs/questions-a-noter.md.
+Only situation questions; options are shuffled with a per-question seed so reruns give the same file.
+"""
+
+import random
+import re
+import zlib
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+SOURCE = ROOT / "docs" / "questions-test-du-builder.md"
+OUTPUT = ROOT / "docs" / "questions-a-noter.md"
+
+HEADER = """# Feuille de notation du test du builder
+
+Merci. Ce qui suit est vingt-cinq situations de travail, chacune avec quatre
+réponses possibles. Elles sont mélangées.
+
+**Ce qu'on te demande.** Pour chaque situation, classe les quatre réponses en
+leur donnant 0, 1, 2 et 3, une valeur par réponse, sans ex aequo.
+
+**Le critère.** 3 va à la réponse qui laisse derrière elle le plus de travail
+capable de continuer sans son auteur : une décision prise ailleurs, une cause
+supprimée, une trace dont quelqu'un d'autre peut se servir. 0 va à celle qui
+laisse la situation entière, ou qui la règle d'une façon qui devra être
+refaite à l'identique la prochaine fois.
+
+**Ce qu'on ne te demande pas.** Ni ce que tu ferais, ni ce qui est réaliste
+dans ton entreprise. Ce qui est le plus efficace, dans la plupart des
+contextes.
+
+Plusieurs réponses sont raisonnables. C'est voulu : l'écart utile est entre la
+bonne et la presque bonne.
+
+Trois ou quatre personnes remplissent cette feuille chacune de son côté. La
+moyenne devient la clé du test.
+
+---
+
+"""
+
+
+def options(block):
+    return re.findall(r"^> - (.+?) \*\(\d\)\*$", block, flags=re.M)
+
+
+def main():
+    text = SOURCE.read_text(encoding="utf-8")
+    blocks = re.split(r"^> \*\*", text, flags=re.M)[1:]
+
+    lines = [HEADER]
+    n = 0
+    for block in blocks:
+        choice = options(block)
+        if len(choice) != 4:  # event or margin question
+            continue
+        n += 1
+        prompt = block.splitlines()[0].removesuffix("**")
+        shuffle = list(choice)
+        random.Random(zlib.crc32(prompt.encode("utf-8"))).shuffle(shuffle)
+        lines.append(f"## {n}. {prompt}\n")
+        for answer in shuffle:
+            lines.append(f"- `[ ]` {answer}")
+        lines.append("")
+
+    lines.append("---\n")
+    lines.append(f"Fin. {n} situations.")
+    OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(f"{OUTPUT.relative_to(ROOT)} : {n} situations, options mélangées, sans clés.")
+
+
+if __name__ == "__main__":
+    main()

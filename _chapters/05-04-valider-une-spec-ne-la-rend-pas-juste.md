@@ -11,8 +11,7 @@ categories:
   - produit
   - client
   - arbitrage
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/05-04-signing-off-a-spec-does-not-make-it-right.html
 seo:
   description: "Une spec validée est un accord sur ce qu'on croyait. Quand la réalité la contredit, dis-le et mets-la à jour."

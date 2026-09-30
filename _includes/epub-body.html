@@ -1,9 +1,8 @@
-{% comment %}Introduction, sections et cartes, conclusion, références. Les ressources restent sur le site.{% endcomment %}
-{% assign chapters = livre %}
-{% for groupe in sommaire %}
+{% assign chapters = book %}
+{% for group in toc %}
 
-  {% for nom in groupe.sections %}
-    {% assign items = chapters | where: "part", nom %}
+  {% for name in group.sections %}
+    {% assign items = chapters | where: "part", name %}
     {% for c in items %}
       {% assign is_section = false %}
       {% if c.illustration %}{% assign is_section = true %}{% endif %}
@@ -23,18 +22,17 @@
 
       <div class="chapter-kicker">
         {% if c.step_number %}
-          <span>{{ t.carte.capacite }}</span>
+          <span>{{ t.card.capability }}</span>
         {% else %}
           {% unless c.part == c.title %}<span>{{ c.part }}</span>{% endunless %}
-          {% if c.metadata.principle %}<span>{{ t.carte.principe }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}
+          {% if c.metadata.principle %}<span>{{ t.card.principle }} {{ c.metadata.principle | split: "." | last }}</span>{% endif %}
         {% endif %}
         {% if c.metadata.reading_time_in_minutes %}<span>{{ c.metadata.reading_time_in_minutes }} min</span>{% endif %}
-        {% if c.card_type == "systeme" %}<span>{{ t.carte.leader }}</span>{% endif %}
+        {% if c.card_type == "system" %}<span>{{ t.card.leader }}</span>{% endif %}
       </div>
       {% if c.description %}<div class="chapter-lede">{{ c.description }}</div>{% endif %}
-      {% if c.author %}<p class="chapter-author">{{ t.carte.auteur }} {{ c.author | escape }}</p>{% endif %}
+      {% if c.author %}<p class="chapter-author">{{ t.card.author }} {{ c.author | escape }}</p>{% endif %}
 
-      <!-- Les liens entre chapitres deviennent des renvois internes au livre. -->
       <div class="prose">{{ body }}</div>
     {% endfor %}
   {% endfor %}

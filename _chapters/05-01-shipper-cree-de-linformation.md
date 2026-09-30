@@ -3,7 +3,7 @@ layout: chapter
 title: "Shipper crée de l'information"
 part: "La livraison"
 order: 501
-card_type: principe
+card_type: principle
 metadata:
   principle: "5.01"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - execution
   - livraison
   - produit
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/05-01-shipping-creates-information.html
 seo:
   description: "Tant que personne ne s'en sert, tu ne sais rien. Livre la plus petite version qui répond à ta question, et regarde."

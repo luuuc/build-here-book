@@ -11,7 +11,7 @@ categories:
   - client
   - support
   - produit
-traductions:
+translations:
   fr: /livre/chapitres/04-03-le-support-client-cest-de-la-recherche-produit-avec-des-participants-enerves.html
 seo:
   description: "Every support request is a user telling you what does not work. It is the cheapest research you will ever get."

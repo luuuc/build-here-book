@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ You pay for hours, you get hours"
 part: "Leverage"
 order: 805
-card_type: systeme
+card_type: system
 metadata:
   principle: "8.05"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - levier
   - leadership
   - conditions
-traductions:
+translations:
   fr: /livre/chapitres/08-05-leader-tu-paies-des-heures-tu-obtiens-des-heures.html
 seo:
   description: "If the review rewards volume handled, the team handles. Measure the problems avoided, and recognise them like production."

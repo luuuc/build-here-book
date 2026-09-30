@@ -11,7 +11,7 @@ categories:
   - produit
   - client
   - arbitrage
-traductions:
+translations:
   fr: /livre/chapitres/05-03-plus-tu-peaufines-plus-il-devient-difficile-de-changer-davis.html
 seo:
   description: "The more you polish, the harder it is to hear it is the wrong version. Show the draft, now."

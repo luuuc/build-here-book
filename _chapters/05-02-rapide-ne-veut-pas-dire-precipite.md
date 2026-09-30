@@ -3,7 +3,7 @@ layout: chapter
 title: "Rapide ne veut pas dire précipité"
 part: "La livraison"
 order: 502
-card_type: pratique
+card_type: practice
 metadata:
   principle: "5.02"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - execution
   - livraison
   - produit
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/05-02-fast-does-not-mean-rushed.html
 seo:
   description: "Rapide, c'est réduire le périmètre. Précipité, c'est retirer les protections. Coupe l'un, jamais l'autre."

@@ -11,8 +11,7 @@ categories:
   - systemes
   - process
   - execution
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/07-01-the-second-time-is-information.html
 seo:
   description: "La deuxième fois qu'un problème revient, c'est une information. Et automatiser une petite tâche ne coûte plus qu'une heure."

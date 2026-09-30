@@ -13,7 +13,7 @@ categories:
   - livraison
   - execution
   - builders
-traductions:
+translations:
   fr: /livre/chapitres/05-00-la-livraison.html
 seo:
   description: "Put your work in the hands of the people it's for, early and without cutting corners, and learn what your plan didn't tell you."

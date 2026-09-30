@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ On ne demande pas de la distribution en ne finançant que des fonctionnalités"
 part: "La compréhension"
 order: 414
-card_type: systeme
+card_type: system
 metadata:
   principle: "4.14"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - visibilite
   - distribution
   - marketing
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-14-you-cannot-ask-for-distribution-while-funding-only-features.html
 seo:
   description: "Si le planning ne finance que des fonctionnalités, tu obtiens des fonctionnalités. La distribution se prévoit, comme la construction."

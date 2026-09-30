@@ -3,7 +3,7 @@ layout: chapter
 title: "Leaving is not a betrayal"
 part: "Being the reference"
 order: 1009
-card_type: principe
+card_type: principle
 metadata:
   principle: "10.09"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - reference
   - carriere
   - trace
-traductions:
+translations:
   fr: /livre/chapitres/10-09-partir-nest-pas-une-trahison.html
 seo:
   description: "Leaving is not betraying. Prepare a clear handover with an end date; continuity is the team's job."

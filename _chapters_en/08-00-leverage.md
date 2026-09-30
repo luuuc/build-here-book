@@ -13,7 +13,7 @@ categories:
   - levier
   - impact
   - ia
-traductions:
+translations:
   fr: /livre/chapitres/08-00-le-levier.html
 seo:
   description: "Get more out of useful work with what you already have, without multiplying the mistakes."

@@ -3,7 +3,7 @@ layout: chapter
 title: "Faire simple est une performance technique"
 part: "Le métier"
 order: 201
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.01"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - engineering
   - simplicite
   - technique
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-01-making-it-simple-is-a-technical-achievement.html
 seo:
   description: "Ajouter est facile, retirer demande de comprendre. La version simple garde ce qui rend le travail juste et enlève ce qui le complique."

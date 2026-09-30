@@ -3,7 +3,7 @@ layout: chapter
 title: "Personne n'a écrit ce que tu sais faire"
 part: "La référence"
 order: 1008
-card_type: principe
+card_type: principle
 metadata:
   principle: "10.08"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - reference
   - trace
   - contexte
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-08-nobody-has-written-down-what-you-know-how-to-do.html
 seo:
   description: "Ce que tu as appris à faire tenir ici manque presque partout. Écris-le, avec ses conditions, et publie-le."

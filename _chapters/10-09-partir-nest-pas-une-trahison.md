@@ -3,7 +3,7 @@ layout: chapter
 title: "Partir n'est pas une trahison"
 part: "La référence"
 order: 1009
-card_type: principe
+card_type: principle
 metadata:
   principle: "10.09"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - reference
   - carriere
   - trace
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-09-leaving-is-not-a-betrayal.html
 seo:
   description: "Partir n'est pas trahir. Prépare une passation claire avec une date de fin ; la continuité est l'affaire de l'équipe."

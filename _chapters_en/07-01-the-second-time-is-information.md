@@ -11,7 +11,7 @@ categories:
   - systemes
   - process
   - execution
-traductions:
+translations:
   fr: /livre/chapitres/07-01-la-deuxieme-fois-est-une-information.html
 seo:
   description: "The second time a problem comes back, it is information. And automating a small task now costs about an hour."

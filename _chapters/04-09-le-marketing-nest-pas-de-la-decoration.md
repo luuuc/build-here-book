@@ -3,7 +3,7 @@ layout: chapter
 title: "Le marketing n'est pas de la décoration"
 part: "La compréhension"
 order: 409
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.09"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - visibilite
   - distribution
   - marketing
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-09-marketing-is-not-decoration.html
 seo:
   description: "Le marketing répond aux questions qui décident du produit : pour qui, à la place de quoi, pourquoi le choisir. Pose-les au début."

@@ -11,7 +11,7 @@ categories:
   - ownership
   - resultat
   - equipe
-traductions:
+translations:
   fr: /livre/chapitres/06-01-fini-de-ton-cote-ne-veut-pas-dire-regle.html
 seo:
   description: "The customer does not see the parts, they see the result. Check the handover was accepted, not just received."

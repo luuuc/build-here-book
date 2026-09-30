@@ -11,8 +11,7 @@ categories:
   - client
   - support
   - produit
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-02-a-feature-request-is-not-the-problem.html
 seo:
   description: "Une demande de fonctionnalité est une solution proposée. Demande l'usage final avant de construire."

@@ -3,7 +3,7 @@ layout: chapter
 title: "Marketing is not decoration"
 part: "Understanding"
 order: 409
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.09"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - visibilite
   - distribution
   - marketing
-traductions:
+translations:
   fr: /livre/chapitres/04-09-le-marketing-nest-pas-de-la-decoration.html
 seo:
   description: "Marketing answers the questions that decide the product: for whom, instead of what, why choose it. Ask them at the start."

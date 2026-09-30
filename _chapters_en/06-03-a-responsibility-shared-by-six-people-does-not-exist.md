@@ -11,7 +11,7 @@ categories:
   - ownership
   - resultat
   - equipe
-traductions:
+translations:
   fr: /livre/chapitres/06-03-une-responsabilite-partagee-par-six-personnes-nexiste-pas.html
 seo:
   description: "Six names on a list do not move a subject. Give it an address: the person who knows where it stands."

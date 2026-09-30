@@ -11,8 +11,7 @@ categories:
   - produit
   - client
   - arbitrage
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/05-03-the-more-you-polish-the-harder-it-gets-to-change-your-mind.html
 seo:
   description: "Plus tu peaufines, plus il est dur d'entendre que ce n'est pas la bonne version. Montre le brouillon, maintenant."

@@ -3,7 +3,7 @@ layout: chapter
 title: "\"I don't know\" is a professional answer"
 part: "The mindset"
 order: 105
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.05"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - ego
   - honnetete-intellectuelle
   - culture
-traductions:
+translations:
   fr: /livre/chapitres/01-05-je-ne-sais-pas-est-une-reponse-professionnelle.html
 seo:
   description: "A wrong but plausible answer is more dangerous than no answer, because it travels. Someone repeats it in a meeting. It lands in a document."

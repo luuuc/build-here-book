@@ -10,7 +10,7 @@ metadata:
 categories:
   - introduction
   - builders
-traductions:
+translations:
   fr: /livre/chapitres/00-02-les-filtres.html
 seo:
   description: "Six filters that make you miss builders, in hiring and inside a team: network, title, years, spare time, elsewhere and visibility. And what to look at instead."

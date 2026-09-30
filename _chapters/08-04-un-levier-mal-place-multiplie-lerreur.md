@@ -11,8 +11,7 @@ categories:
   - levier
   - impact
   - risque
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/08-04-leverage-in-the-wrong-place-multiplies-the-mistake.html
 seo:
   description: "Un levier multiplie aussi les erreurs, et une IA les multiplie plus vite. Liste les exceptions et prévois l'arrêt avant d'élargir."

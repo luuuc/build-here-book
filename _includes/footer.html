@@ -1,18 +1,18 @@
 <footer class="footer">
   <div class="container">
-    <nav aria-label="{{ t.pied.aria }}">
+    <nav aria-label="{{ t.footer.aria }}">
       <ul class="footer-nav">
-        {%- for l in t.pied.liens %}
-        <li><a href="{{ l.url }}">{{ l.titre }}</a></li>
+        {%- for l in t.footer.links %}
+        <li><a href="{{ l.url }}">{{ l.title }}</a></li>
         {%- endfor %}
       </ul>
     </nav>
     <p class="copyright">
-      Build Here © 2026 {{ t.pied.par }}
+      Build Here © 2026 {{ t.footer.by }}
       <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank"
         >{{ site.author.name }}</a
       >
-      {{ t.pied.licence }}
+      {{ t.footer.license }}
       <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>
     </p>
   </div>

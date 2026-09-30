@@ -10,7 +10,7 @@ metadata:
 categories:
   - cloture
   - builders
-traductions:
+translations:
   fr: /livre/chapitres/11-00-conclusion.html
 seo:
   description: "See a problem, try fast, look at what it changes, pass it on. Three questions for when two cards disagree."

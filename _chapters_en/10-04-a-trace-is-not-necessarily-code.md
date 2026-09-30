@@ -3,7 +3,7 @@ layout: chapter
 title: "A trace is not necessarily code"
 part: "Being the reference"
 order: 1004
-card_type: principe
+card_type: principle
 metadata:
   principle: "10.04"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - trace
   - support
   - produit
-traductions:
+translations:
   fr: /livre/chapitres/10-04-une-trace-nest-pas-forcement-du-code.html
 seo:
   description: "Every trade has its traces: a calculation, a case, a script, a checklist. Publish the one from yours."

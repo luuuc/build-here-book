@@ -5,7 +5,7 @@ description: "The texts and works cited"
 show_chapter_number: false
 part: "References"
 order: 1200
-traductions:
+translations:
   fr: /livre/chapitres/12-00-references.html
 ---
 

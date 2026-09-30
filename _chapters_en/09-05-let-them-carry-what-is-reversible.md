@@ -3,7 +3,7 @@ layout: chapter
 title: "Let them carry what is reversible"
 part: "Leadership"
 order: 905
-card_type: pratique
+card_type: practice
 metadata:
   principle: "9.05"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - leadership
   - equipe
   - ownership
-traductions:
+translations:
   fr: /livre/chapitres/09-05-laisse-le-porter-ce-qui-est-reversible.html
 seo:
   description: "People learn to decide by deciding. Hand over the decisions that can be undone, and do not take them back over matters of taste."

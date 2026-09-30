@@ -3,7 +3,7 @@ layout: chapter
 title: "The cheapest leverage is already paid for"
 part: "Leverage"
 order: 803
-card_type: principe
+card_type: principle
 metadata:
   principle: "8.03"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - levier
   - impact
   - outils
-traductions:
+translations:
   fr: /livre/chapitres/08-03-le-levier-le-moins-cher-est-deja-paye.html
 seo:
   description: "The cheapest leverage is the one you already pay for. Look at what your tools do before buying a new one."

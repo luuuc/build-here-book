@@ -11,8 +11,7 @@ categories:
   - ownership
   - resultat
   - equipe
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/06-01-done-on-your-side-does-not-mean-solved.html
 seo:
   description: "Le client ne voit pas les parties, il voit le résultat. Vérifie que le relais est accepté, pas seulement reçu."

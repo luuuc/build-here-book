@@ -13,8 +13,7 @@ categories:
   - autonomie
   - ownership
   - builders
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/03-00-autonomy.html
 seo:
   description: "Traiter le problème derrière la tâche : comprendre le pourquoi, proposer la suite, trancher dans ton périmètre, signaler vite le reste."

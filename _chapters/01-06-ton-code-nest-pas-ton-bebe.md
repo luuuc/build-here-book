@@ -3,7 +3,7 @@ layout: chapter
 title: "Ton code n'est pas ton bébé"
 part: "L'état d'esprit"
 order: 106
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.06"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - ego
   - honnetete-intellectuelle
   - culture
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/01-06-your-code-is-not-your-baby.html
 seo:
   description: "Une critique porte sur ce que produit ton travail, pas sur ta valeur. Ramène-la à un cas vérifiable."

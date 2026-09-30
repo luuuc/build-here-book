@@ -11,8 +11,7 @@ categories:
   - ownership
   - resultat
   - equipe
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/06-03-a-responsibility-shared-by-six-people-does-not-exist.html
 seo:
   description: "Six noms sur une liste ne font pas avancer un sujet. Donne-lui une adresse : la personne qui sait où il en est."

@@ -13,8 +13,7 @@ categories:
   - etat-desprit
   - agency
   - builders
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/01-00-the-mindset.html
 seo:
   description: "Remarquer le problème que les autres contournent : poser la question naïve, dire « je ne sais pas », changer d'avis vite."

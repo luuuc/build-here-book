@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Learning on your own time is a filter you did not mean to set"
 part: "The craft"
 order: 212
-card_type: systeme
+card_type: system
 metadata:
   principle: "2.12"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - apprentissage
   - open-source
   - niveau
-traductions:
+translations:
   fr: /livre/chapitres/02-12-leader-apprendre-sur-son-temps-a-soi-cest-un-filtre-que-tu-nas-pas-voulu-poser.html
 seo:
   description: "If learning only happens in the evening, you select on spare time, not talent. Take the hour from work, and say what it replaces."

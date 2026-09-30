@@ -13,7 +13,7 @@ categories:
   - systemes
   - process
   - builders
-traductions:
+translations:
   fr: /livre/chapitres/07-00-les-systemes.html
 seo:
   description: "Make next time easier: delete before you document, get knowledge out of one head, don't turn everything into a process."

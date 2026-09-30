@@ -3,7 +3,7 @@ layout: chapter
 title: "Your craft has a literature"
 part: "The craft"
 order: 204
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.04"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - metier
   - apprentissage
   - references
-traductions:
+translations:
   fr: /livre/chapitres/02-04-ton-metier-a-une-litterature.html
 seo:
   description: "Almost every problem you meet has been met and written up. Find the text, try one idea on a real case."

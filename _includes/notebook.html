@@ -1,0 +1,25 @@
+{% assign c = t.notebook %}
+<section class="notebook" id="notebook" hidden
+         data-url="{{ page.url | relative_url }}"
+         data-title="{{ page.title | escape }}"
+         data-remove="{{ c.remove }}"
+         data-label="{{ c.label }}"
+         data-label-passage="{{ c.label_passage }}">
+  <div class="container">
+    <p class="note-question">{{ c.title }}</p>
+    <ul class="notebook-list"></ul>
+    <form class="notebook-form">
+      <blockquote class="notebook-passage" hidden></blockquote>
+      <label for="notebook-text" data-notebook-label>{{ c.label }}</label>
+      <textarea id="notebook-text" rows="3" maxlength="4000" required></textarea>
+      <div class="notebook-actions">
+        <button type="submit" class="note-send">{{ c.save }}</button>
+        <button type="button" data-notebook-no-passage hidden>{{ c.remove_passage }}</button>
+      </div>
+    </form>
+    <p class="notebook-private">
+      {{ c.private }}
+      <span data-notebook-local hidden>{{ c.local }} <a href="{{ t.try.login_url }}">{{ t.try.login }}</a></span>
+    </p>
+  </div>
+</section>

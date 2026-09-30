@@ -3,7 +3,7 @@ layout: chapter
 title: "Good news can wait. Bad news cannot"
 part: "Ownership"
 order: 606
-card_type: principe
+card_type: principle
 metadata:
   principle: "6.06"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - ownership
   - responsabilite
   - execution
-traductions:
+translations:
   fr: /livre/chapitres/06-06-une-bonne-nouvelle-peut-attendre-une-mauvaise-non.html
 seo:
   description: "Bad news is worth a lot early and almost nothing late. Warn people without waiting for the solution."

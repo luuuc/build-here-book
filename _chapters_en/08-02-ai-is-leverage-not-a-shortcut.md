@@ -3,7 +3,7 @@ layout: chapter
 title: "AI is leverage, not a shortcut"
 part: "Leverage"
 order: 802
-card_type: pratique
+card_type: practice
 metadata:
   principle: "8.02"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - levier
   - ia
   - impact
-traductions:
+translations:
   fr: /livre/chapitres/08-02-lia-est-un-levier-pas-un-raccourci.html
 seo:
   description: "AI lets every trade build outside its lane. It multiplies your judgement, or your mistakes."

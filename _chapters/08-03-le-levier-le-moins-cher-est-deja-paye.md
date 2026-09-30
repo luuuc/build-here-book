@@ -3,7 +3,7 @@ layout: chapter
 title: "Le levier le moins cher est déjà payé"
 part: "Le levier"
 order: 803
-card_type: principe
+card_type: principle
 metadata:
   principle: "8.03"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - levier
   - impact
   - outils
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/08-03-the-cheapest-leverage-is-already-paid-for.html
 seo:
   description: "Le levier le moins cher est celui que tu paies déjà. Regarde ce que tes outils font avant d'en acheter un nouveau."

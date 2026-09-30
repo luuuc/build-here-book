@@ -1,10 +1,10 @@
 ## Ce que porte cette pull request
 
-<!-- Une carte neuve, un désaccord avec une existante, une correction, une traduction. Une ligne suffit. -->
+<!-- A new card, a disagreement with an existing one, a fix, a translation. One line is enough. -->
 
 ## Ce qu'elle t'a coûté
 
-<!-- Uniquement pour une carte neuve. Pas l'histoire, le mécanisme. Ce que tu as payé pour savoir ça. -->
+<!-- New cards only. The mechanism, not the story: what it cost you to learn this. -->
 
 ---
 

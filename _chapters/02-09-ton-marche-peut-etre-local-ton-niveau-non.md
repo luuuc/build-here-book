@@ -3,7 +3,7 @@ layout: chapter
 title: "Ton marché peut être local. Ton niveau, non"
 part: "Le métier"
 order: 209
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.09"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - metier
   - niveau
   - client
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-09-your-market-can-be-local-your-standard-cant.html
 seo:
   description: "Tes utilisateurs te comparent au meilleur service qu'ils connaissent, pas au voisin. Les contraintes changent les choix, pas l'exigence."

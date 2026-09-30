@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Your team works under your name"
 part: "Being the reference"
 order: 1011
-card_type: systeme
+card_type: system
 metadata:
   principle: "10.11"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - visibilite
   - leadership
   - retention
-traductions:
+translations:
   fr: /livre/chapitres/10-11-leader-ton-equipe-travaille-sous-ton-nom.html
 seo:
   description: "When your team's work goes out, ask each contributor how they want to be credited, before the presentation and not after."

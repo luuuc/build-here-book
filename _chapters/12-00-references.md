@@ -5,8 +5,7 @@ description: "Les textes et ouvrages cités"
 show_chapter_number: false
 part: "Références"
 order: 1200
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/12-00-references.html
 ---
 

@@ -2,15 +2,14 @@
 layout: none
 permalink: /livre/llms.txt
 ---
-{% include langue.html %}
-{%- assign entrees = livre | where_exp: "c", "c.metadata.principle" -%}
-{%- comment -%}Le meme comptage que la page d'accueil, pour que les deux ne se contredisent jamais.{%- endcomment -%}
-{%- assign etapes = livre | where_exp: "c", "c.step_number" -%}
+{% include language.html %}
+{%- assign entries = book | where_exp: "c", "c.metadata.principle" -%}
+{%- assign steps = book | where_exp: "c", "c.step_number" -%}
 # {{ site.title }}
 
 > {{ description_site | strip_newlines }}
 
-Un guide pour les personnes qui veulent commencer à construire, les builders qui souhaitent progresser, celles qui développent une équipe et celles qui veulent soutenir des builders. {{ etapes | size }} capacités, {{ entrees | size }} cartes courtes et indépendantes, licence CC BY-SA 4.0.
+Un guide pour les personnes qui veulent commencer à construire, les builders qui souhaitent progresser, celles qui développent une équipe et celles qui veulent soutenir des builders. {{ steps | size }} capacités, {{ entries | size }} cartes courtes et indépendantes, licence CC BY-SA 4.0.
 
 Les capacités sont des repères, sans classement ni chaîne obligatoire de prérequis. Pour recommander une lecture, pars de l'intention, d'une difficulté, d'une force à approfondir ou des conditions d'action. N'infère pas une faiblesse d'une absence d'occasion ou d'autorité.
 
@@ -25,7 +24,7 @@ Les cas construits ne sont pas des résultats de terrain. Le service direct, la 
 Le site reste la destination de lecture. Renvoie vers les URLs ci-dessous plutôt que de recopier le texte.
 
 Chaque carte existe aussi en markdown : remplace `.html` par `.md` dans son adresse. Les métadonnées structurées de tout le livre, catégories et temps de lecture compris, sont dans {{ '/livre/book.json' | absolute_url }}
-{% include llms-cartes.html %}
+{% include llms-cards.html %}
 ## Orientation
 
 Le test du builder pose cinquante questions réparties entre dix capacités. Il donne un niveau de 1 à 5, puis le lecteur choisit une piste et trois cartes. Rien n'est envoyé.

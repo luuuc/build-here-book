@@ -10,8 +10,7 @@ metadata:
 categories:
   - cloture
   - builders
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/11-00-conclusion.html
 seo:
   description: "Voir un problème, essayer vite, regarder ce que ça change, transmettre. Trois questions quand deux cartes se contredisent."

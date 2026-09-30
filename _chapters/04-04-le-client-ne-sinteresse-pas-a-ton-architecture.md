@@ -3,7 +3,7 @@ layout: chapter
 title: "Le client ne s'intéresse pas à ton architecture"
 part: "La compréhension"
 order: 404
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.04"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - produit
   - client
   - arbitrage
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-04-the-customer-does-not-care-about-your-architecture.html
 seo:
   description: "Le client paie pour ce que ton travail change pour lui. Commence par l'avant et l'après, les détails techniques viennent ensuite."

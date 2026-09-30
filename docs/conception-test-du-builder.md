@@ -249,8 +249,8 @@ qu'on peut défendre ses chiffres devant quelqu'un qui cherche la faute.
       réserve.
 - [x] Refaire le calcul et l'affichage : trois facettes, ordre des options
       tiré au hasard, bande au lieu d'un score, citation des réponses du
-      lecteur, plus de seuil. Fait dans `_brouillon/test-du-builder/`, que
-      Jekyll ne publie pas. Aperçu : ouvrir `apercu.html` dans un navigateur.
+      lecteur, plus de seuil. Fait dans `_wip/builder-test/`, que
+      Jekyll ne publie pas. Aperçu : ouvrir `preview.html` dans un navigateur.
 - [ ] Basculer le brouillon en ligne, une fois les clés notées : le moteur
       vers `assets/javascripts/`, le balisage vers `index.md`, le style vers
       `assets/stylesheets/style.css`, et mettre à jour

@@ -3,7 +3,7 @@ layout: chapter
 title: "Write after you build, not instead"
 part: "Being the reference"
 order: 1002
-card_type: principe
+card_type: principle
 metadata:
   principle: "10.02"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - reference
   - trace
   - honnetete
-traductions:
+translations:
   fr: /livre/chapitres/10-02-ecris-apres-avoir-construit-pas-a-la-place.html
 seo:
   description: "Only write about what you built or tried, with what failed and what you still don't know."

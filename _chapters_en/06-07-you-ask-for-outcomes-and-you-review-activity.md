@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ You ask for outcomes and you review activity"
 part: "Ownership"
 order: 607
-card_type: systeme
+card_type: system
 metadata:
   principle: "6.07"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - ownership
   - leadership
   - conditions
-traductions:
+translations:
   fr: /livre/chapitres/06-07-leader-tu-demandes-des-resultats-et-tu-passes-en-revue-de-lactivite.html
 seo:
   description: "If your review is about activity, you get activity. Add the expected effect, what is observed, and when you look."

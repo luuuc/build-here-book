@@ -3,7 +3,7 @@ layout: chapter
 title: "Publie là où on cherche"
 part: "La référence"
 order: 1006
-card_type: pratique
+card_type: practice
 metadata:
   principle: "10.06"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - visibilite
   - distribution
   - trace
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-06-publish-where-people-search.html
 seo:
   description: "Une ressource que personne ne trouve n'existe pas. Publie là où tes lecteurs cherchent, assistants IA compris, avec leurs mots."

@@ -3,7 +3,7 @@ layout: chapter
 title: "Answer the question in public"
 part: "Being the reference"
 order: 1005
-card_type: pratique
+card_type: practice
 metadata:
   principle: "10.05"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - trace
   - visibilite
   - transmission
-traductions:
+translations:
   fr: /livre/chapitres/10-05-reponds-a-la-question-en-public.html
 seo:
   description: "A private answer serves once, a public one serves everyone after. Answer where people will find it."

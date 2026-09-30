@@ -11,8 +11,7 @@ categories:
   - trace
   - visibilite
   - ecriture
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-03-an-opinion-is-not-an-artifact.html
 seo:
   description: "Un avis se discute, un artefact se reprend. Partage le cas, le modèle, les chiffres et la méthode."

@@ -3,7 +3,7 @@ layout: chapter
 title: "What you can build decides what you can sell"
 part: "Understanding"
 order: 405
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.05"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - technologie
   - business
   - strategie
-traductions:
+translations:
   fr: /livre/chapitres/04-05-ce-quon-sait-construire-decide-ce-quon-peut-vendre.html
 seo:
   description: "What your team can build decides what the company can sell. Bring that information in before the promise."

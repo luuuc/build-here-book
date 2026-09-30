@@ -3,7 +3,7 @@ layout: chapter
 title: "Une bonne décision peut quand même perdre"
 part: "L'ownership"
 order: 605
-card_type: principe
+card_type: principle
 metadata:
   principle: "6.05"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - leadership
   - decision
   - management
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/06-05-a-good-decision-can-still-lose.html
 seo:
   description: "Juger au seul résultat apprend à avoir de la chance, pas à bien décider. Examine le raisonnement, puis le résultat."

@@ -11,8 +11,7 @@ categories:
   - systemes
   - process
   - equipe
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/07-05-the-shortcut-everyone-takes-is-the-real-process.html
 seo:
   description: "Quand tout le monde contourne une étape, le raccourci est le vrai processus. Demande ce qu'il résout avant de rappeler la règle."

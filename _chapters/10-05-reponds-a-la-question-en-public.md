@@ -3,7 +3,7 @@ layout: chapter
 title: "Réponds à la question en public"
 part: "La référence"
 order: 1005
-card_type: pratique
+card_type: practice
 metadata:
   principle: "10.05"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - trace
   - visibilite
   - transmission
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-05-answer-the-question-in-public.html
 seo:
   description: "Une réponse privée sert une fois, une réponse publique sert à chaque personne suivante. Réponds là où on la trouvera."

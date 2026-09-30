@@ -11,7 +11,7 @@ categories:
   - ownership
   - responsabilite
   - execution
-traductions:
+translations:
   fr: /livre/chapitres/03-04-etre-bloque-est-une-decision.html
 seo:
   description: "Staying stuck without saying so lets the deadline slip. Look for twenty minutes, then send a precise request."

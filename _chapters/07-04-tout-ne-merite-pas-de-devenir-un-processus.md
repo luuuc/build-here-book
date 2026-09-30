@@ -3,7 +3,7 @@ layout: chapter
 title: "Tout ne mérite pas de devenir un processus"
 part: "Les systèmes"
 order: 704
-card_type: principe
+card_type: principle
 metadata:
   principle: "7.04"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - systemes
   - process
   - simplicite
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/07-04-not-everything-deserves-to-become-a-process.html
 seo:
   description: "Chaque règle coûte à chaque usage. Avant d'en ajouter une, cherche la réponse la plus légère qui protège vraiment."

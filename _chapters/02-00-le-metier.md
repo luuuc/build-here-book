@@ -13,8 +13,7 @@ categories:
   - metier
   - apprentissage
   - builders
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-00-the-craft.html
 seo:
   description: "Monter en niveau dans ton métier : aller à la source, ne pas s'arrêter à la première réponse, lire hors de ton couloir, faire simple."

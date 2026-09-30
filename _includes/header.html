@@ -1,15 +1,9 @@
-{% include pastille-brouillon.html %}
+{% include draft-badge.html %}
 
 <header class="header">
-  {%- comment -%}
-    Un en-tete sobre : le logo, puis la langue, le telechargement et le menu.
-    Sa colonne a la largeur du texte de la page, pour que ses bords tombent
-    sur ceux de la prose.
-  {%- endcomment %}
-  <div class="colonne entete{% if page.layout == 'chapter' %} entete--livre{% else %} colonne--prose{% endif %}">
-    <div class="entete-marque">
-      {%- comment -%} Le B est celui du favicon, comme sur le site. {%- endcomment %}
-      <a href="{{ t.entete.accueil_url }}" class="logo" aria-label="Build Here">
+  <div class="column header-bar{% if page.layout == 'chapter' %} header-bar--book{% else %} column--prose{% endif %}">
+    <div class="header-mark">
+      <a href="{{ t.header.home_url }}" class="logo" aria-label="Build Here">
       <svg class="logo-b" viewBox="0 0 64 64" width="30" height="30" aria-hidden="true">
         <rect width="64" height="64" fill="#0f1319"/>
         <path transform="translate(15.6635 43.0) scale(0.022880 -0.022880)" fill="#ffffff" d="M238 141V1334L83 1360V1486H381Q444 1486 497.5 1489.5Q551 1493 601.5 1497.0Q652 1501 702 1501Q862 1501 967.5 1477.5Q1073 1454 1134.5 1409.5Q1196 1365 1222.0 1302.5Q1248 1240 1248 1162Q1248 1062 1207.0 984.5Q1166 907 1093.5 857.5Q1021 808 927 793Q1057 795 1151.5 754.5Q1246 714 1297.5 636.0Q1349 558 1349 448Q1349 354 1318.5 270.5Q1288 187 1216.0 123.5Q1144 60 1021.5 24.0Q899 -12 715 -12Q647 -12 598.0 -9.0Q549 -6 499.5 -3.0Q450 0 382 0H79V120ZM530 839Q546 838 569.5 837.0Q593 836 619.5 836.0Q646 836 671.0 836.0Q696 836 714 836Q797 836 849.5 871.0Q902 906 928.0 971.5Q954 1037 954 1127Q954 1256 893.5 1317.5Q833 1379 686 1379Q662 1379 631.0 1377.0Q600 1375 572.0 1372.5Q544 1370 530 1369ZM530 131Q547 124 577.5 120.5Q608 117 642.5 116.0Q677 115 706 115Q822 115 892.5 152.5Q963 190 994.0 260.0Q1025 330 1025 426Q1025 574 956.0 636.0Q887 698 739 698Q716 698 686.5 697.5Q657 697 626.5 697.0Q596 697 571.0 696.5Q546 696 530 694Z"/>
@@ -19,22 +13,15 @@
     </div>
 
     <div class="header-actions">
-      {%- comment -%}
-        Le passage d'une langue a l'autre, dans un menu comme le
-        telechargement. Si la page declare sa jumelle dans `traductions`, le
-        lien y mene ; sinon il mene a la racine de l'autre langue. Un lien qui
-        atterrit sur l'accueil vaut mieux qu'un lien mort, et le lecteur voit
-        tout de suite ou il arrive. La langue courante est marquee.
-      {%- endcomment %}
       <div class="download">
         <button
           type="button"
           class="download-toggle"
           aria-haspopup="menu"
           aria-expanded="false"
-          aria-controls="langue-menu"
-          aria-label="{{ t.entete.langue }}"
-          title="{{ t.entete.langue }}"
+          aria-controls="language-menu"
+          aria-label="{{ t.header.language }}"
+          title="{{ t.header.language }}"
         >
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -43,24 +30,20 @@
           </svg>
         </button>
 
-        <div class="download-menu download-menu--langue" id="langue-menu" role="menu" hidden>
-          {%- for l in site.langues %}
+        <div class="download-menu download-menu--language" id="language-menu" role="menu" hidden>
+          {%- for l in site.languages %}
           {%- if l.code == lang %}
-          <a href="{{ page.url }}" role="menuitem" hreflang="{{ l.code }}" lang="{{ l.code }}" aria-current="true">{{ l.nom }}</a>
+          <a href="{{ page.url }}" role="menuitem" hreflang="{{ l.code }}" lang="{{ l.code }}" aria-current="true">{{ l.name }}</a>
           {%- else %}
-          <a href="{{ page.traductions[l.code] | default: l.racine }}" role="menuitem" hreflang="{{ l.code }}" lang="{{ l.code }}">{{ l.nom }}</a>
+          <a href="{{ page.translations[l.code] | default: l.root }}" role="menuitem" hreflang="{{ l.code }}" lang="{{ l.code }}">{{ l.name }}</a>
           {%- endif %}
           {%- endfor %}
         </div>
       </div>
 
-      {%- comment -%}
-        Le menu de telechargement disparait tant que la langue n'a pas de
-        tirage. Le test porte sur la longueur : dans ce Liquid, une chaine
-        vide n'est pas egale a `blank`.
-      {%- endcomment -%}
-      {%- assign tirages = site.downloads[lang] -%}
-      {%- if tirages.pdf.size > 0 or tirages.epub.size > 0 %}
+      {%- comment -%} Test `.size`: in this Liquid an empty string is not `blank`. {%- endcomment -%}
+      {%- assign editions = site.downloads[lang] -%}
+      {%- if editions.pdf.size > 0 or editions.epub.size > 0 %}
       <div class="download">
         <button
           type="button"
@@ -68,8 +51,8 @@
           aria-haspopup="menu"
           aria-expanded="false"
           aria-controls="download-menu"
-          aria-label="{{ t.entete.telecharger }}"
-          title="{{ t.entete.telecharger }}"
+          aria-label="{{ t.header.download }}"
+          title="{{ t.header.download }}"
         >
           <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -80,24 +63,24 @@
         </button>
 
         <div class="download-menu" id="download-menu" role="menu" hidden>
-          <a href="{{ tirages.pdf }}" role="menuitem">
-            {{ t.entete.pdf }}
-            <small>{{ t.entete.pdf_detail }}</small>
+          <a href="{{ editions.pdf }}" role="menuitem">
+            {{ t.header.pdf }}
+            <small>{{ t.header.pdf_detail }}</small>
           </a>
-          <a href="{{ tirages.epub }}" role="menuitem">
-            {{ t.entete.epub }}
-            <small>{{ t.entete.epub_detail }}</small>
+          <a href="{{ editions.epub }}" role="menuitem">
+            {{ t.header.epub }}
+            <small>{{ t.header.epub_detail }}</small>
           </a>
           <hr />
-          <!-- Sans JavaScript, il ne reste que le telechargement de l'EPUB. -->
-          <a href="{{ tirages.epub }}" role="menuitem" data-kindle="{{ site.downloads.kindle }}">
-            {{ t.entete.kindle }}
+          {% comment %}offcanvas.js turns this into the Kindle link (data-kindle); without JS it downloads the EPUB.{% endcomment %}
+          <a href="{{ editions.epub }}" role="menuitem" data-kindle="{{ site.downloads.kindle }}">
+            {{ t.header.kindle }}
           </a>
         </div>
       </div>
       {%- endif %}
 
-      <button class="hamburger" data-bascule-menu aria-label="{{ t.entete.menu_ouvrir }}" aria-controls="offcanvas">
+      <button class="hamburger" data-toggle-menu aria-label="{{ t.header.menu_open }}" aria-controls="offcanvas">
         <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
              stroke-width="2" stroke-linecap="round" aria-hidden="true">
           <path d="M4 6h16M4 12h16M4 18h16" />

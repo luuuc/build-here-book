@@ -3,15 +3,14 @@ layout: none
 lang: en
 permalink: /book/llms.txt
 ---
-{% include langue.html %}
-{%- assign entrees = livre | where_exp: "c", "c.metadata.principle" -%}
-{%- comment -%}Le meme comptage que la page d'accueil, pour que les deux ne se contredisent jamais.{%- endcomment -%}
-{%- assign etapes = livre | where_exp: "c", "c.step_number" -%}
+{% include language.html %}
+{%- assign entries = book | where_exp: "c", "c.metadata.principle" -%}
+{%- assign steps = book | where_exp: "c", "c.step_number" -%}
 # {{ site.title }}
 
 > {{ description_site | strip_newlines }}
 
-A guide for people who want to start building, for builders who want to get better, for people growing a team, and for people who want to back builders. {{ etapes | size }} capabilities, {{ entrees | size }} short, independent cards, CC BY-SA 4.0.
+A guide for people who want to start building, for builders who want to get better, for people growing a team, and for people who want to back builders. {{ steps | size }} capabilities, {{ entries | size }} short, independent cards, CC BY-SA 4.0.
 
 The capabilities are bearings, with no ranking and no required chain of prerequisites. To recommend a reading, start from the intention, from a difficulty, from a strength to deepen, or from the conditions for acting. Do not infer a weakness from an absence of opportunity or authority.
 
@@ -26,7 +25,7 @@ The constructed cases are not field results. Direct service, maintenance, access
 The site remains the place to read. Point to the URLs below rather than copying the text.
 
 Each card is also available as markdown: replace `.html` with `.md` in its URL. The structured metadata for the whole book, categories and reading times included, is in {{ '/book/book.json' | absolute_url }}
-{% include llms-cartes.html %}
+{% include llms-cards.html %}
 ## Orientation
 
 The builder test asks fifty questions across ten capabilities. It gives a level from 1 to 5, then the reader chooses a line of work and three cards. Nothing is sent.

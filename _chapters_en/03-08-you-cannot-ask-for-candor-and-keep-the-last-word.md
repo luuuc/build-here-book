@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ You cannot ask for candor and keep the last word"
 part: "Autonomy"
 order: 308
-card_type: systeme
+card_type: system
 metadata:
   principle: "3.08"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - hierarchie
   - decision
   - culture
-traductions:
+translations:
   fr: /livre/chapitres/03-08-leader-tu-ne-peux-pas-demander-de-la-franchise-et-garder-le-dernier-mot.html
 seo:
   description: "Silence after an objection was brushed aside is not agreement, it is a conclusion. Answer every objection, even when the decision holds."

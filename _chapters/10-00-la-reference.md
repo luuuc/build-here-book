@@ -13,8 +13,7 @@ categories:
   - reference
   - trace
   - builders
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-00-being-the-reference.html
 seo:
   description: "Rendre ton expérience utile à d'autres : mettre ton nom dessus, répondre en public, publier là où on cherche."

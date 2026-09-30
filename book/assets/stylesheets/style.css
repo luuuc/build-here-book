@@ -1,17 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap");
 
-/* La feuille historique du site, passee aux jetons.
-   Les valeurs vivent dans tokens.css, les composants dans bundle.css, tous
-   deux charges avant ce fichier. Plus aucune couleur n'est codee en dur ici :
-   si une nuance manque, elle s'ajoute au systeme, pas a cette feuille.
-
-   Deux fontes, roles inverses. Archivo tient tout le site. Merriweather ne
-   sert plus que dans la colonne de lecture du livre (`content--livre`, en bas
-   de ce fichier) et dans l'exergue d'une carte.
-
-   L'ancienne palette ocre est partie le 22/09/2026 : l'ambre des metadonnees
-   est devenu --discret, celui des survols --bleu, le jaune signal --signal,
-   la bande creme --surface, et --bleu-voile marque ce qui est selectionne. */
+/* Main site styles. Loads after tokens.css and bundle.css. */
 
 * {
   margin: 0;
@@ -21,27 +10,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Le defaut du site est la sans. Le livre reprend la serif dans sa colonne de
-   lecture, tout en bas de ce fichier : c'est le seul endroit ou elle vit
-   encore, avec l'exergue d'une carte. */
 body {
   font-family: var(--font-sans);
   line-height: 1.6;
-  color: var(--texte);
+  color: var(--text);
 }
 
-/* La selection prend le voile bleu : l'orange signal est une marque, pas
-   un fond de texte, et l'encre dessus ne passe pas 4,5:1. */
+/* Selection uses the blue tint: ink on the orange signal fails 4.5:1. */
 ::selection {
-  background: var(--bleu-voile);
-  color: var(--encre);
+  background: var(--blue-tint);
+  color: var(--ink);
 }
 
-/* Header : le sommaire, le logo, puis la langue et le telechargement.
-   Sobre et bas, pour laisser la place au texte. */
 .header {
-  background: var(--papier);
-  box-shadow: var(--ombre-entete);
+  background: var(--paper);
+  box-shadow: var(--shadow-header);
   position: fixed;
   top: 0;
   left: 0;
@@ -49,26 +32,23 @@ body {
   z-index: 1000;
 }
 
-/* La marque a gauche, les actions a droite. */
-.entete {
+.header-bar {
   align-items: center;
   display: flex;
   justify-content: space-between;
   min-height: 48px;
 }
-.entete-marque { align-items: center; display: flex; gap: var(--espace-3); }
+.header-mark { align-items: center; display: flex; gap: var(--space-3); }
 
-/* Dans le livre, la colonne de l'en-tete est celle du texte : meme largeur,
-   meme gouttiere que `.content`, pour que le menu tombe sur le bord gauche
-   de la prose et les actions sur son bord droit. */
-.entete--livre {
-  max-width: calc(var(--colonne-livre) + 2rem);
+/* Matches the `.content` column so the menu and actions line up with the text edges. */
+.header-bar--book {
+  max-width: calc(var(--column-book) + 2rem);
   padding-inline: 1rem;
 }
 
 @media (min-width: 1024px) {
-  .entete--livre {
-    max-width: calc(var(--colonne-livre) + 4rem);
+  .header-bar--book {
+    max-width: calc(var(--column-book) + 4rem);
     padding-inline: 2rem;
   }
 }
@@ -76,16 +56,15 @@ body {
 .hamburger {
   background: none;
   border: none;
-  color: var(--encre);
+  color: var(--ink);
   cursor: pointer;
   display: flex;
   padding: 0.15rem;
 }
 
-/* Le B du favicon, puis « uild Here » colle contre lui, comme sur le site. */
 .logo {
   align-items: center;
-  color: var(--encre);
+  color: var(--ink);
   display: inline-flex;
   font-size: 1rem;
   font-weight: bold;
@@ -100,10 +79,9 @@ body {
 .header-actions {
   align-items: center;
   display: flex;
-  gap: var(--espace-4);
+  gap: var(--space-4);
 }
 
-/* Menu de telechargement */
 .download {
   position: relative;
   display: flex;
@@ -114,7 +92,7 @@ body {
   padding: 0.15rem;
   background: none;
   border: 0;
-  color: var(--encre);
+  color: var(--ink);
   opacity: 0.5;
   cursor: pointer;
 }
@@ -132,10 +110,10 @@ body {
   min-width: 17rem;
   max-width: calc(100vw - 2rem);
   padding: 0.35rem 0;
-  background: var(--papier);
-  border: 1px solid var(--filet);
-  border-top: 1px solid var(--filet);
-  box-shadow: var(--ombre-menu);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-top: 1px solid var(--rule);
+  box-shadow: var(--shadow-menu);
 }
 
 .download-menu[hidden] {
@@ -148,7 +126,7 @@ body {
   font-family: var(--font-sans);
   font-size: 0.92rem;
   line-height: 1.35;
-  color: var(--encre);
+  color: var(--ink);
   text-decoration: none;
 }
 
@@ -161,12 +139,10 @@ body {
   margin-top: 0.15rem;
   font-size: 0.73rem;
   line-height: 1.4;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-/* Le menu des langues est court : deux noms, pas de detail. La langue
-   courante est en gras, comme l'entree courante du sommaire. */
-.download-menu--langue {
+.download-menu--language {
   min-width: 10rem;
 }
 
@@ -177,18 +153,17 @@ body {
 
 .download-menu hr {
   border: 0;
-  border-top: 1px solid var(--filet);
+  border-top: 1px solid var(--rule);
   margin: 0.35rem 0;
 }
 
-/* Offcanvas Menu */
 .offcanvas {
   position: fixed;
   top: 0;
   right: -100%;
   width: 100%;
   height: 100vh;
-  background: var(--papier);
+  background: var(--paper);
   z-index: 1001;
   transition: right 0.3s ease;
   padding: 2rem;
@@ -205,14 +180,11 @@ body {
   align-items: center;
   gap: 1rem;
   margin-bottom: 0.75rem;
-  border-bottom: 1px solid var(--filet);
+  border-bottom: 1px solid var(--rule);
 }
 
-/* Le titre du menu est celui de l'introduction, a la forme d'une partie
-   liee : meme taille, meme encre. Le filet passe sur toute la ligne, sous
-   la croix aussi, comme sous les autres parties. */
 .offcanvas-header .nav-part-title {
-  color: var(--encre);
+  color: var(--ink);
   flex: 1;
   font-size: 1.1rem;
   padding: 0.5rem 0;
@@ -229,7 +201,7 @@ body {
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: var(--encre);
+  color: var(--ink);
 }
 
 .nav-menu {
@@ -241,7 +213,7 @@ body {
 }
 
 .nav-menu a {
-  color: var(--encre);
+  color: var(--ink);
   text-decoration: none;
   font-size: 1.1rem;
   display: block;
@@ -249,7 +221,7 @@ body {
 }
 
 .nav-menu a:hover {
-  color: var(--bleu);
+  color: var(--blue);
 }
 
 .nav-submenu {
@@ -264,15 +236,14 @@ body {
 .nav-submenu a {
   font-size: 1.15rem;
   font-weight: normal;
-  color: var(--encre);
+  color: var(--ink);
   border-bottom: none;
   padding: 0.25rem 0;
 }
 .nav-submenu a:hover {
-  color: var(--bleu);
+  color: var(--blue);
 }
 
-/* Le numero du principe, en petit devant son titre. */
 .nav-num {
   display: block;
   font-family: var(--font-sans);
@@ -280,7 +251,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--discret);
+  color: var(--muted);
 }
 
 .nav-group {
@@ -294,9 +265,9 @@ body {
   font-family: var(--font-sans);
   font-size: 1.2rem;
   font-weight: bold;
-  color: var(--encre);
+  color: var(--ink);
   padding: 0.4rem 0;
-  border-bottom: 2px solid var(--encre);
+  border-bottom: 2px solid var(--ink);
   margin-bottom: 1rem;
 }
 
@@ -304,7 +275,7 @@ body {
   font-style: normal;
   font-size: 1rem;
   font-weight: bold;
-  color: var(--discret);
+  color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
 
@@ -312,7 +283,6 @@ body {
   margin-top: 1.4rem;
 }
 
-/* Ou on en est. Le carre signal, le meme que dans les entrees. */
 .nav-submenu li.is-current {
   position: relative;
 }
@@ -328,21 +298,19 @@ body {
 }
 
 .nav-submenu li.is-current > a {
-  color: var(--encre);
+  color: var(--ink);
   font-weight: bold;
 }
 
-/* Le groupe en cours, en bandeau. */
 .nav-group.is-current-group > .nav-group-title {
-  background: var(--bleu-voile);
+  background: var(--blue-tint);
   margin-left: -0.6rem;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
 }
 
-/* La section en cours : l'ambre passe en encre. */
 .nav-part.is-current-part > .nav-part-title {
-  color: var(--encre);
+  color: var(--ink);
 }
 
 .nav-part-title {
@@ -352,21 +320,21 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: var(--discret);
+  color: var(--muted);
   text-decoration: none;
   padding: 0.3rem 0 0.5rem;
-  border-bottom: 1px solid var(--filet);
+  border-bottom: 1px solid var(--rule);
   margin-bottom: 0.75rem;
 }
 
 .nav-part-title:hover {
-  color: var(--encre);
+  color: var(--ink);
 }
 
 .nav-bottom-links {
   margin-top: 2rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--filet);
+  border-top: 1px solid var(--rule);
   display: flex;
   gap: 0.5rem;
 }
@@ -382,7 +350,7 @@ body {
   padding: 1rem;
   border-radius: 5px;
   text-decoration: none;
-  color: var(--discret);
+  color: var(--muted);
   font-size: 0.95rem;
   padding: 1rem !important;
 }
@@ -390,22 +358,21 @@ body {
 .nav-version-link small {
   display: block;
   font-size: 0.75rem;
-  color: var(--discret);
+  color: var(--muted);
   margin-bottom: 0.25rem;
 }
 
 .nav-version-link:hover {
   background: var(--surface);
-  color: var(--encre);
+  color: var(--ink);
 }
 
-/* Hero Section */
-.hero:not(.bloc) {
+.hero:not(.block) {
   background: var(--surface);
-  color: var(--encre);
+  color: var(--ink);
   padding: 5.5rem 2rem 2.25rem;
   text-align: left;
-  border-bottom: 1px solid var(--filet);
+  border-bottom: 1px solid var(--rule);
 }
 
 .chapter-number {
@@ -413,7 +380,7 @@ body {
   flex-wrap: wrap;
   gap: 0.6rem;
   font-family: var(--font-sans);
-  color: var(--discret);
+  color: var(--muted);
   font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -421,8 +388,6 @@ body {
   margin-bottom: 1rem;
 }
 
-/* Le separateur appartient a l'element qui suit : une meta a un seul
-   element n'herite pas d'une barre orpheline. */
 .chapter-number span + span::before {
   content: "/";
   margin-right: 0.6rem;
@@ -430,10 +395,10 @@ body {
 }
 
 .chapter-number .card-type {
-  color: var(--encre);
+  color: var(--ink);
 }
 
-.hero:not(.bloc) h1 {
+.hero:not(.block) h1 {
   font-size: 2.15rem;
   line-height: 1.22;
   letter-spacing: -0.01em;
@@ -442,27 +407,25 @@ body {
   text-wrap: balance;
 }
 
-.hero:not(.bloc) p {
+.hero:not(.block) p {
   font-family: var(--font-sans);
   font-size: 1.0625rem;
   line-height: 1.55;
-  color: var(--texte);
+  color: var(--text);
   margin: 0.9rem 0 0;
   max-width: 34em;
 }
 
-/* La signature d'une entree ecrite par quelqu'un d'autre. */
-.hero:not(.bloc) p.chapter-author {
+.hero:not(.block) p.chapter-author {
   font-size: 0.9rem;
   font-weight: 600;
   margin-top: 0.9rem;
 }
 
-.hero:not(.bloc) p.chapter-author a {
+.hero:not(.block) p.chapter-author a {
   color: inherit;
 }
 
-/* Ouvertures de section : le dessin vit dans le bandeau, a cote du titre. */
 .hero-inner {
   display: flex;
   align-items: center;
@@ -485,12 +448,10 @@ body {
   height: auto;
 }
 
-/* Le bouton plein des pages du livre. Meme dessin que celui de l'accueil,
-   mais l'accueil a sa propre feuille : les deux ne partagent pas de regle. */
 .content a.cta-button {
-  background: var(--encre);
+  background: var(--ink);
   box-shadow: none;
-  color: var(--papier);
+  color: var(--paper);
   display: inline-block;
   font-family: var(--font-sans);
   font-size: 0.95rem;
@@ -500,7 +461,7 @@ body {
 }
 
 .content a.cta-button:hover {
-  background: var(--encre);
+  background: var(--ink);
   box-shadow: none;
   outline: 2px solid var(--signal);
   outline-offset: 2px;
@@ -511,7 +472,7 @@ body {
 }
 
 .prev-chapter a {
-  color: var(--encre);
+  color: var(--ink);
   text-decoration: none;
   font-size: 0.9rem;
 }
@@ -520,7 +481,6 @@ body {
   text-decoration: underline;
 }
 
-/* Content */
 .content {
   background: white;
   padding: 2rem 1rem;
@@ -529,25 +489,25 @@ body {
 }
 
 .container {
-  max-width: var(--colonne-livre);
+  max-width: var(--column-book);
   margin: 0 auto;
 }
 
 .content h1 {
-  color: var(--encre);
+  color: var(--ink);
   margin-bottom: 1rem;
   font-size: 1.8rem;
   scroll-margin-top: 60px;
 }
 
 .content h2 {
-  color: var(--encre);
+  color: var(--ink);
   margin: 2rem 0 1rem;
   font-size: 1.4rem;
 }
 
 .content h3 {
-  color: var(--encre);
+  color: var(--ink);
   margin: 1.5rem 0 0.5rem;
   font-size: 1.2rem;
 }
@@ -565,7 +525,7 @@ body {
 
 .content hr {
   border: 0;
-  border-top: 1px solid var(--filet);
+  border-top: 1px solid var(--rule);
   margin: 2.5rem 0;
 }
 
@@ -575,13 +535,11 @@ body {
 
 .content blockquote {
   background: var(--surface);
-  border-left: 4px solid var(--encre);
+  border-left: 4px solid var(--ink);
   padding: 1rem;
   margin: 1.5rem 0;
   font-style: italic;
   font-size: 90%;
-  /* Le fond s'arrete a la couverture flottante de l'accueil au lieu de passer
-     derriere : une boite qui ouvre son propre contexte n'empiete pas sur un float. */
   display: flow-root;
 }
 
@@ -611,7 +569,7 @@ body {
 }
 
 .content a {
-  color: var(--encre);
+  color: var(--ink);
   text-decoration: underline;
   text-decoration-color: var(--signal);
   text-decoration-thickness: 2px;
@@ -619,9 +577,8 @@ body {
   transition: background 0.15s ease;
 }
 
-/* Hover fills the mark in, like a highlighter passed over the line */
 .content a:hover {
-  color: var(--encre);
+  color: var(--ink);
   background: var(--signal);
   box-shadow: 0 0 0 2px var(--signal);
   text-decoration-color: transparent;
@@ -632,23 +589,22 @@ sup a {
   padding: 0 0.2rem;
 }
 
-/* The back-reference is navigation, not content: no highlighter on it */
 .content .reversefootnote {
   text-decoration: none;
-  color: var(--discret);
+  color: var(--muted);
   padding: 0 0.2rem;
 }
 
 .content .reversefootnote:hover {
   background: none;
   box-shadow: none;
-  color: var(--encre);
+  color: var(--ink);
 }
 
 .content .callout {
   padding: 20px;
   margin: 20px 0;
-  border: 1px solid var(--filet);
+  border: 1px solid var(--rule);
   border-left-width: 5px;
   border-radius: 3px;
   font-size: 95%;
@@ -656,11 +612,11 @@ sup a {
 }
 
 .content .callout-hint {
-  border-left-color: var(--parcours-commencer);
+  border-left-color: var(--path-start);
 }
 
 .content .callout-example {
-  border-left-color: var(--bleu);
+  border-left-color: var(--blue);
 }
 
 .content .callout-warning {
@@ -679,41 +635,39 @@ sup a {
 .chapters-list li {
   margin-bottom: 1.5rem;
   padding: 1.5rem;
-  border: 1px solid var(--filet);
+  border: 1px solid var(--rule);
   border-radius: 8px;
   transition: box-shadow 0.2s ease;
 }
 
 .chapters-list li:hover {
-  box-shadow: var(--ombre-menu);
+  box-shadow: var(--shadow-menu);
 }
 
 .chapters-list a {
-  color: var(--encre);
+  color: var(--ink);
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
 }
 
 .chapters-list a:hover {
-  color: var(--bleu);
+  color: var(--blue);
 }
 
 .chapter-description {
-  color: var(--discret);
+  color: var(--muted);
   margin-top: 0.5rem;
   font-size: 0.95rem;
   line-height: 1.5;
 }
 
-/* La couverture, en page d'accueil. Elle flotte pour ne pas repousser
-   le texte vers le bas, et se recentre quand la colonne devient etroite. */
 .book-cover {
   float: right;
   width: 200px;
   height: auto;
   margin: 0.4rem 0 1.25rem 1.75rem;
-  box-shadow: var(--ombre-menu);
+  box-shadow: var(--shadow-menu);
 }
 
 @media (max-width: 600px) {
@@ -725,18 +679,17 @@ sup a {
   }
 }
 
-/* Content Footer */
 .content-footer {
   background: var(--surface);
-  border-top: 1px solid var(--filet);
-  color: var(--texte);
+  border-top: 1px solid var(--rule);
+  color: var(--text);
   padding: 2rem;
   text-align: right;
 }
 
 .next-chapter {
   font-family: var(--font-sans);
-  color: var(--encre);
+  color: var(--ink);
   font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
@@ -748,7 +701,7 @@ sup a {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: var(--discret);
+  color: var(--muted);
   margin-bottom: 0.2rem;
 }
 
@@ -765,7 +718,7 @@ sup a {
 
 .prev-link,
 .next-link {
-  background: var(--encre);
+  background: var(--ink);
   color: white;
   padding: 0.8rem 1.5rem;
   text-decoration: none;
@@ -776,27 +729,26 @@ sup a {
 
 .prev-link:hover,
 .next-link:hover {
-  background: var(--encre);
+  background: var(--ink);
 }
 
 .prev-link.disabled,
 .next-link.disabled {
-  background: var(--filet);
+  background: var(--rule);
   cursor: not-allowed;
   pointer-events: none;
 }
 
-/* Footer */
 .footer {
   background: var(--surface);
-  color: var(--encre);
+  color: var(--ink);
   opacity: 0.6;
   padding: 1rem 2rem 2rem;
   text-align: left;
 }
 
 .footer h3 {
-  color: var(--encre);
+  color: var(--ink);
   margin-bottom: 1rem;
   font-size: 1.2rem;
 }
@@ -819,13 +771,13 @@ sup a {
 }
 
 .footer-nav a {
-  color: var(--encre);
+  color: var(--ink);
   text-decoration: none;
   font-size: 0.9rem;
 }
 
 .footer-nav a:hover {
-  color: var(--bleu);
+  color: var(--blue);
 }
 
 .copyright {
@@ -842,10 +794,9 @@ sup a {
 }
 
 .copyright a {
-  color: var(--encre);
+  color: var(--ink);
 }
 
-/* Overlay for mobile menu */
 .overlay {
   position: fixed;
   top: 0;
@@ -864,19 +815,10 @@ sup a {
   visibility: visible;
 }
 
-/* Better spacing for section headers and mobile lists */
 .content p strong:only-child {
   display: inline-block;
   margin-top: 0.5rem;
 }
-
-/* ---------------------------------------------------------------
-   Le squelette d'une entree
-   Le reflexe / Le reflexe builder / Pourquoi / A essayer / A discuter
-   reviennent dans les 68 entrees. Ce ne sont pas des titres, ce sont
-   des reperes : on les saute a l'oeil pour retrouver un bloc. Ils ne
-   doivent pas concurrencer le titre de l'entree.
-   --------------------------------------------------------------- */
 
 .content--entry h2,
 .content--section h2 {
@@ -890,7 +832,7 @@ sup a {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: var(--discret);
+  color: var(--muted);
 }
 
 .content--entry h2::after,
@@ -898,7 +840,7 @@ sup a {
   content: "";
   flex: 1;
   height: 1px;
-  background: var(--filet);
+  background: var(--rule);
 }
 
 .content--entry h2::before,
@@ -910,9 +852,8 @@ sup a {
   background: var(--signal);
 }
 
-/* Les cartes leader gardent la meme grille, avec un signe a elles. */
-.content--systeme h2::before {
-  background: var(--encre);
+.content--system h2::before {
+  background: var(--ink);
   box-shadow: 4px 4px 0 var(--signal);
 }
 
@@ -921,14 +862,13 @@ sup a {
   margin-top: 0;
 }
 
-/* L'exergue : la phrase a retenir de l'entree.
-   Elle suit toujours immediatement son repere, ce qui la distingue en
-   CSS de la fiche a remplir, sans rien changer au markdown. */
+/* The pull quote is the blockquote right after an h2; other blockquotes are
+   fill-in templates. */
 .content--entry h2 + blockquote {
   margin: 1.25rem 0 2.5rem;
   padding: 0 0 1.5rem;
   border: 0;
-  border-bottom: 1px solid var(--filet);
+  border-bottom: 1px solid var(--rule);
   border-radius: 0;
   background: none;
   font-family: var(--font-serif);
@@ -936,14 +876,13 @@ sup a {
   font-size: 1.45rem;
   line-height: 1.45;
   font-weight: bold;
-  color: var(--encre);
+  color: var(--ink);
   text-wrap: pretty;
 }
 
-/* La fiche : les gabarits qu'on est invite a remplir. */
 .content--entry blockquote {
   background: var(--surface);
-  border: 1px solid var(--filet);
+  border: 1px solid var(--rule);
   border-left: 3px solid var(--signal);
   padding: 1.15rem 1.3rem;
   margin: 1.6rem 0 1.9rem;
@@ -951,14 +890,13 @@ sup a {
   font-style: normal;
   font-size: 1.02rem;
   line-height: 1.6;
-  color: var(--texte);
+  color: var(--text);
 }
 
-/* Le sommaire d'une ouverture de section. */
 .content--section .container > p:first-of-type {
   font-size: 1.34rem;
   line-height: 1.55;
-  color: var(--encre);
+  color: var(--ink);
 }
 
 .content--section h2 + ul {
@@ -968,7 +906,7 @@ sup a {
 
 .content--section h2 + ul li {
   margin-bottom: 0;
-  border-bottom: 1px solid var(--filet);
+  border-bottom: 1px solid var(--rule);
 }
 
 .content--section h2 + ul li a {
@@ -982,12 +920,10 @@ sup a {
 .content--section h2 + ul li a:hover {
   background: var(--surface);
   box-shadow: none;
-  color: var(--bleu);
+  color: var(--blue);
 }
 
-/* Responsive */
 @media (min-width: 768px) {
-  /* Des qu'il y a de la marge, le carre signal y passe. */
   .content--entry h2::before,
   .content--section h2::before {
     position: absolute;
@@ -1026,8 +962,6 @@ sup a {
     font-size: 1.6rem;
   }
 
-  /* Le dessin reste a droite du titre, meme sur telephone. Il se reduit avec
-     la largeur plutot que de repasser sous le texte. */
   .hero-inner {
     gap: 1.25rem;
   }
@@ -1041,16 +975,15 @@ sup a {
   }
 }
 
-/* Anchor targets clear the fixed header */
+/* Clears the fixed header. */
 .content [id] {
   scroll-margin-top: 80px;
 }
 
-/* Footnotes */
 .content .footnotes {
   margin-top: 3rem;
   padding-top: 1.5rem;
-  border-top: 1px solid var(--filet);
+  border-top: 1px solid var(--rule);
   font-size: 0.9rem;
   opacity: 0.85;
 }
@@ -1068,7 +1001,6 @@ sup a {
   margin-bottom: 1rem;
 }
 
-/* Sorties du fil de lecture, les notes forment leur propre bloc sous le pied de chapitre */
 .content--notes {
   min-height: 0;
 }
@@ -1088,36 +1020,32 @@ sup a {
   margin-bottom: 0;
 }
 
-/* Partager un passage.
-   Une barre minuscule, au-dessus de la selection, et rien d'autre. Elle
-   emprunte la bordure jaune du menu de telechargement : c'est le meme objet
-   flottant, il n'y a pas de raison qu'il ait deux formes.
-   z-index sous le header, qui est fixe et reste devant. */
-.partage {
+/* Below the fixed header (z-index 1000). */
+.share {
   position: absolute;
   z-index: 999;
-  background: var(--papier);
-  border: 1px solid var(--filet);
-  border-top: 1px solid var(--filet);
-  box-shadow: var(--ombre-menu);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-top: 1px solid var(--rule);
+  box-shadow: var(--shadow-menu);
   font-family: var(--font-sans);
 }
 
-.partage[hidden] {
+.share[hidden] {
   display: none;
 }
 
-.partage-barre[hidden],
-.partage-canaux[hidden] {
+.share-bar[hidden],
+.share-channels[hidden] {
   display: none;
 }
 
-.partage-canaux {
+.share-channels {
   display: flex;
 }
 
-.partage button,
-.partage-canaux a {
+.share button,
+.share-channels a {
   display: block;
   padding: 0.55rem 0.95rem;
   background: none;
@@ -1125,33 +1053,28 @@ sup a {
   font-family: inherit;
   font-size: 0.92rem;
   line-height: 1.35;
-  color: var(--encre);
+  color: var(--ink);
   text-decoration: none;
   white-space: nowrap;
   cursor: pointer;
 }
 
-.partage-canaux a + a,
-.partage-canaux a + button {
-  border-left: 1px solid var(--filet);
+.share-channels a + a,
+.share-channels a + button {
+  border-left: 1px solid var(--rule);
 }
 
-.partage button:hover,
-.partage-canaux a:hover {
+.share button:hover,
+.share-channels a:hover {
   background: var(--surface);
 }
 
-.partage-bouton {
+.share-button {
   font-weight: 500;
 }
 
-/* L'icone de partage du fil d'ariane. Elle pousse a droite de la ligne et
-   emprunte la teinte de la meta qu'elle termine.
-   Le glyphe est celui que tout le monde reconnait, trois noeuds relies,
-   au trait et au poids du bouton de telechargement. */
-/* La paire d'actions, poussee a droite de la ligne de reperes. La marge
-   automatique vit ici et pas sur les boutons : deux marges automatiques
-   dans un flex se partagent l'espace libre au lieu de coller les icones. */
+/* The auto margin lives here, not on the buttons: two auto margins in a flex
+   split the free space. */
 .chapter-actions {
   margin-left: auto;
   display: flex;
@@ -1159,101 +1082,94 @@ sup a {
   gap: 0.35rem;
 }
 
-.partage-page {
+.share-page {
   display: flex;
   padding: 0;
   background: none;
   border: 0;
-  color: var(--discret);
+  color: var(--muted);
   opacity: 0.55;
   cursor: pointer;
 }
 
-.partage-page:hover,
-.partage-page[aria-expanded="true"] {
+.share-page:hover,
+.share-page[aria-expanded="true"] {
   opacity: 1;
 }
 
-/* Sur telephone, la rangee de canaux depasserait l'ecran. Elle se replie. */
 @media (max-width: 480px) {
-  .partage-canaux {
+  .share-channels {
     flex-direction: column;
   }
 
-  .partage-canaux a + a,
-  .partage-canaux a + button {
+  .share-channels a + a,
+  .share-channels a + button {
     border-left: 0;
-    border-top: 1px solid var(--filet);
+    border-top: 1px solid var(--rule);
   }
 }
 
-/* Garder une entree. Le meme bouton que le partage, a sa gauche. Garde, le
-   signet se remplit du jaune signal, comme le carre des titres de bloc. */
-.garder[aria-pressed="true"] {
+.keep[aria-pressed="true"] {
   opacity: 1;
 }
 
-.garder[aria-pressed="true"] svg {
+.keep[aria-pressed="true"] svg {
   fill: var(--signal);
 }
 
-/* Ce que le livre a retenu, sur l'accueil. Une bande plus calme que le pied
-   de page : elle s'adresse a celui qui revient, pas a celui qui arrive. */
-.reprise {
+.resume {
   background: var(--surface);
   padding: 2rem;
   font-family: var(--font-sans);
 }
 
-.reprise[hidden],
-.reprise-lien[hidden],
-.reprise-gardees[hidden] {
+.resume[hidden],
+.resume-link[hidden],
+.resume-kept[hidden] {
   display: none;
 }
 
-.reprise small {
+.resume small {
   display: block;
   font-size: 0.72rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: var(--discret);
+  color: var(--muted);
   margin-bottom: 0.4rem;
 }
 
-.reprise-lien {
+.resume-link {
   display: block;
   font-size: 1.15rem;
   font-weight: 600;
-  color: var(--encre);
+  color: var(--ink);
   text-decoration: none;
 }
 
-.reprise-gardees {
+.resume-kept {
   margin-top: 1.7rem;
 }
 
-.reprise-gardees ul {
+.resume-kept ul {
   list-style: none;
 }
 
-.reprise-gardees li + li {
+.resume-kept li + li {
   margin-top: 0.45rem;
 }
 
-.reprise-gardees a {
+.resume-kept a {
   font-size: 0.98rem;
-  color: var(--encre);
+  color: var(--ink);
   text-decoration: none;
 }
 
-.reprise a:hover {
-  color: var(--bleu);
+.resume a:hover {
+  color: var(--blue);
 }
 
-/* Le filtre de l'index par symptome. Le champ est ajoute au chargement :
-   sans JavaScript l'index se lit en entier, ce qui est son etat normal. */
-.filtre-symptomes {
+.filter-symptoms {
   display: block;
   width: 100%;
   max-width: 26rem;
@@ -1261,35 +1177,31 @@ sup a {
   padding: 0.6rem 0.8rem;
   font-family: var(--font-sans);
   font-size: 0.95rem;
-  color: var(--encre);
-  background: var(--papier);
-  border: 1px solid var(--filet);
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
   border-radius: 0;
   -webkit-appearance: none;
 }
 
-.filtre-symptomes:focus {
+.filter-symptoms:focus {
   outline: 0;
-  border-color: var(--bleu);
+  border-color: var(--blue);
 }
 
-.filtre-vide {
+.filter-empty {
   font-family: var(--font-sans);
-  color: var(--discret);
+  color: var(--muted);
 }
 
-/* Rien ici ne fixe display aujourd'hui, donc [hidden] du navigateur suffit.
-   Ces trois lignes sont la pour qu'un changement de CSS plus tard ne casse
-   pas le filtre sans que personne le voie. */
+/* Explicit so a future display rule can't silently break the filter. */
 .content h2[hidden],
 .content ul[hidden],
 .content li[hidden],
-.filtre-vide[hidden] {
+.filter-empty[hidden] {
   display: none;
 }
 
-/* La note d'une entree. Une bande calme entre le texte et l'entree suivante :
-   elle se voit quand on a fini de lire, et jamais pendant. */
 .note {
   background: var(--surface);
   padding: 2rem;
@@ -1306,11 +1218,11 @@ sup a {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.14em;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-.note-valeurs,
-.note-raisons {
+.note-values,
+.note-reasons {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
@@ -1320,9 +1232,9 @@ sup a {
   font-family: inherit;
   font-size: 0.92rem;
   padding: 0.5rem 1.1rem;
-  color: var(--encre);
-  background: var(--papier);
-  border: 1px solid var(--filet);
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
   cursor: pointer;
 }
 
@@ -1331,32 +1243,32 @@ sup a {
 }
 
 .note button[aria-pressed="true"] {
-  background: var(--encre);
-  border-color: var(--encre);
-  color: var(--papier);
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
 }
 
-.note-suite {
+.note-next {
   margin-top: 1.8rem;
 }
 
-.note-suite[hidden],
-.note-merci[hidden] {
+.note-next[hidden],
+.note-thanks[hidden] {
   display: none;
 }
 
-.note-suite .note-question {
+.note-next .note-question {
   margin-top: 0;
 }
 
-.note-libre {
+.note-free {
   display: block;
   margin: 1.3rem 0 0.9rem;
   font-size: 0.88rem;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-.note-libre textarea {
+.note-free textarea {
   display: block;
   width: 100%;
   max-width: 40rem;
@@ -1364,35 +1276,32 @@ sup a {
   padding: 0.6rem 0.75rem;
   font-family: inherit;
   font-size: 0.92rem;
-  color: var(--encre);
-  background: var(--papier);
-  border: 1px solid var(--filet);
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
   border-radius: 0;
   -webkit-appearance: none;
   resize: vertical;
 }
 
-.note-libre textarea:focus {
+.note-free textarea:focus {
   outline: 0;
-  border-color: var(--bleu);
+  border-color: var(--blue);
 }
 
-.note-envoyer {
-  background: var(--encre);
-  border-color: var(--encre);
-  color: var(--papier);
+.note-send {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
 }
 
-.note-merci {
+.note-thanks {
   margin: 1.2rem 0 0;
   font-size: 0.92rem;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-/* L'essai d'une carte. Il vit dans le texte, juste apres « a essayer » :
-   un cadre discret, a la couleur du signal, parce que c'est le moment ou la
-   lecture devient un geste. */
-.essai {
+.try {
   margin: 1.5rem 0 2rem;
   padding: 1.2rem 1.4rem;
   border-left: 3px solid var(--signal);
@@ -1400,63 +1309,63 @@ sup a {
   font-family: var(--font-sans);
 }
 
-.essai[hidden],
-.essai [hidden] {
+.try[hidden],
+.try [hidden] {
   display: none;
 }
 
-.essai-boutons {
+.try-buttons {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
 }
 
-.essai button {
+.try button {
   min-height: 44px;
   padding: 0.5rem 1.1rem;
   font-family: inherit;
   font-size: 0.92rem;
-  color: var(--encre);
-  background: var(--papier);
-  border: 1px solid var(--filet);
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
   cursor: pointer;
 }
 
-.essai button:hover {
+.try button:hover {
   background: var(--surface);
 }
 
-.essai .essai-principal {
-  background: var(--encre);
-  border-color: var(--encre);
-  color: var(--papier);
+.try .try-main {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
 }
 
-.essai .essai-principal:hover,
-.carnet .note-envoyer:hover,
-.note .note-envoyer:hover {
-  background: var(--bleu);
-  border-color: var(--bleu);
-  color: var(--papier);
+.try .try-main:hover,
+.notebook .note-send:hover,
+.note .note-send:hover {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: var(--paper);
 }
 
-.essai-en-cours p,
-.essai-merci {
+.try-in-progress p,
+.try-thanks {
   margin: 0 0 0.8rem;
   font-size: 0.92rem;
 }
 
-.essai-merci {
+.try-thanks {
   margin: 0.8rem 0 0;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-.essai-form {
+.try-form {
   display: grid;
   gap: 1rem;
 }
 
-.essai-form fieldset {
+.try-form fieldset {
   display: flex;
   flex-wrap: wrap;
   gap: 0.2rem 1.2rem;
@@ -1465,17 +1374,17 @@ sup a {
   border: 0;
 }
 
-.essai-form legend {
+.try-form legend {
   margin-bottom: 0.4rem;
   padding: 0;
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-.essai-form fieldset label {
+.try-form fieldset label {
   display: flex;
   align-items: center;
   gap: 0.4rem;
@@ -1483,13 +1392,13 @@ sup a {
   font-size: 0.92rem;
 }
 
-.essai-lecon {
+.try-lesson {
   font-size: 0.88rem;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-.essai-lecon textarea,
-.carnet textarea {
+.try-lesson textarea,
+.notebook textarea {
   display: block;
   width: 100%;
   max-width: 40rem;
@@ -1497,134 +1406,126 @@ sup a {
   padding: 0.6rem 0.75rem;
   font-family: inherit;
   font-size: 0.92rem;
-  color: var(--encre);
-  background: var(--papier);
-  border: 1px solid var(--filet);
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
   border-radius: 0;
   -webkit-appearance: none;
   resize: vertical;
 }
 
-.essai-lecon textarea:focus,
-.carnet textarea:focus {
+.try-lesson textarea:focus,
+.notebook textarea:focus {
   outline: 0;
-  border-color: var(--bleu);
+  border-color: var(--blue);
 }
 
-.essai-form .essai-principal {
+.try-form .try-main {
   justify-self: start;
 }
 
-/* Les notes du lecteur. Juste au-dessus de « ca t'a servi ? », sur fond
-   papier : c'est son carnet, pas une question qu'on lui pose. */
-.carnet {
+.notebook {
   padding: 2rem;
   font-family: var(--font-sans);
-  border-top: 1px solid var(--filet);
+  border-top: 1px solid var(--rule);
 }
 
-.carnet[hidden],
-.carnet [hidden] {
+.notebook[hidden],
+.notebook [hidden] {
   display: none;
 }
 
-.carnet-liste {
+.notebook-list {
   margin: 0 0 1.2rem;
   padding: 0;
   list-style: none;
   max-width: 40rem;
 }
 
-.carnet-liste li {
+.notebook-list li {
   padding: 0.8rem 0;
-  border-bottom: 1px solid var(--filet);
+  border-bottom: 1px solid var(--rule);
 }
 
-.carnet-liste p {
+.notebook-list p {
   margin: 0;
   font-size: 0.95rem;
-  color: var(--encre);
+  color: var(--ink);
   white-space: pre-wrap;
 }
 
-.carnet blockquote {
+.notebook blockquote {
   margin: 0 0 0.5rem;
   padding-left: 0.8rem;
   border-left: 2px solid var(--signal);
   font-size: 0.88rem;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-.carnet-form label {
+.notebook-form label {
   font-size: 0.88rem;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-.carnet-actions {
+.notebook-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.8rem;
 }
 
-.carnet button {
+.notebook button {
   min-height: 44px;
   padding: 0.5rem 1.1rem;
   font-family: inherit;
   font-size: 0.92rem;
-  color: var(--encre);
-  background: var(--papier);
-  border: 1px solid var(--filet);
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
   cursor: pointer;
 }
 
-.carnet-liste button {
+.notebook-list button {
   min-height: 0;
   margin-top: 0.3rem;
   padding: 0;
   border: 0;
   background: none;
   font-size: 0.82rem;
-  color: var(--discret);
+  color: var(--muted);
   text-decoration: underline;
 }
 
-.carnet .note-envoyer {
-  background: var(--encre);
-  border-color: var(--encre);
-  color: var(--papier);
+.notebook .note-send {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
 }
 
-.carnet-prive {
+.notebook-private {
   margin: 1rem 0 0;
   font-size: 0.82rem;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-/* ==========================================================================
-   Pastille de brouillon
-   Echafaudage, pas un element de design : le rouge est volontairement hors
-   palette pour qu'elle ne se fonde pas dans le livre. Tout tient dans ce bloc,
-   plus _includes/pastille-brouillon.html et la ligne draft_banner du
-   _config.yml. Les trois se retirent ensemble le jour de la publication.
-   ========================================================================== */
+/* Draft badge: scaffolding, red is off-palette on purpose. Remove at launch
+   with _includes/draft-badge.html and draft_banner in _config.yml. */
 
-.pastille-brouillon {
+.draft-badge {
   position: fixed;
   bottom: 0.6rem;
   left: 0.6rem;
-  /* Au-dessus de l'en-tete, qui est fixe et monte a 1000. */
+  /* Above the fixed header (z-index 1000). */
   z-index: 1100;
-  /* Ne doit jamais intercepter un clic destine a ce qu'elle recouvre. */
   pointer-events: none;
 }
 
-.pastille-brouillon span {
+.draft-badge span {
   display: block;
   padding: 0.3rem 0.7rem;
   border-radius: 2px;
   background: var(--signal);
-  color: var(--papier);
+  color: var(--paper);
   font-family: var(--font-sans);
   font-size: 0.65rem;
   font-weight: 600;
@@ -1634,25 +1535,14 @@ sup a {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* ------------------------------------------------------------------
-   La bande d'entree des pages racine
-
-   La meme forme partout : surtitre, titre, accroche, une colonne de meta
-   a droite, puis un rail qui reprend les titres de la page. Le livre garde
-   son bandeau `.hero` : rien ici ne le touche.
-   ------------------------------------------------------------------ */
-
-.bande {
+.band {
   background: var(--surface);
-  border-bottom: 1px solid var(--filet);
+  border-bottom: 1px solid var(--rule);
   padding: 5.5rem 0 2.25rem;
 }
 
-/* La bande se pose exactement sur la colonne de lecture : meme largeur,
-   meme marge. Les pages en layout `page` lisent plus etroit, d'ou le
-   modificateur plus bas. */
-.bande-corps {
-  max-width: var(--colonne-prose);
+.band-body {
+  max-width: var(--column-prose);
   margin: 0 auto;
   padding: 0 1.25rem;
   display: flex;
@@ -1660,32 +1550,32 @@ sup a {
   align-items: flex-start;
 }
 
-.bande-texte {
+.band-text {
   flex-grow: 1;
   min-width: 0;
 }
 
-.bande-surtitre {
+.band-kicker {
   font-family: var(--font-sans);
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--discret);
+  color: var(--muted);
   margin-bottom: 1rem;
 }
 
-.bande-surtitre a {
+.band-kicker a {
   color: inherit;
   text-decoration: none;
 }
 
-.bande-surtitre a:hover {
+.band-kicker a:hover {
   text-decoration: underline;
 }
 
-.bande-titre {
-  color: var(--encre);
+.band-title {
+  color: var(--ink);
   font-size: 2.15rem;
   font-weight: bold;
   line-height: 1.22;
@@ -1694,94 +1584,84 @@ sup a {
   text-wrap: balance;
 }
 
-.bande-accroche {
+.band-hook {
   font-family: var(--font-sans);
   font-size: 1.0625rem;
   line-height: 1.55;
-  color: var(--texte);
+  color: var(--text);
   margin: 0.9rem 0 0;
   max-width: 34em;
 }
 
-/* Le meme bouton que sur la page d'accueil : le noir plein pour l'action
-   de la page, le contour pour ce qui propose sans insister. */
-.bande-actions {
+.band-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 1.6rem;
 }
 
-/* L'index par situation cherche dans la bande, pas sous le premier groupe. */
-.bande-filtre {
+.band-filter {
   margin-top: 1.6rem;
 }
 
-.bande-filtre .filtre-symptomes {
+.band-filter .filter-symptoms {
   margin-bottom: 0;
   min-height: 44px;
-  /* Le filet clair du corps de page disparait sur la bande : sur le jaune,
-     le champ se tient au trait d'encre, comme les boutons a cote. */
-  border-color: var(--encre);
+  border-color: var(--ink);
 }
 
-.bande-cote {
+.band-side {
   flex: 0 0 10rem;
-  border-left: 1px solid var(--filet);
+  border-left: 1px solid var(--rule);
   padding-left: 1.5rem;
   margin-top: 0.35rem;
 }
 
-/* La couverture se tient sous la hauteur du titre et de ses boutons :
-   plus large, elle ouvre un trou de jaune a gauche. */
-.bande-couverture {
+.band-cover {
   display: block;
   width: 8rem;
   height: auto;
   margin-bottom: 1.1rem;
-  border: 1px solid var(--filet);
+  border: 1px solid var(--rule);
 }
 
-.bande-meta {
+.band-meta {
   margin: 0;
   font-family: var(--font-sans);
 }
 
-/* Sous une couverture, les chiffres tiennent sur une ligne : la liste de
-   definitions allongerait la colonne bien au-dela du titre. */
-.bande-legende {
+.band-caption {
   font-family: var(--font-sans);
   font-size: 0.82rem;
   line-height: 1.45;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-.bande-meta dt {
+.band-meta dt {
   font-size: 0.68rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-.bande-meta dd {
+.band-meta dd {
   margin: 0.2rem 0 1.15rem;
   font-size: 0.95rem;
-  color: var(--encre);
+  color: var(--ink);
 }
 
-.bande-meta dd:last-child {
+.band-meta dd:last-child {
   margin-bottom: 0;
 }
 
-/* Le rail : les titres de la page en tete, comme l'index d'un livre. */
 .rail {
   background: var(--surface);
-  border-bottom: 1px solid var(--filet);
+  border-bottom: 1px solid var(--rule);
 }
 
-.rail-corps {
-  max-width: var(--colonne-prose);
+.rail-body {
+  max-width: var(--column-prose);
   margin: 0 auto;
   padding: 0 1.25rem;
   display: flex;
@@ -1789,21 +1669,16 @@ sup a {
   column-gap: 2rem;
 }
 
-/* Le livre et la page introuvable lisent dans une colonne plus etroite. */
-.bande--etroite .bande-corps,
-.bande--etroite + .rail .rail-corps {
+.band--narrow .band-body,
+.band--narrow + .rail .rail-body {
   max-width: 42.5rem;
 }
 
-/* La page d'accueil garde sa propre ouverture, plus large et sans meta :
-   son rail suit la colonne de cette bande-la. */
-.rail--accueil .rail-corps {
+.rail--home .rail-body {
   max-width: 44rem;
 }
 
-/* Pas de filet entre les items : le rail passe a la ligne des qu'il y a
-   plus de quatre titres, et un filet vertical en bout de ligne pend dans
-   le vide. Le numero ambre marque le debut de chaque entree. */
+/* No dividers between items: the rail wraps, and a divider would dangle at line ends. */
 .rail-item {
   display: flex;
   align-items: baseline;
@@ -1812,7 +1687,7 @@ sup a {
   font-family: var(--font-sans);
   font-size: 0.875rem;
   line-height: 1.3;
-  color: var(--encre);
+  color: var(--ink);
   text-decoration: none;
 }
 
@@ -1824,19 +1699,15 @@ sup a {
 }
 
 .rail-num,
-.rail-fleche {
+.rail-arrow {
   font-size: 0.62rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: var(--discret);
+  color: var(--muted);
 }
 
-/* Certaines pages ouvrent sur un avertissement : un cas construit annonce
-   qu'il l'est, la licence rappelle que Creative Commons n'est pas un cabinet
-   d'avocats. La phrase reste ou l'auteur l'a ecrite ; seule sa forme dit ce
-   qu'elle est. */
-.avertissement .landing-wrap > p:first-child,
-.avertissement .container > p:first-child {
+.warning .landing-wrap > p:first-child,
+.warning .container > p:first-child {
   background: var(--surface);
   border-left: 3px solid var(--signal);
   padding: 0.9rem 1.1rem;
@@ -1846,143 +1717,111 @@ sup a {
 }
 
 @media (max-width: 767px) {
-  .bande {
+  .band {
     padding: 5.5rem 0 1.75rem;
   }
 
-  .bande-corps {
+  .band-body {
     flex-direction: column;
     align-items: stretch;
     gap: 1.25rem;
   }
 
-  .bande-titre {
+  .band-title {
     font-size: 1.65rem;
   }
 
-  /* Deux boutons cote a cote ne tiennent pas dans 390 pixels : ils
-     s'empilent, chacun sur toute la largeur. */
-  .bande-actions {
+  .band-actions {
     flex-direction: column;
   }
 
-  .bande-actions .bouton {
+  .band-actions .button {
     justify-content: center;
   }
 
-  /* Sur un telephone, la meta tient sur une ligne sous l'accroche. */
-  .bande-cote {
+  .band-side {
     flex: 0 0 auto;
     border-left: 0;
-    border-top: 1px solid var(--filet);
+    border-top: 1px solid var(--rule);
     padding: 1rem 0 0;
     margin-top: 0;
   }
 
-  .bande-couverture {
+  .band-cover {
     width: 7rem;
   }
 
-  .bande-meta {
+  .band-meta {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
     gap: 0.35rem 0.4rem;
   }
 
-  .bande-meta dd {
+  .band-meta dd {
     margin: 0;
   }
 
-  /* Un libelle colle a son chiffre ; l'ecart se met entre les paires. */
-  .bande-meta dt ~ dt {
+  .band-meta dt ~ dt {
     margin-left: 0.85rem;
   }
 
-  .rail-corps {
+  .rail-body {
     column-gap: 1.5rem;
   }
 }
 
-/* La colonne de prose du site.
-   ----------------------------------------------------------------------
-   Les pages de ressource : le gabarit `page`, la bande d'entree, le rail,
-   puis cette colonne. Elle est alignee sur la bande et le rail, a 48rem,
-   pour que le bord gauche du texte tombe sous le bord gauche du titre. */
-
 .content--prose .container {
-  max-width: var(--colonne-prose);
+  max-width: var(--column-prose);
 }
 
-/* `.content` donne 2rem 1rem : en ne redefinissant que le vertical on
-   supprimait la gouttiere laterale, et le texte touchait le bord sur
-   telephone. Les quatre valeurs sont donc ecrites. */
+/* All four values set: overriding only the vertical padding drops .content's side gutter. */
 .content--prose {
-  padding: 3rem var(--gouttiere-mobile) 4rem;
+  padding: 3rem var(--gutter-mobile) 4rem;
 }
 
 @media (min-width: 768px) {
-  .content--prose { padding-inline: var(--espace-8); }
+  .content--prose { padding-inline: var(--space-8); }
 }
 
-/* Un tableau large defile dans son coin plutot que de pousser la page. */
 .content--prose table {
   display: block;
   overflow-x: auto;
   max-width: 100%;
 }
 
-/* L'en-tete est fixe : une ancre doit s'arreter en dessous. */
+/* Clears the fixed header. */
 .content--prose h2,
 .content--prose h3 {
   scroll-margin-top: 6rem;
 }
 
-/* La colonne de lecture du livre.
-   ----------------------------------------------------------------------
-   Le site lit en Archivo, le livre en Merriweather. C'est la seule chose
-   qui separe les deux objets sans qu'on ait besoin de l'expliquer.
-
-   Le gabarit `chapter` pose `content--livre` sur ses deux blocs de prose,
-   le corps de la carte et ses notes. Une page de ressource n'a que
-   `content` : elle reste en sans, et descend a 17px, la taille du site.
-   Le livre garde ses 19px.
-
-   Jetons : var(--font-serif), var(--font-sans). Voir tokens.css. */
-
-.content--livre {
+.content--book {
   font-family: var(--font-serif);
   line-height: 1.75;
 }
 
-/* Le titre d'une carte tenait sa serif de `body`. Depuis l'inversion il faut
-   la lui redonner : la bande de titre du gabarit `chapter` est en dehors de
-   la colonne de lecture. Le reste de cette bande — le fil d'ariane, la
-   duree, l'auteur — est deja en sans et le reste. */
-.hero:not(.bloc) h1 {
+/* The chapter title band sits outside the reading column, so it sets its own serif. */
+.hero:not(.block) h1 {
   font-family: var(--font-serif);
 }
 
-.content:not(.content--livre) {
+.content:not(.content--book) {
   font-size: 1.0625rem;
 }
 
-/* La couverture dans le hero de la page du livre. Elle a sa propre taille :
-   c'est un objet, pas une illustration de bande. */
-.hero-couverture {
-  border: 1px solid var(--filet);
+.hero-cover {
+  border: 1px solid var(--rule);
   justify-self: center;
   max-width: 17rem;
 }
 
-/* Une scene dans la bande d'entree. Elle n'a pas la taille d'une couverture :
-   c'est un dessin large, au meme trait que les reperes du livre. */
-.bande-cote--scene {
+.band-side--scene {
   border-left: 0;
   padding-left: 0;
 }
 
-.bande-scene {
+.band-scene {
   display: block;
   height: auto;
   max-width: 100%;
@@ -1990,27 +1829,22 @@ sup a {
 }
 
 @media (max-width: 720px) {
-  .bande-scene { margin-inline: auto; width: 15rem; }
+  .band-scene { margin-inline: auto; width: 15rem; }
 }
 
 
-/* Les composants dans une colonne de prose.
-   ----------------------------------------------------------------------
-   `.content a` souligne tous les liens au marqueur, ce qui est juste dans
-   un paragraphe et faux sur une carte : la carte entiere est un lien, et
-   tout son texte se retrouverait souligne. */
+/* `.content a` underlines every link; a card is one big link, so undo it here. */
 
-.content .carte-parcours,
-.content .carte-livre,
-.content .carte-parcours:hover,
-.content .carte-livre:hover {
-  background: var(--papier);
+.content .path-card,
+.content .book-card,
+.content .path-card:hover,
+.content .book-card:hover {
+  background: var(--paper);
   text-decoration: none;
 }
 
-.content .grille { margin: var(--espace-8) 0; }
+.content .grid { margin: var(--space-8) 0; }
 
-/* Aucune image ne fait defiler la page horizontalement, a aucune largeur. */
 img {
   height: auto;
   max-width: 100%;

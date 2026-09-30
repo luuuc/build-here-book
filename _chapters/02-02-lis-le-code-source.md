@@ -3,7 +3,7 @@ layout: chapter
 title: "Lis le code source"
 part: "Le métier"
 order: 202
-card_type: pratique
+card_type: practice
 metadata:
   principle: "2.02"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - engineering
   - simplicite
   - technique
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-02-read-the-source.html
 seo:
   description: "La documentation résume, la source décide. Remonte au code, au contrat ou à la formule, avec une IA si elle t'aide à lire."

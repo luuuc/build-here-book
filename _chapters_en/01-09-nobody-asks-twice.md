@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Nobody asks twice"
 part: "The mindset"
 order: 109
-card_type: systeme
+card_type: system
 metadata:
   principle: "1.09"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - curiosite
   - apprentissage
   - engineering
-traductions:
+translations:
   fr: /livre/chapitres/01-09-leader-personne-ne-demande-deux-fois.html
 seo:
   description: "A question left unanswered kills the next one. Say who answers, and when."

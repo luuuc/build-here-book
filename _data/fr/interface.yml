@@ -1,191 +1,159 @@
-# Les chaines de l'interface dynamique, toutes au meme endroit.
-#
-# Elles s'ecrivent ici avant d'etre implementees, jamais pendant. Le livre dit
-# tu, il est plat, il ne s'exclame pas et il ne remercie pas. Une chaine
-# d'interface est lue des milliers de fois : aucun mot qui ne travaille.
-#
-# Regles de forme, les memes que le livre. Aucun tiret cadratin, aucun tiret
-# demi-cadratin, apostrophes droites.
+# UI strings. Every key must also exist in _data/en/interface.yml: a missing key renders nothing, silently.
+# No em or en dashes, straight apostrophes.
 
-# Le partage d'un passage. Livre.
-partage:
+share:
   selection: "Partager"
-  noter: "Noter"
-  titre: "Partager ce passage"
+  rate: "Noter"
+  title: "Partager ce passage"
   whatsapp: "WhatsApp"
   linkedin: "LinkedIn"
   x: "X"
-  copier: "Copier le lien"
-  copie: "Lien copié"
-  # La signature qui accompagne la citation. Pas de tiret cadratin.
+  copy: "Copier le lien"
+  copied: "Lien copié"
   signature: "Build Here, le playbook des builders"
 
-# Ce que le livre retient du lecteur. Tout est local, rien ne part.
-lecture:
-  reprendre: "Reprendre"
-  gardees: "Gardées"
-  garder: "Garder cette carte"
-  retirer: "Retirer des gardées"
-  # Le filtre de l'index par symptome.
-  filtre: "Filtrer par situation"
-  filtre_vide: "Rien ne correspond."
+reading:
+  resume: "Reprendre"
+  kept: "Gardées"
+  keep: "Garder cette carte"
+  remove: "Retirer des gardées"
+  filter: "Filtrer par situation"
+  filter_empty: "Rien ne correspond."
 
-# La note d'une entree.
-#
-# Ni etoiles ni score. Ce qui vaut n'est pas le compte des « oui », c'est la
-# raison attachee a un « a moitie » : « il manque un exemple » sur une entree
-# precise se repare, un score ne se repare pas.
 note:
   question: "Ça t'a servi ?"
-  oui: "Oui"
-  moitie: "À moitié"
-  non: "Non"
-  raison: "Il manquait quoi ?"
-  # La cle est stable et part en base, le libelle peut etre reecrit sans
-  # casser les donnees deja collectees.
-  raisons:
-    - cle: abstract
-      texte: "Trop abstrait"
-    - cle: already-known
-      texte: "Je le savais déjà"
-    - cle: disagree
-      texte: "Pas d'accord"
-    - cle: needs-example
-      texte: "Il manque un exemple"
-    - cle: other
-      texte: "Autre"
-  # Le commentaire ne s'affiche jamais nulle part. C'est ce qui lui evite
-  # toute moderation, et ce qui permet d'y etre franc.
-  libre: "Dis-le en une phrase, si tu veux. Personne d'autre que moi ne le lit."
-  envoyer: "Envoyer"
-  merci: "Noté." 
+  "yes": "Oui"
+  half: "À moitié"
+  "no": "Non"
+  reason: "Il manquait quoi ?"
+  # Keys are stored in the database (site CardFeedback); only the text may change.
+  reasons:
+    - key: abstract
+      text: "Trop abstrait"
+    - key: already-known
+      text: "Je le savais déjà"
+    - key: disagree
+      text: "Pas d'accord"
+    - key: needs-example
+      text: "Il manque un exemple"
+    - key: other
+      text: "Autre"
+  free: "Dis-le en une phrase, si tu veux. Personne d'autre que moi ne le lit."
+  send: "Envoyer"
+  thanks: "Noté." 
 
-# Les essais. Un geste de la carte, fait pour de vrai. « Ça n'a pas marché »
-# compte : avoir tort ne coute rien, le rester coute cher. [date] est remplace
-# par le script.
-essai:
-  commencer: "J'essaie"
-  fait: "Je l'ai essayé"
-  depuis: "Tu essaies cette carte depuis le [date]."
-  bilan: "Comment ça s'est passé ?"
+# try.js replaces [date].
+try:
+  start: "J'essaie"
+  done: "Je l'ai essayé"
+  since: "Tu essaies cette carte depuis le [date]."
+  summary: "Comment ça s'est passé ?"
   issue: "Le résultat"
   issues:
-    - cle: done
-      texte: "Fait"
-    - cle: failed
-      texte: "Ça n'a pas marché"
-    - cle: dropped
-      texte: "Abandonné"
-  lecon: "Ce que tu as appris, en une ligne. Toi seul le lis."
-  enregistrer: "Enregistrer"
-  merci: "Noté. Tu le retrouves dans ton espace."
-  merci_local: "Noté sur cet appareil."
-  connexion: "Connecte-toi pour le retrouver partout."
-  connexion_url: "/connexion"
-  espace_url: "/tableau-de-bord"
+    - key: done
+      text: "Fait"
+    - key: failed
+      text: "Ça n'a pas marché"
+    - key: dropped
+      text: "Abandonné"
+  lesson: "Ce que tu as appris, en une ligne. Toi seul le lis."
+  save: "Enregistrer"
+  thanks: "Noté. Tu le retrouves dans ton espace."
+  thanks_local: "Noté sur cet appareil."
+  login: "Connecte-toi pour le retrouver partout."
+  login_url: "/connexion"
+  dashboard_url: "/tableau-de-bord"
 
-# Les notes du lecteur. Privees : personne d'autre ne les lit, pas meme un
-# responsable d'equipe.
-carnet:
-  titre: "Tes notes"
-  prive: "Toi seul les lis."
+notebook:
+  title: "Tes notes"
+  private: "Toi seul les lis."
   label: "Une note sur cette carte"
   label_passage: "Une note sur ce passage"
-  enregistrer: "Enregistrer"
-  supprimer: "Supprimer"
-  retirer_passage: "Retirer le passage"
+  save: "Enregistrer"
+  remove: "Supprimer"
+  remove_passage: "Retirer le passage"
   local: "Gardées sur cet appareil."
 
-# Le chrome du site : en-tete, menu, pied de page, bande, carte, tirage.
-#
-# Ces chaines etaient ecrites en dur dans les gabarits. Elles sont descendues
-# ici le jour ou le site s'est decline en deux langues : un gabarit ne porte
-# plus aucun mot, il lit site.data[lang]. Les adresses accompagnent les
-# libelles, parce qu'une version anglaise ne pointe pas vers /a-propos/.
-
-entete:
-  menu_ouvrir: "Ouvrir le menu"
-  menu_fermer: "Fermer le menu"
-  accueil_url: "/"
-  langue: "Changer de langue"
-  telecharger: "Télécharger le livre"
+# URLs live here too: each language has its own paths.
+header:
+  menu_open: "Ouvrir le menu"
+  menu_close: "Fermer le menu"
+  home_url: "/"
+  language: "Changer de langue"
+  download: "Télécharger le livre"
   pdf: "Télécharger au format PDF"
   pdf_detail: "Format A4, prêt à imprimer"
   epub: "Télécharger au format EPUB"
   epub_detail: "Liseuses, téléphones, tablettes"
   kindle: "Envoyer sur mon Kindle"
-  brouillon: "Version de travail"
+  draft: "Version de travail"
 
 menu:
-  livre_url: "/livre/"
-  retour: "← Retour au site"
-  sommaire_aria: "Sommaire du livre"
+  book_url: "/livre/"
+  back: "← Retour au site"
+  toc_aria: "Sommaire du livre"
 
-pied:
+footer:
   aria: "Ressources complémentaires"
-  liens:
-    - titre: "À propos"
+  links:
+    - title: "À propos"
       url: "/a-propos/"
-    - titre: "Questions fréquentes"
+    - title: "Questions fréquentes"
       url: "/questions-frequentes/"
-    - titre: "Glossaire"
+    - title: "Glossaire"
       url: "/glossaire/"
-    - titre: "Guide de lecture"
+    - title: "Guide de lecture"
       url: "/guide-de-lecture/"
-    - titre: "Bibliographie commentée"
+    - title: "Bibliographie commentée"
       url: "/references/"
-    - titre: "Méthode du test"
+    - title: "Méthode du test"
       url: "/methode-du-test/"
-  par: "par"
-  licence: "est sous licence"
+  by: "par"
+  license: "est sous licence"
 
-carte:
-  capacite: "Capacité"
-  # Chaque carte est un principe, numerote dans sa section. Leader marque les
-  # cartes ecrites pour ceux qui posent les conditions de l'equipe.
-  principe: "Principe"
+card:
+  capability: "Capacité"
+  principle: "Principe"
   leader: "Leader"
-  suivante: "Entrée suivante"
-  auteur: "Écrite par"
+  next: "Entrée suivante"
+  author: "Écrite par"
 
-bande:
-  lecture: "Lecture"
+band:
+  reading: "Lecture"
   minutes: "minutes"
   sections: "Sections"
   rail_site: "Les entrées du site"
   rail_page: "Sections de la page"
 
-# Le tirage PDF et EPUB. Le site n'en lit rien.
-tirage:
+# PDF and EPUB only.
+edition:
   kicker: "Le playbook des builders"
-  sommaire: "Sommaire"
-  capacites: "capacités"
-  cartes: "cartes"
+  toc: "Sommaire"
+  capabilities: "capacités"
+  cards: "cartes"
   compose: "Composé en Merriweather et Archivo"
   version: "version"
-  licence: >-
+  license: >-
     © 2026 [auteur]. Sous licence <a href="[licence]">Creative Commons CC BY-SA 4.0</a> :
     tu peux copier, redistribuer et transformer ce texte, y compris commercialement,
     à condition de citer l'auteur et de partager aux mêmes conditions.
-  en_ligne: >-
+  online: >-
     Le livre se lit aussi en ligne sur <a href="[url]">[domaine]</a>, et son code source
     est ouvert sur <a href="https://github.com/[depot]">github.com/[depot]</a>.
   test: >-
     Le test du builder te donne un niveau de 1 à 5 et une pratique à essayer,
     sur <a href="[url]">[domaine]</a>.
-  # Les mots-cles de l'EPUB, lus par Pandoc.
-  sujets:
+  topics:
     - builders
     - apprentissage
     - pratiques
     - équipes
     - ownership
 
-# Les fichiers lus par les machines : book.json et llms.txt.
 machine:
-  auteur_bio: "Builder depuis 2000. A construit SiteDynamic, un CMS vendu dans le monde entier (2002 à 2007), cofondé et reconstruit la relance de la place de marché française 2xMoinsCher (2011 à 2014), puis cofondé Afrikrea, devenue ANKA, et l'a construite comme CTO (2016 à 2025) : la plus grande plateforme d'export e-commerce d'Afrique, avec plus de 80 millions de dollars de ventes dans 175 pays."
-  mots: ["builders", "apprentissage", "pratiques", "équipes", "ownership", "curiosité", "leadership", "exécution"]
-  sujets:
+  author_bio: "Builder depuis 2000. A construit SiteDynamic, un CMS vendu dans le monde entier (2002 à 2007), cofondé et reconstruit la relance de la place de marché française 2xMoinsCher (2011 à 2014), puis cofondé Afrikrea, devenue ANKA, et l'a construite comme CTO (2016 à 2025) : la plus grande plateforme d'export e-commerce d'Afrique, avec plus de 80 millions de dollars de ventes dans 175 pays."
+  words: ["builders", "apprentissage", "pratiques", "équipes", "ownership", "curiosité", "leadership", "exécution"]
+  topics:
     - "Apprentissage par la pratique"
     - "Amélioration des services et des réalisations"
     - "Conditions du travail collectif"

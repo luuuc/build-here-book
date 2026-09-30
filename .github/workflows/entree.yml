@@ -1,10 +1,5 @@
-# Lit les cartes d'une pull request contre les regles de l'annexe 1.
-#
-# Elle ne bloque jamais. Le linter ne refuse rien par principe : il tourne
-# ici, sur les fichiers de la pull request, sans appeler personne.
-#
-# Le rapport va dans le resume du job et pas en commentaire. Une pull request
-# venue d'un fork n'a qu'un jeton en lecture, donc un commentaire echouerait.
+# Lints the cards changed by a pull request. Never fails the build.
+# The report goes to the job summary, not a PR comment: fork PRs only get a read-only token.
 
 name: Relire une carte
 
@@ -28,33 +23,32 @@ jobs:
       - name: Relire chaque carte touchée
         run: |
           base="origin/${{ github.base_ref }}"
-          fichiers=$(git diff --name-only --diff-filter=d "$base"...HEAD -- '_chapters/*.md')
+          files=$(git diff --name-only --diff-filter=d "$base"...HEAD -- '_chapters/*.md')
 
-          if [ -z "$fichiers" ]; then
+          if [ -z "$files" ]; then
             echo "Aucune carte touchée." >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
 
-          # Une carte ajoutee attend ses champs de sequence a 999. Une carte
-          # modifiee porte deja son vrai numero.
-          ajoutes=$(git diff --name-only --diff-filter=A "$base"...HEAD -- '_chapters/*.md')
+          # Only added cards get --new: they must keep their order fields at 999.
+          added=$(git diff --name-only --diff-filter=A "$base"...HEAD -- '_chapters/*.md')
 
           echo "## Les règles de l'annexe 1" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"
 
-          for f in $fichiers; do
-            nouvelle=""
-            echo "$ajoutes" | grep -qx "$f" && nouvelle="--nouvelle"
-            rapport=$(node bin/lint-entree $nouvelle "$f" 2>&1 || true)
+          for f in $files; do
+            fresh=""
+            echo "$added" | grep -qx "$f" && fresh="--new"
+            report=$(node bin/lint-entry $fresh "$f" 2>&1 || true)
 
             echo "### \`$f\`" >> "$GITHUB_STEP_SUMMARY"
             echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
-            echo "$rapport" >> "$GITHUB_STEP_SUMMARY"
+            echo "$report" >> "$GITHUB_STEP_SUMMARY"
             echo "\`\`\`" >> "$GITHUB_STEP_SUMMARY"
             echo "" >> "$GITHUB_STEP_SUMMARY"
 
             echo "--- $f"
-            echo "$rapport"
+            echo "$report"
           done
 
           echo "Les douze tests sont une lecture humaine. Rien ici ne refuse une carte." >> "$GITHUB_STEP_SUMMARY"

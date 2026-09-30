@@ -1,20 +1,9 @@
 #!/bin/sh
-# Tire le livre en PDF et en EPUB.
+# Builds the book as PDF (WeasyPrint) and EPUB (Pandoc) into build/.
 #
-#   bin/build-book              les deux, en francais
-#   bin/build-book pdf          le PDF seul
-#   bin/build-book epub         l'EPUB seul
-#   bin/build-book all en       les deux, en anglais
+#   bin/build-book [pdf|epub|all] [fr|en]    default: all fr
 #
-# Sortie : build/build-here.pdf et .epub pour le francais, build/build-here-en.*
-# pour l'anglais. Le francais garde son nom sans suffixe : les adresses deja
-# imprimees dans les tirages precedents continuent de marcher.
-#
-# Jekyll assemble le livre en deux pages HTML (_pdf/book.html et _pdf/epub.html,
-# corps commun dans _includes/book-body.html). WeasyPrint pagine la premiere,
-# Pandoc empaquette la seconde.
-#
-#   brew install weasyprint pandoc
+# Needs: brew install weasyprint pandoc
 set -e
 cd "$(dirname "$0")/.."
 
@@ -39,14 +28,10 @@ case "$lang" in
   *)  echo "usage: bin/build-book [pdf|epub|all] [fr|en]" >&2; exit 2 ;;
 esac
 
-# Chaque langue a son dossier de travail : deux tirages lances a la suite ne se
-# marchent pas dessus. _site reste celui du site : le tirage desactive auto_ids
-# (voir _config-pdf.yml) et un _site produit ici n'aurait pas les ancres de
-# titre que le site publie doit avoir.
+# Not _site: the print config turns off auto_ids, which the public site needs.
 site="$out/site-$lang"
 mkdir -p "$out"
-# BOOK_CONFIG_EXTRA laisse la CI injecter le numero de version reel, celui du
-# tag, pour que le colophon ne montre pas le champ de secours de _config.yml.
+# BOOK_CONFIG_EXTRA lets CI inject the release version.
 bundle exec jekyll build \
   --config "${config}${BOOK_CONFIG_EXTRA:+,$BOOK_CONFIG_EXTRA}" \
   --destination "$site" --quiet
@@ -57,8 +42,6 @@ if [ "$what" = all ] || [ "$what" = pdf ]; then
 fi
 
 if [ "$what" = all ] || [ "$what" = epub ]; then
-  # --split-level=1 : un fichier par section, les cartes dedans.
-  # --toc-depth=2   : la navigation reprend sections > cartes.
   pandoc "$site/epub.html" \
     --from=html \
     --to=epub3 \

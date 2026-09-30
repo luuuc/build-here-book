@@ -11,7 +11,7 @@ categories:
   - levier
   - impact
   - risque
-traductions:
+translations:
   fr: /livre/chapitres/08-04-un-levier-mal-place-multiplie-lerreur.html
 seo:
   description: "Leverage multiplies mistakes too, and AI multiplies them faster. List the exceptions and plan the stop before widening."

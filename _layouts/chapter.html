@@ -1,54 +1,41 @@
-{% include langue.html %}<!doctype html>
+{% include language.html %}<!doctype html>
 <html lang="{{ lang }}">
   <head>
     {% include head.html %}
 
-    <!-- Analytics -->
     {% include ga.html %}
   </head>
   <body>
-    <!-- Header -->
     {% include header.html %}
 
-    <!-- Offcanvas Menu -->
     {% include nav.html %}
 
-    <!-- Overlay -->
-    <div class="overlay" id="overlay" data-bascule-menu></div>
+    <div class="overlay" id="overlay" data-toggle-menu></div>
 
-    <!-- Hero Section -->
     <section class="hero">
       <div class="container">
-        <!-- Le fil d'ariane vit au-dessus du titre et du dessin : il prend
-             toute la ligne, a toutes les largeurs. -->
         <div class="chapter-number{% if page.card_type %} chapter-number--{{ page.card_type }}{% endif %}">
           {% if page.step_number %}
-          <span>{{ t.carte.capacite }}</span>
+          <span>{{ t.card.capability }}</span>
           {% else %}
           {% unless page.part == page.title %}<span>{{page.part}}</span>{% endunless %}
-          {% if page.metadata.principle %}<span>{{ t.carte.principe }} {{ page.metadata.principle | split: "." | last }}</span>{% endif %}
+          {% if page.metadata.principle %}<span>{{ t.card.principle }} {{ page.metadata.principle | split: "." | last }}</span>{% endif %}
           {% endif %}
           {% if page.metadata.reading_time_in_minutes %}<span>{{page.metadata.reading_time_in_minutes}} min</span>{% endif %}
-          {% if page.card_type == "systeme" %}<span class="card-type">{{ t.carte.leader }}</span>{% endif %}
-          <!-- Les deux actions de page, groupees. Le conteneur porte la
-               marge automatique : sur les boutons eux-memes, deux marges
-               automatiques se partagent l'espace libre et laissent un trou
-               entre les deux icones. -->
+          {% if page.card_type == "system" %}<span class="card-type">{{ t.card.leader }}</span>{% endif %}
+          {% comment %}The wrapper holds the auto margin: auto margins on each button would leave a gap between them.{% endcomment %}
           <div class="chapter-actions">
-          <!-- Garder l'entree. Le script y lit aussi l'URL et le titre pour
-               retenir la derniere entree ouverte. Tout reste dans le
-               navigateur du lecteur. -->
           <button
             type="button"
-            class="partage-page garder"
-            data-garder
+            class="share-page keep"
+            data-keep
             data-url="{{ page.url | relative_url }}"
-            data-titre="{{ page.title | escape }}"
-            data-garder-libelle="{{ t.lecture.garder }}"
-            data-retirer="{{ t.lecture.retirer }}"
+            data-title="{{ page.title | escape }}"
+            data-keep-label="{{ t.reading.keep }}"
+            data-remove="{{ t.reading.remove }}"
             aria-pressed="false"
-            title="{{ t.lecture.garder }}"
-            aria-label="{{ t.lecture.garder }}"
+            title="{{ t.reading.keep }}"
+            aria-label="{{ t.reading.keep }}"
           >
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -56,18 +43,14 @@
             </svg>
           </button>
 
-          <!-- Partager la page. Meme barre et memes canaux que le partage d'un
-               passage : c'est le titre qui part, et le lien n'a pas d'ancre
-               puisqu'il n'y a pas de passage. Le bouton n'est pas un span, il
-               n'herite donc pas du separateur du fil d'ariane. -->
           <button
             type="button"
-            class="partage-page"
-            data-partage-page="{{ page.title | escape }}"
+            class="share-page"
+            data-share-page="{{ page.title | escape }}"
             aria-haspopup="menu"
             aria-expanded="false"
-            aria-label="{{ t.partage.titre }}"
-            title="{{ t.partage.titre }}"
+            aria-label="{{ t.share.title }}"
+            title="{{ t.share.title }}"
           >
             <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -101,54 +84,45 @@
       </div>
     </section>
 
-    <!-- Content -->
     {% assign content_parts = content | split: '<div class="footnotes" role="doc-endnotes">' %}
     <main
-      class="content content--livre{% if page.metadata.principle %} content--entry{% endif %}{% if page.step_number %} content--section{% endif %}{% if page.card_type %} content--{{ page.card_type }}{% endif %}"
-      {% if page.filtre_symptomes %}data-filtre-symptomes="{{ t.lecture.filtre }}"
-      data-filtre-vide="{{ t.lecture.filtre_vide }}"{% endif %}
+      class="content content--book{% if page.metadata.principle %} content--entry{% endif %}{% if page.step_number %} content--section{% endif %}{% if page.card_type %} content--{{ page.card_type }}{% endif %}"
+      {% if page.filter_symptoms %}data-filter-symptoms="{{ t.reading.filter }}"
+      data-filter-empty="{{ t.reading.filter_empty }}"{% endif %}
     >
       <div class="container">{{content_parts[0]}}</div>
     </main>
 
-    <!-- Sur les cartes seulement : l'essai, que le script place dans le
-         texte, les notes du lecteur, puis « ca t'a servi ». Noter une
-         ouverture de section ou une annexe ne produit pas de signal
-         editorial reparable. -->
+    {% comment %}Cards only: feedback on section intros or appendices is not actionable.{% endcomment %}
     {% if page.metadata.principle %}
-    {% include essai.html %}
-    {% include carnet.html %}
+    {% include try.html %}
+    {% include notebook.html %}
     {% include note.html %}
     {% endif %}
 
-    <!-- Content Footer -->
     {% if page.next %}
     <section class="content-footer">
       <div class="container">
         <a href="{{ page.next.url | relative_url }}" class="next-chapter"
-          ><small>{{ page.next.part | default: t.carte.suivante }}</small>{{page.next.title}} →</a
+          ><small>{{ page.next.part | default: t.card.next }}</small>{{page.next.title}} →</a
         >
       </div>
     </section>
     {% endif %}
 
-    <!-- Notes de bas de page, sorties du fil de lecture. La balise fermante du bloc
-         vient de kramdown : elle est restée dans content_parts[1] au moment du split. -->
+    {% comment %}The closing </div> comes from kramdown, left in content_parts[1] by the split.{% endcomment %}
     {% if content_parts.size > 1 %}
-    <section class="content content--livre content--notes">
+    <section class="content content--book content--notes">
       <div class="container">
         <div class="footnotes" role="doc-endnotes">{{content_parts[1]}}
       </div>
     </section>
     {% endif %}
 
-    <!-- Footer -->
     {% include footer.html %}
 
-    <!-- Partager un passage -->
-    {% include partage.html %}
+    {% include share.html %}
 
-    <!-- Foot -->
     {% include foot.html %}
   </body>
 </html>

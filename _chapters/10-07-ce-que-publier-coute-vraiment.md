@@ -11,8 +11,7 @@ categories:
   - reference
   - trace
   - contexte
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-07-what-publishing-really-costs.html
 seo:
   description: "Publier coûte peu. Le vrai coût, c'est de retirer ce qui ne t'appartient pas. Fais-le une fois, et publie le reste."

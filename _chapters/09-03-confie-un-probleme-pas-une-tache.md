@@ -3,7 +3,7 @@ layout: chapter
 title: "Confie un problème, pas une tâche"
 part: "Le leadership"
 order: 903
-card_type: pratique
+card_type: practice
 metadata:
   principle: "9.03"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - leadership
   - equipe
   - transmission
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/09-03-hand-over-a-problem-not-a-task.html
 seo:
   description: "Une liste de tâches apprend à exécuter, un problème apprend à juger. Donne l'objectif et les limites, laisse proposer la démarche."

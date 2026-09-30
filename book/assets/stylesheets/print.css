@@ -1,15 +1,6 @@
-/* Le tirage. Meme palette que le site depuis le 22/09/2026 : les valeurs
-   sont ecrites en clair, pas en jetons, parce que ce fichier voyage seul
-   dans un rendu PDF ou une liseuse. La table des correspondances est en
-   tete de style.css. */
-/* Feuille de style du tirage PDF (WeasyPrint). Le site ne la charge pas.
-
-   Format A4 exact, pour que l'impression ne recadre ni ne reduise rien. Ce qui
-   est colore va jusqu'au bord de la feuille : la couverture, les pages de
-   partie, les bandeaux d'ouverture de section.
-
-   Palette identique au site : encre #0f1319, bandeau #f3f5f8, signal #e24e12,
-   ambre #5a6472, papier #f3f5f8, filet #dfe4ea, texte #272e38. */
+/* PDF stylesheet (WeasyPrint), not loaded by the site. Hex values, not tokens:
+   this file ships alone. Colors match tokens.css: ink #0f1319, surface #f3f5f8,
+   signal #e24e12, muted #5a6472, rule #dfe4ea, text #272e38. */
 
 @font-face { font-family: "Merriweather"; font-weight: 400; font-style: normal; src: url("../fonts/Merriweather-Regular.ttf"); }
 @font-face { font-family: "Merriweather"; font-weight: 700; font-style: normal; src: url("../fonts/Merriweather-Bold.ttf"); }
@@ -19,14 +10,11 @@
 @font-face { font-family: "Archivo"; font-weight: 600; font-style: normal; src: url("../fonts/Archivo-SemiBold.ttf"); }
 @font-face { font-family: "Archivo"; font-weight: 700; font-style: normal; src: url("../fonts/Archivo-Bold.ttf"); }
 
-/* ---------------------------------------------------------------- pages */
-
 @page {
   size: A4;
   margin: 25mm 25mm 22mm;
 
-  /* Le titre courant s'efface sur la page ou le titre est imprime :
-     c'est le role de first-except. */
+  /* first-except hides the running title on the page where the title is printed. */
   @top-left { font-family: "Archivo", sans-serif; font-size: 8pt; font-weight: 600;
               letter-spacing: 0.14em; text-transform: uppercase; color: #5a6472;
               vertical-align: bottom; padding-bottom: 6mm; }
@@ -39,7 +27,7 @@
                   color: #5a6472; vertical-align: top; padding-top: 7mm; text-align: right; }
 }
 
-/* Marge interieure plus large que la marge exterieure : la reliure mange du papier. */
+/* Wider inner margin for the binding. */
 @page :left {
   margin-left: 25mm;
   margin-right: 30mm;
@@ -54,7 +42,6 @@
   @bottom-right { content: counter(page); }
 }
 
-/* Les pages ajoutees pour tomber sur une page paire restent nues. */
 @page :blank {
   @top-left { content: none; }
   @top-right { content: none; }
@@ -62,7 +49,6 @@
   @bottom-right { content: none; }
 }
 
-/* Couverture et pages de partie : encre bord a bord, aucun repere. */
 @page cover {
   margin: 0;
   background: #0f1319;
@@ -84,8 +70,6 @@
   @bottom-right { content: none; }
 }
 
-/* ----------------------------------------------------------------- base */
-
 html {
   font-family: "Merriweather", Georgia, serif;
   font-size: 12pt;
@@ -102,20 +86,15 @@ a { color: #0f1319; text-decoration: none; }
 strong { font-weight: 700; color: #0f1319; }
 em { font-style: italic; }
 
-/* -------------------------------------------------------------- couverture */
-
 .cover { page: cover; }
 
-/* L'image est au format 2:3 et la feuille au format A4 : elle est posee
-   entiere, et les deux bandes qui restent sont de la meme encre qu'elle. */
+/* 2:3 image on A4: shown whole, the leftover bands match the page background. */
 .cover img {
   display: block;
   width: 210mm;
   height: 297mm;
   object-fit: contain;
 }
-
-/* --------------------------------------------------- page de titre, colophon */
 
 .front {
   page: front;
@@ -192,8 +171,6 @@ em { font-style: italic; }
 .colophon a { color: #5a6472; }
 .colophon strong { color: #0f1319; font-weight: 600; }
 
-/* ------------------------------------------------------------- sommaire */
-
 .toc { break-before: left; }
 
 .toc-title {
@@ -236,8 +213,7 @@ em { font-style: italic; }
   text-decoration: none;
 }
 
-/* Les points de conduite et le folio viennent de WeasyPrint : leader() pour
-   la ligne, target-counter() pour le numero reel de la page visee. */
+/* leader() and target-counter() are WeasyPrint features. */
 .toc a::after {
   content: leader(". ") target-counter(attr(href), page);
   font-family: "Archivo", sans-serif;
@@ -278,11 +254,8 @@ em { font-style: italic; }
   margin: 2mm 0;
 }
 
-/* ------------------------------------------------------- pages de partie */
-
-/* Une page noire par groupe du sommaire, sur une page paire. Son verso reste
-   noir : la page blanche qu'imposerait autrement la regle des pages paires
-   couperait le livre en deux au mauvais endroit. */
+/* Each part opens on a left page. .part-back keeps its verso dark instead of
+   the blank page the left-page rule would add. */
 .part { page: part; break-before: left; }
 
 .part-face {
@@ -321,11 +294,7 @@ em { font-style: italic; }
 
 .part-back { break-before: page; height: 40mm; }
 
-/* -------------------------------------------------------------- chapitres */
-
-/* La demande : chaque ouverture de section et chaque entree tombent sur une
-   page paire. En lecture de gauche a droite, une page paire est une page de
-   gauche : une entree occupe donc toujours une double page entiere. */
+/* Every entry starts on a left page, so it always fills a full spread. */
 .chapter { break-before: left; }
 
 .chapter-head { margin-bottom: 9mm; }
@@ -346,7 +315,7 @@ em { font-style: italic; }
   color: #dfe4ea;
 }
 
-.chapter--systeme .chapter-head { border-top: 1.2mm double #0f1319; padding-top: 4mm; }
+.chapter--system .chapter-head { border-top: 1.2mm double #0f1319; padding-top: 4mm; }
 
 .chapter-title {
   font-size: 21pt;
@@ -385,7 +354,6 @@ em { font-style: italic; }
   margin-top: 6mm;
 }
 
-/* Ouverture de section : le bandeau va d'un bord a l'autre de la feuille. */
 .chapter--section .chapter-head {
   background: #f3f5f8;
   margin: -25mm -34mm 10mm;
@@ -409,8 +377,6 @@ h1.chapter-title { bookmark-level: 1; }
   height: 30mm;
   margin: 0 0 8mm;
 }
-
-/* ----------------------------------------------------------------- texte */
 
 .prose {
   text-align: justify;
@@ -495,8 +461,6 @@ h1.chapter-title { bookmark-level: 1; }
 .prose .callout-example { border-left-color: #1b4db3; }
 .prose .callout-warning { border-left-color: #e24e12; }
 
-/* --------------------------------------------------------------- notes */
-
 .prose sup a {
   font-family: "Archivo", sans-serif;
   font-size: 7.6pt;
@@ -519,5 +483,4 @@ h1.chapter-title { bookmark-level: 1; }
 .prose .footnotes p { margin-bottom: 0; }
 .prose .footnotes a { text-decoration: none; color: #5a6472; }
 
-/* La pastille de brouillon est un repere d'ecran. */
-.pastille-brouillon { display: none; }
+.draft-badge { display: none; }

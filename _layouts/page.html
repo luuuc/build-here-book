@@ -1,46 +1,31 @@
-{% include langue.html %}<!doctype html>
+{% include language.html %}<!doctype html>
 <html lang="{{ lang }}">
   <head>
     {% include head.html %}
 
-    <!-- Analytics -->
     {% include ga.html %}
   </head>
   <body>
-    <!-- Header -->
     {% include header.html %}
 
-    <!-- Offcanvas Menu -->
     {% include nav.html %}
 
-    <!-- Overlay -->
-    <div class="overlay" id="overlay" data-bascule-menu></div>
+    <div class="overlay" id="overlay" data-toggle-menu></div>
 
-    <!-- La bande d'entree, puis le rail des sections -->
-    {% include bande.html %}
+    {% include band.html %}
 
-    <!--
-      La colonne de prose du site. Elle porte `content--prose` : la largeur
-      de lecture des pages de ressource, alignee sur la bande et le rail.
-      Le livre, lui, prend `content--livre` dans le gabarit `chapter`, plus
-      etroit et en serif.
-
-      `data-filtre-symptomes` n'est pose que par l'index par situation :
-      lecture.js y accroche le champ de filtre au chargement.
-    -->
+    {% comment %}reading.js adds the filter field where data-filter-symptoms is set.{% endcomment %}
     <main
-      class="content content--prose{% if page.avertissement %} avertissement{% endif %}"
-      {%- if page.filtre_symptomes %} data-filtre-symptomes="{{ t.lecture.filtre }}" data-filtre-vide="{{ t.lecture.filtre_vide }}"{% endif %}
+      class="content content--prose{% if page.warning %} warning{% endif %}"
+      {%- if page.filter_symptoms %} data-filter-symptoms="{{ t.reading.filter }}" data-filter-empty="{{ t.reading.filter_empty }}"{% endif %}
     >
       <div class="container">{{ content }}</div>
     </main>
 
-    {% include reprise.html %}
+    {% include resume.html %}
 
-    <!-- Footer -->
     {% include footer.html %}
 
-    <!-- Foot -->
     {% include foot.html %}
   </body>
 </html>

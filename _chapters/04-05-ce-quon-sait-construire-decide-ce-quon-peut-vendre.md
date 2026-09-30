@@ -3,7 +3,7 @@ layout: chapter
 title: "Ce qu'on sait construire décide ce qu'on peut vendre"
 part: "La compréhension"
 order: 405
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.05"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - technologie
   - business
   - strategie
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/04-05-what-you-can-build-decides-what-you-can-sell.html
 seo:
   description: "Ce que ton équipe sait construire décide ce que l'entreprise peut vendre. Fais entrer cette information avant la promesse."

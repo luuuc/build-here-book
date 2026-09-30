@@ -3,7 +3,7 @@ layout: chapter
 title: "Not everything deserves to become a process"
 part: "Systems"
 order: 704
-card_type: principe
+card_type: principle
 metadata:
   principle: "7.04"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - systemes
   - process
   - simplicite
-traductions:
+translations:
   fr: /livre/chapitres/07-04-tout-ne-merite-pas-de-devenir-un-processus.html
 seo:
   description: "Every rule costs something each time it is used. Before adding one, find the lightest answer that genuinely protects."

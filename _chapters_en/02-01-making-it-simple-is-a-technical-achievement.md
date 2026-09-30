@@ -3,7 +3,7 @@ layout: chapter
 title: "Making it simple is a technical achievement"
 part: "The craft"
 order: 201
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.01"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - engineering
   - simplicite
   - technique
-traductions:
+translations:
   fr: /livre/chapitres/02-01-faire-simple-est-une-performance-technique.html
 seo:
   description: "Adding is easy, removing takes understanding. The simple version keeps what makes the work right and removes what makes it harder."

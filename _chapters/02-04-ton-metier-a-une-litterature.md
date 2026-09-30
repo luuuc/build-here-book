@@ -3,7 +3,7 @@ layout: chapter
 title: "Ton métier a une littérature"
 part: "Le métier"
 order: 204
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.04"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - metier
   - apprentissage
   - references
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-04-your-craft-has-a-literature.html
 seo:
   description: "Presque tous tes problèmes ont déjà été rencontrés et décrits. Trouve le texte, essaie une idée sur un vrai cas."

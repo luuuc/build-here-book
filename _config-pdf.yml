@@ -1,8 +1,5 @@
-# Surcouche de configuration pour le tirage PDF : bundle exec jekyll build
-# --config _config.yml,_config-pdf.yml
-#
-# La collection « pdf » n'existe que dans ce fichier. Sans elle, Jekyll ignore
-# le dossier _pdf : le site publie ne contient donc jamais la page d'impression.
+# Print build overlay: bundle exec jekyll build --config _config.yml,_config-pdf.yml
+# The "pdf" collection exists only here, so the public site never renders _pdf.
 collections:
   chapters:
     output: true
@@ -11,10 +8,5 @@ collections:
     output: true
 
 kramdown:
-  # Les intertitres du livre s'appellent tous « Pourquoi », « À essayer »,
-  # « Le réflexe ». Sur le site chacun est seul dans sa page ; dans un tirage
-  # ils se retrouvent des dizaines de fois dans le meme fichier, et les
-  # identifiants automatiques deviennent des doublons invalides. Rien ne pointe
-  # vers eux : les seules ancres du livre sont les notes de bas de page, que
-  # kramdown numerote separement.
+  # Every card repeats the same headings, so auto ids would collide in one file. Nothing links to them.
   auto_ids: false

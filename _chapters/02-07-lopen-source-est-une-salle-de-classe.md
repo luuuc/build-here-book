@@ -3,7 +3,7 @@ layout: chapter
 title: "L'open source est une salle de classe"
 part: "Le métier"
 order: 207
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.07"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - apprentissage
   - open-source
   - niveau
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-07-open-source-is-a-classroom.html
 seo:
   description: "Un projet ouvert montre le raisonnement, pas seulement le résultat. Lis une décision, puis contribue."

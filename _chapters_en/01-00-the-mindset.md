@@ -13,7 +13,7 @@ categories:
   - etat-desprit
   - agency
   - builders
-traductions:
+translations:
   fr: /livre/chapitres/01-00-letat-desprit.html
 seo:
   description: "Notice the problem others work around: ask the naive question, say \"I don't know\", change your mind fast."

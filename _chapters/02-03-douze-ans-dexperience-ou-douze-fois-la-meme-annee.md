@@ -11,8 +11,7 @@ categories:
   - metier
   - apprentissage
   - niveau
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-03-twelve-years-of-experience-or-the-same-year-twelve-times.html
 seo:
   description: "Un geste automatique ne progresse plus. Choisis un geste précis, fais trois essais avec un retour entre chacun, et compare."

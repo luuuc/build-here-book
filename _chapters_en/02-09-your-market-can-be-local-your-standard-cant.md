@@ -3,7 +3,7 @@ layout: chapter
 title: "Your market can be local. Your standard can't"
 part: "The craft"
 order: 209
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.09"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - metier
   - niveau
   - client
-traductions:
+translations:
   fr: /livre/chapitres/02-09-ton-marche-peut-etre-local-ton-niveau-non.html
 seo:
   description: "Your users compare you to the best service they know, not to the neighbour. Constraints change the choices, not the standard."

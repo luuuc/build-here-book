@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Customer access is a budget, not a value"
 part: "Understanding"
 order: 413
-card_type: systeme
+card_type: system
 metadata:
   principle: "4.13"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - client
   - support
   - produit
-traductions:
+translations:
   fr: /livre/chapitres/04-13-leader-lacces-au-client-est-un-budget-pas-une-valeur.html
 seo:
   description: "With no funded time to talk to customers, the team builds for an imagined one. Make the route simple and known."

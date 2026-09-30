@@ -3,7 +3,7 @@ layout: chapter
 title: "An audience takes longer to build than a product"
 part: "Understanding"
 order: 411
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.11"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - visibilite
   - distribution
   - marketing
-traductions:
+translations:
   fr: /livre/chapitres/04-11-une-audience-met-plus-de-temps-a-se-construire-quun-produit.html
 seo:
   description: "A product takes weeks, an audience takes months. Start sharing the day you start building."

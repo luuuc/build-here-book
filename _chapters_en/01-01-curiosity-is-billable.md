@@ -3,21 +3,18 @@ layout: chapter
 title: "Curiosity is billable"
 part: "The mindset"
 order: 101
-card_type: principe
+card_type: principle
 metadata:
   principle: "1.01"
   reading_time_in_minutes: 2
-# Les categories sont des cles partagees entre les langues : _data/en/familles.yml
-# ne traduit que le libelle affiche.
+# Categories are keys shared across languages; _data/en/families.yml translates the label.
 categories:
   - curiosite
   - apprentissage
   - engineering
   - support
   - operations
-# La jumelle francaise. Elle alimente le selecteur de langue de l'en-tete et
-# les balises hreflang.
-traductions:
+translations:
   fr: /livre/chapitres/01-01-la-curiosite-est-facturable.html
 seo:
   description: "Thirty minutes following one case end to end save hours of repeated answers."

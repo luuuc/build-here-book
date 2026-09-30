@@ -1,0 +1,6 @@
+# Eyebrow label in the page band (_includes/band.html), keyed by the page's `categories`. First match wins.
+# Keys must match _data/fr/families.yml.
+opening: Opening
+resources: Resources
+project: The project
+builders: The book

@@ -3,7 +3,7 @@ layout: chapter
 title: "Read the source"
 part: "The craft"
 order: 202
-card_type: pratique
+card_type: practice
 metadata:
   principle: "2.02"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - engineering
   - simplicite
   - technique
-traductions:
+translations:
   fr: /livre/chapitres/02-02-lis-le-code-source.html
 seo:
   description: "The documentation summarises, the source decides. Go back to the code, the contract or the formula, with an AI if it helps you read."

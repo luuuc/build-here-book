@@ -3,7 +3,7 @@ layout: chapter
 title: "Mets ton nom dessus"
 part: "La référence"
 order: 1001
-card_type: pratique
+card_type: practice
 metadata:
   principle: "10.01"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - trace
   - visibilite
   - reference
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-01-put-your-name-on-it.html
 seo:
   description: "Un nom rend un travail trouvable et responsable. Signe ce que tu fais, crédite chaque contribution, publie."

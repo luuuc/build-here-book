@@ -13,8 +13,7 @@ categories:
   - livraison
   - execution
   - builders
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/05-00-delivery.html
 seo:
   description: "Mettre ton travail entre les mains de ceux à qui il sert, tôt, sans bâcler, et apprendre ce que ton plan ne disait pas."

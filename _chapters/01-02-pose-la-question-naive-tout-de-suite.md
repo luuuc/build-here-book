@@ -3,7 +3,7 @@ layout: chapter
 title: "Pose la question naïve tout de suite"
 part: "L'état d'esprit"
 order: 102
-card_type: pratique
+card_type: practice
 metadata:
   principle: "1.02"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - curiosite
   - apprentissage
   - engineering
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/01-02-ask-the-naive-question-straight-away.html
 seo:
   description: "La question naïve coûte dix secondes. Ne pas la poser coûte une décision prise sur un malentendu."

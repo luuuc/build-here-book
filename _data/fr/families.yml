@@ -1,0 +1,5 @@
+# Eyebrow label in the page band (_includes/band.html), keyed by the page's `categories`. First match wins.
+opening: Ouverture
+resources: Ressources
+project: Le projet
+builders: Le livre

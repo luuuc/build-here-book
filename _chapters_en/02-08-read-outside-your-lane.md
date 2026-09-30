@@ -3,7 +3,7 @@ layout: chapter
 title: "Read outside your lane"
 part: "The craft"
 order: 208
-card_type: pratique
+card_type: practice
 metadata:
   principle: "2.08"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - curiosite
   - apprentissage
   - engineering
-traductions:
+translations:
   fr: /livre/chapitres/02-08-lis-en-dehors-de-ton-couloir.html
 seo:
   description: "Problems hide in handovers. Follow one case with the person next door: half an hour is enough to see the gap."

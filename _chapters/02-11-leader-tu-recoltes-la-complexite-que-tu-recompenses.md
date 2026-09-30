@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Tu récoltes la complexité que tu récompenses"
 part: "Le métier"
 order: 211
-card_type: systeme
+card_type: system
 metadata:
   principle: "2.11"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - engineering
   - simplicite
   - technique
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-11-you-get-the-complexity-you-reward.html
 seo:
   description: "Si ta revue ne demande que ce qui a été livré, l'équipe ajoute. Demande aussi ce qui a été simplifié, et de combien."

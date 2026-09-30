@@ -3,7 +3,7 @@ layout: chapter
 title: "Le savoir n'est pas ce qui te manque"
 part: "Le métier"
 order: 210
-card_type: principe
+card_type: principle
 metadata:
   principle: "2.10"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - apprentissage
   - open-source
   - niveau
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/02-10-knowledge-is-not-what-you-are-missing.html
 seo:
   description: "Le savoir n'a jamais été aussi accessible, IA comprise. Ce qui manque est la question précise, la pratique ou le retour."

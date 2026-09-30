@@ -3,12 +3,9 @@ layout: none
 permalink: /epub-metadata.yml
 sitemap: false
 ---
-{% include langue.html %}{% comment %}
-Metadonnees de l'EPUB. Le fichier porte l'extension .html parce que Jekyll lit
-tout .yml place dans une collection comme un fichier de donnees, et n'en sort
-rien ; le permalink lui redonne son vrai nom.
+{% include language.html %}{% comment %}
+Named .html because Jekyll outputs nothing for a .yml in a collection; the permalink restores the name.
 {% endcomment %}
-# Metadonnees de l'EPUB, lues par Pandoc. Source unique : _config.yml.
 title: "{{ site.title }}"
 subtitle: "{{ description_site | strip_newlines | split: '.' | first }}."
 author:
@@ -18,13 +15,13 @@ creator:
     text: "{{ site.author.name }}"
 publisher: "{{ site.author.name }}"
 date: "{{ site.book.modified }}"
-lang: {{ langue_courante.locale | replace: "_", "-" }}
+lang: {{ current_language.locale | replace: "_", "-" }}
 identifier:
   - scheme: URI
     text: "{{ site.url }}"
 rights: "© 2026 {{ site.author.name }}. CC BY-SA 4.0 — {{ site.book.license }}"
 description: "{{ description_site | strip_newlines | strip }}"
 subject:
-{%- for s in t.tirage.sujets %}
+{%- for s in t.edition.topics %}
   - {{ s }}
 {%- endfor %}

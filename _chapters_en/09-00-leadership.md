@@ -13,7 +13,7 @@ categories:
   - leadership
   - equipe
   - builders
-traductions:
+translations:
   fr: /livre/chapitres/09-00-le-leadership.html
 seo:
   description: "What you make possible for others: hand over a problem, review to teach, make yourself replaceable."

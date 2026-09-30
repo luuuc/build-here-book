@@ -3,7 +3,7 @@ layout: chapter
 title: "Talk about the problem before you talk about yourself"
 part: "Understanding"
 order: 410
-card_type: pratique
+card_type: practice
 metadata:
   principle: "4.10"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - visibilite
   - distribution
   - marketing
-traductions:
+translations:
   fr: /livre/chapitres/04-10-parle-du-probleme-avant-de-parler-de-toi.html
 seo:
   description: "Nobody reads your story before knowing you are talking about their problem. Open with a true situation they recognise."

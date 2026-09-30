@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Your delivery rhythm is a decision you made"
 part: "Delivery"
 order: 506
-card_type: systeme
+card_type: system
 metadata:
   principle: "5.06"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - execution
   - livraison
   - produit
-traductions:
+translations:
   fr: /livre/chapitres/05-06-leader-le-rythme-de-livraison-cest-une-decision-que-tu-as-prise.html
 seo:
   description: "Delivery rhythm comes from the route you set up. Shorten the waits: shipping small and often lowers the risk."

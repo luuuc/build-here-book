@@ -3,7 +3,7 @@ layout: chapter
 title: "Une trace n'est pas forcément du code"
 part: "La référence"
 order: 1004
-card_type: principe
+card_type: principle
 metadata:
   principle: "10.04"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - trace
   - support
   - produit
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/10-04-a-trace-is-not-necessarily-code.html
 seo:
   description: "Chaque métier a ses traces : un calcul, un cas, un script, une liste. Publie celle du tien."

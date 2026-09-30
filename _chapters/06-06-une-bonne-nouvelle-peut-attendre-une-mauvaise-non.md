@@ -3,7 +3,7 @@ layout: chapter
 title: "Une bonne nouvelle peut attendre. Une mauvaise, non"
 part: "L'ownership"
 order: 606
-card_type: principe
+card_type: principle
 metadata:
   principle: "6.06"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - ownership
   - responsabilite
   - execution
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/06-06-good-news-can-wait-bad-news-cannot.html
 seo:
   description: "Une mauvaise nouvelle vaut beaucoup tôt et presque rien tard. Préviens sans attendre d'avoir la solution."

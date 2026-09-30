@@ -3,7 +3,7 @@ layout: chapter
 title: "Rends-toi remplaçable sur un sujet"
 part: "Le leadership"
 order: 906
-card_type: principe
+card_type: principle
 metadata:
   principle: "9.06"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - leadership
   - transmission
   - equipe
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/09-06-make-yourself-replaceable-on-one-subject.html
 seo:
   description: "Être le seul à savoir, c'est être le seul à pouvoir. Te rendre remplaçable sur un sujet te libère pour le suivant."

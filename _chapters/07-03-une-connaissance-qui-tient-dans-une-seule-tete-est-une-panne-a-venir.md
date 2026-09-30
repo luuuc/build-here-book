@@ -11,8 +11,7 @@ categories:
   - systemes
   - transmission
   - equipe
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/07-03-knowledge-that-fits-in-one-head-is-an-outage-waiting.html
 seo:
   description: "Une personne indispensable est une panne programmée. Transmets le savoir en pratique, puis écris-le."

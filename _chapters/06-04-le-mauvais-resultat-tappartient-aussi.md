@@ -3,7 +3,7 @@ layout: chapter
 title: "Le mauvais résultat t'appartient aussi"
 part: "L'ownership"
 order: 604
-card_type: principe
+card_type: principle
 metadata:
   principle: "6.04"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - ownership
   - resultat
   - honnetete
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/06-04-the-bad-outcome-is-yours-too.html
 seo:
   description: "Si chaque échec s'explique par le contexte, l'équipe n'apprend rien. Nomme au moins un choix que tu ferais autrement."

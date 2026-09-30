@@ -3,7 +3,7 @@ layout: chapter
 title: "Le product, ce n'est pas la personne qui écrit les tickets"
 part: "L'autonomie"
 order: 306
-card_type: principe
+card_type: principle
 metadata:
   principle: "3.06"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - produit
   - client
   - arbitrage
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/03-06-product-is-not-the-person-who-writes-the-tickets.html
 seo:
   description: "Des tickets bien écrits ne disent pas lesquels méritent d'être faits. Le travail produit, c'est de choisir et d'expliquer chaque arbitrage."

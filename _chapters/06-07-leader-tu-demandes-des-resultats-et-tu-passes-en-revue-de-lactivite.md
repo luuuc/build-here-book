@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Tu demandes des résultats et tu passes en revue de l'activité"
 part: "L'ownership"
 order: 607
-card_type: systeme
+card_type: system
 metadata:
   principle: "6.07"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - ownership
   - leadership
   - conditions
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/06-07-you-ask-for-outcomes-and-you-review-activity.html
 seo:
   description: "Si ta revue porte sur l'activité, tu obtiens de l'activité. Ajoute l'effet attendu, ce qu'on observe, et quand on regarde."

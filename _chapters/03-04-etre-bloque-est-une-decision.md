@@ -11,8 +11,7 @@ categories:
   - ownership
   - responsabilite
   - execution
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/03-04-being-stuck-is-a-decision.html
 seo:
   description: "Rester bloqué sans le dire, c'est laisser le délai filer. Cherche vingt minutes, puis envoie une demande précise."

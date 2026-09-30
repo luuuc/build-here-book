@@ -3,7 +3,7 @@ layout: chapter
 title: "Shipping creates information"
 part: "Delivery"
 order: 501
-card_type: principe
+card_type: principle
 metadata:
   principle: "5.01"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - execution
   - livraison
   - produit
-traductions:
+translations:
   fr: /livre/chapitres/05-01-shipper-cree-de-linformation.html
 seo:
   description: "Until someone uses it, you know nothing. Ship the smallest version that answers your question, and look."

@@ -1,0 +1,118 @@
+{%- comment -%}
+  Optional front matter keys:
+    band_actions       links; `primary` for the filled button, `download: pdf|epub` uses _config.yml.
+    band_meta          extra figure: literal `value`, or `count: cards|capabilities`.
+    band_sections      `false` hides the section count.
+    band_image         cover image next to the title (alt: band_image_alt).
+    band_scene         wide drawing next to the title (assets/images/scenes/).
+    band_rail          explicit rail, for a page without headings.
+    band_rail_titles   `h3` when the page's sections are h3.
+{%- endcomment -%}
+
+{%- assign family = "" -%}
+{%- for c in page.categories -%}
+  {%- if family == "" and families[c] -%}
+    {%- assign family = families[c] -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign opens = '<h2 id="' -%}
+{%- assign closed = '</h2>' -%}
+{%- if page.band_rail_titles == "h3" -%}
+  {%- assign opens = '<h3 id="' -%}
+  {%- assign closed = '</h3>' -%}
+{%- endif -%}
+
+{%- assign chunks = content | split: opens -%}
+{%- assign sections = chunks | size | minus: 1 -%}
+{%- assign duration = page.metadata.reading_time_in_minutes -%}
+{%- assign section_count = sections -%}
+{%- if page.band_sections == false -%}{%- assign section_count = 0 -%}{%- endif -%}
+
+<header class="band{% if include.narrow %} band--narrow{% endif %}">
+  <div class="band-body">
+    <div class="band-text">
+      <p class="band-kicker"><a href="{{ t.menu.book_url }}">Build Here</a>{% unless family == "" %} · {{ family }}{% endunless %}</p>
+      <h1 class="band-title">{{ page.title }}</h1>
+      {%- if page.description %}
+      <p class="band-hook">{{ page.description }}</p>
+      {%- endif %}
+      {%- if page.filter_symptoms %}
+      <div class="band-filter" data-filter-target></div>
+      {%- endif %}
+      {%- if page.band_actions %}
+      <div class="band-actions">
+        {%- for a in page.band_actions %}
+        {%- assign address = a.url -%}
+        {%- if a.download == "pdf" -%}{%- assign address = site.downloads[lang].pdf -%}{%- endif -%}
+        {%- if a.download == "epub" -%}{%- assign address = site.downloads[lang].epub -%}{%- endif -%}
+        <a href="{{ address }}" class="button{% unless a.primary %} button--outline{% endunless %}">{{ a.title }}</a>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+    </div>
+    {%- if page.band_image or page.band_scene or duration or section_count > 0 or page.band_meta %}
+    <div class="band-side{% if page.band_scene %} band-side--scene{% endif %}">
+      {%- if page.band_scene %}
+      <img class="band-scene" src="{{ page.band_scene }}" alt="" width="480" height="320" />
+      {%- endif %}
+      {%- if page.band_image %}
+      <img class="band-cover" src="{{ page.band_image }}" alt="{{ page.band_image_alt }}" width="1200" height="1800" />
+      {%- endif %}
+      {%- if page.band_image and page.band_meta %}
+      <p class="band-caption">
+        {%- for m in page.band_meta -%}
+          {%- unless forloop.first %} · {% endunless -%}
+          {%- if m.count == "cards" -%}{{ book | where_exp: "c", "c.metadata.principle" | size }}
+          {%- elsif m.count == "capabilities" -%}{{ book | where_exp: "c", "c.step_number" | size }}
+          {%- else -%}{{ m.value }}{%- endif -%}
+          &#160;{{ m.title | downcase }}
+        {%- endfor -%}
+      </p>
+      {%- elsif page.band_scene == nil and duration or section_count > 0 or page.band_meta %}
+      <dl class="band-meta">
+        {%- if duration %}
+        <dt>{{ t.band.reading }}</dt>
+        <dd>{{ duration }} {{ t.band.minutes }}</dd>
+        {%- endif %}
+        {%- if section_count > 0 %}
+        <dt>{{ t.band.sections }}</dt>
+        <dd>{{ section_count }}</dd>
+        {%- endif %}
+        {%- for m in page.band_meta %}
+        <dt>{{ m.title }}</dt>
+        <dd>
+          {%- if m.count == "cards" -%}
+            {{ book | where_exp: "c", "c.metadata.principle" | size }}
+          {%- elsif m.count == "capabilities" -%}
+            {{ book | where_exp: "c", "c.step_number" | size }}
+          {%- else -%}
+            {{ m.value }}
+          {%- endif -%}
+        </dd>
+        {%- endfor %}
+      </dl>
+      {%- endif %}
+    </div>
+    {%- endif %}
+  </div>
+</header>
+
+{%- if page.band_rail %}
+<nav class="rail" aria-label="{{ t.band.rail_site }}">
+  <div class="rail-body">
+    {%- for r in page.band_rail %}
+    <a href="{{ r.url }}" class="rail-item"><span class="rail-arrow" aria-hidden="true">→</span><span>{{ r.title }}</span></a>
+    {%- endfor %}
+  </div>
+</nav>
+{%- elsif sections > 1 %}
+<nav class="rail" aria-label="{{ t.band.rail_page }}">
+  <div class="rail-body">
+    {%- for t in chunks offset:1 %}
+    {%- assign piece = t | split: '">' -%}
+    <a href="#{{ piece[0] }}" class="rail-item"><span class="rail-num">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><span>{{ piece[1] | split: closed | first | strip_html }}</span></a>
+    {%- endfor %}
+  </div>
+</nav>
+{%- endif %}

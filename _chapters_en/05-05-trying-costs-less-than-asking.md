@@ -3,7 +3,7 @@ layout: chapter
 title: "Trying costs less than asking"
 part: "Delivery"
 order: 505
-card_type: principe
+card_type: principle
 metadata:
   principle: "5.05"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - execution
   - livraison
   - essai
-traductions:
+translations:
   fr: /livre/chapitres/05-05-essayer-coute-moins-cher-que-demander.html
 seo:
   description: "A one-hour version settles things faster than a meeting. Try what can be undone, ask about what cannot."

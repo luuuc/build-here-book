@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Tu es la référence qui manque, et tu n'as rien laissé"
 part: "Le leadership"
 order: 908
-card_type: systeme
+card_type: system
 metadata:
   principle: "9.08"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - reference
   - leadership
   - transmission
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/09-08-you-are-the-missing-reference-and-you-left-nothing-behind.html
 seo:
   description: "Tout ce que tu sais sans l'avoir écrit, ton équipe doit te le demander. Écris un repère par mois, et publie ceux qui servent ailleurs."

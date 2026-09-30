@@ -1,175 +1,159 @@
-# The interface strings, all in one place. English mirror of _data/fr/interface.yml.
-#
-# Same rule as the French file: every key that exists there exists here. A
-# missing key renders as nothing, silently, so this file is kept in step with
-# its French twin whenever a string is added on either side.
-#
-# The book says you, it stays flat, it does not exclaim and it does not thank.
-# No em dashes, no en dashes, straight apostrophes.
+# UI strings. Every key must also exist in _data/fr/interface.yml: a missing key renders nothing, silently.
+# No em or en dashes, straight apostrophes.
 
-# Sharing a passage. Book.
-partage:
+share:
   selection: "Share"
-  noter: "Add a note"
-  titre: "Share this passage"
+  rate: "Add a note"
+  title: "Share this passage"
   whatsapp: "WhatsApp"
   linkedin: "LinkedIn"
   x: "X"
-  copier: "Copy the link"
-  copie: "Link copied"
+  copy: "Copy the link"
+  copied: "Link copied"
   signature: "Build Here, the builder's playbook"
 
-# What the book remembers about the reader. All local, nothing leaves.
-lecture:
-  reprendre: "Resume"
-  gardees: "Kept"
-  garder: "Keep this card"
-  retirer: "Remove from kept"
-  filtre: "Filter by situation"
-  filtre_vide: "Nothing matches."
+reading:
+  resume: "Resume"
+  kept: "Kept"
+  keep: "Keep this card"
+  remove: "Remove from kept"
+  filter: "Filter by situation"
+  filter_empty: "Nothing matches."
 
-# Rating a card. No stars, no score.
 note:
   question: "Did this help?"
-  oui: "Yes"
-  moitie: "Halfway"
-  non: "No"
-  raison: "What was missing?"
-  # The key is stable and goes to the database, the label can be rewritten
-  # without breaking the data already collected. Keys match the French file.
-  raisons:
-    - cle: abstract
-      texte: "Too abstract"
-    - cle: already-known
-      texte: "I already knew this"
-    - cle: disagree
-      texte: "I disagree"
-    - cle: needs-example
-      texte: "An example is missing"
-    - cle: other
-      texte: "Something else"
-  libre: "Say it in one sentence, if you want. Nobody but me reads it."
-  envoyer: "Send"
-  merci: "Noted."
+  "yes": "Yes"
+  half: "Halfway"
+  "no": "No"
+  reason: "What was missing?"
+  # Keys are stored in the database (site CardFeedback); only the text may change.
+  reasons:
+    - key: abstract
+      text: "Too abstract"
+    - key: already-known
+      text: "I already knew this"
+    - key: disagree
+      text: "I disagree"
+    - key: needs-example
+      text: "An example is missing"
+    - key: other
+      text: "Something else"
+  free: "Say it in one sentence, if you want. Nobody but me reads it."
+  send: "Send"
+  thanks: "Noted."
 
-# Tries. A move from the card, made for real. "Didn't work" counts: being
-# wrong costs nothing, staying wrong does. The script replaces [date].
-essai:
-  commencer: "I'm trying this"
-  fait: "I tried this"
-  depuis: "You've been trying this card since [date]."
-  bilan: "How did it go?"
+# try.js replaces [date].
+try:
+  start: "I'm trying this"
+  done: "I tried this"
+  since: "You've been trying this card since [date]."
+  summary: "How did it go?"
   issue: "How it went"
   issues:
-    - cle: done
-      texte: "Done"
-    - cle: failed
-      texte: "Didn't work"
-    - cle: dropped
-      texte: "Dropped"
-  lecon: "What you learned, in one line. Only you read it."
-  enregistrer: "Save"
-  merci: "Noted. You'll find it in your space."
-  merci_local: "Noted on this device."
-  connexion: "Log in to find it everywhere."
-  connexion_url: "/login"
-  espace_url: "/dashboard"
+    - key: done
+      text: "Done"
+    - key: failed
+      text: "Didn't work"
+    - key: dropped
+      text: "Dropped"
+  lesson: "What you learned, in one line. Only you read it."
+  save: "Save"
+  thanks: "Noted. You'll find it in your space."
+  thanks_local: "Noted on this device."
+  login: "Log in to find it everywhere."
+  login_url: "/login"
+  dashboard_url: "/dashboard"
 
-# The reader's notes. Private: nobody else reads them, not even a team lead.
-carnet:
-  titre: "Your notes"
-  prive: "Only you read them."
+notebook:
+  title: "Your notes"
+  private: "Only you read them."
   label: "A note on this card"
   label_passage: "A note on this passage"
-  enregistrer: "Save"
-  supprimer: "Delete"
-  retirer_passage: "Remove the passage"
+  save: "Save"
+  remove: "Delete"
+  remove_passage: "Remove the passage"
   local: "Kept on this device."
 
-# The site chrome: header, menu, footer, band, card, print.
-
-entete:
-  menu_ouvrir: "Open the menu"
-  menu_fermer: "Close the menu"
-  accueil_url: "/en/"
-  langue: "Change language"
-  telecharger: "Download the book"
+# URLs live here too: each language has its own paths.
+header:
+  menu_open: "Open the menu"
+  menu_close: "Close the menu"
+  home_url: "/en/"
+  language: "Change language"
+  download: "Download the book"
   pdf: "Download the PDF"
   pdf_detail: "A4, ready to print"
   epub: "Download the EPUB"
   epub_detail: "E-readers, phones, tablets"
   kindle: "Send to my Kindle"
-  brouillon: "Working version"
+  draft: "Working version"
 
 menu:
-  livre_url: "/book/"
-  retour: "← Back to the site"
-  sommaire_aria: "Book contents"
+  book_url: "/book/"
+  back: "← Back to the site"
+  toc_aria: "Book contents"
 
-pied:
+footer:
   aria: "Further resources"
-  liens:
-    - titre: "About"
+  links:
+    - title: "About"
       url: "/about/"
-    - titre: "Questions and answers"
+    - title: "Questions and answers"
       url: "/faq/"
-    - titre: "Glossary"
+    - title: "Glossary"
       url: "/glossary/"
-    - titre: "How to read this book"
+    - title: "How to read this book"
       url: "/how-to-read/"
-    - titre: "Annotated reading list"
+    - title: "Annotated reading list"
       url: "/already-written/"
-    - titre: "How the test works"
+    - title: "How the test works"
       url: "/test-method/"
-  par: "by"
-  licence: "is licensed under"
+  by: "by"
+  license: "is licensed under"
 
-carte:
-  capacite: "Capability"
-  # Every card is a principle, numbered in its section. Leader marks the cards
-  # written for the people who set the team's conditions.
-  principe: "Principle"
+card:
+  capability: "Capability"
+  principle: "Principle"
   leader: "Leader"
-  suivante: "Next card"
-  auteur: "Written by"
+  next: "Next card"
+  author: "Written by"
 
-bande:
-  lecture: "Reading"
+band:
+  reading: "Reading"
   minutes: "minutes"
   sections: "Sections"
   rail_site: "The pages of this site"
   rail_page: "Sections of this page"
 
-# The PDF and EPUB print. The site reads none of this.
-tirage:
+# PDF and EPUB only.
+edition:
   kicker: "The builder's playbook"
-  sommaire: "Contents"
-  capacites: "capabilities"
-  cartes: "cards"
+  toc: "Contents"
+  capabilities: "capabilities"
+  cards: "cards"
   compose: "Set in Merriweather and Archivo"
   version: "version"
-  licence: >-
+  license: >-
     © 2026 [auteur]. Licensed under <a href="[licence]">Creative Commons CC BY-SA 4.0</a>:
     you may copy, redistribute and transform this text, including commercially,
     as long as you credit the author and share on the same terms.
-  en_ligne: >-
+  online: >-
     The book also reads online at <a href="[url]">[domaine]</a>, and its source
     is open at <a href="https://github.com/[depot]">github.com/[depot]</a>.
   test: >-
     The builder test gives you a level from 1 to 5 and one practice to try,
     at <a href="[url]">[domaine]</a>.
-  sujets:
+  topics:
     - builders
     - learning
     - practices
     - teams
     - ownership
 
-# The files machines read: book.json and llms.txt.
 machine:
-  auteur_bio: "Builder since 2000. Built SiteDynamic, a CMS sold around the world (2002 to 2007), co-founded and rebuilt the relaunch of the French marketplace 2xMoinsCher (2011 to 2014), then co-founded Afrikrea, now ANKA, and built it as CTO (2016 to 2025): Africa's largest e-commerce export platform, with over $80 million in sales across 175 countries."
-  mots: ["builders", "learning", "practices", "teams", "ownership", "curiosity", "leadership", "execution"]
-  sujets:
+  author_bio: "Builder since 2000. Built SiteDynamic, a CMS sold around the world (2002 to 2007), co-founded and rebuilt the relaunch of the French marketplace 2xMoinsCher (2011 to 2014), then co-founded Afrikrea, now ANKA, and built it as CTO (2016 to 2025): Africa's largest e-commerce export platform, with over $80 million in sales across 175 countries."
+  words: ["builders", "learning", "practices", "teams", "ownership", "curiosity", "leadership", "execution"]
+  topics:
     - "Learning through practice"
     - "Improving services and the things people build"
     - "The conditions of collective work"

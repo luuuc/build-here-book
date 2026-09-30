@@ -3,7 +3,7 @@ layout: chapter
 title: "Une relecture qui dit seulement oui n'apprend rien"
 part: "Le leadership"
 order: 904
-card_type: principe
+card_type: principle
 metadata:
   principle: "9.04"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - leadership
   - transmission
   - equipe
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/09-04-a-review-that-only-says-yes-teaches-nothing.html
 seo:
   description: "Un « ok » sans explication ne transmet rien. Dis ce que tu as vérifié, pourquoi, et ce qui fonctionne."

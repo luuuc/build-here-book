@@ -3,7 +3,7 @@ layout: chapter
 title: "Make yourself replaceable on one subject"
 part: "Leadership"
 order: 906
-card_type: principe
+card_type: principle
 metadata:
   principle: "9.06"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - leadership
   - transmission
   - equipe
-traductions:
+translations:
   fr: /livre/chapitres/09-06-rends-toi-remplacable-sur-un-sujet.html
 seo:
   description: "Being the only one who knows means being the only one who can. Making yourself replaceable on one subject frees you for the next."

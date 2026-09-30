@@ -3,7 +3,7 @@ layout: chapter
 title: "Distribution is part of the product"
 part: "Understanding"
 order: 408
-card_type: principe
+card_type: principle
 metadata:
   principle: "4.08"
   reading_time_in_minutes: 2
@@ -11,7 +11,7 @@ categories:
   - visibilite
   - distribution
   - marketing
-traductions:
+translations:
   fr: /livre/chapitres/04-08-la-distribution-fait-partie-du-produit.html
 seo:
   description: "A service nobody finds does not exist. Draw the route to the first use while you build."

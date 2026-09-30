@@ -3,7 +3,7 @@ layout: chapter
 title: "⇄ Tu paies des heures, tu obtiens des heures"
 part: "Le levier"
 order: 805
-card_type: systeme
+card_type: system
 metadata:
   principle: "8.05"
   reading_time_in_minutes: 2
@@ -11,8 +11,7 @@ categories:
   - levier
   - leadership
   - conditions
-# La jumelle anglaise, pour le selecteur de langue et les balises hreflang.
-traductions:
+translations:
   en: /book/chapters/08-05-you-pay-for-hours-you-get-hours.html
 seo:
   description: "Si la revue récompense le volume traité, l'équipe traite. Mesure les problèmes évités, et reconnais-les comme la production."
