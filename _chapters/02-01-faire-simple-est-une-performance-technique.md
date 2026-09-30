@@ -46,11 +46,7 @@ Montre-le à une personne qui l'utilise. Puis retire-la sur un petit périmètre
 
 Après un cycle d'usage, regarde si la tâche est plus facile et si quelque chose manque. Garde, adapte ou remets.
 
-## Depuis ton siège
-
-- **Produit** : demande qui utilise une fonction avant de la retirer.
-- **Opérations** : vérifie l'information que l'étape transmet à la suivante.
-- **Management** : reconnais une suppression autant qu'un ajout.
+Aux opérations, vérifie aussi ce que l'étape transmet à la suivante.
 
 ## À discuter
 

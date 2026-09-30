@@ -44,12 +44,6 @@ Fais trois essais courts cette semaine, avec un retour entre chacun.
 
 Compare le premier et le dernier. Note ce qui a changé et ce qui reste difficile. Si rien ne bouge, change de méthode, pas d'objectif.
 
-## Depuis ton siège
-
-- **Design** : fais essayer la même tâche avant et après la modification.
-- **Management** : donne des occasions d'exercice et de retour, pas seulement des objectifs.
-- **Recrutement** : demande ce que la personne sait faire aujourd'hui qu'elle ne savait pas il y a deux ans.
-
 ## À discuter
 
-Quelle compétence voudrions-nous approfondir, et quel retour nous permettrait de savoir si nous avançons ?
+Quel retour nous dirait que nous progressons vraiment ?

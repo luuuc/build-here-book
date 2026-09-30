@@ -46,12 +46,8 @@ Choisis une tâche importante pour une personne qui utilise ton travail. Regarde
 
 Note un écart concret, son effet et l'effort pour le réduire. Réduis-le, puis refais faire la même tâche. Regarde ce qui est devenu plus facile.
 
-## Depuis ton siège
-
-- **Design** : observe le parcours sur les appareils réellement utilisés.
-- **Finance** : mets l'effort et le coût d'entretien à côté du bénéfice attendu.
-- **Relation client** : demande quel autre service ou quelle pratique sert de comparaison.
+En relation client, demande à quel autre service la personne te compare.
 
 ## À discuter
 
-Quel écart compte vraiment pour nos utilisateurs, et quel effort sommes-nous prêts à consacrer à le réduire ?
+Quel écart gêne le plus nos utilisateurs aujourd'hui ?

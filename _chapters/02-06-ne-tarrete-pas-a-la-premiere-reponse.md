@@ -39,7 +39,7 @@ Trois demandes de reçu peuvent venir d'un bouton peu visible, d'un message qui 
 
 La même démarche vaut pour un traitement relancé après une erreur, un dossier renvoyé pour une pièce manquante, une consigne qu'il faut réexpliquer. Chaque résolution répétée est une enquête qui attend.
 
-Garde l'effort proportionné. En urgence, restaure d'abord. Pour un cas isolé sans suite, passe. Pour une répétition qui coûte, donne-toi une heure d'enquête.
+En urgence, restaure d'abord. Pour une répétition qui coûte, donne-toi une heure d'enquête.
 
 ## À essayer
 
@@ -49,12 +49,6 @@ Examine un cas avec la personne concernée. Cherche aussi un cas qui contredit t
 
 Après une correction, regarde les prochaines occurrences. Si la demande revient, reprends la cause au lieu de répéter la correction.
 
-## Depuis ton siège
-
-- **Produit** : compare les cas avant de transformer une répétition en priorité générale.
-- **Management** : distingue le temps de réponse du temps nécessaire pour enquêter.
-- **Support** : conserve ce que la personne essayait de faire juste avant la difficulté.
-
 ## À discuter
 
-Quelle résolution récente nous a laissé une question sur la cause, et quel fait permettrait de l'examiner ?
+Quelle demande revient chez nous sans que personne en ait cherché la cause ?

@@ -36,20 +36,11 @@ Cherche-la dans un autre service, un autre secteur, une communauté professionne
 
 Compare les contraintes avant de copier. Une équipe avec dix fois tes moyens peut financer ce que tu ne peux pas. Un service pensé pour une connexion stable peut échouer chez toi. Garde la façon de raisonner, pas forcément la solution.
 
-La comparaison peut aussi confirmer que ta solution est la bonne. C'est une information aussi utile qu'une nouvelle idée.
-
 ## À essayer
 
 Choisis un sujet à approfondir et un exemple extérieur qui traite un problème proche. Mets-le à côté de ton travail. Note une décision différente, une contrainte différente et une chose que tu veux garder.
 
 Essaie une adaptation sur un petit cas. Si elle ajoute du coût sans bénéfice, reviens en arrière et garde la raison.
-
-## Depuis ton siège
-
-- **Produit** : compare les besoins servis avant de comparer les fonctionnalités.
-- **Design** : essaie le parcours dans les conditions réelles de ses utilisateurs.
-- **Support** : examine une réponse qui t'a aidé et le contexte qui la rendait pertinente.
-- **Recrutement** : juge une grille sur ses critères, pas sur le prestige de son auteur.
 
 ## À discuter
 

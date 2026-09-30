@@ -42,13 +42,8 @@ Ask someone whose work touches yours for thirty minutes. Follow one case togethe
 
 Propose a change to the handover. Check the next one together: did the information arrive at the right moment?
 
-## From where you sit
-
-- **Operations**: show where the file waits and what lets someone pick it up.
-- **Finance**: say which confirmations you need, and when.
-- **Management**: make these exchanges easy, they cost half an hour.
-- **Customer relations**: report the journey the person actually had and the expectations still open.
+In finance, say which confirmations you need, and when.
 
 ## To discuss
 
-Which piece of information was missing in a recent handover, and who can we ask to walk the flow?
+What information was missing in our last handover?

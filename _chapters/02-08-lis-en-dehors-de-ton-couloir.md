@@ -44,13 +44,8 @@ Demande trente minutes à une personne dont le travail touche le tien. Suivez un
 
 Propose un changement de passation. Vérifiez ensemble la suivante : l'information est-elle arrivée au bon moment ?
 
-## Depuis ton siège
-
-- **Opérations** : montre où le dossier attend et ce qui permet de le reprendre.
-- **Finance** : précise les confirmations dont tu as besoin, et à quel moment.
-- **Management** : facilite ces échanges, ils coûtent une demi-heure.
-- **Relation client** : rapporte le parcours vécu par la personne et les attentes encore ouvertes.
+En finance, dis quelles confirmations il te faut, et à quel moment.
 
 ## À discuter
 
-Quelle information manque lors d'une passation récente, et à qui demander de vérifier le parcours ?
+Quelle information a manqué lors de notre dernière passation ?

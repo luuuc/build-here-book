@@ -44,13 +44,8 @@ With one person or a small group, choose a piece of learning tied to a real need
 
 A month later, look at whether the slot held and what it let people do. If it disappeared, find what ate it.
 
-## From where you sit
-
-- **Management**: adjust the commitments so the slot is genuinely usable.
-- **Customer relations**: get the learning that happens inside supported cases recognised.
-- **Finance**: make the costs of the resource, the connection and any cover visible.
-- **Recruiting**: present the chances to learn the team really offers.
+In finance, make the slot's costs visible: resource, connection, cover.
 
 ## To discuss
 
-Which chance to learn did we make possible recently, and which trade-off protected it?
+What work did we remove to protect an hour of learning?

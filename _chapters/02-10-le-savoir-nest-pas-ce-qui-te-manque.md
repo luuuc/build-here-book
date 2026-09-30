@@ -47,12 +47,6 @@ Choisis une seule question. Écris ce qu'il te faut pour avancer : une explicati
 
 Va le chercher aujourd'hui, avec un temps limité. Puis essaie un petit cas et vérifie ce que tu sais maintenant faire seul. Si tu bloques encore, note ce qui manque et demande-le précisément.
 
-## Depuis ton siège
-
-- **Management** : donne le temps et les accès, y compris aux outils d'IA.
-- **Produit** : précise quelle information manque avant de demander davantage de données.
-- **Recrutement** : examine ce que la personne sait faire au-delà du nom de sa formation.
-
 ## À discuter
 
-Quel apprentissage est bloqué aujourd'hui, et quelle aide précise pourrait rendre le prochain essai possible ?
+Quelle aide précise débloquerait notre prochain apprentissage ?

@@ -36,20 +36,11 @@ Look for it in another department, another sector, a professional community, pub
 
 Compare the constraints before you copy. A team with ten times your means can fund what you cannot. A service built for a stable connection can fail where you are. Keep the way of reasoning, not necessarily the solution.
 
-The comparison can also confirm that your solution is the right one. That is as useful as a new idea.
-
 ## Try this
 
 Pick a subject to go deeper on, and an outside example that handles a close problem. Put it next to your work. Note one different decision, one different constraint, and one thing you want to keep.
 
 Try an adaptation on a small case. If it adds cost with no benefit, go back and keep the reason.
-
-## From where you sit
-
-- **Product**: compare the needs served before you compare the features.
-- **Design**: try the flow under the real conditions of its users.
-- **Support**: examine an answer that helped you, and the context that made it fit.
-- **Recruiting**: judge a framework on its criteria, not on its author's prestige.
 
 ## To discuss
 

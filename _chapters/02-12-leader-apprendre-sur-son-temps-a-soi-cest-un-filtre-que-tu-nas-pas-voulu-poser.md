@@ -46,13 +46,8 @@ Avec une personne ou un petit groupe, choisis un apprentissage lié à un vrai b
 
 Un mois plus tard, regarde si le créneau a tenu et ce qu'il a permis de faire. S'il a disparu, trouve ce qui l'a mangé.
 
-## Depuis ton siège
-
-- **Management** : ajuste les engagements pour que le créneau soit réellement utilisable.
-- **Relation client** : fais reconnaître l'apprentissage qui se produit dans les cas accompagnés.
-- **Finance** : rends visibles les coûts de ressource, de connexion et de remplacement éventuel.
-- **Recrutement** : présente les occasions d'apprendre que l'équipe offre vraiment.
+En finance, rends visibles les coûts du créneau : ressource, connexion, remplacement.
 
 ## À discuter
 
-Quelle occasion d'apprendre avons-nous rendue possible récemment, et quel arbitrage l'a protégée ?
+Quel travail avons-nous retiré pour protéger une heure d'apprentissage ?

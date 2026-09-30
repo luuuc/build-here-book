@@ -37,7 +37,7 @@ Three receipt requests can come from a button that is hard to see, a message tha
 
 The same move holds for a job restarted after an error, a file sent back for a missing document, an instruction that has to be explained again. Every repeated fix is an inquiry waiting to happen.
 
-Keep the effort proportionate. In an emergency, restore first. For an isolated case with no follow-on, move on. For a repetition that costs, give yourself an hour of inquiry.
+In an emergency, restore first. For a repetition that costs, give yourself an hour of inquiry.
 
 ## Try this
 
@@ -47,12 +47,6 @@ Examine one case with the person concerned. Look for a case that contradicts you
 
 After a fix, watch the next occurrences. If the request comes back, go back to the cause instead of repeating the fix.
 
-## From where you sit
-
-- **Product**: compare the cases before turning a repetition into a general priority.
-- **Management**: tell response time apart from the time an inquiry needs.
-- **Support**: keep what the person was trying to do just before the difficulty.
-
 ## To discuss
 
-Which recent resolution left us with a question about the cause, and what fact would let us examine it?
+Which request keeps coming back here without anyone looking for its cause?

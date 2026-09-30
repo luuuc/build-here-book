@@ -42,13 +42,6 @@ Choose a project you use. Read one discussion tied to a precise change. Note the
 
 Compare that reasoning to a problem in your own work. Then propose a small contribution: a clarification, an example, a fix.
 
-## From where you sit
-
-- **Product**: a proposal refused, with its reasons, can inform a trade-off.
-- **Design**: look at how an exchange led to making a use clearer.
-- **Management**: count contribution time as part of the team's work.
-- **Recruiting**: look at open contributions, and accept private evidence too.
-
 ## To discuss
 
 Which open exchange taught us a way of reasoning we can try here?

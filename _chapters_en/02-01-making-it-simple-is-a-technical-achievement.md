@@ -44,11 +44,7 @@ Show it to someone who uses it. Then remove it on a small scope, keeping what yo
 
 After one cycle of use, see whether the task got easier and whether something is missing. Keep, adapt, or put it back.
 
-## From where you sit
-
-- **Product**: ask who uses a feature before removing it.
-- **Operations**: check the information the step passes to the next one.
-- **Management**: recognise a removal as much as an addition.
+In operations, also check what the step passes on to the next one.
 
 ## To discuss
 

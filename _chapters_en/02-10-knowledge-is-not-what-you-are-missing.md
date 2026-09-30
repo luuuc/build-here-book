@@ -46,12 +46,6 @@ Choose a single question. Write down what you need in order to move: an explanat
 
 Go and get it today, with a time limit. Then try a small case and check what you can now do on your own. If you are still stuck, note what is missing and ask for it precisely.
 
-## From where you sit
-
-- **Management**: give the time and the access, AI tools included.
-- **Product**: say which information is missing before asking for more data.
-- **Recruiting**: examine what the person can do, beyond the name of their training.
-
 ## To discuss
 
-Which piece of learning is blocked today, and what precise help would make the next attempt possible?
+What precise help would unblock our next piece of learning?

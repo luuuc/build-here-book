@@ -44,12 +44,6 @@ At the next review, ask for one example of a simplification or an avoided risk, 
 
 Give a simplification the same time and the same visibility as a feature. A month later, check whether the gain holds and whether a load moved elsewhere.
 
-## From where you sit
-
-- **Engineering**: explain what a removed dependency changes for maintaining the system.
-- **Operations**: check that the deleted step is not pushing a verification onto someone else.
-- **Management**: also recognise the inquiry that shows why to keep what exists.
-
 ## To discuss
 
-Which piece of work recently made a task simpler or more reliable, and how did we recognise it?
+Which recent simplification went unnoticed in our reviews?

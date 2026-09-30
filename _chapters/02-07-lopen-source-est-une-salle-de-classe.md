@@ -44,13 +44,6 @@ Choisis un projet que tu utilises. Lis une discussion liée à un changement pr�
 
 Compare ce raisonnement à un problème de ton propre travail. Puis propose une petite contribution : une clarification, un exemple, une correction.
 
-## Depuis ton siège
-
-- **Produit** : une proposition refusée avec ses raisons peut éclairer un arbitrage.
-- **Design** : regarde comment un échange a conduit à rendre un usage plus clair.
-- **Management** : compte le temps de contribution dans le travail de l'équipe.
-- **Recrutement** : regarde les contributions ouvertes, et accepte aussi les preuves privées.
-
 ## À discuter
 
 Quel échange ouvert nous a appris une façon de raisonner que nous pouvons essayer ici ?

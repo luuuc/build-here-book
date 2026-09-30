@@ -44,12 +44,8 @@ Choose a task that matters to someone who uses your work. Watch them do it under
 
 Note one concrete gap, its effect, and the effort to close it. Close it, then have the same task done again. See what got easier.
 
-## From where you sit
-
-- **Design**: watch the flow on the devices people actually use.
-- **Finance**: put the effort and the cost of upkeep next to the expected benefit.
-- **Customer relations**: ask which other service or which practice they are comparing you to.
+In customer relations, ask which other service the person compares you to.
 
 ## To discuss
 
-Which gap really matters to our users, and how much effort are we ready to spend closing it?
+Which gap gets in our users' way the most today?

@@ -42,13 +42,6 @@ Take one precise behaviour that surprises you and write down what you expected. 
 
 Write down what you found and the exact place that shows it. Test it on a small example. If you cannot conclude, pass on what you looked at and the question that remains.
 
-## From where you sit
-
-- **Engineering**: keep the version and the case that let someone reproduce the observation.
-- **Product**: ask what the technical behaviour means for use.
-- **Finance**: go back to the spreadsheet formula before disputing a figure.
-- **Management**: have newcomers walk the source with someone who knows it.
-
 ## To discuss
 
-Which recent behaviour did we understand better by going back to its source, and how did we check it?
+Which recent behaviour did we understand by going back to its source?

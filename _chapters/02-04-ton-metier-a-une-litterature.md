@@ -32,7 +32,7 @@ Presque tous les problèmes que tu rencontres ont déjà été rencontrés. Quel
 
 La vente, le support, le design, la finance, les opérations, le recrutement et l'ingénierie ont chacun leurs livres, leurs enquêtes, leurs guides et leurs cas détaillés. Leur valeur dépend de la question que tu poses, pas du prestige de l'auteur.
 
-Un exemple proche n'est pas une recette. Regarde qui a été observé et dans quel contexte, puis garde ce qui s'applique chez toi. Une idée lue ne vaut rien tant qu'elle n'a pas été essayée sur un vrai cas.
+Un exemple proche n'est pas une recette : une idée lue ne vaut rien tant qu'elle n'a pas été essayée sur un vrai cas.
 
 Débutant, un passage avec un exemple te sert plus qu'un livre entier. Expérimenté, cherche l'objection : l'auteur qui pense le contraire de toi, le cas où ta méthode échoue. Une IA peut t'aider à trouver les textes qui comptent sur une question ; lis ensuite la source elle-même.
 
@@ -42,12 +42,8 @@ Formule une question liée à ton travail. Trouve une ressource qui la traite : 
 
 Lis un passage et note une idée à essayer sur un petit cas cette semaine. Écris aussi une différence entre le contexte de l'auteur et le tien. Après l'essai, garde la référence avec ce qu'elle t'a appris.
 
-## Depuis ton siège
-
-- **Ingénierie** : confronte une explication technique à la version et au contexte que tu utilises.
-- **Finance** : distingue une méthode de gestion d'une règle qui dépend du pays ou de la période.
-- **Management** : paie les livres et le temps de les lire.
+En finance, distingue une méthode de gestion d'une règle qui dépend du pays ou de la période.
 
 ## À discuter
 
-Quelle ressource nous a récemment aidés à changer ou à confirmer une décision, et pourquoi ?
+Quelle lecture a changé une de nos décisions récemment ?

@@ -46,12 +46,6 @@ Make three short attempts this week, with feedback between each one.
 
 Compare the first and the last. Note what changed and what is still hard. If nothing moves, change the method, not the goal.
 
-## From where you sit
-
-- **Design**: have the same task attempted before and after the change.
-- **Management**: give chances to practise and get feedback, not only goals.
-- **Recruiting**: ask what the person can do today that they could not do two years ago.
-
 ## To discuss
 
-Which skill would we like to deepen, and what feedback would tell us whether we are moving?
+What feedback would tell us we are really improving?

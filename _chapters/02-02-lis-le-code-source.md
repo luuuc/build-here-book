@@ -44,13 +44,6 @@ Prends un comportement précis qui te surprend et note ce que tu attendais. Donn
 
 Écris ce que tu as trouvé et l'endroit exact qui le montre. Teste-le sur un petit exemple. Si tu ne conclus pas, transmets ce que tu as regardé et la question qui reste.
 
-## Depuis ton siège
-
-- **Ingénierie** : conserve la version et le cas qui permettent de retrouver l'observation.
-- **Produit** : demande ce que le comportement technique implique pour l'usage.
-- **Finance** : remonte à la formule du tableau avant de contester un chiffre.
-- **Management** : fais parcourir la source aux nouveaux avec quelqu'un qui la connaît.
-
 ## À discuter
 
-Quel comportement récent avons-nous mieux compris en revenant à sa source, et comment l'avons-nous vérifié ?
+Quel comportement récent avons-nous compris en remontant à sa source ?
