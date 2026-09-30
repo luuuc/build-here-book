@@ -36,7 +36,7 @@ A team copies a reference from a form into a spreadsheet. Before deleting the co
 
 If nobody knows why a step exists, look before you delete: whoever set up the flow, the records, the people who depend on it. A protection can matter even with no recent incident.
 
-Automation costs less than it used to, but not nothing: it has to be checked, maintained, and you need to know what to do when it breaks. For a rare step, a clear explanation is often enough.
+An automation has to be checked, maintained, and one day it breaks. For a rare step, a clear explanation is enough.
 
 ## Try this
 
@@ -46,13 +46,6 @@ Then choose: remove, simplify, automate, document. Try it on a few cases, with a
 
 Keeping the step is a good outcome too, if you now know why.
 
-## From where you sit
-
-- **Operations**: identify what a step makes possible for the next person.
-- **Engineering**: count the controls and the upkeep any automation would bring.
-- **Management**: say who can decide a change to the flow, and answer fast.
-- **Customer relations**: explain the difficulty observed without assuming the step is useless.
-
 ## To discuss
 
-Which step would gain from being explained or simplified, and which function do we have to keep?
+Which step are we documenting without knowing what it produces?

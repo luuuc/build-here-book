@@ -34,7 +34,7 @@ Une équipe recopie une référence d'un formulaire vers un tableau. Avant de su
 
 Si personne ne sait pourquoi une étape existe, cherche avant de supprimer : la personne qui a mis en place le parcours, les traces, ceux qui en dépendent. Une protection peut servir même sans incident récent.
 
-L'automatisation coûte moins qu'avant, mais pas rien : il faut la vérifier, l'entretenir, et savoir quoi faire quand elle tombe en panne. Pour une étape rare, une explication claire suffit souvent.
+Une automatisation se vérifie, s'entretient, et casse un jour. Pour une étape rare, une explication claire suffit.
 
 ## À essayer
 
@@ -44,13 +44,6 @@ Puis choisis : retirer, simplifier, automatiser, documenter. Essaie sur quelques
 
 Garder l'étape est aussi un bon résultat, si tu sais maintenant pourquoi.
 
-## Depuis ton siège
-
-- **Opérations** : identifie ce qu'une étape rend possible pour la personne suivante.
-- **Ingénierie** : compte les contrôles et l'entretien d'une éventuelle automatisation.
-- **Management** : dis qui peut décider d'un changement du parcours, et réponds vite.
-- **Relation client** : explique la difficulté observée sans présumer que l'étape est inutile.
-
 ## À discuter
 
-Quelle étape gagnerait à être expliquée ou simplifiée, et quelle fonction devons-nous préserver ?
+Quelle étape documentons-nous sans savoir ce qu'elle produit ?

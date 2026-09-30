@@ -44,13 +44,6 @@ Take a recent case and compare the intended steps to the real ones. Note what ea
 
 Propose a change with the people who do the work and the people who depend on it. Try it, then update the procedure so it describes what really happens.
 
-## From where you sit
-
-- **Engineering**: look for why the intended tool is bypassed before mandating its use.
-- **Product**: check what becomes of the missing information further along the flow.
-- **Management**: make it possible to describe the gaps without an accusation up front.
-- **Customer relations**: explain what the workaround makes easier and what it leaves hanging.
-
 ## To discuss
 
-Which gap between practice and procedure deserves examining, and who sees its consequences?
+Which shortcut do we all take that the procedure does not know about?

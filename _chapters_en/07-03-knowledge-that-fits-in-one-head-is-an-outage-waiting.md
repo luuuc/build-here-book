@@ -36,7 +36,7 @@ Only one person knows how to do the month-end accounting close. She does it once
 
 Practice first, writing second. A document alone is rarely enough. A demonstration, pairing, then a supported attempt do the job. An AI can turn the recording of the demonstration into a written guide; read it through together.
 
-This is not a criticism of the person who knows. They are rarely indispensable by choice. Give them time to pass it on, and recognise that work.
+The person who knows is rarely indispensable by choice. Give them time to pass it on, and recognise that work.
 
 ## Check this
 
@@ -46,13 +46,6 @@ First slot: the relay watches. Second: they do it, and the person who knows watc
 
 Then write the short guide together, and decide who keeps it up to date.
 
-## From where you sit
-
-- **Engineering**: support the first use of a tool you are the only one who knows.
-- **Operations**: choose the knowledge that matters for continuity of service.
-- **Management**: give time to the person passing on and to the person learning.
-- **Support**: check that a saved answer really helps the next person who asks.
-
 ## To discuss
 
-Which activity would benefit from a relay, and what support would make that learning possible?
+Which activity would stop tomorrow if one person were missing?

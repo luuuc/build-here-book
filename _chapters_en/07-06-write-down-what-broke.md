@@ -33,9 +33,9 @@ With no record, the same incident comes back and the team rediscovers it. With o
 
 A file stalled between two teams because each was waiting for a different confirmation. The account describes what each side saw, how the blockage was understood, and which handover agreement changed. Nobody is named as the culprit. The mechanism is fixed.
 
-An AI can rebuild the timeline from the messages and tickets in minutes. Keep your time for what it does not know: why people believed what they believed, and what is changing.
+An AI can rebuild the timeline from the messages and requests in minutes. Keep your time for what it does not know: why people believed what they believed, and what is changing.
 
-Share it with the people who need it: the team, whoever takes over, the teams next door. When the story can help others, publish it, leaving out what is not yours to share. Much of what people know about outages comes from accounts other teams published.
+Share it with the people who need it: the team, whoever takes over, the teams next door. When the story can help others, publish it, leaving out what is not yours to share. Much of what people know about incidents comes from accounts other teams published.
 
 ## Try this
 
@@ -48,13 +48,6 @@ Choose a recent incident or failure. Write one page:
 
 Have the facts read by the people concerned. At the agreed moment, check that the action decided was carried out.
 
-## From where you sit
-
-- **Product**: keep the assumptions and the observations, not only the conclusion.
-- **Operations**: say what made it possible to restore or preserve the service.
-- **Management**: plan the time to write it, in the week that follows.
-- **Customer relations**: bring the facts about the consequences for customers.
-
 ## To discuss
 
-Which account would help a coming decision, and who has to be able to find it?
+Which recent incident left no written account?

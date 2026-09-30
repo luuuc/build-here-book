@@ -32,7 +32,7 @@ Chaque règle coûte un peu à chaque fois qu'on l'applique. Ajoutées une par u
 
 Un devis part avec un mauvais prix. On peut ajouter une validation du responsable sur chaque devis. On peut aussi corriger la grille de prix, calculer le prix automatiquement, ou relire seulement les devis au-dessus d'un certain montant. La signature systématique est rarement la meilleure réponse.
 
-Parfois, une seule occurrence suffit : si la conséquence est grave, protège tout de suite. Pour une gêne limitée, observe quelques cas avant d'imposer une procédure à tout le monde.
+Si la conséquence est grave, une seule occurrence suffit : protège tout de suite. Pour une gêne limitée, observe quelques cas avant d'imposer une procédure à tout le monde.
 
 Une règle doit dire sa raison. Sans elle, personne ne saura quand la retirer.
 
@@ -42,13 +42,6 @@ Sur une règle proposée ou existante, pose trois questions : quel risque traite
 
 Choisis la réponse la plus légère qui protège vraiment. Fixe une date pour revoir si elle sert encore.
 
-## Depuis ton siège
-
-- **Opérations** : compare la protection recherchée à la charge créée.
-- **Produit** : examine aussi l'effet d'une règle sur l'accès au service.
-- **Management** : nomme la raison, le responsable et les conditions de réexamen.
-- **Recrutement** : vérifie ce qu'une étape d'entretien permet réellement d'évaluer.
-
 ## À discuter
 
-Quelle règle proposée mérite un essai limité, et quel risque demande une protection dès maintenant ?
+Quelle règle appliquons-nous sans que personne se souvienne de sa raison ?

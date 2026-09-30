@@ -32,9 +32,9 @@ Une répétition montre quelque chose : un défaut en amont, une consigne peu cl
 
 Au support, plusieurs clients demandent quelle pièce joindre à leur dossier. L'information manque peut-être sur le formulaire. Elle y est peut-être, mais illisible sur téléphone. Compter les questions te dit où chercher. Aller voir te dit quoi corriger.
 
-Le calcul a changé. Automatiser une petite tâche répétée, un tableau qui se remplit seul, une réponse type, un contrôle, prend souvent une heure avec une IA. Ce qui ne valait pas la peine il y a deux ans la vaut peut-être aujourd'hui.
+Le calcul a changé. Automatiser une petite tâche répétée, un tableau qui se remplit seul, une réponse type, un contrôle, prend souvent une heure avec une IA. Ce qui ne valait pas la peine il y a deux ans la vaut aujourd'hui.
 
-La fréquence n'est pas le seul critère. Une erreur rare mais grave justifie d'agir dès la première fois. Une tâche courte et toujours différente peut rester moins chère à faire à la main.
+Une erreur rare mais grave, elle, justifie d'agir dès la première fois.
 
 ## À vérifier
 
@@ -44,13 +44,6 @@ Compare deux options : continuer à la main, ou essayer une amélioration. Compt
 
 Essaie-la, et regarde si l'effort a baissé sans déplacer le problème vers quelqu'un d'autre.
 
-## Depuis ton siège
-
-- **Support** : distingue une question récurrente d'une cause déjà vérifiée.
-- **Design** : observe ce qui varie avant de proposer un composant commun.
-- **Opérations** : compare fréquence, gravité et coût d'une amélioration.
-- **Management** : réserve du temps pour régler les répétitions, pas seulement pour les traiter.
-
 ## À discuter
 
-Quelle répétition mérite un examen, et quelle activité répétée rend encore un service nécessaire ?
+Quelle tâche avons-nous refaite à la main plus de deux fois ce mois-ci ?

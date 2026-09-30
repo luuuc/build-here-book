@@ -34,7 +34,7 @@ Une seule personne sait faire la clôture comptable du mois. Elle la fait une fo
 
 La pratique d'abord, l'écrit ensuite. Un document seul suffit rarement. Une démonstration, un binôme, puis un essai accompagné font le travail. Une IA peut transformer l'enregistrement de la démonstration en guide écrit ; relisez-le ensemble.
 
-Ce n'est pas un reproche à la personne qui sait. Elle est rarement indispensable par choix. Donne-lui le temps de transmettre, et reconnais ce travail.
+La personne qui sait est rarement indispensable par choix. Donne-lui le temps de transmettre, et reconnais ce travail.
 
 ## À vérifier
 
@@ -44,13 +44,6 @@ Premier créneau : le relais regarde. Deuxième : il fait, la personne qui sait 
 
 Puis écrivez ensemble le guide court, et décidez qui le tient à jour.
 
-## Depuis ton siège
-
-- **Ingénierie** : accompagne le premier usage d'un outil que tu es seul à maîtriser.
-- **Opérations** : choisis les savoirs qui comptent pour la continuité du service.
-- **Management** : donne du temps à la personne qui transmet et à celle qui apprend.
-- **Support** : vérifie qu'une réponse conservée aide réellement le prochain interlocuteur.
-
 ## À discuter
 
-Quelle activité bénéficierait d'un relais, et quel soutien rendrait cet apprentissage possible ?
+Quelle activité s'arrêterait demain si une seule personne manquait ?

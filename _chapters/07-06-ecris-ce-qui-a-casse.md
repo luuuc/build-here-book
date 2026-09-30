@@ -35,9 +35,9 @@ Sans trace, le même incident revient et l'équipe le redécouvre. Avec une page
 
 Un dossier s'est arrêté entre deux équipes parce que chacune attendait une confirmation différente. Le compte rendu décrit ce que chaque côté voyait, comment le blocage a été compris, et quel accord de passation a changé. Personne n'est désigné coupable. Le mécanisme, lui, est corrigé.
 
-Une IA peut reconstruire la chronologie à partir des messages et des tickets en quelques minutes. Garde ton temps pour ce qu'elle ne sait pas : pourquoi on a cru ce qu'on a cru, et ce qu'on change.
+Une IA peut reconstruire la chronologie à partir des messages et des demandes en quelques minutes. Garde ton temps pour ce qu'elle ne sait pas : pourquoi on a cru ce qu'on a cru, et ce qu'on change.
 
-Partage-le avec ceux qui en ont besoin : l'équipe, le relais, les équipes voisines. Quand l'histoire peut servir à d'autres, publie-la, en retirant ce qui ne t'appartient pas. Une bonne partie de ce qu'on sait sur les pannes vient de comptes rendus publiés par d'autres.
+Partage-le avec ceux qui en ont besoin : l'équipe, le relais, les équipes voisines. Quand l'histoire peut servir à d'autres, publie-la, en retirant ce qui ne t'appartient pas. Une bonne partie de ce qu'on sait sur les incidents vient de comptes rendus publiés par d'autres.
 
 ## À essayer
 
@@ -50,13 +50,6 @@ Choisis un incident ou un échec récent. Écris une page :
 
 Fais relire les faits par les personnes concernées. Au moment prévu, vérifie que l'action décidée a été faite.
 
-## Depuis ton siège
-
-- **Produit** : conserve les hypothèses et les observations, pas seulement la conclusion.
-- **Opérations** : précise ce qui a permis de rétablir ou de préserver le service.
-- **Management** : prévois le temps d'écrire, dans la semaine qui suit.
-- **Relation client** : apporte les faits sur les conséquences pour les clients.
-
 ## À discuter
 
-Quel retour d'expérience aiderait une prochaine décision, et qui doit pouvoir le retrouver ?
+Quel incident récent n'a laissé aucune trace écrite ?

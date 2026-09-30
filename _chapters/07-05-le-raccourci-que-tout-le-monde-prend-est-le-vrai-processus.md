@@ -42,13 +42,6 @@ Prends un cas récent et compare les étapes prévues aux étapes réelles. Note
 
 Propose un changement avec ceux qui font le travail et ceux qui en dépendent. Essaie-le, puis mets la procédure à jour pour qu'elle décrive ce qui se passe vraiment.
 
-## Depuis ton siège
-
-- **Ingénierie** : cherche pourquoi l'outil prévu est contourné avant d'en imposer l'usage.
-- **Produit** : vérifie ce que deviennent les informations manquantes dans la suite du parcours.
-- **Management** : rends possible une description des écarts sans accusation préalable.
-- **Relation client** : explique ce que le raccourci facilite et ce qu'il laisse en suspens.
-
 ## À discuter
 
-Quel écart entre pratique et procédure mérite un examen, et qui en voit les conséquences ?
+Quel raccourci prenons-nous tous sans que la procédure le sache ?
