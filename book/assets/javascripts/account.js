@@ -68,8 +68,10 @@
   }
   migrateOldKeys();
 
-  // Card key from its URL: 05-05-some-title.html gives "5.05".
+  // Card key from its URL: 05-05-some-title.html gives "5.05". The book opens
+  // on 00-01 at its root, so /livre/ and /book/ give "0.01". Same rule as Card.key.
   function card(url) {
+    if (url === "/livre/" || url === "/book/") return "0.01";
     const m = /\/(\d{2})-(\d{2})-[a-z0-9-]+\.html$/.exec(url || "");
     return m ? Number(m[1]) + "." + m[2] : null;
   }

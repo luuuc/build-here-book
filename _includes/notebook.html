@@ -1,25 +1,49 @@
 {% assign c = t.notebook %}
+{% comment %}The notes stay out of the way: marks in the text, notes in the margin on a wide
+screen, and this one line at the bottom that opens them all in a sheet.{% endcomment %}
 <section class="notebook" id="notebook" hidden
          data-url="{{ page.url | relative_url }}"
          data-title="{{ page.title | escape }}"
          data-remove="{{ c.remove }}"
-         data-label="{{ c.label }}"
-         data-label-passage="{{ c.label_passage }}">
+         data-confirm="{{ c.confirm }}"
+         data-mark="{{ c.mark }}"
+         data-page-notes="{{ c.page_notes }}">
   <div class="container">
-    <p class="note-question">{{ c.title }}</p>
-    <ul class="notebook-list"></ul>
-    <form class="notebook-form">
-      <blockquote class="notebook-passage" hidden></blockquote>
-      <label for="notebook-text" data-notebook-label>{{ c.label }}</label>
-      <textarea id="notebook-text" rows="3" maxlength="4000" required></textarea>
-      <div class="notebook-actions">
-        <button type="submit" class="note-send">{{ c.save }}</button>
-        <button type="button" data-notebook-no-passage hidden>{{ c.remove_passage }}</button>
-      </div>
-    </form>
+    <p class="note-question">{{ c.title }} <span data-notebook-count></span></p>
+    <div class="notebook-actions">
+      <button type="button" data-notebook-open hidden>{{ c.open }}</button>
+      <button type="button" data-notebook-add>{{ c.add }}</button>
+    </div>
     <p class="notebook-private">
       {{ c.private }}
       <span data-notebook-local hidden>{{ c.local }} <a href="{{ t.try.login_url }}">{{ t.try.login }}</a></span>
     </p>
   </div>
 </section>
+
+{% comment %}All the notes of the page: a bottom sheet on a phone, a side panel on a wide screen.{% endcomment %}
+<dialog class="notes-sheet" id="notes-sheet" aria-labelledby="notes-sheet-title">
+  <div class="notes-sheet-head">
+    <p class="note-question" id="notes-sheet-title">{{ c.title }} <span data-notebook-count></span></p>
+    <button type="button" class="notes-sheet-close" data-sheet-close aria-label="{{ c.close }}" title="{{ c.close }}"></button>
+  </div>
+  <button type="button" data-notebook-add>{{ c.add }}</button>
+  <p class="notebook-private">
+    {{ c.private }}
+    <span data-notebook-local hidden>{{ c.local }} <a href="{{ t.try.login_url }}">{{ t.try.login }}</a></span>
+  </p>
+  <ul class="notebook-list"></ul>
+</dialog>
+
+{% comment %}One note, to write or edit: under its passage on a wide screen, a bottom sheet on a phone.{% endcomment %}
+<form class="note-pop" id="note-pop" role="dialog" aria-labelledby="note-pop-label" hidden
+      data-label-card="{{ c.label }}" data-label-passage="{{ c.label_passage }}">
+  <button type="button" class="note-trash" data-pop-remove aria-label="{{ c.remove }}" title="{{ c.remove }}" hidden></button>
+  <blockquote class="note-pop-passage"></blockquote>
+  <label for="note-pop-text" id="note-pop-label">{{ c.label_passage }}</label>
+  <textarea id="note-pop-text" rows="4" maxlength="4000" required></textarea>
+  <div class="notebook-actions">
+    <button type="submit" class="note-send">{{ c.save }}</button>
+    <button type="button" data-pop-cancel>{{ c.cancel }}</button>
+  </div>
+</form>

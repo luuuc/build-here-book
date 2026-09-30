@@ -96,7 +96,6 @@
     {% comment %}Cards only: feedback on section intros or appendices is not actionable.{% endcomment %}
     {% if page.metadata.principle %}
     {% include try.html %}
-    {% include notebook.html %}
     {% include note.html %}
     {% endif %}
 
@@ -109,6 +108,9 @@
       </div>
     </section>
     {% endif %}
+
+    {% comment %}Notes last: a place to come back to, after the page and its next step. Every page, not only cards.{% endcomment %}
+    {% include notebook.html %}
 
     {% comment %}The closing </div> comes from kramdown, left in content_parts[1] by the split.{% endcomment %}
     {% if content_parts.size > 1 %}

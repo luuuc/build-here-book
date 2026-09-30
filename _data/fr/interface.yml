@@ -67,11 +67,17 @@ try:
 notebook:
   title: "Tes notes"
   private: "Toi seul les lis."
-  label: "Une note sur cette carte"
+  label: "Une note sur cette page"
   label_passage: "Une note sur ce passage"
   save: "Enregistrer"
   remove: "Supprimer"
-  remove_passage: "Retirer le passage"
+  confirm: "Supprimer cette note ?"
+  cancel: "Annuler"
+  open: "Voir mes notes"
+  close: "Fermer"
+  page_notes: "Sur la page"
+  add: "+ Ajouter une note"
+  mark: "Voir ta note"
   local: "Gardées sur cet appareil."
 
 # URLs live here too: each language has its own paths.

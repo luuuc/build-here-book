@@ -1343,6 +1343,7 @@ sup a {
 
 .try .try-main:hover,
 .notebook .note-send:hover,
+.note-pop .note-send:hover,
 .note .note-send:hover {
   background: var(--blue);
   border-color: var(--blue);
@@ -1398,7 +1399,7 @@ sup a {
 }
 
 .try-lesson textarea,
-.notebook textarea {
+.note-pop textarea {
   display: block;
   width: 100%;
   max-width: 40rem;
@@ -1415,7 +1416,7 @@ sup a {
 }
 
 .try-lesson textarea:focus,
-.notebook textarea:focus {
+.note-pop textarea:focus {
   outline: 0;
   border-color: var(--blue);
 }
@@ -1431,40 +1432,11 @@ sup a {
 }
 
 .notebook[hidden],
-.notebook [hidden] {
+.notebook [hidden],
+.notes-sheet [hidden],
+.note-pop[hidden],
+.note-pop [hidden] {
   display: none;
-}
-
-.notebook-list {
-  margin: 0 0 1.2rem;
-  padding: 0;
-  list-style: none;
-  max-width: 40rem;
-}
-
-.notebook-list li {
-  padding: 0.8rem 0;
-  border-bottom: 1px solid var(--rule);
-}
-
-.notebook-list p {
-  margin: 0;
-  font-size: 0.95rem;
-  color: var(--ink);
-  white-space: pre-wrap;
-}
-
-.notebook blockquote {
-  margin: 0 0 0.5rem;
-  padding-left: 0.8rem;
-  border-left: 2px solid var(--signal);
-  font-size: 0.88rem;
-  color: var(--muted);
-}
-
-.notebook-form label {
-  font-size: 0.88rem;
-  color: var(--muted);
 }
 
 .notebook-actions {
@@ -1474,7 +1446,9 @@ sup a {
   margin-top: 0.8rem;
 }
 
-.notebook button {
+.notebook button,
+.notes-sheet button,
+.note-pop button {
   min-height: 44px;
   padding: 0.5rem 1.1rem;
   font-family: inherit;
@@ -1485,27 +1459,319 @@ sup a {
   cursor: pointer;
 }
 
-.notebook-list button {
-  min-height: 0;
-  margin-top: 0.3rem;
-  padding: 0;
-  border: 0;
-  background: none;
-  font-size: 0.82rem;
-  color: var(--muted);
-  text-decoration: underline;
-}
-
-.notebook .note-send {
+.note-pop .note-send {
   background: var(--ink);
   border-color: var(--ink);
   color: var(--paper);
 }
 
 .notebook-private {
-  margin: 1rem 0 0;
+  margin: 0.8rem 0 0;
   font-size: 0.82rem;
   color: var(--muted);
+}
+
+.notes-sheet blockquote,
+.note-pop blockquote {
+  margin: 0 0 0.4rem;
+  padding-left: 0.8rem;
+  border-left: 2px solid var(--signal);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+/* The sheet: every note of the page, in a native dialog. */
+.notes-sheet {
+  box-sizing: border-box;
+  margin: 0 0 0 auto;
+  width: min(26rem, 100vw);
+  max-width: none;
+  height: 100%;
+  max-height: none;
+  padding: 1.25rem 1.5rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--paper);
+  border: 0;
+  border-left: 1px solid var(--rule);
+  box-shadow: var(--shadow-menu);
+  font-family: var(--font-sans);
+  color: var(--ink);
+}
+
+.notes-sheet::backdrop {
+  background: rgba(15, 19, 25, 0.25);
+}
+
+html:has(.notes-sheet[open]) {
+  overflow: hidden;
+}
+
+.notes-sheet-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.notes-sheet-head .note-question {
+  margin: 0;
+}
+
+.notes-sheet .notes-sheet-close {
+  position: relative;
+  width: 44px;
+  margin-right: -0.75rem;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.notes-sheet-close::before,
+.notes-sheet-close::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1rem;
+  height: 1.5px;
+  background: var(--muted);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.notes-sheet-close::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.notebook-list {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.notebook-list li {
+  position: relative;
+  border-top: 1px solid var(--rule);
+}
+
+.notes-sheet .notes-item {
+  display: block;
+  width: 100%;
+  padding: 0.8rem 2.5rem 0.8rem 0;
+  border: 0;
+  background: none;
+  text-align: left;
+}
+
+@media (hover: hover) {
+  .notes-item:hover p {
+    text-decoration: underline;
+  }
+}
+
+.notes-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+}
+
+.notes-item blockquote {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .notes-sheet {
+    margin: auto 0 0;
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    padding-bottom: calc(1.25rem + env(safe-area-inset-bottom));
+    border-left: 0;
+    border-top: 1px solid var(--rule);
+  }
+}
+
+/* Delete: a quiet trash icon in the top-right corner, it asks before deleting. */
+.notes-sheet .note-trash,
+.note-pop .note-trash {
+  position: absolute;
+  top: 0.4rem;
+  right: -0.6rem;
+  width: 44px;
+  height: 44px;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.note-pop .note-trash {
+  top: 0.25rem;
+  right: 0.25rem;
+}
+
+.note-trash::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--muted);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 7h16M10 11v6M14 11v6M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2l1-12M9 7V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3'/%3E%3C/svg%3E") center / 0.85rem no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 7h16M10 11v6M14 11v6M5 7l1 12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2l1-12M9 7V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3'/%3E%3C/svg%3E") center / 0.85rem no-repeat;
+}
+
+.note-trash:hover::before {
+  background: var(--signal-text);
+}
+
+.note-pop blockquote {
+  padding-right: 2.5rem;
+}
+
+/* The margin, on a wide screen only (notebook.js places it). */
+.note-margin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: var(--font-sans);
+}
+
+.note-margin > * {
+  position: absolute;
+  width: 14rem;
+}
+
+.note-margin-title {
+  margin: 0 0 0.3rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.note-margin-item {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  width: 14rem;
+  margin: 0 0 0.4rem;
+  padding: 0 0 0 0.7rem;
+  border: 0;
+  border-left: 2px solid var(--signal-tint);
+  background: none;
+  font-family: inherit;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  text-align: left;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.note-margin-item:hover,
+.note-margin-item:focus-visible {
+  border-left-color: var(--signal);
+  color: var(--ink);
+}
+
+/* A passage with a note, in the card text. */
+::highlight(notes) {
+  background-color: var(--signal-tint);
+}
+
+::highlight(note-focus),
+::highlight(note-draft) {
+  background-color: color-mix(in srgb, var(--signal) 22%, transparent);
+}
+
+.note-mark {
+  position: relative;
+  display: inline-block;
+  width: 0.95em;
+  height: 0.95em;
+  margin: 0 0.15em 0 0.25em;
+  padding: 0;
+  vertical-align: -0.1em;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+/* The icon sits on ::before so its mask doesn't clip the target on ::after. */
+.note-mark::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--signal);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2 1h12a1 1 0 0 1 1 1v8.5L10.5 15H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm2 4v1.5h8V5zm0 3v1.5h5V8z'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M2 1h12a1 1 0 0 1 1 1v8.5L10.5 15H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zm2 4v1.5h8V5zm0 3v1.5h5V8z'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+
+/* A finger-sized target without moving the text. */
+.note-mark::after {
+  content: "";
+  position: absolute;
+  inset: -12px;
+}
+
+.note-mark:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+}
+
+/* Below the fixed header (z-index 1000), like the share bar. */
+.note-pop {
+  position: absolute;
+  z-index: 999;
+  width: min(28rem, calc(100vw - 1rem));
+  padding: 1rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  box-shadow: var(--shadow-menu);
+  font-family: var(--font-sans);
+}
+
+.note-pop label {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.note-pop blockquote {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.note-pop textarea {
+  max-width: none;
+}
+
+/* No anchor (a note opened from the sheet): docked at the bottom. */
+@media (min-width: 768px) {
+  .note-pop--docked {
+    position: fixed;
+    top: auto;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 767px) {
+  .note-pop {
+    position: fixed;
+    top: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+    border-width: 1px 0 0;
+  }
 }
 
 /* Draft badge: scaffolding, red is off-palette on purpose. Remove at launch
