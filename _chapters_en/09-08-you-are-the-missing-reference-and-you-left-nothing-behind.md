@@ -46,13 +46,6 @@ What serves inside often serves elsewhere. A method, a lesson learned, a solved 
 
 → Every month, add one bearing. Publish the ones that can help outside the team.
 
-## From where you sit
-
-- **Engineering**: follow a demonstration with the bearings the recipient finds useful.
-- **Product**: choose a passing-on need before choosing a format.
-- **Management**: set aside the time to write inside the workload.
-- **Support**: involve the people who use a sheet in keeping it up to date.
-
 ## To discuss
 
-What are you asked most often, and where is the answer written down?
+Where is the answer to the question we get asked most often written down?

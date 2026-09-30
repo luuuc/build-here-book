@@ -36,7 +36,7 @@ A colleague drafts a reply to a customer. You check that the next step is clear 
 
 Say what works too. A review that only points at flaws does not teach what to do again. And separate requirements from matters of style: the first get fixed, the second get discussed.
 
-Not everything deserves a lesson. When the criteria are understood, an "ok" is enough. Keep the explanations for what is worth passing on.
+When the criteria are understood, an "ok" is enough.
 
 ## Try this
 
@@ -46,13 +46,8 @@ On your next review, add one sentence:
 
 Ask whether the criterion is clear. On the next case, see whether the person applied it on their own.
 
-## From where you sit
-
-- **Engineering**: say which cases you checked and what the review does not cover.
-- **Design**: tie your feedback to what the person has to understand or do.
-- **Finance**: separate an assumption in a calculation from a confirmed figure.
-- **Management**: plan proportionate feedback and name the solid points too.
+Say what your review did not cover, too. In finance, separate an assumption in a calculation from a confirmed figure.
 
 ## To discuss
 
-Which review criterion would gain from being explained, and in which situation is a brief approval enough?
+Which review criterion do we apply without ever explaining it?

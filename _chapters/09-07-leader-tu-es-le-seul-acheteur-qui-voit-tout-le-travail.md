@@ -47,13 +47,6 @@ La reconnaissance ne remplace pas une décision sur le salaire ou l'évolution. 
 
 → Explique chaque décision individuellement, avec la prochaine date de revue.
 
-## Depuis ton siège
-
-- **Management** : recueille des faits et explique les critères.
-- **Opérations** : rends visibles la continuité du service et le travail d'entretien.
-- **Recrutement** : compare les capacités annoncées aux contributions réellement reconnues.
-- **Finance** : éclaire les moyens disponibles sans les confondre avec toute la valeur du travail.
-
 ## À discuter
 
-Quels critères rendent nos contributions compréhensibles, et comment une personne peut-elle compléter les faits examinés ?
+Quelle contribution utile est passée inaperçue ici ces derniers mois ?

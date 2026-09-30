@@ -32,7 +32,7 @@ Choisis une partie de ce sujet et fais-la passer à quelqu'un d'autre. Ta valeur
 
 Tu prépares un suivi mensuel que personne d'autre ne sait faire. Une collègue en apprend une partie. Vous faites un cas ensemble, puis elle en fait un avec ton aide, puis seule. Au bout de trois mois, tu n'es plus le seul point de passage.
 
-Commence petit : une partie, une personne, un cas. La transmission complète n'est pas le but. Une dépendance de moins, c'est déjà un progrès.
+Commence petit : une partie, une personne, un cas.
 
 Si ton environnement ne te donne pas le temps de transmettre, demande-le explicitement : la transmission est un travail, pas un bonus du soir.
 
@@ -42,13 +42,8 @@ Choisis une activité où tu es le seul. Trouve une personne volontaire et bloqu
 
 Quand elle peut agir seule, dites-le clairement à l'équipe.
 
-## Depuis ton siège
-
-- **Ingénierie** : prépare un cas d'apprentissage et les accès nécessaires au relais.
-- **Finance** : distingue préparation, vérification et autorisation dans le travail transmis.
-- **Management** : négocie le temps et reconnais l'effort des deux personnes.
-- **Design** : explique un critère sur un exemple avant de demander son application autonome.
+En finance, transmets d'abord la préparation, puis la vérification. L'autorisation vient en dernier.
 
 ## À discuter
 
-Quel relais serait utile aux personnes concernées, et quelle condition manque pour le préparer ?
+Sur quel sujet l'un de nous est-il encore le seul à pouvoir agir ?

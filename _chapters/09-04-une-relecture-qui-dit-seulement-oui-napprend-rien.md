@@ -34,7 +34,7 @@ Un collègue prépare une réponse à un client. Tu vérifies que le prochain ge
 
 Dis aussi ce qui marche. Une relecture qui ne pointe que les défauts n'apprend pas quoi refaire. Et sépare les exigences des préférences de style : les unes se corrigent, les autres se discutent.
 
-Tout ne mérite pas un cours. Quand les critères sont compris, un "ok" suffit. Garde les explications pour ce qui se transmet.
+Quand les critères sont compris, un "ok" suffit.
 
 ## À essayer
 
@@ -44,13 +44,8 @@ Sur ta prochaine relecture, ajoute une phrase :
 
 Demande si le critère est clair. Sur le cas suivant, regarde si la personne l'a appliqué seule.
 
-## Depuis ton siège
-
-- **Ingénierie** : précise les cas vérifiés et ce que la revue ne couvre pas.
-- **Design** : relie ton retour à ce que la personne doit comprendre ou faire.
-- **Finance** : distingue une hypothèse de calcul d'une donnée confirmée.
-- **Management** : prévois un retour proportionné et reconnais aussi les points solides.
+Dis aussi ce que ta relecture n'a pas couvert. En finance, sépare une hypothèse de calcul d'un chiffre confirmé.
 
 ## À discuter
 
-Quel critère de relecture gagnerait à être expliqué, et dans quelle situation un accord bref suffit-il ?
+Quel critère de relecture appliquons-nous sans jamais l'expliquer ?

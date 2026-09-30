@@ -44,13 +44,8 @@ Demande quel appui l'aiderait. Fixe un point de retour selon le besoin, et reste
 
 Au retour, examinez le raisonnement autant que le résultat. Distingue tes exigences de tes préférences.
 
-## Depuis ton siège
-
-- **Produit** : explique le besoin et les contraintes avant de proposer une solution.
-- **Management** : réserve du temps à l'exploration et aux retours convenus.
-- **Support** : partage un cas et accompagne la première analyse d'un pair.
-- **Design** : propose un exemple comme appui, sans l'imposer comme seule réponse.
+Au support, le même geste marche entre pairs : confie l'analyse d'un cas réel, et accompagne la première.
 
 ## À discuter
 
-Quel petit périmètre permettrait à quelqu'un de proposer sa démarche, et quel appui lui manque ?
+Quel problème pourrions-nous confier cette semaine plutôt qu'une liste de tâches ?

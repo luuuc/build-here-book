@@ -35,7 +35,7 @@ A team doesn't run on stated values. It runs on observed consequences. People ar
 
 Which is why passivity reads wrong from the outside. You see a team with no initiative. The team remembers an edit that got reverted without explanation three months ago.
 
-Not everything comes from the organisation. A missing access, a week already full, a skill that isn't there yet: these combine. Look at one real case before assigning a cause. But if the last four proposals ended in the same place, that isn't a bad week. That is the thing you built.
+If the last four proposals ended in the same place, that isn't a bad week. That is the thing you built.
 
 Changing the rule isn't enough. People wait to see how the first initiative gets received. That one counts more than the announcement. And if you don't run the team, ask the question, make the constraint visible, propose a trial: that is already building the environment.
 
@@ -49,13 +49,6 @@ Then pick a change small enough that you will actually hold it: clarify a mandat
 
 After a real chance to practise, look at whether anything moved.
 
-## From where you sit
-
-- **Engineering**: name the dependency that blocks you before talking about a lack of autonomy.
-- **Support**: bring one case where a proposal got a follow-up, and one where it didn't.
-- **Management**: say what you can decide alone and go get the decision on the rest.
-- **Recruiting**: separate what is learning, what is working conditions, and what is the role.
-
 ## To discuss
 
-Which useful proposal died here without an answer, and what did the team conclude from it?
+Which useful proposal died here without an answer?

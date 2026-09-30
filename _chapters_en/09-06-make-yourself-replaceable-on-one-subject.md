@@ -34,7 +34,7 @@ Being the only one who knows means being the only one who can. You cannot take l
 
 You prepare a monthly report nobody else knows how to do. A colleague learns part of it. You do one case together, then she does one with your help, then alone. After three months, you are no longer the only way through.
 
-Start small: one part, one person, one case. Handing over everything is not the goal. One dependency fewer is already progress.
+Start small: one part, one person, one case.
 
 If your environment gives you no time to pass things on, ask for it explicitly: passing on is work, not an evening bonus.
 
@@ -44,13 +44,8 @@ Choose an activity where you are the only one. Find a willing person and book th
 
 When they can act alone, tell the team clearly.
 
-## From where you sit
-
-- **Engineering**: prepare a learning case and the access the successor needs.
-- **Finance**: separate preparation, checking, and authorisation in the work handed over.
-- **Management**: negotiate the time and recognise the effort of both people.
-- **Design**: explain a criterion on an example before asking for it to be applied alone.
+In finance, hand over the preparation first, then the checking. Authorisation comes last.
 
 ## To discuss
 
-Which handover would serve the people concerned, and which condition is missing to prepare it?
+On which subject is one of us still the only one who can act?

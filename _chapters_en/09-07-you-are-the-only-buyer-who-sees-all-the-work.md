@@ -46,13 +46,6 @@ Recognition does not replace a decision about pay or progression. If you are not
 
 → Explain each decision individually, with the next review date.
 
-## From where you sit
-
-- **Management**: gather facts and explain the criteria.
-- **Operations**: make continuity of service and maintenance work visible.
-- **Recruiting**: compare the capabilities advertised to the contributions actually recognised.
-- **Finance**: shed light on the means available without confusing them with the whole worth of the work.
-
 ## To discuss
 
-Which criteria make our contributions understandable, and how can a person complete the facts being examined?
+Which useful contribution went unnoticed here in recent months?

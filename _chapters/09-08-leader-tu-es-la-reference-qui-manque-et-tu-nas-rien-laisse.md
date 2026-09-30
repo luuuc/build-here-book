@@ -47,13 +47,6 @@ Ce qui sert en interne sert souvent ailleurs. Une méthode, un retour d'expérie
 
 → Chaque mois, ajoute un repère. Publie ceux qui peuvent servir hors de l'équipe.
 
-## Depuis ton siège
-
-- **Ingénierie** : complète une démonstration par les repères que le destinataire trouve utiles.
-- **Produit** : choisis un besoin de transmission avant de choisir un format.
-- **Management** : réserve le temps d'écrire dans la charge de travail.
-- **Support** : associe les personnes qui utilisent une fiche à sa mise à jour.
-
 ## À discuter
 
-Quelle question te pose-t-on le plus souvent, et où la réponse est-elle écrite ?
+Où est écrite la réponse à la question qu'on nous pose le plus souvent ?

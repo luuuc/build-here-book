@@ -46,13 +46,8 @@ Ask what backing would help. Set a check-in by the need, and stay reachable.
 
 At the check-in, look at the reasoning as much as the result. Tell your requirements apart from your preferences.
 
-## From where you sit
-
-- **Product**: explain the need and the constraints before proposing a solution.
-- **Management**: set aside time for exploration and for the agreed check-ins.
-- **Support**: share a case and accompany a peer's first analysis.
-- **Design**: offer an example as backing, not as the only acceptable answer.
+In support, the same move works between peers: hand over the analysis of a real case, and stay with them for the first one.
 
 ## To discuss
 
-Which small remit would let someone propose their own approach, and what backing are they missing?
+Which problem could we hand over this week instead of a task list?

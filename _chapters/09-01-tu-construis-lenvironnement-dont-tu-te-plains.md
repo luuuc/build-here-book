@@ -35,7 +35,7 @@ Une équipe ne tourne pas sur les valeurs affichées. Elle tourne sur les consé
 
 C'est pour ça que la passivité se lit mal de l'extérieur. Toi, tu vois une équipe sans initiative. L'équipe, elle, se souvient d'une modification annulée sans explication il y a trois mois.
 
-Tout ne vient pas de l'organisation. Un accès manquant, une semaine déjà pleine, une compétence pas encore là : ça se combine. Regarde un cas précis avant d'attribuer une cause. Mais si les quatre dernières propositions ont fini au même endroit, ce n'est pas une mauvaise semaine. C'est ce que tu as construit.
+Si les quatre dernières propositions ont fini au même endroit, ce n'est pas une mauvaise semaine. C'est ce que tu as construit.
 
 Changer la règle ne suffit pas. Les gens attendent de voir comment la première initiative est accueillie. Celle-là compte plus que l'annonce. Et si tu ne diriges pas l'équipe, pose la question, rends la contrainte visible, propose un essai : c'est déjà construire l'environnement.
 
@@ -49,13 +49,6 @@ Choisis ensuite un changement d'une taille que tu tiendras vraiment : clarifier 
 
 Après une occasion réelle de pratiquer, regarde si quelque chose a bougé.
 
-## Depuis ton siège
-
-- **Ingénierie** : nomme la dépendance qui bloque avant de parler de manque d'autonomie.
-- **Support** : apporte un cas où une proposition a reçu une suite, et un cas où elle n'en a pas reçu.
-- **Management** : dis ce que tu peux décider seul et va chercher la décision pour le reste.
-- **Recrutement** : sépare ce qui relève de l'apprentissage, des conditions de travail et du poste.
-
 ## À discuter
 
-Quelle proposition utile est morte ici sans réponse, et qu'est-ce que l'équipe en a conclu ?
+Quelle proposition utile est morte ici sans réponse ?

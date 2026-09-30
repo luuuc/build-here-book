@@ -42,13 +42,6 @@ For one search, write down the activities of the role and the capabilities to lo
 
 Compare the channels used and the stages where people leave the process. After one cycle, remove one obstacle.
 
-## From where you sit
-
-- **Recruiting**: accept evidence that fits, including with nothing published.
-- **Management**: separate what someone must already have from what the team can teach.
-- **Engineering**: prepare a bounded case that lets someone explain their reasoning.
-- **Operations**: describe the real work and the conditions it will be done under.
-
 ## To discuss
 
-Which capability are we trying to see, and how can someone with no public portfolio demonstrate it?
+How can someone with no public portfolio show us what they can do?

@@ -44,13 +44,6 @@ Sur une recherche, écris les activités du poste et les capacités à voir. Pro
 
 Compare les canaux utilisés et les étapes où les personnes quittent le parcours. Après un cycle, retire un obstacle.
 
-## Depuis ton siège
-
-- **Recrutement** : accepte des preuves adaptées, y compris sans réalisation publique.
-- **Management** : distingue les acquis indispensables de ce que l'équipe peut enseigner.
-- **Ingénierie** : prépare un cas limité qui permet d'expliquer le raisonnement.
-- **Opérations** : décris le travail réel et les conditions dans lesquelles il sera effectué.
-
 ## À discuter
 
-Quelle capacité cherchons-nous à voir, et comment une personne sans portfolio public peut-elle la démontrer ?
+Comment une personne sans portfolio public peut-elle nous montrer ce qu'elle sait faire ?
