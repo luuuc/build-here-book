@@ -48,13 +48,7 @@ Prépare la formulation, pour ne pas la chercher sous pression.
 
 Puis reviens à l'heure convenue avec la réponse ou l'état de la recherche et un prochain point réaliste. Vérifie que la personne sait ce qu'elle peut utiliser comme fait et ce qui reste incertain.
 
-## Depuis ton siège
-
-- **Ingénierie** : une estimation lâchée sous pression devient une date dans un plan. Donne la source avec.
-- **Fondateur** : tiens compte du décalage horaire du fournisseur avant de promettre une réponse.
-- **Management** : ce qui arrive à celui qui dit je ne sais pas décide si tu entendras encore la phrase.
-- **Relation client** : annonce ce que tu peux vérifier et un délai réaliste de retour.
-- **Recrutement** : demande ce que le candidat sait et comment il vérifierait le reste.
+En entretien, demande au candidat ce qu'il sait et comment il vérifierait le reste.
 
 ## À discuter
 

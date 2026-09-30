@@ -38,20 +38,14 @@ Respecter quelqu'un, c'est prendre son raisonnement assez au sérieux pour le co
 
 Tu n'as pas besoin d'une solution pour objecter. Un fait qui ne colle pas suffit. Pose-le avec sa conséquence possible, et demande le contexte qui te manque. Soit on t'explique pourquoi tu te trompes, et tu as appris. Soit la décision change, et l'équipe a évité une erreur.
 
-La décision peut rester la même après examen. Elle sera meilleure quand même : on saura pourquoi elle tient, et ce qui justifierait d'y revenir.
-
 ## À essayer
 
 Sur la prochaine décision, prépare un fait, son effet possible et une question. Dis-le avant que la décision soit prise, pas après.
 
 Si c'est toi qui conduis la discussion, reformule l'objection avant d'y répondre. Note ce qui a été examiné et pourquoi le choix tient.
 
-## Depuis ton siège
-
-- **Débutant** : apporte une observation et demande le contexte qui pourrait changer son interprétation.
-- **Collègue expérimenté** : explique ton raisonnement et ce qui te ferait le réviser.
-- **Responsable de la décision** : demande les objections avant de donner ton avis.
+Si tu es le plus expérimenté, explique ton raisonnement et ce qui te ferait le réviser. Si c'est toi qui décides, demande les objections avant de donner ton avis.
 
 ## À discuter
 
-Lors d'un désaccord récent, quel fait a changé la décision, ou l'a confirmée ?
+Lors d'un désaccord récent, quel fait a changé la décision ?

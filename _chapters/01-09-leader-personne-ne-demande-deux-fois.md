@@ -38,7 +38,7 @@ Une question sur l'objectif d'un projet reçoit une réponse dans une réunion �
 
 Tu n'as pas besoin de répondre tout de suite. Tu as besoin de dire quand. "Je regarde, tu as la réponse jeudi" suffit à garder la question vivante.
 
-Pas besoin d'un nouvel outil. Le document ou le fil où le travail se discute peut porter la question, qui la prend et la date de réponse.
+Le document ou le fil où le travail se discute suffit à porter la question, qui la prend et la date de réponse.
 
 ## La décision
 
@@ -46,12 +46,8 @@ Choisis avec l'équipe un seul endroit pour les questions qui pèsent sur une d�
 
 En fin de semaine, reprends les questions ouvertes. Vérifie que chaque réponse a atteint ceux qui en avaient besoin. Un accusé de réception organise la suite ; il ne remplace pas la réponse.
 
-## Depuis ton siège
-
-- **Produit** : garde l'objectif du travail et les questions ouvertes dans le même document.
-- **Management** : rends visible la charge nécessaire pour répondre, surtout si elle dépasse ton équipe.
-- **Relation client** : garde les mots exacts du client avec la question.
+Quand la question vient d'un client, garde ses mots exacts avec elle.
 
 ## À discuter
 
-Quelle question attend encore une réponse, et qui la donne cette semaine ?
+Quelle question attend une réponse depuis plus d'une semaine ?

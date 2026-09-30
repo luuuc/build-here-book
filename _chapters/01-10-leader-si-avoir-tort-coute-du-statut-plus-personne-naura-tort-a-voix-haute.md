@@ -46,12 +46,8 @@ Sur le prochain signalement, cherche d'abord ce qu'il faut protéger et qui peut
 
 Garde l'analyse des faits hors de l'évaluation individuelle. Après la revue, vérifie que l'action décidée a été faite, et demande à la personne si elle signalerait de nouveau.
 
-## Depuis ton siège
-
-- **Design** : rapporte un essai qui contredit une hypothèse, avec ce que tu as observé.
-- **Management** : sépare l'analyse des faits et des conditions de travail de l'évaluation individuelle.
-- **Support** : précise l'effet côté client et le moment où il a été remarqué.
+Au support, un signalement utile dit l'effet côté client et le moment où il a été remarqué. Demande ces deux faits, pas un coupable.
 
 ## À discuter
 
-Sur un incident récent, combien de temps entre l'erreur et l'alerte, et qu'est-ce qui l'a ralentie ?
+Sur un incident récent, combien de temps s'est écoulé entre l'erreur et l'alerte ?

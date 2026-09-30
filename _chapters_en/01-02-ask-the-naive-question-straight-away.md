@@ -44,12 +44,8 @@ On the next vague notion, ask for a definition and a concrete case.
 
 Say back what you understood. If the gap holds, write it in the decision note. Apparent agreement on a vague word is a disagreement waiting for its moment.
 
-## From where you sit
-
-- **Product**: give an example, with the name of the metric you use.
-- **Management**: leave room for questions, and answer without judging the person who asks.
-- **Customer relations**: compare the customer's words to the team's before you translate the request.
+In customer relations, compare the customer's words with the team's before you translate the request.
 
 ## To discuss
 
-Which word did we recently have to pin down before we could decide, and what did that change?
+Which vague word is weighing on a decision we are making right now?

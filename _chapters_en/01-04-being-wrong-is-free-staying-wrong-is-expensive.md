@@ -48,12 +48,6 @@ On that date, compare what you see to what you expected. Carry on, adjust or sto
 
 Then look back at what the correction produced. You will know whether it dealt with the problem or only moved the question.
 
-## From where you sit
-
-- **Engineering**: name the other work that depends on the technical choice.
-- **Product**: keep the date and the reason an assumption changed.
-- **Management**: take in the new facts before looking at who proposed the plan.
-
 ## To discuss
 
-Which recent fact deserves to reopen a decision, and who says so this week?
+Which recent fact deserves to reopen a decision?

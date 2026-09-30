@@ -49,12 +49,6 @@ Give yourself thirty minutes. At the end, write down what you understood, what i
 
 Next time it comes up, see whether you answer faster or better. If not, your question was too wide: narrow it.
 
-## From where you sit
-
-- **Finance**: walk through one case, including the step where you wait for a confirmation.
-- **Management**: count the inquiry in the planned workload and say what can wait.
-- **Support**: bring one precise case, followed from start to finish.
-
 ## To discuss
 
-Which question comes back every week here, and who takes thirty minutes to follow it?
+Which question comes back every week here without anyone having followed it?

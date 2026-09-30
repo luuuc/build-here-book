@@ -38,8 +38,6 @@ A job description says what is expected of you. It does not say everything you c
 
 Taking a problem does not mean keeping it for life. You sort the case in front of you, then name who handles it next time. That is often the most useful part: closing the gap, not just plugging it once.
 
-With no job and no team, the principle holds. On a first project, you see someone stuck, you offer help, you do what you said.
-
 ## Try this
 
 Pick a problem that drags between two teams. Make the smallest move that sorts it for the case in front of you.
@@ -48,12 +46,6 @@ Pick a problem that drags between two teams. Make the smallest move that sorts i
 
 Afterwards, check the need is covered and that what comes next has a name. If nobody takes it, say so plainly rather than quietly picking the task up again.
 
-## From where you sit
-
-- **Design**: show the friction to the team that owns the screen, with a proposed fix.
-- **Management**: recognise the gap that was closed, not only the planned work.
-- **Recruiting**: check who takes over with the candidate after each interview.
-
 ## To discuss
 
-Which problem drags between two teams here, and who sorts it this week?
+Which problem has been dragging between two teams here for more than a month?

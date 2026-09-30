@@ -38,8 +38,6 @@ Une fiche de poste décrit ce qu'on attend de toi. Elle ne décrit pas tout ce q
 
 Prendre un problème ne veut pas dire le garder à vie. Tu règles le cas présent, puis tu nommes qui s'en charge la prochaine fois. C'est souvent la partie la plus utile : fermer le trou, pas seulement le boucher une fois.
 
-Sans poste ni équipe, le principe tient. Sur un premier projet, tu vois quelqu'un bloqué, tu proposes ton aide, tu fais ce que tu as dit.
-
 ## À essayer
 
 Choisis un problème qui traîne entre deux équipes. Fais le plus petit geste qui le règle pour le cas présent.
@@ -48,12 +46,6 @@ Choisis un problème qui traîne entre deux équipes. Fais le plus petit geste q
 
 Après, vérifie que le besoin est couvert et que la suite a un nom. Si personne ne la prend, dis-le clairement plutôt que de reprendre la tâche en silence.
 
-## Depuis ton siège
-
-- **Design** : montre la friction à l'équipe qui possède l'écran, avec une correction proposée.
-- **Management** : reconnais le trou fermé, pas seulement le travail prévu.
-- **Recrutement** : vérifie qui prend le relais auprès du candidat après chaque entretien.
-
 ## À discuter
 
-Quel problème traîne entre deux équipes chez nous, et qui le règle cette semaine ?
+Quel problème traîne entre deux équipes chez nous depuis plus d'un mois ?

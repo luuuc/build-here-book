@@ -46,13 +46,7 @@ Have the wording ready, so you are not hunting for it under pressure.
 
 Then come back at the agreed time with the answer, or with where the search stands and a realistic next point. Check that the person knows what they can use as fact and what is still uncertain.
 
-## From where you sit
-
-- **Engineering**: an estimate dropped under pressure becomes a date in a plan. Give the source with it.
-- **Founder**: account for the vendor's time zone before promising an answer.
-- **Management**: what happens to the person who says I don't know decides whether you ever hear the sentence again.
-- **Customer relations**: say what you can check and give a realistic time to come back.
-- **Recruiting**: ask what the candidate knows and how they would check the rest.
+In an interview, ask the candidate what they know and how they would check the rest.
 
 ## To discuss
 

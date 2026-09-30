@@ -46,12 +46,8 @@ Sur la prochaine notion floue, demande une définition et un cas concret.
 
 Reformule ce que tu as compris. Si l'écart persiste, écris-le dans la note de décision. Un accord apparent sur un mot flou est un désaccord qui attend son moment.
 
-## Depuis ton siège
-
-- **Produit** : donne un exemple avec le nom de l'indicateur que tu utilises.
-- **Management** : laisse un temps aux questions et réponds sans juger la personne qui demande.
-- **Relation client** : compare les mots du client à ceux de l'équipe avant de traduire sa demande.
+En relation client, compare les mots du client à ceux de l'équipe avant de traduire sa demande.
 
 ## À discuter
 
-Quel mot avons-nous récemment dû préciser pour pouvoir décider, et qu'est-ce que cela a changé ?
+Quel mot flou pèse sur une décision que nous prenons en ce moment ?

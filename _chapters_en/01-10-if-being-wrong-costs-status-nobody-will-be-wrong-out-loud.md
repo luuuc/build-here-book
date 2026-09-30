@@ -46,12 +46,8 @@ On the next report, look first for what has to be protected and who can act. Tha
 
 Keep the analysis of the facts out of individual assessment. After the review, check that the action decided was carried out, and ask the person whether they would report again.
 
-## From where you sit
-
-- **Design**: report a test that contradicts an assumption, with what you observed.
-- **Management**: keep the analysis of facts and working conditions separate from individual assessment.
-- **Support**: say what the effect was on the customer's side and when it was noticed.
+In support, a useful report gives the effect on the customer's side and when it was noticed. Ask for those two facts, not for someone to blame.
 
 ## To discuss
 
-On a recent incident, how long between the mistake and the alert, and what slowed it down?
+On a recent incident, how long passed between the mistake and the alert?

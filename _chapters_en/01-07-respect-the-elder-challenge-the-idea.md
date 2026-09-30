@@ -36,20 +36,14 @@ Respecting someone means taking their reasoning seriously enough to challenge it
 
 You do not need a solution to object. One fact that does not fit is enough. Put it forward with its possible consequence, and ask for the context you are missing. Either someone explains why you are wrong, and you have learned. Or the decision changes, and the team has avoided a mistake.
 
-The decision can stay the same after examination. It will be better anyway: people will know why it holds, and what would justify coming back to it.
-
 ## Try this
 
 On the next decision, prepare one fact, its possible effect, and a question. Say it before the decision is made, not after.
 
 If you are running the discussion, say the objection back before you answer it. Note what was examined and why the choice holds.
 
-## From where you sit
-
-- **Newcomer**: bring an observation and ask for the context that might change how it reads.
-- **Experienced colleague**: explain your reasoning and what would make you revise it.
-- **Decision owner**: ask for the objections before you give your own view.
+If you are the experienced one, explain your reasoning and what would make you revise it. If you are the one deciding, ask for the objections before you give your own view.
 
 ## To discuss
 
-In a recent disagreement, which fact changed the decision, or confirmed it?
+In a recent disagreement, which fact changed the decision?

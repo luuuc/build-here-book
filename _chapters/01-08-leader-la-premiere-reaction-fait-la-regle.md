@@ -42,14 +42,10 @@ Choisis un type d'initiative que tu veux voir. Avec l'équipe, écris ce qui se 
 
 Sur la prochaine initiative, commence par le but et l'effet. Répare d'abord si quelque chose casse. Un mois plus tard, demande si la frontière a aidé à agir, et ajuste-la.
 
-## Depuis ton siège
-
-- **Ingénierie** : annonce ce que tu changes dans un système partagé, et comment revenir en arrière.
-- **Management** : donne un contact joignable pour le jour où l'essai atteint sa limite.
-- **Relation client** : un cas hors procédure peut signaler une exception à examiner.
+Demande à qui change un outil partagé d'annoncer le changement et la façon de revenir en arrière. Donne un contact joignable pour le jour où un essai atteint sa limite.
 
 ## À discuter
 
-Quelle initiative récente a montré que notre frontière était claire ou, au contraire, qu'il fallait la préciser ?
+Quelle initiative récente a buté sur une frontière que personne n'avait écrite ?
 
 *À vérifier ailleurs :* les travaux d'Amy Edmondson sur la sécurité psychologique et l'apprentissage en équipe figurent dans *[Déjà écrit](/references/)*.

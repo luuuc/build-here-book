@@ -48,12 +48,6 @@ Pour ton prochain choix, note trois lignes : l'hypothèse, le fait qui la mettra
 
 Relis ensuite ce que la correction a produit. Tu sauras si elle a réglé le problème ou seulement déplacé la question.
 
-## Depuis ton siège
-
-- **Ingénierie** : identifie les autres travaux qui dépendent du choix technique.
-- **Produit** : garde la date et la raison d'un changement d'hypothèse.
-- **Management** : accueille les faits nouveaux avant de regarder qui avait proposé le plan.
-
 ## À discuter
 
-Quel fait récent mérite de rouvrir une décision, et qui le dit cette semaine ?
+Quel fait récent mérite de rouvrir une décision ?

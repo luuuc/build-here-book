@@ -38,7 +38,7 @@ A question about a project's goal gets answered in a meeting of three. The peopl
 
 You do not have to answer straight away. You have to say when. "I'm looking into it, you'll have the answer Thursday" is enough to keep the question alive.
 
-No new tool needed. The document or the thread where the work is discussed can hold the question, who is taking it, and the date of the answer.
+The document or the thread where the work is discussed is enough to hold the question, who is taking it, and the date of the answer.
 
 ## The decision
 
@@ -46,12 +46,8 @@ With the team, choose one place for the questions that bear on a decision. On th
 
 At the end of the week, go back over the open questions. Check that each answer reached the people who needed it. An acknowledgement organises what comes next; it does not replace the answer.
 
-## From where you sit
-
-- **Product**: keep the goal of the work and the open questions in the same document.
-- **Management**: make the effort an answer takes visible, especially when it goes beyond your team.
-- **Customer relations**: keep the customer's exact words with the question.
+When the question comes from a customer, keep their exact words with it.
 
 ## To discuss
 
-Which question is still waiting for an answer, and who gives it this week?
+Which question has been waiting for an answer for more than a week?

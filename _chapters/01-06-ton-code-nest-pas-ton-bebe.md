@@ -34,7 +34,7 @@ Ton travail n'est pas toi. Une critique sur un message, un tableau ou un écran 
 
 Un relecteur dit que le message aux nouveaux inscrits est trop court. Tu t'apprêtes à défendre la concision. En creusant, son inquiétude porte sur l'adresse qui manque. Une ligne ajoutée règle le problème. La défense aurait coûté cette ligne.
 
-L'inverse existe. Celui qui défend un choix se souvient parfois d'une panne que tu ne connais pas. Dire qu'il est "attaché à son code" jette cette information. Demande-lui ce qu'il a vu.
+Quand c'est l'autre qui défend son choix, demande-lui ce qu'il a vu que tu n'as pas vu.
 
 Une critique n'a pas raison parce qu'elle est dite. Ramène-la à un cas : qui est gêné, dans quelle situation, avec quelle conséquence. Un cas se vérifie. Une impression se discute sans fin.
 
@@ -46,12 +46,6 @@ En demandant une relecture, nomme la question précise sur laquelle tu veux un a
 
 Sur un désaccord, reformule l'objection avant de répondre. Puis décide : ce que tu changes, ce que tu gardes, ce que tu testes. Après la prochaine utilisation, regarde si le problème revient.
 
-## Depuis ton siège
-
-- **Design** : demande ce que la personne essaie de faire devant l'écran.
-- **Management** : aide à distinguer une préférence d'un risque ou d'une contrainte vérifiable.
-- **Relation client** : apporte un exemple réel de client qui n'a pas compris.
-
 ## À discuter
 
-Quel retour récent a changé notre travail, et qu'est-ce qui l'a rendu utile ?
+Quelle critique récente avons-nous défendue au lieu de l'écouter ?

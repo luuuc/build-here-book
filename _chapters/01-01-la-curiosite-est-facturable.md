@@ -48,12 +48,6 @@ Donne-toi trente minutes. À la fin, note ce que tu as compris, ce qui reste flo
 
 À la prochaine occurrence, regarde si tu réponds plus vite ou mieux. Sinon, ta question était trop large : resserre-la.
 
-## Depuis ton siège
-
-- **Finance** : montre le parcours d'un dossier, y compris l'étape où tu attends une confirmation.
-- **Management** : compte l'enquête dans la charge prévue et dis ce qui peut attendre.
-- **Support** : apporte un cas précis, suivi du début à la fin.
-
 ## À discuter
 
-Quelle question revient chaque semaine chez nous, et qui prend trente minutes pour la suivre ?
+Quelle question revient chaque semaine chez nous sans que personne l'ait suivie ?

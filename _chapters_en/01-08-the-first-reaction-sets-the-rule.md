@@ -40,14 +40,10 @@ Choose one kind of initiative you want to see. With the team, write down what ge
 
 On the next initiative, start with the intent and the effect. Repair first if something is breaking. A month later, ask whether the boundary helped people act, and adjust it.
 
-## From where you sit
-
-- **Engineering**: announce what you change in a shared system, and how to roll it back.
-- **Management**: give a contact who can be reached the day an attempt hits its limit.
-- **Customer relations**: a case outside the procedure can flag an exception worth examining.
+Ask whoever changes a shared tool to announce the change and how to roll it back. Give a contact who can be reached the day an attempt hits its limit.
 
 ## To discuss
 
-Which recent initiative showed that our boundary was clear, or that it needed pinning down?
+Which recent initiative ran into a boundary nobody had written down?
 
 *Check it elsewhere:* Amy Edmondson's work on psychological safety and team learning is in *[Already written](/already-written/)*.
