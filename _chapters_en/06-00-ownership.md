@@ -22,7 +22,7 @@ seo:
 
 Done on your side doesn't mean solved.
 
-You delivered the new invitation. The organiser sends it out. A month later, nobody knows whether people are getting to the right place. The work is done. Nobody is following the result.
+You shipped the new payment page. Support sends it to customers. A month later, nobody knows whether the questions went down. The work is done. Nobody is following the result.
 
 Ownership means being clear about what you're taking on, how far, and who picks it up next. It means coming back to look. Breaking bad news early. Owning a bad outcome without mistaking it for a bad decision.
 

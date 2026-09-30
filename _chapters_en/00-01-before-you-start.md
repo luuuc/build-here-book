@@ -57,6 +57,6 @@ Each card carries one idea, taken from real work. Read them in order, or jump to
 
 Cards marked ⇄ are for the people who set the conditions of the work: time, access, decisions, recognition.
 
-A card only counts once you try it. Pick a move that fits in your week. Agree on the scope with the people involved. Decide what you'll watch and when you'll come back to look.
+A card only counts once you try it. Pick a move that fits in your week. Decide what you'll watch and when you'll come back to look.
 
 Then move on to the next one.

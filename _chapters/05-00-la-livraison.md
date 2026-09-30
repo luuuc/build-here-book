@@ -24,7 +24,7 @@ redirect_from:
 
 Tant que personne ne s'en sert, tu ne sais rien.
 
-Tu réécris l'invitation d'un atelier. Avant l'envoi, tu la fais lire à quelqu'un qui ne connaît pas le lieu, et tu lui demandes comment il viendrait. Il hésite sur un point. Tu corriges. Au prochain atelier, tu verras si ça a suffi.
+Tu refais la page qui explique comment payer une commande. Avant de la mettre en ligne, tu la fais lire à un client qui ne la connaît pas, et tu lui demandes comment il paierait. Il hésite sur une étape. Tu corriges. Aux prochaines commandes, tu verras si les questions au support baissent.
 
 Livrer, c'est mettre ton travail entre les mains de ceux à qui il sert : un outil, une procédure, une offre, un document, un service. C'est là que tu apprends ce que ton plan ne disait pas.
 

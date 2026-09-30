@@ -22,7 +22,7 @@ seo:
 
 Until someone uses it, you know nothing.
 
-You rewrite the invitation for a workshop. Before sending it, you have someone who doesn't know the venue read it, and ask how they'd get there. They hesitate on one point. You fix it. At the next workshop, you'll see if that was enough.
+You rework the page that explains how to pay for an order. Before putting it live, you have a customer who has never seen it read it, and ask how they'd pay. They hesitate on one step. You fix it. Over the next orders, you'll see whether questions to support drop.
 
 Delivering means putting your work in the hands of the people it's for: a tool, a procedure, an offer, a document, a service. That's where you learn what your plan didn't tell you.
 

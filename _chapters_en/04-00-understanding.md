@@ -22,7 +22,7 @@ seo:
 
 Your work starts before you and carries on after.
 
-The sign-up form works. But the front desk never gets the details, and attendees repeat on the day what they already wrote down. Nothing is broken on your side. The problem is in the handoff.
+The quote goes out on time, at the right price. But delivery never gets the terms that were agreed, and the client explains to the driver what they already signed. Nothing is broken on your side. The problem is in the handoff.
 
 Understanding means connecting what you do to what surrounds it: the person who has the problem, what they're really asking for, how they find the solution, what it costs, and who keeps it running afterwards.
 

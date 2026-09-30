@@ -22,7 +22,7 @@ seo:
 
 You get handed a task. The work is the problem behind it.
 
-You're asked to update an invitation. Reading it through, you see the venue is there, but not how to get in. The task takes five minutes. The problem will send people to the wrong door.
+You're asked to chase a client about an unpaid invoice. Opening the file, you see the invoice went to an address that's no longer right. The reminder takes five minutes. The problem will hit every invoice that client gets.
 
 Autonomy means moving forward without every step spelled out: understanding the why, proposing what comes next, deciding what's within your remit, flagging fast what isn't.
 

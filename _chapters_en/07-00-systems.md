@@ -22,7 +22,7 @@ seo:
 
 The second time a problem comes back, that's information.
 
-Volunteers take turns preparing the equipment for a workshop. Every time, something's missing, and only one person knows what. A short checklist, tried once and fixed, solves it for everyone.
+Every new client needs the same checks: contract, billing details, delivery contact. Every time, one point gets missed, and only one person knows which. A short checklist, tried once and fixed, solves it for everyone.
 
 A system is whatever makes next time easier: a checklist, a template, a rule, a tool, a person you've trained. It can be very small.
 

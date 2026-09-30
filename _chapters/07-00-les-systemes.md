@@ -22,7 +22,7 @@ seo:
 
 La deuxième fois qu'un problème revient, c'est une information.
 
-Des bénévoles préparent le matériel d'un atelier à tour de rôle. À chaque fois, il manque quelque chose, et une seule personne sait quoi. Une liste courte, essayée une fois et corrigée, règle le problème pour tout le monde.
+Chaque nouveau client demande les mêmes vérifications : contrat, coordonnées de facturation, contact de livraison. À chaque fois, un point est oublié, et une seule personne sait lequel. Une liste courte, essayée une fois et corrigée, règle le problème pour tout le monde.
 
 Un système, c'est ce qui rend la prochaine fois plus facile : une liste, un modèle, une règle, un outil, une personne formée. Ça peut être très petit.
 

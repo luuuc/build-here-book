@@ -24,7 +24,7 @@ redirect_from:
 
 Un builder seul plafonne. Le leadership, c'est ce que tu rends possible pour les autres.
 
-Deux bénévoles préparent l'accueil d'un atelier. L'une l'a déjà fait, l'autre découvre. La première confie une partie entière à la seconde, précise les limites, et laisse de la place à ses choix. Après l'atelier, elles regardent ensemble ce qui a marché.
+Deux collègues préparent la réponse à un appel d'offres. L'une l'a déjà fait, l'autre découvre. La première confie une partie entière à la seconde, précise les limites, et laisse de la place à ses choix. Après l'envoi, elles regardent ensemble ce qui a marché.
 
 Tu n'as pas besoin d'un titre pour ça. Une relecture qui apprend quelque chose, un problème confié plutôt qu'une tâche, une décision réversible laissée à quelqu'un d'autre : ça commence entre pairs.
 

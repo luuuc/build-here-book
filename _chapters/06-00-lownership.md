@@ -24,7 +24,7 @@ redirect_from:
 
 Fini de ton côté ne veut pas dire réglé.
 
-Tu as livré la nouvelle invitation. L'organisateur l'envoie. Un mois plus tard, personne ne sait si les gens arrivent au bon endroit. Le travail est fait. Le résultat, personne ne le suit.
+Tu as livré la nouvelle page de paiement. Le support la donne aux clients. Un mois plus tard, personne ne sait si les questions ont baissé. Le travail est fait. Le résultat, personne ne le suit.
 
 L'ownership, c'est dire clairement ce que tu prends en charge, jusqu'où, et qui suit ensuite. C'est revenir voir. C'est annoncer la mauvaise nouvelle tôt. C'est assumer un mauvais résultat sans le confondre avec une mauvaise décision.
 

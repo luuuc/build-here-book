@@ -56,6 +56,6 @@ Chaque carte porte une idée, tirée du travail réel. Lis-les dans l'ordre ou v
 
 Les cartes marquées ⇄ s'adressent à ceux qui fixent les conditions du travail : temps, accès, décisions, reconnaissance.
 
-Une carte ne vaut que si tu l'essaies. Prends un geste qui tient dans ta semaine. Mets-toi d'accord sur le périmètre avec les personnes concernées. Choisis ce que tu vas observer et quand tu reviendras le regarder.
+Une carte ne vaut que si tu l'essaies. Prends un geste qui tient dans ta semaine. Choisis ce que tu vas observer et quand tu reviendras le regarder.
 
 Puis passe à la suivante.

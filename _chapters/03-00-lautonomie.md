@@ -24,7 +24,7 @@ redirect_from:
 
 On te donne une tâche. Le travail, c'est le problème derrière.
 
-On te demande de mettre à jour une invitation. En la relisant, tu vois que le lieu est indiqué, mais pas comment y accéder. La tâche prend cinq minutes. Le problème, lui, fera arriver des gens au mauvais endroit.
+On te demande de relancer un client pour une facture impayée. En ouvrant le dossier, tu vois que la facture est partie à une adresse qui n'est plus la bonne. La relance prend cinq minutes. Le problème, lui, touchera chaque facture de ce client.
 
 L'autonomie, c'est avancer sans qu'on précise chaque geste : comprendre le pourquoi, proposer la suite, trancher ce qui est dans ton périmètre, signaler vite ce qui ne l'est pas.
 

@@ -27,7 +27,7 @@ redirect_from:
 
 Ton travail commence avant toi et continue après.
 
-Le formulaire d'inscription fonctionne. Mais l'accueil ne reçoit pas les informations, et les participants répètent sur place ce qu'ils ont déjà écrit. Rien n'est cassé de ton côté. Le problème est dans le passage.
+Le devis part à l'heure, avec le bon prix. Mais la livraison ne reçoit pas les conditions négociées, et le client réexplique au livreur ce qu'il a déjà signé. Rien n'est cassé de ton côté. Le problème est dans le passage.
 
 Comprendre, c'est relier ce que tu fais à ce qui l'entoure : la personne qui a le problème, ce qu'elle demande vraiment, comment elle découvre la solution, ce que ça coûte, et qui la fait tenir ensuite.
 

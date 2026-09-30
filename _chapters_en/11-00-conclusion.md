@@ -53,6 +53,6 @@ If you are starting out, begin with a person to help and a [useful first attempt
 
 For a group, propose a [session](/workshop/). To back someone, ask what help would let them try. The [templates](/templates/) serve both.
 
-The [four paths](/paths/) give you a direct way in. The [builder test](https://build-here.africa/builder-test/) gives you a level from 1 to 5 and one practice to try. You do not have to finish the book to start.
+The [four paths](/paths/) give you a direct way in. The [builder test](https://build-here.africa/builder-test/) gives you a level from 1 to 5 and one practice to try. Start before you finish the book.
 
 **Choose one thing to try this week. Do it, then come back and see what it changed.**

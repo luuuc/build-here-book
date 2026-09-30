@@ -22,7 +22,7 @@ seo:
 
 A builder on their own hits a ceiling. Leadership is what you make possible for others.
 
-Two volunteers are preparing the welcome for a workshop. One has done it before, the other is new. The first hands a whole part to the second, sets the limits, and leaves room for their choices. After the workshop, they look together at what worked.
+Two colleagues are preparing a response to a tender. One has done it before, the other is new. The first hands a whole part to the second, sets the limits, and leaves room for their choices. After it goes out, they look together at what worked.
 
 You don't need a title for this. A review that teaches something, a problem handed over instead of a task, a reversible decision left to someone else: it starts between peers.
 
