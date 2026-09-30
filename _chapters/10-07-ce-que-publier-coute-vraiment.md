@@ -46,13 +46,6 @@ Prends un retour d'expérience que tu n'as pas publié. Écris-le en une heure, 
 
 Relis-le avec une seule question : qu'est-ce qui, ici, ne m'appartient pas ? Retire-le. Publie le reste cette semaine.
 
-## Depuis ton siège
-
-- **Ingénierie** : vérifie aussi ce que les détails techniques permettent de déduire.
-- **Produit** : distingue un exemple fictif d'une mesure réellement observée.
-- **Management** : écris une fois ce qui ne se publie pas, pour que chacun n'ait pas à le demander.
-- **Relation client** : signale les engagements clients qui limitent ce qu'on peut dire.
-
 ## À discuter
 
-Quel retour d'expérience utile dort chez nous, et que faudrait-il en retirer pour le publier ?
+Quel retour d'expérience utile dort chez nous ?

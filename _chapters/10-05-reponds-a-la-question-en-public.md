@@ -45,13 +45,8 @@ La prochaine fois qu'on te pose une question, réponds, puis écris la version r
 
 À la question suivante, envoie le lien. Corrige ce qui manque.
 
-## Depuis ton siège
-
-- **Ingénierie** : précise les versions ou conditions nécessaires à l'usage de la réponse.
-- **Support** : distingue le cas individuel d'une explication réutilisable.
-- **Management** : prévois le temps d'écrire et d'entretenir ces réponses.
-- **Produit** : vérifie qu'une réponse conservée reste cohérente avec le service actuel.
+Quand le service change, relis les réponses publiées qui en parlent.
 
 ## À discuter
 
-Quelle question répondons-nous encore en privé chaque semaine ?
+À quelle question répondons-nous encore en privé chaque semaine ?

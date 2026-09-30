@@ -34,7 +34,7 @@ The work counts here. The name attached to it is yours. Whoever built it learns 
 
 The reason rarely said out loud fits in one sentence: if I show them, someone takes them. It sounds careful. But people leave over pay, load, a relationship, an opening, and a name on a slide does not decide a departure on its own. Keeping someone invisible to keep them is paying for their loyalty with their career.
 
-A collective voice can have good reasons: a brand, a client, a confidential subject. The problem is not "we". It is "we" by default, that nobody chose.
+The problem is not "we". It is "we" by default, that nobody chose.
 
 A team prepares a presentation of a joint project. Two people want to speak, a third prefers a collective mention. They agree together on what can be shown and who gets named. The third is credited for her work. She does not have to go on stage to get the same backing.
 
@@ -48,13 +48,6 @@ Settle the credits before the presentation, not after. Credit the work that stay
 
 Afterwards, ask what it brought, what it cost, and whether each person would do it again. Handle questions of role and progression separately.
 
-## From where you sit
-
-- **Management**: separate contributing to the work from wanting to speak about it.
-- **Design**: have the content and the credits confirmed before presenting collective work.
-- **Customer relations**: offer conversations that were accepted, without exposing a relationship by default.
-- **Recruiting**: describe the real conditions and accept capability with no public visibility.
-
 ## To discuss
 
-On the last piece of work we showed outside, whose names went out, and who decided?
+On the last piece of work we showed outside, whose names went out?

@@ -45,13 +45,6 @@ Ask someone it is for where they would look for the answer, without giving them 
 
 Fix the title, add entry links, publish where they looked. Do it again with someone else.
 
-## From where you sit
-
-- **Support**: bring the words used by the people looking for help.
-- **Design**: examine the route between the question and the useful resource.
-- **Engineering**: check that the page is readable by search engines and AI assistants, and that its address is stable.
-- **Management**: assign the upkeep of a resource the team uses over time.
-
 ## To discuss
 
-By what route does a recipient find this resource, and where have we actually checked that?
+By what route does a reader actually find our most useful resource?

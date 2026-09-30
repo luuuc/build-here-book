@@ -34,7 +34,7 @@ Deux articles racontent la même migration. Le premier annonce un temps de répo
 
 Écrire pour rester visible a un coût discret. Le temps passé à entretenir une audience est pris sur le travail qui donne quelque chose à dire. Au bout d'un an, tu commentes un métier que tu pratiques de moins en moins.
 
-Ce n'est pas une invitation à te taire. Minimiser un résultat réel trompe autant que le gonfler. Dis ce que tu as fait, à sa taille.
+Minimiser un résultat réel trompe autant que le gonfler. Dis ce que tu as fait, à sa taille.
 
 ## À essayer
 
@@ -42,12 +42,8 @@ Reprends ton dernier texte ou ta dernière présentation sur ton travail. Pour c
 
 Au prochain texte, ajoute une ligne sur ce que tu ne sais pas encore. Si tu n'as rien construit depuis le dernier, n'écris pas le suivant.
 
-## Depuis ton siège
-
-- **Ingénierie** : sépare ce qui a été mesuré en production de ce qui a été essayé en local.
-- **Management** : quand tu présentes le travail de l'équipe dehors, ne le rends pas plus propre qu'il n'était.
-- **Recrutement** : une ligne « ce qui n'a pas marché » dans un dossier est un signal, pas un défaut.
+Si tu présentes le travail de ton équipe dehors, même règle : ne le rends pas plus propre qu'il n'était. En recrutement, une ligne « ce qui n'a pas marché » dans un dossier est un signal, pas un défaut.
 
 ## À discuter
 
-Quel texte nous a le plus servi, et qu'est-ce qu'il admettait ?
+Qu'admettait le texte qui nous a le plus servi ?

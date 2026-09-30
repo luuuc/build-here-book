@@ -47,13 +47,6 @@ Si tu prépares un départ, liste les activités en cours, les décisions ouvert
 
 Fais accepter chaque relais par la personne qui le reprend. Fixe la date où ton intervention s'arrête.
 
-## Depuis ton siège
-
-- **Produit** : transmets les décisions ouvertes et le contexte utile à leur suite.
-- **Opérations** : vérifie les relais acceptés et les activités qui doivent être adaptées.
-- **Management** : prévois la continuité avec les moyens disponibles et des limites explicites.
-- **Recrutement** : décris les besoins du relais sans exiger une copie de la personne qui part.
-
 ## À discuter
 
-Quel relais demandons-nous réellement lors d'un départ, et quelles décisions restent à la charge du collectif ?
+Que demandons-nous vraiment à quelqu'un qui part ?

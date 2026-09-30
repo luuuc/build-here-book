@@ -45,13 +45,6 @@ Prends la dernière chose que tu as partagée. Demande à quelqu'un ce qu'il pou
 
 Ajoute ce qui manque : un exemple, un modèle, un chiffre avec sa méthode. Retire ce qui n'est qu'avis.
 
-## Depuis ton siège
-
-- **Ingénierie** : indique le contexte nécessaire pour examiner un exemple technique.
-- **Design** : explique ce qui a été observé et ce qui reste une interprétation.
-- **Finance** : donne le périmètre et les hypothèses d'un chiffre partagé.
-- **Recrutement** : demande l'artefact derrière l'avis : le cas, le modèle, le chiffre.
-
 ## À discuter
 
-Quelle conclusion gagnerait à être accompagnée d'un exemple ou d'une limite pour aider son lecteur ?
+Quelle conclusion avons-nous partagée sans rien que le lecteur puisse reprendre ?

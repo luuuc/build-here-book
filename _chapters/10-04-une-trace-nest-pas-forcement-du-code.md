@@ -35,7 +35,7 @@ Chaque métier a ses traces. En finance, un exemple de calcul avec ses hypothès
 
 Une personne aux opérations écrit une fiche pour accueillir un nouveau prestataire : les informations à vérifier, le cas qui pose problème, qui prévenir. Un collègue l'essaie et signale un point flou. Corrigée, elle sert à toute l'équipe, puis à d'autres équipes qui ont le même besoin.
 
-Tu n'as pas besoin d'être le premier. Une adaptation à ton contexte, une traduction, un exemple plus simple aident quelqu'un que l'original n'aidait pas. Cite ce qui vient d'ailleurs.
+Une adaptation à ton contexte, une traduction, un exemple plus simple aident quelqu'un que l'original n'aidait pas. Cite ce qui vient d'ailleurs.
 
 Publier ces traces a toujours été possible. C'est aujourd'hui rapide : une page, un document partagé, une publication sur un réseau professionnel. Une IA t'aide à mettre en forme ; le contenu, c'est toi.
 
@@ -45,13 +45,6 @@ Choisis une question qu'on te pose souvent. Écris la trace qui y répond, dans 
 
 Fais-la essayer par quelqu'un, corrige, puis publie-la là où ceux qui ont la même question la trouveront.
 
-## Depuis ton siège
-
-- **Opérations** : explique un parcours avec ses points de vigilance et ses relais.
-- **Finance** : prépare un exemple dont les hypothèses sont compréhensibles.
-- **Support** : publie un cas utile avec son contexte, sans les données du client.
-- **Design** : rends un choix lisible, avec ses raisons.
-
 ## À discuter
 
-Quelle trace de notre métier aiderait d'autres équipes, et où la publier ?
+Quelle trace de notre métier aiderait d'autres équipes ?

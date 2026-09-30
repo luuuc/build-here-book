@@ -37,7 +37,7 @@ Les livres et les articles de ton métier viennent surtout d'ailleurs, écrits d
 
 Une équipe adapte sa procédure de support quand la connexion est intermittente : ce qui doit rester disponible, comment passer le relais, ce qui ne marche toujours pas. Publiée, cette page aide d'autres équipes dans la même situation, ici et dans d'autres pays.
 
-Pas besoin d'être entièrement nouveau. Une adaptation, un exemple local, une limite que tu as observée dans une méthode connue : c'est déjà une contribution. Cite ce qui t'a aidé, et dis ce que ton contexte change.
+Une adaptation, un exemple local, une limite que tu as observée dans une méthode connue : c'est une contribution. Cite ce qui t'a aidé, et dis ce que ton contexte change.
 
 Décris les conditions, pas un pays. "Connexion coupée plusieurs fois par jour" aide le lecteur à juger si ton expérience s'applique à lui. "Ici, c'est différent" ne l'aide pas.
 
@@ -47,13 +47,6 @@ Choisis une difficulté que tu as appris à résoudre dans ton contexte. Cherche
 
 Écris ce que ton expérience confirme, nuance ou ajoute : le contexte, les choix, ce qui a marché, les limites. Publie-le.
 
-## Depuis ton siège
-
-- **Ingénierie** : explique les conditions et les compromis d'une solution technique.
-- **Design** : décris les conditions d'accès observées, sans les généraliser à tous les utilisateurs.
-- **Support** : apporte un cas avec son contexte, et cite les pratiques déjà connues.
-- **Management** : aide à choisir le sujet et donne le temps d'écrire.
-
 ## À discuter
 
-Quelle expérience de notre contexte n'est écrite nulle part, et qui l'écrit ce mois-ci ?
+Qui écrit ce mois-ci ce que nous avons appris à faire tenir ici ?

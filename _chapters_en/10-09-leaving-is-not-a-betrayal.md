@@ -44,13 +44,6 @@ If you are preparing to leave, list the activities under way, the open decisions
 
 Have each handover accepted by the person taking it. Set the date your involvement ends.
 
-## From where you sit
-
-- **Product**: hand over the open decisions and the context needed to take them.
-- **Operations**: check the handovers that were accepted and the activities that have to be adapted.
-- **Management**: plan continuity with the means available and explicit limits.
-- **Recruiting**: describe what the handover needs without asking for a copy of the person leaving.
-
 ## To discuss
 
-What are we actually asking for in a handover when someone leaves, and which decisions stay with the group?
+What do we actually ask of someone who leaves?

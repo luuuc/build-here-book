@@ -45,15 +45,10 @@ Lead by example. Publish one of the team's lessons learned yourself, crediting t
 
 → Name who answers doubts, and commit to a response time.
 
+→ Have the page read by customer relations, for the commitments made, and by engineering, for the technical details that stay in.
+
 → After three months, look at what got published and ask what blocked the rest.
-
-## From where you sit
-
-- **Management**: write the rule and answer doubts fast.
-- **Product**: prepare concrete content rather than a general request to publish.
-- **Customer relations**: bring the customer commitments the rule has to include.
-- **Engineering**: flag the technical details that must not go out.
 
 ## To discuss
 
-Does everyone know what they can publish without asking, and who to ask otherwise?
+Does everyone know what they can publish without asking?

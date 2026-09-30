@@ -35,7 +35,7 @@ Le travail compte ici. Le nom qui l'accompagne, c'est le tien. Celui qui a const
 
 La raison qu'on donne rarement tient en une phrase : si je les montre, on me les prend. Elle a l'air prudente. Mais les gens partent pour un salaire, une charge, une relation, une occasion, et un nom sur une diapositive ne décide pas seul d'un départ. Garder quelqu'un invisible pour le garder, c'est payer sa loyauté avec sa carrière.
 
-Une voix collective peut avoir de bonnes raisons, une marque, un client, un sujet confidentiel. Le problème n'est pas le « nous ». C'est le « nous » par défaut, que personne n'a choisi.
+Le problème n'est pas le « nous ». C'est le « nous » par défaut, que personne n'a choisi.
 
 Une équipe prépare la présentation d'un projet commun. Deux personnes veulent prendre la parole, une troisième préfère une mention collective. Elles fixent ensemble ce qui peut être montré et qui sera cité. La troisième est créditée pour son travail. Elle n'a pas à monter sur scène pour recevoir le même soutien.
 
@@ -49,13 +49,6 @@ Fixe les mentions avant la présentation, pas après. Crédite aussi le travail 
 
 Après, demande ce que ça a apporté, ce que ça a coûté et si chacun veut recommencer. Traite à part les questions de rôle et d'évolution.
 
-## Depuis ton siège
-
-- **Management** : distingue contribution au travail et volonté de prendre la parole.
-- **Design** : fais confirmer le contenu et les mentions avant de présenter un travail collectif.
-- **Relation client** : propose des échanges acceptés sans exposer une relation par défaut.
-- **Recrutement** : décris les conditions réelles et accepte des capacités sans visibilité publique.
-
 ## À discuter
 
-Sur le dernier travail que nous avons montré à l'extérieur, quels noms sont sortis, et qui l'a décidé ?
+Sur le dernier travail montré à l'extérieur, quels noms sont sortis ?

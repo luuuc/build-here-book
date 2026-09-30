@@ -45,13 +45,6 @@ Demande à une personne concernée où elle chercherait la réponse, sans lui do
 
 Corrige le titre, ajoute les liens d'entrée, publie là où elle a cherché. Recommence avec une autre personne.
 
-## Depuis ton siège
-
-- **Support** : apporte les mots utilisés par les personnes qui cherchent de l'aide.
-- **Design** : examine le parcours entre la question et la ressource utile.
-- **Ingénierie** : vérifie que la page est lisible par les moteurs et les assistants IA, et que son adresse est stable.
-- **Management** : attribue l'entretien d'une ressource que l'équipe utilise durablement.
-
 ## À discuter
 
-Par quel chemin un destinataire trouve-t-il cette ressource, et où l'avons-nous réellement vérifié ?
+Par quel chemin un lecteur trouve-t-il vraiment notre ressource la plus utile ?

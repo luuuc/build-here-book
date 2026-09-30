@@ -44,13 +44,6 @@ Prends une ressource utile que tu as faite. Ajoute ton nom, les contributeurs, l
 
 Publie-la là où ses lecteurs la trouveront. Demande à un lecteur s'il sait à qui s'adresser, et corrige.
 
-## Depuis ton siège
-
-- **Produit** : distingue les contributions à une décision et à sa mise en pratique.
-- **Design** : précise le contexte et les limites d'un exemple partagé.
-- **Management** : crédite nommément les contributions collectives et peu visibles.
-- **Recrutement** : regarde les travaux signés, et accepte aussi ceux qui ne le sont pas.
-
 ## À discuter
 
-Sur nos ressources les plus utiles, qui est cité, et qui devrait l'être ?
+Qui manque parmi les noms cités sur nos ressources les plus utiles ?

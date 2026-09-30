@@ -35,7 +35,7 @@ The books and articles in your trade mostly come from elsewhere, written under o
 
 A team adapts its support procedure for when the connection is intermittent: what has to stay available, how to hand over, what still does not work. Published, that page helps other teams in the same situation, here and in other countries.
 
-It does not have to be entirely new. An adaptation, a local example, a limit you observed in a known method: that is already a contribution. Cite what helped you, and say what your context changes.
+An adaptation, a local example, a limit you observed in a known method: that is a contribution. Cite what helped you, and say what your context changes.
 
 Describe the conditions, not a country. "Connection drops several times a day" helps the reader judge whether your experience applies to them. "It's different here" does not.
 
@@ -45,13 +45,6 @@ Pick a difficulty you learned to solve in your context. Spend twenty minutes loo
 
 Write what your experience confirms, qualifies or adds: the context, the choices, what worked, the limits. Publish it.
 
-## From where you sit
-
-- **Engineering**: explain the conditions and trade-offs behind a technical solution.
-- **Design**: describe the conditions of access you observed, without generalising to all users.
-- **Support**: bring a case with its context, and cite the practices already known.
-- **Management**: help choose the subject and give the time to write.
-
 ## To discuss
 
-Which experience from our context is written down nowhere, and who writes it this month?
+Who writes down this month what we have learned to make work here?

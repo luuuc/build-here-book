@@ -44,13 +44,6 @@ Take a useful resource you made. Add your name, the contributors, the date, the 
 
 Publish it where its readers will find it. Ask a reader whether they know who to contact, and fix what is unclear.
 
-## From where you sit
-
-- **Product**: separate contributions to a decision from contributions to putting it into practice.
-- **Design**: state the context and the limits of a shared example.
-- **Management**: credit collective and barely visible contributions by name.
-- **Recruiting**: look at signed work, and accept work that is not signed too.
-
 ## To discuss
 
-On our most useful resources, who is credited, and who should be?
+Whose name is missing from our most useful resources?

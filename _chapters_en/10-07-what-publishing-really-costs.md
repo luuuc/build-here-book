@@ -44,13 +44,6 @@ Take an account you have not published. Write it in an hour, with an AI if it he
 
 Read it with one question: what here is not mine? Remove it. Publish the rest this week.
 
-## From where you sit
-
-- **Engineering**: check what the technical details let someone deduce, too.
-- **Product**: tell a fictional example apart from a measure actually observed.
-- **Management**: write down once what does not get published, so nobody has to ask each time.
-- **Customer relations**: flag the customer commitments that limit what can be said.
-
 ## To discuss
 
-Which useful account is sitting unpublished here, and what would we need to remove to publish it?
+Which useful account is sitting unpublished here?

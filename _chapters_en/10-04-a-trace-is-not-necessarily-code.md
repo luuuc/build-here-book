@@ -34,7 +34,7 @@ Every trade has its traces. In finance, a worked calculation with its assumption
 
 Someone in operations writes a sheet for welcoming a new supplier: the information to check, the case that causes trouble, who to alert. A colleague tries it and flags something unclear. Once fixed, it serves the whole team, then other teams with the same need.
 
-You do not have to be first. An adaptation to your context, a translation, a simpler example help someone the original did not. Credit what comes from elsewhere.
+An adaptation to your context, a translation, a simpler example help someone the original did not. Credit what comes from elsewhere.
 
 Publishing these traces has always been possible. Today it is fast: a page, a shared document, a post on a professional network. An AI helps with the shaping; the content is yours.
 
@@ -44,13 +44,6 @@ Pick a question you get asked often. Write the trace that answers it, in your tr
 
 Have someone try it, fix it, then publish it where people with the same question will find it.
 
-## From where you sit
-
-- **Operations**: explain a flow with its watch points and its handovers.
-- **Finance**: prepare an example whose assumptions are understandable.
-- **Support**: publish a useful case with its context, without the customer's data.
-- **Design**: make a choice legible, with its reasons.
-
 ## To discuss
 
-Which trace from our trade would help other teams, and where should we publish it?
+Which trace from our trade would help other teams?

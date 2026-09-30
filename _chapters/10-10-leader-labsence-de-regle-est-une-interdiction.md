@@ -46,15 +46,10 @@ Montre l'exemple. Publie toi-même un retour d'expérience de l'équipe, en cita
 
 → Nomme qui répond aux doutes, et engage-toi sur un délai.
 
+→ Fais relire la page par la relation client, pour les engagements pris, et par l'ingénierie, pour les détails techniques qui ne sortent pas.
+
 → Au bout de trois mois, regarde ce qui a été publié et demande ce qui a bloqué le reste.
-
-## Depuis ton siège
-
-- **Management** : écris la règle et réponds vite aux doutes.
-- **Produit** : prépare un contenu concret plutôt qu'une demande générale de publier.
-- **Relation client** : apporte les engagements clients à inscrire dans la règle.
-- **Ingénierie** : signale les détails techniques qui ne doivent pas sortir.
 
 ## À discuter
 
-Chacun sait-il ce qu'il peut publier sans demander, et à qui poser la question sinon ?
+Chacun sait-il ce qu'il peut publier sans demander ?

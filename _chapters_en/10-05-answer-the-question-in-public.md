@@ -45,12 +45,7 @@ The next time someone asks you a question, answer it, then write the reusable ve
 
 At the next similar question, send the link. Fix what is missing.
 
-## From where you sit
-
-- **Engineering**: state the versions or conditions the answer depends on.
-- **Support**: tell an individual case apart from a reusable explanation.
-- **Management**: plan the time to write and maintain these answers.
-- **Product**: check that a saved answer still matches the current service.
+When the service changes, reread the published answers that cover it.
 
 ## To discuss
 

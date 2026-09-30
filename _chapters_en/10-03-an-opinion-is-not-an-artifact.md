@@ -45,13 +45,6 @@ Take the last thing you shared. Ask someone what they could redo with it.
 
 Add what is missing: an example, a template, a number with its method. Remove what is only opinion.
 
-## From where you sit
-
-- **Engineering**: give the context needed to examine a technical example.
-- **Design**: explain what was observed and what is still an interpretation.
-- **Finance**: give the scope and the assumptions behind a shared figure.
-- **Recruiting**: ask for the artifact behind the opinion: the case, the template, the number.
-
 ## To discuss
 
-Which conclusion would gain from an example or a limit alongside it, to help its reader?
+Which conclusion did we share with nothing the reader could pick up?

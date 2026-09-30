@@ -34,7 +34,7 @@ Two posts describe the same migration. The first announces response times cut by
 
 Writing to stay visible has a quiet cost. The time spent keeping an audience fed comes out of the work that gives you something to say. A year later, you are commenting on a craft you practise less and less.
 
-This is not an invitation to go quiet. Shrinking a real result misleads as much as inflating it. Say what you did, at its actual size.
+Shrinking a real result misleads as much as inflating it. Say what you did, at its actual size.
 
 ## Try this
 
@@ -42,12 +42,8 @@ Take your last post or talk about your work. For each claim, note whether you me
 
 In the next one, add a line on what you don't know yet. If you haven't built anything since the last one, don't write the next.
 
-## From where you sit
-
-- **Engineering**: separate what was measured in production from what was tried locally.
-- **Management**: when you present the team's work outside, don't make it cleaner than it was.
-- **Recruiting**: a "what didn't work" line in a portfolio is a signal, not a flaw.
+If you present your team's work outside, same rule: don't make it cleaner than it was. In recruiting, a "what didn't work" line in a portfolio is a signal, not a flaw.
 
 ## To discuss
 
-Which piece of writing helped us most, and what did it admit?
+What did the piece of writing that helped us most admit?
