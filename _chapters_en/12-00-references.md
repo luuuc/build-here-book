@@ -9,7 +9,7 @@ translations:
   fr: /livre/chapitres/12-00-references.html
 ---
 
-These references illuminate the ideas in the book. They come mostly from management, software and working with AI; three tell what has been built here.
+These references illuminate the ideas in the book. They come mostly from management, software and working with AI; three tell what has been built under constraint.
 
 - 1911. Frederick Winslow Taylor, *The Principles of Scientific Management*. [Full text](https://www.gutenberg.org/cache/epub/6435/pg6435-images.html)
 
