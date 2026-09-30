@@ -46,12 +46,7 @@ Give yourself an hour. Show it to three people it concerns and note what they do
 
 Arrive at the meeting with the version and the three observations. See how long the decision takes this time.
 
-## From where you sit
-
-- **Sales**: try the new pitch on two customers before proposing it to the whole team.
-- **Finance**: show the model that works instead of describing the one you would like to build.
-- **Design**: have the mockup tested before you present it.
-- **Management**: write down what cannot be undone. Everything else can be tried without asking you.
+If you lead a team, write down what cannot be undone. Everything else can be tried without asking you.
 
 ## To discuss
 

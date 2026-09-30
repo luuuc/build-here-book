@@ -48,13 +48,8 @@ Fais choisir. Si un raccourci est retenu, note ce qu'il coûtera à reprendre et
 
 Après la livraison, vérifie que la réduction a gardé l'essentiel.
 
-## Depuis ton siège
-
-- **Design** : garde un parcours utilisable dans le périmètre réduit.
-- **Opérations** : précise les protections et la charge de la solution temporaire.
-- **Management** : arbitre aussi le délai et les moyens, pas seulement le périmètre.
-- **Relation client** : fais confirmer les limites avant de les annoncer.
+Garde un parcours utilisable de bout en bout dans le périmètre réduit. En relation client, fais confirmer les limites avant de les annoncer.
 
 ## À discuter
 
-Quelle partie pouvons-nous réduire, et quelles protections devons-nous garder pour que l'essai reste utile ?
+Quelle protection ne devons-nous jamais couper, même pour tenir une date ?

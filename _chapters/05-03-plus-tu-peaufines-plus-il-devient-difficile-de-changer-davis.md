@@ -32,7 +32,7 @@ Montre-la maintenant, avec juste assez de finition pour qu'on la comprenne.
 
 Plus tu investis dans une version, plus il devient dur d'entendre qu'elle n'est pas la bonne. Après trois semaines de mise en forme, "ce n'est pas ce qu'il faut" devient insupportable à entendre. Après deux heures de brouillon, c'est un retour utile.
 
-Sépare ce qui sert à tester l'idée de ce qui peut attendre. Tu prépares un guide d'accueil pour les nouveaux arrivants de l'équipe. Avant de soigner la mise en page, fais lire et essayer un seul parcours par la prochaine personne qui arrive. Des consignes lisibles sont nécessaires ; une identité graphique ne l'est pas encore. Quand une version brute se fait en une heure, la peaufiner avant de la montrer vaut rarement la peine.
+Sépare ce qui sert à tester l'idée de ce qui peut attendre. Tu prépares un guide d'accueil pour les nouveaux arrivants de l'équipe. Avant de soigner la mise en page, fais lire et essayer un seul parcours par la prochaine personne qui arrive. Des consignes lisibles sont nécessaires ; une identité graphique ne l'est pas encore. Quand une version brute se fait en une heure, la peaufiner avant de la montrer est du temps perdu.
 
 Montre-la à des personnes qui vont vraiment s'en servir. Dis ce qui est provisoire. Les gens pardonnent un brouillon honnête ; ils ne pardonnent pas une version finie qui ne répond pas à leur besoin.
 
@@ -44,13 +44,6 @@ Choisis la question ouverte. Prépare la version la plus brute qui permet d'y r�
 
 Regarde ce qu'elles font et où elles bloquent. Puis décide : améliorer, vérifier autrement, ou arrêter. Note pourquoi.
 
-## Depuis ton siège
-
-- **Design** : identifie la finition nécessaire pour rendre l'essai compréhensible.
-- **Produit** : choisis un signe pertinent pour la fréquence réelle du besoin.
-- **Relation client** : propose l'essai aux clients volontaires et reste disponible pendant.
-- **Management** : salue un changement de direction après un retour, pas seulement une livraison soignée.
-
 ## À discuter
 
-Quelle finition aide à répondre à notre question, et laquelle peut attendre ce retour ?
+Qu'est-ce que nous peaufinons en ce moment avant de l'avoir montré ?

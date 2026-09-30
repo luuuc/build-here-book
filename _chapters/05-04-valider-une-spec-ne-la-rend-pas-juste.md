@@ -48,13 +48,6 @@ Dans un document de travail, ajoute l'hypothèse qui compte le plus :
 
 Au retour, mets le document à jour, que l'hypothèse tienne ou non.
 
-## Depuis ton siège
-
-- **Ingénierie** : rapporte un cas reproductible et ses conséquences pour le périmètre.
-- **Produit** : distingue une hypothèse d'usage d'une exigence à respecter.
-- **Management** : dis qui peut accepter un changement, et réponds vite.
-- **Relation client** : apporte le contexte du retour sans le généraliser à tous les clients.
-
 ## À discuter
 
-Quelle hypothèse d'un document mérite d'être vérifiée, et quelle exigence doit d'abord être comprise ?
+Quel document validé contient une hypothèse que l'usage a déjà démentie ?

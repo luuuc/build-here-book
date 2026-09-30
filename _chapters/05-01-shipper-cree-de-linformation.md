@@ -48,13 +48,8 @@ Sur un changement en cours, note :
 
 Livre-la cette semaine. Après, sépare ce que tu as vu de ce que tu en conclus. Continue, modifie ou arrête.
 
-## Depuis ton siège
-
-- **Design** : choisis un essai qui permet d'observer une action, pas seulement une opinion.
-- **Opérations** : prépare le retour en arrière avant de modifier le service.
-- **Management** : réserve du temps pour regarder le résultat, pas seulement pour livrer.
-- **Recrutement** : demande ce qu'un essai a appris, sans classer les candidats par fréquence.
+Aux opérations, prépare le retour en arrière avant de modifier le service.
 
 ## À discuter
 
-Quelle question notre prochaine livraison doit-elle éclairer, et comment saurons-nous si elle l'a fait ?
+Quelle question notre prochaine livraison doit-elle éclairer ?

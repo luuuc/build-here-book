@@ -46,12 +46,7 @@ Donne-toi une heure. Montre-la à trois personnes concernées et note ce qu'elle
 
 Arrive à la réunion avec la version et les trois observations. Regarde combien de temps la décision prend cette fois.
 
-## Depuis ton siège
-
-- **Vente** : essaie la nouvelle présentation sur deux clients avant de la proposer à toute l'équipe.
-- **Finance** : montre le modèle qui marche au lieu de décrire celui que tu voudrais faire.
-- **Design** : fais tester la maquette avant de la présenter.
-- **Management** : écris ce qui ne se défait pas. Tout le reste peut s'essayer sans te demander.
+Si tu diriges une équipe, écris ce qui ne se défait pas. Tout le reste s'essaie sans te demander.
 
 ## À discuter
 

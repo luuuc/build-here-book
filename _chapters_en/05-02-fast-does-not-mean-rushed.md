@@ -46,13 +46,8 @@ Have one chosen. If a shortcut is kept, write down what it will cost to undo and
 
 After delivery, check that cutting the scope kept what mattered.
 
-## From where you sit
-
-- **Design**: keep a usable flow inside the reduced scope.
-- **Operations**: name the protections and the load the temporary fix creates.
-- **Management**: trade the deadline and the means too, not only the scope.
-- **Customer relations**: get the limits confirmed before you announce them.
+Keep a flow that works end to end inside the reduced scope. In customer relations, get the limits confirmed before you announce them.
 
 ## To discuss
 
-Which part can we cut, and which protections do we have to keep for the attempt to stay useful?
+Which protection must we never cut, even to hold a date?

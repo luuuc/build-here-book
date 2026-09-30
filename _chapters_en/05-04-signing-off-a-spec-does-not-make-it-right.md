@@ -46,13 +46,6 @@ In a working document, add the assumption that matters most:
 
 When the feedback comes, update the document, whether the assumption held or not.
 
-## From where you sit
-
-- **Engineering**: report a reproducible case and what it means for the scope.
-- **Product**: tell an assumption about use apart from a requirement to respect.
-- **Management**: say who can accept a change, and answer fast.
-- **Customer relations**: bring the context of the feedback without generalising it to every customer.
-
 ## To discuss
 
-Which assumption in a document deserves checking, and which requirement has to be understood first?
+Which signed-off document holds an assumption that use has already disproved?

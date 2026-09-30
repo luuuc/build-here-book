@@ -48,13 +48,8 @@ On a change in progress, write:
 
 Ship it this week. Afterwards, separate what you saw from what you conclude. Carry on, change, or stop.
 
-## From where you sit
-
-- **Design**: choose an attempt that lets you observe an action, not only an opinion.
-- **Operations**: prepare the rollback before changing the service.
-- **Management**: set aside time to look at the result, not only to ship.
-- **Recruiting**: ask what an attempt taught, without ranking candidates by frequency.
+In operations, prepare the rollback before you change the service.
 
 ## To discuss
 
-Which question does our next delivery have to inform, and how will we know whether it did?
+Which question does our next delivery have to answer?

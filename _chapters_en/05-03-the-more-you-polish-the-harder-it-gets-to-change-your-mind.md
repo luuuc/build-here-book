@@ -30,7 +30,7 @@ Show it now, with just enough finish for people to understand it.
 
 The more you invest in a version, the harder it gets to hear it is the wrong one. After three weeks of polish, "this isn't what we need" is unbearable to hear. After two hours of draft, it is useful feedback.
 
-Separate what tests the idea from what can wait. You are preparing a welcome guide for people joining the team. Before working on the layout, have the next person who joins read and try one route through it. Legible instructions are necessary; a visual identity is not, yet. When a rough version takes an hour to make, polishing it before you show it is rarely worth it.
+Separate what tests the idea from what can wait. You are preparing a welcome guide for people joining the team. Before working on the layout, have the next person who joins read and try one route through it. Legible instructions are necessary; a visual identity is not, yet. When a rough version takes an hour to make, polishing it before you show it is wasted time.
 
 Show it to people who will actually use it. Say what is provisional. People forgive an honest draft; they do not forgive a finished version that misses their need.
 
@@ -42,13 +42,6 @@ Pick the open question. Prepare the roughest version that can answer it, and sho
 
 Watch what they do and where they get stuck. Then decide: improve, check another way, or stop. Write down why.
 
-## From where you sit
-
-- **Design**: identify the finish needed to make the attempt understandable.
-- **Product**: choose a sign that fits the real frequency of the need.
-- **Customer relations**: offer the trial to willing customers and stay available during it.
-- **Management**: praise a change of direction after feedback, not only a polished delivery.
-
 ## To discuss
 
-Which finish helps answer our question, and which can wait for that feedback?
+What are we polishing right now before showing it to anyone?

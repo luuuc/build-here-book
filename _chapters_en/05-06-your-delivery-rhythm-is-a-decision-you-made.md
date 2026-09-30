@@ -47,13 +47,6 @@ The reduced version has to stay usable. Shipping two thirds of a flow that does 
 
 → A month later, compare the lead time, the incidents, and what the feedback let you decide.
 
-## From where you sit
-
-- **Engineering**: describe the dependencies between a change being ready and use being possible.
-- **Operations**: explain what a control is for before changing it.
-- **Product**: check that a reduced version still delivers the service expected.
-- **Management**: involve the owners of the means in improving the route.
-
 ## To discuss
 
-Which wait could we cut while keeping what it is for and the quality of the service?
+Which wait in our route no longer protects anything?

@@ -47,13 +47,6 @@ La version réduite doit rester utilisable. Livrer les deux tiers d'un parcours 
 
 → Un mois après, compare le délai, les incidents et ce que les retours ont permis de décider.
 
-## Depuis ton siège
-
-- **Ingénierie** : décris les dépendances entre changement prêt et usage possible.
-- **Opérations** : explique la fonction des contrôles avant d'en modifier un.
-- **Produit** : vérifie qu'une version réduite rend encore le service attendu.
-- **Management** : associe les responsables des moyens à l'amélioration du parcours.
-
 ## À discuter
 
-Quelle attente pourrions-nous réduire tout en préservant sa fonction et la qualité du service ?
+Quelle attente de notre parcours ne protège plus rien ?
