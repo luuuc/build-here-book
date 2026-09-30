@@ -32,9 +32,9 @@ Tu veux que l'équipe réduise les problèmes qui reviennent. La revue compte le
 
 Tu paies des heures, tu obtiens des heures. Si la revue récompense le volume traité, l'équipe traite. Celle qui corrige la cause voit son compteur baisser, et son travail disparaître.
 
-L'équipe support réécrit la page d'aide sur les remboursements. Les questions sur ce sujet passent de quarante à dix par semaine. C'est le meilleur travail du mois. Dans une revue qui compte les tickets traités, c'est une baisse d'activité.
+L'équipe support réécrit la page d'aide sur les remboursements. Les questions sur ce sujet passent de quarante à dix par semaine. C'est le meilleur travail du mois. Dans une revue qui compte les demandes traitées, c'est une baisse d'activité.
 
-Mesure l'effet : les demandes évitées, le temps gagné, les erreurs en moins. Rapporte-le au nombre d'utilisateurs, pour être sûr que la baisse vient de la correction et pas d'un support devenu difficile à joindre.
+Mesure l'effet : les demandes évitées, le temps gagné, les erreurs en moins. Sépare ce qui est observé, ce qui est estimé, et le coût déplacé ailleurs. Rapporte-le au nombre d'utilisateurs, pour être sûr que la baisse vient de la correction et pas d'un support devenu difficile à joindre.
 
 Reconnais la prévention dans les mêmes termes que la production : dans les revues, dans les évaluations, dans les moyens donnés. Une félicitation isolée ne suffit pas.
 
@@ -45,8 +45,6 @@ Reconnais la prévention dans les mêmes termes que la production : dans les rev
 → Crédite toutes les contributions : ceux qui ont construit, ceux qui entretiennent, ceux qui servent au quotidien.
 
 → Fais entrer ces effets dans les critères d'évaluation et de moyens, pas seulement dans les remerciements.
-
-→ En finance, sépare l'économie observée, l'estimation et le coût déplacé ailleurs.
 
 ## À discuter
 

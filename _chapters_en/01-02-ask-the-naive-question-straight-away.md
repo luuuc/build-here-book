@@ -30,7 +30,7 @@ The discussion moves on and an important word stays vague. You follow the senten
 
 ## Why it works
 
-One word often covers several realities. Inside one team, "activation" means a sign-up to one person and a first use to another. Both compare numbers that do not measure the same thing, and nobody notices.
+One word often covers several realities. Inside one team, "activation" means a sign-up to one person and a first use to another. Both compare numbers that do not measure the same thing, and nobody notices. Between a customer and the team, the gap is the same: compare their words before you translate the request.
 
 The naive question costs ten seconds. Not asking it costs a decision made on a misunderstanding. Starting out, you learn the vocabulary. With experience, you spot that a definition has drifted or that it hides two cases. Either way, you often unblock the room: the others did not dare ask either.
 
@@ -43,8 +43,6 @@ On the next vague notion, ask for a definition and a concrete case.
 > "Can you show me one case that falls inside that definition, and one that falls outside?"
 
 Say back what you understood. If the gap holds, write it in the decision note. Apparent agreement on a vague word is a disagreement waiting for its moment.
-
-In customer relations, compare the customer's words with the team's before you translate the request.
 
 ## To discuss
 

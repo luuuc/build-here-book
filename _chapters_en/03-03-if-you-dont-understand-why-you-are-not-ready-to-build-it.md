@@ -36,7 +36,7 @@ A customer cannot find their invoices. The request becomes "add a search". Looki
 
 A first attempt is the fastest way to understand. With today's tools it takes an hour: a prototype shown to the person who asked answers faster than a meeting. For what cannot be undone, a heavy commitment or a contract, clarify first.
 
-If you are starting out, ask for a concrete example of the expected result. If you hand work over, give the why with the what. Work with no clear goal forces the other person to guess.
+If you are starting out, ask for a concrete example of the expected result. If you hand work over, give the why with the what. Work with no clear goal forces the other person to guess. A role too: if you cannot say what problem it solves, do not open it.
 
 ## Try this
 
@@ -45,8 +45,6 @@ Before a task, write down your assumption:
 > I understand this has to let [who] [do what], because today [difficulty]. Is that right?
 
 Send it before you start. If the answer is slow to come, make the one-hour version and send that instead. After the first attempt, compare the result to the goal and correct your reading.
-
-In recruiting, do not open a role whose problem to solve you cannot state.
 
 ## To discuss
 

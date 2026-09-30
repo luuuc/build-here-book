@@ -42,8 +42,6 @@ Ask someone whose work touches yours for thirty minutes. Follow one case togethe
 
 Propose a change to the handover. Check the next one together: did the information arrive at the right moment?
 
-In finance, say which confirmations you need, and when.
-
 ## To discuss
 
 What information was missing in our last handover?

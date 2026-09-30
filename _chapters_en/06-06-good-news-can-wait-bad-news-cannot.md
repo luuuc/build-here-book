@@ -36,7 +36,7 @@ Good news can wait for the meeting. Bad news cannot. The urgency comes from what
 
 You do not need a solution to warn people. Say the fact, the possible effect, what is still uncertain, and when you will come back. Waiting until you have the solution often means warning too late.
 
-If you run a team, your reaction to the first piece of bad news decides whether you get the next one in time.
+If you run a team, your reaction to the first piece of bad news decides whether you get the next one in time. Acknowledge it the same day, and say who takes what follows.
 
 ## Try this
 
@@ -45,8 +45,6 @@ On a current commitment, write down today what could make it slip, and who needs
 > "Here is the fact or the risk. Here is what it can change. This part is still uncertain. I need this decision, and I'll come back at this point."
 
 Send it the same day.
-
-On the management side, when the warning arrives, acknowledge it the same day and say who takes what follows.
 
 ## To discuss
 

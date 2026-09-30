@@ -40,11 +40,9 @@ Tools change fast, AI first of all. A team with no time to try them on its own w
 
 ## The decision
 
-With one person or a small group, choose a piece of learning tied to a real need, and a slot inside working hours. Say what gets pushed back.
+With one person or a small group, choose a piece of learning tied to a real need, and a slot inside working hours. Say what gets pushed back, and what the slot costs: connection, cover.
 
 A month later, look at whether the slot held and what it let people do. If it disappeared, find what ate it.
-
-In finance, make the slot's costs visible: resource, connection, cover.
 
 ## To discuss
 

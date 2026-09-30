@@ -32,7 +32,7 @@ Choisis une partie de ce sujet et fais-la passer à quelqu'un d'autre. Ta valeur
 
 Tu prépares un suivi mensuel que personne d'autre ne sait faire. Une collègue en apprend une partie. Vous faites un cas ensemble, puis elle en fait un avec ton aide, puis seule. Au bout de trois mois, tu n'es plus le seul point de passage.
 
-Commence petit : une partie, une personne, un cas.
+Commence petit : une partie, une personne, un cas. Transmets d'abord ce qui se prépare, puis ce qui se vérifie ; ce qui s'autorise vient en dernier.
 
 Si ton environnement ne te donne pas le temps de transmettre, demande-le explicitement : la transmission est un travail, pas un bonus du soir.
 
@@ -41,8 +41,6 @@ Si ton environnement ne te donne pas le temps de transmettre, demande-le explici
 Choisis une activité où tu es le seul. Trouve une personne volontaire et bloque trois créneaux : elle regarde, elle fait avec toi, elle fait seule.
 
 Quand elle peut agir seule, dites-le clairement à l'équipe.
-
-En finance, transmets d'abord la préparation, puis la vérification. L'autorisation vient en dernier.
 
 ## À discuter
 

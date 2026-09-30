@@ -44,8 +44,6 @@ Demande quel appui l'aiderait. Fixe un point de retour selon le besoin, et reste
 
 Au retour, examinez le raisonnement autant que le résultat. Distingue tes exigences de tes préférences.
 
-Au support, le même geste marche entre pairs : confie l'analyse d'un cas réel, et accompagne la première.
-
 ## À discuter
 
 Quel problème pourrions-nous confier cette semaine plutôt qu'une liste de tâches ?

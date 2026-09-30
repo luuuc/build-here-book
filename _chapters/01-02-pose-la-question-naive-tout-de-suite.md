@@ -32,7 +32,7 @@ La discussion avance et un mot important reste flou. Tu suis les phrases sans sa
 
 ## Pourquoi ça marche
 
-Un même mot couvre souvent plusieurs réalités. Dans une équipe, "activation" veut dire inscription pour l'un et premier usage pour l'autre. Les deux comparent des chiffres qui ne mesurent pas la même chose, et personne ne s'en rend compte.
+Un même mot couvre souvent plusieurs réalités. Dans une équipe, "activation" veut dire inscription pour l'un et premier usage pour l'autre. Les deux comparent des chiffres qui ne mesurent pas la même chose, et personne ne s'en rend compte. Entre un client et l'équipe, l'écart est le même : compare leurs mots avant de traduire sa demande.
 
 La question naïve coûte dix secondes. Ne pas la poser coûte une décision prise sur un malentendu. Débutant, tu apprends le vocabulaire. Expérimenté, tu repères qu'une définition a glissé ou qu'elle cache deux cas. Dans les deux situations, tu débloques souvent la salle : les autres n'osaient pas non plus.
 
@@ -45,8 +45,6 @@ Sur la prochaine notion floue, demande une définition et un cas concret.
 > "Tu peux me montrer un cas qui entre dans cette définition, et un qui n'y entre pas ?"
 
 Reformule ce que tu as compris. Si l'écart persiste, écris-le dans la note de décision. Un accord apparent sur un mot flou est un désaccord qui attend son moment.
-
-En relation client, compare les mots du client à ceux de l'équipe avant de traduire sa demande.
 
 ## À discuter
 

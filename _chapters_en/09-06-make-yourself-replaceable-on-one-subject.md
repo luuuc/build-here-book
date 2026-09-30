@@ -34,7 +34,7 @@ Being the only one who knows means being the only one who can. You cannot take l
 
 You prepare a monthly report nobody else knows how to do. A colleague learns part of it. You do one case together, then she does one with your help, then alone. After three months, you are no longer the only way through.
 
-Start small: one part, one person, one case.
+Start small: one part, one person, one case. Hand over what gets prepared first, then what gets checked; what gets authorised comes last.
 
 If your environment gives you no time to pass things on, ask for it explicitly: passing on is work, not an evening bonus.
 
@@ -43,8 +43,6 @@ If your environment gives you no time to pass things on, ask for it explicitly: 
 Choose an activity where you are the only one. Find a willing person and book three slots: they watch, they do it with you, they do it alone.
 
 When they can act alone, tell the team clearly.
-
-In finance, hand over the preparation first, then the checking. Authorisation comes last.
 
 ## To discuss
 

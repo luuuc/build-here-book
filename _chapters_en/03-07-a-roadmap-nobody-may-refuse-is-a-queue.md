@@ -38,13 +38,11 @@ A bespoke adaptation keeps costing after delivery: maintenance, training, suppor
 
 ## The decision
 
-→ For every significant addition, say what it replaces, or the extra means it brings. Confirm the dates with the team.
+→ For every significant addition, get the urgency and its consequences stated. Say what it replaces, or the extra means it brings. Confirm the dates with the team before you promise the customer a date.
 
 → Put your own ideas through the same criteria as everyone else's.
 
 → At the next review, compare the real load to what was planned.
-
-→ On the customer side, state the urgency and its consequences, without promising a date alone.
 
 ## To discuss
 

@@ -44,11 +44,9 @@ Si tu débutes, l'IA t'apprend vite, à condition de lui demander pourquoi, pas 
 
 Choisis une tâche que tu attends de quelqu'un d'autre depuis plus d'une semaine. Construis une première version avec une IA, en une heure.
 
-Vérifie trois choses : les faits, les chiffres et ce qui est promis. Montre le résultat à la personne que tu attendais. Tu n'arrives plus avec une demande, tu arrives avec un brouillon.
+Vérifie trois choses : les faits, les chiffres et ce qui est promis. Un outil de tri se compare à ton propre tri pendant une semaine avant de t'y fier ; un modèle de calcul se vérifie en refaisant un calcul clé à la main. Montre le résultat à la personne que tu attendais. Tu n'arrives plus avec une demande, tu arrives avec un brouillon.
 
 Note ce que l'IA a mal fait et comment tu l'as repéré. C'est ce qui te dit où ton jugement est solide, et où il te manque encore.
-
-Au support, compare l'outil à ton propre tri pendant une semaine avant de t'y fier. En finance, fais construire le modèle, puis refais un calcul clé à la main.
 
 ## À discuter
 

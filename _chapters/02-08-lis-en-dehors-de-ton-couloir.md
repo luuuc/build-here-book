@@ -44,8 +44,6 @@ Demande trente minutes à une personne dont le travail touche le tien. Suivez un
 
 Propose un changement de passation. Vérifiez ensemble la suivante : l'information est-elle arrivée au bon moment ?
 
-En finance, dis quelles confirmations il te faut, et à quel moment.
-
 ## À discuter
 
 Quelle information a manqué lors de notre dernière passation ?

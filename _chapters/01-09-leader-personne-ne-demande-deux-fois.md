@@ -42,11 +42,9 @@ Le document ou le fil où le travail se discute suffit à porter la question, qu
 
 ## La décision
 
-Choisis avec l'équipe un seul endroit pour les questions qui pèsent sur une décision. Sur la prochaine, dis qui cherche la réponse et pour quand.
+Choisis avec l'équipe un seul endroit pour les questions qui pèsent sur une décision. Sur la prochaine, dis qui cherche la réponse et pour quand. Si elle vient d'un client, garde ses mots exacts avec elle.
 
 En fin de semaine, reprends les questions ouvertes. Vérifie que chaque réponse a atteint ceux qui en avaient besoin. Un accusé de réception organise la suite ; il ne remplace pas la réponse.
-
-Quand la question vient d'un client, garde ses mots exacts avec elle.
 
 ## À discuter
 

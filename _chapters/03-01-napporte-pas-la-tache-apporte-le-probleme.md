@@ -34,7 +34,7 @@ Livre la tâche, et rapporte ce que l'exécution t'a appris. Si la découverte r
 
 Celui qui fait le travail voit ce que le cadrage ne pouvait pas voir. Au support, une demande revient après chaque remboursement. Dans une équipe commerciale, trois clients lisent la même offre de trois façons. En ingénierie, le correctif touche une partie qui n'était pas prévue. Cette information n'existe que chez toi, et seulement tant qu'elle est fraîche.
 
-On te demande de corriger l'affichage d'un formulaire sur mobile. En vérifiant, tu vois que certaines inscriptions échouent après l'envoi. "C'est fait" est vrai. C'est aussi la phrase qui laisse le vrai problème en place.
+On te demande de corriger l'affichage d'un formulaire sur mobile. En vérifiant, tu vois que certaines inscriptions échouent après l'envoi. "C'est fait" est vrai. C'est aussi la phrase qui laisse le vrai problème en place. Et si rapporter une trouvaille passe pour un refus de faire la tâche, plus personne n'en rapporte.
 
 Sépare le fait observé, ce que tu en penses, et la suite que tu proposes. C'est ce qui distingue un builder d'un exécutant : il ne livre pas seulement la tâche, il livre ce qu'elle a révélé.
 
@@ -48,8 +48,6 @@ Avant de fermer une tâche, ajoute deux lignes au compte rendu :
 > Ce que ça change, ou ce qu'il faut vérifier : ...
 
 Propose une suite et nomme qui peut la prendre. À la prochaine revue, regarde si l'observation a changé une décision.
-
-Si tu diriges l'équipe : quand rapporter une trouvaille passe pour un refus de faire la tâche, tu n'en reçois plus.
 
 ## À discuter
 

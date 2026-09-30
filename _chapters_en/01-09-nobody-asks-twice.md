@@ -42,11 +42,9 @@ The document or the thread where the work is discussed is enough to hold the que
 
 ## The decision
 
-With the team, choose one place for the questions that bear on a decision. On the next one, say who is looking for the answer and by when.
+With the team, choose one place for the questions that bear on a decision. On the next one, say who is looking for the answer and by when. If it comes from a customer, keep their exact words with it.
 
 At the end of the week, go back over the open questions. Check that each answer reached the people who needed it. An acknowledgement organises what comes next; it does not replace the answer.
-
-When the question comes from a customer, keep their exact words with it.
 
 ## To discuss
 

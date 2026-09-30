@@ -37,7 +37,7 @@ Une bonne nouvelle peut attendre la réunion. Une mauvaise, non. L'urgence vient
 
 Tu n'as pas besoin d'une solution pour prévenir. Dis le fait, l'effet possible, ce qui reste incertain et quand tu reviens. Attendre d'avoir la solution, c'est souvent prévenir trop tard.
 
-Si tu diriges une équipe, ta réaction à la première mauvaise nouvelle décide si tu recevras la suivante à temps.
+Si tu diriges une équipe, ta réaction à la première mauvaise nouvelle décide si tu recevras la suivante à temps. Accuse réception le jour même, et dis qui prend la suite.
 
 ## À essayer
 
@@ -46,8 +46,6 @@ Sur un engagement en cours, écris aujourd'hui ce qui pourrait le faire glisser,
 > "Voici le fait ou le risque. Voilà ce qu'il peut changer. Cette partie est encore incertaine. J'ai besoin de cette décision et je reviens à ce moment."
 
 Envoie-le le jour même.
-
-Côté management, quand l'alerte arrive, accuse réception le jour même et dis qui prend la suite.
 
 ## À discuter
 

@@ -40,9 +40,7 @@ Débutant, un passage avec un exemple te sert plus qu'un livre entier. Expérime
 
 Formule une question liée à ton travail. Trouve une ressource qui la traite : un pair, une bibliothèque, une communauté du métier, une IA pour démarrer la recherche.
 
-Lis un passage et note une idée à essayer sur un petit cas cette semaine. Écris aussi une différence entre le contexte de l'auteur et le tien. Après l'essai, garde la référence avec ce qu'elle t'a appris.
-
-En finance, distingue une méthode de gestion d'une règle qui dépend du pays ou de la période.
+Lis un passage et note une idée à essayer sur un petit cas cette semaine. Écris aussi une différence entre le contexte de l'auteur et le tien : un pays, une période, une règle qui ne s'applique pas chez toi. Après l'essai, garde la référence avec ce qu'elle t'a appris.
 
 ## À discuter
 

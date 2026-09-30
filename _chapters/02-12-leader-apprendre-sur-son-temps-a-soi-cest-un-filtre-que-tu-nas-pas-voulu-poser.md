@@ -42,11 +42,9 @@ Les outils changent vite, l'IA la première. Une équipe qui n'a pas le temps de
 
 ## La décision
 
-Avec une personne ou un petit groupe, choisis un apprentissage lié à un vrai besoin et un créneau sur le temps de travail. Dis ce qui est décalé.
+Avec une personne ou un petit groupe, choisis un apprentissage lié à un vrai besoin et un créneau sur le temps de travail. Dis ce qui est décalé, et ce que le créneau coûte : connexion, remplacement.
 
 Un mois plus tard, regarde si le créneau a tenu et ce qu'il a permis de faire. S'il a disparu, trouve ce qui l'a mangé.
-
-En finance, rends visibles les coûts du créneau : ressource, connexion, remplacement.
 
 ## À discuter
 

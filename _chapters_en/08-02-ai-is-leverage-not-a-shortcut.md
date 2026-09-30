@@ -42,11 +42,9 @@ If you are starting out, AI teaches you fast, as long as you ask it why, not jus
 
 Pick a task you have been waiting on someone else for more than a week. Build a first version with an AI, in one hour.
 
-Check three things: the facts, the numbers, and what is promised. Show the result to the person you were waiting for. You no longer arrive with a request, you arrive with a draft.
+Check three things: the facts, the numbers, and what is promised. A sorting tool gets compared to your own sorting for a week before you rely on it; a calculation model gets checked by redoing one key calculation by hand. Show the result to the person you were waiting for. You no longer arrive with a request, you arrive with a draft.
 
 Write down what the AI got wrong and how you spotted it. That tells you where your judgement is solid, and where it is still missing.
-
-In support, compare the tool to your own sorting for a week before you rely on it. In finance, have the model built, then redo one key calculation by hand.
 
 ## To discuss
 

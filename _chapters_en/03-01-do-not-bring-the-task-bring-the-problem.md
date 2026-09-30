@@ -32,7 +32,7 @@ Ship the task, and report what doing it taught you. If the discovery calls the r
 
 Whoever does the work sees what the framing could not. In support, a request comes back after every refund. In a sales team, three customers read the same offer three different ways. In engineering, the fix touches a part nobody planned for. That information exists only with you, and only while it is fresh.
 
-You are asked to fix how a form displays on mobile. Checking, you see that some sign-ups also fail after submission. "Done" is true. It is also the sentence that leaves the real problem in place.
+You are asked to fix how a form displays on mobile. Checking, you see that some sign-ups also fail after submission. "Done" is true. It is also the sentence that leaves the real problem in place. And if reporting a find reads as refusing the task, nobody reports one again.
 
 Separate the fact you observed, what you make of it, and the follow-up you propose. That is what sets a builder apart from someone who just executes: they ship the task, and they ship what it revealed.
 
@@ -46,8 +46,6 @@ Before you close a task, add two lines to the update:
 > What that changes, or what needs checking: ...
 
 Propose a follow-up and name who can take it. At the next review, check whether the observation changed a decision.
-
-If you lead the team: when reporting a find reads as refusing the task, you stop getting finds.
 
 ## To discuss
 

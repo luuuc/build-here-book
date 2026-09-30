@@ -40,13 +40,11 @@ Une adaptation spécifique coûte aussi après la livraison : maintenance, forma
 
 ## La décision
 
-→ Pour chaque ajout important, dis ce qu'il remplace, ou les moyens en plus qu'il apporte. Confirme les délais avec l'équipe.
+→ Pour chaque ajout important, fais préciser l'urgence et ses conséquences. Dis ce qu'il remplace, ou les moyens en plus qu'il apporte. Confirme les délais avec l'équipe avant de promettre une date au client.
 
 → Fais passer tes propres idées par les mêmes critères que les autres.
 
 → À la prochaine revue, compare la charge réelle à ce qui était prévu.
-
-→ Côté relation client, précise l'urgence et ses conséquences, sans promettre seul une date.
 
 ## À discuter
 

@@ -46,8 +46,6 @@ Ask what backing would help. Set a check-in by the need, and stay reachable.
 
 At the check-in, look at the reasoning as much as the result. Tell your requirements apart from your preferences.
 
-In support, the same move works between peers: hand over the analysis of a real case, and stay with them for the first one.
-
 ## To discuss
 
 Which problem could we hand over this week instead of a task list?

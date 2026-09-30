@@ -40,11 +40,9 @@ Keeping a service reliable often beats adding an impressive feature. The standar
 
 ## Try this
 
-Choose a task that matters to someone who uses your work. Watch them do it under their real conditions. Then look at the best example you know of the same need, here or elsewhere.
+Choose a task that matters to someone who uses your work. Watch them do it under their real conditions. Ask them which other service they compare you to, and look at it next to the best example you know of the same need.
 
 Note one concrete gap, its effect, and the effort to close it. Close it, then have the same task done again. See what got easier.
-
-In customer relations, ask which other service the person compares you to.
 
 ## To discuss
 

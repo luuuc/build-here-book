@@ -42,11 +42,9 @@ Garder un service fiable vaut souvent mieux qu'ajouter une fonction impressionna
 
 ## À essayer
 
-Choisis une tâche importante pour une personne qui utilise ton travail. Regarde-la la faire dans ses conditions réelles. Puis regarde le meilleur exemple que tu connais du même besoin, ici ou ailleurs.
+Choisis une tâche importante pour une personne qui utilise ton travail. Regarde-la la faire dans ses conditions réelles. Demande-lui à quel autre service elle te compare, et regarde-le à côté du meilleur exemple que tu connais du même besoin.
 
 Note un écart concret, son effet et l'effort pour le réduire. Réduis-le, puis refais faire la même tâche. Regarde ce qui est devenu plus facile.
-
-En relation client, demande à quel autre service la personne te compare.
 
 ## À discuter
 

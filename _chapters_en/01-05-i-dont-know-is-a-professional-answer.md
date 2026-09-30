@@ -46,8 +46,6 @@ Have the wording ready, so you are not hunting for it under pressure.
 
 Then come back at the agreed time with the answer, or with where the search stands and a realistic next point. Check that the person knows what they can use as fact and what is still uncertain.
 
-In an interview, ask the candidate what they know and how they would check the rest.
-
 ## To discuss
 
 Which claim has been circulating here for months without anyone knowing where it came from?

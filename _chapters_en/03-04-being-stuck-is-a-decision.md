@@ -34,7 +34,7 @@ Staying stuck without saying so is a decision: the decision to let the deadline 
 
 Many blockages clear in twenty minutes: documentation, an old case, an example, an AI that knows the tool. Others need help right away. In an incident, or in front of an irreversible action, go to the competent person without waiting.
 
-A precise request gets a fast answer: the intended result, the point where you are stuck, what you checked, the effect on the deadline. A vague request gets a question back, and one more day.
+A precise request gets a fast answer: the intended result, the point where you are stuck, what you checked, the effect on the deadline. A vague request gets a question back, and one more day. And when you are the one asked, answer fast, without requiring a search time first.
 
 When you have to wait, say until when, and move something else forward in the meantime. If nobody answers, get the commitment reduced or the deadline moved, rather than letting the date fall silently.
 
@@ -47,8 +47,6 @@ On a current blockage, write:
 Send it today to someone who can help or point you. Set the moment you will take stock again.
 
 At that moment, check whether the blockage is cleared, whether other help is needed, or whether the commitment has to change.
-
-If you are the one asked for help, answer fast, without requiring a minimum search time.
 
 ## To discuss
 

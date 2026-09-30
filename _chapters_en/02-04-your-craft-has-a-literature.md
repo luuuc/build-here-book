@@ -40,9 +40,7 @@ Starting out, one passage with an example serves you better than a whole book. E
 
 Frame a question tied to your work. Find a resource that deals with it: a peer, a library, a professional community, an AI to start the search.
 
-Read one passage and note one idea to try on a small case this week. Also write down one difference between the author's context and yours. After the attempt, keep the reference with what it taught you.
-
-In finance, tell a management method apart from a rule that depends on the country or the period.
+Read one passage and note one idea to try on a small case this week. Also write down one difference between the author's context and yours: a country, a period, a rule that does not apply where you work. After the attempt, keep the reference with what it taught you.
 
 ## To discuss
 

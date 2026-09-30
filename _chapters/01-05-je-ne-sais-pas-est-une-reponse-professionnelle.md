@@ -48,8 +48,6 @@ Prépare la formulation, pour ne pas la chercher sous pression.
 
 Puis reviens à l'heure convenue avec la réponse ou l'état de la recherche et un prochain point réaliste. Vérifie que la personne sait ce qu'elle peut utiliser comme fait et ce qui reste incertain.
 
-En entretien, demande au candidat ce qu'il sait et comment il vérifierait le reste.
-
 ## À discuter
 
 Quelle affirmation circule ici depuis des mois sans que personne sache d'où elle vient ?

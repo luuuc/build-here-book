@@ -32,9 +32,9 @@ You want the team to reduce the problems that keep coming back. The review count
 
 You pay for hours, you get hours. If the review rewards volume handled, the team handles. Whoever fixes the cause sees their count drop, and their work disappear.
 
-The support team rewrites the help page on refunds. Questions on the subject drop from forty to ten a week. It is the best work of the month. In a review that counts tickets handled, it is a drop in activity.
+The support team rewrites the help page on refunds. Questions on the subject drop from forty to ten a week. It is the best work of the month. In a review that counts requests handled, it is a drop in activity.
 
-Measure the effect: requests avoided, time saved, fewer errors. Compare it to the number of users, to be sure the drop comes from the fix and not from support becoming hard to reach.
+Measure the effect: requests avoided, time saved, fewer errors. Separate what is observed, what is estimated, and the cost moved elsewhere. Compare it to the number of users, to be sure the drop comes from the fix and not from support becoming hard to reach.
 
 Recognise prevention in the same terms as production: in reviews, in appraisals, in the means you give. One isolated compliment is not enough.
 
@@ -45,8 +45,6 @@ Recognise prevention in the same terms as production: in reviews, in appraisals,
 → Credit every contribution: the people who built, the people who maintain, the people who serve day to day.
 
 → Bring these effects into the criteria for appraisals and means, not only into the thank-yous.
-
-→ In finance, separate an observed saving, an estimate, and a cost moved elsewhere.
 
 ## To discuss
 

@@ -36,7 +36,7 @@ Un client ne retrouve pas ses factures. La demande devient "ajouter une recherch
 
 Un premier essai est la façon la plus rapide de comprendre. Avec les outils d'aujourd'hui, il prend une heure : un prototype montré à la personne qui a demandé répond plus vite qu'une réunion. Pour ce qui ne se défait pas, un engagement lourd ou un contrat, clarifie d'abord.
 
-Si tu débutes, demande un exemple concret du résultat attendu. Si tu confies un travail, donne le pourquoi avec le quoi. Un travail sans objectif clair oblige l'autre à deviner.
+Si tu débutes, demande un exemple concret du résultat attendu. Si tu confies un travail, donne le pourquoi avec le quoi. Un travail sans objectif clair oblige l'autre à deviner. Un poste aussi : si tu ne sais pas dire quel problème il résout, ne l'ouvre pas.
 
 ## À essayer
 
@@ -45,8 +45,6 @@ Avant une tâche, écris ton hypothèse :
 > Je comprends que cela doit permettre à [qui] de [faire quoi], parce qu'aujourd'hui [difficulté]. C'est bien ça ?
 
 Envoie-la avant de commencer. Si la réponse tarde, fais la version d'une heure et envoie-la à la place. Après le premier essai, compare le résultat à l'objectif et corrige ta lecture.
-
-En recrutement, n'ouvre pas un poste dont tu ne sais pas énoncer le problème à résoudre.
 
 ## À discuter
 

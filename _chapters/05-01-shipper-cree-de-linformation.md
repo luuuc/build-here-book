@@ -36,7 +36,7 @@ Tu refais le devis type de l'équipe commerciale. Avant de l'envoyer à tous les
 
 Une livraison sans observation n'apprend rien. Décide avant ce que tu regarderas : un usage, un chiffre, une réaction. Sinon, tu livres et tu passes au suivant avec la même incertitude.
 
-Petit ne veut pas dire sans conséquence. Une seule ligne peut modifier mille dossiers. Pour ce qui ne se défait pas, une migration, un engagement, un prix, fais d'abord une répétition sur des cas choisis.
+Petit ne veut pas dire sans conséquence. Une seule ligne peut modifier mille dossiers. Pour ce qui ne se défait pas, une migration, un engagement, un prix, fais d'abord une répétition sur des cas choisis, et prépare le retour en arrière.
 
 ## À essayer
 
@@ -47,8 +47,6 @@ Sur un changement en cours, note :
 > Ce que nous regarderons, et quand : ...
 
 Livre-la cette semaine. Après, sépare ce que tu as vu de ce que tu en conclus. Continue, modifie ou arrête.
-
-Aux opérations, prépare le retour en arrière avant de modifier le service.
 
 ## À discuter
 

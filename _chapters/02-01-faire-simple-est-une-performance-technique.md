@@ -32,7 +32,7 @@ Une solution accumule les options pour couvrir tous les cas imaginés. Chacune p
 
 Ajouter est facile : chaque option répond à une demande, chaque champ à un cas. Retirer demande de comprendre. C'est pour ça que faire simple est une performance : il faut savoir exactement ce que fait chaque partie pour oser l'enlever.
 
-Un formulaire perd un champ inutile et devient plus rapide à remplir. Un autre perd le champ dont la comptabilité avait besoin, et le problème revient trois semaines plus tard, ailleurs. La différence entre les deux, c'est la question posée avant : qui utilise cette information ?
+Un formulaire perd un champ inutile et devient plus rapide à remplir. Un autre perd le champ dont la comptabilité avait besoin, et le problème revient trois semaines plus tard, ailleurs. La différence entre les deux, c'est la question posée avant : qui utilise cette information, et à quelle étape suivante ?
 
 Un cas rare peut protéger une opération importante. Ne pas l'avoir vu cette semaine ne veut pas dire qu'il n'arrivera jamais. Avant de retirer, demande à celui qui entretient la partie ce qu'elle a déjà évité.
 
@@ -45,8 +45,6 @@ Choisis une partie de ton travail que tu sais expliquer. Note ce que tu voudrais
 Montre-le à une personne qui l'utilise. Puis retire-la sur un petit périmètre, en gardant de quoi la remettre.
 
 Après un cycle d'usage, regarde si la tâche est plus facile et si quelque chose manque. Garde, adapte ou remets.
-
-Aux opérations, vérifie aussi ce que l'étape transmet à la suivante.
 
 ## À discuter
 

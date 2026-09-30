@@ -42,11 +42,9 @@ Lead by example. Tell the story of one of your own mistakes, with the reasoning 
 
 ## The decision
 
-On the next report, look first for what has to be protected and who can act. Thank the person, in front of the people whose opinion matters to them.
+On the next report, ask for two facts, not for someone to blame: the effect on the customer's side, and when it was noticed. Then look for what has to be protected and who can act. Thank the person, in front of the people whose opinion matters to them.
 
 Keep the analysis of the facts out of individual assessment. After the review, check that the action decided was carried out, and ask the person whether they would report again.
-
-In support, a useful report gives the effect on the customer's side and when it was noticed. Ask for those two facts, not for someone to blame.
 
 ## To discuss
 

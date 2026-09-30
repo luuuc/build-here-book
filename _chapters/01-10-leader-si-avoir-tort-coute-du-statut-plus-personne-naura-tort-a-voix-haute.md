@@ -42,11 +42,9 @@ Montre l'exemple. Raconte une de tes erreurs, avec le raisonnement et la correct
 
 ## La décision
 
-Sur le prochain signalement, cherche d'abord ce qu'il faut protéger et qui peut agir. Remercie la personne, devant ceux dont l'avis compte pour elle.
+Sur le prochain signalement, demande deux faits, pas un coupable : l'effet côté client, et le moment où il a été remarqué. Puis cherche ce qu'il faut protéger et qui peut agir. Remercie la personne, devant ceux dont l'avis compte pour elle.
 
 Garde l'analyse des faits hors de l'évaluation individuelle. Après la revue, vérifie que l'action décidée a été faite, et demande à la personne si elle signalerait de nouveau.
-
-Au support, un signalement utile dit l'effet côté client et le moment où il a été remarqué. Demande ces deux faits, pas un coupable.
 
 ## À discuter
 

@@ -36,7 +36,7 @@ You are redoing the sales team's standard quote. Before sending it to every pros
 
 A delivery with no observation teaches nothing. Decide beforehand what you will look at: a use, a number, a reaction. Otherwise you ship, move on to the next thing, and keep the same uncertainty.
 
-Small does not mean without consequence. A single line can change a thousand records. For what cannot be undone, a migration, a commitment, a price, do a rehearsal on chosen cases first.
+Small does not mean without consequence. A single line can change a thousand records. For what cannot be undone, a migration, a commitment, a price, do a rehearsal on chosen cases first, and prepare the way back.
 
 ## Try this
 
@@ -47,8 +47,6 @@ On a change in progress, write:
 > What we will look at, and when: ...
 
 Ship it this week. Afterwards, separate what you saw from what you conclude. Carry on, change, or stop.
-
-In operations, prepare the rollback before you change the service.
 
 ## To discuss
 
