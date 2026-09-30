@@ -9,7 +9,7 @@ translations:
   fr: /livre/chapitres/12-00-references.html
 ---
 
-These references illuminate the ideas in the book. They come mostly from management and software; applying them to another situation means examining their context.
+These references illuminate the ideas in the book. They come mostly from management, software and working with AI; three tell what has been built here.
 
 - 1911. Frederick Winslow Taylor, *The Principles of Scientific Management*. [Full text](https://www.gutenberg.org/cache/epub/6435/pg6435-images.html)
 
@@ -39,6 +39,8 @@ These references illuminate the ideas in the book. They come mostly from managem
 
 - Peter Norvig, *Teach Yourself Programming in Ten Years*. [The author's text](https://www.norvig.com/21-days.html)
 
+- 2009. Ory Okolloh, *Ushahidi, or 'testimony': Web 2.0 tools for crowdsourcing crisis information*. [Article at the publisher](https://www.iied.org/g02842)
+
 - 2011. Rich Hickey, *Simple Made Easy*. [Talk and notes](https://www.infoq.com/presentations/Simple-Made-Easy/)
 
 - 2013. Rob Fitzpatrick, *The Mom Test*. [The book's site](https://www.momtestbook.com/)
@@ -46,5 +48,23 @@ These references illuminate the ideas in the book. They come mostly from managem
 - 2017. Marty Cagan, *Inspired*, second edition. [The author on this edition](https://www.svpg.com/inspired-v2/)
 
 - 2018. Nicole Forsgren, Jez Humble and Gene Kim, *Accelerate*. [Introduction and extracts at the publisher](https://itrevolution.com/product/accelerate/)
+
+- 2018. Annie Duke, *Thinking in Bets*. [Introduction at the publisher](https://www.penguin.com.au/books/thinking-in-bets-9780735216365)
+
+- 2019. Clayton Christensen, Efosa Ojomo and Karen Dillon, *The Prosperity Paradox*. [Extract](https://ssir.org/books/excerpts/entry/making_space_for_prosperity)
+
+- 2019. Ryan Singer, *Shape Up*. [Book online](https://basecamp.com/shapeup)
+
+- 2020. Nadia Eghbal, *Working in Public*. [Introduction at the publisher](https://press.stripe.com/working-in-public)
+
+- 2020. Iroro Orife et al., *Masakhane: Machine Translation for Africa*. [Article](https://arxiv.org/abs/2003.11529)
+
+- 2023. Erik Brynjolfsson, Danielle Li and Lindsey Raymond, *Generative AI at Work*. [NBER working paper](https://nber.org/papers/w31161)
+
+- 2023. Fabrizio Dell'Acqua et al., *Navigating the Jagged Technological Frontier*. [Summary of the study by MIT Sloan](https://mitsloan.mit.edu/node/51095)
+
+- 2024. Ethan Mollick, *Co-Intelligence*. [Introduction at the publisher](https://www.penguin.com.au/books/co-intelligence-9780753560778)
+
+- 2025. METR, *Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity*. [Introduction to the study](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
 
 The [annotated reading list](/already-written/) sets out what each connection brings and where it stops.
