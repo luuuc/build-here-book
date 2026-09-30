@@ -46,13 +46,6 @@ For your next handover, write:
 
 Once the handover is accepted, your commitment is closed. At the next check-in, see whether the information you passed on was enough, and improve the next handover.
 
-## From where you sit
-
-- **Engineering**: separate building, releasing, and checking the use.
-- **Operations**: confirm the access and the capacity the handover needs.
-- **Management**: rule on a handover that was refused or is impossible, instead of leaving the task hanging.
-- **Customer relations**: know who will be able to answer at the next agreed check-in.
-
 ## To discuss
 
-On a recent handover, what was accepted, and who now answers for what follows?
+On our last handover, who clearly said "I'm taking it"?

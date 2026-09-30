@@ -46,13 +46,6 @@ Choose with the team who looks, when, and with how much effort.
 
 After a cycle, ask which decision that tracking helped. Stop the tracking that helps none.
 
-## From where you sit
-
-- **Product**: tie the observed result to a decision about what comes next.
-- **Operations**: make the service preserved visible, even with nothing new.
-- **Management**: fit the cadence and the means to the observations you expect.
-- **Customer relations**: bring customers' feedback on what changed for them.
-
 ## To discuss
 
-Which result deserves a place in our review, and which tracking could we lighten to make room for it?
+Which tracking in our review no longer helps any decision?

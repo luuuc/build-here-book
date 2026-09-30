@@ -50,13 +50,6 @@ Avant une décision importante, écris ces trois lignes.
 
 Choisis une amélioration, ou explique pourquoi le raisonnement tient.
 
-## Depuis ton siège
-
-- **Ingénierie** : note les hypothèses importantes avant de connaître le résultat.
-- **Design** : examine ce qu'un essai apprend sans déclarer automatiquement le choix bon ou mauvais.
-- **Management** : regarde le mandat, les moyens et les risques réellement connus.
-- **Recrutement** : demande les options envisagées et les informations disponibles à l'époque.
-
 ## À discuter
 
 Dans une décision récente, qu'est-ce que le résultat nous apprend sans réécrire ce que nous savions au départ ?

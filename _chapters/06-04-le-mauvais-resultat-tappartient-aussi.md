@@ -36,8 +36,6 @@ Une équipe lance une nouvelle offre. Peu de clients s'inscrivent. Le prix, le m
 
 Posséder le mauvais résultat ne veut pas dire se couvrir de reproches. Ça veut dire le regarder en face, en premier, avant qu'on te le montre. Celui qui dit "voilà ce que j'ai mal estimé" garde la confiance. Celui qui explique tout par le contexte la perd.
 
-Juge le raisonnement avec ce qu'on savait au moment de décider, pas avec ce qu'on sait maintenant. Ce qui est évident après ne l'était pas forcément avant.
-
 ## À essayer
 
 Choisis un résultat décevant récent. Avec les personnes concernées, note :
@@ -49,13 +47,6 @@ Choisis un résultat décevant récent. Avec les personnes concernées, note :
 
 Au point prévu, regarde si la leçon a changé une décision.
 
-## Depuis ton siège
-
-- **Produit** : distingue une observation d'une explication encore hypothétique.
-- **Management** : examine aussi les moyens et le soutien disponibles au moment du choix.
-- **Relation client** : apporte les retours clients, même ceux qui dérangent.
-- **Recrutement** : demande un échec et ce que la personne y a changé.
-
 ## À discuter
 
-Quel résultat mérite une revue, et quelles explications sont encore des hypothèses ?
+Quel résultat récent avons-nous expliqué uniquement par le contexte ?

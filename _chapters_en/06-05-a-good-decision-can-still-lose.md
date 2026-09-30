@@ -49,13 +49,6 @@ At the review, ask:
 
 Choose one improvement, or explain why the reasoning still holds.
 
-## From where you sit
-
-- **Engineering**: note the important assumptions before you know the result.
-- **Design**: examine what an attempt teaches without automatically declaring the choice good or bad.
-- **Management**: look at the mandate, the means, and the risks actually known.
-- **Recruiting**: ask what options were considered and what information was available at the time.
-
 ## To discuss
 
 In a recent decision, what does the result teach us without rewriting what we knew at the start?

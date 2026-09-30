@@ -46,13 +46,6 @@ Choose a recent change that matters. Write one precise question, for instance:
 
 Put the date in your calendar now. On that day, look, write down the answer, and decide: keep, change or remove.
 
-## From where you sit
-
-- **Product**: choose a question tied to the next decision.
-- **Finance**: fit the check to the real cycle of the activity.
-- **Management**: set aside time for these checks, and cap the number of open follow-ups.
-- **Customer relations**: bring feedback from the customers who use it.
-
 ## To discuss
 
-Which result deserves a check now, and which one calls for waiting for a relevant use?
+Which change shipped this month still has no date to look at its effect?

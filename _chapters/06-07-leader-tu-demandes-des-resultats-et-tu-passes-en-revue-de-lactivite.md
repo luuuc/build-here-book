@@ -46,13 +46,6 @@ Choisis avec l'équipe qui regarde, quand, et avec quel effort.
 
 Après un cycle, demande quelle décision ce suivi a aidée. Arrête le suivi qui n'en aide aucune.
 
-## Depuis ton siège
-
-- **Produit** : relie le résultat observé à une décision de suite.
-- **Opérations** : rends visible le service préservé, même sans nouveauté.
-- **Management** : adapte la cadence et les moyens aux observations attendues.
-- **Relation client** : apporte les retours des clients sur ce qui a changé pour eux.
-
 ## À discuter
 
-Quel résultat mérite une place dans notre revue, et quel suivi pourrions-nous alléger pour lui faire de la place ?
+Quel suivi de notre revue n'aide plus aucune décision ?

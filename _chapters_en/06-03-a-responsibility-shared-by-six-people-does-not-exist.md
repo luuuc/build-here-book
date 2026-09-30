@@ -48,13 +48,6 @@ On a shared subject, write together:
 
 If nobody can coordinate, cut the scope rather than imposing a name. At the next check-in, see whether the questions found answers.
 
-## From where you sit
-
-- **Product**: separate coordinating the subject from the power to prioritise.
-- **Operations**: organise cover when the point of contact is away.
-- **Management**: give the time and the access along with the name.
-- **Customer relations**: identify the useful contact without assigning them every task.
-
 ## To discuss
 
-On which shared subject is a decision or a handover still ambiguous, and how can we clear it up?
+Which shared subject still has no address here?

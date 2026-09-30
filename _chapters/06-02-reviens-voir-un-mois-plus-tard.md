@@ -46,13 +46,6 @@ Choisis un changement récent qui compte. Écris une question précise, par exem
 
 Mets la date dans ton agenda maintenant. Ce jour-là, regarde, note la réponse, et décide : garder, modifier ou retirer.
 
-## Depuis ton siège
-
-- **Produit** : choisis une question liée à la décision suivante.
-- **Finance** : adapte la vérification au cycle réel de l'activité.
-- **Management** : réserve du temps pour ces retours, et limite le nombre de suivis ouverts.
-- **Relation client** : apporte le retour des clients qui s'en servent.
-
 ## À discuter
 
-Quel résultat mérite une vérification maintenant, et lequel demande d'attendre un usage pertinent ?
+Quel changement livré ce mois-ci n'a encore aucune date pour regarder son effet ?

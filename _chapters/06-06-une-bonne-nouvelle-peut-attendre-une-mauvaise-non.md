@@ -47,13 +47,8 @@ Sur un engagement en cours, écris aujourd'hui ce qui pourrait le faire glisser,
 
 Envoie-le le jour même.
 
-## Depuis ton siège
-
-- **Produit** : signale une hypothèse fragilisée avec son effet sur la décision.
-- **Opérations** : utilise le canal prévu quand la continuité du service est en jeu.
-- **Management** : accuse réception et précise qui prend en charge la suite.
-- **Relation client** : fais confirmer ce qui peut être annoncé et le prochain retour.
+Côté management, quand l'alerte arrive, accuse réception le jour même et dis qui prend la suite.
 
 ## À discuter
 
-Quelle information récente a permis d'agir à temps, et laquelle a attendu faute de destinataire ou de canal clair ?
+Quelle mauvaise nouvelle a attendu chez nous faute de savoir à qui la dire ?

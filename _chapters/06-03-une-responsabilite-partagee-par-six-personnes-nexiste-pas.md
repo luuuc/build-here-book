@@ -48,13 +48,6 @@ Sur un sujet partagé, écrivez ensemble :
 
 Si personne ne peut coordonner, réduisez le périmètre plutôt que d'imposer un nom. Au point suivant, regardez si les questions ont trouvé une réponse.
 
-## Depuis ton siège
-
-- **Produit** : distingue coordination du sujet et pouvoir de priorisation.
-- **Opérations** : organise le relais quand le point de contact est absent.
-- **Management** : donne le temps et les accès avec le nom.
-- **Relation client** : identifie le contact utile sans lui attribuer toutes les tâches.
-
 ## À discuter
 
-Sur quel sujet partagé une décision ou un relais reste-t-il ambigu, et comment pouvons-nous le clarifier ?
+Quel sujet partagé n'a pas encore d'adresse chez nous ?

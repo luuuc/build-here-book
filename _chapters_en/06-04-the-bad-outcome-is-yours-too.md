@@ -36,8 +36,6 @@ A team launches a new offer. Few customers sign up. The price, the timing, the m
 
 Owning the bad outcome does not mean heaping blame on yourself. It means facing it, first, before someone shows it to you. The person who says "here's what I misjudged" keeps the trust. The person who explains everything by the context loses it.
 
-Judge the reasoning with what was known when the decision was made, not with what is known now. What is obvious afterwards was not necessarily obvious before.
-
 ## Try this
 
 Choose a recent disappointing result. With the people concerned, write:
@@ -49,13 +47,6 @@ Choose a recent disappointing result. With the people concerned, write:
 
 At the agreed point, see whether the lesson changed a decision.
 
-## From where you sit
-
-- **Product**: tell an observation apart from an explanation that is still an assumption.
-- **Management**: look also at the means and the support available at the moment of the choice.
-- **Customer relations**: bring customer feedback, including the uncomfortable kind.
-- **Recruiting**: ask for a failure and what the person changed because of it.
-
 ## To discuss
 
-Which result deserves a review, and which explanations are still assumptions?
+Which recent result did we explain by context alone?

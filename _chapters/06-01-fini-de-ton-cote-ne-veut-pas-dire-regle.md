@@ -48,13 +48,6 @@ Pour ta prochaine passation, écris :
 
 Une fois le relais accepté, ton engagement est clos. Au point suivant, regarde si l'information transmise a suffi, et améliore la prochaine passation.
 
-## Depuis ton siège
-
-- **Ingénierie** : distingue réalisation, mise à disposition et vérification de l'usage.
-- **Opérations** : confirme les accès et la capacité nécessaires au relais.
-- **Management** : tranche un relais refusé ou impossible au lieu de laisser la tâche sans suite.
-- **Relation client** : sache qui pourra répondre au prochain point convenu.
-
 ## À discuter
 
-Sur une passation récente, qu'est-ce qui a été accepté et qui répond désormais de la suite ?
+Sur notre dernière passation, qui a dit clairement « je prends » ?

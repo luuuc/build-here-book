@@ -46,13 +46,8 @@ On a current commitment, write down today what could make it slip, and who needs
 
 Send it the same day.
 
-## From where you sit
-
-- **Product**: flag a weakened assumption together with its effect on the decision.
-- **Operations**: use the intended channel when continuity of service is at stake.
-- **Management**: acknowledge receipt and say who takes on what follows.
-- **Customer relations**: get confirmation of what can be announced and when you will come back.
+On the management side, when the warning arrives, acknowledge it the same day and say who takes what follows.
 
 ## To discuss
 
-Which recent piece of information let us act in time, and which one waited for lack of a clear recipient or channel?
+Which piece of bad news waited here because nobody knew who to tell?
