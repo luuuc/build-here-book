@@ -36,7 +36,7 @@ Several messages are about a payment that shows up twice. The symptom is the sam
 
 An AI can group a month of requests by likely cause in minutes. Use it to get started, then check each group against real cases. Keep the cases that fit nowhere to one side: they are often the most instructive.
 
-Do not look at volume alone. A rare but serious cause comes before a frequent, harmless one.
+A rare but serious cause comes before a frequent, harmless one.
 
 ## Check this
 
@@ -46,13 +46,6 @@ Group them by cause, and check the biggest group on five real cases. If it holds
 
 At the next check-in, see whether the related requests went down, relative to the number of users.
 
-## From where you sit
-
-- **Support**: bring the context of the requests, and separate what you saw from how you read it.
-- **Product**: compare frequency, severity, and what a check is worth.
-- **Engineering**: look for a case that confirms or contradicts the proposed cause.
-- **Management**: set an analysis effort proportionate to the decision expected.
-
 ## To discuss
 
-Which group of cases deserves a check, and what do we actually know about its cause?
+Which cause sits behind our three most frequent request reasons?

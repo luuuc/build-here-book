@@ -46,13 +46,8 @@ Reconnais la prévention dans les mêmes termes que la production : dans les rev
 
 → Fais entrer ces effets dans les critères d'évaluation et de moyens, pas seulement dans les remerciements.
 
-## Depuis ton siège
-
-- **Produit** : montre l'effet d'une simplification avec ses limites et son entretien.
-- **Support** : distingue moins de difficultés de moins de possibilités de demander de l'aide.
-- **Management** : relie reconnaissance et moyens dans la durée.
-- **Finance** : distingue économie observée, estimation et coût déplacé.
+→ En finance, sépare l'économie observée, l'estimation et le coût déplacé ailleurs.
 
 ## À discuter
 
-Quelle contribution utile reste peu visible dans nos revues, et comment la mesurer ?
+Quelle contribution utile reste invisible dans nos revues ?

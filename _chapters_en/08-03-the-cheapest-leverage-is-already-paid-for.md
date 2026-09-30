@@ -34,7 +34,7 @@ The cheapest leverage is the one you already pay for. Most teams use a small par
 
 A team wants to track laptop loans. The inventory spreadsheet already exists. One tab and two columns do the job in an hour. Dedicated software would have taken a month just to choose.
 
-Reuse is not always cheaper. If the existing tool has to be bent into something it cannot do, another solution can cost less over time. Compare the future cost of the options, not what you have already spent.
+If the existing tool has to be bent into something it cannot do, compare the future cost of the options, not what you have already spent.
 
 With an AI, adapting what you already have has become easier: a formula, a script, an automation between two tools you already use.
 
@@ -44,13 +44,6 @@ On a precise need, write down the expected result. Before looking for a tool, as
 
 Try the simplest version with what you have, in an hour. If it is not enough, you now know exactly what the new tool has to do.
 
-## From where you sit
-
-- **Engineering**: compare adaptation, upkeep and exit against adding a tool.
-- **Finance**: separate money already spent from the future cost of each option.
-- **Operations**: check that existing data can be used for this new purpose.
-- **Management**: ask what the current tools can do before buying a new one.
-
 ## To discuss
 
-Which existing resource deserves a trial, and what adaptation cost could justify something different?
+Which tool are we already paying for without using what it can do?

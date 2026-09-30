@@ -36,7 +36,7 @@ Plusieurs messages parlent d'un paiement qui apparaît deux fois. Le symptôme e
 
 Une IA peut regrouper un mois de demandes par cause probable en quelques minutes. Utilise-la pour démarrer, puis vérifie chaque regroupement sur des cas réels. Garde à part les cas qui ne rentrent nulle part : ce sont souvent les plus instructifs.
 
-Ne regarde pas que le volume. Une cause rare mais grave passe avant une cause fréquente et bénigne.
+Une cause rare mais grave passe avant une cause fréquente et bénigne.
 
 ## À vérifier
 
@@ -46,13 +46,6 @@ Regroupe par cause, et vérifie la plus grosse sur cinq cas réels. Si elle tien
 
 Au point suivant, regarde si les demandes liées ont baissé, rapporté au nombre d'utilisateurs.
 
-## Depuis ton siège
-
-- **Support** : apporte le contexte des demandes et distingue constat et interprétation.
-- **Produit** : compare fréquence, gravité et valeur d'une vérification.
-- **Ingénierie** : cherche un cas qui confirme ou contredit la cause proposée.
-- **Management** : réserve un effort d'analyse proportionné à la décision attendue.
-
 ## À discuter
 
-Quel groupe de cas mérite une vérification, et que savons-nous réellement de sa cause ?
+Quelle cause se cache derrière nos trois motifs de demande les plus fréquents ?

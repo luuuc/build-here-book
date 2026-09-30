@@ -46,13 +46,8 @@ Recognise prevention in the same terms as production: in reviews, in appraisals,
 
 → Bring these effects into the criteria for appraisals and means, not only into the thank-yous.
 
-## From where you sit
-
-- **Product**: show the effect of a simplification with its limits and its upkeep.
-- **Support**: tell fewer difficulties apart from fewer chances to ask for help.
-- **Management**: connect recognition and means over time.
-- **Finance**: separate an observed saving, an estimate, and a cost moved elsewhere.
+→ In finance, separate an observed saving, an estimate, and a cost moved elsewhere.
 
 ## To discuss
 
-Which useful contribution stays barely visible in our reviews, and how do we measure it?
+Which useful contribution stays invisible in our reviews?

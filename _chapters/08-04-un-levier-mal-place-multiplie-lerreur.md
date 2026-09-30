@@ -44,13 +44,6 @@ Avant d'élargir, liste les exceptions que la personne qui fait le travail gère
 
 Commence là où tu peux relire les résultats avant qu'ils partent. Prévois qui reçoit les erreurs, comment arrêter, et comment réparer les effets déjà produits.
 
-## Depuis ton siège
-
-- **Ingénierie** : prépare les contrôles, l'arrêt et la reprise avant d'élargir l'usage.
-- **Opérations** : explicite les exceptions que la pratique actuelle traite déjà.
-- **Management** : attribue les moyens de suivi, pas seulement ceux de construction.
-- **Relation client** : prévois un canal de retour vers la personne qui peut agir.
-
 ## À discuter
 
-Quel contrôle risquons-nous de perdre en automatisant, et comment saurons-nous qu'il faut arrêter ?
+Quel contrôle risquons-nous de perdre en automatisant ?

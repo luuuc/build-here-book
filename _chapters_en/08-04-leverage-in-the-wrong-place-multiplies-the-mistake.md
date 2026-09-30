@@ -42,13 +42,6 @@ Before you widen it, list the exceptions the person doing the work handles today
 
 Start where you can review the results before they go out. Plan who receives the errors, how to stop, and how to repair effects already produced.
 
-## From where you sit
-
-- **Engineering**: prepare the controls, the stop, and the recovery before widening use.
-- **Operations**: spell out the exceptions the current practice already handles.
-- **Management**: allocate the means to monitor, not only to build.
-- **Customer relations**: plan a route back to someone who can act.
-
 ## To discuss
 
-Which control might we lose by automating, and how will we know it is time to stop?
+Which control might we lose by automating?

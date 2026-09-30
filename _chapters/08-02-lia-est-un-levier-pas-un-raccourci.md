@@ -48,14 +48,8 @@ Vérifie trois choses : les faits, les chiffres et ce qui est promis. Montre le 
 
 Note ce que l'IA a mal fait et comment tu l'as repéré. C'est ce qui te dit où ton jugement est solide, et où il te manque encore.
 
-## Depuis ton siège
-
-- **Support** : construis l'outil de tri dont tu as besoin, puis compare-le à ton tri sur une semaine.
-- **Finance** : fais construire le modèle, puis refais un calcul clé à la main.
-- **Vente** : prépare une proposition avec une IA et vérifie chaque engagement avant l'envoi.
-- **Ingénierie** : écris la page ou l'analyse qu'on attendait d'un autre métier, et fais-la relire par lui.
-- **Management** : donne accès aux outils et regarde ce que les gens construisent avec.
+Au support, compare l'outil à ton propre tri pendant une semaine avant de t'y fier. En finance, fais construire le modèle, puis refais un calcul clé à la main.
 
 ## À discuter
 
-Qu'est-ce qu'on attend d'une autre équipe depuis des semaines, et qu'on pourrait construire nous-mêmes cette semaine ?
+Qu'attendons-nous d'une autre équipe depuis des semaines que nous pourrions construire cette semaine ?

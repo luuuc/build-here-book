@@ -46,14 +46,8 @@ Check three things: the facts, the numbers, and what is promised. Show the resul
 
 Write down what the AI got wrong and how you spotted it. That tells you where your judgement is solid, and where it is still missing.
 
-## From where you sit
-
-- **Support**: build the sorting tool you need, then compare it to your own sorting over a week.
-- **Finance**: have the model built, then redo one key calculation by hand.
-- **Sales**: prepare a proposal with an AI and check every commitment before it goes out.
-- **Engineering**: write the page or the analysis another trade was expected to write, and have them review it.
-- **Management**: give access to the tools and look at what people build with them.
+In support, compare the tool to your own sorting for a week before you rely on it. In finance, have the model built, then redo one key calculation by hand.
 
 ## To discuss
 
-What have we been waiting on another team for, for weeks, that we could build ourselves this week?
+What have we been waiting weeks for from another team that we could build ourselves this week?

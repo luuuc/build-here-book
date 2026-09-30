@@ -34,7 +34,7 @@ Le levier le moins cher est celui que tu paies déjà. La plupart des équipes u
 
 Une équipe veut suivre les prêts d'ordinateurs portables. Le tableur de l'inventaire existe déjà. Un onglet et deux colonnes font l'affaire en une heure. Un logiciel dédié aurait pris un mois à choisir.
 
-Réutiliser n'est pas toujours moins cher. Si l'outil existant doit être tordu pour un usage qu'il ne sait pas faire, une autre solution peut coûter moins sur la durée. Compare le coût futur des options, pas ce que tu as déjà dépensé.
+Si l'outil existant doit être tordu pour un usage qu'il ne sait pas faire, compare le coût futur des options, pas ce que tu as déjà dépensé.
 
 Avec une IA, adapter ce que tu as déjà est devenu plus facile : une formule, un script, une automatisation entre deux outils que tu utilises déjà.
 
@@ -44,13 +44,6 @@ Sur un besoin précis, note le résultat attendu. Avant de chercher un outil, de
 
 Essaie la version la plus simple avec ce que tu as, en une heure. Si elle ne suffit pas, tu sais maintenant exactement ce que le nouvel outil doit faire.
 
-## Depuis ton siège
-
-- **Ingénierie** : compare adaptation, entretien et sortie avec l'ajout d'un outil.
-- **Finance** : distingue dépense passée et coût futur de chaque option.
-- **Opérations** : vérifie qu'une donnée existante peut servir à ce nouvel usage.
-- **Management** : demande ce que les outils actuels permettent avant d'en acheter un nouveau.
-
 ## À discuter
 
-Quelle ressource existante mérite un essai, et quel coût d'adaptation pourrait justifier une autre solution ?
+Quel outil payons-nous déjà sans nous servir de ce qu'il sait faire ?
