@@ -34,7 +34,7 @@ A request passes through several people. At each relay, a detail drops. Sometime
 
 A customer cannot find their invoices. The request becomes "add a search". Looking at one case, the team finds the invoices are attached to another account. The search would have shipped, clean and useless.
 
-Understanding does not mean knowing everything before you start. A first attempt is often the best way to understand. With today's tools it takes an hour: a prototype shown to the person who asked answers faster than a meeting. For what cannot be undone, a heavy commitment or a contract, clarify first.
+A first attempt is the fastest way to understand. With today's tools it takes an hour: a prototype shown to the person who asked answers faster than a meeting. For what cannot be undone, a heavy commitment or a contract, clarify first.
 
 If you are starting out, ask for a concrete example of the expected result. If you hand work over, give the why with the what. Work with no clear goal forces the other person to guess.
 
@@ -46,13 +46,7 @@ Before a task, write down your assumption:
 
 Send it before you start. If the answer is slow to come, make the one-hour version and send that instead. After the first attempt, compare the result to the goal and correct your reading.
 
-## From where you sit
-
-- **Product**: pass on the need as known and the assumptions still to be checked.
-- **Founder**: state the goal before the commitment.
-- **Management**: explain the goal before asking people to act.
-- **Customer relations**: separate the need as expressed, its context, and the proposed solution.
-- **Recruiting**: do not open a role whose problem to solve you cannot state.
+In recruiting, do not open a role whose problem to solve you cannot state.
 
 ## To discuss
 

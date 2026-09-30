@@ -44,13 +44,6 @@ Pour une décision à venir, annonce qui tranche, quand et sur quels critères. 
 
 Explique ensuite le choix et ce qui reste incertain. Note ce qui justifierait de le revoir.
 
-## Depuis ton siège
-
-- **Finance** : apporte les hypothèses de coût et leur incertitude avant l'arbitrage.
-- **Design** : distingue les observations d'usage de ta préférence de solution.
-- **Management** : précise qui décide avant la réunion, pas pendant.
-- **Relation client** : rapporte un cas concret sans le présenter comme tous les usages.
-
 ## À discuter
 
 Dans notre dernière réunion sérieuse, à quel moment on est passé d'explorer à trancher ?

@@ -30,7 +30,7 @@ Une feuille de route est convenue. Un client important demande une adaptation ur
 
 ## Ce que ça produit
 
-Une demande de plus peut être justifiée. Le problème est son coût caché : un autre travail glisse, une vérification disparaît, la charge monte, et personne ne l'a décidé. L'équipe paie en silence, puis livre en retard ce que tu avais promis ailleurs.
+Le problème d'une demande de plus, c'est son coût caché : un autre travail glisse, une vérification disparaît, la charge monte, et personne ne l'a décidé. L'équipe paie en silence, puis livre en retard ce que tu avais promis ailleurs.
 
 Tes idées ont le même effet. Une suggestion dans un couloir devient une priorité si ton rôle lui donne du poids. Dis si tu explores ou si tu décides.
 
@@ -46,13 +46,8 @@ Une adaptation spécifique coûte aussi après la livraison : maintenance, forma
 
 → À la prochaine revue, compare la charge réelle à ce qui était prévu.
 
-## Depuis ton siège
-
-- **Produit** : présente les options et le travail déplacé avant de confirmer une priorité.
-- **Management** : soutiens l'arbitrage et explique les engagements qui changent.
-- **Opérations** : ajoute les coûts de maintenance et de support à la discussion.
-- **Relation client** : précise l'urgence et les conséquences sans promettre seul une date.
+→ Côté relation client, précise l'urgence et ses conséquences, sans promettre seul une date.
 
 ## À discuter
 
-Notre dernière insertion a déplacé quoi, et qui a confirmé ce changement avec les personnes concernées ?
+Qu'est-ce que notre dernière insertion a déplacé ?

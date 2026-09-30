@@ -36,7 +36,7 @@ Many blockages clear in twenty minutes: documentation, an old case, an example, 
 
 A precise request gets a fast answer: the intended result, the point where you are stuck, what you checked, the effect on the deadline. A vague request gets a question back, and one more day.
 
-Sometimes you have to wait. Then say until when, and move something else forward in the meantime. If nobody answers, get the commitment reduced or the deadline moved, rather than letting the date fall silently.
+When you have to wait, say until when, and move something else forward in the meantime. If nobody answers, get the commitment reduced or the deadline moved, rather than letting the date fall silently.
 
 ## Check this
 
@@ -48,13 +48,8 @@ Send it today to someone who can help or point you. Set the moment you will take
 
 At that moment, check whether the blockage is cleared, whether other help is needed, or whether the commitment has to change.
 
-## From where you sit
-
-- **Engineering**: tell what you can look up apart from what needs an access.
-- **Management**: answer requests for help fast, without requiring a minimum search time.
-- **Customer relations**: explain where the file stands and the next agreed check-in.
-- **Recruiting**: ask how the person looked for help, not only how they acted alone.
+If you are the one asked for help, answer fast, without requiring a minimum search time.
 
 ## To discuss
 
-Which blockage needs research, which needs access, and which needs a ruling?
+Which blockage is waiting today for a ruling nobody has asked for?

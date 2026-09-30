@@ -34,7 +34,7 @@ Une demande passe par plusieurs personnes. À chaque relais, un détail tombe. P
 
 Un client ne retrouve pas ses factures. La demande devient "ajouter une recherche". En regardant un cas, l'équipe découvre que les factures sont rattachées à un autre compte. La recherche aurait été livrée, propre et inutile.
 
-Comprendre ne veut pas dire tout savoir avant de commencer. Un premier essai est souvent la meilleure façon de comprendre. Avec les outils d'aujourd'hui, il prend une heure : un prototype montré à la personne qui a demandé répond plus vite qu'une réunion. Pour ce qui ne se défait pas, un engagement lourd ou un contrat, clarifie d'abord.
+Un premier essai est la façon la plus rapide de comprendre. Avec les outils d'aujourd'hui, il prend une heure : un prototype montré à la personne qui a demandé répond plus vite qu'une réunion. Pour ce qui ne se défait pas, un engagement lourd ou un contrat, clarifie d'abord.
 
 Si tu débutes, demande un exemple concret du résultat attendu. Si tu confies un travail, donne le pourquoi avec le quoi. Un travail sans objectif clair oblige l'autre à deviner.
 
@@ -46,13 +46,7 @@ Avant une tâche, écris ton hypothèse :
 
 Envoie-la avant de commencer. Si la réponse tarde, fais la version d'une heure et envoie-la à la place. Après le premier essai, compare le résultat à l'objectif et corrige ta lecture.
 
-## Depuis ton siège
-
-- **Produit** : transmets le besoin connu et les hypothèses qui restent à vérifier.
-- **Fondateur** : précise l'objectif avant l'engagement.
-- **Management** : explique l'objectif avant de demander de passer à l'action.
-- **Relation client** : distingue le besoin exprimé, son contexte et la solution proposée.
-- **Recrutement** : n'ouvre pas un poste dont tu ne sais pas énoncer le problème à résoudre.
+En recrutement, n'ouvre pas un poste dont tu ne sais pas énoncer le problème à résoudre.
 
 ## À discuter
 

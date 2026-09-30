@@ -44,13 +44,6 @@ Tiens un relevé court des arbitrages : demande, besoin, décision, raison, resp
 
 Commence par une décision récente et partage-la avec les personnes concernées. À la date prévue, regarde si le besoin ou les résultats justifient de la maintenir.
 
-## Depuis ton siège
-
-- **Produit** : rends les critères visibles, y compris pour une demande acceptée.
-- **Ingénierie** : propose une option plus petite et explique ce qu'elle permet.
-- **Management** : précise les décisions que l'équipe peut prendre et celles à faire arbitrer.
-- **Relation client** : distingue le besoin observé de l'engagement déjà pris.
-
 ## À discuter
 
-Quel arbitrage récent pouvons-nous expliquer, et quelle information pourrait le faire changer ?
+Quelle information ferait changer notre dernier arbitrage ?

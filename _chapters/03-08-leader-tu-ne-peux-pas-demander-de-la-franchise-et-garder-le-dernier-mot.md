@@ -32,7 +32,7 @@ Tu invites les objections avant une décision. Peu de personnes répondent.
 
 Tout le monde voit ce qui arrive à la dernière objection. Si elle a été balayée, ou si son auteur l'a payée plus tard, le silence qui suit n'est pas un accord. C'est une conclusion.
 
-Garder le dernier mot n'est pas le problème. Tu peux trancher. Mais montre ce qui a été examiné, pourquoi la décision tient, ou pourquoi elle change. Une objection sans réponse est une objection refusée.
+Tu peux garder le dernier mot. Mais montre ce qui a été examiné, pourquoi la décision tient, ou pourquoi elle change. Une objection sans réponse est une objection refusée.
 
 Une réponse immédiate et longue du responsable ferme l'examen. Reformule, vérifie, reviens par écrit. Et accepte les objections écrites : tout le monde n'a pas envie de contredire devant le groupe.
 
@@ -46,13 +46,6 @@ Une objection de bonne foi ne doit jamais ressortir dans une évaluation. Si c'e
 
 → Un mois après, demande si une information a manqué.
 
-## Depuis ton siège
-
-- **Management** : explique ce qu'une objection a changé dans l'examen ou dans le choix.
-- **Ingénierie** : apporte les faits et la conséquence, pas seulement le désaccord.
-- **Relation client** : apporte la conséquence pour l'utilisateur, avec un exemple réel.
-- **Recrutement** : accueille les questions du candidat sans les confondre avec un manque d'intérêt.
-
 ## À discuter
 
-Comment une objection récente a-t-elle été examinée, et sa réponse est-elle connue des personnes concernées ?
+Les personnes concernées connaissent-elles la réponse à la dernière objection ?

@@ -44,13 +44,6 @@ Keep a short record of the calls: request, need, decision, reason, owner, and wh
 
 Start with a recent decision and share it with the people concerned. On the agreed date, check whether the need or the results justify holding to it.
 
-## From where you sit
-
-- **Product**: make the criteria visible, including for a request you accepted.
-- **Engineering**: propose a smaller option and explain what it makes possible.
-- **Management**: say which decisions the team can make and which have to be escalated.
-- **Customer relations**: separate the need observed from the commitment already made.
-
 ## To discuss
 
-Which recent call can we explain, and what information could change it?
+What information would change our last call?

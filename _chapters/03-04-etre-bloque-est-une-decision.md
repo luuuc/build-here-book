@@ -36,7 +36,7 @@ Beaucoup de blocages se lèvent en vingt minutes : une documentation, un ancien 
 
 Une demande précise obtient une réponse rapide : le résultat visé, le point bloqué, ce que tu as vérifié, l'effet sur le délai. Une demande vague obtient une question en retour, et un jour de plus.
 
-Parfois, il faut attendre. Alors dis jusqu'à quand, et avance sur autre chose en parallèle. Si personne ne répond, fais réduire l'engagement ou décaler l'échéance, plutôt que de laisser la date tomber en silence.
+Quand il faut attendre, dis jusqu'à quand, et avance sur autre chose en parallèle. Si personne ne répond, fais réduire l'engagement ou décaler l'échéance, plutôt que de laisser la date tomber en silence.
 
 ## À vérifier
 
@@ -48,13 +48,8 @@ Envoie-le aujourd'hui à une personne qui peut aider ou orienter. Fixe le moment
 
 À ce moment, regarde si le blocage est levé, s'il faut une autre aide, ou si l'engagement doit changer.
 
-## Depuis ton siège
-
-- **Ingénierie** : distingue ce que tu peux chercher de ce qui demande un accès.
-- **Management** : réponds vite aux demandes d'aide, sans exiger un temps de recherche minimum.
-- **Relation client** : explique l'état du dossier et le prochain point convenu.
-- **Recrutement** : demande comment la personne a cherché de l'aide, pas seulement agi seule.
+Si c'est à toi qu'on demande de l'aide, réponds vite, sans exiger un temps de recherche minimum.
 
 ## À discuter
 
-Quel blocage demande une recherche, lequel demande un accès, et lequel demande un arbitrage ?
+Quel blocage attend aujourd'hui un arbitrage que personne n'a demandé ?

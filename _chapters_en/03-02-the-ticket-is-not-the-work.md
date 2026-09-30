@@ -45,13 +45,6 @@ Take one finished piece of work and complete:
 
 If you do not know, go and get the answer from the person concerned. At the next review, present that work by its effect, not by its task.
 
-## From where you sit
-
-- **Product**: tie every important piece of work to an effect you can measure.
-- **Operations**: make the reliability preserved visible, even with no new service.
-- **Management**: ask for the effect before the ticket count.
-- **Recruiting**: ask for a result, a piece of learning, or useful maintenance.
-
 ## To discuss
 
-Which recent piece of work was useful without adding a feature, and how do we know?
+Which recent piece of work was useful without adding a feature?

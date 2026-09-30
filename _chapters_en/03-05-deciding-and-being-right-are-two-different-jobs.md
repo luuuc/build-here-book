@@ -42,13 +42,6 @@ For an upcoming decision, say who calls it, when, and on what criteria. Ask for 
 
 Then explain the choice and what is still uncertain. Note what would justify revisiting it.
 
-## From where you sit
-
-- **Finance**: bring the cost assumptions and their uncertainty before the call.
-- **Design**: separate observations of use from your preferred solution.
-- **Management**: say who decides before the meeting, not during it.
-- **Customer relations**: report a concrete case without presenting it as every use.
-
 ## To discuss
 
 In our last serious meeting, at what moment did we move from exploring to deciding?

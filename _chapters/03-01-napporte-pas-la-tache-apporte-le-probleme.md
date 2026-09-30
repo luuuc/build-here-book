@@ -36,7 +36,7 @@ Celui qui fait le travail voit ce que le cadrage ne pouvait pas voir. Au support
 
 On te demande de corriger l'affichage d'un formulaire sur mobile. En vérifiant, tu vois que certaines inscriptions échouent après l'envoi. "C'est fait" est vrai. C'est aussi la phrase qui laisse le vrai problème en place.
 
-Tu n'as pas à résoudre seul le problème élargi. Sépare le fait observé, ce que tu en penses, et la suite que tu proposes. C'est ce qui distingue un builder d'un exécutant : il ne livre pas seulement la tâche, il livre ce qu'elle a révélé.
+Sépare le fait observé, ce que tu en penses, et la suite que tu proposes. C'est ce qui distingue un builder d'un exécutant : il ne livre pas seulement la tâche, il livre ce qu'elle a révélé.
 
 Si continuer gaspille de l'effort ou cause un dommage, arrête et dis-le. Sinon, termine ce qui était prévu et propose la suite.
 
@@ -49,14 +49,8 @@ Avant de fermer une tâche, ajoute deux lignes au compte rendu :
 
 Propose une suite et nomme qui peut la prendre. À la prochaine revue, regarde si l'observation a changé une décision.
 
-## Depuis ton siège
-
-- **Produit** : demande ce que la réalisation a confirmé ou révélé sur le besoin.
-- **Design** : rapporte un fait nouveau qui confirme ou remet en cause le parcours prévu.
-- **Management** : si rapporter une trouvaille passe pour un refus de faire la tâche, tu n'en auras plus.
-- **Relation client** : signale une répétition en précisant les cas et leur contexte.
-- **Recrutement** : demande une observation qui a confirmé ou changé la suite d'un projet.
+Si tu diriges l'équipe : quand rapporter une trouvaille passe pour un refus de faire la tâche, tu n'en reçois plus.
 
 ## À discuter
 
-Quelle observation récente a changé notre façon de traiter une tâche, et comment lui avons-nous donné une suite ?
+Quelle observation récente a changé notre façon de traiter une tâche ?

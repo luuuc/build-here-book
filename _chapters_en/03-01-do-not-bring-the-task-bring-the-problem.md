@@ -34,7 +34,7 @@ Whoever does the work sees what the framing could not. In support, a request com
 
 You are asked to fix how a form displays on mobile. Checking, you see that some sign-ups also fail after submission. "Done" is true. It is also the sentence that leaves the real problem in place.
 
-You do not have to solve the wider problem alone. Separate the fact you observed, what you make of it, and the follow-up you propose. That is what sets a builder apart from someone who just executes: they ship the task, and they ship what it revealed.
+Separate the fact you observed, what you make of it, and the follow-up you propose. That is what sets a builder apart from someone who just executes: they ship the task, and they ship what it revealed.
 
 If carrying on wastes effort or causes damage, stop and say so. Otherwise, finish what was planned and propose what comes next.
 
@@ -47,14 +47,8 @@ Before you close a task, add two lines to the update:
 
 Propose a follow-up and name who can take it. At the next review, check whether the observation changed a decision.
 
-## From where you sit
-
-- **Product**: ask what doing the work confirmed or revealed about the need.
-- **Design**: report a new fact that confirms or unsettles the planned flow.
-- **Management**: if reporting a find reads as refusing to do the task, you will stop getting finds.
-- **Customer relations**: flag a repetition, with the cases and their context.
-- **Recruiting**: ask for an observation that confirmed or changed the course of a project.
+If you lead the team: when reporting a find reads as refusing the task, you stop getting finds.
 
 ## To discuss
 
-Which recent observation changed how we handle a task, and how did we give it a follow-up?
+Which recent observation changed how we handle a task?

@@ -47,13 +47,6 @@ Choisis un travail terminé et complète :
 
 Si tu ne sais pas, va chercher la réponse auprès de la personne concernée. À la prochaine revue, présente ce travail par son effet, pas par sa tâche.
 
-## Depuis ton siège
-
-- **Produit** : relie chaque travail important à un effet que tu peux mesurer.
-- **Opérations** : rends visible la fiabilité préservée, même sans nouveau service.
-- **Management** : demande l'effet avant le nombre de tickets.
-- **Recrutement** : demande un résultat, un apprentissage ou une maintenance utile.
-
 ## À discuter
 
-Quel travail récent a été utile sans ajouter de fonctionnalité, et comment le savons-nous ?
+Quel travail récent a été utile sans ajouter de fonctionnalité ?
