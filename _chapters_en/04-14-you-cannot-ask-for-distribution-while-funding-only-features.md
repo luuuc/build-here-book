@@ -44,13 +44,6 @@ A channel that gives nothing after a serious attempt gets stopped. Say why, and 
 
 → After a month, look at the people reached, the first uses and the cost. Carry on, change, or stop.
 
-## From where you sit
-
-- **Marketing**: propose a channel and a useful sign to watch, with their cost.
-- **Product**: connect discovery, first use, and the difficulties met.
-- **Management**: make the displaced work and the conditions for continuing explicit.
-- **Customer relations**: count the support time inside the attempt you propose.
-
 ## To discuss
 
-Which effort would make our service more reachable for the people it is for, and what would we have to displace to try it?
+Which building work would we take off the schedule to fund a month of distribution?

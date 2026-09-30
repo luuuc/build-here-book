@@ -44,14 +44,7 @@ For an upcoming decision, prepare one constraint and one option, with the people
 
 > "This option means changing ... A narrower version would allow ... We still need to check ..."
 
-Bring it before the commitment, not after. With no access to the meeting, send the note to whoever decides. After the call, write down the assumptions that guided the choice.
-
-## From where you sit
-
-- **Engineering**: lay out a possibility as much as a constraint, with its unknowns.
-- **Sales**: hold the promise against the capacity available before committing to it.
-- **Finance**: separate the initial cost from the cost of running it over time.
-- **Operations**: show what each option changes in the daily service.
+Put the cost of running it over time next to the cost of building it. Bring the note before the commitment, not after. With no access to the meeting, send the note to whoever decides. After the call, write down the assumptions that guided the choice.
 
 ## To discuss
 

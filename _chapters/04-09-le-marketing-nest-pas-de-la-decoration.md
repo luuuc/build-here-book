@@ -49,13 +49,6 @@ Réponds brièvement à quatre questions :
 
 Compare tes réponses avec celles d'un collègue ou d'une personne concernée. Choisis une hypothèse à vérifier au prochain échange, et ajuste la promesse selon ce que tu entends.
 
-## Depuis ton siège
-
-- **Marketing** : apporte les usages et les alternatives qui éclairent le choix de l'offre.
-- **Design** : vérifie que la promesse est compréhensible dans la situation réelle.
-- **Produit** : explicite les usages couverts et ceux qui restent hors périmètre.
-- **Management** : fais entrer les informations utiles avant de figer l'engagement.
-
 ## À discuter
 
 Quel élément de notre présentation repose sur une hypothèse encore non vérifiée ?

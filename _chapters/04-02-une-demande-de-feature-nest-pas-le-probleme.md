@@ -47,13 +47,6 @@ Sur une demande en cours, pose deux questions :
 
 Note les contraintes réelles et une réponse possible. Après le premier usage, compare le résultat à l'attente. Une fonction peu utilisée n'est pas forcément inutile : certaines opérations sont rares mais importantes.
 
-## Depuis ton siège
-
-- **Produit** : distingue réception d'une demande et engagement de livraison.
-- **Ingénierie** : vérifie les contraintes avant de proposer une solution plus petite.
-- **Relation client** : demande un exemple du résultat attendu, sans contester le besoin.
-- **Opérations** : explique ce qui doit se passer après l'export ou le formulaire.
-
 ## À discuter
 
-Quelle demande récente avons-nous reliée à son usage final, et qu'est-ce que cela a changé ?
+Quelle demande récente a changé quand nous avons demandé à quoi elle servait ?

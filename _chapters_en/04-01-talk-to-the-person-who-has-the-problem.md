@@ -38,20 +38,13 @@ No customers, no company? Talk to someone your project sets out to help. One rec
 
 ## Try this
 
-Ask someone affected for twenty minutes. Open with:
+Ask someone affected for twenty minutes. If you do not know who, customer relations knows which customers are happy to talk. Open with:
 
 > "Can you tell me about the last time you tried to do that?"
 
 Have them show you, if they are willing. Do not promise a feature during the conversation.
 
 Write down the fact you observed and the assumption it changes. At the next decision, see whether it changed an option.
-
-## From where you sit
-
-- **Design**: ask for a recent case and let the person explain their route through it.
-- **Customer relations**: introduce the team to the customers who are happy to talk.
-- **Management**: count these conversations as part of the work, not on top of it.
-- **Recruiting**: accept an example of observation in a personal project too.
 
 ## To discuss
 

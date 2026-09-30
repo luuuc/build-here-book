@@ -48,14 +48,6 @@ Pour un choix à venir, écris trois lignes :
 
 Partage-les avant de signer. Teste un export de tes données dès la première semaine. Si c'est difficile maintenant, ce sera pire dans trois ans.
 
-## Depuis ton siège
-
-- **Produit** : un fournisseur câblé dans l'inscription, les rappels et les reçus n'est plus un choix technique.
-- **Finance** : vérifie les devises de facturation et les hypothèses de coût.
-- **Management** : associe les responsables du budget et du service selon le risque du choix.
-- **Relation client** : la panne du fournisseur, c'est toi qui l'expliques. Demande l'alternative avant.
-- **Opérations** : vérifie qui peut assurer le service et aider lors d'un changement de fournisseur.
-
 ## À discuter
 
 Quel fournisseur nous ferait le plus mal en doublant son prix demain ?

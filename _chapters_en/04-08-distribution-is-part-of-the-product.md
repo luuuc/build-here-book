@@ -44,13 +44,6 @@ On one page, describe the route:
 
 Mark the steps you are assuming. Test the most uncertain one this week, with three people. See where they move, hesitate or give up. Fix the route before you look for more people.
 
-## From where you sit
-
-- **Engineering**: check the first use under the intended conditions of access.
-- **Marketing**: choose the channel according to the recipients, and open it before launch.
-- **Operations**: prepare the handover between discovery and service actually delivered.
-- **Management**: count the time spent supporting people in the project, from day one.
-
 ## To discuss
 
-Which step between discovery and use still rests on an assumption, and how do we check it?
+Which step between discovery and first use have we never seen with our own eyes?

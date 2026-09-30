@@ -44,13 +44,6 @@ This week, share what you are building with five people it concerns, through the
 
 Do it again the following week. After a month, look at who answers, who tried it, and what changed in what you are building.
 
-## From where you sit
-
-- **Product**: show work in progress to the first users, with its limits.
-- **Marketing**: open the channel before launch, not on launch day.
-- **Management**: count this time as part of the project.
-- **Customer relations**: offer trials to willing people and organise what happens next.
-
 ## To discuss
 
-Who knows today that we are building this, and who should know before launch?
+Who should know, before launch, that we are building this?

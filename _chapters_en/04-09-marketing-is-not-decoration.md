@@ -47,13 +47,6 @@ Answer four questions briefly:
 
 Compare your answers with a colleague's, or with someone affected. Pick one assumption to check at the next conversation, and adjust the promise to what you hear.
 
-## From where you sit
-
-- **Marketing**: bring the uses and the alternatives that inform the shape of the offer.
-- **Design**: check that the promise is understandable in the real situation.
-- **Product**: state which uses are covered and which stay outside the remit.
-- **Management**: let the useful information in before the commitment is fixed.
-
 ## To discuss
 
 Which part of our presentation rests on an assumption nobody has checked?

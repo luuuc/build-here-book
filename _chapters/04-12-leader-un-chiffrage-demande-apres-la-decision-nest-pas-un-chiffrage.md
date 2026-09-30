@@ -34,7 +34,7 @@ Une estimation demandée après la promesse n'est pas une estimation. C'est une 
 
 Ceux qui construisent voient ce que la promesse ignore : une dépendance, une version plus petite qui suffirait, une capacité déjà disponible. Cette information vaut beaucoup avant l'engagement, et presque rien après.
 
-Pas besoin d'un chiffrage détaillé pour chaque idée. Un ordre de grandeur, les hypothèses et les inconnues suffisent souvent. Plus l'engagement est lourd, plus l'examen mérite d'être poussé.
+Un ordre de grandeur, les hypothèses et les inconnues suffisent pour la plupart des idées. Plus l'engagement est lourd, plus l'examen va loin.
 
 Un appel ou un message engage autant qu'un contrat. Si tu promets au téléphone, tu as décidé sans l'équipe. Si la promesse existe déjà, l'estimation reste utile : elle mesure l'écart. Traite l'écart, sans en faire la faute de l'équipe.
 
@@ -44,15 +44,12 @@ Un appel ou un message engage autant qu'un contrat. Si tu promets au téléphone
 
 → Si tu dois répondre avant, dis ce qui est confirmé, ce qui ne l'est pas, et quand tu reviens.
 
+→ Fais chiffrer la charge de fonctionnement avec la réalisation : l'entretien fait partie du coût.
+
+→ Si l'estimation contredit la promesse, c'est toi qui renégocies avec le client, pas l'équipe.
+
 → Après la livraison, compare les hypothèses à la réalité, et ajuste ta façon de promettre.
-
-## Depuis ton siège
-
-- **Ingénierie** : expose les hypothèses et les options avant de préciser un délai.
-- **Commerce** : distingue une intention d'une promesse confirmée.
-- **Opérations** : ajoute la charge de fonctionnement à l'effort de réalisation.
-- **Management** : prends en charge la renégociation quand l'information change le plan.
 
 ## À discuter
 
-Dans notre dernier engagement, quelles informations étaient connues avant la promesse et lesquelles ont demandé un ajustement ?
+Quelle date avons-nous promise récemment avant d'avoir demandé à ceux qui la tiendront ?

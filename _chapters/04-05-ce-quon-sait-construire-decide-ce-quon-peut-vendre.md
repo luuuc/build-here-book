@@ -46,14 +46,7 @@ Sur une décision à venir, prépare une contrainte et une option, avec les pers
 
 > "Cette option demande de modifier ... Une version plus limitée permettrait ... Il faut encore vérifier ..."
 
-Apporte-la avant l'engagement, pas après. Sans accès à la réunion, envoie la note à la personne qui décide. Après l'arbitrage, note les hypothèses qui ont guidé le choix.
-
-## Depuis ton siège
-
-- **Ingénierie** : expose une possibilité autant qu'une contrainte, avec ses inconnues.
-- **Commerce** : confronte la promesse aux capacités disponibles avant de l'engager.
-- **Finance** : distingue le coût initial de celui du fonctionnement dans la durée.
-- **Opérations** : montre ce que chaque option change dans le service quotidien.
+Mets à côté le coût de fonctionnement dans la durée, pas seulement celui du chantier. Apporte la note avant l'engagement, pas après. Sans accès à la réunion, envoie la note à la personne qui décide. Après l'arbitrage, note les hypothèses qui ont guidé le choix.
 
 ## À discuter
 

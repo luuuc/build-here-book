@@ -35,7 +35,7 @@ Déléguer le travail, oui. Déléguer la compréhension, non. Si tu décides sa
 
 Une équipe envisage de changer de prestataire de paiement. Le tarif est plus bas. Mais le changement touche aussi les moyens de paiement acceptés, la réconciliation et les remboursements. Une heure à suivre le parcours avec la personne qui le connaît fait apparaître ces dépendances avant de signer.
 
-Tu n'as pas besoin de vérifier chaque estimation. Demande ce qu'elle couvre, sur quoi elle repose, et ce qui pourrait la faire bouger. Une IA peut t'expliquer le vocabulaire avant la visite, pour que l'heure serve aux vraies questions.
+Ne vérifie pas chaque estimation : demande ce qu'elle couvre, sur quoi elle repose, et ce qui pourrait la faire bouger. Une IA peut t'expliquer le vocabulaire avant la visite, pour que l'heure serve aux vraies questions.
 
 Ce n'est pas réservé à la direction. Une personne qui prépare une offre doit comprendre comment une commande devient une livraison.
 
@@ -47,13 +47,6 @@ Demande une visite guidée d'un parcours à quelqu'un qui le connaît. Pars d'un
 
 Reformule le parcours avec tes mots et fais corriger les erreurs. Puis choisis une conséquence pour ta décision.
 
-## Depuis ton siège
-
-- **Ingénierie** : explique les dépendances utiles à la décision, sans imposer tout le vocabulaire.
-- **Finance** : demande ce que le coût couvre et quelles hypothèses restent ouvertes.
-- **Relation client** : vérifie le parcours réel derrière la promesse de service.
-- **Management** : réserve du temps à l'explication, puis laisse décider ceux qui savent.
-
 ## À discuter
 
-Quelle décision demande une meilleure compréhension partagée, et qui peut nous guider sur le parcours ?
+Quelle décision allons-nous signer sans avoir suivi le parcours qu'elle touche ?

@@ -34,7 +34,7 @@ That sentence only works if it is true. Write it from what you saw or heard from
 
 Then show you can solve the problem: a result, a demonstration, a trial they could run. Say clearly what is proven and what is expected.
 
-The team, the references and the technical detail have their place, after. For some recipients they decide the trust. They do not replace the opening.
+The team, the references and the technical detail come after. They do not replace the opening.
 
 ## Try this
 
@@ -42,13 +42,8 @@ Choose a page, a quote or a presentation. Rewrite its opening: a situation, a pr
 
 Show it to someone affected. Ask what they understand and who they think it is for. Fix the misunderstanding.
 
-## From where you sit
-
-- **Engineering**: open the documentation with the use, then give the detail needed.
-- **Design**: check what the reader understands, beyond whether they like the look.
-- **Sales**: separate evidence you have from a benefit still expected.
-- **Recruiting**: describe the work, the conditions and the expectations of the role.
+The move holds for documentation: open with the use, the detail after. And for a job ad: open with the work and its conditions, not the company's history.
 
 ## To discuss
 
-Which situation does our opening describe, and what are we relying on to present it that way?
+Which lived situation does the first sentence of our presentation describe?

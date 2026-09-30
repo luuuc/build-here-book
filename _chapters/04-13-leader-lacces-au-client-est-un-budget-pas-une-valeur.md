@@ -46,13 +46,6 @@ Rends le chemin simple et connu : qui demander, en combien de temps, pour quoi. 
 
 → Un mois après, regarde combien d'échanges ont eu lieu et ce qu'ils ont changé dans les décisions.
 
-## Depuis ton siège
-
-- **Relation client** : prépare des accès simples, acceptés par les clients.
-- **Design** : précise la question et les informations nécessaires avant de demander un accès.
-- **Management** : réserve du temps à l'organisation autant qu'à l'échange.
-- **Support** : propose des cas avec leur contexte et les limites de ce qu'ils représentent.
-
 ## À discuter
 
-Combien d'entre nous ont parlé à un client ce mois-ci, et qu'est-ce qui en empêche les autres ?
+Combien d'entre nous ont parlé à un client ce mois-ci ?

@@ -46,13 +46,6 @@ Un canal qui ne donne rien après un essai sérieux s'arrête. Dis pourquoi, et 
 
 → Au bout d'un mois, regarde les personnes jointes, les premiers usages et le coût. Continue, change ou arrête.
 
-## Depuis ton siège
-
-- **Marketing** : propose un canal et un signe utile à observer, avec leur coût.
-- **Produit** : relie découverte, premier usage et difficultés rencontrées.
-- **Management** : rends le travail déplacé et les conditions de poursuite explicites.
-- **Relation client** : compte le temps d'accompagnement dans l'essai proposé.
-
 ## À discuter
 
-Quel effort rendrait notre service plus accessible à ses destinataires, et que faudrait-il déplacer pour l'essayer ?
+Quel travail de construction retirerions-nous du planning pour financer un mois de distribution ?

@@ -40,20 +40,13 @@ Pas de client ni d'entreprise ? Parle à une personne que ton projet veut aider.
 
 ## À essayer
 
-Demande vingt minutes à une personne concernée. Ouvre par :
+Demande vingt minutes à une personne concernée. Si tu ne sais pas qui, la relation client sait quels clients acceptent d'en parler. Ouvre par :
 
 > "Peux-tu me raconter la dernière fois que tu as essayé de faire ça ?"
 
 Fais-toi montrer, si elle le veut bien. Ne promets aucune fonctionnalité pendant l'échange.
 
 Note le fait observé et l'hypothèse qu'il change. À la prochaine décision, regarde s'il a changé une option.
-
-## Depuis ton siège
-
-- **Design** : demande un cas récent et laisse la personne expliquer son chemin.
-- **Relation client** : présente l'équipe aux clients qui acceptent d'en parler.
-- **Management** : compte ces échanges dans le travail, pas en plus.
-- **Recrutement** : accepte aussi un exemple d'observation dans un projet personnel.
 
 ## À discuter
 

@@ -45,13 +45,6 @@ On a request in front of you, ask two questions:
 
 Note the real constraints and one possible answer. After the first use, compare the result to the expectation. A little-used feature is not necessarily useless: some operations are rare but important.
 
-## From where you sit
-
-- **Product**: separate acknowledging a request from committing to deliver.
-- **Engineering**: check the constraints before proposing a smaller solution.
-- **Customer relations**: ask for an example of the expected result, without contesting the need.
-- **Operations**: explain what has to happen after the export or the form.
-
 ## To discuss
 
-Which recent request did we tie back to its final use, and what did that change?
+Which recent request changed once we asked what it was for?

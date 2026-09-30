@@ -46,13 +46,6 @@ Make the route simple and known: who to ask, how long it takes, for what. A team
 
 → A month later, look at how many conversations happened and what they changed in the decisions.
 
-## From where you sit
-
-- **Customer relations**: prepare simple access that customers have agreed to.
-- **Design**: state the question and the information needed before asking for access.
-- **Management**: set aside time for the organising as well as for the conversation.
-- **Support**: offer cases with their context and the limits of what they represent.
-
 ## To discuss
 
-How many of us talked to a customer this month, and what is stopping the others?
+How many of us talked to a customer this month?

@@ -36,7 +36,7 @@ Cette phrase ne marche que si elle est vraie. Écris-la à partir de ce que tu a
 
 Ensuite, montre que tu sais résoudre le problème : un résultat, une démonstration, un essai possible. Dis clairement ce qui est prouvé et ce qui est attendu.
 
-L'équipe, les références et les détails techniques ont leur place, après. Pour certains destinataires, ils décident de la confiance. Ils ne remplacent pas l'ouverture.
+L'équipe, les références et les détails techniques viennent après. Ils ne remplacent pas l'ouverture.
 
 ## À essayer
 
@@ -44,13 +44,8 @@ Choisis une page, un devis ou une présentation. Réécris son ouverture : une s
 
 Montre-la à une personne concernée. Demande ce qu'elle comprend et à qui elle pense que ça s'adresse. Corrige le malentendu.
 
-## Depuis ton siège
-
-- **Ingénierie** : ouvre la documentation par l'usage, puis donne les détails nécessaires.
-- **Design** : vérifie ce que le lecteur comprend, au-delà de son appréciation visuelle.
-- **Commerce** : distingue une preuve disponible d'un bénéfice encore attendu.
-- **Recrutement** : décris le travail, les conditions et les attentes du poste.
+Le geste vaut pour une documentation : ouvre par l'usage, les détails ensuite. Et pour une offre d'emploi : ouvre par le travail et ses conditions, pas par l'histoire de l'entreprise.
 
 ## À discuter
 
-Notre ouverture décrit quelle situation, et sur quoi nous appuyons-nous pour la présenter ainsi ?
+Quelle situation vécue notre présentation décrit-elle dans sa première phrase ?

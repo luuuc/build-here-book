@@ -49,14 +49,6 @@ Choisis un chantier et écris l'avant et l'après pour son destinataire.
 
 Fais reformuler le bénéfice par une personne concernée. Si elle n'y arrive pas, ta phrase n'est pas encore bonne. Après la livraison, vérifie l'effet annoncé avec elle.
 
-## Depuis ton siège
-
-- **Produit** : explicite le bénéfice attendu ou l'incertitude que le projet cherche à réduire.
-- **Fondateur** : examine aussi la fiabilité préservée et les risques réduits.
-- **Management** : demande l'effet attendu avant de financer.
-- **Relation client** : vérifie ce qui peut être annoncé et ce qui reste à confirmer.
-- **Recrutement** : demande à quoi a servi un chantier et comment son effet a été vérifié.
-
 ## À discuter
 
-Sur un chantier actuel, quel effet pouvons-nous expliquer à son destinataire, et lequel reste à vérifier ?
+Sur quel chantier actuel ne savons-nous pas dire ce qui change pour son destinataire ?

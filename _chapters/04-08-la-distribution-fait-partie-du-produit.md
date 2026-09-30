@@ -46,13 +46,6 @@ Sur une page, décris le chemin :
 
 Marque les passages que tu supposes. Teste le plus incertain cette semaine, avec trois personnes. Regarde où elles avancent, hésitent ou abandonnent. Corrige le chemin avant de chercher plus de monde.
 
-## Depuis ton siège
-
-- **Ingénierie** : vérifie le premier usage dans les conditions d'accès visées.
-- **Marketing** : choisis le canal selon les destinataires, et ouvre-le avant le lancement.
-- **Opérations** : prépare le relais entre découverte et service réellement rendu.
-- **Management** : compte le temps d'accompagnement dans le projet, dès le début.
-
 ## À discuter
 
-Quel passage entre découverte et usage repose encore sur une supposition, et comment le vérifier ?
+Quel passage entre découverte et premier usage n'avons-nous jamais vu de nos yeux ?

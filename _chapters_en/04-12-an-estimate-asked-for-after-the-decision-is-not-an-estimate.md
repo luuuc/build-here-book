@@ -34,7 +34,7 @@ An estimate asked for after the promise is not an estimate. It is a request for 
 
 The people who build see what the promise ignores: a dependency, a smaller version that would do, a capability already available. That information is worth a lot before the commitment, and almost nothing after.
 
-You do not need a detailed estimate for every idea. An order of magnitude, the assumptions and the unknowns are often enough. The heavier the commitment, the deeper the look it deserves.
+An order of magnitude, the assumptions and the unknowns are enough for most ideas. The heavier the commitment, the deeper the look.
 
 A call or a message commits as much as a contract. If you promise on the phone, you decided without the team. If the promise already exists, the estimate is still useful: it measures the gap. Deal with the gap, without making it the team's fault.
 
@@ -44,15 +44,12 @@ A call or a message commits as much as a contract. If you promise on the phone, 
 
 → If you have to answer sooner, say what is confirmed, what is not, and when you will come back.
 
+→ Have the running load estimated with the build: upkeep is part of the cost.
+
+→ If the estimate contradicts the promise, you renegotiate with the customer, not the team.
+
 → After delivery, compare the assumptions to reality, and adjust how you promise.
-
-## From where you sit
-
-- **Engineering**: lay out the assumptions and the options before pinning down a deadline.
-- **Sales**: separate an intention from a confirmed promise.
-- **Operations**: add the running load to the build effort.
-- **Management**: take on the renegotiation when information changes the plan.
 
 ## To discuss
 
-In our last commitment, which information was known before the promise, and which called for an adjustment?
+Which date did we promise recently before asking the people who will hold it?

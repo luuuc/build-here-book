@@ -49,14 +49,6 @@ Pick one piece of work and write the before and the after for its recipient.
 
 Have someone affected say the benefit back to you. If they cannot, your sentence is not there yet. After delivery, check the announced effect with them.
 
-## From where you sit
-
-- **Product**: state the expected benefit, or the uncertainty the work sets out to reduce.
-- **Founder**: look at reliability preserved and risks reduced too.
-- **Management**: ask for the expected effect before funding it.
-- **Customer relations**: check what can be announced and what is still to be confirmed.
-- **Recruiting**: ask what a piece of work was for and how its effect was checked.
-
 ## To discuss
 
-On a current piece of work, which effect can we explain to its recipient, and which one is still to be checked?
+On which current piece of work can we not say what changes for its recipient?

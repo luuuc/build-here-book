@@ -44,13 +44,8 @@ With support, take the week's requests. Note the problem described, one possible
 
 Fix one cause. At the next check-in, see whether that reason goes down, relative to the number of users.
 
-## From where you sit
-
-- **Support**: bring the context of the cases, and protect the time for answering them.
-- **Product**: compare frequency, severity, and the uses absent from the requests received.
-- **Design**: check an assumption about understanding before moving a button.
-- **Management**: set aside one hour a week to read support.
+Then keep one hour a week to read support.
 
 ## To discuss
 
-Which recurring reason deserves a check, and what information are we missing to choose the response?
+Which reason comes back to support every week without anyone having checked its cause?

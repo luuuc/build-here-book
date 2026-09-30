@@ -44,13 +44,6 @@ Cette semaine, partage ce que tu construis avec cinq personnes concernées, par 
 
 Recommence la semaine suivante. Au bout d'un mois, regarde qui répond, qui a essayé, et ce qui a changé dans ce que tu construis.
 
-## Depuis ton siège
-
-- **Produit** : montre le travail en cours aux premiers utilisateurs, avec ses limites.
-- **Marketing** : ouvre le canal avant le lancement, pas le jour du lancement.
-- **Management** : compte ce temps dans le projet.
-- **Relation client** : propose des essais aux personnes volontaires et organise leur suite.
-
 ## À discuter
 
-Qui sait aujourd'hui que nous construisons ceci, et qui devrait le savoir avant le lancement ?
+Qui devrait savoir, avant le lancement, que nous construisons ceci ?

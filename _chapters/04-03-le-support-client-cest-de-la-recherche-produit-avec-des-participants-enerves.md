@@ -44,13 +44,8 @@ Avec le support, prends les demandes de la semaine. Note le problème décrit, u
 
 Corrige une cause. Au point suivant, regarde si le motif baisse, rapporté au nombre d'utilisateurs.
 
-## Depuis ton siège
-
-- **Support** : apporte le contexte des cas, et protège le temps de réponse.
-- **Produit** : compare fréquence, gravité et usages absents des demandes reçues.
-- **Design** : vérifie une hypothèse de compréhension avant de déplacer un bouton.
-- **Management** : réserve une heure par semaine pour lire le support.
+Puis garde une heure par semaine pour lire le support.
 
 ## À discuter
 
-Quel motif récurrent mérite une vérification, et quelle information nous manque pour choisir la réponse ?
+Quel motif revient chaque semaine au support sans que personne ait vérifié sa cause ?

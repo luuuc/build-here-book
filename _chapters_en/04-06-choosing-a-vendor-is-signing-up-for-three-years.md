@@ -48,14 +48,6 @@ For an upcoming choice, write three lines:
 
 Share them before you sign. Test an export of your data in the first week. If it is hard now, it will be worse in three years.
 
-## From where you sit
-
-- **Product**: a vendor wired into sign-up, reminders and receipts is no longer a technical choice.
-- **Finance**: check the billing currencies and the cost assumptions.
-- **Management**: involve the budget and service owners according to the risk of the choice.
-- **Customer relations**: you are the one who explains the vendor's outage. Ask for the alternative first.
-- **Operations**: check who can keep the service running and help through a change of vendor.
-
 ## To discuss
 
 Which vendor would hurt us most by doubling its price tomorrow?
