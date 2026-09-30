@@ -24,7 +24,7 @@ Ce livre est écrit pour des gens qui construisent, et pour ceux qui les font gr
 
 Construire ne veut pas dire coder. Support, vente, design, finance, opérations, ingénierie, association : partout où quelqu'un comprend un problème et améliore concrètement une situation, il construit.
 
-Tu en fais sans doute partie, à l'un de ces quatre endroits.
+Tu en fais partie, à l'un de ces quatre endroits.
 
 **Tu veux devenir builder.**
 

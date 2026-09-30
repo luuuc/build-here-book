@@ -25,7 +25,7 @@ This book is for people who build, and for the people who help them grow.
 
 Building isn't another word for coding. Support, sales, design, finance, operations, engineering, community work: anywhere someone understands a problem and makes a situation better, they are building.
 
-You're probably in one of four places.
+You're in one of four places.
 
 **You want to become a builder.**
 

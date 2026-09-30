@@ -27,7 +27,7 @@ You have learned to work with particular constraints: an unstable network, a tig
 
 ## The builder's reflex
 
-Write it down. What you know how to do here, nobody has probably written, and others need it.
+Write it down. What you know how to do here, nobody has written, and others need it.
 
 ## Why
 

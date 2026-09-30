@@ -24,7 +24,7 @@ redirect_from:
   - /livre/chapitres/16-00-devenir-une-reference.html
 ---
 
-Ce que tu sais faire, personne ne l'a peut-être écrit.
+Ce que tu sais faire, personne ne l'a écrit.
 
 Une équipe traite chaque semaine des dossiers incomplets. Elle écrit une fiche courte : un cas, les vérifications, les limites, qui contacter. Une nouvelle collègue l'utilise et signale un point flou. L'équipe corrige. La fiche est devenue la référence.
 

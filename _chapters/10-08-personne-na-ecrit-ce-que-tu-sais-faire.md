@@ -29,7 +29,7 @@ Tu as appris à travailler avec des contraintes particulières : réseau instabl
 
 ## Le réflexe builder
 
-Écris-le. Ce que tu sais faire ici, personne ne l'a probablement écrit, et d'autres en ont besoin.
+Écris-le. Ce que tu sais faire ici, personne ne l'a écrit, et d'autres en ont besoin.
 
 ## Pourquoi
 

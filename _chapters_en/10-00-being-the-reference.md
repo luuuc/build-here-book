@@ -20,7 +20,7 @@ seo:
   keywords: "build here, reference, record, artefact, builder"
 ---
 
-Maybe nobody has written down what you know how to do.
+Nobody has written down what you know how to do.
 
 A team handles incomplete files every week. They write a short guide: one case, the checks, the limits, who to contact. A new colleague uses it and flags something unclear. The team fixes it. The guide has become the reference.
 
@@ -32,7 +32,7 @@ This section is about that step: putting your name on it, answering in public, p
 
 **To go further:** write up how you solved a problem you've never seen explained anywhere.
 
-**If you're growing a team:** the absence of a rule is a ban. If nothing says people may share, nobody does. The ⇄ cards cover this.
+**If you're growing a team:** if nothing says people may share, nobody does. The ⇄ cards cover this.
 
 **A sign it's working:** someone reuses what you passed on without needing you.
 
