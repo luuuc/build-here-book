@@ -24,6 +24,9 @@
   const form = block.querySelector(".try-form");
   const thanks = block.querySelector(".try-thanks");
   const lang = document.documentElement.lang || "fr";
+  // A card opened from the AI practice skill (?with=ai) starts an "ai" try:
+  // the reader's AI follows up, so the site sends no check-in email.
+  const source = new URLSearchParams(location.search).get("with") === "ai" ? "ai" : "card";
 
   let state = null;
   // "summary" closes the open try, "done" logs one already done.
@@ -87,13 +90,13 @@
     const now = new Date().toISOString();
     if (state) {
       try {
-        state = await account.call("POST", "/me/tries", { url: url, title: title, source: "card" });
+        state = await account.call("POST", "/me/tries", { url: url, title: title, source: source });
       } catch (e) {
         return;
       }
     } else {
       const list = account.list(account.KEYS.tries);
-      list.push({ url: url, title: title, source: "card", started_at: now });
+      list.push({ url: url, title: title, source: source, started_at: now });
       account.write(account.KEYS.tries, list);
     }
     show();
@@ -116,7 +119,7 @@
       try {
         state = mode === "summary" && e0
           ? await account.call("PATCH", "/me/tries/" + e0.id, body)
-          : await account.call("POST", "/me/tries", Object.assign({ url: url, title: title, source: "card" }, body));
+          : await account.call("POST", "/me/tries", Object.assign({ url: url, title: title, source: source }, body));
       } catch (err) {
         return;
       }
@@ -125,7 +128,7 @@
       const closed = { outcome: issue, lesson: lesson, ended_at: now };
       const i = mode === "summary" && e0 ? list.findIndex((x) => x.started_at === e0.started_at && onThisCard(x)) : -1;
       if (i > -1) Object.assign(list[i], closed);
-      else list.push(Object.assign({ url: url, title: title, source: "card", started_at: now }, closed));
+      else list.push(Object.assign({ url: url, title: title, source: source, started_at: now }, closed));
       account.write(account.KEYS.tries, list);
     }
 
